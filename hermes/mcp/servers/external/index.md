@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 23, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso issues #3699-#3700, mcpservers.org homepage slugs, mcp.so homepage recentServers, live endpoint probes · **Catalog:** 321 servers (+207 guides)
+> **Last updated:** August 23, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3701-#3703, mcp.so homepage recentServers + feed, mcpservers.org homepage, live endpoint probes · **Catalog:** 325 servers (+211 guides)
 
 ## 🆕 August 23, 2026 - Overnight Cron Sweep (1 New, 1 Guide)
 
@@ -21,6 +21,28 @@ Overnight sweep sourced from chatmcp/mcpso issues #3699-#3700 (Aug 22 19:56-22:3
 [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/hermes/mcp/servers/external/bulktranscripts-mcp/) · Live-probed 7 tools (server v1.0.0), keyless free tier, no install.
 
 **Also identified (not catalogued):** Markovo (customer-side file and public-URL to Markdown converter - dev utility class, same as Booklet), deja-vu (local BM25 memory over coding-agent session histories - agent dev infra), Agents Get Paid Kit (x402 payment plumbing - spend caps and AUP tooling), Public Signal Data (curated Apify actors behind mcp.apify.com - thin vendor surface), Appraisily (appraisal lead funnel with up to six auction results per search - thin data surface), Fresh Jots (shared notebook for scripts and agents - agent infra class).
+
+## 🆕 August 23, 2026 - Morning Cron Sweep (4 New, 4 Guides)
+
+Morning sweep sourced from chatmcp/mcpso issues #3701-#3703 (Aug 23 04:42-07:48 UTC), the mcp.so homepage recentServers and feed, and the mcpservers.org homepage. 4 new business-relevant servers found, all live-probed: FluentEDI (hosted X12 EDI document toolbelt), Domain MCP (Dynadot domain, DNS and transfer management), Kirah Local Services (local business discovery and booking), Truth Bear GAUGE (verifiable government data with cryptographic proof, x402 pay-per-call). 5 skipped: Infyicon, Context.dev, DotLy ID, Hypnothera, plus feed and homepage repeats already evaluated.
+
+### FluentEDI MCP ★★★ - August 23 (morning)
+
+Hosted keyless X12 EDI toolkit: edi_parse, edi_validate and edi_build for the 850/856/810/855/997 retail transaction set plus JSON repair, contract-drift detection, cron and time utilities. `fluentedi.com/mcp` (live-probed v1.0.0, 17 exposed tools with a tool_call dispatcher; batch of 20 calls per round trip). Free, no key, no signup, stateless. · [Guide →](/hermes/mcp/servers/external/fluentedi-mcp/)
+
+### Domain MCP ★★★ - August 23 (morning)
+
+Dynadot domain portfolio management from an agent: 108 API actions grouped into 10 composite tools covering registration, renewals, DNS records, nameservers, WHOIS contacts, transfers, folders and aftermarket auctions. npm `domain-mcp` v2.0.0 (MIT, 12 stars), npx install with DYNADOT_API_KEY, sandbox mode included. · [Guide →](/hermes/mcp/servers/external/domain-mcp/)
+
+### Kirah Local Services MCP ★★★ - August 23 (morning)
+
+Local services marketplace with booking: search businesses, read service catalogs (price, duration, deposit, intake), check live availability and create, reschedule or cancel bookings with guest checkout. `kirah.ai/api/mcp` (live-probed kirah-agent-gateway v2.16, 10 tools), keyless, OpenAPI published. · [Guide →](/hermes/mcp/servers/external/kirah-local-services-mcp/)
+
+### Truth Bear GAUGE ★★★ - August 23 (morning)
+
+Official government data (SEC, FDA, USGS, NOAA signals) with cryptographic proof: free find_signal coverage checks and verify_citation hash recomputation, paid records pay-per-call over x402 in USDC on Base. `api.truthbear.co/mcp` (live-probed v1.0.0, 3 tools), no API key. · [Guide →](/hermes/mcp/servers/external/truth-bear-gauge/)
+
+**Also identified (not catalogued):** Infyicon (161,000+ free icon library with SVG retrieval - design assets, not business data), Context.dev (web-data infrastructure for AI products - saturated web-scraping category, same class as rasterly), DotLy ID (biolink and domain-registration vendor, endpoint not probeable - thin niche surface, Registly class), Hypnothera (personalized hypnosis sessions - consumer wellness, Jul 17 listing), plus feed and homepage repeats already evaluated (Agent Conductor, CodeSentinel, QR Planet, RADAAR, My AskAI, Dados B3, SavePropTax, Xverum, Hermoso, Simplepages, DPF, Webz.io, ship.page, Upfirst).
 
 ## 🆕 August 22, 2026 - Docs Maintenance Sweep (2 New, 2 Guides)
 
@@ -4551,6 +4573,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from mcpservers.org homepage - Aug 23, 2026 (overnight cron sweep)
 
 - [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/docs/hermes/mcp/servers/external/bulktranscripts-mcp/)
+
+### 4 new servers from directory homepages and chatmcp/mcpso issues - Aug 23, 2026 (morning cron sweep)
+
+- [FluentEDI MCP - Hosted X12 EDI Processing for Supply-Chain Agents](/docs/hermes/mcp/servers/external/fluentedi-mcp/)
+- [Domain MCP - Dynadot Domain, DNS and Transfer Management](/docs/hermes/mcp/servers/external/domain-mcp/)
+- [Kirah Local Services MCP - Local Business Discovery and Booking](/docs/hermes/mcp/servers/external/kirah-local-services-mcp/)
+- [Truth Bear GAUGE MCP - Verifiable Government Data for AI Agents](/docs/hermes/mcp/servers/external/truth-bear-gauge/)
 
 
 
