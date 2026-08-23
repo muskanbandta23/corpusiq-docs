@@ -1,6 +1,6 @@
 ---
 title: "Security, Read-Only Access, and What CorpusIQ Never Does"
-description: "CorpusIQ is strictly read-only. It is not an AI agent, stores no business data, and cannot write, modify, or execute anything in your connected systems. Full security model explained."
+description: "CorpusIQ connectors use read-only access and do not retain raw customer files or full connector response payloads. CorpusIQ is not an AI agent; every connection uses read-only OAuth scopes."
 canonical: "/hermes/security/read-only-and-security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance, ai-agent]
@@ -12,10 +12,10 @@ last_updated: "2026-08-22"
 CorpusIQ is built on one rule: it reads, and it never acts.
 
 This page is the complete answer to the questions customers ask most:
-can CorpusIQ change anything in my systems? Does it store my data?
+can CorpusIQ change anything in my systems? Does it retain my data?
 Can it act like an AI agent? The answer to all three is no.
 
-## CorpusIQ is strictly read-only
+## CorpusIQ uses read-only access on every connection
 
 Every connector uses read-only OAuth. CorpusIQ can retrieve data from
 your connected business tools. It cannot write to them, modify them, or
@@ -43,15 +43,18 @@ workflows, you would use a separate external AI agent. That agent could
 use CorpusIQ through a direct MCP connection to securely read the
 business data it needs, and then act through its own integrations.
 
-## CorpusIQ does not store your business data
+## Retention: raw data is not retained
 
 Data passes through CorpusIQ on demand.
 
 When you ask a question, the authorized data is retrieved from your
 systems, processed for the answer, and returned to your AI client as
-read-only information. CorpusIQ does not keep a copy of your business
-data. There is no warehouse, no data lake, and no retention of your
-records.
+read-only information. CorpusIQ uses read-only access for direct MCP
+live retrieval. It does not retain raw customer files or full connector
+response payloads; operational logs retain query text, per-user
+tool-call metadata, and bounded outcome summaries for up to 30 days.
+There is no warehouse, no data lake, and no retention of your business
+records beyond those scoped operational logs.
 
 ## No one at CorpusIQ can access your accounts
 
