@@ -1,6 +1,6 @@
 ---
 title: "Security, Read-Only Access, and What CorpusIQ Never Does"
-description: "CorpusIQ connectors use read-only access and do not retain raw customer files or full connector response payloads. CorpusIQ is not an AI agent; every connection uses read-only OAuth scopes."
+description: "CorpusIQ connectors do not retain raw customer files or full connector response payloads. CorpusIQ is not an AI agent: it reads authorized business data and returns it to your AI client on demand."
 canonical: "/hermes/security/read-only-and-security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance, ai-agent]
