@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 23, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3701-#3703, mcp.so homepage recentServers + feed, mcpservers.org homepage, live endpoint probes · **Catalog:** 325 servers (+211 guides)
+> **Last updated:** August 23, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3704-#3711, mcp.so homepage recentServers, mcpservers.org homepage, live endpoint probes · **Catalog:** 327 servers (+213 guides)
+## 🆕 August 23, 2026 - Evening Cron Sweep (2 New, 2 Guides)
+
+Evening sweep sourced from chatmcp/mcpso issues #3704-#3711 (Aug 23 11:48-16:42 UTC) plus the mcp.so and mcpservers.org homepages (all repeats of prior evaluations). 2 new business-relevant servers found: Atlas Verified, an official-registry supply-chain verification server (organic certification against the USDA Organic Integrity Database, OFAC screening, FDA import controls, document authentication with 30+ checks, structured trade intelligence from 50+ attributed sources; OAuth 2.0 + PKCE at api.atlasverified.ai/mcp, 401 auth gate confirmed live); and OEDON, a hosted x402 Bitcoin on-chain intelligence server (fee pressure, mempool stats, address analytics, hashrate, difficulty, block tips, mining pools, tx lookup, whale alerts; live-probed oedon v0.2.0 at oedon.dev/mcp, 0.005 USDC per query). 6 skipped: symfony-agent-mcp, annolux, LUNO, target5, BuyWhere, GateCore.
+
+[Atlas Verified MCP - Supply Chain Compliance and Trade Verification](/hermes/mcp/servers/external/atlas-verified-mcp/) · Official registry v1.0.0, OAuth 2.0 + PKCE, 50+ attributed trade data sources.
+
+[OEDON MCP - Bitcoin On-Chain Intelligence for AI Agents](/hermes/mcp/servers/external/oedon-mcp/) · Live-probed v0.2.0, x402 pay-per-call in USDC on Base, 0.005 USDC per query.
+
+**Also identified (not catalogued):** symfony-agent-mcp (read-only Symfony codebase introspection, 1,677 tools - dev tool), annolux (curated bilingual web search - search utility class, same as Context.dev), LUNO (AI backend platform, no tools listed - dev infra), target5 (agent debate board with hash chain - agent community infra), BuyWhere (SEA shopping search - resubmission of an already-catalogued entry), GateCore (governed agent procurement marketplace - agent infra).
+
 
 ## 🆕 August 23, 2026 - Overnight Cron Sweep (1 New, 1 Guide)
 
@@ -4580,6 +4590,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Domain MCP - Dynadot Domain, DNS and Transfer Management](/docs/hermes/mcp/servers/external/domain-mcp/)
 - [Kirah Local Services MCP - Local Business Discovery and Booking](/docs/hermes/mcp/servers/external/kirah-local-services-mcp/)
 - [Truth Bear GAUGE MCP - Verifiable Government Data for AI Agents](/docs/hermes/mcp/servers/external/truth-bear-gauge/)
+
+### 2 new servers from chatmcp/mcpso issues - Aug 23, 2026 (evening cron sweep)
+
+- [Atlas Verified MCP - Supply Chain Compliance and Trade Verification](/docs/hermes/mcp/servers/external/atlas-verified-mcp/)
+- [OEDON MCP - Bitcoin On-Chain Intelligence for AI Agents](/docs/hermes/mcp/servers/external/oedon-mcp/)
+
 
 
 
