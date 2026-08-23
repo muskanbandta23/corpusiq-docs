@@ -2,14 +2,14 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated August 20, 2026)
+## File count (updated August 23, 2026)
 
-- **Total Markdown files:** 1,852
-- **Total HTML files:** 1,769 (MkDocs build output)
-- **Hermes subdirectory:** 29 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
+- **Total Markdown files:** 1,903
+- **Total HTML files:** 1,744 (MkDocs build output)
+- **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 493 setup guides for Hermes skills
-- **MCP servers:** 488 server listing markdown pages (+ HTML companions)
+- **MCP servers:** 536 server listing markdown pages (+ HTML companions)
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -23,12 +23,12 @@ Current state and ongoing work for the public docs repository.
 
 - **No separate FAQ.** Folded into `how-it-works/` and `troubleshooting/` — a formal FAQ page can be added if user questions warrant it.
 
-## Current status — August 20, 2026
+## Current status — August 23, 2026
 
 The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
-- **MCP server scans:** MCP.so + mcpservers.org scanned daily. 488 servers listed with integration guides.
+- **MCP server scans:** MCP.so + mcpservers.org scanned daily. 536 servers listed with integration guides.
 - **Skills.sh marketplace:** Daily scan for new Hermes skills. 493 setup guides published.
 - **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
@@ -36,6 +36,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Aug 23, 2026):** Refreshed 100 stale `last_updated` dates in docs/ (SEO pages + API + security + comparison pages stuck on 2026-08-06 through 2026-08-15). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-08-23. Internal links: 0 broken (1 false positive: `[text](url)` inside a Slack mrkdwn code example). Connector count: all pages consistent at 40+. PII scan clean. PROGRESS.md stats refreshed (1,903 MD, 536 MCP servers). Pushed to main, deployed, changed pages verified HTTP 200.
 - **Skills sweep ✅ (Aug 21, 2026, evening):** 15-query skills.sh sweep (607 unique skills). 94 NEW flags all below the 100-install bar (max 89) — parked. Verified rejections: `skill-composer-studio` (onewave-ai/claude-skills, 259 — Claude Code only), `mercury-ui-skills` (ihlamury/design-skills, 195 — Claude/Cursor/Copilot), `azure-chaos-studio` + `azure-lab-services` (microsoftdocs/agent-skills, 115/108 — Azure platform), `pp-mercury` (mvanhorn/printing-press-library, 123 — OpenClaw banking CLI). High-value gap found: `sickn33/agentic-awesome-skills` (45K⭐, 2,025 skills) — 37 generic engineering playbooks at 100 to 13,215 installs were flagged "covered" on Aug 14 but had zero tree hits. Added cluster setup guide `agentic-awesome-skills-setup.md` + catalog index entry (493 setup guides).
 - **Maintenance ✅ (Aug 21, 2026):** Skills sweep found 1 high-value gap: `design-review` (nexu-io/open-design, 2,369 installs, 90K⭐) — added catalog setup guide + index entry (492 setup guides). MCP sweeps current through issue #3679 (309 servers, 195 guides). Internal links: 0 broken. No stale last_updated dates in docs/. Frontmatter validated. Pushed to main, new page verified HTTP 200.
 - **Maintenance ✅ (Aug 20, 2026):** Normalized 5 connector-count stragglers (36+ → 40+) across docs/architecture/README.md, odoo-mcp.md (x2), datamcp-mcp, and refreshed stale ecosystem stats (36+ pages → 1,700+, 326+ repos → 450+, 133+ skills → 490+). Refreshed PROGRESS.md stats (1,852 MD files, 491 skills, 488 MCP servers, 126 SEO pages). Internal links: 0 broken. Frontmatter: all valid. Deployed to Vercel, changed pages verified HTTP 200.
@@ -54,5 +55,5 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: August 20, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: August 23, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 ---

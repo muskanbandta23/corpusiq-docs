@@ -22,7 +22,7 @@ keywords:
 - CorpusIQ fivetran pricing comparison
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-fivetran/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: 2026-08-23"
 
 ---
 

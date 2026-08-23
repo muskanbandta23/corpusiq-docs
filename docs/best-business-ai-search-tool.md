@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["business-ai-search", "enterprise-search", "ai-search-tool", "business-search"]
 canonical: "https://www.corpusiq.io/docs/best-business-ai-search-tool/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: 2026-08-23"
 
 ---
 
