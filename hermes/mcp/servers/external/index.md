@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 22, 2026 (docs maintenance sweep) · **Sources:** mcp.so Feed (newest 30), mcpservers.org /all pages 1-3, chatmcp/mcpso issues #3689-#3698, live endpoint probes · **Catalog:** 320 servers (+206 guides)
+> **Last updated:** August 23, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso issues #3699-#3700, mcpservers.org homepage slugs, mcp.so homepage recentServers, live endpoint probes · **Catalog:** 321 servers (+207 guides)
+
+## 🆕 August 23, 2026 - Overnight Cron Sweep (1 New, 1 Guide)
+
+Overnight sweep sourced from chatmcp/mcpso issues #3699-#3700 (Aug 22 19:56-22:34 UTC), the mcpservers.org homepage slugs, and the mcp.so homepage recentServers. 1 new business-relevant server found: BulkTranscripts, a hosted remote YouTube research server with 7 live-probed tools for transcript fetching (single or batch of 20), video/channel/playlist search, channel archive listing and free new-upload tracking; keyless start with 50 free transcript extractions per IP, then one-time credit packs, cached transcripts always free. 6 skipped: Markovo (file and URL to Markdown conversion CLI, dev utility), deja-vu (local memory over coding-agent session histories, dev infra), Agents Get Paid Kit (x402 payment plumbing for agents), Public Signal Data (Apify-actor wrapper with no first-party endpoint, thin vendor surface), Appraisily (appraisal lead-gen funnel with a six-result auction teaser, thin data surface), Fresh Jots (agent and script logging notebook, agent infra class).
+
+[BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/hermes/mcp/servers/external/bulktranscripts-mcp/) · Live-probed 7 tools (server v1.0.0), keyless free tier, no install.
+
+**Also identified (not catalogued):** Markovo (customer-side file and public-URL to Markdown converter - dev utility class, same as Booklet), deja-vu (local BM25 memory over coding-agent session histories - agent dev infra), Agents Get Paid Kit (x402 payment plumbing - spend caps and AUP tooling), Public Signal Data (curated Apify actors behind mcp.apify.com - thin vendor surface), Appraisily (appraisal lead funnel with up to six auction results per search - thin data surface), Fresh Jots (shared notebook for scripts and agents - agent infra class).
 
 ## 🆕 August 22, 2026 - Docs Maintenance Sweep (2 New, 2 Guides)
 
@@ -4539,6 +4547,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Gex Live MCP - SPX Dealer Positioning for AI Agents](/docs/hermes/mcp/servers/external/gex-live-mcp/)
 - [Sprkly MCP - Shortform Publishing with Approval Gates](/docs/hermes/mcp/servers/external/sprkly-mcp/)
 - [ship.page MCP - Deploy HTML Pages from Any Agent](/docs/hermes/mcp/servers/external/ship-page-mcp/)
+
+### 1 new server from mcpservers.org homepage - Aug 23, 2026 (overnight cron sweep)
+
+- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/docs/hermes/mcp/servers/external/bulktranscripts-mcp/)
 
 
 
