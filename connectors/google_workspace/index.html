@@ -23,7 +23,7 @@
     
     
   
-    <title>Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)</title>
+    <title>Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)</title>
   
 
     
@@ -75,13 +75,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/connectors/google_workspace">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)">
+  <meta property="og:title" content="Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)">
   <meta property="og:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)">
+  <meta name="twitter:title" content="Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)">
   <meta name="twitter:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -89,7 +89,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)",
+    "name": "Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)",
     "description": "CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.",
     "url": "https://www.corpusiq.io/docs/connectors/google_workspace",
     "isPartOf": {
@@ -129,7 +129,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#google-workspace-gmail-calendar-drive-docs-sheets" class="md-skip">
+        <a href="#google-workspace-gmail-calendar-drive-docs-sheets-ga4-ads-search-console" class="md-skip">
           Skip to content
         </a>
       
@@ -165,7 +165,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)
+              Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)
             
           </span>
         </div>
@@ -9991,9 +9991,9 @@
   
 
 
-<h1 id="google-workspace-gmail-calendar-drive-docs-sheets">Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)<a class="headerlink" href="#google-workspace-gmail-calendar-drive-docs-sheets" title="Anchor link to this section">&para;</a></h1>
+<h1 id="google-workspace-gmail-calendar-drive-docs-sheets-ga4-ads-search-console">Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)<a class="headerlink" href="#google-workspace-gmail-calendar-drive-docs-sheets-ga4-ads-search-console" title="Anchor link to this section">&para;</a></h1>
 <h2 id="what-it-unlocks">What it unlocks<a class="headerlink" href="#what-it-unlocks" title="Anchor link to this section">&para;</a></h2>
-<p>Google Workspace is where most founders actually run their day — email, meetings, contracts, KPIs in a spreadsheet. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?" or "what's on my calendar before the board meeting?" can pull straight from the original source.</p>
+<p>Google Workspace is where most founders actually run their day — email, meetings, contracts, KPIs in a spreadsheet. It is also the single Google connection for everything Google: Analytics (GA4), Google Ads, and Search Console are all read through this one connector. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?", "what is my Google Ads spend?", or "what is on my calendar before the board meeting?" can pull straight from the original source.</p>
 <h2 id="before-you-connect">Before you connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>A Google account (Workspace or personal Gmail both work)</li>
@@ -10001,7 +10001,7 @@
 </ul>
 <h2 id="how-to-connect">How to connect<a class="headerlink" href="#how-to-connect" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li>In CorpusIQ, open Settings → Connectors and find Google Workspace.</li>
+<li>In CorpusIQ, open Dashboard → Connectors and find Google Workspace.</li>
 <li>Click Connect.</li>
 <li>Sign in with the Google account you use for work.</li>
 <li><!-- screenshot: Google Workspace OAuth consent screen — scope list --></li>
@@ -10014,13 +10014,20 @@
 - <strong>Gmail</strong> — list and search messages, read individual messages
 - <strong>Calendar</strong> — list your calendars, list upcoming events, get a specific event, search events by text
 - <strong>Drive</strong> — list and search files, read file contents (Docs, PDFs, text), get Drive storage stats
-- <strong>Sheets</strong> — read ranges from any spreadsheet you have access to</p>
+- <strong>Sheets</strong> — read ranges from any spreadsheet you have access to
+- <strong>Google Analytics (GA4)</strong> — traffic, sessions, users, conversions, acquisition
+- <strong>Google Ads</strong> — campaigns, ad groups, keywords, spend, clicks, conversions, search terms
+- <strong>Search Console</strong> — organic clicks, impressions, queries, pages, CTR</p>
+<p>All of these come through the one Google Workspace connection. You do not connect GA4, Google Ads, or Search Console separately — they are included in this connector. The Google account you sign in with must have access to each Google product you want to read (for Ads, the account must be a user on the Ads customer ID).</p>
 <p>CorpusIQ never sends mail, creates events, edits files, or shares anything.</p>
 <h2 id="questions-you-can-ask">Questions you can ask<a class="headerlink" href="#questions-you-can-ask" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>"Find the email thread from the agency about September spend."</li>
 <li>"What's on my calendar for next Tuesday?"</li>
 <li>"Pull the KPI numbers from cell B2:B12 of my Q3 metrics sheet."</li>
+<li>"How much did I spend on Google Ads last month?"</li>
+<li>"What were my organic clicks from Search Console last week?"</li>
+<li>"How many users did my site get this month in GA4?"</li>
 <li>"Find the latest contract draft in my Drive."</li>
 <li>"Summarize today's meetings."</li>
 </ul>
