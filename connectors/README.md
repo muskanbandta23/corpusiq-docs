@@ -8,6 +8,12 @@ CorpusIQ connects to your business tools through read-only MCP connectors.
 Each connector requires a one-time OAuth authentication — you click Connect,
 approve the permission screen, and your AI tools can query live data immediately.
 
+**Read-only by design.** CorpusIQ is not an AI agent. It cannot write,
+modify, or execute anything in your connected systems, and it does not store
+your business data. Data passes through on demand and returns to your AI
+client as read-only information. No one at CorpusIQ can access your accounts.
+See the full guarantee: [Security and Read-Only Access](/hermes/security/read-only-and-security/)
+
 The external-source connectors in this directory are designed for read-only retrieval and do not write back to connected vendor accounts. Separately annotated CorpusIQ control-plane tools are outside this connector directory.
 
 ## Index
