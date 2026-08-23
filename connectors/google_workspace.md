@@ -29,6 +29,10 @@ Read-only access to:
 
 All of these come through the one Google Workspace connection. You do not connect GA4, Google Ads, or Search Console separately — they are included in this connector. The Google account you sign in with must have access to each Google product you want to read (for Ads, the account must be a user on the Ads customer ID).
 
+## Google Ads permissions (exact scope)
+
+The Google Ads API publishes one permission scope: `https://www.googleapis.com/auth/adwords`. Google offers no read-only variant of this scope, so the consent screen asks for it as-is. The CorpusIQ Google Ads tools are retrieval tools only: they run reporting queries and have no code path that writes, edits, or executes anything in your Ads account. The other Google permissions requested alongside it (Gmail, Drive, Sheets, GA4, Search Console) are Google's explicit `.readonly` scopes.
+
 **Read-only guarantee:** CorpusIQ cannot change campaigns, budgets, bidding, targeting, or keywords. It only reads. It is not an AI agent and does not retain raw customer files or full connector response payloads; no one at CorpusIQ can access your account. Full details: [Security and Read-Only Access](/hermes/security/read-only-and-security/)
 
 CorpusIQ never sends mail, creates events, edits files, or shares anything.
