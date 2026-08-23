@@ -10805,5 +10805,26 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-23T05:04:46.225567+00:00"
+  },
+  {
+    "repo": "bayernjf/work-learn-landing",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T06:04:50.968996+00:00"
+  },
+  {
+    "repo": "bayernjf/work-learn",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T06:04:50.969203+00:00"
+  },
+  {
+    "repo": "Erfix404/hermes-astrology",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T06:04:50.969206+00:00"
   }
 ]

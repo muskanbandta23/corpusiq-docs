@@ -44495,5 +44495,103 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-23T05:04:02.312638+00:00",
     "status": "pending"
+  },
+  {
+    "name": "bayernjf/work-learn-landing",
+    "url": "https://github.com/bayernjf/work-learn-landing",
+    "description": "Explore More: BayJF (bayjf.com) | Work Learn is a cross-agent personal English corpus learning system that turns conversations with Claude, ChatGPT, Hermes, OpenClaw, and other AI agents into reusable, reviewable learning material.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Astro",
+    "topics": [],
+    "updated_at": "2026-08-23T01:56:16Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Javis603/token-monitor",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-23T06:02:35.338069+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bayernjf/work-learn",
+    "url": "https://github.com/bayernjf/work-learn",
+    "description": "Explore More: BayJF (bayjf.com) | Work Learn is a cross-agent personal English corpus learning system that turns conversations with Claude, ChatGPT, Hermes, OpenClaw, and other AI agents into reusable, reviewable learning material.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-23T05:58:28Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Javis603/token-monitor",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-23T06:02:38.341136+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Erfix404/hermes-astrology",
+    "url": "https://github.com/Erfix404/hermes-astrology",
+    "description": "Deterministic multi-tradition astrology engine \u2014 Western tropical, Vedic/Jyotisha sidereal, Chinese BaZi. Zero-dependency pure-Python ephemeris, 19 modes, arcsecond-accurate (validated vs NASA JPL). CLI + API + MCP.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "astrology",
+      "bazi",
+      "cli",
+      "ephemeris",
+      "fastapi",
+      "llm-tools",
+      "mcp-server",
+      "python",
+      "swiss-ephemeris",
+      "vedic-astrology",
+      "western-astrology"
+    ],
+    "updated_at": "2026-08-23T05:56:00Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T06:02:48.027776+00:00",
+    "status": "pending"
   }
 ]
