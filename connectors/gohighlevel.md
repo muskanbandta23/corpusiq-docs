@@ -12,7 +12,7 @@ If you run an agency or service business on GoHighLevel, this is where contacts,
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find GoHighLevel.
+1. In CorpusIQ, open Dashboard → Connectors and find GoHighLevel.
 2. Click Connect.
 3. Follow the standard GoHighLevel OAuth flow when prompted and sign in.
 4. <!-- screenshot: GoHighLevel location selection during OAuth -->

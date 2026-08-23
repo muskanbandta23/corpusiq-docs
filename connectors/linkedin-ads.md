@@ -13,7 +13,7 @@ LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find LinkedIn Ads.
+1. In CorpusIQ, open Dashboard → Connectors and find LinkedIn Ads.
 2. Click Connect.
 3. Sign in to LinkedIn when the consent screen appears.
 4. <!-- screenshot: LinkedIn Ads OAuth consent screen -->

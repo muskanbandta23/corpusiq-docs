@@ -38,7 +38,7 @@ What percentage of users who signed up last week are still active today?
 
 ## How to connect
 
-1. Go to **corpusiq.io** → Settings → Connectors
+1. Go to **corpusiq.io** → Dashboard → Connectors
 2. Click **PostHog**
 3. Enter your PostHog Personal API Key (from PostHog → Settings → Personal API Keys)
 4. Enter your PostHog Project ID

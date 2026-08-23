@@ -13,7 +13,7 @@ Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail 
 - About 3 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find IMAP Email.
+1. In CorpusIQ, open Dashboard → Connectors and find IMAP Email.
 2. Click Configure.
 3. <!-- screenshot: IMAP credential form in CorpusIQ -->
 4. Enter your IMAP host (e.g. `imap.fastmail.com`), port (usually 993), email address, and app password.

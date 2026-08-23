@@ -14,7 +14,7 @@ Cosmos DB is often where the unglamorous-but-critical data lives: event logs, te
 - About 3 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Azure Cosmos DB.
+1. In CorpusIQ, open Dashboard → Connectors and find Azure Cosmos DB.
 2. Click Configure.
 3. <!-- screenshot: Cosmos DB connection form in CorpusIQ -->
 4. Enter your endpoint (e.g. `https://yourdb.documents.azure.com:443/`), database name, and container name.

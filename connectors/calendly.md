@@ -12,7 +12,7 @@ Your calendar tells one story; your booking link tells another. Calendly knows w
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Calendly.
+1. In CorpusIQ, open Dashboard → Connectors and find Calendly.
 2. Click Connect.
 3. Sign in to Calendly when the consent screen appears.
 4. <!-- screenshot: Calendly OAuth consent screen -->
@@ -41,7 +41,7 @@ CorpusIQ never books, cancels, or modifies events.
 ## Troubleshooting
 - **No events appear** — Check that you connected the right Calendly account; some users have one personal and one work account.
 - **Invitee answers missing** — Calendly only exposes intake answers for event types where you enabled custom questions.
-- **"Token expired"** — Disconnect and reconnect Calendly from Settings → Connectors.
+- **"Token expired"** — Disconnect and reconnect Calendly from Dashboard → Connectors.
 ---
 
 *

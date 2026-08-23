@@ -13,7 +13,7 @@ GunBroker is the primary marketplace for firearms sellers, and its data — acti
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find GunBroker.
+1. In CorpusIQ, open Dashboard → Connectors and find GunBroker.
 2. Click Connect.
 3. <!-- screenshot: GunBroker credential setup form in CorpusIQ -->
 4. Enter your GunBroker username and password in the secure form.

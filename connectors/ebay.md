@@ -12,7 +12,7 @@ For eBay sellers, the financial truth sits inside Seller Hub — orders, transac
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find eBay.
+1. In CorpusIQ, open Dashboard → Connectors and find eBay.
 2. Click Connect.
 3. Sign in to eBay when the consent screen appears.
 4. <!-- screenshot: eBay OAuth consent screen -->

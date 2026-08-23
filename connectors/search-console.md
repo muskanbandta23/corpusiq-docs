@@ -12,11 +12,14 @@ Google Search Console is the ground truth for how your site performs in Google S
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Google Search Console.
+
+Search Console is part of the Google Workspace connector, not a separate connector.
+
+1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
 2. Click Connect.
 3. Sign in with the Google account that manages your Search Console properties.
-4. <!-- screenshot: Google Search Console OAuth consent screen -->
-5. Approve read access and you'll be returned to CorpusIQ.
+4. <!-- screenshot: Google Workspace OAuth consent screen -->
+5. Approve read access and you'll be returned to CorpusIQ. Search Console data comes through the same connection.
 
 You'll see Google Search Console change from gray to green in your CorpusIQ dashboard.
 

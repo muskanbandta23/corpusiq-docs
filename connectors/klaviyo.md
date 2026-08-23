@@ -13,7 +13,7 @@ For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attri
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Klaviyo.
+1. In CorpusIQ, open Dashboard → Connectors and find Klaviyo.
 2. Click Connect.
 3. <!-- screenshot: Klaviyo API key form in CorpusIQ -->
 4. In a second tab, go to Klaviyo → Account → Settings → API keys and create a private API key with read scopes on Campaigns, Flows, Lists, Segments, Profiles, Metrics, Forms, and Events.

@@ -1,14 +1,14 @@
-# Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)
+# Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)
 
 ## What it unlocks
-Google Workspace is where most founders actually run their day — email, meetings, contracts, KPIs in a spreadsheet. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?" or "what's on my calendar before the board meeting?" can pull straight from the original source.
+Google Workspace is where most founders actually run their day — email, meetings, contracts, KPIs in a spreadsheet. It is also the single Google connection for everything Google: Analytics (GA4), Google Ads, and Search Console are all read through this one connector. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?", "what is my Google Ads spend?", or "what is on my calendar before the board meeting?" can pull straight from the original source.
 
 ## Before you connect
 - A Google account (Workspace or personal Gmail both work)
 - About 1 minute
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Google Workspace.
+1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
 2. Click Connect.
 3. Sign in with the Google account you use for work.
 4. <!-- screenshot: Google Workspace OAuth consent screen — scope list -->
@@ -23,6 +23,11 @@ Read-only access to:
 - **Calendar** — list your calendars, list upcoming events, get a specific event, search events by text
 - **Drive** — list and search files, read file contents (Docs, PDFs, text), get Drive storage stats
 - **Sheets** — read ranges from any spreadsheet you have access to
+- **Google Analytics (GA4)** — traffic, sessions, users, conversions, acquisition
+- **Google Ads** — campaigns, ad groups, keywords, spend, clicks, conversions, search terms
+- **Search Console** — organic clicks, impressions, queries, pages, CTR
+
+All of these come through the one Google Workspace connection. You do not connect GA4, Google Ads, or Search Console separately — they are included in this connector. The Google account you sign in with must have access to each Google product you want to read (for Ads, the account must be a user on the Ads customer ID).
 
 CorpusIQ never sends mail, creates events, edits files, or shares anything.
 
@@ -30,6 +35,9 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - "Find the email thread from the agency about September spend."
 - "What's on my calendar for next Tuesday?"
 - "Pull the KPI numbers from cell B2:B12 of my Q3 metrics sheet."
+- "How much did I spend on Google Ads last month?"
+- "What were my organic clicks from Search Console last week?"
+- "How many users did my site get this month in GA4?"
 - "Find the latest contract draft in my Drive."
 - "Summarize today's meetings."
 

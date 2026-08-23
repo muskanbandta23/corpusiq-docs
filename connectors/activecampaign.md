@@ -13,7 +13,7 @@ ActiveCampaign holds your email contacts, automations, and pipeline deals — th
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find ActiveCampaign.
+1. In CorpusIQ, open Dashboard → Connectors and find ActiveCampaign.
 2. Click Connect.
 3. <!-- screenshot: ActiveCampaign credential form in CorpusIQ -->
 4. In a second tab, sign in to ActiveCampaign and go to Settings → Developer.

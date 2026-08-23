@@ -13,7 +13,7 @@ If you sell on Amazon, your real revenue picture is split across Shopify (your o
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Amazon Seller.
+1. In CorpusIQ, open Dashboard → Connectors and find Amazon Seller.
 2. Click Connect.
 3. Sign in to Seller Central when prompted and follow the standard Amazon SP-API authorization flow.
 4. <!-- screenshot: Amazon Seller authorization consent screen -->

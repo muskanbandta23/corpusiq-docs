@@ -12,7 +12,7 @@ If Constant Contact is where your email lives, this connector pulls campaign per
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Constant Contact.
+1. In CorpusIQ, open Dashboard → Connectors and find Constant Contact.
 2. Click Connect.
 3. Sign in to Constant Contact when the consent screen appears.
 4. <!-- screenshot: Constant Contact OAuth consent screen -->

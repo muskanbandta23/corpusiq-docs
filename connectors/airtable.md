@@ -13,7 +13,7 @@ Airtable is where a lot of operating data lives that never made it into a "real"
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Airtable.
+1. In CorpusIQ, open Dashboard → Connectors and find Airtable.
 2. Click Connect.
 3. In a second tab, go to airtable.com/create/tokens and create a personal access token.
 4. Give it the scopes `data.records:read` and `schema.bases:read`, and grant access to the specific bases you want CorpusIQ to see.

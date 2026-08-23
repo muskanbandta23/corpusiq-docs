@@ -12,7 +12,7 @@ HubSpot is where your sales pipeline, customer relationships, and deal history l
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find HubSpot.
+1. In CorpusIQ, open Dashboard → Connectors and find HubSpot.
 2. Click Connect.
 3. Sign in to HubSpot when the consent screen appears.
 4. <!-- screenshot: HubSpot OAuth scope approval screen -->

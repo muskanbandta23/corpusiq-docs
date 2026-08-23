@@ -39,11 +39,13 @@ Show me real-time active users right now broken down by device.
 
 ## How to connect
 
-1. Go to **corpusiq.io** → Settings → Connectors
-2. Click **Google Analytics 4**
+GA4 is part of the Google Workspace connector, not a separate connector.
+
+1. Go to **corpusiq.io** → Dashboard → Connectors
+2. Click **Google Workspace**
 3. Sign in with the Google account that has access to your GA4 property
-4. Select the GA4 property you want to connect
-5. Done — the GA4 connection is read-only and never modifies your Analytics data
+4. Select the GA4 property you want to read
+5. Done — GA4 data comes through the Google Workspace connection, read-only, and never modifies your Analytics data
 
 ## What data CorpusIQ can see
 

@@ -12,7 +12,7 @@ A lot of operating context — contracts, past board updates, vendor invoices, d
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Dropbox.
+1. In CorpusIQ, open Dashboard → Connectors and find Dropbox.
 2. Click Connect.
 3. Sign in to Dropbox when the consent screen appears.
 4. <!-- screenshot: Dropbox OAuth consent screen -->
@@ -37,7 +37,7 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 - "Show me Dropbox files I've touched in the last week."
 
 ## Troubleshooting
-- **"Token expired"** — Disconnect and reconnect from Settings → Connectors.
+- **"Token expired"** — Disconnect and reconnect from Dashboard → Connectors.
 - **Can't find a file** — Search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes and try again.
 - **PDF reads blank** — Image-only PDFs need OCR; CorpusIQ only reads embedded text.
 ---

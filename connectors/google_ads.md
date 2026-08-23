@@ -13,11 +13,14 @@ Google Ads is often the single largest acquisition channel, and the platform's r
 - About 2 minutes
 
 ## How to connect
-1. In CorpusIQ, open Settings → Connectors and find Google Ads.
+
+Google Ads is part of the Google Workspace connector, not a separate connector.
+
+1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
 2. Click Connect.
 3. Sign in with the Google account that has access to your Ads account.
-4. <!-- screenshot: Google Ads OAuth consent screen -->
-5. Approve read access and you'll be returned to CorpusIQ.
+4. <!-- screenshot: Google Workspace OAuth consent screen -->
+5. Approve read access and you'll be returned to CorpusIQ. Google Ads data comes through the same connection.
 
 You'll see Google Ads change from gray to green in your CorpusIQ dashboard.
 
