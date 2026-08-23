@@ -44151,5 +44151,349 @@
     "near_duplicates": [],
     "source": "ecosystem-discovery-2026-08-22",
     "added_at": "2026-08-22T13:52:08Z"
+  },
+  {
+    "name": "Vocllum/hermes-auto-titler",
+    "url": "https://github.com/Vocllum/hermes-auto-titler",
+    "description": "Hermes Agent plugin: LLM-maintained session titles with provenance-safe writes that never override user-set titles",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "automation",
+      "hermes-agent",
+      "hermes-plugin",
+      "llm",
+      "session-management"
+    ],
+    "updated_at": "2026-08-23T05:01:23Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:01:50.546308+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "FlippingBinary/hermes-plugin-github-app-auth",
+    "url": "https://github.com/FlippingBinary/hermes-plugin-github-app-auth",
+    "description": "A plugin that provides Github App authentication for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-23T05:00:12Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "stephenschoettler/hermes-lcm"
+    ],
+    "discovered_at": "2026-08-23T05:01:53.548896+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agenticros/agenticros",
+    "url": "https://github.com/agenticros/agenticros",
+    "description": "ROS plugin for OpenClaw, Claude (Code,Desktop,Dispatch), Codex, Google Gemini, Hermes, MCP, etc.",
+    "stars": 141,
+    "forks": 17,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "anthropic",
+      "claude-code",
+      "codex",
+      "gemini",
+      "openclaw",
+      "physical-ai",
+      "robotics",
+      "ros"
+    ],
+    "updated_at": "2026-08-23T02:57:08Z",
+    "category": "mcp",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem"
+    ],
+    "discovered_at": "2026-08-23T05:02:03.159403+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pjpoulose/knotrack",
+    "url": "https://github.com/pjpoulose/knotrack",
+    "description": "KnoTrack: a project manager for your projects, not an orchestrator. Steps into a project, assesses status against source-of-truth docs, sequences work, and catches drift \u2014 usable from Claude, Windsurf, Codex CLI, LM Studio, Goose, Hermes, or any MCP-speaking harness.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-23T01:16:40Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-23T05:02:06.161491+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RomeoRaven/hermes-bridge-plugin",
+    "url": "https://github.com/RomeoRaven/hermes-bridge-plugin",
+    "description": "protoAgent plugin for safe, profile-scoped migration of Hermes skills, memory, instructions, and MCP definitions",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "hermes-agent",
+      "migration",
+      "plugin",
+      "protoagent",
+      "protoagent-plugin"
+    ],
+    "updated_at": "2026-08-23T00:49:44Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:02:09.163754+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lzpgood123/hermes-server-stats",
+    "url": "https://github.com/lzpgood123/hermes-server-stats",
+    "description": "Hermes hybrid plugin: server stats page (system/tokens/skills/tools) with read-only backend",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-22T18:02:35Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:02:18.801440+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "djgene01/debian-sentinel",
+    "url": "https://github.com/djgene01/debian-sentinel",
+    "description": "16 security-audit skills for Debian over SSH: patches, sshd, firewall, users, Docker, web stacks, forensics + scored reports. Read-only. Hermes plugin + portable Agent Plugins v1.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "debian",
+      "docker",
+      "hardening",
+      "hermes-agent",
+      "hermes-plugin",
+      "linux",
+      "security-audit",
+      "ssh",
+      "sysadmin"
+    ],
+    "updated_at": "2026-08-22T17:46:46Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:02:21.804433+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "djgene01/ecommerce-toolkit",
+    "url": "https://github.com/djgene01/ecommerce-toolkit",
+    "description": "Ecommerce Growth Toolkit \u2014 a Hermes Agent plugin pack: 11 skills for SEO reports, security audits, keyword research, CRO, pricing & email marketing.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "cro",
+      "ecommerce",
+      "hermes-agent",
+      "hermes-plugin",
+      "keyword-research",
+      "marketing",
+      "security-audit",
+      "seo",
+      "skills"
+    ],
+    "updated_at": "2026-08-22T15:53:20Z",
+    "category": "skills",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "jnMetaCode/shellward",
+      "stephenschoettler/hermes-lcm",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-23T05:02:24.807823+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "text2future/flowix",
+    "url": "https://github.com/text2future/flowix",
+    "description": "Notes for you, Memory for your agents. / \u5185\u7f6e Deepseek harness Agent / \u9002\u7528 \u529e\u516c & \u5199\u4f5c & Coding",
+    "stars": 343,
+    "forks": 43,
+    "language": "TypeScript",
+    "topics": [
+      "agent-memory",
+      "claude-code",
+      "codex-cli",
+      "desktop",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugin-desktop",
+      "hermes-agent",
+      "markdown-editor",
+      "memory-system",
+      "note-taking",
+      "open-code"
+    ],
+    "updated_at": "2026-08-23T05:01:20Z",
+    "category": "forks",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:02:34.560955+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "clickmamaheti-prog/vectorhead",
+    "url": "https://github.com/clickmamaheti-prog/vectorhead",
+    "description": "Vectorhead \u2014 self-improving AI agent (rebranded fork of NousResearch/hermes-agent)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-23T04:12:10Z",
+    "category": "official",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:03:56.306191+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Revell-ai/hermes-plugin-index",
+    "url": "https://github.com/Revell-ai/hermes-plugin-index",
+    "description": "Community plugin index for Hermes Agent \u2014 used by 'hermes plugins install <bare-name>' and 'hermes plugins search'. Ownership transfers to NousResearch when they want it.",
+    "stars": 1,
+    "forks": 3,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-22T21:24:57Z",
+    "category": "official",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "hugocarreira/agentrc",
+      "kaankacar/stellar-agent-kit",
+      "zakahadi/llm-eval-cli",
+      "hermeshub",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-08-23T05:03:59.309822+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kcbdev/hermes-gateway-deploy",
+    "url": "https://github.com/kcbdev/hermes-gateway-deploy",
+    "description": "Deploy config for Hermes Agent gateway (nousresearch/hermes-agent) on Coolify",
+    "stars": 0,
+    "forks": 0,
+    "language": "Dockerfile",
+    "topics": [],
+    "updated_at": "2026-08-22T19:47:57Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-23T05:04:02.312638+00:00",
+    "status": "pending"
   }
 ]

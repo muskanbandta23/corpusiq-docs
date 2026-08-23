@@ -10721,5 +10721,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-22T08:04:38.097948+00:00"
+  },
+  {
+    "repo": "Vocllum/hermes-auto-titler",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.224166+00:00"
+  },
+  {
+    "repo": "FlippingBinary/hermes-plugin-github-app-auth",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225369+00:00"
+  },
+  {
+    "repo": "agenticros/agenticros",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225373+00:00"
+  },
+  {
+    "repo": "pjpoulose/knotrack",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225375+00:00"
+  },
+  {
+    "repo": "RomeoRaven/hermes-bridge-plugin",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225377+00:00"
+  },
+  {
+    "repo": "lzpgood123/hermes-server-stats",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225379+00:00"
+  },
+  {
+    "repo": "djgene01/debian-sentinel",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225381+00:00"
+  },
+  {
+    "repo": "djgene01/ecommerce-toolkit",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225383+00:00"
+  },
+  {
+    "repo": "text2future/flowix",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225384+00:00"
+  },
+  {
+    "repo": "clickmamaheti-prog/vectorhead",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225386+00:00"
+  },
+  {
+    "repo": "Revell-ai/hermes-plugin-index",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225388+00:00"
+  },
+  {
+    "repo": "kcbdev/hermes-gateway-deploy",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-23T05:04:46.225567+00:00"
   }
 ]
