@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-19"
+last_updated: "2026-08-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -517,3 +517,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Buzz Skills — Hermes Agent on Nostr via Block's Buzz Setup](/docs/hermes/skills/catalog/buzz-skills-setup/)
 - [design-review — Visual UI Audit & Fix Setup](/docs/hermes/skills/catalog/design-review-setup/)
 - [Agentic Awesome Skills — 2,000+ Skill Catalog Setup](/docs/hermes/skills/catalog/agentic-awesome-skills-setup/)
+- [Autonnel Skills — Conversion & Funnel Optimization Suite Setup](/docs/hermes/skills/catalog/autonnel-skills-setup/)
+- [GPT-Image-2 Style Library — Industrial Prompt & Style Templates Setup](/docs/hermes/skills/catalog/gpt-image-2-style-library-setup/)
+- [gh-issue-sync — Local Markdown GitHub Issues Skill Setup](/docs/hermes/skills/catalog/gh-issue-sync-setup/)
+- [System Atlas — Explorable Architecture Map Skill Setup](/docs/hermes/skills/catalog/system-atlas-setup/)
