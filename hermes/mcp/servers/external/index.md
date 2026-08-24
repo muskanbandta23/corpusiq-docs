@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-22"
+last_updated: "2026-08-23"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,36 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 23, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3704-#3711, mcp.so homepage recentServers, mcpservers.org homepage, live endpoint probes · **Catalog:** 327 servers (+213 guides)
+> **Last updated:** August 23, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3712-#3718, mcp.so feed, mcpservers.org /all pages 1-3, live endpoint probe (Octura 30 tools) · **Catalog:** 338 servers (+224 guides)
+
+## 🆕 August 23, 2026 - Night Cron Sweep (11 New, 11 Guides)
+
+Night sweep sourced from chatmcp/mcpso issues #3712-#3718 (Aug 23 16:42-02:00 UTC), the mcp.so feed, and mcpservers.org /all pages 1-3 (~90 newest slugs); Octura's endpoint was live-probed. 11 new business-relevant servers catalogued with guides: TEOS WARN Act Layoff Intelligence (5,964 normalized US WARN notices covering 545,647 workers across CA, TX, NY, IL, NC, refreshed every 12 hours from primary state sources; API key, mcp.tppflow.com/mcp), Walmart Marketplace MCP (234 operations across 28 bundled OpenAPI specs with spec-driven discovery and automatic OAuth2, PyPI), Ozon Seller MCP (151 tools over Seller and Performance APIs, multi-shop), Epovest (hosted GEO/AEO measurement: canon, trackers, surfaces, corroborations; OAuth 2.1 PKCE at mcp.epovest.com/mcp), Octura Site Tools (30 live-probed deterministic ERP, tax, payroll and inventory calculators, keyless at octurasolutions.com/mcp), KD Scout (zero-dependency keyword difficulty, opportunity scoring and content briefs), Real Wave GHL MCP (native GoHighLevel workflow building, OAuth at mcp.realwave.com/mcp), OffenderSearch MCP (all 58 US sex-offender registries in one call, scored and provenance-tagged), GreenCalculus (audit-traced carbon accounting, 11 tools, registry com.greencalculus/api), Normi DVF MCP (17.4M+ geocoded French property transactions, 8 tools), PassportCraft MCP (EU Digital Product Passports for textiles, batteries and general goods, OAuth at passportcraft.com/api/mcp).
+
+[TEOS WARN Act Layoff Intelligence MCP - US Mass-Layoff Data for AI Agents](/hermes/mcp/servers/external/teos-warn-act-mcp/) · 5,964 normalized notices, 12-hour refresh, Bearer API key.
+
+[Walmart Marketplace MCP - 234 Marketplace Operations via Spec-Driven Discovery](/hermes/mcp/servers/external/walmart-marketplace-mcp/) · PyPI package, automatic OAuth2, multi-seller.
+
+[Ozon Seller MCP - 151 Tools for Russian Marketplace Operations](/hermes/mcp/servers/external/ozon-seller-mcp/) · Seller + Performance APIs, multi-shop, MIT.
+
+[Epovest MCP - AI Visibility Measurement for Businesses](/hermes/mcp/servers/external/epovest-mcp/) · GEO/AEO tracking, canon, corroborations, OAuth 2.1.
+
+[Octura Site Tools MCP - Deterministic ERP and Tax Calculators](/hermes/mcp/servers/external/octura-site-tools-mcp/) · 30 live-probed tools, keyless.
+
+[KD Scout MCP - Keyword Research Arithmetic](/hermes/mcp/servers/external/kd-scout-mcp/) · Difficulty, opportunity scoring, content briefs, no keys.
+
+[Real Wave GHL MCP - Native GoHighLevel Workflow Building](/hermes/mcp/servers/external/realwave-ghl-mcp/) · OAuth sign-in, builds real GHL automations.
+
+[OffenderSearch MCP - Nationwide Registry Screening](/hermes/mcp/servers/external/offendersearch-mcp/) · 58 registries, batch of 1,000, scored citations.
+
+[GreenCalculus MCP - Audit-Traced Carbon Accounting](/hermes/mcp/servers/external/greencalculus-mcp/) · 11 tools, pinned data versions, CSRD-ready.
+
+[Normi DVF MCP - French Property Market Data](/hermes/mcp/servers/external/normi-dvf-mcp/) · 17.4M+ geocoded transactions, 8 tools.
+
+[PassportCraft MCP - EU Digital Product Passports](/hermes/mcp/servers/external/passportcraft-mcp/) · ESPR compliance drafting, OAuth, free plan.
+
+**Also identified (not catalogued):** GH issues #3712-#3718 skips (motion-menu 597 design patterns - dev/design tool, AURORA Agent decision-context compiler - agent dev infra, TRAECNclaw TraeCN desktop automation - local dev tool, MCP Marketplace directory-search utility - dev tool, BuyWhere and Atlas Verified - repeats of already-evaluated entries, TANCO SkillHub - skills catalog not an MCP server), SecondSim (2-tool UK eSIM checkout funnel - consumer telecom utility, Roamzy class), NotFair Plugin (marketing SKILLS library not an MCP server - listing overclaims 117 hosted tools), CLSTR (free keyless agent news feed - news category covered by Webz.io and Newsmind), Botsify (white-label chatbot platform), ClipMyApp (app-marketing video creation - no published tool list), Famulor (omnichannel contact-center management), Meistron (German crafts business software - geo-niche), Unplain (document-to-PDF publishing - doc utility), Socializioz (AI social media employee - thin docs), FrankKi (printed-letter API - postal utility), Magichour (AI media model aggregator - UnificAlly class), WickedAPI (market data - thin docs), 9-bot (WhatsApp group automation), Nautilinks (French backlink marketplace - geo-niche), Den (Korean construction standards - geo-niche), Neotic and Calaf (thin docs / niche), plus dev-tool slugs on /all pages 1-3 (dockndevai 8-server infra burst, framework-mcp, reqlan, cortex-connector, doco, commitlore, vinvai, ytdlp-transcript, m00nreport, diffcontext, plurality-memory, swarm-tips, hireme, macadress, betadrop, cli_revit, contextstream, geolens, canonic, payagents x402 wallet plumbing, lvtd x402 skill market).
+
 ## 🆕 August 23, 2026 - Evening Cron Sweep (2 New, 2 Guides)
 
 Evening sweep sourced from chatmcp/mcpso issues #3704-#3711 (Aug 23 11:48-16:42 UTC) plus the mcp.so and mcpservers.org homepages (all repeats of prior evaluations). 2 new business-relevant servers found: Atlas Verified, an official-registry supply-chain verification server (organic certification against the USDA Organic Integrity Database, OFAC screening, FDA import controls, document authentication with 30+ checks, structured trade intelligence from 50+ attributed sources; OAuth 2.0 + PKCE at api.atlasverified.ai/mcp, 401 auth gate confirmed live); and OEDON, a hosted x402 Bitcoin on-chain intelligence server (fee pressure, mempool stats, address analytics, hashrate, difficulty, block tips, mining pools, tx lookup, whale alerts; live-probed oedon v0.2.0 at oedon.dev/mcp, 0.005 USDC per query). 6 skipped: symfony-agent-mcp, annolux, LUNO, target5, BuyWhere, GateCore.
@@ -4595,6 +4624,20 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [Atlas Verified MCP - Supply Chain Compliance and Trade Verification](/docs/hermes/mcp/servers/external/atlas-verified-mcp/)
 - [OEDON MCP - Bitcoin On-Chain Intelligence for AI Agents](/docs/hermes/mcp/servers/external/oedon-mcp/)
+### 11 new servers from chatmcp/mcpso issues, mcp.so feed and mcpservers.org /all - Aug 23, 2026 (night cron sweep)
+
+- [TEOS WARN Act Layoff Intelligence MCP - US Mass-Layoff Data for AI Agents](/docs/hermes/mcp/servers/external/teos-warn-act-mcp/)
+- [Walmart Marketplace MCP - Spec-Driven Marketplace Operations](/docs/hermes/mcp/servers/external/walmart-marketplace-mcp/)
+- [Ozon Seller MCP - Russian Marketplace Operations](/docs/hermes/mcp/servers/external/ozon-seller-mcp/)
+- [Epovest MCP - AI Visibility Measurement for Businesses](/docs/hermes/mcp/servers/external/epovest-mcp/)
+- [Octura Site Tools MCP - Deterministic ERP and Tax Calculators](/docs/hermes/mcp/servers/external/octura-site-tools-mcp/)
+- [KD Scout MCP - Keyword Research Arithmetic](/docs/hermes/mcp/servers/external/kd-scout-mcp/)
+- [Real Wave GHL MCP - Native GoHighLevel Workflow Building](/docs/hermes/mcp/servers/external/realwave-ghl-mcp/)
+- [OffenderSearch MCP - Nationwide Registry Screening](/docs/hermes/mcp/servers/external/offendersearch-mcp/)
+- [GreenCalculus MCP - Audit-Traced Carbon Accounting](/docs/hermes/mcp/servers/external/greencalculus-mcp/)
+- [Normi DVF MCP - French Property Market Data](/docs/hermes/mcp/servers/external/normi-dvf-mcp/)
+- [PassportCraft MCP - EU Digital Product Passports](/docs/hermes/mcp/servers/external/passportcraft-mcp/)
+
 
 
 
