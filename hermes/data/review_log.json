@@ -11050,5 +11050,47 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-24T08:06:41.320528+00:00"
+  },
+  {
+    "repo": "vstaln/gray",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T09:10:13.948652+00:00"
+  },
+  {
+    "repo": "Kralpasa81/hermes-agent-ecosystem-watch",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T09:10:13.948667+00:00"
+  },
+  {
+    "repo": "rollingonchrome/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T09:10:13.948669+00:00"
+  },
+  {
+    "repo": "haifa-agent/haifa-agent",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T09:10:13.948672+00:00"
+  },
+  {
+    "repo": "finlandhl/rebirth-trader",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T09:10:13.948674+00:00"
+  },
+  {
+    "repo": "Dreamstick9/NemoClaw",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T09:10:13.948675+00:00"
   }
 ]

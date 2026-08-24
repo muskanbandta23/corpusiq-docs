@@ -45611,5 +45611,193 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-24T08:04:52.114814+00:00",
     "status": "pending"
+  },
+  {
+    "name": "vstaln/gray",
+    "url": "https://github.com/vstaln/gray",
+    "description": "gray \u2014 a minimal, modular agent harness in Rust. pi's philosophy, hermes' soul.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-08-24T09:03:54Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T09:07:50.755975+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Kralpasa81/hermes-agent-ecosystem-watch",
+    "url": "https://github.com/Kralpasa81/hermes-agent-ecosystem-watch",
+    "description": "Curated daily watch for Hermes Agent, MCP, coding agents, and practical AI tooling.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agents",
+      "automation",
+      "coding-agents",
+      "daily-watch",
+      "hermes-agent",
+      "mcp"
+    ],
+    "updated_at": "2026-08-24T08:15:49Z",
+    "category": "mcp",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-08-24T09:08:00.422757+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rollingonchrome/hermes-agent",
+    "url": "https://github.com/rollingonchrome/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-24T09:07:52Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-24T09:08:16.778416+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "haifa-agent/haifa-agent",
+    "url": "https://github.com/haifa-agent/haifa-agent",
+    "description": "Java-first AI Agent Runtime, SDK, and product platform for Coding Agents, Personal Assistants, Deep Research, and enterprise AI workflows\u2014with durable execution, Tools, MCP, Skills, Memory, and Policy.",
+    "stars": 1,
+    "forks": 1,
+    "language": "Java",
+    "topics": [
+      "agent-runtime",
+      "ai-agent",
+      "coding-agent",
+      "deer-flow-agent",
+      "hermes-agent",
+      "mcp",
+      "personal-assistant",
+      "skills",
+      "spring-boot"
+    ],
+    "updated_at": "2026-08-24T09:08:04Z",
+    "category": "forks",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "longyunfeigu/learn-hermes-agent",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-24T09:08:19.782005+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "finlandhl/rebirth-trader",
+    "url": "https://github.com/finlandhl/rebirth-trader",
+    "description": "High-Frequency Scalping Bot for Binance Futures \u2014 live dashboard, 500+ pairs, multi-account copy trading",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-trading",
+      "algorithmic-trading",
+      "automated-trading",
+      "binance-futures",
+      "claude-code",
+      "crypto-trading",
+      "cryptocurrency",
+      "fintech",
+      "hermes-agent",
+      "high-frequency-trading",
+      "machine-learning",
+      "pinned",
+      "python-trading",
+      "quantitative-finance",
+      "scalping",
+      "trading-bot",
+      "trading-strategies",
+      "web3"
+    ],
+    "updated_at": "2026-08-24T09:07:30Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T09:08:22.784914+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Dreamstick9/NemoClaw",
+    "url": "https://github.com/Dreamstick9/NemoClaw",
+    "description": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-24T09:06:40Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NVIDIA/NemoClaw"
+    ],
+    "discovered_at": "2026-08-24T09:08:25.788302+00:00",
+    "status": "pending"
   }
 ]
