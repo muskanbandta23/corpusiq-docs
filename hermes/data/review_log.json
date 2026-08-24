@@ -10826,5 +10826,180 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-23T06:04:50.969206+00:00"
+  },
+  {
+    "repo": "eRom/search-x-agents",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002551+00:00"
+  },
+  {
+    "repo": "AnalogHubris/wingmanos",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002565+00:00"
+  },
+  {
+    "repo": "Yueyue673/hermes-turn-router",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002568+00:00"
+  },
+  {
+    "repo": "Ai-Whisperers/agents",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002570+00:00"
+  },
+  {
+    "repo": "roclee2692/crypto-market-sentinel",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002572+00:00"
+  },
+  {
+    "repo": "roclee2692/email-triage-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002574+00:00"
+  },
+  {
+    "repo": "vypdev/homeassistant-gateway",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002576+00:00"
+  },
+  {
+    "repo": "lutfizp/keel",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002577+00:00"
+  },
+  {
+    "repo": "hafadei/owlbear-agent-bridge-extension",
+    "score": 35,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002579+00:00"
+  },
+  {
+    "repo": "wommy/agents-wom-plugins",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002581+00:00"
+  },
+  {
+    "repo": "VisionaryArchitects/grok-mobile-app-project",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002582+00:00"
+  },
+  {
+    "repo": "Owie6789/better-opencode",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002584+00:00"
+  },
+  {
+    "repo": "aantonio85/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002586+00:00"
+  },
+  {
+    "repo": "gmannsk/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002587+00:00"
+  },
+  {
+    "repo": "tcarposa/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002589+00:00"
+  },
+  {
+    "repo": "zdapricorn/hermes-financial-news",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002591+00:00"
+  },
+  {
+    "repo": "bait36draw/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002592+00:00"
+  },
+  {
+    "repo": "dogethanti/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002594+00:00"
+  },
+  {
+    "repo": "edwinaldva/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002596+00:00"
+  },
+  {
+    "repo": "salareus/21-day-self-interview",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002597+00:00"
+  },
+  {
+    "repo": "3lehr/hermes-brainlehr",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002599+00:00"
+  },
+  {
+    "repo": "360PB/hermes-agent-mirror",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002601+00:00"
+  },
+  {
+    "repo": "forcewake/hermes-conductor",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002602+00:00"
+  },
+  {
+    "repo": "brandinskq/energetic-paradigm",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002604+00:00"
+  },
+  {
+    "repo": "aiboxbt/hermes-railway",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T05:07:23.002605+00:00"
   }
 ]
