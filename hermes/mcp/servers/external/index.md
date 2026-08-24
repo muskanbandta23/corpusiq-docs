@@ -12,7 +12,31 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 23, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3712-#3718, mcp.so feed, mcpservers.org /all pages 1-3, live endpoint probe (Octura 30 tools) · **Catalog:** 338 servers (+224 guides)
+> **Last updated:** August 24, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3719-#3725, mcp.so feed, mcpservers.org /all pages 1-3 · **Catalog:** 346 servers (+232 guides)
+
+## 🆕 August 24, 2026 - Morning Cron Sweep (8 New, 8 Guides)
+
+Morning sweep sourced from chatmcp/mcpso issues #3719-#3725 (Aug 24 07:39-09:41 UTC), the mcp.so feed, and mcpservers.org /all pages 1-3. 8 new business-relevant servers catalogued with guides: Acquisition.gov MCP (deterministic read-only access to official FAR Overhaul model parts, the agency-deviation index, deviation PDFs and RFO guidance; 5 verified stdio tools returning content hashes and canonical URLs; uvx install, no credentials, from the 1102tools-dev federal contracting family), Universal Poison Armor (open-source prompt-injection and dataset-poisoning firewall: sanitize_document and scan_dataset_for_anomalies on a local FastMCP server plus SKILL.md behavioral directives), SalesTouch (LinkedIn GTM prospecting platform: account, conversation, outreach, publishing, durable scheduling and paginated extraction tools through an OAuth endpoint at salestouch.io/api/mcp, v0.8.0, mutations gated on operator approval), Agency AI MCP (hosted ad manager for Meta and Google accounts: 14 typed tools including create_ad, set_campaign_status, get_anomalies, get_pacing and get_recommendations), Lavox Memory (local-first macOS meeting recorder whose on-device Whisper transcriptions and typed decision index become queryable memory over MCP, decisions stored with rejected alternatives and reasoning), Electronics RFQ Agent (RFQ-to-quote automation: parses PDF/Excel/Word RFQs and prices line items against SAP, Epicor, Oracle and Dynamics via MCP, 9 tools with fill-rate audit), Phonotheca MCP (read-only full-text search over interview transcript archives, speaker-labelled passages with timestamps and citations), Shotstack MCP (official hosted video editing API at mcp.shotstack.io: render video and images, template rendering with merge values, template CRUD, render status and Studio links).
+
+[Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/hermes/mcp/servers/external/acquisition-gov-mcp/) · 5 verified tools, content hashes, canonical URLs, no credentials.
+
+[Poison Armor MCP - Prompt-Injection Firewall for AI Agents](/hermes/mcp/servers/external/poison-armor-mcp/) · Local FastMCP sanitizer, dataset anomaly scanning, MIT.
+
+[SalesTouch MCP - LinkedIn GTM Prospecting for AI Agents](/hermes/mcp/servers/external/salestouch-mcp/) · OAuth remote endpoint, approval-gated mutations, v0.8.0.
+
+[Agency AI MCP - Meta and Google Ads Management from Chat](/hermes/mcp/servers/external/agency-ai-mcp/) · 14 typed tools, hosted at s.agencyai.app/mcp.
+
+[Lavox MCP - Local-First Meeting Memory for AI Agents](/hermes/mcp/servers/external/lavox-mcp/) · On-device Whisper, decision index with reasoning, macOS.
+
+[Electronics RFQ Agent MCP - RFQ-to-Quote ERP Automation](/hermes/mcp/servers/external/electronics-rfq-mcp/) · 9 tools, SAP/Epicor/Oracle/Dynamics via MCP.
+
+[Phonotheca MCP - Interview Transcript Search for Agents](/hermes/mcp/servers/external/phonotheca-mcp/) · Read-only archive search, speaker-labelled citations.
+
+[Shotstack MCP - Video Editing API for AI Agents](/hermes/mcp/servers/external/shotstack-mcp/) · Official hosted endpoint, template merge rendering, API key.
+
+**Also identified (not catalogued):** 1102tools 8-server federal data family named in issue #3721 (bls-oews, ecfr, federal-register, gsa-calc, gsa-perdiem, regulations-gov, sam-gov, usaspending-gov - pre-existing April 2026 mcp.so listings surfaced by a publisher-migration update, catch-up candidates for a future sweep), AgentPub (agent-to-agent private messaging network - agent community infra class, Fomite precedent), Quantum Readiness Scan qrp-mcp (offline codebase crypto scanner - dev tool), Fleetpost (server-less agent mailbox coordination - agent infra), Daytime Agent Market (Base Sepolia testnet task marketplace - agent infra, TaskMarket class), MetricFire (official infra-monitoring MCP - endpoint not verifiable from public pages, thin docs), BitBrowser MCP service (antidetect browser automation - thin docs, dev automation class), Tseha (design-system serving for coding agents - dev tool), NobGit (git hosting platform MCP - dev tool), Swarme (governed MCP tool-access marketplace - thin docs), Frantic (agent bounty board paid in USDC on Base - agent marketplace class), Claude News (Anthropic news feed - news category covered by Webz.io and NewsMind), Figs Relationship Expert (consumer therapy persona), Lucid Page (Markdown to shareable page - doc publishing utility, Booklet class), Ssave (TikTok/Instagram/YouTube downloader - consumer media utility), mcp.so homepage and feed repeats already evaluated in Aug 23 sweeps (Mangii, Hypnothera, Agent Conductor, CodeSentinel, QR Planet, RADAAR, Dados B3, Upfirst, Xverum, Simplepages, Signal Nodus, SavePropTax, Hermoso, AskRentAI, Truth Bear, TEOS WARN Act).
+
+
 
 ## 🆕 August 23, 2026 - Night Cron Sweep (11 New, 11 Guides)
 
@@ -4637,6 +4661,18 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [GreenCalculus MCP - Audit-Traced Carbon Accounting](/docs/hermes/mcp/servers/external/greencalculus-mcp/)
 - [Normi DVF MCP - French Property Market Data](/docs/hermes/mcp/servers/external/normi-dvf-mcp/)
 - [PassportCraft MCP - EU Digital Product Passports](/docs/hermes/mcp/servers/external/passportcraft-mcp/)
+
+### 8 new servers from chatmcp/mcpso issues and directory scans - Aug 24, 2026 (morning cron sweep)
+
+- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/docs/hermes/mcp/servers/external/acquisition-gov-mcp/)
+- [Poison Armor MCP - Prompt-Injection Firewall for AI Agents](/docs/hermes/mcp/servers/external/poison-armor-mcp/)
+- [SalesTouch MCP - LinkedIn GTM Prospecting for AI Agents](/docs/hermes/mcp/servers/external/salestouch-mcp/)
+- [Agency AI MCP - Meta and Google Ads Management from Chat](/docs/hermes/mcp/servers/external/agency-ai-mcp/)
+- [Lavox MCP - Local-First Meeting Memory for AI Agents](/docs/hermes/mcp/servers/external/lavox-mcp/)
+- [Electronics RFQ Agent MCP - RFQ-to-Quote ERP Automation](/docs/hermes/mcp/servers/external/electronics-rfq-mcp/)
+- [Phonotheca MCP - Interview Transcript Search for Agents](/docs/hermes/mcp/servers/external/phonotheca-mcp/)
+- [Shotstack MCP - Video Editing API for AI Agents](/docs/hermes/mcp/servers/external/shotstack-mcp/)
+
 
 
 
