@@ -11036,5 +11036,19 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-24T07:07:09.755913+00:00"
+  },
+  {
+    "repo": "adsorgcn/chanlun-engine-skill",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T08:06:41.320513+00:00"
+  },
+  {
+    "repo": "gt15713/Hermes-Workbench",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-24T08:06:41.320528+00:00"
   }
 ]

@@ -45550,5 +45550,66 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-24T07:05:20.773813+00:00",
     "status": "pending"
+  },
+  {
+    "name": "adsorgcn/chanlun-engine-skill",
+    "url": "https://github.com/adsorgcn/chanlun-engine-skill",
+    "description": "\u7f20\u8bba\u7ed3\u6784\u5f15\u64ce Agent Skill\uff1a\u786e\u5b9a\u6027\u811a\u672c\u8ba1\u7b97\u5206\u578b/\u7b14/\u7ebf\u6bb5/\u4e2d\u67a2/\u80cc\u9a70/\u4e09\u7c7b\u4e70\u5356\u70b9\uff0cLLM \u53ea\u505a\u89e3\u8bfb\u4e0d\u505a\u8ba1\u7b97\u3002Deterministic Chan Theory (\u7f20\u8bba/\u7f20\u4e2d\u8bf4\u7985) structure engine + LLM interpretation skill for Claude Code / Hermes / OpenClaw / WorkBuddy / MCP. \u53ef\u590d\u6838\u3001\u4e0d\u8350\u80a1\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "chan-theory",
+      "chanlun",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "czsc",
+      "deterministic",
+      "llm",
+      "mcp",
+      "quant",
+      "quantitative-trading",
+      "stock-analysis",
+      "technical-analysis",
+      "trading"
+    ],
+    "updated_at": "2026-08-24T07:55:59Z",
+    "category": "mcp",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh"
+    ],
+    "discovered_at": "2026-08-24T08:04:35.710308+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gt15713/Hermes-Workbench",
+    "url": "https://github.com/gt15713/Hermes-Workbench",
+    "description": "Hermes Agent Workbench \u63d2\u4ef6\uff1a\u4efb\u52a1\u770b\u677f / \u6536\u5f55 / \u8c03\u5ea6 / \u6295\u9012\uff08\u5f00\u6e90\u7248\uff09",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-24T08:04:45Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T08:04:52.114814+00:00",
+    "status": "pending"
   }
 ]
