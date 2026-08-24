@@ -21,7 +21,7 @@ Notable changes to CorpusIQ — new connectors, platform features, and improveme
 ## June 2026
 
 ### Initial Launch
-- CorpusIQ public launch with 37+ connectors
+- CorpusIQ public launch with 40+ connectors
 - MCP server at mcp2.corpusiq.io
 - ChatGPT, Claude, and Perplexity integration guides
 - 30-day free trial, no credit card required

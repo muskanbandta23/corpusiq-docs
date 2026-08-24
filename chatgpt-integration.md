@@ -34,7 +34,7 @@ Try questions like:
 
 ## What You Can Query
 
-All 37+ connectors are available through ChatGPT:
+All 40+ connectors are available through ChatGPT:
 - Accounting (QuickBooks)
 - Ecommerce (Shopify, Stripe, eBay)
 - CRM (HubSpot, Monday.com, Close)

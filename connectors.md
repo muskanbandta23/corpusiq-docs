@@ -1,6 +1,6 @@
 # Connectors
 
-CorpusIQ connects to 37+ business tools through a single MCP server. Each connector is read-only — we pull data into your AI tools, never write back.
+CorpusIQ connects to 40+ business tools through a single MCP server. Each connector is read-only — we pull data into your AI tools, never write back.
 
 ## How Connectors Work
 
