@@ -45430,5 +45430,125 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-24T05:06:53.631934+00:00",
     "status": "pending"
+  },
+  {
+    "name": "AronAxe/Token-Terminator",
+    "url": "https://github.com/AronAxe/Token-Terminator",
+    "description": "Agent-agnostic token reduction with exact recovery and fail-open guarantees. First-party Hermes Agent adapter; RTK terminal rewriting optional.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "context-management",
+      "hermes-agent",
+      "llm",
+      "python",
+      "token-optimization"
+    ],
+    "updated_at": "2026-08-24T06:54:38Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T07:04:48.422924+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "realmi-lab/bithumb-agent",
+    "url": "https://github.com/realmi-lab/bithumb-agent",
+    "description": "Bithumb-oriented OAuth-only coding agent derived from Hermes Agent (MIT)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-24T05:44:37Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T07:04:51.424968+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lauzhegng4-coder/feishu-companion-agent",
+    "url": "https://github.com/lauzhegng4-coder/feishu-companion-agent",
+    "description": "\u98de\u4e66\u4f34\u5b66 Agent \u642d\u5efa skill\uff1aHermes Agent + \u98de\u4e66\u81ea\u5efa\u5e94\u7528\uff0c\u77e5\u8bc6\u5e93\u673a\u5668\u4eba\u63a5\u5165\u98de\u4e66\u79c1\u804a\u5168\u6d41\u7a0b",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-24T07:03:45Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T07:04:54.428067+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Anlushu/hkinsure",
+    "url": "https://github.com/Anlushu/hkinsure",
+    "description": "\u9999\u6e2f\u4fdd\u9669\u6570\u636e MCP\uff1a260+ \u771f\u5b9e\u4ea7\u54c1\u300117 \u5bb6\u4fdd\u53f8\u3001\u5206\u7ea2\u5b9e\u73b0\u7387\uff0c\u884c\u4e1a\u7ecf\u9a8c\u9010\u6761\u6821\u51c6\u3002\u4f9b Hermes / dsh / Claude Code \u7b49 AI \u5de5\u5177\u63a5\u5165\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "chinese",
+      "dsh-plugin",
+      "hong-kong",
+      "insurance",
+      "mcp-server"
+    ],
+    "updated_at": "2026-08-24T05:37:52Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh"
+    ],
+    "discovered_at": "2026-08-24T07:05:04.168708+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Yomisana/hermes-agent-patches",
+    "url": "https://github.com/Yomisana/hermes-agent-patches",
+    "description": "Attributed, reproducible Hermes Agent security backports for offline wheel and container delivery",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-24T07:05:18Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-24T07:05:20.773813+00:00",
+    "status": "pending"
   }
 ]
