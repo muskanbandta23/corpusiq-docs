@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-23"
+last_updated: "2026-08-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 24, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3719-#3725, mcp.so feed, mcpservers.org /all pages 1-3 · **Catalog:** 346 servers (+232 guides)
+> **Last updated:** August 24, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3726-#3734, mcp.so homepage + feed, mcpservers.org /all page 1 · **Catalog:** 350 servers (+236 guides)
+
+## 🆕 August 24, 2026 - Midday Cron Sweep (4 New, 4 Guides)
+
+Midday sweep sourced from chatmcp/mcpso issues #3726-#3734 (Aug 24 10:50-17:48 UTC), the mcp.so homepage and feed, and mcpservers.org /all page 1. 4 new business-relevant servers catalogued with guides: Salesbot (hosted LinkedIn and Sales Navigator MCP with 48 safety-gated tools - lead discovery, human-approved outreach, inbox workflows, campaigns, and a built-in CRM; anonymous tools/list verified all 48 tool names at app.salesbot.cz/api/mcp with x-mcp-api-key auth), Social Glass (evidence-backed cultural intelligence for brand and research teams - search Insights, Posts, Creators, and Audiences in permitted organizations over OAuth at mcp.socialglass.ai/mcp), SudnoKontrol MCP (keyless read-only search over the Ukrainian national vessel registries - search by registration number, name, or owner plus aggregate statistics; 4 tools verified by live probe, every result links an official QR-verified registry excerpt), Google Flights Search (hosted real-time fare search from FlightPowers - one-way and round-trip tools over date ranges and destination lists with Google historical price range verdicts and buy links; BYO RapidAPI key, free tier, anonymous tools/list verified both tool names).
+
+[Salesbot MCP - LinkedIn Prospecting and CRM with Human Approval](/hermes/mcp/servers/external/salesbot-mcp/) · 48 tools verified, approval-gated sends, x-mcp-api-key.
+
+[Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/hermes/mcp/servers/external/social-glass-mcp/) · OAuth remote endpoint, evidence-backed insights search.
+
+[SudnoKontrol MCP - Ukrainian Vessel Registry Search](/hermes/mcp/servers/external/sudnokontrol-mcp/) · Keyless, 4 tools probed, QR-verified official excerpts.
+
+[Google Flights MCP - Real-Time Fare Search with Price Verdicts](/hermes/mcp/servers/external/google-flights-mcp/) · 2 tools, BYO RapidAPI key, free tier and free ad-supported endpoint.
+
+**Also identified (not catalogued):** Sentinel Scan (free CLI for MCP manifest security and prompt-injection testing - dev tool), ParetoStudio (local prompt/agent/skill library manager - dev utility), Concord MCP (cross-harness communication for coding agents - dev infra), 54ch10-mcp (pre-interact wallet/URL risk briefs paid in x402 USDC - x402 infra class), AgentRisk M2M (pre-trade DeFi agent security with x402 micropayments - crypto/x402 class), SSH MCP Server (developer tools homepage arrival). Feed and homepage repeats already evaluated in Aug 23 sweeps (RE Data Refinery, Truth Bear GAUGE, Agent Conductor, CodeSentinel, BitBrowser, Mangii, Hypnothera). Note: the Aug 23 skip of Booking.com Hotel Search was the same FlightPowers vendor with a thin listing; the Google Flights product above is fully documented with a live endpoint, repo, and registry ID, so it clears the thin-docs bar.
 
 ## 🆕 August 24, 2026 - Morning Cron Sweep (8 New, 8 Guides)
 
@@ -4672,6 +4686,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Electronics RFQ Agent MCP - RFQ-to-Quote ERP Automation](/docs/hermes/mcp/servers/external/electronics-rfq-mcp/)
 - [Phonotheca MCP - Interview Transcript Search for Agents](/docs/hermes/mcp/servers/external/phonotheca-mcp/)
 - [Shotstack MCP - Video Editing API for AI Agents](/docs/hermes/mcp/servers/external/shotstack-mcp/)
+
+### 4 new servers from chatmcp/mcpso issues and directory scans - Aug 24, 2026 (midday cron sweep)
+
+- [Salesbot MCP - LinkedIn Prospecting and CRM with Human Approval](/docs/hermes/mcp/servers/external/salesbot-mcp/)
+- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/docs/hermes/mcp/servers/external/social-glass-mcp/)
+- [SudnoKontrol MCP - Ukrainian Vessel Registry Search](/docs/hermes/mcp/servers/external/sudnokontrol-mcp/)
+- [Google Flights MCP - Real-Time Fare Search with Price Verdicts](/docs/hermes/mcp/servers/external/google-flights-mcp/)
 
 
 
