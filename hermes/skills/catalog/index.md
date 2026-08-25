@@ -521,3 +521,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [GPT-Image-2 Style Library — Industrial Prompt & Style Templates Setup](/docs/hermes/skills/catalog/gpt-image-2-style-library-setup/)
 - [gh-issue-sync — Local Markdown GitHub Issues Skill Setup](/docs/hermes/skills/catalog/gh-issue-sync-setup/)
 - [System Atlas — Explorable Architecture Map Skill Setup](/docs/hermes/skills/catalog/system-atlas-setup/)
+- [Makerskills — Personal Operator Agent Suite Setup](/docs/hermes/skills/catalog/makerskills-setup/)
