@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 24, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3726-#3734, mcp.so homepage + feed, mcpservers.org /all page 1 · **Catalog:** 350 servers (+236 guides)
+> **Last updated:** August 24, 2026 (evening cron sweep) · **Sources:** mcp.so feed, mcpservers.org /all pages 1-3 · **Catalog:** 352 servers (+238 guides)
+
+## 🆕 August 24, 2026 - Evening Cron Sweep (2 New, 2 Guides)
+
+Evening sweep sourced from the mcp.so feed (newest 30 submissions) and mcpservers.org /all pages 1-3 (all 38 slugs cross-referenced; zero new beyond prior evaluations). 2 new business-relevant servers catalogued with guides: Ice Juice Trading (hosted rules-based strategy automation on your own Alpaca brokerage - build, backtest, deploy, pause and tune risk knobs over OAuth 2.1 or API key at mcp.icejuicetrading.com/mcp; live endpoint confirmed via HTTP 401 auth gate; broker connect, billing and the emergency flatten stay human-only; paper trading free on every plan, live trading paid), Agentic Atlas (stateless read-only consultation surface for field-tested agent-system design patterns - 8 live-probed tools, no auth at agentic-atlas.dev/mcp, revision-coherence markers refuse stale reads after a corpus promotion).
+
+[Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/hermes/mcp/servers/external/ice-juice-trading/) · 401-verified auth gate, human-only rails, free paper tier.
+
+[Agentic Atlas MCP - Field-Tested Agent-System Design Patterns](/hermes/mcp/servers/external/agentic-atlas/) · 8 tools live-probed, keyless, stateless v3.4.7.
+
+**Also identified (not catalogued):** uxgen (e-commerce conversion component library for coding agents - vendor states tool execution is not switched on yet and every call returns an explicit refusal; $29/mo, no trial - dev-asset class), OAIA Arena (AI trading-agent track-record scoring against 2,048 coin-flipping monkeys - no published tool list, crypto/verification class), ReactVision MCP (44-tool ViroReact XR renderer for coding agents - dev tool class). Feed repeats already evaluated in Aug 21-24 sweeps (RE Data Refinery, Truth Bear GAUGE, Agent Conductor, CodeSentinel, BitBrowser, Mangii, Hypnothera, Shotstack, Agency AI, TEOS WARN Act, Routebase, SecondSim, Context.dev, Dados B3, AskRentAI, Signal Nodus, lucid.page, Hermoso, QR Planet, HTML/CSS to Image).
 
 ## 🆕 August 24, 2026 - Midday Cron Sweep (4 New, 4 Guides)
 
@@ -4693,6 +4703,11 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/docs/hermes/mcp/servers/external/social-glass-mcp/)
 - [SudnoKontrol MCP - Ukrainian Vessel Registry Search](/docs/hermes/mcp/servers/external/sudnokontrol-mcp/)
 - [Google Flights MCP - Real-Time Fare Search with Price Verdicts](/docs/hermes/mcp/servers/external/google-flights-mcp/)
+
+### 2 new servers from mcp.so feed and mcpservers.org /all - Aug 24, 2026 (evening cron sweep)
+
+- [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/docs/hermes/mcp/servers/external/ice-juice-trading/)
+- [Agentic Atlas MCP - Field-Tested Agent-System Design Patterns](/docs/hermes/mcp/servers/external/agentic-atlas/)
 
 
 
