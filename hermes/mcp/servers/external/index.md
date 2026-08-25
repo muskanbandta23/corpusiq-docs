@@ -12,7 +12,31 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 25, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3735-#3745, mcp.so homepage + feed, mcpservers.org homepage · **Catalog:** 360 servers (+246 guides)
+> **Last updated:** August 25, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3746-#3749, mcp.so homepage + feed, mcpservers.org /all pages 1-3 · **Catalog:** 369 servers (+255 guides)
+## 🆕 August 25, 2026 - Evening Cron Sweep (9 New, 9 Guides)
+
+Evening sweep sourced from chatmcp/mcpso issues #3746-#3749 (Aug 25 10:47 - 16:48 UTC), the mcp.so homepage and feed, and mcpservers.org /all pages 1-3. 9 new business-relevant servers catalogued with guides: Alpha Sophia (official MCP from the US healthcare provider and organization database - resolve_entity plus search, count and market_size tools over procedures, diagnoses, affiliations, publications and clinical trials; OAuth remote at api.alphasophia.com/v1/mcp), BeeL (Spanish VeriFactu e-invoicing with AEAT - about 120 OpenAPI-derived tools for invoices, correctives, NIF validation, series and fiscal guardrails; OAuth remote plus stdio), CivicDataForge (government-records evidence relay - 14 live-probed tools covering STR permits across 31 sources, LEIE exclusion screening, property violations, restaurant inspections, childcare licensing, EPA ECHO and Norwegian company evidence; Apify-token auth), Partsgraph (keyless parts catalog with datasheet provenance, compatibility checks and priced BOM building - 11 tools live-probed on the demo catalogue), Nacha MCP (stdio ACH file parser with structural and arithmetic validation and IAT support - 2 tools), 1Lookup (phone, email and IP verification with DNC status, deliverability and proxy detection - OAuth 2.1 remote, 401-verified live, credit-based), HostTracker (official uptime-monitoring MCP from the 2004-vintage monitoring network - 65 tools, synchronous checks from 300+ locations, Bearer token), SenderKit (transactional messaging over MCP - 18 tools for templates, sends, delivery inspection and inbound management), More Good Reviews (project-scoped review management - customers, review requests, Google and Facebook reply publishing with a confirm gate, agency variant for white-label).
+
+[Alpha Sophia MCP - US Healthcare Provider and Market Data](/hermes/mcp/servers/external/alpha-sophia-mcp/) · Official, OAuth-gated, provider/org/clinical-trial search and market sizing.
+
+[BeeL MCP - Spanish VeriFactu E-Invoicing Compliance](/hermes/mcp/servers/external/beel-mcp/) · ~120 OpenAPI-derived tools, OAuth remote plus stdio, MIT repo.
+
+[CivicDataForge MCP - Government Records Evidence Platform](/hermes/mcp/servers/external/civicdataforge-mcp/) · 14 live-probed tools, Apify-token auth, STR/LEIE/EPA records.
+
+[Partsgraph MCP - Electronic Parts Search and BOM Building](/hermes/mcp/servers/external/partsgraph-mcp/) · Keyless demo catalogue, 11 tools probed, compatibility checks.
+
+[Nacha MCP - ACH File Parsing and Validation](/hermes/mcp/servers/external/nacha-mcp/) · stdio, structural and arithmetic validation, IAT support.
+
+[1Lookup MCP - Phone, Email and IP Verification](/hermes/mcp/servers/external/1lookup-mcp/) · OAuth 2.1 remote, DNC/deliverability/proxy checks, 401-verified live.
+
+[HostTracker MCP - Uptime Monitoring from 300+ Locations](/hermes/mcp/servers/external/hosttracker-mcp/) · Official, 65 tools, Bearer token, operating since 2004.
+
+[SenderKit MCP - Transactional Messaging from Your Assistant](/hermes/mcp/servers/external/senderkit-mcp/) · 18 tools, hosted plus stdio, structured outputSchema results.
+
+[More Good Reviews MCP - Review Management and Reputation Ops](/hermes/mcp/servers/external/more-good-reviews-mcp/) · Project-scoped sign-in, Google/Facebook replies with confirm gate.
+
+**Also identified (not catalogued):** ParlayAPI #3749 (sports-odds and should-I-bet layer - consumer gambling class), BlinkCodes #3746 (x402 gift-card and eSIM store - purchase plumbing, not business data), dsh-verify #3748 (browser acceptance testing - dev tool, resubmission of the Aug 18 skip), QuanticData (generic web-access utility - catch-up), AgentRisk M2M (x402 DeFi pre-trade risk - agent infra class), Windframe (AI UI design tool - dev/design class), OAIA Arena (trading-agent scoreboard - agent infra class), Context.dev (web scraping infra for AI products - dev utility class), AgentsGetPaid (x402 payment kit - payagents class, already noted), Lacuna Music (AI song generator - consumer media), ORANO (personal workspace and memory - agent infra), PublicSignalData (Polymarket and whale-trade signals - crypto signals class), TwitterAPIs (commercial X API wrapper - thin wrapper over the official API), Xi Pe (pastebin - consumer utility), VehicleFeeCalc (AI-skills listing, not an MCP server - skills-catalog class), PennyOCR (paid OCR dev utility), XGuard (MCP discovery gateway - agent infra), amem (local agent memory - agent infra), ADSBiq (community aircraft lookup - niche aviation data), secret_mcp (design analysis - dev tool), DotLy ID (domain and biolink registrar - consumer utility), Fresh Jots (thin-docs notes app), EasyGroupFlights (group airfare booking - travel booking class), ADA Turbo (agency OS visualizer - agent infra), Roast My Design System (design audit - dev tool). Also the dockndevai infra family on /all pages 1-3 (already noted Aug 24) and repeats of prior skips (Magichour, Frantic, CLSTR, Agent Conductor, payagents).
+
 ## 🆕 August 25, 2026 - Morning Cron Sweep (8 New, 8 Guides)
 
 Morning sweep sourced from chatmcp/mcpso issues #3735-#3745 (Aug 24 19:19 - Aug 25 09:37 UTC), the mcp.so homepage and feed, and the mcpservers.org homepage. 8 new business-relevant servers catalogued with guides: Korea Business Verify (keyless hosted KYB checks against the Korean National Tax Service - 2 live-probed tools, free pilot), Jitsu (official MCP from the open-source Segment alternative, 5,043 stars - agents manage CDP destinations, streams, functions and query live events over OAuth 2.1 at use.jitsu.com/mcp), RentSeek Evidence (no-auth latest-FY executive compensation with filing source links - get_executive_compensation and list_available_tickers probed), Harness Atlas (keyless wire-harness manufacturer directory and XrefBase part cross-reference - find_manufacturer and find_alternative probed), xRocket Exchange MCP (hosted spot market data with 10 probed tools plus stdio trading bounded by an operator-set daily limit), Ship24 Tracking (official hosted MCP across 2,500+ carriers - 11 documented tools at api.ship24.com/mcp with API-key auth), GovGazette (39 live-probed federal procurement tools - SAM.gov opportunities, awards, vendors, exclusions, recompetes; 19 public, 20 OAuth-gated), Worklittle Jobs (4-million-listing job search with visa, distance and salary filters plus market overview statistics - 21 live-probed tools).
@@ -4742,3 +4766,15 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Ship24 Tracking MCP - Package Tracking Across 2,500+ Carriers](/docs/hermes/mcp/servers/external/ship24-tracking/)
 - [GovGazette MCP - Federal Contract and Award Intelligence](/docs/hermes/mcp/servers/external/govgazette-mcp/)
 - [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs/)
+
+### 9 new servers from chatmcp/mcpso issues and directory scans - Aug 25, 2026 (evening cron sweep)
+
+- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/docs/hermes/mcp/servers/external/alpha-sophia-mcp/)
+- [BeeL MCP - Spanish VeriFactu E-Invoicing Compliance](/docs/hermes/mcp/servers/external/beel-mcp/)
+- [CivicDataForge MCP - Government Records Evidence Platform](/docs/hermes/mcp/servers/external/civicdataforge-mcp/)
+- [Partsgraph MCP - Electronic Parts Search and BOM Building](/docs/hermes/mcp/servers/external/partsgraph-mcp/)
+- [Nacha MCP - ACH File Parsing and Validation](/docs/hermes/mcp/servers/external/nacha-mcp/)
+- [1Lookup MCP - Phone, Email and IP Verification](/docs/hermes/mcp/servers/external/1lookup-mcp/)
+- [HostTracker MCP - Uptime Monitoring from 300+ Locations](/docs/hermes/mcp/servers/external/hosttracker-mcp/)
+- [SenderKit MCP - Transactional Messaging from Your Assistant](/docs/hermes/mcp/servers/external/senderkit-mcp/)
+- [More Good Reviews MCP - Review Management and Reputation Ops](/docs/hermes/mcp/servers/external/more-good-reviews-mcp/)
