@@ -11253,5 +11253,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-25T06:07:16.732197+00:00"
+  },
+  {
+    "repo": "nobodyohm-web/thot",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T07:05:40.549743+00:00"
+  },
+  {
+    "repo": "diptamahardhika/hermes-agent-mission-control",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T07:05:40.549755+00:00"
+  },
+  {
+    "repo": "Suo-commerce/memory-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T07:05:40.549756+00:00"
+  },
+  {
+    "repo": "azalith-9/hermes-the-firm",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T07:05:40.549757+00:00"
+  },
+  {
+    "repo": "beplee/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T07:05:40.549758+00:00"
   }
 ]
