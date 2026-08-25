@@ -2,7 +2,7 @@
 
 **Sources:** chatmcp/mcpso issues #3735-#3745 (Aug 24 19:19 - Aug 25 09:37 UTC), mcp.so homepage + feed (30 slugs), mcpservers.org homepage (16 slugs)
 **Prior sweep cutoff:** Aug 24 evening sweep (issues through #3734, .last-sweep 2026-08-24T18:10:26Z)
-**Run location:** Spark (Mac Mini 192.168.1.233 unreachable - 100% packet loss on mDNS + IP)
+**Run location:** Spark (internal worker node unreachable - 100% packet loss on mDNS + IP)
 
 ## Catalogued (8 new, 8 guides)
 
