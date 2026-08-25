@@ -2,14 +2,14 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated August 24, 2026)
+## File count (updated August 25, 2026)
 
-- **Total Markdown files:** 1,938
+- **Total Markdown files:** 1,958
 - **Total HTML files:** 1,744 (MkDocs build output)
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 498 setup guides for Hermes skills
-- **MCP servers:** 536 server listing markdown pages (+ HTML companions)
+- **MCP servers:** 503 server listing markdown pages (+ HTML companions); 585 total .md under hermes/mcp/
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -36,6 +36,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Aug 25, 2026):** Sanitized internal IP (192.168.x.x) from 2 sweep pages (sweep-august24-2026-evening, sweep-august25-2026-morning → "internal worker node"). Refreshed all 3 sitemaps (hermes-sitemap.xml 193 URLs + sitemap-index.xml 2 + sitemap.xml 323 → 2026-08-25). Connector count: 0 stragglers (canonical 40+ per corpusiq.io). Stale dates: 0 files. Internal links: 0 broken. Frontmatter: all 3,456 valid. External spot-check all 200. Deploy shipped 18 pending MCP server pages from Aug 24-25 sweeps (previously 404 on production) — all verified HTTP 200. PROGRESS.md stats refreshed (1,958 MD, 503 MCP servers, 585 hermes/mcp .md). Pushed to main (1c8931a0), deployed to Vercel, changed pages verified HTTP 200.
 - **Skills sweep ✅ (Aug 24, 2026, evening):** 48-query skills.sh API sweep (686 unique skills, 0 failures), plus hot-leaderboard and watchlist re-verification. API surface fully known at 2K threshold. New find: `coreyhaines31/makerskills` (23 skills, 4.7K publisher installs vs 480 API sum, 681⭐, active same day) — cohesive personal-operator suite (second-brain, company-brain, deep-research, decide, CFO skills) with zero tree hits. Added cluster setup guide `makerskills-setup.md` + catalog index entry (498 setup guides; catches up 4 uncounted Aug 24 morning guides). Parked below bar: serkan-ozal/browser-devtools-skills (496), secondsky/claude-skills (359, claude-skills repo, rejected), davidlee/doctrine spec-tech (89, watchlist). Mac Mini offline; sweep ran from Spark clone.
 - **Maintenance ✅ (Aug 24, 2026):** Normalized 3 root-level connector-count stragglers (37+ → 40+: connectors.md, chatgpt-integration.md, changelog.md; served docs/ copies already at 40+). Stale dates: 0 files. Internal links: 0 broken. Frontmatter: all valid. PII scan clean. Genericized 3 historical identifiers in PROGRESS.md sanitization notes. External spot-check all 200. Pushed to main (b851fe9a), deployed to Vercel, changed pages verified HTTP 200.
 - **Maintenance ✅ (Aug 23, 2026):** Refreshed 100 stale `last_updated` dates in docs/ (SEO pages + API + security + comparison pages stuck on 2026-08-06 through 2026-08-15). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-08-23. Internal links: 0 broken (1 false positive: `[text](url)` inside a Slack mrkdwn code example). Connector count: all pages consistent at 40+. PII scan clean. PROGRESS.md stats refreshed (1,903 MD, 536 MCP servers). Pushed to main, deployed, changed pages verified HTTP 200.
@@ -57,5 +58,5 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: August 23, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: August 25, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 ---
