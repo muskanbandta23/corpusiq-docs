@@ -11211,5 +11211,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-25T05:05:54.886967+00:00"
+  },
+  {
+    "repo": "DXFB/hermes-agent-v2026.8.19",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T06:07:16.731734+00:00"
+  },
+  {
+    "repo": "DragonnZhang/phistory",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T06:07:16.731747+00:00"
+  },
+  {
+    "repo": "kpalastro/open-chart-copilot",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T06:07:16.731750+00:00"
+  },
+  {
+    "repo": "djgene01/dotnet-ui-pack",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T06:07:16.731752+00:00"
+  },
+  {
+    "repo": "Dadmin88/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T06:07:16.732194+00:00"
+  },
+  {
+    "repo": "maikolb/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-25T06:07:16.732197+00:00"
   }
 ]
