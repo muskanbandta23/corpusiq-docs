@@ -12,7 +12,30 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 24, 2026 (evening cron sweep) · **Sources:** mcp.so feed, mcpservers.org /all pages 1-3 · **Catalog:** 352 servers (+238 guides)
+> **Last updated:** August 25, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3735-#3745, mcp.so homepage + feed, mcpservers.org homepage · **Catalog:** 360 servers (+246 guides)
+## 🆕 August 25, 2026 - Morning Cron Sweep (8 New, 8 Guides)
+
+Morning sweep sourced from chatmcp/mcpso issues #3735-#3745 (Aug 24 19:19 - Aug 25 09:37 UTC), the mcp.so homepage and feed, and the mcpservers.org homepage. 8 new business-relevant servers catalogued with guides: Korea Business Verify (keyless hosted KYB checks against the Korean National Tax Service - 2 live-probed tools, free pilot), Jitsu (official MCP from the open-source Segment alternative, 5,043 stars - agents manage CDP destinations, streams, functions and query live events over OAuth 2.1 at use.jitsu.com/mcp), RentSeek Evidence (no-auth latest-FY executive compensation with filing source links - get_executive_compensation and list_available_tickers probed), Harness Atlas (keyless wire-harness manufacturer directory and XrefBase part cross-reference - find_manufacturer and find_alternative probed), xRocket Exchange MCP (hosted spot market data with 10 probed tools plus stdio trading bounded by an operator-set daily limit), Ship24 Tracking (official hosted MCP across 2,500+ carriers - 11 documented tools at api.ship24.com/mcp with API-key auth), GovGazette (39 live-probed federal procurement tools - SAM.gov opportunities, awards, vendors, exclusions, recompetes; 19 public, 20 OAuth-gated), Worklittle Jobs (4-million-listing job search with visa, distance and salary filters plus market overview statistics - 21 live-probed tools).
+
+[Korea Business Verify MCP - Live KYB Checks for Korean Companies](/hermes/mcp/servers/external/korea-business-verify/) · Keyless, 2 tools probed, NTS live data, free pilot.
+
+[Jitsu MCP - Manage Customer Data Pipelines from AI Agents](/hermes/mcp/servers/external/jitsu/) · Official, 5,043-star CDP, OAuth 2.1, 9 documented tools.
+
+[RentSeek Evidence MCP - Executive Compensation with Source Links](/hermes/mcp/servers/external/rentseek-evidence/) · No-auth public endpoint, 2 tools probed.
+
+[Harness Atlas MCP - Wire-Harness Sourcing and Part Cross-Reference](/hermes/mcp/servers/external/harness-atlas/) · Keyless, XrefBase equivalence groups, registry-listed.
+
+[xRocket Exchange MCP - Spot Market Data and Trading for Agents](/hermes/mcp/servers/external/xrocket-mcp/) · 10 market tools probed, daily-limit stdio trading.
+
+[Ship24 Tracking MCP - Package Tracking Across 2,500+ Carriers](/hermes/mcp/servers/external/ship24-tracking/) · Official hosted, 11 tools, API-key auth.
+
+[GovGazette MCP - Federal Contract and Award Intelligence](/hermes/mcp/servers/external/govgazette-mcp/) · 39 tools probed, 19 public, OAuth watches.
+
+[Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/hermes/mcp/servers/external/worklittle-jobs/) · 21 tools probed, 4M+ listings.
+
+**Also identified (not catalogued):** Vauban Pay MCP (x402 payment tools for MCP clients - payment plumbing class), SeenRelay (cooperative freshness infrastructure for AI agents - agent infra class), 123skills (skill market run by AI agents - agent community infra class), geo-tool-check (local CLI scoring page readability for AI search - dev utility class), loot-agent-mcp (on-chain game tools on Robinhood Chain - consumer game class), Batru (Dota 2 / Deadlock / Marvel Rivals win-rate prediction - consumer gaming class), WorkerKit Directory (AI worker kit marketplace - agent infra class), Proxyman MCP (network debugging tool - dev tool class). Feed and homepage repeats already evaluated in Aug 23-24 sweeps (Ice Juice Trading, Agentic Atlas, RE Data Refinery, Truth Bear GAUGE, BitBrowser, Mangii, Hypnothera, Shotstack, Agency AI, SSH MCP Server, AdminLanding, Granola, and the famous-name mcpservers.org homepage slugs).
+
+
 
 ## 🆕 August 24, 2026 - Evening Cron Sweep (2 New, 2 Guides)
 
@@ -4709,14 +4732,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/docs/hermes/mcp/servers/external/ice-juice-trading/)
 - [Agentic Atlas MCP - Field-Tested Agent-System Design Patterns](/docs/hermes/mcp/servers/external/agentic-atlas/)
 
+### 8 new servers from chatmcp/mcpso issues and directory scans - Aug 25, 2026 (morning cron sweep)
 
-
-
-
-
-
-
-
-
-
-
+- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/docs/hermes/mcp/servers/external/korea-business-verify/)
+- [Jitsu MCP - Manage Customer Data Pipelines from AI Agents](/docs/hermes/mcp/servers/external/jitsu/)
+- [RentSeek Evidence MCP - Executive Compensation with Source Links](/docs/hermes/mcp/servers/external/rentseek-evidence/)
+- [Harness Atlas MCP - Wire-Harness Sourcing and Part Cross-Reference](/docs/hermes/mcp/servers/external/harness-atlas/)
+- [xRocket Exchange MCP - Spot Market Data and Trading for Agents](/docs/hermes/mcp/servers/external/xrocket-mcp/)
+- [Ship24 Tracking MCP - Package Tracking Across 2,500+ Carriers](/docs/hermes/mcp/servers/external/ship24-tracking/)
+- [GovGazette MCP - Federal Contract and Award Intelligence](/docs/hermes/mcp/servers/external/govgazette-mcp/)
+- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs/)
