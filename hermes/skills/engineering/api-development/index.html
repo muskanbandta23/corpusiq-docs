@@ -60,10 +60,6 @@
   
   
   
-  <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/engineering/api-development">
-  
-  
-  
   
   
     
@@ -109,6 +105,8 @@
     }
   }
   </script>
+  
+  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   </head>
   
@@ -10094,7 +10092,7 @@
 <h2 id="self-destructing-admin-migration-endpoint-pattern">Self-destructing admin migration endpoint pattern<a class="headerlink" href="#self-destructing-admin-migration-endpoint-pattern" title="Anchor link to this section">&para;</a></h2>
 <p>For live DB changes that need to run once in prod without a full migration cycle:</p>
 <div class="highlight"><pre><span></span><code><span class="nd">@router</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;/admin/migrations/&lt;name&gt;&quot;</span><span class="p">)</span>
-<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">run_migration_</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">run_migration_</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
     <span class="c1"># 1. Auth: require admin role + signed migration token</span>
     <span class="c1"># 2. Idempotency: read a marker row; if present, return 200 &quot;already ran&quot;</span>
     <span class="c1"># 3. Run the migration</span>
@@ -10160,6 +10158,7 @@ curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domai
         
       </main>
       
+  
         <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
@@ -10178,6 +10177,11 @@ curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domai
   </div>
 </footer>
       
+  
+  <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
+    <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
