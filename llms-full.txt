@@ -5847,7 +5847,7 @@ title: "ChatGPT Integration with CorpusIQ  --  Connect Business Data to ChatGPT"
 description: "Connect your business data to ChatGPT in 2 minutes with CorpusIQ. One-click OAuth for 40+ tools: HubSpot, QuickBooks, Stripe, GA4. Ask ChatGPT about revenue, customers, orders, and marketing from live data."
 category: "Documentation"
 tags: ["chatgpt integration", "connect data to chatgpt", "chatgpt business data", "mcp chatgpt", "ai business intelligence", "chatgpt plugin", "corpusiq chatgpt"]
-last_updated: "2026-08-12"
+last_updated: "2026-08-26"
 canonical: "https://www.corpusiq.io/docs/chatgpt-integration"
 robots: "index,follow"
 ---
@@ -20174,7 +20174,7 @@ This is the difference between "I need a developer to build a connector" and "I 
 
 ## How CorpusIQ Implements MCP
 
-CorpusIQ has built the most comprehensive MCP server platform for business systems. Where individual MCP servers give you access to one data source, CorpusIQ gives you access to over 30 business connectors through a single MCP server  --  Shopify, QuickBooks, Google Analytics, HubSpot, Stripe, Meta Ads, and many more.
+CorpusIQ has built the most comprehensive MCP server platform for business systems. Where individual MCP servers give you access to one data source, CorpusIQ gives you access to over 40 business connectors through a single MCP server  --  Shopify, QuickBooks, Google Analytics, HubSpot, Stripe, Meta Ads, and many more.
 
 CorpusIQ's MCP implementation adds critical enterprise features on top of the base protocol:
 
