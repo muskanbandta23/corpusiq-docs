@@ -47489,5 +47489,307 @@
     ],
     "discovered_at": "2026-08-26T07:03:48.985438+00:00",
     "status": "pending"
+  },
+  {
+    "name": "mahope/hermes-passiv",
+    "url": "https://github.com/mahope/hermes-passiv",
+    "description": "Passiv \u2014 stifter af en selvk\u00f8rende indt\u00e6gt. Clean Copy, compliance-v\u00e6rkt\u00f8jer, e-b\u00f8ger, API og mere. Bygget af Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-08-26T08:02:57Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-26T08:03:17.903826+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Diabloluo/hermes-hud",
+    "url": "https://github.com/Diabloluo/hermes-hud",
+    "description": "Local real-time observability dashboard for Hermes Agent: timeline, health, token/cost, sessions, skills, cron, channels, errors & incidents \u2014 local-first, read-only, zero outbound telemetry.",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "dashboard",
+      "hermes-agent",
+      "llm",
+      "macos",
+      "monitoring",
+      "observability",
+      "plugin",
+      "privacy",
+      "security",
+      "sqlite",
+      "telemetry",
+      "token-tracking"
+    ],
+    "updated_at": "2026-08-26T07:52:53Z",
+    "category": "core",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-26T08:03:20.906609+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "e-eugene/hermes-agent",
+    "url": "https://github.com/e-eugene/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T08:00:15Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-26T08:03:23.907689+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MNDL-27/hermes-brain",
+    "url": "https://github.com/MNDL-27/hermes-brain",
+    "description": "Long-term memory for Hermes agents via 7 structured Notion databases. Heuristic auto-capture, 5 tool schemas, secret redaction, schema-repair CLI.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "hermes",
+      "hermes-agent",
+      "llm-tools",
+      "long-term-memory",
+      "memory-persistence",
+      "memory-provider",
+      "notion",
+      "notion-api"
+    ],
+    "updated_at": "2026-08-26T07:59:38Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Aphelios01-sdk/hermes-brain"
+    ],
+    "discovered_at": "2026-08-26T08:03:26.910471+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Aris-qin/hermes-fact-infra",
+    "url": "https://github.com/Aris-qin/hermes-fact-infra",
+    "description": "Fact Layer plugin for Hermes Agent \u2014 per-project SQLite fact DB (tasks/decisions/issues/experiments) + shared journals index for research project management.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-26T07:55:30Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-26T08:03:29.913167+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jkrumm/hermes-agent",
+    "url": "https://github.com/jkrumm/hermes-agent",
+    "description": "Hermes Agent setup \u2014 config, skills, patches, cron (Mac Mini-only)",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T07:54:56Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-26T08:03:32.915901+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "not-benny/hermes-g2-bridge",
+    "url": "https://github.com/not-benny/hermes-g2-bridge",
+    "description": "Authenticated MCP transport bridge for Hermes Agent and Even Realities G2 glasses",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "even-realities",
+      "hermes-agent",
+      "mcp",
+      "python",
+      "smart-glasses"
+    ],
+    "updated_at": "2026-08-26T07:30:15Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-26T08:03:42.550160+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ClaudetteMedSer/HyMem",
+    "url": "https://github.com/ClaudetteMedSer/HyMem",
+    "description": "A new memory architecture for Hermes instances, running completely local, using the Honcho SDK endpoints for integration",
+    "stars": 8,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "hermes-agent",
+      "hermes-plugin",
+      "memory"
+    ],
+    "updated_at": "2026-08-13T16:35:15Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_month"
+    ],
+    "near_duplicates": [
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-08-26T08:03:58.905115+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "anhartasman/hermes-vscode",
+    "url": "https://github.com/anhartasman/hermes-vscode",
+    "description": "Hermes AI coding agent for VS Code \u2014 streams chat, runs tools, manages sessions, switches models (Claude/Codex), and tracks context live via ACP.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-26T08:03:48Z",
+    "category": "forks",
+    "score": 43,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "EKKOLearnAI/hermes-studio",
+      "NousResearch/hermes-agent-self-evolution",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "syncable-dev/memtrace-public",
+      "longyunfeigu/learn-hermes-agent",
+      "hugocarreira/agentrc",
+      "kaankacar/stellar-agent-kit",
+      "zakahadi/llm-eval-cli",
+      "kkllxy/hermes-web-ui",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "aivrar/portable-hermes-agent",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-26T08:04:01.909216+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fbattaglieri-snowflake/hermes-snowflake",
+    "url": "https://github.com/fbattaglieri-snowflake/hermes-snowflake",
+    "description": "NousResearch Hermes Agent on Snowflake SPCS \u2014 with Cortex AI proxy, model verification tooling, and GitHub OIDC deployment",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T07:26:38Z",
+    "category": "official",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "kaankacar/stellar-agent-kit",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-08-26T08:05:24.006534+00:00",
+    "status": "pending"
   }
 ]

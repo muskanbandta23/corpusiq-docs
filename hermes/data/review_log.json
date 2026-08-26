@@ -11491,5 +11491,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-26T07:05:37.259854+00:00"
+  },
+  {
+    "repo": "mahope/hermes-passiv",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976908+00:00"
+  },
+  {
+    "repo": "Diabloluo/hermes-hud",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976921+00:00"
+  },
+  {
+    "repo": "e-eugene/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976924+00:00"
+  },
+  {
+    "repo": "MNDL-27/hermes-brain",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976926+00:00"
+  },
+  {
+    "repo": "Aris-qin/hermes-fact-infra",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976928+00:00"
+  },
+  {
+    "repo": "jkrumm/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976930+00:00"
+  },
+  {
+    "repo": "not-benny/hermes-g2-bridge",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976932+00:00"
+  },
+  {
+    "repo": "ClaudetteMedSer/HyMem",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976934+00:00"
+  },
+  {
+    "repo": "anhartasman/hermes-vscode",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976936+00:00"
+  },
+  {
+    "repo": "fbattaglieri-snowflake/hermes-snowflake",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T08:05:52.976937+00:00"
   }
 ]
