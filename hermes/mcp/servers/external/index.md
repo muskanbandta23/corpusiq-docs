@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-24"
+last_updated: "2026-08-26"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 25, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3750-#3757, mcp.so homepage + feed, mcpservers.org /all pages 1-3 + homepage · **Catalog:** 372 servers (+258 guides)
+> **Last updated:** August 26, 2026 (morning cron sweep) · **Sources:** mcp.so feed (newest 30 submissions) + mcpservers.org /all pages 1-3 · **Catalog:** 375 servers (+261 guides)
 
 ## 🆕 August 25, 2026 - Night Cron Sweep (3 New, 3 Guides)
 
@@ -25,6 +25,17 @@ Night sweep sourced from chatmcp/mcpso issues #3750-#3757 (Aug 25 18:03 - Aug 26
 [PopOff Data MCP - Reality-TV Social Analytics for AI Agents](/hermes/mcp/servers/external/popoff-data/) · 12 tools, API key, $79/mo flat with 5,000 calls.
 
 **Also identified (not catalogued):** AgentSeed #3750 (AST-level code verification and anti-hallucination guardrails for coding agents - dev tool class), Spoolis #3752 (outcome verification for result-shaped agent purchases - commerce infra, no business data carried), SSSNACK #3755 (agent self-registration design network - agent community infra class), 1Claw #3757 (HSM-backed agent secrets vault and signing - agent security infra class). Homepage and /all slug dispositions: BoardRepo (KiCad/Altium PCB search - niche hardware dev data), PZERO (AI model marketplace aggregator - UnificAlly class), Walletwatch (Solana wallet lookup - crypto consumer class), AstroFabric (agentic OS for deploying growth/revenue agents - agent orchestration infra, ADA Turbo class), WaveMaster (surf forecasting - niche consumer data), Hird (Hird language compiler introspection - dev tool class). Already evaluated in prior sweeps: CorpusLaw, Real Wave GHL, BulkTranscripts, xRocket (myrocket slug), Normi DVF (all catalogued), Appraisily (skip). Famous-name mcpservers.org homepage slugs are re-indexes.
+## 🆕 August 26, 2026 - Morning Cron Sweep (3 New, 3 Guides)
+
+Morning sweep sourced from the mcp.so feed (newest 30 submissions) and mcpservers.org /all pages 1-3. 3 new business-relevant servers catalogued with guides: SocialRobot (remote social media scheduling and analytics across Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky and Mastodon - 18 documented tools covering create/list/reschedule/delete posts, presigned media uploads, account and post analytics, follower demographics, best-time-to-post, TikTok creator info and LinkedIn Company Page targeting; Streamable HTTP at socialrobot.io/api/mcp, OAuth 2.0 PKCE or API key, free on every plan), Hologrow (read-only e-commerce data layer for AI - platform OAuth, sync, freshness and schema handled upstream so agents only read, five discovery tools plus installable analysis skills; remote at mcp.hologrow.ai/mcp), MetricFire (official Hosted Graphite monitoring MCP - metric pattern and tagged search, Graphite render as JSON/CSV/raw/PNG/SVG, alert CRUD with AND/OR criteria, notification channels and scheduled mutes; endpoint mcp.hostedgraphite.com with X-HostedGraphite-MCP-Token auth - resolves the Aug 23 thin-docs skip, endpoint now verified from the mcpservers.org detail page).
+
+[SocialRobot MCP - Social Media Scheduling and Analytics for AI Agents](/hermes/mcp/servers/external/socialrobot-mcp/) · 18 tools, OAuth PKCE or API key, 9 platforms, free tier.
+
+[Hologrow MCP - E-Commerce Data Layer for AI Agents](/hermes/mcp/servers/external/hologrow-mcp/) · Read-only, hosted OAuth/sync/schema, remote endpoint.
+
+[MetricFire MCP - Natural Language Infrastructure Monitoring](/hermes/mcp/servers/external/metricfire-mcp/) · Official, token auth, metrics/render/alerts/channels/mutes.
+
+**Also identified (not catalogued):** SocialData (Twitter/X data reseller, 14 read-only tools billed per result - commercial X-data wrapper class, same class as the TwitterAPIs skip from Aug 25), OpenLore (serve docs to agents as a virtual filesystem over SSH/MCP - local dev tool class), fhirHydrant (self-hosted Node.js FHIR server with SMART Backend Services - healthcare dev infra, no hosted service), Legion MCP (multi-model LLM deliberation councils - agent infra class), Speccy x402 MCP (pay-per-call x402 wrapping of Polymarket/Python/FFMPEG - crypto/payments class), RE Data Refinery (x402 real-estate pay-per-query - crypto/payments class), YouTube Transcript AI (hosted transcript utility - BulkTranscripts precedent), BillTruth (Texas electricity plan cost data from state-filed EFLs - regional niche data), Marketingburos (Dutch marketing-agency directory with RFQs - regional niche), WorkerKit (AI worker kits marketplace - agent infra class), CoAnimator (agentic animation studio - media production class), Screenies (App Store screenshot-set generator - dev/marketing asset), Synapse by Myelix Labs (agent knowledge/token efficiency - agent infra class), Wagglet (AI coding-task handoff - agent infra class), Speko (voice agents, TTS/STT and call transcripts - telephony utility), ScreenMocks (design mockup generator - dev tool), MetricFire was previously skipped Aug 23 (endpoint unverifiable) - now catalogued above with the endpoint verified. Feed repeats already evaluated in Aug 24-25 sweeps (QuanticData, Windframe, AgentRisk M2M, OAIA Arena, uxgen, ReactVision, Batru, SecondSim, Routebase, Magichour, Mangii, SSH MCP Server, Agentic Atlas, Jitsu, Ship24, Alpha Sophia, HostTracker, Ice Juice, Shotstack, Agency AI, TEOS, SenderKit, GovGazette, Partsgraph, More Good Reviews, TwitterAPIs, Lacuna, ORANO, Xi Pe).
 ## 🆕 August 25, 2026 - Evening Cron Sweep (9 New, 9 Guides)
 
 Evening sweep sourced from chatmcp/mcpso issues #3746-#3749 (Aug 25 10:47 - 16:48 UTC), the mcp.so homepage and feed, and mcpservers.org /all pages 1-3. 9 new business-relevant servers catalogued with guides: Alpha Sophia (official MCP from the US healthcare provider and organization database - resolve_entity plus search, count and market_size tools over procedures, diagnoses, affiliations, publications and clinical trials; OAuth remote at api.alphasophia.com/v1/mcp), BeeL (Spanish VeriFactu e-invoicing with AEAT - about 120 OpenAPI-derived tools for invoices, correctives, NIF validation, series and fiscal guardrails; OAuth remote plus stdio), CivicDataForge (government-records evidence relay - 14 live-probed tools covering STR permits across 31 sources, LEIE exclusion screening, property violations, restaurant inspections, childcare licensing, EPA ECHO and Norwegian company evidence; Apify-token auth), Partsgraph (keyless parts catalog with datasheet provenance, compatibility checks and priced BOM building - 11 tools live-probed on the demo catalogue), Nacha MCP (stdio ACH file parser with structural and arithmetic validation and IAT support - 2 tools), 1Lookup (phone, email and IP verification with DNC status, deliverability and proxy detection - OAuth 2.1 remote, 401-verified live, credit-based), HostTracker (official uptime-monitoring MCP from the 2004-vintage monitoring network - 65 tools, synchronous checks from 300+ locations, Bearer token), SenderKit (transactional messaging over MCP - 18 tools for templates, sends, delivery inspection and inbound management), More Good Reviews (project-scoped review management - customers, review requests, Google and Facebook reply publishing with a confirm gate, agency variant for white-label).
@@ -4796,3 +4807,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Transcodely MCP - Video Transcoding and Hosting for AI Agents](/docs/hermes/mcp/servers/external/transcodely-mcp/)
 - [Rapidly MCP - Idea Validation, Lean Canvas and Pretotyping](/docs/hermes/mcp/servers/external/rapidly-mcp/)
 - [PopOff Data MCP - Reality-TV Social Analytics for AI Agents](/docs/hermes/mcp/servers/external/popoff-data/)
+
+### 3 new servers from the mcp.so feed - Aug 26, 2026 (morning cron sweep)
+
+- [SocialRobot MCP - Social Media Scheduling and Analytics for AI Agents](/docs/hermes/mcp/servers/external/socialrobot-mcp/)
+- [Hologrow MCP - E-Commerce Data Layer for AI Agents](/docs/hermes/mcp/servers/external/hologrow-mcp/)
+- [MetricFire MCP - Natural Language Infrastructure Monitoring](/docs/hermes/mcp/servers/external/metricfire-mcp/)
