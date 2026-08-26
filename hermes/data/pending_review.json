@@ -47314,5 +47314,180 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-26T06:06:14.913615+00:00",
     "status": "pending"
+  },
+  {
+    "name": "kukhtik/hermes-reform",
+    "url": "https://github.com/kukhtik/hermes-reform",
+    "description": "Hermes Reform: \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0430 Hermes Agent + Desktop + Agent Harness \u043f\u043e \u0430\u0443\u0434\u0438\u0442\u0443 2026-08-25",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T07:02:56Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-26T07:03:11.038523+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WhoKnowsWhoCares/hermes-agent",
+    "url": "https://github.com/WhoKnowsWhoCares/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T07:02:25Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-26T07:03:14.039607+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rubyrayjuntos/hermes-memory",
+    "url": "https://github.com/rubyrayjuntos/hermes-memory",
+    "description": "\ud83d\udcdcThe Hermes Librarian\ud83d\udcdc Hybrid memory provider for Hermes Agent \u2014 Postgres + pgvector + Apache AGE knowledge graph with prompt context injection",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "apache-age",
+      "hermes",
+      "hermes-agent",
+      "knowledge-graph",
+      "memory",
+      "pgvector",
+      "rag"
+    ],
+    "updated_at": "2026-08-26T07:01:03Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ahonore42/logios-brain",
+      "mage0535/hermes-memory-installer",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-26T07:03:17.042532+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jmsunseri/hermes-uber-eats-mcp",
+    "url": "https://github.com/jmsunseri/hermes-uber-eats-mcp",
+    "description": "an mcp server for your hermes agent to find you food on github",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T06:54:33Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-08-26T07:03:29.691655+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lgc2333/hermes-agent-desktop-web",
+    "url": "https://github.com/lgc2333/hermes-agent-desktop-web",
+    "description": "Hermes Agent Desktop in a web browser (WebUI), same UI, same feel",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermes-desktop",
+      "hermes-webui",
+      "webui"
+    ],
+    "updated_at": "2026-08-26T07:03:27Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-26T07:03:45.981307+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zons-zhaozhy/hermes-agent",
+    "url": "https://github.com/zons-zhaozhy/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T07:02:50Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-26T07:03:48.985438+00:00",
+    "status": "pending"
   }
 ]

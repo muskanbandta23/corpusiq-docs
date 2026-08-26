@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 170+ repos, tools, skills, and integrations
-last_updated: 2026-08-25
+description: Comprehensive directory of the Hermes Agent ecosystem — 171+ repos, tools, skills, and integrations
+last_updated: 2026-08-26
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **170+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **171+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **170+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **171+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -31,7 +31,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **170+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 2 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 38 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 39 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 33 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -924,6 +924,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [HuangYuChuh/ComfyUI_Skills_OpenClaw](https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw) ⭐ 395
+
+>Agent-friendly ComfyUI workflow skills for OpenClaw, Hermes Agent, Codex, and Claude Code; complementary to Comfy official local MCP.
+
+**Language:** Python | **Topics:** hermes-agent, comfyui, mcp, image-generation, workflow-automation | **Score:** 85/100
+
+---
+
 ### [Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) ⭐ 381
 
 > A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time you work with Hermes and solve something — setting up a project, debugging code, creating a PR — that   workflow disappears at the end of the session. You have to explain it again next time.
@@ -1429,6 +1437,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*170+ repositories in the Hermes ecosystem. Last updated: 2026-08-25. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*171+ repositories in the Hermes ecosystem. Last updated: 2026-08-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
