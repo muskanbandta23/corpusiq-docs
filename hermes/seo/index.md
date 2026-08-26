@@ -23,6 +23,7 @@ Educational pages on connecting AI to business data. Written for operators askin
 | [Why Your AI Gives Different Answers](ai-data-consistency.md) | The single-source-of-truth problem |
 | [Consistent AI Answers](consistent-ai-answers.md) | Same answer from every AI, every time |
 | [Manual Reporting Time Waste](manual-reporting-time-waste.md) | The 8-hour tax nobody talks about |
+| [Google Preferred Sources Badge](google-preferred-sources-badge.md) | Get a preferred badge in AI Overviews, AI Mode, and Top Stories |
 
 *← [Hermes Home](/hermes/) | [Guides →](/hermes/guides/)*
 

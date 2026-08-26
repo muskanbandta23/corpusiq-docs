@@ -14,6 +14,7 @@ extra_css:
 - stylesheets/extra-v2.css
 extra_javascript:
 - javascripts/hermes-nav.js?v=2
+- javascripts/preferred-source-badge.js?v=1
 # Rewrites the theme's page-relative asset URLs (assets/, javascripts/,
 # stylesheets/) to absolute /docs/-rooted paths at build time. Required because
 # the site is served under /docs/ with trailing-slash stripping, which makes a
