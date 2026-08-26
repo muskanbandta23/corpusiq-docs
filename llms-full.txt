@@ -6,7 +6,7 @@
 
 ---
 # Contributing to CorpusIQ Docs
-URL: https://www.corpusiq.io/docs/CONTRIBUTING/
+URL: https://www.corpusiq.io/docs/CONTRIBUTING
 
 # Contributing to CorpusIQ Docs
 
@@ -112,7 +112,7 @@ use for Q&A, early ideas, announcements, and show-and-tell posts.
 
 ---
 # CorpusIQ Documentation
-URL: https://www.corpusiq.io/docs/
+URL: https://www.corpusiq.io/docs
 
 
 # CorpusIQ Documentation
@@ -179,7 +179,7 @@ For integration partners and enterprise deployments, contact sales@corpusiq.io.
 
 ---
 # MCP Direct Connection  --  Any AI, Any Model
-URL: https://www.corpusiq.io/docs/ai-agent-users/
+URL: https://www.corpusiq.io/docs/ai-agent-users
 
 # MCP Direct Connection  --  Any AI, Any Model
 
@@ -328,7 +328,7 @@ A: Your agent can use the reviewer-visible CorpusIQ tool catalog across business
 
 ---
 # AI Chat Users
-URL: https://www.corpusiq.io/docs/ai-chat-users/
+URL: https://www.corpusiq.io/docs/ai-chat-users
 
 # AI Chat Users
 
@@ -450,7 +450,7 @@ A: Go to demo.corpusiq.io, sign in with your email, connect your first data sour
 
 ---
 # AI for Audit Readiness: Always Prepared, Never Scrambling
-URL: https://www.corpusiq.io/docs/ai-for-audit-readiness/
+URL: https://www.corpusiq.io/docs/ai-for-audit-readiness
 
 
 # AI for Audit Readiness: Always Prepared, Never Scrambling
@@ -569,7 +569,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 ---
 # AI for Business Intelligence: From Dashboards to Conversations
-URL: https://www.corpusiq.io/docs/ai-for-business-intelligence/
+URL: https://www.corpusiq.io/docs/ai-for-business-intelligence
 
 
 # AI for Business Intelligence: From Dashboards to Conversations
@@ -717,7 +717,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ---
 # AI for Compliance: Real-Time Regulatory Intelligence
-URL: https://www.corpusiq.io/docs/ai-for-compliance/
+URL: https://www.corpusiq.io/docs/ai-for-compliance
 
 
 # AI for Compliance: Real-Time Regulatory Intelligence
@@ -836,7 +836,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 ---
 # AI for Customer Support: Smarter, Faster Customer Intelligence
-URL: https://www.corpusiq.io/docs/ai-for-customer-support/
+URL: https://www.corpusiq.io/docs/ai-for-customer-support
 
 
 # AI for Customer Support: Smarter, Faster Customer Intelligence
@@ -962,7 +962,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 ---
 # AI for Data Analysis: From SQL Queries to Natural Conversations
-URL: https://www.corpusiq.io/docs/ai-for-data-analysis/
+URL: https://www.corpusiq.io/docs/ai-for-data-analysis
 
 
 # AI for Data Analysis: From SQL Queries to Natural Conversations
@@ -1092,7 +1092,7 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 
 ---
 # AI for Document Search: Find Answers, Not Just Files
-URL: https://www.corpusiq.io/docs/ai-for-document-search/
+URL: https://www.corpusiq.io/docs/ai-for-document-search
 
 
 # AI for Document Search: Find Answers, Not Just Files
@@ -1221,7 +1221,7 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 
 ---
 # AI for Executive Reporting: Instant Board-Ready Intelligence
-URL: https://www.corpusiq.io/docs/ai-for-executive-reporting/
+URL: https://www.corpusiq.io/docs/ai-for-executive-reporting
 
 
 # AI for Executive Reporting: Instant Board-Ready Intelligence
@@ -1351,7 +1351,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ---
 # AI for Financial Analysis: Real-Time Finance Intelligence
-URL: https://www.corpusiq.io/docs/ai-for-financial-analysis/
+URL: https://www.corpusiq.io/docs/ai-for-financial-analysis
 
 
 # AI for Financial Analysis: Real-Time Finance Intelligence
@@ -1480,7 +1480,7 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 ---
 # AI for Forecasting: Predictive Intelligence from Live Data
-URL: https://www.corpusiq.io/docs/ai-for-forecasting/
+URL: https://www.corpusiq.io/docs/ai-for-forecasting
 
 
 # AI for Forecasting: Predictive Intelligence from Live Data
@@ -1599,7 +1599,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 ---
 # AI for Knowledge Management: Unlock Your Organization's Brain
-URL: https://www.corpusiq.io/docs/ai-for-knowledge-management/
+URL: https://www.corpusiq.io/docs/ai-for-knowledge-management
 
 
 # AI for Knowledge Management: Unlock Your Organization's Brain
@@ -1726,7 +1726,7 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 
 ---
 # AI for KPI Monitoring: Real-Time Metrics at Your Fingertips
-URL: https://www.corpusiq.io/docs/ai-for-kpi-monitoring/
+URL: https://www.corpusiq.io/docs/ai-for-kpi-monitoring
 
 
 # AI for KPI Monitoring: Real-Time Metrics at Your Fingertips
@@ -1857,7 +1857,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 ---
 # AI for Marketing Analytics: Campaign Intelligence in Real Time
-URL: https://www.corpusiq.io/docs/ai-for-marketing-analytics/
+URL: https://www.corpusiq.io/docs/ai-for-marketing-analytics
 
 
 # AI for Marketing Analytics: Campaign Intelligence in Real Time
@@ -1981,7 +1981,7 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 ---
 # AI for Project Management: From Status Meetings to Instant Answers
-URL: https://www.corpusiq.io/docs/ai-for-project-management/
+URL: https://www.corpusiq.io/docs/ai-for-project-management
 
 
 # AI for Project Management: From Status Meetings to Instant Answers
@@ -2104,7 +2104,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 ---
 # AI for Revenue Operations: Unify Your Revenue Data
-URL: https://www.corpusiq.io/docs/ai-for-revenue-operations/
+URL: https://www.corpusiq.io/docs/ai-for-revenue-operations
 
 
 # AI for Revenue Operations: Unify Your Revenue Data
@@ -2232,7 +2232,7 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 
 ---
 # AI for Sales Reporting: Pipeline Intelligence in Real Time
-URL: https://www.corpusiq.io/docs/ai-for-sales-reporting/
+URL: https://www.corpusiq.io/docs/ai-for-sales-reporting
 
 
 # AI for Sales Reporting: Pipeline Intelligence in Real Time
@@ -2358,7 +2358,7 @@ A: The CRM retrieval tools documented here do not create opportunities or update
 
 ---
 # Authentication
-URL: https://www.corpusiq.io/docs/api/authentication/
+URL: https://www.corpusiq.io/docs/api/authentication
 
 # Authentication
 
@@ -2477,7 +2477,7 @@ A: Disconnect the connector from the CorpusIQ Dashboard. The service commits an 
 
 ---
 # API Endpoints Reference
-URL: https://www.corpusiq.io/docs/api/endpoints/
+URL: https://www.corpusiq.io/docs/api/endpoints
 
 # API Endpoints Reference
 
@@ -2737,7 +2737,7 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
 
 ---
 # Error Codes
-URL: https://www.corpusiq.io/docs/api/errors/
+URL: https://www.corpusiq.io/docs/api/errors
 
 # Error Codes
 
@@ -2853,7 +2853,7 @@ A: A 400 error means your request body or parameters are malformed. Check that r
 
 ---
 # CorpusIQ API Reference
-URL: https://www.corpusiq.io/docs/api/
+URL: https://www.corpusiq.io/docs/api
 
 
 # CorpusIQ API Reference
@@ -2908,7 +2908,7 @@ Full endpoint documentation with request/response examples: [Endpoints](endpoint
 
 ---
 # OpenAPI Specification
-URL: https://www.corpusiq.io/docs/api/openapi/
+URL: https://www.corpusiq.io/docs/api/openapi
 
 # OpenAPI Specification
 
@@ -3235,7 +3235,7 @@ A: Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and a
 
 ---
 # API Overview
-URL: https://www.corpusiq.io/docs/api/overview/
+URL: https://www.corpusiq.io/docs/api/overview
 
 
 # API Overview
@@ -3328,7 +3328,7 @@ A: Most queries return results in 1–5 seconds. Cross-source queries spanning m
 
 ---
 # Rate Limits
-URL: https://www.corpusiq.io/docs/api/rate-limits/
+URL: https://www.corpusiq.io/docs/api/rate-limits
 
 # Rate Limits
 
@@ -3445,7 +3445,7 @@ A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales f
 
 ---
 # API Schemas
-URL: https://www.corpusiq.io/docs/api/schemas/
+URL: https://www.corpusiq.io/docs/api/schemas
 
 # API Schemas
 
@@ -3557,7 +3557,7 @@ A: Errors use a consistent format: {"error": {"type": "error_category", "message
 
 ---
 # Webhooks
-URL: https://www.corpusiq.io/docs/api/webhooks/
+URL: https://www.corpusiq.io/docs/api/webhooks
 
 # Webhooks
 
@@ -3571,7 +3571,7 @@ Questions about a planned event-driven integration can be sent to support@corpus
 
 ---
 # Architecture
-URL: https://www.corpusiq.io/docs/architecture/
+URL: https://www.corpusiq.io/docs/architecture
 
 # Architecture
 
@@ -3670,7 +3670,7 @@ A: CorpusIQ is a fully managed hosted service with automatic scaling and high av
 
 ---
 # Benefits of MCP for Business: 9 Reasons to Connect Your Data to AI
-URL: https://www.corpusiq.io/docs/benefits-of-mcp-for-business/
+URL: https://www.corpusiq.io/docs/benefits-of-mcp-for-business
 
 
 # Benefits of MCP for Business: 9 Reasons to Connect Your Data to AI
@@ -3817,7 +3817,7 @@ Traditional BI involves per-seat licensing, infrastructure costs, and implementa
 
 ---
 # Best AI Data Connector  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/best-ai-data-connector/
+URL: https://www.corpusiq.io/docs/best-ai-data-connector
 
 
 # Best AI Data Connector  --  2026 Rankings
@@ -3974,7 +3974,7 @@ A: Start with CRM + Accounting (2 connectors). Most organizations get maximum va
 
 ---
 # Best AI Knowledge Platform  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/best-ai-knowledge-platform/
+URL: https://www.corpusiq.io/docs/best-ai-knowledge-platform
 
 
 # Best AI Knowledge Platform  --  2026 Rankings
@@ -4138,7 +4138,7 @@ A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live busines
 
 ---
 # Best Business AI Search Tool  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/best-business-ai-search-tool/
+URL: https://www.corpusiq.io/docs/best-business-ai-search-tool
 
 
 # Best Business AI Search Tool  --  2026 Rankings
@@ -4302,7 +4302,7 @@ A: CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs.
 
 ---
 # Best ChatGPT Integration Platform  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/best-chatgpt-integration-platform/
+URL: https://www.corpusiq.io/docs/best-chatgpt-integration-platform
 
 
 # Best ChatGPT Integration Platform  --  2026 Rankings
@@ -4459,7 +4459,7 @@ A: CorpusIQ: $50-200/seat/month. Custom MCP: $100K-300K/year. Zapier: per-task p
 
 ---
 # Best MCP Server for Business  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/best-mcp-server-for-business/
+URL: https://www.corpusiq.io/docs/best-mcp-server-for-business
 
 
 # Best MCP Server for Business  --  2026 Rankings
@@ -4632,7 +4632,7 @@ A: Yes. MCP is being adopted by major AI platforms (Anthropic, OpenAI) and is be
 
 ---
 # Best Way to Connect ChatGPT to Business Data  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/best-way-to-connect-chatgpt-to-business-data/
+URL: https://www.corpusiq.io/docs/best-way-to-connect-chatgpt-to-business-data
 
 
 # Best Way to Connect ChatGPT to Business Data  --  2026 Rankings
@@ -4805,7 +4805,7 @@ A: CorpusIQ offers a free tier. The free tier of ChatGPT has limited MCP support
 
 ---
 # Changelog
-URL: https://www.corpusiq.io/docs/changelog/
+URL: https://www.corpusiq.io/docs/changelog
 
 # Changelog
 
@@ -4922,7 +4922,7 @@ A: As of the v1.0 release (March 2026), CorpusIQ supports 40+ native connectors 
 
 ---
 # CorpusIQ in Slack and Teams
-URL: https://www.corpusiq.io/docs/chat-apps/
+URL: https://www.corpusiq.io/docs/chat-apps
 
 
 # CorpusIQ in Slack and Teams
@@ -4968,7 +4968,7 @@ Do those once and every question after is just step three.
 
 ---
 # Asking questions
-URL: https://www.corpusiq.io/docs/chat-apps/asking-questions/
+URL: https://www.corpusiq.io/docs/chat-apps/asking-questions
 
 
 # Asking questions
@@ -5083,7 +5083,7 @@ Ask it to be specific — name the tool or the date range — and see
 
 ---
 # Commands and your account
-URL: https://www.corpusiq.io/docs/chat-apps/commands-and-account/
+URL: https://www.corpusiq.io/docs/chat-apps/commands-and-account
 
 
 # Commands and your account
@@ -5147,7 +5147,7 @@ as you until you choose to link again.
 
 ---
 # Getting started in Slack
-URL: https://www.corpusiq.io/docs/chat-apps/getting-started-slack/
+URL: https://www.corpusiq.io/docs/chat-apps/getting-started-slack
 
 
 # Getting started in Slack
@@ -5228,7 +5228,7 @@ read, ask again. For questions worth trying next, see
 
 ---
 # Getting started in Microsoft Teams
-URL: https://www.corpusiq.io/docs/chat-apps/getting-started-teams/
+URL: https://www.corpusiq.io/docs/chat-apps/getting-started-teams
 
 
 # Getting started in Microsoft Teams
@@ -5308,7 +5308,7 @@ trying next, see [asking-questions.md](asking-questions.md).
 
 ---
 # Troubleshooting
-URL: https://www.corpusiq.io/docs/chat-apps/troubleshooting/
+URL: https://www.corpusiq.io/docs/chat-apps/troubleshooting
 
 
 # Troubleshooting
@@ -5381,7 +5381,7 @@ fix.
 
 ---
 # What the chat app is
-URL: https://www.corpusiq.io/docs/chat-apps/what-it-is/
+URL: https://www.corpusiq.io/docs/chat-apps/what-it-is
 
 
 # What the chat app is
@@ -5449,7 +5449,7 @@ minutes. Pick your platform:
 
 ---
 # ChatGPT for HubSpot: Your AI-Powered CRM Command Center
-URL: https://www.corpusiq.io/docs/chatgpt-for-hubspot/
+URL: https://www.corpusiq.io/docs/chatgpt-for-hubspot
 
 
 # ChatGPT for HubSpot: Your AI-Powered CRM Command Center
@@ -5579,7 +5579,7 @@ ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM
 
 ---
 # ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI
-URL: https://www.corpusiq.io/docs/chatgpt-for-quickbooks/
+URL: https://www.corpusiq.io/docs/chatgpt-for-quickbooks
 
 
 # ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI
@@ -5710,7 +5710,7 @@ CorpusIQ is the only MCP platform purpose-built for business data integration. U
 
 ---
 # ChatGPT for Shopify: Your AI-Powered Ecommerce Command Center
-URL: https://www.corpusiq.io/docs/chatgpt-for-shopify/
+URL: https://www.corpusiq.io/docs/chatgpt-for-shopify
 
 
 # ChatGPT for Shopify: Your AI-Powered Ecommerce Command Center
@@ -5840,7 +5840,7 @@ ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecomm
 
 ---
 # ChatGPT Integration
-URL: https://www.corpusiq.io/docs/chatgpt-integration/
+URL: https://www.corpusiq.io/docs/chatgpt-integration
 
 
 title: "ChatGPT Integration with CorpusIQ  --  Connect Business Data to ChatGPT"
@@ -5928,7 +5928,7 @@ A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The fre
 
 ---
 # Claude for HubSpot: Deep CRM Intelligence with Anthropic's AI
-URL: https://www.corpusiq.io/docs/claude-for-hubspot/
+URL: https://www.corpusiq.io/docs/claude-for-hubspot
 
 
 # Claude for HubSpot: Deep CRM Intelligence with Anthropic's AI
@@ -6058,7 +6058,7 @@ Claude for HubSpot through CorpusIQ brings enterprise-grade sales analytics to o
 
 ---
 # Claude for QuickBooks: Advanced AI Financial Analysis with Anthropic's Claude
-URL: https://www.corpusiq.io/docs/claude-for-quickbooks/
+URL: https://www.corpusiq.io/docs/claude-for-quickbooks
 
 
 # Claude for QuickBooks: Advanced AI Financial Analysis with Anthropic's Claude
@@ -6189,7 +6189,7 @@ CorpusIQ is the only MCP platform that provides production-ready QuickBooks tool
 
 ---
 # Claude for Shopify: Deep Ecommerce Intelligence with Anthropic's AI
-URL: https://www.corpusiq.io/docs/claude-for-shopify/
+URL: https://www.corpusiq.io/docs/claude-for-shopify
 
 
 # Claude for Shopify: Deep Ecommerce Intelligence with Anthropic's AI
@@ -6319,7 +6319,7 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 
 ---
 # How to Connect Asana to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-asana-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-asana-to-chatgpt
 
 
 # How to Connect Asana to ChatGPT with CorpusIQ MCP
@@ -6477,7 +6477,7 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 
 ---
 # How to Connect Gmail to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-gmail-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-gmail-to-chatgpt
 
 
 # How to Connect Gmail to ChatGPT with CorpusIQ MCP
@@ -6612,7 +6612,7 @@ For individuals and organizations concerned about email privacy, Gmail remains t
 
 ---
 # How to Connect Google Analytics to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-google-analytics-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-google-analytics-to-chatgpt
 
 
 # How to Connect Google Analytics to ChatGPT with CorpusIQ MCP
@@ -6772,7 +6772,7 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 
 ---
 # How to Connect Google Analytics to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-google-analytics-to-claude/
+URL: https://www.corpusiq.io/docs/connect-google-analytics-to-claude
 
 
 # How to Connect Google Analytics to Claude with CorpusIQ MCP
@@ -6905,7 +6905,7 @@ Yes. The API returns data based on the property's configured reporting identity 
 
 ---
 # How to Connect HubSpot to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-hubspot-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-hubspot-to-chatgpt
 
 
 # How to Connect HubSpot to ChatGPT with CorpusIQ MCP
@@ -7062,7 +7062,7 @@ Under 5 minutes from signup to your first CRM query in ChatGPT.
 
 ---
 # How to Connect HubSpot to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-hubspot-to-claude/
+URL: https://www.corpusiq.io/docs/connect-hubspot-to-claude
 
 
 # How to Connect HubSpot to Claude with CorpusIQ MCP
@@ -7191,7 +7191,7 @@ OAuth scopes control access at the object level. For property-level restrictions
 
 ---
 # How to Connect Jira to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-jira-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-jira-to-chatgpt
 
 
 # How to Connect Jira to ChatGPT with CorpusIQ MCP
@@ -7355,7 +7355,7 @@ Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 
 ---
 # How to Connect Monday.com to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-monday-com-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-monday-com-to-chatgpt
 
 
 # How to Connect Monday.com to ChatGPT with CorpusIQ MCP
@@ -7513,7 +7513,7 @@ Setup takes under 5 minutes. No API keys to manage. No GraphQL to write.
 
 ---
 # How to Connect NetSuite to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-netsuite-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-netsuite-to-chatgpt
 
 
 # How to Connect NetSuite to ChatGPT with CorpusIQ MCP
@@ -7663,7 +7663,7 @@ SuiteScript is the right tool for custom business logic, automation, and deep Ne
 
 ---
 # How to Connect NetSuite to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-netsuite-to-claude/
+URL: https://www.corpusiq.io/docs/connect-netsuite-to-claude
 
 
 # How to Connect NetSuite to Claude with CorpusIQ MCP
@@ -7789,7 +7789,7 @@ Yes. Configure your NetSuite role's subsidiary restrictions  --  CorpusIQ honors
 
 ---
 # How to Connect Notion to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-notion-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-notion-to-chatgpt
 
 
 # How to Connect Notion to ChatGPT with CorpusIQ MCP
@@ -7926,7 +7926,7 @@ For organizations with sensitive documentation  --  IP, strategy, customer data 
 
 ---
 # Connect Notion to Claude: Your Wiki as an AI Knowledge Base
-URL: https://www.corpusiq.io/docs/connect-notion-to-claude/
+URL: https://www.corpusiq.io/docs/connect-notion-to-claude
 
 
 # Connect Notion to Claude: Your Wiki as an AI Knowledge Base
@@ -8053,7 +8053,7 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 ---
 # How to Connect Outlook to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-outlook-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-outlook-to-chatgpt
 
 
 # How to Connect Outlook to ChatGPT with CorpusIQ MCP
@@ -8187,7 +8187,7 @@ The Outlook integration's security is enforced by Microsoft's permission framewo
 
 ---
 # How to Connect QuickBooks to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-quickbooks-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-quickbooks-to-chatgpt
 
 
 # How to Connect QuickBooks to ChatGPT with CorpusIQ MCP
@@ -8343,7 +8343,7 @@ The direct API approach is appropriate when you need write operations  --  creat
 
 ---
 # How to Connect QuickBooks to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-quickbooks-to-claude/
+URL: https://www.corpusiq.io/docs/connect-quickbooks-to-claude
 
 
 # How to Connect QuickBooks to Claude with CorpusIQ MCP
@@ -8521,7 +8521,7 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 
 ---
 # How to Connect Salesforce to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-salesforce-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-salesforce-to-chatgpt
 
 
 # How to Connect Salesforce to ChatGPT with CorpusIQ MCP
@@ -8671,7 +8671,7 @@ Direct API integration is appropriate for custom Salesforce workflows that requi
 
 ---
 # How to Connect Salesforce to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-salesforce-to-claude/
+URL: https://www.corpusiq.io/docs/connect-salesforce-to-claude
 
 
 # How to Connect Salesforce to Claude with CorpusIQ MCP
@@ -8799,7 +8799,7 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 
 ---
 # How to Connect SharePoint to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-sharepoint-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-sharepoint-to-chatgpt
 
 
 # How to Connect SharePoint to ChatGPT with CorpusIQ MCP
@@ -8935,7 +8935,7 @@ For enterprises in regulated industries, Microsoft 365 remains the authoritative
 
 ---
 # Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence
-URL: https://www.corpusiq.io/docs/connect-sharepoint-to-claude/
+URL: https://www.corpusiq.io/docs/connect-sharepoint-to-claude
 
 
 # Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence
@@ -9082,7 +9082,7 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 ---
 # How to Connect Shopify to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-shopify-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-shopify-to-chatgpt
 
 
 # How to Connect Shopify to ChatGPT with CorpusIQ MCP
@@ -9234,7 +9234,7 @@ The direct API approach makes sense if you need custom write operations or deepl
 
 ---
 # How to Connect Shopify to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-shopify-to-claude/
+URL: https://www.corpusiq.io/docs/connect-shopify-to-claude
 
 
 # How to Connect Shopify to Claude with CorpusIQ MCP
@@ -9403,7 +9403,7 @@ You can connect multiple stores through CorpusIQ and specify which store Claude 
 
 ---
 # How to Connect Slack to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-slack-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-slack-to-chatgpt
 
 
 # How to Connect Slack to ChatGPT with CorpusIQ MCP
@@ -9538,7 +9538,7 @@ For organizations with sensitive internal communications, Slack remains the auth
 
 ---
 # Connect Slack to Claude: Unlock Your Team's Knowledge Base
-URL: https://www.corpusiq.io/docs/connect-slack-to-claude/
+URL: https://www.corpusiq.io/docs/connect-slack-to-claude
 
 
 # Connect Slack to Claude: Unlock Your Team's Knowledge Base
@@ -9664,7 +9664,7 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 ---
 # How to Connect Stripe to ChatGPT with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-stripe-to-chatgpt/
+URL: https://www.corpusiq.io/docs/connect-stripe-to-chatgpt
 
 
 # How to Connect Stripe to ChatGPT with CorpusIQ MCP
@@ -9819,7 +9819,7 @@ Direct API integration is appropriate for custom payment flows, Stripe Connect p
 
 ---
 # How to Connect Stripe to Claude with CorpusIQ MCP
-URL: https://www.corpusiq.io/docs/connect-stripe-to-claude/
+URL: https://www.corpusiq.io/docs/connect-stripe-to-claude
 
 
 # How to Connect Stripe to Claude with CorpusIQ MCP
@@ -9954,7 +9954,7 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 
 ---
 # CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
-URL: https://www.corpusiq.io/docs/connectors/
+URL: https://www.corpusiq.io/docs/connectors
 
 # CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
 
@@ -10122,7 +10122,7 @@ A: Visit the CorpusIQ Dashboard to see connector status (active, paused, needs r
 
 ---
 # CorpusIQ vs Airbyte: Instant AI vs Data Pipeline
-URL: https://www.corpusiq.io/docs/corpusiq-vs-airbyte/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-airbyte
 
 
 # CorpusIQ vs Airbyte: Instant AI vs Data Pipeline
@@ -10150,7 +10150,7 @@ URL: https://www.corpusiq.io/docs/corpusiq-vs-airbyte/
 
 ---
 # CorpusIQ vs Custom RAG  --  2-Min Setup vs Months of Engineering
-URL: https://www.corpusiq.io/docs/corpusiq-vs-custom-rag/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-custom-rag
 
 
 # CorpusIQ vs Custom RAG  --  2-Min Setup vs Months of Engineering
@@ -10296,7 +10296,7 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 
 ---
 # CorpusIQ vs Data Warehouses  --  MCP Live Query vs Stored Data
-URL: https://www.corpusiq.io/docs/corpusiq-vs-data-warehouses/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-data-warehouses
 
 
 # CorpusIQ vs Data Warehouses  --  MCP Live Query vs Stored Data
@@ -10452,7 +10452,7 @@ Ready to put AI to work on your corpusiq vs data warehouses  --  mcp live query 
 
 ---
 # CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines
-URL: https://www.corpusiq.io/docs/corpusiq-vs-fivetran/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-fivetran
 
 
 # CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines
@@ -10610,7 +10610,7 @@ Ready to put AI to work on your corpusiq vs fivetran  --  mcp live query vs etl 
 
 ---
 # CorpusIQ vs Langchain: Instant AI vs Data Pipeline
-URL: https://www.corpusiq.io/docs/corpusiq-vs-langchain/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-langchain
 
 
 # CorpusIQ vs Langchain: Instant AI vs Data Pipeline
@@ -10638,7 +10638,7 @@ URL: https://www.corpusiq.io/docs/corpusiq-vs-langchain/
 
 ---
 # CorpusIQ vs Supermetrics: Instant AI vs Data Pipeline
-URL: https://www.corpusiq.io/docs/corpusiq-vs-supermetrics/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-supermetrics
 
 
 # CorpusIQ vs Supermetrics: Instant AI vs Data Pipeline
@@ -10666,7 +10666,7 @@ URL: https://www.corpusiq.io/docs/corpusiq-vs-supermetrics/
 
 ---
 # CorpusIQ vs Traditional BI  --  Natural Language AI vs Dashboards
-URL: https://www.corpusiq.io/docs/corpusiq-vs-traditional-bi/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-traditional-bi
 
 
 # CorpusIQ vs Traditional BI  --  Natural Language AI vs Dashboards
@@ -10812,7 +10812,7 @@ A: Results are delivered through your AI assistant, which can format them as tab
 
 ---
 # CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search
-URL: https://www.corpusiq.io/docs/corpusiq-vs-vector-databases/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-vector-databases
 
 
 # CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search
@@ -10960,7 +10960,7 @@ Ready to put AI to work on your corpusiq vs vector databases  --  mcp retrieval 
 
 ---
 # CorpusIQ vs Viktor AI: Who Actually Controls the Data?
-URL: https://www.corpusiq.io/docs/corpusiq-vs-viktor/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-viktor
 
 
 # CorpusIQ vs Viktor AI: Who Actually Controls the Data?
@@ -11032,7 +11032,7 @@ CorpusIQ owns the entire pipeline:
 
 ---
 # CorpusIQ vs Zapier  --  MCP Real-Time AI-Native vs Workflow Automation
-URL: https://www.corpusiq.io/docs/corpusiq-vs-zapier/
+URL: https://www.corpusiq.io/docs/corpusiq-vs-zapier
 
 
 # CorpusIQ vs Zapier  --  MCP Real-Time AI-Native vs Workflow Automation
@@ -11185,7 +11185,7 @@ Ready to put AI to work on your corpusiq vs zapier  --  mcp real-time ai-native 
 
 ---
 # Enterprise AI Data Access: Security, Compliance, and Architecture
-URL: https://www.corpusiq.io/docs/enterprise-ai-data-access/
+URL: https://www.corpusiq.io/docs/enterprise-ai-data-access
 
 
 # Enterprise AI Data Access: Security, Compliance, and Architecture
@@ -11309,7 +11309,7 @@ The question every enterprise faces: build an AI data access layer in-house or a
 
 ---
 # MSR Source of Truth Governance
-URL: https://www.corpusiq.io/docs/governance/
+URL: https://www.corpusiq.io/docs/governance
 
 # MSR Source of Truth Governance
 
@@ -11413,7 +11413,7 @@ A: MSR is always authoritative for financial metrics. Connected source data via 
 
 ---
 # How Do MCP Servers Work? Technical Architecture & Protocol Deep Dive
-URL: https://www.corpusiq.io/docs/how-mcp-servers-work/
+URL: https://www.corpusiq.io/docs/how-mcp-servers-work
 
 
 # How Do MCP Servers Work? Technical Architecture & Protocol Deep Dive
@@ -11651,7 +11651,7 @@ CorpusIQ's performance optimizations:
 
 ---
 # How to Analyze Company Data with ChatGPT
-URL: https://www.corpusiq.io/docs/how-to-analyze-company-data-with-chatgpt/
+URL: https://www.corpusiq.io/docs/how-to-analyze-company-data-with-chatgpt
 
 
 # How to Analyze Company Data with ChatGPT
@@ -11857,7 +11857,7 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 
 ---
 # How to Analyze GA4 with AI (Ask Website Traffic Questions in Plain English)
-URL: https://www.corpusiq.io/docs/how-to-analyze-ga4-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-analyze-ga4-with-ai
 
 
 ## How to analyze GA4 with AI
@@ -11898,7 +11898,7 @@ corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze Google Ads with AI (Ask Campaign Questions in Plain English)
-URL: https://www.corpusiq.io/docs/how-to-analyze-google-ads-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-analyze-google-ads-with-ai
 
 
 ## How to analyze Google Ads with AI
@@ -11939,7 +11939,7 @@ corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze HubSpot with AI (Ask CRM Questions in Plain English)
-URL: https://www.corpusiq.io/docs/how-to-analyze-hubspot-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-analyze-hubspot-with-ai
 
 
 ## How to analyze HubSpot with AI
@@ -11980,7 +11980,7 @@ corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze Klaviyo with AI (Ask Email Marketing Questions in Plain English)
-URL: https://www.corpusiq.io/docs/how-to-analyze-klaviyo-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-analyze-klaviyo-with-ai
 
 
 ## How to analyze Klaviyo with AI
@@ -12021,7 +12021,7 @@ corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide
-URL: https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai
 
 
 # How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide
@@ -12226,7 +12226,7 @@ AI-powered QuickBooks analysis turns hours of manual spreadsheet work into secon
 
 ---
 # How to Analyze Shopify with AI (Ask Revenue Questions in Plain English)
-URL: https://www.corpusiq.io/docs/how-to-analyze-shopify-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-analyze-shopify-with-ai
 
 
 ## How to analyze Shopify with AI
@@ -12284,7 +12284,7 @@ corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
 
 ---
 # How to Build an AI Knowledge Base
-URL: https://www.corpusiq.io/docs/how-to-build-an-ai-knowledge-base/
+URL: https://www.corpusiq.io/docs/how-to-build-an-ai-knowledge-base
 
 
 # How to Build an AI Knowledge Base
@@ -12462,7 +12462,7 @@ A: Yes  --  for question-answering. You may still want a wiki for browseable, st
 
 ---
 # How to Build an Executive AI Dashboard
-URL: https://www.corpusiq.io/docs/how-to-build-an-executive-ai-dashboard/
+URL: https://www.corpusiq.io/docs/how-to-build-an-executive-ai-dashboard
 
 
 # How to Build an Executive AI Dashboard
@@ -12663,7 +12663,7 @@ A: Copy the AI's structured response into your presentation tool. Direct export 
 
 ---
 # How to Centralize Company Knowledge
-URL: https://www.corpusiq.io/docs/how-to-centralize-company-knowledge/
+URL: https://www.corpusiq.io/docs/how-to-centralize-company-knowledge
 
 
 # How to Centralize Company Knowledge
@@ -12851,7 +12851,7 @@ A: Connect your first 3-5 sources (30 minutes). Start asking questions immediate
 
 ---
 # How to Connect Business Data to ChatGPT
-URL: https://www.corpusiq.io/docs/how-to-connect-business-data-to-chatgpt/
+URL: https://www.corpusiq.io/docs/how-to-connect-business-data-to-chatgpt
 
 
 # How to Connect Business Data to ChatGPT
@@ -13010,7 +13010,7 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 
 ---
 # How to Connect Multiple Data Sources to AI
-URL: https://www.corpusiq.io/docs/how-to-connect-multiple-data-sources-to-ai/
+URL: https://www.corpusiq.io/docs/how-to-connect-multiple-data-sources-to-ai
 
 
 # How to Connect Multiple Data Sources to AI
@@ -13199,7 +13199,7 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 
 ---
 # How to Create an AI Data Layer
-URL: https://www.corpusiq.io/docs/how-to-create-an-ai-data-layer/
+URL: https://www.corpusiq.io/docs/how-to-create-an-ai-data-layer
 
 
 # How to Create an AI Data Layer
@@ -13385,7 +13385,7 @@ A: Direct MCP retrieves required records from the source and sends the result th
 
 ---
 # How to Query Business Data in Natural Language
-URL: https://www.corpusiq.io/docs/how-to-query-business-data-in-natural-language/
+URL: https://www.corpusiq.io/docs/how-to-query-business-data-in-natural-language
 
 
 # How to Query Business Data in Natural Language
@@ -13555,7 +13555,7 @@ A: Minimal. The main skill is learning to be specific in your questions. Most us
 
 ---
 # How to Search Company Data with AI
-URL: https://www.corpusiq.io/docs/how-to-search-company-data-with-ai/
+URL: https://www.corpusiq.io/docs/how-to-search-company-data-with-ai
 
 
 # How to Search Company Data with AI
@@ -13731,7 +13731,7 @@ A: Yes. Any AI assistant with MCP support on mobile can search your company data
 
 ---
 # How to Use AI with Business Data
-URL: https://www.corpusiq.io/docs/how-to-use-ai-with-business-data/
+URL: https://www.corpusiq.io/docs/how-to-use-ai-with-business-data
 
 
 # How to Use AI with Business Data
@@ -13931,7 +13931,7 @@ A: Yes. CorpusIQ inherits permissions from source systems. Users only see data t
 
 ---
 # HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed
-URL: https://www.corpusiq.io/docs/hubspot-ai-reporting/
+URL: https://www.corpusiq.io/docs/hubspot-ai-reporting
 
 
 # HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed
@@ -14068,7 +14068,7 @@ CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical ta
 
 ---
 # HubSpot Business Intelligence  --  Connect Your CRM to AI
-URL: https://www.corpusiq.io/docs/hubspot-business-intelligence/
+URL: https://www.corpusiq.io/docs/hubspot-business-intelligence
 
 
 # HubSpot Business Intelligence  --  Connect Your CRM to AI
@@ -14225,7 +14225,7 @@ Ready to put AI to work on your hubspot business intelligence  --  connect your 
 
 ---
 # HubSpot Dashboard with ChatGPT: Your Real-Time Sales Command Center
-URL: https://www.corpusiq.io/docs/hubspot-dashboard-with-chatgpt/
+URL: https://www.corpusiq.io/docs/hubspot-dashboard-with-chatgpt
 
 
 # HubSpot Dashboard with ChatGPT: Your Real-Time Sales Command Center
@@ -14405,7 +14405,7 @@ A ChatGPT-powered HubSpot dashboard is the fastest, most flexible way to monitor
 
 ---
 # HubSpot Sales Analytics with AI: Turn Pipeline Data into Revenue Intelligence
-URL: https://www.corpusiq.io/docs/hubspot-sales-analytics-with-ai/
+URL: https://www.corpusiq.io/docs/hubspot-sales-analytics-with-ai
 
 
 # HubSpot Sales Analytics with AI: Turn Pipeline Data into Revenue Intelligence
@@ -14594,7 +14594,7 @@ Ready to unlock AI-powered insights from your CRM data?
 
 ---
 # CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
-URL: https://www.corpusiq.io/docs/
+URL: https://www.corpusiq.io/docs
 
 # CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
 
@@ -14658,7 +14658,7 @@ A: CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude
 
 ---
 # MCP for Accountants: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-accountants/
+URL: https://www.corpusiq.io/docs/mcp-for-accountants
 
 
 # MCP for Accountants: How to Connect Your Business Data to AI
@@ -14834,7 +14834,7 @@ CorpusIQ supports QuickBooks today. Support for additional accounting platforms 
 
 ---
 # MCP for Agencies: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-agencies/
+URL: https://www.corpusiq.io/docs/mcp-for-agencies
 
 
 # MCP for Agencies: How to Connect Your Business Data to AI
@@ -14996,7 +14996,7 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 
 ---
 # MCP for Customer Support: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-customer-support/
+URL: https://www.corpusiq.io/docs/mcp-for-customer-support
 
 
 # MCP for Customer Support: How to Connect Your Business Data to AI
@@ -15155,7 +15155,7 @@ Yes. A support manager can quickly query "show me the history and full context f
 
 ---
 # MCP for Ecommerce: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-ecommerce/
+URL: https://www.corpusiq.io/docs/mcp-for-ecommerce
 
 
 # MCP for Ecommerce: How to Connect Your Business Data to AI
@@ -15320,7 +15320,7 @@ Those tools focus on marketing attribution. MCP provides broader access  --  mar
 
 ---
 # MCP for Enterprise: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-enterprise/
+URL: https://www.corpusiq.io/docs/mcp-for-enterprise
 
 
 # MCP for Enterprise: How to Connect Your Business Data to AI
@@ -15480,7 +15480,7 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 
 ---
 # MCP for Executives: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-executives/
+URL: https://www.corpusiq.io/docs/mcp-for-executives
 
 
 # MCP for Executives: How to Connect Your Business Data to AI
@@ -15638,7 +15638,7 @@ Yes. Generate data for investor updates, answer diligence questions during fundr
 
 ---
 # MCP for Finance: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-finance/
+URL: https://www.corpusiq.io/docs/mcp-for-finance
 
 
 # MCP for Finance: How to Connect Your Business Data to AI
@@ -15794,7 +15794,7 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 
 ---
 # MCP for Marketing: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-marketing/
+URL: https://www.corpusiq.io/docs/mcp-for-marketing
 
 
 # MCP for Marketing: How to Connect Your Business Data to AI
@@ -15963,7 +15963,7 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 
 ---
 # MCP for Operations: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-operations/
+URL: https://www.corpusiq.io/docs/mcp-for-operations
 
 
 # MCP for Operations: How to Connect Your Business Data to AI
@@ -16119,7 +16119,7 @@ MCP queries execute against live APIs, so you see the current state of your proj
 
 ---
 # MCP for Real Estate: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-real-estate/
+URL: https://www.corpusiq.io/docs/mcp-for-real-estate
 
 
 # MCP for Real Estate: How to Connect Your Business Data to AI
@@ -16280,7 +16280,7 @@ While MCP is primarily an on-demand query interface, you can create saved prompt
 
 ---
 # MCP for Sales: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-sales/
+URL: https://www.corpusiq.io/docs/mcp-for-sales
 
 
 # MCP for Sales: How to Connect Your Business Data to AI
@@ -16431,7 +16431,7 @@ Yes. Connect email, calendar, support platforms, and product usage data to build
 
 ---
 # MCP for Small Business: How to Connect Your Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-for-small-business/
+URL: https://www.corpusiq.io/docs/mcp-for-small-business
 
 
 # MCP for Small Business: How to Connect Your Business Data to AI
@@ -16580,7 +16580,7 @@ ChatGPT without MCP can only answer from its training data  --  it can't access 
 
 ---
 # MCP Security Best Practices: How to Safely Connect Business Data to AI
-URL: https://www.corpusiq.io/docs/mcp-security-best-practices/
+URL: https://www.corpusiq.io/docs/mcp-security-best-practices
 
 
 # MCP Security Best Practices: How to Safely Connect Business Data to AI
@@ -16730,7 +16730,7 @@ Each query is processed in isolation. The AI model receives only the data from t
 
 ---
 # The MCP Specification Goes GA on July 28. Here Is What Operators Should Know.
-URL: https://www.corpusiq.io/docs/mcp-spec-ga-july-2026/
+URL: https://www.corpusiq.io/docs/mcp-spec-ga-july-2026
 
 
 # The MCP Specification Goes GA on July 28. Here Is What Operators Should Know.
@@ -16767,7 +16767,7 @@ That is the question we built CorpusIQ to answer.
 
 ---
 # MCP vs Traditional API Integrations: Why AI-Native Tool Discovery Wins
-URL: https://www.corpusiq.io/docs/mcp-vs-api-integrations/
+URL: https://www.corpusiq.io/docs/mcp-vs-api-integrations
 
 
 # MCP vs Traditional API Integrations: Why AI-Native Tool Discovery Wins
@@ -16947,7 +16947,7 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
 
 ---
 # MCP vs Data Warehouse: Why Live Query Access Changes Business Intelligence
-URL: https://www.corpusiq.io/docs/mcp-vs-data-warehouse/
+URL: https://www.corpusiq.io/docs/mcp-vs-data-warehouse
 
 
 # MCP vs Data Warehouse: Why Live Query Access Changes Business Intelligence
@@ -17086,7 +17086,7 @@ MCP queries return data in the source system's native format, and the AI model i
 
 ---
 # MCP vs RPA: Why API-Based Data Access Beats Fragile Screen Automation
-URL: https://www.corpusiq.io/docs/mcp-vs-rpa/
+URL: https://www.corpusiq.io/docs/mcp-vs-rpa
 
 
 # MCP vs RPA: Why API-Based Data Access Beats Fragile Screen Automation
@@ -17203,7 +17203,7 @@ MCP's API-first approach provides better security characteristics than RPA. MCP 
 
 ---
 # MCP vs Zapier: Why Real-Time AI Queries Beat Trigger-Based Polling for Business Intelligence
-URL: https://www.corpusiq.io/docs/mcp-vs-zapier/
+URL: https://www.corpusiq.io/docs/mcp-vs-zapier
 
 
 # MCP vs Zapier: Why Real-Time AI Queries Beat Trigger-Based Polling for Business Intelligence
@@ -17347,7 +17347,7 @@ CorpusIQ maintains the MCP connectors, so API changes are handled on the platfor
 
 ---
 # Onboarding Guide
-URL: https://www.corpusiq.io/docs/onboarding/
+URL: https://www.corpusiq.io/docs/onboarding
 
 # Onboarding Guide
 
@@ -17499,7 +17499,7 @@ A: Device login takes approximately 45 seconds from start to finish. Your agent 
 
 ---
 # How to Connect Your Business Data to ChatGPT in Under 5 Minutes
-URL: https://www.corpusiq.io/docs/quick-start/
+URL: https://www.corpusiq.io/docs/quick-start
 
 # How to Connect Your Business Data to ChatGPT in Under 5 Minutes
 
@@ -17657,7 +17657,7 @@ A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Stor
 
 ---
 # QuickBooks AI Reporting: Automated Financial Intelligence at Conversation Speed
-URL: https://www.corpusiq.io/docs/quickbooks-ai-reporting/
+URL: https://www.corpusiq.io/docs/quickbooks-ai-reporting
 
 
 # QuickBooks AI Reporting: Automated Financial Intelligence at Conversation Speed
@@ -17799,7 +17799,7 @@ CorpusIQ's AI Reporting for QuickBooks turns hours of manual report generation i
 
 ---
 # QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage
-URL: https://www.corpusiq.io/docs/quickbooks-business-intelligence/
+URL: https://www.corpusiq.io/docs/quickbooks-business-intelligence
 
 
 # QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage
@@ -17947,7 +17947,7 @@ Ready to put AI to work on your quickbooks business intelligence data?
 
 ---
 # QuickBooks Dashboard with ChatGPT: Real-Time Financial Visibility at Your Fingertips
-URL: https://www.corpusiq.io/docs/quickbooks-dashboard-with-chatgpt/
+URL: https://www.corpusiq.io/docs/quickbooks-dashboard-with-chatgpt
 
 
 # QuickBooks Dashboard with ChatGPT: Real-Time Financial Visibility at Your Fingertips
@@ -18140,7 +18140,7 @@ A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibili
 
 ---
 # QuickBooks Natural Language Queries: Ask Your Financial Data Anything
-URL: https://www.corpusiq.io/docs/quickbooks-natural-language-queries/
+URL: https://www.corpusiq.io/docs/quickbooks-natural-language-queries
 
 
 # QuickBooks Natural Language Queries: Ask Your Financial Data Anything
@@ -18299,7 +18299,7 @@ Natural language querying democratizes financial data. When anyone in your organ
 
 ---
 # Reporting
-URL: https://www.corpusiq.io/docs/reporting/
+URL: https://www.corpusiq.io/docs/reporting
 
 # Reporting
 
@@ -18381,7 +18381,7 @@ A: MSR (Management System of Record) is the authoritative source for official fi
 
 ---
 # Search
-URL: https://www.corpusiq.io/docs/search/
+URL: https://www.corpusiq.io/docs/search
 
 # Search
 
@@ -18468,7 +18468,7 @@ A: Single-source queries, cross-source correlation, trend analysis, date-range f
 
 ---
 # Secure AI Data Connectivity
-URL: https://www.corpusiq.io/docs/secure-ai-data-connectivity/
+URL: https://www.corpusiq.io/docs/secure-ai-data-connectivity
 
 
 # Secure AI Data Connectivity
@@ -18606,7 +18606,7 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 
 ---
 # Security
-URL: https://www.corpusiq.io/docs/security/
+URL: https://www.corpusiq.io/docs/security
 
 
 title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
@@ -18708,7 +18708,7 @@ A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP 
 
 ---
 # Security
-URL: https://www.corpusiq.io/docs/security/
+URL: https://www.corpusiq.io/docs/security
 
 # Security
 
@@ -18865,7 +18865,7 @@ A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and a
 
 ---
 # Shopify AI Analytics: Automated Ecommerce Intelligence at Conversation Speed
-URL: https://www.corpusiq.io/docs/shopify-ai-analytics/
+URL: https://www.corpusiq.io/docs/shopify-ai-analytics
 
 
 # Shopify AI Analytics: Automated Ecommerce Intelligence at Conversation Speed
@@ -19007,7 +19007,7 @@ CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don
 
 ---
 # Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage
-URL: https://www.corpusiq.io/docs/shopify-business-intelligence/
+URL: https://www.corpusiq.io/docs/shopify-business-intelligence
 
 
 # Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage
@@ -19152,7 +19152,7 @@ Building a business intelligence capability used to require data warehouses, ETL
 
 ---
 # Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center
-URL: https://www.corpusiq.io/docs/shopify-dashboard-with-chatgpt/
+URL: https://www.corpusiq.io/docs/shopify-dashboard-with-chatgpt
 
 
 # Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center
@@ -19338,7 +19338,7 @@ A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor
 
 ---
 # Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence
-URL: https://www.corpusiq.io/docs/shopify-sales-analysis-with-ai/
+URL: https://www.corpusiq.io/docs/shopify-sales-analysis-with-ai
 
 
 # Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence
@@ -19527,7 +19527,7 @@ Your Shopify store generates the data. AI-powered sales analysis turns it into r
 
 ---
 # Supported AI Agents
-URL: https://www.corpusiq.io/docs/supported-agents/
+URL: https://www.corpusiq.io/docs/supported-agents
 
 # Supported AI Agents
 
@@ -19712,7 +19712,7 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 
 ---
 # Top Business AI Tools  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/top-business-ai-tools/
+URL: https://www.corpusiq.io/docs/top-business-ai-tools
 
 
 # Top Business AI Tools  --  2026 Rankings
@@ -19910,7 +19910,7 @@ A: Yes. CorpusIQ and ChatGPT have free/low-cost tiers that work for small teams 
 
 ---
 # Top MCP Platforms  --  2026 Rankings
-URL: https://www.corpusiq.io/docs/top-mcp-platforms/
+URL: https://www.corpusiq.io/docs/top-mcp-platforms
 
 
 # Top MCP Platforms  --  2026 Rankings
@@ -20096,7 +20096,7 @@ A: CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free
 
 ---
 # What Is an MCP Server? How the Model Context Protocol Powers AI Data Access
-URL: https://www.corpusiq.io/docs/what-is-an-mcp-server/
+URL: https://www.corpusiq.io/docs/what-is-an-mcp-server
 
 
 # What Is an MCP Server? How the Model Context Protocol Powers AI Data Access

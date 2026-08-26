@@ -45,11 +45,14 @@ def url_for(rel_path):
     if p.endswith('index.md') or p.endswith('README.md'):
         p = p[: -(len(p.split('/')[-1]))]  # dir part
         if not p:
-            return SITE + '/'
+            return SITE
     else:
         p = p[:-3]
     p = p.strip('/')
-    return f"{SITE}/{p}/" if p else SITE + '/'
+    # No-slash convention (deploy normalizes the site to no-slash; slashed
+    # URLs 308). Feed links MUST match the canonical no-slash form so LLM and
+    # Ahrefs crawlers don't hit redirects. Fixed Aug 26.
+    return f"{SITE}/{p}" if p else SITE
 
 # --- llms.txt: curated index ---
 INDEX_SECTIONS = [

@@ -124,6 +124,16 @@ def main():
         with open(sm, "w", encoding="utf-8") as f:
             f.write(new_xml)
         print("   Sitemap normalized (no-slash)")
+    # 3b-i2: sitemap.xml.gz (mkdocs emits a gzipped twin; Ahrefs can fetch it)
+    import gzip as _gzip
+    smgz = os.path.join(REPO_DIR, "site", "sitemap.xml.gz")
+    if os.path.exists(smgz):
+        with _gzip.open(smgz, "rt", encoding="utf-8") as f:
+            xml = f.read()
+        new_xml = _re.sub(r"<loc>(.*?)</loc>", lambda m: f"<loc>{m.group(1).rstrip('/')}</loc>", xml)
+        with _gzip.open(smgz, "wt", encoding="utf-8") as f:
+            f.write(new_xml)
+        print("   Sitemap.xml.gz normalized (no-slash)")
     # 3b-ii: internal hrefs + canonical tag
     link_count = 0
     canon_count = 0
