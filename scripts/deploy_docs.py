@@ -188,10 +188,16 @@ def main():
         n = len(_re.findall(r"https://www\.corpusiq\.io/docs/[^)\s\"']*/[)\s\"']", txt))
         if n:
             verify_errors.append(f"{feed}: {n} slashed docs URLs")
-    # per-page canonical + internal hrefs (same exclusions as 3b-ii)
+    # per-page canonical + internal hrefs (same exclusions as 3b-ii).
+    # Skip non-page HTML artifacts: 404.html, raw email templates
+    # (hermes/templates/*.html) and the community widget snippet - none are
+    # real pages and legitimately carry no canonical.
     for html in _glob.glob(os.path.join(REPO_DIR, "site", "**", "*.html"), recursive=True):
         text = open(html, encoding="utf-8").read()
         rel = os.path.relpath(html, REPO_DIR)
+        if (rel.endswith("404.html") or "templates/" in rel
+                or rel.endswith("tokens-saved-widget.html")):
+            continue
         canons = _re.findall(r'<link rel="canonical" href="([^"]+)"', text)
         if len(canons) != 1:
             verify_errors.append(f"{rel}: {len(canons)} canonical tags")
