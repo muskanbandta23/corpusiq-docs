@@ -2696,6 +2696,136 @@
       "source": "/docs/windsor-ai-alternative",
       "destination": "/docs/connectors/windsor-ai-alternative/",
       "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-glean",
+      "destination": "/hermes/compare/corpusiq-vs-glean",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-n8n",
+      "destination": "/hermes/compare/corpusiq-vs-n8n",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-make",
+      "destination": "/hermes/compare/corpusiq-vs-make-com",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-make-com",
+      "destination": "/hermes/compare/corpusiq-vs-make-com",
+      "statusCode": 301
+    },
+    {
+      "source": "/connector/google-analytics",
+      "destination": "/connectors",
+      "statusCode": 301
+    },
+    {
+      "source": "/pricing",
+      "destination": "https://www.corpusiq.io/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog",
+      "destination": "https://www.corpusiq.io/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/terms",
+      "destination": "https://www.corpusiq.io/terms",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy",
+      "destination": "https://www.corpusiq.io/privacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "destination": "https://www.corpusiq.io/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/install",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/getting-started",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/start",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/guide",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/quickstart-guide",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/faq",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/features",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/support",
+      "destination": "/troubleshooting",
+      "statusCode": 301
+    },
+    {
+      "source": "/help",
+      "destination": "/troubleshooting",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-docs",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-reference",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/developer",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/developers",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/use-case/:path*",
+      "destination": "https://www.corpusiq.io/use-case/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/skill/:path*",
+      "destination": "https://www.corpusiq.io/skill/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/connect/:path*",
+      "destination": "https://www.corpusiq.io/connect/:path*",
+      "statusCode": 301
     }
   ],
   "outputDirectory": "."
