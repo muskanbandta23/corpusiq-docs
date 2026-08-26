@@ -3,7 +3,7 @@ title: "What Is an MCP Server? Model Context Protocol Guide"
 description: "Learn what an MCP server is and how Anthropic's Model Context Protocol powers AI-to-business-data connections. Discover real-time natural language queries"
 category: MCP Education
 tags: ["what is an MCP server", "Model Context Protocol explained", "MCP server guide", "AI business data integration", "Claude MCP server", "connect business data to ChatGPT"]
-last_updated: 2026-08-23"
+last_updated: "2026-08-23"
 canonical: https://www.corpusiq.io/docs/what-is-an-mcp-server
 robots: index,follow
 ---
@@ -68,7 +68,7 @@ This is the difference between "I need a developer to build a connector" and "I 
 
 ## How CorpusIQ Implements MCP
 
-CorpusIQ has built the most comprehensive MCP server platform for business systems. Where individual MCP servers give you access to one data source, CorpusIQ gives you access to over 30 business connectors through a single MCP server  --  Shopify, QuickBooks, Google Analytics, HubSpot, Stripe, Meta Ads, and many more.
+CorpusIQ has built the most comprehensive MCP server platform for business systems. Where individual MCP servers give you access to one data source, CorpusIQ gives you access to over 40 business connectors through a single MCP server  --  Shopify, QuickBooks, Google Analytics, HubSpot, Stripe, Meta Ads, and many more.
 
 CorpusIQ's MCP implementation adds critical enterprise features on top of the base protocol:
 

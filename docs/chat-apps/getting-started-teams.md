@@ -4,7 +4,7 @@ description: >-
   add your AI key in the dashboard, and ask your first question.
 canonical: "https://www.corpusiq.io/docs/chat-apps/getting-started-teams/"
 robots: "index,follow"
-last_updated: 2026-08-23"
+last_updated: "2026-08-23"
 title: "Getting started in Microsoft Teams"
 tags: ["hermes agent", "ai agent", "documentation"]
 

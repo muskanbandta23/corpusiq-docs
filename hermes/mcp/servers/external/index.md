@@ -3032,6 +3032,9 @@ Multi-inbox email management for AI agents via MCP. Read, search, send, organize
 
 ## Content Creation & Creative
 
+### 3dlogo MCP ★ New (Aug 26)
+Design 3D logos and 3D coins from any MCP client. Public tier: material/coin-look catalogues, plan comparison, and deep links that open the 3dlogo.io studio preconfigured with text, material, lighting and motion. OAuth tier (OAuth 2.1 PKCE + dynamic client registration): project management, share-page publishing, invite links, AI image-to-3D generation with status polling. Streamable HTTP at `3dlogo.io/api/mcp` (public tier `/api/mcp/public`). Registered in the official MCP registry as `io.github.cottom/3dlogo`. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/3dlogo-mcp/)
+
 ### ReelsFarm MCP ★ New (Aug 17)
 AI short-form social content — avatars, product scenes, UGC videos, slideshows, scheduling, and publishing across seven tool groups, with Review-mode confirmation gates on every mutation. OAuth or API key; Streamable HTTP at `mcp.reelsfarm.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/reelsfarm-mcp/)
 
@@ -4325,7 +4328,8 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
 - **New this sweep (July 4 morning):** 19 new MCP servers — from mcp.so Feed (25 scanned, 22 genuinely new, 3 already catalogued)
 - **New this sweep (Aug 12 afternoon):** 10 new MCP servers (6 guides) — from mcpservers.org /all pages 1–3 (90 scanned) + mcp.so Feed (30 scanned). Also: 4 catalog entries, ~40 dev-tool/niche identified-not-catalogued, 1 spam burst (~30 entries) excluded
-- **Cumulative since June 9:** 509 MCP servers catalogued across 37 sweeps
+- **New this sweep (Aug 26 afternoon):** 1 new MCP server (1 guide) — chatmcp/mcpso issue #3779 (3dlogo.io, 3D logos and coins; remote Streamable HTTP, OAuth 2.1 PKCE; endpoint verified live). Catalog counts: 381 → 382 servers, 267 → 268 guides
+- **Cumulative since June 9:** 516 MCP server listing pages across 64 sweep reports (external catalog: 382 servers, 268 guides)
 
 ---
 
@@ -4840,3 +4844,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [w0 MCP Server - Brand AI Recommendation Rate Lookup](/docs/hermes/mcp/servers/external/w0-mcp/)
 - [UGC VZ MCP - DACH UGC Creator Discovery for Agents](/docs/hermes/mcp/servers/external/ugc-vz-mcp/)
 - [iFillPDF MCP - AI PDF Form Detection and Filling](/docs/hermes/mcp/servers/external/ifillpdf-mcp/)
+
+### 1 new server from chatmcp/mcpso issues - Aug 26, 2026 (afternoon cron sweep)
+
+- [3dlogo MCP - 3D Logos and Coins from Your AI Assistant](/docs/hermes/mcp/servers/external/3dlogo-mcp/)
