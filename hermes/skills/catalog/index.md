@@ -522,3 +522,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [gh-issue-sync — Local Markdown GitHub Issues Skill Setup](/docs/hermes/skills/catalog/gh-issue-sync-setup/)
 - [System Atlas — Explorable Architecture Map Skill Setup](/docs/hermes/skills/catalog/system-atlas-setup/)
 - [Makerskills — Personal Operator Agent Suite Setup](/docs/hermes/skills/catalog/makerskills-setup/)
+- [Tech Logos — Brand Logo Installer for shadcn/ui Setup](/docs/hermes/skills/catalog/tech-logos-setup/)
