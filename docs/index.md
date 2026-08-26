@@ -25,23 +25,38 @@ robots: "index,follow"
 
 ## Frequently Asked Questions
 
-**Q: What is CorpusIQ?**  
-A: CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
+### What is CorpusIQ?
+CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
 
-**Q: How does CorpusIQ connect my business data to AI?**  
-A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
+### How does CorpusIQ connect my business data to AI?
+CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
 
-**Q: What data sources does CorpusIQ support?**  
-A: CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
+### What data sources does CorpusIQ support?
+CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
 
-**Q: Is my data secure with CorpusIQ?**  
-A: Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days. Data-source connections use documented OAuth scopes.
+### Is my data secure with CorpusIQ?
+Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days. Data-source connections use documented OAuth scopes.
 
-**Q: How quickly can I start using CorpusIQ?**  
-A: Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions.
+### How quickly can I start using CorpusIQ?
+Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions.
 
-**Q: Which AI assistants work with CorpusIQ?**  
-A: CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io.
+### Which AI assistants work with CorpusIQ?
+CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What is CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads."}},
+    {"@type": "Question", "name": "How does CorpusIQ connect my business data to AI?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ uses MCP (Model Context Protocol), an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations."}},
+    {"@type": "Question", "name": "What data sources does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more. See the full connectors directory."}},
+    {"@type": "Question", "name": "Is my data secure with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days."}},
+    {"@type": "Question", "name": "How quickly can I start using CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions."}},
+    {"@type": "Question", "name": "Which AI assistants work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io."}}
+  ]
+}
+</script>
 
 
 ---

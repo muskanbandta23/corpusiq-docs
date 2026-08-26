@@ -64,14 +64,15 @@
   <meta name="twitter:image" content="{{ social_image }}">
   {# AEO/GEO structured data: standalone Organization + WebSite (top-level so
      parsers that only register top-level @type see the entity), plus WebPage
-     per page with nested isPartOf/about. #}
+     per page with nested isPartOf/about, freshness dates (frontmatter
+     last_updated), and author attribution. #}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "CorpusIQ",
     "url": "https://www.corpusiq.io",
-    "logo": "https://www.corpusiq.io/logo.svg",
+    "logo": {"@type": "ImageObject", "url": "https://www.corpusiq.io/logo.svg"},
     "sameAs": [
       "https://github.com/CorpusIQ",
       "https://www.linkedin.com/company/corpusiq",
@@ -94,6 +95,15 @@
     "name": {{ social_title | tojson }},
     "description": {{ social_desc | tojson }},
     "url": "{{ page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') }}",
+    {% if page and page.meta and page.meta.last_updated %}
+    "datePublished": "{{ page.meta.last_updated }}",
+    "dateModified": "{{ page.meta.last_updated }}",
+    {% endif %}
+    "author": {
+      "@type": "Organization",
+      "name": "CorpusIQ",
+      "url": "https://www.corpusiq.io"
+    },
     "isPartOf": {
       "@type": "WebSite",
       "name": "{{ config.site_name }}",
@@ -111,6 +121,7 @@
     }
   }
   </script>
+  <meta name="last-updated" content="{% if page and page.meta and page.meta.last_updated %}{{ page.meta.last_updated }}{% endif %}">
   {# Google Preferred Sources: interactive "Add to Preferred Sources" button.
      Readers who select corpusiq.io as a preferred source see our content
      highlighted with a "preferred" badge in Top Stories, AI Mode, and AI
@@ -149,5 +160,12 @@
      the interactive, auto-localized "Add to Preferred Sources" button. #}
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
     <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+  {# Trust links (AEO trust signal): contact/terms/privacy live on the main site. #}
+  <div style="display:flex;justify-content:center;align-items:center;gap:18px;padding:0 16px 20px;font-size:0.8em;">
+    <a href="https://www.corpusiq.io/contact" style="color:var(--md-default-fg-color--light);">Contact</a>
+    <a href="https://www.corpusiq.io/terms" style="color:var(--md-default-fg-color--light);">Terms</a>
+    <a href="https://www.corpusiq.io/privacy" style="color:var(--md-default-fg-color--light);">Privacy</a>
+    <a href="https://www.corpusiq.io/pricing" style="color:var(--md-default-fg-color--light);">Pricing</a>
   </div>
 {% endblock %}
