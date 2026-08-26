@@ -12,7 +12,25 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 26, 2026 (morning cron sweep) · **Sources:** mcp.so feed (newest 30 submissions) + mcpservers.org /all pages 1-3 · **Catalog:** 375 servers (+261 guides)
+> **Last updated:** August 26, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3758-#3778 + mcpservers.org /all pages 1-3 · **Catalog:** 381 servers (+267 guides)
+
+## 🆕 August 26, 2026 - Midday Cron Sweep (6 New, 6 Guides)
+
+Midday sweep sourced from chatmcp/mcpso issues #3758-#3778 (Aug 26 03:35 - 17:59 UTC) and mcpservers.org /all pages 1-3 (all new slugs mapped to established skip classes). 6 new business-relevant servers catalogued with guides: Nomos MCP (11 read-only search tools over Brazilian legislative and regulatory data - bills, the federal official gazette, state and municipal gazettes, speeches, legislator social media, Central Bank, CVM, Receita Federal, sector regulators and UN sanctions; X-API-Key or OAuth 2.0 at mcp.nomos.pro/mcp, 401-verified live), Korea Ground-Truth (8 tools unifying five Korean government sources - NTS business registration, DART corporate profiles, MOLIT apartment prices, road-name addresses and statute search; free 50-credit key, hosted at kr-groundtruth-mcp.vercel.app, stateless INIT 200 verified), ScreenVerity (free U.S. exclusion, debarment and licence screening with Ed25519-signed receipts naming the exact list snapshots checked - 3 tools, stdio via npx, no key or account, MIT), w0 MCP Server (GEO/AEO measurement - a brand's AI Recommendation Rate and Recommendation Inclusion Rate over buyer-intent questions - 1 tool, keyless hosted at w0-mcp-server.modernai.workers.dev, endpoint live behind the Workers access layer), UGC VZ (free directory of real UGC creators in DACH - profile search with city, topic and verification filters, pricing and reach comparison, gated outreach requests with status lifecycle; 5 tools, no auth, stateless INIT 200 verified), iFillPDF (hosted AI PDF form detection and filling - scanned and photographed form field maps, signature image fields, page operations; OAuth protected resource at mcp.ifillpdf.com, 401-verified live, free tier without account).
+
+[Nomos MCP - Brazilian Regulatory and Legislative Search](/hermes/mcp/servers/external/nomos-mcp/) · 11 read-only tools, API key or OAuth, every result links official source context.
+
+[Korea Ground-Truth MCP - Official Korean Data for Agents](/hermes/mcp/servers/external/korea-groundtruth-mcp/) · 8 tools over NTS/DART/MOLIT/law sources, free 50-credit key, agent-native billing.
+
+[ScreenVerity MCP - U.S. Exclusion and Debarment Screening](/hermes/mcp/servers/external/screenverity-mcp/) · 3 free tools, signed audit receipts, explicit coverage reporting.
+
+[w0 MCP Server - Brand AI Recommendation Rate Lookup](/hermes/mcp/servers/external/w0-mcp/) · 1 tool, keyless, AEO/GEO measurement with honest not-measured responses.
+
+[UGC VZ MCP - DACH UGC Creator Discovery for Agents](/hermes/mcp/servers/external/ugc-vz-mcp/) · 5 tools, no auth, outreach gated on explicit brand request.
+
+[iFillPDF MCP - AI PDF Form Detection and Filling](/hermes/mcp/servers/external/ifillpdf-mcp/) · Hosted Streamable HTTP, OAuth, registry-published since 2026-07-27.
+
+**Also identified (not catalogued):** SocialDataX family #3770-#3775 (six hosted read-only social-data wrappers - TikTok, X, Instagram, Zhihu, Bilibili, YouTube - filed within 3 minutes by one vendor, commercial X-data reseller class, same class as the SocialData and TwitterAPIs skips), Apple Mail MCP #3777 (local macOS stdio over Mail's SQLite index - consumer utility class), AI Commander #3765 (remote shell, detached jobs and file transfer for agents - dev infra, SSH MCP Server class), Helena Good #3764 (scientific infrastructure sponsorship paid in Solana USDC - crypto/niche class), kbdb #3762 (local file-based knowledge base, 30 tools, stdio - dev tool class), Pīpīwai Trail #3761 (park and road status - consumer niche), Vedaksha #3760 (Vedic astrology - consumer class), BuyWhere #3767 (resubmission of the already-catalogued entry). mcpservers.org /all pages 1-3 dispositions: the x402-payable family (Live Entity Verification, Public Tenders ES EU, Document Conversion API, Calibrated Similarity Search API, WebSocket Session Manager, Agent Verification API, ERC8004 Agent Liveness, New x402 Listings Feed, Onchain Activity Index, URL Metadata API, x402 Receipt Verifier - crypto/payments class per RE Data Refinery and Speccy x402 precedent), SoccerAPI (consumer sports data), Walletwatch via the loki-freedomlab slug (Solana wallet lookup - already evaluated in the Aug 25 night sweep), MCP Platform (REST-to-MCP gateway with policy controls - agent infra class, XGuard precedent), Deep Art AI (consumer image generation - Magichour class). Feed page 1 carried only morning-sweep repeats.
 
 ## 🆕 August 25, 2026 - Night Cron Sweep (3 New, 3 Guides)
 
@@ -4813,3 +4831,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [SocialRobot MCP - Social Media Scheduling and Analytics for AI Agents](/docs/hermes/mcp/servers/external/socialrobot-mcp/)
 - [Hologrow MCP - E-Commerce Data Layer for AI Agents](/docs/hermes/mcp/servers/external/hologrow-mcp/)
 - [MetricFire MCP - Natural Language Infrastructure Monitoring](/docs/hermes/mcp/servers/external/metricfire-mcp/)
+
+### 6 new servers from chatmcp/mcpso issues - Aug 26, 2026 (midday cron sweep)
+
+- [Nomos MCP - Brazilian Regulatory and Legislative Search](/docs/hermes/mcp/servers/external/nomos-mcp/)
+- [Korea Ground-Truth MCP - Official Korean Data for Agents](/docs/hermes/mcp/servers/external/korea-groundtruth-mcp/)
+- [ScreenVerity MCP - U.S. Exclusion and Debarment Screening](/docs/hermes/mcp/servers/external/screenverity-mcp/)
+- [w0 MCP Server - Brand AI Recommendation Rate Lookup](/docs/hermes/mcp/servers/external/w0-mcp/)
+- [UGC VZ MCP - DACH UGC Creator Discovery for Agents](/docs/hermes/mcp/servers/external/ugc-vz-mcp/)
+- [iFillPDF MCP - AI PDF Form Detection and Filling](/docs/hermes/mcp/servers/external/ifillpdf-mcp/)
