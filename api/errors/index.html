@@ -115,8 +115,8 @@
     "description": "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and",
     "url": "https://www.corpusiq.io/docs/api/errors",
     
-    "datePublished": "2026-08-23"",
-    "dateModified": "2026-08-23"",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +140,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23"">
+  <meta name="last-updated" content="2026-08-23">
   
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
@@ -10303,7 +10303,7 @@
 <h2 id="handling-errors-programmatically">Handling Errors Programmatically<a class="headerlink" href="#handling-errors-programmatically" title="Anchor link to this section">&para;</a></h2>
 <h3 id="retry-logic-for-429-rate-limited">Retry Logic for 429 Rate Limited<a class="headerlink" href="#retry-logic-for-429-rate-limited" title="Anchor link to this section">&para;</a></h3>
 <p>When you receive a <code>429 Too Many Requests</code>, inspect the <code>retry_after_seconds</code> field:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
 
@@ -10326,8 +10326,8 @@
 </code></pre></div>
 <h3 id="retry-with-exponential-backoff-for-500-errors">Retry with Exponential Backoff for 500 Errors<a class="headerlink" href="#retry-with-exponential-backoff-for-500-errors" title="Anchor link to this section">&para;</a></h3>
 <p>For transient server errors, implement exponential backoff:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
-<span class="kn">import</span> <span class="nn">requests</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">max_retries</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_retries</span><span class="p">):</span>
