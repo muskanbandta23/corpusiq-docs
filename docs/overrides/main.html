@@ -90,6 +90,11 @@
     }
   }
   </script>
+  {# Google Preferred Sources: interactive "Add to Preferred Sources" button.
+     Readers who select corpusiq.io as a preferred source see our content
+     highlighted with a "preferred" badge in Top Stories, AI Mode, and AI
+     Overviews. Official docs: developers.google.com/search/docs/appearance/preferred-sources #}
+  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 {% endblock %}
 
 {% block scripts %}
@@ -114,4 +119,14 @@
       }
     });
   </script>
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  {# Google Preferred Sources badge — centered under the theme footer.
+     The publisher.js library (loaded in extrahead) replaces this div with
+     the interactive, auto-localized "Add to Preferred Sources" button. #}
+  <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
+    <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
 {% endblock %}
