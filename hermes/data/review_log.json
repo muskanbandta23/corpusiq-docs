@@ -11393,5 +11393,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-26T05:05:51.810510+00:00"
+  },
+  {
+    "repo": "toshipepe/tokimeter",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875122+00:00"
+  },
+  {
+    "repo": "mkant18/carrier_hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875136+00:00"
+  },
+  {
+    "repo": "emyann/harness-kanban-board",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875138+00:00"
+  },
+  {
+    "repo": "vihanparmar/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875140+00:00"
+  },
+  {
+    "repo": "stevenwang288/hermes-studio",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875142+00:00"
+  },
+  {
+    "repo": "monthop-gmail/hermes-line-bot",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875144+00:00"
+  },
+  {
+    "repo": "mz2/hermes-agent-sdk",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T06:06:43.875146+00:00"
   }
 ]
