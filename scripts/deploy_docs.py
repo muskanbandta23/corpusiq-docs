@@ -84,6 +84,14 @@ def main():
     run("git checkout -- llms.txt llms-full.txt")
     run("git checkout main", fatal=True)
     run("git pull --rebase origin main", fatal=True)
+    # 1b. Re-exec self after pull so the RUNNING code is the freshly-pulled
+    #     version (the script loads before step 1, so without this every deploy
+    #     runs the PREVIOUS commit's deploy script (the Aug 26 verify-gate
+    #     shipped twice without taking effect). Guarded by env flag to avoid loops.
+    if not os.environ.get("DEPLOY_REEXEC"):
+        os.environ["DEPLOY_REEXEC"] = "1"
+        print("   Re-executing with pulled code...")
+        os.execv(sys.executable, [sys.executable, os.path.abspath(__file__)] + sys.argv[1:])
 
     # 2. Regenerate GEO feeds (llms.txt / llms-full.txt)
     print("2. Regenerating llms.txt...")
