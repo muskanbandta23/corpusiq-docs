@@ -163,6 +163,57 @@ def main():
                 f.write(new)
     print(f"   Links normalized ({link_count})")
 
+    # 3c. VERIFY no-slash invariants - hard fail BEFORE any deploy (guard added
+    #     Aug 26 after health score 30 regression: duplicate slashed canonicals
+    #     + slashed sitemap/feeds shipped twice). A build that violates any
+    #     invariant here must NOT reach production.
+    verify_errors = []
+    # sitemap xml + gz
+    for smf in ("sitemap.xml", "sitemap.xml.gz"):
+        p = os.path.join(REPO_DIR, "site", smf)
+        if not os.path.exists(p):
+            continue
+        opener = _gzip.open if smf.endswith(".gz") else open
+        with opener(p, "rt", encoding="utf-8") as f:
+            xml = f.read()
+        n = len(_re.findall(r"<loc>([^<]*/)</loc>", xml))
+        if n:
+            verify_errors.append(f"{smf}: {n} slashed <loc> entries")
+    # feeds
+    for feed in ("llms.txt", "llms-full.txt"):
+        p = os.path.join(REPO_DIR, "site", feed)
+        if not os.path.exists(p):
+            continue
+        txt = open(p, encoding="utf-8").read()
+        n = len(_re.findall(r"https://www\.corpusiq\.io/docs/[^)\s\"']*/[)\s\"']", txt))
+        if n:
+            verify_errors.append(f"{feed}: {n} slashed docs URLs")
+    # per-page canonical + internal hrefs (same exclusions as 3b-ii)
+    for html in _glob.glob(os.path.join(REPO_DIR, "site", "**", "*.html"), recursive=True):
+        text = open(html, encoding="utf-8").read()
+        rel = os.path.relpath(html, REPO_DIR)
+        canons = _re.findall(r'<link rel="canonical" href="([^"]+)"', text)
+        if len(canons) != 1:
+            verify_errors.append(f"{rel}: {len(canons)} canonical tags")
+        elif canons[0].endswith("/"):
+            verify_errors.append(f"{rel}: slashed canonical {canons[0]}")
+        for href in _re.findall(r'href="([^"]+)"', text):
+            if (href.startswith("http") or href.startswith("mailto:") or href.startswith("tel:")
+                or href.startswith("javascript:") or href.startswith("#") or href.startswith("/assets")
+                or "assets/" in href or ".css" in href or ".js" in href or ".png" in href
+                or ".svg" in href or ".ico" in href or ".xml" in href or ".txt" in href or ".json" in href):
+                continue
+            if href.endswith("/") and len(href) > 1:
+                verify_errors.append(f"{rel}: slashed internal href {href}")
+                break
+    if verify_errors:
+        print("VERIFY GATE FAILED - deploy aborted (no-slash invariant violated):")
+        for e in verify_errors[:25]:
+            print("  -", e)
+        print(f"  ({len(verify_errors)} total violations)")
+        sys.exit(1)
+    print("   Verify gate passed (canonical, sitemap, feeds, hrefs all no-slash)")
+
     # 4. Deploy to gh-pages
     print("4. Deploying to gh-pages...")
     wt = "/tmp/gh-pages-deploy"
