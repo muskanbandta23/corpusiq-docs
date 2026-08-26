@@ -18,14 +18,11 @@
 {% endblock %}
 
 {% block extrahead %}
-  {# Canonical: the proxy serves pages WITHOUT trailing slash (docs.corpusiq.io/hermes
-     serves 200; .../hermes/ 308s). The base theme emits canonical with trailing
-     slash, which Ahrefs flags as "Canonical points to redirect". Emit the
-     no-slash form AFTER the theme's tag so ours wins (later tag = effective). #}
-  {% if page %}
-  {% set canon_url = page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') %}
-  <link rel="canonical" href="{{ canon_url }}">
-  {% endif %}
+  {# Canonical: the base theme emits one canonical tag; deploy_docs.py step 3b
+     strips the trailing slash from it post-build (no-slash convention). Do NOT
+     add a second canonical here — duplicate canonical tags confuse crawlers
+     and the theme's tag (emitted first) wins for Google regardless of order.
+     See corpusiq-docs-seo-geo skill: canonical-to-redirect fix Aug 18. #}
   {{ super() }}
   {#
     Social-share head tags, emitted on EVERY page with fallbacks so no page is
