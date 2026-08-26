@@ -12,7 +12,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 25, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3746-#3749, mcp.so homepage + feed, mcpservers.org /all pages 1-3 · **Catalog:** 369 servers (+255 guides)
+> **Last updated:** August 25, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3750-#3757, mcp.so homepage + feed, mcpservers.org /all pages 1-3 + homepage · **Catalog:** 372 servers (+258 guides)
+
+## 🆕 August 25, 2026 - Night Cron Sweep (3 New, 3 Guides)
+
+Night sweep sourced from chatmcp/mcpso issues #3750-#3757 (Aug 25 18:03 - Aug 26 01:34 UTC), the mcp.so homepage and feed, and mcpservers.org /all pages 1-3 plus the homepage. 3 new business-relevant servers catalogued with guides: Transcodely (hosted agent-native video infrastructure - transcode gs://, s3:// or https:// sources into renditions, host with an adaptive ladder and CDN player link, AI WebVTT captions and EUR usage reads; 7 tools, OAuth 2.1 PKCE or app-scoped key, 401-verified live), Rapidly (idea validation with Lean Canvas, riskiest-assumption hypothesis with researched pass mark, and Pretotyping experiment build prompts - 21 tools, bearer token or OAuth, registry co.rapidly/rapidly), PopOff Data (reality-TV social analytics - Instagram/TikTok follower time series at ~30-minute resolution, follow graphs, engagement and citation-ready season CSVs; 12 tools, API-key, $79/mo with 5,000 calls).
+
+[Transcodely MCP - Video Transcoding and Hosting for AI Agents](/hermes/mcp/servers/external/transcodely-mcp/) · 7 tools, OAuth or app key, billable creates scoped per app.
+
+[Rapidly MCP - Idea Validation, Lean Canvas and Pretotyping](/hermes/mcp/servers/external/rapidly-mcp/) · 21 tools, bearer token or OAuth, free trial with 5 ideas.
+
+[PopOff Data MCP - Reality-TV Social Analytics for AI Agents](/hermes/mcp/servers/external/popoff-data/) · 12 tools, API key, $79/mo flat with 5,000 calls.
+
+**Also identified (not catalogued):** AgentSeed #3750 (AST-level code verification and anti-hallucination guardrails for coding agents - dev tool class), Spoolis #3752 (outcome verification for result-shaped agent purchases - commerce infra, no business data carried), SSSNACK #3755 (agent self-registration design network - agent community infra class), 1Claw #3757 (HSM-backed agent secrets vault and signing - agent security infra class). Homepage and /all slug dispositions: BoardRepo (KiCad/Altium PCB search - niche hardware dev data), PZERO (AI model marketplace aggregator - UnificAlly class), Walletwatch (Solana wallet lookup - crypto consumer class), AstroFabric (agentic OS for deploying growth/revenue agents - agent orchestration infra, ADA Turbo class), WaveMaster (surf forecasting - niche consumer data), Hird (Hird language compiler introspection - dev tool class). Already evaluated in prior sweeps: CorpusLaw, Real Wave GHL, BulkTranscripts, xRocket (myrocket slug), Normi DVF (all catalogued), Appraisily (skip). Famous-name mcpservers.org homepage slugs are re-indexes.
 ## 🆕 August 25, 2026 - Evening Cron Sweep (9 New, 9 Guides)
 
 Evening sweep sourced from chatmcp/mcpso issues #3746-#3749 (Aug 25 10:47 - 16:48 UTC), the mcp.so homepage and feed, and mcpservers.org /all pages 1-3. 9 new business-relevant servers catalogued with guides: Alpha Sophia (official MCP from the US healthcare provider and organization database - resolve_entity plus search, count and market_size tools over procedures, diagnoses, affiliations, publications and clinical trials; OAuth remote at api.alphasophia.com/v1/mcp), BeeL (Spanish VeriFactu e-invoicing with AEAT - about 120 OpenAPI-derived tools for invoices, correctives, NIF validation, series and fiscal guardrails; OAuth remote plus stdio), CivicDataForge (government-records evidence relay - 14 live-probed tools covering STR permits across 31 sources, LEIE exclusion screening, property violations, restaurant inspections, childcare licensing, EPA ECHO and Norwegian company evidence; Apify-token auth), Partsgraph (keyless parts catalog with datasheet provenance, compatibility checks and priced BOM building - 11 tools live-probed on the demo catalogue), Nacha MCP (stdio ACH file parser with structural and arithmetic validation and IAT support - 2 tools), 1Lookup (phone, email and IP verification with DNC status, deliverability and proxy detection - OAuth 2.1 remote, 401-verified live, credit-based), HostTracker (official uptime-monitoring MCP from the 2004-vintage monitoring network - 65 tools, synchronous checks from 300+ locations, Bearer token), SenderKit (transactional messaging over MCP - 18 tools for templates, sends, delivery inspection and inbound management), More Good Reviews (project-scoped review management - customers, review requests, Google and Facebook reply publishing with a confirm gate, agency variant for white-label).
@@ -4778,3 +4790,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [HostTracker MCP - Uptime Monitoring from 300+ Locations](/docs/hermes/mcp/servers/external/hosttracker-mcp/)
 - [SenderKit MCP - Transactional Messaging from Your Assistant](/docs/hermes/mcp/servers/external/senderkit-mcp/)
 - [More Good Reviews MCP - Review Management and Reputation Ops](/docs/hermes/mcp/servers/external/more-good-reviews-mcp/)
+
+### 3 new servers from chatmcp/mcpso issues - Aug 25, 2026 (night cron sweep)
+
+- [Transcodely MCP - Video Transcoding and Hosting for AI Agents](/docs/hermes/mcp/servers/external/transcodely-mcp/)
+- [Rapidly MCP - Idea Validation, Lean Canvas and Pretotyping](/docs/hermes/mcp/servers/external/rapidly-mcp/)
+- [PopOff Data MCP - Reality-TV Social Analytics for AI Agents](/docs/hermes/mcp/servers/external/popoff-data/)
