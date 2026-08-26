@@ -11288,5 +11288,110 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-25T07:05:40.549758+00:00"
+  },
+  {
+    "repo": "odinbazaar/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810471+00:00"
+  },
+  {
+    "repo": "morriszdweck/mosaic",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810483+00:00"
+  },
+  {
+    "repo": "Natsummerance/skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810486+00:00"
+  },
+  {
+    "repo": "yrarjun59/hermedian",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810488+00:00"
+  },
+  {
+    "repo": "dlwiest/hermes-tonal",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810490+00:00"
+  },
+  {
+    "repo": "zhang0098/codex-telegram-bridge",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810492+00:00"
+  },
+  {
+    "repo": "score-technologies/score-studio-agent-plugins",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810494+00:00"
+  },
+  {
+    "repo": "Zane-dev16/hermes-skill-lens",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810497+00:00"
+  },
+  {
+    "repo": "mahsan07/hermes-skill-hermes-desktop-plugins",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810499+00:00"
+  },
+  {
+    "repo": "hansarang00/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810500+00:00"
+  },
+  {
+    "repo": "AIhubmix/hermes-provider-aihubmix",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810502+00:00"
+  },
+  {
+    "repo": "PraveenKumar2049/nightwing-ai-workbench",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810504+00:00"
+  },
+  {
+    "repo": "chidionyema/hermes-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810506+00:00"
+  },
+  {
+    "repo": "Pakeshiel/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810508+00:00"
+  },
+  {
+    "repo": "droolyai/hermes-proton",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-26T05:05:51.810510+00:00"
   }
 ]
