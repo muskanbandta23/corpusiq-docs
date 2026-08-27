@@ -130,6 +130,8 @@ _Core Hermes Agent repos, official builds_
 
 **Language:** Python | **Topics:** ai, anthropic, claude, fastapi, llm, multi-agent, nextjs, python, rag, typescript | **Score:** 80/100
 
+**CorpusIQ status (Aug 27, 2026):** Local clone runs Anthropic-free on DeepSeek. Provider registry (`providers/registry.py`) routes any slug listed in `LOCAL_MODELS` to an OpenAI-compatible backend, so the stack runs entirely on `deepseek-v4-flash` / `deepseek-v4-pro` via `LOCAL_BASE_URL=https://api.deepseek.com/v1`, with no `ANTHROPIC_API_KEY` needed. Verified end-to-end: FastAPI boots, `/chat` streams full executive turns with RAG (ChromaDB) in ~4s. Caveats: DeepSeek v4 emits `reasoning_content` before `content`, so keep `max_tokens` generous (>=500); no Anthropic prompt-caching equivalents.
+
 ---
 
 ## 🚀 Deployment
