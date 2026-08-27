@@ -20,7 +20,7 @@
 {% block extrahead %}
   {# Canonical: the base theme emits one canonical tag; deploy_docs.py step 3b
      strips the trailing slash from it post-build (no-slash convention). Do NOT
-     add a second canonical here — duplicate canonical tags confuse crawlers
+     add a second canonical here - duplicate canonical tags confuse crawlers
      and the theme's tag (emitted first) wins for Google regardless of order.
      See corpusiq-docs-seo-geo skill: canonical-to-redirect fix Aug 18. #}
   {{ super() }}
@@ -49,7 +49,7 @@
   {% else %}
     {% set social_desc = config.site_description %}
   {% endif %}
-  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
+  <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') }}">
   <meta property="og:site_name" content="{{ config.site_name }}">
@@ -164,7 +164,7 @@
 
 {% block footer %}
   {{ super() }}
-  {# Google Preferred Sources badge — centered under the theme footer.
+  {# Google Preferred Sources badge - centered under the theme footer.
      The publisher.js library (loaded in extrahead) replaces this div with
      the interactive, auto-localized "Add to Preferred Sources" button. #}
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">

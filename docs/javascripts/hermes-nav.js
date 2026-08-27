@@ -1,4 +1,4 @@
-// Hermes section big bold separator — watches for MkDocs Material nav render
+// Hermes section big bold separator - watches for MkDocs Material nav render
 (function() {
   function styleHermes() {
     var links = document.querySelectorAll('.md-nav__link');
