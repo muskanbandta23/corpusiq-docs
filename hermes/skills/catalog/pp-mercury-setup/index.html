@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="mvanhorn/printing-press-library — the CLI Printing Press catalog: 472 agent-native CLIs across 22 categories (banking, travel, sports, media, dev tools)">
+        <meta name="description" content="mvanhorn/printing-press-library — pp-mercury skill, 124 installs: drive the Mercury banking API from a Hermes agent — accounts, transactions, transfers">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/pp-mercury-setup">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>printing-press-library — Setup Guide</title>
+    <title>pp-mercury — Mercury Banking CLI Setup Guide for Hermes Agents</title>
   
 
     
@@ -69,16 +69,16 @@
   
   <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/pp-mercury-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="printing-press-library — Setup Guide">
-  <meta property="og:description" content="mvanhorn/printing-press-library — the CLI Printing Press catalog: 472 agent-native CLIs across 22 categories (banking, travel, sports, media, dev tools)">
+  <meta property="og:title" content="pp-mercury — Mercury Banking CLI Setup Guide for Hermes Agents">
+  <meta property="og:description" content="mvanhorn/printing-press-library — pp-mercury skill, 124 installs: drive the Mercury banking API from a Hermes agent — accounts, transactions, transfers">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="printing-press-library — Setup Guide">
-  <meta name="twitter:description" content="mvanhorn/printing-press-library — the CLI Printing Press catalog: 472 agent-native CLIs across 22 categories (banking, travel, sports, media, dev tools)">
+  <meta name="twitter:title" content="pp-mercury — Mercury Banking CLI Setup Guide for Hermes Agents">
+  <meta name="twitter:description" content="mvanhorn/printing-press-library — pp-mercury skill, 124 installs: drive the Mercury banking API from a Hermes agent — accounts, transactions, transfers">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,9 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "printing-press-library \u2014 Setup Guide",
-    "description": "mvanhorn/printing-press-library \u2014 the CLI Printing Press catalog: 472 agent-native CLIs across 22 categories (banking, travel, sports, media, dev tools)",
-    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup",
+    "name": "pp-mercury \u2014 Mercury Banking CLI Setup Guide for Hermes Agents",
+    "description": "mvanhorn/printing-press-library \u2014 pp-mercury skill, 124 installs: drive the Mercury banking API from a Hermes agent \u2014 accounts, transactions, transfers",
+    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/pp-mercury-setup",
     
     "datePublished": "2026-08-27",
     "dateModified": "2026-08-27",
@@ -159,7 +159,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#printing-press-library-setup-guide" class="md-skip">
+        <a href="#pp-mercury-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -195,7 +195,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              printing-press-library — Setup Guide
+              pp-mercury — Mercury Banking CLI Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -9936,17 +9936,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-is" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What it is
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9959,10 +9948,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#discovery-skill-recommended-first-install" class="md-nav__link">
+  <a href="#1-install-the-cli-binary-required-the-skill-drives-this-binary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Discovery skill (recommended first install)
+        1. Install the CLI binary (required — the skill drives this binary)
       
     </span>
   </a>
@@ -9970,21 +9959,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#install-specific-clis-binary-focused-skill-in-one-shot" class="md-nav__link">
+  <a href="#2-install-the-skill-for-hermes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Install specific CLIs (binary + focused skill in one shot)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#catalog-navigation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Catalog navigation
+        2. Install the skill for Hermes
       
     </span>
   </a>
@@ -10008,6 +9986,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#core-skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Skill
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#command-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Command Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-audit-status-skillssh-verified-aug-27-2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Audit Status (skills.sh, verified Aug 27, 2026)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#corpusiq-use-cases" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10019,10 +10030,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#verification" class="md-nav__link">
+  <a href="#limitations-verification" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Verification
+        Limitations / Verification
       
     </span>
   </a>
@@ -10060,60 +10071,36 @@
   
 
 
-<h1 id="printing-press-library-setup-guide">printing-press-library — Setup Guide<a class="headerlink" href="#printing-press-library-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Source:</strong> <a href="https://github.com/mvanhorn/printing-press-library">mvanhorn/printing-press-library</a>
-<strong>Skill:</strong> <code>printing-press-library</code> (the catalog's discovery skill)
-<strong>Installs:</strong> 679 (discovery skill, as of the Aug 12, 2026 sweep)
-<strong>Quality Tier:</strong> 🔵 Community</p>
-<blockquote>
-<p><strong>Correction note (Aug 27, 2026):</strong> an earlier version of this guide described the library as a print-ready document template library with a Python API. That was wrong. The repo is the <strong>CLI Printing Press catalog</strong> — 472 agent-native CLIs across 22 categories, each printed as a focused <code>pp-&lt;name&gt;</code> skill plus a Go binary, with a discovery skill that lets an agent search the catalog and install matching tools. This guide has been rewritten to match the actual repository.</p>
-</blockquote>
-<h2 id="what-it-is">What it is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>The CLI Printing Press philosophy: a well-designed CLI is muscle memory for an agent — no doc hunting, no wrong turns, no wasted tokens. This repo is the catalog of CLIs already printed and ready to install. Every entry ships:</p>
-<ol>
-<li>A <strong>focused skill</strong> (<code>cli-skills/pp-&lt;name&gt;/SKILL.md</code>) the agent loads to learn the CLI's command surface</li>
-<li>A <strong>Go binary</strong> (e.g. <code>mercury-pp-cli</code>) installed via the npm orchestrator</li>
-<li>One-shot install: every install pulls the binary <strong>and</strong> the skill</li>
-</ol>
-<p>Categories include banking/payments (pp-mercury), sports (pp-espn), travel (flight-goat), media/entertainment (movie-goat), dev tools (sentry-pp-cli, dub), and more — browse the full catalog at <a href="https://printingpress.dev">printingpress.dev</a>.</p>
+<h1 id="pp-mercury-setup-guide">pp-mercury — Setup Guide<a class="headerlink" href="#pp-mercury-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Source:</strong> <a href="https://skills.sh/mvanhorn/printing-press-library/pp-mercury">mvanhorn/printing-press-library</a>
+<strong>GitHub:</strong> <a href="https://github.com/mvanhorn/printing-press-library">mvanhorn/printing-press-library</a> (Apache-2.0, CLI Printing Press catalog — 472 CLIs across 22 categories)
+<strong>Skill:</strong> <code>pp-mercury</code>, 124 installs
+<strong>Category:</strong> Developer Tools / Finance &amp; Banking
+<strong>First Seen:</strong> Catalogued in the Aug 21, 2026 sweep; <strong>re-evaluated Aug 27, 2026</strong> — publisher README now documents first-class Hermes install paths (<code>hermes skills install</code>), invalidating the earlier "OpenClaw-targeted" rejection
+<strong>Quality Tier:</strong> 🟡 Beta — explicit Hermes install support and a verified live install path, but Snyk audit is Fail-level (see Security Audit Status)</p>
+<p>pp-mercury wraps the full Mercury banking API behind one agent-native CLI, <code>mercury-pp-cli</code>. Instead of an agent fumbling raw REST calls (pagination, idempotency keys, webhook registration), the CLI gives muscle-memory commands for every banking surface — accounts, transactions, transfers, cards, treasury, AR invoicing, journal entries, SAFE requests, statements, and webhooks. Its standout capability is <code>workflow payment-plan</code>: a <strong>read-only approval plan</strong> for any payment or transfer that emits the exact dry-run and execute commands before a single write happens — an agent can prepare a $25 transfer and stop for human approval with zero money moved.</p>
+<p>The skill itself is harness-agnostic: any agent with Bash access can drive the Go binary. The publisher's README lists Hermes install commands alongside OpenClaw, Claude Code, Codex, and Cursor.</p>
+<hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<h3 id="discovery-skill-recommended-first-install">Discovery skill (recommended first install)<a class="headerlink" href="#discovery-skill-recommended-first-install" title="Anchor link to this section">&para;</a></h3>
-<p>The discovery skill teaches an agent to search the catalog and pick the right focused skill, deferring CLI setup until the focused skill says it is needed.</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Vercel Agent Skills-compatible harnesses (verified live Aug 27, 2026)</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>mvanhorn/printing-press-library<span class="w"> </span>-g<span class="w"> </span>-y<span class="w"> </span>--skill<span class="w"> </span>printing-press-library
-
-<span class="c1"># Hermes — command line</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>mvanhorn/printing-press-library/skills/printing-press-library
-
-<span class="c1"># Hermes — chat TUI</span>
-/skills<span class="w"> </span>install<span class="w"> </span>mvanhorn/printing-press-library/skills/printing-press-library
-
-<span class="c1"># OpenClaw</span>
-clawhub<span class="w"> </span>install<span class="w"> </span>printing-press-library
+<h3 id="1-install-the-cli-binary-required-the-skill-drives-this-binary">1. Install the CLI binary (required — the skill drives this binary)<a class="headerlink" href="#1-install-the-cli-binary-required-the-skill-drives-this-binary" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Preferred: Printing Press npm installer (defaults to ~/.local/bin on macOS/Linux)</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>install<span class="w"> </span>mercury<span class="w"> </span>--cli-only
 </code></pre></div>
-<h3 id="install-specific-clis-binary-focused-skill-in-one-shot">Install specific CLIs (binary + focused skill in one shot)<a class="headerlink" href="#install-specific-clis-binary-focused-skill-in-one-shot" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Starter pack: espn + flight-goat + movie-goat + recipe-goat</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>install<span class="w"> </span>starter-pack
-
-<span class="c1"># One tool</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>install<span class="w"> </span>espn
-
-<span class="c1"># Several at once (bundles and CLI names mix freely)</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>install<span class="w"> </span>espn<span class="w"> </span>sentry<span class="w"> </span>dub
+<p>Verify before proceeding:</p>
+<div class="highlight"><pre><span></span><code>mercury-pp-cli<span class="w"> </span>--version
 </code></pre></div>
-<p>Binary-only or skill-only:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>install<span class="w"> </span>mercury<span class="w"> </span>--cli-only
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>install<span class="w"> </span>mercury<span class="w"> </span>--skill-only
+<p>If <code>--version</code> reports "command not found", add <code>~/.local/bin</code> to <code>$PATH</code> for the agent runtime. Go-install fallback (requires Go 1.26.6+):</p>
+<div class="highlight"><pre><span></span><code>go<span class="w"> </span>install<span class="w"> </span>github.com/mvanhorn/printing-press-library/library/payments/mercury/cmd/mercury-pp-cli@latest
 </code></pre></div>
-<h3 id="catalog-navigation">Catalog navigation<a class="headerlink" href="#catalog-navigation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>list
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>search<span class="w"> </span>flights
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>list<span class="w"> </span>--category<span class="w"> </span>travel
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>list<span class="w"> </span>--installed
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>update<span class="w"> </span>espn
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>uninstall<span class="w"> </span>espn<span class="w"> </span>--yes
+<h3 id="2-install-the-skill-for-hermes">2. Install the skill for Hermes<a class="headerlink" href="#2-install-the-skill-for-hermes" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>mvanhorn/printing-press-library/cli-skills/pp-mercury
 </code></pre></div>
-<p>Under the hood the npm package reads the live catalog in <code>registry.json</code>, resolves each CLI's Go module path, runs <code>go install</code>, and installs the matching skill from <code>cli-skills/pp-&lt;name&gt;</code>.</p>
+<p>From inside the Hermes chat TUI:</p>
+<div class="highlight"><pre><span></span><code>/skills install mvanhorn/printing-press-library/cli-skills/pp-mercury
+</code></pre></div>
+<p>For Vercel Agent Skills-compatible harnesses (verified live Aug 27, 2026 — the skills.sh installer clones the repo and discovers the skill tree):</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>mvanhorn/printing-press-library/cli-skills/pp-mercury<span class="w"> </span>-g<span class="w"> </span>-y
+</code></pre></div>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10124,38 +10111,193 @@ npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-li
 </thead>
 <tbody>
 <tr>
-<td>Node.js</td>
-<td>For the npm installer / discovery commands</td>
+<td><strong>Mercury account</strong></td>
+<td>A Mercury organization account (mercury.com) — production or sandbox</td>
 </tr>
 <tr>
-<td>Go 1.26.6+</td>
-<td>For the <code>go install</code> fallback on individual CLIs</td>
+<td><strong>Mercury API token</strong></td>
+<td><code>mercury-pp-cli auth set-token &lt;TOKEN&gt;</code> or export <code>MERCURY_BEARER_AUTH</code></td>
 </tr>
 <tr>
-<td><code>~/.local/bin</code> on <code>$PATH</code></td>
-<td>Default binary install location (macOS/Linux)</td>
+<td><strong>Go 1.26.6+</strong></td>
+<td>Only for the <code>go install</code> fallback path (npm installer needs only Node)</td>
 </tr>
 <tr>
-<td>Per-CLI credentials</td>
-<td>Each CLI needs its own auth (e.g. <code>mercury-pp-cli auth set-token</code>); see the focused skill</td>
+<td><strong><code>$PATH</code> coverage</strong></td>
+<td><code>~/.local/bin</code> must be on the agent runtime's <code>$PATH</code></td>
 </tr>
 </tbody>
 </table>
+<h2 id="core-skill">Core Skill<a class="headerlink" href="#core-skill" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Installs</th>
+<th>Use For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pp-mercury</td>
+<td>124</td>
+<td>Mercury banking API — account management, transaction processing, balance tracking, payment handling. Triggers: "mercury account balance", "mercury transactions", "send a Mercury payment"</td>
+</tr>
+</tbody>
+</table>
+<h2 id="command-reference">Command Reference<a class="headerlink" href="#command-reference" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Example</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>accounts</code> / <code>account</code></td>
+<td><code>mercury-pp-cli accounts</code></td>
+<td>Paginated account list / single account by ID</td>
+</tr>
+<tr>
+<td><code>transactions</code> / <code>transaction</code></td>
+<td><code>mercury-pp-cli transactions --since 2026-08-01</code></td>
+<td>Transaction history with date-range filters, notes, categories</td>
+</tr>
+<tr>
+<td><code>transfer</code></td>
+<td><code>mercury-pp-cli transfer ...</code></td>
+<td>Move funds between accounts in the same organization</td>
+</tr>
+<tr>
+<td><code>cards</code></td>
+<td><code>mercury-pp-cli cards create</code></td>
+<td>Issue virtual cards, set limits, manage card details</td>
+</tr>
+<tr>
+<td><code>treasury</code></td>
+<td><code>mercury-pp-cli treasury</code></td>
+<td>Treasury accounts and balances</td>
+</tr>
+<tr>
+<td><code>ar</code></td>
+<td><code>mercury-pp-cli ar create-invoice</code></td>
+<td>Invoices, customers, attachments, PDFs (receivables)</td>
+</tr>
+<tr>
+<td><code>books</code></td>
+<td><code>mercury-pp-cli books get-journal-entries</code></td>
+<td>Journal entries and Chart of Accounts templates</td>
+</tr>
+<tr>
+<td><code>safes</code></td>
+<td><code>mercury-pp-cli safes get-requests</code></td>
+<td>SAFE (equity) requests for fundraising ops</td>
+</tr>
+<tr>
+<td><code>statements</code></td>
+<td><code>mercury-pp-cli statements ...</code></td>
+<td>Download account statements</td>
+</tr>
+<tr>
+<td><code>webhooks</code></td>
+<td><code>mercury-pp-cli webhooks create</code></td>
+<td>Register/manage webhook endpoints for event notifications</td>
+</tr>
+<tr>
+<td><code>organization</code></td>
+<td><code>mercury-pp-cli organization</code></td>
+<td>EIN, legal business name, DBAs</td>
+</tr>
+<tr>
+<td><code>which</code></td>
+<td><code>mercury-pp-cli which "pay a contractor"</code></td>
+<td>Natural-language command resolution (exit 2 = no confident match)</td>
+</tr>
+<tr>
+<td><code>agent-context</code></td>
+<td><code>mercury-pp-cli agent-context --agent</code></td>
+<td>Machine-readable command metadata for agent/MCP hosts</td>
+</tr>
+<tr>
+<td><code>workflow payment-plan</code></td>
+<td><code>mercury-pp-cli workflow payment-plan --kind transfer --source-account-id acct_src --destination-account-id acct_dst --amount 25 --agent</code></td>
+<td><strong>Read-only approval plan</strong> with body, idempotency key, dry-run command, and execute command</td>
+</tr>
+<tr>
+<td><code>workflow archive</code></td>
+<td><code>mercury-pp-cli workflow archive --agent</code></td>
+<td>Sync Mercury resources into a local SQLite store for offline search</td>
+</tr>
+</tbody>
+</table>
+<h2 id="security-audit-status-skillssh-verified-aug-27-2026">Security Audit Status (skills.sh, verified Aug 27, 2026)<a class="headerlink" href="#security-audit-status-skillssh-verified-aug-27-2026" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Gen Agent Trust Hub</th>
+<th>Socket</th>
+<th>Snyk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pp-mercury</td>
+<td>Pass</td>
+<td>Warn</td>
+<td>Fail</td>
+</tr>
+</tbody>
+</table>
+<p>Snyk Fail is the reason for the 🟡 Beta tier rather than 🟢. The skill is a thin SKILL.md over a Go CLI; review the Snyk findings on the <a href="https://skills.sh/mvanhorn/printing-press-library/pp-mercury/security/snyk">skills.sh security page</a> before wiring it to a production token.</p>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li><strong>Agent tool discovery</strong> — the discovery skill answers "what's the fastest CLI for X?" from a 472-entry catalog instead of an agent improvising API calls</li>
-<li><strong>Banking ops</strong> — pp-mercury for Mercury account/transfer/treasury operations with a read-only payment-plan approval workflow</li>
-<li><strong>Sports/media data</strong> — pp-espn and movie-goat for content research and trend monitoring</li>
-<li><strong>Dev tooling</strong> — sentry-pp-cli (local SQLite mirror, cross-org queries) for issue analytics</li>
-<li><strong>One-command fleet setup</strong> — <code>install starter-pack</code> provisions a whole tool set in a single invocation</li>
-</ol>
-<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>printing-press-library
-npx<span class="w"> </span>-y<span class="w"> </span>@mvanhorn/printing-press-library<span class="w"> </span>list<span class="w"> </span>--installed
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Agent-safe payments</strong></td>
+<td><code>workflow payment-plan</code> produces a read-only plan with dry-run before any transfer — the autonomous-spend budget gets a hard approval gate for money movement</td>
+</tr>
+<tr>
+<td><strong>Finance ops automation</strong></td>
+<td>Balance checks, transaction categorization, and statement pulls become single CLI calls instead of manual Mercury dashboard work</td>
+</tr>
+<tr>
+<td><strong>Client AR operations</strong></td>
+<td>Invoice creation/retrieval and PDF downloads for billing workflows (<code>ar create-invoice</code>, <code>ar get-invoice-pdf</code>)</td>
+</tr>
+<tr>
+<td><strong>Runway monitoring</strong></td>
+<td><code>treasury</code> + <code>accounts</code> + <code>transactions</code> compose into a daily runway snapshot job</td>
+</tr>
+<tr>
+<td><strong>Event-driven alerts</strong></td>
+<td>Register webhooks for transaction events feeding internal notification channels</td>
+</tr>
+</tbody>
+</table>
+<h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Requires a Mercury API token with appropriate scopes — the CLI does not bypass Mercury's permission model; sandbox testing is strongly advised for write commands.</li>
+<li><code>workflow payment-plan</code> plans are read-only; the execute step is a separate explicit command — keep the two steps separated in any agent workflow.</li>
+<li>Publisher author field in SKILL.md frontmatter reads "Cathryn Lavery" while the repo is maintained under mvanhorn — cosmetic, but noted for attribution checks.</li>
+<li>Install counts are modest (124) relative to the catalog's breadth; the underlying discovery skill (<code>printing-press-library</code>) has far more installs.</li>
+</ul>
+<p>Verification after install:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>pp-mercury
+mercury-pp-cli<span class="w"> </span>--version
+mercury-pp-cli<span class="w"> </span>which<span class="w"> </span><span class="s2">&quot;account balance&quot;</span><span class="w">   </span><span class="c1"># exit 0 = command resolved</span>
 </code></pre></div>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/docs/hermes/skills/catalog/pp-mercury-setup">pp-mercury — Mercury Banking CLI Setup</a> — the catalog's banking entry, with Hermes install path and payment-plan workflow</li>
+<li><a href="/docs/hermes/skills/catalog/printing-press-library-setup">Printing Press Library — 472-CLI Agent Tool Catalog Setup</a> — the parent catalog and its discovery skill</li>
 <li><a href="/hermes/skills/marketplace">Skills Marketplace</a> — more discovery batches</li>
 </ul>
 
