@@ -137,17 +137,30 @@ See the [MCP Integration Guide](https://corpusiq.io/mcp) for setup instructions.
 
 ## Frequently Asked Questions
 
-**Q: How long does it take to set up CorpusIQ?**  
-A: Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage.
+### How long does it take to set up CorpusIQ?
+Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage.
 
-**Q: Do I need a credit card to start?**  
-A: No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately.
+### Do I need a credit card to start?
+No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately.
 
-**Q: What are the best data sources to connect first?**  
-A: Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth.
+### What are the best data sources to connect first?
+Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth.
 
-**Q: How do I get an API token?**  
-A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection.
+### How do I get an API token?
+Go to Dashboard → Settings → API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How long does it take to set up CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage."}},
+    {"@type": "Question", "name": "Do I need a credit card to start?", "acceptedAnswer": {"@type": "Answer", "text": "No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately."}},
+    {"@type": "Question", "name": "What are the best data sources to connect first?", "acceptedAnswer": {"@type": "Answer", "text": "Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth."}},
+    {"@type": "Question", "name": "How do I get an API token?", "acceptedAnswer": {"@type": "Answer", "text": "Go to Dashboard, Settings, API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection."}}
+  ]
+}
+</script>
 
 ## Internal Links
 

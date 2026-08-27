@@ -23,6 +23,14 @@ robots: "index,follow"
 
 **Operators** who need answers across Stripe, HubSpot, QuickBooks, and Shopify without logging into each one. **Developers** building AI agents that need governed access to business data. **Teams** that want a single source of truth their AI can actually query.
 
+## Evidence
+
+"The same number in ChatGPT, Claude, and Perplexity. Every time." - Benoit Pecqueur, Founder, CorpusIQ
+
+"When a user selects your site as a preferred source, your content is more likely to appear in Top Stories, highlighted with a preferred badge. In AI Mode and AI Overviews, your content can be highlighted with a preferred badge for users who have selected your site as a preferred source." - [Google Search Central documentation](https://developers.google.com/search/docs/appearance/preferred-sources)
+
+CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude.
+
 ## Frequently Asked Questions
 
 ### What is CorpusIQ?
