@@ -12,7 +12,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 27, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3787-#3791 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 387 servers (+273 guides)
+> **Last updated:** August 27, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3792-#3793 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 390 servers (+276 guides)
+## 🆕 August 27, 2026 - Evening Cron Sweep (3 New, 3 Guides)
+
+Evening sweep sourced from chatmcp/mcpso issues #3792-#3793 (Aug 27 13:02 - 15:47 UTC), the mcp.so homepage and feed (30 feed slugs and 8 recentServers cross-referenced), and the mcpservers.org homepage (18 slugs cross-referenced). 3 new business-relevant servers catalogued with guides: TubeScout (local keyless YouTube research server - filtered video search, engagement resonance, resilient transcripts single or batch of 10, channel scans and YouTube autocomplete as search-demand data, plus 6 context-aware research skills for idea mining, niche validation and demand-gap analysis; stdio via npx -y tubescout, MIT), DrillerDB (official remote MCP connector for the water-well and drilling contractor operating system - 45 tools, 37 read-only, over projects, customers, invoices, work orders, crews, schedules, equipment, compliance and well logs; OAuth 2.0 PKCE with tenant isolation, audit logging and approval-gated writes; endpoint 401-verified live, registry com.drillerdb/drillerdb v1.0.0), BidSkim (hosted UK public procurement intelligence - 8 read-only tools over Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wales, entity-resolved to one record per opportunity; search_renewals surfaces expiring contracts with incumbents, buyer and supplier profiles carry award histories; OAuth 2.1 or x-api-key header at mcp.bidskim.com/mcp, 401-verified live).
+
+[TubeScout MCP - Keyless YouTube Research for AI Agents](/hermes/mcp/servers/external/tubescout-mcp/) · 6 keyless tools plus a research skill pack, npx install, MIT.
+
+[DrillerDB MCP - Field Service Data for Drilling Contractors](/hermes/mcp/servers/external/drillerdb-mcp/) · 45 tools, 37 read-only, OAuth PKCE, approval-gated writes.
+
+[BidSkim MCP - UK Tenders and Procurement Intelligence](/hermes/mcp/servers/external/bidskim-mcp/) · 8 read-only tools, contract renewals with incumbents, OAuth or API key.
+
+**Also identified (not catalogued):** Foremerge (open-source coordination protocol for coding agents built above Git - Rust CLI plus MCP, 50 stars - dev tool class, kbdb and AI Commander precedent), OrbitWan (Wanchain blockchain explorer: address, transaction, block and validator search - crypto/niche class, no MCP surface on the site), plus feed and homepage repeats already evaluated in Aug 24-27 sweeps (Katto, Uwear.ai, OmniSocials, Graviti, Speccy x402, Jitsu, Hologrow, OpenLore, Legion, fhirHydrant, YouTube Transcript AI, QuanticData, Windframe, Alpha Sophia, HostTracker, Batru, Magic Hour, Ice Juice, Routebase, SSH MCP Server, Agentic Atlas, RE Data Refinery, AgentRisk M2M, OAIA Arena, ReactVision, uxgen, SocialRobot, and the mcpservers.org homepage's 18 already-mapped slugs).
+
 
 ## 🆕 August 27, 2026 - Morning Cron Sweep (1 New, 1 Guide)
 
@@ -4883,3 +4895,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from chatmcp/mcpso issues - Aug 27, 2026 (morning cron sweep)
 
 - [Golf Intelligence MCP - Golf Course Data for AI Agents](/docs/hermes/mcp/servers/external/golf-intelligence-mcp/)
+### 3 new servers from chatmcp/mcpso issues - Aug 27, 2026 (evening cron sweep)
+
+- [TubeScout MCP - Keyless YouTube Research for AI Agents](/docs/hermes/mcp/servers/external/tubescout-mcp/)
+- [DrillerDB MCP - Field Service Data for Drilling Contractors](/docs/hermes/mcp/servers/external/drillerdb-mcp/)
+- [BidSkim MCP - UK Tenders and Procurement Intelligence](/docs/hermes/mcp/servers/external/bidskim-mcp/)
