@@ -202,7 +202,6 @@ Every blueprint follows a predictable escalation pattern: automated retry (trans
 - [Cron Design Best Practices](/docs/hermes/best-practices/cron-design/)  --  Reliable scheduled automation
 - [Integration Examples](/hermes/integrations/)  --  Tool connection patterns for blueprints
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

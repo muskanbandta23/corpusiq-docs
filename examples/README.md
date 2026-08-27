@@ -15,6 +15,8 @@ and gives you working code or configuration you can run immediately.
 |---------|-------------|
 | [Cross-Source ROAS Analysis](cross-source-roas-analysis.md) | Calculate true ROAS by connecting Shopify revenue with Meta Ads and Google Ads spend |
 | [Claude Desktop Config](claude-desktop-config.md) | Add CorpusIQ MCP server to Claude Desktop |
+| [Support Triage with HubSpot + Stripe](support-triage-hubspot-stripe.md) | Find open HubSpot tickets from customers with past-due Stripe invoices and prioritize by revenue at risk |
+| [MCP Starter Kit](mcp-starter/README.md) | Minimal MCP server project scaffold for developers building on CorpusIQ |
 
 ## Submitting an Example
 

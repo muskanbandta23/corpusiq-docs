@@ -119,7 +119,6 @@ Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku**
 - [Canonical Facts  --  Store Business Definitions](/hermes/governance/)
 - [Model Selection Best Practices](/docs/hermes/best-practices/model-selection/)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

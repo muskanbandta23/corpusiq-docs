@@ -4,7 +4,7 @@ description: "CorpusIQ MSR governance framework: management system of record, da
 category: "Documentation"
 tags: ["corpusiq governance", "msr", "source of truth", "data validation", "reconciliation", "audit controls", "financial governance"]
 last_updated: "2026-08-23"
-canonical: "https://www.corpusiq.io/docs/governance"
+canonical: "https://www.corpusiq.io/governance"
 robots: "index,follow"
 ---
 # MSR Source of Truth Governance
@@ -91,12 +91,12 @@ A: MSR is always authoritative for financial metrics. Connected source data via 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/architecture/)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search/)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting/)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding/)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance/)**  --  Source of truth and audit controls  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

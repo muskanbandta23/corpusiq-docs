@@ -91,4 +91,4 @@ Complementary surface to CorpusIQ's commerce and analytics connectors: an agent 
 - [External MCP Server Catalog](/hermes/mcp/servers/external/)
 - [PopOff Data MCP - Reality-TV Social Analytics for AI Agents](/hermes/mcp/servers/external/popoff-data/)
 - [Alpha Sophia MCP - US Healthcare Provider and Market Data](/hermes/mcp/servers/external/alpha-sophia-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/servers/corpusiq/)
+- [CorpusIQ Connectors](/hermes/mcp/servers/)

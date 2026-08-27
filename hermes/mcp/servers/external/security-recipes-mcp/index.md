@@ -80,4 +80,4 @@ Complementary to CorpusIQ's business-data connectors: CorpusIQ answers "what is 
 - [External MCP Server Catalog](/hermes/mcp/servers/external/)
 - [ScreenVerity MCP - U.S. Exclusion and Debarment Screening](/hermes/mcp/servers/external/screenverity-mcp/)
 - [Poison Armor MCP - Prompt-Injection Firewall for AI Agents](/hermes/mcp/servers/external/poison-armor-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/servers/corpusiq/)
+- [CorpusIQ Connectors](/hermes/mcp/servers/)

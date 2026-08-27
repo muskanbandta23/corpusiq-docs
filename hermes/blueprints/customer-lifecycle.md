@@ -256,7 +256,6 @@ Lifecycle automation is only as good as the data feeding it. Weekly reconciliati
 - Integrate with **product analytics** (PostHog, Mixpanel) for deeper behavioral signals
 - Add **NPS surveys** at key lifecycle transitions (end of onboarding, 6-month mark, renewal)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

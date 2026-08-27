@@ -76,4 +76,4 @@ Complementary to CorpusIQ's commerce and analytics connectors: an agent can pull
 
 - [External MCP Server Catalog](/hermes/mcp/servers/external/)
 - [Walmart Marketplace MCP](/hermes/mcp/servers/external/walmart-marketplace-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/servers/corpusiq/)
+- [CorpusIQ Connectors](/hermes/mcp/servers/)

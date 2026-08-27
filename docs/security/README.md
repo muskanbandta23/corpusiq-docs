@@ -3,7 +3,7 @@ description: >-
   CorpusIQ security: read-only access to connected tools, AES-256 encryption,
   documented retention lifecycles, and source citations on every answer.
   We never write to your systems.
-canonical: "https://www.corpusiq.io/docs/security/"
+canonical: "https://www.corpusiq.io/security/"
 robots: "index,follow"
 last_updated: "2026-08-23"
 title: "CorpusIQ Security and Compliance"
@@ -16,7 +16,7 @@ description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-le
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
 last_updated: "2026-08-12"
-canonical: "https://www.corpusiq.io/docs/security"
+canonical: "https://www.corpusiq.io/security"
 robots: "index,follow"
 ---
 # Security
@@ -92,12 +92,12 @@ A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/architecture/)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search/)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting/)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding/)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance/)**  --  Source of truth and audit controls  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

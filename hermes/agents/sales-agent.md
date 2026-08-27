@@ -137,7 +137,6 @@ The [Sales Agent](/docs/hermes/agents/sales-agent/) focuses on **pipeline manage
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Canonical Facts  --  Store Business Definitions](/hermes/governance/)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
