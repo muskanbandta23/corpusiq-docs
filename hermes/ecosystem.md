@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 171+ repos, tools, skills, and integrations
-last_updated: 2026-08-26
+description: Comprehensive directory of the Hermes Agent ecosystem — 173+ repos, tools, skills, and integrations
+last_updated: 2026-08-27
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,16 +11,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **171+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **173+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **171+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **173+ repos indexed.**
 
 ## 📊 Category Overview
 
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 8 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 9 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -29,7 +29,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **171+ reposit
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 3 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
-| 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
+| 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 2 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 39 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 33 | Desktop apps, web UIs, dashboards, terminals |
@@ -51,6 +51,14 @@ _Video, social media, content generation_
 ## 🧠 Core Framework
 
 _Core Hermes Agent repos, official builds_
+
+### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
+
+>🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
+
+**Language:** TypeScript | **Topics:** agentic-framework, multi-agent, swarm, hermes, mcp-server, skills | **Score:** 81/100
+
+---
 
 ### [ksimback/hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem) ⭐ 1,076
 
@@ -844,6 +852,14 @@ _Client libraries, API wrappers, language bindings_
 
 ---
 
+### [PatterAI/Patter](https://github.com/PatterAI/Patter) ⭐ 967
+
+>Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your AI agent a phone number in 4 lines - Python and TypeScript, MIT licensed, Twilio, Telnyx, and Plivo.
+
+**Language:** Python | **Topics:** hermes-agent, openclaw, voice-agent, sdk, twilio, telnyx, python, typescript | **Score:** 72/100
+
+---
+
 ## 🛡️ Security & Governance
 
 _Security tools, compliance, audit_
@@ -1437,6 +1453,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*171+ repositories in the Hermes ecosystem. Last updated: 2026-08-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*173+ repositories in the Hermes ecosystem. Last updated: 2026-08-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

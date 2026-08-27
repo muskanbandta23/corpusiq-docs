@@ -48355,5 +48355,96 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-27T06:05:09.934833+00:00",
     "status": "pending"
+  },
+  {
+    "name": "jshsakura/awesome-hermes-starter",
+    "url": "https://github.com/jshsakura/awesome-hermes-starter",
+    "description": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \ud5e4\ub974\uba54\uc2a4 \uc5d0\uc774\uc804\ud2b8 \uc124\uc815 \ub3c4\uc6b0\ubbf8 \u2014 A beginner-friendly setup helper for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-27T06:10:40Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T07:04:06.354255+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Chrischenny/chris-hermes-agent",
+    "url": "https://github.com/Chrischenny/chris-hermes-agent",
+    "description": "an plugin that can handle hermes context automaticlly by agent it self",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T06:23:55Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory"
+    ],
+    "discovered_at": "2026-08-27T07:04:09.357930+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "seagpt/hermes-mobile-standalone",
+    "url": "https://github.com/seagpt/hermes-mobile-standalone",
+    "description": "Standalone Android Hermes Agent runtime research and product path",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-runtime",
+      "android",
+      "capacitors",
+      "hermes",
+      "local-ai"
+    ],
+    "updated_at": "2026-08-27T07:01:25Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T07:04:12.361311+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aegntic/yt-empire",
+    "url": "https://github.com/aegntic/yt-empire",
+    "description": "Autonomous multi-channel YouTube production system \u2014 8-agent skill pipeline, 5-channel architecture, OAuth2 upload pipeline. Operated by Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T06:38:59Z",
+    "category": "production",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "anomaliagent007-hue/hermes-mimo-bridge"
+    ],
+    "discovered_at": "2026-08-27T07:05:34.492999+00:00",
+    "status": "pending"
   }
 ]

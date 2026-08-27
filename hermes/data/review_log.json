@@ -11708,5 +11708,33 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-27T06:05:38.889383+00:00"
+  },
+  {
+    "repo": "jshsakura/awesome-hermes-starter",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T07:06:22.948103+00:00"
+  },
+  {
+    "repo": "Chrischenny/chris-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T07:06:22.948118+00:00"
+  },
+  {
+    "repo": "seagpt/hermes-mobile-standalone",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T07:06:22.948120+00:00"
+  },
+  {
+    "repo": "aegntic/yt-empire",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T07:06:22.948122+00:00"
   }
 ]
