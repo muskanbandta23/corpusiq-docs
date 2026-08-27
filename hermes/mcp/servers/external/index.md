@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 26, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3780-#3786 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 386 servers (+272 guides)
+> **Last updated:** August 27, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3787-#3791 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 387 servers (+273 guides)
+
+## 🆕 August 27, 2026 - Morning Cron Sweep (1 New, 1 Guide)
+
+Morning sweep sourced from chatmcp/mcpso issues #3787-#3791 (Aug 27 03:52 - 08:31 UTC), the mcp.so homepage and feed (30 feed slugs and 8 recentServers cross-referenced), and the mcpservers.org homepage (18 slugs cross-referenced). 1 new business-relevant server catalogued with a guide: Golf Intelligence by Stracka (proprietary golf course dataset - 20 years of course-by-course mapping with laser, drone, airplane and satellite capture, updated daily since 2007; free course-group search, then credit-metered scorecards, GPS geometry, course details and green slope images; client-credentials headers at mcp.golfintelligence.com/mcp, live-probed serverInfo golf v1.0.0 with all 5 read-only tools confirmed; Personal $49 / Starter $399/mo plans).
+
+[Golf Intelligence MCP - Golf Course Data for AI Agents](/hermes/mcp/servers/external/golf-intelligence-mcp/) · 5 read-only tools live-probed, free search, credit-metered lookups with confirm_spend gate.
+
+**Also identified (not catalogued):** SwarmIO #3788 (hosted research swarm writing cited reports - agent infra class, no business data), Vifo #3789 (AI travel journal written by the user's agent - consumer app class), Oblique Markets #3790 (x402-paid tool marketplace: market stats, provider lookup, catalog diffs, experiment scoreboard - x402 infrastructure class, 402oracle precedent), Focuh #3791 (personal ADHD task system for coding agents - personal productivity class). Feed/homepage catch-ups recorded for a future sweep: Katto (AI video clipping into scored, captioned 9:16 shorts, mcp.so recentServers, createdAt Dec 2024 - creator/media utility class, klo-mcp precedent), Graviti (agent trust index with paid verification and a tamper-evident public ledger at graviti.thesingulariti.ai - agent infra class), YouTube Transcript AI (keyless YouTube transcript fetching, createdAt Jul 31 - dev utility class).
+
 
 ## 🆕 August 26, 2026 - Night Cron Sweep (4 New, 4 Guides)
 
@@ -4870,3 +4879,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Security Recipes MCP - CVE Intelligence and Remediation Playbooks](/docs/hermes/mcp/servers/external/security-recipes-mcp/)
 - [Legalize MCP - Point-in-Time Legislation with Git Provenance](/docs/hermes/mcp/servers/external/legalize-mcp/)
 - [BestPrice Shopping MCP - Greek Market Price Comparison](/docs/hermes/mcp/servers/external/bestprice-shopping-mcp/)
+
+### 1 new server from chatmcp/mcpso issues - Aug 27, 2026 (morning cron sweep)
+
+- [Golf Intelligence MCP - Golf Course Data for AI Agents](/docs/hermes/mcp/servers/external/golf-intelligence-mcp/)
