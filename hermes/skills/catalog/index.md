@@ -524,3 +524,5 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Makerskills — Personal Operator Agent Suite Setup](/docs/hermes/skills/catalog/makerskills-setup/)
 - [Tech Logos — Brand Logo Installer for shadcn/ui Setup](/docs/hermes/skills/catalog/tech-logos-setup/)
 - [Generative Media Skills — 153-Skill Media Production Suite Setup](/docs/hermes/skills/catalog/generative-media-skills-setup/)
+- [pp-mercury — Mercury Banking CLI Setup](/docs/hermes/skills/catalog/pp-mercury-setup/)
+- [Printing Press Library — 472-CLI Agent Tool Catalog Setup](/docs/hermes/skills/catalog/printing-press-library-setup/)
