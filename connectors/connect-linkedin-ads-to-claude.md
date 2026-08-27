@@ -37,7 +37,7 @@ LinkedIn Ads alone tells you CPL. LinkedIn Ads plus your CRM tells you which lea
 
 CorpusIQ connects LinkedIn Ads alongside HubSpot, Salesforce, Shopify, Google Ads, and 40+ other sources so you can ask the full picture question in one query.
 
-"What is our fully loaded customer acquisition cost from LinkedIn Ads including sales follow-up time?" — that needs LinkedIn Ads, your CRM, and operational data together. CorpusIQ handles it.
+"What is our fully loaded customer acquisition cost from LinkedIn Ads including sales follow-up time?" - that needs LinkedIn Ads, your CRM, and operational data together. CorpusIQ handles it.
 
 ## Why operators use CorpusIQ for LinkedIn Ads instead of native reporting
 
@@ -54,7 +54,7 @@ CorpusIQ reads both sources directly. Ask the same question from both datasets a
 **"I want to compare LinkedIn Ads to Google Ads performance but the metrics are not apples to apples."**
 CorpusIQ normalizes across platforms. Ask for cost per qualified lead across all paid channels and get a unified view.
 
-[Start free — connect LinkedIn Ads to Claude](https://www.corpusiq.io)
+[Start free - connect LinkedIn Ads to Claude](https://www.corpusiq.io)
 ---
 
 *

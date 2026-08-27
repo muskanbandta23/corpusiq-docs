@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ## What It Is
 
-CorpusIQ connects to Gmail and Microsoft Outlook via OAuth, giving AI agents read and send access to email. Agents can search inboxes, read threads, draft and send replies, and manage labels — all with the user's own permissions.
+CorpusIQ connects to Gmail and Microsoft Outlook via OAuth, giving AI agents read and send access to email. Agents can search inboxes, read threads, draft and send replies, and manage labels - all with the user's own permissions.
 
 ## Available Connectors
 
@@ -24,7 +24,7 @@ CorpusIQ connects to Gmail and Microsoft Outlook via OAuth, giving AI agents rea
 
 ## Quick Start
 
-Add the connector through the [CorpusIQ dashboard](https://corpusiq.io/dashboard). Each connector uses OAuth or connection-string authentication — no API keys to manage.
+Add the connector through the [CorpusIQ dashboard](https://corpusiq.io/dashboard). Each connector uses OAuth or connection-string authentication - no API keys to manage.
 
 ## See Also
 

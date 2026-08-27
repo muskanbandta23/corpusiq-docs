@@ -1,5 +1,5 @@
 ---
-title: "New Skills — July 21, 2026 Marketplace Sweep"
+title: "New Skills - July 21, 2026 Marketplace Sweep"
 description: "10 new Hermes-relevant skills discovered on skills.sh, with setup guides drafted. 458K+ combined installs across the new skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july21-2026/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 21, 2026
+# New Skills - July 21, 2026
 
 Skills discovered during the July 21 marketplace sweep. 10 setup guides created for Hermes agents.
 

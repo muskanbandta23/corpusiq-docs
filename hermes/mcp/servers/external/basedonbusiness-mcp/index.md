@@ -1,5 +1,5 @@
 ---
-title: "BasedOnBusiness — Google Maps Business Leads MCP"
+title: "BasedOnBusiness - Google Maps Business Leads MCP"
 description: "Google Maps business & lead data API and MCP server. Search, enrich (email, social, tech stack), and export leads across 195 countries."
 source: www.basedonb.com
 stars: 0
@@ -14,21 +14,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# BasedOnBusiness — Google Maps Business Leads MCP
+# BasedOnBusiness - Google Maps Business Leads MCP
 
-**Google Maps lead generation platform with MCP integration.** Search businesses on Google Maps, enrich them with email, social media, and tech stack data, and export qualified leads — all through AI agent commands. Covers 195 countries.
+**Google Maps lead generation platform with MCP integration.** Search businesses on Google Maps, enrich them with email, social media, and tech stack data, and export qualified leads - all through AI agent commands. Covers 195 countries.
 
 ## What It Does for Operators
 
-- **Google Maps search** — Find businesses by category, location, and filters across 195 countries
-- **Lead enrichment** — Get emails, social profiles, and technology stack for each business
-- **Export-ready** — Data formatted for CRM import and outreach workflows
-- **AI agent-native** — All search and enrichment accessible through MCP tools
+- **Google Maps search** - Find businesses by category, location, and filters across 195 countries
+- **Lead enrichment** - Get emails, social profiles, and technology stack for each business
+- **Export-ready** - Data formatted for CRM import and outreach workflows
+- **AI agent-native** - All search and enrichment accessible through MCP tools
 
 ## Installation
 
 ```bash
-# No installation — hosted API
+# No installation - hosted API
 # Sign up at basedonb.com for API key
 ```
 
@@ -58,14 +58,14 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Operator Use Cases
 
-1. **Sales Teams** — "Find all marketing agencies in Austin with 10-50 employees" → enriched lead list
-2. **Recruiters** — Search for companies by tech stack to identify hiring targets
-3. **Market Researchers** — Map competitive landscapes by business category and location
-4. **Agency Owners** — Find potential clients in specific verticals and geographies
+1. **Sales Teams** - "Find all marketing agencies in Austin with 10-50 employees" → enriched lead list
+2. **Recruiters** - Search for companies by tech stack to identify hiring targets
+3. **Market Researchers** - Map competitive landscapes by business category and location
+4. **Agency Owners** - Find potential clients in specific verticals and geographies
 
 ## CorpusIQ Angle
 
-BasedOnBusiness is a lead generation powerhouse for operators. Paired with CorpusIQ's business data connectors, operators can: (1) discover leads via BasedOnBusiness, (2) qualify them with enrichment data, (3) manage the pipeline in HubSpot (CorpusIQ CRM connector), and (4) track financial performance in QuickBooks — all through AI agent commands.
+BasedOnBusiness is a lead generation powerhouse for operators. Paired with CorpusIQ's business data connectors, operators can: (1) discover leads via BasedOnBusiness, (2) qualify them with enrichment data, (3) manage the pipeline in HubSpot (CorpusIQ CRM connector), and (4) track financial performance in QuickBooks - all through AI agent commands.
 
 ## Limitations
 

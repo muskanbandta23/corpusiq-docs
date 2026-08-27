@@ -1,5 +1,5 @@
 ---
-title: "skillselion-mcp — Skills & MCP Marketplace Search"
+title: "skillselion-mcp - Skills & MCP Marketplace Search"
 description: "Search Skillselion's curated directory of Claude Code skills, MCP servers & plugin marketplaces, ranked by installs and GitHub stars."
 source: github.com/skillselion/skillselion-mcp
 stars: 0
@@ -13,9 +13,9 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# skillselion-mcp — Skills & MCP Marketplace Search
+# skillselion-mcp - Skills & MCP Marketplace Search
 
-**Search Skillselion's curated directory of Claude Code skills, MCP servers, and plugin marketplaces** — all ranked by installs and GitHub stars. For operators discovering the best AI agent tools.
+**Search Skillselion's curated directory of Claude Code skills, MCP servers, and plugin marketplaces** - all ranked by installs and GitHub stars. For operators discovering the best AI agent tools.
 
 ## Installation
 

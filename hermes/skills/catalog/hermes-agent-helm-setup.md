@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Helm Chart — Kubernetes Deployment"
+title: "Hermes Agent Helm Chart - Kubernetes Deployment"
 description: "Deploy Hermes Agent on Kubernetes using the community Helm chart with persistence, ingress, and auto-scaling."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-helm-setup/"
 robots: "index,follow"
@@ -33,5 +33,5 @@ helm install hermes-agent . --set persistence.enabled=true --set ingress.enabled
 
 ## Pitfalls
 
-- Community-maintained (3 stars) — verify chart before production use
+- Community-maintained (3 stars) - verify chart before production use
 - Persistent volumes required for session continuity across pod restarts

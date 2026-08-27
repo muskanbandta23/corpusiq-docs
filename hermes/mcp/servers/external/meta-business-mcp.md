@@ -1,6 +1,6 @@
 ---
-title: "Meta Business MCP — WhatsApp Business Cloud API"
-description: "Connect AI agents to WhatsApp Business Cloud API via MCP — 24 tools for message orchestration, compliance engine, and error intelligence"
+title: "Meta Business MCP - WhatsApp Business Cloud API"
+description: "Connect AI agents to WhatsApp Business Cloud API via MCP - 24 tools for message orchestration, compliance engine, and error intelligence"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/meta-business-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Meta Business MCP — WhatsApp Business Cloud API
+# Meta Business MCP - WhatsApp Business Cloud API
 
 **Production-validated MCP server for WhatsApp Business Cloud API.** 24 tools covering message orchestration, compliance engine, error intelligence, and AI agent-driven WhatsApp communication. Built in Go with 85.6% test coverage and sub-2ms decision latency.
 
@@ -18,12 +18,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | **Language** | Go |
 | **Tools** | 24 |
 | **Transport** | stdio |
-| **Stars** | ★1 (new — July 2026) |
+| **Stars** | ★1 (new - July 2026) |
 | **License** | TBD |
 
 ## Why This Matters for Operators
 
-WhatsApp is the #1 messaging platform for business in LATAM, India, Southeast Asia, and Africa — with 2B+ daily active users. The WhatsApp Business Cloud API lets businesses send/receive messages at scale, but managing it through dashboards is manual and slow. This MCP server gives AI agents direct control over WhatsApp messaging workflows:
+WhatsApp is the #1 messaging platform for business in LATAM, India, Southeast Asia, and Africa - with 2B+ daily active users. The WhatsApp Business Cloud API lets businesses send/receive messages at scale, but managing it through dashboards is manual and slow. This MCP server gives AI agents direct control over WhatsApp messaging workflows:
 
 - **Customer support automation**: AI agents triage and respond to WhatsApp messages
 - **Marketing campaigns**: Orchestrate broadcast messages through AI workflows
@@ -103,10 +103,10 @@ Operators running e-commerce stores, customer support teams, or marketing operat
 
 ## Security Considerations
 
-- **Use system user tokens**, not personal user tokens — they don't expire with password changes
+- **Use system user tokens**, not personal user tokens - they don't expire with password changes
 - **Rotate tokens** every 90 days via the `meta-business-mcp` token management tool
 - **Network-isolate** the MCP server from public internet except for Meta's API endpoints
-- **Audit all outbound messages** — the compliance engine logs every message for review
+- **Audit all outbound messages** - the compliance engine logs every message for review
 
 ---
 

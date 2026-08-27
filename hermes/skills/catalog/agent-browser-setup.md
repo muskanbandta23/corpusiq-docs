@@ -1,6 +1,6 @@
 ---
-title: Agent Browser — Full Setup Guide for Hermes Agents
-description: Install, configure, and use the agent-browser CLI from Vercel Labs. Fast native Rust browser automation for AI agents — 38K+ GitHub stars.
+title: Agent Browser - Full Setup Guide for Hermes Agents
+description: Install, configure, and use the agent-browser CLI from Vercel Labs. Fast native Rust browser automation for AI agents - 38K+ GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-browser-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Agent Browser — Setup Guide
+# Agent Browser - Setup Guide
 
 **Source:** [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) (38,590⭐)
 **Category:** Browser Automation
@@ -49,7 +49,7 @@ agent-browser upgrade
 | **Chrome** | `agent-browser install` downloads from Chrome for Testing. Existing Chrome/Brave/Playwright/Puppeteer installations detected automatically. |
 | **Node.js 24+** | Only needed when building from source |
 | **Rust** | Only needed when building from source |
-| **Hermes Agent** | Any version — CLI tool, no integration required |
+| **Hermes Agent** | Any version - CLI tool, no integration required |
 
 ---
 

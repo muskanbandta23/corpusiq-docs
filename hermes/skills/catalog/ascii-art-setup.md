@@ -1,6 +1,6 @@
 ---
-title: "ascii-art — Setup Guide - CorpusIQ Docs"
-description: Generate ASCII art, banners, and text-based graphics — terminal-native visual output for Hermes agents.
+title: "ascii-art - Setup Guide - CorpusIQ Docs"
+description: Generate ASCII art, banners, and text-based graphics - terminal-native visual output for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ascii-art-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# ascii-art — Setup Guide
+# ascii-art - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Skill:** `ascii-art`
@@ -67,12 +67,12 @@ The skill surfaces through Hermes' text generation:
 
 ## CorpusIQ Use Cases
 
-1. **CLI tool headers** — Branded headers for CorpusIQ terminal tools
-2. **README decoration** — ASCII logos and dividers in GitHub READMEs
-3. **Report formatting** — Visual section breaks in automated reports
-4. **Terminal UI** — Progress indicators in agent terminal output
-5. **Social media** — ASCII art for text-only platforms (HN, Reddit comments)
-6. **Docs branding** — ASCII logos in corpusiq-docs sidebars
+1. **CLI tool headers** - Branded headers for CorpusIQ terminal tools
+2. **README decoration** - ASCII logos and dividers in GitHub READMEs
+3. **Report formatting** - Visual section breaks in automated reports
+4. **Terminal UI** - Progress indicators in agent terminal output
+5. **Social media** - ASCII art for text-only platforms (HN, Reddit comments)
+6. **Docs branding** - ASCII logos in corpusiq-docs sidebars
 
 ## Troubleshooting
 

@@ -21,7 +21,7 @@ A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes
 
 | Problem | AgentMesh Solution |
 |---------|-------------------|
-| HTTP timeouts at 5–10 min crash multi-agent tasks | Redis queues  --  hours-long tasks OK |
+| HTTP timeouts at 5-10 min crash multi-agent tasks | Redis queues  --  hours-long tasks OK |
 | SSH required to start remote workers | 0 SSH  --  workers listen on shared Redis |
 | Reports lost or must be scp'd | Reports land naturally on initiator's machine |
 | Group chat noise eats context tokens | Named inboxes  --  zero noise |

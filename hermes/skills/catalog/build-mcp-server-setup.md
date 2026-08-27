@@ -1,5 +1,5 @@
 ---
-title: Build MCP Server — Anthropic Official Setup Guide
+title: Build MCP Server - Anthropic Official Setup Guide
 description: Install and configure build-mcp-server, Anthropic's official guide to building MCP (Model Context Protocol) servers. 3,148 installs, TypeScript + Python examples. From anthropics/claude-plugins-official.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Build MCP Server — Setup Guide
+# Build MCP Server - Setup Guide
 
 **Source:** [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) · 3,148 installs
 **Category:** MCP Development / Agent Infrastructure
@@ -55,7 +55,7 @@ git clone https://github.com/anthropics/claude-plugins-official.git
 cd claude-plugins-official/build-mcp-server
 ```
 
-### Quick Start — TypeScript
+### Quick Start - TypeScript
 
 ```bash
 mkdir my-mcp-server && cd my-mcp-server
@@ -64,7 +64,7 @@ npm install @modelcontextprotocol/sdk zod
 npm install -D typescript @types/node
 ```
 
-### Quick Start — Python
+### Quick Start - Python
 
 ```bash
 mkdir my-mcp-server && cd my-mcp-server
@@ -166,10 +166,10 @@ async def list_tools() -> list[Tool]:
 
 ## Companion Skills
 
-- [build-mcp-app](/hermes/skills/marketplace/new-june30-2026/) — Full MCP application development
-- [build-mcpb](/hermes/skills/marketplace/new-june30-2026/) — Same guide, Bun runtime
-- [mcp-developer](/hermes/skills/marketplace/new-june30-2026/) — Debugging and testing toolkit
-- [mcp-security-audit](/hermes/skills/marketplace/new-june30-2026/) — Security scanning for MCP servers
+- [build-mcp-app](/hermes/skills/marketplace/new-june30-2026/) - Full MCP application development
+- [build-mcpb](/hermes/skills/marketplace/new-june30-2026/) - Same guide, Bun runtime
+- [mcp-developer](/hermes/skills/marketplace/new-june30-2026/) - Debugging and testing toolkit
+- [mcp-security-audit](/hermes/skills/marketplace/new-june30-2026/) - Security scanning for MCP servers
 
 ---
 
@@ -177,4 +177,4 @@ async def list_tools() -> list[Tool]:
 
 ---
 
-*Part of the Hermes Skills Library. Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Part of the Hermes Skills Library. Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

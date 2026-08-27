@@ -1,5 +1,5 @@
 ---
-title: Threads Growth Skill — Full Setup Guide for Hermes Agents
+title: Threads Growth Skill - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the threads-growth-skill from aradotso/marketing-skills. Automate Threads growth strategies, content publishing, and audience engagement with 745+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threads-growth-skill-setup/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Threads Growth Skill — Setup Guide
+# Threads Growth Skill - Setup Guide
 
 **Source:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) (745 installs)
 **Category:** Social Media & Growth
 
-A Threads growth and marketing automation skill for Hermes agents. Published by aradotso — the same organization behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, audience engagement, and analytics — closing the Meta social stack gap alongside existing X/Twitter, LinkedIn, and Instagram skills.
+A Threads growth and marketing automation skill for Hermes agents. Published by aradotso - the same organization behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, audience engagement, and analytics - closing the Meta social stack gap alongside existing X/Twitter, LinkedIn, and Instagram skills.
 
 ---
 
@@ -32,7 +32,7 @@ npx skills add aradotso/marketing-skills --skill threads-growth-skill
 | **Threads Account** | Meta Threads account with professional/creator dashboard access |
 | **Meta Developer App** | For API-based automation: register at [developers.facebook.com](https://developers.facebook.com) |
 | **Hermes Agent** | v0.20.0+ (for skill system compatibility) |
-| **Instagram Account** | Threads is linked to Instagram — same credentials |
+| **Instagram Account** | Threads is linked to Instagram - same credentials |
 
 Environment variables (if using API mode):
 
@@ -96,9 +96,9 @@ bash SKILL_DIR/scripts/schedule.sh --text "Content" --time "2026-06-29 09:00"
 
 | Issue | Fix |
 |---|---|
-| "Access token expired" | Threads tokens expire after 60 days — regenerate at developers.facebook.com |
-| "Rate limited" | Threads API has 200 posts/day limit — use scheduling to spread posts |
-| "Media upload failed" | Images must be JPEG/PNG, max 10MB — resize before upload |
+| "Access token expired" | Threads tokens expire after 60 days - regenerate at developers.facebook.com |
+| "Rate limited" | Threads API has 200 posts/day limit - use scheduling to spread posts |
+| "Media upload failed" | Images must be JPEG/PNG, max 10MB - resize before upload |
 | "Skill not found after install" | Run `hermes skills reload` to refresh skill registry |
 
 ## Verification

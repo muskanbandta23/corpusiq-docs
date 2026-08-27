@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Yapp MCP — Instant Publishing for Hermes Agent
+# Yapp MCP - Instant Publishing for Hermes Agent
 
 Turn "build me a page and publish it" into a live URL. Your AI agent can ship HTML, PDFs, images, ZIP sites, and landing pages to a public URL in seconds.
 
@@ -17,11 +17,11 @@ Turn "build me a page and publish it" into a live URL. Your AI agent can ship HT
 
 Yapp gives AI agents the ability to publish content directly to the web:
 
-- **HTML pages** — full interactive web pages
-- **PDFs** — reports, proposals, invoices
-- **Images** — charts, diagrams, screenshots
-- **ZIP sites** — multi-file static websites
-- **Landing pages** — marketing pages, waitlists, demos
+- **HTML pages** - full interactive web pages
+- **PDFs** - reports, proposals, invoices
+- **Images** - charts, diagrams, screenshots
+- **ZIP sites** - multi-file static websites
+- **Landing pages** - marketing pages, waitlists, demos
 
 Every published item gets a public URL at `slug.yapp.page`.
 
@@ -34,7 +34,7 @@ Every published item gets a public URL at `slug.yapp.page`.
 ### Add to Hermes Agent
 
 ```bash
-# Streamable HTTP — connect once and publish forever
+# Streamable HTTP - connect once and publish forever
 hermes mcp add yapp -- url https://yapp.page/mcp
 ```
 

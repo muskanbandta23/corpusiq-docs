@@ -1,5 +1,5 @@
 ---
-title: "Alpha Vantage MCP — Financial Market Data for AI Agents"
+title: "Alpha Vantage MCP - Financial Market Data for AI Agents"
 description: "Connect Alpha Vantage to Hermes Agent. Access real-time and historical stock, ETF, forex, crypto, and commodities data. Technical indicators, fundamentals"
 category: mcp
 tags: [mcp-server, alpha-vantage, finance, market-data, stocks, forex, crypto, technical-analysis]
@@ -15,7 +15,7 @@ robots: "index,follow"
 
 Alpha Vantage MCP (`alphavantage/alpha_vantage_mcp`) wraps the industry-standard Alpha Vantage financial data API into an MCP server. AI agents get direct access to 20+ years of historical market data, real-time quotes, technical indicators, and fundamental data across stocks, ETFs, forex, crypto, and commodities.
 
-**Key advantage**: Alpha Vantage is the most widely used free financial data API (used by 500K+ developers). The MCP server makes this data instantly available to AI agents — no API integration code required.
+**Key advantage**: Alpha Vantage is the most widely used free financial data API (used by 500K+ developers). The MCP server makes this data instantly available to AI agents - no API integration code required.
 
 ## Key Features
 
@@ -63,8 +63,8 @@ hermes mcp config alphavantage --env ALPHA_VANTAGE_API_KEY
 ## Business Use Cases
 
 1. **Market Monitoring**: AI agent tracks your watchlist and alerts on significant price movements, volume spikes, or technical signals
-2. **Financial Analysis**: "Compare Apple and Microsoft's revenue growth over the last 5 years" — agent pulls fundamental data
-3. **Technical Screening**: "Find S&P 500 stocks with RSI below 30 and above-average volume" — agent runs multi-condition scans
+2. **Financial Analysis**: "Compare Apple and Microsoft's revenue growth over the last 5 years" - agent pulls fundamental data
+3. **Technical Screening**: "Find S&P 500 stocks with RSI below 30 and above-average volume" - agent runs multi-condition scans
 4. **Portfolio Reporting**: Generate weekly portfolio performance reports with charts, indicators, and fundamental summaries
 5. **Forex & Crypto Trading**: Monitor FX rates and crypto pairs with real-time technical indicators
 
@@ -82,7 +82,7 @@ Alpha Vantage MCP democratizes financial data for AI agents. Where previously op
 
 ## See Also
 
-- Co-Invest MCP — for investment management and trade execution
-- SentiSense MCP — for market sentiment and news analysis
-- HPSILab Quant Finance MCP — for options analytics and Monte Carlo simulations
-- Kalshi MCP — for prediction markets and event contracts
+- Co-Invest MCP - for investment management and trade execution
+- SentiSense MCP - for market sentiment and news analysis
+- HPSILab Quant Finance MCP - for options analytics and Monte Carlo simulations
+- Kalshi MCP - for prediction markets and event contracts

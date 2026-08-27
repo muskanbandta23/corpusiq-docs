@@ -1,22 +1,22 @@
 ---
-title: "Sentry Agent Skills — Security & Code Review Suite Setup"
-description: "getsentry/skills — 31 skills, 85.3K installs: security review, code simplification, bug finding, PR automation, and GitHub Actions security review from the Sentry team."
+title: "Sentry Agent Skills - Security & Code Review Suite Setup"
+description: "getsentry/skills - 31 skills, 85.3K installs: security review, code simplification, bug finding, PR automation, and GitHub Actions security review from the Sentry team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "code review", "sentry"]
 ---
 
-# Sentry Agent Skills — Setup Guide
+# Sentry Agent Skills - Setup Guide
 
 **Source:** [getsentry/skills](https://skills.sh/getsentry/skills)
 **GitHub:** [getsentry/skills](https://github.com/getsentry/skills)
 **Skills:** 31 skills · 85.3K total installs
 **Category:** Code Review & Security
 **First Seen:** catalogued August 15, 2026 evening sweep
-**Quality Tier:** 🟢 Production (official org — Sentry, the application monitoring vendor)
+**Quality Tier:** 🟢 Production (official org - Sentry, the application monitoring vendor)
 
-Sentry's official agent skill suite encodes the review and release hygiene its own engineers use: security review against OWASP-class issues, code simplification, bug finding, PR writing and iteration, GitHub Actions security review, and internal ops skills (agents-md, claude-settings-audit, sred work summaries). Queued in prior sweeps at a 20.7K API-sum estimate; the publisher page shows 85.3K — a 4x jump, which is why it leads this batch.
+Sentry's official agent skill suite encodes the review and release hygiene its own engineers use: security review against OWASP-class issues, code simplification, bug finding, PR writing and iteration, GitHub Actions security review, and internal ops skills (agents-md, claude-settings-audit, sred work summaries). Queued in prior sweeps at a 20.7K API-sum estimate; the publisher page shows 85.3K - a 4x jump, which is why it leads this batch.
 
 ---
 
@@ -83,7 +83,7 @@ npx skills add getsentry/skills
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
 - Django-specific skills require a Django project to be useful
-- `warden-lint-judge` (37 installs) is effectively brand-new — treat as untested
+- `warden-lint-judge` (37 installs) is effectively brand-new - treat as untested
 
 ```bash
 npx skills add getsentry/skills   # verify install works

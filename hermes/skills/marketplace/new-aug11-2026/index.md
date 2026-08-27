@@ -1,6 +1,6 @@
 ---
-title: "New Skills — August 11, 2026 - CorpusIQ Docs"
-description: 5 newly discovered Hermes Agent skills from skills.sh marketplace sweep — songwriting & AI music, TUI debugging, attestation guardian, research paper writing pipeline, and plan mode.
+title: "New Skills - August 11, 2026 - CorpusIQ Docs"
+description: 5 newly discovered Hermes Agent skills from skills.sh marketplace sweep - songwriting & AI music, TUI debugging, attestation guardian, research paper writing pipeline, and plan mode.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug11-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,17 +8,17 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — August 11, 2026
+# New Skills - August 11, 2026
 
 **Source:** [skills.sh](https://skills.sh) via `npx skills search`
 **Date:** August 11, 2026
 **Total new this batch:** 5 skills (3 genuinely new + 2 from Aug 10 sweep without guides)
 
-Routine daily sweep of the skills.sh marketplace. After cross-referencing against the existing 366+ documented skills in `hermes/skills/catalog/`, 5 skills were identified as needing setup guides — 3 are genuinely new discoveries not covered by previous sweeps, and 2 were identified in the Aug 10 sweep but hadn't received setup guides yet.
+Routine daily sweep of the skills.sh marketplace. After cross-referencing against the existing 366+ documented skills in `hermes/skills/catalog/`, 5 skills were identified as needing setup guides - 3 are genuinely new discoveries not covered by previous sweeps, and 2 were identified in the Aug 10 sweep but hadn't received setup guides yet.
 
 ---
 
-## 🆕 Genuinely New Skills (3) — First Documentation
+## 🆕 Genuinely New Skills (3) - First Documentation
 
 | # | Skill | Installs | Source | Setup Guide |
 |---|-------|----------|--------|-------------|
@@ -28,7 +28,7 @@ Routine daily sweep of the skills.sh marketplace. After cross-referencing agains
 
 ---
 
-## 📝 Previously Identified — Now With Setup Guides (2)
+## 📝 Previously Identified - Now With Setup Guides (2)
 
 | # | Skill | Installs | Source | Setup Guide |
 |---|-------|----------|--------|-------------|
@@ -79,11 +79,11 @@ npx skills add nousresearch/hermes-agent --skill plan
 
 ## Notable
 
-- **songwriting-and-ai-music** is the first creative/music skill documented in the catalog — expanding Hermes beyond development and productivity into artistic workflows.
-- **debugging-hermes-tui-commands** fills a critical developer experience gap — the three-layer TUI architecture has been a common source of confusion.
-- **hermes-attestation-guardian** brings production-grade security verification to the ecosystem — essential for enterprise Hermes deployments.
+- **songwriting-and-ai-music** is the first creative/music skill documented in the catalog - expanding Hermes beyond development and productivity into artistic workflows.
+- **debugging-hermes-tui-commands** fills a critical developer experience gap - the three-layer TUI architecture has been a common source of confusion.
+- **hermes-attestation-guardian** brings production-grade security verification to the ecosystem - essential for enterprise Hermes deployments.
 - **research-paper-writing** at 396 installs is the highest-install academic skill documented, reflecting Hermes' growing adoption in ML research.
-- **plan mode** introduces a formal planning-only execution mode — useful for architecture reviews, stakeholder sign-offs, and safe exploration.
+- **plan mode** introduces a formal planning-only execution mode - useful for architecture reviews, stakeholder sign-offs, and safe exploration.
 
 ---
 

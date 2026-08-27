@@ -1,5 +1,5 @@
 ---
-title: "Salesforce MCP — Integration Guide"
+title: "Salesforce MCP - Integration Guide"
 description: Connect AI agents to Salesforce CRM for accounts, contacts, opportunities, leads, cases, and custom objects through MCP.
 github: https://github.com/smn2gnt/MCP-Salesforce
 stars: 179
@@ -15,7 +15,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Salesforce MCP — Integration Guide
+# Salesforce MCP - Integration Guide
 
 ## Overview
 
@@ -23,7 +23,7 @@ The MCP Salesforce connector bridges AI agents to the world's largest CRM platfo
 
 ⚠️ **Not official Salesforce.** This is community-built. Salesforce has not (yet) shipped an official MCP server. Test thoroughly before production use.
 
-For sales operators: AI agents can run pipeline reviews, update opportunity stages, log activities, and pull reports — all through natural language conversation.
+For sales operators: AI agents can run pipeline reviews, update opportunity stages, log activities, and pull reports - all through natural language conversation.
 
 ## Quick Start
 
@@ -73,7 +73,7 @@ Uses Salesforce OAuth 2.0 Username-Password flow. Requires:
 2. Enable OAuth settings with "Password" grant type
 3. Add your security token to the password (Settings → Reset My Security Token)
 
-**Alternative (more secure):** JWT Bearer flow — generate a certificate, upload to Connected App, use private key for auth. The MCP supports this via `SF_JWT_KEY` env var.
+**Alternative (more secure):** JWT Bearer flow - generate a certificate, upload to Connected App, use private key for auth. The MCP supports this via `SF_JWT_KEY` env var.
 
 ## Tools
 
@@ -87,12 +87,12 @@ Salesforce MCP exposes tools organized by standard object:
 | **Lead** | `query_leads`, `get_lead` | `create_lead`, `update_lead`, `convert_lead` |
 | **Case** | `query_cases`, `get_case` | `create_case`, `update_case` |
 | **Task/Activity** | `query_tasks`, `get_task` | `create_task`, `complete_task` |
-| **Report** | `list_reports`, `run_report` | — (read-only) |
+| **Report** | `list_reports`, `run_report` | - (read-only) |
 | **Custom Objects** | `query_custom` | `create_custom`, `update_custom` |
-| **SOQL** | `execute_soql` | — (read-only) |
-| **Search** | `search_sosl` | — (read-only) |
+| **SOQL** | `execute_soql` | - (read-only) |
+| **Search** | `search_sosl` | - (read-only) |
 
-`execute_soql` gives full read access to any object via SOQL queries — the most powerful tool. Agents can query any standard or custom object with relationship traversal.
+`execute_soql` gives full read access to any object via SOQL queries - the most powerful tool. Agents can query any standard or custom object with relationship traversal.
 
 ## Business Operator Use Cases
 
@@ -104,7 +104,7 @@ Agent: [executes SOQL, returns pipeline table with stage, amount, close date, ow
 
 ### 2. Activity Logging
 ```
-User: "Log a call with Acme Corp — discussed Q3 renewal, they're interested in upgrading to Enterprise"
+User: "Log a call with Acme Corp - discussed Q3 renewal, they're interested in upgrading to Enterprise"
 Agent: [finds Acme account, creates task with call details, updates opportunity notes]
 ```
 
@@ -131,7 +131,7 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 - **SOQL is powerful:** `execute_soql` can read any object the authenticated user can access. Review the Connected App's permission scope.
 - **No write approval gates:** Unlike some MCPs, this server doesn't have built-in approval flows for writes. Consider wrapping in an approval layer for production.
 - **API limits:** Salesforce has 24-hour API call limits. Heavy agent usage can exhaust them. Monitor via Setup → System Overview.
-- **Field-level security:** The agent inherits the authenticated user's field-level security — it can't see fields the user can't.
+- **Field-level security:** The agent inherits the authenticated user's field-level security - it can't see fields the user can't.
 - **Audit trail:** All changes appear in Salesforce's setup audit trail under the authenticated user.
 
 ## Pricing
@@ -144,7 +144,7 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 | Feature | Salesforce MCP | Attio MCP |
 |---------|---------------|-----------|
 | Platform | Salesforce (enterprise CRM) | Attio (AI-native CRM) |
-| Stars | 179⭐ | — (npm package) |
+| Stars | 179⭐ | - (npm package) |
 | Official | ❌ Community | ✅ Official |
 | Object model | Standard + custom objects | Flexible object model |
 | Query power | SOQL (very powerful) | API query |
@@ -152,14 +152,14 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 
 ## Limitations
 
-- **Not official:** Community-maintained — may lag behind Salesforce API changes
+- **Not official:** Community-maintained - may lag behind Salesforce API changes
 - **No Streaming API:** Doesn't support PushTopic or Change Data Capture events
-- **Bulk operations:** No Bulk API 2.0 support — large data volumes use REST API limits
+- **Bulk operations:** No Bulk API 2.0 support - large data volumes use REST API limits
 - **Einstein/AI features:** No integration with Salesforce Einstein for predictions
 
 ## See Also
 
-- [MCP Server Guides](/hermes/mcp/servers/external/) — AI-native CRM alternatives
-- [Apollo.io MCP Guide](/hermes/mcp/servers/external/apollo-io-mcp/) — B2B contact enrichment
-- [LinkedIn MCP Guide](/hermes/mcp/servers/external/linkedin-mcp-gtm/) — Social selling complement
+- [MCP Server Guides](/hermes/mcp/servers/external/) - AI-native CRM alternatives
+- [Apollo.io MCP Guide](/hermes/mcp/servers/external/apollo-io-mcp/) - B2B contact enrichment
+- [LinkedIn MCP Guide](/hermes/mcp/servers/external/linkedin-mcp-gtm/) - Social selling complement
 - [Salesforce REST API Docs](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/)

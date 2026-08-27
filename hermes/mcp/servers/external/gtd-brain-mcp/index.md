@@ -1,6 +1,6 @@
 ---
-title: GTD Brain MCP — GTD Task Manager for AI Agents
-description: "Setup and usage guide for GTD Brain MCP — GTD Task Manager for AI Agents. Part of the Hermes resource directory."
+title: GTD Brain MCP - GTD Task Manager for AI Agents
+description: "Setup and usage guide for GTD Brain MCP - GTD Task Manager for AI Agents. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/gtd-brain-mcp/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# GTD Brain MCP — GTD Task Manager for AI Agents
+# GTD Brain MCP - GTD Task Manager for AI Agents
 
 **Priority:** HIGH | **Category:** Productivity / Operations  
 **Transport:** Remote Streamable HTTP | **Auth:** OAuth 2.1 PKCE  
@@ -18,7 +18,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does for Operators
 
-GTD Brain exposes a full Getting-Things-Done board to any MCP client. Capture, organize, and work through inbox items, next actions, projects, and waiting-for lists — all through natural language. This is the first dedicated GTD-methodology MCP server, filling a gap for operators who use GTD as their core operating system.
+GTD Brain exposes a full Getting-Things-Done board to any MCP client. Capture, organize, and work through inbox items, next actions, projects, and waiting-for lists - all through natural language. This is the first dedicated GTD-methodology MCP server, filling a gap for operators who use GTD as their core operating system.
 
 **Why this matters:** Most task-management MCP servers are generic CRUD wrappers around Notion or Todoist. GTD Brain is purpose-built for the GTD workflow with context-appropriate tools (capture goes to inbox, next actions are distinct from projects, waiting-for has its own list).
 
@@ -61,17 +61,17 @@ GTD Brain exposes a full Getting-Things-Done board to any MCP client. Capture, o
 
 1. **Daily review automation:** Agent pulls `list_next_actions` + `list_waiting_for` each morning, surfaces the 3 highest-leverage items, and drafts follow-ups for overdue waiting-for items
 2. **Project status reporting:** Agent pulls `list_projects`, reads project cards, and generates a weekly stakeholder update automatically
-3. **Inbox triage:** Operator brain-dumps ideas to `capture` throughout the day — agent processes the inbox during weekly review, categorizing each item into next action, project, reference, or trash
-4. **Delegation tracking:** When an operator delegates work, the agent logs it to `waiting_for` with a reminder date — follows up automatically if no response by deadline
+3. **Inbox triage:** Operator brain-dumps ideas to `capture` throughout the day - agent processes the inbox during weekly review, categorizing each item into next action, project, reference, or trash
+4. **Delegation tracking:** When an operator delegates work, the agent logs it to `waiting_for` with a reminder date - follows up automatically if no response by deadline
 5. **Meeting prep:** Agent pulls relevant projects + next actions before a meeting, giving the operator a pre-built agenda
 
 ## CorpusIQ Angle
 
-**Integratable.** CorpusIQ could pull operational metrics (revenue, support tickets, deal pipeline) and create GTD tasks from them — e.g., "Follow up on deal #4321 → waiting-for" when a HubSpot deal stalls. The GTD Brain MCP provides the task-execution layer that CorpusIQ's data layer can feed.
+**Integratable.** CorpusIQ could pull operational metrics (revenue, support tickets, deal pipeline) and create GTD tasks from them - e.g., "Follow up on deal #4321 → waiting-for" when a HubSpot deal stalls. The GTD Brain MCP provides the task-execution layer that CorpusIQ's data layer can feed.
 
 ## Limitations
 
 - Requires active GTD Brain subscription (free month on signup)
 - Single-user focused (no team board support mentioned)
 - OAuth flow requires initial browser login for token grant
-- GTD-methodology specific — users on other systems (Kanban, Scrum) may find less value
+- GTD-methodology specific - users on other systems (Kanban, Scrum) may find less value

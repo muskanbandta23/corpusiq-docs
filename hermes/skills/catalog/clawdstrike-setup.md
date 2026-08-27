@@ -1,5 +1,5 @@
 ---
-title: "cantinaxyz/clawdstrike — Agent Red-Team Security Testing"
+title: "cantinaxyz/clawdstrike - Agent Red-Team Security Testing"
 description: "Complete setup guide for clawdstrike: automated vulnerability scanning and security testing for Hermes/OpenClaw agent deployments."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdstrike-setup/"
 robots: "index,follow"
@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Setup Guide: cantinaxyz/clawdstrike
 
-**Red-team security testing for agent deployments — automated vulnerability scanning.**
+**Red-team security testing for agent deployments - automated vulnerability scanning.**
 
 ## Quick Install
 
@@ -22,7 +22,7 @@ npx skills add cantinaxyz/clawdstrike/clawdstrike
 
 - Hermes Agent or OpenClaw installed
 - Node.js 18+ (for `npx skills`)
-- Security testing mindset — this skill actively probes for vulnerabilities
+- Security testing mindset - this skill actively probes for vulnerabilities
 - **Important**: Run only on systems you own or have explicit permission to test
 
 ## What It Does

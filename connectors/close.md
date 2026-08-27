@@ -1,11 +1,11 @@
 ---
 title: "Close - CorpusIQ Docs - CorpusIQ"
-description: "Close is where your outbound sales motion lives — leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ p."
+description: "Close is where your outbound sales motion lives - leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ p."
 ---
 # Close
 
 ## What it unlocks
-Close is where your outbound sales motion lives — leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ pull pipeline health, rep activity, and lead details into the conversation, and tie them to email sequences and revenue data from your other connectors.
+Close is where your outbound sales motion lives - leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ pull pipeline health, rep activity, and lead details into the conversation, and tie them to email sequences and revenue data from your other connectors.
 
 ## Before you connect
 - A Close CRM account with admin access to generate API keys
@@ -35,15 +35,15 @@ CorpusIQ never creates leads, moves opportunities, or logs activities.
 ## Questions you can ask
 - "How many leads are in active sequence right now?"
 - "Show me opportunities closing this month with value over $10k."
-- "What did my team do last week — calls, emails, and meetings?"
+- "What did my team do last week - calls, emails, and meetings?"
 - "Search Close for any lead or contact mentioning 'Acme Corp'."
 - "Which rep has the most open opportunities?"
 
 ## Troubleshooting
-- **"API key invalid"** — Confirm the key was generated in Close under Settings → API Keys and hasn't been revoked.
-- **"No leads returned"** — Your API key may be scoped to a specific user. Try generating a key with organization-wide access.
-- **Search returns unexpected results** — Close search uses its own query language. Try exact phrases or use the full-text search for broader matching.
-- **Auth fails after key rotation** — Update the key in your CorpusIQ Connections dashboard.
+- **"API key invalid"** - Confirm the key was generated in Close under Settings → API Keys and hasn't been revoked.
+- **"No leads returned"** - Your API key may be scoped to a specific user. Try generating a key with organization-wide access.
+- **Search returns unexpected results** - Close search uses its own query language. Try exact phrases or use the full-text search for broader matching.
+- **Auth fails after key rotation** - Update the key in your CorpusIQ Connections dashboard.
 ---
 
 *

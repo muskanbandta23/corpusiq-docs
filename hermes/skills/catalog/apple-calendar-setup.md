@@ -1,5 +1,5 @@
 ---
-title: "apple-calendar — Setup Guide - CorpusIQ Docs"
+title: "apple-calendar - Setup Guide - CorpusIQ Docs"
 description: Apple Calendar integration for Hermes agents. Create, read, update, and delete calendar events via CalDAV. Manage schedules, set reminders, and coordinate meetings autonomously.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apple-calendar-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# apple-calendar — Setup Guide
+# apple-calendar - Setup Guide
 
 ## Prerequisites
 - **macOS** with Calendar app configured (iCloud, Exchange, or Google)
@@ -126,7 +126,7 @@ The skill uses CalDAV (the standard calendar protocol) to communicate with macOS
 
 ## Limitations
 
-- **macOS Only:** This skill uses CalDAV via macOS — not available on Linux or Windows.
+- **macOS Only:** This skill uses CalDAV via macOS - not available on Linux or Windows.
 - **Calendar Permissions:** macOS privacy settings may require manual approval on first use.
 - **Read-Only External:** Some shared calendars may be read-only depending on permissions.
 
@@ -147,4 +147,4 @@ The skill uses CalDAV (the standard calendar protocol) to communicate with macOS
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

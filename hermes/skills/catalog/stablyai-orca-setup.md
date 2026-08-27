@@ -1,6 +1,6 @@
 ---
-title: Stably Orca — Agent Orchestration CLI Setup Guide for Hermes Agents
-description: "Install stablyai/orca (317.5K combined installs) — 15 skills for the Orca agent orchestration CLI: orca-cli (125K), orchestration (104.2K), computer-use (77.3K), Linear integration, emulators, and auto PR workflows."
+title: Stably Orca - Agent Orchestration CLI Setup Guide for Hermes Agents
+description: "Install stablyai/orca (317.5K combined installs) - 15 skills for the Orca agent orchestration CLI: orca-cli (125K), orchestration (104.2K), computer-use (77.3K), Linear integration, emulators, and auto PR workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stablyai-orca-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Stably Orca — Setup Guide
+# Stably Orca - Setup Guide
 
 **Source:** [stablyai/orca](https://www.skills.sh/stablyai/orca) (317.5K combined installs)
 **GitHub:** [github.com/stablyai/orca](https://github.com/stablyai/orca)
@@ -73,14 +73,14 @@ Emerging (single-digit installs): `auto-pr-merge`, `auto-review-fix`, `auto-subm
 
 ## Limitations / Verification
 
-- Long tail (7 of 15 skills) is single-digit installs — production-ready core, experimental periphery
+- Long tail (7 of 15 skills) is single-digit installs - production-ready core, experimental periphery
 - Verify install: `npx skills list | grep orca`
 
 ---
 
 ## Related
 
-- [Ruflo — Multi-Agent Orchestration Setup](/hermes/skills/catalog/ruflo-setup/)
+- [Ruflo - Multi-Agent Orchestration Setup](/hermes/skills/catalog/ruflo-setup/)
 - [Linear Integration Setup](/hermes/skills/catalog/linear-setup/)
 - [Skills Catalog](/hermes/skills/catalog/)
 

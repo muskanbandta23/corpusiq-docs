@@ -1,6 +1,6 @@
 ---
-title: "FXMacroData MCP — Integration Guide"
-description: "Macroeconomic and FX data MCP server — 18 currencies, central bank announcements, COT data, commodities, and forex. AI agents get real-time economic"
+title: "FXMacroData MCP - Integration Guide"
+description: "Macroeconomic and FX data MCP server - 18 currencies, central bank announcements, COT data, commodities, and forex. AI agents get real-time economic"
 category: "Finance & Data"
 stars: "★★"
 source: mcpservers.org
@@ -15,13 +15,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # FXMacroData MCP
 
-MCP server providing AI agents with real-time macroeconomic and foreign exchange intelligence — central bank announcements, Commitment of Traders (COT) data, economic calendars, commodity prices, and forex rates across 18 currencies.
+MCP server providing AI agents with real-time macroeconomic and foreign exchange intelligence - central bank announcements, Commitment of Traders (COT) data, economic calendars, commodity prices, and forex rates across 18 currencies.
 
 ## What It Does
 
 - **FX Rates:** Real-time and historical exchange rates for 18 major currencies
 - **Central Bank Calendar:** Upcoming policy meetings, interest rate decisions, and minutes
-- **COT Data:** Weekly Commitment of Traders reports — positioning data from futures markets
+- **COT Data:** Weekly Commitment of Traders reports - positioning data from futures markets
 - **Economic Calendar:** GDP, CPI, employment, PMI, and other macro releases with forecasts
 - **Commodities:** Gold, oil, copper, and agricultural commodity prices
 - **Cross-Rate Analysis:** Calculate implied rates and arbitrage opportunities
@@ -98,7 +98,7 @@ mcp_servers:
 |------|-------------|
 | `get_fx_rate` | Get current or historical exchange rate for any currency pair |
 | `get_central_bank_calendar` | Upcoming central bank meetings with expected rate decisions |
-| `get_cot_report` | Weekly COT data — speculative vs commercial positioning |
+| `get_cot_report` | Weekly COT data - speculative vs commercial positioning |
 | `get_economic_calendar` | Economic releases with actual, forecast, and previous values |
 | `get_commodity_price` | Real-time commodity prices (gold, oil, copper, wheat, etc.) |
 | `get_currency_profile` | Overview of a currency's fundamentals, central bank, and key drivers |
@@ -155,7 +155,7 @@ Agent: "Our team is traveling to Tokyo next month. Lock in JPY now or wait?"
 
 FXMacroData aggregates from official sources:
 - **FX Rates:** European Central Bank (ECB) reference rates + market feeds
-- **COT Data:** Commodity Futures Trading Commission (CFTC) — weekly, released Fridays
+- **COT Data:** Commodity Futures Trading Commission (CFTC) - weekly, released Fridays
 - **Economic Calendar:** National statistics offices + consensus forecasts
 - **Central Bank Calendar:** Official announcements from each central bank
 - **Commodities:** LME, CME, ICE exchange data
@@ -171,6 +171,6 @@ All data is timestamped and source-cited in API responses.
 
 ## See Also
 
-- [[capital-com-mcp]] — CFD trading execution (complementary)
-- [[coinvest-mcp]] — AI-driven portfolio management
-- [[mercury-mcp]] — Business banking (treasury operations)
+- [[capital-com-mcp]] - CFD trading execution (complementary)
+- [[coinvest-mcp]] - AI-driven portfolio management
+- [[mercury-mcp]] - Business banking (treasury operations)

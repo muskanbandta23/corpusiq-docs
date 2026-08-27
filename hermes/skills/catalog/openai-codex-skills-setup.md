@@ -1,6 +1,6 @@
 ---
-title: OpenAI Codex Skills — Official Skills Catalog for AI Coding Agents
-description: OpenAI's official skills catalog for Codex CLI — PDF generation, CI/CD fixes, security auditing, Playwright testing, and Figma design implementation. 38K+ combined installs.
+title: OpenAI Codex Skills - Official Skills Catalog for AI Coding Agents
+description: OpenAI's official skills catalog for Codex CLI - PDF generation, CI/CD fixes, security auditing, Playwright testing, and Figma design implementation. 38K+ combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openai-codex-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenAI Codex Skills — Setup Guide
+# OpenAI Codex Skills - Setup Guide
 
 **Source:** [openai/skills](https://skills.sh/openai/skills) (38K+ combined installs)
 **GitHub:** [openai/skills](https://github.com/openai/skills) (24K+ ⭐)
 **Category:** Agent Infrastructure / Coding Agents
 **Quality Tier:** 🟢 Production
 
-OpenAI's official skills catalog for Codex CLI — their agentic coding tool. These skills extend Codex with PDF generation, GitHub CI/CD automation, security best practices, Linear issue tracking integration, Playwright browser testing, and Figma-to-code design implementation. For Hermes agents that use Codex as an implementation backend, these skills add production-ready capabilities.
+OpenAI's official skills catalog for Codex CLI - their agentic coding tool. These skills extend Codex with PDF generation, GitHub CI/CD automation, security best practices, Linear issue tracking integration, Playwright browser testing, and Figma-to-code design implementation. For Hermes agents that use Codex as an implementation backend, these skills add production-ready capabilities.
 
 ---
 
@@ -47,9 +47,9 @@ npx skills add openai/skills --skill figma-implement-design
 |---|---|---|
 | **pdf** | 10.4K | Generate, parse, and manipulate PDF documents programmatically |
 | **gh-fix-ci** | 7.8K | Diagnose and fix GitHub Actions CI/CD pipeline failures |
-| **security-best-practices** | 5.7K | Security audit workflows — dependency scanning, secret detection, OWASP patterns |
-| **linear** | 5.2K | Linear issue tracking integration — create, update, and query issues |
-| **playwright** | 4.7K | Browser automation testing with Playwright — E2E tests, visual regression |
+| **security-best-practices** | 5.7K | Security audit workflows - dependency scanning, secret detection, OWASP patterns |
+| **linear** | 5.2K | Linear issue tracking integration - create, update, and query issues |
+| **playwright** | 4.7K | Browser automation testing with Playwright - E2E tests, visual regression |
 | **figma-implement-design** | 4.4K | Convert Figma designs to production code with component matching |
 
 ---
@@ -116,8 +116,8 @@ codex "list available skills" 2>&1 | grep -i openai
 
 ## Notes
 
-- These are the Codex-equivalent of Anthropic's Claude Code skills — both extend their respective agentic coding tools
+- These are the Codex-equivalent of Anthropic's Claude Code skills - both extend their respective agentic coding tools
 - The `gh-fix-ci` skill is particularly valuable for Hermes agents managing GitHub Actions across multiple repos
 - `figma-implement-design` requires Figma API access token for private design files
 - For Hermes agents using Codex as an implementation backend, add the full skill set to unlock PDF, CI, security, and testing capabilities
-- Distinct from `anthropics/claude-code` skills — both catalogs serve the same purpose (agent extensibility) but for different agent runtimes
+- Distinct from `anthropics/claude-code` skills - both catalogs serve the same purpose (agent extensibility) but for different agent runtimes

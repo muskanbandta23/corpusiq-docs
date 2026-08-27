@@ -1,22 +1,22 @@
 ---
-title: Rivet Skills — Real-Time Backend & Agent Infrastructure Setup
-description: "rivet-dev/skills — 22 skills, 65.3K installs: sandbox-agent, RivetKit SDK clients (JavaScript, React, Swift, SwiftUI, Rust, TypeScript), multiplayer, cron jobs, AI agent workspaces, per-tenant databases, live cursors, and VPC air-gapped deploys."
+title: Rivet Skills - Real-Time Backend & Agent Infrastructure Setup
+description: "rivet-dev/skills - 22 skills, 65.3K installs: sandbox-agent, RivetKit SDK clients (JavaScript, React, Swift, SwiftUI, Rust, TypeScript), multiplayer, cron jobs, AI agent workspaces, per-tenant databases, live cursors, and VPC air-gapped deploys."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rivet-dev-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "realtime", "backend", "multiplayer", "actors", "agent infrastructure"]
 ---
 
-# Rivet Skills — Setup Guide
+# Rivet Skills - Setup Guide
 
 **Source:** [rivet-dev/skills](https://skills.sh/rivet-dev/skills)
 **GitHub:** [rivet-dev/skills](https://github.com/rivet-dev/skills)
 **Skills:** 22 skills · 65.3K total installs
 **Category:** Real-Time Backend & Agent Infrastructure
 **First Seen:** catalogued August 15, 2026 midday sweep
-**Quality Tier:** 🟢 Production (first-party publisher — Rivet, the VC-backed real-time backend company)
+**Quality Tier:** 🟢 Production (first-party publisher - Rivet, the VC-backed real-time backend company)
 
-Rivet publishes skills for building on its actor-based real-time backend: sandboxed agent execution, multiplayer games, chat rooms, collaborative editors, live cursors, cron jobs, per-tenant databases, and VPC air-gapped deployments, plus RivetKit SDK client guides. Queued at a 10.1K API estimate, the publisher page shows 65.3K across 22 skills — including sandbox-agent at 10.1K alone.
+Rivet publishes skills for building on its actor-based real-time backend: sandboxed agent execution, multiplayer games, chat rooms, collaborative editors, live cursors, cron jobs, per-tenant databases, and VPC air-gapped deployments, plus RivetKit SDK client guides. Queued at a 10.1K API estimate, the publisher page shows 65.3K across 22 skills - including sandbox-agent at 10.1K alone.
 
 ---
 

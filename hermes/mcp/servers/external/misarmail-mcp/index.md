@@ -11,7 +11,7 @@ tags: [email, transactional-email, campaigns, automations, ab-testing, deliverab
 
 # MisarMail MCP
 
-**Email operations from any MCP client — send transactional email, run multi-step campaigns, manage contacts, segments and automations, A/B test, warm up domains, and audit deliverability with 54 tools.** Available as a local npm server or a hosted streamable-HTTP endpoint, with an optional API key (the server answers `initialize` and `tools/list` unauthenticated and exposes a browser `login` tool).
+**Email operations from any MCP client - send transactional email, run multi-step campaigns, manage contacts, segments and automations, A/B test, warm up domains, and audit deliverability with 54 tools.** Available as a local npm server or a hosted streamable-HTTP endpoint, with an optional API key (the server answers `initialize` and `tools/list` unauthenticated and exposes a browser `login` tool).
 
 ```
 Server type: Local (npm, stdio) or Remote (Streamable HTTP)
@@ -26,7 +26,7 @@ Built by: Misar AI
 
 ## Why This Matters for Operators
 
-Email is the highest-leverage owned channel most operators have, and it is still run through dashboards with manual campaign setup. MisarMail moves the whole email stack into the agent session: an operator can send a transactional message, launch a multi-step campaign, segment contacts, run automations, A/B test subject lines, warm a new domain, and audit deliverability — all through tools inside the MCP client, without tabbing between an ESP and a spreadsheet.
+Email is the highest-leverage owned channel most operators have, and it is still run through dashboards with manual campaign setup. MisarMail moves the whole email stack into the agent session: an operator can send a transactional message, launch a multi-step campaign, segment contacts, run automations, A/B test subject lines, warm a new domain, and audit deliverability - all through tools inside the MCP client, without tabbing between an ESP and a spreadsheet.
 
 The deliverability tooling is the differentiator: domain warmup and deliverability audits are usually separate paid services bolted onto an ESP. Here they sit next to the send tools in the same surface.
 
@@ -89,7 +89,7 @@ Registry ID: `io.github.Misar-AI/misarmail-mcp`. MIT licensed, repository at `gi
 
 ## Integration with CorpusIQ
 
-CorpusIQ brings the customer and revenue layer (CRM, Stripe, QuickBooks) while MisarMail brings the email execution layer. An operator can run both in one agent session: CorpusIQ for customer records, revenue, and financials, MisarMail for transactional sends, campaigns, and deliverability — then join the two on email address for a full revenue-to-inbox pipeline.
+CorpusIQ brings the customer and revenue layer (CRM, Stripe, QuickBooks) while MisarMail brings the email execution layer. An operator can run both in one agent session: CorpusIQ for customer records, revenue, and financials, MisarMail for transactional sends, campaigns, and deliverability - then join the two on email address for a full revenue-to-inbox pipeline.
 
 ## Limitations
 
@@ -100,7 +100,7 @@ CorpusIQ brings the customer and revenue layer (CRM, Stripe, QuickBooks) while M
 
 ## See Also
 
-- [MisarReach MCP — Outbound Sales and Lead Pipeline](/hermes/mcp/servers/external/misarreach-mcp/)
-- [Misar.Blog MCP — Blog Publishing](/hermes/mcp/servers/external/misarblog-mcp/)
+- [MisarReach MCP - Outbound Sales and Lead Pipeline](/hermes/mcp/servers/external/misarreach-mcp/)
+- [Misar.Blog MCP - Blog Publishing](/hermes/mcp/servers/external/misarblog-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

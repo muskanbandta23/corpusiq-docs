@@ -1,22 +1,22 @@
 ---
-title: "Genshijin Skills — Japanese Concise-Reply Framework Setup"
-description: "interfacex-co-jp/genshijin — 7 skills, 19.2K installs: a Japanese concise-reply framework for agents with commit, review, compress, stats, help, and crew workflow commands."
+title: "Genshijin Skills - Japanese Concise-Reply Framework Setup"
+description: "interfacex-co-jp/genshijin - 7 skills, 19.2K installs: a Japanese concise-reply framework for agents with commit, review, compress, stats, help, and crew workflow commands."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genshijin-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-18"
 tags: ["hermes skill", "agent skill", "skill setup", "japanese", "concise replies", "git workflow", "genshijin"]
 ---
 
-# Genshijin Skills — Setup Guide
+# Genshijin Skills - Setup Guide
 
 **Source:** [interfacex-co-jp/genshijin](https://skills.sh/interfacex-co-jp/genshijin)
 **GitHub:** [interfacex-co-jp/genshijin](https://github.com/interfacex-co-jp/genshijin)
 **Skills:** 7 skills · 19.2K total installs
 **Category:** Agent Communication
 **First Seen:** April 7, 2026 (catalogued August 18, 2026 sweep)
-**Quality Tier:** 🟢 Production — Gen Agent Trust Hub Pass, Socket Pass, and Snyk Pass on the genshijin flagship; 310 GitHub stars; #2 on the hot page at sweep time
+**Quality Tier:** 🟢 Production - Gen Agent Trust Hub Pass, Socket Pass, and Snyk Pass on the genshijin flagship; 310 GitHub stars; #2 on the hot page at sweep time
 
-Genshijin (原始人, "primitive man") is a Japanese concise-reply framework for coding agents. The core skill enforces brutal brevity — all technical content kept, all filler removed — with three persistent modes (通常 normal, 丁寧 polite, 極限 extreme) switched via a slash command, and it stays active across turns, resisting politeness regression and filler drift. Six companion skills extend it into a full workflow: genshijin-commit (concise conventional commits), genshijin-review (terse code review), genshijin-compress (context compression), genshijin-help, genshijin-stats, and genshijin-crew (multi-agent crew coordination). The cluster sits at #2 on the skills.sh hot page with genshijin-commit at +13 installs in one hour.
+Genshijin (原始人, "primitive man") is a Japanese concise-reply framework for coding agents. The core skill enforces brutal brevity - all technical content kept, all filler removed - with three persistent modes (通常 normal, 丁寧 polite, 極限 extreme) switched via a slash command, and it stays active across turns, resisting politeness regression and filler drift. Six companion skills extend it into a full workflow: genshijin-commit (concise conventional commits), genshijin-review (terse code review), genshijin-compress (context compression), genshijin-help, genshijin-stats, and genshijin-crew (multi-agent crew coordination). The cluster sits at #2 on the skills.sh hot page with genshijin-commit at +13 installs in one hour.
 
 ---
 
@@ -70,8 +70,8 @@ npx skills add https://github.com/interfacex-co-jp/genshijin --skill genshijin
 
 - Security audits on the genshijin flagship: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass
 - Publisher-page total verified (19.2K across 7 skills); 310 GitHub stars as of the sweep
-- Below the 20K install guide bar — drafted on #2 hot-page position, +13 one-hour momentum on genshijin-commit, and Japanese corporate publisher (interfacex-co-jp)
-- SKILL.md instruction text is Japanese — the skills.sh excerpt and install content carry over untranslated and agents must handle the original-language instructions (same handling as the wecomteam suites)
+- Below the 20K install guide bar - drafted on #2 hot-page position, +13 one-hour momentum on genshijin-commit, and Japanese corporate publisher (interfacex-co-jp)
+- SKILL.md instruction text is Japanese - the skills.sh excerpt and install content carry over untranslated and agents must handle the original-language instructions (same handling as the wecomteam suites)
 
 ```bash
 npx skills add interfacex-co-jp/genshijin   # verify install works

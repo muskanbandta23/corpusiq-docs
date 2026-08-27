@@ -5,7 +5,7 @@ description: "HubSpot is where your sales pipeline, customer relationships, and 
 # HubSpot
 
 ## What it unlocks
-HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer "how is my pipeline doing?" and pull a full account 360 for any customer — relationship history, deal state, open items — by combining HubSpot with email, calendar, and billing data from your other connectors.
+HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer "how is my pipeline doing?" and pull a full account 360 for any customer - relationship history, deal state, open items - by combining HubSpot with email, calendar, and billing data from your other connectors.
 
 ## Before you connect
 - A HubSpot account with admin access
@@ -38,9 +38,9 @@ CorpusIQ never creates contacts, moves deals, or sends sequences.
 - "Score my customer portfolio by health."
 
 ## Troubleshooting
-- **"Wrong portal"** — HubSpot prompts you to pick a portal during OAuth. If you authorized the wrong one, disconnect and reconnect.
-- **"Insufficient scopes"** — Reconnect and make sure all requested scopes are checked. Free HubSpot accounts may not grant some object scopes.
-- **Search returns nothing** — HubSpot search indexes a subset of fields. Try the full name or email instead of a partial match.
+- **"Wrong portal"** - HubSpot prompts you to pick a portal during OAuth. If you authorized the wrong one, disconnect and reconnect.
+- **"Insufficient scopes"** - Reconnect and make sure all requested scopes are checked. Free HubSpot accounts may not grant some object scopes.
+- **Search returns nothing** - HubSpot search indexes a subset of fields. Try the full name or email instead of a partial match.
 ---
 
 *

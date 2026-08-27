@@ -1,6 +1,6 @@
 ---
 title: Twitter GTM Find Skill Setup Guide
-description: End-to-end pipeline for scraping X/Twitter for GTM and DevRel tech startup jobs — via Apify, TweetClaw (OpenClaw), or Hermes Tweet (Hermes Agent). From varnan-tech/opendirectory (564⭐).
+description: End-to-end pipeline for scraping X/Twitter for GTM and DevRel tech startup jobs - via Apify, TweetClaw (OpenClaw), or Hermes Tweet (Hermes Agent). From varnan-tech/opendirectory (564⭐).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/twitter-gtm-find-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,10 +8,10 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Twitter GTM Find Skill — Setup Guide
+# Twitter GTM Find Skill - Setup Guide
 
 **Source:** [varnan-tech/opendirectory](https://github.com/Varnan-Tech/opendirectory) (564 ⭐)
-**Skill:** `twitter-gtm-find-skill` — 13 installs (skills.sh)
+**Skill:** `twitter-gtm-find-skill` - 13 installs (skills.sh)
 **Category:** Social Media & Growth
 
 ## Installation
@@ -59,11 +59,11 @@ hermes run twitter-gtm-find-skill --query "DevRel engineer" --source hermes-twee
 
 ## CorpusIQ Use Cases
 
-1. **Competitor GTM hiring intelligence** — Monitor what GTM roles competitors are hiring for to identify market moves
-2. **Lead generation** — Find tech startups actively hiring GTM/DevRel roles (they're growing → need tooling)
-3. **Market research** — Aggregate hiring patterns across the AI/SaaS ecosystem to spot trends
-4. **Content sourcing** — Find real operator discussions about GTM challenges for help-first content
-5. **Partnership discovery** — Identify startups with complementary products hiring overlapping roles
+1. **Competitor GTM hiring intelligence** - Monitor what GTM roles competitors are hiring for to identify market moves
+2. **Lead generation** - Find tech startups actively hiring GTM/DevRel roles (they're growing → need tooling)
+3. **Market research** - Aggregate hiring patterns across the AI/SaaS ecosystem to spot trends
+4. **Content sourcing** - Find real operator discussions about GTM challenges for help-first content
+5. **Partnership discovery** - Identify startups with complementary products hiring overlapping roles
 
 ## Troubleshooting
 
@@ -76,9 +76,9 @@ hermes run twitter-gtm-find-skill --query "DevRel engineer" --source hermes-twee
 
 ## Related Skills
 
-- [x-twitter-automation](/hermes/skills/catalog/x-twitter-automation-setup/) — Design safe X/Twitter automation workflows
-- [reddit-icp-monitor](/hermes/skills/marketplace/) — Monitor Reddit for ICP conversations (also from opendirectory)
-- [hackernews-intel](/hermes/skills/marketplace/) — HN intelligence gathering (also from opendirectory)
+- [x-twitter-automation](/hermes/skills/catalog/x-twitter-automation-setup/) - Design safe X/Twitter automation workflows
+- [reddit-icp-monitor](/hermes/skills/marketplace/) - Monitor Reddit for ICP conversations (also from opendirectory)
+- [hackernews-intel](/hermes/skills/marketplace/) - HN intelligence gathering (also from opendirectory)
 
 ## Verification
 

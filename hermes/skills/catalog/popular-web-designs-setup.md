@@ -1,5 +1,5 @@
 ---
-title: "popular-web-designs — Setup Guide"
+title: "popular-web-designs - Setup Guide"
 description: "54 real-world design systems (Stripe, Linear, Vercel) as HTML/CSS templates. Official Hermes skill for generating branded web UIs. 451+ installs on"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/popular-web-designs-setup/"
 robots: "index,follow"
@@ -128,9 +128,9 @@ The skill activates when you mention:
 
 ## Related Skills
 
-- **`claude-design`** — Use for the design *process and taste* (scoping a brief, producing variants, verifying artifacts). Pair with `popular-web-designs` when you want a thoughtfully-designed page styled after a known brand.
-- **`design-md`** — Use when the deliverable is a formal DESIGN.md token spec file, not a rendered artifact.
-- **`generative-widgets`** — Use to serve generated HTML via cloudflared tunnel for live preview.
+- **`claude-design`** - Use for the design *process and taste* (scoping a brief, producing variants, verifying artifacts). Pair with `popular-web-designs` when you want a thoughtfully-designed page styled after a known brand.
+- **`design-md`** - Use when the deliverable is a formal DESIGN.md token spec file, not a rendered artifact.
+- **`generative-widgets`** - Use to serve generated HTML via cloudflared tunnel for live preview.
 
 ## Font Substitution Reference
 

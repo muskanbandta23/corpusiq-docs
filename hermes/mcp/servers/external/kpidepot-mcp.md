@@ -1,6 +1,6 @@
 ---
 title: KPI Depot MCP Server Integration Guide
-description: KPI intelligence for AI agents — access 20,000+ corporate KPI definitions, formulas, and 30,000+ industry benchmarks. Build data-driven strategies with real benchmark data.
+description: KPI intelligence for AI agents - access 20,000+ corporate KPI definitions, formulas, and 30,000+ industry benchmarks. Build data-driven strategies with real benchmark data.
 category: mcp
 tags: [mcp, kpi, benchmarks, business-intelligence, strategy, analytics, metrics, hermes-agent]
 last_updated: 2026-07-21
@@ -9,26 +9,26 @@ robots: "index,follow"
 
 ---
 
-# KPI Depot MCP — KPI Intelligence for Hermes Agent
+# KPI Depot MCP - KPI Intelligence for Hermes Agent
 
-KPI Depot MCP gives your AI agent access to the world's largest structured KPI database — 20,000+ KPI definitions with formulas, 30,000+ industry benchmarks with source attribution. Plan strategies, set targets, and evaluate performance against real industry data.
+KPI Depot MCP gives your AI agent access to the world's largest structured KPI database - 20,000+ KPI definitions with formulas, 30,000+ industry benchmarks with source attribution. Plan strategies, set targets, and evaluate performance against real industry data.
 
 ## What It Does
 
 KPI Depot MCP brings benchmark intelligence to agent workflows:
 
-- **KPI definitions** — 20,000+ KPIs with exact formulas, data sources, and calculation methods
-- **Industry benchmarks** — 30,000+ source-attributed benchmarks across sectors, company sizes, and regions
-- **KPI discovery** — Search by business function, industry, or metric category
-- **Target setting** — Set data-backed targets based on peer performance percentiles
-- **Performance gap analysis** — Compare your metrics to industry quartiles
+- **KPI definitions** - 20,000+ KPIs with exact formulas, data sources, and calculation methods
+- **Industry benchmarks** - 30,000+ source-attributed benchmarks across sectors, company sizes, and regions
+- **KPI discovery** - Search by business function, industry, or metric category
+- **Target setting** - Set data-backed targets based on peer performance percentiles
+- **Performance gap analysis** - Compare your metrics to industry quartiles
 
 ## Quick Setup
 
 ### Prerequisites
 - **KPI Depot account:** Sign up at [kpidepot.com](https://kpidepot.com)
 - **API key:** Generate from your KPI Depot dashboard
-- **The MCP server is remote-hosted** — no local installation required
+- **The MCP server is remote-hosted** - no local installation required
 
 ### Add to Hermes Agent
 
@@ -97,7 +97,7 @@ Automate QBR data preparation:
 Agent prompt: "Pull benchmarks for all 12 KPIs in our Q3 scorecard.
 For each, show: our Q3 actual, industry median, top quartile, and
 our percentile rank. Flag any metric where we're below the 25th
-percentile — those need a remediation plan."
+percentile - those need a remediation plan."
 ```
 
 ## Integration with CorpusIQ
@@ -109,7 +109,7 @@ KPI Depot MCP + CorpusIQ = data-backed strategy execution:
 3. **KPI Depot MCP** → compare your actuals to industry benchmarks
 4. **AI agent** → produce "where we stand" reports automatically
 
-Your agent becomes a strategy analyst that doesn't just report your numbers — it tells you how your numbers compare to the market and what to do about it.
+Your agent becomes a strategy analyst that doesn't just report your numbers - it tells you how your numbers compare to the market and what to do about it.
 
 ## Pricing
 

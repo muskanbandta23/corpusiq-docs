@@ -26,7 +26,7 @@ wins, risks, this-week priorities.
 Google Ads, Meta Ads, GA4, Gmail/Outlook, Calendar.
 **Behind the scenes:** `executive-snapshot` skill.
 **Sample answer shape:** Section headers for cash position, revenue, top
-wins, top risks, focus-this-week  --  each with 2–4 bullets and specific
+wins, top risks, focus-this-week  --  each with 2-4 bullets and specific
 numbers from your data.
 
 ---

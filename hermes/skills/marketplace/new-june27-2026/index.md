@@ -1,6 +1,6 @@
 ---
-title: "June 27, 2026 — Skills Gallery (1,672"
-description: "9 newly discovered Hermes Agent repos — Skills Gallery mega-collection (1,672+ skills across 49 categories), Agent-to-Agent Protocol bridge, autonomy flight"
+title: "June 27, 2026 - Skills Gallery (1,672"
+description: "9 newly discovered Hermes Agent repos - Skills Gallery mega-collection (1,672+ skills across 49 categories), Agent-to-Agent Protocol bridge, autonomy flight"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june27-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 27, 2026
+# New Skills Discovered - June 27, 2026
 
 **Sources:** GitHub Search + [skills.sh](https://skills.sh)
 **Total new:** 9 repos | **Highlight:** Skills Gallery (1,672+ skills across 49 categories)
@@ -18,13 +18,13 @@ A massive single-day discovery: the Skills Gallery mega-collection unifies 1,672
 
 ---
 
-## ⭐ Standout Find: Skills Gallery — 1,672+ Skills
+## ⭐ Standout Find: Skills Gallery - 1,672+ Skills
 
 **Repo:** [uthumany/Skills-Gallery](https://github.com/uthumany/Skills-Gallery)
 **Stars:** ⭐1 | **License:** MIT | **Created:** June 27, 2026
 **npm:** `skills-gallery` | **pip:** `skills-gallery` | **By:** uthuman Inc.
 
-The largest single collection of AI agent skills ever published. One command installs access to **1,672+ skills** organized across **49 categories** — frontend development, security auditing, creative coding, multi-agent orchestration, and everything in between. Compatible with 60+ AI agent tools including Hermes Agent.
+The largest single collection of AI agent skills ever published. One command installs access to **1,672+ skills** organized across **49 categories** - frontend development, security auditing, creative coding, multi-agent orchestration, and everything in between. Compatible with 60+ AI agent tools including Hermes Agent.
 
 ### Category Breakdown
 
@@ -58,7 +58,7 @@ npm install -g skills-gallery
 
 ## 🔗 New Hermes Agent Repos (8)
 
-### 1. Hermes A2A Bridge — Agent-to-Agent Protocol
+### 1. Hermes A2A Bridge - Agent-to-Agent Protocol
 
 **Repo:** [asimons81/hermes-a2a-bridge](https://github.com/asimons81/hermes-a2a-bridge)
 **Stars:** ⭐0 | **Created:** June 27, 2026
@@ -77,7 +77,7 @@ hermes a2a serve
 
 ---
 
-### 2. Hermes Flight Recorder — Autonomy Eval Harness
+### 2. Hermes Flight Recorder - Autonomy Eval Harness
 
 **Repo:** [zwright8/hermes-flight-recorder](https://github.com/zwright8/hermes-flight-recorder)
 **Stars:** ⭐0 | **Created:** June 26, 2026
@@ -96,7 +96,7 @@ open runs/index.html
 
 ---
 
-### 3. Robert Greene Skill — The 48 Laws of Power
+### 3. Robert Greene Skill - The 48 Laws of Power
 
 **Repo:** [ooovenenoso/robert-greene-skill](https://github.com/ooovenenoso/robert-greene-skill)
 **Stars:** ⭐4 | **Created:** June 26, 2026
@@ -107,16 +107,16 @@ Hermes Agent skill for The 48 Laws of Power. Cite any law by number, get law rec
 git clone https://github.com/ooovenenoso/robert-greene-skill.git
 ```
 
-**Why it matters:** Highest-starred new skill of this sweep (⭐4). Demonstrates the pattern of loading book-level domain knowledge as installable agent skills — applicable to business strategy, negotiation, and leadership use cases.
+**Why it matters:** Highest-starred new skill of this sweep (⭐4). Demonstrates the pattern of loading book-level domain knowledge as installable agent skills - applicable to business strategy, negotiation, and leadership use cases.
 
 ---
 
-### 4. Hermes ztk Integration — Context Token Compressor
+### 4. Hermes ztk Integration - Context Token Compressor
 
 **Repo:** [csx0574/hermes-ztk-integration](https://github.com/csx0574/hermes-ztk-integration)
 **Stars:** ⭐0 | **Created:** June 26, 2026
 
-Transparent ztk (shell output compressor) integration for Hermes Agent. Auto-wraps non-interactive commands, saving **60-99% context tokens**. Directly addresses one of the most expensive aspects of agent operation — shell output consuming context window.
+Transparent ztk (shell output compressor) integration for Hermes Agent. Auto-wraps non-interactive commands, saving **60-99% context tokens**. Directly addresses one of the most expensive aspects of agent operation - shell output consuming context window.
 
 ```bash
 git clone https://github.com/csx0574/hermes-ztk-integration.git
@@ -126,16 +126,16 @@ git clone https://github.com/csx0574/hermes-ztk-integration.git
 
 ---
 
-### 5. Hermes Walkie-Talkie — Voice Gateway
+### 5. Hermes Walkie-Talkie - Voice Gateway
 
 **Repo:** [TheSethRose/Hermes-Walkie-Talkie](https://github.com/TheSethRose/Hermes-Walkie-Talkie)
 **Stars:** ⭐1 | **Created:** June 26, 2026
 
-Pairs an Android push-to-talk client with a local Hermes Voice Gateway. Enables real-time voice interaction with Hermes from an Android device — walkie-talkie style.
+Pairs an Android push-to-talk client with a local Hermes Voice Gateway. Enables real-time voice interaction with Hermes from an Android device - walkie-talkie style.
 
 ---
 
-### 6. Coolify Hermes Agent ARM64 — Production Docker
+### 6. Coolify Hermes Agent ARM64 - Production Docker
 
 **Repo:** [darvax/coolify-hermes-agent-arm64](https://github.com/darvax/coolify-hermes-agent-arm64)
 **Stars:** ⭐0 | **Created:** June 26, 2026
@@ -149,7 +149,7 @@ Production-ready ARM64 Docker Compose template for deploying Hermes Agent on Coo
 **Repo:** [hyonex/hermes-weixin-multi](https://github.com/hyonex/hermes-weixin-multi)
 **Stars:** ⭐1 | **Created:** June 26, 2026
 
-Hermes WeChat Multi-Account Plugin using the iLink Bot API. Chinese market expansion — enables Hermes agents to operate across multiple WeChat accounts simultaneously.
+Hermes WeChat Multi-Account Plugin using the iLink Bot API. Chinese market expansion - enables Hermes agents to operate across multiple WeChat accounts simultaneously.
 
 ---
 
@@ -158,7 +158,7 @@ Hermes WeChat Multi-Account Plugin using the iLink Bot API. Chinese market expan
 **Repo:** [unleashed-nick/hermes-gruvbox-skin](https://github.com/unleashed-nick/hermes-gruvbox-skin)
 **Stars:** ⭐1 | **Created:** June 26, 2026
 
-Gruvbox Dark skins for Hermes Agent. Community-contributed theming — the first third-party visual customization for the Hermes terminal interface.
+Gruvbox Dark skins for Hermes Agent. Community-contributed theming - the first third-party visual customization for the Hermes terminal interface.
 
 ---
 
@@ -191,7 +191,7 @@ git clone https://github.com/ooovenenoso/robert-greene-skill.git
 
 ## Impact Assessment
 
-**Skills Gallery** is the single largest skill discovery since the marketplace launched. At 1,672+ skills across 49 categories, it dwarfs all previous sweeps combined. For CorpusIQ operators, this provides instant access to hundreds of production-ready skills for marketing, sales, data analysis, and automation — all installable with one command.
+**Skills Gallery** is the single largest skill discovery since the marketplace launched. At 1,672+ skills across 49 categories, it dwarfs all previous sweeps combined. For CorpusIQ operators, this provides instant access to hundreds of production-ready skills for marketing, sales, data analysis, and automation - all installable with one command.
 
 **Hermes A2A Bridge** fills a critical architectural gap: standardized agent-to-agent communication. Combined with existing subagent/delegation capabilities, this enables Hermes to participate in multi-agent networks using an emerging industry protocol.
 
@@ -201,4 +201,4 @@ git clone https://github.com/ooovenenoso/robert-greene-skill.git
 
 *← [June 26 Afternoon Update](/hermes/skills/marketplace/new-june26-2026-afternoon/) | [Marketplace Home](/hermes/skills/marketplace/) →*
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

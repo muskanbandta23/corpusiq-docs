@@ -5,7 +5,7 @@ description: "If you sell on Amazon, your real revenue picture is split across S
 # Amazon Seller
 
 ## What it unlocks
-If you sell on Amazon, your real revenue picture is split across Shopify (your own store) and Seller Central (the marketplace). Connecting Amazon Seller lets CorpusIQ pull orders and inventory directly into the same view as your Shopify revenue, QuickBooks expenses, and ad spend — so the question "how is my business doing this month" actually includes Amazon.
+If you sell on Amazon, your real revenue picture is split across Shopify (your own store) and Seller Central (the marketplace). Connecting Amazon Seller lets CorpusIQ pull orders and inventory directly into the same view as your Shopify revenue, QuickBooks expenses, and ad spend - so the question "how is my business doing this month" actually includes Amazon.
 
 ## Before you connect
 - An Amazon Seller Central account
@@ -37,9 +37,9 @@ CorpusIQ never creates listings, edits inventory, or refunds orders.
 - "Show me Amazon orders over $200 from the last 30 days."
 
 ## Troubleshooting
-- **Authorization fails halfway through** — Make sure you're signed in as the primary Seller Central account, not a sub-user without app-authorization rights.
-- **No orders returned** — Confirm the date range. Amazon SP-API only exposes orders from the marketplace region tied to your account.
-- **Inventory empty** — If you don't use FBA, inventory will be empty by design. Use orders to track sell-through instead.
+- **Authorization fails halfway through** - Make sure you're signed in as the primary Seller Central account, not a sub-user without app-authorization rights.
+- **No orders returned** - Confirm the date range. Amazon SP-API only exposes orders from the marketplace region tied to your account.
+- **Inventory empty** - If you don't use FBA, inventory will be empty by design. Use orders to track sell-through instead.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ---

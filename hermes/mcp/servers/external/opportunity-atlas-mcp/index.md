@@ -11,7 +11,7 @@ tags: [construction, b2b-opportunities, ohio, project-intelligence, lead-generat
 
 # Opportunity Atlas MCP
 
-**Remote MCP server (Streamable HTTP, registered API key) — verified Northeast Ohio construction opportunity intelligence for AI agents.** Opportunity Atlas distills construction project intelligence for the region into an agent-facing endpoint with a free preview tier: `scout_capabilities` and `scout_preview` work keyless, and registering an agent unlocks the full opportunity surface at capped rates. The operator value is a pipeline feed an agent can watch and act on, instead of a bidding portal a person has to check.
+**Remote MCP server (Streamable HTTP, registered API key) - verified Northeast Ohio construction opportunity intelligence for AI agents.** Opportunity Atlas distills construction project intelligence for the region into an agent-facing endpoint with a free preview tier: `scout_capabilities` and `scout_preview` work keyless, and registering an agent unlocks the full opportunity surface at capped rates. The operator value is a pipeline feed an agent can watch and act on, instead of a bidding portal a person has to check.
 
 ```
 Server type: Hosted remote (Streamable HTTP, Supabase function)
@@ -26,15 +26,15 @@ Built by: Opportunity Atlas (supabase-hosted, public beta)
 
 ## Why This Matters for Operators
 
-Construction business development runs on early project signals: who is planning, who won the permit, who needs a sub. The traditional sources are spread across permitting systems, bidding boards, and word of mouth, and the cost of watching them is a person checking portals daily. Opportunity Atlas MCP turns that into an agent-callable feed — `scout_preview` returns free project previews so a sales agent can sample the dataset before committing anything, and `scout_capabilities` tells the agent exactly what the scout covers. A registered agent then works the full pipeline: query opportunities, watch new entries, and route them into a CRM while a human decides which to pursue.
+Construction business development runs on early project signals: who is planning, who won the permit, who needs a sub. The traditional sources are spread across permitting systems, bidding boards, and word of mouth, and the cost of watching them is a person checking portals daily. Opportunity Atlas MCP turns that into an agent-callable feed - `scout_preview` returns free project previews so a sales agent can sample the dataset before committing anything, and `scout_capabilities` tells the agent exactly what the scout covers. A registered agent then works the full pipeline: query opportunities, watch new entries, and route them into a CRM while a human decides which to pursue.
 
-The access model is deliberately careful, which matters for an agent-facing beta: keys are displayed once, stored only as hashes, expire after 90 days, and are capped at 20 requests per minute and 100 per day. No payments exist. That is the right shape for early construction-data plumbing — generous enough to be useful, bounded enough to be safe.
+The access model is deliberately careful, which matters for an agent-facing beta: keys are displayed once, stored only as hashes, expire after 90 days, and are capped at 20 requests per minute and 100 per day. No payments exist. That is the right shape for early construction-data plumbing - generous enough to be useful, bounded enough to be safe.
 
 ## Tools & Capabilities
 
 | Tool | Purpose |
 |---|---|
-| `scout_capabilities` | What the scout covers — regions, project types, and data fields (free, no key) |
+| `scout_capabilities` | What the scout covers - regions, project types, and data fields (free, no key) |
 | `scout_preview` | Free project previews from the opportunity set (free, no key) |
 | Registered-agent tools | Full opportunity search and project detail surface (names served from the endpoint after registration) |
 
@@ -77,15 +77,15 @@ Auth note: the free tools answer without a key; registered access requires the o
 
 ## Integration with CorpusIQ
 
-Opportunity Atlas MCP is the top-of-funnel feed for a construction pipeline that CorpusIQ reads at every later stage. The agent pulls new opportunities through the MCP endpoint, qualifies them against the operator's trade and territory, and creates the ones that matter as deals in the CorpusIQ HubSpot or Close connector — the CRM then holds the pursuit, and the CorpusIQ QuickBooks connector tracks the revenue when a project wins. Because the feed is rate-capped and preview-first, the agent can run a daily watch without burning budget. The direction of flow: Opportunity Atlas MCP supplies the project intelligence; CorpusIQ reads the CRM and accounting systems the wins land in.
+Opportunity Atlas MCP is the top-of-funnel feed for a construction pipeline that CorpusIQ reads at every later stage. The agent pulls new opportunities through the MCP endpoint, qualifies them against the operator's trade and territory, and creates the ones that matter as deals in the CorpusIQ HubSpot or Close connector - the CRM then holds the pursuit, and the CorpusIQ QuickBooks connector tracks the revenue when a project wins. Because the feed is rate-capped and preview-first, the agent can run a daily watch without burning budget. The direction of flow: Opportunity Atlas MCP supplies the project intelligence; CorpusIQ reads the CRM and accounting systems the wins land in.
 
 ## Limitations
 
-- Northeast Ohio only — regional scope is the product, not a bug, but it is a boundary
-- Free public beta — the full registered surface and tool names are served from the endpoint and may change
+- Northeast Ohio only - regional scope is the product, not a bug, but it is a boundary
+- Free public beta - the full registered surface and tool names are served from the endpoint and may change
 - Strict rate caps (20/min, 100/day) and 90-day key expiry mean the agent must cache and schedule, not stream
-- Supabase-hosted endpoint — no vendor SLA yet, and no payments layer exists to buy more access
-- Brand new listing — no community track record yet
+- Supabase-hosted endpoint - no vendor SLA yet, and no payments layer exists to buy more access
+- Brand new listing - no community track record yet
 
 ## See Also
 

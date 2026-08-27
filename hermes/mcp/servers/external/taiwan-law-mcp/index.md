@@ -1,6 +1,6 @@
 ---
 title: "Taiwan Law MCP - CorpusIQ Docs"
-description: Taiwan legal research over MCP — statutes, court judgments, constitutional interpretations and legislative history from official government sources, free with no API key.
+description: Taiwan legal research over MCP - statutes, court judgments, constitutional interpretations and legislative history from official government sources, free with no API key.
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [legal-research, taiwan, statutes, judgments, compliance, government-sourc
 
 # Taiwan Law MCP
 
-**Remote MCP server (Streamable HTTP, no auth)** — a server for verifying Taiwanese law against official government sources: statutes (Ministry of Justice), court judgments (Judicial Yuan), constitutional interpretations, and legislative history (Legislative Yuan). Fourteen tools, free, no API key, no signup. Registry name `tw.org.legaltech/taiwan-law`.
+**Remote MCP server (Streamable HTTP, no auth)** - a server for verifying Taiwanese law against official government sources: statutes (Ministry of Justice), court judgments (Judicial Yuan), constitutional interpretations, and legislative history (Legislative Yuan). Fourteen tools, free, no API key, no signup. Registry name `tw.org.legaltech/taiwan-law`.
 
 ```
 Server type: Remote (Streamable HTTP) or self-hosted (npx / Docker)
@@ -35,7 +35,7 @@ Coverage spans the four sources an operator doing business in Taiwan actually ne
 
 | Source | Tools |
 |---|---|
-| Intent analysis | `analyze_legal_intent` — research intent and privacy risk before querying |
+| Intent analysis | `analyze_legal_intent` - research intent and privacy risk before querying |
 | Statutes & interpretations | `search_taiwan_laws`, `search_taiwan_regulations`, `get_taiwan_pcode`, `search_moj_interpretations`, `get_moj_draft_announcements` |
 | Judgments | `search_taiwan_judgments`, `get_taiwan_judgment` |
 | Constitutional interpretations | `search_taiwan_interpretations`, `get_taiwan_interpretation`, `get_taiwan_interpretation_citations` |
@@ -73,12 +73,12 @@ No credentials, no OAuth field to fill. For Claude.ai or ChatGPT, add it as a cu
 
 ## Integration with CorpusIQ
 
-Taiwan Law MCP composes with the CorpusIQ compliance and document stack as the jurisdiction specialist. Where Legalcode MCP covers 44 general jurisdictions, Taiwan Law MCP goes deep on one — an operator's compliance sweep can cite Taiwan statutes with government URLs while the CorpusIQ document-intelligence tools organize findings, and the canonical context layer can store the verified citations as facts. For operators running Taiwan entities through the CorpusIQ connectors (QuickBooks for books, Stripe for payments), the legal server answers the question the financial connectors cannot: what the current law actually requires, straight from the official source.
+Taiwan Law MCP composes with the CorpusIQ compliance and document stack as the jurisdiction specialist. Where Legalcode MCP covers 44 general jurisdictions, Taiwan Law MCP goes deep on one - an operator's compliance sweep can cite Taiwan statutes with government URLs while the CorpusIQ document-intelligence tools organize findings, and the canonical context layer can store the verified citations as facts. For operators running Taiwan entities through the CorpusIQ connectors (QuickBooks for books, Stripe for payments), the legal server answers the question the financial connectors cannot: what the current law actually requires, straight from the official source.
 
 ## Limitations
 
-- Brand new — no track record yet; listed August 17, 2026, public beta
-- Taiwan jurisdiction only — no cross-border coverage
+- Brand new - no track record yet; listed August 17, 2026, public beta
+- Taiwan jurisdiction only - no cross-border coverage
 - Research assistance, not legal advice; judgments can be updated or removed by the courts
 - Hosted endpoint is a third party (EU-adjacent privacy posture is not stated; self-host if confidential)
 - Free tier is rate-limited as a public beta; reliability not SLA-backed

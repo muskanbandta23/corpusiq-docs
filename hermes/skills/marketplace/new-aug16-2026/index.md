@@ -1,6 +1,6 @@
 ---
-title: "New Skills — August 16, 2026 - CorpusIQ Docs"
-description: "skills.sh sweep: Vercel AI SDK (51.1K, 3), Cursor Plugins (72.0K, 79), Angular Skills (40.1K, 2), Inngest Skills (19.3K, 14), OXC Project (9.9K, 4), Alibaba Open Code Review (4.3K, 2) — 6 publisher clusters, 104 skills, 6 setup guides."
+title: "New Skills - August 16, 2026 - CorpusIQ Docs"
+description: "skills.sh sweep: Vercel AI SDK (51.1K, 3), Cursor Plugins (72.0K, 79), Angular Skills (40.1K, 2), Inngest Skills (19.3K, 14), OXC Project (9.9K, 4), Alibaba Open Code Review (4.3K, 2) - 6 publisher clusters, 104 skills, 6 setup guides."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug16-2026/"
 robots: "index,follow"
 last_updated: "2026-08-16"
@@ -11,11 +11,11 @@ new_skills: 104
 guides_drafted: 6
 ---
 
-# New Skills — August 16, 2026
+# New Skills - August 16, 2026
 
-First skills.sh sweep of August 16. 40 API queries collected 3,945 unique skills; all top-120 clusters reported known (same-day triage trap), so the recovery pass excluded `new-aug15-2026*` dirs, then hot/trending leaderboard finds and the carry-over queue were re-verified on publisher pages. The queue-underestimation pattern held again, this time for brand suites the API never surfaced: **cursor/plugins was 0 in the API sweep and 72.0K on its publisher page; vercel/ai 51.1K; angular/skills 40.1K** — all official vendor orgs, all missed by the previous sweeps entirely.
+First skills.sh sweep of August 16. 40 API queries collected 3,945 unique skills; all top-120 clusters reported known (same-day triage trap), so the recovery pass excluded `new-aug15-2026*` dirs, then hot/trending leaderboard finds and the carry-over queue were re-verified on publisher pages. The queue-underestimation pattern held again, this time for brand suites the API never surfaced: **cursor/plugins was 0 in the API sweep and 72.0K on its publisher page; vercel/ai 51.1K; angular/skills 40.1K** - all official vendor orgs, all missed by the previous sweeps entirely.
 
-## New Publisher Clusters — Guided This Sweep
+## New Publisher Clusters - Guided This Sweep
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
@@ -51,7 +51,7 @@ Carry-over queue remains parked per playbook: herdr, last30days, agent-config, s
 ## Notable Signals for CorpusIQ
 
 - **cursor/plugins** is the largest engineering-discipline cluster catalogued to date (79 skills). thermo-nuclear-code-quality-review and the CI loop skills map directly onto our PR gate and CI retry discipline.
-- **vercel/ai** is the canonical AI SDK reference — its "never code from memory, verify against bundled docs" doctrine matches our own verification-before-assertion rule and informs client agent work.
+- **vercel/ai** is the canonical AI SDK reference - its "never code from memory, verify against bundled docs" doctrine matches our own verification-before-assertion rule and informs client agent work.
 - **angular/skills** encode a build-verify gate (`ng build` before delivery) worth adopting as a delivery discipline.
 - **inngest** durable functions are the pattern layer between our fire-and-forget crons and reliable background execution.
 - **oxc-project** Rust-native linting is a direct CI speed and cost win.

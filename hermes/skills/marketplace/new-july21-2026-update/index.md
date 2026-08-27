@@ -1,5 +1,5 @@
 ---
-title: "New Skills — July 21, 2026 Marketplace Sweep (Update)"
+title: "New Skills - July 21, 2026 Marketplace Sweep (Update)"
 description: "6 additional Hermes-relevant skills discovered on skills.sh in afternoon sweep. 12.3K+ combined installs across the new batch."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july21-2026-update/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 21, 2026 (Update)
+# New Skills - July 21, 2026 (Update)
 
 Additional skills discovered during the July 21 afternoon marketplace sweep. 6 new setup guides created for Hermes agents. This supplements the morning sweep which found 10 skills.
 
@@ -49,7 +49,7 @@ Additional skills discovered during the July 21 afternoon marketplace sweep. 6 n
 ## Notes
 
 - **hermes-imports** addresses a critical gap in the Hermes ecosystem: safely converting local workflows to shareable ECC skills by stripping private state and credentials.
-- **hermes-labyrinth-observability** is the first dedicated observability plugin for Hermes Agent dashboards — a black-box recorder for agent journeys.
+- **hermes-labyrinth-observability** is the first dedicated observability plugin for Hermes Agent dashboards - a black-box recorder for agent journeys.
 - **openclaw-control-center** (4.3K installs) is the most-installed OpenClaw monitoring dashboard with security-first read-only defaults.
 - **openclaw-persona-forge** (3.8K installs) enables 8 million+ persona combinations via its gacha engine for OpenClaw character design.
 - These 6 skills were discovered using `npx skills find` with targeted Hermes and OpenClaw queries, complementing the broader morning sweep.

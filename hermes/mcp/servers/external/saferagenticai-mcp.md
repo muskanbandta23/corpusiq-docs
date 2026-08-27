@@ -1,5 +1,5 @@
 ---
-title: "SaferAgenticAI MCP — AI Safety Governance for Agentic"
+title: "SaferAgenticAI MCP - AI Safety Governance for Agentic"
 description: "Apply the Safer Agentic AI safety framework to coding assistants over MCP. Governance guardrails, safety checks, and policy enforcement for agentic"
 category: mcp
 tags: [mcp-server, ai-safety, agentic-ai, governance, security, guardrails]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# SaferAgenticAI MCP — AI Safety Framework
+# SaferAgenticAI MCP - AI Safety Framework
 
 ## What It Is
 
-SaferAgenticAI MCP (`NellInc/SaferAgenticAI`) brings the Safer Agentic AI safety framework to coding assistants over the Model Context Protocol. It enforces governance guardrails, safety checks, and policy constraints on agent actions — ensuring agentic workflows comply with organizational safety policies before executing tool calls, file operations, or external API requests.
+SaferAgenticAI MCP (`NellInc/SaferAgenticAI`) brings the Safer Agentic AI safety framework to coding assistants over the Model Context Protocol. It enforces governance guardrails, safety checks, and policy constraints on agent actions - ensuring agentic workflows comply with organizational safety policies before executing tool calls, file operations, or external API requests.
 
 ## Tools Available
 
@@ -38,12 +38,12 @@ uvx saferagenticai-mcp
 
 ## Limitations
 
-- **Research-stage**: Part of the NellInc research repository — not yet production-hardened
+- **Research-stage**: Part of the NellInc research repository - not yet production-hardened
 - **Coding assistant focus**: Primarily designed for coding agents (Codex, Claude Code); may need adaptation for business operations agents
 - **No remote transport**: Local-only via `uvx`
 
 ## See Also
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
-- [VRules MCP — AI Governance](/hermes/mcp/servers/external/vrules/)
+- [VRules MCP - AI Governance](/hermes/mcp/servers/external/vrules/)
 - [CorpusIQ Governance System](/hermes/governance/)

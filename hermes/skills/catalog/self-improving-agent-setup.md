@@ -1,5 +1,5 @@
 ---
-title: "Self-Improving Agent — Universal Agent Self-Evolution"
+title: "Self-Improving Agent - Universal Agent Self-Evolution"
 description: "32.2K+ installs. Multi-memory architecture (semantic + episodic + working) with hooks-based self-correction for AI agents that learn from every interaction"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/self-improving-agent-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Self-Improving Agent — Setup Guide
+# Self-Improving Agent - Setup Guide
 
 **Source:** [charon-fan/agent-playbook](https://skills.sh/charon-fan/agent-playbook/self-improving-agent) (32,200+ installs)
 **Category:** Agent Infrastructure / Self-Evolution
 **Quality Tier:** 🟢 Production
 
-A universal self-improvement system that learns from ALL skill experiences — not just PRDs or specific task types. Uses multi-memory architecture (semantic + episodic + working) with hooks-based self-correction to continuously evolve the agent's codebase and capabilities. Based on 2025 lifelong learning research including SimpleMem, Multi-Memory architecture surveys, and Evo-Memory benchmarks.
+A universal self-improvement system that learns from ALL skill experiences - not just PRDs or specific task types. Uses multi-memory architecture (semantic + episodic + working) with hooks-based self-correction to continuously evolve the agent's codebase and capabilities. Based on 2025 lifelong learning research including SimpleMem, Multi-Memory architecture surveys, and Evo-Memory benchmarks.
 
 ---
 
@@ -123,8 +123,8 @@ ls -la memory/episodic/ | tail -5
 
 ## Notes
 
-- Promotes findings with clear evidence thresholds — does NOT silently mutate skill files without approval
-- Separates *capture* (always-on) from *promotion* (validated only) — prevents pollution of production skill guidance
+- Promotes findings with clear evidence thresholds - does NOT silently mutate skill files without approval
+- Separates *capture* (always-on) from *promotion* (validated only) - prevents pollution of production skill guidance
 - Based on published 2025 research: SimpleMem (efficient lifelong memory), Multi-Memory LLM Agent Survey (ACM), and Evo-Memory (DeepMind benchmark)
 - Confidence tracking ensures single experiences don't trigger premature pattern generalization
 - Ideal for agents that run diverse skill sets and need continuous improvement without manual tuning

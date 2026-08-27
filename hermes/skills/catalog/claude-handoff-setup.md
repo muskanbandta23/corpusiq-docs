@@ -1,5 +1,5 @@
 ---
-title: Claude Handoff — Session Handoff Pattern for Hermes Agents
+title: Claude Handoff - Session Handoff Pattern for Hermes Agents
 description: Hand the current conversation off to a fresh background agent that picks up work immediately. 63.5K+ installs. Essential pattern for long-running multi-session agent workflows.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-handoff-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Claude Handoff — Setup Guide
+# Claude Handoff - Setup Guide
 
 **Source:** [mattpocock/skills](https://skills.sh/mattpocock/skills/claude-handoff) (63,500+ installs)
 **Category:** Agent Infrastructure / Session Management
@@ -39,10 +39,10 @@ npx skills add mattpocock/skills --skill claude-handoff
 
 ### The Handoff Pattern
 
-1. **Summarize** — Write a concise handoff summary of the current conversation state
-2. **Launch** — Spawn a background agent seeded with the summary as its prompt
-3. **Name** — Always pass `--name` with a descriptive identifier
-4. **Continue** — The fresh agent picks up where the previous one left off
+1. **Summarize** - Write a concise handoff summary of the current conversation state
+2. **Launch** - Spawn a background agent seeded with the summary as its prompt
+3. **Name** - Always pass `--name` with a descriptive identifier
+4. **Continue** - The fresh agent picks up where the previous one left off
 
 ### What to Include in a Handoff
 
@@ -97,7 +97,7 @@ For CorpusIQ Hermes agents, the handoff pattern maps to our session-handoff ritu
 ### Handoff Template for CorpusIQ
 
 ```markdown
-# Session Handoff — YYYY-MM-DD
+# Session Handoff - YYYY-MM-DD
 
 ## Task
 [One-line goal]
@@ -111,7 +111,7 @@ For CorpusIQ Hermes agents, the handoff pattern maps to our session-handoff ritu
 - [Decision 2]: [rationale]
 
 ## Files
-- `path/to/file` — [what it contains, state]
+- `path/to/file` - [what it contains, state]
 
 ## Blockers
 - [Blocker 1]: [mitigation attempted]
@@ -133,11 +133,11 @@ For CorpusIQ Hermes agents, the handoff pattern maps to our session-handoff ritu
 
 ## Tips
 
-- Handoffs should be self-contained — the new agent has no context from your session
+- Handoffs should be self-contained - the new agent has no context from your session
 - Reference files by absolute path so the new agent can access them immediately
 - Include "suggested skills" so the next agent loads the right capabilities
 - Redact API keys, passwords, and PII before writing the handoff summary
-- Keep handoffs focused on one task domain — split unrelated work into separate handoffs
+- Keep handoffs focused on one task domain - split unrelated work into separate handoffs
 
 ---
 
@@ -154,6 +154,6 @@ For CorpusIQ Hermes agents, the handoff pattern maps to our session-handoff ritu
 
 ## See Also
 
-- Hermes Session Maintenance Setup — Hermes session state management
-- [Claude API Documentation](https://docs.anthropic.com/en/api) — Official Anthropic Claude API reference
-- [skills.sh](https://skills.sh) — Discover more agent skills for session management
+- Hermes Session Maintenance Setup - Hermes session state management
+- [Claude API Documentation](https://docs.anthropic.com/en/api) - Official Anthropic Claude API reference
+- [skills.sh](https://skills.sh) - Discover more agent skills for session management

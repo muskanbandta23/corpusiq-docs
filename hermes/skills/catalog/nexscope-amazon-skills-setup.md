@@ -1,5 +1,5 @@
 ---
-title: Nexscope Amazon Skills — E-Commerce Product Research for Hermes Agents
+title: Nexscope Amazon Skills - E-Commerce Product Research for Hermes Agents
 description: Amazon product research, listing optimization, and keyword analysis skills with 77K+ combined installs. Research product opportunities, analyze competition, and optimize listings across 12 Amazon marketplaces.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nexscope-amazon-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Nexscope Amazon Skills — Setup Guide
+# Nexscope Amazon Skills - Setup Guide
 
 **Source:** [nexscope-ai/amazon-skills](https://skills.sh/nexscope-ai/amazon-skills) (77K+ combined installs)
 **Category:** Growth Operations / E-Commerce
@@ -32,8 +32,8 @@ npx skills add nexscope-ai/amazon-skills --skill amazon-keyword-research
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **amazon-product-research** | 77.1K | Full product opportunity analysis — market demand, competition density, profit potential, risk evaluation |
-| **amazon-listing-optimization** | 929 | Optimize product listings for conversion — titles, bullets, descriptions, A+ content |
+| **amazon-product-research** | 77.1K | Full product opportunity analysis - market demand, competition density, profit potential, risk evaluation |
+| **amazon-listing-optimization** | 929 | Optimize product listings for conversion - titles, bullets, descriptions, A+ content |
 | **amazon-keyword-research** | 877 | Discover high-value search terms, keyword difficulty scoring, indexing strategies |
 
 ---
@@ -67,9 +67,9 @@ Natural language queries supported:
 
 ```
 Research "wireless earbuds" as a product opportunity on Amazon
-Analyze the market for "smart water bottles" — demand, competition, profit potential
+Analyze the market for "smart water bottles" - demand, competition, profit potential
 Should I sell "phone cases" or "phone stands"? Compare both opportunities
-Research "Hundehalsbänder" on Amazon Germany — full market analysis
+Research "Hundehalsbänder" on Amazon Germany - full market analysis
 ```
 
 ---
@@ -85,7 +85,7 @@ npx skills list | grep nexscope-ai/amazon-skills
 ## Notes
 
 - Most-installed Amazon research skill on skills.sh (77K+)
-- Uses web_search-based workflows — no API keys required
+- Uses web_search-based workflows - no API keys required
 - Multi-marketplace support is rare and valuable for international sellers
 - Competition scoring system provides structured decision-making framework
 - Relevant for CorpusIQ e-commerce operator workflows and competitive analysis

@@ -1,6 +1,6 @@
 ---
 title: "JaxSuite AI MCP - CorpusIQ Docs"
-description: AI-native cold outreach and CRM platform — 27 MCP tools for campaign lifecycle, content writing, contact management, and deliverability analytics
+description: AI-native cold outreach and CRM platform - 27 MCP tools for campaign lifecycle, content writing, contact management, and deliverability analytics
 category: Marketing / Sales
 stars: 0 (brand new)
 added: 2026-08-11
@@ -27,7 +27,7 @@ Category: Sales / Cold Outreach / CRM
 
 ## Why This Matters for Operators
 
-Cold outreach is the highest-ROI growth channel for B2B operators, but running it effectively requires juggling: contact databases, email verification, content writing, campaign management, deliverability monitoring, and analytics. JaxSuite AI MCP consolidates all of this into 27 tools that AI agents can orchestrate — no browser tab needed.
+Cold outreach is the highest-ROI growth channel for B2B operators, but running it effectively requires juggling: contact databases, email verification, content writing, campaign management, deliverability monitoring, and analytics. JaxSuite AI MCP consolidates all of this into 27 tools that AI agents can orchestrate - no browser tab needed.
 
 This is the first end-to-end cold outreach MCP server with built-in deliverability infrastructure. Combined with [LinkedIn MCP (GTM API)](/hermes/mcp/servers/external/linkedin-mcp-gtm/) and [Apollo.io MCP](/hermes/mcp/servers/external/apollo-io-mcp/), operators can build fully autonomous B2B outbound pipelines.
 
@@ -120,14 +120,14 @@ This is the first end-to-end cold outreach MCP server with built-in deliverabili
 
 ## Limitations
 
-- Brand new server (August 2026) — API may evolve
+- Brand new server (August 2026) - API may evolve
 - Rate limits may constrain high-volume operators
 - Not open source (commercial SaaS product)
 - Requires paid JaxSuite plan (pricing details on their website)
 
 ## See Also
 
-- [LinkedIn MCP (GTM API)](/hermes/mcp/servers/external/linkedin-mcp-gtm/) — LinkedIn outreach at scale
-- [Apollo.io MCP](/hermes/mcp/servers/external/apollo-io-mcp/) — 275M+ B2B contact enrichment
+- [LinkedIn MCP (GTM API)](/hermes/mcp/servers/external/linkedin-mcp-gtm/) - LinkedIn outreach at scale
+- [Apollo.io MCP](/hermes/mcp/servers/external/apollo-io-mcp/) - 275M+ B2B contact enrichment
 - [JaxSuite API Docs](https://www.jaxsuite.com/api/v1/docs/ui)
 - [JaxSuite MCP Page](https://www.jaxsuite.com/mcp)

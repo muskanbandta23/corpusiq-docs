@@ -1,6 +1,6 @@
 ---
 title: "How to Add CorpusIQ MCP to Hermes Agent"
-description: "Connect CorpusIQ MCP to Hermes Agent — query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide."
+description: "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -73,7 +73,7 @@ The refresh token flow is live in production. One device OAuth reconnect after J
 All CorpusIQ MCP tool calls must nest query parameters inside the `params` key:
 
 ```python
-# CORRECT — params nested
+# CORRECT - params nested
 await session.call_tool("search_console_connector", {
     "action": "get_performance",
     "params": {
@@ -85,7 +85,7 @@ await session.call_tool("search_console_connector", {
     }
 })
 
-# WRONG — flat params silently return empty or fail
+# WRONG - flat params silently return empty or fail
 await session.call_tool("search_console_connector", {
     "action": "get_performance",
     "site_url": "...",

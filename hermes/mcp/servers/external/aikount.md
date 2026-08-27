@@ -1,6 +1,6 @@
 ---
 title: Aikount MCP Server Integration Guide
-description: Spanish accounting for AI agents — issue invoices, OCR expense PDFs, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) with Aikount MCP
+description: Spanish accounting for AI agents - issue invoices, OCR expense PDFs, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) with Aikount MCP
 category: mcp
 tags: [mcp, aikount, accounting, spanish, iva, modelo-303, invoices, expenses, autónomo, hermes-agent]
 last_updated: 2026-07-08
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# Aikount MCP — Spanish Accounting Automation for Hermes Agent
+# Aikount MCP - Spanish Accounting Automation for Hermes Agent
 
-Spanish accounting (contabilidad) for AI agents. Issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) — all through the Aikount REST API, accessible via MCP.
+Spanish accounting (contabilidad) for AI agents. Issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) - all through the Aikount REST API, accessible via MCP.
 
 ## What It Does
 
 Aikount brings Spanish tax-compliant accounting to AI agents:
 
-- **Invoice issuance** — Create and send facturas compliant with Spanish tax requirements
-- **Expense capture** — OCR expense PDFs (facturas de gastos) into categorized, deduplicated purchase records
-- **Bank reconciliation** — Match bank movements to invoices and expenses automatically
-- **VAT returns (Modelo 303)** — Prepare quarterly IVA returns with all required calculations
-- **Autónomo-ready** — Designed for freelancers and SMEs in the Spanish tax system
+- **Invoice issuance** - Create and send facturas compliant with Spanish tax requirements
+- **Expense capture** - OCR expense PDFs (facturas de gastos) into categorized, deduplicated purchase records
+- **Bank reconciliation** - Match bank movements to invoices and expenses automatically
+- **VAT returns (Modelo 303)** - Prepare quarterly IVA returns with all required calculations
+- **Autónomo-ready** - Designed for freelancers and SMEs in the Spanish tax system
 
 ## Quick Setup
 

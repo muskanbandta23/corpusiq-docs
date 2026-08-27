@@ -1,6 +1,6 @@
 ---
-title: ContextForge RAG — Hermes Agent Profile Setup Guide
-description: Install and configure codegraphtheory/context-forge-rag — an installable Hermes Agent profile for production RAG architecture, AI agent workflows, evaluation, and observability
+title: ContextForge RAG - Hermes Agent Profile Setup Guide
+description: Install and configure codegraphtheory/context-forge-rag - an installable Hermes Agent profile for production RAG architecture, AI agent workflows, evaluation, and observability
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/context-forge-rag-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# ContextForge RAG — Hermes Profile Setup
+# ContextForge RAG - Hermes Profile Setup
 
 **Source:** [codegraphtheory/context-forge-rag](https://github.com/codegraphtheory/context-forge-rag)
 **Stars:** 1 ⭐ | **License:** MIT
@@ -20,7 +20,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-ContextForge RAG is an installable Hermes Agent **profile** — not just a single skill, but a full agent configuration bundle for principal-level production RAG architecture. Built from [codegraphtheory/hermes-profile-template](https://github.com/codegraphtheory/hermes-profile-template).
+ContextForge RAG is an installable Hermes Agent **profile** - not just a single skill, but a full agent configuration bundle for principal-level production RAG architecture. Built from [codegraphtheory/hermes-profile-template](https://github.com/codegraphtheory/hermes-profile-template).
 
 **What this profile is good at:**
 - **Production RAG architecture:** ingestion, chunking, embeddings, hybrid retrieval, reranking, citation packing, and model routing
@@ -134,7 +134,7 @@ context-forge-rag profile
 
 ## 7. Security
 
-Never commit `.env`, API keys, OAuth tokens, session dumps, private documents, runtime memories, or customer data. The profile is designed to make architecture and implementation artifacts safer, more observable, and easier to evaluate — not to handle secrets.
+Never commit `.env`, API keys, OAuth tokens, session dumps, private documents, runtime memories, or customer data. The profile is designed to make architecture and implementation artifacts safer, more observable, and easier to evaluate - not to handle secrets.
 
 ---
 

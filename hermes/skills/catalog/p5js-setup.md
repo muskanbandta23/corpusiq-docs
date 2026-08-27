@@ -1,6 +1,6 @@
 ---
-title: p5js — Creative Coding & Generative Art Setup
-description: Install and configure p5js from nousresearch/hermes-agent. Creative coding library skill for generative art, interactive visuals, and algorithmic design — 321 installs.
+title: p5js - Creative Coding & Generative Art Setup
+description: Install and configure p5js from nousresearch/hermes-agent. Creative coding library skill for generative art, interactive visuals, and algorithmic design - 321 installs.
 category: hermes-skills
 publisher: nousresearch
 installs: 321
@@ -12,14 +12,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# p5js — Creative Coding Setup Guide
+# p5js - Creative Coding Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/p5js) (321 installs)
 **Category:** Creative / Generative Art
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** Node.js 18+, p5.js library
 
-Agent skill for p5.js — the industry-standard creative coding library by the Processing Foundation. Enables Hermes to generate interactive visuals, generative art, data visualizations, and algorithmic designs using the full p5.js API. 321 installs makes this one of the most popular creative skills in the Hermes ecosystem.
+Agent skill for p5.js - the industry-standard creative coding library by the Processing Foundation. Enables Hermes to generate interactive visuals, generative art, data visualizations, and algorithmic designs using the full p5.js API. 321 installs makes this one of the most popular creative skills in the Hermes ecosystem.
 
 ---
 
@@ -117,7 +117,7 @@ The agent should generate a complete p5.js sketch with `setup()` and `draw()` fu
 
 ## Pitfalls
 
-- **Browser required for rendering:** p5.js sketches need a browser or HTML canvas to render. The skill generates the code — you need a runtime to see the output.
+- **Browser required for rendering:** p5.js sketches need a browser or HTML canvas to render. The skill generates the code - you need a runtime to see the output.
 - **Performance:** Large particle systems (10K+ particles) or complex 3D scenes can be slow. Use `frameRate()` to cap performance.
 - **Not a video tool:** p5.js generates real-time visuals, not video files. For video output, use `manim-video` or export frames and stitch them.
 - **WEBGL limitations:** WEBGL mode has a different API from 2D mode. Some 2D functions (`fill`, `stroke`) work differently in 3D.
@@ -126,9 +126,9 @@ The agent should generate a complete p5.js sketch with `setup()` and `draw()` fu
 
 ## See Also
 
-- [ascii-art-setup.md](ascii-art-setup.md) — ASCII art generation
-- [excalidraw-setup.md](excalidraw-setup.md) — Diagram creation
-- [design-md-setup.md](design-md-setup.md) — Visual identity design tokens
+- [ascii-art-setup.md](ascii-art-setup.md) - ASCII art generation
+- [excalidraw-setup.md](excalidraw-setup.md) - Diagram creation
+- [design-md-setup.md](design-md-setup.md) - Visual identity design tokens
 
 ---
 

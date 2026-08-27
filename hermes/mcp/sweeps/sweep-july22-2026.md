@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Sweep — July 22, 2026"
+title: "MCP Server Sweep - July 22, 2026"
 description: "8 new MCP servers discovered from mcp.so (newest-first listing). 4 integration guides drafted for business-operator-relevant servers. Headline finds: Sugra"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Sweep — July 22, 2026
+# MCP Server Sweep - July 22, 2026
 
-Discovered 8 net-new MCP servers from mcp.so's newest listings — all created after the July 21 late-night sweep. 4 integration guides drafted for the highest-value business-operator servers.
+Discovered 8 net-new MCP servers from mcp.so's newest listings - all created after the July 21 late-night sweep. 4 integration guides drafted for the highest-value business-operator servers.
 
 **Source:** mcp.so (SSR data extraction, newest-first)
 **Previous sweep:** July 21, 2026 late night (30 servers from mcpservers.org /all)
@@ -19,9 +19,9 @@ Discovered 8 net-new MCP servers from mcp.so's newest listings — all created a
 
 ## Methodology
 
-1. **mcp.so homepage** — extracted featured + recent servers from React SSR data
-2. **Cross-reference** — all 8 candidates checked against existing catalog (192+ entries in `servers/external/`)
-3. **Filtering** — 8 net-new. 4 business-operator-relevant.
+1. **mcp.so homepage** - extracted featured + recent servers from React SSR data
+2. **Cross-reference** - all 8 candidates checked against existing catalog (192+ entries in `servers/external/`)
+3. **Filtering** - 8 net-new. 4 business-operator-relevant.
 
 ## Headline Finds (★ = operator relevance)
 
@@ -53,28 +53,28 @@ Discovered 8 net-new MCP servers from mcp.so's newest listings — all created a
 
 4 detailed setup guides drafted for business-operator-relevant servers:
 
-1. **Sugra API MCP** — 1,500+ endpoints, 36 domains, 160+ sources. Markets, economics, fundamentals.
-2. **Patsnap Patent Literature Search** — Global patent/literature search. First dedicated patent MCP.
-3. **Capital.com MCP** — CFD trading. 4 GitHub stars.
-4. **Subtext** — Agent session replay. 9 GitHub stars.
+1. **Sugra API MCP** - 1,500+ endpoints, 36 domains, 160+ sources. Markets, economics, fundamentals.
+2. **Patsnap Patent Literature Search** - Global patent/literature search. First dedicated patent MCP.
+3. **Capital.com MCP** - CFD trading. 4 GitHub stars.
+4. **Subtext** - Agent session replay. 9 GitHub stars.
 
 ## Key Observations
 
-1. **Data MCPs are maturing** — Sugra API MCP is the most comprehensive data MCP yet observed. 1,500+ endpoints across 36 domains suggests the MCP ecosystem is moving from "single-API wrappers" to "data platforms." This is the Bloomberg Terminal pattern applied to AI agents.
+1. **Data MCPs are maturing** - Sugra API MCP is the most comprehensive data MCP yet observed. 1,500+ endpoints across 36 domains suggests the MCP ecosystem is moving from "single-API wrappers" to "data platforms." This is the Bloomberg Terminal pattern applied to AI agents.
 
-2. **Specialized professional tools emerging** — Patsnap (patent search) and Capital.com (CFD trading) represent MCP servers targeting specific professional workflows, not just general-purpose developer tools.
+2. **Specialized professional tools emerging** - Patsnap (patent search) and Capital.com (CFD trading) represent MCP servers targeting specific professional workflows, not just general-purpose developer tools.
 
-3. **Agent operations tooling growing** — Subtext (session replay) and Reelier (deterministic replay) are tools for managing AI agents themselves — a meta-layer that suggests enterprises are deploying agents at scale.
+3. **Agent operations tooling growing** - Subtext (session replay) and Reelier (deterministic replay) are tools for managing AI agents themselves - a meta-layer that suggests enterprises are deploying agents at scale.
 
-4. **mcp.so vs mcpservers.org divergence** — mcp.so's newest listings (July 22) differ from mcpservers.org's newest (July 21). mcp.so appears to have faster listing turnaround for new submissions. Both should be monitored.
+4. **mcp.so vs mcpservers.org divergence** - mcp.so's newest listings (July 22) differ from mcpservers.org's newest (July 21). mcp.so appears to have faster listing turnaround for new submissions. Both should be monitored.
 
-5. **22,680+ servers on mcp.so, 10,135+ on mcpservers.org** — The ecosystem continues its exponential growth. Our curated operator-focused catalog now tracks ~196 servers with detailed integration guides.
+5. **22,680+ servers on mcp.so, 10,135+ on mcpservers.org** - The ecosystem continues its exponential growth. Our curated operator-focused catalog now tracks ~196 servers with detailed integration guides.
 
 ## CorpusIQ Angle
 
-The catalog now covers 196+ MCP servers with detailed integration guides — the most operator-focused collection available. New additions this sweep:
+The catalog now covers 196+ MCP servers with detailed integration guides - the most operator-focused collection available. New additions this sweep:
 
-- **Sugra API MCP** is a potential partnership target — comprehensive business data that would complement CorpusIQ's existing 37 connectors
+- **Sugra API MCP** is a potential partnership target - comprehensive business data that would complement CorpusIQ's existing 37 connectors
 - **Patsnap MCP** fills the IP/intellectual property gap in the catalog
 - **Capital.com MCP** adds professional trading data to the finance section
 

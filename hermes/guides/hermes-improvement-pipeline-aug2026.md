@@ -1,5 +1,5 @@
 ---
-title: Hermes Improvement Pipeline — August 2026
+title: Hermes Improvement Pipeline - August 2026
 description: "Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026/"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Hermes Improvement Pipeline — August 2026
+# Hermes Improvement Pipeline - August 2026
 
 Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research.
 
@@ -26,10 +26,10 @@ Desktop app that records on-screen work sessions and converts them into reusable
 
 The workflow that Claude Fable 5 used, distilled into model-agnostic skills. Key principles:
 
-1. **Read the whole context before acting** — matches our Aug 5 hard rule
-2. **Assert, don't explain** — matches the corpusiq-content-writing-system communication philosophy
-3. **Start with the point** — the argument proves itself
-4. **End on a line that stands alone** — the mic drop
+1. **Read the whole context before acting** - matches our Aug 5 hard rule
+2. **Assert, don't explain** - matches the corpusiq-content-writing-system communication philosophy
+3. **Start with the point** - the argument proves itself
+4. **End on a line that stands alone** - the mic drop
 
 **Application to Hermes**: The Fable method aligns with every content rule established for CorpusIQ. It should be integrated into the corpusiq-content-writing-system skill as a foundational framework.
 
@@ -47,7 +47,7 @@ Collection of agent skills for building interfaces. Covers component selection, 
 
 ## Next Steps
 
-1. Test skill-recorder on a Reddit commenting session — if it works, we have automated skill creation
+1. Test skill-recorder on a Reddit commenting session - if it works, we have automated skill creation
 2. Integrate Fable Method principles into content writing system
 3. Adapt human-writing voice injection patterns for our preflight gate
 4. Explore interface-building skills for Hermes dashboard improvements

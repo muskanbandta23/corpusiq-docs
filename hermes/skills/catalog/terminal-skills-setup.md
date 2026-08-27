@@ -1,5 +1,5 @@
 ---
-title: Terminal Skills — System Administration Skill Pack for Hermes Agents
+title: Terminal Skills - System Administration Skill Pack for Hermes Agents
 description: Collection of terminal-focused skills (cron, systemd, network-tools, VPN) with 2.4K+ combined installs. Gives Hermes agents structured knowledge for Linux system administration, cron job management, and network operations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/terminal-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Terminal Skills — Setup Guide
+# Terminal Skills - Setup Guide
 
 **Source:** [chaterm/terminal-skills](https://skills.sh/chaterm/terminal-skills) (2.4K+ combined installs)
 **Category:** Engineering / System Administration
 **Quality Tier:** 🟡 Beta
 
-A collection of terminal and system administration skills from chaterm that give Hermes agents structured, reusable knowledge for managing Linux systems — cron job scheduling, systemd service management, network diagnostics, and VPN configuration. While Hermes agents already have terminal access, these skills provide best-practice templates and troubleshooting patterns.
+A collection of terminal and system administration skills from chaterm that give Hermes agents structured, reusable knowledge for managing Linux systems - cron job scheduling, systemd service management, network diagnostics, and VPN configuration. While Hermes agents already have terminal access, these skills provide best-practice templates and troubleshooting patterns.
 
 ---
 
@@ -54,7 +54,7 @@ npx skills add chaterm/terminal-skills --skill vpn
 
 ## Key Capabilities
 
-### Cron — Scheduled Task Management
+### Cron - Scheduled Task Management
 ```bash
 # View current crontab
 crontab -l
@@ -70,7 +70,7 @@ crontab -e
 ```
 Ideal for creating and debugging Hermes cron jobs, understanding schedule syntax, and monitoring cron logs for failures.
 
-### Systemd — Service Management
+### Systemd - Service Management
 ```bash
 # Service lifecycle
 systemctl status <service>
@@ -82,7 +82,7 @@ journalctl -u <service> --no-pager -n 50
 ```
 Directly applicable to managing the Hermes gateway service, debugging death loops, and authoring systemd unit files.
 
-### Network Tools — Diagnostics
+### Network Tools - Diagnostics
 ```bash
 # Connectivity checks
 ping -c 4 <host>
@@ -98,7 +98,7 @@ nslookup <domain>
 ```
 Useful for debugging Telegram API connectivity, MCP server reachability, and API endpoint health.
 
-### System Admin — General Operations
+### System Admin - General Operations
 Disk usage, process management, user management, package installation, and log rotation patterns for day-to-day Hermes system maintenance.
 
 ---

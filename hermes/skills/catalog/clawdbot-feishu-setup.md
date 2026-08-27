@@ -1,6 +1,6 @@
 ---
 title: "ClawDBot Feishu Suite Setup Guide"
-description: "Install and configure the ClawDBot Feishu Suite — 11 skills for the Lark/Feishu enterprise platform covering documents, drive, wiki, messaging, tasks"
+description: "Install and configure the ClawDBot Feishu Suite - 11 skills for the Lark/Feishu enterprise platform covering documents, drive, wiki, messaging, tasks"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdbot-feishu-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -17,7 +17,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-The ClawDBot Feishu Suite provides complete integration with Feishu (Lark) — ByteDance's enterprise collaboration platform used by 100M+ users across China and Southeast Asia. These 11 skills cover every Feishu API surface: documents, drive, wiki, messaging, task management, permissions, E2E testing, and release workflows.
+The ClawDBot Feishu Suite provides complete integration with Feishu (Lark) - ByteDance's enterprise collaboration platform used by 100M+ users across China and Southeast Asia. These 11 skills cover every Feishu API surface: documents, drive, wiki, messaging, task management, permissions, E2E testing, and release workflows.
 
 **Why Feishu matters for Hermes agents:** Feishu is the dominant enterprise platform in the Chinese market, equivalent to Slack + Google Workspace + Notion combined. For Hermes agents operating in international markets or serving Chinese enterprise clients, Feishu integration is essential infrastructure.
 
@@ -41,9 +41,9 @@ The ClawDBot Feishu Suite provides complete integration with Feishu (Lark) — B
 
 ## Prerequisites
 
-- **Feishu/Lark account** — Free at [feishu.cn](https://www.feishu.cn) or [larksuite.com](https://www.larksuite.com)
-- **Feishu Developer Console access** — Create an app at [open.feishu.cn](https://open.feishu.cn)
-- **App credentials** — App ID and App Secret from the Feishu Developer Console
+- **Feishu/Lark account** - Free at [feishu.cn](https://www.feishu.cn) or [larksuite.com](https://www.larksuite.com)
+- **Feishu Developer Console access** - Create an app at [open.feishu.cn](https://open.feishu.cn)
+- **App credentials** - App ID and App Secret from the Feishu Developer Console
 - Hermes Agent or ClawDBot installed
 - `npx` (Node.js) for skills.sh installation
 
@@ -61,16 +61,16 @@ The ClawDBot Feishu Suite provides complete integration with Feishu (Lark) — B
 ### Step 2: Configure Permissions
 
 In the Developer Console → Permissions, enable:
-- `doc:doc:readonly` — Read documents
-- `doc:doc` — Write documents
-- `drive:drive:readonly` — Read drive files
-- `drive:drive` — Manage drive files
-- `im:message` — Send/receive messages
-- `im:message:send_as_bot` — Send as bot
-- `task:task:readonly` — Read tasks
-- `task:task` — Manage tasks
-- `wiki:wiki:readonly` — Read wiki
-- `wiki:wiki` — Manage wiki
+- `doc:doc:readonly` - Read documents
+- `doc:doc` - Write documents
+- `drive:drive:readonly` - Read drive files
+- `drive:drive` - Manage drive files
+- `im:message` - Send/receive messages
+- `im:message:send_as_bot` - Send as bot
+- `task:task:readonly` - Read tasks
+- `task:task` - Manage tasks
+- `wiki:wiki:readonly` - Read wiki
+- `wiki:wiki` - Manage wiki
 
 ### Step 3: Install Skills
 
@@ -142,7 +142,7 @@ Knowledge base management. Create, organize, and search wiki spaces and articles
 **Hermes use:** Maintain team knowledge bases, auto-generate documentation from code, build searchable internal wikis.
 
 ### feishu-task (173 installs)
-Task management — create, assign, track, and complete tasks. Integrates with Feishu's built-in task system.
+Task management - create, assign, track, and complete tasks. Integrates with Feishu's built-in task system.
 
 **Hermes use:** Project management automation, sprint planning, issue tracking.
 
@@ -169,9 +169,9 @@ Set `FEISHU_BASE_URL` to match your deployment region.
 
 2. **Internal Documentation:** Use `feishu-wiki` to maintain a searchable knowledge base of agent workflows, integration guides, and troubleshooting runbooks.
 
-3. **Task Automation:** Use `feishu-task` for automated task creation from customer requests — new inquiry → task in Feishu → agent processes → status update.
+3. **Task Automation:** Use `feishu-task` for automated task creation from customer requests - new inquiry → task in Feishu → agent processes → status update.
 
-4. **Multi-Platform Sync:** Combine with Google Workspace skills for cross-platform content sync — write in Feishu, mirror to Google Docs.
+4. **Multi-Platform Sync:** Combine with Google Workspace skills for cross-platform content sync - write in Feishu, mirror to Google Docs.
 
 5. **Release Management:** Use `release` + `feishu-message` for automated release announcements to team channels.
 
@@ -202,4 +202,4 @@ Feishu uses tenant access tokens with 2-hour expiry. The skill automatically ref
 
 ---
 
-*This guide is part of the Hermes Skills Library, curated by [CorpusIQ](https://www.corpusiq.io) — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*This guide is part of the Hermes Skills Library, curated by [CorpusIQ](https://www.corpusiq.io) - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

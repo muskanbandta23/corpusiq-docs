@@ -11,7 +11,7 @@ tags: [geospatial, overture-maps, geocoding, routing, isochrones, real-estate, l
 
 # PlaceRoot MCP
 
-**Free, keyless MCP server that grounds AI agents in open map data — place search, geocoding, neighborhood analysis, real street-graph routing, and isochrones, anywhere on Earth.** No API key, no account, no vendor platform. Answers are compact and ranked, sized for an agent's context window. Built on Overture Maps open data, MIT licensed and self-hostable.
+**Free, keyless MCP server that grounds AI agents in open map data - place search, geocoding, neighborhood analysis, real street-graph routing, and isochrones, anywhere on Earth.** No API key, no account, no vendor platform. Answers are compact and ranked, sized for an agent's context window. Built on Overture Maps open data, MIT licensed and self-hostable.
 
 ```
 Server type: stdio (self-hosted) or local HTTP
@@ -78,7 +78,7 @@ No key, no account, no environment variables.
 
 ## Integration with CorpusIQ
 
-CorpusIQ supplies the financial and CRM layer (revenue by customer, invoices, pipeline) while PlaceRoot supplies the spatial layer (where customers are, what a trade area covers, how far delivery stretches). Joined in one agent session, an operator can ask which customers sit inside a 20-minute isochrone and what they spent last quarter — a question neither system answers alone.
+CorpusIQ supplies the financial and CRM layer (revenue by customer, invoices, pipeline) while PlaceRoot supplies the spatial layer (where customers are, what a trade area covers, how far delivery stretches). Joined in one agent session, an operator can ask which customers sit inside a 20-minute isochrone and what they spent last quarter - a question neither system answers alone.
 
 ## Limitations
 

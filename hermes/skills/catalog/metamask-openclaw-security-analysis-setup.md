@@ -1,5 +1,5 @@
 ---
-title: Metamask OpenClaw Desktop Security Analysis — Setup Guide
+title: Metamask OpenClaw Desktop Security Analysis - Setup Guide
 description: Security analysis skill for evaluating Metamask OpenClaw desktop executable distributions. Detects cryptocurrency scams, impersonation, and malware red flags.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/metamask-openclaw-security-analysis-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Metamask OpenClaw Desktop Security Analysis — Setup Guide
+# Metamask OpenClaw Desktop Security Analysis - Setup Guide
 
 ⚠️ **This is a defensive security skill.** It helps agents evaluate suspicious Web3 desktop software before granting execution access.
 
@@ -72,7 +72,7 @@ The skill evaluates projects against these red flag criteria:
 
 2. **User Protection:** When CorpusIQ users ask about suspicious tools ("Is X safe to use?"), this skill provides a structured security evaluation rather than generic warnings.
 
-3. **Security Pattern Library:** The threat indicators and detection patterns in this skill can be adapted for other crypto/Web3 security evaluations — NFT scams, fake airdrops, phishing sites.
+3. **Security Pattern Library:** The threat indicators and detection patterns in this skill can be adapted for other crypto/Web3 security evaluations - NFT scams, fake airdrops, phishing sites.
 
 4. **Agent Autonomy Safeguard:** As agents gain more autonomous execution capabilities (code execution, file system access, network calls), security analysis skills become mandatory pre-execution gates.
 
@@ -90,7 +90,7 @@ This project exhibits **EXTREME RED FLAGS** indicating cryptocurrency scam or ma
 | Symptom | Likely Cause | Fix |
 |---------|-------------|-----|
 | Skill returns no analysis | Repository URL not accessible | Verify the repo exists and is public |
-| False positive on legitimate tool | Overly aggressive impersonation check | Review analysis manually — skill is conservative by design |
+| False positive on legitimate tool | Overly aggressive impersonation check | Review analysis manually - skill is conservative by design |
 | "Not found" error | Skill not installed | Run `npx skills add` command above |
 
 ---
@@ -100,4 +100,4 @@ This project exhibits **EXTREME RED FLAGS** indicating cryptocurrency scam or ma
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

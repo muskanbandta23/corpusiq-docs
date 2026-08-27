@@ -1,6 +1,6 @@
 ---
-title: Math via Code — Hermes Agent Skill Setup Guide
-description: Install and configure tommulkins/hermes-skill-math-via-code — enforce all multi-step arithmetic through code execution to eliminate LLM math errors in financial analysis and data modeling
+title: Math via Code - Hermes Agent Skill Setup Guide
+description: Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors in financial analysis and data modeling
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/math-via-code-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Math via Code — Skill Setup
+# Math via Code - Skill Setup
 
 **Source:** [tommulkins/hermes-skill-math-via-code](https://github.com/tommulkins/hermes-skill-math-via-code)
 **Stars:** 0 ⭐ | **License:** MIT
@@ -19,7 +19,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-A Hermes Agent skill that enforces a hard rule: **all arithmetic with 3+ numbers goes through code execution.** No exceptions. Born from repeated errors in financial modeling — SDE calculations, P&L analysis, and facility rollups where a single transposed digit cascaded into incorrect deal evaluations.
+A Hermes Agent skill that enforces a hard rule: **all arithmetic with 3+ numbers goes through code execution.** No exceptions. Born from repeated errors in financial modeling - SDE calculations, P&L analysis, and facility rollups where a single transposed digit cascaded into incorrect deal evaluations.
 
 **Core philosophy:** LLM arithmetic accuracy degrades sharply past ~150k context tokens and is unreliable even below that. Code is always right; in-head math is not.
 
@@ -33,7 +33,7 @@ A Hermes Agent skill that enforces a hard rule: **all arithmetic with 3+ numbers
 
 ### When NOT to Use
 
-- Single-operation arithmetic on two numbers (`5 * 3`, `100 - 20`) — these are safe in-head
+- Single-operation arithmetic on two numbers (`5 * 3`, `100 - 20`) - these are safe in-head
 - Pure text manipulation or formatting tasks
 
 ---
@@ -71,9 +71,9 @@ Numbers provided? → Count them:
 
 ### Procedure
 
-1. **Determine inputs** — Capture numbers as variables from conversation, files, or APIs. Never re-type from memory.
-2. **Write the calculation** — Use `execute_code` for in-memory math; use `terminal` with project venv for packages (openpyxl, pandas).
-3. **Self-check** — Include assertions or cross-checks against source data.
+1. **Determine inputs** - Capture numbers as variables from conversation, files, or APIs. Never re-type from memory.
+2. **Write the calculation** - Use `execute_code` for in-memory math; use `terminal` with project venv for packages (openpyxl, pandas).
+3. **Self-check** - Include assertions or cross-checks against source data.
 
 ### Example: SDE Calculation
 
@@ -123,7 +123,7 @@ print(f"SDE: ${sde:,.2f}")
 | Skill doesn't trigger | Calculation is simple (2 numbers) | Only 3+ number operations trigger the skill |
 | Excel values wrong | `data_only=False` returns formulas | Use `openpyxl.load_workbook(file, data_only=True)` |
 | Whitespace breaks numbers | Cells have trailing spaces | `.strip()` all cell values before conversion |
-| Assertion fails | Source data inconsistent | Report the mismatch — don't silently proceed |
+| Assertion fails | Source data inconsistent | Report the mismatch - don't silently proceed |
 
 ---
 

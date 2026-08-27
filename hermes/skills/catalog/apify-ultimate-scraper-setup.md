@@ -1,5 +1,5 @@
 ---
-title: Apify Ultimate Scraper — Universal Web Scraping for 15+ Platforms
+title: Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms
 description: AI-powered web scraper covering Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Reddit, Airbnb, Yelp, and more. 13.6K+ installs. Lead generation, brand monitoring, competitor analysis.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Apify Ultimate Scraper — Setup Guide
+# Apify Ultimate Scraper - Setup Guide
 
 **Source:** [apify/agent-skills](https://skills.sh/apify/agent-skills/apify-ultimate-scraper) (13,600+ installs)
 **Category:** Web Extraction / Data
@@ -124,10 +124,10 @@ apify actor run apify/reddit-scraper \
 
 ## Tips
 
-- Always use `--json` — stable across CLI versions
+- Always use `--json` - stable across CLI versions
 - The `2>/dev/null` redirect is critical for JSON parsing
 - Check `references/actor-index.md` in the skill for the full Actor catalog
-- Each platform has its own specific Actor — search Apify Store for the best one
+- Each platform has its own specific Actor - search Apify Store for the best one
 
 ---
 
@@ -137,13 +137,13 @@ apify actor run apify/reddit-scraper \
 |---|---|
 | Auth errors | Run `apify login` or set `APIFY_TOKEN` env var |
 | Rate limiting | Apify handles proxies/rotations automatically |
-| Empty results | Check input parameters — platform-specific schemas matter |
+| Empty results | Check input parameters - platform-specific schemas matter |
 | JSON parse errors | Ensure `2>/dev/null` to strip stderr progress messages |
 
 ---
 
 ## See Also
 
-- Apify Agent Skills Setup — Core Apify Agent Skills setup
-- Firecrawl Agent Setup — Alternative structured extraction
-- [Apify Store](https://apify.com/store) — Full Actor catalog
+- Apify Agent Skills Setup - Core Apify Agent Skills setup
+- Firecrawl Agent Setup - Alternative structured extraction
+- [Apify Store](https://apify.com/store) - Full Actor catalog

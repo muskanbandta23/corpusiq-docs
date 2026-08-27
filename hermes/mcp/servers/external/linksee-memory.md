@@ -1,6 +1,6 @@
 ---
-title: "Linksee Memory MCP — 6-Layer Cross-Agent Memory with"
-description: "Linksee Memory MCP server — local-first cross-agent memory with 6-layer structure, Ebbinghaus-style forgetting curve, and drift detection. Catches when code"
+title: "Linksee Memory MCP - 6-Layer Cross-Agent Memory with"
+description: "Linksee Memory MCP server - local-first cross-agent memory with 6-layer structure, Ebbinghaus-style forgetting curve, and drift detection. Catches when code"
 category: mcp
 tags: [mcp-server, memory, knowledge-management, cross-agent, local-first]
 last_updated: 2026-07-19
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Linksee Memory MCP Server
 
-Linksee Memory is a local-first cross-agent memory server that gives multiple AI agents shared persistent memory with a 6-layer structure. It implements an Ebbinghaus-style forgetting curve — memories decay over time unless reinforced — and drift detection that catches when your codebase or decisions diverge from what was previously agreed.
+Linksee Memory is a local-first cross-agent memory server that gives multiple AI agents shared persistent memory with a 6-layer structure. It implements an Ebbinghaus-style forgetting curve - memories decay over time unless reinforced - and drift detection that catches when your codebase or decisions diverge from what was previously agreed.
 
 **Source:** awesome-mcp-servers PR #9079 (discovered July 19, 2026)
 **Category:** Knowledge & Memory
@@ -21,7 +21,7 @@ Linksee Memory is a local-first cross-agent memory server that gives multiple AI
 
 ## Why This Matters
 
-The problem with most memory solutions is they're either too rigid (exact-match retrieval) or too shallow (single-layer storage). Linksee's 6-layer model mirrors how human teams actually remember things: some facts are hot (active sprint decisions), some warm (project conventions), some cold (historical rationale). The forgetting curve ensures stale information doesn't pollute retrieval — a memory that's never accessed naturally fades, just like in a real team.
+The problem with most memory solutions is they're either too rigid (exact-match retrieval) or too shallow (single-layer storage). Linksee's 6-layer model mirrors how human teams actually remember things: some facts are hot (active sprint decisions), some warm (project conventions), some cold (historical rationale). The forgetting curve ensures stale information doesn't pollute retrieval - a memory that's never accessed naturally fades, just like in a real team.
 
 The drift detection is the killer feature. It monitors whether your codebase still aligns with past architectural decisions recorded in memory. If it detects drift, it surfaces the original decision context so your agent can reconcile.
 

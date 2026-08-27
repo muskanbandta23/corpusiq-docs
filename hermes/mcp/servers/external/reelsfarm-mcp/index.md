@@ -1,6 +1,6 @@
 ---
 title: "ReelsFarm MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: AI short-form social content operations — avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.
+description: AI short-form social content operations - avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.
 category: Content
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [social-media, ugc-video, avatars, content-automation, scheduling, publish
 
 # ReelsFarm MCP
 
-**Remote MCP server (Streamable HTTP, OAuth or API key)** — ReelsFarm gives an agent the full short-form content loop: generate AI avatars, product scenes, UGC videos, hooks, and slideshows, then schedule and publish across connected social accounts — with every mutation behind a `confirm_action` approval gate in Review mode. Built by ReelsFarm (reelsfarm.com).
+**Remote MCP server (Streamable HTTP, OAuth or API key)** - ReelsFarm gives an agent the full short-form content loop: generate AI avatars, product scenes, UGC videos, hooks, and slideshows, then schedule and publish across connected social accounts - with every mutation behind a `confirm_action` approval gate in Review mode. Built by ReelsFarm (reelsfarm.com).
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,7 +25,7 @@ Built by: ReelsFarm
 
 ## Why This Matters for Operators
 
-Short-form video is the highest-leverage channel most operators underuse, because production and posting both bottleneck on humans. ReelsFarm moves the whole loop into MCP: the agent generates the creative, stages the post, and — critically — does not publish without approval.
+Short-form video is the highest-leverage channel most operators underuse, because production and posting both bottleneck on humans. ReelsFarm moves the whole loop into MCP: the agent generates the creative, stages the post, and - critically - does not publish without approval.
 
 **The approval gate is the differentiator**: prepare tools return a `confirmationId` and the agent must call `confirm_action` after human approval in Review mode. Idempotency keys make retries safe. This is the exact pattern operators need before handing an agent the keys to their brand's social presence: the agent proposes, the human confirms, the audit trail records.
 
@@ -65,7 +65,7 @@ OAuth for browser-authorized clients; API keys (`rfmcp_...`) for CLI and agent c
 }
 ```
 
-First-check prompt the vendor recommends after connecting: inspect the account, list connected publishing accounts, and list scheduled posts — before creating or publishing anything.
+First-check prompt the vendor recommends after connecting: inspect the account, list connected publishing accounts, and list scheduled posts - before creating or publishing anything.
 
 ## Business Relevance
 
@@ -76,14 +76,14 @@ First-check prompt the vendor recommends after connecting: inspect the account, 
 
 ## Integration with CorpusIQ
 
-ReelsFarm complements the CorpusIQ social layer end to end. The agent generates and stages content in ReelsFarm's Review mode, the human approves, and Postiz handles the channels CorpusIQ already syndicates — with the TikTok and YouTube connectors measuring how the published creative actually performed. The approval-gate design matches CorpusIQ's own pre-flight doctrine, so a ReelsFarm workflow slots into the existing governance gates rather than bypassing them.
+ReelsFarm complements the CorpusIQ social layer end to end. The agent generates and stages content in ReelsFarm's Review mode, the human approves, and Postiz handles the channels CorpusIQ already syndicates - with the TikTok and YouTube connectors measuring how the published creative actually performed. The approval-gate design matches CorpusIQ's own pre-flight doctrine, so a ReelsFarm workflow slots into the existing governance gates rather than bypassing them.
 
 ## Limitations
 
-- Brand new — no track record yet; listing appeared August 17, 2026.
-- OAuth or single-show API keys — key rotation requires re-creating keys in the account tab.
+- Brand new - no track record yet; listing appeared August 17, 2026.
+- OAuth or single-show API keys - key rotation requires re-creating keys in the account tab.
 - Generation is credit-based; per-generation pricing is only visible through the account's pricing tool.
-- In Creator or Autopilot modes some prepare tools may execute immediately — the approval gate is strongest in Review mode.
+- In Creator or Autopilot modes some prepare tools may execute immediately - the approval gate is strongest in Review mode.
 - Platform coverage depends on the accounts you connect; the listing does not enumerate supported networks.
 
 ## See Also

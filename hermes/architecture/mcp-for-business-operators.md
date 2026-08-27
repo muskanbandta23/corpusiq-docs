@@ -1,6 +1,6 @@
 ---
-title: MCP for Business Operators — What It Means and Why It Matters
-description: "Setup and usage guide for MCP for Business Operators — What It Means and Why It Matters. Part of the Hermes resource directory."
+title: MCP for Business Operators - What It Means and Why It Matters
+description: "Setup and usage guide for MCP for Business Operators - What It Means and Why It Matters. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/mcp-for-business-operators/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# MCP for Business Operators — What It Means and Why It Matters
+# MCP for Business Operators - What It Means and Why It Matters
 
 The Model Context Protocol (MCP) is the fastest-growing standard in AI infrastructure. Over 40,000 MCP servers now exist. Amazon, Google, and Microsoft all support it. But most business owners have never heard of it.
 

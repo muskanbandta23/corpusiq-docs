@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent — Core Official Skill Setup Guide
+title: Hermes Agent - Core Official Skill Setup Guide
 description: Official Nous Research Hermes Agent skill. CLI invocation, subagent delegation, persistent memory, self-improving skills, MCP integration, browser automation. 400+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Agent — Core Skill Setup Guide
+# Hermes Agent - Core Skill Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (Official)
 **Skill:** `hermes-agent` · **Installs:** 400+ · **Category:** Core / Agent Framework
@@ -73,14 +73,14 @@ hermes delegate --parallel \
   "Review HN front page for relevant discussions"
 ```
 
-Subagents get their own conversation, terminal session, and toolset. Results flow back as summaries — intermediate tool output never floods context.
+Subagents get their own conversation, terminal session, and toolset. Results flow back as summaries - intermediate tool output never floods context.
 
 ### 3. Persistent Memory
 
 Two-tier memory architecture:
 
-- **FTS5 full-text search** — fast keyword/boolean retrieval across all past sessions
-- **LLM summaries** — semantic compression of key facts, preferences, and patterns
+- **FTS5 full-text search** - fast keyword/boolean retrieval across all past sessions
+- **LLM summaries** - semantic compression of key facts, preferences, and patterns
 
 ```bash
 # Search past sessions
@@ -179,10 +179,10 @@ hermes run --skill corpusiq-daily-html-reporting "Generate daily report"
 
 | Task Type | Estimated Cost |
 |-----------|:--------------:|
-| Simple Q&A (single turn) | $0.001–0.01 |
-| Research task (multi-turn) | $0.02–0.10 |
-| Complex task with subagents | $0.05–0.50 |
-| Full daily operations sweep | $0.10–1.00 |
+| Simple Q&A (single turn) | $0.001-0.01 |
+| Research task (multi-turn) | $0.02-0.10 |
+| Complex task with subagents | $0.05-0.50 |
+| Full daily operations sweep | $0.10-1.00 |
 
 Costs vary by model selection. Sonnet is the cost-efficient default. Opus reserved for deep research and complex architecture.
 
@@ -190,7 +190,7 @@ Costs vary by model selection. Sonnet is the cost-efficient default. Opus reserv
 
 ## Related Skills
 
-- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) — Writing SKILL.md files
-- [dandacompany/hermes](/hermes/skills/catalog/) — Self-hosting and operations guide
-- [wihy/hermes-agent-skill](/hermes/skills/catalog/) — Portable CLI wrapper v2.0
-- [Hermes Documentation](https://hermes-agent.nousresearch.com/docs) — Official docs
+- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) - Writing SKILL.md files
+- [dandacompany/hermes](/hermes/skills/catalog/) - Self-hosting and operations guide
+- [wihy/hermes-agent-skill](/hermes/skills/catalog/) - Portable CLI wrapper v2.0
+- [Hermes Documentation](https://hermes-agent.nousresearch.com/docs) - Official docs

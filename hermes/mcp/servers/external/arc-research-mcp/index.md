@@ -1,6 +1,6 @@
 ---
 title: "Arc Research MCP - CorpusIQ Docs"
-description: Commodities research over MCP — a knowledge graph, CFTC positioning, natural gas and weather data, futures quotes and private research journals.
+description: Commodities research over MCP - a knowledge graph, CFTC positioning, natural gas and weather data, futures quotes and private research journals.
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [commodities, research, knowledge-graph, futures, positioning, market-data
 
 # Arc Research MCP
 
-**Remote MCP server (Streamable HTTP, bearer token)** — Arc Research gives an agent live access to a commodities research platform: a knowledge graph over concepts and themes, CFTC COT positioning with week-over-week flows and oscillators, natural gas storage and weather, futures quotes, and your private stories and journals. Tools are thin adapters over the same services that power the web app. Registry name: `com.getarcresearch/arc-research`.
+**Remote MCP server (Streamable HTTP, bearer token)** - Arc Research gives an agent live access to a commodities research platform: a knowledge graph over concepts and themes, CFTC COT positioning with week-over-week flows and oscillators, natural gas storage and weather, futures quotes, and your private stories and journals. Tools are thin adapters over the same services that power the web app. Registry name: `com.getarcresearch/arc-research`.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Arc Research (getarcresearch.com)
 
 ## Why This Matters for Operators
 
-Commodities research has been a copy-paste job: charts, CFTC snapshots, and weather forecasts hand-carried into the prompt. Arc Research makes the underlying platform's data MCP-addressable so the agent reads it directly — and keeps the researcher's own theses in the same surface.
+Commodities research has been a copy-paste job: charts, CFTC snapshots, and weather forecasts hand-carried into the prompt. Arc Research makes the underlying platform's data MCP-addressable so the agent reads it directly - and keeps the researcher's own theses in the same surface.
 
-**The knowledge graph is the differentiator**: search concepts, inspect neighborhoods, and explain paths between themes — so an agent can trace how a positioning shift connects to a weather event to a price move, instead of holding three disconnected datasets. Private stories and journals stay scoped to your account; only administrator-owned stories are written into the shared graph.
+**The knowledge graph is the differentiator**: search concepts, inspect neighborhoods, and explain paths between themes - so an agent can trace how a positioning shift connects to a weather event to a price move, instead of holding three disconnected datasets. Private stories and journals stay scoped to your account; only administrator-owned stories are written into the shared graph.
 
 ## Tools & Capabilities
 
@@ -72,13 +72,13 @@ claude mcp add arc-research --transport http https://www.getarcresearch.com/mcp 
 
 ## Integration with CorpusIQ
 
-Arc Research extends the financial-data layer CorpusIQ already connects. An operator running the numbers in QuickBooks and Stripe can have the agent pull positioning and weather context from Arc Research when a commodity-linked cost line moves, tying macro cause to ledger effect. The journal tooling pairs with the research intelligence framework — thesis notes stay account-scoped while the shared knowledge graph supplies the market context, keeping proprietary thinking and public data cleanly separated.
+Arc Research extends the financial-data layer CorpusIQ already connects. An operator running the numbers in QuickBooks and Stripe can have the agent pull positioning and weather context from Arc Research when a commodity-linked cost line moves, tying macro cause to ledger effect. The journal tooling pairs with the research intelligence framework - thesis notes stay account-scoped while the shared knowledge graph supplies the market context, keeping proprietary thinking and public data cleanly separated.
 
 ## Limitations
 
-- Brand new — no track record yet; listing appeared August 17, 2026.
-- Requires an Arc Research Starter subscription — token access is not standalone.
-- Commodities only — no equities or rates coverage.
+- Brand new - no track record yet; listing appeared August 17, 2026.
+- Requires an Arc Research Starter subscription - token access is not standalone.
+- Commodities only - no equities or rates coverage.
 - Shared research is available to other Research subscribers; only journals and uploads are private.
 - Tool-level schema is thin in the docs; verify against the endpoint after connecting.
 

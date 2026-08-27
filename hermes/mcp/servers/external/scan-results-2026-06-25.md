@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — 2026-06-25"
+title: "MCP Server Scan Results - 2026-06-25"
 description: "Automated MCP server discovery scan results for June 25, 2026. Includes newly discovered servers, status checks on existing integrations, and availability"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-06-25/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Directory Scan — June 25, 2026
+# MCP Server Directory Scan - June 25, 2026
 ## Comprehensive scan of mcp.so and mcpservers.org for new business-relevant MCP servers
 
 ---
@@ -154,7 +154,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
    - Website: https://railway.com
    - Business relevance: Infrastructure-as-code for operators
 
-2. **Voipstudio MCP** — Official
+2. **Voipstudio MCP** - Official
    - Category: Communication
    - Secure access to VoIPstudio account: recordings, call detail records, live calls, voicemails. Query activity, analyze patterns, identify agent performance issues, generate QA reports
    - URL: https://voipstudio.com/docs/administrator/aiartificialintelligence/voipstudiomcpserver/
@@ -168,7 +168,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 4. **Weavz**
    - Category: Development
-   - Governed app access for AI agents — hosted runtime exposing 1,000+ apps (12,000+ tools) through Code Mode MCP, with Human Gates approvals, scoped per-user credentials, sandbox, files, and durable state
+   - Governed app access for AI agents - hosted runtime exposing 1,000+ apps (12,000+ tools) through Code Mode MCP, with Human Gates approvals, scoped per-user credentials, sandbox, files, and durable state
    - URL: https://weavz.io
    - Business relevance: Enterprise-grade AI governance platform
 
@@ -194,7 +194,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
    - Category: Marketing
    - AI visibility audits: GEO/AEO, llms.txt, AI crawler readiness, robots, sitemap, canonical, metadata, noindex, JSON-LD
    - URL: https://github.com/maxaeo/maxaeo-ai-visibility-mcp
-   - Business relevance: SEO for AI search engines — critical for modern marketing
+   - Business relevance: SEO for AI search engines - critical for modern marketing
 
 ### MCPSERVERS.ORG Featured Business Servers
 
@@ -202,7 +202,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 9. **Alpha Vantage MCP Server** ⭐ Sponsor
    - Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators
    - URL: https://mcp.alphavantage.co
-   - Business relevance: Financial market data — already in our catalog
+   - Business relevance: Financial market data - already in our catalog
 
 #### MARKETING / ECOMMERCE
 10. **Zernio MCP** ⭐ Official
@@ -239,7 +239,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 #### DEVELOPMENT / INFRASTRUCTURE
 16. **Chipp MCP** ⭐ Official
-    - Build, deploy, and monetize AI agents — no engineering team required
+    - Build, deploy, and monetize AI agents - no engineering team required
     - URL: https://chipp.ai/docs/guides/mcp.md
     - Business relevance: No-code AI agent platform
 
@@ -255,10 +255,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-## MCPSERVERS.ORG Category Pages — Notable Business Servers Found
+## MCPSERVERS.ORG Category Pages - Notable Business Servers Found
 
 ### Finance Category (from /category/finance)
-- **Polymarket Scan MCP**: Live prediction market data — whale trades, odds, profiles
+- **Polymarket Scan MCP**: Live prediction market data - whale trades, odds, profiles
 - **ifthenpay Payments MCP**: Generate payments, retrieve transaction history (Portuguese gateway)
 - **GoodVat MCP Server**: Global tax compliance across 200+ jurisdictions (already in catalog)
 - **tossinvest-mcp**: Korean stock trading via Toss Securities (already in catalog)
@@ -267,8 +267,8 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **UnusualWhales API**: Options flow, dark pool, congressional trading data
 - **AlphaAI**: AI-enriched financial news with relevance scoring (already in catalog)
 - **Personal Finance MCP Server**: Compound interest, amortization, retirement planning
-- **Lovie — Company Formation MCP**: Company formation, banking, invoicing from AI agents
-- **Flatland**: Pay-per-call x402 data APIs — token rug-check, on-chain reads
+- **Lovie - Company Formation MCP**: Company formation, banking, invoicing from AI agents
+- **Flatland**: Pay-per-call x402 data APIs - token rug-check, on-chain reads
 - **Gainium**: Crypto trading bot management from AI assistants
 - **Clearance Agent Income**: Agent-to-agent knowledge exchange for trading intelligence
 - **Agentberg**: Autonomous x402 payments across 29 chains
@@ -287,7 +287,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **PostWire**: Post to TikTok, Instagram, YouTube, X, LinkedIn, Bluesky, Telegram, Mastodon & Discord
 - **AppGoblin ASO**: App Store stats, installs, keywords, revenue
 - **PPXC Find Customers**: Turn comments into ranked customer leads
-- **SE Ranking MCP**: 180+ SEO tools — keyword research, backlinks, domain analysis
+- **SE Ranking MCP**: 180+ SEO tools - keyword research, backlinks, domain analysis
 - **Google Ads - AdPlug**: Connect Google Ads to AI
 - **OpenAI Ads MCP Server**: OpenAI Advertiser API integration
 - **Adsumo**: AI ad creative studio
@@ -312,40 +312,40 @@ Our catalog at `/corpusiq-docs/docs/hermes/mcp/servers/external/` (updated June 
 ### NEW SERVERS NOT IN OUR CATALOG (High Priority)
 
 From mcpservers.org:
-1. **Voipstudio MCP** — Call center analytics (Communication)
-2. **Weavz** — Enterprise AI governance with 12,000+ tools (Development)
-3. **MaxAEO AI Visibility MCP** — AI search engine SEO optimization (Marketing)
-4. **Native Soil** — Cross-model AI session portability (Memory)
-5. **Zernio MCP** — Social media scheduling API (Marketing)
-6. **Webotee Amazon MCP** — Amazon seller intelligence (Ecommerce)
-7. **Chipp MCP** — No-code AI agent platform (Development)
-8. **Neo** — AI engineering task automation (Development)
-9. **Capafy** — Agent skill monetization platform (Productivity)
+1. **Voipstudio MCP** - Call center analytics (Communication)
+2. **Weavz** - Enterprise AI governance with 12,000+ tools (Development)
+3. **MaxAEO AI Visibility MCP** - AI search engine SEO optimization (Marketing)
+4. **Native Soil** - Cross-model AI session portability (Memory)
+5. **Zernio MCP** - Social media scheduling API (Marketing)
+6. **Webotee Amazon MCP** - Amazon seller intelligence (Ecommerce)
+7. **Chipp MCP** - No-code AI agent platform (Development)
+8. **Neo** - AI engineering task automation (Development)
+9. **Capafy** - Agent skill monetization platform (Productivity)
 
 From mcp.so:
-10. **serper-mcp-server** — Google Search via Serper API
-11. **Mailtrap Email API** — Transactional email from AI agents
-12. **Bucket** — Feature flag management from IDE
-13. **agentql-mcp** — Structured web data extraction
-14. **perplexity** — Perplexity API web search connector
-15. **jina-mcp-tools** — Jina AI search foundation APIs
-16. **zhipu-web-search** — Multi-engine LLM search
-17. **MiniMax-MCP** — TTS, image & video generation
-18. **edgeone-pages-mcp** — Quick HTML deployments
-19. **302_sandbox_mcp** — Remote code execution sandbox
+10. **serper-mcp-server** - Google Search via Serper API
+11. **Mailtrap Email API** - Transactional email from AI agents
+12. **Bucket** - Feature flag management from IDE
+13. **agentql-mcp** - Structured web data extraction
+14. **perplexity** - Perplexity API web search connector
+15. **jina-mcp-tools** - Jina AI search foundation APIs
+16. **zhipu-web-search** - Multi-engine LLM search
+17. **MiniMax-MCP** - TTS, image & video generation
+18. **edgeone-pages-mcp** - Quick HTML deployments
+19. **302_sandbox_mcp** - Remote code execution sandbox
 
 From mcpservers.org category pages (notable):
-20. **Polymarket Scan MCP** — Prediction market data
-21. **UnusualWhales API** — Options flow & congressional trading
-22. **Finance Toolkit** — 200+ computed financial metrics
-23. **PostWire** — Multi-platform social posting (10+ platforms)
-24. **SE Ranking MCP** — 180+ SEO tools
-25. **SEOcrawl AI** — GSC + GA4 live data
-26. **DataAssist-IO** — Natural language data querying
-27. **ServiceNow MCP** — 65-tool ITSM integration
-28. **Appflowy MCP** — Open-source workspace
-29. **Influee MCP** — Influencer marketing campaigns
-30. **PDFMakerAPI** — Document generation from natural language
+20. **Polymarket Scan MCP** - Prediction market data
+21. **UnusualWhales API** - Options flow & congressional trading
+22. **Finance Toolkit** - 200+ computed financial metrics
+23. **PostWire** - Multi-platform social posting (10+ platforms)
+24. **SE Ranking MCP** - 180+ SEO tools
+25. **SEOcrawl AI** - GSC + GA4 live data
+26. **DataAssist-IO** - Natural language data querying
+27. **ServiceNow MCP** - 65-tool ITSM integration
+28. **Appflowy MCP** - Open-source workspace
+29. **Influee MCP** - Influencer marketing campaigns
+30. **PDFMakerAPI** - Document generation from natural language
 
 ---
 
@@ -360,7 +360,7 @@ From mcpservers.org category pages (notable):
 - **AI-native marketing tools**: SEO for AI search engines (GEO/AEO), multi-platform social posting
 - **Enterprise governance**: Weavz (12,000+ apps with Human Gates), compliance tools
 - **Financial data explosion**: Prediction markets, options flow, crypto trading, multi-chain
-- **No-code AI platforms**: Chipp, Capafy — build and monetize agents without engineering
+- **No-code AI platforms**: Chipp, Capafy - build and monetize agents without engineering
 - **Communication infrastructure**: VoIP analytics, email automation, meeting intelligence
 
 ---

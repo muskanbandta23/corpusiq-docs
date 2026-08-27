@@ -1,5 +1,5 @@
 ---
-title: Apify Agent Skills — Full Setup Guide for Hermes Agents
+title: Apify Agent Skills - Full Setup Guide for Hermes Agents
 description: Install and use Apify's production-grade web scraping skills. 5 skills, 30K+ pre-built Actors, MCP-compatible. 2.2K+ GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-agent-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Apify Agent Skills — Setup Guide
+# Apify Agent Skills - Setup Guide
 
 **Source:** [apify/agent-skills](https://github.com/apify/agent-skills) (2,232⭐)
 **Category:** Web Scraping / Automation
 **Language:** Python
 
-Production-grade web scraping and automation skills for AI coding agents. Drop these into any agent and get expert access to the Apify platform — scrape any site, build new Actors, Actorize existing code, generate output schemas, and integrate the Apify API. 30,000+ pre-built Actors covering social media, search, maps, real estate, reviews, and more.
+Production-grade web scraping and automation skills for AI coding agents. Drop these into any agent and get expert access to the Apify platform - scrape any site, build new Actors, Actorize existing code, generate output schemas, and integrate the Apify API. 30,000+ pre-built Actors covering social media, search, maps, real estate, reviews, and more.
 
 ---
 
@@ -31,10 +31,10 @@ npx skills add apify/agent-skills
 
 | Requirement | Details |
 |---|---|
-| **Apify account** | [console.apify.com](https://console.apify.com) — free tier available ($5/month credit) |
+| **Apify account** | [console.apify.com](https://console.apify.com) - free tier available ($5/month credit) |
 | **Apify API token** | From Apify Console → Settings → Integrations → API token |
 | **MCP server (optional)** | `npx @apify/mcp` for MCP-native tool access |
-| **Hermes Agent** | Any version — skills load as instructions; MCP integration available |
+| **Hermes Agent** | Any version - skills load as instructions; MCP integration available |
 
 Set environment variables:
 
@@ -98,7 +98,7 @@ curl -s "https://api.apify.com/v2/users/me?token=$APIFY_TOKEN" | python3 -m json
 # Verify skill installed
 npx skills list | grep apify
 
-# Quick test — list available Actors
+# Quick test - list available Actors
 curl -s "https://api.apify.com/v2/acts?token=$APIFY_TOKEN&limit=5" | python3 -c "import json,sys; d=json.load(sys.stdin); print([a['name'] for a in d.get('data',{}).get('items',[])])"
 ```
 

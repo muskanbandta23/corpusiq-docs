@@ -1,5 +1,5 @@
 ---
-title: "TranscriptFetch MCP — YouTube Transcript Search &"
+title: "TranscriptFetch MCP - YouTube Transcript Search &"
 description: "Fetch YouTube transcripts, search videos, browse channels, and access playlists from any MCP client. Content intelligence for AI agents."
 category: mcp
 tags: [mcp-server, youtube, transcripts, content, search, media-analysis]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # TranscriptFetch MCP Server ★ New (July 16)
 
-Model Context Protocol (MCP) server for TranscriptFetch: fetch YouTube transcripts, search videos, browse channels, and access playlists — all from any MCP-compatible AI client.
+Model Context Protocol (MCP) server for TranscriptFetch: fetch YouTube transcripts, search videos, browse channels, and access playlists - all from any MCP-compatible AI client.
 
 **Source:** mcp.so (submitted July 16, 2026)
 **Category:** Developer Tools
@@ -30,7 +30,7 @@ Model Context Protocol (MCP) server for TranscriptFetch: fetch YouTube transcrip
 
 Content intelligence for operators who leverage YouTube for research, competitor analysis, or content strategy. Use cases:
 - **Competitor content analysis:** Pull and analyze competitor video transcripts to understand their messaging, product positioning, and content strategy
-- **Market research:** Search YouTube for industry trends, expert interviews, and conference talks — then analyze transcripts for insights
+- **Market research:** Search YouTube for industry trends, expert interviews, and conference talks - then analyze transcripts for insights
 - **Content strategy:** Analyze top-performing videos in your niche to inform your own content approach
 - **Learning & development:** Extract knowledge from educational content, tutorials, and thought leadership
 - **Brand monitoring:** Track mentions of your brand, products, or executives across YouTube
@@ -43,7 +43,7 @@ Pair with CorpusIQ's YouTube analytics connector for complete YouTube intelligen
 
 ## Limitations
 
-- YouTube only — does not cover Vimeo, TikTok, or other video platforms
+- YouTube only - does not cover Vimeo, TikTok, or other video platforms
 - Transcript availability depends on video settings (auto-captions must be enabled)
 - Language coverage depends on YouTube's auto-transcription quality
 - Rate limits may apply for high-volume transcript fetching

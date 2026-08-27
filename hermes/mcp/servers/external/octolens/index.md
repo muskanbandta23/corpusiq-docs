@@ -1,5 +1,5 @@
 ---
-title: "Octolens MCP — Integration Guide"
+title: "Octolens MCP - Integration Guide"
 description: "Connect AI agents to Octolens for brand monitoring across 15+ platforms. AI-filtered mentions, sentiment scoring, and social listening directly in your AI"
 category: mcp
 tags: [mcp-server, social-listening, brand-monitoring, marketing, analytics]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Octolens MCP — Integration Guide
+# Octolens MCP - Integration Guide
 
 **Source:** mcp.so listing (remote MCP server)  
 **Author:** Octolens  
@@ -21,7 +21,7 @@ robots: "index,follow"
 
 ## What It Does
 
-Octolens is one API for every brand mention across the internet — and this MCP server puts it directly into your AI agent's hands.
+Octolens is one API for every brand mention across the internet - and this MCP server puts it directly into your AI agent's hands.
 
 Coverage spans **15+ platforms:** Reddit, X (Twitter), LinkedIn, Hacker News, YouTube, Bluesky, GitHub, Stack Overflow, dev communities, podcasts, newsletters, news, Product Hunt, Medium, and TikTok.
 
@@ -31,7 +31,7 @@ The MCP server enables:
 - **Support agents** that know what users complain about in real time
 - **Research agents** with real voice-of-customer data for product decisions
 - **Marketing agents** that pull social proof on demand without manual searching
-- **SQL queries** over your entire mention history — no dashboard, no CSV export
+- **SQL queries** over your entire mention history - no dashboard, no CSV export
 
 ## Setup
 
@@ -71,7 +71,7 @@ On first connection, your MCP client opens a browser window for OAuth authorizat
 - **Customer support triage:** "Are there any unresolved complaints about our API on Stack Overflow?"
 - **Content sourcing:** "Pull the top 5 positive testimonials from LinkedIn for our case studies page"
 - **Trend detection:** "What topics are trending in our community across platforms?"
-- **SQL-powered analytics:** Run complex queries over months of mention data — filter by platform, sentiment, date range, keyword
+- **SQL-powered analytics:** Run complex queries over months of mention data - filter by platform, sentiment, date range, keyword
 
 ## Operator Relevance ★★★
 
@@ -84,5 +84,5 @@ For support operators: issue detection, sentiment trends, platform-specific moni
 ## See Also
 
 - External MCP Server Catalog(/hermes/mcp/servers/external/)
-- Competitor Tracker MCP(/hermes/mcp/servers/external/competitor-tracker-mcp/) — competitor website change monitoring
-- AI Visibility Analytics MCP(/hermes/mcp/servers/external/ai-visibility-analytics/) — brand presence tracking across AI providers
+- Competitor Tracker MCP(/hermes/mcp/servers/external/competitor-tracker-mcp/) - competitor website change monitoring
+- AI Visibility Analytics MCP(/hermes/mcp/servers/external/ai-visibility-analytics/) - brand presence tracking across AI providers

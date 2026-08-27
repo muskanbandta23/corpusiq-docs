@@ -1,20 +1,20 @@
 ---
-title: Claude Video Watch Skill — Agent Video Input Setup
-description: "bradautomates/claude-video — watch (10.1K installs): gives agents a video input via captions, frame extraction, and timestamped transcripts (native captions first, Whisper fallback). Snyk audit: Fail."
+title: Claude Video Watch Skill - Agent Video Input Setup
+description: "bradautomates/claude-video - watch (10.1K installs): gives agents a video input via captions, frame extraction, and timestamped transcripts (native captions first, Whisper fallback). Snyk audit: Fail."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-video-watch-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "transcription", "multimodal"]
 ---
 
-# Claude Video Watch Skill — Setup Guide
+# Claude Video Watch Skill - Setup Guide
 
 **Source:** [bradautomates/claude-video](https://skills.sh/bradautomates/claude-video)
 **GitHub:** [bradautomates/claude-video](https://github.com/bradautomates/claude-video) (15.4K stars)
 **Skills:** 1 skill (`watch`) · 10.1K installs
 **Category:** Video Understanding
 **First Seen:** Apr 29, 2026 (catalogued August 15, 2026 midday sweep)
-**Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub and Socket pass; Snyk Fail on the skill page — named in Limitations)
+**Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub and Socket pass; Snyk Fail on the skill page - named in Limitations)
 
 The watch skill gives an agent a video input. A bundled Python script fetches captions first, optionally downloads the video, extracts frames as JPEGs (scene-aware, or fast keyframes at efficient detail), builds a timestamped transcript (native captions first, Whisper API as fallback), and prints frame paths. The agent then reads frames and combines them with the transcript to answer questions about the video.
 
@@ -60,7 +60,7 @@ npx skills add bradautomates/claude-video --skill watch
 
 ## Limitations / Verification
 
-- Snyk audit Fail on the skill page — review the flagged dependency surface before production use
+- Snyk audit Fail on the skill page - review the flagged dependency surface before production use
 - Frame extraction requires ffmpeg; Whisper fallback requires an API key
 - Publisher page verified: 10.1K installs, 15.4K GitHub stars
 

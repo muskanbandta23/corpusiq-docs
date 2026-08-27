@@ -1,6 +1,6 @@
 ---
-title: "Session Persistence (OpenClaw) — SQLite message"
-description: Import session transcripts into SQLite with FTS5 full-text search — agent never loses messages across compaction or rollover. 28+ installs from archieindian/openclaw-superpowers.
+title: "Session Persistence (OpenClaw) - SQLite message"
+description: Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover. 28+ installs from archieindian/openclaw-superpowers.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/session-persistence-openclaw-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Session Persistence (OpenClaw) — Setup Guide
+# Session Persistence (OpenClaw) - Setup Guide
 
 **Source:** [archieindian/openclaw-superpowers](https://skills.sh/archieindian/openclaw-superpowers/session-persistence) (28+ installs)
 **Category:** Engineering / Memory & Persistence
 **Quality Tier:** 🔵 Community
 
-Imports agent session transcripts into a local SQLite database with FTS5 full-text search, ensuring the agent never loses message history — even after context compaction or session rollover. Automatically runs every 15 minutes via cron for incremental import.
+Imports agent session transcripts into a local SQLite database with FTS5 full-text search, ensuring the agent never loses message history - even after context compaction or session rollover. Automatically runs every 15 minutes via cron for incremental import.
 
 ---
 
@@ -30,9 +30,9 @@ npx skills add archieindian/openclaw-superpowers --skill session-persistence
 
 | Requirement | Details |
 |---|---|
-| **Python 3** | Built-in `sqlite3` module — no external dependencies |
+| **Python 3** | Built-in `sqlite3` module - no external dependencies |
 | **OpenClaw sessions** | JSONL session files to import from |
-| **Disk space** | Varies with session volume — SQLite database at `~/.openclaw/lcm-db/messages.db` |
+| **Disk space** | Varies with session volume - SQLite database at `~/.openclaw/lcm-db/messages.db` |
 
 ---
 
@@ -96,11 +96,11 @@ python3 persist.py --status
 
 ## Notes
 
-- Uses Python's built-in `sqlite3` — zero external dependencies
+- Uses Python's built-in `sqlite3` - zero external dependencies
 - FTS5 full-text search for ranked results across all time periods
 - Idempotent: safe to re-run, tracks per-conversation sequence numbers
 - Import lag: up to 15 minutes (cron interval)
-- Database is local-only — never committed to repository
+- Database is local-only - never committed to repository
 - Inspired by [lossless-claw](https://github.com/Martian-Engineering/lossless-claw)'s SQLite message persistence layer
 - State file at `~/.openclaw/skill-state/session-persistence/state.yaml`
 - Quality tier 🔵 Community: 28 installs, focused and well-implemented

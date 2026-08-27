@@ -1,5 +1,5 @@
 ---
-title: "Charming MCP — Generate & Host Interactive Web Apps via"
+title: "Charming MCP - Generate & Host Interactive Web Apps via"
 description: "Hosted MCP server that generates, hosts, and updates interactive web apps. Connect any MCP-compatible AI client, ask it to build an app, and get a live URL"
 category: mcp
 tags: [mcp, development, web-apps, hosted, ui-generation, charming, tambo-labs, hermes-agent]
@@ -15,18 +15,18 @@ last_updated: "2026-08-12"
 
 ---
 
-# Charming MCP — Generate & Host Interactive Web Apps via AI Agents
+# Charming MCP - Generate & Host Interactive Web Apps via AI Agents
 
-**Charming** is a hosted MCP server that generates, hosts, and updates interactive web apps. Connect it to any MCP-compatible AI client and ask it to build an app — you get back a live URL in seconds. OAuth with Dynamic Client Registration is automatic — clients that support it show a one-time consent screen.
+**Charming** is a hosted MCP server that generates, hosts, and updates interactive web apps. Connect it to any MCP-compatible AI client and ask it to build an app - you get back a live URL in seconds. OAuth with Dynamic Client Registration is automatic - clients that support it show a one-time consent screen.
 
-Think of it as "Vercel for agents" — your AI can go from idea to deployed interactive web app without touching a CLI, managing hosting, or configuring DNS.
+Think of it as "Vercel for agents" - your AI can go from idea to deployed interactive web app without touching a CLI, managing hosting, or configuring DNS.
 
 ## What It Does
 
 - **App generation**: AI agents describe an app and Charming builds + deploys it
 - **Live hosting**: Every generated app gets a public URL immediately
-- **Iterative updates**: Ask the agent to modify the app — Charming redeploys
-- **OAuth-native**: No API keys to manage — Dynamic Client Registration handles auth
+- **Iterative updates**: Ask the agent to modify the app - Charming redeploys
+- **OAuth-native**: No API keys to manage - Dynamic Client Registration handles auth
 - **Interactive apps**: Full-stack web apps, not static pages
 
 ## Key Tools
@@ -78,13 +78,13 @@ mcp_servers:
     url: "https://api.charming.mcp.so/mcp"
 ```
 
-First connection triggers OAuth consent in your browser — one-time only.
+First connection triggers OAuth consent in your browser - one-time only.
 
 ## Use Cases for Business Operators
 
 1. **Rapid prototyping**: Describe a dashboard, CRM view, or data tool and get a working version in seconds
-2. **Internal tools**: Build utility apps for your team without writing code — "make a PTO request form"
-3. **Client demos**: Generate interactive demos during sales calls — "build a demo of what the analytics would look like"
+2. **Internal tools**: Build utility apps for your team without writing code - "make a PTO request form"
+3. **Client demos**: Generate interactive demos during sales calls - "build a demo of what the analytics would look like"
 4. **Landing pages**: Spin up event pages, waitlist forms, or micro-sites on demand
 5. **A/B test variants**: Generate multiple page variants and iterate on winners
 
@@ -92,8 +92,8 @@ First connection triggers OAuth consent in your browser — one-time only.
 
 - **No custom domains (yet)**: Apps are served from Charming's domain
 - **No backend persistence**: Apps are frontend-focused; persistent data requires external services
-- **Early stage**: 9 GitHub stars as of July 2026 — feature set expanding
-- **Hosted only**: No self-hosted option currently — apps live on Charming's infrastructure
+- **Early stage**: 9 GitHub stars as of July 2026 - feature set expanding
+- **Hosted only**: No self-hosted option currently - apps live on Charming's infrastructure
 
 ## Example: Building a Dashboard
 
@@ -120,7 +120,7 @@ Charming → { url: "https://abc123.charming.app" }  // Updated live
 
 ## Category
 
-**Development** — Charming bridges the gap between AI agent capabilities and deployed, interactive web applications. It's a "deploy target" for agents, similar to how Vercel is a deploy target for developers.
+**Development** - Charming bridges the gap between AI agent capabilities and deployed, interactive web applications. It's a "deploy target" for agents, similar to how Vercel is a deploy target for developers.
 
 ---
 

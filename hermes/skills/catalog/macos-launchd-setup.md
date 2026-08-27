@@ -1,5 +1,5 @@
 ---
-title: macOS Launchd Agent Deployment — Setup Guide
+title: macOS Launchd Agent Deployment - Setup Guide
 description: Deploy OpenClaw/Hermes agents as macOS launchd services with KeepAlive, log routing, and environment variable management.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/macos-launchd-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# macOS Launchd Agent Deployment — Setup Guide
+# macOS Launchd Agent Deployment - Setup Guide
 
 ## Prerequisites
 - **macOS 12+** (Monterey or later)
@@ -24,7 +24,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 | **RunAtLoad** | Start agent immediately when plist is loaded |
 | **Log Routing** | StandardOutPath / StandardErrorPath for file-based logging |
 | **Environment Variables** | Inject API keys and config paths via EnvironmentVariables dict |
-| **launchctl Management** | bootstrap, bootout, list, print — full lifecycle control |
+| **launchctl Management** | bootstrap, bootout, list, print - full lifecycle control |
 
 ## Installation
 
@@ -136,11 +136,11 @@ launchctl kickstart gui/$(id -u)/com.corpusiq.hermes-gateway
 
 ## CorpusIQ Use Cases
 
-1. **Dedicated Agent Host:** A macOS workstation running Hermes processes for video generation, email monitoring, and docs management. Launchd provides proper process supervision — agents restart on crash, logs are captured to files, and environment variables are managed centrally.
+1. **Dedicated Agent Host:** A macOS workstation running Hermes processes for video generation, email monitoring, and docs management. Launchd provides proper process supervision - agents restart on crash, logs are captured to files, and environment variables are managed centrally.
 
 2. **Multi-Profile Management:** Each Hermes profile gets its own LaunchAgent plist with isolated environment variables and log files.
 
-3. **Cron Replacement:** Long-running monitor workers (social media, email, GitHub) can run as LaunchAgents instead of cron — better logging, crash recovery, and process visibility.
+3. **Cron Replacement:** Long-running monitor workers (social media, email, GitHub) can run as LaunchAgents instead of cron - better logging, crash recovery, and process visibility.
 
 ## macOS vs Linux Comparison
 
@@ -170,4 +170,4 @@ launchctl kickstart gui/$(id -u)/com.corpusiq.hermes-gateway
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

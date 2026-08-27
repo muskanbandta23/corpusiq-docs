@@ -1,6 +1,6 @@
 ---
-title: "Conduit (Toolport) MCP — Local-First Desktop Gateway for"
-description: "Conduit (Toolport) is a local-first desktop app that aggregates all your MCP servers behind one gateway, shared across every AI coding tool — Claude"
+title: "Conduit (Toolport) MCP - Local-First Desktop Gateway for"
+description: "Conduit (Toolport) is a local-first desktop app that aggregates all your MCP servers behind one gateway, shared across every AI coding tool - Claude"
 category: mcp
 tags: [mcp-server, aggregator, gateway, desktop, local-first, multi-client]
 last_updated: 2026-07-19
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Conduit (Toolport) — Local MCP Gateway
+# Conduit (Toolport) - Local MCP Gateway
 
 Conduit is a local-first desktop application that puts all your MCP servers behind one unified gateway. Configure your MCP servers once in Conduit, and they're automatically available to Claude Desktop, Cursor, VS Code, Codex, and any other MCP-compatible tool you use. No more copy-pasting JSON configs between tools.
 
@@ -21,7 +21,7 @@ Conduit is a local-first desktop application that puts all your MCP servers behi
 
 ## Why This Matters
 
-Anyone running more than one MCP client knows the pain: configure servers in Claude Desktop's JSON, then again in Cursor, then again in Codex, and keep them all in sync. Conduit solves this by being the single source of truth — configure once, broadcast everywhere. For teams standardizing on MCP tooling, this is infrastructure.
+Anyone running more than one MCP client knows the pain: configure servers in Claude Desktop's JSON, then again in Cursor, then again in Codex, and keep them all in sync. Conduit solves this by being the single source of truth - configure once, broadcast everywhere. For teams standardizing on MCP tooling, this is infrastructure.
 
 ## Installation
 
@@ -56,10 +56,10 @@ Then in Conduit's desktop UI, add all your actual MCP servers. They're instantly
 
 ## Key Features
 
-- **Single config** — manage all MCP servers from one desktop interface
-- **Multi-client broadcast** — Claude, Cursor, VS Code, Codex all see the same tools
-- **Local-first** — all traffic stays on your machine, no cloud dependency
-- **Hot reload** — add/remove servers without restarting clients
+- **Single config** - manage all MCP servers from one desktop interface
+- **Multi-client broadcast** - Claude, Cursor, VS Code, Codex all see the same tools
+- **Local-first** - all traffic stays on your machine, no cloud dependency
+- **Hot reload** - add/remove servers without restarting clients
 
 ## CorpusIQ Relevance
 

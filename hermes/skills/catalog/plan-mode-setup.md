@@ -1,6 +1,6 @@
 ---
-title: Plan Mode — Hermes Skill Setup Guide
-description: Install and configure plan, the official Hermes Agent skill for plan-only execution mode — generates structured markdown plans without executing code — 309 installs.
+title: Plan Mode - Hermes Skill Setup Guide
+description: Install and configure plan, the official Hermes Agent skill for plan-only execution mode - generates structured markdown plans without executing code - 309 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/plan-mode-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Plan Mode — Setup Guide
+# Plan Mode - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/plan) (309 installs)
 **Category:** Development / Workflow
@@ -71,7 +71,7 @@ When Plan Mode is active:
 ```
 Hermes, plan the refactoring of the authentication module
 Hermes, create a plan for adding WebSocket support
-Hermes, I need a plan — not execution — for migrating to PostgreSQL
+Hermes, I need a plan - not execution - for migrating to PostgreSQL
 ```
 
 ### Plan Output Location

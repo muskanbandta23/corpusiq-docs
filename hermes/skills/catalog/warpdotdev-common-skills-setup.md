@@ -1,6 +1,6 @@
 ---
-title: "Warp Common Skills — Spec-Driven Development Workflow"
-description: "Install warpdotdev/common-skills (411.2K combined installs) — 25 skills from the Warp terminal team: spec-driven implementation, PR review, CI diagnosis, merge conflict resolution, and spec validation."
+title: "Warp Common Skills - Spec-Driven Development Workflow"
+description: "Install warpdotdev/common-skills (411.2K combined installs) - 25 skills from the Warp terminal team: spec-driven implementation, PR review, CI diagnosis, merge conflict resolution, and spec validation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/warpdotdev-common-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Warp Common Skills — Setup Guide
+# Warp Common Skills - Setup Guide
 
 **Source:** [warpdotdev/common-skills](https://www.skills.sh/warpdotdev/common-skills) (411.2K combined installs)
 **GitHub:** [github.com/warpdotdev/common-skills](https://github.com/warpdotdev/common-skills)
@@ -85,7 +85,7 @@ Also included: `brandalf`, `pr-walkthrough`, `respond-to-pr-comments-in-blocklis
 
 ## Limitations / Verification
 
-- GitHub-centric — non-GitHub forges get partial coverage
+- GitHub-centric - non-GitHub forges get partial coverage
 - Verify install: `npx skills list | grep -E "review-pr|spec"`
 
 ---

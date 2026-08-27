@@ -1,5 +1,5 @@
 ---
-title: "Lenny Skills — Product Management Methodology from"
+title: "Lenny Skills - Product Management Methodology from"
 description: Product management, competitive analysis, PRD writing, brand storytelling, startup ideation, and vibe coding from Lenny's Newsletter. 18K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lenny-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Lenny Skills — Setup Guide
+# Lenny Skills - Setup Guide
 
 **Source:** [refoundai/lenny-skills](https://skills.sh/refoundai/lenny-skills) (18K+ combined installs)
 **Category:** Product Management / Strategy
 **Quality Tier:** 🟡 Beta
 
-Product management methodology from Lenny Rachitsky (Lenny's Newsletter, 1M+ subscribers) — encoded as executable agent skills. Covers competitive analysis using Lenny's frameworks, PRD writing, brand storytelling, startup ideation, personal productivity systems, and a "vibe coding" skill for rapid prototyping. Ideal for Hermes agents operating in product strategy roles.
+Product management methodology from Lenny Rachitsky (Lenny's Newsletter, 1M+ subscribers) - encoded as executable agent skills. Covers competitive analysis using Lenny's frameworks, PRD writing, brand storytelling, startup ideation, personal productivity systems, and a "vibe coding" skill for rapid prototyping. Ideal for Hermes agents operating in product strategy roles.
 
 ---
 
@@ -35,12 +35,12 @@ npx skills add refoundai/lenny-skills --skill vibe-coding
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **personal-productivity** | 5.6K | Lenny's productivity system — calendar design, deep work blocks, energy management |
-| **competitive-analysis** | 2.7K | Competitive tear-downs using Lenny's frameworks — feature matrices, positioning maps |
-| **writing-prds** | 2.6K | Product requirements docs — problem statements, user stories, success metrics |
-| **brand-storytelling** | 2.6K | Brand narrative development — mission, positioning, voice, and story arcs |
-| **startup-ideation** | 2.6K | Idea generation and validation — problem-space exploration, market sizing |
-| **vibe-coding** | 2.4K | Rapid prototyping via AI-assisted coding — build MVPs for product validation |
+| **personal-productivity** | 5.6K | Lenny's productivity system - calendar design, deep work blocks, energy management |
+| **competitive-analysis** | 2.7K | Competitive tear-downs using Lenny's frameworks - feature matrices, positioning maps |
+| **writing-prds** | 2.6K | Product requirements docs - problem statements, user stories, success metrics |
+| **brand-storytelling** | 2.6K | Brand narrative development - mission, positioning, voice, and story arcs |
+| **startup-ideation** | 2.6K | Idea generation and validation - problem-space exploration, market sizing |
+| **vibe-coding** | 2.4K | Rapid prototyping via AI-assisted coding - build MVPs for product validation |
 
 ---
 
@@ -49,7 +49,7 @@ npx skills add refoundai/lenny-skills --skill vibe-coding
 | Requirement | Details |
 |---|---|
 | **Product context** | Market data, user research, or product brief for analysis skills |
-| **Development environment** | For `vibe-coding` — any modern IDE with AI coding support |
+| **Development environment** | For `vibe-coding` - any modern IDE with AI coding support |
 
 ---
 
@@ -106,5 +106,5 @@ npx skills list | grep lenny
 - Created by Refound AI in collaboration with Lenny Rachitsky
 - Skills encode methodologies from Lenny's Newsletter (1M+ subscribers) and podcast
 - `competitive-analysis` and `writing-prds` are the most directly applicable to business operators
-- `vibe-coding` is valuable for agent-driven rapid prototyping — build functional MVPs in hours
+- `vibe-coding` is valuable for agent-driven rapid prototyping - build functional MVPs in hours
 - Quality tier 🟡 Beta: 18K+ combined installs, active development

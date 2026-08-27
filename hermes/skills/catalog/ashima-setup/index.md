@@ -1,6 +1,6 @@
 ---
 title: Ashima Meta-Routing Orchestration Setup Guide
-description: Install and configure doucoo/ashima — a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus (documentation orchestration)
+description: Install and configure doucoo/ashima - a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus (documentation orchestration)
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ashima-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Ashima — Meta-Routing Orchestrator Setup
+# Ashima - Meta-Routing Orchestrator Setup
 
 **Source:** [doucoo/ashima](https://github.com/doucoo/ashima)
 **Stars:** 1 ⭐ | **License:** Apache-2.0
@@ -36,7 +36,7 @@ The **ashima router** auto-detects the task type and dispatches to the correct v
 
 - Hermes Agent installed (plugin or standard)
 - Access to both Claude and GPT/Codex provider backends (for duet mode)
-- Codex CLI installed (for aria mode — optional, falls back to in-agent implementation)
+- Codex CLI installed (for aria mode - optional, falls back to in-agent implementation)
 - Git
 
 ## 3. Installation
@@ -57,10 +57,10 @@ hermes skills list | grep -E "ashima|aria|duet|chorus"
 
 Expected output:
 ```
-ashima     — Ashima Orchestration Router
-aria       — Coding Orchestration (Codex + Claude)
-duet       — Dual-Perspective Reasoning
-chorus     — Documentation Orchestration
+ashima     - Ashima Orchestration Router
+aria       - Coding Orchestration (Codex + Claude)
+duet       - Dual-Perspective Reasoning
+chorus     - Documentation Orchestration
 ```
 
 ## 4. Configuration
@@ -98,27 +98,27 @@ npm install -g @openai/codex
 
 ```bash
 # Route to specific voice
-hermes -s ashima "ashima aria — implement the auth module"
-hermes -s ashima "ashima duet — compare microservices vs monolith"
-hermes -s ashima "ashima chorus — write release notes for last 5 commits"
+hermes -s ashima "ashima aria - implement the auth module"
+hermes -s ashima "ashima duet - compare microservices vs monolith"
+hermes -s ashima "ashima chorus - write release notes for last 5 commits"
 
 # Auto-route (ashima detects task type)
-hermes -s ashima "ashima — help me refactor the database layer"
+hermes -s ashima "ashima - help me refactor the database layer"
 ```
 
 ### From Within a Session
 
 ```
-/skill ashima aria — fix the race condition in queue.py
-/skill ashima duet — should we use Redis or Postgres for caching?
-/skill ashima chorus — document the API endpoints
+/skill ashima aria - fix the race condition in queue.py
+/skill ashima duet - should we use Redis or Postgres for caching?
+/skill ashima chorus - document the API endpoints
 ```
 
 ## 6. CorpusIQ Use Cases
 
 | Use Case | Voice | Why |
 |----------|-------|-----|
-| **Feature implementation** | Aria | Codex implements, Claude reviews — built-in code review pipeline |
+| **Feature implementation** | Aria | Codex implements, Claude reviews - built-in code review pipeline |
 | **Architecture decisions** | Duet | Independent Claude vs GPT analysis before committing to architecture |
 | **Release documentation** | Chorus | Gathers diffs, drafts changelog, fact-checks against actual code |
 | **Bug fix triage** | Aria | Verified fix with explicit acceptance criteria before deployment |
@@ -131,7 +131,7 @@ hermes -s ashima "ashima — help me refactor the database layer"
 | `hermes skills list` shows nothing | Skills not in `~/.hermes/skills/` | Verify cp paths; check `hermes config get skills.path` |
 | Duet only gets one perspective | Only one provider configured | Add both Claude and GPT providers; verify API keys |
 | Aria can't find Codex | Codex CLI not installed or not in PATH | Install Codex: `npm install -g @openai/codex` |
-| Auto-routing picks wrong voice | Ambiguous task description | Be more explicit: "ashima aria — implement..." bypasses routing |
+| Auto-routing picks wrong voice | Ambiguous task description | Be more explicit: "ashima aria - implement..." bypasses routing |
 
 ---
 

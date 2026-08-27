@@ -5,7 +5,7 @@ description: "Bring SEO and competitive search data into the conversation. Ask w
 # Semrush
 
 ## What it unlocks
-Bring SEO and competitive search data into the conversation. Ask which keywords your competitors rank for, what your backlink profile looks like, and where you're losing organic ground — without leaving the chat.
+Bring SEO and competitive search data into the conversation. Ask which keywords your competitors rank for, what your backlink profile looks like, and where you're losing organic ground - without leaving the chat.
 
 ## Before you connect
 - A Semrush account with API access. The Business plan or higher is required for the API.
@@ -41,9 +41,9 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 - "Who are my top organic competitors?"
 
 ## Troubleshooting
-- "API key invalid" — confirm your Semrush plan includes API access (Business or higher) and that you have remaining API units.
-- "No data for domain" — Semrush data lags reality; very new domains may not be indexed yet.
-- High API unit consumption — each query costs units. Ask narrower questions to control spend.
+- "API key invalid" - confirm your Semrush plan includes API access (Business or higher) and that you have remaining API units.
+- "No data for domain" - Semrush data lags reality; very new domains may not be indexed yet.
+- High API unit consumption - each query costs units. Ask narrower questions to control spend.
 ---
 
 *

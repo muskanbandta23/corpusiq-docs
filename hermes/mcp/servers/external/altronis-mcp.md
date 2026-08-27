@@ -1,6 +1,6 @@
 ---
 name: "Altronis MCP"
-description: "Singapore AI consulting MCP — AI consultant, grant-matched transformation plans, curated SG AI events"
+description: "Singapore AI consulting MCP - AI consultant, grant-matched transformation plans, curated SG AI events"
 category: "Developer Tools"
 source: "mcp.so"
 discovered: "2026-07-23"
@@ -9,21 +9,21 @@ repository: "https://github.com/sypherin/altronis"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/altronis-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Altronis MCP — Singapore AI Consulting Access"
+title: "Altronis MCP - Singapore AI Consulting Access"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Altronis MCP — Singapore AI Consulting Access
+# Altronis MCP - Singapore AI Consulting Access
 
 Altronis provides MCP access to Singapore-focused AI consulting services. Agents can interact with the Lyra AI consultant, generate grant-matched AI transformation plans, and pull curated Singapore AI events and news. Read-only, wraps altronis.sg.
 
 ## What It Does
 
-- **Lyra consultant** — AI assistant specialized in Singapore business AI adoption
-- **Transformation plans** — Generate AI adoption roadmaps matched to Singapore government grants
-- **Events & news** — Curated Singapore AI industry events and news feed
-- **Read-only** — All tools are read-only; no write operations
+- **Lyra consultant** - AI assistant specialized in Singapore business AI adoption
+- **Transformation plans** - Generate AI adoption roadmaps matched to Singapore government grants
+- **Events & news** - Curated Singapore AI industry events and news feed
+- **Read-only** - All tools are read-only; no write operations
 
 ## Quick Start
 
@@ -54,10 +54,10 @@ hermes mcp add altronis -- npx tsx /path/to/altronis/src/index.ts
 
 ## Use Cases
 
-- **Singapore market entry** — Research AI adoption landscape and available grants
-- **Grant applications** — Generate AI transformation plans tailored to specific grant schemes
-- **Event monitoring** — Track Singapore AI events for networking opportunities
-- **Competitive intelligence** — Monitor Singapore AI industry developments
+- **Singapore market entry** - Research AI adoption landscape and available grants
+- **Grant applications** - Generate AI transformation plans tailored to specific grant schemes
+- **Event monitoring** - Track Singapore AI events for networking opportunities
+- **Competitive intelligence** - Monitor Singapore AI industry developments
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Claude Code Skills — Agentic Coding & Skill"
-description: Anthropic's official Claude Code skills — build, extend, and customize coding agents. 73K+ combined installs across 6+ skills for agent development, skill creation, and plugin authoring.
+title: "Claude Code Skills - Agentic Coding & Skill"
+description: Anthropic's official Claude Code skills - build, extend, and customize coding agents. 73K+ combined installs across 6+ skills for agent development, skill creation, and plugin authoring.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Claude Code Skills — Setup Guide
+# Claude Code Skills - Setup Guide
 
 **Source:** [anthropics/claude-code](https://skills.sh/anthropics/claude-code) (73K+ combined installs)
 **GitHub:** [anthropics/claude-code](https://github.com/anthropics/claude-code) (139K+ ⭐)
 **Category:** Agent Infrastructure / Coding Agents
 **Quality Tier:** 🟢 Production
 
-Claude Code is Anthropic's agentic coding tool that lives in your terminal. It understands your codebase, executes multi-step development tasks, and can be extended with custom skills, plugins, and hooks. These skills help Hermes agents build, develop, and customize their own Claude Code extensions — from creating new skills to writing hook rules and managing plugin structures.
+Claude Code is Anthropic's agentic coding tool that lives in your terminal. It understands your codebase, executes multi-step development tasks, and can be extended with custom skills, plugins, and hooks. These skills help Hermes agents build, develop, and customize their own Claude Code extensions - from creating new skills to writing hook rules and managing plugin structures.
 
 ---
 
@@ -41,9 +41,9 @@ npx skills add anthropics/claude-code --skill claude-opus-4-5-migration
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **agent-development** | 16.3K | Build and customize Claude Code agents — system prompts, tool configuration, agent loops |
+| **agent-development** | 16.3K | Build and customize Claude Code agents - system prompts, tool configuration, agent loops |
 | **skill-development** | 15.9K | Create custom skills for Claude Code with YAML frontmatter, inline instructions, and testing |
-| **plugin-structure** | 11.0K | Author Claude Code plugins — directory layout, manifest files, hook registration |
+| **plugin-structure** | 11.0K | Author Claude Code plugins - directory layout, manifest files, hook registration |
 | **plugin-settings** | 10.9K | Configure plugin settings schema, user preferences, and environment overrides |
 | **writing-hookify-rules** | 10.5K | Write hook rules for code transformation, linting, and automated refactoring |
 | **claude-opus-4-5-migration** | 9.2K | Migration guide for Opus 4→4.5 model updates in agent configurations |
@@ -66,7 +66,7 @@ npx skills add anthropics/claude-code --skill claude-opus-4-5-migration
 Build production coding agents that understand your codebase, execute multi-file changes, run tests, and integrate with git workflows. Includes system prompt engineering, tool authorization patterns, and agent lifecycle management.
 
 ### Skill Development
-Create reusable skills with YAML frontmatter (`name`, `description`, `trigger`) and markdown instructions. Skills are Claude Code's extension mechanism — they teach the agent domain-specific workflows, conventions, and tool patterns.
+Create reusable skills with YAML frontmatter (`name`, `description`, `trigger`) and markdown instructions. Skills are Claude Code's extension mechanism - they teach the agent domain-specific workflows, conventions, and tool patterns.
 
 ### Plugin Authoring
 Structure plugins with manifests, hook registrations, and settings schemas. Plugins extend Claude Code with custom commands, MCP server integrations, and project-specific automation.
@@ -110,7 +110,7 @@ claude "list available skills" | grep -i claude-code
 
 ## Notes
 
-- Claude Code is distinct from the `anthropics/skills` catalog (700K+ installs for frontend-design, skill-creator, etc.) — that repo focuses on general-purpose agent skills rather than Claude Code extensibility
+- Claude Code is distinct from the `anthropics/skills` catalog (700K+ installs for frontend-design, skill-creator, etc.) - that repo focuses on general-purpose agent skills rather than Claude Code extensibility
 - These skills are most valuable when building custom Hermes sub-agents that use Claude Code for implementation
 - Plugin skills work with Claude Code's hooks system (Starter, PostToolUse, Stop, etc.)
 - For Hermes agents: use `agent-development` and `skill-development` to extend your coding capabilities without leaving the terminal

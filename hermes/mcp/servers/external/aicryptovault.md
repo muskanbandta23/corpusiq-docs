@@ -1,6 +1,6 @@
 ---
-title: "AICryptoVault MCP — Agent-Managed Crypto Treasury"
-description: "MCP-native treasury infrastructure — connect AI agents to crypto wallets for balance queries, transaction history, and agent-managed DeFi operations. Remote"
+title: "AICryptoVault MCP - Agent-Managed Crypto Treasury"
+description: "MCP-native treasury infrastructure - connect AI agents to crypto wallets for balance queries, transaction history, and agent-managed DeFi operations. Remote"
 category: mcp
 tags: [mcp-server, crypto, treasury, defi, wallet, finance]
 last_updated: 2026-07-08
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# AICryptoVault MCP — Crypto Treasury for AI Agents
+# AICryptoVault MCP - Crypto Treasury for AI Agents
 
 ## What It Is
 
-AICryptoVault MCP (`browtastic/cloudaiwallet-mcp-servers`) is MCP-native treasury infrastructure that lets AI agents interact with crypto wallets — query balances, review transaction history, and execute agent-governed DeFi operations. Designed for organizations that hold crypto assets and want programmatic, auditable treasury management.
+AICryptoVault MCP (`browtastic/cloudaiwallet-mcp-servers`) is MCP-native treasury infrastructure that lets AI agents interact with crypto wallets - query balances, review transaction history, and execute agent-governed DeFi operations. Designed for organizations that hold crypto assets and want programmatic, auditable treasury management.
 
 ## Tools Available
 
@@ -38,11 +38,11 @@ npx mcp-remote https://agent.cloudaiwallet.com/sse
 ## Limitations
 
 - **Crypto-only**: No fiat treasury management
-- **Remote SSE**: Server-Sent Events transport — ensure network stability
+- **Remote SSE**: Server-Sent Events transport - ensure network stability
 - **Early-stage**: Evolving API, security model under active development
 - **Agent custody risk**: AI-managed wallets require strong governance guardrails
 
 ## See Also
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Finance Connectors — QuickBooks, Stripe](/hermes/mcp/connectors/)
+- [CorpusIQ Finance Connectors - QuickBooks, Stripe](/hermes/mcp/connectors/)

@@ -1,5 +1,5 @@
 ---
-title: "Fullstory MCP Plugin — Behavioral Analytics for AI Agents"
+title: "Fullstory MCP Plugin - Behavioral Analytics for AI Agents"
 description: "Integration guide for fullstorydev/fullstory-skills: Query session data, user behavior, funnel metrics, and CX insights directly from Claude or Cursor"
 category: analytics
 tags: [mcp, fullstory, behavioral-analytics, session-replay, funnel-analysis, customer-experience, product-analytics]
@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ---
 
-# Fullstory MCP Plugin — Behavioral Analytics for AI Agents
+# Fullstory MCP Plugin - Behavioral Analytics for AI Agents
 
 **Repo:** [fullstorydev/fullstory-skills](https://github.com/fullstorydev/fullstory-skills)
 **Website:** [fullstory.com/platform/mcp](https://www.fullstory.com/platform/mcp/)
@@ -22,16 +22,16 @@ robots: "index,follow"
 
 ## Overview
 
-Fullstory's official MCP plugin connects Claude or Cursor directly to the Fullstory behavioral analytics platform. Instead of switching between Fullstory dashboards and your AI agent, you can query session data, analyze user behavior, compute funnel metrics, and retrieve customer experience insights — all from within your AI workflow.
+Fullstory's official MCP plugin connects Claude or Cursor directly to the Fullstory behavioral analytics platform. Instead of switching between Fullstory dashboards and your AI agent, you can query session data, analyze user behavior, compute funnel metrics, and retrieve customer experience insights - all from within your AI workflow.
 
-This is the main Fullstory platform integration — distinct from [Subtext](/hermes/mcp/servers/external/subtext-mcp/) (Fullstory's agent-native session replay tool for coding agents).
+This is the main Fullstory platform integration - distinct from [Subtext](/hermes/mcp/servers/external/subtext-mcp/) (Fullstory's agent-native session replay tool for coding agents).
 
 ## Why Business Operators Need This
 
-1. **Session-Level Debugging** — Ask Claude "show me sessions where users rage-clicked on the checkout page" and get real session data without opening the Fullstory dashboard.
-2. **Funnel Analysis in Context** — While discussing conversion optimization with your AI agent, pull live funnel metrics directly. No screenshots, no copy-paste.
-3. **Customer Experience Intelligence** — Query behavioral patterns across segments, identify friction points, and get AI-powered recommendations backed by actual user data.
-4. **Operator Autonomy** — Non-technical operators can query Fullstory data through natural language without learning the Fullstory API or SQL.
+1. **Session-Level Debugging** - Ask Claude "show me sessions where users rage-clicked on the checkout page" and get real session data without opening the Fullstory dashboard.
+2. **Funnel Analysis in Context** - While discussing conversion optimization with your AI agent, pull live funnel metrics directly. No screenshots, no copy-paste.
+3. **Customer Experience Intelligence** - Query behavioral patterns across segments, identify friction points, and get AI-powered recommendations backed by actual user data.
+4. **Operator Autonomy** - Non-technical operators can query Fullstory data through natural language without learning the Fullstory API or SQL.
 
 ## Prerequisites
 
@@ -79,7 +79,7 @@ Tools are auto-discovered once connected. Key capabilities include:
 1. **Enroll in the beta:** Visit [fullstory.com/platform/mcp](https://www.fullstory.com/platform/mcp/) and request access
 2. **Generate an API key:** In Fullstory Settings → API Keys → Create New Key
 3. **Configure Claude Code:** Add the MCP server configuration above to `claude_desktop_config.json`
-4. **Verify connection:** Ask Claude "list my Fullstory tools" — you should see session query, event search, and funnel analysis tools
+4. **Verify connection:** Ask Claude "list my Fullstory tools" - you should see session query, event search, and funnel analysis tools
 
 ## CorpusIQ Integration
 
@@ -91,14 +91,14 @@ CorpusIQ operators using Fullstory can combine both platforms:
 
 ## Limitations
 
-- **Beta-only:** Requires enrollment in Fullstory's MCP beta program — not generally available yet
+- **Beta-only:** Requires enrollment in Fullstory's MCP beta program - not generally available yet
 - **API key required:** Must have a Fullstory account with API access
-- **Read-only:** Query and analysis only — cannot create events or modify Fullstory configuration
+- **Read-only:** Query and analysis only - cannot create events or modify Fullstory configuration
 - **Claude/Cursor only:** Currently supports Claude Code and Cursor; no VS Code Copilot or other agents documented yet
 
 ## See Also
 
-- [Subtext MCP](/hermes/mcp/servers/external/subtext-mcp/) — Fullstory's agent-native session replay for coding agents
+- [Subtext MCP](/hermes/mcp/servers/external/subtext-mcp/) - Fullstory's agent-native session replay for coding agents
 - [Fullstory Developer Docs](https://developer.fullstory.com)
 - [Fullstory MCP Blog Post](https://www.fullstory.com/blog/fullstory-mcp/)
-- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp/) — Alternative analytics source
+- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp/) - Alternative analytics source

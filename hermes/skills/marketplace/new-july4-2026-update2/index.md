@@ -1,5 +1,5 @@
 ---
-title: "July 4, 2026 (Update 2) — Hermes Idea Workflow Suite"
+title: "July 4, 2026 (Update 2) - Hermes Idea Workflow Suite"
 description: "6 new Hermes-relevant skills discovered in a July 4 late-evening sweep: akoliteza/hermes-agent-idea-workflow (4 skills, 235⭐)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026-update2/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 July 4, 2026 (Update 2) — 6 New Skills Across 3 Repos
+# 🆕 July 4, 2026 (Update 2) - 6 New Skills Across 3 Repos
 
-Late-evening sweep of the skills.sh API (July 4, 2026) surfaced **6 new Hermes-relevant skills** across 3 repositories. The headline find is the complete **Hermes Agent Idea Workflow suite** by AkoliteZA — a 4-skill pipeline that turns rough ideas into design docs, UI briefs, and implementation plans.
+Late-evening sweep of the skills.sh API (July 4, 2026) surfaced **6 new Hermes-relevant skills** across 3 repositories. The headline find is the complete **Hermes Agent Idea Workflow suite** by AkoliteZA - a 4-skill pipeline that turns rough ideas into design docs, UI briefs, and implementation plans.
 
 ## Summary
 
@@ -44,10 +44,10 @@ Rough Idea → idea-to-design-doc → idea-to-ui-design-brief → idea-to-implem
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| **idea-to-design-doc** | Turns rough ideas into focused product/design Markdown docs through guided questions — without jumping to implementation too early. Acts as the "idea filter" stage. | `npx skills add akoliteza/hermes-agent-idea-workflow --skill idea-to-design-doc` |
+| **idea-to-design-doc** | Turns rough ideas into focused product/design Markdown docs through guided questions - without jumping to implementation too early. Acts as the "idea filter" stage. | `npx skills add akoliteza/hermes-agent-idea-workflow --skill idea-to-design-doc` |
 | **idea-to-ui-design-brief** | Converts product/design docs into focused UI design briefs with optional AI image-generation concept prompts. Produces implementation-ready UI direction. | `npx skills add akoliteza/hermes-agent-idea-workflow --skill idea-to-ui-design-brief` |
 | **idea-to-implementation-doc** | Reviews design docs, researches similar products, and produces a separate technical implementation plan/roadmap. The final stage before coding. | `npx skills add akoliteza/hermes-agent-idea-workflow --skill idea-to-implementation-doc` |
-| **idea-superpowers-suite** | The orchestrator — runs the full workflow end-to-end: captures rough ideas, expands them into design/UI/implementation docs, researches competitors, and generates build-ready Markdown artifacts. | `npx skills add akoliteza/hermes-agent-idea-workflow --skill idea-superpowers-suite` |
+| **idea-superpowers-suite** | The orchestrator - runs the full workflow end-to-end: captures rough ideas, expands them into design/UI/implementation docs, researches competitors, and generates build-ready Markdown artifacts. | `npx skills add akoliteza/hermes-agent-idea-workflow --skill idea-superpowers-suite` |
 
 ### Why This Matters
 
@@ -64,7 +64,7 @@ This is the first complete **idea-to-build pipeline** built specifically for Her
 
 | Skill | Description |
 |-------|-------------|
-| **tool-description-optimizer** | Analyzes skill descriptions for trigger quality — scores clarity, keyword density, and specificity, then suggests rewrites that improve discovery accuracy. Useful for skill publishers who want their skills to surface correctly in agent searches. |
+| **tool-description-optimizer** | Analyzes skill descriptions for trigger quality - scores clarity, keyword density, and specificity, then suggests rewrites that improve discovery accuracy. Useful for skill publishers who want their skills to surface correctly in agent searches. |
 
 **Install:** `npx skills add archieindian/openclaw-superpowers --skill tool-description-optimizer`
 
@@ -79,7 +79,7 @@ This is the first complete **idea-to-build pipeline** built specifically for Her
 
 | Skill | Description |
 |-------|-------------|
-| **tool-openclaw** | A comprehensive OpenClaw knowledge base skill — bundles the full OpenClaw documentation (CLI reference, gateway config, providers, channels, plugins, security, deployment) as agent-accessible reference material. Lives in ship-faster's legacy skills directory. |
+| **tool-openclaw** | A comprehensive OpenClaw knowledge base skill - bundles the full OpenClaw documentation (CLI reference, gateway config, providers, channels, plugins, security, deployment) as agent-accessible reference material. Lives in ship-faster's legacy skills directory. |
 
 **Install:** `npx skills add heyvhuang/ship-faster --skill tool-openclaw`
 

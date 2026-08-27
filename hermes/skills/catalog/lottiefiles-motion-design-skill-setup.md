@@ -1,13 +1,13 @@
 ---
-title: "Motion Design Skill — LottieFiles Animation Setup"
-description: "lottiefiles/motion-design-skill — 8.1K installs: UI animation, micro-interactions, and motion identity guidance from LottieFiles."
+title: "Motion Design Skill - LottieFiles Animation Setup"
+description: "lottiefiles/motion-design-skill - 8.1K installs: UI animation, micro-interactions, and motion identity guidance from LottieFiles."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lottiefiles-motion-design-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "motion design", "animation", "lottie"]
 ---
 
-# Motion Design Skill — Setup Guide
+# Motion Design Skill - Setup Guide
 
 **Source:** [lottiefiles/motion-design-skill](https://skills.sh/lottiefiles/motion-design-skill/motion-design)
 **GitHub:** [lottiefiles/motion-design-skill](https://github.com/lottiefiles/motion-design-skill) (985 stars)
@@ -56,8 +56,8 @@ npx skills add https://github.com/lottiefiles/motion-design-skill --skill motion
 
 ## Limitations / Verification
 
-- Security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass — full green
-- Design guidance only — no asset generation; pair with LottieFiles tooling for production assets
+- Security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass - full green
+- Design guidance only - no asset generation; pair with LottieFiles tooling for production assets
 - Verification command: `npx skills add https://github.com/lottiefiles/motion-design-skill --skill motion-design`
 
 ## Related

@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 Afternoon sweep surfaced the **`useai-pro/openclaw-skills-security`** repository from **UseClawPro** (UseAI.pro): a complete 13-skill security suite for the OpenClaw ecosystem. The flagship `skill-vetter` has **19,340 installs**  --  one of the highest-install Hermes/OpenClaw skills discovered to date.
 
-All 13 skills are instruction modules (`SKILL.md`)  --  they don't run on their own. Load them into a host agent (Hermes Agent / Claude Code / Codex CLI / OpenClaw) or paste into any LLM chat. Trust scores range from 93–98. All skills audited Feb–Mar 2026. AGPL-3.0-or-later licensed.
+All 13 skills are instruction modules (`SKILL.md`)  --  they don't run on their own. Load them into a host agent (Hermes Agent / Claude Code / Codex CLI / OpenClaw) or paste into any LLM chat. Trust scores range from 93-98. All skills audited Feb-Mar 2026. AGPL-3.0-or-later licensed.
 
 *Previously cataloged: 337 total (89 native + 248 marketplace). This update adds 13 → 350 total.*
 

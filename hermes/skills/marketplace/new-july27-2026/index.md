@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 27, 2026 Marketplace Sweep"
-description: "4 new publishers discovered on skills.sh — Netlify, HuggingFace, Alireza Rezvani, Kostja94. 28+ skills, 32K+ combined installs, 34.8K GitHub stars."
+title: "New Skills - July 27, 2026 Marketplace Sweep"
+description: "4 new publishers discovered on skills.sh - Netlify, HuggingFace, Alireza Rezvani, Kostja94. 28+ skills, 32K+ combined installs, 34.8K GitHub stars."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july27-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 27, 2026
+# New Skills - July 27, 2026
 
 ## Summary
 
@@ -61,8 +61,8 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Notes
 
-- **alirezarezvani/claude-skills** (23.3K⭐) is the largest single-publisher collection on skills.sh — 341 skills. Install selectively by category
+- **alirezarezvani/claude-skills** (23.3K⭐) is the largest single-publisher collection on skills.sh - 341 skills. Install selectively by category
 - **Netlify** and **HuggingFace** are both official platform publishers with native skills.sh integration
-- **Kostja94** copywriting skill (3K installs) uses project-context-aware brand voice detection — works with Hermes CONSTITUTION.md files
+- **Kostja94** copywriting skill (3K installs) uses project-context-aware brand voice detection - works with Hermes CONSTITUTION.md files
 - Owner-scope sweeps confirmed 27 existing publishers are already catalogued (Stripe, Vercel, Supabase, Cloudflare, AWS, Google, etc.)
-- Low-install Hermes-native skills (yonkoo11/hermes-dojo, uphiago/recon-skills, fathah/hermes-desktop) deferred — <50 installs each
+- Low-install Hermes-native skills (yonkoo11/hermes-dojo, uphiago/recon-skills, fathah/hermes-desktop) deferred - <50 installs each

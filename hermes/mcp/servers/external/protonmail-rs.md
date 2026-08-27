@@ -1,5 +1,5 @@
 ---
-title: "Protonmail-rs — Proton Mail MCP Server Integration Guide"
+title: "Protonmail-rs - Proton Mail MCP Server Integration Guide"
 description: "Connect AI agents to Proton Mail via MCP with end-to-end OpenPGP encryption. Pure-Rust library, CLI, and MCP server for secure email operations."
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/protonmail-rs/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Protonmail-rs — Proton Mail MCP Server
+# Protonmail-rs - Proton Mail MCP Server
 
-**Unofficial, pure-Rust Proton Mail client** — library, CLI, and MCP server with end-to-end OpenPGP encryption. Gives AI agents secure, encrypted email capabilities through Switzerland's privacy-first email provider.
+**Unofficial, pure-Rust Proton Mail client** - library, CLI, and MCP server with end-to-end OpenPGP encryption. Gives AI agents secure, encrypted email capabilities through Switzerland's privacy-first email provider.
 
 | Detail | Value |
 |--------|-------|
@@ -18,12 +18,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | **Language** | Rust |
 | **Tools** | MCP-native email operations |
 | **Transport** | stdio |
-| **Stars** | ★1 (new — July 2026) |
+| **Stars** | ★1 (new - July 2026) |
 | **License** | TBD |
 
 ## Why This Matters for Operators
 
-Proton Mail is the leading encrypted email provider, used by 100M+ users worldwide — including journalists, legal firms, healthcare providers, and security-conscious businesses. This MCP server is the first to bring Proton Mail's end-to-end encryption to AI agent workflows:
+Proton Mail is the leading encrypted email provider, used by 100M+ users worldwide - including journalists, legal firms, healthcare providers, and security-conscious businesses. This MCP server is the first to bring Proton Mail's end-to-end encryption to AI agent workflows:
 
 - **HIPAA/GDPR compliance**: Encrypted email for regulated industries
 - **Legal communications**: Attorney-client privileged email through AI agents
@@ -33,7 +33,7 @@ Proton Mail is the leading encrypted email provider, used by 100M+ users worldwi
 ## Prerequisites
 
 - **Proton Mail account** (free or paid)
-- **Proton Mail Bridge** (for IMAP/SMTP access — paid plans only)
+- **Proton Mail Bridge** (for IMAP/SMTP access - paid plans only)
 - **Rust toolchain** (for building from source)
 - **OpenPGP keys** managed through Proton's key infrastructure
 
@@ -87,7 +87,7 @@ Operators in regulated industries can use this MCP server alongside CorpusIQ's b
 
 ## Security Considerations
 
-- **End-to-end encryption**: Emails are encrypted client-side before transmission — the MCP server never sees plaintext
+- **End-to-end encryption**: Emails are encrypted client-side before transmission - the MCP server never sees plaintext
 - **Zero-access architecture**: Proton Mail cannot decrypt your emails
 - **Session management**: Use short-lived session tokens, not persistent credentials
 - **Audit trail**: All agent-initiated email operations are logged in Proton Mail's activity log
@@ -95,8 +95,8 @@ Operators in regulated industries can use this MCP server alongside CorpusIQ's b
 ## Limitations
 
 - **Proton Mail Bridge required** for IMAP/SMTP access (paid plans only, ~$4/month)
-- **Unofficial client** — not maintained by Proton AG
-- **New project** (July 2026) — expect API changes and limited tool coverage initially
+- **Unofficial client** - not maintained by Proton AG
+- **New project** (July 2026) - expect API changes and limited tool coverage initially
 - **SRP authentication** may require periodic re-authentication
 
 ## Troubleshooting

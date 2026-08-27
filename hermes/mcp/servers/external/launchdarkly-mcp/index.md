@@ -1,5 +1,5 @@
 ---
-title: "LaunchDarkly MCP — Feature Flag Management for AI Agents"
+title: "LaunchDarkly MCP - Feature Flag Management for AI Agents"
 description: "Connect AI agents to LaunchDarkly via the official MCP server. Toggle features, manage progressive rollouts, run experiments, and audit flag changes."
 category: mcp
 tags: [mcp-server]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# LaunchDarkly MCP — Feature Flag Management for AI Agents
+# LaunchDarkly MCP - Feature Flag Management for AI Agents
 
 ## What It Is
 
-LaunchDarkly MCP exposes feature flag management over the Model Context Protocol. AI agents can toggle features on/off, check flag statuses, manage progressive rollouts, run A/B experiments, and audit every flag change — bringing feature management into the agent workflow.
+LaunchDarkly MCP exposes feature flag management over the Model Context Protocol. AI agents can toggle features on/off, check flag statuses, manage progressive rollouts, run A/B experiments, and audit every flag change - bringing feature management into the agent workflow.
 
 ## Tools Available
 

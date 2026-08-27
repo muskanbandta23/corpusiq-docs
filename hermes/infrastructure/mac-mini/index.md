@@ -1,5 +1,5 @@
 ---
-title: Mac Mini M4 — Worker Node Pattern
+title: Mac Mini M4 - Worker Node Pattern
 description: "Apple Mac Mini M4 as a dedicated worker node for browser automation, content operations, and GitHub management in a multi-machine agent setup."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/mac-mini/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Mac Mini M4 — Worker Node Pattern
+# Mac Mini M4 - Worker Node Pattern
 
 The Apple Mac Mini M4 (16 GB) makes an excellent dedicated worker node, offloading browser automation, content operations, and GitHub workflows from a primary GPU workstation.
 

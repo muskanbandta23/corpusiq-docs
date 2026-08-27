@@ -77,7 +77,7 @@ No data warehouse. No ETL pipelines. Direct queries to live data.
 
 ## License
 
-MIT — use this template for anything.
+MIT - use this template for anything.
 ---
 
 *

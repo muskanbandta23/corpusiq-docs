@@ -1,15 +1,15 @@
 ---
 title: "QuickBooks - CorpusIQ Docs - CorpusIQ"
-description: "Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances — without opening QuickBooks Online and."
+description: "Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances - without opening QuickBooks Online and."
 ---
 # QuickBooks
 
 ## What it unlocks
-Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances — without opening QuickBooks Online and rebuilding the same report you ran last month.
+Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances - without opening QuickBooks Online and rebuilding the same report you ran last month.
 
 ## Before you connect
 - A QuickBooks Online account (QBO). Desktop is not supported.
-- Admin or Company Admin access — accountants connecting on behalf of a client need the right permission level.
+- Admin or Company Admin access - accountants connecting on behalf of a client need the right permission level.
 - About 2 minutes.
 
 ## How to connect
@@ -39,13 +39,13 @@ Read-only. CorpusIQ never creates invoices, records payments, or changes anythin
 - "What was our P&L last quarter?"
 - "Show me overdue invoices over $5,000."
 - "How much cash is on the balance sheet?"
-- "Who owes us money — sorted by oldest invoice?"
+- "Who owes us money - sorted by oldest invoice?"
 - "What did we spend on contractors this year?"
 
 ## Troubleshooting
-- "Could not connect to Intuit" — Intuit OAuth occasionally rate-limits. Wait 60 seconds and retry.
-- Wrong company file connected — disconnect QuickBooks in your dashboard and reconnect, picking the correct company.
-- Numbers don't match your accountant's report — make sure you specify accrual vs. cash basis in your question; CorpusIQ uses your QuickBooks default.
+- "Could not connect to Intuit" - Intuit OAuth occasionally rate-limits. Wait 60 seconds and retry.
+- Wrong company file connected - disconnect QuickBooks in your dashboard and reconnect, picking the correct company.
+- Numbers don't match your accountant's report - make sure you specify accrual vs. cash basis in your question; CorpusIQ uses your QuickBooks default.
 ---
 
 *

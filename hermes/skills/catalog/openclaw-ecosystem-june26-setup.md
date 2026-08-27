@@ -1,6 +1,6 @@
 ---
-title: OpenClaw Ecosystem Expansion — June 2026 Setup Guide
-description: Install and configure 17 new OpenClaw/ClawPilot agent skills — Linux security, Chinese social media, stock markets, browser automation, and self-improving agents. 295K combined installs.
+title: OpenClaw Ecosystem Expansion - June 2026 Setup Guide
+description: Install and configure 17 new OpenClaw/ClawPilot agent skills - Linux security, Chinese social media, stock markets, browser automation, and self-improving agents. 295K combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Ecosystem — June 2026 Expansion
+# OpenClaw Ecosystem - June 2026 Expansion
 
 Seventeen new OpenClaw/ClawPilot skills from 9 publishers expand the agent ecosystem into Linux cloud security, Chinese social media (Xiaohongshu/RED), financial markets, browser automation, and agent self-improvement. **Combined installs: 294,954.**
 
@@ -111,9 +111,9 @@ Implements a self-improving agent loop: execute → reflect → adapt → repeat
 
 | Issue | Fix |
 |---|---|
-| `openclaw-secure-linux-cloud` blocks SSH | The skill enables key-only auth — ensure your SSH key is in `~/.ssh/authorized_keys` before running |
-| `xiaohongshu` login fails | Xiaohongshu requires phone verification — manual login first, then cookie persistence |
-| `akshare-stock` data errors | AKShare rate-limits free tier to 10 requests/minute — use `stock-market-pro` for higher throughput |
+| `openclaw-secure-linux-cloud` blocks SSH | The skill enables key-only auth - ensure your SSH key is in `~/.ssh/authorized_keys` before running |
+| `xiaohongshu` login fails | Xiaohongshu requires phone verification - manual login first, then cookie persistence |
+| `akshare-stock` data errors | AKShare rate-limits free tier to 10 requests/minute - use `stock-market-pro` for higher throughput |
 
 ---
 

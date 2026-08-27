@@ -1,5 +1,5 @@
 ---
-title: New Skills Discovery — July 15, 2026
+title: New Skills Discovery - July 15, 2026
 description: 6 new Hermes/OpenClaw ecosystem skills discovered via skills.sh API sweep. Memory hygiene, systemd/launchd deployment, security analysis, LLM ops, and customization tools.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 15, 2026
+# New Skills - July 15, 2026
 
 Evening sweep across 18 broad queries surfaced **6 new skills** not previously catalogued in the Hermes docs. These span agent memory management, system service deployment, Web3 security analysis, LLM operations, and agent customization. Combined install base: **622+ installs**.
 
@@ -53,7 +53,7 @@ Directly applicable to Hermes agent memory management. Prevents the "memory bloa
 
 **Source:** [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) · **70 installs**
 
-LLM Operations — RAG, embeddings, vector databases, fine-tuning, prompt engineering, LLM cost management, quality evals, and production AI architectures. Portuguese-language skill by renat.
+LLM Operations - RAG, embeddings, vector databases, fine-tuning, prompt engineering, LLM cost management, quality evals, and production AI architectures. Portuguese-language skill by renat.
 
 ### Capabilities
 - RAG pipeline implementation
@@ -81,7 +81,7 @@ Covers the full LLM ops stack that CorpusIQ agents depend on: model routing, cos
 
 **Source:** [alphaonedev/openclaw-graph](https://github.com/alphaonedev/openclaw-graph) · **61 installs**
 
-Deploy OpenClaw agents as Linux systemd services with proper supervision, logging, and restart policies. Part of the OpenClaw Graph ecosystem — a collection of deployment and infrastructure skills.
+Deploy OpenClaw agents as Linux systemd services with proper supervision, logging, and restart policies. Part of the OpenClaw Graph ecosystem - a collection of deployment and infrastructure skills.
 
 ### Capabilities
 - Systemd unit file generation for agent processes
@@ -97,7 +97,7 @@ npx skills add alphaonedev/openclaw-graph/linux-systemd
 ```
 
 ### Hermes/CorpusIQ Relevance
-Hermes agents running on Linux hosts. This skill provides canonical patterns for systemd service management — directly applicable to the gateway service, cron workers, and long-running agent processes.
+Hermes agents running on Linux hosts. This skill provides canonical patterns for systemd service management - directly applicable to the gateway service, cron workers, and long-running agent processes.
 
 **Setup guide:** [linux-systemd-setup.md](/hermes/skills/catalog/linux-systemd-setup/)
 
@@ -107,7 +107,7 @@ Hermes agents running on Linux hosts. This skill provides canonical patterns for
 
 **Source:** [alphaonedev/openclaw-graph](https://github.com/alphaonedev/openclaw-graph) · **56 installs**
 
-Deploy OpenClaw agents as macOS launchd services. The macOS equivalent of linux-systemd — provides plist generation, KeepAlive configuration, and launchctl management for agent processes.
+Deploy OpenClaw agents as macOS launchd services. The macOS equivalent of linux-systemd - provides plist generation, KeepAlive configuration, and launchctl management for agent processes.
 
 ### Capabilities
 - LaunchAgent plist generation
@@ -122,7 +122,7 @@ npx skills add alphaonedev/openclaw-graph/macos-launchd
 ```
 
 ### Hermes/CorpusIQ Relevance
-The Mac Mini worker node runs Hermes processes. This skill enables proper launchd supervision — replacing fragile cron-only or manual-start approaches with OS-native process management.
+The Mac Mini worker node runs Hermes processes. This skill enables proper launchd supervision - replacing fragile cron-only or manual-start approaches with OS-native process management.
 
 **Setup guide:** [macos-launchd-setup.md](/hermes/skills/catalog/macos-launchd-setup/)
 
@@ -132,7 +132,7 @@ The Mac Mini worker node runs Hermes processes. This skill enables proper launch
 
 **Source:** [petekp/claude-code-setup](https://github.com/petekp/claude-code-setup) · **36 installs**
 
-Portable, version-controlled configuration for Claude Code and OpenAI Codex — fork, customize, sync across machines. Symlinks skill directories, scripts, and settings into the `~/.claude/` and `~/.codex/` directories.
+Portable, version-controlled configuration for Claude Code and OpenAI Codex - fork, customize, sync across machines. Symlinks skill directories, scripts, and settings into the `~/.claude/` and `~/.codex/` directories.
 
 ### Capabilities
 - Single-command setup via `./setup.sh`
@@ -158,7 +158,7 @@ Useful pattern for teams running multiple Hermes/Claude instances across machine
 
 **Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) · **34 installs** · **Author:** [ara.so](https://ara.so)
 
-⚠️ **Security-focused skill.** Analyzes the Metamask Openclaw desktop executable distribution for security risks. Identifies impersonation patterns, suspicious binaries, and cryptocurrency scam red flags. This is a defensive security tool — it helps agents evaluate suspicious Web3 desktop software before execution.
+⚠️ **Security-focused skill.** Analyzes the Metamask Openclaw desktop executable distribution for security risks. Identifies impersonation patterns, suspicious binaries, and cryptocurrency scam red flags. This is a defensive security tool - it helps agents evaluate suspicious Web3 desktop software before execution.
 
 ### Capabilities
 - Impersonation detection (Metamask has no official "Openclaw" product)
@@ -173,10 +173,10 @@ npx skills add aradotso/hermes-skills/metamask-openclaw-desktop-security-analysi
 ```
 
 ### Hermes/CorpusIQ Relevance
-As Hermes agents gain more autonomous execution capabilities, security analysis skills become critical. This skill exemplifies the pattern of using agent skills for defensive security — evaluating external tools before granting them execution access.
+As Hermes agents gain more autonomous execution capabilities, security analysis skills become critical. This skill exemplifies the pattern of using agent skills for defensive security - evaluating external tools before granting them execution access.
 
 **Setup guide:** [metamask-openclaw-security-analysis-setup.md](/hermes/skills/catalog/metamask-openclaw-security-analysis-setup/)
 
 ---
 
-*Discovered via skills.sh API sweep — 18 broad queries across hermes, openclaw, clawdbot, honcho, gbrain ecosystems. Cross-referenced against all existing docs at corpusiq-docs/hermes/skills/.*
+*Discovered via skills.sh API sweep - 18 broad queries across hermes, openclaw, clawdbot, honcho, gbrain ecosystems. Cross-referenced against all existing docs at corpusiq-docs/hermes/skills/.*

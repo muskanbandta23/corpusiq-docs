@@ -1,5 +1,5 @@
 ---
-title: "Kostja94 Marketing Skills — Copywriting, SEO, ads, and"
+title: "Kostja94 Marketing Skills - Copywriting, SEO, ads, and"
 description: 7+ marketing-focused skills covering copywriting (3K), programmatic SEO (1.7K), Meta ads (1.7K), Google Search Console (1.3K), TikTok ads (1K), legal pages, and website structure. 7.6K+ combined installs, 760⭐.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/kostja94-marketing-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Kostja94 Marketing Skills — Setup Guide
+# Kostja94 Marketing Skills - Setup Guide
 
 **Source:** [kostja94/marketing-skills](https://github.com/kostja94/marketing-skills) (760⭐, 7,600+ combined installs)
 **Category:** Marketing & Growth
@@ -36,13 +36,13 @@ npx skills add kostja94/marketing-skills --skill website-structure
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **copywriting** | 3.0K | Short-form marketing copy — headlines, CTAs, ad copy, landing pages, email copy. Uses PAS, AIDA, BAB, FAB, and 4 U's frameworks. Checks project context for brand voice |
+| **copywriting** | 3.0K | Short-form marketing copy - headlines, CTAs, ad copy, landing pages, email copy. Uses PAS, AIDA, BAB, FAB, and 4 U's frameworks. Checks project context for brand voice |
 | **programmatic-seo** | 1.7K | Generate SEO-optimized pages at scale using data sources, templates, and keyword research |
-| **meta-ads** | 1.7K | Create and manage Meta (Facebook/Instagram) ad campaigns — targeting, creative, budget, optimization |
-| **google-search-console** | 1.3K | Query GSC data — search performance, indexing status, sitemaps, core web vitals. API-first approach |
-| **tiktok-ads** | 1.0K | TikTok advertising — creative best practices, audience targeting, Spark Ads, TikTok Shop integration |
+| **meta-ads** | 1.7K | Create and manage Meta (Facebook/Instagram) ad campaigns - targeting, creative, budget, optimization |
+| **google-search-console** | 1.3K | Query GSC data - search performance, indexing status, sitemaps, core web vitals. API-first approach |
+| **tiktok-ads** | 1.0K | TikTok advertising - creative best practices, audience targeting, Spark Ads, TikTok Shop integration |
 | **legal-page-generator** | 958 | Generate privacy policies, terms of service, cookie notices, and GDPR/CCPA compliance pages |
-| **website-structure** | 953 | Audit and optimize website information architecture — URL structure, internal linking, crawl depth |
+| **website-structure** | 953 | Audit and optimize website information architecture - URL structure, internal linking, crawl depth |
 
 ---
 
@@ -66,17 +66,17 @@ Framework-driven copywriting that adapts to brand voice. Reads `.claude/project-
 Generate hundreds or thousands of landing pages from structured data. Combine keyword research, templates, and data sources to create SEO-optimized content at scale. Ideal for directory sites, location pages, and product variant pages.
 
 ### Paid Advertising
-End-to-end campaign management for Meta and TikTok. Covers creative generation, audience targeting, budget optimization, A/B testing, and performance analysis. Distinct from strategy skills — these are execution-focused.
+End-to-end campaign management for Meta and TikTok. Covers creative generation, audience targeting, budget optimization, A/B testing, and performance analysis. Distinct from strategy skills - these are execution-focused.
 
 ### Google Search Console API
-Direct API access to search performance data — clicks, impressions, CTR, position. Query by page, query, country, device. Monitor indexing status, submit sitemaps, and track core web vitals.
+Direct API access to search performance data - clicks, impressions, CTR, position. Query by page, query, country, device. Monitor indexing status, submit sitemaps, and track core web vitals.
 
 ---
 
 ## Quick Start
 
 ```bash
-# Copywriting — generate ad headlines using PAS framework
+# Copywriting - generate ad headlines using PAS framework
 npx skills use kostja94/marketing-skills@copywriting
 
 # Check GSC performance for last 28 days
@@ -98,9 +98,9 @@ npx skills list | grep kostja94
 
 ## Notes
 
-- Copywriting skill auto-detects project context files for brand voice — works seamlessly with Hermes projects that have CONSTITUTION.md or brand guidelines
-- Programmatic SEO is particularly powerful for CorpusIQ's growth strategy — generate landing pages for each vertical/use case
-- GSC skill uses Google API directly, not scraping — requires OAuth setup but provides reliable data
-- Legal page generator covers GDPR (EU), CCPA (California), and standard privacy policies — useful for rapid landing page deployment
+- Copywriting skill auto-detects project context files for brand voice - works seamlessly with Hermes projects that have CONSTITUTION.md or brand guidelines
+- Programmatic SEO is particularly powerful for CorpusIQ's growth strategy - generate landing pages for each vertical/use case
+- GSC skill uses Google API directly, not scraping - requires OAuth setup but provides reliable data
+- Legal page generator covers GDPR (EU), CCPA (California), and standard privacy policies - useful for rapid landing page deployment
 - Complements existing catalog entries: `seo-audit`, `content-strategy`, `copywriting` skills from other publishers
-- MIT licensed — safe for commercial use
+- MIT licensed - safe for commercial use

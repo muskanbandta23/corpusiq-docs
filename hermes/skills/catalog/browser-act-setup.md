@@ -1,5 +1,5 @@
 ---
-title: browser-act — Record-and-Replay Browser Automation for Hermes
+title: browser-act - Record-and-Replay Browser Automation for Hermes
 description: Install and use browser-act/skills@browser-act (99K installs) for agent-native browser automation. Record interactions as reusable templates, replay with parameter substitution, and evade bot detection.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-act-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# browser-act — Setup Guide
+# browser-act - Setup Guide
 
 **Source:** [browser-act/skills](https://github.com/browser-act/skills) (99,500 installs)
 **Category:** Browser Automation
 **Languages:** Python + Playwright
 
-Agent-native browser automation framework. Unlike selector-based or accessibility-tree approaches, browser-act uses a "record-and-replay" paradigm — agents record browser interactions as reusable skill templates, then replay them with parameter substitution. Includes browser-act-skill-forge (78.7K installs) for visual template editing.
+Agent-native browser automation framework. Unlike selector-based or accessibility-tree approaches, browser-act uses a "record-and-replay" paradigm - agents record browser interactions as reusable skill templates, then replay them with parameter substitution. Includes browser-act-skill-forge (78.7K installs) for visual template editing.
 
 ---
 
@@ -149,7 +149,7 @@ browser-act record --name "postiz-health" --start-url "https://app.postiz.com"
 |---|---|---|
 | **Interaction model** | Record-and-replay | Accessibility tree (refs) |
 | **Best for** | Repeated workflows, social media | One-off exploration, scraping |
-| **Template reuse** | Yes — parameter substitution | No — manual each time |
+| **Template reuse** | Yes - parameter substitution | No - manual each time |
 | **Anti-detection** | Built-in (fingerprint, timing, proxy) | Minimal (Chrome for Testing) |
 | **Learning curve** | Moderate (record once) | Low (snap + ref) |
 | **Speed** | Slower (human timing) | Fast (native Rust) |
@@ -174,6 +174,6 @@ browser-act record --name "postiz-health" --start-url "https://app.postiz.com"
 
 ## See Also
 
-- [agent-browser](/hermes/skills/catalog/agent-browser-setup/) — Accessibility-tree browser automation (553K installs)
-- [browser-use-automation](/hermes/skills/catalog/) — Python browser automation framework (85K installs)
-- [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup/) — Web scraping Actors (2.2K⭐)
+- [agent-browser](/hermes/skills/catalog/agent-browser-setup/) - Accessibility-tree browser automation (553K installs)
+- [browser-use-automation](/hermes/skills/catalog/) - Python browser automation framework (85K installs)
+- [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup/) - Web scraping Actors (2.2K⭐)

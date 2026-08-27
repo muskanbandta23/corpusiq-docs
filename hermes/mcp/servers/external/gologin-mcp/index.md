@@ -1,6 +1,6 @@
 ---
 title: "GoLogin MCP Server - CorpusIQ Docs"
-description: "Browser profile management for multi-account operations — create, configure, and control GoLogin profiles through AI"
+description: "Browser profile management for multi-account operations - create, configure, and control GoLogin profiles through AI"
 stars: 18
 language: JavaScript
 auth: "API Token"
@@ -19,7 +19,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # GoLogin MCP ★★ Official
 
-The official GoLogin MCP server. Lets AI agents create, configure, and control GoLogin browser profiles — the anti-detect browser infrastructure used by operators managing multiple social media, e-commerce, and advertising accounts. 18 stars, from GoLogin themselves.
+The official GoLogin MCP server. Lets AI agents create, configure, and control GoLogin browser profiles - the anti-detect browser infrastructure used by operators managing multiple social media, e-commerce, and advertising accounts. 18 stars, from GoLogin themselves.
 
 ## What It Does
 
@@ -69,12 +69,12 @@ npx @gologinapp/gologin-mcp
 
 ## Tools
 
-- `create_profile` — Create a new browser profile with specified fingerprint
-- `delete_profile` — Remove a profile
-- `list_profiles` — List all profiles in your account
-- `update_profile` — Modify fingerprint parameters
-- `launch_profile` — Start a browser session with the profile
-- `assign_proxy` — Attach a proxy to a profile
+- `create_profile` - Create a new browser profile with specified fingerprint
+- `delete_profile` - Remove a profile
+- `list_profiles` - List all profiles in your account
+- `update_profile` - Modify fingerprint parameters
+- `launch_profile` - Start a browser session with the profile
+- `assign_proxy` - Attach a proxy to a profile
 
 ## Limitations
 

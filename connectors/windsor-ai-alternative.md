@@ -25,11 +25,11 @@ CorpusIQ is a full business intelligence layer, not just marketing data. It cove
 
 ## The key difference
 
-Windsor.ai answers marketing questions. CorpusIQ answers business questions — across finance, operations, sales, marketing, and ecommerce simultaneously.
+Windsor.ai answers marketing questions. CorpusIQ answers business questions - across finance, operations, sales, marketing, and ecommerce simultaneously.
 
-"What is our true profit after ad spend, fees, returns, and COGS?" — that needs QuickBooks plus Shopify plus Google Ads plus Meta. CorpusIQ answers it in one question.
+"What is our true profit after ad spend, fees, returns, and COGS?" - that needs QuickBooks plus Shopify plus Google Ads plus Meta. CorpusIQ answers it in one question.
 
-[Try CorpusIQ free — 30-day trial, no credit card](https://www.corpusiq.io)
+[Try CorpusIQ free - 30-day trial, no credit card](https://www.corpusiq.io)
 ---
 
 *

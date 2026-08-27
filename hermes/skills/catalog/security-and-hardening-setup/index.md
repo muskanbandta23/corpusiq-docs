@@ -1,5 +1,5 @@
 ---
-title: Security Hardening for AI Agents — Full Setup Guide
+title: Security Hardening for AI Agents - Full Setup Guide
 description: Install and use addyosmani/agent-skills security-and-hardening. 12 hardening domains for production AI agent deployments by Addy Osmani (Google Chrome). 13,100+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/security-and-hardening-setup/"
 robots: "index,follow"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Security Hardening for AI Agents — Setup Guide
+# Security Hardening for AI Agents - Setup Guide
 
 **Source:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 **Skill:** `security-and-hardening` (13,100+ installs)
 **Category:** Security
 **Author:** Addy Osmani (Engineering Lead, Google Chrome)
 
-The first comprehensive security hardening guide purpose-built for AI agent threat models. Covers 12 hardening domains: prompt injection defense, tool call authorization, filesystem sandboxing, network egress controls, credential management, dependency auditing, telemetry minimization, runtime integrity verification, and more. Designed for agents with tool access — exactly the Hermes use case.
+The first comprehensive security hardening guide purpose-built for AI agent threat models. Covers 12 hardening domains: prompt injection defense, tool call authorization, filesystem sandboxing, network egress controls, credential management, dependency auditing, telemetry minimization, runtime integrity verification, and more. Designed for agents with tool access - exactly the Hermes use case.
 
 ---
 
@@ -70,7 +70,7 @@ Isolate agent sessions from each other. No shared state, no cross-session creden
 Structured audit trail of every agent action: tool invoked, parameters passed, result returned, timestamp, session ID. Immutable log storage. Alert on anomalous patterns (unusual tool calls, off-hours activity, unexpected file access).
 
 ### 11. Rate Limiting & DoS Protection
-Per-tool rate limiting to prevent runaway agent loops. Circuit breakers that halt the agent after N consecutive errors. Token budget enforcement — terminate session if context window approaches limits.
+Per-tool rate limiting to prevent runaway agent loops. Circuit breakers that halt the agent after N consecutive errors. Token budget enforcement - terminate session if context window approaches limits.
 
 ### 12. Recovery & Rollback
 Snapshot agent state before destructive operations. Rollback capability for file modifications, database writes, and configuration changes. Automatic cleanup of failed session artifacts.
@@ -150,11 +150,11 @@ security:
 
 | Use Case | Hardening Domain |
 |---|---|
-| **Cron job agents** | Session isolation, rate limiting, audit logging — prevent runaway cron tasks from consuming resources or leaking data |
-| **Multi-tenant Hermes** | Filesystem sandboxing, credential management, session isolation — prevent cross-tenant data leakage |
-| **Customer-facing agents** | Prompt injection defense, tool call authorization, telemetry minimization — protect against adversarial users |
-| **Growth agents (social)** | Network egress controls, rate limiting, audit logging — prevent platform bans from aggressive automation |
-| **CI/CD integration** | Dependency auditing, runtime integrity verification, recovery/rollback — secure the software supply chain |
+| **Cron job agents** | Session isolation, rate limiting, audit logging - prevent runaway cron tasks from consuming resources or leaking data |
+| **Multi-tenant Hermes** | Filesystem sandboxing, credential management, session isolation - prevent cross-tenant data leakage |
+| **Customer-facing agents** | Prompt injection defense, tool call authorization, telemetry minimization - protect against adversarial users |
+| **Growth agents (social)** | Network egress controls, rate limiting, audit logging - prevent platform bans from aggressive automation |
+| **CI/CD integration** | Dependency auditing, runtime integrity verification, recovery/rollback - secure the software supply chain |
 
 ---
 
@@ -169,11 +169,11 @@ npx skills run security-and-hardening --audit
 
 # Check filesystem permissions
 find ~/.hermes -type f -perm /o+r -ls 2>/dev/null
-# Should return nothing — no world-readable files
+# Should return nothing - no world-readable files
 
 # Check for exposed credentials
 grep -r "API_KEY\|TOKEN\|SECRET\|PASSWORD" ~/.hermes/profiles/ --include="*.yaml" 2>/dev/null
-# Should return nothing — credentials should be in env vars, not config files
+# Should return nothing - credentials should be in env vars, not config files
 ```
 
 ---

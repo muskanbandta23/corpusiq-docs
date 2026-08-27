@@ -1,6 +1,6 @@
 ---
 title: SG Arrival Card (SGAC) Automation Setup Guide
-description: Install and configure Freakingnolife/sg-arrival-card-skill — automated Singapore Arrival Card submission via browser, covering all three residency pathways with CAPTCHA handling and Angular SPA quirks
+description: Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways with CAPTCHA handling and Angular SPA quirks
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# SG Arrival Card — Browser Automation Setup
+# SG Arrival Card - Browser Automation Setup
 
 **Source:** [Freakingnolife/sg-arrival-card-skill](https://github.com/Freakingnolife/sg-arrival-card-skill)
 **Stars:** 2 ⭐ | **License:** MIT
@@ -19,7 +19,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-A browser-automation skill for submitting Singapore Arrival Cards (SGAC) via the ICA e-Services portal. Handles the Angular SPA's specific browser-automation quirks — reactive form validation, custom toggle buttons, CAPTCHA routing.
+A browser-automation skill for submitting Singapore Arrival Cards (SGAC) via the ICA e-Services portal. Handles the Angular SPA's specific browser-automation quirks - reactive form validation, custom toggle buttons, CAPTCHA routing.
 
 **Key design principle:** Capability-first and portable across agents (Hermes Agent, Claude Code, OpenClaw, Codex CLI). Maps abstract capabilities (Open, Click, Type, PageJS) to concrete agent tools via `references/portability.md`.
 
@@ -79,7 +79,7 @@ The skill includes two scripts for CAPTCHA extraction:
 # Then: scripts/save_captcha.py     (via execute_code)
 ```
 
-CAPTCHA images are extracted and **routed to the user for solving** — the skill intentionally does not attempt automated CAPTCHA solving.
+CAPTCHA images are extracted and **routed to the user for solving** - the skill intentionally does not attempt automated CAPTCHA solving.
 
 ## 5. Usage
 
@@ -119,7 +119,7 @@ Setting `.value` via JavaScript does NOT trigger Angular validation. Always use 
 |----------|-------------|
 | **Reference patterns** | Angular SPA quirks (click→type→commit cycle) apply to any government portal automation |
 | **CAPTCHA workflow** | User-in-the-loop CAPTCHA routing pattern is reusable for any form automation |
-| **Group submission** | Multiple travellers in one submission — pattern for batch form filling |
+| **Group submission** | Multiple travellers in one submission - pattern for batch form filling |
 | **Portability layer** | The `references/portability.md` pattern is a template for any multi-agent cross-platform skill |
 
 ## 8. Troubleshooting

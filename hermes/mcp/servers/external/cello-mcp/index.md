@@ -1,6 +1,6 @@
 ---
 title: "Cello MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Build and scale referral, partner, and affiliate programs from any MCP-compatible AI agent — live metrics, top referrer identification, churn alerts, and actionable recommendations
+description: Build and scale referral, partner, and affiliate programs from any MCP-compatible AI agent - live metrics, top referrer identification, churn alerts, and actionable recommendations
 category: Marketing / Growth
 stars: featured
 added: 2026-08-11
@@ -15,7 +15,7 @@ last_updated: "2026-08-12"
 
 # Cello MCP
 
-**Remote MCP server (Streamable HTTP, OAuth) for Cello.** Connect AI agents to your referral, partner, and affiliate program data — ask which referrers drive the most revenue, identify partners at risk of churning, get recommendations to improve conversion, and pull program metrics against benchmarks.
+**Remote MCP server (Streamable HTTP, OAuth) for Cello.** Connect AI agents to your referral, partner, and affiliate program data - ask which referrers drive the most revenue, identify partners at risk of churning, get recommendations to improve conversion, and pull program metrics against benchmarks.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,12 +27,12 @@ Category: Marketing / Growth / Referral Management
 
 ## Why This Matters for Operators
 
-Referral programs drive 30% higher LTV than non-referred customers (SaaS Capital, 2026). But most operators check referral dashboards monthly at best — missing the window to re-engage partners before they churn. Cello MCP puts this data in your AI agent's context so you can:
+Referral programs drive 30% higher LTV than non-referred customers (SaaS Capital, 2026). But most operators check referral dashboards monthly at best - missing the window to re-engage partners before they churn. Cello MCP puts this data in your AI agent's context so you can:
 
-1. **Ask "who should I reach out to today?"** — and get the top referrers ranked by revenue, not just volume
-2. **Catch churn before it happens** — identify partners whose referral activity dropped 50%+ in the last 30 days
-3. **Compare against benchmarks** — know if your 4.2% referral conversion rate is competitive
-4. **Validate integration health** — confirm attribution is working correctly without opening a dashboard
+1. **Ask "who should I reach out to today?"** - and get the top referrers ranked by revenue, not just volume
+2. **Catch churn before it happens** - identify partners whose referral activity dropped 50%+ in the last 30 days
+3. **Compare against benchmarks** - know if your 4.2% referral conversion rate is competitive
+4. **Validate integration health** - confirm attribution is working correctly without opening a dashboard
 
 For operators running any partner/referral/affiliate program, this is the first MCP server that puts program intelligence directly into your agent's tool set.
 

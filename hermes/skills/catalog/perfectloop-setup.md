@@ -1,6 +1,6 @@
 ---
-title: Perfectloop — Agent Loop Design Framework Setup Guide
-description: Install and configure sebmarion/hermes-agent-skill-perfectloop — a design-layer framework for building safe, testable, gated agent loops with objective verification
+title: Perfectloop - Agent Loop Design Framework Setup Guide
+description: Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective verification
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/perfectloop-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Perfectloop — Loop Design Framework Setup
+# Perfectloop - Loop Design Framework Setup
 
 **Source:** [sebmarion/hermes-agent-skill-perfectloop](https://github.com/sebmarion/hermes-agent-skill-perfectloop)
 **Stars:** 0 ⭐ | **License:** MIT
@@ -20,7 +20,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-A design-layer framework for turning vague automation ideas into safe, testable agent loops. Uses an 8-question core interview before any loop is designed — and will flatly reject bad loop candidates.
+A design-layer framework for turning vague automation ideas into safe, testable agent loops. Uses an 8-question core interview before any loop is designed - and will flatly reject bad loop candidates.
 
 **Core philosophy:** The job is not to "make an agent" by writing a big prompt. The job is to design the system that repeatedly prompts, observes, verifies, records state, learns, and safely decides the next action.
 
@@ -41,7 +41,7 @@ The skill's first job is a **loop fit test**. It kills:
 ## 2. Prerequisites
 
 - Hermes Agent (works with cron jobs, watchdogs, background agents)
-- No special tools — pure skill definition
+- No special tools - pure skill definition
 
 ## 3. Installation
 
@@ -61,14 +61,14 @@ ls ~/.hermes/skills/perfectloop/
 
 Before any loop is designed, Perfectloop answers these in order:
 
-1. **Should this be a loop at all?** — If the task happens once, say no.
-2. **What exactly is the falsifiable goal?** — Must be provably done or not done ("100 emails sent by 5 PM", not "improve engagement").
-3. **What outside signal can reject bad output?** — Must exist. The agent cannot verify its own work.
-4. **What persistent state survives between runs?** — A JSON file, DB row, or checkpoint that outlives the agent process.
-5. **What can the agent do, and what is forbidden?** — Explicit permission boundaries.
-6. **When does the loop stop, escalate, or clean itself up?** — Terminal conditions, budget limits, max retries.
-7. **Who/what verifies the verifier?** — Prevent the gate itself from going rogue.
-8. **If scheduled, what cleanup proves the controller is removed?** — Proof the cron job can be cleanly disabled.
+1. **Should this be a loop at all?** - If the task happens once, say no.
+2. **What exactly is the falsifiable goal?** - Must be provably done or not done ("100 emails sent by 5 PM", not "improve engagement").
+3. **What outside signal can reject bad output?** - Must exist. The agent cannot verify its own work.
+4. **What persistent state survives between runs?** - A JSON file, DB row, or checkpoint that outlives the agent process.
+5. **What can the agent do, and what is forbidden?** - Explicit permission boundaries.
+6. **When does the loop stop, escalate, or clean itself up?** - Terminal conditions, budget limits, max retries.
+7. **Who/what verifies the verifier?** - Prevent the gate itself from going rogue.
+8. **If scheduled, what cleanup proves the controller is removed?** - Proof the cron job can be cleanly disabled.
 
 If any answer is missing and materially changes the design, the skill asks the user. If low-stakes, it states a default and continues.
 
@@ -122,7 +122,7 @@ The skill explicitly warns against these 7 failure modes:
 | **Skills sweep cron** | Gate: GitHub API returns valid responses; State: last_discovered_id; Budget: max 100 API calls |
 | **Video generation pipeline** | Gate: HeyGen returns status="completed"; Stop: max 3 retries per video |
 | **Email watchdog** | State: last_polled_email_uid; Gate: SMTP delivery confirmed; Budget: max 10 replies/hour |
-| **Community engagement** | Reject outright — "engagement" is not falsifiable. Use observation-only instead. |
+| **Community engagement** | Reject outright - "engagement" is not falsifiable. Use observation-only instead. |
 
 ## 8. Troubleshooting
 

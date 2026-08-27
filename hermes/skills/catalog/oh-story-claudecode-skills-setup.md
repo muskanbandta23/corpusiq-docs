@@ -1,13 +1,13 @@
 ---
-title: Oh Story ClaudeCode Skills — Long-Form Writing & Browser CDP Setup
-description: "worldwonderer/oh-story-claudecode — 13 skills, 146.6K installs: story long/short write, analyze, scan, and deslop pipelines plus browser-cdp automation, covers, setup, review, and import for agent-driven long-form writing."
+title: Oh Story ClaudeCode Skills - Long-Form Writing & Browser CDP Setup
+description: "worldwonderer/oh-story-claudecode - 13 skills, 146.6K installs: story long/short write, analyze, scan, and deslop pipelines plus browser-cdp automation, covers, setup, review, and import for agent-driven long-form writing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "long-form content", "browser automation", "cdp"]
 ---
 
-# Oh Story ClaudeCode Skills — Setup Guide
+# Oh Story ClaudeCode Skills - Setup Guide
 
 **Source:** [worldwonderer/oh-story-claudecode](https://skills.sh/worldwonderer/oh-story-claudecode)
 **GitHub:** [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode)

@@ -30,7 +30,7 @@ Essential for MCP server operators who want to monetize:
 - Track per-client usage and enforce rate limits
 - No need to build billing logic into your server code
 
-**Rating:** ★★ — Early stage (1 GitHub star, created April 2026). Addresses a growing need as the MCP ecosystem matures toward monetization. Part of the same developer's "sapph1re" suite alongside Feedback Synthesis MCP.
+**Rating:** ★★ - Early stage (1 GitHub star, created April 2026). Addresses a growing need as the MCP ecosystem matures toward monetization. Part of the same developer's "sapph1re" suite alongside Feedback Synthesis MCP.
 
 ## Quick Integration
 

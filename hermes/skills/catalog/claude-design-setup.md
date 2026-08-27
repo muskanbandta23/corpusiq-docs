@@ -1,6 +1,6 @@
 ---
-title: "claude-design — Setup Guide - CorpusIQ Docs"
-description: Apply Claude/Apple design philosophy to any project — interface design, fluid physics, and animation principles for Hermes agents.
+title: "claude-design - Setup Guide - CorpusIQ Docs"
+description: Apply Claude/Apple design philosophy to any project - interface design, fluid physics, and animation principles for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-design-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# claude-design — Setup Guide
+# claude-design - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Skill:** `claude-design`
 **Installs:** 383
 
-The `claude-design` skill encodes Apple and Anthropic's approach to interface design and animation. It enables Hermes agents to apply principles of fluid motion, physics-based interaction, and minimal visual language to any project — from web apps to terminal interfaces.
+The `claude-design` skill encodes Apple and Anthropic's approach to interface design and animation. It enables Hermes agents to apply principles of fluid motion, physics-based interaction, and minimal visual language to any project - from web apps to terminal interfaces.
 
 ## Installation
 
@@ -54,17 +54,17 @@ After install, reload skills:
 ## CLI/Command Reference
 
 The skill integrates with Hermes' design capabilities:
-- `skill_view(name='claude-design')` — Load design principles
+- `skill_view(name='claude-design')` - Load design principles
 - Use `browser_vision()` to inspect UI screenshots against design principles
 - Combine with `apple-design` and `emil-design-eng` skills for full design coverage
 
 ## CorpusIQ Use Cases
 
-1. **Product UI audit** — Review CorpusIQ dashboard against Apple HIG
-2. **Marketing pages** — Design landing pages with fluid animation guidance
-3. **Agent UI components** — Design terminal and web interfaces for Hermes agents
-4. **Component library** — Establish design tokens and interaction patterns
-5. **Animation specification** — Define fluid transitions for CorpusIQ interfaces
+1. **Product UI audit** - Review CorpusIQ dashboard against Apple HIG
+2. **Marketing pages** - Design landing pages with fluid animation guidance
+3. **Agent UI components** - Design terminal and web interfaces for Hermes agents
+4. **Component library** - Establish design tokens and interaction patterns
+5. **Animation specification** - Define fluid transitions for CorpusIQ interfaces
 
 ## Troubleshooting
 

@@ -39,7 +39,7 @@ MORNING                  MIDDAY                EVENING
 | 17:00 | Evening Wrap-Up | `0 17 * * 1-5` | Generate end-of-day summary |
 | 17:30 | Tomorrow Prep | `30 17 * * 1-5` | Draft tomorrow's priorities and meeting prep |
 
-## Phase 1: Morning Briefing (06:30–08:15)
+## Phase 1: Morning Briefing (06:30-08:15)
 
 ### Data Collection (06:30)
 The agent pulls a snapshot from all connected systems:
@@ -96,7 +96,7 @@ Based on the briefing, the agent:
 4. Generates time blocks on the calendar for focused work periods
 5. Creates prep notes for meetings flagged as needing preparation
 
-## Phase 2: Execution Monitoring (09:00–16:00)
+## Phase 2: Execution Monitoring (09:00-16:00)
 
 ### Standup Summary (09:00)
 If the team does standups, generate a structured update:
@@ -115,7 +115,7 @@ Lightweight re-check of the morning's key metrics. Answer: has anything material
 ### Afternoon Reminder (14:00)
 Surface the most important task from the morning briefing that still hasn't been started or completed. Gentle nudge format  --  the tone should help, not nag.
 
-## Phase 3: Evening Wrap-Up (16:00–17:30)
+## Phase 3: Evening Wrap-Up (16:00-17:30)
 
 ### Pre-Wrap Collection (16:00)
 Gather data for the end-of-day report:

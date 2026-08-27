@@ -1,5 +1,5 @@
 ---
-title: Hermes Marketing Dashboard — Setup Guide for Hermes Agents
+title: Hermes Marketing Dashboard - Setup Guide for Hermes Agents
 description: Open-source marketing operations control center for AI agent teams. CRM, outreach sequencing, content ops, analytics powered by OpenClaw + SQLite. 970+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Marketing Dashboard — Setup Guide
+# Hermes Marketing Dashboard - Setup Guide
 
 **Source:** [aradotso/marketing-skills](https://github.com/builderz-labs/marketing-dashboard) (Community)
 **Skill:** `hermes-marketing-dashboard` · **Installs:** 970+ · **Category:** Marketing / Operations
@@ -27,7 +27,7 @@ npx skills add aradotso/marketing-skills@hermes-marketing-dashboard
 | Requirement | Details |
 |-------------|---------|
 | Node.js 18+ | Runtime for Next.js application |
-| pnpm | Package manager — `npm install -g pnpm` or `corepack enable` |
+| pnpm | Package manager - `npm install -g pnpm` or `corepack enable` |
 | OpenClaw CLI | Optional but recommended for agent integration |
 
 ## Quick Start

@@ -1,6 +1,6 @@
 ---
-title: "June 26, 2026 (Afternoon) — Agenthood 14-Agent Team"
-description: 38 newly catalogued skills — Agenthood's full AI engineering team (14 specialized agent roles) and Letta Code's complete 24-skill agent harness. Multi-agent architecture, memory systems, and self-improving agent infrastructure.
+title: "June 26, 2026 (Afternoon) - Agenthood 14-Agent Team"
+description: 38 newly catalogued skills - Agenthood's full AI engineering team (14 specialized agent roles) and Letta Code's complete 24-skill agent harness. Multi-agent architecture, memory systems, and self-improving agent infrastructure.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june26-2026-afternoon/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 26, 2026 (Afternoon Sweep)
+# New Skills Discovered - June 26, 2026 (Afternoon Sweep)
 
-**Sources:** [skills.sh](https://skills.sh) — [fworks-tech/agenthood](https://skills.sh/fworks-tech/agenthood), [letta-ai/letta-code](https://skills.sh/letta-ai/letta-code)
+**Sources:** [skills.sh](https://skills.sh) - [fworks-tech/agenthood](https://skills.sh/fworks-tech/agenthood), [letta-ai/letta-code](https://skills.sh/letta-ai/letta-code)
 **Total new catalogued:** 38 skills | **Combined repos:** 2
 **Date:** June 26, 2026
 
@@ -20,9 +20,9 @@ Two major additions fill gaps in our agent-infrastructure and multi-agent catego
 
 ## Skills Discovered
 
-### 1. Agenthood — 14-Agent AI Engineering Team (fworks-tech/agenthood)
+### 1. Agenthood - 14-Agent AI Engineering Team (fworks-tech/agenthood)
 
-Agenthood packages 14 specialized AI agent roles as individual skills.sh-compatible SKILL.md files. Each agent is a self-contained role with responsibilities, standards, and communication patterns. Drop them into any agent runtime — Claude Code, Copilot, Hermes Agent, or the standalone TypeScript CLI.
+Agenthood packages 14 specialized AI agent roles as individual skills.sh-compatible SKILL.md files. Each agent is a self-contained role with responsibilities, standards, and communication patterns. Drop them into any agent runtime - Claude Code, Copilot, Hermes Agent, or the standalone TypeScript CLI.
 
 **GitHub:** [fworks-tech/agenthood](https://github.com/fworks-tech/agenthood) · **npm:** `agenthood` (v3.0.0) · **License:** MIT
 
@@ -47,9 +47,9 @@ Agenthood packages 14 specialized AI agent roles as individual skills.sh-compati
 
 ---
 
-### 2. Letta Code — 24-Skill Stateful Agent Harness (letta-ai/letta-code)
+### 2. Letta Code - 24-Skill Stateful Agent Harness (letta-ai/letta-code)
 
-Letta Code is a stateful agent harness built by the creators of MemGPT. Agents have persistent memory, identity, and learn over time through rewriting their own memory, skills, and prompts. Previously only 1 skill was catalogued — this update documents the full 24-skill suite.
+Letta Code is a stateful agent harness built by the creators of MemGPT. Agents have persistent memory, identity, and learn over time through rewriting their own memory, skills, and prompts. Previously only 1 skill was catalogued - this update documents the full 24-skill suite.
 
 **GitHub:** [letta-ai/letta-code](https://github.com/letta-ai/letta-code) · **npm:** `@letta-ai/letta-code` · **Built on:** MemGPT research
 
@@ -77,7 +77,7 @@ Letta Code is a stateful agent harness built by the creators of MemGPT. Agents h
 | **modifying-the-harness** | Core | Modify the agent harness itself for custom behavior |
 | Plus 4 additional skills for channels, hooks, permissions, and secrets management | | |
 
-**Why this matters for Hermes:** Letta Code is the closest architectural cousin to Hermes Agent — both are stateful agent harnesses with memory, skills, and multi-agent orchestration. Skills like `converting-mcps-to-skills`, `defragmenting-memory`, and `dispatching-coding-agents` are directly applicable to Hermes workflows. The `acquiring-skills` skill installs from Hermes, ClawHub, and GitHub — creating a two-way skill ecosystem bridge.
+**Why this matters for Hermes:** Letta Code is the closest architectural cousin to Hermes Agent - both are stateful agent harnesses with memory, skills, and multi-agent orchestration. Skills like `converting-mcps-to-skills`, `defragmenting-memory`, and `dispatching-coding-agents` are directly applicable to Hermes workflows. The `acquiring-skills` skill installs from Hermes, ClawHub, and GitHub - creating a two-way skill ecosystem bridge.
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: "Emil Kowalski Skills — Design Engineering Suite Setup"
-description: "10 design-engineering skills from Emil Kowalski (Sonner, vaul) — 694.4K combined installs. Interface polish, animation review, Apple-design vocabulary, UI library selection, and prototyping for agents."
+title: "Emil Kowalski Skills - Design Engineering Suite Setup"
+description: "10 design-engineering skills from Emil Kowalski (Sonner, vaul) - 694.4K combined installs. Interface polish, animation review, Apple-design vocabulary, UI library selection, and prototyping for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/emilkowalski-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
 tags: ["hermes skill", "agent skill", "skill setup", "design"]
 ---
 
-# Emil Kowalski Skills — Setup Guide
+# Emil Kowalski Skills - Setup Guide
 
 **Source:** [skills.sh](https://www.skills.sh/emilkowalski/skills) (694.4K combined installs)
 **GitHub:** [emilkowalski/skills](https://github.com/emilkowalski/skills)
@@ -31,7 +31,7 @@ Installs all 10 skills. Hermes: place the SKILL.md files under your agent's skil
 
 | Skill | Installs | Use For |
 |---|---|---|
-| emil-design-eng | 204.4K | Fluid, tactile interface design — the core design-engineering doctrine |
+| emil-design-eng | 204.4K | Fluid, tactile interface design - the core design-engineering doctrine |
 | review-animations | 97.6K | Adversarial review of animation/motion code against craft bars |
 | animation-vocabulary | 85.1K | Reverse-lookup glossary: vague descriptions → named motion primitives |
 | apple-design | 77.0K | Apple's HIG-informed approach to fluid, physical interfaces |
@@ -49,17 +49,17 @@ Installs all 10 skills. Hermes: place the SKILL.md files under your agent's skil
 
 ## CorpusIQ Use Cases
 
-- **UI quality gate for agent-built dashboards** — run `review-animations` + `improve-animations` before shipping any agent-generated frontend, the same way `anti-ui-slop` gates visual design
-- **Docs site polish** — `find-animation-opportunities` on docs.corpusiq.io surfaces motion gaps in landing and onboarding flows
-- **Design-vocabulary alignment** — `animation-vocabulary` gives team prompts shared language when briefing video/graphics work (pairs with the HyperFrames pipeline)
+- **UI quality gate for agent-built dashboards** - run `review-animations` + `improve-animations` before shipping any agent-generated frontend, the same way `anti-ui-slop` gates visual design
+- **Docs site polish** - `find-animation-opportunities` on docs.corpusiq.io surfaces motion gaps in landing and onboarding flows
+- **Design-vocabulary alignment** - `animation-vocabulary` gives team prompts shared language when briefing video/graphics work (pairs with the HyperFrames pipeline)
 
 ## Limitations / Verification
 
-- Quality-tier judgement is subjective — the skills encode opinions, not measurements; treat verdicts as review feedback, not tests
+- Quality-tier judgement is subjective - the skills encode opinions, not measurements; treat verdicts as review feedback, not tests
 - Verify installation with `ls ~/.claude/skills/ | grep -i emil` or your agent's equivalent skills directory listing
 
 ## Related
 
-- [Uizze UI Skills — Anti-UI-Slop Design Quality Setup](/hermes/skills/catalog/uizze-ui-skills-setup/)
-- [Extract Design System — UI Token & Component Extraction Setup](/hermes/skills/catalog/extract-design-system-setup/)
+- [Uizze UI Skills - Anti-UI-Slop Design Quality Setup](/hermes/skills/catalog/uizze-ui-skills-setup/)
+- [Extract Design System - UI Token & Component Extraction Setup](/hermes/skills/catalog/extract-design-system-setup/)
 - [Apple Design](https://developer.apple.com/design/human-interface-guidelines)

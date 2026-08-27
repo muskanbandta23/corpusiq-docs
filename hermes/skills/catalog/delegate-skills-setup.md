@@ -1,5 +1,5 @@
 ---
-title: Delegate Skills — Background Agent Delegation Setup Guide
+title: Delegate Skills - Background Agent Delegation Setup Guide
 description: Install and configure delegate-skills to spawn background agent workers with git worktree isolation and self-healing monitoring. Works with Hermes and any AI with shell access.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/delegate-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Delegate Skills — Setup Guide
+# Delegate Skills - Setup Guide
 
 **Source:** [bassemZohdy/delegate-skills](https://github.com/bassemZohdy/delegate-skills)
 **Category:** Agent Infrastructure / Multi-Agent Orchestration
 **License:** MIT · **Published:** June 28, 2026
 
-Delegate long-running coding tasks to background agent workers with full git worktree isolation. The parent agent spawns a worker in a separate worktree, the worker does the task, and the parent gets a summary — without polluting the main working directory or context window. Self-healing monitoring restarts failed workers automatically.
+Delegate long-running coding tasks to background agent workers with full git worktree isolation. The parent agent spawns a worker in a separate worktree, the worker does the task, and the parent gets a summary - without polluting the main working directory or context window. Self-healing monitoring restarts failed workers automatically.
 
 ---
 
@@ -38,7 +38,7 @@ Parent Agent (Hermes)
 
 | Feature | Description |
 |---------|-------------|
-| **Git worktree isolation** | Each worker gets its own worktree — no collisions |
+| **Git worktree isolation** | Each worker gets its own worktree - no collisions |
 | **Self-healing monitoring** | Crashed workers are detected and restarted |
 | **Summary return** | Workers return structured results, not raw logs |
 | **Multi-agent support** | Claude Code, Hermes, any agent with shell access |

@@ -1,5 +1,5 @@
 ---
-title: "Hermes Tweet — X/Twitter Automation Plugin for Hermes"
+title: "Hermes Tweet - X/Twitter Automation Plugin for Hermes"
 description: "Install and configure the hermes-tweet plugin for native X/Twitter automation through Hermes Agent. Repo: Xquik-dev/hermes-tweet."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-tweet-setup/"
 robots: "index,follow"
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-Hermes Tweet is a native Hermes Agent plugin for X/Twitter automation built on Xquik. It lets your Hermes agents post tweets, read timelines, search Twitter, and engage with content — all through the Hermes plugin system.
+Hermes Tweet is a native Hermes Agent plugin for X/Twitter automation built on Xquik. It lets your Hermes agents post tweets, read timelines, search Twitter, and engage with content - all through the Hermes plugin system.
 
 **Key capabilities:**
 - Post tweets with media attachments
@@ -98,9 +98,9 @@ python3 -c "from hermes_tweet import TwitterPlugin; print('OK')"
 ## Pitfalls
 
 - Rate limits: X API enforces 50 posts/24h per user. The plugin auto-throttles but monitor `remaining` headers.
-- Xquik is NOT affiliated with X Corp — API behavior may differ from official X API v2.
+- Xquik is NOT affiliated with X Corp - API behavior may differ from official X API v2.
 - Media uploads require chunked upload for files >5MB.
-- Auth tokens expire after 2 hours — the plugin handles refresh automatically.
+- Auth tokens expire after 2 hours - the plugin handles refresh automatically.
 
 ## Related Skills
 

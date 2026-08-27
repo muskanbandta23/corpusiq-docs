@@ -1,6 +1,6 @@
 ---
-title: "Skill Repo Manager — Hermes Repository Setup Guide"
-description: Install and configure Victor-F-M-A-R/skywork-skill-skill-repo-manager — manage the complete lifecycle of Hermes skill GitHub repositories with sync, audit, and update detection
+title: "Skill Repo Manager - Hermes Repository Setup Guide"
+description: Install and configure Victor-F-M-A-R/skywork-skill-skill-repo-manager - manage the complete lifecycle of Hermes skill GitHub repositories with sync, audit, and update detection
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-repo-manager-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skill Repo Manager — Setup Guide
+# Skill Repo Manager - Setup Guide
 
 **Source:** [Victor-F-M-A-R/skywork-skill-skill-repo-manager](https://github.com/Victor-F-M-A-R/skywork-skill-skill-repo-manager)
 **Stars:** 0 ⭐ | **License:** None
@@ -19,7 +19,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-A Hermes agent skill that manages the complete lifecycle of GitHub repositories for all Hermes skills — sync, audit, update detection, topic/description management, and new repo creation. Built for managing the 18-skill Skywork ecosystem, but portable to any Hermes skill collection.
+A Hermes agent skill that manages the complete lifecycle of GitHub repositories for all Hermes skills - sync, audit, update detection, topic/description management, and new repo creation. Built for managing the 18-skill Skywork ecosystem, but portable to any Hermes skill collection.
 
 ### Included Scripts
 
@@ -103,7 +103,7 @@ skywork-skills-hub → Git submodule updated
 
 ## 6. Companion: Skywork Skills Hub
 
-This skill is paired with the [Skywork Skills Hub](https://github.com/Victor-F-M-A-R/skywork-skills-hub) — a monorepo that bundles 18 Hermes skills as Git submodules:
+This skill is paired with the [Skywork Skills Hub](https://github.com/Victor-F-M-A-R/skywork-skills-hub) - a monorepo that bundles 18 Hermes skills as Git submodules:
 
 | # | Skill | Category |
 |---|-------|----------|
@@ -147,7 +147,7 @@ All available as individual repos under `Victor-F-M-A-R/skywork-skill-*`.
 |---------|-------|-----|
 | `sync_all_skills.py` fails | Missing GitHub token | Export `GITHUB_TOKEN` or pass `--token` |
 | Audit reports false failures | Hermes API version mismatch | Update `references/hermes-compatibility.md` |
-| `check_updates.sh` silent | No changes detected | Normal — only reports when SHAs differ |
+| `check_updates.sh` silent | No changes detected | Normal - only reports when SHAs differ |
 | Submodule not updating | Hub not synced after skill push | Run `sync_all_skills.py` then update hub submodules |
 
 ---

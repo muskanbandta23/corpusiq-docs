@@ -1,6 +1,6 @@
 ---
-title: "LinkedIn MCP by GTM API — Integration Guide"
-description: "Managed LinkedIn MCP server for AI agents — search, connect, message, and enrich on LinkedIn. 20,000+ accounts at <1% ban rate."
+title: "LinkedIn MCP by GTM API - Integration Guide"
+description: "Managed LinkedIn MCP server for AI agents - search, connect, message, and enrich on LinkedIn. 20,000+ accounts at <1% ban rate."
 category: "Sales & Outreach"
 stars: "★★★"
 source: mcpservers.org
@@ -15,7 +15,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # LinkedIn MCP by GTM API
 
-The first production-grade, ban-resistant LinkedIn MCP server. Managed by GTM API, this server handles the entire anti-bot stack — rotating residential IPs, browser fingerprinting, session management, and CAPTCHA solving — so your AI agent can focus on LinkedIn actions, not infrastructure.
+The first production-grade, ban-resistant LinkedIn MCP server. Managed by GTM API, this server handles the entire anti-bot stack - rotating residential IPs, browser fingerprinting, session management, and CAPTCHA solving - so your AI agent can focus on LinkedIn actions, not infrastructure.
 
 ## What It Does
 
@@ -33,7 +33,7 @@ Before this MCP, AI-driven LinkedIn outreach meant:
 3. Human tracks responses in a CRM
 4. Human follows up
 
-Now: AI agent searches LinkedIn → enriches with Apollo.io data → sends connection request → follows up with message → logs to CRM — all in one workflow.
+Now: AI agent searches LinkedIn → enriches with Apollo.io data → sends connection request → follows up with message → logs to CRM - all in one workflow.
 
 ## Setup
 
@@ -109,13 +109,13 @@ mcp_servers:
 ## Anti-Ban Architecture
 
 GTM API's infrastructure includes:
-- **Rotating residential IPs:** 50K+ IPs across 195 countries — no datacenter IP blocks
+- **Rotating residential IPs:** 50K+ IPs across 195 countries - no datacenter IP blocks
 - **Browser fingerprinting:** Real Chrome fingerprints with consistent WebGL, canvas, and font profiles
 - **Session management:** Persistent sessions with human-like activity patterns (random delays, scroll behavior)
 - **CAPTCHA solving:** Automatic FunCaptcha and reCAPTCHA resolution
 - **Rate limiting:** Intelligent backoff based on LinkedIn's current enforcement posture
 
-This is why they achieve <1% ban rate across 20,000+ accounts — operators don't need to understand any of this. The AI agent just calls tools.
+This is why they achieve <1% ban rate across 20,000+ accounts - operators don't need to understand any of this. The AI agent just calls tools.
 
 ## Use Cases
 
@@ -151,6 +151,6 @@ Agent: "Find ML engineers at FAANG companies who contribute to PyTorch on GitHub
 
 ## See Also
 
-- [[apollo-io-mcp]] — B2B contact enrichment (complementary)
-- [[x-use-mcp]] — X/Twitter automation (similar approach)
-- [[mercury-mcp]] — Banking for operators (fintech stack)
+- [[apollo-io-mcp]] - B2B contact enrichment (complementary)
+- [[x-use-mcp]] - X/Twitter automation (similar approach)
+- [[mercury-mcp]] - Banking for operators (fintech stack)

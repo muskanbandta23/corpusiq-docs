@@ -1,6 +1,6 @@
 ---
-title: "endoflife.ai MCP — Integration Guide"
-description: "Connect AI agents to endoflife.ai for software end-of-life intelligence — EOL dates, support status, and CVE risk scores across 485+ tracked products."
+title: "endoflife.ai MCP - Integration Guide"
+description: "Connect AI agents to endoflife.ai for software end-of-life intelligence - EOL dates, support status, and CVE risk scores across 485+ tracked products."
 category: mcp
 tags: [mcp-server, devops, security, eol, risk-management]
 last_updated: 2026-07-19
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# endoflife.ai MCP — Integration Guide
+# endoflife.ai MCP - Integration Guide
 
 **Source:** mcp.so (remote MCP server, verified)  
 **Author:** endoflife-ai  
@@ -19,7 +19,7 @@ robots: "index,follow"
 
 ## What It Does
 
-endoflife.ai is the authoritative EOL (end-of-life) database for software. The MCP server exposes EOL dates, support status, and the 0-100 **EOL Risk Score** across **485+ tracked products and 8,000+ versions** — Node.js, Python, PHP, RHEL, Ubuntu, Java, Kubernetes, and more. Updated daily. Free, no signup.
+endoflife.ai is the authoritative EOL (end-of-life) database for software. The MCP server exposes EOL dates, support status, and the 0-100 **EOL Risk Score** across **485+ tracked products and 8,000+ versions** - Node.js, Python, PHP, RHEL, Ubuntu, Java, Kubernetes, and more. Updated daily. Free, no signup.
 
 AI agents can:
 - Check a single version's EOL date and support status
@@ -27,7 +27,7 @@ AI agents can:
 - Assess EOL risk across an entire tech stack
 - Get upgrade path recommendations before security patches stop
 
-Think of it as "software dependency health monitoring" — operators can ask their AI assistant "what in our stack is going EOL this quarter?" and get an immediate, sourced answer.
+Think of it as "software dependency health monitoring" - operators can ask their AI assistant "what in our stack is going EOL this quarter?" and get an immediate, sourced answer.
 
 ## Why This Matters for Operators
 
@@ -79,7 +79,7 @@ mcp_servers:
 Once connected, ask your AI assistant:
 
 - *"What versions of Node.js are still supported?"*
-- *"Check our stack for EOL risks — we run Python 3.8, PostgreSQL 12, and Ubuntu 20.04"*
+- *"Check our stack for EOL risks - we run Python 3.8, PostgreSQL 12, and Ubuntu 20.04"*
 - *"When does Kubernetes 1.27 go end-of-life?"*
 - *"What should we upgrade before Q4? List all EOL dates for our dependencies."*
 - *"Give me an EOL risk score for our infrastructure stack."*
@@ -120,10 +120,10 @@ The MCP server exposes these primary capabilities:
 
 ## See Also
 
-- Vibgrate MCP — Dependency drift and CVE scanning MCP
-- Docker MCP — Docker container management
-- Shieldly AWS MCP — AWS security analysis MCP
-- [endoflife.ai website](https://endoflife.ai) — Full product database
+- Vibgrate MCP - Dependency drift and CVE scanning MCP
+- Docker MCP - Docker container management
+- Shieldly AWS MCP - AWS security analysis MCP
+- [endoflife.ai website](https://endoflife.ai) - Full product database
 
 ---
 

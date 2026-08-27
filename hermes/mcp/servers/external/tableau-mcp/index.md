@@ -1,5 +1,5 @@
 ---
-title: "Tableau MCP — Integration Guide"
+title: "Tableau MCP - Integration Guide"
 description: Connect AI agents to Tableau Cloud/Server for BI queries, workbook access, and data visualization through MCP.
 github: https://github.com/tableau/tableau-mcp
 stars: 315
@@ -15,13 +15,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Tableau MCP — Integration Guide
+# Tableau MCP - Integration Guide
 
 ## Overview
 
 Tableau's official MCP server lets AI agents connect to Tableau Cloud or Tableau Server to query data sources, list workbooks and views, execute calculated fields, and retrieve visualization data. It's the second major BI platform to ship MCP (after Metabase on July 26), opening enterprise BI to agent-driven analysis.
 
-For operators, this means: ask "what was Q2 revenue by region?" and your AI agent queries Tableau's semantic layer directly — no dashboard screenshots, no CSV exports, no context switching.
+For operators, this means: ask "what was Q2 revenue by region?" and your AI agent queries Tableau's semantic layer directly - no dashboard screenshots, no CSV exports, no context switching.
 
 ## Quick Start
 
@@ -57,8 +57,8 @@ Or add to your MCP client config:
 ### Authentication
 
 Tableau MCP supports:
-1. **Personal Access Tokens (PAT)** — Recommended. Create in Tableau Cloud/Server → My Account Settings → Personal Access Tokens.
-2. **OAuth 2.0** — For multi-user deployments.
+1. **Personal Access Tokens (PAT)** - Recommended. Create in Tableau Cloud/Server → My Account Settings → Personal Access Tokens.
+2. **OAuth 2.0** - For multi-user deployments.
 
 Token permissions determine what the AI agent can access. Start with read-only for data sources and workbooks.
 
@@ -105,13 +105,13 @@ Combine with cron or scheduled triggers to have AI agents pull Tableau data, ana
 
 - **PAT scope matters:** Create purpose-specific tokens with minimum required permissions
 - **Read-only first:** Start with read-only data source permissions, expand cautiously
-- **No write tools (currently):** Tableau MCP is read-only — safe for production use
+- **No write tools (currently):** Tableau MCP is read-only - safe for production use
 - **Network access:** Agent needs network access to your Tableau Cloud/Server instance
 - **Audit trail:** All queries appear in Tableau's admin logs under the PAT owner
 
 ## Pricing
 
-Tableau MCP is free and open source (MIT license). Requires an existing Tableau Cloud or Server license — no additional MCP-specific cost.
+Tableau MCP is free and open source (MIT license). Requires an existing Tableau Cloud or Server license - no additional MCP-specific cost.
 
 ## Comparison: Tableau vs Metabase MCP
 
@@ -129,6 +129,6 @@ Both complement CorpusIQ's business intelligence stack. Tableau for enterprises 
 
 ## See Also
 
-- [Metabase MCP Guide](/hermes/mcp/servers/external/metabase-mcp/) — Another BI platform with MCP
-- [Stripe MCP Guide](/hermes/mcp/servers/external/stripe-mcp/) — Financial data via MCP
+- [Metabase MCP Guide](/hermes/mcp/servers/external/metabase-mcp/) - Another BI platform with MCP
+- [Stripe MCP Guide](/hermes/mcp/servers/external/stripe-mcp/) - Financial data via MCP
 - [Tableau Developer Docs](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm)

@@ -16,14 +16,14 @@ description: "Atlassian API token authentication. Generate an API token at https
 
 # Confluence to Markdown MCP Server
 
-MCP server for **hybrid search over locally-saved and indexed Confluence content**. Sync your Confluence spaces to local markdown files, then search everything from any AI agent — no Confluence API rate limits, offline-capable.
+MCP server for **hybrid search over locally-saved and indexed Confluence content**. Sync your Confluence spaces to local markdown files, then search everything from any AI agent - no Confluence API rate limits, offline-capable.
 
 ## What It Does
 
-- **Confluence Sync** — Export Confluence spaces to local markdown files
-- **Indexed Search** — Full-text search across all synced Confluence content
-- **Hybrid Mode** — Search local index first, fall back to Confluence API for live data
-- **Offline-First** — Cached content available even when Confluence is down
+- **Confluence Sync** - Export Confluence spaces to local markdown files
+- **Indexed Search** - Full-text search across all synced Confluence content
+- **Hybrid Mode** - Search local index first, fall back to Confluence API for live data
+- **Offline-First** - Cached content available even when Confluence is down
 
 ## Business Operator Use Cases
 
@@ -69,19 +69,19 @@ Atlassian API token authentication. Generate an API token at https://id.atlassia
 
 ## Tools Provided
 
-- `sync_space` — Export a Confluence space to local markdown
-- `search_content` — Full-text search across synced content
-- `get_page` — Retrieve a specific page by title or ID
-- `refresh_index` — Update local index with recent Confluence changes
-- `list_spaces` — View all synced spaces
+- `sync_space` - Export a Confluence space to local markdown
+- `search_content` - Full-text search across synced content
+- `get_page` - Retrieve a specific page by title or ID
+- `refresh_index` - Update local index with recent Confluence changes
+- `list_spaces` - View all synced spaces
 
 ## Limitations
 
-- **0 stars, brand new** — Created July 9, 2026. Early development.
-- **Initial sync time** — First sync of large Confluence instances can be slow (1000s of pages).
-- **No real-time updates** — Content is only as fresh as your last sync.
-- **Confluence license required** — You need access to a Confluence instance.
-- **Not official Atlassian** — Community project, not Atlassian-supported.
+- **0 stars, brand new** - Created July 9, 2026. Early development.
+- **Initial sync time** - First sync of large Confluence instances can be slow (1000s of pages).
+- **No real-time updates** - Content is only as fresh as your last sync.
+- **Confluence license required** - You need access to a Confluence instance.
+- **Not official Atlassian** - Community project, not Atlassian-supported.
 
 ## Operator Verdict
 

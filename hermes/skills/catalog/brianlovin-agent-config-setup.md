@@ -1,22 +1,22 @@
 ---
-title: "Brian Lovin Agent Config — Design Engineering Suite Setup"
-description: "brianlovin/agent-config — 19 skills, 33.6K installs: code simplification, UI slop removal (deslop), dependency cleanup (knip), and a full design-engineering workflow suite. 3/3 audit passes on the top skill."
+title: "Brian Lovin Agent Config - Design Engineering Suite Setup"
+description: "brianlovin/agent-config - 19 skills, 33.6K installs: code simplification, UI slop removal (deslop), dependency cleanup (knip), and a full design-engineering workflow suite. 3/3 audit passes on the top skill."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/brianlovin-agent-config-setup/"
 robots: "index,follow"
 last_updated: "2026-08-17"
 tags: ["hermes skill", "agent skill", "skill setup", "design engineering", "code quality", "deslop"]
 ---
 
-# Brian Lovin Agent Config — Setup Guide
+# Brian Lovin Agent Config - Setup Guide
 
 **Source:** [brianlovin/agent-config](https://skills.sh/brianlovin/agent-config)
 **GitHub:** [brianlovin/agent-config](https://github.com/brianlovin/agent-config)
 **Skills:** 19 skills · 33.6K total installs
 **Category:** Design Engineering
 **First Seen:** catalogued August 17, 2026 sweep (simplify on skills.sh since January 20, 2026)
-**Quality Tier:** 🟢 Production — Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass (3/3 on top skill simplify)
+**Quality Tier:** 🟢 Production - Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass (3/3 on top skill simplify)
 
-Brian Lovin's agent-config is a design-engineering quality suite: simplification and deslopping of code and UI, dependency hygiene, and release workflow tooling. The flagship `simplify` preserves exact functionality while applying project-specific standards, and `deslop` targets UI slop — the visual-debt equivalent of text slop. Both map directly onto our code-quality and design-polish goals.
+Brian Lovin's agent-config is a design-engineering quality suite: simplification and deslopping of code and UI, dependency hygiene, and release workflow tooling. The flagship `simplify` preserves exact functionality while applying project-specific standards, and `deslop` targets UI slop - the visual-debt equivalent of text slop. Both map directly onto our code-quality and design-polish goals.
 
 ---
 
@@ -44,9 +44,9 @@ npx skills add https://github.com/brianlovin/agent-config --skill simplify
 | Skill | Installs | Purpose |
 |---|---|---|
 | simplify | 13.5K | Code simplification preserving exact functionality; applies CLAUDE.md standards |
-| deslop | 2.8K | UI slop removal — visual-debt cleanup |
+| deslop | 2.8K | UI slop removal - visual-debt cleanup |
 | knip | 2.0K | Unused dependency and export detection |
-| rams | 1.2K | — |
+| rams | 1.2K | - |
 | find-skills | 1.1K | Skill discovery (separate implementation from vercel-labs' same-named skill) |
 | agent-browser | 1.1K | Browser interaction (separate from vercel-labs/agent-browser) |
 | favicon | 1.0K | Favicon generation |
@@ -79,9 +79,9 @@ npx skills add https://github.com/brianlovin/agent-config --skill simplify
 
 ## Limitations / Verification
 
-- Security audits on simplify: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass — clean on the flagship skill
+- Security audits on simplify: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass - clean on the flagship skill
 - Publisher-page install counts verified (13.5K + 2.8K + 2.0K + 14 more = 33.6K); GitHub 360 stars on the repo
-- Two skill names (find-skills, agent-browser) overlap vercel-labs' same-named skills — these are separate implementations from brianlovin
+- Two skill names (find-skills, agent-browser) overlap vercel-labs' same-named skills - these are separate implementations from brianlovin
 - Long-tail skills below 1K installs are early content; flagship value sits in simplify + deslop + knip
 
 ```bash

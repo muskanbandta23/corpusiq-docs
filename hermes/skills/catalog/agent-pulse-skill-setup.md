@@ -1,13 +1,13 @@
 ---
-title: Agent Pulse Skill — Local AI Agent Activity Monitor Setup
-description: "jane-o-o-o-o/agent-pulse-skill — agent-pulse (32.4K installs): CLI source of truth for local AI-agent activity via the agentpulse-cli PyPI package; monitors agent runs, sessions, and activity."
+title: Agent Pulse Skill - Local AI Agent Activity Monitor Setup
+description: "jane-o-o-o-o/agent-pulse-skill - agent-pulse (32.4K installs): CLI source of truth for local AI-agent activity via the agentpulse-cli PyPI package; monitors agent runs, sessions, and activity."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-pulse-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "monitoring", "cli", "observability"]
 ---
 
-# Agent Pulse Skill — Setup Guide
+# Agent Pulse Skill - Setup Guide
 
 **Source:** [jane-o-o-o-o/agent-pulse-skill](https://skills.sh/jane-o-o-o-o/agent-pulse-skill)
 **GitHub:** [jane-o-o-o-o/agent-pulse-skill](https://github.com/jane-o-o-o-o/agent-pulse-skill)
@@ -73,7 +73,7 @@ $env:PYTHONIOENCODING='utf-8'
 
 ## Limitations / Verification
 
-- Monitors local machine activity only — no remote fleet aggregation documented
+- Monitors local machine activity only - no remote fleet aggregation documented
 - Output includes emoji/box drawing; pipe through UTF-8-aware terminals
 
 ```bash
@@ -83,8 +83,8 @@ agent-pulse --help   # verify CLI is installed and working
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Sentry Dev Skill Setup](/hermes/skills/catalog/sentry-dev-skills-setup/) — error monitoring
-- [Hermes Stack Doctor](/hermes/skills/) — Hermes health audits
+- [Sentry Dev Skill Setup](/hermes/skills/catalog/sentry-dev-skills-setup/) - error monitoring
+- [Hermes Stack Doctor](/hermes/skills/) - Hermes health audits
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

@@ -5,7 +5,7 @@ description: "Google Ads is often the single largest acquisition channel, and th
 # Google Ads
 
 ## What it unlocks
-Google Ads is often the single largest acquisition channel, and the platform's reported conversions rarely match what GA4 or your CRM actually see. Connecting Google Ads lets CorpusIQ pull spend, clicks, impressions, and conversions at the campaign, ad group, keyword, and search-term level — then line them up next to GA4 sessions and revenue so you can see your real CAC.
+Google Ads is often the single largest acquisition channel, and the platform's reported conversions rarely match what GA4 or your CRM actually see. Connecting Google Ads lets CorpusIQ pull spend, clicks, impressions, and conversions at the campaign, ad group, keyword, and search-term level - then line them up next to GA4 sessions and revenue so you can see your real CAC.
 
 ## Before you connect
 - A Google account with access to the Google Ads customer ID you want to read
@@ -31,7 +31,7 @@ Read-only access to:
 - Campaigns with impressions, clicks, cost, conversions, CTR, and CPC
 - Ad groups and individual ads
 - Keyword performance with quality scores and impression share
-- Search terms — the actual queries that triggered your ads
+- Search terms - the actual queries that triggered your ads
 - Breakdowns by geography, device, age, and gender
 - Custom GAQL queries for anything else
 
@@ -45,9 +45,9 @@ CorpusIQ never creates campaigns, changes bids, or pauses ads.
 - "What's my true CAC and ROAS by channel?"
 
 ## Troubleshooting
-- **"No accounts found"** — The Google user you signed in with doesn't have access to any Ads account. Add yourself in Google Ads → Tools → Access and Security.
-- **MCC errors** — If you manage accounts through an MCC, you'll need to pass the manager customer ID as `login_customer_id` when querying client accounts.
-- **Conversion counts seem low** — Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
+- **"No accounts found"** - The Google user you signed in with doesn't have access to any Ads account. Add yourself in Google Ads → Tools → Access and Security.
+- **MCC errors** - If you manage accounts through an MCC, you'll need to pass the manager customer ID as `login_customer_id` when querying client accounts.
+- **Conversion counts seem low** - Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
 ---
 
 *

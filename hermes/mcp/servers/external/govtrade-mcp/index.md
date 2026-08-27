@@ -1,6 +1,6 @@
 ---
 title: "GovTrade MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Congressional trading disclosures over MCP — STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on Base.
+description: Congressional trading disclosures over MCP - STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on Base.
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-15
@@ -11,7 +11,7 @@ tags: [finance, congress, stock-act, insider-trading, market-intelligence, due-d
 
 # GovTrade MCP
 
-**Self-hosted stdio MCP server (Node, x402 payments)** — GovTrade wraps the live GovTrade x402 API so any agent can pull congressional trading disclosures with pre-computed anomaly scoring. Every trade is sourced from official STOCK Act filings for the House and Senate, scored for signal strength, and paid per call in USDC on Base with no subscription or API key. Built by Darcie Porter (`github.com/iamdarcie/govtrade-mcp`).
+**Self-hosted stdio MCP server (Node, x402 payments)** - GovTrade wraps the live GovTrade x402 API so any agent can pull congressional trading disclosures with pre-computed anomaly scoring. Every trade is sourced from official STOCK Act filings for the House and Senate, scored for signal strength, and paid per call in USDC on Base with no subscription or API key. Built by Darcie Porter (`github.com/iamdarcie/govtrade-mcp`).
 
 ```
 Server type: Self-hosted stdio (Node)
@@ -25,9 +25,9 @@ Built by: github.com/iamdarcie/govtrade-mcp
 
 ## Why This Matters for Operators
 
-Congressional trading data is public but effectively unusable raw: STOCK Act filings are spread across two chambers, filed with lags, and carry no signal about which disclosures actually matter. GovTrade turns that into scored intelligence. **An agent doing market or diligence work gets, per trade, a signal strength score, a Low/Medium/High label, and natural-language reasoning for why the trade is notable** — unusual size versus the politician's own history, committee overlap, or federal contract ties.
+Congressional trading data is public but effectively unusable raw: STOCK Act filings are spread across two chambers, filed with lags, and carry no signal about which disclosures actually matter. GovTrade turns that into scored intelligence. **An agent doing market or diligence work gets, per trade, a signal strength score, a Low/Medium/High label, and natural-language reasoning for why the trade is notable** - unusual size versus the politician's own history, committee overlap, or federal contract ties.
 
-For operators, this removes two manual workflows: keeping a watchlist of politically connected tickers, and eyeballing raw disclosure PDFs during due diligence. The server pays the underlying API per call from a funded wallet, so there is no account provisioning or key management to rotate — just a wallet with USDC and a stdio config block.
+For operators, this removes two manual workflows: keeping a watchlist of politically connected tickers, and eyeballing raw disclosure PDFs during due diligence. The server pays the underlying API per call from a funded wallet, so there is no account provisioning or key management to rotate - just a wallet with USDC and a stdio config block.
 
 ## Tools & Capabilities
 
@@ -62,7 +62,7 @@ cd govtrade-mcp && npm install
 }
 ```
 
-Setup requires a funded wallet with USDC on Base — the server pays the GovTrade API via x402 on every call. See the repository README for full instructions.
+Setup requires a funded wallet with USDC on Base - the server pays the GovTrade API via x402 on every call. See the repository README for full instructions.
 
 ## Business Relevance
 
@@ -73,15 +73,15 @@ Setup requires a funded wallet with USDC on Base — the server pays the GovTrad
 
 ## Integration with CorpusIQ
 
-GovTrade feeds the financial-connector layer CorpusIQ already exposes. Pair it with the Stripe connector to reconcile any x402 wallet top-ups against business spend, and with QuickBooks to log data-procurement costs as research expense. An operator can compose a diligence workflow where CorpusIQ pulls the company profile and payment history from QuickBooks and Stripe, then asks GovTrade whether its executives or relevant committee members traded the stock recently — turning a disclosure hunt into one agent call. The wallet-based pricing means every call leaves a USDC settlement trail that operators can audit alongside the rest of the financial stack.
+GovTrade feeds the financial-connector layer CorpusIQ already exposes. Pair it with the Stripe connector to reconcile any x402 wallet top-ups against business spend, and with QuickBooks to log data-procurement costs as research expense. An operator can compose a diligence workflow where CorpusIQ pulls the company profile and payment history from QuickBooks and Stripe, then asks GovTrade whether its executives or relevant committee members traded the stock recently - turning a disclosure hunt into one agent call. The wallet-based pricing means every call leaves a USDC settlement trail that operators can audit alongside the rest of the financial stack.
 
 ## Limitations
 
-- Brand new — no track record yet, single-author repo
+- Brand new - no track record yet, single-author repo
 - Pay-per-call requires a funded Base wallet with USDC, an extra operational step versus API keys
-- Congressional data is disclosed with lags — signals are computed on filings, not real-time trades
+- Congressional data is disclosed with lags - signals are computed on filings, not real-time trades
 - No tools detected on the listing; verify the live tool list against the repo before production use
-- Self-hosted stdio only — no published remote endpoint
+- Self-hosted stdio only - no published remote endpoint
 
 ## See Also
 

@@ -1,6 +1,6 @@
 ---
-title: "github/awesome-copilot — MCP Server Generators &"
-description: Install skills from github/awesome-copilot (13.1K+ installs) — MCP server generators (TypeScript/Python), GitHub workflow automation, and documentation tools. Works with GitHub Copilot and adaptable to Hermes agents.
+title: "github/awesome-copilot - MCP Server Generators &"
+description: Install skills from github/awesome-copilot (13.1K+ installs) - MCP server generators (TypeScript/Python), GitHub workflow automation, and documentation tools. Works with GitHub Copilot and adaptable to Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-copilot-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# github/awesome-copilot — Setup Guide
+# github/awesome-copilot - Setup Guide
 
 **Source:** [github/awesome-copilot](https://github.com/github/awesome-copilot) (13.1K installs for top skill)
 **Category:** Agent Tools / GitHub Automation
@@ -23,19 +23,19 @@ Community-created collection of custom agents, instructions, skills, hooks, work
 ### Via skills.sh (Universal)
 
 ```bash
-# MCP Server Generator (TypeScript) — 11.3K installs
+# MCP Server Generator (TypeScript) - 11.3K installs
 npx skills add github/awesome-copilot@typescript-mcp-server-generator
 
-# MCP Server Generator (Python) — 9.9K installs
+# MCP Server Generator (Python) - 9.9K installs
 npx skills add github/awesome-copilot@python-mcp-server-generator
 
-# MCP CLI tools — 9.5K installs
+# MCP CLI tools - 9.5K installs
 npx skills add github/awesome-copilot@mcp-cli
 
-# GitHub Issues automation — 13.1K installs
+# GitHub Issues automation - 13.1K installs
 npx skills add github/awesome-copilot@github-issues
 
-# Memory merger — 12.7K installs
+# Memory merger - 12.7K installs
 npx skills add github/awesome-copilot@memory-merger
 ```
 
@@ -61,20 +61,20 @@ npx skills list | grep awesome-copilot
 
 | Skill | Installs | Category | Hermes Relevance |
 |---|---|---|---|
-| **github-issues** | 13.1K | GitHub Automation | ✅ High — automate issue creation/management |
-| **microsoft-docs** | 13.2K | Documentation | ⬜ Medium — Microsoft-specific |
-| **typescript-mcp-server-generator** | 11.3K | MCP | ✅ High — generate MCP servers for Hermes |
-| **java-docs** | 10.3K | Documentation | ⬜ Low — Java-specific |
-| **python-mcp-server-generator** | 9.9K | MCP | ✅ High — generate Python MCP servers |
-| **create-github-action-workflow-specification** | 9.8K | CI/CD | ✅ High — GitHub Actions for Hermes CI |
-| **mcp-cli** | 9.5K | MCP | ✅ High — CLI tools for MCP server management |
-| **azure-deployment-preflight** | 9.4K | Deployment | ⬜ Medium — Azure-specific |
-| **csharp-docs** | 9.1K | Documentation | ⬜ Low — C#-specific |
-| **create-github-pull-request-from-specification** | 9K | GitHub | ✅ High — automated PR creation |
-| **create-github-issues-feature-from-implementation-plan** | 9K | GitHub | ✅ High — spec-to-issues automation |
-| **github-copilot-starter** | 8.8K | Onboarding | ⬜ Medium — Copilot onboarding |
-| **create-github-issues-for-unmet-specification-requirements** | 8.8K | GitHub | ✅ High — gap analysis automation |
-| **memory-merger** | 12.7K | Memory | ✅ High — merge agent memory across sessions |
+| **github-issues** | 13.1K | GitHub Automation | ✅ High - automate issue creation/management |
+| **microsoft-docs** | 13.2K | Documentation | ⬜ Medium - Microsoft-specific |
+| **typescript-mcp-server-generator** | 11.3K | MCP | ✅ High - generate MCP servers for Hermes |
+| **java-docs** | 10.3K | Documentation | ⬜ Low - Java-specific |
+| **python-mcp-server-generator** | 9.9K | MCP | ✅ High - generate Python MCP servers |
+| **create-github-action-workflow-specification** | 9.8K | CI/CD | ✅ High - GitHub Actions for Hermes CI |
+| **mcp-cli** | 9.5K | MCP | ✅ High - CLI tools for MCP server management |
+| **azure-deployment-preflight** | 9.4K | Deployment | ⬜ Medium - Azure-specific |
+| **csharp-docs** | 9.1K | Documentation | ⬜ Low - C#-specific |
+| **create-github-pull-request-from-specification** | 9K | GitHub | ✅ High - automated PR creation |
+| **create-github-issues-feature-from-implementation-plan** | 9K | GitHub | ✅ High - spec-to-issues automation |
+| **github-copilot-starter** | 8.8K | Onboarding | ⬜ Medium - Copilot onboarding |
+| **create-github-issues-for-unmet-specification-requirements** | 8.8K | GitHub | ✅ High - gap analysis automation |
+| **memory-merger** | 12.7K | Memory | ✅ High - merge agent memory across sessions |
 
 ---
 
@@ -165,12 +165,12 @@ hermes tool call create-pr-from-spec --spec feature-spec.md --branch feature/xyz
 
 | Approach | github/awesome-copilot | anthropics/skills@mcp-builder | Manual |
 |---|---|---|---|
-| **Install base** | 11.3K (TS), 9.9K (Py) | 91K | — |
+| **Install base** | 11.3K (TS), 9.9K (Py) | 91K | - |
 | **Languages** | TypeScript + Python | Multiple | Any |
 | **Automation** | Full generation from spec | Guided building | Manual coding |
 | **Hermes integration** | Via skills.sh install | Via skills.sh install | Direct |
 | **Best for** | Quick MCP server creation | Complex multi-tool servers | Custom requirements |
-| **Learning curve** | Low — natural language spec | Medium — MCP knowledge needed | High — MCP protocol expertise |
+| **Learning curve** | Low - natural language spec | Medium - MCP knowledge needed | High - MCP protocol expertise |
 
 **Recommendation:** Use `typescript-mcp-server-generator` or `python-mcp-server-generator` for rapid MCP connector creation. Fall back to `anthropics/skills@mcp-builder` for complex servers requiring multiple transports or advanced features.
 
@@ -190,8 +190,8 @@ hermes tool call create-pr-from-spec --spec feature-spec.md --branch feature/xyz
 
 ## See Also
 
-- [MCP Builder Setup](/hermes/skills/catalog/) — Anthropic's MCP builder (91K installs)
-- [Memory Merger Setup](/hermes/skills/catalog/memory-merger-setup/) — Already covered in catalog
-- [Skill Creator Setup](/hermes/skills/catalog/skill-creator-setup/) — Build your own skills (318K installs)
-- [wshobson Agents Marketplace](/hermes/skills/catalog/wshobson-agents-setup/) — 94-plugin marketplace
-- [Build MCP Server Setup](/hermes/skills/catalog/build-mcp-server-setup/) — Manual MCP server building
+- [MCP Builder Setup](/hermes/skills/catalog/) - Anthropic's MCP builder (91K installs)
+- [Memory Merger Setup](/hermes/skills/catalog/memory-merger-setup/) - Already covered in catalog
+- [Skill Creator Setup](/hermes/skills/catalog/skill-creator-setup/) - Build your own skills (318K installs)
+- [wshobson Agents Marketplace](/hermes/skills/catalog/wshobson-agents-setup/) - 94-plugin marketplace
+- [Build MCP Server Setup](/hermes/skills/catalog/build-mcp-server-setup/) - Manual MCP server building

@@ -1,5 +1,5 @@
 ---
-title: "Mermail — Privacy-First Email Inboxes for AI Agents"
+title: "Mermail - Privacy-First Email Inboxes for AI Agents"
 description: "Privacy-first email inboxes built for AI agents. Read, search, draft, send, and triage mail over Streamable HTTP MCP. Give your AI agent its own email"
 source: docs.mermail.app
 stars: 0
@@ -14,22 +14,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Mermail — Privacy-First Email Inboxes for AI Agents
+# Mermail - Privacy-First Email Inboxes for AI Agents
 
 **Email inboxes purpose-built for AI agents.** Mermail gives AI agents their own email address with full read, search, draft, send, and triage capabilities through MCP. Privacy-first: data is encrypted and not used for training.
 
 ## What It Does for Operators
 
-- **Agent email addresses** — Give your AI agent its own inbox (e.g., agent@yourcompany.mermail.app)
-- **Full email MCP** — Read, search, draft, send, and triage emails through MCP tools
-- **Privacy-first** — Encrypted storage, no training on your email data
-- **Streamable HTTP** — Remote endpoint, no local mail server needed
-- **Triage tools** — AI agents can categorize, prioritize, and draft responses
+- **Agent email addresses** - Give your AI agent its own inbox (e.g., agent@yourcompany.mermail.app)
+- **Full email MCP** - Read, search, draft, send, and triage emails through MCP tools
+- **Privacy-first** - Encrypted storage, no training on your email data
+- **Streamable HTTP** - Remote endpoint, no local mail server needed
+- **Triage tools** - AI agents can categorize, prioritize, and draft responses
 
 ## Installation
 
 ```bash
-# No installation — hosted platform
+# No installation - hosted platform
 # Sign up at mermail.app, create agent inboxes
 ```
 
@@ -61,10 +61,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Operator Use Cases
 
-1. **Customer Support** — Give AI agents their own support inbox. Agent triages, drafts responses, escalates complex issues.
-2. **Lead Qualification** — Route inbound leads to AI agent inbox. Agent researches, scores, and drafts responses.
-3. **Newsletter Management** — AI agent monitors newsletter subscriptions and reader replies.
-4. **Vendor Communications** — Dedicated agent inbox for vendor invoice follow-ups and order confirmations.
+1. **Customer Support** - Give AI agents their own support inbox. Agent triages, drafts responses, escalates complex issues.
+2. **Lead Qualification** - Route inbound leads to AI agent inbox. Agent researches, scores, and drafts responses.
+3. **Newsletter Management** - AI agent monitors newsletter subscriptions and reader replies.
+4. **Vendor Communications** - Dedicated agent inbox for vendor invoice follow-ups and order confirmations.
 
 ## CorpusIQ Angle
 
@@ -73,6 +73,6 @@ Mermail is the cleanest email MCP for operators who want to isolate AI agent ema
 ## Limitations
 
 - Separate email addresses (not your existing Gmail/Outlook)
-- New platform — deliverability and spam filtering TBD
+- New platform - deliverability and spam filtering TBD
 - API key auth only (no OAuth for individual users)
 - Pricing not publicly documented as of July 2026

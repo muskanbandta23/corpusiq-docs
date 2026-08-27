@@ -1,7 +1,7 @@
 # Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)
 
 ## What it unlocks
-Google Workspace is where most founders actually run their day — email, meetings, contracts, KPIs in a spreadsheet. It is also the single Google connection for everything Google: Analytics (GA4), Google Ads, and Search Console are all read through this one connector. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?", "what is my Google Ads spend?", or "what is on my calendar before the board meeting?" can pull straight from the original source.
+Google Workspace is where most founders actually run their day - email, meetings, contracts, KPIs in a spreadsheet. It is also the single Google connection for everything Google: Analytics (GA4), Google Ads, and Search Console are all read through this one connector. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?", "what is my Google Ads spend?", or "what is on my calendar before the board meeting?" can pull straight from the original source.
 
 ## Before you connect
 - A Google account (Workspace or personal Gmail both work)
@@ -11,7 +11,7 @@ Google Workspace is where most founders actually run their day — email, meetin
 1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
 2. Click Connect.
 3. Sign in with the Google account you use for work.
-4. <!-- screenshot: Google Workspace OAuth consent screen — scope list -->
+4. <!-- screenshot: Google Workspace OAuth consent screen - scope list -->
 5. Approve read access for Gmail, Calendar, and Drive when prompted.
 6. You'll be redirected back to CorpusIQ.
 
@@ -19,15 +19,15 @@ You'll see Google Workspace change from gray to green in your CorpusIQ dashboard
 
 ## What CorpusIQ can see
 Read-only access to:
-- **Gmail** — list and search messages, read individual messages
-- **Calendar** — list your calendars, list upcoming events, get a specific event, search events by text
-- **Drive** — list and search files, read file contents (Docs, PDFs, text), get Drive storage stats
-- **Sheets** — read ranges from any spreadsheet you have access to
-- **Google Analytics (GA4)** — traffic, sessions, users, conversions, acquisition
-- **Google Ads** — campaigns, ad groups, keywords, spend, clicks, conversions, search terms
-- **Search Console** — organic clicks, impressions, queries, pages, CTR
+- **Gmail** - list and search messages, read individual messages
+- **Calendar** - list your calendars, list upcoming events, get a specific event, search events by text
+- **Drive** - list and search files, read file contents (Docs, PDFs, text), get Drive storage stats
+- **Sheets** - read ranges from any spreadsheet you have access to
+- **Google Analytics (GA4)** - traffic, sessions, users, conversions, acquisition
+- **Google Ads** - campaigns, ad groups, keywords, spend, clicks, conversions, search terms
+- **Search Console** - organic clicks, impressions, queries, pages, CTR
 
-All of these come through the one Google Workspace connection. You do not connect GA4, Google Ads, or Search Console separately — they are included in this connector. The Google account you sign in with must have access to each Google product you want to read (for Ads, the account must be a user on the Ads customer ID).
+All of these come through the one Google Workspace connection. You do not connect GA4, Google Ads, or Search Console separately - they are included in this connector. The Google account you sign in with must have access to each Google product you want to read (for Ads, the account must be a user on the Ads customer ID).
 
 ## Google Ads permissions (exact scope)
 
@@ -48,9 +48,9 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - "Summarize today's meetings."
 
 ## Troubleshooting
-- **"Insufficient permissions"** — Google asks you to approve each scope on a separate checkbox. Reconnect and make sure you tick all of them.
-- **Workspace admin blocks the app** — Some Workspace admins restrict third-party apps. Ask your admin to allow CorpusIQ, or sign in with a personal Google account.
-- **Sheet read returns empty** — Confirm the spreadsheet ID and the range string (e.g. `Sheet1!A1:C10`). The ID is the long token in the sheet URL.
+- **"Insufficient permissions"** - Google asks you to approve each scope on a separate checkbox. Reconnect and make sure you tick all of them.
+- **Workspace admin blocks the app** - Some Workspace admins restrict third-party apps. Ask your admin to allow CorpusIQ, or sign in with a personal Google account.
+- **Sheet read returns empty** - Confirm the spreadsheet ID and the range string (e.g. `Sheet1!A1:C10`). The ID is the long token in the sheet URL.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ---

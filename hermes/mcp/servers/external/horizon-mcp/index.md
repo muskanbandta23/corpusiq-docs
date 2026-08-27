@@ -1,6 +1,6 @@
 ---
-title: "Horizon AI Intelligence MCP — Integration Guide"
-description: "Free AI-industry intelligence for agents — briefings, regulation tracker, and regional lenses. Provider: system-alchemist."
+title: "Horizon AI Intelligence MCP - Integration Guide"
+description: "Free AI-industry intelligence for agents - briefings, regulation tracker, and regional lenses. Provider: system-alchemist."
 category: mcp
 tags: [mcp-server, ai-intelligence, regulation, briefings, policy]
 last_updated: 2026-07-13
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Horizon AI Intelligence MCP — Integration Guide
+# Horizon AI Intelligence MCP - Integration Guide
 
 **Provider:** system-alchemist
 **GitHub:** system-alchemist
-**Category:** AI & Agents — Industry Intelligence
+**Category:** AI & Agents - Industry Intelligence
 **Listing:** mcp.so (July 13, 2026)
 
 ## Overview
@@ -24,8 +24,8 @@ Horizon AI Intelligence is a free MCP server providing AI-industry intelligence 
 
 - **Regulation tracking:** AI regulation is evolving rapidly (EU AI Act, US executive orders, China AI laws). Horizon tracks changes so operators don't have to.
 - **Competitive intelligence:** Briefings on AI industry movements help operators understand where the market is heading.
-- **Regional lenses:** Different rules apply in different regions — Horizon provides jurisdiction-specific context.
-- **Free:** No API key or payment required — lowers the barrier to AI industry awareness.
+- **Regional lenses:** Different rules apply in different regions - Horizon provides jurisdiction-specific context.
+- **Free:** No API key or payment required - lowers the barrier to AI industry awareness.
 
 ## Installation
 
@@ -57,8 +57,8 @@ Horizon AI Intelligence is a free MCP server providing AI-industry intelligence 
 
 ## Complementary to CorpusIQ
 
-CorpusIQ provides operational business data. Horizon provides the AI industry context around that data — operators can combine market intelligence with their own metrics for strategic decision-making.
+CorpusIQ provides operational business data. Horizon provides the AI industry context around that data - operators can combine market intelligence with their own metrics for strategic decision-making.
 
 ## Status
 
-⚠️ **New listing (July 13, 2026)** — early-stage, independent developer. Value proposition is strong (free, regulation-focused) but monitor for maintenance cadence before relying on it for compliance-critical workflows.
+⚠️ **New listing (July 13, 2026)** - early-stage, independent developer. Value proposition is strong (free, regulation-focused) but monitor for maintenance cadence before relying on it for compliance-critical workflows.

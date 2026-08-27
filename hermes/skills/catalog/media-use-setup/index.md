@@ -1,6 +1,6 @@
 ---
-title: Media Use — Setup Guide for Hermes Agents
-description: Install and use the media-use skill from heygen-com/hyperframes. Agent Media OS — resolve, generate, and operate on BGM, SFX, images, icons, voice, and color grades. 182.7K+ installs on skills.sh.
+title: Media Use - Setup Guide for Hermes Agents
+description: Install and use the media-use skill from heygen-com/hyperframes. Agent Media OS - resolve, generate, and operate on BGM, SFX, images, icons, voice, and color grades. 182.7K+ installs on skills.sh.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/media-use-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Media Use — Setup Guide
+# Media Use - Setup Guide
 
 **Source:** [heygen-com/hyperframes](https://skills.sh/heygen-com/hyperframes/media-use) (HeyGen)
 **Skill:** `media-use` · **Installs:** 182.7K+ · **Category:** Media & Video
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 The single skill for every media need in a HyperFrames project. Resolve background music, sound effects, images, icons, brand logos, voiceover, and color grades into frozen local files. Generate via TTS, music, and image models when the catalog misses. Operate on media (cut, reframe, transform). Reuse assets across projects.
 
-Think of it as the "media OS" — one verb (`resolve`), one skill, zero context noise.
+Think of it as the "media OS" - one verb (`resolve`), one skill, zero context noise.
 
 ---
 
@@ -82,7 +82,7 @@ Always check for reusable candidates first:
 node <SKILL_DIR>/scripts/resolve.mjs --type bgm --candidates
 ```
 
-The skill maintains an internal ledger — assets resolved in one project are reusable in others.
+The skill maintains an internal ledger - assets resolved in one project are reusable in others.
 
 ---
 
@@ -115,7 +115,7 @@ node <SKILL_DIR>/scripts/resolve.mjs --type grade \
   --project ./my-video
 ```
 
-The skill inspects the actual footage, proposes one correction, and persists it. It never silently mutates — you approve before application.
+The skill inspects the actual footage, proposes one correction, and persists it. It never silently mutates - you approve before application.
 
 ### Icon Resolution
 
@@ -176,9 +176,9 @@ The skill supports multiple providers for generation. Configure in `references/s
 
 ## Related Skills
 
-- [HyperFrames Setup Guide](/hermes/skills/catalog/hyperframes-setup/) — Core video composition skill
-- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup/) — General AI video creation
-- [SamuraiGPT Generative Media](/hermes/skills/catalog/samuraigpt-generative-media-setup/) — Alternative media generation
+- [HyperFrames Setup Guide](/hermes/skills/catalog/hyperframes-setup/) - Core video composition skill
+- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup/) - General AI video creation
+- [SamuraiGPT Generative Media](/hermes/skills/catalog/samuraigpt-generative-media-setup/) - Alternative media generation
 
 ---
 

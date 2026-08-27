@@ -1,13 +1,13 @@
 ---
-title: Agentix CEO Skill — AI Worker Team Orchestration Setup
-description: "agentix-cloud/skills — agentix-ceo (52.0K installs): orchestrate a team of AI workers with roles, tasks, and ephemeral Modal agents in supervised or autopilot mode, via SaaS or self-hosted."
+title: Agentix CEO Skill - AI Worker Team Orchestration Setup
+description: "agentix-cloud/skills - agentix-ceo (52.0K installs): orchestrate a team of AI workers with roles, tasks, and ephemeral Modal agents in supervised or autopilot mode, via SaaS or self-hosted."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentix-ceo-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "orchestration", "multi-agent"]
 ---
 
-# Agentix CEO Skill — Setup Guide
+# Agentix CEO Skill - Setup Guide
 
 **Source:** [agentix-cloud/skills](https://skills.sh/agentix-cloud/skills)
 **GitHub:** [agentix-cloud/skills](https://github.com/agentix-cloud/skills)
@@ -35,7 +35,7 @@ npx skills add agentix-cloud/skills --skill agentix-ceo
 | **Node.js + npx** | For the installer |
 
 ```bash
-# SaaS (default — zero config required)
+# SaaS (default - zero config required)
 export AGENTIX_API_URL=https://agentix.cloud
 
 # Self-hosted (set to your own instance URL instead)
@@ -72,7 +72,7 @@ export AGENTIX_API_URL=https://your-agentix-instance.example.com
 ## Limitations / Verification
 
 - Requires an Anthropic API key for workers; Snyk audit carries a warning (review before production use)
-- Worker cost depends on Modal usage — budget per task
+- Worker cost depends on Modal usage - budget per task
 
 ```bash
 curl -s "$AGENTIX_API_URL" | head -c 200   # verify endpoint reachability
@@ -81,7 +81,7 @@ curl -s "$AGENTIX_API_URL" | head -c 200   # verify endpoint reachability
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Ruflo Agent Orchestration](/hermes/skills/marketplace/new-july24-2026/) — orchestration comparison
+- [Ruflo Agent Orchestration](/hermes/skills/marketplace/new-july24-2026/) - orchestration comparison
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

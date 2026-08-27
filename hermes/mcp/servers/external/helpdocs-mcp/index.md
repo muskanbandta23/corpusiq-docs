@@ -11,7 +11,7 @@ tags: [knowledge-base, documentation, support, customer-support, analytics, cont
 
 # HelpDocs MCP
 
-**Remote MCP server (Streamable HTTP, account authorization)** — the official HelpDocs connector that lets AI assistants work directly in your knowledge base. Search and read articles, draft and update content, reorganize categories, and pull analytics on what readers actually search for — all from the assistant's interface.
+**Remote MCP server (Streamable HTTP, account authorization)** - the official HelpDocs connector that lets AI assistants work directly in your knowledge base. Search and read articles, draft and update content, reorganize categories, and pull analytics on what readers actually search for - all from the assistant's interface.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -76,7 +76,7 @@ HelpDocs MCP complements the CorpusIQ docs workflow: corpusiq-docs holds the pro
 
 - Available on certain plans only
 - Per-account endpoint with authorization flow per connection
-- Write access requires careful scoping — drafts first
+- Write access requires careful scoping - drafts first
 - Commercial SaaS
 
 ## See Also

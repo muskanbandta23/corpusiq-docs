@@ -15,14 +15,14 @@ Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for develo
 
 ## Overview
 
-A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's [model selection](/docs/hermes/best-practices/model-selection/) capabilities, you get a powerful AI workstation.
+A gaming PC delivers the highest raw inference performance for local AI models. With 8-24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50-200 tokens per second. Combined with Hermes Agent's [model selection](/docs/hermes/best-practices/model-selection/) capabilities, you get a powerful AI workstation.
 
 ## How It Works
 
 | Feature | Gaming PC Advantage |
 |---|---|
-| GPU memory | 8–24GB VRAM (runs 7B–70B models) |
-| Inference speed | 50–200 tokens/sec with CUDA |
+| GPU memory | 8-24GB VRAM (runs 7B-70B models) |
+| Inference speed | 50-200 tokens/sec with CUDA |
 | Cost per token | $0.00 (electricity only) |
 | Multi-GPU | Possible with NVLink |
 | Existing hardware | You already own it |
@@ -58,15 +58,15 @@ ollama run llama3.2 "say hello"
 ### Step 3: Pull Models That Fit Your VRAM
 
 ```bash
-# 6–8GB VRAM: 7B–8B models
+# 6-8GB VRAM: 7B-8B models
 ollama pull llama3.2          # ~4.7GB
 ollama pull mistral:7b         # ~4.1GB
 
-# 12–16GB VRAM: 13B–14B models
+# 12-16GB VRAM: 13B-14B models
 ollama pull qwen2.5:14b        # ~8.5GB
 ollama pull phi4:14b           # ~9.1GB
 
-# 20–24GB VRAM: 32B–34B models
+# 20-24GB VRAM: 32B-34B models
 ollama pull qwen2.5:32b        # ~20GB
 ollama pull codestral:22b      # ~13GB
 
@@ -131,7 +131,7 @@ sudo apt install libnvidia-gl-550  # For headless GPU rendering
 ## Benefits
 
 - **Zero API costs**: All inference runs locally on your GPU
-- **Maximum speed**: 50–200 tokens/sec with CUDA
+- **Maximum speed**: 50-200 tokens/sec with CUDA
 - **Complete privacy**: Models and data never leave your machine
 - **No rate limits**: Unlimited inference 24/7
 - **Multi-GPU ready**: Scale with NVLink for larger models
@@ -147,7 +147,7 @@ If you game on Windows, [follow the WSL2 guide](windows-wsl.md). GPU passthrough
 Yes. Set `OLLAMA_KEEP_ALIVE=10m` so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.
 
 ### What VRAM do I need for local LLMs?
-6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our [model selection guide](/docs/hermes/best-practices/model-selection/) for detailed recommendations.
+6-8GB VRAM handles 7B models. 12-16GB handles 13-14B models. 24GB handles 32B models. See our [model selection guide](/docs/hermes/best-practices/model-selection/) for detailed recommendations.
 
 ### Which GPU is best for Hermes Agent?
 Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ models. Multiple GPUs can be combined with NVLink.

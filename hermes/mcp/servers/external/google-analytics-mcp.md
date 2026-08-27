@@ -1,6 +1,6 @@
 ---
 title: Google Analytics 4 MCP Server Integration Guide
-description: AI-powered Google Analytics 4 access — pull reports, monitor realtime traffic, and manage GA4 properties directly from Hermes Agent. Built in Rust for performance.
+description: AI-powered Google Analytics 4 access - pull reports, monitor realtime traffic, and manage GA4 properties directly from Hermes Agent. Built in Rust for performance.
 category: mcp
 tags: [mcp, google-analytics, ga4, analytics, reporting, web-analytics, marketing, hermes-agent]
 last_updated: 2026-07-21
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# Google Analytics MCP — Web Analytics for Hermes Agent
+# Google Analytics MCP - Web Analytics for Hermes Agent
 
-Google Analytics MCP connects your AI agent to Google Analytics 4 — run reports, monitor realtime traffic, and manage properties without opening the GA4 dashboard. Built in Rust for fast report processing.
+Google Analytics MCP connects your AI agent to Google Analytics 4 - run reports, monitor realtime traffic, and manage properties without opening the GA4 dashboard. Built in Rust for fast report processing.
 
 ## What It Does
 
 Google Analytics MCP brings GA4 data into your agent workflow:
 
-- **Report generation** — Run custom GA4 reports with dimensions and metrics
-- **Realtime monitoring** — See active users, page views, and events happening right now
-- **Property management** — List and manage GA4 properties and data streams
-- **Audience insights** — Pull audience demographics, acquisition channels, and behavior flows
-- **Conversion tracking** — Monitor goal completions and ecommerce events
+- **Report generation** - Run custom GA4 reports with dimensions and metrics
+- **Realtime monitoring** - See active users, page views, and events happening right now
+- **Property management** - List and manage GA4 properties and data streams
+- **Audience insights** - Pull audience demographics, acquisition channels, and behavior flows
+- **Conversion tracking** - Monitor goal completions and ecommerce events
 
 ## Quick Setup
 
@@ -94,7 +94,7 @@ Find what content actually works:
 Agent prompt: "Show me the top 20 blog posts by organic traffic this month.
 For each, show: page views, avg engagement time, and conversion rate.
 Sort by conversions per 1,000 views. Flag any posts in the top 10
-by traffic that have below-average conversion rate — those need CTAs."
+by traffic that have below-average conversion rate - those need CTAs."
 ```
 
 ### 4. Realtime Launch Monitoring
@@ -125,11 +125,11 @@ This creates a single-pane view where your agent answers "which channel produces
 
 ## Limitations
 
-- GA4 API has daily quota limits — batch large historical pulls
+- GA4 API has daily quota limits - batch large historical pulls
 - Realtime API has limited dimensions vs standard reports
 - Service account setup requires Google Cloud Console access
 - Rust build required
-- Does not support Universal Analytics (UA) — GA4 only
+- Does not support Universal Analytics (UA) - GA4 only
 
 ---
 

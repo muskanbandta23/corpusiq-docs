@@ -1,6 +1,6 @@
 ---
-title: MCP Use Setup — Fullstack MCP Framework for Hermes Agents
-description: Install and configure mcp-use — the fullstack MCP framework for building MCP Apps and Servers. Python + TypeScript SDK, 10K+ GitHub stars.
+title: MCP Use Setup - Fullstack MCP Framework for Hermes Agents
+description: Install and configure mcp-use - the fullstack MCP framework for building MCP Apps and Servers. Python + TypeScript SDK, 10K+ GitHub stars.
 author: manufact.com
 repo: https://github.com/mcp-use/mcp-use
 stars: 10,317
@@ -41,7 +41,7 @@ npm install mcp-use
 | **Python** | 3.10+ for Python SDK |
 | **Node.js** | 18+ for TypeScript SDK |
 | **Hermes Agent** | v0.20.0+ with MCP support |
-| **MCP Inspector** | Optional — for debugging MCP servers |
+| **MCP Inspector** | Optional - for debugging MCP servers |
 
 ---
 
@@ -50,7 +50,7 @@ npm install mcp-use
 mcp-use unlocks three categories of MCP development:
 
 ### 1. MCP Apps (Agent-facing UI)
-Build interactive apps that agents can use — dashboards, forms, visualizations. Think of these as "websites for AI agents."
+Build interactive apps that agents can use - dashboards, forms, visualizations. Think of these as "websites for AI agents."
 
 ```python
 from mcp_use import MCPApp, ui
@@ -119,7 +119,7 @@ Hermes will auto-discover all tools, resources, and prompts exposed by the serve
 
 ## Why This Matters
 
-Before mcp-use, building MCP servers required manual implementation of the MCP protocol — JSON-RPC message handling, transport layer management, capability negotiation. mcp-use abstracts all of this behind a clean SDK:
+Before mcp-use, building MCP servers required manual implementation of the MCP protocol - JSON-RPC message handling, transport layer management, capability negotiation. mcp-use abstracts all of this behind a clean SDK:
 
 - **Python:** `pip install mcp-use` → `@server.tool()` decorator → done
 - **TypeScript:** `npm install mcp-use` → `server.tool()` → done
@@ -131,7 +131,7 @@ This reduces MCP server development from days to minutes.
 ## Production Notes
 
 - 10K+ GitHub stars, active daily development
-- Built by manufact.com — production MCP infrastructure provider
+- Built by manufact.com - production MCP infrastructure provider
 - Python package: 100K+ downloads/month (PyPI)
 - TypeScript package: growing rapidly (npm)
 - Full documentation at https://mcp-use.com/docs

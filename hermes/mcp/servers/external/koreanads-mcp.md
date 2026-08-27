@@ -9,21 +9,21 @@ website: "https://koreanads.com"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/koreanads-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "KoreanAds MCP — Korean Advertising Plans"
+title: "KoreanAds MCP - Korean Advertising Plans"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# KoreanAds MCP — Korean Advertising Plans
+# KoreanAds MCP - Korean Advertising Plans
 
 KoreanAds helps advertisers find advertising plans and opportunities in the Korean market. The MCP server provides programmatic access to Korean advertising inventory, pricing, and plan comparison.
 
 ## What It Does
 
-- **Ad plan discovery** — Browse advertising plans across Korean platforms and channels
-- **Market data** — Access pricing, reach estimates, and demographic data for Korean ad inventory
-- **Plan comparison** — Compare multiple advertising plans side by side
-- **Market intelligence** — Insights into Korean advertising trends and opportunities
+- **Ad plan discovery** - Browse advertising plans across Korean platforms and channels
+- **Market data** - Access pricing, reach estimates, and demographic data for Korean ad inventory
+- **Plan comparison** - Compare multiple advertising plans side by side
+- **Market intelligence** - Insights into Korean advertising trends and opportunities
 
 ## Quick Start
 
@@ -47,10 +47,10 @@ hermes mcp add koreanads --url https://koreanads.com/mcp
 
 ## Use Cases
 
-- **Korean market entry** — Research advertising costs and channels before launch
-- **Campaign planning** — Compare plans across platforms for optimal budget allocation
-- **Competitive intelligence** — Monitor Korean advertising landscape and pricing trends
-- **Agency workflow** — Automate plan discovery and comparison for client proposals
+- **Korean market entry** - Research advertising costs and channels before launch
+- **Campaign planning** - Compare plans across platforms for optimal budget allocation
+- **Competitive intelligence** - Monitor Korean advertising landscape and pricing trends
+- **Agency workflow** - Automate plan discovery and comparison for client proposals
 
 ---
 

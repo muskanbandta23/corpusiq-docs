@@ -13,7 +13,7 @@ description: "Automatically notify Bing, Yandex, Seznam, and other engines when 
 ## Use Case
 
 Every time a product page, blog post, or landing page changes on your site, search engines
-need to discover the update. By default they find it during their next crawl — which can take
+need to discover the update. By default they find it during their next crawl - which can take
 days. This recipe uses IndexNow to push the updated URL the moment it changes, cutting
 discovery lag from days to minutes.
 
@@ -38,13 +38,13 @@ changelog entries, content teams publishing blog posts on a schedule.
 
 ## Queries
 
-### 1 — Submit a single updated URL
+### 1 - Submit a single updated URL
 
 ```
 Submit https://www.yoursite.com/blog/post-slug to IndexNow.
 ```
 
-### 2 — Submit all Shopify products updated today
+### 2 - Submit all Shopify products updated today
 
 ```
 List all Shopify products updated in the last 24 hours and submit their URLs to IndexNow.
@@ -53,7 +53,7 @@ List all Shopify products updated in the last 24 hours and submit their URLs to 
 Expected flow: CorpusIQ queries Shopify for recently modified products, extracts their
 canonical URLs, and POSTs them in a single IndexNow batch.
 
-### 3 — Surface unindexed pages and push them
+### 3 - Surface unindexed pages and push them
 
 ```
 Which pages on our site have zero impressions in Search Console over the last 90 days?
@@ -63,7 +63,7 @@ Submit the top 20 to IndexNow.
 Expected flow: Search Console query → filter for zero-impression pages → batch submit to
 IndexNow. Useful for pages that have never been crawled.
 
-### 4 — Full SEO closed-loop
+### 4 - Full SEO closed-loop
 
 ```
 Step 1: Submit our 5 most recent blog posts to IndexNow.
@@ -71,7 +71,7 @@ Step 2: In 48 hours, check Search Console for impression changes on those URLs.
 Step 3: If any still have zero impressions, resubmit them.
 ```
 
-### 5 — Discover low-traffic pages, submit, and track
+### 5 - Discover low-traffic pages, submit, and track
 
 ```
 Find all GA4 pages with fewer than 10 sessions in the last 30 days.
@@ -105,8 +105,8 @@ Next step: check Search Console impressions for these URLs in 48 hours.
 ## Notes
 
 - IndexNow `HTTP 200` means the engine received your list, not that re-indexing is complete.
-  Check Search Console 24–72 hours later for confirmation.
-- The same key file is reused across all submissions — no per-request key rotation needed.
+  Check Search Console 24-72 hours later for confirmation.
+- The same key file is reused across all submissions - no per-request key rotation needed.
 - If you see `HTTP 403`, the key file is either unreachable or its contents do not match the
   submitted key. Verify with: `curl -s https://your-domain.com/your-key.txt`
 - Maximum 10,000 URLs per POST. For larger batches, CorpusIQ will split into multiple
@@ -120,7 +120,7 @@ Next step: check Search Console impressions for these URLs in 48 hours.
 
 - **Scheduled daily batch:** Run this at 11 PM to submit everything published that day.
 - **On-publish webhook:** Trigger via Shopify webhook → CorpusIQ API call → IndexNow submit.
-- **Deleted page handling:** Submit deleted URLs too — IndexNow notifies engines to deindex.
+- **Deleted page handling:** Submit deleted URLs too - IndexNow notifies engines to deindex.
 - **Semrush pair:** After submission, pull Semrush ranking snapshots weekly to measure
   position improvement tied to the IndexNow push.
 ---
@@ -134,4 +134,4 @@ Next step: check Search Console impressions for these URLs in 48 hours.
 
 ## Current Submission Queue
 
-The full list of URLs to submit is maintained in [`indexnow-submission-urls.txt`](./indexnow-submission-urls.txt) — updated from the latest Ahrefs site audit (Jul 15, 2026). Contains 1 docs pages ready for IndexNow submission.
+The full list of URLs to submit is maintained in [`indexnow-submission-urls.txt`](./indexnow-submission-urls.txt) - updated from the latest Ahrefs site audit (Jul 15, 2026). Contains 1 docs pages ready for IndexNow submission.

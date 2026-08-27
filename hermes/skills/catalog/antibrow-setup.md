@@ -1,5 +1,5 @@
 ---
-title: "Anti-Detect Browser — Undetectable Playwright Browsers"
+title: "Anti-Detect Browser - Undetectable Playwright Browsers"
 description: Launch Chromium instances with real-device fingerprints via standard Playwright APIs. 29.9K+ installs. Anti-detect browser profiles with MCP server mode for AI agent automation, web scraping, and multi-account management.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antibrow-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Anti-Detect Browser — Setup Guide
+# Anti-Detect Browser - Setup Guide
 
 **Source:** [antibrow/anti-detect-browser-skills](https://skills.sh/antibrow/anti-detect-browser-skills) (29.9K+ installs)
 **Category:** Browser Automation / Anti-Detection
 **Quality Tier:** 🟢 Production
 
-Anti-Detect Browser SDK lets Hermes agents launch Chromium instances with unique real-device fingerprints — undetectable by anti-bot systems. Each browser gets a persistent digital identity with 500+ fingerprint parameters across 30+ categories (Canvas, WebGL, Audio, Fonts, WebRTC, WebGPU). Standard Playwright APIs mean zero learning curve. MCP server mode enables direct AI agent control.
+Anti-Detect Browser SDK lets Hermes agents launch Chromium instances with unique real-device fingerprints - undetectable by anti-bot systems. Each browser gets a persistent digital identity with 500+ fingerprint parameters across 30+ categories (Canvas, WebGL, Audio, Fonts, WebRTC, WebGPU). Standard Playwright APIs mean zero learning curve. MCP server mode enables direct AI agent control.
 
 Critical for operations blocked by anti-bot walls: Instagram, TikTok, Reddit, LinkedIn scraping, and any site using Cloudflare/Datadome/PerimeterX.
 
@@ -62,15 +62,15 @@ await ab.launch({ fingerprint: { tags: ['Android', 'Mobile', 'Chrome'] } })
 Available tags: `Microsoft Windows`, `Apple Mac`, `Android`, `Linux`, `iPad`, `iPhone`, `Edge`, `Chrome`, `Safari`, `Firefox`, `Desktop`, `Mobile`.
 
 ### Persistent Profiles
-Profiles save cookies, localStorage, and session data across launches — stay logged in between sessions:
+Profiles save cookies, localStorage, and session data across launches - stay logged in between sessions:
 
 ```typescript
-// First launch — log in
+// First launch - log in
 const { page } = await ab.launch({ profile: 'shop-01' })
 await page.goto('https://shop.example.com/login')
 await browser.close()
 
-// Later — session restored
+// Later - session restored
 const { page: p2 } = await ab.launch({ profile: 'shop-01' })
 await p2.goto('https://shop.example.com/dashboard') // already logged in
 ```
@@ -86,7 +86,7 @@ await ab.launch({
 })
 ```
 
-### MCP Server Mode — AI Agent Control
+### MCP Server Mode - AI Agent Control
 Expose anti-detect browsers as MCP tools so Hermes can launch, navigate, and interact through tool calls:
 
 ```bash
@@ -107,7 +107,7 @@ await applyFingerprint(context, {
 ```
 
 ### Live View
-Monitor headless sessions from the dashboard — useful for debugging AI agent actions:
+Monitor headless sessions from the dashboard - useful for debugging AI agent actions:
 
 ```typescript
 const { liveView } = await ab.launch({
@@ -119,7 +119,7 @@ console.log('Watch live:', liveView.viewUrl)
 
 ---
 
-## Quick Start — Hermes Agent
+## Quick Start - Hermes Agent
 
 ```bash
 # Install
@@ -135,7 +135,7 @@ const ab = new AntiDetectBrowser({ key: process.env.ANTIBROW_KEY });
     profile: 'instagram-corpusiq',
   });
   await page.goto('https://instagram.com');
-  console.log('Ready — fingerprint:', await page.evaluate(() => navigator.userAgent));
+  console.log('Ready - fingerprint:', await page.evaluate(() => navigator.userAgent));
   await page.screenshot({ path: '/tmp/ig-screenshot.png' });
   await page.context().browser().close();
 })();
@@ -158,8 +158,8 @@ curl -s "https://antibrow.com/api/v1/profiles" -H "Authorization: Bearer $ANTIBR
 
 ## Notes
 
-- **Free tier**: 2 browser profiles — sufficient for testing before committing
-- **Undetectable**: 500+ fingerprint parameters, real device data from the cloud — no synthetic fingerprints
+- **Free tier**: 2 browser profiles - sufficient for testing before committing
+- **Undetectable**: 500+ fingerprint parameters, real device data from the cloud - no synthetic fingerprints
 - **Use case for CorpusIQ**: Bypass Instagram/TikTok anti-bot walls, Reddit scraping, LinkedIn prospect research
 - **MCP integration**: Pairs with Hermes's native MCP client for autonomous browser operations
 - **Related skills**: browser-use-automation, [browser-act-setup](browser-act-setup.md), [browser-harness-setup](browser-harness-setup)

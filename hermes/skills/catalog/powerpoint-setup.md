@@ -1,5 +1,5 @@
 ---
-title: "powerpoint — Setup Guide - CorpusIQ Docs"
+title: "powerpoint - Setup Guide - CorpusIQ Docs"
 description: "Create, read, and edit .pptx decks, slides, notes, and templates. Official Hermes skill. 393+ installs on skills.sh."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/powerpoint-setup/"
 robots: "index,follow"
@@ -17,7 +17,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-Create, read, and edit PowerPoint decks from scratch or via template-based XML manipulation. Supports speaker notes, charts, design QA, and LibreOffice rendering. A `.pptx` is a ZIP archive of XML files — this skill gives you complete control over every element.
+Create, read, and edit PowerPoint decks from scratch or via template-based XML manipulation. Supports speaker notes, charts, design QA, and LibreOffice rendering. A `.pptx` is a ZIP archive of XML files - this skill gives you complete control over every element.
 
 ## Installation
 
@@ -51,20 +51,20 @@ brew install libreoffice poppler
 | **Visual QA** | `python scripts/thumbnail.py deck.pptx` |
 | **Validate** | `python scripts/office/validate.py deck.pptx` |
 
-## Creating Decks with pptxgenjs — Key Gotchas
+## Creating Decks with pptxgenjs - Key Gotchas
 
 - **Set `pres.layout` before adding slides.** Default canvas is `LAYOUT_16x9` = 10" × 5.625", not 13.3" wide.
-- **Hex colors: never `#`, never 8 digits.** Use `color: "FF0000"` — both `"#FF0000"` and alpha hex values corrupt the file.
-- **pptxgenjs mutates option objects** — never share one `shadow`/options object across two `add*` calls.
-- **Shadow `offset` must be ≥ 0** — negative offset corrupts the file. Use `angle` to cast direction.
-- **`letterSpacing` is silently ignored** — use `charSpacing` instead.
+- **Hex colors: never `#`, never 8 digits.** Use `color: "FF0000"` - both `"#FF0000"` and alpha hex values corrupt the file.
+- **pptxgenjs mutates option objects** - never share one `shadow`/options object across two `add*` calls.
+- **Shadow `offset` must be ≥ 0** - negative offset corrupts the file. Use `angle` to cast direction.
+- **`letterSpacing` is silently ignored** - use `charSpacing` instead.
 - **Lists:** `bullet: true` on each item; never a literal `•` (renders double bullets).
-- **One `new pptxgen()` per output file** — never reuse an instance.
-- **Text boxes have built-in padding** — set `margin: 0` when aligning with shapes at same x.
+- **One `new pptxgen()` per output file** - never reuse an instance.
+- **Text boxes have built-in padding** - set `margin: 0` when aligning with shapes at same x.
 - **Speaker notes:** `slide.addNotes("...")` (plain text, once per slide).
-- **Keep charts native** — use `addChart()` for everything PowerPoint can chart. Only render images for chart types PowerPoint has no native form for (Sankey, network, chord).
+- **Keep charts native** - use `addChart()` for everything PowerPoint can chart. Only render images for chart types PowerPoint has no native form for (Sankey, network, chord).
 - **On stacked bar/column charts, `dataLabelPosition` must be `ctr`, `inEnd`, or `inBase`.** `outEnd` corrupts the file.
-- **Always run `validate.py` after generation** — catches chart faults and XML defects.
+- **Always run `validate.py` after generation** - catches chart faults and XML defects.
 
 ## Editing Existing Decks and Templates
 
@@ -94,9 +94,9 @@ python scripts/office/validate.py out.pptx --original deck.pptx
 
 **Important rules:**
 - Do all structural work (add, delete, reorder) before editing slide content
-- Never copy a slide file by hand — use `add_slide.py`
+- Never copy a slide file by hand - use `add_slide.py`
 - If using `python-pptx`: assign `run.text` not `text_frame.text` (preserves formatting)
-- `.potx` templates unpack and pack identically — keep `.potx` extension on output
+- `.potx` templates unpack and pack identically - keep `.potx` extension on output
 - Legacy `.ppt` must be converted first: `soffice --headless --convert-to pptx file.ppt`
 
 ## Design Guidelines
@@ -119,10 +119,10 @@ The skill includes comprehensive design guidance for creating professional prese
 | **Cherry Bold** | `990011` cherry | `FCF6F5` off-white | `2F3C7E` navy |
 
 ### Slide Design Rules
-- Every slide needs a visual element — image, chart, icon, or shape. Text-only slides are forgettable.
+- Every slide needs a visual element - image, chart, icon, or shape. Text-only slides are forgettable.
 - Pick a bold, content-informed color palette. Dominance over equality: one color should dominate 60-70%.
 - Dark/light contrast: dark backgrounds for title + conclusion slides, light for content ("sandwich" structure).
-- Commit to a visual motif — one distinctive element repeated across all slides.
+- Commit to a visual motif - one distinctive element repeated across all slides.
 
 ### Layout Options
 - Two-column (text left, illustration right)
@@ -147,11 +147,11 @@ All paths relative to the skill directory:
 
 ## Related Skills
 
-- **`docx`** — Word document creation and editing
-- **`xlsx`** — Excel spreadsheet creation and editing
-- **`pdf`** — PDF manipulation
-- **`pptx-author`** (optional finance skill) — Finance-specific presentation generation
-- **`popular-web-designs`** — Design systems and color palettes for web UIs (complementary)
+- **`docx`** - Word document creation and editing
+- **`xlsx`** - Excel spreadsheet creation and editing
+- **`pdf`** - PDF manipulation
+- **`pptx-author`** (optional finance skill) - Finance-specific presentation generation
+- **`popular-web-designs`** - Design systems and color palettes for web UIs (complementary)
 
 ## Verification
 
@@ -172,4 +172,4 @@ python ~/.hermes/skills/powerpoint/scripts/office/validate.py deck.pptx
 - License: Proprietary (see LICENSE.txt in skill directory for complete terms)
 - Supports both from-scratch generation (pptxgenjs) and template-based editing (XML manipulation)
 - LibreOffice required for rendering/QA (headless mode supported)
-- See skill's SKILL.md for the complete gotchas reference — 20+ common pitfalls documented
+- See skill's SKILL.md for the complete gotchas reference - 20+ common pitfalls documented

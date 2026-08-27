@@ -54,15 +54,15 @@ pip install mcp-server-malcolm
 
 ## Operator Use Cases
 
-1. **Security operations** — agent-driven threat hunting across network telemetry
-2. **Incident response** — query Suricata alerts and trace through Arkime sessions
-3. **Asset inventory** — resolve NetBox assets during investigations
-4. **Compliance auditing** — agent-assisted network traffic audits
-5. **SOC automation** — integrate with SIEM/SOAR workflows
+1. **Security operations** - agent-driven threat hunting across network telemetry
+2. **Incident response** - query Suricata alerts and trace through Arkime sessions
+3. **Asset inventory** - resolve NetBox assets during investigations
+4. **Compliance auditing** - agent-assisted network traffic audits
+5. **SOC automation** - integrate with SIEM/SOAR workflows
 
 ## CorpusIQ Angle
 
-For operators managing security infrastructure, this brings network forensics into the AI agent workflow. Read-only by default with opt-in, audited write classes for alerts, tagging, hunts, and PCAP upload — aligns with secure-by-default philosophy.
+For operators managing security infrastructure, this brings network forensics into the AI agent workflow. Read-only by default with opt-in, audited write classes for alerts, tagging, hunts, and PCAP upload - aligns with secure-by-default philosophy.
 
 ## Limitations
 

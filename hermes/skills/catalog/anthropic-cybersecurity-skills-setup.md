@@ -1,6 +1,6 @@
 ---
 title: Anthropic Cybersecurity Skills Setup Guide
-description: Install and configure mukul975/Anthropic-Cybersecurity-Skills — 750+ MITRE-mapped security skills for AI agents including threat detection, incident response, and vulnerability assessment.
+description: Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident response, and vulnerability assessment.
 category: security
 publisher: mukul975
 skills_count: 750+
@@ -13,19 +13,19 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Anthropic Cybersecurity Skills — Setup Guide
+# Anthropic Cybersecurity Skills - Setup Guide
 
-750+ MITRE-mapped cybersecurity skills for AI agents by [mukul975](https://github.com/mukul975/Anthropic-Cybersecurity-Skills). The largest domain-specific skill pack discovered — production-grade threat detection, incident response, vulnerability assessment, and security operations workflows. All skills mapped to the MITRE ATT&CK framework.
+750+ MITRE-mapped cybersecurity skills for AI agents by [mukul975](https://github.com/mukul975/Anthropic-Cybersecurity-Skills). The largest domain-specific skill pack discovered - production-grade threat detection, incident response, vulnerability assessment, and security operations workflows. All skills mapped to the MITRE ATT&CK framework.
 
 ## What It Provides
 
-- **Threat Detection** — 200+ skills for identifying active threats across network, endpoint, and cloud
-- **Incident Response** — 150+ skills for triage, containment, eradication, and recovery
-- **Vulnerability Assessment** — 120+ skills for scanning, prioritizing, and validating vulnerabilities
-- **Security Operations** — 100+ skills for SIEM, SOAR, log analysis, and alert triage
-- **Compliance & Audit** — 80+ skills for SOC 2, ISO 27001, HIPAA, PCI-DSS
-- **Cloud Security** — 50+ skills for AWS, GCP, Azure security posture
-- **MITRE ATT&CK Mapping** — every skill tagged with MITRE technique ID
+- **Threat Detection** - 200+ skills for identifying active threats across network, endpoint, and cloud
+- **Incident Response** - 150+ skills for triage, containment, eradication, and recovery
+- **Vulnerability Assessment** - 120+ skills for scanning, prioritizing, and validating vulnerabilities
+- **Security Operations** - 100+ skills for SIEM, SOAR, log analysis, and alert triage
+- **Compliance & Audit** - 80+ skills for SOC 2, ISO 27001, HIPAA, PCI-DSS
+- **Cloud Security** - 50+ skills for AWS, GCP, Azure security posture
+- **MITRE ATT&CK Mapping** - every skill tagged with MITRE technique ID
 
 ## Installation
 
@@ -33,7 +33,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 # Install via skills.sh
 npx skills add https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 
-# Or manually — clone the full repo (large: 750+ skills)
+# Or manually - clone the full repo (large: 750+ skills)
 git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git ~/.hermes/skills/cybersecurity
 
 # Install specific skill categories only (recommended for smaller footprint)

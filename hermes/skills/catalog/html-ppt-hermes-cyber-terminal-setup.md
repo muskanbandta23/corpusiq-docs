@@ -1,5 +1,5 @@
 ---
-title: html-ppt-hermes-cyber-terminal — Setup Guide
+title: html-ppt-hermes-cyber-terminal - Setup Guide
 description: Cyber-terminal themed HTML/PPT presentation skill for Hermes Agent from the nexu-io/open-design repo (82.7K⭐). Generate slide decks and terminal-styled presentations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/html-ppt-hermes-cyber-terminal-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# html-ppt-hermes-cyber-terminal — Setup Guide
+# html-ppt-hermes-cyber-terminal - Setup Guide
 
 **Source:** [nexu-io/open-design](https://github.com/nexu-io/open-design) (82,734 ⭐)
 **Skill:** `html-ppt-hermes-cyber-terminal`
 **Installs:** 192
 
-A cyber-terminal themed HTML/PPT presentation skill. Part of the open-design ecosystem — the open-source Claude Design alternative. Generates slide decks, terminal-styled HTML presentations, and cyberpunk-themed visual output directly from Hermes Agent prompts.
+A cyber-terminal themed HTML/PPT presentation skill. Part of the open-design ecosystem - the open-source Claude Design alternative. Generates slide decks, terminal-styled HTML presentations, and cyberpunk-themed visual output directly from Hermes Agent prompts.
 
 ## Installation
 
@@ -52,11 +52,11 @@ The skill is invoked through Hermes Agent prompts, not standalone CLI. Once inst
 
 ## CorpusIQ Use Cases
 
-1. **Investor pitch decks** — Generate terminal-styled pitch decks for CorpusIQ fundraising
-2. **Product walkthrough slides** — Create slide decks for CorpusIQ feature demonstrations
-3. **Community presentation** — Generate talk slides for AI/tech community events
-4. **Internal reporting** — Create terminal-themed internal status dashboards
-5. **Marketing collateral** — Generate visually distinctive marketing presentations
+1. **Investor pitch decks** - Generate terminal-styled pitch decks for CorpusIQ fundraising
+2. **Product walkthrough slides** - Create slide decks for CorpusIQ feature demonstrations
+3. **Community presentation** - Generate talk slides for AI/tech community events
+4. **Internal reporting** - Create terminal-themed internal status dashboards
+5. **Marketing collateral** - Generate visually distinctive marketing presentations
 
 ## Troubleshooting
 

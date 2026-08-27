@@ -1,6 +1,6 @@
 ---
-title: inference.sh/skills — Full Setup Guide for Hermes Agents
-description: Install and configure inference.sh agent skills — 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools. 706K installs across halt-catch-fire/skills.
+title: inference.sh/skills - Full Setup Guide for Hermes Agents
+description: Install and configure inference.sh agent skills - 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools. 706K installs across halt-catch-fire/skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# inference.sh/skills — Setup Guide
+# inference.sh/skills - Setup Guide
 
 **Source:** [halt-catch-fire/skills](https://skills.sh/halt-catch-fire/skills) (706.2K total installs)
 **Category:** Agent Tools / Growth / Media Generation
 
-A collection of 85 agent skills for AI image and video generation, web search, social media automation, LLM access, and growth workflows. Powered by inference.sh CLI (250+ models). Covers the full agent toolchain — from content creation to distribution.
+A collection of 85 agent skills for AI image and video generation, web search, social media automation, LLM access, and growth workflows. Powered by inference.sh CLI (250+ models). Covers the full agent toolchain - from content creation to distribution.
 
 ---
 
@@ -74,7 +74,7 @@ belt app store
 
 | Skill | What It Does |
 |---|---|
-| **`twitter-automation`** | X/Twitter API — post, search, engage |
+| **`twitter-automation`** | X/Twitter API - post, search, engage |
 | **`landing-page-design`** | AI landing page generation |
 | **`competitor-teardown`** | Competitive analysis framework |
 | **`product-hunt-launch`** | PH launch strategy and execution |
@@ -102,7 +102,7 @@ belt app store
 | Issue | Fix |
 |---|---|
 | **belt CLI not found** | Install: `curl -sL https://inference.sh/install | bash` |
-| **Media generation fails** | Run `belt login` — requires inference.sh account |
+| **Media generation fails** | Run `belt login` - requires inference.sh account |
 | **Twitter automation blocked** | Check X API credentials in `~/.inference.sh/config` |
 | **Web search returns empty** | Verify Tavily/Exa API keys are configured |
 

@@ -38,4 +38,4 @@ Read-only. CorpusIQ cannot send emails or edit campaigns. No raw customer files 
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.

@@ -1,5 +1,5 @@
 ---
-title: "Use CorpusIQ with Claude Code — Ask Business Questions"
+title: "Use CorpusIQ with Claude Code - Ask Business Questions"
 description: Connect CorpusIQ to Claude Code via MCP. Ask revenue, orders, and margin questions against live Shopify, Stripe, and QuickBooks data. Source-cited answers in your terminal.
 canonical: "https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code/"
 robots: "index,follow"
@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 Claude Code is Anthropic's agentic coding tool that runs in your terminal. You can use it to write code, manage repos, and run commands.
 
-With the CorpusIQ MCP server, Claude Code can also answer business questions — from your actual data.
+With the CorpusIQ MCP server, Claude Code can also answer business questions - from your actual data.
 
 ## Setup (2 minutes)
 
@@ -39,7 +39,7 @@ Get your JWT from the CorpusIQ dashboard at [corpusiq.io/dashboard](https://corp
 Before Claude Code can answer business questions, connect your tools once:
 
 1. Go to [corpusiq.io/dashboard](https://corpusiq.io)
-2. Connect Shopify, Stripe, QuickBooks, GA4, Meta Ads — or any of the 40+ supported tools
+2. Connect Shopify, Stripe, QuickBooks, GA4, Meta Ads - or any of the 40+ supported tools
 3. Each connection uses read-only external-source retrieval with no write access; direct MCP does not retain raw customer files or full connector response payloads
 
 ## Ask Business Questions
@@ -63,7 +63,7 @@ Claude Code calls CorpusIQ MCP → pulls from Stripe → cross-checks with Shopi
 
 Claude Code calls CorpusIQ → pulls from Meta Ads + GA4 → returns:
 
-  Campaign "Summer Launch — AZ" drove $14,230 in attributed revenue
+  Campaign "Summer Launch - AZ" drove $14,230 in attributed revenue
   - Ad spend: $3,120
   - ROAS: 4.56x
   - 142 attributed orders
@@ -80,7 +80,7 @@ Claude Code calls CorpusIQ → pulls from QuickBooks + Shopify → returns margi
 
 You could ask ChatGPT the same questions. But without CorpusIQ, ChatGPT guesses. It does not have access to your actual Stripe account, your actual Shopify orders, or your actual QuickBooks ledger.
 
-With CorpusIQ as the MCP server, every AI you use — Claude Code, ChatGPT, Perplexity, Slack — inherits the same connections. Same data. Same answers. Every time.
+With CorpusIQ as the MCP server, every AI you use - Claude Code, ChatGPT, Perplexity, Slack - inherits the same connections. Same data. Same answers. Every time.
 
 ## Supported Tools
 

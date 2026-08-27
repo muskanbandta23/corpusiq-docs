@@ -1,6 +1,6 @@
 ---
 title: "RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence"
-description: "RE Data Refinery MCP server combines live Zillow data with county GIS, tax delinquency, sheriff sales, permits and probate records into scored property intelligence, paid per query in USDC on Base via x402 — no subscription"
+description: "RE Data Refinery MCP server combines live Zillow data with county GIS, tax delinquency, sheriff sales, permits and probate records into scored property intelligence, paid per query in USDC on Base via x402 - no subscription"
 category: Real Estate
 stars: n/a (new listing)
 added: 2026-08-19
@@ -11,7 +11,7 @@ tags: [real-estate, property-data, investment-analysis, x402, usdc, base, zillow
 
 # RE Data Refinery MCP
 
-**Pay-per-query real estate intelligence: live Zillow listings enriched with county-level data and scored for investment.** RE Data Refinery turns messy property data into clean, scored, AI-ready intelligence for Columbus, OH and 14 surrounding metro cities — combining ZillAPI listings with GIS zoning, tax delinquency, sheriff sales, permits, and probate records, then computing flip score, wholesale score, rental yield, and market heat for every property.
+**Pay-per-query real estate intelligence: live Zillow listings enriched with county-level data and scored for investment.** RE Data Refinery turns messy property data into clean, scored, AI-ready intelligence for Columbus, OH and 14 surrounding metro cities - combining ZillAPI listings with GIS zoning, tax delinquency, sheriff sales, permits, and probate records, then computing flip score, wholesale score, rental yield, and market heat for every property.
 
 ```
 Server type: Local (Python, stdio/SSE) + hosted worker
@@ -25,7 +25,7 @@ Built by: RE Data Refinery (Columbus, OH)
 
 ## Why This Matters for Operators
 
-Real estate investors stitch together MLS feeds, county records, and their own scoring spreadsheets — usually across three or four subscriptions. RE Data Refinery collapses that into one agent-callable surface with per-query micropayments: agents pay $0.25–$0.50 USDC per lookup via x402 on Base, with no subscription, no API tiers, and no minimum commitment.
+Real estate investors stitch together MLS feeds, county records, and their own scoring spreadsheets - usually across three or four subscriptions. RE Data Refinery collapses that into one agent-callable surface with per-query micropayments: agents pay $0.25-$0.50 USDC per lookup via x402 on Base, with no subscription, no API tiers, and no minimum commitment.
 
 The differentiator is enrichment depth: county GIS, tax delinquency, sheriff sales, permits, and probate records sit alongside standard listing fields, and proprietary flip/wholesale/rental-yield/market-heat scores come pre-computed per listing. A free local fallback mode supports development without spending USDC.
 
@@ -81,11 +81,11 @@ The wallet must hold USDC on Base mainnet for paid lookups. Payments settle auto
 
 ## Integration with CorpusIQ
 
-RE Data Refinery covers property sourcing and scoring — a domain CorpusIQ's connectors do not touch. Paired in one agent session, an investor can source and score properties through RE Data Refinery while CorpusIQ handles the financial layer: QuickBooks for the business books, Stripe for payments, and banking for deal funding — then join the two on property address or LLC name. CorpusIQ's x402-aware spend discipline (caps, per-call pricing) mirrors RE Data Refinery's pay-per-query model.
+RE Data Refinery covers property sourcing and scoring - a domain CorpusIQ's connectors do not touch. Paired in one agent session, an investor can source and score properties through RE Data Refinery while CorpusIQ handles the financial layer: QuickBooks for the business books, Stripe for payments, and banking for deal funding - then join the two on property address or LLC name. CorpusIQ's x402-aware spend discipline (caps, per-call pricing) mirrors RE Data Refinery's pay-per-query model.
 
 ## Limitations
 
-- Coverage is Columbus, OH metro (14 cities, 150+ seeded properties) — not national
+- Coverage is Columbus, OH metro (14 cities, 150+ seeded properties) - not national
 - Requires a funded wallet and x402 client; USDC on Base only
 - New listing (Aug 2026), zero-star repository, single maintainer
 - Paid lookups depend on the hosted Cloudflare worker's uptime
@@ -93,7 +93,7 @@ RE Data Refinery covers property sourcing and scoring — a domain CorpusIQ's co
 
 ## See Also
 
-- [Austin MLS MCP — Live Austin Real Estate Listings](/hermes/mcp/servers/external/austin-mls-mcp/)
-- [Live Listing Proof MCP — Fail-Closed Listing Verification](/hermes/mcp/servers/external/live-listing-proof-mcp/)
+- [Austin MLS MCP - Live Austin Real Estate Listings](/hermes/mcp/servers/external/austin-mls-mcp/)
+- [Live Listing Proof MCP - Fail-Closed Listing Verification](/hermes/mcp/servers/external/live-listing-proof-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

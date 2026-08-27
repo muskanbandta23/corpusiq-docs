@@ -1,20 +1,20 @@
 ---
-title: "Angular Skills — Framework Development Setup"
-description: "angular/skills — 2 skills, 40.1K installs: version-aware Angular code generation and new-project scaffolding from the Angular team."
+title: "Angular Skills - Framework Development Setup"
+description: "angular/skills - 2 skills, 40.1K installs: version-aware Angular code generation and new-project scaffolding from the Angular team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/angular-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-16"
 tags: ["hermes skill", "agent skill", "skill setup", "angular", "frontend"]
 ---
 
-# Angular Skills — Setup Guide
+# Angular Skills - Setup Guide
 
 **Source:** [angular/skills](https://skills.sh/angular/skills)
 **GitHub:** [angular/skills](https://github.com/angular/skills)
 **Skills:** 2 skills · 40.1K total installs
 **Category:** Frontend Development
 **First Seen:** catalogued August 16, 2026 sweep (angular-developer on skills.sh since March 23, 2026)
-**Quality Tier:** 🟢 Production — official Angular org; angular-developer passes all three security audits
+**Quality Tier:** 🟢 Production - official Angular org; angular-developer passes all three security audits
 
 The Angular team's official skills teach agents version-aware framework development: analyze the project's Angular version before advising, scaffold with the CLI for consistency, and validate every generated change with `ng build`. A compact, high-signal suite with a build-verification discipline worth copying.
 
@@ -65,9 +65,9 @@ Key behaviors: version detection before guidance (signal forms recommended for A
 
 ## Limitations / Verification
 
-- Security audits on angular-developer: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass — 3/3
+- Security audits on angular-developer: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass - 3/3
 - Publisher-page install counts verified (28.7K + 11.4K); GitHub 613 stars
-- Only two skills — the suite is deliberately narrow
+- Only two skills - the suite is deliberately narrow
 - Guidance is Angular-specific; no cross-framework value
 
 ```bash

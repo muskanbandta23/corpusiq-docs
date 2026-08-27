@@ -1,6 +1,6 @@
 ---
 title: Microsoft Workspace Skill Setup Guide
-description: Install and configure Andrew-Girgis/microsoft-workspace-skill — Outlook email, calendar, and Microsoft 365 Graph API access for Hermes Agent.
+description: Install and configure Andrew-Girgis/microsoft-workspace-skill - Outlook email, calendar, and Microsoft 365 Graph API access for Hermes Agent.
 category: integration
 publisher: Andrew-Girgis
 maturity: beta
@@ -12,18 +12,18 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Microsoft Workspace Skill — Setup Guide
+# Microsoft Workspace Skill - Setup Guide
 
-Microsoft 365 integration for Hermes Agent by [Andrew-Girgis](https://github.com/Andrew-Girgis/microsoft-workspace-skill). Provides Outlook email/calendar, Microsoft Graph API access, and Teams integration — essential for enterprise Hermes deployments in Microsoft shops.
+Microsoft 365 integration for Hermes Agent by [Andrew-Girgis](https://github.com/Andrew-Girgis/microsoft-workspace-skill). Provides Outlook email/calendar, Microsoft Graph API access, and Teams integration - essential for enterprise Hermes deployments in Microsoft shops.
 
 ## What It Provides
 
-- **Outlook Email** — read, send, search, and organize emails via Microsoft Graph
-- **Outlook Calendar** — create, read, update, and delete events
-- **Contacts** — search and manage Outlook/Exchange contacts
-- **Teams** — send messages to Teams channels (read-only for threads)
-- **OneDrive/SharePoint** — file operations via Microsoft Graph
-- **To Do** — task management via Microsoft To Do API
+- **Outlook Email** - read, send, search, and organize emails via Microsoft Graph
+- **Outlook Calendar** - create, read, update, and delete events
+- **Contacts** - search and manage Outlook/Exchange contacts
+- **Teams** - send messages to Teams channels (read-only for threads)
+- **OneDrive/SharePoint** - file operations via Microsoft Graph
+- **To Do** - task management via Microsoft To Do API
 
 ## Installation
 
@@ -108,7 +108,7 @@ Schedule a 30-minute sync with the dev team on Friday at 10 AM.
 ### Teams
 
 ```
-Send a message to the "Product" Teams channel: "New skills sweep published — 31 new Hermes skills discovered."
+Send a message to the "Product" Teams channel: "New skills sweep published - 31 new Hermes skills discovered."
 ```
 
 ### File search

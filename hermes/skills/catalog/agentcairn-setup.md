@@ -1,5 +1,5 @@
 ---
-title: "AgentCairn — Obsidian-Based Long-Term Agent Memory"
+title: "AgentCairn - Obsidian-Based Long-Term Agent Memory"
 description: "Set up AgentCairn to give Hermes agents persistent cross-project memory using your Obsidian vault as the source of truth."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentcairn-setup/"
 robots: "index,follow"
@@ -16,15 +16,15 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-AgentCairn provides long-term, cross-project memory for AI coding agents. Instead of opaque vector databases, it uses your own Obsidian vault as the source of truth — your memory, your files, your control. Includes a native Hermes plugin, DuckDB for fast retrieval, and MCP server for agent integration.
+AgentCairn provides long-term, cross-project memory for AI coding agents. Instead of opaque vector databases, it uses your own Obsidian vault as the source of truth - your memory, your files, your control. Includes a native Hermes plugin, DuckDB for fast retrieval, and MCP server for agent integration.
 
 **Key capabilities:**
 - Obsidian vault as memory source (markdown-native)
-- Cross-project context — learnings from one project help others
+- Cross-project context - learnings from one project help others
 - DuckDB-powered semantic search (no external vector DB)
 - Hermes plugin for auto-memory injection
 - MCP server for any agent harness
-- Daemonless — no background processes
+- Daemonless - no background processes
 
 ## Prerequisites
 

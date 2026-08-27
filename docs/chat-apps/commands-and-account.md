@@ -13,7 +13,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 # Commands and your account
 
 There are only a couple of commands to know. Most of the time you won't touch
-them — you link once and ask questions from then on. They matter when you're
+them - you link once and ask questions from then on. They matter when you're
 setting up, stepping away from a shared machine, or switching accounts.
 
 ## Signing in
@@ -29,7 +29,7 @@ in. Full walkthrough in [getting-started-slack.md](getting-started-slack.md).
 If you're not linked, Teams shows a **Sign in** prompt that uses your Microsoft
 account. Walkthrough in [getting-started-teams.md](getting-started-teams.md).
 
-You stay linked until you sign out — you don't re-run this before every
+You stay linked until you sign out - you don't re-run this before every
 question.
 
 ## Signing out
@@ -45,7 +45,7 @@ you again until you sign back in. Use it when:
 
 The app confirms when you're signed out. If you weren't linked to begin with, it
 tells you that plainly instead of pretending it did something. If the sign-out
-doesn't take for any reason, it says so and asks you to try again — it won't
+doesn't take for any reason, it says so and asks you to try again - it won't
 claim you're signed out when you aren't.
 
 **Teams:** the same **corpusiq-logout** action is available from the app's
@@ -53,8 +53,8 @@ command menu.
 
 ## Switching accounts
 
-If you need the app to act as a different CorpusIQ account — say you have a
-personal one and a shared team one — sign out and back in:
+If you need the app to act as a different CorpusIQ account - say you have a
+personal one and a shared team one - sign out and back in:
 
 1. Sign out (`/corpusiq-logout` in Slack, or the logout action in Teams).
 2. Sign in again and choose the account you want.
@@ -65,6 +65,6 @@ just sign-out, sign-in.
 ## A note on privacy
 
 The app always acts as the linked person, using their permissions. Signing in
-doesn't give the app more access than you already have — it reads the same
+doesn't give the app more access than you already have - it reads the same
 tools you connected, nothing more. Signing out removes the app's ability to act
 as you until you choose to link again.

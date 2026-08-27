@@ -9,7 +9,7 @@ your SaaS tools. Today there are 31 of them. The list grows every month.
 
 ## What a connector does
 
-When you authenticate a connector — say, Shopify — three things happen:
+When you authenticate a connector - say, Shopify - three things happen:
 
 1. You're sent to Shopify's login page (not CorpusIQ's). You sign in
    there, just like you would normally.
@@ -35,8 +35,8 @@ CorpusIQ reads the live data automatically when a question needs it.
 
 ## What "OAuth" means
 
-OAuth is a standard handshake — the same one behind every "Sign in with
-Google" button — for letting one app read data from another **without**
+OAuth is a standard handshake - the same one behind every "Sign in with
+Google" button - for letting one app read data from another **without**
 ever sharing your password. You log in directly with the vendor (Google,
 Shopify, QuickBooks), the vendor shows you what's being requested, and
 you approve. The vendor stays in control. You can revoke access from
@@ -82,7 +82,7 @@ The full per-connector setup guides are in
 
 Some questions need three or four connectors at once. "What's my real
 CAC?" pulls from every ad platform, GA4, and Shopify or QuickBooks. You
-don't have to know that — the skills engine handles it. See
+don't have to know that - the skills engine handles it. See
 [skills-explained.md](skills-explained.md).
 
 ## When you want it off

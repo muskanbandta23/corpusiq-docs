@@ -1,6 +1,6 @@
 ---
-title: "ai-footprints-mcp — Agent-First Bookmark & Knowledge"
-description: "Let AI agents manage your digital footprints — bookmarks, reading history, and knowledge trails. Chinese (AI 足迹) + English."
+title: "ai-footprints-mcp - Agent-First Bookmark & Knowledge"
+description: "Let AI agents manage your digital footprints - bookmarks, reading history, and knowledge trails. Chinese (AI 足迹) + English."
 source: github.com/Piccolo123/ai-footprints-mcp
 stars: 0
 language: TypeScript
@@ -13,9 +13,9 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# ai-footprints-mcp — Agent-First Bookmark Manager
+# ai-footprints-mcp - Agent-First Bookmark Manager
 
-**AI 足迹 (AI Footprints) MCP Server** — let your AI agents manage your digital footprints: bookmarks, reading history, knowledge trails, and web discoveries. Bilingual (Chinese + English).
+**AI 足迹 (AI Footprints) MCP Server** - let your AI agents manage your digital footprints: bookmarks, reading history, knowledge trails, and web discoveries. Bilingual (Chinese + English).
 
 ## Installation
 

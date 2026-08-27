@@ -11,7 +11,7 @@ tags: [ai-receptionist, phone-answering, small-business, call-transcripts, appoi
 
 # Upfirst MCP
 
-**Remote MCP server (Streamable HTTP, OAuth connect flow) — the official Upfirst integration for configuring and auditing your AI phone receptionist from any MCP client.** Upfirst answers a business's calls, takes messages, books appointments and answers questions about the business. The MCP server exposes the receptionist's settings and call history as agent tools, so an AI assistant can review recent calls, fill knowledge gaps, and edit greetings, transfer rules and schedules in place — the phone line becomes a system an operator tunes from chat instead of a settings dashboard.
+**Remote MCP server (Streamable HTTP, OAuth connect flow) - the official Upfirst integration for configuring and auditing your AI phone receptionist from any MCP client.** Upfirst answers a business's calls, takes messages, books appointments and answers questions about the business. The MCP server exposes the receptionist's settings and call history as agent tools, so an AI assistant can review recent calls, fill knowledge gaps, and edit greetings, transfer rules and schedules in place - the phone line becomes a system an operator tunes from chat instead of a settings dashboard.
 
 ```
 Server type: Hosted remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Upfirst (upfirst.ai)
 
 ## Why This Matters for Operators
 
-A missed call is a missed lead, and the classic failure mode of AI receptionists is silence: the receptionist picks up, botches a question, and nobody in the business ever finds out. Upfirst MCP closes that loop. The agent can pull `list_calls`, open `get_call_details` and `get_call_transcript`, and read `get_agent_knowledge` to see exactly what the receptionist actually said — then push a fix with `update_agent_knowledge` so the same failure never repeats. The audit-to-fix cycle that used to require listening to recordings and navigating a dashboard now runs entirely inside an agent session.
+A missed call is a missed lead, and the classic failure mode of AI receptionists is silence: the receptionist picks up, botches a question, and nobody in the business ever finds out. Upfirst MCP closes that loop. The agent can pull `list_calls`, open `get_call_details` and `get_call_transcript`, and read `get_agent_knowledge` to see exactly what the receptionist actually said - then push a fix with `update_agent_knowledge` so the same failure never repeats. The audit-to-fix cycle that used to require listening to recordings and navigating a dashboard now runs entirely inside an agent session.
 
-The second win is configuration from a description. `create_agent_skill` and `create_agent_knowledge` let an agent build a complete receptionist setup — greeting, knowledge base, transfer rules, weekly schedules, SMS follow-up skills — from a plain paragraph about the business. That collapses a multi-hour setup into one prompt, which matters most for operators running several locations or brands, where each line needs its own greeting, hours and transfer map.
+The second win is configuration from a description. `create_agent_skill` and `create_agent_knowledge` let an agent build a complete receptionist setup - greeting, knowledge base, transfer rules, weekly schedules, SMS follow-up skills - from a plain paragraph about the business. That collapses a multi-hour setup into one prompt, which matters most for operators running several locations or brands, where each line needs its own greeting, hours and transfer map.
 
 ## Tools & Capabilities
 
@@ -52,7 +52,7 @@ The connection is created from the Upfirst app, not from a config file you assem
 claude mcp add upfirst --transport http <provisioned-endpoint-url>
 ```
 
-No local install and no API key to store in your client config — approval happens through the Upfirst account.
+No local install and no API key to store in your client config - approval happens through the Upfirst account.
 
 ## Configuration
 
@@ -82,10 +82,10 @@ Upfirst MCP pairs naturally with the CorpusIQ CRM connectors: after a call lands
 
 ## Limitations
 
-- Brand new listing — no community track record yet
+- Brand new listing - no community track record yet
 - Endpoint URL is provisioned per account in-app, not published; setup requires an Upfirst account
 - The receptionist quality itself depends on Upfirst's voice stack; the MCP layer tunes it but cannot replace it
-- Phone-centric value — businesses without meaningful call volume will see less payoff
+- Phone-centric value - businesses without meaningful call volume will see less payoff
 - Live tool list served from the provisioned endpoint; tool names above come from the official directory listing
 
 ## See Also

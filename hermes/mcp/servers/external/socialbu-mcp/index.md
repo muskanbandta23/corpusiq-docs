@@ -1,5 +1,5 @@
 ---
-title: "SocialBu MCP — Social Media Management for AI Agents"
+title: "SocialBu MCP - Social Media Management for AI Agents"
 description: "Connect any MCP-compatible AI assistant (Claude, ChatGPT, Cursor, Hermes) to SocialBu for social media posting, analytics, and scheduling across all major"
 category: mcp
 tags: [mcp-server, social-media, marketing, automation, content-scheduling]
@@ -13,9 +13,9 @@ robots: "index,follow"
 
 ## Overview
 
-SocialBu MCP gives AI agents direct access to SocialBu's social media management platform. Instead of logging into a dashboard, operators can ask their AI assistant to create posts, review schedules, check analytics, and manage social accounts across platforms — all through natural conversation. Built by the SocialBu team, this MCP server bridges the gap between AI assistants and operational social media workflows.
+SocialBu MCP gives AI agents direct access to SocialBu's social media management platform. Instead of logging into a dashboard, operators can ask their AI assistant to create posts, review schedules, check analytics, and manage social accounts across platforms - all through natural conversation. Built by the SocialBu team, this MCP server bridges the gap between AI assistants and operational social media workflows.
 
-**Key advantage: Operators can manage their entire social presence through conversation with their AI agent — no dashboard required.**
+**Key advantage: Operators can manage their entire social presence through conversation with their AI agent - no dashboard required.**
 
 ## Key Features
 
@@ -56,23 +56,23 @@ npm run build
 
 ## Business Relevance
 
-- **Marketing operators**: Query post analytics and schedule content without switching contexts — stay in your AI conversation and manage social in real-time
-- **Agency teams**: Give each team member an AI assistant that can view published content and suggest scheduling gaps — reduces dashboard training time
-- **Founders and solopreneurs**: Manage social presence without learning another tool — ask your AI "what posted today and how did it perform"
+- **Marketing operators**: Query post analytics and schedule content without switching contexts - stay in your AI conversation and manage social in real-time
+- **Agency teams**: Give each team member an AI assistant that can view published content and suggest scheduling gaps - reduces dashboard training time
+- **Founders and solopreneurs**: Manage social presence without learning another tool - ask your AI "what posted today and how did it perform"
 - **Content teams**: Preview scheduled content, catch gaps in the calendar, and adjust publishing cadence through conversation
 
 ## Integration with CorpusIQ
 
-SocialBu MCP pairs naturally with CorpusIQ's content strategy tools and Postiz publishing pipeline. Ask your AI agent to review SocialBu analytics alongside CorpusIQ's 40+ business connectors — cross-reference social performance with Google Analytics traffic, Shopify sales data, or HubSpot lead conversions to build a complete picture of content ROI.
+SocialBu MCP pairs naturally with CorpusIQ's content strategy tools and Postiz publishing pipeline. Ask your AI agent to review SocialBu analytics alongside CorpusIQ's 40+ business connectors - cross-reference social performance with Google Analytics traffic, Shopify sales data, or HubSpot lead conversions to build a complete picture of content ROI.
 
-For teams already using CorpusIQ's Postiz integration for automated posting, SocialBu MCP adds a conversational management layer — schedule posts, check analytics, and adjust strategy without leaving your AI workflow.
+For teams already using CorpusIQ's Postiz integration for automated posting, SocialBu MCP adds a conversational management layer - schedule posts, check analytics, and adjust strategy without leaving your AI workflow.
 
 ## Limitations
 
-- **Repository maturity**: 0 stars, 0 forks as of July 2026 — early-stage project. API reliability not yet proven at scale
-- **API key required**: Requires a SocialBu account and API key — not self-hosted
+- **Repository maturity**: 0 stars, 0 forks as of July 2026 - early-stage project. API reliability not yet proven at scale
+- **API key required**: Requires a SocialBu account and API key - not self-hosted
 - **Platform coverage**: Limited to platforms SocialBu supports (primarily mainstream social networks)
-- **No self-hosted option**: The server depends on SocialBu's cloud API — no offline or air-gapped deployment
+- **No self-hosted option**: The server depends on SocialBu's cloud API - no offline or air-gapped deployment
 
 ## See Also
 

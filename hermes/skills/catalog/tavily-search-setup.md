@@ -1,5 +1,5 @@
 ---
-title: Tavily Search — Official LLM-Optimized Web Search CLI
+title: Tavily Search - Official LLM-Optimized Web Search CLI
 description: Web search returning LLM-optimized results via the official Tavily CLI. Content snippets, relevance scores, domain filtering, and multiple search depths. 25.7K+ installs. The authoritative Tavily integration for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-search-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Tavily Search — Setup Guide
+# Tavily Search - Setup Guide
 
 **Source:** [tavily-ai/skills](https://skills.sh/tavily-ai/skills/tavily-search) (25,700+ installs)
 **Category:** Web Search / Research
 **Quality Tier:** 🟢 Production
 
-Official Tavily CLI for web search returning LLM-optimized results with content snippets, relevance scores, and metadata. Supports domain filtering, time ranges, and multiple search depths (ultra-fast to advanced). This is the authoritative Tavily integration — not the community OpenClaw wrapper.
+Official Tavily CLI for web search returning LLM-optimized results with content snippets, relevance scores, and metadata. Supports domain filtering, time ranges, and multiple search depths (ultra-fast to advanced). This is the authoritative Tavily integration - not the community OpenClaw wrapper.
 
 ---
 
@@ -131,7 +131,7 @@ tvly search "shopify merchants looking for analytics" --depth advanced --json
 - Always use `--json` for machine-readable output (Hermes agents parse programmatically)
 - Start with `basic` depth for exploration, escalate to `advanced` for final research
 - Combine `--topic news` with `--time-range week` for trending content
-- Tavily results are LLM-optimized — cleaner and more relevant than raw Google scraping
+- Tavily results are LLM-optimized - cleaner and more relevant than raw Google scraping
 
 ---
 
@@ -148,6 +148,6 @@ tvly search "shopify merchants looking for analytics" --depth advanced --json
 
 ## See Also
 
-- Tavily Research Setup — Deep AI-powered research with citations
-- Tavily Search OpenClaw Setup — Community OpenClaw wrapper (alternative)
-- [Tavily Docs](https://docs.tavily.com) — Official API documentation
+- Tavily Research Setup - Deep AI-powered research with citations
+- Tavily Search OpenClaw Setup - Community OpenClaw wrapper (alternative)
+- [Tavily Docs](https://docs.tavily.com) - Official API documentation

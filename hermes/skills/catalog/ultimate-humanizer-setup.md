@@ -1,6 +1,6 @@
 ---
-title: Ultimate Humanizer — Anti-AI-Slop Skill Setup Guide
-description: Install and configure ultimate-humanizer — 50 anti-AI-slop patterns, 2-pass self-audit, 5D scoring, and auto-evolution. Works with Hermes, Claude Code, and Open Code.
+title: Ultimate Humanizer - Anti-AI-Slop Skill Setup Guide
+description: Install and configure ultimate-humanizer - 50 anti-AI-slop patterns, 2-pass self-audit, 5D scoring, and auto-evolution. Works with Hermes, Claude Code, and Open Code.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ultimate-humanizer-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Ultimate Humanizer — Setup Guide
+# Ultimate Humanizer - Setup Guide
 
 **Source:** [surdijon/ultimate-humanizer](https://github.com/surdijon/ultimate-humanizer) · 1★
 **Category:** Content & Social / Quality Assurance
@@ -43,11 +43,11 @@ The skill scans for common AI-isms across five categories:
 ### 5D Scoring
 
 Each text receives scores (0-100) across:
-- **Naturalness** — Does it read like a human wrote it?
-- **Variety** — Sentence length, structure, vocabulary diversity
-- **Agency** — Active voice, concrete subjects, real opinions
-- **Specificity** — Facts, numbers, examples vs. vague generalities
-- **Rhythm** — Flow, pacing, absence of formulaic transitions
+- **Naturalness** - Does it read like a human wrote it?
+- **Variety** - Sentence length, structure, vocabulary diversity
+- **Agency** - Active voice, concrete subjects, real opinions
+- **Specificity** - Facts, numbers, examples vs. vague generalities
+- **Rhythm** - Flow, pacing, absence of formulaic transitions
 
 ---
 
@@ -77,11 +77,11 @@ Activate with the explicit command:
 Or in natural language:
 
 ```
-"Humanize this blog post — run the full anti-slop audit"
+"Humanize this blog post - run the full anti-slop audit"
 "Run ultimate-humanizer in strict mode on this landing page"
 ```
 
-The skill only activates on explicit invocation — it won't interfere with normal agent operation.
+The skill only activates on explicit invocation - it won't interfere with normal agent operation.
 
 ---
 

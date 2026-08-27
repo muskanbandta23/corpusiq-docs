@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent v0.20.1 Patch Release
-description: Hermes Agent v0.20.1 (v2026.8.13) — Patch release rolling up 1,444 commits and ~656 merged PRs since v0.20.0. Stabilization across the desktop app, gateway platforms, installers, tool system, and provider catalogs. August 13, 2026.
+description: Hermes Agent v0.20.1 (v2026.8.13) - Patch release rolling up 1,444 commits and ~656 merged PRs since v0.20.0. Stabilization across the desktop app, gateway platforms, installers, tool system, and provider catalogs. August 13, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.1/"
 robots: "index,follow"
 last_updated: "2026-08-14"
@@ -28,7 +28,7 @@ Since v2026.8.3 (v0.20.0, August 3): **1,444 commits · ~656 merged PRs · 2,172
 - **Provider Catalogs:** Model/provider catalog updates and fixes
 - **Issue Cleanup:** ~481 issues closed during the window
 
-**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ---
 
@@ -44,7 +44,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.20.0 — The Herald Release](/hermes/changelog/v0.20.0/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.20.0 - The Herald Release](/hermes/changelog/v0.20.0/) | [Changelog Home](/hermes/changelog/) →*
 
 *↑ [Changelog Home](/hermes/changelog/)*
 

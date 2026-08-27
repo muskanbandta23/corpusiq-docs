@@ -1,6 +1,6 @@
 ---
-title: Tavily Search — Web Search for OpenClaw Setup Guide
-description: Setup guide for the tavily-search skill — AI-optimized web search for OpenClaw agents. Real-time search with source attribution, topic extraction, and structured results.
+title: Tavily Search - Web Search for OpenClaw Setup Guide
+description: Setup guide for the tavily-search skill - AI-optimized web search for OpenClaw agents. Real-time search with source attribution, topic extraction, and structured results.
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-search-openclaw-setup/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Tavily Search — Web Search for OpenClaw
+# Tavily Search - Web Search for OpenClaw
 
 **Publisher:** [framix-team](https://skills.sh/framix-team/openclaw-tavily) | **Installs:** 797 | **Category:** Search
 
-Integrates the Tavily Search API into OpenClaw — purpose-built search for AI agents. Returns clean, structured results with source attribution, topic classification, and content extraction. Far better than raw Google scraping for agent consumption.
+Integrates the Tavily Search API into OpenClaw - purpose-built search for AI agents. Returns clean, structured results with source attribution, topic classification, and content extraction. Far better than raw Google scraping for agent consumption.
 
 ## Prerequisites
 
@@ -131,8 +131,8 @@ curl -s "https://api.tavily.com/search" \
 
 ### Search returns empty
 
-- Check `searchDomain` — `news` only returns recent content
-- Try `searchDepth: basic` — `advanced` may be slower but more thorough
+- Check `searchDomain` - `news` only returns recent content
+- Try `searchDepth: basic` - `advanced` may be slower but more thorough
 - Verify API key has quota remaining
 
 ### Rate limiting
@@ -154,4 +154,4 @@ Free tier: 1,000 searches/month. Upgrade for higher limits.
 
 ---
 
-*Part of the Hermes Skills Library — curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) — one MCP endpoint, all your business tools.*
+*Part of the Hermes Skills Library - curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) - one MCP endpoint, all your business tools.*

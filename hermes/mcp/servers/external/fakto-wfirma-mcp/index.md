@@ -1,6 +1,6 @@
 ---
 title: "Fakto.app wFirma MCP - CorpusIQ Docs"
-description: Full read-write MCP server for wFirma.pl Polish accounting — invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts
+description: Full read-write MCP server for wFirma.pl Polish accounting - invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-13
@@ -11,7 +11,7 @@ tags: [accounting, invoicing, erp, finance, oauth, poland, remote-mcp]
 
 # Fakto.app wFirma MCP
 
-**Remote MCP server (Streamable HTTP, OAuth 2.0) for wFirma.pl — the only MCP integration for one of Poland's most popular small-business accounting platforms.** Full read-write, not read-only: the assistant creates and searches invoices, manages contractors, records expenses and payments, tracks warehouse stock, reads KPiR tax ledgers and ZUS contributions, and produces cashflow forecasts. ~45 tools behind a hosted endpoint; OAuth 2.0 with dynamic client registration (RFC 7591) works out of the box as a custom connector in claude.ai, ChatGPT, and Claude Desktop.
+**Remote MCP server (Streamable HTTP, OAuth 2.0) for wFirma.pl - the only MCP integration for one of Poland's most popular small-business accounting platforms.** Full read-write, not read-only: the assistant creates and searches invoices, manages contractors, records expenses and payments, tracks warehouse stock, reads KPiR tax ledgers and ZUS contributions, and produces cashflow forecasts. ~45 tools behind a hosted endpoint; OAuth 2.0 with dynamic client registration (RFC 7591) works out of the box as a custom connector in claude.ai, ChatGPT, and Claude Desktop.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Fakto.app (github.com/nulline-apps/fakto-mcp)
 
 ## Why This Matters for Operators
 
-Polish SMB accounting runs on wFirma.pl, and until now every integration into it was a bespoke API project. Fakto.app makes the assistant an operator inside the ledger — not a viewer. The assistant can draft an invoice, chase an overdue payment with an automatic reminder, or answer "what is my cash position next quarter" straight from the books.
+Polish SMB accounting runs on wFirma.pl, and until now every integration into it was a bespoke API project. Fakto.app makes the assistant an operator inside the ledger - not a viewer. The assistant can draft an invoice, chase an overdue payment with an automatic reminder, or answer "what is my cash position next quarter" straight from the books.
 
-**The write path is real but structured.** OAuth scopes and Bearer tokens gate access, and one subscription covers both the wFirma and the sister Fakturownia.pl server — so a Polish operator with books in either system pays once. n8n and Make templates ship ready-made for teams that want the same tools outside a chat client.
+**The write path is real but structured.** OAuth scopes and Bearer tokens gate access, and one subscription covers both the wFirma and the sister Fakturownia.pl server - so a Polish operator with books in either system pays once. n8n and Make templates ship ready-made for teams that want the same tools outside a chat client.
 
 ## Tools & Capabilities
 
@@ -48,7 +48,7 @@ Polish SMB accounting runs on wFirma.pl, and until now every integration into it
 claude mcp add fakto-wfirma --transport http https://fakto.app/wfirma/stream
 ```
 
-First connect triggers the browser OAuth flow (dynamic client registration — no pre-created client ID needed). For n8n and Make.com, generate a Bearer token in the web panel instead.
+First connect triggers the browser OAuth flow (dynamic client registration - no pre-created client ID needed). For n8n and Make.com, generate a Bearer token in the web panel instead.
 
 ## Configuration
 
@@ -67,22 +67,22 @@ OAuth-capable clients bootstrap automatically from the 401 challenge; Bearer-tok
 
 ## Business Relevance
 
-- **Polish small businesses on wFirma.pl** get their first AI-native accounting layer — invoice drafting, stock alerts, and cashflow forecasts in chat.
+- **Polish small businesses on wFirma.pl** get their first AI-native accounting layer - invoice drafting, stock alerts, and cashflow forecasts in chat.
 - **Accountants and bookkeepers** hand the assistant recurring work (payment reminders, overdue lists) and keep final sign-off.
 - **Ecommerce operators in Poland** connect warehouse stock and payment tracking to the same surface that answers "what is owed to us".
 - **n8n/Make teams** get the identical ~45 tools as workflow steps with ready-made templates.
 
 ## Integration with CorpusIQ
 
-Fakto.app extends the CorpusIQ accounting story into a locale CorpusIQ connectors do not cover natively: CorpusIQ's QuickBooks and Axonaut connectors handle US and French books; wFirma is the Polish ledger. An operator running both worlds composes cleanly — CorpusIQ answers multi-market revenue and spend questions (Stripe charges, Shopify orders, GA4 traffic), while Fakto answers the Polish-book questions (KPiR, ZUS, local invoices) the global layer never sees. For a Polish entity, the pair is the practical stack: global business data from CorpusIQ, local compliance from Fakto.
+Fakto.app extends the CorpusIQ accounting story into a locale CorpusIQ connectors do not cover natively: CorpusIQ's QuickBooks and Axonaut connectors handle US and French books; wFirma is the Polish ledger. An operator running both worlds composes cleanly - CorpusIQ answers multi-market revenue and spend questions (Stripe charges, Shopify orders, GA4 traffic), while Fakto answers the Polish-book questions (KPiR, ZUS, local invoices) the global layer never sees. For a Polish entity, the pair is the practical stack: global business data from CorpusIQ, local compliance from Fakto.
 
 ## Limitations
 
-- Brand new — no track record yet
+- Brand new - no track record yet
 - Poland-specific: wFirma.pl and Fakturownia.pl only; no other locales
 - Cloud-only (hosted endpoint, no self-host option)
 - Free tier capped at 100 requests/month
-- Write access is broad — OAuth scope review matters before production use
+- Write access is broad - OAuth scope review matters before production use
 
 ## See Also
 

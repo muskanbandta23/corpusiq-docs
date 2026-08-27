@@ -1,5 +1,5 @@
 ---
-title: "August 12, 2026 — OpenClaw/Clawd/Hermes Ecosystem Sweep"
+title: "August 12, 2026 - OpenClaw/Clawd/Hermes Ecosystem Sweep"
 description: "Skills.sh sweep for Aug 12: openclaw/carapace design system (2.3K installs), Volces Hermes skills, OpenClaw Graph additions, official MCP OAuth remote"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# August 12, 2026 — OpenClaw Ecosystem Sweep
+# August 12, 2026 - OpenClaw Ecosystem Sweep
 
 **Date:** August 12, 2026
 **New publishers:** 62
@@ -20,7 +20,7 @@ Six weeks after the previous OpenClaw ecosystem sweep (June 30), this pass caugh
 
 ---
 
-## 🆕 OpenClaw Carapace — Design System Package (openclaw/carapace)
+## 🆕 OpenClaw Carapace - Design System Package (openclaw/carapace)
 
 **Skills:** 6 · **Combined installs:** 2.3K · **First seen:** July 21, 2026
 **Source:** [skills.sh](https://skills.sh/openclaw/carapace) · [GitHub](https://github.com/openclaw/carapace) (4⭐)
@@ -31,7 +31,7 @@ The official OpenClaw design system, split into six focused skills. `openclaw-de
 | Skill | Installs | Use For |
 |---|---|---|
 | openclaw-brand | 379 | Identity decisions, typography, logos, imagery, voice |
-| openclaw-design | 379 | Router — selects the correct design branch per task |
+| openclaw-design | 379 | Router - selects the correct design branch per task |
 | openclaw-design-audit | 379 | Design drift, token misuse, accessibility, recurring audits |
 | openclaw-marketing-pages | 379 | Public pages, landing/content composition, SEO, responsive layout |
 | openclaw-design-system | 378 | v0.1.x compatibility alias for upgrading skill locks |
@@ -43,7 +43,7 @@ Security: Gen Agent Trust Hub Pass, Socket Pass (Warn on openclaw-design), Snyk 
 
 ---
 
-## 🆕 OpenClaw Graph — 3 New Skills (alphaonedev/openclaw-graph)
+## 🆕 OpenClaw Graph - 3 New Skills (alphaonedev/openclaw-graph)
 
 **Skills:** 3 · **Combined installs:** 144 · **First seen:** March 7, 2026
 **Source:** [skills.sh](https://skills.sh/alphaonedev/openclaw-graph) · [GitHub](https://github.com/alphaonedev/openclaw-graph) (6⭐)
@@ -60,10 +60,10 @@ The openclaw-graph repo (311 skills, 19.7K installs) is already heavily catalogu
 
 ---
 
-## 🆕 Volces Skills Registry — Hermes & OpenClaw Cluster (skills.volces.com)
+## 🆕 Volces Skills Registry - Hermes & OpenClaw Cluster (skills.volces.com)
 
 **Skills:** 9 · **Combined installs:** 21
-**Source:** [skills.sh publisher pages](https://skills.sh) (detail pages 404 — Volces registry mirror)
+**Source:** [skills.sh publisher pages](https://skills.sh) (detail pages 404 - Volces registry mirror)
 
 ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. Nine Hermes/OpenClaw-relevant skills surfaced, including installer and memory tooling not available anywhere else.
 
@@ -83,7 +83,7 @@ ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. N
 
 ---
 
-## 🆕 Official Hermes Agent — MCP OAuth Remote Gateway (nousresearch/hermes-agent)
+## 🆕 Official Hermes Agent - MCP OAuth Remote Gateway (nousresearch/hermes-agent)
 
 **Skill:** mcp-oauth-remote-gateway · **Installs:** 1 · **First seen:** ~August 4, 2026
 **Source:** [skills.sh](https://skills.sh/nousresearch/hermes-agent/mcp-oauth-remote-gateway) · **Repo:** 229K⭐
@@ -94,7 +94,7 @@ A new official skill from the Hermes Agent repo. Solves the exact problem every 
 
 ---
 
-## 🆕 Mnemosyne — Hermes Memory Providers (mnemosyne-oss/mnemosyne)
+## 🆕 Mnemosyne - Hermes Memory Providers (mnemosyne-oss/mnemosyne)
 
 **Skill:** hermes-memory-providers · **Installs:** 4 · **First seen:** July 14, 2026
 **Source:** [skills.sh](https://skills.sh/mnemosyne-oss/mnemosyne/hermes-memory-providers) · **Repo:** 2.3K⭐
@@ -121,7 +121,7 @@ Honcho (the session memory layer CorpusIQ runs) now has integration skills for O
 
 ---
 
-## 🆕 cnife/skills — Hermes Skill Auditor
+## 🆕 cnife/skills - Hermes Skill Auditor
 
 **Skill:** audit-hermes-agent-skills · **Installs:** 13 · **First seen:** April 22, 2026
 **Source:** [skills.sh](https://skills.sh/cnife/skills/audit-hermes-agent-skills) · [GitHub](https://github.com/cnife/skills)
@@ -132,7 +132,7 @@ Audits installed Hermes skills for usage frequency via Hermes' internal API (`_f
 
 ---
 
-## Community Long-Tail — 48 Skills from 43 Repos
+## Community Long-Tail - 48 Skills from 43 Repos
 
 Single-install community skills across the Clawd ecosystem. Worth cataloguing for completeness; most are personal configs, backups, or niche integrations. Duplicates/mirrors are flagged inline.
 

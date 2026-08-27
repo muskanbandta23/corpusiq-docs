@@ -11,7 +11,7 @@ tags: [social-media, tiktok, instagram, youtube, video-posting, managed-accounts
 
 # TokPortal MCP
 
-**Managed social infrastructure API: real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, exposed as a REST API and an MCP server with 91 tools.** Create bundles of accounts and videos, upload and schedule videos at scale, retrieve delivered accounts, read cross-account analytics, follow the ban lifecycle and register webhooks — all from an agent, with no per-account OAuth, no 25-posts/day cap and no app review. Tools carry MCP annotations (`readOnlyHint`, `destructiveHint`, `idempotentHint`).
+**Managed social infrastructure API: real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, exposed as a REST API and an MCP server with 91 tools.** Create bundles of accounts and videos, upload and schedule videos at scale, retrieve delivered accounts, read cross-account analytics, follow the ban lifecycle and register webhooks - all from an agent, with no per-account OAuth, no 25-posts/day cap and no app review. Tools carry MCP annotations (`readOnlyHint`, `destructiveHint`, `idempotentHint`).
 
 ```
 Server type: Remote (Streamable HTTP) or stdio via npm
@@ -22,14 +22,14 @@ Tools: 91 across accounts, videos, scheduling, analytics, bans, webhooks
 Pricing: credit-based (per account and per video); size costs with tokportal_get_credit_costs
 License: MIT (client/server repo); commercial managed-account API
 Category: Marketing / social infrastructure
-Built by: TokPortal (tokportal.com) — registry com.tokportal/mcp
+Built by: TokPortal (tokportal.com) - registry com.tokportal/mcp
 ```
 
 ## Why This Matters for Operators
 
-Social distribution at scale is the operator problem no scheduling tool solves. Postiz-class schedulers move content between your existing accounts; TokPortal sits one layer lower — it provisions the accounts themselves. Human account managers in 16+ countries create, warm and operate real accounts, so an agent can order a geo-targeted bundle (say, ten US TikTok accounts) and receive working credentials, then push video content across the bundle through the same API.
+Social distribution at scale is the operator problem no scheduling tool solves. Postiz-class schedulers move content between your existing accounts; TokPortal sits one layer lower - it provisions the accounts themselves. Human account managers in 16+ countries create, warm and operate real accounts, so an agent can order a geo-targeted bundle (say, ten US TikTok accounts) and receive working credentials, then push video content across the bundle through the same API.
 
-**The ban lifecycle is the honest feature.** Multi-account operations get flagged; TokPortal exposes that lifecycle as tools instead of leaving you blind — watch for bans, handle replacements, and let webhooks notify the agent when an account dies. For growth operators running dozens of accounts across markets, that visibility is the difference between a controlled channel and a pile of dead profiles.
+**The ban lifecycle is the honest feature.** Multi-account operations get flagged; TokPortal exposes that lifecycle as tools instead of leaving you blind - watch for bans, handle replacements, and let webhooks notify the agent when an account dies. For growth operators running dozens of accounts across markets, that visibility is the difference between a controlled channel and a pile of dead profiles.
 
 ## Tools & Capabilities
 
@@ -90,11 +90,11 @@ Rate limit is 120 requests/minute per key; `RATE_LIMIT_EXCEEDED` responses carry
 
 ## Integration with CorpusIQ
 
-CorpusIQ's 40+ connectors cover the measurement side of marketing — ad spend, store revenue, email, analytics. TokPortal covers the distribution side CorpusIQ does not: managed accounts and at-scale video publishing on TikTok, Instagram and YouTube. Composed, TokPortal answers "which accounts posted and which got banned" while CorpusIQ answers "what did those posts and campaigns actually earn" from GA4, Shopify and ad connectors — distribution and attribution in one agent session.
+CorpusIQ's 40+ connectors cover the measurement side of marketing - ad spend, store revenue, email, analytics. TokPortal covers the distribution side CorpusIQ does not: managed accounts and at-scale video publishing on TikTok, Instagram and YouTube. Composed, TokPortal answers "which accounts posted and which got banned" while CorpusIQ answers "what did those posts and campaigns actually earn" from GA4, Shopify and ad connectors - distribution and attribution in one agent session.
 
 ## Limitations
 
 - Commercial credit-based pricing; no published free tier (per-request cost estimation via `tokportal_get_credit_costs`)
-- Managed-account model carries platform ToS risk; ban lifecycle tooling exists precisely because platforms ban accounts — budget for churn
+- Managed-account model carries platform ToS risk; ban lifecycle tooling exists precisely because platforms ban accounts - budget for churn
 - New listing (repo created Aug 18, 2026); MIT license on the client, but the managed-account API is the paid product
-- 16+ country coverage, but not all platforms in all countries — confirm geo coverage for your target market before ordering bundles
+- 16+ country coverage, but not all platforms in all countries - confirm geo coverage for your target market before ordering bundles

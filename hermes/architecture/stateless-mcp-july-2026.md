@@ -1,6 +1,6 @@
 ---
-title: Stateless MCP — What the July 2026 Spec Means for Business AI
-description: "Setup and usage guide for Stateless MCP — What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory."
+title: Stateless MCP - What the July 2026 Spec Means for Business AI
+description: "Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/stateless-mcp-july-2026/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Stateless MCP — What the July 2026 Spec Means for Business AI
+# Stateless MCP - What the July 2026 Spec Means for Business AI
 
-The MCP specification update on July 28, 2026 eliminated sessions, handshakes, and persistent connections. MCP is now fully stateless — every request carries its own protocol version, method, and authentication.
+The MCP specification update on July 28, 2026 eliminated sessions, handshakes, and persistent connections. MCP is now fully stateless - every request carries its own protocol version, method, and authentication.
 
 This matters for business operators because it removes the single biggest barrier to connecting real business data to AI: infrastructure complexity.
 
@@ -48,7 +48,7 @@ Stateless MCP means business data connectors can be:
 
 **Per-user scoped.** Each user's OAuth token travels with the request. Shopify and QuickBooks remain the authoritative systems. Raw customer files and full connector response payloads are not aggregated into a CorpusIQ warehouse; scoped operational retention still applies.
 
-**Infrastructure-independent.** No WebSocket servers to maintain. No session state to manage. Standard HTTP infrastructure works — Cloudflare, AWS ALB, nginx.
+**Infrastructure-independent.** No WebSocket servers to maintain. No session state to manage. Standard HTTP infrastructure works - Cloudflare, AWS ALB, nginx.
 
 **Cross-AI compatible.** The same connector serves ChatGPT, Claude, Perplexity, and any other MCP-compatible AI. The user chooses their AI. The data layer stays consistent.
 
@@ -60,7 +60,7 @@ Stateless MCP solves the transport problem. But business operators need more tha
 - **Metric definitions** that ensure revenue means the same thing across every AI and every connector
 - **Source-of-truth validation** that traces every answer back to the original system
 - **Read-only OAuth** so no AI can modify your business data
-- **Scoped retention** — connectors fetch live data without retaining raw customer files or full response payloads; operational logs may persist for up to 30 days
+- **Scoped retention** - connectors fetch live data without retaining raw customer files or full response payloads; operational logs may persist for up to 30 days
 
 The stateless MCP spec makes this architecture possible at scale. No connection pools. No session affinity. No state to lose.
 
@@ -70,7 +70,7 @@ Amazon Bedrock AgentCore adopted stateless MCP immediately. Google published sca
 
 The direction is clear: AI data access is moving toward stateless, authenticated, per-request patterns. The same architecture that made REST APIs the backbone of the web is now coming to AI tool access.
 
-For business operators, this means your QuickBooks, Shopify, and Stripe data can reach any AI you use — without building infrastructure, managing connections, or storing data in intermediate systems.
+For business operators, this means your QuickBooks, Shopify, and Stripe data can reach any AI you use - without building infrastructure, managing connections, or storing data in intermediate systems.
 
 ## Learn More
 

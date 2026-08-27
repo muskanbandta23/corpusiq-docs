@@ -35,7 +35,7 @@ Read-only OAuth gives AI permission to query data but blocks all write operation
 1. You log into your tool (Shopify, QuickBooks, Stripe, etc.)
 2. You grant read-only access to the AI connector
 3. The connector receives a token scoped to read-only operations
-4. Every API call uses this token — the tool's own security rejects any write attempt
+4. Every API call uses this token - the tool's own security rejects any write attempt
 
 Even if the AI tries to modify data, the tool itself blocks the operation. The boundary is enforced at the API level, not the AI level.
 

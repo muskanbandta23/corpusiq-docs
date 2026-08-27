@@ -1,6 +1,6 @@
 ---
-title: "Capital.com MCP — Trading Account Access & Market Data"
-description: "Connect AI assistants directly to trading accounts. Market data, position checks, trade previews — all in plain language through MCP."
+title: "Capital.com MCP - Trading Account Access & Market Data"
+description: "Connect AI assistants directly to trading accounts. Market data, position checks, trade previews - all in plain language through MCP."
 category: mcp
 tags: [mcp-server, finance, trading, market-data, investment, business-operations]
 last_updated: 2026-07-16
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Capital.com Public API MCP Server ★ New (July 16)
 
-The Capital.com MCP Server lets your AI assistant talk to your trading account directly. Market data, position checks, trade previews — all in plain language, without leaving your AI tool.
+The Capital.com MCP Server lets your AI assistant talk to your trading account directly. Market data, position checks, trade previews - all in plain language, without leaving your AI tool.
 
 **Source:** mcpservers.org (submitted July 16, 2026)
 **Category:** Finance
@@ -40,12 +40,12 @@ Essential for operators in finance, treasury, investment management, and executi
 
 ## Integration with CorpusIQ
 
-Pair with CorpusIQ's financial connectors (QuickBooks, Stripe) for complete financial intelligence. Ask: "Compare our actual revenue trends against sector market performance" — combining your operational data with external market data for holistic financial analysis.
+Pair with CorpusIQ's financial connectors (QuickBooks, Stripe) for complete financial intelligence. Ask: "Compare our actual revenue trends against sector market performance" - combining your operational data with external market data for holistic financial analysis.
 
 ## Limitations
 
-- Capital.com account required — not a standalone market data service
-- Trading-focused — not suitable for fundamental research or deep due diligence
+- Capital.com account required - not a standalone market data service
+- Trading-focused - not suitable for fundamental research or deep due diligence
 - Regional availability subject to Capital.com's service areas
 - Trade execution capabilities should be carefully permissioned
 

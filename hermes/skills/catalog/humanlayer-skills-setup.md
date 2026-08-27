@@ -1,6 +1,6 @@
 ---
-title: "HumanLayer Skills — Human-in-the-Loop Patterns Setup"
-description: Install the humanlayer/skills cluster (2.7K installs, 5 skills) — show-me, improve-claude-md, design-control-loop, build-iterated-agentic-loop for building agent systems with human approval gates.
+title: "HumanLayer Skills - Human-in-the-Loop Patterns Setup"
+description: Install the humanlayer/skills cluster (2.7K installs, 5 skills) - show-me, improve-claude-md, design-control-loop, build-iterated-agentic-loop for building agent systems with human approval gates.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/humanlayer-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# HumanLayer Skills — Setup Guide
+# HumanLayer Skills - Setup Guide
 
 **Source:** [humanlayer/skills](https://www.skills.sh/humanlayer/skills) (5 skills · 2.7K combined installs)
 **Repo:** [github.com/humanlayer/skills](https://github.com/humanlayer/skills)
@@ -67,7 +67,7 @@ hermes skills install humanlayer/skills/design-control-loop
 
 ## Limitations / Verification
 
-- Cluster is small and beta-tier overall — `show-me` is the proven core
+- Cluster is small and beta-tier overall - `show-me` is the proven core
 - HITL design needs a review surface to be meaningful; the skill supplies the pattern, not the UI
 - Verify install: `npx skills list | grep -E 'show-me|control-loop'`
 

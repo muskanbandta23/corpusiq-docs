@@ -11,7 +11,7 @@ tags: [telegram, analytics, broadcast, automation, referral-tracking, community,
 
 # Graspil MCP
 
-**Remote MCP server (Streamable HTTP, API key)** — Graspil's own MCP server connects an AI agent directly to your Telegram bots, channels, and groups. Build reports and dashboards, read stats and funnels, manage broadcasts and automations, and view conversation history and referral earnings — without opening the dashboard.
+**Remote MCP server (Streamable HTTP, API key)** - Graspil's own MCP server connects an AI agent directly to your Telegram bots, channels, and groups. Build reports and dashboards, read stats and funnels, manage broadcasts and automations, and view conversation history and referral earnings - without opening the dashboard.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Graspil (graspil.com)
 
 ## Why This Matters for Operators
 
-Telegram has become a serious acquisition and community channel for operators — payment funnels, referral programs, broadcast marketing. But operating it means another dashboard, another login, another set of manual reports.
+Telegram has become a serious acquisition and community channel for operators - payment funnels, referral programs, broadcast marketing. But operating it means another dashboard, another login, another set of manual reports.
 
-**Graspil MCP puts Telegram operations in plain language.** Ask "how many new users joined last week compared to the week before," "build a payment funnel report for June and save it," or "create a broadcast with this text and send it to all active users" — the agent calls the right tools and answers. The MCP server is a thin layer on the regular Graspil API, so the agent works with the same bots and permissions your API key allows.
+**Graspil MCP puts Telegram operations in plain language.** Ask "how many new users joined last week compared to the week before," "build a payment funnel report for June and save it," or "create a broadcast with this text and send it to all active users" - the agent calls the right tools and answers. The MCP server is a thin layer on the regular Graspil API, so the agent works with the same bots and permissions your API key allows.
 
 ## Tools & Capabilities
 
@@ -80,7 +80,7 @@ CorpusIQ itself runs on Telegram, so Graspil's surface is directly familiar. Gra
 - Commercial; plan restrictions apply exactly as through the dashboard or API
 - API-key scoping means the agent inherits the key's bot permissions
 - Telegram-only surface
-- Brand new — no track record yet
+- Brand new - no track record yet
 
 ## See Also
 

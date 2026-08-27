@@ -1,6 +1,6 @@
 ---
-title: "qlows MCP — Tender & RFP Search for AI Agents"
-description: "Real-time tender and RFP search across 35 WTO-GPA countries (US, EU, Australia). Ground AI proposals in live procurement data — find, analyze, and respond"
+title: "qlows MCP - Tender & RFP Search for AI Agents"
+description: "Real-time tender and RFP search across 35 WTO-GPA countries (US, EU, Australia). Ground AI proposals in live procurement data - find, analyze, and respond"
 category: mcp
 tags: [mcp-server, procurement, tender, rfp, government-contracts, business-development]
 last_updated: 2026-07-08
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# qlows MCP — Tender & RFP Search
+# qlows MCP - Tender & RFP Search
 
 ## What It Is
 
-qlows MCP (`getqlows/qlows-mcp`) provides real-time tender and RFP search across the WTO-GPA zone — 35 countries including the US, EU member states, and Australia. Business development teams and proposal writers can search live procurement opportunities, analyze requirements, and draft RFP responses with AI grounded in actual tender documents.
+qlows MCP (`getqlows/qlows-mcp`) provides real-time tender and RFP search across the WTO-GPA zone - 35 countries including the US, EU member states, and Australia. Business development teams and proposal writers can search live procurement opportunities, analyze requirements, and draft RFP responses with AI grounded in actual tender documents.
 
 ## Tools Available
 
@@ -38,11 +38,11 @@ npx mcp-remote https://app.qlows.com/api/mcp/{MINT_TOKEN}/rpc
 
 ## Limitations
 
-- **WTO-GPA zone only**: 35 countries — no coverage for China, India, Brazil, or most developing markets
+- **WTO-GPA zone only**: 35 countries - no coverage for China, India, Brazil, or most developing markets
 - **Token-gated**: Requires a qlows MINT token for API access
 - **Remote-hosted**: Depends on qlows.com uptime
 
 ## See Also
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
-- [Booyah Index MCP — Business Directory](/hermes/mcp/servers/external/booyah-index/)
+- [Booyah Index MCP - Business Directory](/hermes/mcp/servers/external/booyah-index/)

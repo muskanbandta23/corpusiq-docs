@@ -1,5 +1,5 @@
 ---
-title: "Agentcard MCP — Prepaid Virtual Cards for AI Agent"
+title: "Agentcard MCP - Prepaid Virtual Cards for AI Agent"
 description: "Prepaid virtual cards for AI agents with spend caps, one-time cards, and human approval workflows. Control AI agent spending via MCP."
 category: mcp
 tags: [mcp-server, finance, ai-agents, spend-control, payments, operations]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Agentcard MCP Server ★ New (July 15)
 
-Prepaid virtual cards designed specifically for AI agents. One-time cards, spend caps, and human approval workflows — giving operators financial control over autonomous AI agent spending.
+Prepaid virtual cards designed specifically for AI agents. One-time cards, spend caps, and human approval workflows - giving operators financial control over autonomous AI agent spending.
 
 **Source:** mcpservers.org (submitted July 15, 2026)
 **Category:** Finance
@@ -29,7 +29,7 @@ Prepaid virtual cards designed specifically for AI agents. One-time cards, spend
 ## Business Relevance
 
 Financial controls for operators deploying AI agents that spend money autonomously. Use cases:
-- **Agent spending governance:** Give your AI coding agents the ability to purchase APIs, datasets, or services — with hard limits
+- **Agent spending governance:** Give your AI coding agents the ability to purchase APIs, datasets, or services - with hard limits
 - **SaaS procurement:** Let agents sign up for trial accounts without exposing company credit cards
 - **Market research:** Fund agents to purchase reports, datasets, or premium content within budgets
 - **Developer tooling:** Issue per-project cards for API credits, domain purchases, or cloud resources
@@ -43,10 +43,10 @@ Pair with CorpusIQ's Stripe and QuickBooks connectors for complete spend visibil
 
 ## Limitations
 
-- Virtual cards only — no physical card issuance
-- Spending controls are prepaid — agents cannot exceed loaded balances
+- Virtual cards only - no physical card issuance
+- Spending controls are prepaid - agents cannot exceed loaded balances
 - Integration requires agent-level configuration (not a drop-in proxy)
-- New product — ecosystem integrations still maturing
+- New product - ecosystem integrations still maturing
 
 ---
 

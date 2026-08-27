@@ -11,7 +11,7 @@ else.
 
 None of them talk to each other.
 
-So when you ask the simple question — "how is my business doing?" — there's
+So when you ask the simple question - "how is my business doing?" - there's
 no single place to look. You log into Shopify. Then QuickBooks. Then the
 ad accounts. Then HubSpot. You screenshot a chart from each, paste them
 into a doc, and try to draw a conclusion. It takes hours. You do it once
@@ -33,11 +33,11 @@ stitch anything together. You ask. It answers.
 
 **Connectors.** One-way, read-only links to your SaaS tools. You
 authenticate each one once via OAuth (the same flow you've used a hundred
-times — "Sign in with Google" and the like). CorpusIQ then reads your
+times - "Sign in with Google" and the like). CorpusIQ then reads your
 data when you ask a question. It never writes back to your tools.
 
 **Skills engine.** When you ask a complex question, CorpusIQ doesn't
-blindly query everything. It routes your question to a *skill* — an
+blindly query everything. It routes your question to a *skill* - an
 opinionated procedure that knows which connectors to hit, in what order,
 and how to present the answer. The same question always runs the same
 play. Results are predictable.
@@ -67,13 +67,13 @@ five spreadsheets and one tool, you don't need CorpusIQ yet.
 
 ## What's next
 
-- [connectors-explained.md](connectors-explained.md) — what a connector
+- [connectors-explained.md](connectors-explained.md) - what a connector
   actually is.
-- [skills-explained.md](skills-explained.md) — why the answers are
+- [skills-explained.md](skills-explained.md) - why the answers are
   consistent.
-- [privacy-and-security.md](privacy-and-security.md) — what CorpusIQ
+- [privacy-and-security.md](privacy-and-security.md) - what CorpusIQ
   does and doesn't do with your data.
-- [../quickstart/](../quickstart/README.md) — get connected in 10 minutes.
+- [../quickstart/](../quickstart/README.md) - get connected in 10 minutes.
 ---
 
 *

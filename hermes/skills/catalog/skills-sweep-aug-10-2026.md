@@ -1,5 +1,5 @@
 ---
-title: Skills.sh Sweep — August 10, 2026
+title: Skills.sh Sweep - August 10, 2026
 description: Automated marketplace sweep discovering 29 new Hermes Agent skills not yet in the corpusiq-docs catalog. 7 setup guides drafted and pushed.
 date: 2026-08-10
 sweep_id: aug-10-2026-cron
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skills.sh Sweep — August 10, 2026 (Cron Update)
+# Skills.sh Sweep - August 10, 2026 (Cron Update)
 
 Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace. Cross-referenced 54 unique Hermes-related skills against the existing 351-entry catalog at `corpusiq-docs/hermes/skills/catalog/`.
 
@@ -32,16 +32,16 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 | `excalidraw` | 342 | [excalidraw-setup.md](excalidraw-setup.md) ✍️ |
 | `ascii-art` | 338 | [ascii-art-setup.md](ascii-art-setup.md) ✍️ |
 | `imessage` | 331 | [imessage-setup.md](imessage-setup.md) ✍️ |
-| `design-md` | 329 | — |
-| `songwriting-and-ai-music` | 324 | — |
-| `architecture-diagram` | 320 | — |
-| `p5js` | 319 | — |
-| `ocr-and-documents` | 316 | — |
-| `sketch` | 312 | — |
-| `comfyui` | 308 | — |
-| `opencode` | 301 | — |
-| `ascii-video` | 291 | — |
-| `manim-video` | 291 | — |
+| `design-md` | 329 | - |
+| `songwriting-and-ai-music` | 324 | - |
+| `architecture-diagram` | 320 | - |
+| `p5js` | 319 | - |
+| `ocr-and-documents` | 316 | - |
+| `sketch` | 312 | - |
+| `comfyui` | 308 | - |
+| `opencode` | 301 | - |
+| `ascii-video` | 291 | - |
+| `manim-video` | 291 | - |
 | `github-code-review` | 281 | [github-code-review-setup.md](github-code-review-setup.md) ✍️ |
 
 ### 📦 Third-Party Skills
@@ -49,20 +49,20 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
 | `printing-press-library` | 679 | mvanhorn/printing-press-library | [printing-press-library-setup.md](printing-press-library-setup.md) ✍️ |
-| `p5js-hermes` | 36 | podo/design-agent-skills | — |
+| `p5js-hermes` | 36 | podo/design-agent-skills | - |
 | `agentiko-hermes` | 16 | uphiago/recon-skills | (already cataloged) |
-| `hermes-learning-loop` | 7 | skills.volces.com | — |
-| `hermes-worker-qxun` | 5 | andy304yang/codex | — |
-| `hermes-code-bridge` | 3 | xuyang-liu16/hermes-code-bridge | — |
-| `hermes-remote-deploy` | 2 | aaaaqwq/agi-super-team | — |
-| `hermes-insights` | 2 | alexai-mcp/hermes-ccc | — |
-| `hermes-compress` | 1 | theo-one-ai/hermes-ccc | — |
-| `hermes-dreaming` | 1 | asimons81/hermes-dreaming | — |
-| `hermes-promotion` | 1 | buzzxu/bbg | — |
-| `hermes-network` | 1 | schin-300/hermes-skills | — |
-| `hermes-delegated-coding` | 1 | denglong450921-oss/hermes-custom-skills | — |
+| `hermes-learning-loop` | 7 | skills.volces.com | - |
+| `hermes-worker-qxun` | 5 | andy304yang/codex | - |
+| `hermes-code-bridge` | 3 | xuyang-liu16/hermes-code-bridge | - |
+| `hermes-remote-deploy` | 2 | aaaaqwq/agi-super-team | - |
+| `hermes-insights` | 2 | alexai-mcp/hermes-ccc | - |
+| `hermes-compress` | 1 | theo-one-ai/hermes-ccc | - |
+| `hermes-dreaming` | 1 | asimons81/hermes-dreaming | - |
+| `hermes-promotion` | 1 | buzzxu/bbg | - |
+| `hermes-network` | 1 | schin-300/hermes-skills | - |
+| `hermes-delegated-coding` | 1 | denglong450921-oss/hermes-custom-skills | - |
 
-### 📦 Cron Update — August 10 (Second Pass)
+### 📦 Cron Update - August 10 (Second Pass)
 
 New skills discovered in second marketplace sweep not covered by the first pass:
 
@@ -75,8 +75,8 @@ New skills discovered in second marketplace sweep not covered by the first pass:
 | `canvas` | 14 | nousresearch/hermes-agent | [canvas-setup.md](canvas-setup.md) ✍️ |
 | `solana` | 14 | nousresearch/hermes-agent | [solana-setup.md](solana-setup.md) ✍️ |
 | `hermes` (iii-hq/workers) | 5 | iii-hq/workers | [iii-workers-hermes-setup.md](iii-workers-hermes-setup.md) ✍️ |
-| `hermes` (jaehoonson) | 6 | jaehoonson/tryhermes-skill | — (different product, not Hermes Agent) |
-| `hermes-traj` | 2 | alexai-mcp/hermes-ccc | — (covered by hermes-insights above) |
+| `hermes` (jaehoonson) | 6 | jaehoonson/tryhermes-skill | - (different product, not Hermes Agent) |
+| `hermes-traj` | 2 | alexai-mcp/hermes-ccc | - (covered by hermes-insights above) |
 
 ---
 
@@ -96,8 +96,8 @@ The following 21 skills were confirmed as already existing in the catalog (no du
   - `hermes+automation+OR+hermes+deploy+OR+hermes+tool`
   - `hermes+code+OR+hermes+dev+OR+hermes+workflow`
   - `hermes+deploy+OR+hermes+tool+OR+hermes+plugin`
-  - `hermes` (keyword search — 20 results)
-  - `hermes agent` (keyword search — 17 results)
+  - `hermes` (keyword search - 20 results)
+  - `hermes agent` (keyword search - 17 results)
 - **Cross-referenced** against 358 existing catalog entries
 - **14 setup guides** drafted across two passes:
   - Pass 1: claude-design, llm-wiki, excalidraw, ascii-art, imessage, printing-press-library, github-code-review
@@ -115,8 +115,8 @@ The following 21 skills were confirmed as already existing in the catalog (no du
 | Total discovered unique | ~47 | 50 | 54 | +7 |
 | Guides drafted this sweep | 5 | 7 | 14 | +9 |
 
-The NousResearch Hermes Agent ecosystem continues to ship new skills rapidly. 19 additional official skills were cataloged this sweep — notably the creative suite (ascii-art, excalidraw, sketch), content generation tools (songwriting, manim-video, ascii-video), developer workflow skills (github-code-review, opencode, architecture-diagram), blockchain integration (solana), education (canvas), and design system tools (design-md).
+The NousResearch Hermes Agent ecosystem continues to ship new skills rapidly. 19 additional official skills were cataloged this sweep - notably the creative suite (ascii-art, excalidraw, sketch), content generation tools (songwriting, manim-video, ascii-video), developer workflow skills (github-code-review, opencode, architecture-diagram), blockchain integration (solana), education (canvas), and design system tools (design-md).
 
 ---
 
-**Next sweep:** Automated cron — next run. Focus queries on recently added skills and trending.
+**Next sweep:** Automated cron - next run. Focus queries on recently added skills and trending.

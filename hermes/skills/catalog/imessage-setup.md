@@ -1,6 +1,6 @@
 ---
-title: "imessage — Setup Guide - CorpusIQ Docs"
-description: Send, receive, and automate iMessage conversations via Hermes Agent — 331 installs from nousresearch/hermes-agent.
+title: "imessage - Setup Guide - CorpusIQ Docs"
+description: Send, receive, and automate iMessage conversations via Hermes Agent - 331 installs from nousresearch/hermes-agent.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/imessage-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# imessage — Setup Guide
+# imessage - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Skill:** `imessage`
@@ -68,19 +68,19 @@ ORDER BY m.date DESC LIMIT 10;
 
 ## CorpusIQ Use Cases
 
-1. **Founder alerts** — Critical notifications to the founder via iMessage (build failures, auth expirations)
-2. **Team pings** — Quick status updates to the ops team
-3. **Automated check-ins** — Daily summary delivery via iMessage
-4. **iOS notification bridge** — Route agent alerts to founders' iPhones
-5. **Client communication** — Automated client status updates for enterprise accounts
+1. **Founder alerts** - Critical notifications to the founder via iMessage (build failures, auth expirations)
+2. **Team pings** - Quick status updates to the ops team
+3. **Automated check-ins** - Daily summary delivery via iMessage
+4. **iOS notification bridge** - Route agent alerts to founders' iPhones
+5. **Client communication** - Automated client status updates for enterprise accounts
 
 ## Limitations
 
-- **macOS only** — No Linux or Windows support (iMessage is Apple-proprietary)
-- **No headless API** — Requires Messages.app running on a logged-in Mac
-- **Rate limits** — Apple silently throttles automated sending
-- **No message reactions** — Tapbacks and effects not scriptable
-- **Database format changes** — chat.db schema varies between macOS versions
+- **macOS only** - No Linux or Windows support (iMessage is Apple-proprietary)
+- **No headless API** - Requires Messages.app running on a logged-in Mac
+- **Rate limits** - Apple silently throttles automated sending
+- **No message reactions** - Tapbacks and effects not scriptable
+- **Database format changes** - chat.db schema varies between macOS versions
 
 ## Troubleshooting
 

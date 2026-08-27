@@ -1,6 +1,6 @@
 ---
-title: Auto Updater — OpenClaw Self-Updating Setup Guide
-description: Setup guide for the openclaw-auto-updater skill — keep your OpenClaw agent and its skills automatically updated. Zero-touch maintenance for long-running agents.
+title: Auto Updater - OpenClaw Self-Updating Setup Guide
+description: Setup guide for the openclaw-auto-updater skill - keep your OpenClaw agent and its skills automatically updated. Zero-touch maintenance for long-running agents.
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-auto-updater-setup/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Auto Updater — OpenClaw Self-Updating
+# Auto Updater - OpenClaw Self-Updating
 
 **Publisher:** [teylersf](https://skills.sh/teylersf/openclaw-auto-updater) | **Installs:** 1,148 | **Category:** DevOps
 
-Automatically keeps your OpenClaw installation and all installed skills up to date. Checks for new versions on a configurable schedule, downloads updates, and applies them — all without manual intervention.
+Automatically keeps your OpenClaw installation and all installed skills up to date. Checks for new versions on a configurable schedule, downloads updates, and applies them - all without manual intervention.
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ npx skills add teylersf/openclaw-auto-updater/auto-updater
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `schedule` | `0 4 * * *` | Cron expression — when to check for updates |
+| `schedule` | `0 4 * * *` | Cron expression - when to check for updates |
 | `channels.openclaw` | `stable` | Release channel: `stable`, `beta`, or `canary` |
 | `channels.skills` | `latest` | Skill update channel: `latest` or `pinned` |
 | `notifyOnUpdate` | `true` | Log/notify when updates are found and applied |
@@ -147,4 +147,4 @@ tail -100 ~/.openclaw/logs/update.log
 
 ---
 
-*Part of the Hermes Skills Library — curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) — one MCP endpoint, all your business tools.*
+*Part of the Hermes Skills Library - curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) - one MCP endpoint, all your business tools.*

@@ -1,6 +1,6 @@
 ---
 title: "Agent Flywheel Mega-Toolkit Setup Guide"
-description: "Install and configure the Agent Flywheel — 25+ production-grade ClawDBot/Hermes skills covering SSH, deployment, browser automation, multi-agent"
+description: "Install and configure the Agent Flywheel - 25+ production-grade ClawDBot/Hermes skills covering SSH, deployment, browser automation, multi-agent"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-flywheel-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -17,9 +17,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-The Agent Flywheel is the most comprehensive single-publisher ClawDBot/Hermes toolkit discovered to date. It covers the complete agent operations lifecycle — from SSH server access to multi-agent swarming, browser automation, code quality enforcement, Discord/email communication, and terminal workflows. Built by a developer who also maintains pi_agent_rust, beads_rust, and eidetic_engine_cli (agent infrastructure repos), these skills are production-tested and designed for real workload automation.
+The Agent Flywheel is the most comprehensive single-publisher ClawDBot/Hermes toolkit discovered to date. It covers the complete agent operations lifecycle - from SSH server access to multi-agent swarming, browser automation, code quality enforcement, Discord/email communication, and terminal workflows. Built by a developer who also maintains pi_agent_rust, beads_rust, and eidetic_engine_cli (agent infrastructure repos), these skills are production-tested and designed for real workload automation.
 
-**What makes this different:** Most skill collections focus on a single domain (marketing, coding, deployment). The Agent Flywheel covers ALL domains — infrastructure, orchestration, communication, development, design, and terminal — under one publisher with consistent conventions.
+**What makes this different:** Most skill collections focus on a single domain (marketing, coding, deployment). The Agent Flywheel covers ALL domains - infrastructure, orchestration, communication, development, design, and terminal - under one publisher with consistent conventions.
 
 ### Skill Categories
 
@@ -94,7 +94,7 @@ export SSH_KEY_PATH=~/.ssh/id_rsa
 **Hermes use:** Server maintenance, deployment verification, log retrieval from production.
 
 ### agent-swarm-workflow (156 installs)
-Multi-agent coordination pattern. Enables Hermes to spawn and manage sub-agents for parallel task execution — research in parallel, divide-and-conquer code generation, multi-perspective analysis.
+Multi-agent coordination pattern. Enables Hermes to spawn and manage sub-agents for parallel task execution - research in parallel, divide-and-conquer code generation, multi-perspective analysis.
 
 **Hermes use:** Complex research tasks, parallel data processing, multi-source content generation. Pairs with CorpusIQ's own [supervisor-agent](/hermes/orchestration/) patterns.
 
@@ -132,23 +132,23 @@ export SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 
 ## Installation Strategy
 
-**Tier 1 — Core Infrastructure (install first):**
-- ssh, gcloud, vercel — server and deployment access
-- github — code management
+**Tier 1 - Core Infrastructure (install first):**
+- ssh, gcloud, vercel - server and deployment access
+- github - code management
 
-**Tier 2 — Agent Capabilities (high value):**
-- agent-swarm-workflow, planning-workflow — multi-agent orchestration
-- claude-chrome — web browsing
-- agent-mail, flywheel-discord — communication channels
+**Tier 2 - Agent Capabilities (high value):**
+- agent-swarm-workflow, planning-workflow - multi-agent orchestration
+- claude-chrome - web browsing
+- agent-mail, flywheel-discord - communication channels
 
-**Tier 3 — Quality and Polish:**
-- de-slopify, ui-ux-polish — content and design refinement
-- cass, csctf — code quality and security
+**Tier 3 - Quality and Polish:**
+- de-slopify, ui-ux-polish - content and design refinement
+- cass, csctf - code quality and security
 
-**Tier 4 — Specialized Tools (install as needed):**
-- supabase — database access
-- ghostty, wezterm — terminal customization
-- tanstack-integration — frontend development
+**Tier 4 - Specialized Tools (install as needed):**
+- supabase - database access
+- ghostty, wezterm - terminal customization
+- tanstack-integration - frontend development
 
 ---
 
@@ -186,4 +186,4 @@ The `agent-swarm-workflow` skill supports a `--max-agents` parameter. Set to a r
 
 ---
 
-*This guide is part of the Hermes Skills Library, curated by [CorpusIQ](https://www.corpusiq.io) — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*This guide is part of the Hermes Skills Library, curated by [CorpusIQ](https://www.corpusiq.io) - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

@@ -1,5 +1,5 @@
 ---
-title: Phuryn PM Skills — Competitive Strategy for Hermes Agents
+title: Phuryn PM Skills - Competitive Strategy for Hermes Agents
 description: Competitive analysis, business model generation, and privacy policy creation with 7K+ combined installs. Structured competitive intelligence with differentiation mapping and strategic synthesis.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/phuryn-pm-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Phuryn PM Skills — Setup Guide
+# Phuryn PM Skills - Setup Guide
 
 **Source:** [phuryn/pm-skills](https://skills.sh/phuryn/pm-skills) (7K+ combined installs)
 **Category:** Product & Strategy
 **Quality Tier:** 🟡 Beta
 
-Product strategy toolkit for agents conducting competitive analysis, business model design, and compliance documentation. The competitor analysis skill stands out — 5-competitor structured profiles with strengths, weaknesses, differentiation mapping, and strategic synthesis. Built for agents that need to produce professional-grade competitive intelligence.
+Product strategy toolkit for agents conducting competitive analysis, business model design, and compliance documentation. The competitor analysis skill stands out - 5-competitor structured profiles with strengths, weaknesses, differentiation mapping, and strategic synthesis. Built for agents that need to produce professional-grade competitive intelligence.
 
 ---
 
@@ -32,7 +32,7 @@ npx skills add phuryn/pm-skills --skill privacy-policy
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **competitor-analysis** | 2.4K | 5-competitor structured analysis — profiles, strengths, weaknesses, pricing, differentiation, strategic synthesis |
+| **competitor-analysis** | 2.4K | 5-competitor structured analysis - profiles, strengths, weaknesses, pricing, differentiation, strategic synthesis |
 | **business-model** | 2.4K | Business model canvas generation and analysis |
 | **privacy-policy** | 2.2K | Privacy policy and compliance documentation generation |
 
@@ -89,7 +89,7 @@ npx skills list | grep phuryn/pm-skills
 
 ## Notes
 
-- Competitive analysis is the most polished skill — structured, thorough, and actionable
+- Competitive analysis is the most polished skill - structured, thorough, and actionable
 - 5-competitor format is ideal for board decks, investor updates, and strategic planning
 - Business model skill uses standard Business Model Canvas framework
 - Privacy policy skill useful for compliance documentation but verify output against legal requirements

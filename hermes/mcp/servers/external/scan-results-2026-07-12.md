@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — July 12, 2026"
+title: "MCP Server Scan Results - July 12, 2026"
 description: "Daily MCP server discovery scan from mcp.so/feed. 14 new business-relevant servers found. Source: mcp.so/feed (curl extraction SPA text parsing)."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
@@ -9,12 +9,12 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Scan — July 12, 2026
+# MCP Server Scan - July 12, 2026
 
-**Source:** mcp.so/feed (curl extraction — SPA text parsing)
+**Source:** mcp.so/feed (curl extraction - SPA text parsing)
 **Date:** July 12, 2026
 **Previous scan:** July 4, 2026 (evening)
-**GitHub API:** Unavailable (search rate-limited — "User flagged as spammy")
+**GitHub API:** Unavailable (search rate-limited - "User flagged as spammy")
 **mcpservers.org:** Unavailable (SolidJS SPA, no server data in initial HTML)
 
 ## Methodology
@@ -41,8 +41,8 @@ mcp.so changed its frontend from Next.js RSC payloads (`__next_f.push`) to a ful
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **shieldly-io** ★ | AI-Powered Security Analysis for AWS — IAM policies and CloudFormation templates | [Guide](/hermes/mcp/servers/external/shieldly-aws-mcp/) |
-| **Agent Coherence** ★ | Stop AI agents from silently overwriting shared files — TLA+-verified coherence guard | [Guide](/hermes/mcp/servers/external/agent-coherence-mcp/) |
+| **shieldly-io** ★ | AI-Powered Security Analysis for AWS - IAM policies and CloudFormation templates | [Guide](/hermes/mcp/servers/external/shieldly-aws-mcp/) |
+| **Agent Coherence** ★ | Stop AI agents from silently overwriting shared files - TLA+-verified coherence guard | [Guide](/hermes/mcp/servers/external/agent-coherence-mcp/) |
 
 ### Category: Research & Search
 
@@ -69,26 +69,26 @@ mcp.so changed its frontend from Next.js RSC payloads (`__next_f.push`) to a ful
 | Server | Description | Guide |
 |--------|-------------|-------|
 | **HelpScout-ProductLift Triangulator** | Triangulates HelpScout tickets + ProductLift feature requests into prioritized product plans | INDEX-ONLY |
-| **BreckenWander Travel** | Keyless travel MCP connector — search flights, hotels at all-in prices | INDEX-ONLY |
-| **deman-maker MCP Marketplace** | MCP marketplace — connect to everything in one click | INDEX-ONLY |
+| **BreckenWander Travel** | Keyless travel MCP connector - search flights, hotels at all-in prices | INDEX-ONLY |
+| **deman-maker MCP Marketplace** | MCP marketplace - connect to everything in one click | INDEX-ONLY |
 
 ### Skipped (not business-relevant)
 - Jmpy Mcp Server (no description)
-- Computer Use Omni (Windows desktop automation — dev tool)
-- YouTube Runbook MCP (video-to-runbook — niche)
-- VeraData (Latin American data — niche, crypto paywall)
-- 1C MCP Metacode (Russian enterprise config — niche)
+- Computer Use Omni (Windows desktop automation - dev tool)
+- YouTube Runbook MCP (video-to-runbook - niche)
+- VeraData (Latin American data - niche, crypto paywall)
+- 1C MCP Metacode (Russian enterprise config - niche)
 - HPT.SU MCP Server (no description)
-- BananaBanana Media MCP (image/video gen — commodity)
-- Similarity Search API SDK (FORGE-generated — low quality)
+- BananaBanana Media MCP (image/video gen - commodity)
+- Similarity Search API SDK (FORGE-generated - low quality)
 - BuyWhere Product Price SDK (Singapore-specific)
 
 ## Trends
 
-1. **Financial data MCPs accelerating:** Seiche (money markets) + Financial News MCP (real-time ticker/sentiment) — operators increasingly want live financial context for agents
-2. **Compliance MCPs emerging:** EU Textile Sustainability Law MCP targets a specific regulation (ESPR/DPP/CSRD) — pattern of regulation-specific MCP servers
-3. **Agent governance maturing:** Agent Coherence (file conflict prevention, TLA+-verified) + Human-in-the-loop approval — operators need infrastructure to manage multi-agent systems
-4. **"Live search" becoming a category:** CrustAPI joins existing search MCPs with a pay-per-result model — competition in the agent-search space
+1. **Financial data MCPs accelerating:** Seiche (money markets) + Financial News MCP (real-time ticker/sentiment) - operators increasingly want live financial context for agents
+2. **Compliance MCPs emerging:** EU Textile Sustainability Law MCP targets a specific regulation (ESPR/DPP/CSRD) - pattern of regulation-specific MCP servers
+3. **Agent governance maturing:** Agent Coherence (file conflict prevention, TLA+-verified) + Human-in-the-loop approval - operators need infrastructure to manage multi-agent systems
+4. **"Live search" becoming a category:** CrustAPI joins existing search MCPs with a pay-per-result model - competition in the agent-search space
 
 ## Actions Taken
 

@@ -1,6 +1,6 @@
 ---
-title: New Hermes Skills — June 23, 2026
-description: 15 new Hermes Agent repos discovered June 23, 2026 — Engineering Curation (104 skills, 10 profiles), Ghostwriter autonomous email, Cron Design Workflow, Machinations game economy, StepFun Chinese LLM, and 10 more
+title: New Hermes Skills - June 23, 2026
+description: 15 new Hermes Agent repos discovered June 23, 2026 - Engineering Curation (104 skills, 10 profiles), Ghostwriter autonomous email, Cron Design Workflow, Machinations game economy, StepFun Chinese LLM, and 10 more
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june23-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -22,10 +22,10 @@ A productive Tuesday morning sweep. Two standout finds: a professionally-curated
 
 | # | Repo | Stars | Description |
 |---|------|:-----:|-------------|
-| 1 | `Fahrnetic/hermes-engineering-skill-curation` | 1 ⭐ | Professional engineering workflow catalog — 336 skills scanned, 104 curated, 10 operator profiles, gate matrix, public readiness audit |
-| 2 | `okokelly/skill-ghostwriter` | 0 ⭐ | Autonomous email auto-reply — Watchdog (no-LLM polling) + Processor (agent drafting). ~10x cheaper than single-job polling |
-| 3 | `lovenps85/hermes-cron-design-workflow-skill` | 0 ⭐ | Reusable cron job design workflow — Context → Office Hour → Brainstorming → Grill Me → Docs → Execute |
-| 4 | `adempus/machinations-skill` | 0 ⭐ | Game economy modeling with Machinations diagrams — 18 design patterns, verified syntax, references |
+| 1 | `Fahrnetic/hermes-engineering-skill-curation` | 1 ⭐ | Professional engineering workflow catalog - 336 skills scanned, 104 curated, 10 operator profiles, gate matrix, public readiness audit |
+| 2 | `okokelly/skill-ghostwriter` | 0 ⭐ | Autonomous email auto-reply - Watchdog (no-LLM polling) + Processor (agent drafting). ~10x cheaper than single-job polling |
+| 3 | `lovenps85/hermes-cron-design-workflow-skill` | 0 ⭐ | Reusable cron job design workflow - Context → Office Hour → Brainstorming → Grill Me → Docs → Execute |
+| 4 | `adempus/machinations-skill` | 0 ⭐ | Game economy modeling with Machinations diagrams - 18 design patterns, verified syntax, references |
 
 ---
 
@@ -33,10 +33,10 @@ A productive Tuesday morning sweep. Two standout finds: a professionally-curated
 
 | # | Repo | Stars | Description |
 |---|------|:-----:|-------------|
-| 5 | `fengjunlu618/stepfun-skills` | 0 ⭐ | First Chinese LLM provider skill for Hermes — StepFun (阶跃星辰) Chat/TTS/Image/ASR via Step Plan subscription |
+| 5 | `fengjunlu618/stepfun-skills` | 0 ⭐ | First Chinese LLM provider skill for Hermes - StepFun (阶跃星辰) Chat/TTS/Image/ASR via Step Plan subscription |
 | 6 | `aiedwardai/spcx-daily-report` | 1 ⭐ | SpaceX daily analysis report skill |
 | 7 | `biscovery2015-collab/openclaw-news-skill` | 0 ⭐ | OpenClaw news aggregation with Traditional Chinese translation + WhatsApp |
-| 8 | `SouthpawIN/nous-style-guide` | 0 ⭐ | Nous Research brand identity — monochrome design rules, image generation templates |
+| 8 | `SouthpawIN/nous-style-guide` | 0 ⭐ | Nous Research brand identity - monochrome design rules, image generation templates |
 
 ---
 
@@ -46,10 +46,10 @@ A productive Tuesday morning sweep. Two standout finds: a professionally-curated
 |---|------|:-----:|-------|
 | 9 | `jamesbmour/Hermes-Skills` | 0 ⭐ | Personal skills collection |
 | 10 | `superuser47/my-hermes-skills` | 0 ⭐ | Personal skills collection |
-| 11 | `warmcrack2020/YAGENT_SKILLS` | 0 ⭐ | Personal skills — hermes-agent fork |
+| 11 | `warmcrack2020/YAGENT_SKILLS` | 0 ⭐ | Personal skills - hermes-agent fork |
 | 12 | `warmcrack2020/hermes-agent` | 0 ⭐ | Personal collection |
 | 13 | `zhemed/hermes-skill-kit` | 0 ⭐ | 个人 Hermes Skill 仓库 |
-| 14 | `lennney/hermes-skill-evolution` | 0 ⭐ | Skill self-evolution system — 被动存储到主动学习 |
+| 14 | `lennney/hermes-skill-evolution` | 0 ⭐ | Skill self-evolution system - 被动存储到主动学习 |
 | 15 | `overspread/hermes-skills` | 1 ⭐ | Productivity skills subdirectory |
 
 ---
@@ -65,7 +65,7 @@ The most professionally-structured Hermes skill curation to date. Scanned 336 sk
 
 | Component | Content |
 |-----------|---------|
-| `CURATION.md` | Full curation methodology — scanning criteria, selection heuristics, quality tiers |
+| `CURATION.md` | Full curation methodology - scanning criteria, selection heuristics, quality tiers |
 | `profiles/` | 10 operator profiles (role-specific skill loadouts) |
 | `bundles/` | Pre-assembled skill bundles for common workflows |
 | `reports/all-skills-inventory.json` | Machine-readable inventory of all 336 scanned skills |
@@ -78,7 +78,7 @@ The most professionally-structured Hermes skill curation to date. Scanned 336 sk
 Route → Specify → Test → Build → Audit → Ship → Learn
 ```
 
-Each phase has explicit gates, evidence loops, and role-separated review — moving from "make the change" to true engineering workflow.
+Each phase has explicit gates, evidence loops, and role-separated review - moving from "make the change" to true engineering workflow.
 
 ### Installation
 
@@ -92,7 +92,7 @@ cp -r hermes-engineering-skill-curation/bundles ~/.hermes/bundles/
 
 ---
 
-## Spotlight: Ghostwriter — Autonomous Email Auto-Reply
+## Spotlight: Ghostwriter - Autonomous Email Auto-Reply
 
 **Source:** [okokelly/skill-ghostwriter](#repo-unavailable)
 **Stars:** 0 ⭐ | **License:** MIT | **Created:** June 23, 2026
@@ -112,7 +112,7 @@ Watchdog (script, no LLM)  →  Silent ($0) when no match
 
 ### Why It Matters
 
-Polling Gmail with an LLM agent every 5 minutes burns ~$0.30/day in idle costs. Ghostwriter's Watchdog-first pattern eliminates this — the LLM only runs when there's actually an email to reply to. ~10x cost reduction.
+Polling Gmail with an LLM agent every 5 minutes burns ~$0.30/day in idle costs. Ghostwriter's Watchdog-first pattern eliminates this - the LLM only runs when there's actually an email to reply to. ~10x cost reduction.
 
 ### Quick Start
 

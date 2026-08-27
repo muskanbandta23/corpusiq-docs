@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# MentionsAPI MCP — AI Brand Monitoring for Hermes Agent
+# MentionsAPI MCP - AI Brand Monitoring for Hermes Agent
 
 Track your brand's presence across every major AI platform from a single MCP server.
 
@@ -17,13 +17,13 @@ Track your brand's presence across every major AI platform from a single MCP ser
 
 MentionsAPI monitors your brand mentions, search rankings, and citations across:
 
-- **ChatGPT** — brand mentions in ChatGPT responses
-- **Claude** — Anthropic Claude citations
-- **Gemini** — Google Gemini references
-- **Perplexity** — Perplexity AI citations
-- **Google AI Overviews** — AI-generated search results
-- **AI Mode** — Google AI Mode results
-- **Bing Copilot** — Microsoft Copilot mentions
+- **ChatGPT** - brand mentions in ChatGPT responses
+- **Claude** - Anthropic Claude citations
+- **Gemini** - Google Gemini references
+- **Perplexity** - Perplexity AI citations
+- **Google AI Overviews** - AI-generated search results
+- **AI Mode** - Google AI Mode results
+- **Bing Copilot** - Microsoft Copilot mentions
 
 For operators investing in **GEO (Generative Engine Optimization)** and **AEO (Answer Engine Optimization)**, this is essential visibility infrastructure.
 

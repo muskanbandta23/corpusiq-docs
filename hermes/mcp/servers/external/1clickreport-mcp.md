@@ -1,6 +1,6 @@
 ---
 title: 1ClickReport MCP Server Integration Guide
-description: AI marketing analyst MCP — connect Google Ads, Meta Ads, GA4, Search Console, and Stripe to audit campaigns, analyze funnels, and catch wasted ad spend from one chat.
+description: AI marketing analyst MCP - connect Google Ads, Meta Ads, GA4, Search Console, and Stripe to audit campaigns, analyze funnels, and catch wasted ad spend from one chat.
 category: mcp
 tags: [mcp, marketing-analytics, ad-audit, campaign-optimization, google-ads, meta-ads, ga4, hermes-agent]
 last_updated: 2026-07-21
@@ -9,26 +9,26 @@ robots: "index,follow"
 
 ---
 
-# 1ClickReport MCP — Marketing Analytics for Hermes Agent
+# 1ClickReport MCP - Marketing Analytics for Hermes Agent
 
-1ClickReport MCP is an AI marketing analyst that connects your ad platforms, analytics, and payment processor in one interface. Audit campaigns, analyze conversion funnels, and catch wasted ad spend — all through your agent.
+1ClickReport MCP is an AI marketing analyst that connects your ad platforms, analytics, and payment processor in one interface. Audit campaigns, analyze conversion funnels, and catch wasted ad spend - all through your agent.
 
 ## What It Does
 
 1ClickReport MCP unifies cross-platform marketing data:
 
-- **Multi-platform connection** — Google Ads, Meta Ads, GA4, Google Search Console, and Stripe
-- **Campaign auditing** — Automated analysis of campaign performance with actionable recommendations
-- **Funnel analysis** — Track users from ad click → landing page → conversion → revenue
-- **Wasted spend detection** — Identify keywords, audiences, and placements burning budget without converting
-- **ROAS attribution** — Connect ad spend to actual Stripe revenue, not just platform-reported conversions
+- **Multi-platform connection** - Google Ads, Meta Ads, GA4, Google Search Console, and Stripe
+- **Campaign auditing** - Automated analysis of campaign performance with actionable recommendations
+- **Funnel analysis** - Track users from ad click → landing page → conversion → revenue
+- **Wasted spend detection** - Identify keywords, audiences, and placements burning budget without converting
+- **ROAS attribution** - Connect ad spend to actual Stripe revenue, not just platform-reported conversions
 
 ## Quick Setup
 
 ### Prerequisites
 - **1ClickReport account:** Sign up at [1clickreport.com](https://www.1clickreport.com)
 - **Connect your platforms:** Google Ads, Meta Ads, GA4, Search Console, Stripe (OAuth)
-- **The MCP is a remote service** — no local installation required
+- **The MCP is a remote service** - no local installation required
 
 ### Add to Hermes Agent
 
@@ -83,7 +83,7 @@ to last month."
 ```
 
 ### 3. Cross-Platform Budget Optimization
-Don't guess — let the data decide:
+Don't guess - let the data decide:
 
 ```
 Agent prompt: "We have $500/day to spend. Look at last 30 days'
@@ -118,13 +118,13 @@ This replaces the "log into 5 platforms, export CSVs, build a spreadsheet, prese
 
 - **1ClickReport MCP:** Remote MCP server (no local install)
 - **1ClickReport:** Check [1clickreport.com](https://www.1clickreport.com) for current plans
-- **Platform connections:** Your ad accounts (Google Ads, Meta Ads) — no additional API fees
+- **Platform connections:** Your ad accounts (Google Ads, Meta Ads) - no additional API fees
 
 ## Limitations
 
 - Requires OAuth connections to each platform (one-time setup)
 - Ad platform API latency can slow report generation for large accounts
-- Stripe revenue attribution is correlational, not causal — use as directional data
+- Stripe revenue attribution is correlational, not causal - use as directional data
 - Best suited for: DTC ecommerce, SaaS with paid acquisition, lead gen businesses
 
 ---

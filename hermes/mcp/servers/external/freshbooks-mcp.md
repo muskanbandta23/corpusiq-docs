@@ -1,6 +1,6 @@
 ---
 title: FreshBooks MCP Server Integration Guide
-description: Accounting automation for AI agents — manage clients, invoices, expenses, and payments through FreshBooks MCP. Connect your accounting to Hermes Agent.
+description: Accounting automation for AI agents - manage clients, invoices, expenses, and payments through FreshBooks MCP. Connect your accounting to Hermes Agent.
 category: mcp
 tags: [mcp, freshbooks, accounting, invoicing, expenses, payments, small-business, hermes-agent]
 last_updated: 2026-07-21
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# FreshBooks MCP — Accounting Automation for Hermes Agent
+# FreshBooks MCP - Accounting Automation for Hermes Agent
 
-FreshBooks MCP connects your AI agent directly to FreshBooks accounting — manage clients, create and send invoices, track expenses, and record payments without touching the FreshBooks dashboard.
+FreshBooks MCP connects your AI agent directly to FreshBooks accounting - manage clients, create and send invoices, track expenses, and record payments without touching the FreshBooks dashboard.
 
 ## What It Does
 
 FreshBooks MCP brings small-business accounting into the agent workflow:
 
-- **Client management** — List, search, create, and update clients
-- **Invoice operations** — Create, send, and track invoices with line items
-- **Expense tracking** — Log expenses with categories, attachments, and tax info
-- **Payment recording** — Record payments against invoices, track outstanding balances
-- **Reports access** — Pull profit & loss, expense reports, and invoice aging
+- **Client management** - List, search, create, and update clients
+- **Invoice operations** - Create, send, and track invoices with line items
+- **Expense tracking** - Log expenses with categories, attachments, and tax info
+- **Payment recording** - Record payments against invoices, track outstanding balances
+- **Reports access** - Pull profit & loss, expense reports, and invoice aging
 
 ## Quick Setup
 
@@ -78,7 +78,7 @@ Have your agent generate and send invoices based on completed work:
 
 ```
 Agent prompt: "We just finished the website redesign for Acme Corp.
-Create a FreshBooks invoice for $4,500 — 50% deposit already paid.
+Create a FreshBooks invoice for $4,500 - 50% deposit already paid.
 Line items: Design ($2,000), Development ($2,000), Project Management ($500).
 Send to billing@acmecorp.com with net-30 terms."
 ```

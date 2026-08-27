@@ -1,13 +1,13 @@
 ---
-title: "Deep Research Skill — Citation-Tracked Research Setup"
-description: "199-biotechnologies/claude-deep-research-skill — 9.4K installs: structured research pipeline with evidence persistence, source identity management, and claim-level verification."
+title: "Deep Research Skill - Citation-Tracked Research Setup"
+description: "199-biotechnologies/claude-deep-research-skill - 9.4K installs: structured research pipeline with evidence persistence, source identity management, and claim-level verification."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-deep-research-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "citations"]
 ---
 
-# Deep Research Skill — Setup Guide
+# Deep Research Skill - Setup Guide
 
 **Source:** [199-biotechnologies/claude-deep-research-skill](https://skills.sh/199-biotechnologies/claude-deep-research-skill/deep-research)
 **GitHub:** [199-biotechnologies/claude-deep-research-skill](https://github.com/199-biotechnologies/claude-deep-research-skill) (989 stars)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "research", "citations"]
 **First Seen:** Jan 21, 2026 · catalogued August 15, 2026 evening sweep
 **Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub Pass, Socket Pass, Snyk Warn)
 
-A single-skill research engine: citation-tracked reports through a structured pipeline with evidence persistence, source identity management, claim-level verification, and progressive context management. The decision tree routes simple lookups to WebSearch and only complex analyses into the full pipeline — the right triage design for an autonomous agent.
+A single-skill research engine: citation-tracked reports through a structured pipeline with evidence persistence, source identity management, claim-level verification, and progressive context management. The decision tree routes simple lookups to WebSearch and only complex analyses into the full pipeline - the right triage design for an autonomous agent.
 
 ---
 
@@ -44,7 +44,7 @@ npx skills add https://github.com/199-biotechnologies/claude-deep-research-skill
 
 1. Install: `npx skills add https://github.com/199-biotechnologies/claude-deep-research-skill --skill deep-research`
 2. Ask: "research the MCP server landscape and produce a citation-tracked report"
-3. Review the Introduction and Methodology sections — the skill surfaces high-materiality assumptions there explicitly
+3. Review the Introduction and Methodology sections - the skill surfaces high-materiality assumptions there explicitly
 
 ## CorpusIQ Use Cases
 
@@ -58,7 +58,7 @@ npx skills add https://github.com/199-biotechnologies/claude-deep-research-skill
 ## Limitations / Verification
 
 - Security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Warn (named in audit; manual review recommended)
-- Single-skill package — the pipeline is opinionated and may not fit ad-hoc research
+- Single-skill package - the pipeline is opinionated and may not fit ad-hoc research
 - Verification command: `npx skills add https://github.com/199-biotechnologies/claude-deep-research-skill --skill deep-research`
 
 ## Related

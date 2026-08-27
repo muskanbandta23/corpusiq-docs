@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 22, 2026 Marketplace Sweep"
-description: "8 new Hermes-relevant skills discovered on skills.sh — multi-agent orchestration, PR review, web scraping, MCP integration, Docker deployment, session"
+title: "New Skills - July 22, 2026 Marketplace Sweep"
+description: "8 new Hermes-relevant skills discovered on skills.sh - multi-agent orchestration, PR review, web scraping, MCP integration, Docker deployment, session"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july22-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 22, 2026
+# New Skills - July 22, 2026
 
 ## Summary
 | Metric | Count |
@@ -23,10 +23,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Notes
 
-- First sweep since June 30, 2026 — 3-week gap closed. No new Hermes-specific skills surfaced but 8 broadly relevant agent infrastructure skills documented.
+- First sweep since June 30, 2026 - 3-week gap closed. No new Hermes-specific skills surfaced but 8 broadly relevant agent infrastructure skills documented.
 - 4 skills could not be retrieved: `skills.volces.com@agentic-workflow-automation` (non-GitHub host), `404kidwiz/claude-supercode-skills@deployment-engineer` (private repo), `julianromli/ai-skills@backend-dev` (skill not found in that form), `ruvnet/claude-flow@session-persist` (not found).
-- The `cat-xierluo/legal-skills@multi-agent-orchestration` skill (32 installs) is exceptionally comprehensive at v1.18.4 — a full PM-style orchestration framework. Low install count belies its production maturity.
-- `gooseworks-ai/goose-skills@web-scraping` (35 installs) provides unified access to 5 scraping engines (Scrapegraph, Olostep, Riveter, Brand.dev, Notte) under one API key — strong candidate for competitive research workflows.
+- The `cat-xierluo/legal-skills@multi-agent-orchestration` skill (32 installs) is exceptionally comprehensive at v1.18.4 - a full PM-style orchestration framework. Low install count belies its production maturity.
+- `gooseworks-ai/goose-skills@web-scraping` (35 installs) provides unified access to 5 scraping engines (Scrapegraph, Olostep, Riveter, Brand.dev, Notte) under one API key - strong candidate for competitive research workflows.
 
 ## New Skills
 

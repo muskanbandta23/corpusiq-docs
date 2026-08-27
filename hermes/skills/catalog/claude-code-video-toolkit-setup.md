@@ -1,13 +1,13 @@
 ---
-title: "Claude Code Video Toolkit — Video Pipeline Skills Setup"
-description: "digitalsamba/claude-code-video-toolkit — 13 skills, 14.5K installs: ffmpeg, Remotion, ElevenLabs, MoviePy, and Playwright recording for agent-driven video production."
+title: "Claude Code Video Toolkit - Video Pipeline Skills Setup"
+description: "digitalsamba/claude-code-video-toolkit - 13 skills, 14.5K installs: ffmpeg, Remotion, ElevenLabs, MoviePy, and Playwright recording for agent-driven video production."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-video-toolkit-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "ffmpeg", "remotion"]
 ---
 
-# Claude Code Video Toolkit — Setup Guide
+# Claude Code Video Toolkit - Setup Guide
 
 **Source:** [digitalsamba/claude-code-video-toolkit](https://skills.sh/digitalsamba/claude-code-video-toolkit)
 **GitHub:** [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "video", "ffmpeg", "remotio
 **First Seen:** catalogued August 15, 2026 evening sweep
 **Quality Tier:** 🟡 Trusted (individual publisher, multi-skill suite; individual audit pages not fetched)
 
-A complete agent video-production stack: ffmpeg encoding, Playwright screen recording, ElevenLabs voice, Remotion composition, MoviePy editing, LTX2 video generation, RunPod GPU orchestration, and more. Directly relevant to Hermes video pipelines — Remotion and ffmpeg are the same primitives our UGC video system is built on.
+A complete agent video-production stack: ffmpeg encoding, Playwright screen recording, ElevenLabs voice, Remotion composition, MoviePy editing, LTX2 video generation, RunPod GPU orchestration, and more. Directly relevant to Hermes video pipelines - Remotion and ffmpeg are the same primitives our UGC video system is built on.
 
 ---
 
@@ -56,7 +56,7 @@ npx skills add digitalsamba/claude-code-video-toolkit
 ## Quick Start
 
 1. Install: `npx skills add digitalsamba/claude-code-video-toolkit`
-2. Start with `ffmpeg` and `remotion` — the highest-install pair
+2. Start with `ffmpeg` and `remotion` - the highest-install pair
 3. Ask: "record this browser session, add an ElevenLabs voiceover, and render a Remotion composition"
 
 ## CorpusIQ Use Cases
@@ -71,7 +71,7 @@ npx skills add digitalsamba/claude-code-video-toolkit
 ## Limitations / Verification
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
-- Several skills (playwright-recording, elevenlabs, remotion) show under 1K installs — treat as newer, less-proven content
+- Several skills (playwright-recording, elevenlabs, remotion) show under 1K installs - treat as newer, less-proven content
 - Requires ffmpeg on PATH and paid API keys for ElevenLabs, RunPod, and generation services
 
 ```bash

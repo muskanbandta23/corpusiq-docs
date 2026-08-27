@@ -1,6 +1,6 @@
 ---
-title: "Impeccable Writing Framework — Setup Guide"
-description: Install, configure, and use pbakaus/impeccable — an AI writing quality framework that teaches Hermes style rules, structure templates, and content arrangement. 90K combined installs.
+title: "Impeccable Writing Framework - Setup Guide"
+description: Install, configure, and use pbakaus/impeccable - an AI writing quality framework that teaches Hermes style rules, structure templates, and content arrangement. 90K combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Impeccable Writing Framework — Setup Guide
+# Impeccable Writing Framework - Setup Guide
 
 **Source:** [pbakaus/impeccable](https://skills.sh/pbakaus/impeccable) (90K combined installs)
 **Category:** Content / Writing Quality
 **Skills:** 2 (teach-impeccable, arrange)
 
-Impeccable is a writing quality framework that loads directly into Hermes — it teaches the agent style rules, structure templates, and content arrangement patterns. The result: every email, social post, docs page, and UGC script follows consistent, high-quality writing standards.
+Impeccable is a writing quality framework that loads directly into Hermes - it teaches the agent style rules, structure templates, and content arrangement patterns. The result: every email, social post, docs page, and UGC script follows consistent, high-quality writing standards.
 
 ---
 
@@ -38,7 +38,7 @@ npx skills add pbakaus/impeccable --skill arrange
 | **Hermes Agent** | Any version with skills.sh support |
 | **Content to improve** | Existing text, draft, or writing prompt |
 
-No API keys or external accounts needed. Impeccable is a pure methodology skill — it loads writing rules into the agent's instruction context.
+No API keys or external accounts needed. Impeccable is a pure methodology skill - it loads writing rules into the agent's instruction context.
 
 ---
 
@@ -48,9 +48,9 @@ No API keys or external accounts needed. Impeccable is a pure methodology skill 
 
 | Capability | How to Trigger | Notes |
 |---|---|---|
-| Load writing methodology | "Teach me Impeccable" or "Load impeccable writing rules" | Installs style rules — tone, structure, clarity, anti-buzzword filters |
+| Load writing methodology | "Teach me Impeccable" or "Load impeccable writing rules" | Installs style rules - tone, structure, clarity, anti-buzzword filters |
 | Apply style to content | "Apply Impeccable style to this [email/post/article]" | Rewrites content following loaded rules |
-| Structure optimization | "Arrange this content" or "Fix the flow" | Logical flow optimization — paragraph ordering, transition quality |
+| Structure optimization | "Arrange this content" or "Fix the flow" | Logical flow optimization - paragraph ordering, transition quality |
 
 ### Content Arrangement
 
@@ -66,11 +66,11 @@ No API keys or external accounts needed. Impeccable is a pure methodology skill 
 
 | Use Case | How |
 |---|---|
-| **Outbound email quality** | Load Impeccable before drafting lead responses — every email follows consistent quality standards |
+| **Outbound email quality** | Load Impeccable before drafting lead responses - every email follows consistent quality standards |
 | **Social media posts** | Apply `arrange` to ensure X threads, LinkedIn posts, and Reddit comments flow logically |
-| **Docs quality assurance** | Run every new docs page through `teach-impeccable` before publishing — catches buzzwords, improves clarity |
-| **UGC video scripts** | Apply Impeccable style rules to HeyGen video scripts — consistent voice across all content |
-| **Community responses** | Load before engaging on Discord, HN, and Reddit — helpful-first tone with professional quality |
+| **Docs quality assurance** | Run every new docs page through `teach-impeccable` before publishing - catches buzzwords, improves clarity |
+| **UGC video scripts** | Apply Impeccable style rules to HeyGen video scripts - consistent voice across all content |
+| **Community responses** | Load before engaging on Discord, HN, and Reddit - helpful-first tone with professional quality |
 | **Internal communications** | Standardize all agent-written internal reports, Telegram messages, and status updates |
 
 ---
@@ -80,7 +80,7 @@ No API keys or external accounts needed. Impeccable is a pure methodology skill 
 | Issue | Fix |
 |---|---|
 | Impeccable rules conflict with CorpusIQ voice rules | The CorpusIQ content voice rules (no emdashes, no buzzwords, pain-point-first) take precedence. Impeccable's structural rules still apply |
-| `arrange` over-aggressively reorders | Specify "keep [section] at the beginning/end" in your request — the skill respects explicit placement instructions |
+| `arrange` over-aggressively reorders | Specify "keep [section] at the beginning/end" in your request - the skill respects explicit placement instructions |
 | Rules feel too rigid for creative content | Use `teach-impeccable` for formal content (docs, emails, reports). Skip it for casual community engagement |
 
 ---
@@ -91,7 +91,7 @@ No API keys or external accounts needed. Impeccable is a pure methodology skill 
 # Verify skills installed
 hermes skills list | grep impeccable
 
-# Quick functional test — have Hermes apply Impeccable to a test sentence
+# Quick functional test - have Hermes apply Impeccable to a test sentence
 echo 'Test: Apply Impeccable style to this sentence and show the result.' > /tmp/test-impeccable.txt
 cat /tmp/test-impeccable.txt
 ```

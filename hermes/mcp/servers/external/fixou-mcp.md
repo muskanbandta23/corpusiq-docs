@@ -1,6 +1,6 @@
 ---
 name: "Fixou MCP"
-description: "Create and track quote requests to local French tradespeople — 80 trades, remote MCP. Fixou provides access its platform for creating tracking across diffe."
+description: "Create and track quote requests to local French tradespeople - 80 trades, remote MCP. Fixou provides access its platform for creating tracking across diffe."
 category: "Other"
 source: "mcpservers.org"
 discovered: "2026-07-23"
@@ -9,26 +9,26 @@ remote_endpoint: "https://mcp.fixou.fr/mcp"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fixou-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Fixou MCP — French Tradespeople Quote Requests"
+title: "Fixou MCP - French Tradespeople Quote Requests"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Fixou MCP — French Tradespeople Quote Requests
+# Fixou MCP - French Tradespeople Quote Requests
 
 Fixou provides MCP access to its platform for creating and tracking quote requests to local French tradespeople across 80 different trades. Remote MCP server at mcp.fixou.fr/mcp, no authentication required.
 
 ## What It Does
 
-- **Quote requests** — Create requests for quotes from local French tradespeople
-- **80 trade categories** — Covers construction, renovation, plumbing, electrical, roofing, and more
-- **Tracking** — Monitor status of submitted quote requests
-- **Open access** — No authentication required for the MCP endpoint
+- **Quote requests** - Create requests for quotes from local French tradespeople
+- **80 trade categories** - Covers construction, renovation, plumbing, electrical, roofing, and more
+- **Tracking** - Monitor status of submitted quote requests
+- **Open access** - No authentication required for the MCP endpoint
 
 ## Quick Start
 
 ```bash
-# Remote endpoint — no auth needed
+# Remote endpoint - no auth needed
 hermes mcp add fixou --url https://mcp.fixou.fr/mcp
 
 # Or Claude Code
@@ -49,10 +49,10 @@ claude mcp add fixou --url https://mcp.fixou.fr/mcp
 
 ## Use Cases
 
-- **Property management** — Automate quote requests for maintenance and renovation projects
-- **Construction coordination** — Agents manage multi-trade project quoting
-- **Cost estimation** — Gather quotes across trades for project budgeting
-- **French market entry** — Research local service provider availability and pricing
+- **Property management** - Automate quote requests for maintenance and renovation projects
+- **Construction coordination** - Agents manage multi-trade project quoting
+- **Cost estimation** - Gather quotes across trades for project budgeting
+- **French market entry** - Research local service provider availability and pricing
 
 ---
 

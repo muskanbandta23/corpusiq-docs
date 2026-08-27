@@ -1,5 +1,5 @@
 ---
-title: Jupyter Live Kernel — Interactive Python REPL Setup Guide
+title: Jupyter Live Kernel - Interactive Python REPL Setup Guide
 description: Install and configure jupyter-live-kernel, the official Hermes Agent skill for stateful Python via a live Jupyter kernel. 80 installs, perfect for data science and iterative exploration.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jupyter-live-kernel-setup/"
 robots: "index,follow"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Jupyter Live Kernel — Setup Guide
+# Jupyter Live Kernel - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/jupyter-live-kernel) (80 peak installs)
 **Category:** Data Science / Development
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** uv, JupyterLab, hamelnb
 
-A stateful Python REPL via a live Jupyter kernel that gives Hermes persistent variable state across executions. Use this instead of `execute_code` when you need to build up state incrementally — explore APIs, inspect DataFrames, train models, or iterate on complex code without losing context between steps.
+A stateful Python REPL via a live Jupyter kernel that gives Hermes persistent variable state across executions. Use this instead of `execute_code` when you need to build up state incrementally - explore APIs, inspect DataFrames, train models, or iterate on complex code without losing context between steps.
 
 ---
 
@@ -23,7 +23,7 @@ A stateful Python REPL via a live Jupyter kernel that gives Hermes persistent va
 
 | Capability | How |
 |-----------|-----|
-| **Persistent state** | Variables survive across executions — no re-running setup code |
+| **Persistent state** | Variables survive across executions - no re-running setup code |
 | **Data exploration** | Load data once, then query, filter, and visualize iteratively |
 | **ML workflows** | Load models, run inference, tune hyperparameters step by step |
 | **API exploration** | Authenticate once, then explore endpoints incrementally |
@@ -145,7 +145,7 @@ Hermes: [Loads data once, runs 4 queries against live kernel]
 ```
 You: Load the sklearn diabetes dataset. Train a random forest,
      check R², then try gradient boosting and compare.
-Hermes: [Loads data → trains RF → checks score → trains GB → compares — all in one kernel session]
+Hermes: [Loads data → trains RF → checks score → trains GB → compares - all in one kernel session]
 ```
 
 ### Example 3: API Exploration
@@ -195,17 +195,17 @@ print('Kernel OK')
 
 ## Related Skills
 
-- **[data-science](https://skills.sh/nousresearch/hermes-agent)** — Umbrella skill for all data science tools
-- **[mlops-model-operations](https://skills.sh/nousresearch/hermes-agent)** — Production ML model deployment and operations
-- **[arxiv](arxiv-setup.md)** — Academic paper search for research context
-- **[local-inference-optimizer](https://github.com/ForgetMeAI/local-inference-optimizer-skill)** — Community skill for optimizing local LLM inference
+- **[data-science](https://skills.sh/nousresearch/hermes-agent)** - Umbrella skill for all data science tools
+- **[mlops-model-operations](https://skills.sh/nousresearch/hermes-agent)** - Production ML model deployment and operations
+- **[arxiv](arxiv-setup.md)** - Academic paper search for research context
+- **[local-inference-optimizer](https://github.com/ForgetMeAI/local-inference-optimizer-skill)** - Community skill for optimizing local LLM inference
 
 ---
 
 ## Pro Tips
 
-1. **Keep kernels alive** — The kernel persists until you explicitly shut it down. Long-running data explorations benefit from keeping one kernel open.
-2. **Use for code review** — Load a codebase into the kernel, then ask Hermes to explore specific functions and their call chains without re-parsing.
-3. **Combine with web_extract** — Fetch data from APIs or web pages, load into the kernel, then analyze iteratively.
-4. **Save checkpoints** — Periodically ask Hermes to save the kernel state with `%store` magic commands for recovery.
-5. **Monitor resources** — Live kernels consume RAM. Check with `!free -h` (Linux) or `!vm_stat` (macOS) inside the kernel.
+1. **Keep kernels alive** - The kernel persists until you explicitly shut it down. Long-running data explorations benefit from keeping one kernel open.
+2. **Use for code review** - Load a codebase into the kernel, then ask Hermes to explore specific functions and their call chains without re-parsing.
+3. **Combine with web_extract** - Fetch data from APIs or web pages, load into the kernel, then analyze iteratively.
+4. **Save checkpoints** - Periodically ask Hermes to save the kernel state with `%store` magic commands for recovery.
+5. **Monitor resources** - Live kernels consume RAM. Check with `!free -h` (Linux) or `!vm_stat` (macOS) inside the kernel.

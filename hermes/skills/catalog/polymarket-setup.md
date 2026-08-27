@@ -1,6 +1,6 @@
 ---
-title: Polymarket — Prediction Market Integration Setup
-description: Install and configure polymarket from nousresearch/hermes-agent. Real-world prediction market data for event forecasting, sentiment analysis, and probabilistic reasoning — 273 installs.
+title: Polymarket - Prediction Market Integration Setup
+description: Install and configure polymarket from nousresearch/hermes-agent. Real-world prediction market data for event forecasting, sentiment analysis, and probabilistic reasoning - 273 installs.
 category: hermes-skills
 publisher: nousresearch
 installs: 273
@@ -12,14 +12,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Polymarket — Setup Guide
+# Polymarket - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/polymarket) (273 installs)
 **Category:** Data / Prediction Markets
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** Polymarket API access (free tier available)
 
-Agent skill for Polymarket — the world's largest prediction market platform. Gives Hermes access to real-time market prices, event probabilities, volume data, and market resolution history. 273 installs, making it one of the most popular data-integration skills for Hermes.
+Agent skill for Polymarket - the world's largest prediction market platform. Gives Hermes access to real-time market prices, event probabilities, volume data, and market resolution history. 273 installs, making it one of the most popular data-integration skills for Hermes.
 
 ---
 
@@ -128,7 +128,7 @@ The agent should return market names, current prices, and 24h volume data.
 
 ## Pitfalls
 
-- **Not financial advice:** Polymarket prices reflect crowd sentiment — not guaranteed outcomes. The skill provides data, not trading recommendations.
+- **Not financial advice:** Polymarket prices reflect crowd sentiment - not guaranteed outcomes. The skill provides data, not trading recommendations.
 - **API rate limits:** The free tier is limited to 10 requests/minute. Heavy polling or multi-market queries can trigger rate limiting.
 - **Market liquidity:** Low-volume markets may have stale or unreliable prices. Always check 24h volume before relying on price data.
 - **Geographic restrictions:** Polymarket is not available in all jurisdictions. The skill API may be restricted in certain regions.
@@ -138,8 +138,8 @@ The agent should return market names, current prices, and 24h volume data.
 
 ## See Also
 
-- [arxiv-setup.md](arxiv-setup.md) — Academic paper research
-- [llm-wiki-setup.md](llm-wiki-setup.md) — LLM knowledge base queries
+- [arxiv-setup.md](arxiv-setup.md) - Academic paper research
+- [llm-wiki-setup.md](llm-wiki-setup.md) - LLM knowledge base queries
 
 ---
 

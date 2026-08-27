@@ -1,13 +1,13 @@
 ---
-title: CaffeineLabs Extension Skills — Agent Platform Extensions Setup
-description: "caffeinelabs/skills — 39 extension skills at 259.4K installs: email calendar/marketing/verification/raw, Stripe, QR code, camera, object storage, authorization, HTTP outcalls, OpenAI, posting-to-X, OQL querying, Google Mail/Calendar connectors, and a Motoko series."
+title: CaffeineLabs Extension Skills - Agent Platform Extensions Setup
+description: "caffeinelabs/skills - 39 extension skills at 259.4K installs: email calendar/marketing/verification/raw, Stripe, QR code, camera, object storage, authorization, HTTP outcalls, OpenAI, posting-to-X, OQL querying, Google Mail/Calendar connectors, and a Motoko series."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/caffeinelabs-extension-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "email", "stripe", "extensions"]
 ---
 
-# CaffeineLabs Extension Skills — Setup Guide
+# CaffeineLabs Extension Skills - Setup Guide
 
 **Source:** [caffeinelabs/skills](https://skills.sh/caffeinelabs/skills)
 **GitHub:** [caffeinelabs/skills](https://github.com/caffeinelabs/skills)
@@ -77,7 +77,7 @@ npx skills add caffeinelabs/skills --skill connector-googlemail
 
 ## Limitations / Verification
 
-- The extension series targets a specific platform runtime, not raw Claude Code or Hermes sessions — treat it as a pattern reference plus capability set for that platform
+- The extension series targets a specific platform runtime, not raw Claude Code or Hermes sessions - treat it as a pattern reference plus capability set for that platform
 - Motoko skills are for Internet Computer canister development, niche outside ICP work
 
 ```bash
@@ -87,7 +87,7 @@ npx skills add caffeinelabs/skills --skill extension-email-verification   # veri
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Resend Skills Setup](/hermes/skills/catalog/resend-skills-setup/) — email deliverability and templates
+- [Resend Skills Setup](/hermes/skills/catalog/resend-skills-setup/) - email deliverability and templates
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

@@ -1,5 +1,5 @@
 ---
-title: just-scrape — AI-Powered Web Scraping CLI for Hermes Agents
+title: just-scrape - AI-Powered Web Scraping CLI for Hermes Agents
 description: Universal web scraping CLI with 244.9K+ installs. Search, scrape, extract structured data, crawl, and monitor web pages. Essential for Hermes agents doing web research, content extraction, and competitive monitoring.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/just-scrape-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# just-scrape — Setup Guide
+# just-scrape - Setup Guide
 
 **Source:** [scrapegraphai/just-scrape](https://skills.sh/scrapegraphai/just-scrape/just-scrape) (244.9K+ installs)
 **Category:** Engineering / Web Scraping
 **Quality Tier:** 🟢 Production
 
-just-scrape is a CLI tool from ScrapeGraph AI that gives Hermes agents programmatic access to web search, page scraping, structured data extraction, multi-page crawling, and scheduled page-change monitoring. It's the Swiss Army knife for any agent that needs to interact with the open web — competitive research, content extraction, lead discovery, or documentation crawling.
+just-scrape is a CLI tool from ScrapeGraph AI that gives Hermes agents programmatic access to web search, page scraping, structured data extraction, multi-page crawling, and scheduled page-change monitoring. It's the Swiss Army knife for any agent that needs to interact with the open web - competitive research, content extraction, lead discovery, or documentation crawling.
 
 ---
 
@@ -31,8 +31,8 @@ npm install -g just-scrape@latest
 | Requirement | Details |
 |---|---|
 | **Node.js** | 18+ recommended |
-| **SGAI_API_KEY** | ScrapeGraph AI API key — set as env var, in `.env`, or `~/.scrapegraphai/config.json` |
-| **Credits** | Each operation consumes ScrapeGraph AI credits — check balance with `just-scrape credits` |
+| **SGAI_API_KEY** | ScrapeGraph AI API key - set as env var, in `.env`, or `~/.scrapegraphai/config.json` |
+| **Credits** | Each operation consumes ScrapeGraph AI credits - check balance with `just-scrape credits` |
 
 ---
 
@@ -46,19 +46,19 @@ npm install -g just-scrape@latest
 
 ## Key Capabilities
 
-### Search — Find pages on a topic
+### Search - Find pages on a topic
 ```bash
 just-scrape search "hermes agent autonomous workflows" --num-results 5 --json
 ```
 Use when you have no specific URL but need to discover sources.
 
-### Scrape — Get page content
+### Scrape - Get page content
 ```bash
 just-scrape scrape "https://example.com" --json
 ```
 Extracts markdown, HTML, screenshots, links, images, summaries, or branding from a single URL. Perfect for competitive analysis and content research.
 
-### Extract — Structured JSON from known URLs
+### Extract - Structured JSON from known URLs
 ```bash
 just-scrape extract "https://example.com/products" \
   --prompt "Extract product names and prices" \
@@ -67,13 +67,13 @@ just-scrape extract "https://example.com/products" \
 ```
 AI-powered extraction with custom prompt and optional JSON schema for structured data.
 
-### Crawl — Bulk extract site sections
+### Crawl - Bulk extract site sections
 ```bash
 just-scrape crawl "https://docs.example.com" --max-pages 50 --json
 ```
 Crawls entire documentation sites, blogs, or product catalogs.
 
-### Monitor — Track page changes over time
+### Monitor - Track page changes over time
 ```bash
 just-scrape monitor "https://example.com/pricing" \
   --interval 1h \

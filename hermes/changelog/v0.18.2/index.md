@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent v0.18.2 — WhatsApp Baileys Fix
+title: Hermes Agent v0.18.2 - WhatsApp Baileys Fix
 description: Same-day patch on v0.18.1. Unpins the WhatsApp Baileys bridge dependency from a git commit to the published npm 7.0.0-rc13 release, fixing tagged-release Docker builds. July 7, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.2/"
 robots: "index,follow"
@@ -18,7 +18,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## What's in this patch
 
-- **fix(whatsapp): unpin Baileys from git commit, use published 7.0.0-rc13** ([#60643](https://github.com/NousResearch/hermes-agent/pull/60643)) — the WhatsApp bridge dependency now installs from the published npm release instead of a pinned git commit, making installs and Docker image builds reliable.
+- **fix(whatsapp): unpin Baileys from git commit, use published 7.0.0-rc13** ([#60643](https://github.com/NousResearch/hermes-agent/pull/60643)) - the WhatsApp bridge dependency now installs from the published npm release instead of a pinned git commit, making installs and Docker image builds reliable.
 
 Full curated release notes for the entire post-v0.18.0 window ship with **v0.19.0**.
 
@@ -33,7 +33,7 @@ pip install -U hermes-agent
 
 ---
 
-*← [v0.18.1 — Infrastructure Patch](/hermes/changelog/v0.18.1/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.18.1 - Infrastructure Patch](/hermes/changelog/v0.18.1/) | [Changelog Home](/hermes/changelog/) →*
 
 *↑ [Changelog Home](/hermes/changelog/)*
 

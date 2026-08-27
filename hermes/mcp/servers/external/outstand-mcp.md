@@ -53,11 +53,11 @@ npx -y @postproxy/postproxy-mcp
 
 ## Operator Use Cases
 
-1. **Automated social publishing** — Schedule and post content across X, LinkedIn, Bluesky from a single agent
-2. **Engagement triage** — Monitor mentions across platforms and flag high-priority interactions
-3. **Cross-platform analytics** — Aggregate social metrics into operator dashboards
-4. **Brand monitoring** — Track brand mentions across social platforms
-5. **Competitor social listening** — Monitor competitor social activity programmatically
+1. **Automated social publishing** - Schedule and post content across X, LinkedIn, Bluesky from a single agent
+2. **Engagement triage** - Monitor mentions across platforms and flag high-priority interactions
+3. **Cross-platform analytics** - Aggregate social metrics into operator dashboards
+4. **Brand monitoring** - Track brand mentions across social platforms
+5. **Competitor social listening** - Monitor competitor social activity programmatically
 
 ## CorpusIQ Angle
 
@@ -66,6 +66,6 @@ Outstand MCP is a potential complementary tool for CorpusIQ's social media opera
 ## Limitations
 
 - New server, limited documentation
-- Auth model unclear — may require per-platform OAuth
+- Auth model unclear - may require per-platform OAuth
 - Not yet widely adopted (new listing as of July 2026)
-- Primary repo (postproxy-mcp) suggests proxy-based architecture — may have latency implications
+- Primary repo (postproxy-mcp) suggests proxy-based architecture - may have latency implications

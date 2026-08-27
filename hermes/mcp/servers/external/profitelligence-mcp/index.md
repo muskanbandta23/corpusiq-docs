@@ -11,7 +11,7 @@ tags: [financial-data, sec-filings, insider-trading, 13f, market-intelligence, r
 
 # Profitelligence MCP
 
-**Hosted remote MCP server for financial intelligence built on first-party SEC data.** Seven read-only tools answer complete questions in one call: market snapshots, company deep dives, opportunity screening, position health checks, 13F institutional holdings, and semantic search across filings. Stateless pass-through design means no conversation data is stored and there is no trade execution — the server is read-only by construction.
+**Hosted remote MCP server for financial intelligence built on first-party SEC data.** Seven read-only tools answer complete questions in one call: market snapshots, company deep dives, opportunity screening, position health checks, 13F institutional holdings, and semantic search across filings. Stateless pass-through design means no conversation data is stored and there is no trade execution - the server is read-only by construction.
 
 ```
 Server type: Remote (Streamable HTTP)

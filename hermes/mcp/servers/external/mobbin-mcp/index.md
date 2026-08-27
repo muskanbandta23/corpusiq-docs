@@ -1,5 +1,5 @@
 ---
-title: "Mobbin MCP — 600,000 Real Product Screens for AI-Driven Design Research"
+title: "Mobbin MCP - 600,000 Real Product Screens for AI-Driven Design Research"
 description: "Official Mobbin MCP server connecting AI agents to 600,000+ real product screens: natural-language search across screens, multi-step user flows and website sections, with inline images and canonical Mobbin links for citation. OAuth over Streamable HTTP."
 category: Design & Product Research
 stars: n/a (new listing)
@@ -11,7 +11,7 @@ tags: [design, ui, ux, screens, product, research, oauth, remote-mcp]
 
 # Mobbin MCP
 
-**Real product screens, searchable by an agent — so what gets built starts with what already works.** Mobbin is the established screen-reference library (600,000+ screens across top products); its official MCP server exposes three natural-language search tools over that corpus. Results return inline images with metadata, and every screen carries its canonical `mobbin_url` so agent output can cite the source a human can open.
+**Real product screens, searchable by an agent - so what gets built starts with what already works.** Mobbin is the established screen-reference library (600,000+ screens across top products); its official MCP server exposes three natural-language search tools over that corpus. Results return inline images with metadata, and every screen carries its canonical `mobbin_url` so agent output can cite the source a human can open.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,7 +25,7 @@ Built by: Mobbin (github.com/mobbin/mobbin-mcp-server)
 
 ## Why This Matters for Operators
 
-"Let's redesign the onboarding" used to mean a designer hand-collecting screenshots from ten competitors. **Mobbin's tools make that research a question**: "show me how fintech apps do first-run onboarding" returns real screens with their source links; "find checkout flows with one-page payment" returns multi-step flow previews. Because the tools return inline images, an agent with vision can actually analyze the screens — layout, copy, hierarchy — rather than guess from metadata.
+"Let's redesign the onboarding" used to mean a designer hand-collecting screenshots from ten competitors. **Mobbin's tools make that research a question**: "show me how fintech apps do first-run onboarding" returns real screens with their source links; "find checkout flows with one-page payment" returns multi-step flow previews. Because the tools return inline images, an agent with vision can actually analyze the screens - layout, copy, hierarchy - rather than guess from metadata.
 
 ## Tools & Capabilities
 
@@ -67,15 +67,15 @@ First connect opens a browser OAuth flow to sign in to your Mobbin account.
 
 ## Integration with CorpusIQ
 
-Mobbin informs what to build; CorpusIQ measures whether it worked. A product session can research patterns in Mobbin (how do top SaaS apps price and onboard), implement, then validate through CorpusIQ — GA4 conversion funnels, Stripe checkout data, HubSpot win rates — so the design loop runs from reference to result in one agent workflow. For competitive product teardowns, Mobbin's screens pair with CorpusIQ's web-fetch and market connectors for evidence-backed comparisons.
+Mobbin informs what to build; CorpusIQ measures whether it worked. A product session can research patterns in Mobbin (how do top SaaS apps price and onboard), implement, then validate through CorpusIQ - GA4 conversion funnels, Stripe checkout data, HubSpot win rates - so the design loop runs from reference to result in one agent workflow. For competitive product teardowns, Mobbin's screens pair with CorpusIQ's web-fetch and market connectors for evidence-backed comparisons.
 
 ## Limitations
 
-- Design reference only — no code, no components, no analytics
+- Design reference only - no code, no components, no analytics
 - Requires a Mobbin account and plan for full corpus access; OAuth on connect
 - Vision-capable clients get the most value; text-only clients see metadata without the images
 - New MCP listing (Aug 2026) for a long-established vendor
-- Three tools is a deliberately narrow surface — search is the whole product
+- Three tools is a deliberately narrow surface - search is the whole product
 
 ## See Also
 

@@ -1,6 +1,6 @@
 ---
-title: "OpenClaw Marketing Skills — Setup Guide"
-description: "Install and configure the openclaw-marketing-skills from aradotso/marketing-skills — campaign management, audience targeting, and content scheduling for"
+title: "OpenClaw Marketing Skills - Setup Guide"
+description: "Install and configure the openclaw-marketing-skills from aradotso/marketing-skills - campaign management, audience targeting, and content scheduling for"
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-marketing-skills-setup/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Marketing Skills — Setup Guide
+# OpenClaw Marketing Skills - Setup Guide
 
-Marketing automation skill for Hermes and OpenClaw agents. Enables campaign management, audience targeting, content scheduling, and marketing analytics — all from agent commands.
+Marketing automation skill for Hermes and OpenClaw agents. Enables campaign management, audience targeting, content scheduling, and marketing analytics - all from agent commands.
 
 **Publisher:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) | **Installs:** 714 | **Source:** [skills.sh](https://github.com/aradotso/marketing-skills)
 
@@ -39,11 +39,11 @@ npx skills list | grep marketing
 
 The skill provides marketing automation workflows directly from your agent:
 
-- **Campaign Management** — Create, schedule, and monitor marketing campaigns
-- **Audience Targeting** — Segment audiences and target specific demographics
-- **Content Scheduling** — Schedule posts across platforms at optimal times
-- **Marketing Analytics** — Track campaign performance metrics
-- **A/B Testing** — Set up and analyze split tests
+- **Campaign Management** - Create, schedule, and monitor marketing campaigns
+- **Audience Targeting** - Segment audiences and target specific demographics
+- **Content Scheduling** - Schedule posts across platforms at optimal times
+- **Marketing Analytics** - Track campaign performance metrics
+- **A/B Testing** - Set up and analyze split tests
 
 ## 4. Usage Examples
 
@@ -66,18 +66,18 @@ The skill provides marketing automation workflows directly from your agent:
 
 This skill directly supports CorpusIQ's growth operations:
 
-- **Growth campaigns** — Automate CorpusIQ promotional campaigns across social platforms
-- **Content distribution** — Schedule and distribute CorpusIQ blog posts, case studies, and product updates
-- **Audience research** — Analyze which channels drive the most qualified leads for CorpusIQ
-- **Competitor monitoring** — Track competitor marketing activity and adjust positioning
+- **Growth campaigns** - Automate CorpusIQ promotional campaigns across social platforms
+- **Content distribution** - Schedule and distribute CorpusIQ blog posts, case studies, and product updates
+- **Audience research** - Analyze which channels drive the most qualified leads for CorpusIQ
+- **Competitor monitoring** - Track competitor marketing activity and adjust positioning
 
 Combined with existing skills (Threads growth, X/Twitter, LinkedIn), this completes the full social marketing stack for Hermes agents.
 
 ## 6. Related Skills
 
-- [Threads Growth Skill](/hermes/skills/catalog/threads-growth-skill-setup/) — Meta Threads automation (745 installs)
-- [X/Twitter Scraper](/hermes/skills/catalog/x-twitter-scraper-setup/) — X/Twitter automation
-- [Impeccable](/hermes/skills/catalog/impeccable-setup/) — AI writing and content generation
+- [Threads Growth Skill](/hermes/skills/catalog/threads-growth-skill-setup/) - Meta Threads automation (745 installs)
+- [X/Twitter Scraper](/hermes/skills/catalog/x-twitter-scraper-setup/) - X/Twitter automation
+- [Impeccable](/hermes/skills/catalog/impeccable-setup/) - AI writing and content generation
 
 ## 7. Troubleshooting
 

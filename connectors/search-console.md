@@ -1,11 +1,11 @@
 ---
 title: "Google Search Console - CorpusIQ Docs"
-description: "Google Search Console is the ground truth for how your site performs in Google Search — clicks, impressions, average position, and the queries that dr."
+description: "Google Search Console is the ground truth for how your site performs in Google Search - clicks, impressions, average position, and the queries that dr."
 ---
 # Google Search Console
 
 ## What it unlocks
-Google Search Console is the ground truth for how your site performs in Google Search — clicks, impressions, average position, and the queries that drive them. Connecting it lets CorpusIQ pull search performance data and line it up next to GA4 traffic, so you can see exactly which search queries turn into engaged visitors.
+Google Search Console is the ground truth for how your site performs in Google Search - clicks, impressions, average position, and the queries that drive them. Connecting it lets CorpusIQ pull search performance data and line it up next to GA4 traffic, so you can see exactly which search queries turn into engaged visitors.
 
 ## Before you connect
 - A Google account that is a verified owner of the Search Console property you want to read
@@ -41,10 +41,10 @@ CorpusIQ never submits sitemaps, requests indexing, or modifies properties.
 - "Inspect the index status of our new landing page."
 
 ## Troubleshooting
-- **"No properties found"** — Your Google account isn't a verified owner of any Search Console property. Add your account in Search Console → Settings → Users and Permissions.
-- **"Property not available"** — The property may be a Domain property rather than a URL-prefix property. Both are supported; confirm the exact URL in Search Console.
-- **Performance data returns zero** — Google Search Console data can lag by 2–3 days. Try a slightly older date range.
-- **Inspect URL says "URL is not on property"** — The URL must belong to the property you're querying. Double-check the site URL and the inspection URL match.
+- **"No properties found"** - Your Google account isn't a verified owner of any Search Console property. Add your account in Search Console → Settings → Users and Permissions.
+- **"Property not available"** - The property may be a Domain property rather than a URL-prefix property. Both are supported; confirm the exact URL in Search Console.
+- **Performance data returns zero** - Google Search Console data can lag by 2-3 days. Try a slightly older date range.
+- **Inspect URL says "URL is not on property"** - The URL must belong to the property you're querying. Double-check the site URL and the inspection URL match.
 ---
 
 *

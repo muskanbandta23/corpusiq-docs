@@ -1,5 +1,5 @@
 ---
-title: Finance Skills — Financial Analysis for Hermes Agents
+title: Finance Skills - Financial Analysis for Hermes Agents
 description: Collection of financial analysis skills (yfinance, stock correlation, options, generative UI) with 8.6K+ combined installs. Enables Hermes agents to fetch market data, analyze stocks, and generate financial visualizations for business operators.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/finance-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Finance Skills — Setup Guide
+# Finance Skills - Setup Guide
 
 **Source:** [himself65/finance-skills](https://skills.sh/himself65/finance-skills) (8.6K+ combined installs)
 **Category:** Growth Operations / Business Intelligence
@@ -47,7 +47,7 @@ npx skills add himself65/finance-skills --skill hormuz-strait
 | Requirement | Details |
 |---|---|
 | **Python 3.9+** | Required for yfinance library |
-| **yfinance** | Auto-installed by skills — `pip install yfinance` |
+| **yfinance** | Auto-installed by skills - `pip install yfinance` |
 | **Internet** | yfinance fetches live data from Yahoo Finance |
 | **Disclaimer** | Data is for research/educational purposes. Not financial advice. |
 
@@ -55,7 +55,7 @@ npx skills add himself65/finance-skills --skill hormuz-strait
 
 ## Key Capabilities
 
-### yfinance-data — Market Data Fetching
+### yfinance-data - Market Data Fetching
 ```python
 import yfinance as yf
 
@@ -78,16 +78,16 @@ data = yf.download(["AAPL", "MSFT", "GOOGL"], period="6mo")
 ```
 Covers 19 data categories: stock prices, history, financials, options, dividends, earnings, analyst targets, institutional holders, insider transactions, and more.
 
-### stock-correlation — Portfolio Analysis
+### stock-correlation - Portfolio Analysis
 Analyze correlation matrices between tickers to understand diversification, sector exposure, and risk concentration. Useful for business operators evaluating market positions.
 
-### options-payoff — Strategy Modeling
+### options-payoff - Strategy Modeling
 Model long calls, puts, covered calls, spreads, and iron condors with payoff diagrams. Decision-support for options-aware operators.
 
-### generative-ui — Financial Visualization
+### generative-ui - Financial Visualization
 Generate charts, dashboards, and interactive UI components from financial data. Output formats include matplotlib charts, HTML dashboards, and data tables.
 
-### hormuz-strait — Geopolitical Risk
+### hormuz-strait - Geopolitical Risk
 Analyze market impact of geopolitical events, supply chain disruptions, and macro shocks. Applies scenario analysis to portfolios.
 
 ---

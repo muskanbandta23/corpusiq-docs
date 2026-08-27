@@ -75,7 +75,7 @@ A: All successful responses return HTTP 200 with a JSON body. Errors follow a co
 A: External-source retrieval endpoints are read-only. Connector-management and CorpusIQ control-plane endpoints can change CorpusIQ-owned state and are documented separately.
 
 **Q: How fast are API query responses?**  
-A: Most queries return results in 1–5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.
+A: Most queries return results in 1-5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.
 
 ## Internal Links
 

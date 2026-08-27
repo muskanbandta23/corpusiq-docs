@@ -1,5 +1,5 @@
 ---
-title: Hermes History Ingest — Setup Guide for Hermes Agents
+title: Hermes History Ingest - Setup Guide for Hermes Agents
 description: Mine Hermes agent session history into Obsidian wiki. Extract insights from past conversations, import ~/.hermes memories, and track knowledge evolution. 2.1K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes History Ingest — Setup Guide
+# Hermes History Ingest - Setup Guide
 
 **Source:** [ar9av/obsidian-wiki](https://github.com/ar9av/obsidian-wiki) (Community)
 **Skill:** `hermes-history-ingest` · **Installs:** 2.1K+ · **Category:** Memory / Knowledge Management
@@ -40,8 +40,8 @@ The skill resolves configuration via a priority chain:
 4. Interactive prompt setup
 
 Key config values:
-- `OBSIDIAN_VAULT_PATH` — where the Obsidian wiki lives
-- `HERMES_HISTORY_PATH` — defaults to `~/.hermes`
+- `OBSIDIAN_VAULT_PATH` - where the Obsidian wiki lives
+- `HERMES_HISTORY_PATH` - defaults to `~/.hermes`
 
 ## Ingest Modes
 

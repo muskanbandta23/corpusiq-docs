@@ -1,13 +1,13 @@
 ---
-title: RampStack Claude Skills — Growth & Marketing Suite Setup
-description: "rampstackco/claude-skills — 103 skills, 15.7K installs: a complete growth-marketing suite covering SEO/AEO/GEO, CRO, email deliverability and sequences, funnel architecture, programmatic SEO, content strategy, brand systems, and product marketing."
+title: RampStack Claude Skills - Growth & Marketing Suite Setup
+description: "rampstackco/claude-skills - 103 skills, 15.7K installs: a complete growth-marketing suite covering SEO/AEO/GEO, CRO, email deliverability and sequences, funnel architecture, programmatic SEO, content strategy, brand systems, and product marketing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rampstack-claude-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "seo", "cro", "email marketing", "growth"]
 ---
 
-# RampStack Claude Skills — Setup Guide
+# RampStack Claude Skills - Setup Guide
 
 **Source:** [rampstackco/claude-skills](https://skills.sh/rampstackco/claude-skills)
 **GitHub:** [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills)
@@ -65,7 +65,7 @@ npx skills add rampstackco/claude-skills
 
 - 103-skill suite; individual security-audit pages were not fetched this sweep
 - Install counts verified on publisher page (15.7K total; top single skill 347)
-- Community agency suite — validate specific skill output before client-facing use
+- Community agency suite - validate specific skill output before client-facing use
 
 ```bash
 npx skills add rampstackco/claude-skills   # verify install works

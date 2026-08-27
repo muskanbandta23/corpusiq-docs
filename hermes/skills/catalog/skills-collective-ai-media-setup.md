@@ -1,5 +1,5 @@
 ---
-title: "Skills Collective AI Media — Image & Video Generation"
+title: "Skills Collective AI Media - Image & Video Generation"
 description: AI image generation, image-to-video conversion, and video editing. 100K+ combined installs across 2 new skills from skills-collective (plus ai-video-generation already catalogued).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-collective-ai-media-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skills Collective — AI Media Skills Setup Guide
+# Skills Collective - AI Media Skills Setup Guide
 
 **Source:** [skills-collective/skills](https://skills.sh/skills-collective/skills) (100K+ combined for 2 new skills)
 **Category:** AI Media / Content Creation
 **Quality Tier:** 🟡 Beta
 
-Two new AI media generation skills from skills-collective, complementing the already-catalogued `ai-video-generation` (49K installs). Covers AI image generation and image-to-video conversion — both with ~49K+ installs each.
+Two new AI media generation skills from skills-collective, complementing the already-catalogued `ai-video-generation` (49K installs). Covers AI image generation and image-to-video conversion - both with ~49K+ installs each.
 
 ---
 
@@ -34,7 +34,7 @@ npx skills add skills-collective/skills --skill video-edit
 |---|---|---|
 | **ai-image-generation** | 49.9K | Generate images from text prompts using multiple AI models |
 | **image-to-video** | 49.5K | Animate static images into short video clips |
-| **video-edit** | 49.3K | Video editing operations — trim, merge, transitions, captions |
+| **video-edit** | 49.3K | Video editing operations - trim, merge, transitions, captions |
 
 ---
 

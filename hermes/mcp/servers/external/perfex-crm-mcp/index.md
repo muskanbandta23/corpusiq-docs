@@ -1,5 +1,5 @@
 ---
-title: "Perfex CRM MCP — AI-Ready Self-Hosted CRM"
+title: "Perfex CRM MCP - AI-Ready Self-Hosted CRM"
 server: perfex-crm-mcp
 rating: ★★★
 category: CRM / Productivity
@@ -15,11 +15,11 @@ description: "Perfex CRM MCP turns a self-hosted Perfex CRM installation into an
 
 ---
 
-# Perfex CRM MCP — Integration Guide
+# Perfex CRM MCP - Integration Guide
 
 ## Overview
 
-Perfex CRM MCP turns a self-hosted Perfex CRM installation into an MCP-compatible AI workspace. Every CRM module — leads, customers, invoices, tickets, projects, contracts, subscriptions — becomes a typed MCP tool that any AI assistant can query and update.
+Perfex CRM MCP turns a self-hosted Perfex CRM installation into an MCP-compatible AI workspace. Every CRM module - leads, customers, invoices, tickets, projects, contracts, subscriptions - becomes a typed MCP tool that any AI assistant can query and update.
 
 This is the first self-hosted CRM MCP server. Unlike SaaS CRM connectors that route through a third party, Perfex CRM MCP runs inside your own Perfex installation. Your data never leaves your server.
 
@@ -27,7 +27,7 @@ This is the first self-hosted CRM MCP server. Unlike SaaS CRM connectors that ro
 
 | Use Case | Value |
 |----------|-------|
-| Morning triage | "What changed overnight? New leads, tickets, overdue invoices." — one prompt |
+| Morning triage | "What changed overnight? New leads, tickets, overdue invoices." - one prompt |
 | Sales prep | "Give me the full history on Client X before my call." |
 | Data entry | "Create a lead from this email and assign to Maria." |
 | Cross-module reporting | "Which clients have high ticket volume AND low invoice totals?" |
@@ -136,17 +136,17 @@ The server exposes Perfex CRM's full REST API as typed MCP tools:
 
 ## Limitations
 
-- **Perfex-only** — no cross-CRM compatibility
-- **Self-hosted dependency** — if your Perfex instance is down, MCP is down
-- **Module purchase required** — not free (pricing via themesic.com)
-- **No mobile push** — AI actions happen in your MCP client, not as push notifications
+- **Perfex-only** - no cross-CRM compatibility
+- **Self-hosted dependency** - if your Perfex instance is down, MCP is down
+- **Module purchase required** - not free (pricing via themesic.com)
+- **No mobile push** - AI actions happen in your MCP client, not as push notifications
 
 ## Verdict
 
-★★★ — **Essential for Perfex CRM operators.** This is the first MCP server that turns a self-hosted CRM into a conversational workspace. The security model (staff-scoped keys, read-only mode, full logging) is exactly right for production use. If you run Perfex CRM and use AI assistants, this is a day-one install. For operators on other CRMs, watch for similar MCP servers — this pattern will spread.
+★★★ - **Essential for Perfex CRM operators.** This is the first MCP server that turns a self-hosted CRM into a conversational workspace. The security model (staff-scoped keys, read-only mode, full logging) is exactly right for production use. If you run Perfex CRM and use AI assistants, this is a day-one install. For operators on other CRMs, watch for similar MCP servers - this pattern will spread.
 
 ## Related MCP Servers in Catalog
 
-- **Salesforce MCP** — Salesforce CRM connector (★★★)
-- **Plyto** — Agentic CRM for small businesses (mcp.so listing)
-- **Zeevou AI Connector** — Hospitality/property management MCP
+- **Salesforce MCP** - Salesforce CRM connector (★★★)
+- **Plyto** - Agentic CRM for small businesses (mcp.so listing)
+- **Zeevou AI Connector** - Hospitality/property management MCP

@@ -36,9 +36,9 @@ Read-only. CorpusIQ never posts, deletes, comments, or follows.
 - "Which of my videos drove the most engagement per view?"
 
 ## Troubleshooting
-- "Authorization denied" — TikTok requires accepting all scopes. Reconnect and approve each requested permission.
-- Video list empty — newly posted videos take a few hours to appear in TikTok's API.
-- Wrong account connected — disconnect TikTok in your dashboard, switch accounts in TikTok's web app, and reconnect.
+- "Authorization denied" - TikTok requires accepting all scopes. Reconnect and approve each requested permission.
+- Video list empty - newly posted videos take a few hours to appear in TikTok's API.
+- Wrong account connected - disconnect TikTok in your dashboard, switch accounts in TikTok's web app, and reconnect.
 ---
 
 *

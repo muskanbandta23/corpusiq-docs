@@ -1,6 +1,6 @@
 ---
 title: "ViewMax MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: AI video, image, music and speech generation over MCP — Sora-class video models with OAuth or API-key auth and credit-based billing.
+description: AI video, image, music and speech generation over MCP - Sora-class video models with OAuth or API-key auth and credit-based billing.
 category: Content
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [video-generation, image-generation, music-generation, sora, creative-prod
 
 # ViewMax MCP
 
-**Remote MCP server (Streamable HTTP, OAuth or API key)** — ViewMax brings AI video, image, music, and speech generation into any MCP client: `generate_video` with Sora-class models, text-to-image and image-to-image, music tracks, and speech — with model discovery via `list_video_models` and friends. Billing is credit-based; generation consumes credits.
+**Remote MCP server (Streamable HTTP, OAuth or API key)** - ViewMax brings AI video, image, music, and speech generation into any MCP client: `generate_video` with Sora-class models, text-to-image and image-to-image, music tracks, and speech - with model discovery via `list_video_models` and friends. Billing is credit-based; generation consumes credits.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: ViewMax Studio (viewmax.studio)
 
 Video production is the most expensive content type to outsource and the most effective to publish. ViewMax moves generation into the agent loop: the same conversation that writes the brief can call `generate_video` and get back a task with status and video URLs.
 
-**The model-discovery pattern is the practical win**: instead of hard-coding a model name, the agent lists available video models, checks one with `get_video_model`, then generates — so model availability and deprecations are handled by the server, not by your workflow. Marketing teams get an 8-second vertical clip the way they currently get a draft headline: on demand, in chat.
+**The model-discovery pattern is the practical win**: instead of hard-coding a model name, the agent lists available video models, checks one with `get_video_model`, then generates - so model availability and deprecations are handled by the server, not by your workflow. Marketing teams get an 8-second vertical clip the way they currently get a draft headline: on demand, in chat.
 
 ## Tools & Capabilities
 
@@ -45,7 +45,7 @@ Video production is the most expensive content type to outsource and the most ef
 claude mcp add --transport http viewmax https://viewmax.studio/api/mcp --header "Authorization: Bearer YOUR_API_KEY"
 ```
 
-In claude.ai or Claude Desktop, add the connector URL and sign in with a ViewMax account — OAuth, no API key needed. API keys are created in Settings → API Keys.
+In claude.ai or Claude Desktop, add the connector URL and sign in with a ViewMax account - OAuth, no API key needed. API keys are created in Settings → API Keys.
 
 ## Configuration
 
@@ -76,11 +76,11 @@ ViewMax slots into the CorpusIQ content pipeline as the generation layer. Creati
 
 ## Limitations
 
-- Brand new — no track record yet; listing appeared August 17, 2026.
-- Credit-based billing — generation costs per asset, and credits are the account currency.
+- Brand new - no track record yet; listing appeared August 17, 2026.
+- Credit-based billing - generation costs per asset, and credits are the account currency.
 - Model availability is served at runtime; a named model in a workflow today may rotate tomorrow.
-- Consumer-grade creative focus — no brand-kit, template, or approval-gate tooling beyond generation.
-- OAuth for Claude, API key for everything else — key management is manual.
+- Consumer-grade creative focus - no brand-kit, template, or approval-gate tooling beyond generation.
+- OAuth for Claude, API key for everything else - key management is manual.
 
 ## See Also
 

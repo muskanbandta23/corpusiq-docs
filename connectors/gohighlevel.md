@@ -23,7 +23,7 @@ You'll see GoHighLevel change from gray to green in your CorpusIQ dashboard.
 
 ## What CorpusIQ can see
 Read-only access to:
-- Location info — name, address, phone, timezone, plan
+- Location info - name, address, phone, timezone, plan
 - Contacts with custom fields and tags, plus search
 - Opportunities (pipeline deals)
 - Calendars and appointments
@@ -41,9 +41,9 @@ CorpusIQ never sends messages, books appointments, or charges customers.
 - "What forms do I have set up?"
 
 ## Troubleshooting
-- **"Location not authorized"** — During OAuth you may have picked the wrong sub-account. Disconnect and reconnect to choose the right one.
-- **No conversations found** — The conversations API requires the `conversations.readonly` scope; reconnect to refresh scopes if you connected before that scope was added.
-- **Empty pipeline** — Make sure your opportunities live in the location you authorized, not a sibling sub-account.
+- **"Location not authorized"** - During OAuth you may have picked the wrong sub-account. Disconnect and reconnect to choose the right one.
+- **No conversations found** - The conversations API requires the `conversations.readonly` scope; reconnect to refresh scopes if you connected before that scope was added.
+- **Empty pipeline** - Make sure your opportunities live in the location you authorized, not a sibling sub-account.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Kubernetes MCP Server — Manage Clusters, Pods,"
-description: "Integration guide for Manusa/kubernetes-mcp-server. MCP server for Kubernetes and OpenShift — native binary, npm, Python, or Docker. 1,814 stars."
+title: "Kubernetes MCP Server - Manage Clusters, Pods,"
+description: "Integration guide for Manusa/kubernetes-mcp-server. MCP server for Kubernetes and OpenShift - native binary, npm, Python, or Docker. 1,814 stars."
 category: mcp
 tags: [mcp-server, kubernetes, devops, cloud, infrastructure, hermes-agent]
 last_updated: 2026-07-16
@@ -12,7 +12,7 @@ robots: "index,follow"
 
 ---
 
-# Kubernetes MCP Server — Manage K8s/OpenShift via MCP
+# Kubernetes MCP Server - Manage K8s/OpenShift via MCP
 
 **Repository:** [Manusa/kubernetes-mcp-server](https://github.com/Manusa/kubernetes-mcp-server)
 **Stars:** 1,814 ★
@@ -23,7 +23,7 @@ robots: "index,follow"
 
 ## What It Does
 
-A versatile Model Context Protocol server for Kubernetes and OpenShift. Distributed as a native binary, npm package, Python package, or Docker image. AI agents can interact with Kubernetes clusters — list pods, create deployments, check service status, view logs — all through MCP tools without kubectl CLI access.
+A versatile Model Context Protocol server for Kubernetes and OpenShift. Distributed as a native binary, npm package, Python package, or Docker image. AI agents can interact with Kubernetes clusters - list pods, create deployments, check service status, view logs - all through MCP tools without kubectl CLI access.
 
 ### Key Capabilities
 
@@ -39,7 +39,7 @@ A versatile Model Context Protocol server for Kubernetes and OpenShift. Distribu
 
 ## Why Business Operators Care
 
-- **Infrastructure visibility:** Non-technical operators can query cluster state via natural language — "how many pods are running in production?"
+- **Infrastructure visibility:** Non-technical operators can query cluster state via natural language - "how many pods are running in production?"
 - **Deployment auditing:** Track what's deployed, when, and by whom without kubectl access
 - **Incident response:** AI agent can surface pod failures, crash loops, and resource exhaustion before humans notice
 - **Multi-cluster:** Single MCP server can connect to multiple clusters via kubeconfig contexts
@@ -90,17 +90,17 @@ mcp_servers:
 
 ### Security Recommendations
 
-1. **Use read-only mode** for AI agent access — prevents accidental deletion
+1. **Use read-only mode** for AI agent access - prevents accidental deletion
 2. **Dedicated service account** with minimal RBAC permissions
-3. **Namespace isolation** — scope the kubeconfig context to non-production namespaces first
-4. **Audit logging** — all MCP actions are logged; forward to SIEM if in production
+3. **Namespace isolation** - scope the kubeconfig context to non-production namespaces first
+4. **Audit logging** - all MCP actions are logged; forward to SIEM if in production
 
 ## Comparison: Kubernetes MCP vs CLI vs Dashboard
 
 | Feature | K8s MCP Server | kubectl CLI | K8s Dashboard |
 |---------|---------------|-------------|---------------|
 | **Access method** | MCP tools (AI-native) | Terminal commands | Web UI |
-| **Natural language** | Yes — AI translates | No | No |
+| **Natural language** | Yes - AI translates | No | No |
 | **Automation** | AI agent driven | Script-driven | Manual |
 | **Multi-cluster** | Single config | Switch contexts | Per-dashboard |
 | **Audit trail** | MCP logs | Shell history | Dashboard logs |
@@ -118,7 +118,7 @@ Once configured, ask Hermes:
 
 ## Pitfalls
 
-1. **RBAC scope:** AI agents inherit the kubeconfig permissions. A cluster-admin kubeconfig gives the AI full cluster control — use dedicated service accounts.
+1. **RBAC scope:** AI agents inherit the kubeconfig permissions. A cluster-admin kubeconfig gives the AI full cluster control - use dedicated service accounts.
 2. **Rate limiting:** Large clusters with thousands of pods can produce verbose output. Use namespace and label filters.
 3. **OpenShift vs vanilla K8s:** Some tools (Routes, BuildConfigs) only work on OpenShift. Check API compatibility.
 

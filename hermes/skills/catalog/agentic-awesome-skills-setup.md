@@ -1,13 +1,13 @@
 ---
-title: "Agentic Awesome Skills (AAS) — 2,000+ Skill Catalog Setup"
-description: "sickn33/agentic-awesome-skills — 45,000-star community skill catalog (2,025 skills) with 37 newly catalogued engineering playbooks at 100 to 13,215 installs each: Node.js, TypeScript, Next.js, security, testing, architecture, and more. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
+title: "Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup"
+description: "sickn33/agentic-awesome-skills - 45,000-star community skill catalog (2,025 skills) with 37 newly catalogued engineering playbooks at 100 to 13,215 installs each: Node.js, TypeScript, Next.js, security, testing, architecture, and more. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-awesome-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-21"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering", "development"]
 ---
 
-# Agentic Awesome Skills (AAS) — Setup Guide
+# Agentic Awesome Skills (AAS) - Setup Guide
 
 **Source:** [sickn33/agentic-awesome-skills](https://skills.sh/sickn33/agentic-awesome-skills)
 **GitHub:** [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) (45,000+⭐, MIT)
@@ -144,15 +144,15 @@ npx skills find "nodejs-best-practices" --json 2>&1 | grep skills.sh
 
 ## Security
 
-- [sickn33/agentic-awesome-skills repo](https://github.com/sickn33/agentic-awesome-skills) — review SKILL.md files before install (standard practice)
-- [Hermes skills security](/hermes/best-practices/security/) — skill trust guidance
+- [sickn33/agentic-awesome-skills repo](https://github.com/sickn33/agentic-awesome-skills) - review SKILL.md files before install (standard practice)
+- [Hermes skills security](/hermes/best-practices/security/) - skill trust guidance
 - `cc-skill-security-review` in this catalog audits skills before activation
 
 ## Related
 
-- [M. Collina Node Skills — Fastify & Node.js Agent Suite Setup](/hermes/skills/catalog/mcollina-node-skills-setup/) — Node.js-focused suite from the Fastify author
-- [design-review — Visual UI Audit & Fix Setup](/hermes/skills/catalog/design-review-setup/) — complementary UI review skill
-- [Skills Catalog](/hermes/skills/catalog/) — full catalog index
+- [M. Collina Node Skills - Fastify & Node.js Agent Suite Setup](/hermes/skills/catalog/mcollina-node-skills-setup/) - Node.js-focused suite from the Fastify author
+- [design-review - Visual UI Audit & Fix Setup](/hermes/skills/catalog/design-review-setup/) - complementary UI review skill
+- [Skills Catalog](/hermes/skills/catalog/) - full catalog index
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

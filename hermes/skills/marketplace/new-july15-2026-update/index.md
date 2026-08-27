@@ -1,6 +1,6 @@
 ---
-title: New Skills — July 15, 2026 (Supplement)
-description: 5 additional OpenClaw ecosystem skills discovered in follow-up sweep — Grok search, release maintenance, skill vetting, and Apple Calendar integration.
+title: New Skills - July 15, 2026 (Supplement)
+description: 5 additional OpenClaw ecosystem skills discovered in follow-up sweep - Grok search, release maintenance, skill vetting, and Apple Calendar integration.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026-update/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovery — July 15, 2026 (Supplement)
+# New Skills Discovery - July 15, 2026 (Supplement)
 
-**Time:** 12:03 PM MST — follow-up sweep after the [main July 15 sweep](/hermes/skills/marketplace/new-july15-2026/).
+**Time:** 12:03 PM MST - follow-up sweep after the [main July 15 sweep](/hermes/skills/marketplace/new-july15-2026/).
 
 A targeted sweep of the OpenClaw ecosystem surfaced **5 additional skills** not captured by the earlier 18-query sweep. Combined install base: **1,305+ installs**.
 
@@ -30,7 +30,7 @@ A targeted sweep of the OpenClaw ecosystem surfaced **5 additional skills** not 
 
 **Source:** [sundial-org/awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills) · **662 installs**
 
-Apple Calendar integration for OpenClaw agents — create, read, update, and delete calendar events. Manage schedules, set reminders, and coordinate meetings directly through agent commands.
+Apple Calendar integration for OpenClaw agents - create, read, update, and delete calendar events. Manage schedules, set reminders, and coordinate meetings directly through agent commands.
 
 ### Capabilities
 - Create/read/update/delete calendar events
@@ -45,7 +45,7 @@ npx skills add sundial-org/awesome-openclaw-skills/apple-calendar
 ```
 
 ### Hermes/CorpusIQ Relevance
-Enables Hermes agents to manage scheduling autonomously — coordinate team meetings, set deadlines, and manage the CorpusIQ content calendar. The CalDAV protocol support means it works across iCloud, Exchange, and Google Calendar.
+Enables Hermes agents to manage scheduling autonomously - coordinate team meetings, set deadlines, and manage the CorpusIQ content calendar. The CalDAV protocol support means it works across iCloud, Exchange, and Google Calendar.
 
 **Setup guide:** [apple-calendar-setup.md](/hermes/skills/catalog/apple-calendar-setup/)
 
@@ -55,7 +55,7 @@ Enables Hermes agents to manage scheduling autonomously — coordinate team meet
 
 **Source:** [steipete/clawdis](https://github.com/steipete/clawdis) · **174 installs**
 
-Automated release maintenance for OpenClaw projects — version bumping, changelog generation, tag creation, and GitHub release publishing. Part of the Clawdis ecosystem of development tools.
+Automated release maintenance for OpenClaw projects - version bumping, changelog generation, tag creation, and GitHub release publishing. Part of the Clawdis ecosystem of development tools.
 
 ### Capabilities
 - Semantic version bumping (major/minor/patch)
@@ -70,7 +70,7 @@ npx skills add steipete/clawdis/openclaw-release-maintainer
 ```
 
 ### Hermes/CorpusIQ Relevance
-Useful for teams maintaining multiple Hermes/OpenClaw skill packages. Automates the release workflow for skill repositories — ensuring consistent versioning and changelog quality across the CorpusIQ ecosystem.
+Useful for teams maintaining multiple Hermes/OpenClaw skill packages. Automates the release workflow for skill repositories - ensuring consistent versioning and changelog quality across the CorpusIQ ecosystem.
 
 **Setup guide:** [openclaw-release-maintainer-setup.md](/hermes/skills/catalog/openclaw-release-maintainer-setup/)
 
@@ -80,7 +80,7 @@ Useful for teams maintaining multiple Hermes/OpenClaw skill packages. Automates 
 
 **Source:** [skills.volces.com](https://skills.volces.com) · **168 + 171 installs** · Two versions of the same skill.
 
-Automated skill quality validation — scans installed skills for common issues: missing dependencies, broken triggers, incompatible tool requirements, and security anti-patterns. The v1.0.0 variant includes stricter validation rules.
+Automated skill quality validation - scans installed skills for common issues: missing dependencies, broken triggers, incompatible tool requirements, and security anti-patterns. The v1.0.0 variant includes stricter validation rules.
 
 ### Capabilities
 - Dependency validation (checks all required tools are available)
@@ -110,7 +110,7 @@ Directly applicable to CorpusIQ's 133+ skill library. Automated vetting prevents
 
 **Source:** [stemmaker/openclaw-grok-search](https://github.com/stemmaker/openclaw-grok-search) · **130 installs**
 
-Integrates xAI's Grok search capabilities into OpenClaw agents. Provides real-time web search with Grok's reasoning capabilities — combining search retrieval with AI analysis.
+Integrates xAI's Grok search capabilities into OpenClaw agents. Provides real-time web search with Grok's reasoning capabilities - combining search retrieval with AI analysis.
 
 ### Capabilities
 - Real-time web search via Grok API
@@ -125,10 +125,10 @@ npx skills add stemmaker/openclaw-grok-search
 ```
 
 ### Hermes/CorpusIQ Relevance
-Provides an alternative search backend for Hermes agents beyond DuckDuckGo and Firecrawl. Grok's reasoning layer can synthesize search results into actionable insights — useful for competitive research, market analysis, and trend monitoring.
+Provides an alternative search backend for Hermes agents beyond DuckDuckGo and Firecrawl. Grok's reasoning layer can synthesize search results into actionable insights - useful for competitive research, market analysis, and trend monitoring.
 
 **Setup guide:** [openclaw-grok-search-setup.md](/hermes/skills/catalog/openclaw-grok-search-setup/)
 
 ---
 
-*Discovered via targeted OpenClaw ecosystem sweep — cross-referenced against the main July 15 sweep and all existing docs at corpusiq-docs/hermes/skills/.*
+*Discovered via targeted OpenClaw ecosystem sweep - cross-referenced against the main July 15 sweep and all existing docs at corpusiq-docs/hermes/skills/.*

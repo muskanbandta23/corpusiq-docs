@@ -1,6 +1,6 @@
 ---
 title: "Polyblog MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Manage multilingual articles, localization coverage, and editorial plans over MCP with OAuth — the content-ops layer for international sites.
+description: Manage multilingual articles, localization coverage, and editorial plans over MCP with OAuth - the content-ops layer for international sites.
 category: Content
 stars: n/a (new listing)
 added: 2026-08-15
@@ -11,7 +11,7 @@ tags: [multilingual-content, localization, editorial-planning, content-ops, inte
 
 # Polyblog MCP
 
-**Remote MCP server (Streamable HTTP, OAuth)** — Polyblog is a multilingual publishing platform, and its MCP server hands agents the content-ops layer: manage articles across languages, track localization coverage, and maintain editorial plans. A parallel REST API lives at api.polyblog.io for non-MCP integrations.
+**Remote MCP server (Streamable HTTP, OAuth)** - Polyblog is a multilingual publishing platform, and its MCP server hands agents the content-ops layer: manage articles across languages, track localization coverage, and maintain editorial plans. A parallel REST API lives at api.polyblog.io for non-MCP integrations.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Polyblog (polyblog.io)
 
 ## Why This Matters for Operators
 
-Running a site in ten languages usually means ten times the editorial bookkeeping — which article exists in which locale, what is still machine-only, what the human review queue looks like. Polyblog's MCP gives an agent that state directly, so a multilingual content program can be planned, tracked, and updated from inside any MCP client instead of a translation spreadsheet.
+Running a site in ten languages usually means ten times the editorial bookkeeping - which article exists in which locale, what is still machine-only, what the human review queue looks like. Polyblog's MCP gives an agent that state directly, so a multilingual content program can be planned, tracked, and updated from inside any MCP client instead of a translation spreadsheet.
 
-**The mechanism that matters is the localization-coverage view** — an agent can ask which locales are missing a given article and schedule the work, rather than discovering the gap after a reader bounces.
+**The mechanism that matters is the localization-coverage view** - an agent can ask which locales are missing a given article and schedule the work, rather than discovering the gap after a reader bounces.
 
 ## Tools & Capabilities
 
@@ -60,7 +60,7 @@ First connect opens the OAuth browser flow; the session is reused afterward.
 }
 ```
 
-Auth notes: OAuth only — no API-key mode published for the MCP endpoint.
+Auth notes: OAuth only - no API-key mode published for the MCP endpoint.
 
 ## Business Relevance
 
@@ -71,13 +71,13 @@ Auth notes: OAuth only — no API-key mode published for the MCP endpoint.
 
 ## Integration with CorpusIQ
 
-Polyblog composes with CorpusIQ's content and analytics connectors. A closed loop: GA4 and Search Console connectors identify which locales underperform, Polyblog MCP checks coverage and schedules the missing articles, and the Semrush connector verifies the international keywords actually start ranking after publication. For teams running the CorpusIQ worldwide-affiliate and localization programs, the editorial-plan tools give the agent the same calendar view the docs pipeline already maintains for llms.txt and sitemap coverage — one content-ops surface across both.
+Polyblog composes with CorpusIQ's content and analytics connectors. A closed loop: GA4 and Search Console connectors identify which locales underperform, Polyblog MCP checks coverage and schedules the missing articles, and the Semrush connector verifies the international keywords actually start ranking after publication. For teams running the CorpusIQ worldwide-affiliate and localization programs, the editorial-plan tools give the agent the same calendar view the docs pipeline already maintains for llms.txt and sitemap coverage - one content-ops surface across both.
 
 ## Limitations
 
-- Brand new MCP listing — no long track record yet
+- Brand new MCP listing - no long track record yet
 - OAuth only, so it is tied to the Polyblog platform account
-- Tool list is described by the vendor, not independently enumerated — treat the REST API at api.polyblog.io as the contract
+- Tool list is described by the vendor, not independently enumerated - treat the REST API at api.polyblog.io as the contract
 - Commercial SaaS; no self-host option published
 - Useful mainly to teams already publishing (or planning) multilingual content
 

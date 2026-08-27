@@ -1,5 +1,5 @@
 ---
-title: design-review — Setup Guide
+title: design-review - Setup Guide
 description: Designer Who Codes skill for Hermes Agent from the nexu-io/open-design repo (90K⭐). Visual UI audit with fixes, atomic commits, and before/after screenshots.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-review-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "design review", "ui audit"
 
 ---
 
-# design-review — Setup Guide
+# design-review - Setup Guide
 
 **Source:** [nexu-io/open-design](https://github.com/nexu-io/open-design) (90,117 ⭐)
 **Skill:** `design-review`

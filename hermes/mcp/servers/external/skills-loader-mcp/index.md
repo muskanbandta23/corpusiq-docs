@@ -14,7 +14,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does
 
-The knowledge layer your AI is missing. Skills Loader indexes 1,900+ security-reviewed agent skills for discovery via MCP. AI agents can browse, search, and recommend skills across categories — development, design, marketing, data analysis, DevOps, and more. Free and open, no auth required for browsing.
+The knowledge layer your AI is missing. Skills Loader indexes 1,900+ security-reviewed agent skills for discovery via MCP. AI agents can browse, search, and recommend skills across categories - development, design, marketing, data analysis, DevOps, and more. Free and open, no auth required for browsing.
 
 **Key capabilities:**
 - Discover 1,900+ security-reviewed skills from any MCP client
@@ -26,11 +26,11 @@ The knowledge layer your AI is missing. Skills Loader indexes 1,900+ security-re
 
 Directly useful for operators discovering AI agent tooling:
 - Find pre-built skills for common operational workflows (SEO audits, data analysis, competitive research)
-- Skip the GitHub search — curated, security-reviewed skills in one MCP
+- Skip the GitHub search - curated, security-reviewed skills in one MCP
 - Install skills directly from MCP without manual repo cloning
-- Free and open — no vendor lock-in
+- Free and open - no vendor lock-in
 
-**Rating:** ★★ — New (July 2026), zero GitHub stars. But 1,900+ reviewed skills makes it immediately useful. The "security-reviewed" claim is a differentiator vs raw GitHub search. Free and open with no auth gate is refreshing.
+**Rating:** ★★ - New (July 2026), zero GitHub stars. But 1,900+ reviewed skills makes it immediately useful. The "security-reviewed" claim is a differentiator vs raw GitHub search. Free and open with no auth gate is refreshing.
 
 ## Quick Integration
 
@@ -65,7 +65,7 @@ npx @agentsandswarms/skills-loader install
 
 ## Caveats
 
-- Zero GitHub stars — brand new project, verify security claims independently
+- Zero GitHub stars - brand new project, verify security claims independently
 - 1,900 skills may include many low-quality or abandoned entries
 - No install stats or community ratings visible yet
 - Core dependency on agentsandswarms.ai infrastructure

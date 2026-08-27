@@ -1,13 +1,13 @@
 ---
-title: Replicas Agent Skill — Cloud Workspace Coding Agent Setup
-description: "replicas-group/skill — replicas-agent (34.7K installs): background coding agent guide for Replicas cloud workspaces with previews, Slack, Linear, GitHub, Google Workspace, Docker, and media sharing integrations."
+title: Replicas Agent Skill - Cloud Workspace Coding Agent Setup
+description: "replicas-group/skill - replicas-agent (34.7K installs): background coding agent guide for Replicas cloud workspaces with previews, Slack, Linear, GitHub, Google Workspace, Docker, and media sharing integrations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/replicas-agent-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "cloud workspace", "coding agent"]
 ---
 
-# Replicas Agent Skill — Setup Guide
+# Replicas Agent Skill - Setup Guide
 
 **Source:** [replicas-group/skill](https://skills.sh/replicas-group/skill)
 **GitHub:** [replicas-group/skill](https://github.com/replicas-group/skill)
@@ -64,7 +64,7 @@ npx skills add replicas-group/skill --skill replicas-agent
 
 ## Limitations / Verification
 
-- Scoped to Replicas cloud workspaces — outside that environment it is a pattern reference
+- Scoped to Replicas cloud workspaces - outside that environment it is a pattern reference
 - Requires a Replicas account and workspace
 
 ```bash
@@ -74,7 +74,7 @@ npx skills add replicas-group/skill --skill replicas-agent   # verify install wo
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [VPS Server Management Setup](/hermes/skills/catalog/vps-server-management-setup/) — remote VM operations
+- [VPS Server Management Setup](/hermes/skills/catalog/vps-server-management-setup/) - remote VM operations
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

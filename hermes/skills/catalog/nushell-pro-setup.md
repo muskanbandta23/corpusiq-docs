@@ -1,6 +1,6 @@
 ---
-title: "NuShell Pro — Structured Shell Scripting Skill Setup"
-description: "Install hustcer/nushell-pro (1.1K installs) — NuShell scripting expertise for agents: structured data pipelines, custom commands, and typed shell automation."
+title: "NuShell Pro - Structured Shell Scripting Skill Setup"
+description: "Install hustcer/nushell-pro (1.1K installs) - NuShell scripting expertise for agents: structured data pipelines, custom commands, and typed shell automation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nushell-pro-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# NuShell Pro — Setup Guide
+# NuShell Pro - Setup Guide
 
 **Source:** [hustcer/nushell-pro](https://www.skills.sh/hustcer/nushell-pro) (2 skills · 1.1K combined installs)
 **Repo:** [github.com/hustcer/nushell-pro](https://github.com/hustcer/nushell-pro)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 13, 2026
 **Quality Tier:** 🟡 Community (`nushell-pro` at 1.1K installs)
 
-`nushell-pro` encodes NuShell expertise — structured data pipelines, custom command design, and typed shell automation — for agents that script system administration tasks. NuShell's data-centric model (everything is a table) maps well to agent pipelines that currently fight text-parsing in bash. `nushell-craft` is the newer, still-experimental companion.
+`nushell-pro` encodes NuShell expertise - structured data pipelines, custom command design, and typed shell automation - for agents that script system administration tasks. NuShell's data-centric model (everything is a table) maps well to agent pipelines that currently fight text-parsing in bash. `nushell-craft` is the newer, still-experimental companion.
 
 ---
 
@@ -46,7 +46,7 @@ hermes skills install hustcer/nushell-pro/nushell-pro
 | Requirement | Details |
 |---|---|
 | NuShell installed | `nushell` binary on the agent host |
-| Any agent runtime | Procedural knowledge — no API keys |
+| Any agent runtime | Procedural knowledge - no API keys |
 
 ---
 
@@ -62,7 +62,7 @@ hermes skills install hustcer/nushell-pro/nushell-pro
 
 ## Limitations / Verification
 
-- Community tier — one skill, modest install base
+- Community tier - one skill, modest install base
 - `nushell-craft` at 0 installs is untested
 - Verify install: `npx skills list | grep nushell`
 

@@ -16,14 +16,14 @@ description: "MCP server providing an **OpenAI-compatible gateway to 787+ chat, 
 
 # Routara LLM Gateway MCP Server
 
-MCP server providing an **OpenAI-compatible gateway to 787+ chat, image, and video models**. Single endpoint for multi-model access — drop it into any MCP client and route requests across providers without changing client code.
+MCP server providing an **OpenAI-compatible gateway to 787+ chat, image, and video models**. Single endpoint for multi-model access - drop it into any MCP client and route requests across providers without changing client code.
 
 ## What It Does
 
-- **Unified Model Access** — 787+ models behind one OpenAI-compatible API
-- **Automatic Routing** — Route requests based on cost, latency, or capability requirements
-- **Multi-Modal** — Chat, image generation, and video models in one gateway
-- **MCP-Native** — Designed specifically as an MCP server, not just an API proxy
+- **Unified Model Access** - 787+ models behind one OpenAI-compatible API
+- **Automatic Routing** - Route requests based on cost, latency, or capability requirements
+- **Multi-Modal** - Chat, image generation, and video models in one gateway
+- **MCP-Native** - Designed specifically as an MCP server, not just an API proxy
 
 ## Business Operator Use Cases
 
@@ -63,17 +63,17 @@ Add to your MCP client config:
 
 ## Tools Provided
 
-- `chat_completion` — OpenAI-compatible chat with model selection
-- `list_models` — Query available models with pricing and capability metadata
-- `compare_models` — Run same prompt across multiple models, compare output
-- `set_routing_policy` — Configure cost/latency/quality routing rules
+- `chat_completion` - OpenAI-compatible chat with model selection
+- `list_models` - Query available models with pricing and capability metadata
+- `compare_models` - Run same prompt across multiple models, compare output
+- `set_routing_policy` - Configure cost/latency/quality routing rules
 
 ## Limitations
 
-- **0 stars, brand new** — Created July 20, 2026. Unvetted.
-- **Routara SaaS dependency** — Requires a Routara account and API key. Adds another vendor.
-- **Pricing unknown** — No public pricing for the gateway service itself (on top of underlying model costs).
-- **Latency overhead** — Additional hop through the gateway adds latency vs direct provider access.
+- **0 stars, brand new** - Created July 20, 2026. Unvetted.
+- **Routara SaaS dependency** - Requires a Routara account and API key. Adds another vendor.
+- **Pricing unknown** - No public pricing for the gateway service itself (on top of underlying model costs).
+- **Latency overhead** - Additional hop through the gateway adds latency vs direct provider access.
 
 ## Operator Verdict
 

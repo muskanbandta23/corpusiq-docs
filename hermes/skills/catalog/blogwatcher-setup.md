@@ -1,5 +1,5 @@
 ---
-title: "Blogwatcher — RSS/Atom Feed Monitoring for Hermes"
+title: "Blogwatcher - RSS/Atom Feed Monitoring for Hermes"
 description: "Install and configure the blogwatcher-cli skill for RSS/Atom feed monitoring on Hermes Agent. Monitor blogs, news feeds, and content sources without API"
 category: catalog
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/blogwatcher-setup/"
@@ -9,9 +9,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Blogwatcher — RSS/Atom Feed Monitoring Setup Guide
+# Blogwatcher - RSS/Atom Feed Monitoring Setup Guide
 
-Monitor blogs and RSS/Atom feeds directly from your Hermes agent. The `blogwatcher` skill wraps the `blogwatcher-cli` tool, enabling automated content discovery, trend monitoring, and competitive intelligence — all without API keys or third-party services.
+Monitor blogs and RSS/Atom feeds directly from your Hermes agent. The `blogwatcher` skill wraps the `blogwatcher-cli` tool, enabling automated content discovery, trend monitoring, and competitive intelligence - all without API keys or third-party services.
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) via [skills.sh](https://www.skills.sh/nousresearch/hermes-agent/blogwatcher)
 
@@ -25,7 +25,7 @@ npx skills add nousresearch/hermes-agent --skill blogwatcher
 
 - Hermes Agent installed and running
 - Node.js 18+ (for npx)
-- No API keys required — blogwatcher-cli reads RSS/Atom feeds directly
+- No API keys required - blogwatcher-cli reads RSS/Atom feeds directly
 
 ## Configuration
 
@@ -89,5 +89,5 @@ hermes cron create \\
 | Issue | Solution |
 |-------|----------|
 | `blogwatcher: command not found` | Install via npx first: `npx skills add nousresearch/hermes-agent --skill blogwatcher` |
-| Feed returns empty | Check feed URL in browser — site may use JavaScript rendering |
+| Feed returns empty | Check feed URL in browser - site may use JavaScript rendering |
 | Feed times out | Source server may be blocking headless requests. Add `User-Agent` header |

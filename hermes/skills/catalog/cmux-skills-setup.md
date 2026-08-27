@@ -1,13 +1,13 @@
 ---
-title: CMUX Skills — Agent Terminal Multiplexer Setup
-description: "manaflow-ai/cmux — 22 skills at 76.3K installs for the cmux macOS window/workspace/pane/surface multiplexer (26.1K GitHub stars): browser panels, testing, dev workflow, backend, customization, diagnostics, and keyboard shortcuts."
+title: CMUX Skills - Agent Terminal Multiplexer Setup
+description: "manaflow-ai/cmux - 22 skills at 76.3K installs for the cmux macOS window/workspace/pane/surface multiplexer (26.1K GitHub stars): browser panels, testing, dev workflow, backend, customization, diagnostics, and keyboard shortcuts."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cmux-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "terminal", "multiplexer"]
 ---
 
-# CMUX Skills — Setup Guide
+# CMUX Skills - Setup Guide
 
 **Source:** [manaflow-ai/cmux](https://skills.sh/manaflow-ai/cmux)
 **GitHub:** [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) (26.1K stars)
@@ -76,7 +76,7 @@ npx skills add manaflow-ai/cmux --skill cmux-testing
 
 ## Limitations / Verification
 
-- macOS only — no Linux or Windows surface
+- macOS only - no Linux or Windows surface
 - Value requires running cmux itself; the skill cluster documents the tool
 
 ```bash
@@ -86,7 +86,7 @@ npx skills add manaflow-ai/cmux --skill cmux   # verify install works
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [NuShell Pro — Structured Shell Scripting Setup](/hermes/skills/catalog/nushell-pro-setup/) — shell workflows
+- [NuShell Pro - Structured Shell Scripting Setup](/hermes/skills/catalog/nushell-pro-setup/) - shell workflows
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

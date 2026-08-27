@@ -1,6 +1,6 @@
 ---
-title: "Anthropic Claude API Skills — Official Claude API"
-description: Anthropic's official Claude API skill — model IDs, pricing, streaming, tool use, MCP, caching, token counting. 52.6K installs. The definitive Claude API reference for agent development.
+title: "Anthropic Claude API Skills - Official Claude API"
+description: Anthropic's official Claude API skill - model IDs, pricing, streaming, tool use, MCP, caching, token counting. 52.6K installs. The definitive Claude API reference for agent development.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropics-claude-api-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Anthropic Claude API Skills — Setup Guide
+# Anthropic Claude API Skills - Setup Guide
 
 **Source:** [anthropics/skills](https://skills.sh/anthropics/skills) (52.6K installs)
 **GitHub:** [anthropics/skills](https://github.com/anthropics/skills) (164,242 ⭐)
 **Category:** AI / LLM Platform
 **Quality Tier:** 🟢 Production
 
-Anthropic's official skills repository — home of the Claude API reference skill. This is the authoritative source for Claude model IDs, pricing, parameters, streaming, tool use, MCP integration, prompt caching, and token counting. While the repo hosts only one skill on skills.sh, the GitHub repository (164K stars) is Anthropic's primary public skills distribution channel.
+Anthropic's official skills repository - home of the Claude API reference skill. This is the authoritative source for Claude model IDs, pricing, parameters, streaming, tool use, MCP integration, prompt caching, and token counting. While the repo hosts only one skill on skills.sh, the GitHub repository (164K stars) is Anthropic's primary public skills distribution channel.
 
 ---
 
@@ -34,14 +34,14 @@ npx skills add anthropics/skills --skill claude-api
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **claude-api** | 52.6K | Claude API / Anthropic SDK — model IDs, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration |
+| **claude-api** | 52.6K | Claude API / Anthropic SDK - model IDs, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration |
 
 ---
 
 ## 🔑 Why This Matters
 
 ### The Definitive Claude API Reference
-This skill triggers before ANY Claude/Anthropic-related work — it intercepts queries about model selection, pricing, limits, caching, and API parameters, ensuring agents use current data rather than training-cutoff knowledge. It prevents common errors like outdated model IDs, incorrect pricing assumptions, and wrong parameter combinations.
+This skill triggers before ANY Claude/Anthropic-related work - it intercepts queries about model selection, pricing, limits, caching, and API parameters, ensuring agents use current data rather than training-cutoff knowledge. It prevents common errors like outdated model IDs, incorrect pricing assumptions, and wrong parameter combinations.
 
 ### Automatic Trigger Rules
 The skill activates when:
@@ -69,13 +69,13 @@ The skill skips itself when:
 
 ## Discovery Method
 
-Publisher sweep via `npx skills find "api" --owner "anthropics"`. While `anthropics/knowledge-work-plugins` and `anthropics/claude-code` were previously catalogued (July 23-24 sweeps), the `anthropics/skills` repo itself — home of the `claude-api` skill at 52.6K installs — was not. The GitHub repository is Anthropic's primary skills distribution channel at 164K stars.
+Publisher sweep via `npx skills find "api" --owner "anthropics"`. While `anthropics/knowledge-work-plugins` and `anthropics/claude-code` were previously catalogued (July 23-24 sweeps), the `anthropics/skills` repo itself - home of the `claude-api` skill at 52.6K installs - was not. The GitHub repository is Anthropic's primary skills distribution channel at 164K stars.
 
 ---
 
 ## Notes
 
-- **164K GitHub stars** make this the most-starred skills repository documented — surpassing Google Skills (15K), HashiCorp (759), and Cloudflare (2.5K) combined
-- The single `claude-api` skill at 52.6K installs on skills.sh undercounts the repo's actual impact — most users interact through GitHub directly
-- This skill should be loaded as a reference skill rather than an active workflow — it's a knowledge base, not a task executor
-- Critical for Hermes agents that use Claude as a backend model — ensures correct API usage, cost estimation, and feature availability
+- **164K GitHub stars** make this the most-starred skills repository documented - surpassing Google Skills (15K), HashiCorp (759), and Cloudflare (2.5K) combined
+- The single `claude-api` skill at 52.6K installs on skills.sh undercounts the repo's actual impact - most users interact through GitHub directly
+- This skill should be loaded as a reference skill rather than an active workflow - it's a knowledge base, not a task executor
+- Critical for Hermes agents that use Claude as a backend model - ensures correct API usage, cost estimation, and feature availability

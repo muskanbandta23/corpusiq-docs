@@ -1,6 +1,6 @@
 ---
-title: MCP Server Sweep — July 24, 2026 (Cron Run 2)
-description: "MCP Server Sweep — July 24, 2026 (Cron Run 2). All 3 new servers have integration guides at `servers/external/`:. Setup and usage guide for CorpusIQ users.."
+title: MCP Server Sweep - July 24, 2026 (Cron Run 2)
+description: "MCP Server Sweep - July 24, 2026 (Cron Run 2). All 3 new servers have integration guides at `servers/external/`:. Setup and usage guide for CorpusIQ users.."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july24-2026-cron-2/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Sweep — July 24, 2026 (Cron Run 2)
+# MCP Server Sweep - July 24, 2026 (Cron Run 2)
 
 **Sweep time:** 2026-07-25T00:00 UTC (cron)
 **Sources checked:** mcp.so, mcpservers.org
@@ -40,7 +40,7 @@ All 3 new servers have integration guides at `servers/external/`:
 
 - **mcp.so**: PLUR, Charming, and Gainium appeared in the "New arrivals" section on the mcp.so homepage. These were published today (July 24) and were not captured by the earlier 18:00 UTC sweep which focused on Groundwork MCP.
 - **mcpservers.org**: No new servers detected in the "newest" listing that aren't already catalogued. Sitemap analysis shows ~30 servers with July 24 timestamps across 6 sitemaps, but most are low-star community projects. Notable sitemap entries (Apify MCP, Reddit Devvit MCP) still pending Firecrawl verification for guide quality.
-- **Scraping method**: Used Playwright (headless Chromium) to scrape mcp.so homepage "New arrivals" section after Firecrawl API key was unavailable. mcpservers.org checked via sitemap XML (no JSON API available — SPA).
+- **Scraping method**: Used Playwright (headless Chromium) to scrape mcp.so homepage "New arrivals" section after Firecrawl API key was unavailable. mcpservers.org checked via sitemap XML (no JSON API available - SPA).
 - **Firecrawl status**: Still not configured on this Hermes instance. Web tool calls fail with "FIRECRAWL_API_KEY not set" error.
 
 ## Catalog Stats
@@ -51,7 +51,7 @@ All 3 new servers have integration guides at `servers/external/`:
 
 ## Pending
 
-- 27+ mcpservers.org servers from July 23 scan-results still without guides — pending Firecrawl restoration or Mac Mini Playwright scraping
-- Apify MCP Server (mcpservers.org, Jul 24) — needs verification
-- Reddit Devvit MCP (mcpservers.org, Jul 24) — needs verification
-- Video Editing MCP (mcpservers.org, Jul 24) — needs verification
+- 27+ mcpservers.org servers from July 23 scan-results still without guides - pending Firecrawl restoration or Mac Mini Playwright scraping
+- Apify MCP Server (mcpservers.org, Jul 24) - needs verification
+- Reddit Devvit MCP (mcpservers.org, Jul 24) - needs verification
+- Video Editing MCP (mcpservers.org, Jul 24) - needs verification

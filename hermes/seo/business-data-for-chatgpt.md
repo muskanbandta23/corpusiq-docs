@@ -63,7 +63,7 @@ When evaluating ways to connect business data to ChatGPT, look for:
 
 **Per-source authentication**: Each tool should authenticate independently. Shopify via your Shopify login. QuickBooks via your Intuit login. No shared credentials.
 
-**Source citations**: Every number should trace back to its origin. "Revenue: $142K — Shopify $89K, Stripe $38K, QuickBooks $15K." Without citations, you are still guessing.
+**Source citations**: Every number should trace back to its origin. "Revenue: $142K - Shopify $89K, Stripe $38K, QuickBooks $15K." Without citations, you are still guessing.
 
 **Cross-AI compatibility**: The same connection should work with Claude, Perplexity, and other AIs. You should get the same answer regardless of which AI you use.
 

@@ -1,5 +1,5 @@
 ---
-title: "Correctover MCP Server — Contract Validation & LLM API"
+title: "Correctover MCP Server - Contract Validation & LLM API"
 description: "Integration guide for Correctover/mcp-server: 6-dimension contract validation, self-healing LLM API failover with 87 rules across 9 providers. 22μs P50"
 category: legal
 tags: [mcp, contract-validation, llm-api, failover, self-healing, api-gateway]
@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ---
 
-# Correctover MCP Server — Contract Validation & API Failover
+# Correctover MCP Server - Contract Validation & API Failover
 
 **Repo:** [Correctover/mcp-server](https://github.com/Correctover/mcp-server)
 **Install:** `npx -y correctover-mcp-server`
@@ -23,16 +23,16 @@ robots: "index,follow"
 ## Overview
 
 Correctover provides two critical capabilities for business operators who rely on AI:
-1. **Contract validation** — 6-dimension verification (structure, schema, latency, cost, identity, integrity) at 22μs P50
-2. **Self-healing LLM API failover** — 87 self-healing rules with MAPE-K autonomic loop across 9 LLM providers
+1. **Contract validation** - 6-dimension verification (structure, schema, latency, cost, identity, integrity) at 22μs P50
+2. **Self-healing LLM API failover** - 87 self-healing rules with MAPE-K autonomic loop across 9 LLM providers
 
-For operators running AI agents in production, this means contracts are validated before execution and LLM API calls automatically fail over when a provider goes down — no manual intervention needed.
+For operators running AI agents in production, this means contracts are validated before execution and LLM API calls automatically fail over when a provider goes down - no manual intervention needed.
 
 ## Why Business Operators Need This
 
-1. **Contract Risk Mitigation** — Before your agent signs or executes any contract, Correctover validates it across 6 dimensions. Catches errors, missing clauses, and structural issues in microseconds.
-2. **API Reliability** — If your primary LLM provider (OpenAI, Anthropic, etc.) has an outage, Correctover automatically fails over to an alternative provider in under 1 second (949ms E2E). Your agents keep running.
-3. **Cost Control** — The cost dimension validation ensures you're not overpaying for API calls. BYOK (Bring Your Own Key) to 9 providers for direct, transparent pricing.
+1. **Contract Risk Mitigation** - Before your agent signs or executes any contract, Correctover validates it across 6 dimensions. Catches errors, missing clauses, and structural issues in microseconds.
+2. **API Reliability** - If your primary LLM provider (OpenAI, Anthropic, etc.) has an outage, Correctover automatically fails over to an alternative provider in under 1 second (949ms E2E). Your agents keep running.
+3. **Cost Control** - The cost dimension validation ensures you're not overpaying for API calls. BYOK (Bring Your Own Key) to 9 providers for direct, transparent pricing.
 
 ## Installation
 
@@ -100,15 +100,15 @@ For operators running AI agents in production, this means contracts are validate
 
 ## Best Practices
 
-1. **Always validate contracts before execution** — 22μs is faster than human review by 6 orders of magnitude
-2. **Configure failover chains** — Set up L1 (OpenAI/Anthropic) → L2 (DeepSeek/Moonshot) → L3 (Groq/Together) for maximum reliability
-3. **Monitor the health dashboard** — Check provider health before starting long agent workflows
-4. **Use cost_estimate proactively** — Compare provider pricing weekly; prices change frequently
-5. **BYOK for each provider** — Direct API keys give you the best pricing and avoid middleware markups
+1. **Always validate contracts before execution** - 22μs is faster than human review by 6 orders of magnitude
+2. **Configure failover chains** - Set up L1 (OpenAI/Anthropic) → L2 (DeepSeek/Moonshot) → L3 (Groq/Together) for maximum reliability
+3. **Monitor the health dashboard** - Check provider health before starting long agent workflows
+4. **Use cost_estimate proactively** - Compare provider pricing weekly; prices change frequently
+5. **BYOK for each provider** - Direct API keys give you the best pricing and avoid middleware markups
 
 ## Limitations
 
-- New server (June 2026) — production track record still developing
+- New server (June 2026) - production track record still developing
 - Contract validation focused on structure and schema, not legal advice (use a lawyer for legal review)
 - Failover latency (949ms) may be noticeable in real-time chat applications
 - Requires API keys for each provider you want to fail over to

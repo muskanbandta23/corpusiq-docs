@@ -1,6 +1,6 @@
 ---
-title: Letta Code — 24-Skill Stateful Agent Harness Setup Guide
-description: Install and configure Letta Code's 24-skill agent harness for Hermes — persistent memory, MCP-to-skills conversion, self-improving agents, multi-agent orchestration. Built on MemGPT research.
+title: Letta Code - 24-Skill Stateful Agent Harness Setup Guide
+description: Install and configure Letta Code's 24-skill agent harness for Hermes - persistent memory, MCP-to-skills conversion, self-improving agents, multi-agent orchestration. Built on MemGPT research.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/letta-ai-agent-harness-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Letta Code — Setup Guide
+# Letta Code - Setup Guide
 
 **Source:** [letta-ai/letta-code](https://skills.sh/letta-ai/letta-code) · [GitHub](https://github.com/letta-ai/letta-code)
 **Category:** Agent Infrastructure / Memory Systems
@@ -25,18 +25,18 @@ Letta Code is a stateful agent harness where agents have persistent memory, iden
 | Skill | Description |
 |---|---|
 | **initializing-memory** | Set up agent memory blocks, identity traits, and personality configuration |
-| **syncing-memory-filesystem** | Git-backed memory persistence (MemFS) — sync agent memory across machines |
+| **syncing-memory-filesystem** | Git-backed memory persistence (MemFS) - sync agent memory across machines |
 | **migrating-memory** | Migrate agent memory between runtimes, formats, and versions |
-| **defragmenting-memory** | Optimize and compact agent memory over time — reduce context bloat |
+| **defragmenting-memory** | Optimize and compact agent memory over time - reduce context bloat |
 | **searching-messages** | Full-text search across all agent conversations and memory blocks |
-| **Context Doctor** | Audit and repair agent context quality — detect contradictions, staleness |
+| **Context Doctor** | Audit and repair agent context quality - detect contradictions, staleness |
 
 ### Skills & MCP Integration (3 skills)
 
 | Skill | Description |
 |---|---|
 | **acquiring-skills** | Discover and install skills from Hermes, ClawHub, GitHub, and registries |
-| **creating-skills** | Author new skills programmatically — the agent writes its own capabilities |
+| **creating-skills** | Author new skills programmatically - the agent writes its own capabilities |
 | **converting-mcps-to-skills** | Convert MCP servers into portable, runtime-agnostic agent skills |
 
 ### Multi-Agent Orchestration (3 skills)
@@ -68,7 +68,7 @@ Letta Code is a stateful agent harness where agents have persistent memory, iden
 | **customizing-commands** | Add custom slash commands to extend the agent harness CLI |
 | **customizing-statusline** | Customize the terminal status line display for agent sessions |
 | **creating-extensions** | Build harness extensions and plugins for custom behavior |
-| **modifying-the-harness** | Modify the agent harness itself — agents rewrite their own runtime |
+| **modifying-the-harness** | Modify the agent harness itself - agents rewrite their own runtime |
 
 ### Channels, Hooks & Security (4 skills)
 
@@ -221,10 +221,10 @@ letta /doctor
 
 Letta Code represents the cutting edge of stateful agent architecture. For Hermes specifically:
 
-- **Memory patterns** — MemFS (git-backed memory) and defragmentation are patterns Hermes can adopt
-- **MCP bridge** — The MCP-to-skills conversion pipeline creates ecosystem interoperability
-- **Self-improvement** — Agents that rewrite their own code open new automation frontiers
-- **Skill ecosystem** — `acquiring-skills` installs from Hermes, creating a bidirectional marketplace
+- **Memory patterns** - MemFS (git-backed memory) and defragmentation are patterns Hermes can adopt
+- **MCP bridge** - The MCP-to-skills conversion pipeline creates ecosystem interoperability
+- **Self-improvement** - Agents that rewrite their own code open new automation frontiers
+- **Skill ecosystem** - `acquiring-skills` installs from Hermes, creating a bidirectional marketplace
 
 ---
 

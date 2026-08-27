@@ -1,6 +1,6 @@
 ---
-title: "Caveman Skills — Agent Coding Workflow Suite Setup"
-description: "Install juliusbrussee/caveman (2.2M combined installs) — 23 skills for caveman-style agent coding: commits, reviews, context compression, stats, multi-agent crews, and evidence-driven fixes."
+title: "Caveman Skills - Agent Coding Workflow Suite Setup"
+description: "Install juliusbrussee/caveman (2.2M combined installs) - 23 skills for caveman-style agent coding: commits, reviews, context compression, stats, multi-agent crews, and evidence-driven fixes."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/caveman-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Caveman Skills — Setup Guide
+# Caveman Skills - Setup Guide
 
 **Source:** [juliusbrussee/caveman](https://www.skills.sh/juliusbrussee/caveman) (2.2M combined installs)
 **GitHub:** [github.com/juliusbrussee/caveman](https://github.com/juliusbrussee/caveman)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 12, 2026
 **Quality Tier:** 🟢 Production (seven skills above 250K installs)
 
-Caveman is a blunt-instrument agent coding workflow: keep it simple, commit everything, compress the context, review with evidence. The flagship `caveman` skill alone has 431K installs, backed by a full toolchain — `caveman-commit`, `caveman-review`, `caveman-compress`, `caveman-stats`, and the multi-agent `cavecrew`.
+Caveman is a blunt-instrument agent coding workflow: keep it simple, commit everything, compress the context, review with evidence. The flagship `caveman` skill alone has 431K installs, backed by a full toolchain - `caveman-commit`, `caveman-review`, `caveman-compress`, `caveman-stats`, and the multi-agent `cavecrew`.
 
 ---
 
@@ -39,7 +39,7 @@ npx skills add juliusbrussee/caveman --skill caveman-compress
 
 | Skill | Installs | Use For |
 |---|---|---|
-| `caveman` | 431.1K | Main workflow — simple, direct coding loops |
+| `caveman` | 431.1K | Main workflow - simple, direct coding loops |
 | `caveman-commit` | 303.1K | Disciplined commit cadence |
 | `caveman-review` | 301.0K | Evidence-based code review |
 | `caveman-compress` | 298.8K | Context compression between steps |
@@ -75,7 +75,7 @@ Smaller but useful additions: `caveman-explore`, `caveman-optimize`, `investigat
 
 ## Limitations / Verification
 
-- Opinionated workflow — best adopted whole, not piecemeal
+- Opinionated workflow - best adopted whole, not piecemeal
 - Verify install: `npx skills list | grep caveman` shows installed entries
 - `caveman-es` / `caveman-cn` are localizations of the core skill
 

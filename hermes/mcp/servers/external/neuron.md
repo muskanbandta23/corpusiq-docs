@@ -1,6 +1,6 @@
 ---
 title: "Neuron MCP Server - CorpusIQ Docs"
-description: "Neuron MCP server integration guide for Hermes. Connect autonomous AI agents to enterprise data sources through the Neuron protocol — reference setup"
+description: "Neuron MCP server integration guide for Hermes. Connect autonomous AI agents to enterprise data sources through the Neuron protocol - reference setup"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/neuron/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Neuron — WhatsApp MCP Integration Guide
+# Neuron - WhatsApp MCP Integration Guide
 
 ## Overview
 Neuron provides 120+ MCP tools for WhatsApp automation: AI chatbots, broadcast campaigns, contact management, knowledge bases, and newsletters. First MCP-native WhatsApp marketing platform.
@@ -86,7 +86,7 @@ WhatsApp has 2B+ users and is the #1 business messaging platform in:
 - **Southeast Asia** (Indonesia, Philippines)
 - **Africa** (Nigeria, South Africa, Kenya)
 
-If you do business in these markets, WhatsApp is not optional — it's where your customers are. Neuron brings WhatsApp automation into your AI agent workflow for the first time.
+If you do business in these markets, WhatsApp is not optional - it's where your customers are. Neuron brings WhatsApp automation into your AI agent workflow for the first time.
 
 ## Pricing
 Check neuron.ng for current pricing. Platform typically offers tiered plans based on message volume and feature set.
@@ -97,8 +97,8 @@ Check neuron.ng for current pricing. Platform typically offers tiered plans base
 - **Custom webhook bots**: Build your own, but lose the 120+ pre-built tools
 
 ## Security Notes
-- API keys provide full account access — store securely
-- WhatsApp has strict anti-spam policies — use broadcasts responsibly
+- API keys provide full account access - store securely
+- WhatsApp has strict anti-spam policies - use broadcasts responsibly
 - Consider read-only mode for initial testing
 - Review Neuron's data handling and privacy policy before connecting production data
 

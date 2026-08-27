@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Supplement — July 14, 2026 (Evening)"
+title: "MCP Server Scan Supplement - July 14, 2026 (Evening)"
 description: "Supplemental scan from mcpservers.org (newly accessible) + mcp.so re-scan. 10 additional servers found, 3 business-relevant guides created."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Scan Supplement — July 14, 2026 (Evening)
+# MCP Server Scan Supplement - July 14, 2026 (Evening)
 
 **Sources:** mcpservers.org (JSON payload accessible with browser UA) + mcp.so re-scan
 **Date:** July 14, 2026 (evening)
-**Previous scan:** July 14, 2026 (morning — 16 servers found)
+**Previous scan:** July 14, 2026 (morning - 16 servers found)
 **GitHub API:** Direct repo queries working; search endpoint still rate-limited
 
 ## Methodology
@@ -46,8 +46,8 @@ The morning July 14 scan reported mcpservers.org as "Unavailable (SolidJS SPA, n
 
 | Server | Source | Reason |
 |--------|--------|--------|
-| **GovAuctions** | mcpservers.org | Government surplus auctions — too narrow for business operators (already skipped in morning scan) |
-| **payperlabs** | mcp.so | No description available — cannot evaluate |
+| **GovAuctions** | mcpservers.org | Government surplus auctions - too narrow for business operators (already skipped in morning scan) |
+| **payperlabs** | mcp.so | No description available - cannot evaluate |
 
 ## Previously Covered (Morning Scan)
 
@@ -55,10 +55,10 @@ These servers from the morning scan map to the supplement finds:
 
 | Morning Scan Name | Supplement Find | Relationship |
 |-------------------|-----------------|--------------|
-| SaaS & AI Pricing API | ComparEdge Pricing | Same server — morning scan documented as saas-pricing-mcp.md |
-| Writing Style Checker (WSC) | WSC (mcp.so) | Same server — morning scan indexed it |
-| Microphone & Speech-to-Text MCP | Listen (mcp.so) | Same server — morning scan indexed it |
-| Government Surplus Auction Data | GovAuctions | Same server — morning scan skipped it |
+| SaaS & AI Pricing API | ComparEdge Pricing | Same server - morning scan documented as saas-pricing-mcp.md |
+| Writing Style Checker (WSC) | WSC (mcp.so) | Same server - morning scan indexed it |
+| Microphone & Speech-to-Text MCP | Listen (mcp.so) | Same server - morning scan indexed it |
+| Government Surplus Auction Data | GovAuctions | Same server - morning scan skipped it |
 
 ## New Discovery Channel: mcpservers.org
 
@@ -75,9 +75,9 @@ mcpservers.org lists 9,800+ servers vs mcp.so's ~500. The `latest` array provide
 ## Trends (Supplemental)
 
 1. **SEO tools enter MCP:** Google Search Console MCP is the first dedicated SEO analytics MCP server. This signals MCP expansion beyond developer tools into marketing operations.
-2. **AI cost management category forming:** ComparEdge now has 3 MCP servers (Pricing, LLM Cost, Price Watch) — a suite approach to AI spend intelligence. Watch for this becoming a standalone category.
+2. **AI cost management category forming:** ComparEdge now has 3 MCP servers (Pricing, LLM Cost, Price Watch) - a suite approach to AI spend intelligence. Watch for this becoming a standalone category.
 3. **Professional tool integration:** Scrivener MCP (33★) shows demand for bridging established professional tools (not just developer tools) to AI agents.
-4. **Prediction markets via MCP:** Dino Markets brings Kalshi/Polymarket data to MCP — first prediction market connector.
+4. **Prediction markets via MCP:** Dino Markets brings Kalshi/Polymarket data to MCP - first prediction market connector.
 
 ## Actions Taken
 

@@ -1,5 +1,5 @@
 ---
-title: "Substack Publisher MCP — Content Analytics for AI Agents"
+title: "Substack Publisher MCP - Content Analytics for AI Agents"
 description: "Query Substack posts, engagement analytics, subscriber counts, and publications through the official Publisher API from any MCP client."
 category: mcp
 tags: [mcp-server, substack, content-marketing, analytics, publishing]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Substack Publisher MCP Server ★ New (July 12)
 
-Queries Substack posts, engagement analytics, subscriber counts, and publications through the official Substack Publisher API. Gives AI agents direct access to newsletter performance data — open rates, click-through, subscriber growth, and post-level engagement.
+Queries Substack posts, engagement analytics, subscriber counts, and publications through the official Substack Publisher API. Gives AI agents direct access to newsletter performance data - open rates, click-through, subscriber growth, and post-level engagement.
 
 **Source:** mcp.so (submitted July 12, 2026)
 
@@ -60,7 +60,7 @@ npx @substack/mcp-server
 1. **Newsletter performance review:** "Compare my last 5 posts by open rate and show which topics performed best"
 2. **Content-audience correlation:** "Show subscriber growth trend vs revenue from the same period"
 3. **Content calendar intelligence:** "Which day of week has highest engagement for my publication?"
-4. **Churn analysis:** "Which posts had the highest unsubscribe rate — what patterns do they share?"
+4. **Churn analysis:** "Which posts had the highest unsubscribe rate - what patterns do they share?"
 
 ## Limitations
 
@@ -71,5 +71,5 @@ npx @substack/mcp-server
 
 ## See Also
 
-- [CrustAPI MCP](/hermes/mcp/servers/external/crustapi-mcp/) — Live Google Search for agent research
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) — Real-time financial news data
+- [CrustAPI MCP](/hermes/mcp/servers/external/crustapi-mcp/) - Live Google Search for agent research
+- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) - Real-time financial news data

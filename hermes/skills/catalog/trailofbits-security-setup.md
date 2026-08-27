@@ -1,6 +1,6 @@
 ---
-title: trailofbits/skills — Full Setup Guide for Hermes Agents
-description: Install and configure Trail of Bits security skills — 78 plugins for code auditing, vulnerability scanning, fuzzing, static analysis, and smart contract security. 243K installs.
+title: trailofbits/skills - Full Setup Guide for Hermes Agents
+description: Install and configure Trail of Bits security skills - 78 plugins for code auditing, vulnerability scanning, fuzzing, static analysis, and smart contract security. 243K installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-security-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# trailofbits/skills — Setup Guide
+# trailofbits/skills - Setup Guide
 
 **Source:** [trailofbits/skills](https://skills.sh/trailofbits/skills) (242.7K total installs)
 **Category:** Security / Code Auditing
@@ -107,9 +107,9 @@ npx skills add trailofbits/skills
 | Issue | Fix |
 |---|---|
 | **Plugin marketplace not found** | Upgrade Claude Code: `npm update -g @anthropic-ai/claude-code` |
-| **SARIF parsing fails** | Verify SARIF v2.1.0 format — older versions not supported |
+| **SARIF parsing fails** | Verify SARIF v2.1.0 format - older versions not supported |
 | **CodeQL database missing** | Run `codeql database create` before analysis |
-| **Semgrep rules not triggering** | Check rule language matches target — use `semgrep-rule-variant-creator` to port |
+| **Semgrep rules not triggering** | Check rule language matches target - use `semgrep-rule-variant-creator` to port |
 
 ## Verification
 

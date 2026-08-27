@@ -1,5 +1,5 @@
 ---
-title: "July 1, 2026 — Official Hermes Gap Sweep"
+title: "July 1, 2026 - Official Hermes Gap Sweep"
 description: "New Hermes skills discovered July 1, 2026: 11 official Hermes Agent skills, 23 Hermes ecosystem skills, 15 ClawSec security skills. First discovery of these"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july1-2026/"
 robots: "index,follow"
@@ -8,36 +8,36 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 July 1, 2026 — 49 New Hermes Skills Discovered
+# 🆕 July 1, 2026 - 49 New Hermes Skills Discovered
 
 **Date:** July 1, 2026
 **New Skills:** 49 | **Sources:** 3 repos
 
-Comprehensive gap sweep of skills.sh comparing the official `nousresearch/hermes-agent` repo against our catalog. Found 11 core Hermes utility skills that were previously undocumented — utilities that have been available but overlooked in prior sweeps. Also discovered 23 new skills from `aradotso/hermes-skills` (Hermes ecosystem expansion) and 15 from `prompt-security/clawsec` (agent security suite).
+Comprehensive gap sweep of skills.sh comparing the official `nousresearch/hermes-agent` repo against our catalog. Found 11 core Hermes utility skills that were previously undocumented - utilities that have been available but overlooked in prior sweeps. Also discovered 23 new skills from `aradotso/hermes-skills` (Hermes ecosystem expansion) and 15 from `prompt-security/clawsec` (agent security suite).
 
 ---
 
 ## New Skills at a Glance
 
-### Official Hermes Agent (11 skills — nousresearch/hermes-agent)
+### Official Hermes Agent (11 skills - nousresearch/hermes-agent)
 
 | # | Skill | Description |
 |---|-------|-------------|
 | 1 | **blogwatcher** | Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool |
 | 2 | **cloudflare-temporary-deploy** | Deploy Workers live with `wrangler --temporary` (no account needed) |
 | 3 | **codex** | Delegate coding tasks to OpenAI Codex CLI (features, PRs) |
-| 4 | **computer-use** | Drive the user's desktop in the background — clicking, typing |
+| 4 | **computer-use** | Drive the user's desktop in the background - clicking, typing |
 | 5 | **creative-ideation** | Generate ideas via named methods from creative practice |
 | 6 | **here.now** | Publish static sites to `{slug}.here.now` and store files for agent-to-agent handoff |
 | 7 | **himalaya** | IMAP/SMTP email from terminal via Himalaya CLI |
 | 8 | **honcho** | Cross-session user modeling, multi-profile peer isolation, dialectic reasoning |
 | 9 | **petdex** | Install and select animated petdex mascots for Hermes |
-| 10 | **research-paper-writing** | Write ML papers for NeurIPS/ICML/ICLR — design through submit |
+| 10 | **research-paper-writing** | Write ML papers for NeurIPS/ICML/ICLR - design through submit |
 | 11 | **yuanbao** | Yuanbao (元宝) groups: @mention users, query info/members |
 
 ---
 
-### Hermes Ecosystem (23 skills — aradotso/hermes-skills)
+### Hermes Ecosystem (23 skills - aradotso/hermes-skills)
 
 These are community-contributed skills from the dedicated Hermes Agent skills repository.
 
@@ -46,7 +46,7 @@ These are community-contributed skills from the dedicated Hermes Agent skills re
 | # | Skill | Description |
 |---|-------|-------------|
 | 1 | **hermes-agent-control-room** | Centralized control room for managing Hermes agent operations |
-| 2 | **hermes-agent-framework** | Hermes Agent framework — architecture and conventions |
+| 2 | **hermes-agent-framework** | Hermes Agent framework - architecture and conventions |
 | 3 | **hermes-agent-guide** | Comprehensive guide for setting up and using Hermes Agent |
 | 4 | **hermes-agent-mission-control** | Mission control dashboard for monitoring active agents |
 | 5 | **hermes-agent-architecture** | Architecture patterns and system design for Hermes deployments |
@@ -71,7 +71,7 @@ These are community-contributed skills from the dedicated Hermes Agent skills re
 |---|-------|-------------|
 | 15 | **hermes-ide-terminal** | IDE-integrated terminal for Hermes agent interaction |
 | 16 | **hermes-kanban-obsidian-integration** | Obsidian-based kanban board for agent task management |
-| 17 | **hermes-paperclip-adapter** | Paperclip adapter — connects Hermes to external tools |
+| 17 | **hermes-paperclip-adapter** | Paperclip adapter - connects Hermes to external tools |
 | 18 | **hermes-feishu-streaming-card** | Feishu/Lark streaming card integration for real-time updates |
 | 19 | **deepseek-openclaw-config-generator** | Auto-generate OpenClaw configs from DeepSeek model specs |
 | 20 | **deepseek-openclaw-integration** | DeepSeek model integration for OpenClaw agents |
@@ -86,13 +86,13 @@ These are community-contributed skills from the dedicated Hermes Agent skills re
 
 ---
 
-### ClawSec Security Suite (15 skills — prompt-security/clawsec)
+### ClawSec Security Suite (15 skills - prompt-security/clawsec)
 
 Comprehensive security toolkit for the OpenClaw/Clawbot agent ecosystem. Many skills are directly applicable to Hermes agent security.
 
 | # | Skill | Description |
 |---|-------|-------------|
-| 1 | **clawsec-suite** | Umbrella security suite — vulnerability scanning and posture assessment |
+| 1 | **clawsec-suite** | Umbrella security suite - vulnerability scanning and posture assessment |
 | 2 | **soul-guardian** | Guards agent personality against prompt injection and identity drift |
 | 3 | **clawsec-clawhub-checker** | Security checks for ClawHub package submissions |
 | 4 | **clawsec-feed** | Security intelligence feed for agent threats |
@@ -117,20 +117,20 @@ Comprehensive security toolkit for the OpenClaw/Clawbot agent ecosystem. Many sk
 These 11 skills from the official `nousresearch/hermes-agent` repo fill important gaps in our catalog. They cover email (himalaya), content monitoring (blogwatcher), deployment (cloudflare-temporary-deploy), coding delegation (codex), desktop automation (computer-use), creative tools (creative-ideation), publishing (here.now), memory (honcho), personalization (petdex), academic writing (research-paper-writing), and Chinese platform integration (yuanbao).
 
 **Key finds:**
-- **honcho** — Cross-session memory is the backbone of persistent agent identity. This skill was inexplicably missing from the catalog.
-- **blogwatcher** — RSS/Atom feed monitoring enables automated content discovery without API keys.
-- **himalaya** — Terminal-based email is essential for headless agent email operations.
-- **petdex** — Animated mascots add personality to the agent experience.
+- **honcho** - Cross-session memory is the backbone of persistent agent identity. This skill was inexplicably missing from the catalog.
+- **blogwatcher** - RSS/Atom feed monitoring enables automated content discovery without API keys.
+- **himalaya** - Terminal-based email is essential for headless agent email operations.
+- **petdex** - Animated mascots add personality to the agent experience.
 
 ### Hermes Ecosystem (23 skills)
 
 The `aradotso/hermes-skills` repo is a dedicated community hub for Hermes Agent extensions. These 23 skills span agent infrastructure (control room, mission control, self-evolution), desktop interfaces (macOS native client, HUD UI), integrations (Obsidian kanban, Feishu streaming), and education (ecosystem maps, edu skills).
 
 **Key finds:**
-- **hermes-agent-self-evolution** — Autonomous improvement patterns for Hermes agents
-- **hermes-labyrinth-observability** — Production-grade monitoring for agent deployments
-- **hermes-desktop-os1-native-macos-client** — Full native macOS Hermes experience
-- **deepseek-openclaw-integration** — Integration for DeepSeek models with agent operations
+- **hermes-agent-self-evolution** - Autonomous improvement patterns for Hermes agents
+- **hermes-labyrinth-observability** - Production-grade monitoring for agent deployments
+- **hermes-desktop-os1-native-macos-client** - Full native macOS Hermes experience
+- **deepseek-openclaw-integration** - Integration for DeepSeek models with agent operations
 
 ### Security (15 ClawSec skills)
 

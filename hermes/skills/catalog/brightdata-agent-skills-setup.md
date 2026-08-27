@@ -1,22 +1,22 @@
 ---
-title: "Bright Data Agent Skills — Web Scraping & Research Setup"
-description: "brightdata/skills — 22 skills, 26.9K installs: web scraping, search, SEO audit, competitive intelligence, and brand listening from the Bright Data team."
+title: "Bright Data Agent Skills - Web Scraping & Research Setup"
+description: "brightdata/skills - 22 skills, 26.9K installs: web scraping, search, SEO audit, competitive intelligence, and brand listening from the Bright Data team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/brightdata-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "web scraping", "research", "seo"]
 ---
 
-# Bright Data Agent Skills — Setup Guide
+# Bright Data Agent Skills - Setup Guide
 
 **Source:** [brightdata/skills](https://skills.sh/brightdata/skills)
 **GitHub:** [brightdata/skills](https://github.com/brightdata/skills)
 **Skills:** 22 skills · 26.9K total installs
 **Category:** Web Scraping & Research
 **First Seen:** catalogued August 15, 2026 evening sweep
-**Quality Tier:** 🟢 Production (official org — Bright Data, the web data platform vendor)
+**Quality Tier:** 🟢 Production (official org - Bright Data, the web data platform vendor)
 
-Bright Data's official agent skills cover the full web-data lifecycle: scraping, search, SEO audits, competitive intelligence, brand listening, price comparison, data feeds, and a scraping browser debugger — the operational layer for agent-driven web research. Carried in the sweep queue for weeks; drafted now on publisher-page verification of 26.9K installs across 22 skills.
+Bright Data's official agent skills cover the full web-data lifecycle: scraping, search, SEO audits, competitive intelligence, brand listening, price comparison, data feeds, and a scraping browser debugger - the operational layer for agent-driven web research. Carried in the sweep queue for weeks; drafted now on publisher-page verification of 26.9K installs across 22 skills.
 
 ---
 
@@ -63,7 +63,7 @@ npx skills add brightdata/skills
 ## Quick Start
 
 1. Install: `npx skills add brightdata/skills`
-2. Start with `scrape` and `search` — the highest-install pair
+2. Start with `scrape` and `search` - the highest-install pair
 3. Ask: "scrape this site and run a competitive intelligence pass on the pricing table"
 
 ## CorpusIQ Use Cases
@@ -79,7 +79,7 @@ npx skills add brightdata/skills
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
 - Most skills require a paid Bright Data account with proxy allocation
-- Scraping must respect robots.txt and site terms — the skills do not override that
+- Scraping must respect robots.txt and site terms - the skills do not override that
 
 ```bash
 npx skills add brightdata/skills   # verify install works

@@ -1,6 +1,6 @@
 ---
-title: "HeartMuLa — Skill Setup Guide - CorpusIQ Docs"
-description: Install and configure heartmula, the Hermes Agent skill for open-source AI music generation with HeartMuLa models — Apache 2.0 licensed, Suno alternative — 224 installs.
+title: "HeartMuLa - Skill Setup Guide - CorpusIQ Docs"
+description: Install and configure heartmula, the Hermes Agent skill for open-source AI music generation with HeartMuLa models - Apache 2.0 licensed, Suno alternative - 224 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/heartmula-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# HeartMuLa — Open-Source Music Generation Setup Guide
+# HeartMuLa - Open-Source Music Generation Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/heartmula) (224 installs)
 **Category:** Creative / AI Music
 **License:** Apache 2.0 · **Platforms:** Linux (CUDA recommended)
 **Dependencies:** Python 3.10+, CUDA GPU (recommended), 16GB+ RAM
 
-Generate full songs from lyrics and tags using the HeartMuLa family of open-source music foundation models. Apache 2.0 licensed — no API keys, no rate limits, no censorship. Four models work together: HeartMuLa (music generation), HeartCodec (audio codec), HeartTranscriptor (lyrics), and HeartCLAP (audio-text alignment).
+Generate full songs from lyrics and tags using the HeartMuLa family of open-source music foundation models. Apache 2.0 licensed - no API keys, no rate limits, no censorship. Four models work together: HeartMuLa (music generation), HeartCodec (audio codec), HeartTranscriptor (lyrics), and HeartCLAP (audio-text alignment).
 
 ---
 
@@ -23,7 +23,7 @@ Generate full songs from lyrics and tags using the HeartMuLa family of open-sour
 
 | Model | Role | Size |
 |-------|------|------|
-| **HeartMuLa** | Music language model — generates from lyrics + tags | 3B/7B params |
+| **HeartMuLa** | Music language model - generates from lyrics + tags | 3B/7B params |
 | **HeartCodec** | 12.5Hz music codec for high-fidelity audio reconstruction | ~300M |
 | **HeartTranscriptor** | Whisper-based lyrics transcription | ~1.5B |
 | **HeartCLAP** | Audio-text alignment for style/tag matching | ~600M |
@@ -96,13 +96,13 @@ CPU-only generation is possible but slow (5-10 minutes per song vs 30-60 seconds
 
 ---
 
-## Model Sizes — Which to Use
+## Model Sizes - Which to Use
 
 | Model | VRAM | Generation Time | Quality |
 |-------|------|----------------|---------|
-| HeartMuLa-3B | 8GB | ~30s | Good — suitable for demos |
-| HeartMuLa-7B | 16GB | ~60s | Very Good — production ready |
-| HeartMuLa-7B-FT | 20GB | ~90s | Best — fine-tuned on curated data |
+| HeartMuLa-3B | 8GB | ~30s | Good - suitable for demos |
+| HeartMuLa-7B | 16GB | ~60s | Very Good - production ready |
+| HeartMuLa-7B-FT | 20GB | ~90s | Best - fine-tuned on curated data |
 
 Hermes will auto-select based on available VRAM.
 
@@ -111,7 +111,7 @@ Hermes will auto-select based on available VRAM.
 ## Tips
 
 - **Lyrics structure matters:** Use verse/chorus/bridge markers for better song structure
-- **Tag combinations:** 3-5 tags work best — genre + mood + tempo + key
+- **Tag combinations:** 3-5 tags work best - genre + mood + tempo + key
 - **Multilingual:** HeartMuLa supports English, Chinese, Japanese, Korean lyrics
 - **Iterative refinement:** Generate, listen, adjust tags, regenerate
 - **Offline-first:** No internet needed after model download
@@ -130,7 +130,7 @@ Hermes will auto-select based on available VRAM.
 
 ## License
 
-HeartMuLa models are Apache 2.0 — commercial use allowed, no royalties, no attribution required. Unlike Suno/Udio, you own the output completely.
+HeartMuLa models are Apache 2.0 - commercial use allowed, no royalties, no attribution required. Unlike Suno/Udio, you own the output completely.
 
 ---
 

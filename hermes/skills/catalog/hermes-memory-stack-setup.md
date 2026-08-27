@@ -1,6 +1,6 @@
 ---
-title: Hermes Memory Stack — Memory OS Setup Guide
-description: Install and configure Chukwuemeka001/hermes-memory-stack — a modular memory OS layer for Hermes Agent with semantic retrieval, auto-extraction, temporal versioning, and state.db remediation
+title: Hermes Memory Stack - Memory OS Setup Guide
+description: Install and configure Chukwuemeka001/hermes-memory-stack - a modular memory OS layer for Hermes Agent with semantic retrieval, auto-extraction, temporal versioning, and state.db remediation
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-memory-stack-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Memory Stack — Setup Guide
+# Hermes Memory Stack - Setup Guide
 
 **Source:** [Chukwuemeka001/hermes-memory-stack](#repo-unavailable)
 **Stars:** 0 ⭐ | **License:** Apache-2.0
@@ -119,7 +119,7 @@ For users with existing memory that needs cleanup:
 | Semantic index empty | Index not built | Run `scripts/semantic_reindex.sh` |
 | Auto-extraction silent | Intake gate blocking | Check gate thresholds in `hermes_memory_intake_gate.py` |
 | Migration fails | Schema version mismatch | Run `temporal_migrate.py` to align versions |
-| Remediation tools won't run | Safety gates active | All remediation tools have explicit-run or dry-run safeties — review output before committing |
+| Remediation tools won't run | Safety gates active | All remediation tools have explicit-run or dry-run safeties - review output before committing |
 
 ---
 

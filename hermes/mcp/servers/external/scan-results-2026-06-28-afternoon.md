@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — 2026-06-28 (Afternoon)"
+title: "MCP Server Scan Results - 2026-06-28 (Afternoon)"
 description: "Automated MCP server discovery scan results for 2026-06-28 (Afternoon). Extracted from mcp.so/feed page."
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-06-28-afternoon/"
 robots: "index,follow"
@@ -8,8 +8,8 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Directory Scan — June 28, 2026 (Afternoon Sweep)
-## mcp.so feed — 18 new servers found since morning sweep
+# MCP Server Directory Scan - June 28, 2026 (Afternoon Sweep)
+## mcp.so feed - 18 new servers found since morning sweep
 
 ---
 
@@ -33,19 +33,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ### 2. Opencloudcosts Mcp ★ New
 - **Category:** Finance / FinOps
-- Multi-cloud MCP server for AWS, GCP & Azure — public list prices AND enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs)
+- Multi-cloud MCP server for AWS, GCP & Azure - public list prices AND enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs)
 - No credentials needed to query pricing
 - Business relevance: Cloud cost intelligence for FinOps operators. Anchor AI agents to real pricing data without cloud provider access.
 
 ### 3. Aikount Mcp ★ New
 - **Category:** Finance / Accounting
-- Spanish accounting (contabilidad) for AI agents — issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) over REST API
+- Spanish accounting (contabilidad) for AI agents - issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) over REST API
 - For autónomos (freelancers) and SMEs in Spain
 - Business relevance: Regional accounting automation for Spanish/LATAM market operators.
 
 ### 4. Agentready Mcp ★ New
 - **Category:** Productivity / Knowledge
-- Make any website queryable by AI agents — index any site, ask questions, get cited answers via RAG
+- Make any website queryable by AI agents - index any site, ask questions, get cited answers via RAG
 - Business relevance: Turn any website into a queryable knowledge base for AI agents. Competitive intelligence, documentation search, partner research.
 
 ### 5. What2post ★ New
@@ -70,7 +70,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ### 9. AEO Tool ★ New
 - **Category:** Marketing / GEO
-- AI Engine Optimization tool — optimize content for AI discoverability
+- AI Engine Optimization tool - optimize content for AI discoverability
 - Business relevance: GEO/AEO optimization for marketing operators competing in AI search results.
 
 ---
@@ -78,12 +78,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 ## NEW NICHE / DEV-FOCUSED SERVERS
 
 ### 10. ABAP MCP ★ New
-- Read & write ABAP from Claude & Cursor — connects to SAP systems over standard ADT API
+- Read & write ABAP from Claude & Cursor - connects to SAP systems over standard ADT API
 - Read/search ABAP repository, run syntax checks and classrun
 - Niche: SAP enterprise ecosystem operators
 
 ### 11. BVCC Agent Wallet ★ New
-- Non-custodial crypto agent wallet MCP — check balances, send native/ERC-20, approve, swap on Uniswap v3/v4 across Ethereum, BNB Chain, Arbitrum, Base
+- Non-custodial crypto agent wallet MCP - check balances, send native/ERC-20, approve, swap on Uniswap v3/v4 across Ethereum, BNB Chain, Arbitrum, Base
 - Every spend/recipient/token limit enforced
 - Niche: Crypto/DeFi operators
 
@@ -92,7 +92,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - Niche: Design/dev operators
 
 ### 13. JanusMCP ★ New
-- Local, open-source multi-account MCP broker — add credentials once, switch identity (same service, many accounts) without reconnecting
+- Local, open-source multi-account MCP broker - add credentials once, switch identity (same service, many accounts) without reconnecting
 - Niche: Multi-account operators
 
 ### 14. Chain Context Mcp ★ New
@@ -100,12 +100,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - Niche: Web3/crypto operators
 
 ### 15. AI Tool Directory MCP Server ★ New
-- Query 2,000+ AI tools from your agent — search, compare, find alternatives, check if a tool is still alive
+- Query 2,000+ AI tools from your agent - search, compare, find alternatives, check if a tool is still alive
 - Public, read-only, no API key
 - Business relevance: AI tool discovery and competitive intelligence
 
 ### 16. Wax Seal ★ New
-- Cryptographic identity verification for AI agents — verify on-chain seals, validate Ed25519 signatures, gate high-risk actions with human-signed approvals
+- Cryptographic identity verification for AI agents - verify on-chain seals, validate Ed25519 signatures, gate high-risk actions with human-signed approvals
 - Business relevance: Agent security and governance for compliance-focused operators
 
 ### 17. Graphlens Mcp ★ New
@@ -118,10 +118,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-## ALSO NOTED (Not Added — Already in Catalog or Variants)
+## ALSO NOTED (Not Added - Already in Catalog or Variants)
 
-- **Stagenth Excel Chart** — New tool from Stagenth (already catalogued). Excel/CSV → charts via MCP
-- **PatSnap Scientific Literature, Innovation Report Generator, Pharma Intelligence, Chemical Molecular** — Already covered as "Advanced Patent Search" in catalog
+- **Stagenth Excel Chart** - New tool from Stagenth (already catalogued). Excel/CSV → charts via MCP
+- **PatSnap Scientific Literature, Innovation Report Generator, Pharma Intelligence, Chemical Molecular** - Already covered as "Advanced Patent Search" in catalog
 
 ---
 
@@ -142,7 +142,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | mcpservers.org | Not parsed (JS-heavy, sitemap from June 27) | 0 | 0 |
 
 **Key Trends:** 
-- **Database tooling**: SIXTA Connect brings zero-connection SQL analysis — paste a query, get fixes
+- **Database tooling**: SIXTA Connect brings zero-connection SQL analysis - paste a query, get fixes
 - **Cloud FinOps expansion**: Opencloudcosts adds multi-cloud pricing without credentials
 - **Regional accounting**: Aikount represents growing trend of region-specific business MCP servers (Spanish market)
 - **Agent governance**: Wax Seal and JanusMCP signal growing demand for agent identity/security infrastructure
@@ -152,4 +152,4 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 *Scan performed June 28, 2026 afternoon. Source: https://mcp.so/feed*
 *Note: mcp.so uses React Server Components; server detail pages were not parseable via curl. Data extracted from the feed listing page.*
-*mcpservers.org sitemaps dated June 27 — no servers newer than morning sweep.*
+*mcpservers.org sitemaps dated June 27 - no servers newer than morning sweep.*

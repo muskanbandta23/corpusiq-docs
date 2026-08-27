@@ -1,11 +1,11 @@
 ---
 title: "Shopify - CorpusIQ Docs - CorpusIQ"
-description: "Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV — and the same numbers joined to QuickBooks, yo."
+description: "Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV - and the same numbers joined to QuickBooks, yo."
 ---
 # Shopify
 
 ## What it unlocks
-Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV — and the same numbers joined to QuickBooks, your ad platforms, and your email tool.
+Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV - and the same numbers joined to QuickBooks, your ad platforms, and your email tool.
 
 ## Before you connect
 - A Shopify store (any plan).
@@ -40,9 +40,9 @@ Read-only. CorpusIQ never creates orders, edits products, refunds anything, or c
 - "How many repeat buyers did we have in Q1?"
 
 ## Troubleshooting
-- "Store not found" — make sure you typed the full myshopify.com domain, not your custom domain.
-- "Install rejected" — your account doesn't have app install permission. Ask the store owner to connect, or grant your staff account "manage apps" rights.
-- Numbers seem low — check the date range. Shopify timezone is the store's timezone, not yours.
+- "Store not found" - make sure you typed the full myshopify.com domain, not your custom domain.
+- "Install rejected" - your account doesn't have app install permission. Ask the store owner to connect, or grant your staff account "manage apps" rights.
+- Numbers seem low - check the date range. Shopify timezone is the store's timezone, not yours.
 ---
 
 *

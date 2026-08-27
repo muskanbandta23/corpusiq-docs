@@ -5,7 +5,7 @@ description: "Bring your Monday.com boards into conversations about how the busi
 # Monday.com
 
 ## What it unlocks
-Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's slipping — without opening the app.
+Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's slipping - without opening the app.
 
 ## Before you connect
 - A Monday.com account with access to the boards you care about.
@@ -36,9 +36,9 @@ Read-only. CorpusIQ never changes statuses, assigns items, or edits boards.
 - "Summarize the Q1 roadmap board."
 
 ## Troubleshooting
-- Board not showing up — confirm your Monday user has at least View access on that board.
-- "No items returned" on a large board — narrow the question to a specific group or status.
-- Auth fails — reset the Monday connector in your dashboard and reconnect.
+- Board not showing up - confirm your Monday user has at least View access on that board.
+- "No items returned" on a large board - narrow the question to a specific group or status.
+- Auth fails - reset the Monday connector in your dashboard and reconnect.
 ---
 
 *

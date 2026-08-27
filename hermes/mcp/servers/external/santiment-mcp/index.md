@@ -1,6 +1,6 @@
 ---
-title: "Santiment MCP Connector — Integration Guide"
-description: "Official Santiment MCP server for crypto market intelligence. On-chain metrics, social sentiment, trending narratives, and analyst insights — directly in AI"
+title: "Santiment MCP Connector - Integration Guide"
+description: "Official Santiment MCP server for crypto market intelligence. On-chain metrics, social sentiment, trending narratives, and analyst insights - directly in AI"
 category: mcp
 tags: [mcp-server, crypto, market-intelligence, on-chain, sentiment, trading, fintech, hermes-agent]
 last_updated: 2026-07-28
@@ -9,20 +9,20 @@ robots: "index,follow"
 
 ---
 
-# Santiment MCP — Crypto Market Intelligence for Hermes Agent
+# Santiment MCP - Crypto Market Intelligence for Hermes Agent
 
-The official Santiment MCP connector gives AI tools direct access to crypto market intelligence — on-chain metrics, social sentiment, trending narratives, and analyst insights across 500+ crypto assets.
+The official Santiment MCP connector gives AI tools direct access to crypto market intelligence - on-chain metrics, social sentiment, trending narratives, and analyst insights across 500+ crypto assets.
 
 ## What It Does
 
 Santiment MCP bridges AI agents to live crypto market data:
 
-- **Metrics & Asset Discovery** — Browse 30+ metrics across 500+ crypto assets. Filter by asset, metric, or both.
-- **Timeseries Data** — Historical metric data (price, volume, market cap, active addresses, exchange flows, social volume) with configurable intervals and time ranges.
-- **Asset Screening** — Filter and rank assets by any metric using threshold comparisons (greater than, less than) or percentage changes with sorting and pagination.
-- **Insights** — Full analyst insights published on Santiment, with tags, authors, and predictions.
-- **Trending Stories** — What narratives are driving crypto markets right now, with bullish/bearish sentiment breakdowns.
-- **Combined Trends** — Unified view of trending words, stories, and AI-summarized social media discussions.
+- **Metrics & Asset Discovery** - Browse 30+ metrics across 500+ crypto assets. Filter by asset, metric, or both.
+- **Timeseries Data** - Historical metric data (price, volume, market cap, active addresses, exchange flows, social volume) with configurable intervals and time ranges.
+- **Asset Screening** - Filter and rank assets by any metric using threshold comparisons (greater than, less than) or percentage changes with sorting and pagination.
+- **Insights** - Full analyst insights published on Santiment, with tags, authors, and predictions.
+- **Trending Stories** - What narratives are driving crypto markets right now, with bullish/bearish sentiment breakdowns.
+- **Combined Trends** - Unified view of trending words, stories, and AI-summarized social media discussions.
 
 ### Supported Metrics
 
@@ -54,7 +54,7 @@ Santiment MCP bridges AI agents to live crypto market data:
 1. Open Claude → Customize → Connectors → Add Custom Connector
 2. Name: `Santiment`
 3. Remote MCP server URL: `https://api.santiment.net/mcp`
-4. Click Add — OAuth redirect to Santiment for authorization
+4. Click Add - OAuth redirect to Santiment for authorization
 5. Log in (or create free account) and approve the connection
 
 ### Claude Code CLI Setup
@@ -128,6 +128,6 @@ When evaluating crypto-integrated partners: "Show me on-chain activity trends fo
 
 ## Verdict
 
-Santiment MCP is the most comprehensive crypto market intelligence MCP we've cataloged. For operators in fintech, crypto payments, or Web3 — this is essential infrastructure. The OAuth setup is clean, the free tier is genuinely useful, and the combined-trends tool provides signal that previously required manual dashboard-hopping.
+Santiment MCP is the most comprehensive crypto market intelligence MCP we've cataloged. For operators in fintech, crypto payments, or Web3 - this is essential infrastructure. The OAuth setup is clean, the free tier is genuinely useful, and the combined-trends tool provides signal that previously required manual dashboard-hopping.
 
-**Rating: ★★ — Essential for crypto/fintech operators**
+**Rating: ★★ - Essential for crypto/fintech operators**

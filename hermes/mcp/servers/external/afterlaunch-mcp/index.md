@@ -1,6 +1,6 @@
 ---
-title: "AfterLaunch MCP — Integration Guide"
-description: "Agentic growth marketing MCP — 29 tools for AI answer visibility, growth backlog, and shipping actions across ChatGPT, Gemini, Perplexity, and Google AI"
+title: "AfterLaunch MCP - Integration Guide"
+description: "Agentic growth marketing MCP - 29 tools for AI answer visibility, growth backlog, and shipping actions across ChatGPT, Gemini, Perplexity, and Google AI"
 category: mcp
 tags: [mcp-server, growth-marketing, seo, geo, ai-visibility, marketing-automation, hermes-agent]
 last_updated: 2026-07-30
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# AfterLaunch MCP — AI Growth Marketing for Hermes Agent
+# AfterLaunch MCP - AI Growth Marketing for Hermes Agent
 
-AfterLaunch is an AI growth marketing agent that operates as an MCP server — 29 tools covering AI answer visibility, ranked growth backlogs, drafted deliverables, and ship actions. It monitors how your brand appears across ChatGPT, Gemini, Perplexity, and Google AI Overviews, then gives your agents a prioritized feed of what to ship next.
+AfterLaunch is an AI growth marketing agent that operates as an MCP server - 29 tools covering AI answer visibility, ranked growth backlogs, drafted deliverables, and ship actions. It monitors how your brand appears across ChatGPT, Gemini, Perplexity, and Google AI Overviews, then gives your agents a prioritized feed of what to ship next.
 
 ## What It Does
 
 AfterLaunch turns growth marketing into agent-native tools:
 
-- **AI Answer Visibility** — Query what ChatGPT, Gemini, Perplexity, and Google AI Overviews say about your product, competitors, and category. See where you're mentioned, where competitors are, and where gaps exist.
-- **Ranked Growth Backlog** — A prioritized feed of growth moves (content, SEO fixes, GEO optimizations, distribution plays) ordered by expected impact.
-- **Drafted Deliverables** — Each growth move comes with a draft (blog post outline, landing page copy, social thread, schema markup) ready for refinement and publishing.
-- **Ship Actions** — Execute the growth moves: publish content, submit to directories, update schema, trigger re-indexing, and more.
-- **Anonymous Discovery** — Query visibility data without an API key (rate-limited). Sign up for full access.
+- **AI Answer Visibility** - Query what ChatGPT, Gemini, Perplexity, and Google AI Overviews say about your product, competitors, and category. See where you're mentioned, where competitors are, and where gaps exist.
+- **Ranked Growth Backlog** - A prioritized feed of growth moves (content, SEO fixes, GEO optimizations, distribution plays) ordered by expected impact.
+- **Drafted Deliverables** - Each growth move comes with a draft (blog post outline, landing page copy, social thread, schema markup) ready for refinement and publishing.
+- **Ship Actions** - Execute the growth moves: publish content, submit to directories, update schema, trigger re-indexing, and more.
+- **Anonymous Discovery** - Query visibility data without an API key (rate-limited). Sign up for full access.
 
 ### 29 Tools
 
@@ -37,9 +37,9 @@ AfterLaunch turns growth marketing into agent-native tools:
 
 ### Why It Matters for Operators
 
-Traditional SEO tools (Ahrefs, Semrush) tell you about Google rankings. AfterLaunch tells you about AI answer visibility — the surface that's rapidly replacing traditional search. If your product isn't mentioned when someone asks ChatGPT "best business analytics platform," you're invisible to an audience that's growing 40% month-over-month. AfterLaunch closes that gap with tools your AI agents can use directly.
+Traditional SEO tools (Ahrefs, Semrush) tell you about Google rankings. AfterLaunch tells you about AI answer visibility - the surface that's rapidly replacing traditional search. If your product isn't mentioned when someone asks ChatGPT "best business analytics platform," you're invisible to an audience that's growing 40% month-over-month. AfterLaunch closes that gap with tools your AI agents can use directly.
 
-**Competitive landscape:** Similar to Fulcru MCP (search visibility with execution arm, catalogued July 27) but broader — Fulcru focuses on content gap analysis while AfterLaunch adds GEO optimization, AI answer monitoring across 4 engines, and direct shipping actions.
+**Competitive landscape:** Similar to Fulcru MCP (search visibility with execution arm, catalogued July 27) but broader - Fulcru focuses on content gap analysis while AfterLaunch adds GEO optimization, AI answer monitoring across 4 engines, and direct shipping actions.
 
 ## Quick Setup
 
@@ -94,7 +94,7 @@ export AFTERLAUNCH_API_KEY="al_..."
 
 Ask your agent: *"What does ChatGPT say about us vs our competitors?"*
 
-The agent calls `check_visibility` and `check_competitor_visibility` to surface where you appear, where competitors appear, and the gap analysis — all in one pass.
+The agent calls `check_visibility` and `check_competitor_visibility` to surface where you appear, where competitors appear, and the gap analysis - all in one pass.
 
 ### Generate a GEO-Optimized Blog Post
 
@@ -121,7 +121,7 @@ AfterLaunch offers a free tier with anonymous discovery (rate-limited). Paid tie
 | **Developer Docs** | [afterlaunch.io/developers](https://afterlaunch.io/developers) |
 | **MCP Registry** | `io.afterlaunch/agentic-growth-marketing` |
 
-## Verdict: ★★★ — Essential for Growth Operators
+## Verdict: ★★★ - Essential for Growth Operators
 
 AfterLaunch is the first MCP server that gives AI agents direct visibility into AI answer engines and the tools to act on that data. For any business operator running growth through AI agents, this is a category-defining tool. The anonymous discovery tier means you can test it without commitment.
 

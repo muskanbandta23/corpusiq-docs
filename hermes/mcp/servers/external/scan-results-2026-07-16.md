@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — July 16, 2026"
+title: "MCP Server Scan Results - July 16, 2026"
 description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 15 new servers found (July 15-17), 6 business-relevant guides created."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Scan — July 16, 2026
+# MCP Server Scan - July 16, 2026
 
 **Sources:** mcp.so (React SPA, text extraction) + mcpservers.org (TanStack Router hydration payload)
 **Date:** July 16, 2026
@@ -22,11 +22,11 @@ Both sources remain accessible: mcp.so via curl text-stripping from SPA payloads
 
 ## New Servers Found: 15 total, 6 guides created
 
-### Guide-Worthy (Business-Relevant) — Guides Created
+### Guide-Worthy (Business-Relevant) - Guides Created
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **Competitor Tracker & Co.** ★ | mcp.so | Weekly competitor website crawling — pricing, product, messaging changes detected and filed as tagged reports. Submitted July 16. | [competitor-tracker-mcp](/hermes/mcp/servers/external/competitor-tracker-mcp/) |
+| **Competitor Tracker & Co.** ★ | mcp.so | Weekly competitor website crawling - pricing, product, messaging changes detected and filed as tagged reports. Submitted July 16. | [competitor-tracker-mcp](/hermes/mcp/servers/external/competitor-tracker-mcp/) |
 | **Lawstronaut** ★ | mcp.so | Millions of legal/regulatory documents from 155+ jurisdictions. Structured legal research via MCP. Submitted July 15. | [lawstronaut-mcp](/hermes/mcp/servers/external/lawstronaut-mcp/) |
 | **Capital.com Public API MCP** ★ | mcpservers.org | Trading account access + market data via MCP. Position checks, trade previews, plain-language queries. Submitted July 16. | [capital-com-mcp](/hermes/mcp/servers/external/capital-com-mcp/) |
 | **Agentcard** ★ | mcpservers.org | Prepaid virtual cards for AI agents with spend caps and human approvals. Submitted July 15. | [agentcard-mcp](/hermes/mcp/servers/external/agentcard-mcp/) |
@@ -37,10 +37,10 @@ Both sources remain accessible: mcp.so via curl text-stripping from SPA payloads
 
 | Server | Source | Description |
 |--------|--------|-------------|
-| **Blender MCP** | mcpservers.org | Official Blender 3D MCP — natural language interface with Blender Python API. Design/content creation. Submitted July 16. |
+| **Blender MCP** | mcpservers.org | Official Blender 3D MCP - natural language interface with Blender Python API. Design/content creation. Submitted July 16. |
 | **SVGator MCP** | mcp.so | SVG animation from AI prompts. Export as SVG, Lottie, GIF, MP4. Media & Design category. Submitted July 15. |
-| **Sitespeak Claude Plugin** | mcp.so | Manage SiteSpeakAI chatbots from Claude Code — optimize chatbots in plain English. Productivity. Submitted July 15. |
-| **CallLint** | mcpservers.org | Static preflight safety gate for MCP servers — scan configs before running. Never executes. Development. Submitted July 15. |
+| **Sitespeak Claude Plugin** | mcp.so | Manage SiteSpeakAI chatbots from Claude Code - optimize chatbots in plain English. Productivity. Submitted July 15. |
+| **CallLint** | mcpservers.org | Static preflight safety gate for MCP servers - scan configs before running. Never executes. Development. Submitted July 15. |
 | **Overleaf Web MCP** | mcpservers.org | Revision-checked Overleaf (LaTeX) editing, compilation, and review threads via MCP. Productivity. Submitted July 15. |
 | **SAP ABAP MCP** | mcpservers.org | Develop, test, analyze SAP ABAP systems from AI coding agents. Enterprise development. Submitted July 15. |
 | **nornir-napalm-mcp** | mcpservers.org | Network device state via Nornir + NAPALM for AI assistants. Networking. Submitted July 15. |
@@ -50,15 +50,15 @@ Both sources remain accessible: mcp.so via curl text-stripping from SPA payloads
 
 | Server | Source | Reason |
 |--------|--------|--------|
-| **PoYo.ai** | mcp.so | AI model API client (500+ models) — not an MCP server, listed under Clients on mcp.so |
-| **Gocosmik** | mcp.so | MCP client/web app — not a server |
-| **APIMart** | mcp.so | AI API platform/client — not a server |
+| **PoYo.ai** | mcp.so | AI model API client (500+ models) - not an MCP server, listed under Clients on mcp.so |
+| **Gocosmik** | mcp.so | MCP client/web app - not a server |
+| **APIMart** | mcp.so | AI API platform/client - not a server |
 
 ## Trends
 
 1. **Competitive intelligence enters MCP:** Competitor Tracker & Co. is the first dedicated competitor monitoring MCP server. Signals MCP expansion into strategic business operations beyond developer tooling.
 
-2. **Financial controls for AI agents emerge:** Agentcard represents a new category — financial infrastructure for autonomous AI agent spending. As agents become more autonomous, operators need spending controls.
+2. **Financial controls for AI agents emerge:** Agentcard represents a new category - financial infrastructure for autonomous AI agent spending. As agents become more autonomous, operators need spending controls.
 
 3. **Legal research democratized:** Lawstronaut brings legal document access to AI agents across 155+ jurisdictions. Reduces the cost of preliminary legal research for operators.
 

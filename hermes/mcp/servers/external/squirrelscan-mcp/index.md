@@ -1,5 +1,5 @@
 ---
-title: "squirrelscan — SEO & Performance Audit MCP for AI Agents"
+title: "squirrelscan - SEO & Performance Audit MCP for AI Agents"
 description: "Audit websites for SEO, performance, security, accessibility, and agent experience. Get exact fixes delivered to your coding agent."
 source: github.com/squirrelscan/squirrelscan
 stars: 0
@@ -14,18 +14,18 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# squirrelscan — SEO & Performance Audit MCP for AI Agents
+# squirrelscan - SEO & Performance Audit MCP for AI Agents
 
-**Website auditing through MCP.** squirrelscan audits websites across SEO, performance, security, accessibility, and "agent experience" — then provides exact fixes your coding agent can implement immediately.
+**Website auditing through MCP.** squirrelscan audits websites across SEO, performance, security, accessibility, and "agent experience" - then provides exact fixes your coding agent can implement immediately.
 
 ## What It Does for Operators
 
-- **SEO audit** — Meta tags, structured data, content gaps, indexing issues
-- **Performance audit** — Core Web Vitals, load times, resource optimization
-- **Security audit** — HTTPS, headers, dependency vulnerabilities
-- **Accessibility audit** — WCAG compliance, screen reader compatibility
-- **Agent Experience audit** — Novel: audits whether your site is agent-friendly (structured data, API discoverability)
-- **Actionable fixes** — Not just problems — exact code changes your AI coding agent can apply
+- **SEO audit** - Meta tags, structured data, content gaps, indexing issues
+- **Performance audit** - Core Web Vitals, load times, resource optimization
+- **Security audit** - HTTPS, headers, dependency vulnerabilities
+- **Accessibility audit** - WCAG compliance, screen reader compatibility
+- **Agent Experience audit** - Novel: audits whether your site is agent-friendly (structured data, API discoverability)
+- **Actionable fixes** - Not just problems - exact code changes your AI coding agent can apply
 
 ## Installation
 
@@ -63,10 +63,10 @@ cd squirrelscan
 
 ## Operator Use Cases
 
-1. **SaaS Operators** — Weekly automated audit of your landing page + docs site
-2. **Agencies** — Audit client sites before delivery. Generate fix tickets for your dev team.
-3. **Ecommerce** — Monitor SEO health across product pages and category templates
-4. **AI-Native Companies** — The "agent experience" audit ensures your site is discoverable by AI agents
+1. **SaaS Operators** - Weekly automated audit of your landing page + docs site
+2. **Agencies** - Audit client sites before delivery. Generate fix tickets for your dev team.
+3. **Ecommerce** - Monitor SEO health across product pages and category templates
+4. **AI-Native Companies** - The "agent experience" audit ensures your site is discoverable by AI agents
 
 ## CorpusIQ Angle
 
@@ -74,7 +74,7 @@ squirrelscan's "agent experience" audit is forward-looking. As AI agents become 
 
 ## Limitations
 
-- Early-stage project — audit thoroughness TBD
+- Early-stage project - audit thoroughness TBD
 - Requires coding agent to apply fixes (not one-click)
 - "Agent experience" audit category is experimental
 - May overlap with established tools like Lighthouse, Ahrefs

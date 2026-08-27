@@ -1,6 +1,6 @@
 ---
 title: Hermes Engineering Curation Setup Guide
-description: Install and use Fahrnetic's professionally-curated Hermes Agent engineering workflow — 104 selected skills, 10 operator profiles, gate matrix, and engineering spine
+description: Install and use Fahrnetic's professionally-curated Hermes Agent engineering workflow - 104 selected skills, 10 operator profiles, gate matrix, and engineering spine
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-engineering-curation-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -18,7 +18,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 A professionally-curated operating system for AI-assisted engineering. Distills a 336-skill ecosystem scan into 104 selected skills, 10 operator profiles, SVG gate matrices, and a full engineering spine (Route → Specify → Test → Build → Audit → Ship → Learn).
 
-The core thesis: **AI coding without workflow is autocomplete with a costume budget.** This catalog shows the stronger pattern — agents operating inside explicit gates, evidence loops, and role-separated review.
+The core thesis: **AI coding without workflow is autocomplete with a costume budget.** This catalog shows the stronger pattern - agents operating inside explicit gates, evidence loops, and role-separated review.
 
 ## Prerequisites
 
@@ -77,9 +77,9 @@ Route → Specify → Test → Build → Audit → Ship → Learn
 ```
 
 Each phase has:
-- **Explicit gates** — conditions that must be met before advancing
-- **Evidence loops** — verifiable proof of completion
-- **Role-separated review** — different agents/profiles for different phases
+- **Explicit gates** - conditions that must be met before advancing
+- **Evidence loops** - verifiable proof of completion
+- **Role-separated review** - different agents/profiles for different phases
 
 ### Gate Matrix
 

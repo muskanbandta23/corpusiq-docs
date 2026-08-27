@@ -24,7 +24,7 @@ Hermes Agent installs via `pip install hermes-agent`, then connects to AI models
 | Path | How It Works | Cost |
 |------|-------------|------|
 | **Ollama (local)** | Run open-source models directly on your hardware via [Ollama](https://ollama.com) | Free |
-| **OpenRouter** | Access 200+ models through a single API gateway  --  pay-per-token | $0–$20+/month |
+| **OpenRouter** | Access 200+ models through a single API gateway  --  pay-per-token | $0-$20+/month |
 | **Direct provider** | Connect directly to Anthropic, OpenAI, DeepSeek, or other model providers | Varies by provider |
 
 After installation, Hermes Agent uses **skills** (reusable workflows), **crons** (scheduled automation), **MCP servers** (external tool connections), and **memory systems** to operate autonomously.
@@ -43,11 +43,11 @@ Three questions to decide:
 |---|---|---|---|---|
 | **[Mac Mini M4](mac-mini-standalone.md)** | $599+ | Solo founders, desktop agent with browser automation | Yes (Ollama / MLX) | Easy |
 | **[Gaming PC / Desktop](gaming-pc.md)** | $1,200+ | Power users, GPU-accelerated inference | Yes (CUDA, max perf) | Easy |
-| **[Cloud VPS](cloud-vps.md)** | $5–20/mo | Always-on budget deployment, no hardware | No (API models) | Built-in |
-| **[Raspberry Pi 5](raspberry-pi.md)** | $50–80 | Ultra-low-cost always-on agent, lightweight tasks | Minimal (tiny models) | Easy |
+| **[Cloud VPS](cloud-vps.md)** | $5-20/mo | Always-on budget deployment, no hardware | No (API models) | Built-in |
+| **[Raspberry Pi 5](raspberry-pi.md)** | $50-80 | Ultra-low-cost always-on agent, lightweight tasks | Minimal (tiny models) | Easy |
 | **[Docker](docker.md)** | Free | Reproducible, portable, CI/CD | Depends on host | Depends on host |
 | **[Windows 11 + WSL2](windows-wsl.md)** | Free (existing PC) | Windows users wanting native Linux experience | Yes (GPU passthrough) | Easy |
-| DGX / Workstation | $3,000–20,000 | Heavy inference, multi-agent fleets | Yes (native) | Easy |
+| DGX / Workstation | $3,000-20,000 | Heavy inference, multi-agent fleets | Yes (native) | Easy |
 
 ## Quick Start (Any Machine)
 
@@ -83,12 +83,12 @@ That's it. You can now use Hermes Agent interactively. For persistent operation 
 
 ### Option: Hermes Desktop App (macOS / Windows / Linux)
 
-Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships with the Surface Release (v0.16.0+, June 2026) — a native Electron application, not a terminal wrapper:
+Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships with the Surface Release (v0.16.0+, June 2026) - a native Electron application, not a terminal wrapper:
 
 - One-click install from [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) with in-app self-update
 - Proper chat window with streaming, drag-and-drop files, clipboard image paste
 - Cmd+K command palette, inline model picker, session archive/search
-- Remote gateway support — point at a Hermes running on a VPS or workstation over OAuth
+- Remote gateway support - point at a Hermes running on a VPS or workstation over OAuth
 - Concurrent multi-profile sessions with cross-profile `@session` links
 - Full Simplified Chinese UI (switchable in Appearance settings)
 
@@ -108,7 +108,7 @@ Choose your hardware:
 
 - **[Mac Mini M4 (Standalone)](mac-mini-standalone.md)**  --  All-in-one: models, browser automation, crons. Best for solo founders.
 - **[Gaming PC / Desktop](gaming-pc.md)**  --  Max GPU performance with CUDA. Best for developers with powerful rigs.
-- **[Cloud VPS](cloud-vps.md)**  --  $5–20/month, always-on. Best for budget production use.
+- **[Cloud VPS](cloud-vps.md)**  --  $5-20/month, always-on. Best for budget production use.
 - **[Raspberry Pi 5](raspberry-pi.md)**  --  Ultra-low-cost 24/7 agent. Best for lightweight automation.
 - **[Docker](docker.md)**  --  Containerized deployment. Best for reproducibility and CI/CD.
 - **[Windows 11 + WSL2](windows-wsl.md)**  --  Windows users, Linux-native experience. Best for Windows desktops.
@@ -136,7 +136,7 @@ Hermes Agent is an open-source AI agent framework by Nous Research that connects
 Yes. Install Hermes Agent on your existing hardware, pull free models from Ollama (like Llama 3.2), and you pay nothing. Cloud API usage is optional and pay-per-use.
 
 ### Which hardware is best for Hermes Agent?
-The [Mac Mini M4](mac-mini-standalone.md) is the recommended all-in-one platform. For budget 24/7 operation, a [cloud VPS](cloud-vps.md) at $5–20/month works well. For maximum GPU performance, use a [gaming PC](gaming-pc.md) with CUDA.
+The [Mac Mini M4](mac-mini-standalone.md) is the recommended all-in-one platform. For budget 24/7 operation, a [cloud VPS](cloud-vps.md) at $5-20/month works well. For maximum GPU performance, use a [gaming PC](gaming-pc.md) with CUDA.
 
 ### How do I connect Hermes Agent to business data?
 Use the [MCP Integration Guide](/hermes/mcp/) to connect 40+ business platforms  --  CRM, email, analytics, databases, advertising, and more  --  through a single OAuth flow with CorpusIQ MCP.

@@ -1,5 +1,5 @@
 ---
-title: "NotHumanSearch — AI Agent Search Engine"
+title: "NotHumanSearch - AI Agent Search Engine"
 description: "Connect NotHumanSearch MCP to understand how AI agents discover and rank your business. Optimize for agentic search visibility."
 category: mcp
 tags: [mcp, geo, ai-search, agentic-seo, nothumansearch, visibility]
@@ -9,13 +9,13 @@ robots: "index,follow"
 
 ---
 
-# NotHumanSearch — AI Agent Search Engine for Operators
+# NotHumanSearch - AI Agent Search Engine for Operators
 
-NotHumanSearch is a search engine built for AI agents — not humans. It ranks sites by agentic readiness: llms.txt files, OpenAPI specs, MCP endpoints, and AI plugin manifests. As AI agents become the primary consumers of web content, traditional SEO metrics (PageRank, backlinks) become less relevant. NotHumanSearch measures what AI agents actually care about.
+NotHumanSearch is a search engine built for AI agents - not humans. It ranks sites by agentic readiness: llms.txt files, OpenAPI specs, MCP endpoints, and AI plugin manifests. As AI agents become the primary consumers of web content, traditional SEO metrics (PageRank, backlinks) become less relevant. NotHumanSearch measures what AI agents actually care about.
 
 ## Why This Matters for Operators
 
-- **Paradigm shift**: AI agents increasingly browse the web on behalf of users — your site needs to be discoverable by AI, not just humans
+- **Paradigm shift**: AI agents increasingly browse the web on behalf of users - your site needs to be discoverable by AI, not just humans
 - **New ranking factors**: llms.txt, structured APIs, MCP endpoints, and JSON-LD matter more than backlinks
 - **Competitive intelligence**: See which competitors are agent-ready and where you're falling behind
 - **Actionable fixes**: Get specific recommendations to improve agentic discoverability
@@ -130,8 +130,8 @@ What every site needs for AI agent discoverability:
 
 ## Why This Is a New Category
 
-Traditional SEO optimized for Google's PageRank. But AI agents don't use PageRank — they read llms.txt, consume structured APIs, and evaluate MCP endpoints. NotHumanSearch measures what matters to AI agents. Operators who optimize for agentic search now will own this channel before it gets crowded.
+Traditional SEO optimized for Google's PageRank. But AI agents don't use PageRank - they read llms.txt, consume structured APIs, and evaluate MCP endpoints. NotHumanSearch measures what matters to AI agents. Operators who optimize for agentic search now will own this channel before it gets crowded.
 
 ---
 
-*Integration guide for CorpusIQ operators. NotHumanSearch is a community project by @unitedideas. Agentic search is an emerging category — rankings and methodology may evolve rapidly.*
+*Integration guide for CorpusIQ operators. NotHumanSearch is a community project by @unitedideas. Agentic search is an emerging category - rankings and methodology may evolve rapidly.*

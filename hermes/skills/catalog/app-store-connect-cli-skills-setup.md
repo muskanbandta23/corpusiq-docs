@@ -1,6 +1,6 @@
 ---
-title: "App Store Connect CLI Skills — Mobile Release"
-description: Install the rorkai/app-store-connect-cli-skills cluster (53.5K installs, 33 skills) — release flow, submission health, metadata sync, ASO audit, TestFlight orchestration, crash triage, notarization, Apple Ads, plus a Google Play Developer cluster.
+title: "App Store Connect CLI Skills - Mobile Release"
+description: Install the rorkai/app-store-connect-cli-skills cluster (53.5K installs, 33 skills) - release flow, submission health, metadata sync, ASO audit, TestFlight orchestration, crash triage, notarization, Apple Ads, plus a Google Play Developer cluster.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/app-store-connect-cli-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# App Store Connect CLI Skills — Setup Guide
+# App Store Connect CLI Skills - Setup Guide
 
 **Source:** [rorkai/app-store-connect-cli-skills](https://www.skills.sh/rorkai/app-store-connect-cli-skills) (33 skills · 53.5K combined installs)
 **Repo:** [github.com/rorkai/app-store-connect-cli-skills](https://github.com/rorkai/app-store-connect-cli-skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 13, 2026
 **Quality Tier:** 🟢 Production (23 `asc-*` skills at 2.2K+ installs each)
 
-The most complete agent-facing cluster for mobile release operations observed on skills.sh. Twenty-three App Store Connect skills cover the full release lifecycle — signing, builds, metadata, screenshots, TestFlight, submission health, crash triage, notarization, ASO, and Apple Ads — and ten `gpd-*` skills mirror the same flows for Google Play Developer. This is the skill set that lets an agent run an app release end to end without opening either console.
+The most complete agent-facing cluster for mobile release operations observed on skills.sh. Twenty-three App Store Connect skills cover the full release lifecycle - signing, builds, metadata, screenshots, TestFlight, submission health, crash triage, notarization, ASO, and Apple Ads - and ten `gpd-*` skills mirror the same flows for Google Play Developer. This is the skill set that lets an agent run an app release end to end without opening either console.
 
 ---
 
@@ -52,7 +52,7 @@ hermes skills install rorkai/app-store-connect-cli-skills/asc-submission-health
 | `asc-subscription-localization` / `asc-revenuecat-catalog-sync` | 2.3K | Subscriptions, localization, RevenueCat sync |
 | `asc-whats-new-writer` | 2.3K | Release notes drafting |
 | `asc-apple-ads` | 1.6K | Apple Search Ads management |
-| `gpd-*` cluster (10 skills) | 1 | Google Play Developer equivalents — CLI, release flow, metadata, pricing, submission health |
+| `gpd-*` cluster (10 skills) | 1 | Google Play Developer equivalents - CLI, release flow, metadata, pricing, submission health |
 
 ---
 
@@ -79,7 +79,7 @@ hermes skills install rorkai/app-store-connect-cli-skills/asc-submission-health
 
 ## Limitations / Verification
 
-- `gpd-*` skills at 1 install each are early — verify Google Play API behavior before production use
+- `gpd-*` skills at 1 install each are early - verify Google Play API behavior before production use
 - Requires App Store Connect API credentials with proper role scoping
 - Verify install: `npx skills list | grep asc-`
 

@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — 2026-06-26"
+title: "MCP Server Scan Results - 2026-06-26"
 description: "Automated MCP server discovery scan results for June 26, 2026. Includes newly discovered MCP servers, integration health checks, and availability metrics"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-06-26/"
 robots: "index,follow"
@@ -8,8 +8,8 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Directory Scan — June 26, 2026
-## Quick afternoon sweep — checking for new servers since June 25 scan
+# MCP Server Directory Scan - June 26, 2026
+## Quick afternoon sweep - checking for new servers since June 25 scan
 
 ---
 
@@ -47,12 +47,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
    - URL: `quotor.ai`
    - Business relevance: Insurance operators and fintech platforms
 
-### Also Seen (Not Added — Niche/Non-Business)
+### Also Seen (Not Added - Niche/Non-Business)
 
-- **stealth-chrome-devtools-mcp**: Undetectable browser automation (nodriver/CDP-based) — similar to existing Human Browser entry
-- **LSP-Claw**: Lua/LSP web app dev in controlled lab — too niche
-- **specter-skills**: Game backend configuration — gaming niche
-- **swiftui-microinteractions**: iOS animation skills — mobile dev only
+- **stealth-chrome-devtools-mcp**: Undetectable browser automation (nodriver/CDP-based) - similar to existing Human Browser entry
+- **LSP-Claw**: Lua/LSP web app dev in controlled lab - too niche
+- **specter-skills**: Game backend configuration - gaming niche
+- **swiftui-microinteractions**: iOS animation skills - mobile dev only
 
 ---
 
@@ -71,7 +71,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | mcpservers.org | 9,300+ | 8 latest (IDs 10139-10146) | 4 business-relevant |
 | mcp.so | 22,663+ | Not parsed (JS-heavy) | 0 |
 
-**Key Trend:** The insurance/fintech category is growing — Quotor is the first MCP-native insurance quote server. Multi-cloud governance (zopnight) also emerging as a category.
+**Key Trend:** The insurance/fintech category is growing - Quotor is the first MCP-native insurance quote server. Multi-cloud governance (zopnight) also emerging as a category.
 
 ---
 

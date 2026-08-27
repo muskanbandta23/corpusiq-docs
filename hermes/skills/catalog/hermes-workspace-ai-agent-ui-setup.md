@@ -1,5 +1,5 @@
 ---
-title: "Hermes Workspace AI Agent UI — Native Web Workspace for"
+title: "Hermes Workspace AI Agent UI - Native Web Workspace for"
 description: "196+ installs. Full-featured web workspace for Hermes Agent with chat, terminal, memory browser, skills catalog, swarm mode, and multi-agent orchestration"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-workspace-ai-agent-ui-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Workspace AI Agent UI — Setup Guide
+# Hermes Workspace AI Agent UI - Setup Guide
 
 **Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) (196+ installs)
 **Category:** Hermes Agent / UI & Workspace
 **Quality Tier:** 🟡 Beta
 
-Hermes Workspace is a native web interface for Hermes Agent that goes beyond chat — it's a complete workspace with file browsing, persistent sessions, role-based agent dispatch, swarm mode for managing multiple Hermes Agent workers, a 2,000+ skill catalog browser, and full MCP integration. Built with Next.js, Monaco editor, and PTY terminal support.
+Hermes Workspace is a native web interface for Hermes Agent that goes beyond chat - it's a complete workspace with file browsing, persistent sessions, role-based agent dispatch, swarm mode for managing multiple Hermes Agent workers, a 2,000+ skill catalog browser, and full MCP integration. Built with Next.js, Monaco editor, and PTY terminal support.
 
 ---
 
@@ -146,7 +146,7 @@ pnpm swarm:status
 - Supports local models (Ollama, LM Studio, Atomic Chat) by pointing `HERMES_API_URL` to their endpoints
 - Multi-container Docker setup available for production with gateway, dashboard, and workspace orchestration
 - Custom themes configurable in `src/styles/themes/` with full color/font customization
-- Workspace caches build artifacts — clear `.next` and rebuild if memory issues occur
-- Swarm workers use tmux sessions — check `tmux ls` to verify worker processes
+- Workspace caches build artifacts - clear `.next` and rebuild if memory issues occur
+- Swarm workers use tmux sessions - check `tmux ls` to verify worker processes
 
 ---

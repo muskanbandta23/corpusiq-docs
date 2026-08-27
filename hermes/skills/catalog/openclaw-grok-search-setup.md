@@ -1,5 +1,5 @@
 ---
-title: openclaw-grok-search — Setup Guide
+title: openclaw-grok-search - Setup Guide
 description: Integrate xAI Grok search into Hermes agents. Real-time web search with AI-powered analysis and synthesis for competitive research and market monitoring.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-grok-search-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# openclaw-grok-search — Setup Guide
+# openclaw-grok-search - Setup Guide
 
 ## Prerequisites
 - **xAI API key** ([console.x.ai](https://console.x.ai))
@@ -68,7 +68,7 @@ Deep research: compare CorpusIQ with leading AI business platforms
 ### Competitive Analysis
 
 ```
-Grok search: "competitors to CorpusIQ business automation" — synthesize findings into a SWOT analysis
+Grok search: "competitors to CorpusIQ business automation" - synthesize findings into a SWOT analysis
 ```
 
 ## How It Works
@@ -90,11 +90,11 @@ The skill sends a search query to xAI's Grok API, which performs web retrieval a
 
 ## CorpusIQ Use Cases
 
-1. **Competitive Research:** Weekly sweeps of AI business tool landscape — identify new entrants, feature changes, and pricing moves.
+1. **Competitive Research:** Weekly sweeps of AI business tool landscape - identify new entrants, feature changes, and pricing moves.
 
 2. **Market Trend Monitoring:** Track "AI agents for business" search trends, identify rising topics for content strategy.
 
-3. **Lead Discovery:** Search for businesses discussing operational pain points that CorpusIQ solves — identify outreach opportunities.
+3. **Lead Discovery:** Search for businesses discussing operational pain points that CorpusIQ solves - identify outreach opportunities.
 
 4. **Content Research:** Fact-check blog posts and social content against current web information before publishing.
 
@@ -128,4 +128,4 @@ fallback_chain:
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

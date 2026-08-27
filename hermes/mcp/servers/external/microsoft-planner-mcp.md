@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Planner MCP — Integration Guide"
+title: "Microsoft Planner MCP - Integration Guide"
 description: "Connect AI agents to Microsoft Planner for task management in Microsoft 365. Create plans, manage tasks, update buckets, and automate project workflows."
 category: mcp
 tags: [mcp-server, microsoft-planner, task-management, enterprise, microsoft-365, project-management]
@@ -11,11 +11,11 @@ robots: "index,follow"
 
 ---
 
-# Microsoft Planner MCP — Integration Guide
+# Microsoft Planner MCP - Integration Guide
 
 **What it does:** Connects AI agents to Microsoft Planner via MCP, enabling task creation, plan management, bucket organization, and workflow automation within Microsoft 365 environments.
 
-**Why it matters:** Microsoft Planner is used by millions of enterprise teams for task tracking within the Microsoft 365 ecosystem. This MCP server lets operators manage projects conversationally — create tasks from meeting notes, reorganize priorities based on shifting deadlines, and generate status reports without opening the Planner UI.
+**Why it matters:** Microsoft Planner is used by millions of enterprise teams for task tracking within the Microsoft 365 ecosystem. This MCP server lets operators manage projects conversationally - create tasks from meeting notes, reorganize priorities based on shifting deadlines, and generate status reports without opening the Planner UI.
 
 ## Quick Info
 
@@ -26,7 +26,7 @@ robots: "index,follow"
 | **Install** | `npx -y @aixolotl/microsoft-planner-mcp` |
 | **Source** | `github.com/aixolotl/microsoft-planner-mcp` |
 | **Category** | Task Management & Enterprise |
-| **CorpusIQ Verdict** | ★★★★☆ — High value for Microsoft 365 operators |
+| **CorpusIQ Verdict** | ★★★★☆ - High value for Microsoft 365 operators |
 
 ## Setup
 

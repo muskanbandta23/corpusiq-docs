@@ -1,4 +1,4 @@
-# Recipe: Shopify–QuickBooks Daily Reconciliation
+# Recipe: Shopify-QuickBooks Daily Reconciliation
 
 **Connectors:** shopify, quickbooks
 **Category:** reconciliation
@@ -9,9 +9,9 @@
 ## Use Case
 
 Finance teams need to confirm that every Shopify sale processed yesterday has
-a corresponding invoice or payment entry in QuickBooks. Discrepancies —
+a corresponding invoice or payment entry in QuickBooks. Discrepancies -
 orders that appear in Shopify but not QuickBooks, or QuickBooks entries with
-no matching Shopify order — surface fulfillment issues, payment processing
+no matching Shopify order - surface fulfillment issues, payment processing
 failures, and accounting gaps before they compound. Run this daily, first
 thing in the morning for the prior day.
 
@@ -43,9 +43,9 @@ Match Shopify orders to QuickBooks records by order number (Shopify order_number
 should appear in QuickBooks doc_number or memo field).
 
 Show me three sections:
-1. Matched — Shopify order + QuickBooks record, amounts agree
-2. Matched with discrepancy — amounts differ by more than $0.01
-3. Unmatched — present in one system but not the other (flag which system)
+1. Matched - Shopify order + QuickBooks record, amounts agree
+2. Matched with discrepancy - amounts differ by more than $0.01
+3. Unmatched - present in one system but not the other (flag which system)
 ```
 
 ---
@@ -53,19 +53,19 @@ Show me three sections:
 ## Sample Output
 
 ```
-Daily Reconciliation — May 25, 2025
+Daily Reconciliation - May 25, 2025
 
-MATCHED (47 orders — $12,840.15 total)
+MATCHED (47 orders - $12,840.15 total)
 All amounts agree. No action required.
 
 MATCHED WITH DISCREPANCY (2 orders)
-Order #4821 — Shopify: $149.00 | QuickBooks: $139.00 — Delta: $10.00
-Order #4835 — Shopify: $89.99  | QuickBooks: $89.90  — Delta: $0.09
+Order #4821 - Shopify: $149.00 | QuickBooks: $139.00 - Delta: $10.00
+Order #4835 - Shopify: $89.99  | QuickBooks: $89.90  - Delta: $0.09
 
 UNMATCHED (3 records)
-[Shopify only] Order #4802 — $210.00 — financial_status: paid — no QB record found
-[Shopify only] Order #4844 — $55.00  — financial_status: refunded — no QB record found
-[QuickBooks only] Invoice #INV-2891 — $320.00 — customer: Acme Corp — no Shopify match
+[Shopify only] Order #4802 - $210.00 - financial_status: paid - no QB record found
+[Shopify only] Order #4844 - $55.00  - financial_status: refunded - no QB record found
+[QuickBooks only] Invoice #INV-2891 - $320.00 - customer: Acme Corp - no Shopify match
 ```
 
 ---

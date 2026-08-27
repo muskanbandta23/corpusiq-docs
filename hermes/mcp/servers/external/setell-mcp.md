@@ -1,6 +1,6 @@
 ---
-title: "Setell MCP — Quote-to-Cash Agent for Small Service"
-description: "Setell MCP server — vertical AI agent for quote-to-cash workflows in small service businesses (machine shops, contractors, field services). Generate quotes"
+title: "Setell MCP - Quote-to-Cash Agent for Small Service"
+description: "Setell MCP server - vertical AI agent for quote-to-cash workflows in small service businesses (machine shops, contractors, field services). Generate quotes"
 category: mcp
 tags: [mcp-server, finance, quote-to-cash, service-business, smb, operations]
 last_updated: 2026-07-19
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Setell MCP Server
 
-Setell is a vertical quote-to-cash agent purpose-built for small service businesses — machine shops, contractors, field service providers, and trades. The MCP server exposes the full Setell platform to AI agents, enabling quote generation, order management, and payment tracking from any MCP-compatible client.
+Setell is a vertical quote-to-cash agent purpose-built for small service businesses - machine shops, contractors, field service providers, and trades. The MCP server exposes the full Setell platform to AI agents, enabling quote generation, order management, and payment tracking from any MCP-compatible client.
 
 **Source:** awesome-mcp-servers PR #9531 (discovered July 19, 2026)
 **Category:** Finance & Fintech / Operations
@@ -22,7 +22,7 @@ Setell is a vertical quote-to-cash agent purpose-built for small service busines
 
 ## Why This Matters for Operators
 
-Service businesses run on quotes and invoices. The gap between "a client asks for a quote" and "the invoice is paid" is where most small operators lose time and money. Setell closes this loop with AI-native tooling — your agent can receive a service request, generate a quote from historical pricing data, send it to the client, and track through to payment, all within the MCP ecosystem.
+Service businesses run on quotes and invoices. The gap between "a client asks for a quote" and "the invoice is paid" is where most small operators lose time and money. Setell closes this loop with AI-native tooling - your agent can receive a service request, generate a quote from historical pricing data, send it to the client, and track through to payment, all within the MCP ecosystem.
 
 ## Installation
 
@@ -66,7 +66,7 @@ Requires a Setell account and API key. Sign up at [go.setell.ai](https://go.sete
 
 ## CorpusIQ Angle
 
-Setell's quote-to-cash workflow mirrors what CorpusIQ operators do daily — but focused on service businesses rather than e-commerce/DTC. Worth monitoring as a potential partnership target or competitive signal. The vertical AI agent model (specialized MCP servers for industry verticals) is a pattern CorpusIQ can replicate for e-commerce operators.
+Setell's quote-to-cash workflow mirrors what CorpusIQ operators do daily - but focused on service businesses rather than e-commerce/DTC. Worth monitoring as a potential partnership target or competitive signal. The vertical AI agent model (specialized MCP servers for industry verticals) is a pattern CorpusIQ can replicate for e-commerce operators.
 
 ## See Also
 

@@ -1,5 +1,5 @@
 ---
-title: "BitRouter — Self-Improving LLM Router for Agent Workflows"
+title: "BitRouter - Self-Improving LLM Router for Agent Workflows"
 description: "Install and configure BitRouter to optimize LLM routing for Hermes Agent, OpenClaw, Claude Code, and other agent harnesses."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bitrouter-setup/"
 robots: "index,follow"
@@ -19,7 +19,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 BitRouter is a self-improving LLM router that optimizes agentic workflows with every run. It sits between your agent harness and LLM providers, routing each request to the optimal model based on cost, latency, and quality. Works with any harness (Hermes, OpenClaw, Claude Code, Codex) and any model.
 
 **Key capabilities:**
-- Self-improving routing — learns from every request
+- Self-improving routing - learns from every request
 - Multi-model dispatch: DeepSeek, OpenAI, Anthropic, Ollama, and more
 - Agent observability: token tracking, cost analysis, latency metrics
 - Guardrails: rate limiting, content filtering, cost caps
@@ -105,4 +105,4 @@ bitrouter stats
 - Self-improving mode needs ~1000 requests before routing noticeably improves
 - Docker image requires proper volume mounting for persistent learning data
 - When API keys expire, BitRouter auto-routes to available providers
-- Not a model aggregator — requires individual provider API keys
+- Not a model aggregator - requires individual provider API keys

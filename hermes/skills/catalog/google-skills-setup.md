@@ -1,6 +1,6 @@
 ---
-title: Google Skills — Official Google Agent Skills for Hermes Agents
-description: Google's official agent skills collection — Cloud recipes, GKE, Gemini APIs, BigQuery, agent platform, and Google Ads/Analytics. 30K+ combined installs across 75+ skills. 15K+ GitHub stars.
+title: Google Skills - Official Google Agent Skills for Hermes Agents
+description: Google's official agent skills collection - Cloud recipes, GKE, Gemini APIs, BigQuery, agent platform, and Google Ads/Analytics. 30K+ combined installs across 75+ skills. 15K+ GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Google Skills — Setup Guide
+# Google Skills - Setup Guide
 
 **Source:** [google/skills](https://skills.sh/google/skills) (30K+ combined installs)
 **GitHub:** [google/skills](https://github.com/google/skills) (15,250 ⭐)
@@ -63,57 +63,57 @@ npx skills add google/skills --skill google-analytics-data-api-basics
 |---|---|---|
 | **google-cloud-recipe-onboarding** | 9.4K | New Google Cloud project setup with best practices, billing, and IAM |
 | **google-cloud-recipe-auth** | 9.0K | Authentication patterns for cloud applications and service accounts |
-| **google-cloud-recipe-foundation-builder** | — | Enterprise landing zone with security, networking, and compliance |
+| **google-cloud-recipe-foundation-builder** | - | Enterprise landing zone with security, networking, and compliance |
 
 ### Gemini AI
 | Skill | Installs | Purpose |
 |---|---|---|
 | **gemini-interactions-api** | 4.5K | Gemini API interactions including multimodal prompts, streaming, and function calling |
-| **gemini-api** | — | Core Gemini API with text, code, image, and audio generation |
+| **gemini-api** | - | Core Gemini API with text, code, image, and audio generation |
 | **gemini-agents-api** | 3.6K | Build AI agents with Gemini: tool use, memory, and multi-step reasoning |
-| **gemini-live-api** | — | Real-time bidirectional streaming with Gemini for voice and video |
+| **gemini-live-api** | - | Real-time bidirectional streaming with Gemini for voice and video |
 
-### GKE (Kubernetes Engine) — 20+ skills
+### GKE (Kubernetes Engine) - 20+ skills
 | Skill | Installs | Purpose |
 |---|---|---|
-| **gke-basics** | — | GKE fundamentals: clusters, node pools, workloads, and services |
-| **gke-cluster-creation** | — | Cluster provisioning with best-practice configurations |
-| **gke-workload-security** | — | Pod security, network policies, and workload identity |
-| **gke-inference** | — | Deploy AI inference workloads on GKE with GPU and TPU support |
-| **gke-cost-optimization** | — | Spot VMs, committed use discounts, and resource right-sizing |
+| **gke-basics** | - | GKE fundamentals: clusters, node pools, workloads, and services |
+| **gke-cluster-creation** | - | Cluster provisioning with best-practice configurations |
+| **gke-workload-security** | - | Pod security, network policies, and workload identity |
+| **gke-inference** | - | Deploy AI inference workloads on GKE with GPU and TPU support |
+| **gke-cost-optimization** | - | Spot VMs, committed use discounts, and resource right-sizing |
 
 ### BigQuery and Analytics
 | Skill | Installs | Purpose |
 |---|---|---|
-| **bigquery-basics** | — | SQL queries, partitioning, clustering, and performance optimization |
-| **bigquery-ai-ml** | — | BigQuery ML for in-database model training and prediction |
-| **bigquery-bigframes** | — | BigQuery DataFrames for pandas-compatible analytics at scale |
+| **bigquery-basics** | - | SQL queries, partitioning, clustering, and performance optimization |
+| **bigquery-ai-ml** | - | BigQuery ML for in-database model training and prediction |
+| **bigquery-bigframes** | - | BigQuery DataFrames for pandas-compatible analytics at scale |
 
 ### Agent Platform
 | Skill | Installs | Purpose |
 |---|---|---|
-| **agent-platform-deploy** | — | Deploy AI agents with managed infrastructure, monitoring, and scaling |
-| **agent-platform-eval-flywheel** | — | Continuous evaluation pipeline for agent quality and performance |
-| **agent-platform-rag-engine-management** | — | Manage RAG knowledge bases with automated indexing and retrieval |
-| **agent-platform-skill-registry** | — | Centralized skill registry for multi-agent orchestration |
-| **agent-platform-prompt-management** | — | Version-controlled prompt templates with A/B testing |
+| **agent-platform-deploy** | - | Deploy AI agents with managed infrastructure, monitoring, and scaling |
+| **agent-platform-eval-flywheel** | - | Continuous evaluation pipeline for agent quality and performance |
+| **agent-platform-rag-engine-management** | - | Manage RAG knowledge bases with automated indexing and retrieval |
+| **agent-platform-skill-registry** | - | Centralized skill registry for multi-agent orchestration |
+| **agent-platform-prompt-management** | - | Version-controlled prompt templates with A/B testing |
 
 ### Ads and Analytics
 | Skill | Installs | Purpose |
 |---|---|---|
-| **google-ads-api-quickstart** | — | Google Ads API for campaign management, reporting, and optimization |
-| **google-analytics-data-api-basics** | — | GA4 Data API for user behavior analysis and attribution |
-| **google-analytics-admin-api-basics** | — | GA4 Admin API for property configuration and user management |
+| **google-ads-api-quickstart** | - | Google Ads API for campaign management, reporting, and optimization |
+| **google-analytics-data-api-basics** | - | GA4 Data API for user behavior analysis and attribution |
+| **google-analytics-admin-api-basics** | - | GA4 Admin API for property configuration and user management |
 
 ### Additional Highlights
 | Skill | Installs | Purpose |
 |---|---|---|
 | **gcloud** | 3.9K | gcloud CLI for all Google Cloud operations |
-| **google-cloud-solution-rag-enterprise-search** | — | RAG architecture with Vertex AI Search and GKE |
-| **google-cloud-storage-basics** | — | Cloud Storage for object storage with lifecycle management |
-| **firebase-basics** | — | Firebase for mobile and web app backends |
-| **cloud-run-basics** | — | Serverless container deployment with Cloud Run |
-| **alloydb-basics** | — | AlloyDB for PostgreSQL-compatible managed database |
+| **google-cloud-solution-rag-enterprise-search** | - | RAG architecture with Vertex AI Search and GKE |
+| **google-cloud-storage-basics** | - | Cloud Storage for object storage with lifecycle management |
+| **firebase-basics** | - | Firebase for mobile and web app backends |
+| **cloud-run-basics** | - | Serverless container deployment with Cloud Run |
+| **alloydb-basics** | - | AlloyDB for PostgreSQL-compatible managed database |
 
 ---
 

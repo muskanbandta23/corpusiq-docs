@@ -1,6 +1,6 @@
 ---
 title: VerityLayer MCP Integration Guide
-description: Full setup guide for VerityLayer — fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts
+description: Full setup guide for VerityLayer - fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/veritylayer/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,9 +8,9 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# VerityLayer MCP — Integration Guide
+# VerityLayer MCP - Integration Guide
 
-**Fail-closed verify-before-you-act trust gate for AI agents.** Five tools — verify_fact, detect_injection, moderate_content, redact_pii, guard_action — that run before agent actions execute. Every verdict ships an Ed25519-signed receipt for audit trails.
+**Fail-closed verify-before-you-act trust gate for AI agents.** Five tools - verify_fact, detect_injection, moderate_content, redact_pii, guard_action - that run before agent actions execute. Every verdict ships an Ed25519-signed receipt for audit trails.
 
 > **Command:** `npx -y @veritylayer/mcp` · **Source:** mcp.so · **Last seen:** July 4, 2026
 
@@ -20,11 +20,11 @@ VerityLayer acts as a mandatory safety checkpoint between your AI agent and the 
 
 ## Key Capabilities
 
-- **verify_fact** — Cross-references claims against trusted sources before the agent acts on them
-- **detect_injection** — Scans agent inputs and outputs for prompt injection, data exfiltration, and manipulation
-- **moderate_content** — Content safety checks for agent-generated text before it reaches users
-- **redact_pii** — Strips personally identifiable information from agent outputs before external delivery
-- **guard_action** — Final approval gate — the last check before any agent action executes
+- **verify_fact** - Cross-references claims against trusted sources before the agent acts on them
+- **detect_injection** - Scans agent inputs and outputs for prompt injection, data exfiltration, and manipulation
+- **moderate_content** - Content safety checks for agent-generated text before it reaches users
+- **redact_pii** - Strips personally identifiable information from agent outputs before external delivery
+- **guard_action** - Final approval gate - the last check before any agent action executes
 
 Every verdict includes:
 - Ed25519-signed cryptographic receipt
@@ -72,7 +72,7 @@ Security layer for customer-facing AI agent deployments.
 
 ### 3. Compliance Audit Trail
 ```
-"Show me all VerityLayer verdicts from the last 24 hours — which actions 
+"Show me all VerityLayer verdicts from the last 24 hours - which actions 
 passed, which were blocked, and why."
 ```
 Compliance-ready audit trail for regulated industries.
@@ -81,7 +81,7 @@ Compliance-ready audit trail for regulated industries.
 
 | Protection | Without VerityLayer | With VerityLayer |
 |-----------|-------------------|-----------------|
-| Prompt injection | No detection — agent acts on malicious input | Injection detected and blocked before context entry |
+| Prompt injection | No detection - agent acts on malicious input | Injection detected and blocked before context entry |
 | PII in outputs | Manual review or none | Automatic redaction with cryptographic proof |
 | Content safety | Reactive (find issues after sending) | Proactive (block before delivery) |
 | Audit trail | Agent logs only (may be incomplete) | Signed receipts for every safety decision |
@@ -100,17 +100,17 @@ User Input → [detect_injection] → Agent Processing → Agent Output
                                                    Deliver / Block
 ```
 
-Every arrow includes an Ed25519-signed receipt. The system is **fail-closed** — if any check cannot complete (network error, timeout), the action is blocked rather than allowed through unsafely.
+Every arrow includes an Ed25519-signed receipt. The system is **fail-closed** - if any check cannot complete (network error, timeout), the action is blocked rather than allowed through unsafely.
 
 ## Pricing
 
-Keyless, pay-per-call via x402 (USDC on Base). No subscription required — pay only for the checks you run. Pricing details at veritylayer.com.
+Keyless, pay-per-call via x402 (USDC on Base). No subscription required - pay only for the checks you run. Pricing details at veritylayer.com.
 
 ## Related Resources
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) — full curated catalog
-- [Compliance & Regulatory MCPs](/hermes/mcp/servers/external/#compliance--regulatory) — complementary trust and verification tools
-- [ChronoVerify](/hermes/mcp/servers/external/#chronoverify) — image authenticity verification MCP
+- [External MCP Server Catalog](/hermes/mcp/servers/external/) - full curated catalog
+- [Compliance & Regulatory MCPs](/hermes/mcp/servers/external/#compliance--regulatory) - complementary trust and verification tools
+- [ChronoVerify](/hermes/mcp/servers/external/#chronoverify) - image authenticity verification MCP
 
 ---
 

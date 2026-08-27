@@ -1,6 +1,6 @@
 ---
-title: III Workers Hermes Bridge — Full Setup Guide for Hermes Agents
-description: Put the Hermes agent on the iii bus — omnichannel front door wiring Hermes's 27+ messaging platforms to the entire iii function registry.
+title: III Workers Hermes Bridge - Full Setup Guide for Hermes Agents
+description: Put the Hermes agent on the iii bus - omnichannel front door wiring Hermes's 27+ messaging platforms to the entire iii function registry.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/iii-workers-hermes-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# III Workers Hermes Bridge — Setup Guide
+# III Workers Hermes Bridge - Setup Guide
 
 **Source:** [iii-hq/workers](https://github.com/iii-hq/workers) (90⭐)
 **Skill:** `iii-hq/workers@hermes`
@@ -42,7 +42,7 @@ npx skills add https://github.com/iii-hq/workers --skill hermes
 |---|---|
 | **Hermes Agent** | Installed and configured with `~/.hermes/.env` |
 | **III Runtime** | The iii bus engine running locally or remotely |
-| **Hermes Credentials** | Pre-provisioned — the worker reads from `~/.hermes/.env` |
+| **Hermes Credentials** | Pre-provisioned - the worker reads from `~/.hermes/.env` |
 | **Node.js** | For the iii runtime |
 
 ---
@@ -134,7 +134,7 @@ skill_view(name="hermes")
 ## Limitations
 
 - **Requires iii runtime:** The iii bus must be running for the worker to function.
-- **Headless turns:** `hermes::run` executes one turn at a time — not a persistent conversation.
+- **Headless turns:** `hermes::run` executes one turn at a time - not a persistent conversation.
 - **Pre-provisioned credentials:** Hermes must already be configured before the worker can use it.
 - **Experimental:** 5 installs, first seen June 2026. Ecosystem is young.
 

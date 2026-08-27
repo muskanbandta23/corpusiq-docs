@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 23, 2026 Marketplace Sweep (Evening)"
-description: "7 new Hermes-relevant publishers discovered on skills.sh — Microsoft Azure AI Foundry, Nexscope Amazon, Samber Go, Dean Peters PM, Brad Automates Content"
+title: "New Skills - July 23, 2026 Marketplace Sweep (Evening)"
+description: "7 new Hermes-relevant publishers discovered on skills.sh - Microsoft Azure AI Foundry, Nexscope Amazon, Samber Go, Dean Peters PM, Brad Automates Content"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july23-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 23, 2026 (Evening)
+# New Skills - July 23, 2026 (Evening)
 
 ## Summary
 
@@ -49,9 +49,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Notes
 
-- **Evening sweep** — third pass of July 23 after morning (9 publishers, 1M+ installs) and afternoon (5 publishers, 136K installs)
+- **Evening sweep** - third pass of July 23 after morning (9 publishers, 1M+ installs) and afternoon (5 publishers, 136K installs)
 - **microsoft/azure-skills at 478K** is the second highest-install discovery of the day (after Google Agents CLI at 357K from morning sweep). Microsoft + Google together = 835K+ installs of official enterprise agent infrastructure.
-- **samber/cc-skills-golang at 35K** fills Go engineering gap — no Go-specific skills previously catalogued
+- **samber/cc-skills-golang at 35K** fills Go engineering gap - no Go-specific skills previously catalogued
 - **nexscope-ai/amazon-skills at 77K** is the dominant Amazon/e-commerce research skill on skills.sh
 - **Content creation trifecta**: bradautomates (social research) + ognjengt (viral hooks) complement existing content skills (corpusiq-content-writing-system)
 - **PM trifecta**: deanpeters (PRDs/user stories/roadmaps) + phuryn (competitive analysis) + lenny (PM methodology, from morning sweep) cover the full product development workflow
@@ -60,7 +60,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 29 other publishers identified but not documented as lower priority for Hermes agents:
 
-- Claude Code / Cursor-specific skills (jeremylongshore, agricidaniel, affaan-m, etc.) — platform-specific, not broadly applicable
-- Very low install counts (<500) — yetone/native-feel-skill (441), tclawde/openclaw-skills-user (429), ihlamury/design-skills (1K)
-- Crypto/web3 specific — okx/onchainos-skills (32K, niche domain)
-- Non-agent tools — lobehub/lobe-chat (4.6K, chat UI framework), web-infra-dev/midscene-skills (4.8K, e2e testing)
+- Claude Code / Cursor-specific skills (jeremylongshore, agricidaniel, affaan-m, etc.) - platform-specific, not broadly applicable
+- Very low install counts (<500) - yetone/native-feel-skill (441), tclawde/openclaw-skills-user (429), ihlamury/design-skills (1K)
+- Crypto/web3 specific - okx/onchainos-skills (32K, niche domain)
+- Non-agent tools - lobehub/lobe-chat (4.6K, chat UI framework), web-infra-dev/midscene-skills (4.8K, e2e testing)

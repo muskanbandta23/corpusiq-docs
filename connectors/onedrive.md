@@ -1,11 +1,11 @@
 ---
 title: "OneDrive - CorpusIQ Docs - CorpusIQ"
-description: "Let CorpusIQ read your OneDrive files when answering questions — contracts, spreadsheets, board decks, prior reports. Stop digging through folders to."
+description: "Let CorpusIQ read your OneDrive files when answering questions - contracts, spreadsheets, board decks, prior reports. Stop digging through folders to."
 ---
 # OneDrive
 
 ## What it unlocks
-Let CorpusIQ read your OneDrive files when answering questions — contracts, spreadsheets, board decks, prior reports. Stop digging through folders to find the doc you wrote three months ago.
+Let CorpusIQ read your OneDrive files when answering questions - contracts, spreadsheets, board decks, prior reports. Stop digging through folders to find the doc you wrote three months ago.
 
 ## Before you connect
 - A Microsoft 365 work or personal account.
@@ -36,9 +36,9 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 - "Search OneDrive for any contract with Acme Corp."
 
 ## Troubleshooting
-- "Consent required" — your Microsoft 365 admin restricts third-party apps. Ask them to approve CorpusIQ for your tenant.
-- File not found — confirm the file lives in OneDrive (not SharePoint or Teams shared libraries).
-- Permission denied on a specific file — that file was shared with restricted access. Open it in OneDrive to confirm.
+- "Consent required" - your Microsoft 365 admin restricts third-party apps. Ask them to approve CorpusIQ for your tenant.
+- File not found - confirm the file lives in OneDrive (not SharePoint or Teams shared libraries).
+- Permission denied on a specific file - that file was shared with restricted access. Open it in OneDrive to confirm.
 ---
 
 *

@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Authentication Management
 
-Autonomous agents require persistent, reliable authentication across multiple services. Authentication is treated as infrastructure — monitored, refreshed, and alerted — not one-time configuration.
+Autonomous agents require persistent, reliable authentication across multiple services. Authentication is treated as infrastructure - monitored, refreshed, and alerted - not one-time configuration.
 
 ## Managed Services
 
@@ -41,5 +41,5 @@ OAuth tokens auto-refresh before expiry. Failures trigger P1 alerts. API keys mo
 ### Security
 - Tokens never logged or included in debug output
 - File permissions restricted (600 for token files)
-- Separate tokens per service — no shared credentials
+- Separate tokens per service - no shared credentials
 - Regular rotation schedule enforced

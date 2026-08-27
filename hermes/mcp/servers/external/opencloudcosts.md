@@ -1,6 +1,6 @@
 ---
 title: Opencloudcosts MCP Server Integration Guide
-description: Multi-cloud pricing for AI agents — AWS, GCP, Azure real-time pricing without credentials. Anchor AI FinOps to live cloud costs with Opencloudcosts MCP
+description: Multi-cloud pricing for AI agents - AWS, GCP, Azure real-time pricing without credentials. Anchor AI FinOps to live cloud costs with Opencloudcosts MCP
 category: mcp
 tags: [mcp, opencloudcosts, finops, cloud, aws, gcp, azure, pricing, cost-optimization, hermes-agent]
 last_updated: 2026-07-08
@@ -9,25 +9,25 @@ robots: "index,follow"
 
 ---
 
-# Opencloudcosts MCP — Credentialless Cloud Pricing for Hermes Agent
+# Opencloudcosts MCP - Credentialless Cloud Pricing for Hermes Agent
 
-Anchor AI FinOps to real, live cloud pricing. Multi-cloud MCP server for AWS, GCP, and Azure — covering both public list prices AND enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs). No cloud provider credentials needed.
+Anchor AI FinOps to real, live cloud pricing. Multi-cloud MCP server for AWS, GCP, and Azure - covering both public list prices AND enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs). No cloud provider credentials needed.
 
 ## What It Does
 
 Opencloudcosts gives AI agents access to current cloud pricing data without requiring access to your cloud accounts:
 
-- **AWS pricing** — EC2, RDS, Lambda, S3, EKS, and 200+ services with list + enterprise rates
-- **GCP pricing** — Compute Engine, Cloud SQL, Cloud Run, GKE, BigQuery with CUDs
-- **Azure pricing** — VMs, SQL Database, Functions, AKS with Enterprise Agreement rates
-- **Commitment analysis** — Reserved Instances, Savings Plans, Committed Use Discounts pricing
-- **Cross-cloud comparison** — Compare equivalent services across providers at real pricing
+- **AWS pricing** - EC2, RDS, Lambda, S3, EKS, and 200+ services with list + enterprise rates
+- **GCP pricing** - Compute Engine, Cloud SQL, Cloud Run, GKE, BigQuery with CUDs
+- **Azure pricing** - VMs, SQL Database, Functions, AKS with Enterprise Agreement rates
+- **Commitment analysis** - Reserved Instances, Savings Plans, Committed Use Discounts pricing
+- **Cross-cloud comparison** - Compare equivalent services across providers at real pricing
 
 ## Quick Setup
 
 ### Prerequisites
-- **No cloud credentials needed** — Public pricing data, no provider access required
-- **No API key required** — Open access
+- **No cloud credentials needed** - Public pricing data, no provider access required
+- **No API key required** - Open access
 
 ### Add to Hermes Agent
 
@@ -54,7 +54,7 @@ Or manual config:
 |------|-------------|
 | `get_service_pricing` | Get current list price for any cloud service by region |
 | `get_enterprise_rate` | Query enterprise negotiated rates (RIs, Savings Plans, CUDs, EDPs) |
-| `compare_services` | Cross-cloud comparison — e.g., "EC2 vs Compute Engine vs Azure VM" |
+| `compare_services` | Cross-cloud comparison - e.g., "EC2 vs Compute Engine vs Azure VM" |
 | `estimate_monthly` | Estimate monthly cost for a given configuration across providers |
 | `list_commitment_options` | List available Reserved Instance, Savings Plan, and CUD options for a service |
 
@@ -112,10 +112,10 @@ This gives FinOps operators an end-to-end cloud cost intelligence pipeline.
 
 ## Why Credentialless Matters
 
-- **Security:** No cloud provider credentials — pricing data is public
-- **Speed:** No IAM setup, no cross-account roles — start querying immediately
+- **Security:** No cloud provider credentials - pricing data is public
+- **Speed:** No IAM setup, no cross-account roles - start querying immediately
 - **Audit-safe:** Pricing queries don't appear in CloudTrail/audit logs
-- **Multi-cloud:** One interface for AWS, GCP, and Azure — no per-provider setup
+- **Multi-cloud:** One interface for AWS, GCP, and Azure - no per-provider setup
 
 ## Pricing
 

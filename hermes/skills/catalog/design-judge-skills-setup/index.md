@@ -1,6 +1,6 @@
 ---
-title: "Design Judge Skills — Full Setup Guide for Hermes Agent"
-description: "Install and configure SeanJ1ang/design-judge-skills — 5 evidence-driven agent skills for design award research, evaluation, matching, entry writing, and"
+title: "Design Judge Skills - Full Setup Guide for Hermes Agent"
+description: "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching, entry writing, and"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Design Judge Skills — Setup Guide
+# Design Judge Skills - Setup Guide
 
 **Repo:** [SeanJ1ang/design-judge-skills](https://github.com/SeanJ1ang/design-judge-skills)
 **Stars:** 25 · **Forks:** 6 · **License:** Apache 2.0
@@ -17,13 +17,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-Design Judge Skills decomposes the end-to-end design award submission process into five modular, evidence-driven agent skills. Each skill operates independently with well-defined boundaries — you can use one, several, or all five as your workflow demands.
+Design Judge Skills decomposes the end-to-end design award submission process into five modular, evidence-driven agent skills. Each skill operates independently with well-defined boundaries - you can use one, several, or all five as your workflow demands.
 
 The skills are configured for 11 major design awards: iF DESIGN AWARD, iF DESIGN STUDENT AWARD, Red Dot Product Design, Red Dot Design Concept, IDEA, DIA, K-Design, GOOD DESIGN AWARD Japan, Core77, James Dyson, and EPDA. Award rules, deadlines, fees, eligibility, and categories are verified against official pages at runtime.
 
 ## The 5 Skills
 
-### 1. design-award-search — Find Winning Precedents
+### 1. design-award-search - Find Winning Precedents
 
 Retrieve and verify winning entries in the same category from official award archives.
 
@@ -37,7 +37,7 @@ Use design-award-search to find verified winning entries for a rehabilitation tr
 in the iF DESIGN AWARD product category. Verify each case against the official iF archive.
 ```
 
-### 2. design-evaluation — Score Design Quality
+### 2. design-evaluation - Score Design Quality
 
 Evaluate design quality and presentation expression using evidence-based rubrics with transparent scoring.
 
@@ -57,7 +57,7 @@ Output design quality score, presentation expression score, evidence confidence,
 - Evidence confidence (what's verified vs. assumed)
 - Critical issues (blockers before submission)
 
-### 3. design-award-match — Compare Award Fit
+### 3. design-award-match - Compare Award Fit
 
 Compare awards, tracks, and submission categories against project characteristics to find the best fit.
 
@@ -71,7 +71,7 @@ Use design-award-match to compare iF Student, Red Dot Design Concept, DIA, Core7
 and James Dyson for this project. Output fit scores with explanations for each.
 ```
 
-### 4. design-information-prep — Prepare Submission Text
+### 4. design-information-prep - Prepare Submission Text
 
 Prepare award submission text constrained to source materials, with field-by-field drafting and word-count validation.
 
@@ -85,7 +85,7 @@ Use design-information-prep to prepare IDEA award submission text from the attac
 First list missing facts, then output English draft per field with word count verification.
 ```
 
-### 5. design-submission-check — Final Readiness
+### 5. design-submission-check - Final Readiness
 
 Check a submission package against the current official rules of the target award. Outputs a go / conditional go / no-go verdict.
 
@@ -115,7 +115,7 @@ These principles govern all five skills. They're worth understanding before you 
 
 ## Installation
 
-### Option 1: npx skills (Recommended — works with any agent)
+### Option 1: npx skills (Recommended - works with any agent)
 
 Install individual skills:
 
@@ -129,7 +129,7 @@ npx skills add SeanJ1ang/design-judge-skills --skill design-submission-check -g 
 
 The `-g` flag installs at global/user scope. The `-y` flag skips confirmation prompts. Remove `-y` for interactive installation.
 
-### Option 2: Hermes Agent — Manual Skill Installation
+### Option 2: Hermes Agent - Manual Skill Installation
 
 Copy the skill directories to your Hermes profile:
 
@@ -217,7 +217,7 @@ A complete submission flow typically starts with evaluation or matching, moves t
 | James Dyson Award | Student design + engineering | James Dyson Foundation |
 | EPDA (European Product Design Award) | Product, Packaging, Interface | EPDA official site |
 
-Award rules, deadlines, and fees are verified at runtime. Do not cache these — they change annually.
+Award rules, deadlines, and fees are verified at runtime. Do not cache these - they change annually.
 
 ## Limitations
 
@@ -230,7 +230,7 @@ Award rules, deadlines, and fees are verified at runtime. Do not cache these —
 
 - The skills read design materials you provide and search official award websites. No data is sent to third-party services.
 - All source code is in Python and the shared support package. Review `skills/design-judge-shared/` before using with confidential designs.
-- License: Apache 2.0 — safe for commercial use.
+- License: Apache 2.0 - safe for commercial use.
 
 ## Troubleshooting
 

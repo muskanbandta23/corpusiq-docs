@@ -1,5 +1,5 @@
 ---
-title: MCP Server Sweep — July 23, 2026 (Cron)
+title: MCP Server Sweep - July 23, 2026 (Cron)
 description: "All 10 servers have integration guides at `servers/external/`:"
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july23-2026-cron/"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Sweep — July 23, 2026 (Cron)
+# MCP Server Sweep - July 23, 2026 (Cron)
 
 **Sweep time:** 2026-07-23T18:04 UTC (cron)
 **Sources checked:** mcp.so, mcpservers.org
@@ -32,7 +32,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Highlights
 
-- **Taplio** (3★): Official MCP from Taplio — draft, schedule, publish LinkedIn from Claude/Cursor. Remote endpoint at mcp.taplio.com. Most polished of the batch.
+- **Taplio** (3★): Official MCP from Taplio - draft, schedule, publish LinkedIn from Claude/Cursor. Remote endpoint at mcp.taplio.com. Most polished of the batch.
 - **Argus Testing** (2★): Autonomous QA that tests web and macOS apps like a human engineer. Bug self-verification built in. Playwright-powered.
 - **twocents**: Human-in-the-loop feedback for agents. Share pages → collect structured feedback → agent acts. Remote, no auth.
 - **TaskerArmy Agent**: Shopify theme optimization tasks accessible from AI agents. Ecommerce operations use case.

@@ -1,6 +1,6 @@
 ---
-title: "OpenClaw on Android — Full Setup Guide"
-description: "Run OpenClaw agents on Android with Termux — no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars."
+title: "OpenClaw on Android - Full Setup Guide"
+description: "Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw on Android — Setup Guide
+# OpenClaw on Android - Setup Guide
 
 **Repo:** [AidanPark/openclaw-android](https://github.com/AidanPark/openclaw-android)
 **Stars:** 1,649 | **Author:** Aidan Park
@@ -19,7 +19,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## What It Is
 
-Run OpenClaw — the autonomous AI agent framework — directly on Android without a full Linux distribution. The standard approach requires proot-distro + Debian/Ubuntu (700MB–1GB overhead). This project installs just the glibc dynamic linker (`ld.so`), letting Node.js and OpenClaw run natively on Android's Linux kernel through Termux.
+Run OpenClaw - the autonomous AI agent framework - directly on Android without a full Linux distribution. The standard approach requires proot-distro + Debian/Ubuntu (700MB-1GB overhead). This project installs just the glibc dynamic linker (`ld.so`), letting Node.js and OpenClaw run natively on Android's Linux kernel through Termux.
 
 ### Architecture Comparison
 
@@ -38,7 +38,7 @@ Linux Kernel → Android/Bionic libc → Termux → glibc → Node.js → OpenCl
 ## Prerequisites
 
 - **Android 7.0+** (API level 24+)
-- **[Termux](https://termux.dev/)** installed (from F-Droid, NOT Google Play — the Play Store version is outdated)
+- **[Termux](https://termux.dev/)** installed (from F-Droid, NOT Google Play - the Play Store version is outdated)
 - **~500MB free storage** (vs 1.5GB+ for the proot-distro approach)
 - **Internet connection** for initial setup
 
@@ -54,7 +54,7 @@ Download from **F-Droid** (recommended):
 https://f-droid.org/packages/com.termux/
 ```
 
-⚠️ **Do NOT use the Google Play Store version** — it's outdated and missing critical APIs.
+⚠️ **Do NOT use the Google Play Store version** - it's outdated and missing critical APIs.
 
 ### 2. Run the One-Command Setup
 
@@ -88,10 +88,10 @@ openclaw start
 ### First-Run Setup
 
 On first launch, OpenClaw will prompt for:
-1. **API provider** — OpenAI, Anthropic, DeepSeek, local model, etc.
-2. **API key** — Your provider's API key
-3. **Model** — Default model selection (e.g., `claude-sonnet-4-20250514`)
-4. **Workspace directory** — Where OpenClaw stores sessions and configs
+1. **API provider** - OpenAI, Anthropic, DeepSeek, local model, etc.
+2. **API key** - Your provider's API key
+3. **Model** - Default model selection (e.g., `claude-sonnet-4-20250514`)
+4. **Workspace directory** - Where OpenClaw stores sessions and configs
 
 ### Config File Location
 
@@ -146,8 +146,8 @@ openclaw skills install aradotso/hermes-skills --skill hermes-agent-framework
 ### Running on Old Android Phones
 
 This setup is particularly well-suited for repurposing old Android phones:
-- **Samsung Galaxy S8+ (2017)** — runs OpenClaw comfortably
-- **Google Pixel 2 (2017)** — known working configuration
+- **Samsung Galaxy S8+ (2017)** - runs OpenClaw comfortably
+- **Google Pixel 2 (2017)** - known working configuration
 - **Any phone with 4GB+ RAM and Android 7.0+**
 
 ### Battery Optimization
@@ -233,7 +233,7 @@ termux-wake-lock release
 
 ## Security Notes
 
-- API keys are stored in `~/.openclaw/config.yaml` — set appropriate file permissions
+- API keys are stored in `~/.openclaw/config.yaml` - set appropriate file permissions
 - Consider using environment variables: `provider: anthropic` with `api_key: ${ANTHROPIC_API_KEY}`
 - The Android device should have screen lock enabled
 - For production use, consider a dedicated device with no personal data

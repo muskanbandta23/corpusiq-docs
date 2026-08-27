@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ MCP Troubleshooting - CorpusIQ Docs"
-description: "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent — token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions."
+description: "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -55,7 +55,7 @@ await session.call_tool("search_console_connector", {
     }
 })
 
-# WRONG — flat params silently fail
+# WRONG - flat params silently fail
 await session.call_tool("search_console_connector", {
     "action": "get_performance",
     "site_url": "sc-domain:corpusiq.io",
@@ -92,7 +92,7 @@ Run `hermes mcp list` to verify it's registered.
 
 **Fix:** 
 1. Verify you've connected at least one business tool in the CorpusIQ dashboard
-2. Tools are dynamically registered — you need an active tool connection
+2. Tools are dynamically registered - you need an active tool connection
 3. Run `hermes mcp tools corpusiq` to see available tools
 
 ## "Rate limit exceeded" on GitHub API
@@ -102,7 +102,7 @@ Run `hermes mcp list` to verify it's registered.
 **Fix:** 
 1. Check current rate: `curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/rate_limit`
 2. Rate limit resets at the top of each hour
-3. Use authenticated requests — unauthenticated gets 60/hr, authenticated gets 5,000/hr
+3. Use authenticated requests - unauthenticated gets 60/hr, authenticated gets 5,000/hr
 
 ## Fork restriction (403 on fork)
 
@@ -111,7 +111,7 @@ Run `hermes mcp list` to verify it's registered.
 **Root cause:** GitHub anti-automation blocks on accounts that make rapid API calls.
 
 **Fixes:**
-1. Wait 1-2 hours — restriction auto-lifts
+1. Wait 1-2 hours - restriction auto-lifts
 2. Use a different GitHub account
 3. Reduce API call frequency (sub-1/sec)
 

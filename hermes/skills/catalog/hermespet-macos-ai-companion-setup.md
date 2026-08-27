@@ -1,5 +1,5 @@
 ---
-title: HermesPet macOS AI Companion — Setup Guide
+title: HermesPet macOS AI Companion - Setup Guide
 description: Install and configure hermespet-macos-ai-companion, a desktop pet/companion that brings Hermes Agent to your macOS desktop with persistent presence and visual feedback. 38 installs from aradotso/hermes-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespet-macos-ai-companion-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# HermesPet macOS AI Companion — Setup Guide
+# HermesPet macOS AI Companion - Setup Guide
 
 **Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) · 38 installs
 **Category:** Hermes Agent Variants / Desktop Integration
 **License:** MIT · **Platform:** macOS · **Published:** June 2026
 
-A macOS-native desktop companion built on the Hermes Agent framework. Provides persistent visual presence, interaction feedback, and personality to your Hermes agent — turning it from a background process into a visible desktop assistant.
+A macOS-native desktop companion built on the Hermes Agent framework. Provides persistent visual presence, interaction feedback, and personality to your Hermes agent - turning it from a background process into a visible desktop assistant.
 
 ---
 
@@ -28,7 +28,7 @@ A macOS-native desktop companion built on the Hermes Agent framework. Provides p
 | **Notifications** | Desktop alerts for agent task completion |
 | **Persistence** | Survives sleep/wake cycles, always visible |
 
-The companion bridges the gap between a headless agent process and an interactive desktop experience — useful for development, demos, and keeping Hermes visible during long-running tasks.
+The companion bridges the gap between a headless agent process and an interactive desktop experience - useful for development, demos, and keeping Hermes visible during long-running tasks.
 
 ---
 
@@ -136,4 +136,4 @@ hermespet-macos-ai-companion --hermes-profile corpusiq
 
 ---
 
-*Part of the Hermes Skills Library. Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Part of the Hermes Skills Library. Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

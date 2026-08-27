@@ -1,5 +1,5 @@
 ---
-title: find-skills — Skill Discovery Tool for Hermes Agents
+title: find-skills - Skill Discovery Tool for Hermes Agents
 description: Install and use vercel-labs/skills@find-skills (2.5M installs) to search across skills.sh, agentskills.io, npm, and GitHub for Hermes-compatible agent skills in a single query.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/find-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# find-skills — Setup Guide
+# find-skills - Setup Guide
 
 **Source:** [vercel-labs/skills](https://github.com/vercel-labs/skills) (2.5M installs)
 **Category:** Skill Discovery
 **Languages:** JavaScript
 
-The official skill discovery tool from Vercel Labs. Searches across all major agent skill marketplaces — skills.sh, agentskills.io, npm, and GitHub — in a single query. Returns installable skill references with metadata: source repo, install count, category, and Hermes compatibility. At 2.5M installs, this is the most-used skill in the entire ecosystem.
+The official skill discovery tool from Vercel Labs. Searches across all major agent skill marketplaces - skills.sh, agentskills.io, npm, and GitHub - in a single query. Returns installable skill references with metadata: source repo, install count, category, and Hermes compatibility. At 2.5M installs, this is the most-used skill in the entire ecosystem.
 
 ---
 
@@ -35,10 +35,10 @@ npx skills search find-skills  # Should show the installed skill
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | Any version — CLI tool, no integration required |
+| **Hermes Agent** | Any version - CLI tool, no integration required |
 | **npx skills** | v1.5+ (included with Hermes) |
 | **Network** | Outbound HTTPS to skills.sh, GitHub API, npm registry |
-| **GitHub Token** | Optional — enables private repo search and higher rate limits |
+| **GitHub Token** | Optional - enables private repo search and higher rate limits |
 
 ### Optional: GitHub Token for Higher Rate Limits
 
@@ -94,7 +94,7 @@ find-skills "video production" --compatible hermes --min-installs 5000 --json
 
 **Agent Self-Discovery:** Hermes agents can discover and install skills autonomously. A growth agent needing SEO capabilities can `find-skills "seo audit" --compatible hermes` and install the top result without human intervention.
 
-**Quality Filtering:** The `--min-installs` and `--compatible` flags prevent installation of unverified or incompatible skills — critical for autonomous agent operation.
+**Quality Filtering:** The `--min-installs` and `--compatible` flags prevent installation of unverified or incompatible skills - critical for autonomous agent operation.
 
 **Integration with skill-creator:** After creating a skill with `anthropics/skills@skill-creator`, use `find-skills` to verify it appears correctly in marketplaces and check install counts.
 
@@ -113,7 +113,7 @@ export GITHUB_TOKEN=$(cat ~/.hermes/profiles/corpusiq/secrets/github.token)
 for category in "browser" "marketing" "mcp" "memory" "monitoring" "video" "growth" "security" "email" "social"; do
     echo "=== $category ==="
     find-skills "$category" --compatible hermes --min-installs 500 --json | \
-        jq -r '.results[] | "\(.name) — \(.installs) installs — npx skills add \(.ref)"'
+        jq -r '.results[] | "\(.name) - \(.installs) installs - npx skills add \(.ref)"'
     echo ""
 done
 ```
@@ -134,7 +134,7 @@ done
 
 ## See Also
 
-- [skill-creator](/hermes/skills/catalog/skill-creator-setup/) — Anthropic's skill creation framework
-- [Skills Catalog](/hermes/skills/catalog/) — Browse all documented skills
-- [Skill Marketplaces](/hermes/skills/skill-marketplaces/) — Guide to all skill marketplaces
-- [Creating Custom Skills](/hermes/skills/creating-skills/) — Author your own skills
+- [skill-creator](/hermes/skills/catalog/skill-creator-setup/) - Anthropic's skill creation framework
+- [Skills Catalog](/hermes/skills/catalog/) - Browse all documented skills
+- [Skill Marketplaces](/hermes/skills/skill-marketplaces/) - Guide to all skill marketplaces
+- [Creating Custom Skills](/hermes/skills/creating-skills/) - Author your own skills

@@ -1,6 +1,6 @@
 ---
-title: "Intelligent Growth MCP — Product Marketing AI for"
-description: "Hosted MCP server for product marketing — positioning, messaging, competitive analysis, and launch planning from AI agents. Built for marketing operators"
+title: "Intelligent Growth MCP - Product Marketing AI for"
+description: "Hosted MCP server for product marketing - positioning, messaging, competitive analysis, and launch planning from AI agents. Built for marketing operators"
 category: mcp
 tags: [mcp-server, marketing, competitive-analysis, product-marketing, positioning, go-to-market]
 last_updated: 2026-07-16
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Intelligent Growth: Product Marketing MCP Server ★ New (July 16)
 
-A hosted MCP server that brings product marketing strategy directly into AI agents. Operators can run positioning exercises, messaging frameworks, competitive analysis, and launch planning — all through natural language in Claude, ChatGPT, or any MCP-compatible client. No more switching between marketing tools and AI assistants.
+A hosted MCP server that brings product marketing strategy directly into AI agents. Operators can run positioning exercises, messaging frameworks, competitive analysis, and launch planning - all through natural language in Claude, ChatGPT, or any MCP-compatible client. No more switching between marketing tools and AI assistants.
 
 **Source:** mcpservers.org (discovered July 16, 2026)
 **Category:** Marketing
@@ -23,11 +23,11 @@ A hosted MCP server that brings product marketing strategy directly into AI agen
 - **Competitive Analysis:** Research competitors, compare features, and identify market gaps through AI-driven analysis
 - **Messaging Frameworks:** Create messaging hierarchies, taglines, and copy frameworks for campaigns
 - **Launch Planning:** Structure go-to-market plans with timeline, channels, and audience targeting
-- **Hosted Solution:** No local installation — connect via remote MCP endpoint and start working immediately
+- **Hosted Solution:** No local installation - connect via remote MCP endpoint and start working immediately
 
 ## Business Relevance
 
-Essential for operators managing product launches, repositioning efforts, or competitive strategy. This is the first MCP server purpose-built for product marketing workflows — filling a gap between general-purpose AI assistants and dedicated marketing platforms.
+Essential for operators managing product launches, repositioning efforts, or competitive strategy. This is the first MCP server purpose-built for product marketing workflows - filling a gap between general-purpose AI assistants and dedicated marketing platforms.
 
 **Use cases:**
 - Run a competitive analysis before entering a new market segment
@@ -48,10 +48,10 @@ CorpusIQ Social → Execute positioning through scheduled content (Postiz)
 ```
 
 ## Limitations
-- Public repo with limited documentation — evaluate before production use
-- Community project — not an official product from a marketing platform
+- Public repo with limited documentation - evaluate before production use
+- Community project - not an official product from a marketing platform
 - AI-generated analysis quality depends on underlying model, not proprietary data
 - Hosted endpoint availability not guaranteed long-term
-- No integration with ad platforms (Google Ads, Meta Ads) — positioning only
+- No integration with ad platforms (Google Ads, Meta Ads) - positioning only
 
 *Back to [External MCP Catalog](/hermes/mcp/servers/external/)*

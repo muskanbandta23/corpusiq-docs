@@ -1,5 +1,5 @@
 ---
-title: "Elasticsearch MCP — Full-Text Search & Observability"
+title: "Elasticsearch MCP - Full-Text Search & Observability"
 description: "Connect AI agents to Elasticsearch via the official Elastic MCP server. Full-text search, vector search, aggregations, and observability."
 category: mcp
 tags: [mcp-server]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Elasticsearch MCP — Full-Text Search & Observability for AI Agents
+# Elasticsearch MCP - Full-Text Search & Observability for AI Agents
 
 ## What It Is
 

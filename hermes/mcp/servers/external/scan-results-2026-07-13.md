@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — July 13, 2026"
+title: "MCP Server Scan Results - July 13, 2026"
 description: "Daily MCP server discovery scan from mcp.so/feed. 7 new servers found today (all from July 13). Source: mcp.so (curl extraction SPA inline JSON parsing)."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Scan — July 13, 2026
+# MCP Server Scan - July 13, 2026
 
-**Source:** mcp.so (curl extraction — SPA inline JSON parsing)
+**Source:** mcp.so (curl extraction - SPA inline JSON parsing)
 **Date:** July 13, 2026
 **Previous scan:** July 12, 2026
 **GitHub API:** Unavailable (rate-limited as of July 12)
@@ -36,25 +36,25 @@ mcp.so frontend loads all server data as inline JSON in the initial HTML payload
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **Bothread** | Local room where AI coding agents collaborate on one codebase via MCP — collisions prevented, human in command. By AdamACE9. | INDEX-ONLY |
-| **ResolveMesh Compatibility Intelligence** | Hosted ResolveMesh compatibility MCP server — read-only, source-backed compatibility lookups for AI agents. By mo-sharif. | INDEX-ONLY |
+| **Bothread** | Local room where AI coding agents collaborate on one codebase via MCP - collisions prevented, human in command. By AdamACE9. | INDEX-ONLY |
+| **ResolveMesh Compatibility Intelligence** | Hosted ResolveMesh compatibility MCP server - read-only, source-backed compatibility lookups for AI agents. By mo-sharif. | INDEX-ONLY |
 
 ### Category: Finance & Commerce
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **Toolzy** | French tool rental marketplace — search and rent tools between individuals. By Toolzy-2. Niche regional. | INDEX-ONLY |
+| **Toolzy** | French tool rental marketplace - search and rent tools between individuals. By Toolzy-2. Niche regional. | INDEX-ONLY |
 
 ## Skipped
 
-None — all 7 servers documented. Bothread and ResolveMesh are developer-tool focused; Toolzy is a French-only regional marketplace.
+None - all 7 servers documented. Bothread and ResolveMesh are developer-tool focused; Toolzy is a French-only regional marketplace.
 
 ## Trends
 
-1. **Content publishing via MCP emerging:** HTML Pub by Leadpages is notable — a major SaaS company (Leadpages) shipping an MCP server for AI-generated content publishing. Signals that established martech companies see MCP as a distribution channel.
+1. **Content publishing via MCP emerging:** HTML Pub by Leadpages is notable - a major SaaS company (Leadpages) shipping an MCP server for AI-generated content publishing. Signals that established martech companies see MCP as a distribution channel.
 2. **Localization as an MCP category:** AI Localization Agent targets the growing problem of AI token waste in localization workflows. First dedicated localization MCP.
-3. **Mobile app ecosystem MCP:** AppAmbit brings the full mobile dev lifecycle (analytics, crash reporting, build distribution, CMS) into MCP — first comprehensive mobile-dev MCP server.
-4. **AI industry intelligence:** Horizon provides free AI regulation tracking and regional briefings — fills a gap for operators who need to track AI policy changes.
+3. **Mobile app ecosystem MCP:** AppAmbit brings the full mobile dev lifecycle (analytics, crash reporting, build distribution, CMS) into MCP - first comprehensive mobile-dev MCP server.
+4. **AI industry intelligence:** Horizon provides free AI regulation tracking and regional briefings - fills a gap for operators who need to track AI policy changes.
 
 ## Actions Taken
 

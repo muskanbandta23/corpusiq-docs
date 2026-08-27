@@ -1,6 +1,6 @@
 ---
-title: OpenClaw Security Hardening — Security Suite Setup Guide
-description: Setup guide for the openclaw-security-hardening skill — lock down your OpenClaw agent with automated security audits, file permission hardening, and network restriction profiles.
+title: OpenClaw Security Hardening - Security Suite Setup Guide
+description: Setup guide for the openclaw-security-hardening skill - lock down your OpenClaw agent with automated security audits, file permission hardening, and network restriction profiles.
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-security-hardening-setup/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Security Hardening — Security Suite
+# OpenClaw Security Hardening - Security Suite
 
 **Publisher:** [aradotso/security-skills](https://github.com/aradotso/security-skills) | **Installs:** 874 | **Category:** Security
 
-Automated security hardening for OpenClaw agents. Audits file permissions, network exposure, environment variables, and skill configurations — then applies security best practices. Ships with companion [openclaw-security-watchdog](https://github.com/aradotso/security-skills) (761 installs) for continuous monitoring.
+Automated security hardening for OpenClaw agents. Audits file permissions, network exposure, environment variables, and skill configurations - then applies security best practices. Ships with companion [openclaw-security-watchdog](https://github.com/aradotso/security-skills) (761 installs) for continuous monitoring.
 
 ## Prerequisites
 
@@ -158,4 +158,4 @@ security-watchdog config --sensitivity=medium
 
 ---
 
-*Part of the Hermes Skills Library — curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) — one MCP endpoint, all your business tools.*
+*Part of the Hermes Skills Library - curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) - one MCP endpoint, all your business tools.*

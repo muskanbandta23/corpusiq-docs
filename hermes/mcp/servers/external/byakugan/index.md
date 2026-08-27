@@ -17,7 +17,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does for Operators
 
-Private, local AI-text analysis for the AI you already use. Runs detection of AI-generated text, identifies exact AI-tell spans, checks for content reuse, and performs grammar analysis — all locally. No data leaves your machine.
+Private, local AI-text analysis for the AI you already use. Runs detection of AI-generated text, identifies exact AI-tell spans, checks for content reuse, and performs grammar analysis - all locally. No data leaves your machine.
 
 ## Installation
 
@@ -49,11 +49,11 @@ npx byakugan
 
 ## Operator Use Cases
 
-1. **Content verification** — verify vendor/partner content authenticity
-2. **Quality assurance** — grammar and style checking for outgoing communications
-3. **Plagiarism detection** — check content reuse across team submissions
-4. **AI policy compliance** — ensure content meets human-authored standards
-5. **Due diligence** — verify prospect/client communications
+1. **Content verification** - verify vendor/partner content authenticity
+2. **Quality assurance** - grammar and style checking for outgoing communications
+3. **Plagiarism detection** - check content reuse across team submissions
+4. **AI policy compliance** - ensure content meets human-authored standards
+5. **Due diligence** - verify prospect/client communications
 
 ## CorpusIQ Angle
 

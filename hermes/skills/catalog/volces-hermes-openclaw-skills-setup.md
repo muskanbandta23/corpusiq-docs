@@ -1,5 +1,5 @@
 ---
-title: "Volces Hermes & OpenClaw Skills — ByteDance Registry"
+title: "Volces Hermes & OpenClaw Skills - ByteDance Registry"
 description: "Install and use the Hermes/OpenClaw skill cluster from skills.volces.com (ByteDance Volces registry mirror): hermes-installer, openclaw-reference"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Volces Hermes & OpenClaw Skills — Setup Guide
+# Volces Hermes & OpenClaw Skills - Setup Guide
 
 **Source:** skills.volces.com registry (mirrored on skills.sh)
 **Category:** Registry / Platform Integrations
-**First Seen:** Mixed — cluster surfaced in the Aug 12, 2026 sweep
+**First Seen:** Mixed - cluster surfaced in the Aug 12, 2026 sweep
 **Security:** Low install counts; treat as Community tier
 
 ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. Nine Hermes/OpenClaw-relevant skills surfaced in the August 12 sweep, including installer and memory tooling not published elsewhere. Detail pages 404 on skills.sh because the skills are indexed from the Volces registry rather than GitHub repos.
@@ -76,16 +76,16 @@ When skills.sh detail pages 404, fetch the skill content from the Volces registr
 
 ## Limitations / Verification
 
-- Install counts are single-digit — all nine skills are Community tier, unvetted at scale
+- Install counts are single-digit - all nine skills are Community tier, unvetted at scale
 - skills.sh detail pages 404; content must be reviewed via the Volces registry before trusting
-- Some skills are mirrors of GitHub-hosted originals — verify the canonical source before use
+- Some skills are mirrors of GitHub-hosted originals - verify the canonical source before use
 - Verify: `npx skills list | grep -i volces` shows installed entries; otherwise check the Volces registry UI
 
 ---
 
 ## Related
 
-- [Discovery Page — Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
 - [Skills Catalog](/hermes/skills/catalog/)
 
 *Powered by CorpusIQ*

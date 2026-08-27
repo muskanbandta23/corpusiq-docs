@@ -1,5 +1,5 @@
 ---
-title: "Pretensor MCP — Knowledge Graphs from Database"
+title: "Pretensor MCP - Knowledge Graphs from Database"
 description: "Integration guide for pretensor-ai/pretensor. Kuzu-backed schema graph from live DB introspection with MCP tools for AI retrieval."
 category: mcp
 tags: [mcp-server, knowledge-graph, database, schema, business-intelligence, hermes-agent]
@@ -12,7 +12,7 @@ robots: "index,follow"
 
 ---
 
-# Pretensor MCP — Knowledge Graphs from Database Introspection
+# Pretensor MCP - Knowledge Graphs from Database Introspection
 
 **Repository:** [pretensor-ai/pretensor](https://github.com/pretensor-ai/pretensor)
 **Stars:** 5 ★ (early stage)
@@ -38,7 +38,7 @@ Pretensor introspects live databases and builds a Kuzu-backed knowledge graph re
 
 ## Why This Matters for Business Operators
 
-Most business operators have no documentation for their database schemas. Pretensor solves the "what data do we actually have" problem — it reads the database, builds a graph, and lets AI agents answer questions like:
+Most business operators have no documentation for their database schemas. Pretensor solves the "what data do we actually have" problem - it reads the database, builds a graph, and lets AI agents answer questions like:
 
 - "Which tables have customer email addresses?"
 - "What's the relationship between orders and subscriptions?"
@@ -140,18 +140,18 @@ hermes mcp list | grep pretensor
 | **Output** | Query results | Knowledge graph |
 | **Use case** | Data retrieval, reporting | Schema exploration, documentation |
 | **Security** | Read-only SQL execution | Schema-only introspection |
-| **Complementary?** | Yes — they solve different problems | |
+| **Complementary?** | Yes - they solve different problems | |
 
 **Verdict:** Pretensor is complementary. Use CorpusIQ DB Connector for running queries; use Pretensor to understand what to query. Together they give agents both the map and the ability to navigate.
 
 ## Limitations
 
-- Early stage (5★) — expect rough edges and limited DB support
-- Read-only schema introspection — cannot modify schemas
+- Early stage (5★) - expect rough edges and limited DB support
+- Read-only schema introspection - cannot modify schemas
 - Large schemas (1000+ tables) may have slow initial graph builds
 - No support for NoSQL databases (MongoDB, DynamoDB)
-- KuzuDB dependency — adds complexity vs. pure-Python solutions
-- No query result caching — repeated queries hit the graph, not the DB
+- KuzuDB dependency - adds complexity vs. pure-Python solutions
+- No query result caching - repeated queries hit the graph, not the DB
 
 ## Troubleshooting
 
@@ -164,6 +164,6 @@ hermes mcp list | grep pretensor
 
 ## Related Guides
 
-- [CorpusIQ Database Connector](/hermes/mcp/connectors/database/) — SQL query execution
-- [SPM Structured Project Memory](/hermes/mcp/servers/external/spm-structured-project-memory/) — Project-level memory graphs
-- [Coding Agent PM MCP](/hermes/mcp/servers/external/coding-agent-pm-mcp/) — Project management via MCP
+- [CorpusIQ Database Connector](/hermes/mcp/connectors/database/) - SQL query execution
+- [SPM Structured Project Memory](/hermes/mcp/servers/external/spm-structured-project-memory/) - Project-level memory graphs
+- [Coding Agent PM MCP](/hermes/mcp/servers/external/coding-agent-pm-mcp/) - Project management via MCP

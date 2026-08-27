@@ -1,6 +1,6 @@
 ---
 title: "SnitchFeed MCP - CorpusIQ Docs"
-description: Intent-based keyword monitoring for LinkedIn, X, Reddit, Hacker News and Bluesky — social listening over MCP with OAuth and 33 tools for sales, marketing and product research.
+description: Intent-based keyword monitoring for LinkedIn, X, Reddit, Hacker News and Bluesky - social listening over MCP with OAuth and 33 tools for sales, marketing and product research.
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [social-listening, keyword-monitoring, lead-generation, linkedin, reddit, 
 
 # SnitchFeed MCP
 
-**Remote MCP server (Streamable HTTP, OAuth)** — SnitchFeed brings intent-based keyword monitoring to AI agents: 33 tools over LinkedIn, X, Reddit, Hacker News, and Bluesky, so an agent can watch for buying signals, competitor mentions, and industry keywords without a human refreshing dashboards. The vendor positions it for sales, marketing, product research, and reporting use cases.
+**Remote MCP server (Streamable HTTP, OAuth)** - SnitchFeed brings intent-based keyword monitoring to AI agents: 33 tools over LinkedIn, X, Reddit, Hacker News, and Bluesky, so an agent can watch for buying signals, competitor mentions, and industry keywords without a human refreshing dashboards. The vendor positions it for sales, marketing, product research, and reporting use cases.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: SnitchFeed (snitchfeed.com)
 
 Social listening has historically meant either paying for an enterprise suite or wiring together brittle scrapers. SnitchFeed collapses that into one OAuth-secured MCP endpoint your agent can query directly: "what are people saying about X this week", "who is asking for a tool like ours on Reddit", "any new HN threads about our category".
 
-**The differentiator is intent**: the monitoring is keyword-based but intent-filtered, so an agent surfaces the comment, thread, or post where someone is actively evaluating or complaining — the moments that turn into leads — rather than raw mention counts. Five-platform coverage (LinkedIn, X, Reddit, Hacker News, Bluesky) means the listening covers both professional and technical communities.
+**The differentiator is intent**: the monitoring is keyword-based but intent-filtered, so an agent surfaces the comment, thread, or post where someone is actively evaluating or complaining - the moments that turn into leads - rather than raw mention counts. Five-platform coverage (LinkedIn, X, Reddit, Hacker News, Bluesky) means the listening covers both professional and technical communities.
 
 ## Tools & Capabilities
 
@@ -65,21 +65,21 @@ First connect opens a browser to the SnitchFeed login; after granting access the
 
 ## Business Relevance
 
-- **Sales teams** get intent signals from the communities where their buyers ask questions — before those buyers raise a hand on a website.
+- **Sales teams** get intent signals from the communities where their buyers ask questions - before those buyers raise a hand on a website.
 - **Marketing operators** can monitor competitor mentions and category keywords across five platforms from one agent prompt.
 - **Product teams** can mine Reddit and HN threads for pain points and feature requests without leaving the research workflow.
 - **Founders** get a standing brand-monitoring loop that reports on breakpoints instead of dashboards.
 
 ## Integration with CorpusIQ
 
-SnitchFeed pairs with CorpusIQ's publishing and lead layers to close the listen-to-act loop. The social listening feeds intent leads into the lead pipeline (HubSpot CRM connector), while GA4 correlation shows whether mention spikes move sessions. On the publishing side it complements Postiz-managed channels: SnitchFeed listens for the conversations, the social cadence engine publishes into them, and YouTube/TikTok connectors measure the response. It also strengthens the organic discovery workflow — keyword monitoring surfaces the exact threads where a helpful-first answer belongs.
+SnitchFeed pairs with CorpusIQ's publishing and lead layers to close the listen-to-act loop. The social listening feeds intent leads into the lead pipeline (HubSpot CRM connector), while GA4 correlation shows whether mention spikes move sessions. On the publishing side it complements Postiz-managed channels: SnitchFeed listens for the conversations, the social cadence engine publishes into them, and YouTube/TikTok connectors measure the response. It also strengthens the organic discovery workflow - keyword monitoring surfaces the exact threads where a helpful-first answer belongs.
 
 ## Limitations
 
-- Brand new — no track record yet; listing appeared August 17, 2026.
-- OAuth-only — no API-key alternative published, so automation must hold a browser-authorized token.
+- Brand new - no track record yet; listing appeared August 17, 2026.
+- OAuth-only - no API-key alternative published, so automation must hold a browser-authorized token.
 - Tool-level documentation is thin; the 33 tools are described by capability area, not enumerated.
-- Pricing is not published on the docs page — account plans only.
+- Pricing is not published on the docs page - account plans only.
 - Five platforms only; no TikTok, Instagram, or forum coverage beyond the listed set.
 
 ## See Also

@@ -1,6 +1,6 @@
 ---
 title: wiki-history-ingest Setup Guide
-description: Complete setup guide for wiki-history-ingest — unified agent history ingestion router for Hermes, OpenClaw, Claude, Codex, Copilot, and Pi agents into an Obsidian wiki vault.
+description: Complete setup guide for wiki-history-ingest - unified agent history ingestion router for Hermes, OpenClaw, Claude, Codex, Copilot, and Pi agents into an Obsidian wiki vault.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wiki-history-ingest-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -35,7 +35,7 @@ Unified entrypoint for ingesting agent conversation history into an Obsidian wik
 npx skills add ar9av/obsidian-wiki --skill wiki-history-ingest
 ```
 
-The skill installs to your agent's skills directory. It works as a thin router — it dispatches to destination skills (`hermes-history-ingest`, `openclaw-history-ingest`, etc.) which must also be installed.
+The skill installs to your agent's skills directory. It works as a thin router - it dispatches to destination skills (`hermes-history-ingest`, `openclaw-history-ingest`, etc.) which must also be installed.
 
 ### Install destination skills
 
@@ -102,7 +102,7 @@ The router detects `~/.hermes` in the path and dispatches to `hermes-history-ing
 
 **Agent session archival:** After each Hermes session, ingest the conversation history into the CorpusIQ knowledge wiki for long-term search and retrieval.
 
-**Cross-agent context synthesis:** Ingest history from Hermes, Claude Code, and Codex into a unified vault — then use `wiki-synthesize` to find patterns across agent sessions.
+**Cross-agent context synthesis:** Ingest history from Hermes, Claude Code, and Codex into a unified vault - then use `wiki-synthesize` to find patterns across agent sessions.
 
 **Compliance and audit:** Maintain a searchable archive of all agent interactions for governance and audit requirements.
 
@@ -114,19 +114,19 @@ The router detects `~/.hermes` in the path and dispatches to `hermes-history-ing
 |---|---|
 | `Skill not found: hermes-history-ingest` | Install the destination skill first: `npx skills add ar9av/obsidian-wiki --skill hermes-history-ingest` |
 | `No such file: ~/.hermes` | Verify Hermes is installed and has generated session data at the standard path |
-| Router dispatches to wrong skill | Use explicit subcommand instead of `auto` — e.g., `/wiki-history-ingest hermes` |
+| Router dispatches to wrong skill | Use explicit subcommand instead of `auto` - e.g., `/wiki-history-ingest hermes` |
 | Empty vault after ingest | Check that the destination skill's Python dependencies are installed (`pip install -r requirements.txt` in the obsidian-wiki repo) |
 
 ---
 
 ## Related Skills
 
-- [hermes-history-ingest](/hermes/skills/catalog/hermes-history-ingest-setup/) — Hermes-specific history ingestion
-- [openclaw-history-ingest](/hermes/skills/catalog/openclaw-history-ingest-setup/) — OpenClaw-specific history ingestion
-- [wiki-synthesize](https://skills.sh/ar9av/obsidian-wiki) — Cross-session pattern synthesis
-- [wiki-query](https://skills.sh/ar9av/obsidian-wiki) — Natural language vault queries
+- [hermes-history-ingest](/hermes/skills/catalog/hermes-history-ingest-setup/) - Hermes-specific history ingestion
+- [openclaw-history-ingest](/hermes/skills/catalog/openclaw-history-ingest-setup/) - OpenClaw-specific history ingestion
+- [wiki-synthesize](https://skills.sh/ar9av/obsidian-wiki) - Cross-session pattern synthesis
+- [wiki-query](https://skills.sh/ar9av/obsidian-wiki) - Natural language vault queries
 
 ---
 
 *← [Skills Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

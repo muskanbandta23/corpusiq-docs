@@ -1,5 +1,5 @@
 ---
-title: "OpenClaw Graph New Skills — Procedural Generation,"
+title: "OpenClaw Graph New Skills - Procedural Generation,"
 description: "Install and use three newly catalogued skills from alphaonedev/openclaw-graph: procedural-generation (noise terrains, BSP dungeons), arkit-advanced (scene"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Graph — New Skills Setup Guide
+# OpenClaw Graph - New Skills Setup Guide
 
 **Source:** [alphaonedev/openclaw-graph](https://skills.sh/alphaonedev/openclaw-graph) (repo: 311 skills, 19.7K installs)
 **GitHub:** [github.com/alphaonedev/openclaw-graph](https://github.com/alphaonedev/openclaw-graph) (6⭐)
@@ -34,7 +34,7 @@ npx skills add https://github.com/alphaonedev/openclaw-graph --skill testing-int
 
 ### procedural-generation (50 installs)
 
-Programmatic game content generation — terrains and levels via Perlin noise and rule-based systems.
+Programmatic game content generation - terrains and levels via Perlin noise and rule-based systems.
 
 | Capability | Detail |
 |---|---|
@@ -102,7 +102,7 @@ Set `$API_BASE_URL` in your test environment and structure tests to send request
 
 ## Limitations / Verification
 
-- `testing-integration` carries a Snyk Warn — pin dependencies and review before production CI use
+- `testing-integration` carries a Snyk Warn - pin dependencies and review before production CI use
 - Repo-level quality varies across its 311 skills; these three have clean Trust Hub and Socket records
 - Verify: `openclaw run procedural-generation --help` returns the CLI surface; `npx skills list | grep -E "procedural|arkit|testing-integration"` shows three entries
 
@@ -110,7 +110,7 @@ Set `$API_BASE_URL` in your test environment and structure tests to send request
 
 ## Related
 
-- [Discovery Page — Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
 - [Skills Catalog](/hermes/skills/catalog/)
 
 *Powered by CorpusIQ*

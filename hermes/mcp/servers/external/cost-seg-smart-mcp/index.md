@@ -11,7 +11,7 @@ tags: [cost-segregation, real-estate, tax, depreciation, accounting, finance, cp
 
 # Cost Seg Smart MCP
 
-**Remote MCP server (Streamable HTTP, no auth)** — quotes cost segregation studies for US real estate and generates a Stripe Checkout link the buyer can pay. Built for CPAs, fractional CFOs, real estate investors, and tax-software workflows. Powers W-2 + short-term rental loophole workflows, multifamily and commercial tax acceleration, and Form 3115 lookback studies.
+**Remote MCP server (Streamable HTTP, no auth)** - quotes cost segregation studies for US real estate and generates a Stripe Checkout link the buyer can pay. Built for CPAs, fractional CFOs, real estate investors, and tax-software workflows. Powers W-2 + short-term rental loophole workflows, multifamily and commercial tax acceleration, and Form 3115 lookback studies.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: Cost Seg Smart (costsegsmart.com)
 
 Cost segregation reclassifies parts of a building from the default 39- or 27.5-year depreciation life into 5- and 15-year classes, pulling depreciation forward into the years an owner is most likely to need it. The catch has always been the sales process: quoting requires an engineer's time before the buyer knows whether the study pays for itself.
 
-**The MCP turns the feasibility question into one tool call.** A $750,000 short-term rental at a 37% bracket returns a $995 study cost against an estimated $184,500 year-one deduction — $68,265 in year-one tax savings, a 69x ROI on the fee. The quote is read-only, idempotent, and free to call.
+**The MCP turns the feasibility question into one tool call.** A $750,000 short-term rental at a 37% bracket returns a $995 study cost against an estimated $184,500 year-one deduction - $68,265 in year-one tax savings, a 69x ROI on the fee. The quote is read-only, idempotent, and free to call.
 
 ## Tools & Capabilities
 
@@ -36,7 +36,7 @@ Cost segregation reclassifies parts of a building from the default 39- or 27.5-y
 | `get_cost_seg_quote` | Returns study cost, estimated year-1 accelerated depreciation, and (given a tax bracket) year-1 tax savings and ROI on the fee |
 | `get_cost_seg_payment_link` | Generates a Stripe Checkout URL for the quoted study |
 
-Covers 21 property types — single-family, short-term rentals, condos, ADUs, duplex through fourplex, multifamily, office, retail, industrial, mixed-use, medical office, and restaurant.
+Covers 21 property types - single-family, short-term rentals, condos, ADUs, duplex through fourplex, multifamily, office, retail, industrial, mixed-use, medical office, and restaurant.
 
 ## Installation
 
@@ -72,10 +72,10 @@ Cost Seg Smart pairs with the CorpusIQ accounting stack: QuickBooks holds the fi
 
 ## Limitations
 
-- Estimates based on industry-standard construction cost data; actual results vary with property condition and finishes — not tax advice
+- Estimates based on industry-standard construction cost data; actual results vary with property condition and finishes - not tax advice
 - US properties only
 - Study pricing is commercial (from $995)
-- Brand new — no track record yet
+- Brand new - no track record yet
 
 ## See Also
 

@@ -1,22 +1,22 @@
 ---
-title: "Emblem Company Agent Skills — Portfolio & Market Research Setup"
-description: "emblemcompany/agent-skills — 9 skills, 78.6K installs: portfolio tracking, market research, AI agent wallet, and token operations from the Emblem platform team."
+title: "Emblem Company Agent Skills - Portfolio & Market Research Setup"
+description: "emblemcompany/agent-skills - 9 skills, 78.6K installs: portfolio tracking, market research, AI agent wallet, and token operations from the Emblem platform team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/emblem-company-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "portfolio", "market research", "fintech"]
 ---
 
-# Emblem Company Agent Skills — Setup Guide
+# Emblem Company Agent Skills - Setup Guide
 
 **Source:** [emblemcompany/agent-skills](https://skills.sh/emblemcompany/agent-skills)
 **GitHub:** [emblemcompany/agent-skills](https://github.com/emblemcompany/agent-skills)
 **Skills:** 9 skills · 78.6K total installs
 **Category:** Fintech / Portfolio & Market Research
 **First Seen:** catalogued August 15, 2026 evening sweep
-**Quality Tier:** 🟡 Trusted (crypto wallet and token-trading skills — verify transaction boundaries before any autonomous use)
+**Quality Tier:** 🟡 Trusted (crypto wallet and token-trading skills - verify transaction boundaries before any autonomous use)
 
-Emblem's agent skills cover portfolio tracking, market research, an AI agent wallet, token swaps, and DeFi yield — the operational layer for an agent that manages crypto positions. Queued in prior sweeps at an 8.8K API-sum estimate; the publisher page shows 78.6K across 9 skills — a 9x jump, the second-largest underestimate of this sweep.
+Emblem's agent skills cover portfolio tracking, market research, an AI agent wallet, token swaps, and DeFi yield - the operational layer for an agent that manages crypto positions. Queued in prior sweeps at an 8.8K API-sum estimate; the publisher page shows 78.6K across 9 skills - a 9x jump, the second-largest underestimate of this sweep.
 
 ---
 
@@ -32,7 +32,7 @@ npx skills add emblemcompany/agent-skills
 |---|---|
 | **Node.js + npx** | For the skill installer |
 | **Emblem platform access** | For wallet, portfolio, and trading skills |
-| **Funded wallet** | For any live token operations — and strong guardrails |
+| **Funded wallet** | For any live token operations - and strong guardrails |
 
 ## What It Provides
 
@@ -61,12 +61,12 @@ npx skills add emblemcompany/agent-skills
 | **Market research pattern** | emblem-market-research as a reference workflow for our own research sweeps |
 | **Portfolio reporting** | Tracker-style aggregation for investment reporting |
 | **Fintech client work** | Reference architecture for clients building agent-managed finance products |
-| **Guardrail study** | A real-world case of agent wallet skills — useful when advising on AI finance safety |
+| **Guardrail study** | A real-world case of agent wallet skills - useful when advising on AI finance safety |
 
 ## Limitations / Verification
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
-- Wallet and token-swap skills can move real value — never run them without explicit transaction limits and human approval
+- Wallet and token-swap skills can move real value - never run them without explicit transaction limits and human approval
 - Emblem platform account and possibly a funded wallet required for full functionality
 
 ```bash

@@ -1,6 +1,6 @@
 ---
-title: "Capital.com MCP — CFD Trading for AI Agents"
-description: "Official MCP server for Capital.com — CFD trading across forex, indices, commodities, shares, and crypto. 4 GitHub stars, verified."
+title: "Capital.com MCP - CFD Trading for AI Agents"
+description: "Official MCP server for Capital.com - CFD trading across forex, indices, commodities, shares, and crypto. 4 GitHub stars, verified."
 category: mcp
 tags: [mcp-server, trading, finance, cfd, capital-com]
 source: mcp.so
@@ -68,14 +68,14 @@ Capital.com MCP adds trading capabilities alongside CorpusIQ's financial connect
 
 ## Limitations
 
-- CFDs are high-risk — not suitable for all operators
+- CFDs are high-risk - not suitable for all operators
 - Requires Capital.com account and compliance with their terms
-- 81.31% of retail accounts lose money — ensure agent guardrails
-- Only 4 stars — relatively new listing
+- 81.31% of retail accounts lose money - ensure agent guardrails
+- Only 4 stars - relatively new listing
 
 ## See Also
 
-- [[index]] — Full external MCP catalog
-- Sugra API MCP — Comprehensive business data MCP
-- Fintel MCP — Financial data MCP
-- AlphaVantage MCP — Stock market data MCP
+- [[index]] - Full external MCP catalog
+- Sugra API MCP - Comprehensive business data MCP
+- Fintel MCP - Financial data MCP
+- AlphaVantage MCP - Stock market data MCP

@@ -1,5 +1,5 @@
 ---
-title: Hermes Dojo — Self-Improvement System Setup Guide
+title: Hermes Dojo - Self-Improvement System Setup Guide
 description: Install and configure the Hermes Dojo self-improvement system that monitors agent performance, finds weak skills, fixes them via self-evolution, and reports results.
 publisher: yonkoo11/hermes-dojo
 stars: 138
@@ -12,11 +12,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Dojo — Self-Improvement System Setup Guide
+# Hermes Dojo - Self-Improvement System Setup Guide
 
-The Hermes Dojo is a self-improvement system for Hermes Agent. It monitors agent performance, identifies weak skills, applies fixes through self-evolution, and generates detailed improvement reports. Think of it as a personal trainer for your Hermes agent — constantly watching, evaluating, and strengthening.
+The Hermes Dojo is a self-improvement system for Hermes Agent. It monitors agent performance, identifies weak skills, applies fixes through self-evolution, and generates detailed improvement reports. Think of it as a personal trainer for your Hermes agent - constantly watching, evaluating, and strengthening.
 
-**Publisher:** [yonkoo11/hermes-dojo](https://github.com/yonkoo11/hermes-dojo) — 138⭐  
+**Publisher:** [yonkoo11/hermes-dojo](https://github.com/yonkoo11/hermes-dojo) - 138⭐  
 **Source:** skills.sh  
 **Quality Tier:** 🔵 Community (untested by CorpusIQ)
 
@@ -28,7 +28,7 @@ The Hermes Dojo is a self-improvement system for Hermes Agent. It monitors agent
 - **Skill Gap Detection:** Identifies weak or underperforming skills in the agent's repertoire
 - **Self-Evolution:** Automatically patches and improves skills that show deficiencies
 - **Improvement Reports:** Generates detailed reports on what was fixed and how performance changed
-- **Training Loop:** Runs in a continuous improvement cycle — monitor → detect → fix → report
+- **Training Loop:** Runs in a continuous improvement cycle - monitor → detect → fix → report
 
 ---
 
@@ -75,7 +75,7 @@ Create `~/.hermes/dojo/config.yaml`:
 ```yaml
 # Hermes Dojo Configuration
 profile: corpusiq                    # Profile to monitor and improve
-check_interval: 3600                 # How often to check (seconds) — hourly
+check_interval: 3600                 # How often to check (seconds) - hourly
 improvement_threshold: 0.7          # Skill score below this triggers improvement
 max_auto_fixes_per_cycle: 3         # Limit automatic changes per cycle
 report_detail: full                 # full | summary | metrics
@@ -100,7 +100,7 @@ This performs a one-time audit of all skills in the configured profile, scores t
 hermes skill invoke hermes-dojo --action watch
 ```
 
-Runs the Dojo in continuous mode — it monitors, detects weaknesses, applies fixes, and reports on the configured interval.
+Runs the Dojo in continuous mode - it monitors, detects weaknesses, applies fixes, and reports on the configured interval.
 
 ### Generate a Report
 
@@ -117,9 +117,9 @@ Generates a summary report of the last improvement cycle.
 When the Dojo runs an improvement cycle, it:
 
 1. **Audits** all installed skills for performance metrics
-2. **Scores** each skill on a 0.0–1.0 scale based on error rates, completion times, and success patterns
+2. **Scores** each skill on a 0.0-1.0 scale based on error rates, completion times, and success patterns
 3. **Identifies** skills below the configured threshold
-4. **Attemts fixes** — reads the skill's SKILL.md, identifies gaps, and proposes improvements
+4. **Attemts fixes** - reads the skill's SKILL.md, identifies gaps, and proposes improvements
 5. **Applies changes** if confidence is high enough
 6. **Reports** what was changed and the before/after scores
 
@@ -152,10 +152,10 @@ For CorpusIQ agent workflows, the Hermes Dojo can:
 ### Recommended Cron Setup
 
 ```bash
-# Weekly skill audit — Monday 6 AM
+# Weekly skill audit - Monday 6 AM
 0 6 * * 1 hermes skill invoke hermes-dojo --action audit --profile corpusiq
 
-# Daily improvement report — 6 PM
+# Daily improvement report - 6 PM
 0 18 * * * hermes skill invoke hermes-dojo --action report --profile corpusiq
 ```
 
@@ -191,9 +191,9 @@ ls ~/.hermes/dojo/reports/
 
 ## Related Skills
 
-- [hermes-agent-self-evolution](/hermes/skills/catalog/hermes-agent-self-evolution-setup/) — Auto-learning framework
-- [skill-vetter](/hermes/skills/catalog/skill-vetter-setup/) — Security audit for skills
-- [skill-creator](/hermes/skills/catalog/skill-creator-setup) — Anthropic's skill creation framework
+- [hermes-agent-self-evolution](/hermes/skills/catalog/hermes-agent-self-evolution-setup/) - Auto-learning framework
+- [skill-vetter](/hermes/skills/catalog/skill-vetter-setup/) - Security audit for skills
+- [skill-creator](/hermes/skills/catalog/skill-creator-setup) - Anthropic's skill creation framework
 
 ---
 

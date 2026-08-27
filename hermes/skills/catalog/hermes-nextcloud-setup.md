@@ -1,6 +1,6 @@
 ---
 title: Hermes Nextcloud Integration Setup Guide
-description: Install and configure adnw-vinc/hermes-nextcloud — Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.
+description: Install and configure adnw-vinc/hermes-nextcloud - Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.
 category: integration
 publisher: adnw-vinc
 maturity: beta
@@ -12,18 +12,18 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Nextcloud Integration — Setup Guide
+# Hermes Nextcloud Integration - Setup Guide
 
-Nextcloud integration for Hermes Agent by [adnw-vinc](https://github.com/adnw-vinc/hermes-nextcloud). Bridges Nextcloud's file storage, notes, calendar, and contacts into Hermes — enabling agents to operate on self-hosted cloud data without third-party services.
+Nextcloud integration for Hermes Agent by [adnw-vinc](https://github.com/adnw-vinc/hermes-nextcloud). Bridges Nextcloud's file storage, notes, calendar, and contacts into Hermes - enabling agents to operate on self-hosted cloud data without third-party services.
 
 ## What It Provides
 
-- **File operations** — browse, read, write, and share files via WebDAV
-- **Notes** — create/edit Nextcloud Notes with Markdown support
-- **Calendar** — read/create/modify events via CalDAV
-- **Contacts** — search and manage contacts via CardDAV
-- **Talk** — send messages via Nextcloud Talk API
-- **Share links** — create and manage public/private share links
+- **File operations** - browse, read, write, and share files via WebDAV
+- **Notes** - create/edit Nextcloud Notes with Markdown support
+- **Calendar** - read/create/modify events via CalDAV
+- **Contacts** - search and manage contacts via CardDAV
+- **Talk** - send messages via Nextcloud Talk API
+- **Share links** - create and manage public/private share links
 
 ## Installation
 
@@ -95,7 +95,7 @@ hermes chat -q "List my Nextcloud notes"
 ## Pitfalls
 
 - **App password required**: Nextcloud's main password may not work with WebDAV if 2FA is enabled. Always generate an app password.
-- **Self-signed certificates**: If using a self-signed cert, set `verify_ssl: false` — but only for internal/development deployments.
+- **Self-signed certificates**: If using a self-signed cert, set `verify_ssl: false` - but only for internal/development deployments.
 - **WebDAV rate limiting**: Nextcloud may throttle rapid file operations. Use batch operations where possible.
 - **CalDAV timezone**: Ensure the Nextcloud server and Hermes host are in the same timezone or timezone-aware.
 - **File locking**: WebDAV locks are not automatically released on session timeout. Implement a lock timeout.

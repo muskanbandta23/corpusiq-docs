@@ -1,5 +1,5 @@
 ---
-title: "MCP Cron Sweep — July 23, 2026"
+title: "MCP Cron Sweep - July 23, 2026"
 description: "Automated cron sweep of mcp.so and mcpservers.org. 43 new servers identified, 1 business-operator guide created."
 category: mcp-sweep
 tags: [mcp-sweep, cron, discovery]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Cron Sweep — July 23, 2026
+# MCP Cron Sweep - July 23, 2026
 
 **Sources:** mcp.so (22,680+), mcpservers.org (10,139+)
 **Previous sweep:** [July 22, 2026 (evening)](/hermes/mcp/sweeps/sweep-july22-2026-evening/)
@@ -17,17 +17,17 @@ robots: "index,follow"
 
 ## Methodology
 
-1. **mcpservers.org/all** — extracted JSON-LD `itemListElement` with 30 newest servers
-2. **mcp.so/feed** — extracted 30 h3 blocks with names and descriptions
-3. **mcp.so server detail pages** — JSON-LD extraction for descriptions and categories
-4. **Cross-reference** — deduped against 206 existing server slugs
-5. **Business relevance filter** — only operator-relevant servers get full guides
+1. **mcpservers.org/all** - extracted JSON-LD `itemListElement` with 30 newest servers
+2. **mcp.so/feed** - extracted 30 h3 blocks with names and descriptions
+3. **mcp.so server detail pages** - JSON-LD extraction for descriptions and categories
+4. **Cross-reference** - deduped against 206 existing server slugs
+5. **Business relevance filter** - only operator-relevant servers get full guides
 
 ## Headline Finds
 
 | Server | Category | Why It Matters | Guide |
 |--------|----------|----------------|-------|
-| **Fullstory MCP Plugin** | Analytics / CX | Official MCP from Fullstory — behavioral analytics, session data, funnel metrics for AI agents. Beta program. Complements Subtext. | [Guide →](/hermes/mcp/servers/external/fullstory-mcp/) |
+| **Fullstory MCP Plugin** | Analytics / CX | Official MCP from Fullstory - behavioral analytics, session data, funnel metrics for AI agents. Beta program. Complements Subtext. | [Guide →](/hermes/mcp/servers/external/fullstory-mcp/) |
 
 ## Full Discovery List
 
@@ -42,13 +42,13 @@ Capital.com MCP (capital-com-mcp), Goalie Trademark Search MCP, FreshBooks MCP, 
 
 ### Integration Guides Created
 
-1. **Fullstory MCP Plugin** (`fullstory-mcp/index.md`) — 5,046 bytes. Official Fullstory behavioral analytics MCP. Covers session query, funnel analysis, CX insights, setup for Claude Code/Cursor, CorpusIQ integration strategy.
+1. **Fullstory MCP Plugin** (`fullstory-mcp/index.md`) - 5,046 bytes. Official Fullstory behavioral analytics MCP. Covers session query, funnel analysis, CX insights, setup for Claude Code/Cursor, CorpusIQ integration strategy.
 
 ## Key Observations
 
 - **Fullstory has two MCP products:** Subtext (agent-native session replay, already cataloged) and the main Fullstory MCP Plugin (behavioral analytics platform). Complementary but distinct.
-- **GitHub API search broken:** Returned 0 results (spammy flag) — relied on mcp.so/feed and individual repo lookups instead.
-- **Web search unavailable:** Firecrawl API key not configured on this host — all discovery via direct curl to MCP directories.
+- **GitHub API search broken:** Returned 0 results (spammy flag) - relied on mcp.so/feed and individual repo lookups instead.
+- **Web search unavailable:** Firecrawl API key not configured on this host - all discovery via direct curl to MCP directories.
 - **Taplio** identified as a potentially high-value LinkedIn MCP tool but no detail page found on mcp.so or mcpservers.org. Worth investigating in future sweeps.
 
 ## CorpusIQ Angle

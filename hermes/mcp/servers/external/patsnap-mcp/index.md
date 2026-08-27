@@ -1,5 +1,5 @@
 ---
-title: "Patsnap Patent Literature Search MCP — Global IP"
+title: "Patsnap Patent Literature Search MCP - Global IP"
 description: "Professional MCP tool for searching Patsnap's global patent and literature databases using natural language, semantic, or keyword queries"
 category: mcp
 tags: [mcp-server, patent-search, ip-research, competitive-intelligence, literature-search]
@@ -16,7 +16,7 @@ last_updated: "2026-08-12"
 
 # Patsnap Patent Literature Search MCP
 
-**Professional MCP server** for searching Patsnap's global patent and literature databases. Supports natural language, semantic, and keyword queries with precise filtering. Returns bibliographic data in Markdown format — ideal for AI agent consumption.
+**Professional MCP server** for searching Patsnap's global patent and literature databases. Supports natural language, semantic, and keyword queries with precise filtering. Returns bibliographic data in Markdown format - ideal for AI agent consumption.
 
 ## Why It Matters for Operators
 
@@ -79,13 +79,13 @@ Patsnap MCP pairs with CorpusIQ for operator workflows:
 ## Limitations
 
 - Requires Patsnap subscription/account (enterprise pricing)
-- New MCP server (July 22, 2026) — early-stage, API may evolve
-- Patent data is inherently complex — agents may need guidance on search strategy
+- New MCP server (July 22, 2026) - early-stage, API may evolve
+- Patent data is inherently complex - agents may need guidance on search strategy
 - Not all jurisdictions may have full-text searchable patents
 
 ## See Also
 
-- [[index]] — Full external MCP catalog
-- Datanexus MCP — Public data intelligence (patents, contracts, vulnerabilities)
-- Sugra API MCP — Comprehensive business data MCP
-- SAM.gov MCP — Government contracting MCP
+- [[index]] - Full external MCP catalog
+- Datanexus MCP - Public data intelligence (patents, contracts, vulnerabilities)
+- Sugra API MCP - Comprehensive business data MCP
+- SAM.gov MCP - Government contracting MCP

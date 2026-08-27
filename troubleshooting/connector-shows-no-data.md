@@ -5,8 +5,8 @@ description: "Your connector shows connected but returns no data. This guide wal
 # Connector is green but answers come back empty
 
 The connector status panel shows the connector as connected. Green
-check. But when you ask a question — "show me last week's Shopify
-orders" — Claude or ChatGPT says there's no data, or the answer is
+check. But when you ask a question - "show me last week's Shopify
+orders" - Claude or ChatGPT says there's no data, or the answer is
 oddly thin.
 
 This is almost always one of four things.
@@ -18,7 +18,7 @@ personal Google account and a work Google account. You have an old
 HubSpot portal you forgot about. The OAuth flow grabbed the wrong one.
 
 **How to check:** Disconnect the connector. Reconnect. On the vendor
-consent screen, look carefully at which account is being authorized —
+consent screen, look carefully at which account is being authorized -
 account name, email address, store URL. Make sure it's the one with
 your actual business data.
 
@@ -32,7 +32,7 @@ you'll genuinely get nothing back. Or if you ask "show me last week's
 GA4 traffic" and the GA4 property only started collecting two days ago,
 last week is empty.
 
-**How to check:** Ask the same question with a wider date range — "last
+**How to check:** Ask the same question with a wider date range - "last
 30 days" or "last 90 days." If data shows up, the connection is fine;
 the original window was just empty.
 

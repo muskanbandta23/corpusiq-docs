@@ -1,5 +1,5 @@
 ---
-title: Browser-Use — AI-Powered Browser Automation for Anti-Bot Sites
+title: Browser-Use - AI-Powered Browser Automation for Anti-Bot Sites
 description: Set up browser-use (97K+ GitHub stars) for AI vision-driven browser automation. Navigate, fill forms, and extract data from LinkedIn, TikTok, Product Hunt, and Cloudflare-protected sites that block traditional automation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-use-automation-setup/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Browser-Use Automation — Setup Guide
+# Browser-Use Automation - Setup Guide
 
-**Source:** [browser-use/browser-use](https://github.com/browser-use/browser-use) — 97,000+ ★ | Python
+**Source:** [browser-use/browser-use](https://github.com/browser-use/browser-use) - 97,000+ ★ | Python
 **Category:** Automation / Browser-Use
 **Quality Tier:** 🟢 Production (97K+ GitHub stars, active development)
 
@@ -107,9 +107,9 @@ A successful smoke test: run the Quick Start against a public site and confirm t
 ## Notes
 
 - **Production-grade**: 97K+ GitHub stars, used across the AI automation ecosystem
-- **Vision-first**: No CSS selectors needed — the model sees the page like a human
+- **Vision-first**: No CSS selectors needed - the model sees the page like a human
 - **Best for**: Anti-bot-defended platforms, dynamic SPAs, CAPTCHA flows
-- **Complementary**: Use alongside plain Playwright — browser-use for vision tasks, Playwright for cheap API-level control
+- **Complementary**: Use alongside plain Playwright - browser-use for vision tasks, Playwright for cheap API-level control
 - **Related**: See [Playwright Social Media Automation](/hermes/skills/catalog/playwright-social-media-automation-setup) and [Midscene](/hermes/skills/catalog/midscene-skills-setup)
 
 *Setup guide by CorpusIQ. Source: [browser-use/browser-use](https://github.com/browser-use/browser-use).*

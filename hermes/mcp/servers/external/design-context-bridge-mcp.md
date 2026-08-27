@@ -1,6 +1,6 @@
 ---
-title: "Design Context Bridge MCP — Figma-to-Code for Hermes"
-description: "Turn any AI agent into a frontend developer that reads Figma files natively. Components, colors, type scale, routes, icons — faithful design-to-code, not"
+title: "Design Context Bridge MCP - Figma-to-Code for Hermes"
+description: "Turn any AI agent into a frontend developer that reads Figma files natively. Components, colors, type scale, routes, icons - faithful design-to-code, not"
 category: mcp
 tags: [mcp-server, design, figma, frontend, design-to-code, components, product-design]
 last_updated: 2026-07-08
@@ -13,13 +13,13 @@ robots: "index,follow"
 
 ## Overview
 
-Design Context Bridge (`design-context-bridge`) turns AI coding agents into frontend developers that can actually read Figma files — not guess from screenshots. When you hand a developer a Figma file and say "build this," they don't just copy visible pixels. They open the file, identify components, read exact colors and type scales, infer routes, figure out hover and disabled states, and export icons. This MCP server gives AI agents that same access, faithfully — not approximately.
+Design Context Bridge (`design-context-bridge`) turns AI coding agents into frontend developers that can actually read Figma files - not guess from screenshots. When you hand a developer a Figma file and say "build this," they don't just copy visible pixels. They open the file, identify components, read exact colors and type scales, infer routes, figure out hover and disabled states, and export icons. This MCP server gives AI agents that same access, faithfully - not approximately.
 
-**Key advantage**: Bridges the biggest gap in AI-assisted frontend development — agents go from "approximating what a design looks like" to "reading the actual design system."
+**Key advantage**: Bridges the biggest gap in AI-assisted frontend development - agents go from "approximating what a design looks like" to "reading the actual design system."
 
 ## Key Features
 
-- **Figma file reading**: Direct Figma API access — read layers, components, styles
+- **Figma file reading**: Direct Figma API access - read layers, components, styles
 - **Component identification**: Automatically detect components, variants, and instances
 - **Design tokens extraction**: Extract colors, type scale, spacing, and shadows as structured tokens
 - **Route inference**: Identify screens and infer navigation/routing structure from the design
@@ -63,7 +63,7 @@ hermes mcp add design-context-bridge --command "node" --args "path/to/design-con
 
 | Tool | Description |
 |------|-------------|
-| `read_figma_file` | Read a Figma file's full structure — layers, components, styles |
+| `read_figma_file` | Read a Figma file's full structure - layers, components, styles |
 | `get_components` | Extract all components with variants, states, and properties |
 | `get_design_tokens` | Export colors, typography, spacing, and shadows as structured tokens |
 | `infer_routes` | Identify screens and generate navigation structure |
@@ -73,17 +73,17 @@ hermes mcp add design-context-bridge --command "node" --args "path/to/design-con
 
 ## Use Cases for Operators
 
-- **Rapid prototyping**: Give your agent a Figma URL and ask it to build a working frontend — it reads the actual design, not a screenshot
+- **Rapid prototyping**: Give your agent a Figma URL and ask it to build a working frontend - it reads the actual design, not a screenshot
 - **Design system extraction**: Extract your entire design system (colors, type, spacing, components) as code-ready tokens in one command
-- **Design QA**: "Check if the deployed frontend matches the Figma — which components have wrong colors or spacing?"
+- **Design QA**: "Check if the deployed frontend matches the Figma - which components have wrong colors or spacing?"
 - **Icon pipeline**: Export all icons from Figma to your codebase with correct names, sizes, and formats automatically
 
 ## Why Operators Need This
 
-The design-to-code handoff is where most product velocity leaks. Designers build pixel-perfect Figma files, developers approximate from screenshots, and the result is a mismatch that takes cycles to fix. Design Context Bridge eliminates the approximation — your AI agent reads the Figma file as faithfully as a human developer would, cutting implementation time and design drift.
+The design-to-code handoff is where most product velocity leaks. Designers build pixel-perfect Figma files, developers approximate from screenshots, and the result is a mismatch that takes cycles to fix. Design Context Bridge eliminates the approximation - your AI agent reads the Figma file as faithfully as a human developer would, cutting implementation time and design drift.
 
 ---
 
-*Discovered via mcpservers.org — July 4, 2026*
+*Discovered via mcpservers.org - July 4, 2026*
 *GitHub: [CristinaFores/design-context-bridge](https://github.com/CristinaFores/design-context-bridge)*
 *← [External MCP Catalog](/hermes/mcp/servers/external/) →*

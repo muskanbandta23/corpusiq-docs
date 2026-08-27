@@ -1,5 +1,5 @@
 ---
-title: Remotion Best Practices — Setup Guide for Hermes Video Automation
+title: Remotion Best Practices - Setup Guide for Hermes Video Automation
 description: Install and use remotion-dev/skills@remotion-best-practices (430K installs) for programmatic video creation in Hermes. Composition patterns, rendering optimization, audio sync, and caption generation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/remotion-best-practices-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Remotion Best Practices — Setup Guide
+# Remotion Best Practices - Setup Guide
 
 **Source:** [remotion-dev/skills](https://github.com/remotion-dev/skills) (430,200 installs)
 **Category:** Video Production
@@ -38,8 +38,8 @@ npx skills list | grep remotion-best-practices
 | **Node.js** | 18+ (for Remotion runtime) |
 | **FFmpeg** | Required for rendering and audio processing |
 | **Remotion** | `npm install remotion @remotion/cli` in your project |
-| **Hermes Agent** | Any version — CLI invocation |
-| **HyperFrames** | Optional — if using CorpusIQ's video pipeline |
+| **Hermes Agent** | Any version - CLI invocation |
+| **HyperFrames** | Optional - if using CorpusIQ's video pipeline |
 
 Install FFmpeg if missing:
 ```bash
@@ -135,7 +135,7 @@ const time = frame / fps; // Doesn't account for SRT millisecond offsets
 
 **UGC Video Pipeline:** CorpusIQ's daily video series uses HyperFrames (Remotion-based). These best practices prevent frame drops, audio drift, and memory leaks that caused earlier automation failures.
 
-**Content Production:** The caption generation patterns directly apply to TikTok/Instagram Reels — word-level timing with animation presets for engagement.
+**Content Production:** The caption generation patterns directly apply to TikTok/Instagram Reels - word-level timing with animation presets for engagement.
 
 **Rendering at Scale:** The concurrency and caching optimizations reduce render costs by 60-80% for the daily video pipeline (15 videos/day across 3 platforms).
 
@@ -143,6 +143,6 @@ const time = frame / fps; // Doesn't account for SRT millisecond offsets
 
 ## See Also
 
-- [HyperFrames Setup](/hermes/skills/catalog/hyperframes-setup/) — HeyGen's Remotion-based video framework
-- [Video Skill](/hermes/content-ops/video/) — Hermes native video capabilities
-- [Remotion Documentation](https://remotion.dev/docs) — Official reference
+- [HyperFrames Setup](/hermes/skills/catalog/hyperframes-setup/) - HeyGen's Remotion-based video framework
+- [Video Skill](/hermes/content-ops/video/) - Hermes native video capabilities
+- [Remotion Documentation](https://remotion.dev/docs) - Official reference

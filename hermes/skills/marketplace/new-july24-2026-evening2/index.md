@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 24, 2026 Evening Sweep #2"
-description: "4 new Hermes-relevant skills discovered on skills.sh — Claude Code, OpenAI Codex, Superpowers, Clerk Auth. 1.5M+ combined installs across 4 publishers."
+title: "New Skills - July 24, 2026 Evening Sweep #2"
+description: "4 new Hermes-relevant skills discovered on skills.sh - Claude Code, OpenAI Codex, Superpowers, Clerk Auth. 1.5M+ combined installs across 4 publishers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july24-2026-evening2/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 24, 2026 (Evening Sweep #2)
+# New Skills - July 24, 2026 (Evening Sweep #2)
 
 ## Summary
 
@@ -44,9 +44,9 @@ The most-installed agent skills framework on skills.sh. Superpowers provides bat
 
 ## Other Highlights
 
-- **anthropics/claude-code** (73K installs, 139K⭐): Skills for building Claude Code extensions — agent development, skill creation, plugin authoring, and hook rules
-- **openai/skills** (38K installs, 24K⭐): Codex CLI extensibility — PDF generation, CI/CD fixes, security auditing, Playwright testing, Figma design-to-code
-- **clerk/skills** (156K installs): The most-installed authentication skill set — Next.js patterns, custom UI, backend API, webhooks, testing
+- **anthropics/claude-code** (73K installs, 139K⭐): Skills for building Claude Code extensions - agent development, skill creation, plugin authoring, and hook rules
+- **openai/skills** (38K installs, 24K⭐): Codex CLI extensibility - PDF generation, CI/CD fixes, security auditing, Playwright testing, Figma design-to-code
+- **clerk/skills** (156K installs): The most-installed authentication skill set - Next.js patterns, custom UI, backend API, webhooks, testing
 
 ## Discovery Method
 
@@ -55,5 +55,5 @@ Bulk sweep: 55 search terms via `npx skills search` → 114 unique repo/publishe
 ## Notes
 
 - Google/skills returned empty from skills.sh search (redirected to googleworkspace/cli which is already catalogued)
-- larksuite/cli found (1.9M installs) but Feishu-only — skipped as China-market-specific
+- larksuite/cli found (1.9M installs) but Feishu-only - skipped as China-market-specific
 - This sweep completes the July 24 discovery cycle (morning sweep found 4, noon sweep found 5, evening sweep #1 found 3, evening sweep #2 found 4 = 16 total new publishers documented today)

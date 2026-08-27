@@ -14,13 +14,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does
 
-Customer feedback intelligence MCP server that aggregates product feedback from multiple sources — GitHub Issues, Hacker News, App Store reviews — and synthesizes them into ranked pain clusters. Identifies recurring themes and actionable insights for product teams.
+Customer feedback intelligence MCP server that aggregates product feedback from multiple sources - GitHub Issues, Hacker News, App Store reviews - and synthesizes them into ranked pain clusters. Identifies recurring themes and actionable insights for product teams.
 
 **Key capabilities:**
 - Aggregate feedback across GitHub Issues, HN threads, App Store reviews
 - Rank pain clusters by frequency, severity, and trend
 - Identify recurring themes for roadmap prioritization
-- Pay-per-call via x402 micropayments (USDC on Base) — no subscription
+- Pay-per-call via x402 micropayments (USDC on Base) - no subscription
 
 ## Relevance to Operators
 
@@ -30,7 +30,7 @@ Directly useful for product managers and operators who need to:
 - Quantify user sentiment across multiple channels
 - Build data-driven roadmaps without manual feedback triage
 
-**Rating:** ★★ — Early stage (0 GitHub stars, created April 2026), but directly addresses a universal operator problem. x402 payment model may limit adoption.
+**Rating:** ★★ - Early stage (0 GitHub stars, created April 2026), but directly addresses a universal operator problem. x402 payment model may limit adoption.
 
 ## Quick Integration
 
@@ -57,7 +57,7 @@ Directly useful for product managers and operators who need to:
 
 ## Caveats
 
-- Zero GitHub stars, early-stage project — expect API changes
+- Zero GitHub stars, early-stage project - expect API changes
 - x402 micropayments require USDC on Base wallet setup
 - Limited to text-based feedback sources (no social media scraping yet)
 - No authentication beyond x402 payment verification

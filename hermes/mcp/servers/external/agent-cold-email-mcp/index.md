@@ -11,7 +11,7 @@ tags: [cold-email, outreach, deliverability, warmup, sales-ops, remote-mcp, sequ
 
 # Coldrig MCP (agent-cold-email)
 
-**Agent-native cold-email infrastructure exposed as 28 MCP tools — an AI agent operates the entire stack end to end: buy domains, provision mailboxes, run warmup, launch sequences and campaigns, handle replies, and monitor deliverability.** Built by the platform vendor as the official implementation. Remote streamable HTTP with Bearer auth plus a local stdio path via npm. Sandbox mode is free; live sending is $99/month.
+**Agent-native cold-email infrastructure exposed as 28 MCP tools - an AI agent operates the entire stack end to end: buy domains, provision mailboxes, run warmup, launch sequences and campaigns, handle replies, and monitor deliverability.** Built by the platform vendor as the official implementation. Remote streamable HTTP with Bearer auth plus a local stdio path via npm. Sandbox mode is free; live sending is $99/month.
 
 ```
 Server type: Remote (Streamable HTTP) + local stdio
@@ -25,7 +25,7 @@ Built by: Coldrig (npm: agent-cold-email, repo: YS-projectcalc/agent-cold-email)
 
 ## Why This Matters for Operators
 
-Outbound email normally requires three roles — domain provisioning, deliverability engineering, and sequence management — before the first reply arrives. Coldrig collapses them into tool calls an agent can run, so a single agent owns the funnel from "no sending infrastructure" to "campaign live with monitored deliverability" without a sales-ops hire.
+Outbound email normally requires three roles - domain provisioning, deliverability engineering, and sequence management - before the first reply arrives. Coldrig collapses them into tool calls an agent can run, so a single agent owns the funnel from "no sending infrastructure" to "campaign live with monitored deliverability" without a sales-ops hire.
 
 **The isolation model is the point.** Provisioned domains and mailboxes keep sending reputation separated from the main business domain; warmup runs before volume; and deliverability monitoring is a first-class tool rather than an afterthought. The $99/month live tier buys the infrastructure that would otherwise cost a sales-ops contractor more in the first week.
 
@@ -67,7 +67,7 @@ Remote tokens are issued by `POST /signup` (free, no card). Live sending require
 
 ## Configuration
 
-Sandbox mode is the default entry point and is free. Moving to live sending attaches a billing plan and unlocks the provisioning and warmup tools against real domains. Standard cold-email discipline still applies: warmup before volume, low daily send counts per mailbox, and reply handling to protect deliverability — the tools enforce the workflow, but the operator sets the cadence.
+Sandbox mode is the default entry point and is free. Moving to live sending attaches a billing plan and unlocks the provisioning and warmup tools against real domains. Standard cold-email discipline still applies: warmup before volume, low daily send counts per mailbox, and reply handling to protect deliverability - the tools enforce the workflow, but the operator sets the cadence.
 
 ## Business Relevance
 
@@ -78,13 +78,13 @@ Sandbox mode is the default entry point and is free. Moving to live sending atta
 
 ## Integration with CorpusIQ
 
-CorpusIQ's email connectors (Gmail via media@ and info@) are the inbound intelligence layer — lead identification, response tracking, and triage. Coldrig is the outbound execution layer — domains, warmup, sequences, sending.
+CorpusIQ's email connectors (Gmail via media@ and info@) are the inbound intelligence layer - lead identification, response tracking, and triage. Coldrig is the outbound execution layer - domains, warmup, sequences, sending.
 
 The composed workflow: CorpusIQ mines and qualifies targets from inbound and market signals; Coldrig's agent runs the outbound sequence on isolated infrastructure; replies land back in the monitored inbox where CorpusIQ's triage picks them up. The two surfaces never share a domain, so outreach reputation stays separate from business-critical inbox reputation.
 
 ## Limitations
 
-- Live sending is $99/month — sandbox only on free tier
+- Live sending is $99/month - sandbox only on free tier
 - Brand new listing (submitted Aug 17, 2026); package at v0.2.1
 - Remote endpoint runs on a Cloudflare Workers URL (vendor-managed)
 - Cold email compliance (CAN-SPAM, GDPR) remains the operator's responsibility

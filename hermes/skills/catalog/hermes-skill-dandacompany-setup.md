@@ -1,6 +1,6 @@
 ---
-title: Hermes Skill (dandacompany) — Full Setup Guide for Hermes Agents
-description: Install, configure, and use the dandacompany/hermes-skill — the most comprehensive third-party Hermes Agent operations guide. 69+ installs.
+title: Hermes Skill (dandacompany) - Full Setup Guide for Hermes Agents
+description: Install, configure, and use the dandacompany/hermes-skill - the most comprehensive third-party Hermes Agent operations guide. 69+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-skill-dandacompany-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Skill (dandacompany) — Setup Guide
+# Hermes Skill (dandacompany) - Setup Guide
 
 **Source:** [dandacompany/hermes-skill](https://github.com/dandacompany/hermes-skill) (2⭐)
 **Skill:** `dandacompany/hermes-skill@hermes`
@@ -50,7 +50,7 @@ npx skills add https://github.com/dandacompany/hermes-skill --skill hermes
 
 ### 1. Dynamic Command Discovery (`hermes_check.py`)
 
-The skill ships with `scripts/hermes_check.py` — a Python script that introspects the live Hermes installation and returns JSON-structured status. Run at the start of every Hermes task:
+The skill ships with `scripts/hermes_check.py` - a Python script that introspects the live Hermes installation and returns JSON-structured status. Run at the start of every Hermes task:
 
 ```bash
 python3 <skill-dir>/scripts/hermes_check.py --json

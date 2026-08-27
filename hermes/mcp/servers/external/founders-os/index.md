@@ -1,6 +1,6 @@
 ---
 title: Founders OS MCP Integration Guide
-description: Full setup guide for Founders OS — open-source MCP server connecting CRM, financials, tasks, and memory for founders and business operators
+description: Full setup guide for Founders OS - open-source MCP server connecting CRM, financials, tasks, and memory for founders and business operators
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/founders-os/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,9 +8,9 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Founders OS MCP — Integration Guide
+# Founders OS MCP - Integration Guide
 
-**Open-source MCP server that puts your whole business inside Claude, Cursor, or any MCP client.** Connects CRM, financials, tasks, and long-term memory behind one server — ask a single question that reads across all your business systems.
+**Open-source MCP server that puts your whole business inside Claude, Cursor, or any MCP client.** Connects CRM, financials, tasks, and long-term memory behind one server - ask a single question that reads across all your business systems.
 
 > **GitHub:** [OurThinkTank/founders-os](https://github.com/OurThinkTank/founders-os) ⭐7 · **Last pushed:** July 4, 2026
 
@@ -20,11 +20,11 @@ Founders OS is a unified business interface for AI agents. Instead of connecting
 
 ## Key Capabilities
 
-- **CRM Access** — Search and retrieve customer/lead records, deal stages, and contact history
-- **Financial Overview** — Revenue, invoicing, payment status, and cash flow data
-- **Task Management** — Create, read, update, and complete tasks across projects
-- **Long-Term Memory** — Persistent knowledge store for business context, decisions, and notes
-- **Cross-System Queries** — Single natural language question spans all connected systems
+- **CRM Access** - Search and retrieve customer/lead records, deal stages, and contact history
+- **Financial Overview** - Revenue, invoicing, payment status, and cash flow data
+- **Task Management** - Create, read, update, and complete tasks across projects
+- **Long-Term Memory** - Persistent knowledge store for business context, decisions, and notes
+- **Cross-System Queries** - Single natural language question spans all connected systems
 
 ## Installation
 
@@ -63,7 +63,7 @@ npx -y founders-os-mcp
 "Give me a business standup: what's in my pipeline, any overdue invoices, 
 and what tasks are due today?"
 ```
-The agent queries CRM for pipeline, financials for overdue invoices, and tasks for due items — all in one prompt.
+The agent queries CRM for pipeline, financials for overdue invoices, and tasks for due items - all in one prompt.
 
 ### 2. Client Health Check
 ```
@@ -103,8 +103,8 @@ Combines CRM segmentation, usage analytics, and support history.
 
 ## Related Resources
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) — full curated catalog
-- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) — 40+ native business data connectors
+- [External MCP Server Catalog](/hermes/mcp/servers/external/) - full curated catalog
+- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) - 40+ native business data connectors
 - [MCP Documentation](/hermes/mcp/)
 
 ---

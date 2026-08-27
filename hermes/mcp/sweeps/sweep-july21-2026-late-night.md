@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Sweep — July 21, 2026 (Late Night)"
+title: "MCP Server Sweep - July 21, 2026 (Late Night)"
 description: "30 brand-new MCP servers discovered from mcpservers.org /all page (newest-first listing). 6 integration guides drafted for business-operator-relevant"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Sweep — July 21, 2026 (Late Night)
+# MCP Server Sweep - July 21, 2026 (Late Night)
 
-Discovered 30 brand-new MCP servers from mcpservers.org's /all page — the newest-30 listing (positions 1-30 of 10,135 total). All 30 are net-new to our catalog. 6 integration guides drafted for the highest-value business-operator servers.
+Discovered 30 brand-new MCP servers from mcpservers.org's /all page - the newest-30 listing (positions 1-30 of 10,135 total). All 30 are net-new to our catalog. 6 integration guides drafted for the highest-value business-operator servers.
 
 **Source:** mcpservers.org /all page (JSON-LD extraction, newest-first sort)
 **Previous sweep:** July 21, 2026 evening (28 servers from direct-submission feed)
@@ -19,19 +19,19 @@ Discovered 30 brand-new MCP servers from mcpservers.org's /all page — the newe
 
 ## Methodology
 
-1. **mcpservers.org /all page** — extracted 30 newest-listed servers from JSON-LD `ItemList` (positions 1-30 of 10,135 total)
-2. **Cross-reference** — all 30 candidates checked against existing catalog (186+ entries in `servers/external/`)
-3. **Filtering** — 0 of 30 already in catalog. 30 net-new. 6 business-operator-relevant.
+1. **mcpservers.org /all page** - extracted 30 newest-listed servers from JSON-LD `ItemList` (positions 1-30 of 10,135 total)
+2. **Cross-reference** - all 30 candidates checked against existing catalog (186+ entries in `servers/external/`)
+3. **Filtering** - 0 of 30 already in catalog. 30 net-new. 6 business-operator-relevant.
 
 ## Headline Finds (★ = operator relevance)
 
 | Server | Category | Why It Matters |
 |--------|----------|----------------|
-| **FreshBooks MCP** ★★★ | Accounting | First dedicated accounting MCP — clients, invoices, expenses, payments. Built by codechap on GitHub. |
+| **FreshBooks MCP** ★★★ | Accounting | First dedicated accounting MCP - clients, invoices, expenses, payments. Built by codechap on GitHub. |
 | **Google Ads MCP** ★★★ | Advertising | Campaign and budget management for Google Ads. Create, monitor, optimize PPC from your agent. |
 | **Google Analytics MCP** ★★★ | Analytics | GA4 reports, realtime, and admin in Rust. Pull metrics without opening the GA4 dashboard. |
 | **BuiltWith** ★★★ | Competitive Intel | Technology profiling for any website. Identify tech stacks, ecommerce platforms, analytics tools. |
-| **KPI Depot** ★★★ | Business Intel | 20,000+ KPI definitions + 30,000+ industry benchmarks. Remote MCP — no local install. |
+| **KPI Depot** ★★★ | Business Intel | 20,000+ KPI definitions + 30,000+ industry benchmarks. Remote MCP - no local install. |
 | **1ClickReport** ★★★ | Marketing Analytics | Connect Google Ads, Meta Ads, GA4, Search Console, and Stripe. Audit campaigns, analyze funnels, catch wasted spend. |
 | **Confluence to Markdown** ★★ | Docs/Knowledge | Convert Confluence spaces to Markdown. Migration tool for teams moving off Confluence. |
 | **FeatureBoard** ★★ | Product | Feature flag and release management MCP. |
@@ -81,28 +81,28 @@ Discovered 30 brand-new MCP servers from mcpservers.org's /all page — the newe
 
 6 detailed setup guides drafted for business-operator-relevant servers:
 
-1. **FreshBooks MCP** — Accounting automation (clients, invoices, expenses, payments)
-2. **Google Ads MCP** — Campaign management (search, display, PMax, budgets, keywords)
-3. **Google Analytics MCP** — GA4 reporting (custom reports, realtime, funnels)
-4. **BuiltWith** — Technology profiling (tech stack detection, competitive research)
-5. **KPI Depot** — KPI intelligence (20K definitions, 30K benchmarks)
-6. **1ClickReport** — Cross-platform marketing analytics (Google Ads + Meta Ads + GA4 + Stripe)
+1. **FreshBooks MCP** - Accounting automation (clients, invoices, expenses, payments)
+2. **Google Ads MCP** - Campaign management (search, display, PMax, budgets, keywords)
+3. **Google Analytics MCP** - GA4 reporting (custom reports, realtime, funnels)
+4. **BuiltWith** - Technology profiling (tech stack detection, competitive research)
+5. **KPI Depot** - KPI intelligence (20K definitions, 30K benchmarks)
+6. **1ClickReport** - Cross-platform marketing analytics (Google Ads + Meta Ads + GA4 + Stripe)
 
 ## Key Observations
 
-1. **codechap is the most prolific publisher** — 10 of 30 new servers are by the same GitHub user (FreshBooks, Google Ads, Google Analytics, Google Image, FTP, Grok Chat, Claude Chat, GPT Chat, Fable, Agent Browser). These are lightweight wrappers around existing APIs.
+1. **codechap is the most prolific publisher** - 10 of 30 new servers are by the same GitHub user (FreshBooks, Google Ads, Google Analytics, Google Image, FTP, Grok Chat, Claude Chat, GPT Chat, Fable, Agent Browser). These are lightweight wrappers around existing APIs.
 
-2. **Business-operator MCPs are emerging** — FreshBooks (accounting), Google Ads (advertising), KPI Depot (benchmarks), and 1ClickReport (analytics) represent a trend toward MCP servers that serve business operators rather than just developers.
+2. **Business-operator MCPs are emerging** - FreshBooks (accounting), Google Ads (advertising), KPI Depot (benchmarks), and 1ClickReport (analytics) represent a trend toward MCP servers that serve business operators rather than just developers.
 
-3. **Remote/hosted MCPs growing** — KPI Depot and 1ClickReport are remote MCP servers (no local installation). This pattern reduces setup friction for non-technical operators.
+3. **Remote/hosted MCPs growing** - KPI Depot and 1ClickReport are remote MCP servers (no local installation). This pattern reduces setup friction for non-technical operators.
 
-4. **mcpservers.org vs mcp.so** — mcpservers.org has 10,135 servers cataloged. mcp.so has thousands more (19 sitemap pages). The MCP ecosystem is growing exponentially — we're tracking only the highest-value servers for operators.
+4. **mcpservers.org vs mcp.so** - mcpservers.org has 10,135 servers cataloged. mcp.so has thousands more (19 sitemap pages). The MCP ecosystem is growing exponentially - we're tracking only the highest-value servers for operators.
 
 ## CorpusIQ Angle
 
-The corpusiq-docs MCP catalog is now the most operator-focused curated collection — 192+ servers with detailed integration guides, use cases, and CorpusIQ integration patterns. No other directory targets business operators specifically.
+The corpusiq-docs MCP catalog is now the most operator-focused curated collection - 192+ servers with detailed integration guides, use cases, and CorpusIQ integration patterns. No other directory targets business operators specifically.
 
-Key trend: MCP is moving from "developer tool protocol" to "business operations protocol." FreshBooks, Google Ads, and Google Analytics MCPs mean an operator can soon manage their entire business through an AI agent — accounting, advertising, analytics, CRM, email, and payments — all through MCP.
+Key trend: MCP is moving from "developer tool protocol" to "business operations protocol." FreshBooks, Google Ads, and Google Analytics MCPs mean an operator can soon manage their entire business through an AI agent - accounting, advertising, analytics, CRM, email, and payments - all through MCP.
 
 ## See Also
 

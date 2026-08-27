@@ -1,6 +1,6 @@
 ---
-title: CLI-Anything GUI Harnesses — Setup Guide
-description: Install and configure 9 CLI-Anything harness skills for Hermes Agent — make Blender, Audacity, ComfyUI, Ollama, NotebookLM, and other GUI apps agent-controllable. 43K⭐ parent ecosystem.
+title: CLI-Anything GUI Harnesses - Setup Guide
+description: Install and configure 9 CLI-Anything harness skills for Hermes Agent - make Blender, Audacity, ComfyUI, Ollama, NotebookLM, and other GUI apps agent-controllable. 43K⭐ parent ecosystem.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-harnesses-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -27,14 +27,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 | Harness | Target App | What It Enables |
 |---|---|---|
-| `cli-anything-browser` | Chromium/Firefox | Browser automation via CLI — navigate, extract, screenshot |
-| `cli-anything-freecad` | FreeCAD | Parametric 3D modeling — create, modify, export CAD files |
-| `cli-anything-ollama` | Ollama | Local LLM management — pull, run, stop models; query endpoints |
+| `cli-anything-browser` | Chromium/Firefox | Browser automation via CLI - navigate, extract, screenshot |
+| `cli-anything-freecad` | FreeCAD | Parametric 3D modeling - create, modify, export CAD files |
+| `cli-anything-ollama` | Ollama | Local LLM management - pull, run, stop models; query endpoints |
 | `cli-anything-notebooklm` | Google NotebookLM | Podcast and audio generation from documents |
-| `cli-anything-zotero` | Zotero | Reference management — search, cite, organize papers |
-| `cli-anything-audacity` | Audacity | Audio editing — cut, filter, normalize, export |
-| `cli-anything-shotcut` | Shotcut | Video editing — trim, transition, render, export |
-| `cli-anything-comfyui` | ComfyUI | Stable Diffusion workflow — queue prompts, manage models, batch generate |
+| `cli-anything-zotero` | Zotero | Reference management - search, cite, organize papers |
+| `cli-anything-audacity` | Audacity | Audio editing - cut, filter, normalize, export |
+| `cli-anything-shotcut` | Shotcut | Video editing - trim, transition, render, export |
+| `cli-anything-comfyui` | ComfyUI | Stable Diffusion workflow - queue prompts, manage models, batch generate |
 | `cli-hub-meta-skill` | (meta) | Discover, compare, and manage CLI-Anything harnesses |
 
 ---
@@ -98,8 +98,8 @@ hermes skill hkuds/cli-anything/cli-anything-ollama
 | Issue | Fix |
 |---|---|
 | `cli-anything` command not found | Install the CLI-Anything package globally: `pip install cli-anything` |
-| Target app not launching | Each harness requires the specific GUI app installed — check the app's website |
-| FreeCAD errors on headless | FreeCAD requires a display — use `xvfb-run` on headless Linux |
+| Target app not launching | Each harness requires the specific GUI app installed - check the app's website |
+| FreeCAD errors on headless | FreeCAD requires a display - use `xvfb-run` on headless Linux |
 | ComfyUI workflow fails | Ensure ComfyUI server is running on the expected port (default: 8188) |
 
 ---

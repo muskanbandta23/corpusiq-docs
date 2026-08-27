@@ -9,7 +9,7 @@ Point CorpusIQ at your own MongoDB and ask questions about your application data
 
 ## Before you connect
 - Connection details for the MongoDB cluster you want to query: host, port, username, password, database name.
-- The credentials should be read-only — CorpusIQ never needs write access.
+- The credentials should be read-only - CorpusIQ never needs write access.
 - A network path: if your cluster is private, allowlist CorpusIQ's outbound IP or use a public read replica.
 - About 5 minutes.
 
@@ -39,9 +39,9 @@ CorpusIQ runs read queries only. It never inserts, updates, or drops anything.
 - "Find documents in customers where status is churned."
 
 ## Troubleshooting
-- "Connection refused" — your MongoDB host is blocking CorpusIQ. Allowlist the IP shown in the dashboard.
-- "Auth failed" — double-check the username and password. Special characters in passwords must be URL-encoded.
-- No collections listed — confirm the user has read access to the database you selected.
+- "Connection refused" - your MongoDB host is blocking CorpusIQ. Allowlist the IP shown in the dashboard.
+- "Auth failed" - double-check the username and password. Special characters in passwords must be URL-encoded.
+- No collections listed - confirm the user has read access to the database you selected.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard MongoDB driver conventions. Verify before publish. -->
 ---

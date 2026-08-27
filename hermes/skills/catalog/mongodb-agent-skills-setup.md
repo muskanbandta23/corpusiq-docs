@@ -1,6 +1,6 @@
 ---
-title: MongoDB Agent Skills — Database Skills for Hermes Agents
-description: MongoDB's official agent skills — schema design, natural language querying, search and AI, Atlas Stream Processing. 3.5K+ combined installs across 6 skills for building with MongoDB.
+title: MongoDB Agent Skills - Database Skills for Hermes Agents
+description: MongoDB's official agent skills - schema design, natural language querying, search and AI, Atlas Stream Processing. 3.5K+ combined installs across 6 skills for building with MongoDB.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mongodb-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# MongoDB Agent Skills — Setup Guide
+# MongoDB Agent Skills - Setup Guide
 
 **Source:** [mongodb/agent-skills](https://skills.sh/mongodb/agent-skills) (3.5K+ combined installs)
 **GitHub:** [mongodb/agent-skills](https://github.com/mongodb/agent-skills) (163 ⭐)
@@ -40,13 +40,13 @@ npx skills add mongodb/agent-skills --skill mongodb-query-optimizer
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **mongodb-schema-design** | 3.5K | Document schema patterns — embedding, referencing, indexing strategies |
+| **mongodb-schema-design** | 3.5K | Document schema patterns - embedding, referencing, indexing strategies |
 | **mongodb-natural-language-querying** | 2.8K | Natural language to MongoDB query translation with aggregation pipeline generation |
 | **mongodb-search-and-ai** | 2.7K | Atlas Vector Search for semantic search and RAG applications |
 | **mongodb-atlas-stream-processing** | 1.8K | Real-time stream processing with Atlas Stream Processing for event-driven apps |
-| **mongodb-connection** | — | Connection string patterns, driver setup, and connection pooling |
-| **mongodb-mcp-setup** | — | MCP server deployment for MongoDB with tool definitions and resource exposure |
-| **mongodb-query-optimizer** | — | Query performance analysis, index recommendations, and explain plan interpretation |
+| **mongodb-connection** | - | Connection string patterns, driver setup, and connection pooling |
+| **mongodb-mcp-setup** | - | MCP server deployment for MongoDB with tool definitions and resource exposure |
+| **mongodb-query-optimizer** | - | Query performance analysis, index recommendations, and explain plan interpretation |
 
 ---
 

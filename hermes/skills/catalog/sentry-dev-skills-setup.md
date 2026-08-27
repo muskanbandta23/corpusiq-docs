@@ -1,13 +1,13 @@
 ---
-title: Sentry Dev Skill — Official Sentry CLI Setup Guide for Hermes Agents
-description: "sentry/dev — the official Sentry skill: sentry-cli (127.3K installs). Error monitoring, release management, sourcemap uploads, event querying, and project administration from the agent via the Sentry CLI."
+title: Sentry Dev Skill - Official Sentry CLI Setup Guide for Hermes Agents
+description: "sentry/dev - the official Sentry skill: sentry-cli (127.3K installs). Error monitoring, release management, sourcemap uploads, event querying, and project administration from the agent via the Sentry CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-dev-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-14"
 tags: ["hermes skill", "agent skill", "skill setup", "sentry", "error monitoring", "observability"]
 ---
 
-# Sentry Dev Skill — Setup Guide
+# Sentry Dev Skill - Setup Guide
 
 **Source:** [sentry/dev](https://skills.sh/sentry/dev)
 **GitHub:** [sentry/dev](https://github.com/sentry/dev)
@@ -63,7 +63,7 @@ npx skills add sentry/dev
 ## Limitations / Verification
 
 - Requires Sentry account access; the CLI needs an auth token with project scopes
-- Read-mostly triage and release operations — admin actions still need org permissions
+- Read-mostly triage and release operations - admin actions still need org permissions
 
 ```bash
 sentry-cli info    # verify auth + org context
@@ -72,7 +72,7 @@ sentry-cli info    # verify auth + org context
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) — console/error inspection during debugging
+- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) - console/error inspection during debugging
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

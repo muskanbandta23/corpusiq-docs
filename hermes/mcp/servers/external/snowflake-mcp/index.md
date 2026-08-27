@@ -1,5 +1,5 @@
 ---
-title: "Snowflake MCP — Data Warehouse Queries for AI Agents"
+title: "Snowflake MCP - Data Warehouse Queries for AI Agents"
 description: "Connect AI agents to Snowflake data warehouse via MCP. Query, explore schemas, manage warehouses, and analyze enterprise data through natural language."
 category: mcp
 tags: [mcp-server]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Snowflake MCP — Data Warehouse Queries for AI Agents
+# Snowflake MCP - Data Warehouse Queries for AI Agents
 
 ## What It Is
 
-Snowflake MCP exposes Snowflake data warehouse operations over the Model Context Protocol. AI agents can run SQL queries, explore database schemas, manage virtual warehouses, and analyze enterprise data — all RBAC-aware with the user's own Snowflake permissions.
+Snowflake MCP exposes Snowflake data warehouse operations over the Model Context Protocol. AI agents can run SQL queries, explore database schemas, manage virtual warehouses, and analyze enterprise data - all RBAC-aware with the user's own Snowflake permissions.
 
 ## Tools Available
 
@@ -38,7 +38,7 @@ npx -y mcp-snowflake-server
 
 ## Limitations
 
-- Snowflake account required. RBAC applies — agent can only access what the authenticated user can. Write operations need explicit enablement.
+- Snowflake account required. RBAC applies - agent can only access what the authenticated user can. Write operations need explicit enablement.
 
 ## See Also
 

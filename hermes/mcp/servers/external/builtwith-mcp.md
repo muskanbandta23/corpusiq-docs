@@ -1,6 +1,6 @@
 ---
 title: BuiltWith MCP Server Integration Guide
-description: Technology profiling for AI agents — discover what websites are built with. Find tech stacks, ecommerce platforms, analytics tools, and hosting providers for competitive research.
+description: Technology profiling for AI agents - discover what websites are built with. Find tech stacks, ecommerce platforms, analytics tools, and hosting providers for competitive research.
 category: mcp
 tags: [mcp, builtwith, technology-profiling, competitive-research, lead-gen, tech-stack, hermes-agent]
 last_updated: 2026-07-21
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# BuiltWith MCP — Technology Profiling for Hermes Agent
+# BuiltWith MCP - Technology Profiling for Hermes Agent
 
-BuiltWith MCP connects your AI agent to the BuiltWith technology profiling database — find out what any website is built with. Identify tech stacks, ecommerce platforms, analytics tools, hosting providers, and hundreds of other technologies at scale.
+BuiltWith MCP connects your AI agent to the BuiltWith technology profiling database - find out what any website is built with. Identify tech stacks, ecommerce platforms, analytics tools, hosting providers, and hundreds of other technologies at scale.
 
 ## What It Does
 
 BuiltWith MCP gives your agent the ability to profile any website's technology stack:
 
-- **Technology lookup** — Discover every technology a site uses (200+ categories)
-- **Ecommerce detection** — Identify Shopify, WooCommerce, Magento, BigCommerce, and custom carts
-- **Analytics & marketing** — See what analytics, ad pixels, email tools, and CRMs are installed
-- **Hosting & infrastructure** — Detect CDNs, DNS providers, SSL certificates, and hosting platforms
-- **Competitive intelligence** — Profile competitor tech stacks at scale to identify trends
+- **Technology lookup** - Discover every technology a site uses (200+ categories)
+- **Ecommerce detection** - Identify Shopify, WooCommerce, Magento, BigCommerce, and custom carts
+- **Analytics & marketing** - See what analytics, ad pixels, email tools, and CRMs are installed
+- **Hosting & infrastructure** - Detect CDNs, DNS providers, SSL certificates, and hosting platforms
+- **Competitive intelligence** - Profile competitor tech stacks at scale to identify trends
 
 ## Quick Setup
 
@@ -92,7 +92,7 @@ Find companies on legacy platforms ready for an upgrade:
 
 ```
 Agent prompt: "Find 50 US-based ecommerce sites still running Magento 1
-or WooCommerce without a modern CDN. These are prime migration targets —
+or WooCommerce without a modern CDN. These are prime migration targets -
 they have revenue (Magento) but their tech stack is holding them back."
 ```
 
@@ -121,14 +121,14 @@ This turns competitive research from "manually check each competitor" to "profil
 
 - **BuiltWith MCP:** Open source, free
 - **BuiltWith API:** Plans start at $295/month (Basic), $495/month (Pro), $995/month (Team)
-- **Free tier:** Limited lookups — sufficient for testing, not for production use
+- **Free tier:** Limited lookups - sufficient for testing, not for production use
 
 ## Limitations
 
-- BuiltWith API is paid — budget for production use ($295+/month)
-- Technology detection is not 100% accurate — some sites obfuscate their stack
-- API rate limits vary by plan — check your tier
-- Does not provide traffic or revenue data — tech profiling only
+- BuiltWith API is paid - budget for production use ($295+/month)
+- Technology detection is not 100% accurate - some sites obfuscate their stack
+- API rate limits vary by plan - check your tier
+- Does not provide traffic or revenue data - tech profiling only
 
 ---
 

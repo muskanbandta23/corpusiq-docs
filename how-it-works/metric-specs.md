@@ -28,7 +28,7 @@ an expression in the mini-DSL (the actual recipe), an expected unit, and
 some optional bookkeeping (ownership, freshness budget, cross-source peers).
 
 Specs are not the same thing as Truth Sources. A Truth Source tells the
-system *where the answer lives* — your finance workbook, your KPI doc,
+system *where the answer lives* - your finance workbook, your KPI doc,
 your CEO's head. A metric spec tells the system *how to compute the
 answer* from connector data. Both flavors live in the same Canonical
 store, with the same versioning and approval gates. When the same key
@@ -44,14 +44,14 @@ report dereferences the same definition. They call the absence of
 ambiguity "no drift."
 
 We can't ship that architecture. CorpusIQ doesn't have a warehouse, by
-design — direct MCP resolves against 30+ vendor APIs live, on
+design - direct MCP resolves against 30+ vendor APIs live, on
 every request. Two of those vendors will sometimes disagree about a
 number (your Stripe MRR and your QuickBooks recurring revenue won't
 always reconcile, and that's interesting), and we want to surface that
 honestly rather than pretending one of them is right.
 
-So we kept Anthropic's idea — the user-declared computation is the
-canonical definition — and changed the substrate. The DSL compiles to
+So we kept Anthropic's idea - the user-declared computation is the
+canonical definition - and changed the substrate. The DSL compiles to
 connector tool calls, not SQL. Lineage is a graph of vendor reads, not
 tables. Drift is vendor-vs-vendor disagreement we expose, not stale views.
 
@@ -67,7 +67,7 @@ Every field annotated.
 {
   "key": "monthly_paid_revenue_stripe",
   "label": "Monthly Paid Revenue (Stripe)",
-  "description": "Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages — anything Stripe successfully captured. Excludes failed, pending, and refunded charges.",
+  "description": "Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages - anything Stripe successfully captured. Excludes failed, pending, and refunded charges.",
   "expression": "stripe.list_charges(status=\"succeeded\", days_back=30).aggregate(sum, field=amount)",
   "expected_unit": "USD",
   "expected_freshness": "daily",
@@ -87,7 +87,7 @@ Every field annotated.
 | `description` | Free-text paragraph. Write it for a teammate joining six months from now who has to know what counted. |
 | `expression` | The DSL recipe. See the grammar section below. |
 | `expected_unit` | One of `USD`, `count`, `ratio`, `percent`, `days`. Drives how the value is formatted in answers. |
-| `expected_freshness` | One of `realtime`, `daily`, `monthly`. **Metadata only**. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness — the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale." |
+| `expected_freshness` | One of `realtime`, `daily`, `monthly`. **Metadata only**. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness - the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale." |
 | `cross_source_checks` | Other spec keys whose result should agree with this one within `tolerance_percent`. Triggers automatic drift detection. |
 | `tolerance_percent` | How much disagreement is acceptable before drift is flagged. `2.0` means "within 2% is fine." |
 | `owner_email` | Who's responsible for this definition. Surfaces in audits. |
@@ -96,7 +96,7 @@ Every field annotated.
 | `prefer_truth_source` | Forward-compat flag, currently inert. See pitfalls. |
 
 The two blank fields in the template (`owner_email`, `last_reviewed_at`)
-are intentionally empty — you fill them in when you adopt the spec.
+are intentionally empty - you fill them in when you adopt the spec.
 
 ## The mini-DSL grammar
 
@@ -166,11 +166,11 @@ from primitive specs without restating the underlying recipes.
 
 You don't write JSON by hand. The flow is conversational.
 
-### Step 1 — Copy a template
+### Step 1 - Copy a template
 
 Three starter templates ship today, all Stripe-only:
 `monthly_paid_revenue_stripe`, `active_paying_customers_stripe`, and
-`new_customers_last_30_days`. They're intentionally narrow — Stripe is
+`new_customers_last_30_days`. They're intentionally narrow - Stripe is
 the connector we have the cleanest dispatch audit on. A Shopify pack is
 on the short list. Ask `support@corpusiq.io` if you want a copy of a
 specific template up front, or just hand Claude the JSON in §"Anatomy
@@ -181,7 +181,7 @@ Fill in the two blanks (`owner_email`, `last_reviewed_at`). Edit the
 Adjust the description so it reflects what you actually mean by this
 number, not what the template author meant.
 
-### Step 2 — Hand it to Claude
+### Step 2 - Hand it to Claude
 
 ```
 You: Save this as a metric spec.
@@ -216,20 +216,20 @@ The two-step `metric_spec_set` → `canonical_pending_commit` pattern is
 the same one canonical facts and truth sources use. The first call
 proposes the change and returns a pending-write id plus any
 `validation_warnings`. Nothing is durable until you commit. If the spec
-fails its eval (and there is one — see the soft eval gate section), the
+fails its eval (and there is one - see the soft eval gate section), the
 warnings show up here, before the commit; you get to read them and
 decide whether to ship anyway.
 
-### Step 3 — Confirm it landed
+### Step 3 - Confirm it landed
 
 ```
 You: list my metric specs
 
 Claude: Calling metric_spec_list...
-        1. monthly_paid_revenue_stripe (USD, daily) v1 — Monthly Paid Revenue (Stripe)
+        1. monthly_paid_revenue_stripe (USD, daily) v1 - Monthly Paid Revenue (Stripe)
 ```
 
-### Step 4 — Use it
+### Step 4 - Use it
 
 ```
 You: what is our monthly paid revenue?
@@ -244,7 +244,7 @@ Claude: Calling metric_spec_resolve(key="monthly_paid_revenue_stripe")...
 
 The value is on its own line. The provenance footer is the italic line
 right below it. Claude is contractually required to render the footer
-verbatim — the data-contract text on the tool response pins that rule
+verbatim - the data-contract text on the tool response pins that rule
 ("Do not paraphrase it, do not split it across lines, do not strip the
 bullet separators. It is the audit trail.").
 
@@ -260,8 +260,8 @@ Monthly Paid Revenue (Stripe) $47,312 · spec v2 (reviewed 23 days ago) · 1 Str
 Parsed left to right:
 
 - **Label + value with unit**: `Monthly Paid Revenue (Stripe) $47,312`. USD formats as currency; counts as integers; ratios and percentages format appropriately.
-- **Spec version + review age**: `spec v2 (reviewed 23 days ago)`. The age comes from `last_reviewed_at`. Past 90 days you should re-attest — write the date back and confirm the description still matches your intent.
-- **Source-call summary**: `1 Stripe call (847 rows)`. This is row count and connector count only — never row data. Multiple connectors get grouped with `+`. A spec that hit Stripe twice and QuickBooks once would render `2 Stripe calls (910 rows) + 1 Quickbooks call (84 rows)`.
+- **Spec version + review age**: `spec v2 (reviewed 23 days ago)`. The age comes from `last_reviewed_at`. Past 90 days you should re-attest - write the date back and confirm the description still matches your intent.
+- **Source-call summary**: `1 Stripe call (847 rows)`. This is row count and connector count only - never row data. Multiple connectors get grouped with `+`. A spec that hit Stripe twice and QuickBooks once would render `2 Stripe calls (910 rows) + 1 Quickbooks call (84 rows)`.
 
 When `cross_source_checks` is set and the peer disagrees, a drift block
 appends:
@@ -276,7 +276,7 @@ When `validation_warnings` is non-empty, a warning section appends:
 New Customers (Last 30 Days) 42 · spec v1 · 1 Stripe call (42 rows) · ⚠ eval golden value mismatch: expected 38, got 42
 ```
 
-The warning marker (`⚠`) is intentional — it makes the surface visible
+The warning marker (`⚠`) is intentional - it makes the surface visible
 when an answer scrolls past in chat. The renderer truncates long
 warnings to 80 chars each and shows at most three, with a `+N more`
 suffix when there are extras.
@@ -325,11 +325,11 @@ For a portfolio-level view, call `metric_spec_drift_report`. It runs
 every spec with a `cross_source_checks` entry and returns only the
 drifting ones, sorted by percent_diff descending. Specs that failed to
 resolve (vendor down, connector unauthorized, expression parse error)
-land in a `skipped` section — the contract says the AI must not silently
+land in a `skipped` section - the contract says the AI must not silently
 omit them, because a spec that can't even compute is one you can't trust
 either.
 
-The `drift` object also carries an optional `hypothesis` field —
+The `drift` object also carries an optional `hypothesis` field -
 free-text you write on the spec to document the known reason for a
 recurring disagreement. ("QBO recurring excludes trialing subscriptions;
 Stripe includes them.") When present, it renders alongside the diff.
@@ -342,7 +342,7 @@ attached to it. If the eval fails, the result is NOT a refusal. The save
 proceeds, the spec lands, the resolver works. What changes is that
 `validation_warnings[]` on the `metric_spec_set` response and on every
 subsequent `metric_spec_resolve` result is non-empty. The Skill
-renderer's contract requires those warnings to be surfaced inline —
+renderer's contract requires those warnings to be surfaced inline -
 silent acceptance defeats the entire purpose of having a gate.
 
 This is the §13.Q2 decision in the registry spec, made explicit: hard
@@ -361,7 +361,7 @@ The third sometimes means a connector is down for everyone.
 
 - **No replicated source-data warehouse.** Every resolve hits live vendor APIs. Direct MCP does not retain raw customer files or full connector response payloads; operational logs follow the published retention schedule.
 - **No result caching.** Two calls 30 seconds apart will both hit Stripe. `expected_freshness` is metadata; it does not implement a TTL.
-- **No semantic correctness guarantee.** The system honors the recipe you wrote. If you defined MRR wrong, the resolver will faithfully compute a wrong number. That's why the description field, the `last_reviewed_at` re-attestation, and the eval gate exist — they push the responsibility back to the human who knows the business.
+- **No semantic correctness guarantee.** The system honors the recipe you wrote. If you defined MRR wrong, the resolver will faithfully compute a wrong number. That's why the description field, the `last_reviewed_at` re-attestation, and the eval gate exist - they push the responsibility back to the human who knows the business.
 - **No team sharing in v0.** Specs are per-user. Multi-user sharing is a v1.5 design discussion and the data model leaves room for it.
 - **No LLM-authored specs.** The AI can scaffold a draft for you, but every commit goes through the pending-write approval gate. We won't write specs you didn't approve.
 
@@ -386,14 +386,14 @@ work. The starter templates all do this for exactly this reason.
 Setting `expected_freshness: "daily"` does not create a daily cache, a
 TTL, or a refresh schedule. The resolver runs every call. The field
 exists so a future drift-detection pass can flag "your spec says daily
-but the underlying vendor is 11 days stale" — useful, but not the same
+but the underlying vendor is 11 days stale" - useful, but not the same
 as caching. If you need vendor latency tracking now, ask the AI to
 include the most recent timestamp from the source rows alongside the
 spec value.
 
 ### `cross_source_checks` is empty by default
 
-Drift detection costs you nothing in setup terms — but it costs you
+Drift detection costs you nothing in setup terms - but it costs you
 nothing because the default `cross_source_checks: []` means no peer is
 ever consulted. Make sure both sides of the pair list each other if you
 want the check to fire from either direction.
@@ -406,7 +406,7 @@ and silently does nothing when you call the other. Easy to miss.)
 The field exists on the model so adding the behavior in v0.1 doesn't
 require a schema migration. **In v0 it does nothing.** A spec with
 `prefer_truth_source: true` will still execute its expression and
-return the resolver's value — the truth-source override path isn't
+return the resolver's value - the truth-source override path isn't
 wired yet. If you want the truth source to win today, don't declare
 the spec.
 
@@ -431,7 +431,7 @@ The resolver compiles the expression on every call and dispatches
 through the same path as raw connector tools. If Stripe renames a field
 your spec references, the next resolve fails with a parser or
 dispatch-level error and `metric_spec_drift_report` surfaces it in the
-`skipped` section. We don't catch schema drift before it bites — but
+`skipped` section. We don't catch schema drift before it bites - but
 we also don't hide it after. Vendor-side adapter tests in the
 CorpusIQ connector layer catch a separate class of drift before it
 reaches your specs.
@@ -443,12 +443,12 @@ its `computed_at` field on the underlying `MetricSpecResult`) and tells
 you how many rows came from each connector. Metric resolution requests
 current source data; freshness follows each provider and CorpusIQ cache
 behavior. To assess vendor freshness, ask the AI to surface the most
-recent row timestamp alongside the value — that's a one-line addition to the
+recent row timestamp alongside the value - that's a one-line addition to the
 question.
 
 **Can I version a spec?**
 
-Yes — every `metric_spec_set` commit increments the spec's version.
+Yes - every `metric_spec_set` commit increments the spec's version.
 Old versions aren't preserved for replay (the spec is a definition, not
 an artifact), but the version number is part of the provenance footer
 so you can tell which definition produced a number you screenshotted
@@ -459,7 +459,7 @@ last month.
 Read the warnings. The Skill contract requires them to be surfaced
 inline, so they'll be in the output. Three common cases: the expression
 is syntactically wrong (`metric_spec_set` shouldn't have accepted it
-— file a bug); the expression is valid but produced a value the eval
+- file a bug); the expression is valid but produced a value the eval
 didn't expect (your number is probably right; the golden was probably
 generated against fixture data that doesn't match yours); the eval
 couldn't run at all (infra problem, retry).
@@ -468,7 +468,7 @@ couldn't run at all (infra problem, retry).
 
 Yes. `metric_spec_remove(key="...")` returns a pending-write id, same
 as set. You commit the removal via `canonical_pending_commit`. Removed
-specs aren't recoverable from the API — re-declare from your local
+specs aren't recoverable from the API - re-declare from your local
 copy if you change your mind.
 
 **How do I see the expression for a spec I already saved?**
@@ -484,7 +484,7 @@ CorpusIQ support: `support@corpusiq.io`. We read the inbox often.
 
 If you hit a connector-level issue (Stripe returns nothing, GA4
 authorization expired, QuickBooks rate-limits you), that's usually a
-connector problem rather than a spec problem — but `support@` is still
+connector problem rather than a spec problem - but `support@` is still
 the right starting point. Include the spec key and the exact question
 you asked Claude, and we can usually find the dispatch in the logs.
 ---

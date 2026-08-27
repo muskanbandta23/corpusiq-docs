@@ -1,5 +1,5 @@
 ---
-title: "Subtext — Agent Session Replay MCP"
+title: "Subtext - Agent Session Replay MCP"
 description: "Session replay built for AI agents. Captures production sessions and connects them to your coding agent for debugging and analysis. 9 GitHub stars. By"
 category: mcp
 tags: [mcp-server, agent-analytics, session-replay, debugging, monitoring]
@@ -15,7 +15,7 @@ last_updated: "2026-08-12"
 
 # Subtext MCP
 
-**Agent-native session replay** from Fullstory. Captures production sessions of your application and connects them to your coding agent — Claude Code, Cursor, Codex — so it can debug issues, analyze user behavior, and improve UX from real session data.
+**Agent-native session replay** from Fullstory. Captures production sessions of your application and connects them to your coding agent - Claude Code, Cursor, Codex - so it can debug issues, analyze user behavior, and improve UX from real session data.
 
 ## Why It Matters for Operators
 
@@ -57,12 +57,12 @@ Subtext helps operators who use CorpusIQ alongside customer-facing applications:
 ## Limitations
 
 - Requires Fullstory/Subtext subscription
-- 9 stars — early adoption, API may evolve
+- 9 stars - early adoption, API may evolve
 - Only useful for operators with web applications (not API-only products)
-- Session data can be large — consider sampling for agent analysis
+- Session data can be large - consider sampling for agent analysis
 
 ## See Also
 
-- [[index]] — Full external MCP catalog
-- AppAmbit MCP — Mobile app analytics MCP
-- Fleets — Multi-site analytics MCP
+- [[index]] - Full external MCP catalog
+- AppAmbit MCP - Mobile app analytics MCP
+- Fleets - Multi-site analytics MCP

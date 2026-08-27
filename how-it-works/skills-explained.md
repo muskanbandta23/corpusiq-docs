@@ -8,7 +8,7 @@ This is the part of CorpusIQ that makes the answers good.
 
 ## The naive way (which we don't do)
 
-Imagine you ask Claude — without CorpusIQ — "how healthy is my
+Imagine you ask Claude - without CorpusIQ - "how healthy is my
 business?" It has 31 connectors available. What does it do?
 
 It guesses. Maybe it asks Shopify for revenue. Maybe it forgets to ask
@@ -23,7 +23,7 @@ you get a different shape of answer every time.
 ## What CorpusIQ does instead
 
 When you ask a broad business question, CorpusIQ routes it to a
-**skill** — an opinionated, multi-step procedure that knows exactly:
+**skill** - an opinionated, multi-step procedure that knows exactly:
 
 - Which connectors to hit (and in what order).
 - What metrics to compute from the raw data.
@@ -59,20 +59,20 @@ it. You don't have to.
 
 Every one of these is a real runbook with a specific output shape:
 
-- **executive-snapshot** — "How healthy is my business?" Cash, revenue,
+- **executive-snapshot** - "How healthy is my business?" Cash, revenue,
   wins, risks, focus list across QuickBooks, Shopify, HubSpot, ad
   accounts, GA4, email, calendar.
-- **ad-spend-truth-report** — the CAC/ROAS reconciliation above.
-- **board-update-drafter** — "Draft a board update for last quarter."
+- **ad-spend-truth-report** - the CAC/ROAS reconciliation above.
+- **board-update-drafter** - "Draft a board update for last quarter."
   Pulls financials, KPIs, prior updates from Drive for tone, writes the
   document.
-- **financial-command-center** — full financial health check: cash,
+- **financial-command-center** - full financial health check: cash,
   concentration risk, expense anomalies, late-payment patterns.
-- **ecommerce-command-center** — full store review across Shopify, ads,
+- **ecommerce-command-center** - full store review across Shopify, ads,
   GA4, and QuickBooks.
-- **data-discrepancy-detector** — "Why don't my Shopify and QuickBooks
+- **data-discrepancy-detector** - "Why don't my Shopify and QuickBooks
   numbers match?" Side-by-side with the gaps explained.
-- **customer-health-scorecard** — every active account scored Healthy /
+- **customer-health-scorecard** - every active account scored Healthy /
   At Risk / Critical, with the driving signal.
 
 There are over a hundred more. You don't browse them. CorpusIQ picks the
@@ -104,9 +104,9 @@ the executive snapshot" is enough.
 
 ## What's next
 
-- [../prompts/](../prompts/index.md) — the prompts that trigger these skills,
+- [../prompts/](../prompts/index.md) - the prompts that trigger these skills,
   organized by the question you're trying to answer.
-- [privacy-and-security.md](privacy-and-security.md) — what happens to
+- [privacy-and-security.md](privacy-and-security.md) - what happens to
   the data the skills pull.
 ---
 

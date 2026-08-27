@@ -1,5 +1,5 @@
 ---
-title: skill-creator — Anthropic's Skill Creation Framework for Hermes
+title: skill-creator - Anthropic's Skill Creation Framework for Hermes
 description: Install and use anthropics/skills@skill-creator (317K installs) to author production-quality Hermes agent skills. Workflow scoping, YAML frontmatter, error handling patterns, verification gates, and marketplace publishing.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-creator-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# skill-creator — Setup Guide
+# skill-creator - Setup Guide
 
 **Source:** [anthropics/skills](https://github.com/anthropics/skills) (317,700 installs)
 **Category:** Skill Development
@@ -36,7 +36,7 @@ npx skills list | grep skill-creator
 | Requirement | Details |
 |---|---|
 | **Hermes Agent** | Any version |
-| **Text editor** | Any — skill files are Markdown |
+| **Text editor** | Any - skill files are Markdown |
 | **Git** | For version control and publishing |
 | **GitHub account** | For publishing to skills.sh marketplace |
 
@@ -170,7 +170,7 @@ Publishing handles:
 
 **Error Handling:** The pattern library alone prevents the "skill breaks silently in production" failures. Instead of discovering error paths through production incidents, skills are tested against every failure type before deployment.
 
-**Autonomous Skill Creation:** Hermes agents can create new skills autonomously — scope the workflow, generate the skeleton, write error handling, run dry tests, and publish — all without human intervention. The verification gates ensure quality.
+**Autonomous Skill Creation:** Hermes agents can create new skills autonomously - scope the workflow, generate the skeleton, write error handling, run dry tests, and publish - all without human intervention. The verification gates ensure quality.
 
 **Integration with find-skills:** After publishing, use `find-skills` to verify the skill appears correctly in marketplaces and track install counts.
 
@@ -178,6 +178,6 @@ Publishing handles:
 
 ## See Also
 
-- [find-skills](/hermes/skills/catalog/find-skills-setup/) — Skill discovery tool
-- [Creating Custom Skills](/hermes/skills/creating-skills/) — Hermes-native skill authoring
-- [Skills Catalog](/hermes/skills/catalog/) — Browse all documented skills
+- [find-skills](/hermes/skills/catalog/find-skills-setup/) - Skill discovery tool
+- [Creating Custom Skills](/hermes/skills/creating-skills/) - Hermes-native skill authoring
+- [Skills Catalog](/hermes/skills/catalog/) - Browse all documented skills

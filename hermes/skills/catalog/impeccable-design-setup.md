@@ -1,6 +1,6 @@
 ---
-title: impeccable — Full Setup Guide for Hermes Agents
-description: Install and configure pbakaus/impeccable — design quality skills for AI agents. 24 skills, 1.7M installs. Polish, critique, audit, animate, and more.
+title: impeccable - Full Setup Guide for Hermes Agents
+description: Install and configure pbakaus/impeccable - design quality skills for AI agents. 24 skills, 1.7M installs. Polish, critique, audit, animate, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-design-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# impeccable — Setup Guide
+# impeccable - Setup Guide
 
 **Source:** [pbakaus/impeccable](https://skills.sh/pbakaus/impeccable) (1.7M total installs)
 **Category:** Design / Frontend Quality
@@ -100,7 +100,7 @@ After install:
 The skill automatically flags:
 - Overused fonts (Arial, Inter, system defaults)
 - Gray text on colored backgrounds
-- Pure black/gray — always tint
+- Pure black/gray - always tint
 - Cards nested inside cards
 - Bounce/elastic easing (dated)
 
@@ -110,8 +110,8 @@ The skill automatically flags:
 
 | Issue | Fix |
 |---|---|
-| **Commands not found** | Run `/impeccable init` first — it configures the context |
-| **Live mode not working** | Requires browser access — verify Hermes browser tools are active |
+| **Commands not found** | Run `/impeccable init` first - it configures the context |
+| **Live mode not working** | Requires browser access - verify Hermes browser tools are active |
 | **Detectors not running** | Install CLI: `npx impeccable install` for 44 deterministic checks |
 
 ## Verification

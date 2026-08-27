@@ -1,6 +1,6 @@
 ---
-title: "OpenClaw Secure Linux Cloud — Setup Guide"
-description: Install and use xixu-me/skills openclaw-secure-linux-cloud — hardened Linux cloud deployment for OpenClaw/Hermes agents. 244K installs on skills.sh.
+title: "OpenClaw Secure Linux Cloud - Setup Guide"
+description: Install and use xixu-me/skills openclaw-secure-linux-cloud - hardened Linux cloud deployment for OpenClaw/Hermes agents. 244K installs on skills.sh.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-secure-linux-cloud-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Secure Linux Cloud — Setup Guide
+# OpenClaw Secure Linux Cloud - Setup Guide
 
 **Source:** [xixu-me/skills](https://skills.sh/xixu-me/skills) (244K installs)
 **Category:** Infrastructure / Security
 **Skill:** openclaw-secure-linux-cloud
 
-A comprehensive skill for deploying OpenClaw (and by extension Hermes) agents on hardened Linux cloud instances. Covers firewall configuration, SSH hardening, process isolation, and automated security patching — the production deployment blueprint for cloud-hosted agents.
+A comprehensive skill for deploying OpenClaw (and by extension Hermes) agents on hardened Linux cloud instances. Covers firewall configuration, SSH hardening, process isolation, and automated security patching - the production deployment blueprint for cloud-hosted agents.
 
 ---
 
@@ -76,7 +76,7 @@ npx skills add xixu-me/skills --skill openclaw-secure-linux-cloud
 
 | Issue | Fix |
 |---|---|
-| Firewall blocks legitimate agent traffic | Check `ufw status verbose` — add specific port with `ufw allow <port>/tcp` |
+| Firewall blocks legitimate agent traffic | Check `ufw status verbose` - add specific port with `ufw allow <port>/tcp` |
 | SSH locked out after hardening | Use cloud provider console (serial console / rescue mode). The skill saves original sshd_config as `.bak` |
 | TLS renewal fails | Certbot requires port 80 open during renewal. Ensure `ufw allow 80/tcp` is active during renewal window |
 | Process isolation too restrictive | Review the generated systemd unit file. Adjust `ProtectSystem` and `ReadWritePaths` as needed |

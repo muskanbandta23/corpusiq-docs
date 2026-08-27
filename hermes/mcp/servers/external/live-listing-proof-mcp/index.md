@@ -11,7 +11,7 @@ tags: [verification, trust, commerce, marketplace, x402, agent-safety, fail-clos
 
 # Live Listing Proof MCP
 
-**Hosted verification service that checks a public listing before an agent relies on it.** Send a URL and a claim; get a fail-closed verdict with source-supported facts — or an explicit removed, blocked, unreachable, unsupported, or insufficient-evidence state. Designed for agents that recommend products, cite listings, monitor classifieds, or act on advertised prices. $0.02 USDC per verification on Base via x402, no API key and no account.
+**Hosted verification service that checks a public listing before an agent relies on it.** Send a URL and a claim; get a fail-closed verdict with source-supported facts - or an explicit removed, blocked, unreachable, unsupported, or insufficient-evidence state. Designed for agents that recommend products, cite listings, monitor classifieds, or act on advertised prices. $0.02 USDC per verification on Base via x402, no API key and no account.
 
 ```
 Server type: Remote (Streamable HTTP MCP)
@@ -36,7 +36,7 @@ The fail-closed design is the point: the service returns explicit negative state
 |---|---|
 | `verify_listing` | Checks a listing URL against a supplied claim: availability, price, and/or location |
 | `source_status` | Fail-closed state: verified, removed, blocked, unreachable, unsupported, or insufficient-evidence |
-| Structured output | `verdict`, `claim_supported`, `title`, `price`, `location`, `evidence`, `retrieval_method` — optional facts are null when unsupported |
+| Structured output | `verdict`, `claim_supported`, `title`, `price`, `location`, `evidence`, `retrieval_method` - optional facts are null when unsupported |
 
 ## Installation
 
@@ -75,7 +75,7 @@ CorpusIQ tracks the outcome; Live Listing Proof guards the input. A procurement 
 
 - One verification per paid call; not a search engine or price-history database
 - Verifies public listing pages only; no merchant-owned inventory API access
-- Results are not cached as fresh — each call is a live check
+- Results are not cached as fresh - each call is a live check
 - Individual-developer service hosted on Cloudflare Workers; no SLA published
 - x402 payment rails still early-adopter territory
 

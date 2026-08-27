@@ -1,5 +1,5 @@
 ---
-title: OpenClaw Customizer — Setup Guide
+title: OpenClaw Customizer - Setup Guide
 description: Portable, version-controlled configuration for Claude Code and OpenAI Codex. Symlink-based skill syncing across machines with Git version control.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-customizer-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Customizer — Setup Guide
+# OpenClaw Customizer - Setup Guide
 
 ## Prerequisites
 - **Git** installed
@@ -53,7 +53,7 @@ The setup script creates this symlink structure:
 └── ...             (only skills not in codex-exclude)
 ```
 
-Edit files in either location — they're the same files. Commit and push to sync across machines.
+Edit files in either location - they're the same files. Commit and push to sync across machines.
 
 ## Codex Skill Syncing
 
@@ -64,7 +64,7 @@ Codex doesn't support directory-level symlinks, so skills are symlinked individu
 scripts/sync-codex-skills.sh
 ```
 
-Skills listed in `codex-exclude` are skipped — use this for skills that only make sense in Claude Code.
+Skills listed in `codex-exclude` are skipped - use this for skills that only make sense in Claude Code.
 
 ## Configuration Files
 
@@ -88,7 +88,7 @@ Skills listed in `codex-exclude` are skipped — use this for skills that only m
 
 ### .mcp.json
 
-Shared MCP server configuration — add CorpusIQ MCP endpoint here:
+Shared MCP server configuration - add CorpusIQ MCP endpoint here:
 
 ```json
 {
@@ -108,7 +108,7 @@ Shared MCP server configuration — add CorpusIQ MCP endpoint here:
 
 1. **Multi-Machine Agent Consistency:** Agents running on both Linux and macOS hosts. A shared Git-backed config ensures both machines use identical skills, MCP servers, and settings.
 
-2. **Team Onboarding:** New team members clone the config repo, run `./setup.sh`, and instantly have the full CorpusIQ agent toolkit — no manual skill installation needed.
+2. **Team Onboarding:** New team members clone the config repo, run `./setup.sh`, and instantly have the full CorpusIQ agent toolkit - no manual skill installation needed.
 
 3. **Skill Versioning:** Skills change rapidly. Git tracking means you can roll back to a known-good skill version if an update breaks something.
 
@@ -130,4 +130,4 @@ Shared MCP server configuration — add CorpusIQ MCP endpoint here:
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

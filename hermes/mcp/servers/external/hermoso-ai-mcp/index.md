@@ -11,7 +11,7 @@ tags: [ad-creative, video-generation, image-generation, ad-research, campaign-ma
 
 # Hermoso AI MCP
 
-**Remote MCP server (Streamable HTTP, OAuth)** — Hermoso ships an open-source MCP server, a CLI, and installable Claude skills so the assistant you already use can run your whole ad function: research the ads winning in your market, create finished image and video ads, publish them, and read the paid campaigns behind them. 415 tools over one OAuth'd endpoint.
+**Remote MCP server (Streamable HTTP, OAuth)** - Hermoso ships an open-source MCP server, a CLI, and installable Claude skills so the assistant you already use can run your whole ad function: research the ads winning in your market, create finished image and video ads, publish them, and read the paid campaigns behind them. 415 tools over one OAuth'd endpoint.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,7 +25,7 @@ Built by: Hermoso (hermoso.ai)
 
 ## Why This Matters for Operators
 
-Most marketing MCP servers stop at scheduling — they move creative between tools but never make it. Hermoso generates the creative itself: one connector is a one-stop shop for 50+ image and video models — Seedance, Veo, Kling, Sora and Gemini Omni for video; Nano Banana, Imagen, Flux, Seedream and GPT Image for stills; plus premium voices and writing models — on a single credit meter with no per-vendor API keys to hold.
+Most marketing MCP servers stop at scheduling - they move creative between tools but never make it. Hermoso generates the creative itself: one connector is a one-stop shop for 50+ image and video models - Seedance, Veo, Kling, Sora and Gemini Omni for video; Nano Banana, Imagen, Flux, Seedream and GPT Image for stills; plus premium voices and writing models - on a single credit meter with no per-vendor API keys to hold.
 
 **The full ad workflow in one connector: competitor research across the Meta, Google and LinkedIn ad libraries, creative planning, finished branded renders, post-production, scoring, publishing, and campaign management.** Exact per-render credit costs are published before anything spends.
 
@@ -79,10 +79,10 @@ Hermoso's campaign-management tools complement CorpusIQ's Meta Ads and Google Ad
 
 ## Limitations
 
-- Commercial credit system — renders are metered (though priced before spend)
+- Commercial credit system - renders are metered (though priced before spend)
 - 415-tool surface is large; expect a learning curve
 - OAuth endpoint means account-scoped usage
-- Brand new — no track record yet
+- Brand new - no track record yet
 
 ## See Also
 

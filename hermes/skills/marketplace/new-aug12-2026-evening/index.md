@@ -1,6 +1,6 @@
 ---
-title: New Skills — August 12, 2026 (Evening)
-description: "Evening skills.sh sweep — 7 new publisher clusters, 198 skills, 31M+ installs: Lark/Feishu office suite (25M), RigorPilot research (2.6M), Caveman workflow (2.2M), Skills-101 Superpowers (488K), Warp Common Skills (411K), Uizze UI quality (395K), Stably Orca (318K)."
+title: New Skills - August 12, 2026 (Evening)
+description: "Evening skills.sh sweep - 7 new publisher clusters, 198 skills, 31M+ installs: Lark/Feishu office suite (25M), RigorPilot research (2.6M), Caveman workflow (2.2M), Skills-101 Superpowers (488K), Warp Common Skills (411K), Uizze UI quality (395K), Stably Orca (318K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -11,17 +11,17 @@ new_skills: 198
 guides_drafted: 7
 ---
 
-# New Skills — August 12, 2026 (Evening Sweep)
+# New Skills - August 12, 2026 (Evening Sweep)
 
 **Source:** [skills.sh](https://skills.sh) all-time + trending + hot leaderboards
 **Date:** August 12, 2026 (evening)
 **Result:** 7 new publisher clusters · 198 skills · 31M+ listed installs · 7 setup guides
 
-Third sweep of the day, driven by the trending/hot leaderboards rather than keyword queries. Surfaced seven publisher clusters that prior sweeps had not catalogued — headlined by the official Lark/Feishu office suite, the largest office-skill cluster on skills.sh.
+Third sweep of the day, driven by the trending/hot leaderboards rather than keyword queries. Surfaced seven publisher clusters that prior sweeps had not catalogued - headlined by the official Lark/Feishu office suite, the largest office-skill cluster on skills.sh.
 
 ---
 
-## New Publishers (7) — All with Setup Guides
+## New Publishers (7) - All with Setup Guides
 
 | # | Publisher | Skills | Installs | Setup Guide |
 |---|-----------|:------:|---------:|-------------|
@@ -37,13 +37,13 @@ Third sweep of the day, driven by the trending/hot leaderboards rather than keyw
 
 ## Highlights
 
-### Lark/Feishu — The Office Suite Cluster (25M listed installs)
+### Lark/Feishu - The Office Suite Cluster (25M listed installs)
 Two official listings (open.feishu.cn at 14.8M, larksuite/cli at 10.2M) covering the full Lark office stack: Docs, Base, Sheets, IM, Wiki, Calendar, Mail, Tasks, Meetings, Approvals, OKR, plus automated meeting summaries and standup reports. The `lark-im` + bot pattern makes Feishu a viable agent channel alongside Telegram and Discord.
 
-### RigorPilot — AI Research Loop (2.6M)
+### RigorPilot - AI Research Loop (2.6M)
 Twelve research skills at ~234K installs each: paper context resolution, experiment reproduction, safe debugging, training runs. Strongest research cluster documented to date.
 
-### Caveman — Agent Coding Workflow (2.2M)
+### Caveman - Agent Coding Workflow (2.2M)
 Blunt, effective coding discipline: commit everything, compress context, review with evidence. `caveman` (431K), `caveman-commit` (303K), `cavecrew` (251K) for multi-agent crews.
 
 ### Skills-101 Superpowers (488K)
@@ -52,7 +52,7 @@ Extended superpowers fork tuned for AI media: video/image/avatar generation (~88
 ### Warp Common Skills (411K)
 The Warp terminal team's daily drivers: spec-driven development, PR review, CI diagnosis, and the `council` multi-perspective review skill.
 
-### Uizze — Anti-UI-Slop (395K)
+### Uizze - Anti-UI-Slop (395K)
 `anti-ui-slop` (260.5K) + `ui-radar` (132K): detect and fix generic AI-generated interface slop. A design-quality gate for agent-built UI.
 
 ### Stably Orca (318K)
@@ -66,21 +66,21 @@ Smaller clusters surfaced by the trending/hot leaderboards, tracked for future s
 
 | Publisher | Skills | Installs | Notes |
 |---|---|---|---|
-| huaweicloud/huaweicloud-skills | 82 | 8.8K | Huawei Cloud ops — includes Flexus L server Hermes + OpenClaw deployment skills |
+| huaweicloud/huaweicloud-skills | 82 | 8.8K | Huawei Cloud ops - includes Flexus L server Hermes + OpenClaw deployment skills |
 | fandhe-ai (agent-cli-skills + agent-reference-skills) | ~36 | 6.6K+ | Agent CLI workflow: plans, issues, commits, PRs |
 | humanlayer/skills | 5 | 1.4K | Human-in-the-loop patterns (`show-me`, control loops) |
 | worldwonderer/novel-to-game | 7 | 1.1K | Novel-to-game pipeline |
-| caffeinelabs, 199-biotechnologies, cloudai-x, gmgnai, langgenius/dify, tw93/waza | ~20 | <20K each | Niche clusters — single-digit to 9.4K installs each |
+| caffeinelabs, 199-biotechnologies, cloudai-x, gmgnai, langgenius/dify, tw93/waza | ~20 | <20K each | Niche clusters - single-digit to 9.4K installs each |
 
 ---
 
 ## Verified Already Catalogued (this sweep)
 
-- microsoft/azure-skills (7.3M) — covered by microsoft-azure-skills-setup
-- mattpocock/skills (~7M) — covered by mattpocock-skills-setup
-- vercel-labs, anthropics/skills, heygen-com/hyperframes, prime-skills/runcomfy — all covered in prior sweeps
-- remotion-dev/skills — covered in the July 17 sweep
-- 101-skills/skills (196.3K) — covered by ai-video-generation-setup (distinct from skills-101/superpowers)
+- microsoft/azure-skills (7.3M) - covered by microsoft-azure-skills-setup
+- mattpocock/skills (~7M) - covered by mattpocock-skills-setup
+- vercel-labs, anthropics/skills, heygen-com/hyperframes, prime-skills/runcomfy - all covered in prior sweeps
+- remotion-dev/skills - covered in the July 17 sweep
+- 101-skills/skills (196.3K) - covered by ai-video-generation-setup (distinct from skills-101/superpowers)
 
 ---
 
@@ -97,6 +97,6 @@ Smaller clusters surfaced by the trending/hot leaderboards, tracked for future s
 **Catalog growth:** 608+ → 806+ curated skills.
 **Next sweep:** automated cron.
 
-*← [Skills Marketplace](/hermes/skills/marketplace/) | [Previous Sweep — OpenClaw Ecosystem](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)*
+*← [Skills Marketplace](/hermes/skills/marketplace/) | [Previous Sweep - OpenClaw Ecosystem](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)*
 
 *Powered by CorpusIQ*

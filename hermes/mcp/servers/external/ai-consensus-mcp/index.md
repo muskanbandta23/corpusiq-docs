@@ -28,10 +28,10 @@ Connector for aggregating responses across multiple AI models. Query several AI 
 
 ## Operator Use Cases
 
-1. **Decision validation** — verify AI-generated recommendations across models
-2. **Fact-checking** — cross-reference factual claims
-3. **Content review** — multi-model review of generated content
-4. **Bias reduction** — reduce single-model bias in analysis
+1. **Decision validation** - verify AI-generated recommendations across models
+2. **Fact-checking** - cross-reference factual claims
+3. **Content review** - multi-model review of generated content
+4. **Bias reduction** - reduce single-model bias in analysis
 
 ## CorpusIQ Angle
 
@@ -45,4 +45,4 @@ For operators who use AI for critical business decisions, consensus-based valida
 
 ---
 **Discovered:** July 24, 2026 via mcpservers.org /all page
-**Status:** JSON-LD extraction only — GitHub repo not identified
+**Status:** JSON-LD extraction only - GitHub repo not identified

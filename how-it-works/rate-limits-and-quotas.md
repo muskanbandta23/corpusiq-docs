@@ -10,9 +10,9 @@ Every connector has constraints. This page maps them so you know what to expect 
 
 **Three layers of rate limiting can affect your queries:**
 
-1. **Vendor rate limits** — The underlying API (Shopify, QuickBooks, Google Ads) has per-second or per-day request limits.
-2. **CorpusIQ query limits** — How many records can one query return? How long can a query run?
-3. **Plan limits** (if applicable) — Some vendors (Shopify Plus, Google Workspace enterprise) enforce stricter limits.
+1. **Vendor rate limits** - The underlying API (Shopify, QuickBooks, Google Ads) has per-second or per-day request limits.
+2. **CorpusIQ query limits** - How many records can one query return? How long can a query run?
+3. **Plan limits** (if applicable) - Some vendors (Shopify Plus, Google Workspace enterprise) enforce stricter limits.
 
 You don't usually hit these limits in normal use. But if you're running large-scale queries or automated dashboards, knowing them helps you avoid surprises.
 
@@ -27,7 +27,7 @@ These apply to all queries, regardless of connector.
 | Query timeout | 60 seconds | If a connector doesn't respond in 60s, the query fails. |
 | Max result records per query | 10,000 | Queries returning >10k records will be truncated. Ask for specific filters (by date, by product, by status) to get subsets. |
 | Concurrent queries per account | No hard limit | CorpusIQ queues requests. If you fire 100 queries simultaneously, they'll run sequentially, but you won't be rate-limited. |
-| Refresh token validity | Vendor-dependent, 30–90 days | Tokens are automatically refreshed; you shouldn't see this unless a token is not used for a very long time. |
+| Refresh token validity | Vendor-dependent, 30-90 days | Tokens are automatically refreshed; you shouldn't see this unless a token is not used for a very long time. |
 
 ---
 
@@ -82,7 +82,7 @@ These apply to all queries, regardless of connector.
 | **API calls per minute** | 120 requests/minute | Very generous. Unlikely to hit. |
 | **Query complexity** | No explicit limit | Large date ranges and complex filters are fine. |
 | **Historical data** | Full history (all years) | No retention limit. |
-| **Batch operations** | Not applicable (read-only) | — |
+| **Batch operations** | Not applicable (read-only) | - |
 
 **Optimization:** QuickBooks is very fast. No special optimization needed.
 
@@ -118,7 +118,7 @@ These apply to all queries, regardless of connector.
 | **API calls per day** | 120 calls/min (standard); higher for large accounts | Reasonable. You can fire 2 calls/sec. |
 | **Concurrent requests** | No explicit limit | Queue requests. |
 | **Historical data** | Last 28 days (most endpoints) | Can't query campaigns from 2 months ago. |
-| **Conversion data latency** | 6–12 hours | Data is not real-time. Yesterday's conversions may not be visible yet. |
+| **Conversion data latency** | 6-12 hours | Data is not real-time. Yesterday's conversions may not be visible yet. |
 
 **Optimization:** 
 - Don't ask "All campaigns ever." Ask "Active campaigns from the last 28 days."
@@ -165,9 +165,9 @@ These apply to all queries, regardless of connector.
 
 | Limit | Value | Strategy |
 |-------|-------|----------|
-| **API calls per subscription** | Depends on plan (100–100k calls/month) | Check your Semrush plan. If you hit limits, upgrade. |
+| **API calls per subscription** | Depends on plan (100-100k calls/month) | Check your Semrush plan. If you hit limits, upgrade. |
 | **Rate limiting** | 10 req/sec | Fast. No concern. |
-| **Data freshness** | 1–2 weeks | Keyword data is not real-time. |
+| **Data freshness** | 1-2 weeks | Keyword data is not real-time. |
 
 **Optimization:** Don't run Semrush reports daily. Weekly or monthly is typical.
 
@@ -189,7 +189,7 @@ These apply to all queries, regardless of connector.
 
 | Limit | Value | Strategy |
 |-------|-------|----------|
-| **API calls per second** | 3 req/sec (standard); 10 req/sec (Plus) | Moderate. If you're hitting this, space out queries by 300–500ms. |
+| **API calls per second** | 3 req/sec (standard); 10 req/sec (Plus) | Moderate. If you're hitting this, space out queries by 300-500ms. |
 | **List size** | No limit | Can have lists with millions of subscribers. |
 | **Historical data** | Full history | No retention limit. |
 
@@ -208,7 +208,7 @@ These apply to all queries, regardless of connector.
 
 | Limit | Value | Strategy |
 |-------|-------|----------|
-| **API calls per second** | 10–20 req/sec (varies) | High. No concern. |
+| **API calls per second** | 10-20 req/sec (varies) | High. No concern. |
 | **Historical data** | Full history | No retention limit. |
 
 ---
@@ -262,7 +262,7 @@ These apply to all queries, regardless of connector.
 |-------|-------|----------|
 | **API calls per second** | 1 req/sec (standard); higher for enterprise | Moderate. Stagger if needed. |
 | **Message history** | Last 90 days (free tier); full history (paid) | On free tier, can't search older messages. |
-| **File uploads/retention** | Not applicable (read-only) | — |
+| **File uploads/retention** | Not applicable (read-only) | - |
 
 **Optimization:** Space out queries on free tier Slack workspaces if you're hitting rate limits.
 
@@ -270,7 +270,7 @@ These apply to all queries, regardless of connector.
 
 | Limit | Value | Strategy |
 |-------|-------|----------|
-| **API calls per second** | 2–10 req/sec (varies) | Moderate. |
+| **API calls per second** | 2-10 req/sec (varies) | Moderate. |
 | **File listing** | No limit | Pagination handled. |
 
 #### Monday.com
@@ -361,15 +361,15 @@ Knowing how old the data is matters when interpreting results.
 
 | Connector | Data Latency | Notes |
 |-----------|--------------|-------|
-| **Shopify** | 1–2 minutes | Real-time. Orders visible immediately. |
-| **QuickBooks** | 5–10 minutes | Small lag. AP/AR visible within a few minutes. |
+| **Shopify** | 1-2 minutes | Real-time. Orders visible immediately. |
+| **QuickBooks** | 5-10 minutes | Small lag. AP/AR visible within a few minutes. |
 | **Stripe** | Instant | Real-time via Stripe API. |
-| **Google Ads** | 3–6 hours | Not real-time. Yesterday's spend visible by morning. |
-| **Meta Ads** | 6–12 hours | Conversions lag significantly. |
-| **GA4** | 24–48 hours | Standard. "Today's data" is usually yesterday's data. |
+| **Google Ads** | 3-6 hours | Not real-time. Yesterday's spend visible by morning. |
+| **Meta Ads** | 6-12 hours | Conversions lag significantly. |
+| **GA4** | 24-48 hours | Standard. "Today's data" is usually yesterday's data. |
 | **Search Console** | 16 months | Data refreshed weekly, not real-time. |
-| **Klaviyo** | 1–5 minutes | Near real-time. |
-| **HubSpot** | 1–2 minutes | Near real-time. |
+| **Klaviyo** | 1-5 minutes | Near real-time. |
+| **HubSpot** | 1-2 minutes | Near real-time. |
 | **Gmail / Outlook** | Instant | Real-time. |
 
 **Implication:** Don't ask "What's my conversion rate today?" if you have Meta or GA4 as the source. Ask about yesterday.

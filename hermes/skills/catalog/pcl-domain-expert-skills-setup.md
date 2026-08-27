@@ -1,22 +1,22 @@
 ---
-title: "PCL Domain Expert Skills — 104 Persona Skill Pack Setup"
-description: "personamanagmentlayer/pcl — 104 skills, 36.2K installs: a persona-management-layer pack of domain-expert skills covering finance, telecom, trading, banking, and 100 more specialist personas for agents."
+title: "PCL Domain Expert Skills - 104 Persona Skill Pack Setup"
+description: "personamanagmentlayer/pcl - 104 skills, 36.2K installs: a persona-management-layer pack of domain-expert skills covering finance, telecom, trading, banking, and 100 more specialist personas for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pcl-domain-expert-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-18"
 tags: ["hermes skill", "agent skill", "skill setup", "domain experts", "persona", "finance", "expert systems"]
 ---
 
-# PCL Domain Expert Skills — Setup Guide
+# PCL Domain Expert Skills - Setup Guide
 
 **Source:** [personamanagmentlayer/pcl](https://skills.sh/personamanagmentlayer/pcl)
 **GitHub:** [personamanagmentlayer/pcl](https://github.com/personamanagmentlayer/pcl)
 **Skills:** 104 skills · 36.2K total installs
 **Category:** Domain Expertise
 **First Seen:** January 23, 2026 (catalogued August 18, 2026 sweep)
-**Quality Tier:** 🟡 Trusted — Snyk Warn on the finance-expert flagship (named); Gen Agent Trust Hub Pass and Socket Pass; 41 GitHub stars
+**Quality Tier:** 🟡 Trusted - Snyk Warn on the finance-expert flagship (named); Gen Agent Trust Hub Pass and Socket Pass; 41 GitHub stars
 
-The Persona Management Layer (PCL) ships 104 domain-expert skills, each one a specialist persona an agent can load for a vertical: finance, telecommunications, trading, real estate, banking, insurance, construction, logistics, healthcare, aerospace, maritime, and farming on the business side; GCP, PostgreSQL, Kafka, Kubernetes, Terraform, Snowflake, and Rust on the technical side. The flagship finance-expert covers financial systems, FinTech, banking platforms, payment processing, risk management, and regulatory compliance (PCI-DSS, SOX, Basel III). Each skill is a compact knowledge persona rather than an API connector — useful for domain framing, terminology, and compliance context, not for live data access.
+The Persona Management Layer (PCL) ships 104 domain-expert skills, each one a specialist persona an agent can load for a vertical: finance, telecommunications, trading, real estate, banking, insurance, construction, logistics, healthcare, aerospace, maritime, and farming on the business side; GCP, PostgreSQL, Kafka, Kubernetes, Terraform, Snowflake, and Rust on the technical side. The flagship finance-expert covers financial systems, FinTech, banking platforms, payment processing, risk management, and regulatory compliance (PCI-DSS, SOX, Basel III). Each skill is a compact knowledge persona rather than an API connector - useful for domain framing, terminology, and compliance context, not for live data access.
 
 ---
 
@@ -37,7 +37,7 @@ npx skills add https://github.com/personamanagmentlayer/pcl --skill finance-expe
 | Requirement | Details |
 |---|---|
 | **Node.js + npx** | For the skill installer |
-| **Domain data** | The personas provide expertise, not connectors — pair with the operator's own data sources for live work |
+| **Domain data** | The personas provide expertise, not connectors - pair with the operator's own data sources for live work |
 
 ## What It Provides
 
@@ -75,7 +75,7 @@ The remaining 94 personas span cloud platforms (gcp-expert, azure-expert, aws-ex
 
 - Security audits on the finance-expert flagship: Gen Agent Trust Hub Pass, Socket Pass, Snyk Warn (named in the tier)
 - Publisher-page total verified (36.2K across 104 skills); 41 GitHub stars as of the sweep
-- Personas are knowledge packs, not APIs — no live data access and no authentication handling
+- Personas are knowledge packs, not APIs - no live data access and no authentication handling
 - The publisher name is spelled "personamanagmentlayer" (sic) in both the skills.sh listing and the GitHub org
 
 ```bash

@@ -1,6 +1,6 @@
 ---
 title: "Railway Agent Skills Setup Guide"
-description: "Install and configure Railway agent skills for infrastructure deployment — 5,500+ installs, official Railway plugin"
+description: "Install and configure Railway agent skills for infrastructure deployment - 5,500+ installs, official Railway plugin"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/railway-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -13,9 +13,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Publisher:** [railwayapp/railway-skills](https://github.com/railwayapp/railway-skills) (300⭐)
 **Skills.sh:** `npx skills add railwayapp/railway-skills`
 **Installs:** 5,540+ (use-railway skill)
-**Quality:** 🟢 Production — official Railway repository
+**Quality:** 🟢 Production - official Railway repository
 
-> Agent skills for interacting with [Railway](https://railway.com) — deploy, manage, and monitor infrastructure through natural language. Includes Claude Code, OpenAI Codex, Grok Build, and Cursor plugins with local MCP configuration.
+> Agent skills for interacting with [Railway](https://railway.com) - deploy, manage, and monitor infrastructure through natural language. Includes Claude Code, OpenAI Codex, Grok Build, and Cursor plugins with local MCP configuration.
 
 ## What It Does
 
@@ -25,12 +25,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 | **Service Management** | Manage environment variables, domains, scaling, and service lifecycle |
 | **Database Operations** | Provision PostgreSQL, Redis, MySQL, MongoDB with connection strings |
 | **MCP Integration** | Local MCP server for direct Railway API access from agents |
-| **Multi-Platform Plugins** | Claude Code, Codex CLI, Grok Build, Cursor — all supported |
+| **Multi-Platform Plugins** | Claude Code, Codex CLI, Grok Build, Cursor - all supported |
 | **CLI Wrapper** | Uses the Railway CLI (`railway`) for authenticated operations |
 
 ## Why This Matters for Hermes Agents
 
-Railway skills give Hermes agents the ability to deploy infrastructure directly — provision databases, spin up services, set environment variables, and configure domains — without leaving the agent context. For teams using Railway as their deployment platform, this replaces manual dashboard operations with natural language commands like "deploy a PostgreSQL database and connect it to the API service."
+Railway skills give Hermes agents the ability to deploy infrastructure directly - provision databases, spin up services, set environment variables, and configure domains - without leaving the agent context. For teams using Railway as their deployment platform, this replaces manual dashboard operations with natural language commands like "deploy a PostgreSQL database and connect it to the API service."
 
 ## Installation
 
@@ -50,7 +50,7 @@ railway whoami
 ### Method 1: One-Command Agent Setup (recommended)
 
 ```bash
-# Installs skills + configures MCP + checks auth — all in one
+# Installs skills + configures MCP + checks auth - all in one
 curl -fsSL agents.railway.com | sh
 ```
 
@@ -119,7 +119,7 @@ Or from Settings → Plugins → paste `https://github.com/railwayapp/railway-sk
 "Scale the worker service to handle increased traffic"
 "Roll back the API service to the previous deployment"
 "Add a health check endpoint to the web service"
-"Configure autoscaling for the API — min 2, max 5 replicas"
+"Configure autoscaling for the API - min 2, max 5 replicas"
 ```
 
 ### Infrastructure
@@ -142,29 +142,29 @@ railway projects list
 # Verify skills are installed
 hermes skills list | grep railway
 
-# Quick smoke test — ask the agent:
+# Quick smoke test - ask the agent:
 "List my Railway projects"
 ```
 
 ## Pro Tips
 
-1. **Use the one-command setup (`curl -fsSL agents.railway.com | sh`).** It handles skills installation, MCP configuration, and auth verification in a single step — no manual wiring needed.
+1. **Use the one-command setup (`curl -fsSL agents.railway.com | sh`).** It handles skills installation, MCP configuration, and auth verification in a single step - no manual wiring needed.
 
 2. **The MCP server provides direct Railway API access.** Skills.sh-only installs require the Railway CLI to be pre-authenticated. The plugin installs (Claude Code, Cursor) include the MCP server for keyless OAuth access.
 
 3. **Environment variable management is the most-used feature.** Railway's env var system with shared variables and service-specific overrides is its killer feature. The agent skills make bulk env var updates, secret rotation, and environment parity checks straightforward.
 
-4. **Database provisioning includes connection string generation.** When the agent provisions a database, it automatically surfaces the connection string — no need to dig through the Railway dashboard to find credentials.
+4. **Database provisioning includes connection string generation.** When the agent provisions a database, it automatically surfaces the connection string - no need to dig through the Railway dashboard to find credentials.
 
 5. **The `claude-plugins-official` marketplace pins to specific commits.** For the latest features, add Railway's own marketplace (`railwayapp/railway-skills`) which tracks the main branch directly.
 
 ## Related Skills
 
-- [Cloudflare Skills](/hermes/skills/catalog/cloudflare-skills-setup/) — edge deployment and Workers
-- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup/) — full cloud infrastructure
-- [HashiCorp Agent Skills](/hermes/skills/catalog/hashicorp-agent-skills-setup/) — infrastructure-as-code alternative
-- [Neon Agent Skills](/hermes/skills/catalog/neon-agent-skills-setup/) — serverless Postgres (often paired with Railway)
+- [Cloudflare Skills](/hermes/skills/catalog/cloudflare-skills-setup/) - edge deployment and Workers
+- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup/) - full cloud infrastructure
+- [HashiCorp Agent Skills](/hermes/skills/catalog/hashicorp-agent-skills-setup/) - infrastructure-as-code alternative
+- [Neon Agent Skills](/hermes/skills/catalog/neon-agent-skills-setup/) - serverless Postgres (often paired with Railway)
 
 ---
 
-*Source: [skills.sh — railwayapp/railway-skills](https://skills.sh/railwayapp/railway-skills) · [GitHub](https://github.com/railwayapp/railway-skills) · 5,540+ installs*
+*Source: [skills.sh - railwayapp/railway-skills](https://skills.sh/railwayapp/railway-skills) · [GitHub](https://github.com/railwayapp/railway-skills) · 5,540+ installs*

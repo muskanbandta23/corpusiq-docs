@@ -1,5 +1,5 @@
 ---
-title: "ComparEdge LLM Cost MCP — Integration Guide"
+title: "ComparEdge LLM Cost MCP - Integration Guide"
 description: "Token cost math for LLM API calls: 69 models across 17 providers, prices verified by ComparEdge. Free, no API key required."
 category: mcp
 tags: [mcp-server, finance, llm, cost-management, ai-operations]
@@ -20,7 +20,7 @@ robots: "index,follow"
 
 ## Overview
 
-The ComparEdge LLM Cost MCP server gives AI agents real-time token cost calculations for 69 models across 17 providers. Operators deploying AI agents at scale need cost awareness — this tool answers "what will this API call cost?" before the call is made.
+The ComparEdge LLM Cost MCP server gives AI agents real-time token cost calculations for 69 models across 17 providers. Operators deploying AI agents at scale need cost awareness - this tool answers "what will this API call cost?" before the call is made.
 
 Prices are verified by ComparEdge, a SaaS pricing intelligence platform. The server covers OpenAI (GPT-4o, GPT-4.1, o3/o4), Anthropic (Claude Sonnet, Opus, Haiku), Google (Gemini), Meta (Llama), Mistral, DeepSeek, Cohere, xAI (Grok), and more.
 
@@ -72,10 +72,10 @@ Operators using CorpusIQ for business analytics can pair this with cost manageme
 
 ## Limitations
 
-- 1 GitHub star — brand new, community adoption pending
+- 1 GitHub star - brand new, community adoption pending
 - Prices updated by ComparEdge; accuracy depends on their verification cycle
-- Covers token costs only — doesn't account for infrastructure, latency, or throughput costs
-- No historical pricing data (yet — see ComparEdge Price Watch MCP for that)
+- Covers token costs only - doesn't account for infrastructure, latency, or throughput costs
+- No historical pricing data (yet - see ComparEdge Price Watch MCP for that)
 
 ## Verdict
 

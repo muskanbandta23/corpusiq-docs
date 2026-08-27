@@ -13,7 +13,7 @@ description: "Template for building your own CorpusIQ recipes. Copy the structur
 ## Use Case
 
 [One paragraph. What problem does this recipe solve? Who runs it and when?
-Be specific — include the decision or action this query enables.]
+Be specific - include the decision or action this query enables.]
 
 ---
 
@@ -51,7 +51,7 @@ or common errors and how to handle them.]
 
 ## Variations
 
-[Optional. List common adaptations — different time windows, additional filters,
+[Optional. List common adaptations - different time windows, additional filters,
 output format changes.]
 ---
 

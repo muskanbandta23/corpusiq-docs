@@ -1,5 +1,5 @@
 ---
-title: "Memory Hygiene — Setup Guide - CorpusIQ Docs"
+title: "Memory Hygiene - Setup Guide - CorpusIQ Docs"
 description: Audit, clean, and optimize Hermes/Clawdbot vector memory to prevent token waste and performance degradation from memory bloat.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/memory-hygiene-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Memory Hygiene — Setup Guide
+# Memory Hygiene - Setup Guide
 
 ## Prerequisites
 - **Clawdbot / OpenClaw** with LanceDB vector memory (`~/.clawdbot/memory/lancedb/`)
@@ -101,4 +101,4 @@ The primary source of memory bloat is `autoCapture: true`. Disable it while keep
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

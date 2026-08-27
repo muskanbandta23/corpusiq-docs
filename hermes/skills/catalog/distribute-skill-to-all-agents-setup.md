@@ -1,5 +1,5 @@
 ---
-title: "distribute-skill-to-all-agents — Setup Guide"
+title: "distribute-skill-to-all-agents - Setup Guide"
 description: Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills. Sync a skill across Codex, Claude Code, Pi, and Hermes agent folders so all agents see it.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# distribute-skill-to-all-agents — Setup Guide
+# distribute-skill-to-all-agents - Setup Guide
 
 **Source:** [davidondrej/skills](https://skills.sh/davidondrej/skills) (59 installs)
 **Category:** Agent Infrastructure / Skill Management
@@ -34,7 +34,7 @@ The skill lives inside the `skill-authoring` category of davidondrej/skills alon
 | **4 agent skill folders** | `~/.agents/skills/`, `~/.claude/skills/`, `~/.pi/agent/skills/`, `~/.hermes/skills/` must exist |
 | **Symlink for Claude** | `~/.claude/skills` should be a symlink to `~/.agents/skills` (auto-covers Claude) |
 | **Symlink for Pi** | `~/.pi/agent/skills` should be a symlink to `~/.agents/skills` (auto-covers Pi) |
-| **Hermes standalone** | `~/.hermes/skills/` is independent — manual copy required |
+| **Hermes standalone** | `~/.hermes/skills/` is independent - manual copy required |
 
 ---
 
@@ -71,10 +71,10 @@ done
 
 | Agent | Skills Folder | Notes |
 |---|---|---|
-| Codex / OpenAI Agents | `~/.agents/skills/` | **Canonical** — author skills here first |
-| Claude Code | `~/.claude/skills/` | **Symlink → `~/.agents/skills/`** — writing to `.agents/skills` automatically covers Claude |
-| Pi Agent | `~/.pi/agent/skills/` | **Symlink → `~/.agents/skills/`** — auto-covered. (Path is `/agent/` nested — NOT `~/.pi/skills/`) |
-| Hermes Agent | `~/.hermes/skills/` | **Independent copy** — the only one needing a manual copy |
+| Codex / OpenAI Agents | `~/.agents/skills/` | **Canonical** - author skills here first |
+| Claude Code | `~/.claude/skills/` | **Symlink → `~/.agents/skills/`** - writing to `.agents/skills` automatically covers Claude |
+| Pi Agent | `~/.pi/agent/skills/` | **Symlink → `~/.agents/skills/`** - auto-covered. (Path is `/agent/` nested - NOT `~/.pi/skills/`) |
+| Hermes Agent | `~/.hermes/skills/` | **Independent copy** - the only one needing a manual copy |
 
 ---
 
@@ -94,7 +94,7 @@ done
 
 | Issue | Fix |
 |---|---|
-| `.claude/skills` is a real directory, not a symlink | The user has diverged copies — ask before touching. Compare contents to decide which is canonical |
+| `.claude/skills` is a real directory, not a symlink | The user has diverged copies - ask before touching. Compare contents to decide which is canonical |
 | Byte counts don't match after copy | Check for trailing whitespace, different line endings, or file permissions. Re-copy with `cp -a` |
 | `.pi/agent/skills` symlink broken | Recreate: `ln -sf ~/.agents/skills ~/.pi/agent/skills` (ensure `~/.pi/agent/` exists) |
 | Skill not showing in Hermes | Verify the SKILL.md file is directly in `~/.hermes/skills/<skill-name>/SKILL.md`, not nested deeper |

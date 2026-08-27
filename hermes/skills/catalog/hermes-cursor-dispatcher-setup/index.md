@@ -1,6 +1,6 @@
 ---
-title: "Cursor Delegate — Hermes Agent Skill for Cursor CLI"
-description: "Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent — safely delegate coding work to Cursor CLI with"
+title: "Cursor Delegate - Hermes Agent Skill for Cursor CLI"
+description: "Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor CLI with"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -27,7 +27,7 @@ A skill for Hermes Agent that safely delegates repository-level coding, debuggin
 - Requires Hermes to independently inspect diffs, run tests, and accept/reject
 - Integrates natively with Grok models (default: `grok-4.5-xhigh`)
 
-**Key design rule:** Cursor is an external implementation executor — **never** a source of truth. Hermes owns task construction, workspace selection, safe invocation, diff review, independent tests, corrective iterations, and the final acceptance decision.
+**Key design rule:** Cursor is an external implementation executor - **never** a source of truth. Hermes owns task construction, workspace selection, safe invocation, diff review, independent tests, corrective iterations, and the final acceptance decision.
 
 ## Prerequisites
 
@@ -188,11 +188,11 @@ The wrapper enforces:
 | **Workspace isolation** | Detached worktree, never on dirty repo |
 
 The wrapper **does NOT** pass:
-- `--force` — no forced overwrites
-- `--yolo` — no skip-confirmation
-- `--approve-mcps` — no MCP auto-approval
-- `--add-dir` — no directory injection
-- Arbitrary headers — no HTTP header manipulation
+- `--force` - no forced overwrites
+- `--yolo` - no skip-confirmation
+- `--approve-mcps` - no MCP auto-approval
+- `--add-dir` - no directory injection
+- Arbitrary headers - no HTTP header manipulation
 
 ## When to Use
 
@@ -220,7 +220,7 @@ which agent || echo "Cursor CLI not installed. Install from cursor.com/cli"
 The wrapper has a configurable timeout (default: 600s). If exceeded:
 1. The Cursor process group is killed
 2. Partial output is captured in the log file
-3. The worktree may contain partial changes — discard and retry
+3. The worktree may contain partial changes - discard and retry
 
 ### Model not available
 ```bash
@@ -237,15 +237,15 @@ git worktree remove /tmp/cursor-work-* --force
 
 ## Pitfalls
 
-1. **Never trust Cursor's self-report** — Always inspect the actual diff. Cursor may claim success while producing broken code.
+1. **Never trust Cursor's self-report** - Always inspect the actual diff. Cursor may claim success while producing broken code.
 
-2. **Dirty repos** — The wrapper does NOT check for uncommitted changes. Hermes must verify `git status --short` before delegating.
+2. **Dirty repos** - The wrapper does NOT check for uncommitted changes. Hermes must verify `git status --short` before delegating.
 
-3. **Model alias drift** — `grok-4.5-xhigh` may not appear in `agent --list-models` but was verified working. If it fails, check model availability with `agent --list-models` and override with `--model`.
+3. **Model alias drift** - `grok-4.5-xhigh` may not appear in `agent --list-models` but was verified working. If it fails, check model availability with `agent --list-models` and override with `--model`.
 
-4. **Large repos** — Worktree creation on large repos (1GB+) may take several seconds. Account for this in timeout calculations.
+4. **Large repos** - Worktree creation on large repos (1GB+) may take several seconds. Account for this in timeout calculations.
 
-5. **Tests may not exist** — If the repo has no tests for the changed area, Hermes must manually verify correctness through code review.
+5. **Tests may not exist** - If the repo has no tests for the changed area, Hermes must manually verify correctness through code review.
 
 ## Verification Checklist
 

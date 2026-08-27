@@ -1,5 +1,5 @@
 ---
-title: xurl (X/Twitter) — Full Setup Guide for Hermes Agents
+title: xurl (X/Twitter) - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the xurl skill from nousresearch/hermes-agent. Post, search, DM, and manage media on X/Twitter from Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# xurl (X/Twitter Integration) — Setup Guide
+# xurl (X/Twitter Integration) - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) (171 installs)
 **Category:** Social Media
 
-Provides full X/Twitter API v2 access from Hermes agents — posting, searching, direct messages, media uploads, and account operations. Replaces browser-based Twitter automation with native API calls.
+Provides full X/Twitter API v2 access from Hermes agents - posting, searching, direct messages, media uploads, and account operations. Replaces browser-based Twitter automation with native API calls.
 
 ---
 
@@ -116,8 +116,8 @@ hermes xurl media --file /path/to/image.png --text "Check this out"
 # Verify skill installed
 hermes skills list | grep xurl
 
-# Quick functional test — post a test tweet
-hermes xurl post "xurl setup verified — CorpusIQ agent reporting for duty"
+# Quick functional test - post a test tweet
+hermes xurl post "xurl setup verified - CorpusIQ agent reporting for duty"
 ```
 
 ---

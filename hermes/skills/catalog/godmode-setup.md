@@ -1,6 +1,6 @@
 ---
-title: Godmode — Autonomous Execution Mode Setup
-description: Install and configure godmode from nousresearch/hermes-agent. Fully autonomous execution mode that bypasses confirmation gates — 138 installs.
+title: Godmode - Autonomous Execution Mode Setup
+description: Install and configure godmode from nousresearch/hermes-agent. Fully autonomous execution mode that bypasses confirmation gates - 138 installs.
 category: hermes-skills
 publisher: nousresearch
 installs: 138
@@ -12,14 +12,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Godmode — Setup Guide
+# Godmode - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/godmode) (138 installs)
 **Category:** Autonomous Execution
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** Hermes Agent v0.20.0+
 
-Godmode switches Hermes into fully autonomous execution — bypassing confirmation gates, approval prompts, and safety checks. Designed for trusted, isolated environments where the operator wants Hermes to execute without interruption.
+Godmode switches Hermes into fully autonomous execution - bypassing confirmation gates, approval prompts, and safety checks. Designed for trusted, isolated environments where the operator wants Hermes to execute without interruption.
 
 ⚠️ **WARNING:** Godmode disables all confirmation prompts. Only enable in sandboxed, isolated, or fully trusted environments. Not recommended for production systems with write access to critical infrastructure.
 
@@ -30,10 +30,10 @@ Godmode switches Hermes into fully autonomous execution — bypassing confirmati
 | Capability | How |
 |-----------|-----|
 | **Bypass confirmations** | All `confirm` gates are auto-approved |
-| **Autonomous execution** | No "are you sure?" prompts — just execution |
+| **Autonomous execution** | No "are you sure?" prompts - just execution |
 | **Full tool access** | All tools available without per-call approval |
 | **Session-scoped** | Godmode applies to the current session only |
-| **Audit trail** | All actions still logged — just not gated |
+| **Audit trail** | All actions still logged - just not gated |
 
 ---
 
@@ -137,9 +137,9 @@ cat /tmp/godmode-test/test.txt
 
 ## See Also
 
-- [kanban-orchestrator-setup.md](kanban-orchestrator-setup.md) — Task decomposition for autonomous execution
-- [plan-setup.md](plan-mode-setup.md) — Plan mode (opposite: plan without executing)
-- [writing-plans-subagent-development-setup.md](writing-plans-subagent-development-setup.md) — Structured planning with subagent execution
+- [kanban-orchestrator-setup.md](kanban-orchestrator-setup.md) - Task decomposition for autonomous execution
+- [plan-setup.md](plan-mode-setup.md) - Plan mode (opposite: plan without executing)
+- [writing-plans-subagent-development-setup.md](writing-plans-subagent-development-setup.md) - Structured planning with subagent execution
 
 ---
 

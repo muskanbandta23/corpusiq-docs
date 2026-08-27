@@ -27,7 +27,7 @@ and revenue data to compute true blended ROI per channel. It answers:
   - Google Ads: read access to campaigns, ad_groups, metrics
   - Meta Ads: ads_read, business_management
   - GA4: readonly
-- Frequency: weekly (run Monday for the prior Mon–Sun window)
+- Frequency: weekly (run Monday for the prior Mon-Sun window)
 
 ---
 
@@ -48,7 +48,7 @@ Date range: last 7 complete days (Mon through Sun).
 ## Sample Output
 
 ```
-Weekly Ad ROI Report — May 19–25, 2025
+Weekly Ad ROI Report - May 19-25, 2025
 
 Channel        Spend      Revenue    ROAS    Clicks   Conv.   CPC
 ---------------------------------------------------------------------------

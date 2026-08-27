@@ -50,9 +50,9 @@ Join on contact email. For each deal show:
 - Days since last email open (if any)
 
 Then give me three segments:
-1. Hot — deal in late stage AND contact opened email in last 7 days
-2. At Risk — deal has been in current stage 14+ days AND no email open in 14+ days
-3. Engaged but stalled — contact has 3+ opens in last 14 days but deal hasn't advanced
+1. Hot - deal in late stage AND contact opened email in last 7 days
+2. At Risk - deal has been in current stage 14+ days AND no email open in 14+ days
+3. Engaged but stalled - contact has 3+ opens in last 14 days but deal hasn't advanced
 
 Sort At Risk by deal amount descending.
 ```
@@ -62,29 +62,29 @@ Sort At Risk by deal amount descending.
 ## Sample Output
 
 ```
-HubSpot × Klaviyo Pipeline Correlation — Apr 25 – May 25, 2025
+HubSpot × Klaviyo Pipeline Correlation - Apr 25 - May 25, 2025
 
 HOT (8 deals)
-Deal: Acme Corp Expansion — Stage: Proposal Sent — $42,000
-  Contact: jane@acme.com — Opens: 6 | Clicks: 3 | Last open: 2 days ago
+Deal: Acme Corp Expansion - Stage: Proposal Sent - $42,000
+  Contact: jane@acme.com - Opens: 6 | Clicks: 3 | Last open: 2 days ago
 
-Deal: Beta Industries Q2 — Stage: Contract Review — $18,500
-  Contact: ops@betaind.com — Opens: 4 | Clicks: 2 | Last open: 1 day ago
+Deal: Beta Industries Q2 - Stage: Contract Review - $18,500
+  Contact: ops@betaind.com - Opens: 4 | Clicks: 2 | Last open: 1 day ago
 
 [... 6 more]
 
-AT RISK (12 deals — $287,000 at risk)
-Deal: Gamma Corp Platform — Stage: Demo Scheduled — $95,000 — 22 days in stage
-  Contact: it@gammacorp.com — Opens: 0 | Last open: 31 days ago
+AT RISK (12 deals - $287,000 at risk)
+Deal: Gamma Corp Platform - Stage: Demo Scheduled - $95,000 - 22 days in stage
+  Contact: it@gammacorp.com - Opens: 0 | Last open: 31 days ago
 
-Deal: Delta Retail Suite — Stage: Qualified — $61,000 — 18 days in stage
-  Contact: buyer@deltaretail.com — Opens: 1 | Last open: 19 days ago
+Deal: Delta Retail Suite - Stage: Qualified - $61,000 - 18 days in stage
+  Contact: buyer@deltaretail.com - Opens: 1 | Last open: 19 days ago
 
 [... 10 more]
 
 ENGAGED BUT STALLED (5 deals)
-Deal: Epsilon Media — Stage: Qualified — $28,000 — 11 days in stage
-  Contact: cmo@epsilonmedia.com — Opens: 9 | Clicks: 4 | Last open: 1 day ago
+Deal: Epsilon Media - Stage: Qualified - $28,000 - 11 days in stage
+  Contact: cmo@epsilonmedia.com - Opens: 9 | Clicks: 4 | Last open: 1 day ago
   → High engagement, deal not advancing. Consider direct outreach.
 
 [... 4 more]

@@ -1,6 +1,6 @@
 ---
-title: x-use MCP — Browser-Native X (Twitter) Automation
-description: "Setup and usage guide for x-use MCP — Browser-Native X (Twitter) Automation. Part of the Hermes resource directory."
+title: x-use MCP - Browser-Native X (Twitter) Automation
+description: "Setup and usage guide for x-use MCP - Browser-Native X (Twitter) Automation. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/x-use-mcp/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# x-use MCP — Browser-Native X (Twitter) Automation
+# x-use MCP - Browser-Native X (Twitter) Automation
 
 **Priority:** HIGH | **Category:** Social Media / Marketing  
 **Transport:** stdio (pip) | **Auth:** Cookie-based (no X API key)  
@@ -18,9 +18,9 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does for Operators
 
-Multi-account X (Twitter) automation that drives a real Chrome session with your own cookies — no X API key or developer account required. 32 tools for posting, replies, keyword search, engagement, single-tweet reads (images returned as MCP content), per-account personas, proxy pools, and a persistent scheduled-action queue.
+Multi-account X (Twitter) automation that drives a real Chrome session with your own cookies - no X API key or developer account required. 32 tools for posting, replies, keyword search, engagement, single-tweet reads (images returned as MCP content), per-account personas, proxy pools, and a persistent scheduled-action queue.
 
-**The killer feature:** Draft-approval mode is ON by default. Write tools return a draft — nothing publishes until `approve_draft` is called. This is the safety rail that most social-media MCP servers lack.
+**The killer feature:** Draft-approval mode is ON by default. Write tools return a draft - nothing publishes until `approve_draft` is called. This is the safety rail that most social-media MCP servers lack.
 
 ## Installation
 
@@ -74,7 +74,7 @@ Key tool categories:
 ## Limitations
 
 - Requires Chrome and logged-in X session (cookie-based)
-- X may detect and block automation patterns — rotate proxies and respect rate limits
+- X may detect and block automation patterns - rotate proxies and respect rate limits
 - Cookie expiry requires periodic re-authentication
 - New package, early community adoption
 - Python-only (no Node.js distribution)

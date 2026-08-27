@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ## What It Is
 
-CorpusIQ connects to SQL databases (PostgreSQL, MySQL, and others) giving AI agents read-only query access. Agents can explore schemas, run SELECT queries, and analyze data — while write operations require explicit authorization.
+CorpusIQ connects to SQL databases (PostgreSQL, MySQL, and others) giving AI agents read-only query access. Agents can explore schemas, run SELECT queries, and analyze data - while write operations require explicit authorization.
 
 ## Available Connectors
 
@@ -25,7 +25,7 @@ CorpusIQ connects to SQL databases (PostgreSQL, MySQL, and others) giving AI age
 
 ## Quick Start
 
-Add the connector through the [CorpusIQ dashboard](https://corpusiq.io/dashboard). Each connector uses OAuth or connection-string authentication — no API keys to manage.
+Add the connector through the [CorpusIQ dashboard](https://corpusiq.io/dashboard). Each connector uses OAuth or connection-string authentication - no API keys to manage.
 
 ## See Also
 

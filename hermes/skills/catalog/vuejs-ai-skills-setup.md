@@ -1,13 +1,13 @@
 ---
-title: VueJS AI Skills — Vue Best Practices Suite Setup
-description: "vuejs-ai/skills — 11 skills, 129.2K installs: vue-best-practices (36.6K), vue-debug-guides (23.6K), Pinia and Router best practices, composables, testing, JSX, Options API, and VueUse guidance for Vue 3 agents."
+title: VueJS AI Skills - Vue Best Practices Suite Setup
+description: "vuejs-ai/skills - 11 skills, 129.2K installs: vue-best-practices (36.6K), vue-debug-guides (23.6K), Pinia and Router best practices, composables, testing, JSX, Options API, and VueUse guidance for Vue 3 agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vuejs-ai-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "vue", "pinia", "vue-router", "frontend"]
 ---
 
-# VueJS AI Skills — Setup Guide
+# VueJS AI Skills - Setup Guide
 
 **Source:** [vuejs-ai/skills](https://skills.sh/vuejs-ai/skills)
 **GitHub:** [vuejs-ai/skills](https://github.com/vuejs-ai/skills)
@@ -65,7 +65,7 @@ npx skills add vuejs-ai/skills
 ## Limitations / Verification
 
 - Multi-skill suite; no individual security-audit pages fetched this sweep
-- Vue 3 focused — Options API skills exist but the ecosystem guidance is Composition-first
+- Vue 3 focused - Options API skills exist but the ecosystem guidance is Composition-first
 - Install counts verified on publisher page (API sums undercount 10x)
 
 ```bash

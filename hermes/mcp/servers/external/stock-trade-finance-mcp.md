@@ -1,5 +1,5 @@
 ---
-title: "Stock Trade Finance MCP — Real-Time Market Data via"
+title: "Stock Trade Finance MCP - Real-Time Market Data via"
 description: "MCP server for stock prices, financial news, forex rates, and fundamental data via Tiingo API. Essential for operators managing investments or building"
 category: mcp
 tags: [mcp-server, finance, stocks, trading, forex, market-data, investment]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Stock Trade Finance MCP Server ★ New (July 16)
 
-A community-built MCP server that connects AI agents to Tiingo's financial data API — providing real-time and historical stock prices, forex rates, financial news, and company fundamentals. Operators can query market data, research investments, and monitor portfolios through natural language.
+A community-built MCP server that connects AI agents to Tiingo's financial data API - providing real-time and historical stock prices, forex rates, financial news, and company fundamentals. Operators can query market data, research investments, and monitor portfolios through natural language.
 
 **Source:** GitHub (created July 14, 2026)
 **Category:** Finance
@@ -31,11 +31,11 @@ A community-built MCP server that connects AI agents to Tiingo's financial data 
 Essential for operators who manage investments, monitor market conditions, or need financial data in their AI workflows. With 91 GitHub stars within days of launch, this is gaining rapid adoption in the financial MCP space.
 
 **Use cases:**
-- Portfolio monitoring — check stock prices and performance in AI conversations
-- Investment research — pull fundamentals and news for due diligence
-- Currency exposure tracking — monitor forex rates for international operations
-- Market condition monitoring — stay informed on market-moving news
-- Financial modeling — feed real-time data into AI-assisted financial models
+- Portfolio monitoring - check stock prices and performance in AI conversations
+- Investment research - pull fundamentals and news for due diligence
+- Currency exposure tracking - monitor forex rates for international operations
+- Market condition monitoring - stay informed on market-moving news
+- Financial modeling - feed real-time data into AI-assisted financial models
 
 ## Integration with CorpusIQ
 
@@ -50,9 +50,9 @@ CorpusIQ Analytics → Track market trends alongside website traffic patterns
 
 ## Limitations
 - Requires Tiingo API key (free tier available with rate limits)
-- US equities focus — limited international coverage
-- Community project with 91 stars — early stage, evolving rapidly
-- Stock prices only — no options, futures, or crypto (Tiingo limitation)
+- US equities focus - limited international coverage
+- Community project with 91 stars - early stage, evolving rapidly
+- Stock prices only - no options, futures, or crypto (Tiingo limitation)
 - Rate limits on free Tiingo tier may restrict heavy usage
 
 *Back to [External MCP Catalog](/hermes/mcp/servers/external/)*

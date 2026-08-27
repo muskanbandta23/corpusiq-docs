@@ -1,5 +1,5 @@
 ---
-title: "pacs008-mcp — ISO 20022 Credit Transfer Generator MCP"
+title: "pacs008-mcp - ISO 20022 Credit Transfer Generator MCP"
 description: "Generate, validate, parse & audit ISO 20022 pacs.008 credit transfers from MCP clients. 10 tools, scheme-aware (CBPR+/HVPS+/Fedwire/CHAPS/T2/SCT-Inst). Part"
 source: github.com/sebastienrousseau/pacs008-mcp
 stars: 0
@@ -13,7 +13,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# pacs008-mcp — ISO 20022 Credit Transfer Generator
+# pacs008-mcp - ISO 20022 Credit Transfer Generator
 
 **Generate, validate, and audit ISO 20022 pacs.008 FI-to-FI Customer Credit Transfer messages from AI agents.** Part of the [ISO 20022 MCP Suite](https://github.com/sebastienrousseau).
 

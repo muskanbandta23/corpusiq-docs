@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent v0.18.0 — The Judgment Release
+title: Hermes Agent v0.18.0 - The Judgment Release
 description: P0/P1 clean sweep (692 items, 100% closed). Mixture-of-Agents as first-class model, verification & completion contracts, /learn distillation, /journey timeline, background fan-out, desktop coding Projects, scale-to-zero gateway, Google Vertex AI, security hardening. July 1, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.0/"
 robots: "index,follow"
@@ -8,16 +8,16 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Hermes Agent v0.18.0 (v2026.7.1) — The Judgment Release
+# Hermes Agent v0.18.0 (v2026.7.1) - The Judgment Release
 
 **Release Date:** July 1, 2026
 **Since v0.17.0:** ~1,720 commits · 998 merged PRs · 2,215 files changed · ~251,000 insertions · ~41,000 deletions · 949 issues closed · 381 community contributors
 
-> **The Judgment Release.** Over the last week and a half the team put nearly all of its effort into one goal: resolve **every P0 and P1 issue and PR in the entire Hermes Agent repo** — and as of this release, **100% of them are closed.** Zero open P0s. Zero open P1s. On top of that clean-sweep, v0.18.0 is about how *well* Hermes thinks and how it *knows when its work is actually done*.
+> **The Judgment Release.** Over the last week and a half the team put nearly all of its effort into one goal: resolve **every P0 and P1 issue and PR in the entire Hermes Agent repo** - and as of this release, **100% of them are closed.** Zero open P0s. Zero open P1s. On top of that clean-sweep, v0.18.0 is about how *well* Hermes thinks and how it *knows when its work is actually done*.
 
 ---
 
-## 🎯 The P0/P1 Clean Sweep — 100% Resolved
+## 🎯 The P0/P1 Clean Sweep - 100% Resolved
 
 This is the release headline. Every single P0 and P1 across the whole repo is now closed:
 
@@ -33,49 +33,49 @@ This is the release headline. Every single P0 and P1 across the whole repo is no
 
 ## ✨ Highlights
 
-### 🧠 Mixture-of-Agents — First-Class Model
+### 🧠 Mixture-of-Agents - First-Class Model
 MoA graduated from a mode to a first-class model provider. Every named MoA preset appears as a selectable model under a `moa` provider alongside Claude, GPT, and Grok in every model picker (CLI, TUI, desktop, gateway). Pick "my-council" the same way you'd pick any model.
 
-- **See every model's reasoning** — each reference model's full output renders as its own labelled block
-- **Aggregator streams live** — watch the answer form in real time instead of waiting for the whole response
+- **See every model's reasoning** - each reference model's full output renders as its own labelled block
+- **Aggregator streams live** - watch the answer form in real time instead of waiting for the whole response
 - **Reference models see full tool state** and fire on every user/tool response
 - **Opt-in full-turn trace persistence** to JSONL for debugging and eval
 
-### ✅ Verification & Goals — The Agent Proves Its Work
+### ✅ Verification & Goals - The Agent Proves Its Work
 Hermes now records verification evidence and can decide it's finished by actually running your project's checks, not by claiming success.
 
-- **Completion contracts for `/goal`** — state what "done" looks like; the loop judges completion against evidence, not the model's say-so
-- **Coding verification evidence ledger** — profile-scoped record of canonical project checks
+- **Completion contracts for `/goal`** - state what "done" looks like; the loop judges completion against evidence, not the model's say-so
+- **Coding verification evidence ledger** - profile-scoped record of canonical project checks
 - **`pre_verify` hook** for wiring in custom verification
-- **`/goal wait <pid>`** — park the standing-goal loop on a background process
+- **`/goal wait <pid>`** - park the standing-goal loop on a background process
 
 ### 🎓 Self-Improvement: `/learn` & `/journey`
 
-- **`/learn <anything>`** — distill a reusable skill from a directory, URL, or workflow you just walked through. Honors CONTRIBUTING.md skill standards automatically.
-- **`/journey`** — CLI + TUI learning timeline of accumulated memories and skills, with in-place edit/delete
-- **Memory graph** in desktop — playable radial timeline of memories + skills over time
-- **Cheaper background review** — aux-model routing + context digest + adaptive cadence for the post-turn self-improvement fork
+- **`/learn <anything>`** - distill a reusable skill from a directory, URL, or workflow you just walked through. Honors CONTRIBUTING.md skill standards automatically.
+- **`/journey`** - CLI + TUI learning timeline of accumulated memories and skills, with in-place edit/delete
+- **Memory graph** in desktop - playable radial timeline of memories + skills over time
+- **Cheaper background review** - aux-model routing + context digest + adaptive cadence for the post-turn self-improvement fork
 
 ### 🖥️ Desktop Coding Cockpit
-The desktop app gained real, per-profile **Projects** — a sidebar of your codebases, a coding rail, a review pane, git worktree management, and agent-facing project tools.
+The desktop app gained real, per-profile **Projects** - a sidebar of your codebases, a coding rail, a review pane, git worktree management, and agent-facing project tools.
 
 - **First-class Projects** with `project → repo → lane` model
 - **Multi-terminal panel** with read-only agent terminals; persist & restore across relaunch
 - **PR-style file diffs** in chat; in-app spot editor for file previews
 - **Conversation timeline rail** for long threads
-- **Composer refactor wave** — god-file de-entanglement into isolated engine hooks
-- **Pets** — roaming pet (opt-in), pop-out overlay, notifications
+- **Composer refactor wave** - god-file de-entanglement into isolated engine hooks
+- **Pets** - roaming pet (opt-in), pop-out overlay, notifications
 
 ### 🤖 Background Subagent Fan-Out
 `delegate_task` can now fan out multiple subagents that all run in the **background**: your chat is never blocked, and when every subagent finishes, their results come back as a single consolidated turn. Kick off "research these five competitors in parallel" and carry on with something else.
 
 ### 🌐 Scale-to-Zero Gateway
-The gateway can go **dormant when idle** and quiesce cleanly before a restart, migration, or auto-update — without dropping in-flight conversations. External drain coordination ensures nobody gets cut off mid-turn. Running Hermes at scale for a team is now production-grade.
+The gateway can go **dormant when idle** and quiesce cleanly before a restart, migration, or auto-update - without dropping in-flight conversations. External drain coordination ensures nobody gets cut off mid-turn. Running Hermes at scale for a team is now production-grade.
 
 ### 🔌 Google Vertex AI Provider
-Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible endpoint. Hermes auto-mints and refreshes short-lived OAuth2 tokens from a service-account JSON or Application Default Credentials — no static key, no mid-session expiry.
+Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible endpoint. Hermes auto-mints and refreshes short-lived OAuth2 tokens from a service-account JSON or Application Default Credentials - no static key, no mid-session expiry.
 
-### ✍️ `/prompt` — Compose in Your Editor
+### ✍️ `/prompt` - Compose in Your Editor
 `/prompt` opens your `$EDITOR` so you can hand-write a long, multi-line prompt in real markdown instead of fighting a one-line input box.
 
 ### 🔒 Security Hardening
@@ -115,7 +115,7 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 ## 🧠 Core Agent & Architecture
 
 ### Delegation & Subagents
-- **Background fan-out** — parallel subagents run in background, one consolidated return when all finish
+- **Background fan-out** - parallel subagents run in background, one consolidated return when all finish
 - Background subagent tracking in CLI + TUI status bar
 
 ### Agent Loop & Tools
@@ -123,7 +123,7 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 - Coding-context project facts exposed via `project.facts` RPC
 - `web_extract` truncate-and-store instead of LLM summarization
 - Friendly human-phrased tool labels for built-in tools
-- `/reasoning full` — uncapped thinking
+- `/reasoning full` - uncapped thinking
 - `/timestamps` + timestamps in `/history`
 - Multiple `HERMES_WRITE_SAFE_ROOT` directories
 
@@ -137,7 +137,7 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 
 ### Scale-to-Zero & Drain
 - Idle detection + dormant-quiesce (Phase 0)
-- External drain coordination (Phase 2) — safe-shutdown without dropping conversations
+- External drain coordination (Phase 2) - safe-shutdown without dropping conversations
 - Persist in-flight transcript on restart/shutdown drain timeout
 - Self-heal gateway stranded in draining/degraded state
 
@@ -165,13 +165,13 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 | **WhatsApp** | Native media delivery via Baileys bridge |
 | **Signal** | AAC voice-note remux, shared markdown formatting |
 | **Teams** | Native `send_video`/`send_voice`/`send_document` |
-| **All** | Cron continuations — thread-preferred with DM-mirror fallback |
+| **All** | Cron continuations - thread-preferred with DM-mirror fallback |
 
 ---
 
 ## 🔧 Tool System, Skills & MCP
 
-- **Blank Slate setup mode** — minimal agent, opt in to everything
+- **Blank Slate setup mode** - minimal agent, opt in to everything
 - MCP config persistence attack surface hardened; `base_url` exfil blocked
 - Kanban: task lifecycle plugin hooks (claimed/completed/blocked); typed block reasons
 - LSP: PowerShellEditorServices language server
@@ -194,15 +194,15 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 
 ## 👥 Contributors
 
-**381 people** contributed to this release — the largest cohort yet.
+**381 people** contributed to this release - the largest cohort yet.
 
 ### Core
-- **@teknium1** — release lead; MoA first-class, verification/goals, `/learn`, background review, security, providers, P0/P1 sweep
-- **@OutThisLife** — desktop app (Projects, memory graph, `/journey`, multi-terminal, composer refactor, pets, verification UX)
-- **@kshitijk4poor** — P0/P1 backlog burn: cron reliability, state perf, security, gateway
-- **@benbarclay** — relay Phase 5/6, scale-to-zero/drain, dashboard auth/keys
-- **@ethernet8023** — CI/docker (unified jobs, faster builds)
-- **@helix4u** — Windows hardening
+- **@teknium1** - release lead; MoA first-class, verification/goals, `/learn`, background review, security, providers, P0/P1 sweep
+- **@OutThisLife** - desktop app (Projects, memory graph, `/journey`, multi-terminal, composer refactor, pets, verification UX)
+- **@kshitijk4poor** - P0/P1 backlog burn: cron reliability, state perf, security, gateway
+- **@benbarclay** - relay Phase 5/6, scale-to-zero/drain, dashboard auth/keys
+- **@ethernet8023** - CI/docker (unified jobs, faster builds)
+- **@helix4u** - Windows hardening
 
 ---
 
@@ -230,7 +230,7 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 
 ---
 
-*← [v0.17.0 — The Reach Release](/hermes/changelog/v0.17.0/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.17.0 - The Reach Release](/hermes/changelog/v0.17.0/) | [Changelog Home](/hermes/changelog/) →*
 
 ---
 

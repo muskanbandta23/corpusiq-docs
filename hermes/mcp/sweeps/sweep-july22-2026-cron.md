@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Sweep — July 22-23, 2026 (Cron Discovery)"
+title: "MCP Server Sweep - July 22-23, 2026 (Cron Discovery)"
 description: "Cron-triggered sweep of mcp.so and mcpservers.org. 14 net-new servers discovered (8 not in any prior sweep). 8 integration guides drafted for"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026, cron]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Sweep — July 22-23, 2026 (Cron Discovery)
+# MCP Server Sweep - July 22-23, 2026 (Cron Discovery)
 
 Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced against the existing 196-server catalog. 14 net-new servers identified, 8 integration guides drafted for business-operator-relevant finds.
 
@@ -20,8 +20,8 @@ Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced ag
 
 ## Methodology
 
-1. Scraped mcp.so homepage — extracted recent + featured servers from SSR JSON payload
-2. Scraped mcpservers.org homepage — extracted latest + featured servers from SSR JSON payload
+1. Scraped mcp.so homepage - extracted recent + featured servers from SSR JSON payload
+2. Scraped mcpservers.org homepage - extracted latest + featured servers from SSR JSON payload
 3. Cross-referenced all candidates against existing catalog (`servers/external/`)
 4. Filtered duplicates (already in evening sweep, already in morning sweep)
 5. Prioritized business-operator-relevant servers for guide creation
@@ -37,7 +37,7 @@ Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced ag
 | **Confluence to Markdown MCP** ★★★ | mcpservers.org | Knowledge Management | Hybrid search over locally-synced Confluence content. Offline-capable, no API rate limits. |
 | **Reelier** ★★★ | mcp.so | AI Operations | Agent workflow recording + deterministic replay at zero tokens. Drift detection, compliance audit trail. |
 | **Moxie Docs** ★★ | mcp.so | Documentation | Auto-generated codebase docs, MCP context for agents, doc drift detection, Friday Cleanup PRs. |
-| **FT Optix MCP** ★★ | mcp.so | Industrial | First industrial automation MCP — connects FT Optix Studio (SCADA/HMI/IoT) to LLMs. |
+| **FT Optix MCP** ★★ | mcp.so | Industrial | First industrial automation MCP - connects FT Optix Studio (SCADA/HMI/IoT) to LLMs. |
 
 ## Full Discovery List (14 Servers)
 
@@ -62,7 +62,7 @@ Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced ag
 | 10 | koreanads | Marketing | 0★ | ❌ |
 | 11 | bbw-belles | Search | 0★ | ❌ |
 
-### From morning sweep (July 22) — now with guides
+### From morning sweep (July 22) - now with guides
 
 | # | Server | Category | Stars | Guide |
 |---|--------|----------|-------|-------|
@@ -72,14 +72,14 @@ Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced ag
 
 ## Integration Guides Created (8)
 
-1. **Goalie Trademark Search MCP** — 14M USPTO records. Brand clearance + competitor IP monitoring.
-2. **FeatureBoard MCP** — Agentic governance, orchestration, task planning. First agent ops MCP.
-3. **Routara LLM Gateway MCP** — 787+ models, OpenAI-compatible. Multi-model routing.
-4. **Outside Agent MCP** — Deploy agents to web/SMS/phone. Multi-channel production.
-5. **Confluence to Markdown MCP** — Offline Confluence search. No API rate limits.
-6. **Reelier MCP** — Agent workflow recording + deterministic replay. Audit trail.
-7. **Moxie Docs MCP** — Auto-generated docs + drift detection + cleanup PRs.
-8. **FT Optix MCP** — Industrial automation. SCADA/HMI to LLM bridge.
+1. **Goalie Trademark Search MCP** - 14M USPTO records. Brand clearance + competitor IP monitoring.
+2. **FeatureBoard MCP** - Agentic governance, orchestration, task planning. First agent ops MCP.
+3. **Routara LLM Gateway MCP** - 787+ models, OpenAI-compatible. Multi-model routing.
+4. **Outside Agent MCP** - Deploy agents to web/SMS/phone. Multi-channel production.
+5. **Confluence to Markdown MCP** - Offline Confluence search. No API rate limits.
+6. **Reelier MCP** - Agent workflow recording + deterministic replay. Audit trail.
+7. **Moxie Docs MCP** - Auto-generated docs + drift detection + cleanup PRs.
+8. **FT Optix MCP** - Industrial automation. SCADA/HMI to LLM bridge.
 
 ## Key Observations
 
@@ -87,7 +87,7 @@ Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced ag
 
 2. **IP and legal MCPs are arriving.** Goalie Trademark Search is the first dedicated IP MCP server, following Patsnap (patent search, morning sweep) and Lawstronaut (legal research). Legal/compliance is becoming a distinct MCP vertical.
 
-3. **Industrial MCP is real.** FT Optix MCP bridges the OT/IT gap — factory floor data accessible from AI agents. Combined with OPC UA MCP (otgate, evening sweep), industrial automation is emerging as an MCP vertical.
+3. **Industrial MCP is real.** FT Optix MCP bridges the OT/IT gap - factory floor data accessible from AI agents. Combined with OPC UA MCP (otgate, evening sweep), industrial automation is emerging as an MCP vertical.
 
 4. **Remote MCP adoption growing.** Outside Agent and Routara both use remote MCP (HTTP endpoints). The ratio of remote vs local MCP servers is shifting as managed platforms enter the ecosystem.
 
@@ -95,7 +95,7 @@ Automated cron-triggered sweep of mcp.so and mcpservers.org, cross-referenced ag
 
 ## CorpusIQ Angle
 
-The catalog now covers 204+ MCP servers — the most operator-focused collection available. New additions this sweep that are directly relevant:
+The catalog now covers 204+ MCP servers - the most operator-focused collection available. New additions this sweep that are directly relevant:
 
 - **FeatureBoard** is architecturally adjacent to CorpusIQ's multi-agent operations. Worth evaluating as a potential integration or partnership.
 - **Confluence2MD** fills a gap for enterprise operators who live in Atlassian. Pairs with existing Atlassian MCP guide.

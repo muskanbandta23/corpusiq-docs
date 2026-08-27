@@ -1,6 +1,6 @@
 ---
-title: "LinkedIn Ghostwriter MCP — LinkedIn Posts in Your Voice, Drafted, Scheduled and Measured"
-description: "ContentIn's MCP server writes LinkedIn posts in your own voice from a VoiceDNA model trained on your real posts: ideas, drafts, scheduling, publishing via LinkedIn's official API, and post analytics — 8 tools over Streamable HTTP with an X-MCP-Key header."
+title: "LinkedIn Ghostwriter MCP - LinkedIn Posts in Your Voice, Drafted, Scheduled and Measured"
+description: "ContentIn's MCP server writes LinkedIn posts in your own voice from a VoiceDNA model trained on your real posts: ideas, drafts, scheduling, publishing via LinkedIn's official API, and post analytics - 8 tools over Streamable HTTP with an X-MCP-Key header."
 category: Content & Marketing
 stars: n/a (new listing)
 added: 2026-08-21
@@ -11,7 +11,7 @@ tags: [linkedin, content, ghostwriting, voice, scheduling, analytics, marketing,
 
 # LinkedIn Ghostwriter MCP
 
-**LinkedIn posting that sounds like you, run from any MCP client.** ContentIn's hosted server runs a voice pipeline — VoiceDNA trained on your own LinkedIn posts, your real past posts as style exemplars, and a substance bank of your material — so the main tool, `write_post_in_my_voice`, returns a draft in your voice rather than an AI's. Drafts land in your ContentIn account and can be scheduled or published through LinkedIn's official API, with post analytics read back through the same endpoint.
+**LinkedIn posting that sounds like you, run from any MCP client.** ContentIn's hosted server runs a voice pipeline - VoiceDNA trained on your own LinkedIn posts, your real past posts as style exemplars, and a substance bank of your material - so the main tool, `write_post_in_my_voice`, returns a draft in your voice rather than an AI's. Drafts land in your ContentIn account and can be scheduled or published through LinkedIn's official API, with post analytics read back through the same endpoint.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: ContentIn (contentin.io)
 
 ## Why This Matters for Operators
 
-Founders and operators know they should post on LinkedIn and mostly don't, because writing in public is the bottleneck — not ideas, not scheduling. **The Ghostwriter's contract is voice preservation:** the tool instructions tell the agent to pass your words as literally as possible and explicitly forbid tidying or paraphrasing, because that's how a post stops sounding like you. If the pipeline needs something only you know, it returns `needs_input: true` with a question and stops — it refuses to invent.
+Founders and operators know they should post on LinkedIn and mostly don't, because writing in public is the bottleneck - not ideas, not scheduling. **The Ghostwriter's contract is voice preservation:** the tool instructions tell the agent to pass your words as literally as possible and explicitly forbid tidying or paraphrasing, because that's how a post stops sounding like you. If the pipeline needs something only you know, it returns `needs_input: true` with a question and stops - it refuses to invent.
 
-Publishing runs through LinkedIn's official API, so posts go out as first-party content with real analytics read back (impressions, members reached, engagement rate), measured honestly — a post with no numbers yet reports "not measured yet" rather than zeroes.
+Publishing runs through LinkedIn's official API, so posts go out as first-party content with real analytics read back (impressions, members reached, engagement rate), measured honestly - a post with no numbers yet reports "not measured yet" rather than zeroes.
 
 ## Tools & Capabilities
 
@@ -76,12 +76,12 @@ Voice training happens in ContentIn on your own post history; the MCP key scopes
 
 ## Integration with CorpusIQ
 
-The Ghostwriter is the outbound voice; CorpusIQ is the business engine behind it. An agent session can pull this week's real numbers through CorpusIQ (Stripe revenue, GA4 traffic, a HubSpot deal won) and hand them to `write_post_in_my_voice` as substance — so the post carries actual figures, in your voice, with the analytics read back through the same session for the next iteration. The loop turns business data into personal-brand content without a human rewriting the numbers.
+The Ghostwriter is the outbound voice; CorpusIQ is the business engine behind it. An agent session can pull this week's real numbers through CorpusIQ (Stripe revenue, GA4 traffic, a HubSpot deal won) and hand them to `write_post_in_my_voice` as substance - so the post carries actual figures, in your voice, with the analytics read back through the same session for the next iteration. The loop turns business data into personal-brand content without a human rewriting the numbers.
 
 ## Limitations
 
 - Requires a ContentIn account, voice training on your posts, and a linked LinkedIn account
-- LinkedIn-only — no X, Threads or other platforms through this server
+- LinkedIn-only - no X, Threads or other platforms through this server
 - `write_post_in_my_voice` takes 30-90 seconds per draft and may stop with a question instead of a draft
 - Hosted vendor pipeline; content passes through ContentIn's systems
 - Brand new MCP listing (Aug 2026); pricing not published on the listing page

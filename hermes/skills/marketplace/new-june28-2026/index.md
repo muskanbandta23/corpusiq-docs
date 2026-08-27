@@ -1,6 +1,6 @@
 ---
-title: "June 28, 2026 — Threads Growth Skill"
-description: "3 newly discovered skills — Threads growth automation (745 installs), NemoClaw security user guide (99 installs), Huawei Cloud Hermes deployment (43"
+title: "June 28, 2026 - Threads Growth Skill"
+description: "3 newly discovered skills - Threads growth automation (745 installs), NemoClaw security user guide (99 installs), Huawei Cloud Hermes deployment (43"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 28, 2026
+# New Skills Discovered - June 28, 2026
 
 **Sources:** [skills.sh](https://skills.sh) API sweep (14 queries across 5 ecosystem repos)
 **Total new:** 3 skills | **Highlight:** Threads Growth Skill (745 installs from aradotso/marketing-skills)
@@ -22,13 +22,13 @@ Three skills surfaced in a late-night API sweep that weren't covered by existing
 **Repo:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills)
 **Installs:** 745 | **Publisher:** aradotso (same org as hermes-skills, 50+ Hermes skills)
 
-A Threads growth and marketing automation skill for Hermes agents. Part of the aradotso marketing-skills collection — the same publisher behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, and audience engagement.
+A Threads growth and marketing automation skill for Hermes agents. Part of the aradotso marketing-skills collection - the same publisher behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, and audience engagement.
 
 ```bash
 npx skills add aradotso/marketing-skills --skill threads-growth-skill
 ```
 
-**Why it matters for CorpusIQ:** Directly applicable to CorpusIQ's growth operations. Threads is Meta's fastest-growing platform with 200M+ users. This skill lets Hermes agents execute Threads growth strategies autonomously — content publishing, engagement automation, and audience analytics. Combined with existing social media skills (X/Twitter, LinkedIn, Instagram), this completes the Meta social stack.
+**Why it matters for CorpusIQ:** Directly applicable to CorpusIQ's growth operations. Threads is Meta's fastest-growing platform with 200M+ users. This skill lets Hermes agents execute Threads growth strategies autonomously - content publishing, engagement automation, and audience analytics. Combined with existing social media skills (X/Twitter, LinkedIn, Instagram), this completes the Meta social stack.
 
 > See [full setup guide →](/hermes/skills/catalog/threads-growth-skill-setup/)
 
@@ -39,19 +39,19 @@ npx skills add aradotso/marketing-skills --skill threads-growth-skill
 **Repo:** [nvidia/skills](https://github.com/nvidia/skills)
 **Installs:** 99 | **Publisher:** NVIDIA
 
-A security-focused user guide for NemoClaw — a hardened OpenClaw variant for Hermes agents. Covers security best practices, permission models, and safe deployment patterns for autonomous agent workflows.
+A security-focused user guide for NemoClaw - a hardened OpenClaw variant for Hermes agents. Covers security best practices, permission models, and safe deployment patterns for autonomous agent workflows.
 
 ```bash
 npx skills add nvidia/skills --skill nemoclaw-user-guide
 ```
 
-**Why it matters:** NVIDIA's entry into the Hermes/OpenClaw skill ecosystem signals enterprise validation. NemoClaw addresses the security concerns that enterprises have about autonomous agents — permission gates, audit logging, and secure execution boundaries. For CorpusIQ operators running production agent workflows, this provides a security baseline from a trusted enterprise vendor.
+**Why it matters:** NVIDIA's entry into the Hermes/OpenClaw skill ecosystem signals enterprise validation. NemoClaw addresses the security concerns that enterprises have about autonomous agents - permission gates, audit logging, and secure execution boundaries. For CorpusIQ operators running production agent workflows, this provides a security baseline from a trusted enterprise vendor.
 
 > See [full setup guide →](/hermes/skills/catalog/nemoclaw-user-guide-setup/)
 
 ---
 
-## ☁️ Huawei Cloud Flexus — Hermes Deployment (43 installs)
+## ☁️ Huawei Cloud Flexus - Hermes Deployment (43 installs)
 
 **Repo:** [huaweicloud/huaweicloud-skills](https://github.com/huaweicloud/huaweicloud-skills)
 **Installs:** 43 | **Publisher:** Huawei Cloud
@@ -62,7 +62,7 @@ A deployment template for running Hermes Agent on Huawei Cloud Flexus L-series s
 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-server-hermes-deployment
 ```
 
-**Why it matters:** Expands Hermes deployment options into the Huawei Cloud ecosystem — the third-largest cloud provider globally. For CorpusIQ operators targeting Asian markets or running on Huawei infrastructure, this provides a tested production deployment path. The broader huaweicloud-skills collection (5+ skills) suggests growing Hermes adoption in the Chinese cloud ecosystem.
+**Why it matters:** Expands Hermes deployment options into the Huawei Cloud ecosystem - the third-largest cloud provider globally. For CorpusIQ operators targeting Asian markets or running on Huawei infrastructure, this provides a tested production deployment path. The broader huaweicloud-skills collection (5+ skills) suggests growing Hermes adoption in the Chinese cloud ecosystem.
 
 > See [full setup guide →](/hermes/skills/catalog/huawei-hermes-deployment-setup/)
 
@@ -71,13 +71,13 @@ npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-serv
 ## Installation Summary
 
 ```bash
-# Threads Growth Skill — 745 installs
+# Threads Growth Skill - 745 installs
 npx skills add aradotso/marketing-skills --skill threads-growth-skill
 
-# NemoClaw User Guide — 99 installs
+# NemoClaw User Guide - 99 installs
 npx skills add nvidia/skills --skill nemoclaw-user-guide
 
-# Huawei Hermes Deployment — 43 installs
+# Huawei Hermes Deployment - 43 installs
 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-server-hermes-deployment
 ```
 
@@ -85,9 +85,9 @@ npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-serv
 
 ## Impact Assessment
 
-**Threads Growth Skill** is the standout find at 745 installs — it fills the Threads gap in CorpusIQ's social media automation stack and comes from the trusted aradotso publisher (same org behind 50+ Hermes skills).
+**Threads Growth Skill** is the standout find at 745 installs - it fills the Threads gap in CorpusIQ's social media automation stack and comes from the trusted aradotso publisher (same org behind 50+ Hermes skills).
 
-**NemoClaw User Guide** signals NVIDIA's entry into the Hermes security ecosystem — enterprise-grade security guidance for autonomous agent deployments.
+**NemoClaw User Guide** signals NVIDIA's entry into the Hermes security ecosystem - enterprise-grade security guidance for autonomous agent deployments.
 
 **Huawei Hermes Deployment** opens Hermes to the #3 global cloud provider, particularly relevant for Asian market expansion and ARM64 production deployments.
 
@@ -95,4 +95,4 @@ npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-serv
 
 *← [June 27 Discovery](/hermes/skills/marketplace/new-june27-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

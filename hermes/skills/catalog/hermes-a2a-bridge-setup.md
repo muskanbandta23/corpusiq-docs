@@ -1,6 +1,6 @@
 ---
 title: "Hermes A2A Bridge Setup Guide - CorpusIQ Docs"
-description: Set up the Agent-to-Agent Protocol bridge for Hermes Agent — enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.
+description: Set up the Agent-to-Agent Protocol bridge for Hermes Agent - enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.
 skill_name: hermes-a2a-bridge
 repo: asimons81/hermes-a2a-bridge
 compatibility: Hermes Agent v0.20.0+
@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes A2A Bridge — Setup Guide
+# Hermes A2A Bridge - Setup Guide
 
 ## Overview
 
@@ -66,8 +66,8 @@ hermes a2a init
 ```
 
 This creates:
-- `~/.hermes/a2a/config.yaml` — bridge configuration
-- `~/.hermes/a2a/tasks.sqlite3` — task persistence
+- `~/.hermes/a2a/config.yaml` - bridge configuration
+- `~/.hermes/a2a/tasks.sqlite3` - task persistence
 
 ### 4. Start the Server
 
@@ -152,7 +152,7 @@ hermes a2a agents
 ## Use Cases for CorpusIQ
 
 ### 1. Multi-Agent Growth Pipeline
-Run specialized agents in parallel — one for social monitoring, one for lead research, one for content — coordinated via A2A:
+Run specialized agents in parallel - one for social monitoring, one for lead research, one for content - coordinated via A2A:
 
 ```bash
 hermes a2a serve &
@@ -222,7 +222,7 @@ hermes a2a card --json
 ## Limitations
 
 - **Not full A2A compliance:** This implements the HTTP+JSON subset only
-- **Local-first:** Default bind is `127.0.0.1` — network access requires explicit config
+- **Local-first:** Default bind is `127.0.0.1` - network access requires explicit config
 - **v0.20.0 UI gap:** Plugin discovery in `hermes plugins list` may require manual config.yaml edit
 - **No streaming tasks:** Tasks are submitted and polled, not streamed
 
@@ -230,4 +230,4 @@ hermes a2a card --json
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [A2A Bridge on GitHub](https://github.com/asimons81/hermes-a2a-bridge) →*
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

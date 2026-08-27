@@ -1,5 +1,5 @@
 ---
-title: openclaw-release-maintainer — Setup Guide
+title: openclaw-release-maintainer - Setup Guide
 description: Automate OpenClaw skill releases with semantic versioning, changelog generation, tag creation, and GitHub release publishing. Part of the Clawdis ecosystem.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-release-maintainer-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# openclaw-release-maintainer — Setup Guide
+# openclaw-release-maintainer - Setup Guide
 
 ## Prerequisites
 - **GitHub Personal Access Token** with `repo` scope
@@ -119,7 +119,7 @@ The skill parses [Conventional Commits](https://www.conventionalcommits.org/) to
 
 3. **Quality Gates:** The pre-release checklist ensures no skill is published with broken tests, missing dependencies, or stale documentation.
 
-4. **Audit Trail:** Every release is tagged and published on GitHub with full changelogs — providing a complete history of what changed and why.
+4. **Audit Trail:** Every release is tagged and published on GitHub with full changelogs - providing a complete history of what changed and why.
 
 ## Integration with CI/CD
 
@@ -161,4 +161,4 @@ jobs:
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

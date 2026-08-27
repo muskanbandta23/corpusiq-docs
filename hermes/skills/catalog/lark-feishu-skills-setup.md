@@ -1,6 +1,6 @@
 ---
-title: "Lark & Feishu Skills — Office Suite Automation Setup"
-description: Install the official Lark/Feishu office suite skills — open.feishu.cn (28 skills, 14.8M installs) and larksuite/cli (32 skills, 10.2M installs). Docs, Base, Sheets, IM, Wiki, Calendar, Mail, Meetings, OKR and more, agent-native.
+title: "Lark & Feishu Skills - Office Suite Automation Setup"
+description: Install the official Lark/Feishu office suite skills - open.feishu.cn (28 skills, 14.8M installs) and larksuite/cli (32 skills, 10.2M installs). Docs, Base, Sheets, IM, Wiki, Calendar, Mail, Meetings, OKR and more, agent-native.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lark-feishu-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Lark & Feishu Skills — Setup Guide
+# Lark & Feishu Skills - Setup Guide
 
 **Source:** [open.feishu.cn](https://www.skills.sh/site/open.feishu.cn) (28 skills · 14.8M combined installs) and [larksuite/cli](https://www.skills.sh/larksuite/cli) (32 skills · 10.2M combined installs)
 **GitHub:** [github.com/larksuite/cli](https://github.com/larksuite/cli)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 12, 2026
 **Quality Tier:** 🟢 Production (official Feishu/Lark platform publishers)
 
-Lark — Feishu's international brand — publishes two official listings on skills.sh covering the entire Lark office suite. Every surface is agent-native: Docs, Base (the database builder), Sheets, Drive, IM (messaging), Wiki, Calendar, Mail, Tasks, video Meetings, Approvals, Slides, Attendance, OKR, and Markdown rendering, plus open-platform API tooling. Together these two listings are the largest office-suite skill cluster on skills.sh (~25M listed installs).
+Lark - Feishu's international brand - publishes two official listings on skills.sh covering the entire Lark office suite. Every surface is agent-native: Docs, Base (the database builder), Sheets, Drive, IM (messaging), Wiki, Calendar, Mail, Tasks, video Meetings, Approvals, Slides, Attendance, OKR, and Markdown rendering, plus open-platform API tooling. Together these two listings are the largest office-suite skill cluster on skills.sh (~25M listed installs).
 
 ---
 
@@ -34,7 +34,7 @@ npx skills add larksuite/cli --skill lark-wiki
 npx skills add larksuite/cli --skill lark-sheets
 ```
 
-The `open.feishu.cn` listing mirrors the same skill set as a site registry (no GitHub repo required) — use it as a fallback when the CLI repo install is blocked.
+The `open.feishu.cn` listing mirrors the same skill set as a site registry (no GitHub repo required) - use it as a fallback when the CLI repo install is blocked.
 
 ---
 
@@ -91,7 +91,7 @@ API-backed skills read credentials from the environment (`LARK_APP_ID` / `LARK_A
 
 ## Limitations / Verification
 
-- Two listings publish near-identical skill sets — the GitHub-backed `larksuite/cli` is the primary install path; the site listing is a mirror
+- Two listings publish near-identical skill sets - the GitHub-backed `larksuite/cli` is the primary install path; the site listing is a mirror
 - Verify install: `npx skills list | grep lark-` should show the installed skills
 - API-backed skills require a developer app; IM/bot skills need scopes approved before first call
 

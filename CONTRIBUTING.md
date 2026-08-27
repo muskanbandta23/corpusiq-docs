@@ -30,7 +30,7 @@ Use the issue tracker. Do not open freeform issues.
 
 1. Go to https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose
 2. Select "Connector Enhancement Request"
-3. Fill out every field — connector name, use case, current workaround, business impact
+3. Fill out every field - connector name, use case, current workaround, business impact
 4. Apply the relevant `connector:` label (e.g. `connector:shopify`)
 
 Enhancement requests without a clear use case and business impact will be deprioritized.
@@ -59,7 +59,7 @@ If your recipe spans multiple connectors, list all of them.
 
 ## Examples
 
-Examples are runnable code samples — configs, scripts, integrations.
+Examples are runnable code samples - configs, scripts, integrations.
 See `examples/` for existing examples.
 
 To submit an example:

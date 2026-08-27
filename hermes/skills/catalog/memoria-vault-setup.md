@@ -1,6 +1,6 @@
 ---
-title: "memoria-vault — Multi-Agent Research OS for Obsidian"
-description: "Deploy memoria-vault (4⭐) — seven specialized AI agents that read, enrich, and write inside your Obsidian vault. Turn your notes into an active research"
+title: "memoria-vault - Multi-Agent Research OS for Obsidian"
+description: "Deploy memoria-vault (4⭐) - seven specialized AI agents that read, enrich, and write inside your Obsidian vault. Turn your notes into an active research"
 skill_name: memoria-vault
 category: research-pkm
 difficulty: Medium
@@ -12,13 +12,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# memoria-vault — Full Setup Guide
+# memoria-vault - Full Setup Guide
 
 **Repo:** [eranroseman/memoria-vault](https://github.com/eranroseman/memoria-vault) | ⭐ 4
 **Author:** eranroseman | **Language:** Python
 **License:** MIT
 
-memoria-vault is a research operating system for Obsidian. It deploys seven specialized AI agents — Researcher, Summarizer, Linker, Critic, Archivist, Publisher, and Orchestrator — that operate on your Obsidian vault, turning passive notes into an active research laboratory.
+memoria-vault is a research operating system for Obsidian. It deploys seven specialized AI agents - Researcher, Summarizer, Linker, Critic, Archivist, Publisher, and Orchestrator - that operate on your Obsidian vault, turning passive notes into an active research laboratory.
 
 ---
 
@@ -155,7 +155,7 @@ python3 memoria.py critique "Projects/Q4 Strategy.md"
 ```
 
 ### 5. Archivist
-Organizes and maintains the vault — tags, folders, naming conventions, deduplication.
+Organizes and maintains the vault - tags, folders, naming conventions, deduplication.
 
 ```bash
 python3 memoria.py archive
@@ -163,7 +163,7 @@ python3 memoria.py archive
 ```
 
 ### 6. Publisher
-Formats notes for external sharing — blog posts, reports, presentations.
+Formats notes for external sharing - blog posts, reports, presentations.
 
 ```bash
 python3 memoria.py publish "Research/RAG Survey 2026.md" --format html

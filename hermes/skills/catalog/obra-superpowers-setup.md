@@ -1,6 +1,6 @@
 ---
-title: Obra Superpowers — Engineering Workflow Skills for Hermes Agents
-description: Brainstorming, systematic debugging, planning, code review, and test-driven development — 1.2M+ combined installs across 6 skills. Production-grade engineering workflows trusted by 295K+ developers.
+title: Obra Superpowers - Engineering Workflow Skills for Hermes Agents
+description: Brainstorming, systematic debugging, planning, code review, and test-driven development - 1.2M+ combined installs across 6 skills. Production-grade engineering workflows trusted by 295K+ developers.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/obra-superpowers-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Obra Superpowers — Setup Guide
+# Obra Superpowers - Setup Guide
 
 **Source:** [obra/superpowers](https://skills.sh/obra/superpowers) (1.2M+ combined installs)
 **Category:** Engineering / Workflow
@@ -46,27 +46,27 @@ npx skills add obra/superpowers --skill test-driven-development
 
 ## Key Capabilities
 
-### Brainstorming — Structured Ideation
+### Brainstorming - Structured Ideation
 - Divergent phase: generate many ideas without judgment
 - Convergent phase: evaluate, prioritize, and select
 - Useful for architecture decisions, feature design, and problem-solving
 
-### Systematic Debugging — Root-Cause Analysis
+### Systematic Debugging - Root-Cause Analysis
 - Hypothesis-driven: form a theory, test it, gather evidence
 - Systematic elimination of variables
 - Evidence collection and documentation at each step
 
-### Writing Plans — Implementation Planning
+### Writing Plans - Implementation Planning
 - Breaks work into milestones and tasks
 - Includes acceptance criteria and dependencies
 - Template-driven for consistency across projects
 
-### Requesting Code Review — Quality Gates
+### Requesting Code Review - Quality Gates
 - Structured diff analysis with categorized feedback
 - Approval workflow with explicit gates
 - Focus on architecture, correctness, and maintainability
 
-### Test-Driven Development — Quality Assurance
+### Test-Driven Development - Quality Assurance
 - Write failing tests first (red)
 - Implement minimal code to pass (green)
 - Refactor for clean design (refactor)
@@ -101,7 +101,7 @@ npx skills list | grep "obra/superpowers"
 ## Notes
 
 - 1.2M+ combined installs makes this the most-installed engineering workflow suite on skills.sh
-- All skills follow a structured, phase-based approach — no ad-hoc workflows
+- All skills follow a structured, phase-based approach - no ad-hoc workflows
 - The `using-superpowers` meta-skill teaches agents WHEN to use each workflow (not just how)
 - Best used as a pipeline: brainstorm → plan → TDD implementation → code review → debug any issues
 - These skills are Claude Code native but compatible with any Hermes agent doing engineering work

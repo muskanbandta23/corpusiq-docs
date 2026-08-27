@@ -1,6 +1,6 @@
 ---
-title: New Skills Discovery — July 17, 2026
-description: 5 new skills discovered via skills.sh batch sweep. find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐), and firecrawl-workflows (120K⭐ combined) — skill discovery, creation, video production, browser automation, and growth workflows.
+title: New Skills Discovery - July 17, 2026
+description: 5 new skills discovered via skills.sh batch sweep. find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐), and firecrawl-workflows (120K⭐ combined) - skill discovery, creation, video production, browser automation, and growth workflows.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july17-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 17, 2026
+# New Skills - July 17, 2026
 
 Morning sweep across 35 broad search terms on skills.sh surfaced **5 new skills** not previously catalogued in the Hermes docs. These span skill discovery (2.5M⭐ Vercel Labs), skill creation (317K⭐ Anthropic), video production (430K⭐ Remotion), browser automation (99K⭐ Browser Act), and growth workflows (120K⭐ Firecrawl combined). Combined install base: **3.5M+ GitHub stars**.
 
@@ -28,10 +28,10 @@ Morning sweep across 35 broad search terms on skills.sh surfaced **5 new skills*
 
 **Source:** [vercel-labs/skills](https://github.com/vercel-labs/skills) · **2.5M installs** · **JavaScript**
 
-The official skill discovery tool from Vercel Labs. Searches across skills.sh, agentskills.io, npm, and GitHub to find agent skills matching any query. Returns installable skill references with metadata — source repo, install count, category, and compatibility info. At 2.5M installs, this is the most-used skill in the ecosystem.
+The official skill discovery tool from Vercel Labs. Searches across skills.sh, agentskills.io, npm, and GitHub to find agent skills matching any query. Returns installable skill references with metadata - source repo, install count, category, and compatibility info. At 2.5M installs, this is the most-used skill in the ecosystem.
 
 ### Capabilities
-- **Multi-marketplace search:** skills.sh, agentskills.io, npm, GitHub — all in one query
+- **Multi-marketplace search:** skills.sh, agentskills.io, npm, GitHub - all in one query
 - **Install-count ranking:** Results sorted by community adoption
 - **Category filtering:** Narrow by browser, marketing, development, operations, etc.
 - **Hermes compatibility detection:** Flags skills compatible with Hermes agent runtime
@@ -43,7 +43,7 @@ npx skills add vercel-labs/skills@find-skills
 ```
 
 ### Hermes/CorpusIQ Relevance
-This is the definitive skill discovery tool for Hermes agents. Instead of running 30+ manual `npx skills search` queries, agents can use `find-skills` to search across all marketplaces in one call. For CorpusIQ's skill catalog maintenance, this automates the daily "check for new skills" workflow — making the entire catalog operation self-sustaining.
+This is the definitive skill discovery tool for Hermes agents. Instead of running 30+ manual `npx skills search` queries, agents can use `find-skills` to search across all marketplaces in one call. For CorpusIQ's skill catalog maintenance, this automates the daily "check for new skills" workflow - making the entire catalog operation self-sustaining.
 
 **Setup guide:** [find-skills-setup.md](/hermes/skills/catalog/find-skills-setup/)
 
@@ -53,7 +53,7 @@ This is the definitive skill discovery tool for Hermes agents. Instead of runnin
 
 **Source:** [remotion-dev/skills](https://github.com/remotion-dev/skills) · **430.2K installs** · **TypeScript**
 
-Official Remotion best practices for AI coding agents. Covers programmatic video creation patterns: composition structure, rendering optimization, audio synchronization, caption generation, and asset management. At 430K installs, this is the most-installed video production skill in the ecosystem — used by HeyGen HyperFrames, Google Labs Stitch, and thousands of AI video projects.
+Official Remotion best practices for AI coding agents. Covers programmatic video creation patterns: composition structure, rendering optimization, audio synchronization, caption generation, and asset management. At 430K installs, this is the most-installed video production skill in the ecosystem - used by HeyGen HyperFrames, Google Labs Stitch, and thousands of AI video projects.
 
 ### Capabilities
 - **Composition patterns:** Correct use of `<Composition>`, `<Sequence>`, `<AbsoluteFill>`
@@ -69,7 +69,7 @@ npx skills add remotion-dev/skills@remotion-best-practices
 ```
 
 ### Hermes/CorpusIQ Relevance
-Directly applicable to CorpusIQ's UGC video pipeline. The HyperFrames integration uses Remotion under the hood — these best practices prevent the frame drops, audio drift, and memory leaks that plagued earlier video automation attempts. Also relevant for the daily UGC video series and any programmatic content generation.
+Directly applicable to CorpusIQ's UGC video pipeline. The HyperFrames integration uses Remotion under the hood - these best practices prevent the frame drops, audio drift, and memory leaks that plagued earlier video automation attempts. Also relevant for the daily UGC video series and any programmatic content generation.
 
 **Setup guide:** [remotion-best-practices-setup.md](/hermes/skills/catalog/remotion-best-practices-setup/)
 
@@ -82,12 +82,12 @@ Directly applicable to CorpusIQ's UGC video pipeline. The HyperFrames integratio
 Anthropic's official skill creation framework for AI coding agents. Guides agents through the complete skill authoring lifecycle: scoping the workflow, writing the SKILL.md with correct YAML frontmatter, testing with dry runs, handling error paths, and publishing to marketplaces. The same framework used internally by Anthropic for their 60+ published skills.
 
 ### Capabilities
-- **Workflow scoping:** Identify the right granularity — neither too broad nor too narrow
+- **Workflow scoping:** Identify the right granularity - neither too broad nor too narrow
 - **YAML frontmatter:** Required fields, optional metadata, trigger configuration
 - **Tool manifest:** Declare required tools and connectors with version constraints
 - **Error handling:** Pattern library for timeouts, rate limits, missing data, auth failures
 - **Verification gates:** Pre/post conditions, dry-run support, idempotency checks
-- **Publishing:** Format for skills.sh, GitHub, npm — with compatibility metadata
+- **Publishing:** Format for skills.sh, GitHub, npm - with compatibility metadata
 
 ### Installation
 ```bash
@@ -105,7 +105,7 @@ Essential for CorpusIQ's 133+ skill library. Replaces ad-hoc skill authoring wit
 
 **Source:** [browser-act/skills](https://github.com/browser-act/skills) · **99.5K installs** · **Python + Playwright**
 
-Agent-native browser automation framework built on Playwright. Unlike agent-browser (Rust/accessibility-tree), browser-act uses a "skill forge" approach — agents record browser interactions as reusable skill templates, then replay them with parameter substitution. Includes browser-act-skill-forge (78.7K installs) for creating new interaction templates.
+Agent-native browser automation framework built on Playwright. Unlike agent-browser (Rust/accessibility-tree), browser-act uses a "skill forge" approach - agents record browser interactions as reusable skill templates, then replay them with parameter substitution. Includes browser-act-skill-forge (78.7K installs) for creating new interaction templates.
 
 ### Capabilities
 - **Skill recording:** Record browser interactions as reusable templates
@@ -176,9 +176,9 @@ Directly powers CorpusIQ's growth and research operations. `firecrawl-deep-resea
 
 ## Discovery Method
 
-Sweep conducted using `npx skills search` CLI (skills.sh website returned 500/Vercel errors — CLI fallback functional). 35 search terms queried: hermes, openclaw, clawd, claw, gbrain, browser, email, social, video, marketing, growth, mcp, memory, cron, backup, security, monitor, agent, skill, docs, github, deploy, seo, content, lead, outreach, forecasting, research, image, desktop, plugin, hyperframes, remotion, coding, automation.
+Sweep conducted using `npx skills search` CLI (skills.sh website returned 500/Vercel errors - CLI fallback functional). 35 search terms queried: hermes, openclaw, clawd, claw, gbrain, browser, email, social, video, marketing, growth, mcp, memory, cron, backup, security, monitor, agent, skill, docs, github, deploy, seo, content, lead, outreach, forecasting, research, image, desktop, plugin, hyperframes, remotion, coding, automation.
 
-120+ unique repos surfaced. Cross-referenced against 108 existing catalog entries and all 12 marketplace discovery pages (June 15 — July 16, 2026). 5 new skills identified. Compared against all prior discovery pages to confirm no prior capture.
+120+ unique repos surfaced. Cross-referenced against 108 existing catalog entries and all 12 marketplace discovery pages (June 15 - July 16, 2026). 5 new skills identified. Compared against all prior discovery pages to confirm no prior capture.
 
 ---
 

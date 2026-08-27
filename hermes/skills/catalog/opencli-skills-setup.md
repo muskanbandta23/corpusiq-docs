@@ -1,13 +1,13 @@
 ---
-title: OpenCLI Skills — Agent CLI with Browser Automation Setup
-description: "jackwener/opencli — 14 skills at 97.8K installs: opencli-usage, opencli-browser, opencli-autofix, smart-search, opencli-adapter-author, sitemap browsing, explorer, oneshot and operate modes for an agent command line."
+title: OpenCLI Skills - Agent CLI with Browser Automation Setup
+description: "jackwener/opencli - 14 skills at 97.8K installs: opencli-usage, opencli-browser, opencli-autofix, smart-search, opencli-adapter-author, sitemap browsing, explorer, oneshot and operate modes for an agent command line."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opencli-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "cli", "browser automation"]
 ---
 
-# OpenCLI Skills — Setup Guide
+# OpenCLI Skills - Setup Guide
 
 **Source:** [jackwener/opencli](https://skills.sh/jackwener/opencli)
 **GitHub:** [jackwener/opencli](https://github.com/jackwener/opencli)
@@ -84,7 +84,7 @@ npx skills add jackwener/opencli --skill opencli-usage   # verify install works
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) — browser debugging
+- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) - browser debugging
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

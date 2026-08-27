@@ -1,5 +1,5 @@
 ---
-title: "New Skills — July 24, 2026 Marketplace Sweep"
+title: "New Skills - July 24, 2026 Marketplace Sweep"
 description: "2 new publishers, 2 setup guides created, 71K+ combined GitHub stars. Evening cron sweep of skills.sh marketplace for Hermes-relevant skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july24-2026/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 24, 2026
+# New Skills - July 24, 2026
 
 ## Summary
 
@@ -38,6 +38,6 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ## Notes
 
 - **ruvnet/ruflo** is the standout discovery: 65K GitHub stars, native Hermes support, 314+ MCP tools, 30+ plugins, 267 skills. The leading agent meta-harness. Directly applicable to Hermes agent orchestration, memory persistence, and multi-agent workflows.
-- **web-infra-dev/midscene** provides vision-based browser automation that complements Hermes' existing Playwright tools — especially useful for dynamic SPAs where CSS selectors fail.
+- **web-infra-dev/midscene** provides vision-based browser automation that complements Hermes' existing Playwright tools - especially useful for dynamic SPAs where CSS selectors fail.
 - 21 additional candidates were identified but deprioritized (mostly Claude Code-specific skills, private repos, or niche use cases with low install counts).
-- `code.deepline.com` repos are private — could not retrieve SKILL.md content for documentation.
+- `code.deepline.com` repos are private - could not retrieve SKILL.md content for documentation.

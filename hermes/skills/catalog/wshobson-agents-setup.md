@@ -1,6 +1,6 @@
 ---
-title: wshobson/agents — Agent Plugin Marketplace for Hermes
-description: Access 94 plugins, 203 agents, 175 skills, and 109 commands from the wshobson/agents marketplace. Multi-harness support for Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI, and GitHub Copilot — all from a single source.
+title: wshobson/agents - Agent Plugin Marketplace for Hermes
+description: Access 94 plugins, 203 agents, 175 skills, and 109 commands from the wshobson/agents marketplace. Multi-harness support for Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI, and GitHub Copilot - all from a single source.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wshobson-agents-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# wshobson/agents — Agent Plugin Marketplace
+# wshobson/agents - Agent Plugin Marketplace
 
 **Source:** [wshobson/agents](https://github.com/wshobson/agents) (9.1K+ installs for top skill)
 **Category:** Agent Orchestration / Plugins
 **Harnesses:** Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI, GitHub Copilot
 
-Massive agent plugin marketplace with 94 plugins, 203 agents, 175 skills, and 109 commands. One source-of-truth (`plugins/`) compiled into idiomatic artifacts for six different agent harnesses. Each harness gets native artifacts — not lowest-common-denominator translations.
+Massive agent plugin marketplace with 94 plugins, 203 agents, 175 skills, and 109 commands. One source-of-truth (`plugins/`) compiled into idiomatic artifacts for six different agent harnesses. Each harness gets native artifacts - not lowest-common-denominator translations.
 
 ---
 
@@ -204,6 +204,6 @@ Source (plugins/) ──▶ Harness Generator ──▶ Native artifacts
 
 ## See Also
 
-- [Awesome Copilot Setup](/hermes/skills/catalog/awesome-copilot-setup/) — GitHub Copilot agent skills (MCP generators)
-- [Skill Creator Setup](/hermes/skills/catalog/skill-creator-setup/) — Build your own agent skills
-- [Agent Memory Setup](/hermes/skills/catalog/agentmemory-setup/) — Persistent agent memory
+- [Awesome Copilot Setup](/hermes/skills/catalog/awesome-copilot-setup/) - GitHub Copilot agent skills (MCP generators)
+- [Skill Creator Setup](/hermes/skills/catalog/skill-creator-setup/) - Build your own agent skills
+- [Agent Memory Setup](/hermes/skills/catalog/agentmemory-setup/) - Persistent agent memory

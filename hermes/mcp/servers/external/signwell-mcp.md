@@ -1,6 +1,6 @@
 ---
-title: "SignWell MCP — Official E-Signature Server for AI Agents"
-description: "Official SignWell MCP server — the first major e-signature platform with native MCP support. Create, send, and track legally binding documents from any"
+title: "SignWell MCP - Official E-Signature Server for AI Agents"
+description: "Official SignWell MCP server - the first major e-signature platform with native MCP support. Create, send, and track legally binding documents from any"
 category: mcp
 tags: [mcp-server, e-signature, signwell, official, workplace, productivity, contracts, legal]
 last_updated: 2026-07-19
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # SignWell MCP Server ★ Official
 
-The first major e-signature platform to ship an official MCP server. SignWell lets any MCP-compatible AI agent (Claude, Codex, Cursor, Hermes) create signature requests from templates, send documents for signing, check signing status, and manage the complete e-signature workflow — all without leaving the agent interface.
+The first major e-signature platform to ship an official MCP server. SignWell lets any MCP-compatible AI agent (Claude, Codex, Cursor, Hermes) create signature requests from templates, send documents for signing, check signing status, and manage the complete e-signature workflow - all without leaving the agent interface.
 
 **Source:** mcpservers.org via awesome-mcp-servers PR #9513 (discovered July 19, 2026)
 **Category:** Workplace & Productivity / E-Signature / Legal
@@ -22,7 +22,7 @@ The first major e-signature platform to ship an official MCP server. SignWell le
 
 ## Why This Matters for Operators
 
-E-signature is a daily workflow for business operators — vendor agreements, client contracts, NDAs, employment letters. Every one of these follows a repeatable pattern: pick a template, fill in variables, send, track. The SignWell MCP server automates this end-to-end from within your AI agent, eliminating the context-switch to a separate e-sign dashboard.
+E-signature is a daily workflow for business operators - vendor agreements, client contracts, NDAs, employment letters. Every one of these follows a repeatable pattern: pick a template, fill in variables, send, track. The SignWell MCP server automates this end-to-end from within your AI agent, eliminating the context-switch to a separate e-sign dashboard.
 
 ## Installation
 
@@ -66,7 +66,7 @@ Requires a SignWell API key. Sign up at [signwell.com](https://www.signwell.com)
 
 ## CorpusIQ Relevance
 
-E-signature is one of the most requested connectors from CorpusIQ operators. Integrating SignWell alongside existing connectors (QuickBooks, Shopify, HubSpot) would create a complete business operations workflow: CRM deal → contract generation → e-signature → accounting sync — all agent-driven.
+E-signature is one of the most requested connectors from CorpusIQ operators. Integrating SignWell alongside existing connectors (QuickBooks, Shopify, HubSpot) would create a complete business operations workflow: CRM deal → contract generation → e-signature → accounting sync - all agent-driven.
 
 ## See Also
 

@@ -1,6 +1,6 @@
 ---
-title: Agent Plugins 1.0 — The Portable Skill Standard
-description: "Setup and usage guide for Agent Plugins 1.0 — The Portable Skill Standard. Part of the Hermes resource directory."
+title: Agent Plugins 1.0 - The Portable Skill Standard
+description: "Setup and usage guide for Agent Plugins 1.0 - The Portable Skill Standard. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Agent Plugins 1.0 — The Portable Skill Standard
+# Agent Plugins 1.0 - The Portable Skill Standard
 
 On August 6, 2026, OpenAI, Vercel, AWS, Microsoft, Google, and Cursor published Agent Plugins 1.0: an open, vendor-neutral standard for packaging AI agent skills and MCP servers into portable plugins. Build once. Deploy everywhere.
 
@@ -44,17 +44,17 @@ The distribution model flips: instead of users coming to CorpusIQ and connecting
 
 ## The SkillForge Ecosystem
 
-SkillForge (105 stars, launched August 4, 2026) is already building the "npm for skills" — an MCP-native skill registry that follows the Agent Plugins specification. Skills published to SkillForge are discoverable and installable by any compatible agent.
+SkillForge (105 stars, launched August 4, 2026) is already building the "npm for skills" - an MCP-native skill registry that follows the Agent Plugins specification. Skills published to SkillForge are discoverable and installable by any compatible agent.
 
-CorpusIQ should be an early publisher on SkillForge. Every growth skill we have — Reddit commenting, Shopify outreach, email automation, competitive research — becomes a discoverable, installable plugin.
+CorpusIQ should be an early publisher on SkillForge. Every growth skill we have - Reddit commenting, Shopify outreach, email automation, competitive research - becomes a discoverable, installable plugin.
 
 ## The Immediate Opportunity
 
 1. **Package the top 10 CorpusIQ skills** as Agent Plugins
 2. **Publish to SkillForge** under the CorpusIQ namespace
 3. **Include the affiliate link** in every skill's SKILL.md footer
-4. **Watch adoption** — each skill install is a warm lead
-5. **Iterate** — skills that get traction get deeper MCP integration
+4. **Watch adoption** - each skill install is a warm lead
+5. **Iterate** - skills that get traction get deeper MCP integration
 
 ## Technical Implementation
 

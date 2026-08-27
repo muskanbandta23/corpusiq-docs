@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent v0.19.1 Patch Release
-description: Hermes Agent v0.19.1 (v2026.7.30) — Patch release rolling up ~3,087 commits since v0.19.0. Gateway fixes, voice subsystem stabilisation, Telegram media reliability, FLUX3 video pipeline, and Buzz/Nostr channel support. July 30, 2026.
+description: Hermes Agent v0.19.1 (v2026.7.30) - Patch release rolling up ~3,087 commits since v0.19.0. Gateway fixes, voice subsystem stabilisation, Telegram media reliability, FLUX3 video pipeline, and Buzz/Nostr channel support. July 30, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.19.1/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -29,7 +29,7 @@ Since v2026.7.20 (v0.19.0, July 20): **~3,087 commits · ~300 files changed** on
 - **Buzz/Nostr:** New social channel support for decentralised networks
 - **Installer:** Self-healing and fresh-install reliability patches
 
-**Full curated release notes for this window will ship with v0.20.0**, which will document everything from v0.19.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window will ship with v0.20.0**, which will document everything from v0.19.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ---
 
@@ -45,7 +45,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.19.0 — The Quicksilver Release](/hermes/changelog/v0.19.0/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.19.0 - The Quicksilver Release](/hermes/changelog/v0.19.0/) | [Changelog Home](/hermes/changelog/) →*
 
 *↑ [Changelog Home](/hermes/changelog/)*
 

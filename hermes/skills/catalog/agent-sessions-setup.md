@@ -1,6 +1,6 @@
 ---
-title: "agent-sessions — macOS Agent Session Browser Setup"
-description: "Install and configure agent-sessions (683⭐) — a local-first macOS app for browsing, searching, and resuming AI coding-agent session histories across Hermes"
+title: "agent-sessions - macOS Agent Session Browser Setup"
+description: "Install and configure agent-sessions (683⭐) - a local-first macOS app for browsing, searching, and resuming AI coding-agent session histories across Hermes"
 skill_name: agent-sessions
 category: session-management
 difficulty: Easy
@@ -12,13 +12,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# agent-sessions — Full Setup Guide
+# agent-sessions - Full Setup Guide
 
 **Repo:** [jazzyalex/agent-sessions](https://github.com/jazzyalex/agent-sessions) | ⭐ 683
 **Author:** jazzyalex | **Language:** Swift | **License:** MIT
 **Platform:** macOS (native SwiftUI)
 
-agent-sessions is a local-first macOS app that lets you browse, search, analyze, and resume AI coding-agent session histories across Hermes Agent, Claude Code, Codex, and Cursor. All session data stays on your machine — no cloud sync, no telemetry.
+agent-sessions is a local-first macOS app that lets you browse, search, analyze, and resume AI coding-agent session histories across Hermes Agent, Claude Code, Codex, and Cursor. All session data stays on your machine - no cloud sync, no telemetry.
 
 ---
 
@@ -188,7 +188,7 @@ hermes gateway start
 
 ## Security Notes
 
-- **All data stays local.** agent-sessions reads session files directly — nothing is uploaded.
+- **All data stays local.** agent-sessions reads session files directly - nothing is uploaded.
 - **No network access.** The app does not phone home or send telemetry.
 - **Read-only by default.** agent-sessions never modifies session data unless you explicitly save a bookmark.
 - **Build from source** if you want to audit the code before running.
@@ -202,7 +202,7 @@ hermes gateway start
 | agent-sessions | macOS | 683 | This guide |
 | Hermes WebUI | Web | 15K | Full agent control panel |
 | Hermex | iOS | 450 | Native iPhone app |
-| OpenClaw Session Viewer | CLI | — | Built into OpenClaw |
+| OpenClaw Session Viewer | CLI | - | Built into OpenClaw |
 
 ---
 

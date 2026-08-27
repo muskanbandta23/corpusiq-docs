@@ -1,5 +1,5 @@
 ---
-title: "Generative Media Skills — AI Video, Logo & Design"
+title: "Generative Media Skills - AI Video, Logo & Design"
 description: Six generative media skills for brand-aware video creation, logo design, UI generation, cinema direction, and social media video production. 10K+ combined installs. Uses Seedance 2.0 for video.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samuraigpt-generative-media-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Generative Media Skills — Setup Guide
+# Generative Media Skills - Setup Guide
 
 **Source:** [samuraigpt/generative-media-skills](https://skills.sh/samuraigpt/generative-media-skills) (10K+ combined installs)
 **Category:** Media Generation / Video Production
 **Quality Tier:** 🟡 Beta
 
-Six generative media skills for end-to-end AI media production. The flagship **social-media-video** skill reads brand identity documents, ICP profiles, and messaging to produce on-brand social videos — fully optimized for Seedance 2.0's instructional prompt grammar. Also includes logo creation, UI design, and cinematic video direction.
+Six generative media skills for end-to-end AI media production. The flagship **social-media-video** skill reads brand identity documents, ICP profiles, and messaging to produce on-brand social videos - fully optimized for Seedance 2.0's instructional prompt grammar. Also includes logo creation, UI design, and cinematic video direction.
 
 ---
 
@@ -65,7 +65,7 @@ End-to-end pipeline: Brand Files → Storyboard → Reference Images → Seedanc
 4. **Produce video**: Optimized Seedance 2.0 prompt with camera movement, transitions
 
 ### Cinema Director
-Cinematic video direction with camera movement scripting — dolly, pan, zoom, tracking shots — for professional-quality AI video.
+Cinematic video direction with camera movement scripting - dolly, pan, zoom, tracking shots - for professional-quality AI video.
 
 ### Logo Creator
 Reads brand identity documents and generates logo variations optimized for different use cases (social profile, website header, app icon).
@@ -75,7 +75,7 @@ Generates UI/screen designs from product descriptions, brand identity, and platf
 
 ---
 
-## Quick Start — Hermes Agent
+## Quick Start - Hermes Agent
 
 ```bash
 # Create sample brand files
@@ -121,8 +121,8 @@ npx skills list | grep samuraigpt
 
 ## Notes
 
-- **Brand-file driven**: Skills read markdown brand documents — no coding required for consistent output
-- **Seedance 2.0**: Primary video engine — uses instructional prompt grammar for precise camera control
+- **Brand-file driven**: Skills read markdown brand documents - no coding required for consistent output
+- **Seedance 2.0**: Primary video engine - uses instructional prompt grammar for precise camera control
 - **Use case for CorpusIQ**: UGC video production, social media content, logo refinement, UI mockups for product specs
-- **Model agnostic**: Image generation uses whatever model is available — not locked to one provider
+- **Model agnostic**: Image generation uses whatever model is available - not locked to one provider
 - **Related skills**: corpusiq-media-pipeline, corpusiq-heygen-video-automation, hyperframes

@@ -1,6 +1,6 @@
 ---
-title: Why Your AI Cannot Answer Current Revenue — And How to Fix It
-description: "Why no AI platform can answer 'what was our revenue last month' out of the box — and how a read-only data layer with source-cited answers fixes it."
+title: Why Your AI Cannot Answer Current Revenue - And How to Fix It
+description: "Why no AI platform can answer 'what was our revenue last month' out of the box - and how a read-only data layer with source-cited answers fixes it."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/why-ai-cannot-answer-revenue/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Why Your AI Cannot Answer Current Revenue — And How to Fix It
+# Why Your AI Cannot Answer Current Revenue - And How to Fix It
 
 Every AI platform on the market can write code, summarize documents, and draft emails. But ask any of them "what was our revenue last month" and they all fail the same way.
 
@@ -40,7 +40,7 @@ This is not a better AI model. It is a better data pipeline.
 
 A business owner opens ChatGPT. Types: "What was our revenue last month?"
 
-The answer: "$142,000 — Shopify: $89,000 (1,247 orders), Stripe: $38,000 (subscriptions), QuickBooks: $15,000 (consulting invoices). Sources: Shopify Orders API, Stripe Payments API, QuickBooks Profit & Loss."
+The answer: "$142,000 - Shopify: $89,000 (1,247 orders), Stripe: $38,000 (subscriptions), QuickBooks: $15,000 (consulting invoices). Sources: Shopify Orders API, Stripe Payments API, QuickBooks Profit & Loss."
 
 Same question in Claude. Same answer. Same question in Perplexity. Same answer.
 

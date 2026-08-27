@@ -1,5 +1,5 @@
 ---
-title: "Brad Automates Head of Content — Social Media Research"
+title: "Brad Automates Head of Content - Social Media Research"
 description: Instagram, TikTok, and video content research skills with 2.8K+ combined installs. Fetch and analyze social media content, identify viral outliers, and extract trending patterns using Apify + Gemini.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bradautomates-head-of-content-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Brad Automates Head of Content — Setup Guide
+# Brad Automates Head of Content - Setup Guide
 
 **Source:** [bradautomates/head-of-content](https://skills.sh/bradautomates/head-of-content) (2.8K+ combined installs)
 **Category:** Growth Operations / Social Media
@@ -33,8 +33,8 @@ npx skills add bradautomates/head-of-content --skill video-content-analyzer
 | Skill | Installs | Purpose |
 |---|---|---|
 | **instagram-research** | 1.1K | Fetch Instagram posts/reels/stories via Apify, identify viral outliers, extract trending topics |
-| **tiktok-research** | 1.0K | TikTok content analysis — fetch, analyze patterns, detect viral trends |
-| **video-content-analyzer** | 664 | Analyze video content with Gemini — transcripts, visual elements, engagement patterns |
+| **tiktok-research** | 1.0K | TikTok content analysis - fetch, analyze patterns, detect viral trends |
+| **video-content-analyzer** | 664 | Analyze video content with Gemini - transcripts, visual elements, engagement patterns |
 
 ---
 
@@ -42,8 +42,8 @@ npx skills add bradautomates/head-of-content --skill video-content-analyzer
 
 | Requirement | Details |
 |---|---|
-| **Apify token** | Set `APIFY_TOKEN` in `.env` — powers social media data extraction |
-| **Gemini API key** | Set `GEMINI_API_KEY` in `.env` — powers content analysis |
+| **Apify token** | Set `APIFY_TOKEN` in `.env` - powers social media data extraction |
+| **Gemini API key** | Set `GEMINI_API_KEY` in `.env` - powers content analysis |
 | **Python packages** | `apify-client`, `google-genai`, `python-dotenv` |
 | **Instagram accounts** | Configure target accounts in `.claude/context/instagram-accounts.md` |
 
@@ -53,7 +53,7 @@ npx skills add bradautomates/head-of-content --skill video-content-analyzer
 
 ### Instagram Research
 - Fetch posts, reels, or stories from any public account (30-day window, configurable)
-- Statistical outlier detection — identify posts performing 2x+ above account baseline
+- Statistical outlier detection - identify posts performing 2x+ above account baseline
 - Hashtag and keyword extraction from top-performing content
 - Multi-account batch analysis
 
@@ -104,8 +104,8 @@ python3 -c "from apify_client import ApifyClient; print('Apify OK')"
 
 ## Notes
 
-- Requires Apify (paid) and Gemini API (free tier available) — budget consideration for automation
+- Requires Apify (paid) and Gemini API (free tier available) - budget consideration for automation
 - Outlier threshold of 2.0 (2x above average) identifies truly viral content vs noise
 - Instagram accounts file at `.claude/context/instagram-accounts.md` must be manually populated
-- Directly useful for CorpusIQ social media strategy — competitor content analysis, trend detection
+- Directly useful for CorpusIQ social media strategy - competitor content analysis, trend detection
 - Complements `corpusiq-instagram-dm-outreach` and `corpusiq-social-cadence-engine` for full social workflow

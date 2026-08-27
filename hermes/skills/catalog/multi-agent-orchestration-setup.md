@@ -1,5 +1,5 @@
 ---
-title: "Multi-Agent Orchestration — PM-style parallel worker"
+title: "Multi-Agent Orchestration - PM-style parallel worker"
 description: PM-style multi-agent orchestration with worktree isolation, tmux sessions, and Wave-based task dispatch. 32+ installs from cat-xierluo/legal-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/multi-agent-orchestration-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Multi-Agent Orchestration — Setup Guide
+# Multi-Agent Orchestration - Setup Guide
 
 **Source:** [cat-xierluo/legal-skills](https://skills.sh/cat-xierluo/legal-skills/multi-agent-orchestration) (32+ installs)
 **Category:** Engineering / Agent Orchestration
@@ -43,7 +43,7 @@ npx skills add cat-xierluo/legal-skills --skill multi-agent-orchestration
 Current session acts as PM (Project Manager): reads task sources, groups work, spawns isolated workers, monitors progress via checkpoint files, and merges results. Workers execute in isolated worktrees with their own branches.
 
 ### Wave-Based Dispatch
-Tasks are grouped into Waves — sets of parallel workers running against the same base ref. PM plans provider slots, concurrency limits, and risk tiers before launching. Supports 4-6 parallel workers for independent tasks, 1-3 for shared-dependency work.
+Tasks are grouped into Waves - sets of parallel workers running against the same base ref. PM plans provider slots, concurrency limits, and risk tiers before launching. Supports 4-6 parallel workers for independent tasks, 1-3 for shared-dependency work.
 
 ### Escape Prevention Gate
 When user requires tmux/independent sessions, PM must pass a startup gate before touching business code: create worktree → start tmux → verify session alive → confirm STATUS.json appears → only then proceed.

@@ -1,5 +1,5 @@
 ---
-title: hermes-studio-dashboard — Setup Guide
+title: hermes-studio-dashboard - Setup Guide
 description: Web dashboard for Hermes Agent with multi-platform AI chat, session management, scheduled jobs, and usage analytics. From aradotso/hermes-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-studio-dashboard-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# hermes-studio-dashboard — Setup Guide
+# hermes-studio-dashboard - Setup Guide
 
 **Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)
 **Skill:** `hermes-studio-dashboard`
 **Installs:** 38
 
-A web-based management dashboard for Hermes Agent. Provides multi-platform AI chat interface, session management, scheduled job monitoring, and usage analytics — all from a browser UI.
+A web-based management dashboard for Hermes Agent. Provides multi-platform AI chat interface, session management, scheduled job monitoring, and usage analytics - all from a browser UI.
 
 ## Installation
 
@@ -49,17 +49,17 @@ After install, reload skills:
 Once installed and loaded, the skill provides a web dashboard accessible at a local port:
 
 ```bash
-# The dashboard typically starts on a local port — check output after skill activation
+# The dashboard typically starts on a local port - check output after skill activation
 # Common: http://localhost:3000 or similar
 ```
 
 ## CorpusIQ Use Cases
 
-1. **Multi-agent monitoring** — Monitor all CorpusIQ Hermes agents from one dashboard
-2. **Session oversight** — Track active sessions across profiles (corpusiq, dev, support)
-3. **Job health checks** — Monitor cron job execution status visually
-4. **Usage analytics** — Track agent token usage and model routing patterns
-5. **Team operations** — Provide dashboard access to team members for agent oversight
+1. **Multi-agent monitoring** - Monitor all CorpusIQ Hermes agents from one dashboard
+2. **Session oversight** - Track active sessions across profiles (corpusiq, dev, support)
+3. **Job health checks** - Monitor cron job execution status visually
+4. **Usage analytics** - Track agent token usage and model routing patterns
+5. **Team operations** - Provide dashboard access to team members for agent oversight
 
 ## Troubleshooting
 
@@ -77,4 +77,4 @@ After installation, verify the skill is loaded:
 hermes skills list | grep hermes-studio-dashboard
 ```
 
-The dashboard should be accessible after skill activation — check terminal output for the URL.
+The dashboard should be accessible after skill activation - check terminal output for the URL.

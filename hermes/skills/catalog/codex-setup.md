@@ -1,5 +1,5 @@
 ---
-title: "Codex — Delegate Coding Tasks to OpenAI Codex CLI"
+title: "Codex - Delegate Coding Tasks to OpenAI Codex CLI"
 description: "Install and configure the Codex skill to delegate coding tasks from Hermes to OpenAI Codex CLI. Offload features, PRs, and complex refactors."
 category: catalog
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codex-setup/"
@@ -9,9 +9,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Codex — OpenAI Codex CLI Delegation Setup Guide
+# Codex - OpenAI Codex CLI Delegation Setup Guide
 
-Delegate coding tasks from your Hermes agent to OpenAI Codex CLI. This skill enables your Hermes agent to spawn Codex subprocesses for feature development, PR creation, and complex refactoring — leveraging Codex's specialized coding capabilities while Hermes handles orchestration.
+Delegate coding tasks from your Hermes agent to OpenAI Codex CLI. This skill enables your Hermes agent to spawn Codex subprocesses for feature development, PR creation, and complex refactoring - leveraging Codex's specialized coding capabilities while Hermes handles orchestration.
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) via [skills.sh](https://www.skills.sh/nousresearch/hermes-agent/codex)
 

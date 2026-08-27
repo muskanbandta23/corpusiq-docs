@@ -1,13 +1,13 @@
 ---
-title: Design Doc Mermaid Skill — Diagram & Documentation Setup
-description: "spillwavesolutions/design-doc-mermaid — design-doc-mermaid (34.2K installs): Mermaid Architect skill for hierarchical diagrams, decision trees, code-to-diagram workflows, high-contrast styling, and documentation systems."
+title: Design Doc Mermaid Skill - Diagram & Documentation Setup
+description: "spillwavesolutions/design-doc-mermaid - design-doc-mermaid (34.2K installs): Mermaid Architect skill for hierarchical diagrams, decision trees, code-to-diagram workflows, high-contrast styling, and documentation systems."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-doc-mermaid-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "mermaid", "diagrams", "documentation"]
 ---
 
-# Design Doc Mermaid Skill — Setup Guide
+# Design Doc Mermaid Skill - Setup Guide
 
 **Source:** [spillwavesolutions/design-doc-mermaid](https://skills.sh/spillwavesolutions/design-doc-mermaid)
 **GitHub:** [spillwavesolutions/design-doc-mermaid](https://github.com/spillwavesolutions/design-doc-mermaid) (147 stars)
@@ -63,8 +63,8 @@ npx skills add spillwavesolutions/design-doc-mermaid
 
 ## Limitations / Verification
 
-- Text-based Mermaid — rendering depends on the hosting platform's Mermaid support
-- Snyk audit carries a warning — review before production use
+- Text-based Mermaid - rendering depends on the hosting platform's Mermaid support
+- Snyk audit carries a warning - review before production use
 
 ```bash
 npx skills add spillwavesolutions/design-doc-mermaid   # verify install works
@@ -73,8 +73,8 @@ npx skills add spillwavesolutions/design-doc-mermaid   # verify install works
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Markdown Viewer](/hermes/skills/) — diagram rendering in Hermes
-- [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup/) — docs optimization
+- [Markdown Viewer](/hermes/skills/) - diagram rendering in Hermes
+- [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup/) - docs optimization
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

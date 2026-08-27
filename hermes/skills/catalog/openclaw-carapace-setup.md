@@ -1,6 +1,6 @@
 ---
-title: OpenClaw Carapace — Design System Skills Setup Guide for Hermes Agents
-description: Install and use the official OpenClaw design system package (openclaw/carapace) — 6 skills covering brand identity, UI primitives, marketing pages, and design audits. 2.3K combined installs.
+title: OpenClaw Carapace - Design System Skills Setup Guide for Hermes Agents
+description: Install and use the official OpenClaw design system package (openclaw/carapace) - 6 skills covering brand identity, UI primitives, marketing pages, and design audits. 2.3K combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-carapace-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Carapace — Setup Guide
+# OpenClaw Carapace - Setup Guide
 
 **Source:** [openclaw/carapace](https://skills.sh/openclaw/carapace) (2.3K combined installs)
 **GitHub:** [github.com/openclaw/carapace](https://github.com/openclaw/carapace) (4⭐)
@@ -41,7 +41,7 @@ npx skills add https://github.com/openclaw/carapace --skill openclaw-design-syst
 
 | Skill | Installs | Use For |
 |---|---|---|
-| `openclaw-design` | 379 | Router — chooses the focused branch before changing any interface |
+| `openclaw-design` | 379 | Router - chooses the focused branch before changing any interface |
 | `openclaw-brand` | 379 | Identity: typography, logos, imagery, voice, non-product brand artifacts |
 | `openclaw-carapace` | 369 | App UI: semantic tokens, themes, component reuse, framework adapters |
 | `openclaw-marketing-pages` | 379 | Public pages: landing/content composition, navigation, SEO, responsive layout |
@@ -56,11 +56,11 @@ npx skills add https://github.com/openclaw/carapace --skill openclaw-design-syst
 
 The core skill enforces a read-then-build workflow over five reference files:
 
-1. `references/tokens.md` — read before choosing colors, spacing, type, radii, or shadows
-2. `references/consumer-adapters.md` — current framework adapter conventions
-3. `references/application-surfaces.md` — shells, panes, settings, operational screens
-4. `references/terminal-ui.md` — terminal interface design and auditing
-5. `references/embedded-surfaces.md` — surfaces rendered inside host frames (MCP apps)
+1. `references/tokens.md` - read before choosing colors, spacing, type, radii, or shadows
+2. `references/consumer-adapters.md` - current framework adapter conventions
+3. `references/application-surfaces.md` - shells, panes, settings, operational screens
+4. `references/terminal-ui.md` - terminal interface design and auditing
+5. `references/embedded-surfaces.md` - surfaces rendered inside host frames (MCP apps)
 
 Core rules: use semantic tokens for UI intent and palette primitives only for documented exceptions; keep application behavior, routes, and information architecture unchanged unless the task says otherwise; validate affected routes with existing tests and real browser screenshots; inspect the consumer's existing shared primitives before creating a new component.
 
@@ -97,8 +97,8 @@ cp -r /tmp/carapace/openclaw-* ~/.clawd/skills/
 
 ## Limitations / Verification
 
-- Low GitHub star count (4⭐) and first seen July 21, 2026 — young package, follow release cadence
-- `openclaw-design-system` is a compatibility alias, not new functionality — install only when upgrading old locks
+- Low GitHub star count (4⭐) and first seen July 21, 2026 - young package, follow release cadence
+- `openclaw-design-system` is a compatibility alias, not new functionality - install only when upgrading old locks
 - Verify install: `npx skills list | grep -i carapace` should show six entries
 - Security posture is clean on all three scanners (Socket flags one Warn on the router skill)
 
@@ -106,7 +106,7 @@ cp -r /tmp/carapace/openclaw-* ~/.clawd/skills/
 
 ## Related
 
-- [Discovery Page — Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
 - [OpenClaw Ecosystem June 26 Setup](/hermes/skills/catalog/openclaw-ecosystem-june26-setup/)
 - [Skills Catalog](/hermes/skills/catalog/)
 

@@ -1,5 +1,5 @@
 ---
-title: "FCA Handbook MCP (Metis Harness) — UK Financial"
+title: "FCA Handbook MCP (Metis Harness) - UK Financial"
 server: fca-handbook-mcp
 rating: ★★★
 category: Finance / Regulatory Compliance
@@ -10,16 +10,16 @@ source: mcp.so
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fca-handbook-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "The primary tool — evaluates which FCA Handbook entries apply to an entity. Metis Harness MCP server gives agents direct access Financial Conduct Authority."
+description: "The primary tool - evaluates which FCA Handbook entries apply to an entity. Metis Harness MCP server gives agents direct access Financial Conduct Authority."
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# FCA Handbook MCP — Integration Guide
+# FCA Handbook MCP - Integration Guide
 
 ## Overview
 
-The Metis FCA Handbook AI Harness MCP server gives AI agents direct access to the UK Financial Conduct Authority (FCA) Handbook — 10,000+ regulatory entries with verbatim citations, structured applicability evaluations, and binding-level classifications (R=Rule, G=Guidance).
+The Metis FCA Handbook AI Harness MCP server gives AI agents direct access to the UK Financial Conduct Authority (FCA) Handbook - 10,000+ regulatory entries with verbatim citations, structured applicability evaluations, and binding-level classifications (R=Rule, G=Guidance).
 
 This is the first dedicated regulatory compliance MCP server. For UK financial services operators, it transforms compliance research from manual handbook searching to conversational AI queries.
 
@@ -64,7 +64,7 @@ pip install fca-handbook-harness-mcp
 
 ### `evaluate_fca_handbook_applicability`
 
-The primary tool — evaluates which FCA Handbook entries apply to an entity.
+The primary tool - evaluates which FCA Handbook entries apply to an entity.
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -89,10 +89,10 @@ The Harness is built for enterprise compliance environments:
 
 | Feature | Description |
 |---------|-------------|
-| **Stateless** | Each request independent — no session coupling |
+| **Stateless** | Each request independent - no session coupling |
 | **One-shot** | Complete analysis in a single call |
 | **Clear contract** | Explicit input/output schemas |
-| **Hosted** | Single canonical source — no version drift |
+| **Hosted** | Single canonical source - no version drift |
 | **Verbatim citations** | Quotes FCA Handbook entries directly, not LLM-synthesized text |
 | **OWASP-aligned** | Designed against OWASP Top 10 for Agentic Applications 2026 |
 
@@ -120,21 +120,21 @@ The Harness is built for enterprise compliance environments:
 
 ## Limitations
 
-- **UK only** — FCA Handbook only; no EU (ESMA/EBA), US (SEC/FINRA), or other jurisdictions
-- **Paid** — Metis API key requires paid account (pricing via fcahandbookharnessimplementation.onrender.com)
-- **Stateless** — no multi-turn context; each query is independent
-- **FCA Handbook only** — doesn't cover FCA guidance consultations, thematic reviews, or enforcement actions
-- **Full mode is slow** — detailed analysis can take several minutes
+- **UK only** - FCA Handbook only; no EU (ESMA/EBA), US (SEC/FINRA), or other jurisdictions
+- **Paid** - Metis API key requires paid account (pricing via fcahandbookharnessimplementation.onrender.com)
+- **Stateless** - no multi-turn context; each query is independent
+- **FCA Handbook only** - doesn't cover FCA guidance consultations, thematic reviews, or enforcement actions
+- **Full mode is slow** - detailed analysis can take several minutes
 
 ## Verdict
 
-★★★ — **Essential for UK-regulated financial services operators.** This is the first MCP server that makes regulatory compliance conversational. The verbatim-citation design (rather than LLM-synthesized answers) is critical for regulated environments where accuracy matters. For any UK fintech, EMI, payment institution, or investment firm using AI agents, this is a must-install.
+★★★ - **Essential for UK-regulated financial services operators.** This is the first MCP server that makes regulatory compliance conversational. The verbatim-citation design (rather than LLM-synthesized answers) is critical for regulated environments where accuracy matters. For any UK fintech, EMI, payment institution, or investment firm using AI agents, this is a must-install.
 
 Pair with The Bot Wire (US regulatory/economic primary sources, catalogued Jul 31) and Lawstronaut (155+ jurisdiction legal research, catalogued Aug 10 morning) for a complete regulatory intelligence stack.
 
 ## Related MCP Servers in Catalog
 
-- **The Bot Wire** — US regulatory primary sources (SEC, Federal Register, court opinions) (★★★)
-- **Lawstronaut MCP** — 50M+ laws and cases across 155+ jurisdictions (★★★)
-- **Sanctions Screening MCP** — OFAC/EU/UK/UN sanctions screening (★★★)
-- **Honest VIES MCP** — EU VAT number validation with audit trail (★★★)
+- **The Bot Wire** - US regulatory primary sources (SEC, Federal Register, court opinions) (★★★)
+- **Lawstronaut MCP** - 50M+ laws and cases across 155+ jurisdictions (★★★)
+- **Sanctions Screening MCP** - OFAC/EU/UK/UN sanctions screening (★★★)
+- **Honest VIES MCP** - EU VAT number validation with audit trail (★★★)

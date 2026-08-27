@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Marketplace — 440+ Tools & Resources"
+title: "Hermes Agent Marketplace - 440+ Tools & Resources"
 description: "Complete directory of Hermes Agent tools, MCP servers, skills, SDKs, and community resources. The largest collection agents the internet. 232 specialized a."
 canonical: "https://www.corpusiq.io/docs/hermes/agent-marketplace/"
 robots: "index,follow"
@@ -14,7 +14,7 @@ The largest collection of AI agents on the internet. 232 specialized agents acro
 
 ## The Personality Layer: agency-agents
 
-[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — 115K stars, MIT license.
+[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) - 115K stars, MIT license.
 
 | Division | Agents | What they do |
 |----------|--------|-------------|
@@ -80,4 +80,4 @@ Agents provide the personality and workflow. CorpusIQ provides the real data. To
 
 ---
 
-*Part of the [CorpusIQ Hermes ecosystem](https://github.com/CorpusIQ/corpusiq-docs) — 341+ repos indexed.*
+*Part of the [CorpusIQ Hermes ecosystem](https://github.com/CorpusIQ/corpusiq-docs) - 341+ repos indexed.*

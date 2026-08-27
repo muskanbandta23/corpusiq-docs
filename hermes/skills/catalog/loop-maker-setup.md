@@ -1,6 +1,6 @@
 ---
-title: Loop Maker — Agent Loop Scaffolding Setup Guide
-description: Install and configure EricTechPro/loop-maker — cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier, state file, and human gate
+title: Loop Maker - Agent Loop Scaffolding Setup Guide
+description: Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier, state file, and human gate
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/loop-maker-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Loop Maker — Skill Setup
+# Loop Maker - Skill Setup
 
 **Source:** [EricTechPro/loop-maker](https://github.com/EricTechPro/loop-maker)
 **Stars:** 0 ⭐ | **License:** MIT
@@ -20,7 +20,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-A portable agent skill that interviews you through a 7-question wizard and scaffolds a self-running autonomous loop — complete with separate verifier, state file, stop conditions, and human gate. Works across all major agent harnesses.
+A portable agent skill that interviews you through a 7-question wizard and scaffolds a self-running autonomous loop - complete with separate verifier, state file, stop conditions, and human gate. Works across all major agent harnesses.
 
 **Why most loops fail (and how this catches it):**
 1. ❌ Agent judges its own work → ✅ Separate verifier built into scaffold
@@ -58,13 +58,13 @@ When invoked, `loop-maker` asks these questions one at a time:
 
 | # | Question | What It Catches |
 |---|----------|-----------------|
-| 1 | **Goal** — What checkable condition means "done for now"? | Vague/unfalsifiable goals |
-| 2 | **Trigger** — What starts each run? Schedule, event, or run-until-done? | Undefined activation |
-| 3 | **Discovery** — How does it find the work to do each round? | Blind loops with nothing to do |
-| 4 | **Action** — What's it allowed to do, and through which tools? | Unbounded capabilities |
-| 5 | **Verification** — Who checks the result, and against what? | Agent self-grading |
-| 6 | **State** — Where does "what's done / what's left" live? | Amnesia between runs |
-| 7 | **Human gate** — Which actions are irreversible and must ask first? | Catastrophic automation |
+| 1 | **Goal** - What checkable condition means "done for now"? | Vague/unfalsifiable goals |
+| 2 | **Trigger** - What starts each run? Schedule, event, or run-until-done? | Undefined activation |
+| 3 | **Discovery** - How does it find the work to do each round? | Blind loops with nothing to do |
+| 4 | **Action** - What's it allowed to do, and through which tools? | Unbounded capabilities |
+| 5 | **Verification** - Who checks the result, and against what? | Agent self-grading |
+| 6 | **State** - Where does "what's done / what's left" live? | Amnesia between runs |
+| 7 | **Human gate** - Which actions are irreversible and must ask first? | Catastrophic automation |
 
 ### Output
 
@@ -121,7 +121,7 @@ hermes -s loop-maker "I need a loop that..."
 | Loop output missing verifier | Interview skipped question 5 | Re-run; question 5 is mandatory |
 | STATE.md grows without bound | No cleanup defined | Add `max_entries` or `ttl_days` to state management |
 | Loop runs forever | Stop condition too vague | Use a concrete, checkable condition (count, timestamp, boolean) |
-| Cross-harness compatibility | Tool names differ | Loop Maker uses abstract tool references — bind to your harness |
+| Cross-harness compatibility | Tool names differ | Loop Maker uses abstract tool references - bind to your harness |
 
 ---
 

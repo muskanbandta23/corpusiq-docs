@@ -1,6 +1,6 @@
 ---
 title: Hermes Plugins (42-evey) Setup Guide
-description: Install and configure 42-evey/hermes-plugins — goals tracking, inter-agent bridge, model selection, and cost control for Hermes Agent.
+description: Install and configure 42-evey/hermes-plugins - goals tracking, inter-agent bridge, model selection, and cost control for Hermes Agent.
 category: hermes-native
 publisher: 42-evey
 maturity: beta
@@ -12,16 +12,16 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Plugins (42-evey) — Setup Guide
+# Hermes Plugins (42-evey) - Setup Guide
 
-Native Hermes Agent plugins by [42-evey](https://github.com/42-evey/hermes-plugins). Provides goals tracking, inter-agent communication bridges, model selection routing, and cost control — four missing primitives for production Hermes deployments.
+Native Hermes Agent plugins by [42-evey](https://github.com/42-evey/hermes-plugins). Provides goals tracking, inter-agent communication bridges, model selection routing, and cost control - four missing primitives for production Hermes deployments.
 
 ## What It Provides
 
-- **Goals tracking** — define, track, and report on agent goals with completion gates
-- **Inter-agent bridge** — structured communication between Hermes agents without shared memory
-- **Model selection** — automatic model routing based on task complexity and cost budget
-- **Cost control** — token usage caps, per-task budgets, and spending alerts
+- **Goals tracking** - define, track, and report on agent goals with completion gates
+- **Inter-agent bridge** - structured communication between Hermes agents without shared memory
+- **Model selection** - automatic model routing based on task complexity and cost budget
+- **Cost control** - token usage caps, per-task budgets, and spending alerts
 
 ## Installation
 

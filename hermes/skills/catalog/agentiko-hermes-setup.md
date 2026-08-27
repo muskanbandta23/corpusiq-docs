@@ -1,6 +1,6 @@
 ---
-title: "agentiko-hermes — Setup Guide - CorpusIQ Docs"
-description: Hermes Agent features guide for the agentiko Telegram setup — cron, delegation, memory, automation, YOLO mode, dual-agent hunting, and slash commands.
+title: "agentiko-hermes - Setup Guide - CorpusIQ Docs"
+description: Hermes Agent features guide for the agentiko Telegram setup - cron, delegation, memory, automation, YOLO mode, dual-agent hunting, and slash commands.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentiko-hermes-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# agentiko-hermes — Setup Guide
+# agentiko-hermes - Setup Guide
 
 **Source:** [uphiago/recon-skills](https://github.com/uphiago/recon-skills)
 **Skill:** `agentiko-hermes`
 **Installs:** 16
 
-A comprehensive Hermes Agent features guide covering cron jobs, task delegation, persistent memory, automation workflows, YOLO mode configuration, dual-agent hunting patterns, and slash commands — specifically designed for the agentiko Telegram integration setup.
+A comprehensive Hermes Agent features guide covering cron jobs, task delegation, persistent memory, automation workflows, YOLO mode configuration, dual-agent hunting patterns, and slash commands - specifically designed for the agentiko Telegram integration setup.
 
 ## Installation
 
@@ -57,11 +57,11 @@ The skill provides a reference guide. Key patterns documented:
 
 ## CorpusIQ Use Cases
 
-1. **Telegram agent operations** — Reference guide for CorpusIQ agents operating via Telegram Topic 2
-2. **Cron management** — Best practices for multi-cron agent operations
-3. **Delegation patterns** — Multi-agent workflows for parallel task execution
-4. **Memory architecture** — Persistent memory patterns across CorpusIQ agent sessions
-5. **New team onboarding** — Training reference for new Hermes agent operators
+1. **Telegram agent operations** - Reference guide for CorpusIQ agents operating via Telegram Topic 2
+2. **Cron management** - Best practices for multi-cron agent operations
+3. **Delegation patterns** - Multi-agent workflows for parallel task execution
+4. **Memory architecture** - Persistent memory patterns across CorpusIQ agent sessions
+5. **New team onboarding** - Training reference for new Hermes agent operators
 
 ## Troubleshooting
 

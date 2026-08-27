@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 28, 2026 Marketplace Sweep"
-description: "8 new skills discovered from Anthropic Knowledge Work Plugins — content creation, Slack messaging/search, knowledge synthesis, search strategy, and MCP/Zoom"
+title: "New Skills - July 28, 2026 Marketplace Sweep"
+description: "8 new skills discovered from Anthropic Knowledge Work Plugins - content creation, Slack messaging/search, knowledge synthesis, search strategy, and MCP/Zoom"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july28-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 28, 2026
+# New Skills - July 28, 2026
 
 ## Summary
 
@@ -37,8 +37,8 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Notes
 
-- **Expanded existing guide**, not a new publisher — `knowledge-work-plugins-setup` grew from 6 to 14 skills
+- **Expanded existing guide**, not a new publisher - `knowledge-work-plugins-setup` grew from 6 to 14 skills
 - 57 keyword search terms across skills.sh marketplace → 314 skills from 132 publishers
 - Cross-referenced against 267+ existing catalog entries
-- Only high-signal finding was the 8 undocumented Anthropic skills — owner-scope search also confirmed these
-- 9 other uncatalogued publishers identified (callstackincubator, jimliu, etc.) — all below 25K installs or platform-specific, deferred for future sweeps
+- Only high-signal finding was the 8 undocumented Anthropic skills - owner-scope search also confirmed these
+- 9 other uncatalogued publishers identified (callstackincubator, jimliu, etc.) - all below 25K installs or platform-specific, deferred for future sweeps

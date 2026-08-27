@@ -13,7 +13,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 # Troubleshooting
 
 Almost every "it's not answering" comes down to one of four things. Work down
-the list — they're in the order you'll hit them.
+the list - they're in the order you'll hit them.
 
 ## "It's asking me to sign in"
 
@@ -22,7 +22,7 @@ The app isn't linked to your CorpusIQ account yet, or your link expired.
 - **Slack:** run `/corpusiq-login` and follow the direct message it sends you.
 - **Teams:** send the app a message and tap the **Sign in** prompt.
 
-If you linked a while ago and it's asking again, the link timed out — sign in
+If you linked a while ago and it's asking again, the link timed out - sign in
 again and it'll stick.
 
 See [getting-started-slack.md](getting-started-slack.md) or
@@ -39,13 +39,13 @@ Add it in the CorpusIQ dashboard, not in chat:
 3. Add a key from OpenAI, Anthropic, or Azure OpenAI and save.
 
 Ask again and it'll answer. If you believe your workspace provides a shared key,
-check with whoever set the app up — the message means the app read no key for
+check with whoever set the app up - the message means the app read no key for
 you.
 
 ## "It says a tool isn't connected"
 
 You asked something that needs a business tool you haven't linked to CorpusIQ
-yet — for example, asking about orders before connecting your store.
+yet - for example, asking about orders before connecting your store.
 
 The reply points you to connect it. Do that once in the dashboard, then ask the
 same question again. The app doesn't guess at data it can't reach, which is why
@@ -66,7 +66,7 @@ One person is linked at a time, so signing out and back in puts it right.
 If tapping **Sign in** in Teams doesn't finish:
 
 - Make sure you're signed in to Teams with the Microsoft account you expect.
-- Try the message again — send a fresh message to bring the prompt back.
+- Try the message again - send a fresh message to bring the prompt back.
 - If it still won't complete, your workspace's sign-in setup may need an
   admin's attention. Tell whoever installed the app, or email
   [support@corpusiq.io](mailto:support@corpusiq.io).

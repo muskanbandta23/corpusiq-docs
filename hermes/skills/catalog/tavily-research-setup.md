@@ -1,5 +1,5 @@
 ---
-title: Tavily Research — AI-Powered Deep Research with Citations
+title: Tavily Research - AI-Powered Deep Research with Citations
 description: Comprehensive AI-powered research that gathers sources, analyzes them, and produces cited reports. 14.1K+ installs. Takes 30-120 seconds. For comparisons, market analysis, and literature reviews.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-research-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Tavily Research — Setup Guide
+# Tavily Research - Setup Guide
 
 **Source:** [tavily-ai/skills](https://skills.sh/tavily-ai/skills/tavily-research) (14,100+ installs)
 **Category:** Web Search / Research
@@ -36,7 +36,7 @@ tvly login
 |---|---|
 | **Tavily API key** | Sign up at [tavily.com](https://tavily.com) |
 | **tvly CLI** | Installed via command above |
-| **Research credits** | Research consumes more credits than search — Pro model requires paid plan |
+| **Research credits** | Research consumes more credits than search - Pro model requires paid plan |
 
 ---
 
@@ -48,7 +48,7 @@ tvly login
 - Comparison between products, frameworks, or strategies
 - Market reports or industry landscaping
 - Literature reviews with citations
-- When quick searches aren't enough — you need synthesis
+- When quick searches aren't enough - you need synthesis
 
 ### When NOT to Use
 
@@ -117,7 +117,7 @@ tvly research "What problems do ecommerce operators face with data consolidation
 
 ## Tips
 
-- Research runs take 30-120 seconds — use `--stream` for progress visibility
+- Research runs take 30-120 seconds - use `--stream` for progress visibility
 - Pro model provides significantly more comprehensive analysis but requires paid Tavily plan
 - Save reports to your knowledge base (GBrain) for persistent access
 - Combine with `tavily-search` for initial exploration, then `tavily-research` for final synthesis
@@ -137,6 +137,6 @@ tvly research "What problems do ecommerce operators face with data consolidation
 
 ## See Also
 
-- Tavily Search Setup — Quick LLM-optimized web search
-- Tavily Search OpenClaw Setup — Community OpenClaw wrapper
-- [Tavily Docs](https://docs.tavily.com) — Official API documentation
+- Tavily Search Setup - Quick LLM-optimized web search
+- Tavily Search OpenClaw Setup - Community OpenClaw wrapper
+- [Tavily Docs](https://docs.tavily.com) - Official API documentation

@@ -1,6 +1,6 @@
 ---
-title: "Pangolinfo Amazon Data MCP — Integration Guide"
-description: "19 e-commerce and IP-compliance tools — Amazon product/review/search/niche/bestseller data, AI SERP & keyword trends, WIPO trademark search, and PACER"
+title: "Pangolinfo Amazon Data MCP - Integration Guide"
+description: "19 e-commerce and IP-compliance tools - Amazon product/review/search/niche/bestseller data, AI SERP & keyword trends, WIPO trademark search, and PACER"
 category: mcp
 tags: [mcp-server, e-commerce, amazon, ip-law, trademark, patent, keyword-research, competitive-intelligence, hermes-agent]
 last_updated: 2026-07-31
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Pangolinfo Amazon Data MCP — E-Commerce & IP Intelligence
+# Pangolinfo Amazon Data MCP - E-Commerce & IP Intelligence
 
 **Rating:** ★★ | **Category:** E-Commerce | **Transport:** Streamable HTTP
 
@@ -19,7 +19,7 @@ Pangolinfo consolidates 19 tools spanning Amazon marketplace intelligence and IP
 
 ## Why Business Operators Need This
 
-E-commerce operators spend hours switching between tools — Jungle Scout for product research, Keepa for pricing history, USPTO for trademark search, PACER for patent litigation. Pangolinfo collapses all of this into one MCP that your AI agent can query. For Amazon sellers doing competitive research and IP due diligence, or IP lawyers handling e-commerce client work, this single integration replaces 4-5 separate platforms. The WIPO trademark search + PACER patent tools make it the first MCP that bridges marketplace operations and IP compliance.
+E-commerce operators spend hours switching between tools - Jungle Scout for product research, Keepa for pricing history, USPTO for trademark search, PACER for patent litigation. Pangolinfo collapses all of this into one MCP that your AI agent can query. For Amazon sellers doing competitive research and IP due diligence, or IP lawyers handling e-commerce client work, this single integration replaces 4-5 separate platforms. The WIPO trademark search + PACER patent tools make it the first MCP that bridges marketplace operations and IP compliance.
 
 ## Quick Start
 
@@ -85,12 +85,12 @@ API key-based authentication. Register for a free key at [tool.pangolinfo.com](h
 - **MCP Endpoint:** `https://mcp.pangolinfo.com/mcp`
 - **PyPI:** `pangolinfo-mcp` (Python client)
 
-## Verdict: ★★ — Strong E-Commerce + IP Research Combo
+## Verdict: ★★ - Strong E-Commerce + IP Research Combo
 
-Pangolinfo is a solid consolidation play — takes tools that e-commerce operators and IP lawyers typically use across 4-5 separate platforms and unifies them under one MCP endpoint. The Amazon + WIPO + PACER combination is genuinely unique in the MCP ecosystem. For Amazon sellers and e-commerce operators who need IP due diligence alongside marketplace research, this saves significant context-switching.
+Pangolinfo is a solid consolidation play - takes tools that e-commerce operators and IP lawyers typically use across 4-5 separate platforms and unifies them under one MCP endpoint. The Amazon + WIPO + PACER combination is genuinely unique in the MCP ecosystem. For Amazon sellers and e-commerce operators who need IP due diligence alongside marketplace research, this saves significant context-switching.
 
 **Strengths:** Unique e-commerce + IP combo, 19 tools across marketplace intelligence and legal research, free API key available, Python client for programmatic use, good documentation.
 
-**Limitations:** Brand new (0 stars, created July 31, 2026 — same day), Amazon data depth vs dedicated tools unknown, PACER integration depth unclear (full docket or summary only), no historical data guarantees.
+**Limitations:** Brand new (0 stars, created July 31, 2026 - same day), Amazon data depth vs dedicated tools unknown, PACER integration depth unclear (full docket or summary only), no historical data guarantees.
 
 **Best for:** Amazon sellers, e-commerce operators, IP lawyers, brand protection teams, competitive intelligence analysts working in e-commerce.

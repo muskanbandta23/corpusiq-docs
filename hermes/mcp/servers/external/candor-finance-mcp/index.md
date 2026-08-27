@@ -1,6 +1,6 @@
 ---
 title: "Candor Finance MCP - CorpusIQ Docs"
-description: Personal finance workspace for AI agents — accounts, budgets, goals and investments with evidence behind every number, read-only toward banks with OAuth 2.1.
+description: Personal finance workspace for AI agents - accounts, budgets, goals and investments with evidence behind every number, read-only toward banks with OAuth 2.1.
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [personal-finance, budgeting, investments, evidence-trail, read-only, oaut
 
 # Candor Finance MCP
 
-**Remote MCP server (Streamable HTTP, OAuth 2.1)** — Candor gives an AI agent an organized personal-finance workspace: accounts, balances, transactions, recurring items, budgets, goals, holdings, and debts — every number carrying freshness, coverage, and evidence handles. Registered as `money.candor/candor-finance` on the official MCP Registry, served at `api.candor.money/mcp`.
+**Remote MCP server (Streamable HTTP, OAuth 2.1)** - Candor gives an AI agent an organized personal-finance workspace: accounts, balances, transactions, recurring items, budgets, goals, holdings, and debts - every number carrying freshness, coverage, and evidence handles. Registered as `money.candor/candor-finance` on the official MCP Registry, served at `api.candor.money/mcp`.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -62,7 +62,7 @@ The client handles the OAuth challenge; you sign in and approve the client on Ca
 }
 ```
 
-OAuth 2.1 with dynamic client registration — you approve each client on Candor's page, and bank credentials, access tokens, full account numbers, and verification codes never belong in chat.
+OAuth 2.1 with dynamic client registration - you approve each client on Candor's page, and bank credentials, access tokens, full account numbers, and verification codes never belong in chat.
 
 ## Business Relevance
 
@@ -73,12 +73,12 @@ OAuth 2.1 with dynamic client registration — you approve each client on Candor
 
 ## Integration with CorpusIQ
 
-Candor occupies the personal side of the money picture that CorpusIQ's business connectors leave open. Operators can run business books in QuickBooks and Stripe while Candor holds the personal workspace, and the agent keeps the two separated by design. The evidence-handle pattern also mirrors CorpusIQ's data accuracy contract — treat only returned fields as verified — so a Candor-connected agent can follow the same provenance discipline across personal and business financial data without retraining.
+Candor occupies the personal side of the money picture that CorpusIQ's business connectors leave open. Operators can run business books in QuickBooks and Stripe while Candor holds the personal workspace, and the agent keeps the two separated by design. The evidence-handle pattern also mirrors CorpusIQ's data accuracy contract - treat only returned fields as verified - so a Candor-connected agent can follow the same provenance discipline across personal and business financial data without retraining.
 
 ## Limitations
 
-- Brand new — no track record yet; listing appeared August 17, 2026.
-- Personal finance only — not a business accounting system.
+- Brand new - no track record yet; listing appeared August 17, 2026.
+- Personal finance only - not a business accounting system.
 - Read-only toward banks by design; no payments, transfers, or brokerage orders.
 - Requires a Candor subscription; per-seat pricing is shown at checkout, not in the docs.
 - OAuth flow needs an MCP client that supports remote Streamable HTTP with OAuth challenges.

@@ -1,20 +1,20 @@
 ---
-title: "Nx AI Agents Config — Monorepo Agent Skills Setup"
-description: "nrwl/nx-ai-agents-config — 10 skills, 44.7K installs: official Nx workspace exploration, task running, and CI monitoring skills for agent coding assistants."
+title: "Nx AI Agents Config - Monorepo Agent Skills Setup"
+description: "nrwl/nx-ai-agents-config - 10 skills, 44.7K installs: official Nx workspace exploration, task running, and CI monitoring skills for agent coding assistants."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nx-ai-agents-config-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-17"
 tags: ["hermes skill", "agent skill", "skill setup", "monorepo", "nx", "devtooling"]
 ---
 
-# Nx AI Agents Config — Setup Guide
+# Nx AI Agents Config - Setup Guide
 
 **Source:** [nrwl/nx-ai-agents-config](https://skills.sh/nrwl/nx-ai-agents-config)
 **GitHub:** [nrwl/nx-ai-agents-config](https://github.com/nrwl/nx-ai-agents-config)
 **Skills:** 10 skills · 44.7K total installs
 **Category:** Monorepo Tooling
 **First Seen:** catalogued August 17, 2026 evening sweep (nx-workspace on skills.sh since January 27, 2026)
-**Quality Tier:** 🟢 Production — official Nx org; flagship nx-workspace passes all three security audits (3/3 Pass)
+**Quality Tier:** 🟢 Production - official Nx org; flagship nx-workspace passes all three security audits (3/3 Pass)
 
 The official Nx (nrwl) agent configuration gives coding agents read-only exploration of Nx monorepos, task orchestration, code generation, and CI monitoring. nx-workspace is the largest monorepo-navigation skill on the platform at 31.4K installs, and the read-only-by-design posture makes it safe to load in production workspaces.
 
@@ -53,7 +53,7 @@ npx skills add https://github.com/nrwl/nx-ai-agents-config --skill nx-workspace
 | monitor-ci | 1.7K | CI pipeline monitoring and interpretation |
 | polygraph / get-latest-ci / await-polygraph-ci | ≤3 | Nx Cloud Polygraph CI helpers (early content) |
 
-The flagship skill's project-filtering syntax (explicit names, globs, `tag:` references, negation with `!project-name`) works across `nx run-many`, `nx release`, and `nx show projects` — one syntax for every workspace-scoped command.
+The flagship skill's project-filtering syntax (explicit names, globs, `tag:` references, negation with `!project-name`) works across `nx run-many`, `nx release`, and `nx show projects` - one syntax for every workspace-scoped command.
 
 ## Quick Start
 
@@ -71,10 +71,10 @@ The flagship skill's project-filtering syntax (explicit names, globs, `tag:` ref
 
 ## Limitations / Verification
 
-- Security audits on nx-workspace: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass — all three clean
+- Security audits on nx-workspace: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass - all three clean
 - Publisher-page total verified (44.7K across 10 skills); repo is young (27 GitHub stars as of the sweep)
-- Read-only exploration only — the skill does not modify workspace configuration
-- polygraph, get-latest-ci, and await-polygraph-ci are sub-5 installs — early content
+- Read-only exploration only - the skill does not modify workspace configuration
+- polygraph, get-latest-ci, and await-polygraph-ci are sub-5 installs - early content
 
 ```bash
 npx skills add nrwl/nx-ai-agents-config   # verify install works

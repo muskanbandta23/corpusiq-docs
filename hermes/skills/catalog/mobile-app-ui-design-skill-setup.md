@@ -1,13 +1,13 @@
 ---
-title: "Mobile App UI Design Skill — Mobile Interface Setup"
-description: "ceorkm/mobile-app-ui-design — 6.7K installs: mobile interface design principles modeled on Airbnb, Duolingo, Spotify, and Revolut patterns."
+title: "Mobile App UI Design Skill - Mobile Interface Setup"
+description: "ceorkm/mobile-app-ui-design - 6.7K installs: mobile interface design principles modeled on Airbnb, Duolingo, Spotify, and Revolut patterns."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mobile-app-ui-design-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "mobile ui", "design"]
 ---
 
-# Mobile App UI Design Skill — Setup Guide
+# Mobile App UI Design Skill - Setup Guide
 
 **Source:** [ceorkm/mobile-app-ui-design](https://skills.sh/ceorkm/mobile-app-ui-design/mobile-app-ui-design)
 **GitHub:** [ceorkm/mobile-app-ui-design](https://github.com/ceorkm/mobile-app-ui-design) (247 stars)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "mobile ui", "design"]
 **First Seen:** Feb 15, 2026 · catalogued August 15, 2026 evening sweep
 **Quality Tier:** 🟢 Production (Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass)
 
-A mobile interface design skill built on patterns from top-tier apps — Airbnb, Duolingo, Spotify, Revolut, and Phantom. Core philosophy: intentionality over flash; every spacing value and color choice serves the user. Each screen starts from three questions: what is the user trying to accomplish, how should it feel, and what should they notice first.
+A mobile interface design skill built on patterns from top-tier apps - Airbnb, Duolingo, Spotify, Revolut, and Phantom. Core philosophy: intentionality over flash; every spacing value and color choice serves the user. Each screen starts from three questions: what is the user trying to accomplish, how should it feel, and what should they notice first.
 
 ---
 
@@ -56,8 +56,8 @@ npx skills add https://github.com/ceorkm/mobile-app-ui-design --skill mobile-app
 
 ## Limitations / Verification
 
-- Security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass — full green
-- Guidance-only skill with a modest GitHub footprint (247 stars) — validate outputs against your own design system
+- Security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass - full green
+- Guidance-only skill with a modest GitHub footprint (247 stars) - validate outputs against your own design system
 - Verification command: `npx skills add https://github.com/ceorkm/mobile-app-ui-design --skill mobile-app-ui-design`
 
 ## Related

@@ -1,6 +1,6 @@
 ---
-title: "Hermespace — Persistent Agent World Setup"
-description: "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent — a persistent world model with limited working-memory desk, dual decode"
+title: "Hermespace - Persistent Agent World Setup"
+description: "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -20,13 +20,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Hermespace is a persistent, append-only world model that adds a limited working-memory desk beside Hermes Agent. It provides:
 
-- **Workbench** — Focused attention of ≤4 items, park stack for deferred goals, monotropic goal focus
-- **Dual Decode** — Separate channels: short human `report` vs dense model `context` (never dumps model context into chat)
-- **Fabric** — Ranks `$HERMES_HOME/skills` and injects MEMORY/USER excerpts relevant to current goal
-- **Plugin** — `on_session_start`, `pre_llm_call`, `on_session_end` hook broadcasts
-- **Study DB** — Turn history stored under `~/.hermespace` (separate from Hermes session DB)
-- **Desktop Plugin** — Right-rail pane for Hermes desktop app
-- **World Model** — Append-only archive that never prunes, never decays, never caps
+- **Workbench** - Focused attention of ≤4 items, park stack for deferred goals, monotropic goal focus
+- **Dual Decode** - Separate channels: short human `report` vs dense model `context` (never dumps model context into chat)
+- **Fabric** - Ranks `$HERMES_HOME/skills` and injects MEMORY/USER excerpts relevant to current goal
+- **Plugin** - `on_session_start`, `pre_llm_call`, `on_session_end` hook broadcasts
+- **Study DB** - Turn history stored under `~/.hermespace` (separate from Hermes session DB)
+- **Desktop Plugin** - Right-rail pane for Hermes desktop app
+- **World Model** - Append-only archive that never prunes, never decays, never caps
 
 It does **not** replace Hermes tools, skills, memory, gateway, or the agent loop. It augments them.
 
@@ -93,9 +93,9 @@ ls -la $HERMES_HOME/plugins/hermespace/
 ```
 
 The plugin broadcasts on three hooks:
-- `on_session_start` — Desk initialization, fabric scan
-- `pre_llm_call` — Inject ranked skills + memory
-- `on_session_end` — Seal turn, update archive
+- `on_session_start` - Desk initialization, fabric scan
+- `pre_llm_call` - Inject ranked skills + memory
+- `on_session_end` - Seal turn, update archive
 
 ### Skill loading
 
@@ -108,7 +108,7 @@ The skill (`hermespace`) should be loaded when:
 
 ## Usage
 
-### Quick start — Workbench
+### Quick start - Workbench
 
 ```python
 from hermespace import Workbench
@@ -137,12 +137,12 @@ wm.enter()
 wm.add_belief("Help-first content outperforms promotional", 0.85, source="six-month-data")
 wm.add_landmark("Hit 5,000 monthly reach across platforms")
 wm.set_trait("operations-minded")
-wm.set_goal("Grow to 15% MoM", decision="A — increase Reddit presence", plan=["audit", "deploy", "measure"])
+wm.set_goal("Grow to 15% MoM", decision="A - increase Reddit presence", plan=["audit", "deploy", "measure"])
 wm.evolve()  # consolidate, detect patterns
 print(wm.render_markdown())
 ```
 
-The archive lives at `~/.hermespace/worlds/corpusiq-growth_archive.jsonl` — an append-only JSONL file that grows forever.
+The archive lives at `~/.hermespace/worlds/corpusiq-growth_archive.jsonl` - an append-only JSONL file that grows forever.
 
 ### Focus of Attention (FOA)
 
@@ -156,7 +156,7 @@ The workbench enforces a bounded FOA:
 
 When the desk is full, items are parked and can be recalled.
 
-### Fabric — Skill ranking
+### Fabric - Skill ranking
 
 The fabric scans `$HERMES_HOME/skills/` and ranks them by relevance to the current goal. It injects the top matches into the model context (not the user report):
 
@@ -184,21 +184,21 @@ This prevents the context pollution where model-internal reasoning overwhelms th
 
 ### Append-Only Archive
 
-The world model is an append-only JSONL — no pruning, no decay, no deletion. Every entry type (`enter`, `leave`, `landmark`, `belief`, `trait`, `evolution`, `focus`, `epoch_transition`, `resolve`, `relationship`) appends to the file.
+The world model is an append-only JSONL - no pruning, no decay, no deletion. Every entry type (`enter`, `leave`, `landmark`, `belief`, `trait`, `evolution`, `focus`, `epoch_transition`, `resolve`, `relationship`) appends to the file.
 
-Evolution is triggered explicitly (`wm.evolve()`) and handled by the library — consolidation, pattern detection, epoch checks.
+Evolution is triggered explicitly (`wm.evolve()`) and handled by the library - consolidation, pattern detection, epoch checks.
 
 ## Pitfalls
 
-1. **Not a replacement for Hermes memory** — Hermespace's archive is a companion, not a replacement for Hermes MEMORY, Sibyl, or GBrain. Use both.
+1. **Not a replacement for Hermes memory** - Hermespace's archive is a companion, not a replacement for Hermes MEMORY, Sibyl, or GBrain. Use both.
 
-2. **Not a second agent runtime** — Hermespace provides bounded working memory, not a second LLM. It does not make API calls or run tools.
+2. **Not a second agent runtime** - Hermespace provides bounded working memory, not a second LLM. It does not make API calls or run tools.
 
-3. **Desktop plugin requires Hermes desktop app** — The right-rail pane only works with the Hermes desktop app (Electron). On headless/SSH systems, use the Python API.
+3. **Desktop plugin requires Hermes desktop app** - The right-rail pane only works with the Hermes desktop app (Electron). On headless/SSH systems, use the Python API.
 
-4. **Archive grows unbounded** — The JSONL file never prunes. For long-running agents (months/years), disk usage may become significant. Monitor `~/.hermespace/worlds/` size periodically.
+4. **Archive grows unbounded** - The JSONL file never prunes. For long-running agents (months/years), disk usage may become significant. Monitor `~/.hermespace/worlds/` size periodically.
 
-5. **Python 3.10+ required** — Some type annotations and features require Python 3.10+. On older systems, upgrade Python first.
+5. **Python 3.10+ required** - Some type annotations and features require Python 3.10+. On older systems, upgrade Python first.
 
 ## Verification Checklist
 
@@ -213,9 +213,9 @@ Evolution is triggered explicitly (`wm.evolve()`) and handled by the library —
 ## See Also
 
 - [Official Repo](https://github.com/PabloTheThinker/hermespace)
-- [FOR_HERMES.md](https://github.com/PabloTheThinker/hermespace/blob/main/FOR_HERMES.md) — maintainer notes
-- [WORKFLOW.md](https://github.com/PabloTheThinker/hermespace/blob/main/WORKFLOW.md) — agent workflow design
-- [Design docs](https://github.com/PabloTheThinker/hermespace/tree/main/docs) — concept research, workbench design
+- [FOR_HERMES.md](https://github.com/PabloTheThinker/hermespace/blob/main/FOR_HERMES.md) - maintainer notes
+- [WORKFLOW.md](https://github.com/PabloTheThinker/hermespace/blob/main/WORKFLOW.md) - agent workflow design
+- [Design docs](https://github.com/PabloTheThinker/hermespace/tree/main/docs) - concept research, workbench design
 
 ---
 

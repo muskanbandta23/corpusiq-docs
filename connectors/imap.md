@@ -5,7 +5,7 @@ description: "Not every mailbox is Gmail or Outlook. If you run email on Fastmai
 # IMAP Email
 
 ## What it unlocks
-Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector lets CorpusIQ read your mail the same way it reads Gmail — so search across "all my email" actually means all of it.
+Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector lets CorpusIQ read your mail the same way it reads Gmail - so search across "all my email" actually means all of it.
 
 ## Before you connect
 - An email account that supports IMAP
@@ -37,9 +37,9 @@ CorpusIQ never sends mail, deletes messages, or marks anything read.
 - "Read the latest message from accounts@stripe.com."
 
 ## Troubleshooting
-- **"Authentication failed"** — Most providers (Fastmail, iCloud, Yahoo, Gmail) require an *app password*, not your main account password. Generate one in your provider's security settings.
-- **TLS errors** — Use port 993 with SSL, not 143 plain. If your provider uses STARTTLS on 143, switch to 993.
-- **Folder list looks short** — Some providers hide certain folders (Trash, Spam) unless subscribed. Subscribe to them in your mail client first.
+- **"Authentication failed"** - Most providers (Fastmail, iCloud, Yahoo, Gmail) require an *app password*, not your main account password. Generate one in your provider's security settings.
+- **TLS errors** - Use port 993 with SSL, not 143 plain. If your provider uses STARTTLS on 143, switch to 993.
+- **Folder list looks short** - Some providers hide certain folders (Trash, Spam) unless subscribed. Subscribe to them in your mail client first.
 ---
 
 *

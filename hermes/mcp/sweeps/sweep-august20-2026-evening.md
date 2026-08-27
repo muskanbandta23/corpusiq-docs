@@ -1,14 +1,14 @@
 ---
-title: "MCP Discovery Sweep — August 20, 2026 (Evening)"
+title: "MCP Discovery Sweep - August 20, 2026 (Evening)"
 date: 2026-08-20
 tags: [mcp-sweep, discovery, catalog]
 description: "chatmcp/mcpso GitHub issues filed Aug 20 10:44 through 16:42 UTC plus mcpservers.org /all JSON-LD page 1 and both directory homepages; 7 catalogued with guides, 4 catalog entries, 15+ skipped"
 ---
 
-# MCP Discovery Sweep — August 20, 2026 (Evening)
+# MCP Discovery Sweep - August 20, 2026 (Evening)
 
 - **Cutoff:** prior sweep evaluated through issue #3655 (Aug 20 09:46 UTC)
-- **Fresh window:** issues #3656–#3663, mcpservers.org /all JSON-LD (30 newest), both homepages
+- **Fresh window:** issues #3656-#3663, mcpservers.org /all JSON-LD (30 newest), both homepages
 - **Result:** 7 catalogued with guides, 4 catalog entries, 15+ skipped
 
 ## Catalogued (7 guides)
@@ -36,17 +36,17 @@ description: "chatmcp/mcpso GitHub issues filed Aug 20 10:44 through 16:42 UTC p
 
 - LicenseGuard: README parsed (3 tools, ecosystems, lockfile table, incomplete-scan-never-clean guarantee), hosted endpoint documented, Glama A/A confirmed in issue body
 - AdMapix: repo live (fly0pants/admapix), README parsed for features/filters/sort, PyPI admapix-mcp v1.0.0 verified
-- Atoa: first-party docs at docs.atoa.me/mcp-server — endpoint, Bearer + X-Atoa-Env headers, tool names recovered from embedded docs data (process_payment, capture_payment, cancel_payment, create/get/update/delete_customer, list_customers, initiate_refund, cancel_refund, get_transactions, create/delete_webhook)
+- Atoa: first-party docs at docs.atoa.me/mcp-server - endpoint, Bearer + X-Atoa-Env headers, tool names recovered from embedded docs data (process_payment, capture_payment, cancel_payment, create/get/update/delete_customer, list_customers, initiate_refund, cancel_refund, get_transactions, create/delete_webhook)
 - Upfirst, Simplepages, Giggal, Opportunity Atlas, Magnificent Jobs, DPF, Teachfluence, Terno: mcpservers.org detail pages parsed for description, auth, and tool surface
-- All candidates cross-referenced against catalog index.md and the sweeps/ archive — zero prior mentions
+- All candidates cross-referenced against catalog index.md and the sweeps/ archive - zero prior mentions
 
 ## Skipped (evaluated, consistent with prior decisions)
 
-- #3656 Proactive Vault — personal CRM for macOS; GitHub repo 404 at evaluation time (not consumable)
-- #3659 Wondel Skills — skill-loader dev tool
-- #3660 AI Developer Toolkit — AI-dev guide search (dev tool)
-- #3661 2anki — consumer Anki-deck converter
-- #3662 Fine Structure — full-stack app builder (dev)
+- #3656 Proactive Vault - personal CRM for macOS; GitHub repo 404 at evaluation time (not consumable)
+- #3659 Wondel Skills - skill-loader dev tool
+- #3660 AI Developer Toolkit - AI-dev guide search (dev tool)
+- #3661 2anki - consumer Anki-deck converter
+- #3662 Fine Structure - full-stack app builder (dev)
 - /all slugs: Clio for Creatio (platform dev tool), GlianaAI (x402 model-gateway infra), RiverScript (transcript-fetch niche), MarkIt (personal bookmarking), FaceSign (step-up verification dev flows), POB (Path of Exile gaming), Chamnan (Claude Code security plugin), AST (TypeScript dev), AgentTrust (XRPL blockchain referee), Agentic HIL (embedded hardware dev), Seedfast (synthetic test data), HTTP 402 AI Tollbooth (x402 infra), QR Planet (QR-code design utility)
 - Repeats already catalogued or previously skipped: Booking.com Hotel Search (FlightPowers thin surface), Football Charts (sports precedent), 60fps, MindMap AI, Vital Care Finder, CSOAI GSPC, Waqi, Bitroad, 3gpp-mcp
 

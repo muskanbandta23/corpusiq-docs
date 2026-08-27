@@ -1,6 +1,6 @@
 ---
-title: "The Harness Wars — Why AI Infrastructure Will Define"
-description: "Setup and usage guide for The Harness Wars — Why AI Infrastructure Will Define the Next Two Years. Part of the Hermes resource directory."
+title: "The Harness Wars - Why AI Infrastructure Will Define"
+description: "Setup and usage guide for The Harness Wars - Why AI Infrastructure Will Define the Next Two Years. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/harness-wars-ai-infrastructure/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# The Harness Wars — Why AI Infrastructure Will Define the Next Two Years
+# The Harness Wars - Why AI Infrastructure Will Define the Next Two Years
 
 For two years, AI companies competed on models. GPT versus Claude. Opus versus Sonnet. Bigger parameters. Better benchmarks. The model wars dominated headlines and funding rounds.
 

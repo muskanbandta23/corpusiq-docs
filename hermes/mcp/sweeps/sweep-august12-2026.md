@@ -1,6 +1,6 @@
 ---
-title: "MCP Sweep — August 12, 2026 - CorpusIQ Docs"
-description: "Sweep following Aug 11 evening sweep. 6 new business-relevant MCP servers discovered — video production, organizational knowledge, agent commerce, payments"
+title: "MCP Sweep - August 12, 2026 - CorpusIQ Docs"
+description: "Sweep following Aug 11 evening sweep. 6 new business-relevant MCP servers discovered - video production, organizational knowledge, agent commerce, payments"
 date: 2026-08-12
 sources: [mcp.so, mcpservers.org]
 status: complete
@@ -13,67 +13,67 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Discovery Sweep — August 12, 2026
+# MCP Server Discovery Sweep - August 12, 2026
 
 ## Summary
 
 - **6 genuinely new business-relevant servers found** since the August 11 evening sweep (~16 hours ago)
 - **6 integration guides written** with full setup, tool descriptions, and verdicts
-- **mcpservers.org was unreachable** (504 timeout on /all page) — mcp.so was primary source
-- **mcp.so continues strong** — >22,000 servers, consistently adding 10-20/day
+- **mcpservers.org was unreachable** (504 timeout on /all page) - mcp.so was primary source
+- **mcp.so continues strong** - >22,000 servers, consistently adding 10-20/day
 
 ## Methodology
 
-1. **mcp.so homepage** — Extracted Featured, Trending, and New Arrivals sections
-2. **mcp.so /servers?sort=latest** — 30 newest servers (sorted newest-first)
-3. **Cross-reference** — All candidates checked against the 200+ server catalog
-4. **Business-relevance filter** — Only servers useful for business operators catalogued
-5. **Individual server pages** — Extracted full details, tools, and configs from mcp.so detail pages
-6. **mcpservers.org** — Attempted but timed out (504); no data captured from this source
+1. **mcp.so homepage** - Extracted Featured, Trending, and New Arrivals sections
+2. **mcp.so /servers?sort=latest** - 30 newest servers (sorted newest-first)
+3. **Cross-reference** - All candidates checked against the 200+ server catalog
+4. **Business-relevance filter** - Only servers useful for business operators catalogued
+5. **Individual server pages** - Extracted full details, tools, and configs from mcp.so detail pages
+6. **mcpservers.org** - Attempted but timed out (504); no data captured from this source
 
 ## New Findings
 
-### ★★★ Clipkit MCP — Catalogued with Guide
+### ★★★ Clipkit MCP - Catalogued with Guide
 
 **What:** Video infrastructure for AI agents. Compose motion-graphics video from JSON documents via open Clipkit Protocol. Validate before rendering, preview stills in-chat, deterministic GPU output.
 
-**Why it matters:** Video production is a top-3 operator pain point. Clipkit is the most production-ready agent-native video tool observed — protocol-first with deterministic rendering. Combines with HeyGen (UGC) and ViewMade (YouTube SEO) for a three-tier video stack.
+**Why it matters:** Video production is a top-3 operator pain point. Clipkit is the most production-ready agent-native video tool observed - protocol-first with deterministic rendering. Combines with HeyGen (UGC) and ViewMade (YouTube SEO) for a three-tier video stack.
 
 **Guide:** `/hermes/mcp/servers/external/clipkit-mcp/`
 
 ---
 
-### ★★★ Orcha MCP — Catalogued with Guide
+### ★★★ Orcha MCP - Catalogued with Guide
 
 **What:** Unified context layer for AI tools and agents. Stores organizational knowledge (files, databases, connected sources) with permissions, citations, and provenance. Agents query via MCP, CLI, or REST API.
 
-**Why it matters:** The "context problem" is the #1 blocker for AI agents in business. Orcha provides a structured, permissioned knowledge layer — not just documents, but queryable databases. Different from PLUR (session memory) or Notion MCP (documents only).
+**Why it matters:** The "context problem" is the #1 blocker for AI agents in business. Orcha provides a structured, permissioned knowledge layer - not just documents, but queryable databases. Different from PLUR (session memory) or Notion MCP (documents only).
 
 **Guide:** `/hermes/mcp/servers/external/orcha-mcp/`
 
 ---
 
-### ★★ FiatDock MCP — Catalogued with Guide
+### ★★ FiatDock MCP - Catalogued with Guide
 
 **What:** Agent marketplace with x402 per-call USDC payments. 24+ live MCP services, non-custodial settlement, on/off-ramp between USDC and fiat (EU/EEA). Agents discover and pay each other directly.
 
-**Why it matters:** Signals the emergence of an agent-native economy. Per-call pricing ($0.001–$0.01), non-custodial, no subscriptions — the right architecture for agent commerce. Currently crypto/DeFi services; business APIs are the missing piece.
+**Why it matters:** Signals the emergence of an agent-native economy. Per-call pricing ($0.001-$0.01), non-custodial, no subscriptions - the right architecture for agent commerce. Currently crypto/DeFi services; business APIs are the missing piece.
 
 **Guide:** `/hermes/mcp/servers/external/fiatdock-mcp/`
 
 ---
 
-### ★★ Apiosk MCP — Catalogued with Guide
+### ★★ Apiosk MCP - Catalogued with Guide
 
-**What:** AI-native payments infrastructure — 42 tools for discovering, paying for, executing, and publishing monetized APIs. Per-call USDC settlement over x402. Federated discovery across multiple marketplaces.
+**What:** AI-native payments infrastructure - 42 tools for discovering, paying for, executing, and publishing monetized APIs. Per-call USDC settlement over x402. Federated discovery across multiple marketplaces.
 
-**Why it matters:** Most complete agent-payments solution observed. Wallet management, API publishing, federated discovery — the "Stripe for AI agents." Operators could publish paid APIs; agents could pay per call for business data.
+**Why it matters:** Most complete agent-payments solution observed. Wallet management, API publishing, federated discovery - the "Stripe for AI agents." Operators could publish paid APIs; agents could pay per call for business data.
 
 **Guide:** `/hermes/mcp/servers/external/apiosk-mcp/`
 
 ---
 
-### ★★ directree MCP — Catalogued with Guide
+### ★★ directree MCP - Catalogued with Guide
 
 **What:** Query the honest software directory from any AI assistant. Reviews labeled by provenance: observed (crawled), AI-inferred (model-generated), and founder-edited (verified by owner).
 
@@ -83,7 +83,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-### ★ LocalCan MCP — Catalogued with Guide
+### ★ LocalCan MCP - Catalogued with Guide
 
 **What:** Give AI agents public URLs (tunnels) for localhost, live HTTP traffic inspection, snapshot publishing. ngrok alternative with MCP-native interface.
 
@@ -126,7 +126,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Ecosystem Observations
 
-1. **Agent commerce is accelerating.** FiatDock, Apiosk, Sphere, and Orders of Magnitude all launched within 2 weeks — all building on x402/USDC for agent payments. This is not a coincidence; the infrastructure layer is forming.
+1. **Agent commerce is accelerating.** FiatDock, Apiosk, Sphere, and Orders of Magnitude all launched within 2 weeks - all building on x402/USDC for agent payments. This is not a coincidence; the infrastructure layer is forming.
 
 2. **Video production is the most contested MCP category.** Clipkit, AI Video MCP by AITuber, ViewMade, and Kavel Image Studio all launched recently. Each approaches video differently (JSON protocol vs prompt-driven vs research-first).
 
@@ -138,4 +138,4 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 - **Total servers catalogued:** 200+ (prior) + 6 (this sweep) = **206+ servers**
 - **Guides written this sweep:** 6
-- **Business-relevant hit rate:** 6/30 (20%) — consistent with historical average
+- **Business-relevant hit rate:** 6/30 (20%) - consistent with historical average

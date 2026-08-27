@@ -1,6 +1,6 @@
 ---
 title: "DripRaven MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: WhatsApp Business campaign automation for AI agents — import contacts, send approved templates, schedule broadcasts, and read delivery rates via the official WhatsApp Business API
+description: WhatsApp Business campaign automation for AI agents - import contacts, send approved templates, schedule broadcasts, and read delivery rates via the official WhatsApp Business API
 category: Marketing
 stars: 0 (brand new)
 added: 2026-08-11
@@ -15,7 +15,7 @@ last_updated: "2026-08-12"
 
 # DripRaven MCP
 
-**Run WhatsApp Business campaigns from any AI assistant.** Import and segment contacts, send approved templates, schedule broadcasts, and read delivery rates — all through the official WhatsApp Business API via MCP.
+**Run WhatsApp Business campaigns from any AI assistant.** Import and segment contacts, send approved templates, schedule broadcasts, and read delivery rates - all through the official WhatsApp Business API via MCP.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -26,7 +26,7 @@ Category: Marketing / Messaging
 
 ## Why This Matters for Operators
 
-WhatsApp has 2B+ users and 98% open rates — it's the highest-engagement messaging channel available. But running WhatsApp campaigns traditionally requires either a dedicated dashboard or complex API integration. DripRaven MCP lets AI agents manage the full campaign lifecycle: segment contacts, write and send template-based messages, schedule drip sequences, and analyze delivery rates — all from Claude, ChatGPT, or any MCP client.
+WhatsApp has 2B+ users and 98% open rates - it's the highest-engagement messaging channel available. But running WhatsApp campaigns traditionally requires either a dedicated dashboard or complex API integration. DripRaven MCP lets AI agents manage the full campaign lifecycle: segment contacts, write and send template-based messages, schedule drip sequences, and analyze delivery rates - all from Claude, ChatGPT, or any MCP client.
 
 This is the first WhatsApp-specific marketing MCP server. For operators running webinars, product launches, or event-triggered messaging, this eliminates the dashboard altogether.
 
@@ -88,12 +88,12 @@ Note: You pay Meta directly for WhatsApp message costs. DripRaven is the softwar
 
 - Requires WhatsApp Business API approval (Meta's process)
 - Template messages must be pre-approved by Meta
-- Brand new server (August 2026) — may have rough edges
+- Brand new server (August 2026) - may have rough edges
 - Not open source (commercial SaaS)
 - WhatsApp-specific; does not cover iMessage, Telegram, or other messaging platforms
 
 ## See Also
 
-- [JaxSuite AI MCP](/hermes/mcp/servers/external/jaxsuite-ai-mcp/) — Cold email outreach + CRM
+- [JaxSuite AI MCP](/hermes/mcp/servers/external/jaxsuite-ai-mcp/) - Cold email outreach + CRM
 - [DripRaven Homepage](https://dripraven.com)
-- [DripRaven YouTube Channel](https://youtube.com/@dripraven) — MCP walkthroughs
+- [DripRaven YouTube Channel](https://youtube.com/@dripraven) - MCP walkthroughs

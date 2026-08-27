@@ -1,5 +1,5 @@
 ---
-title: "AskRentAI MCP — Property Portfolio Intelligence for Rent Manager Operators"
+title: "AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators"
 description: "Hosted read-only MCP server for Rent Manager property portfolios: plain-English questions about NOI, rent roll, delinquency, vacancy, lease expirations, work orders, vendor spend and financial reports answered from live data. OAuth sign-in, read-only by design, $10 per user per month with a seven-day free trial."
 category: Real Estate & Property Management
 stars: n/a (new listing)
@@ -11,7 +11,7 @@ tags: [property-management, rent-manager, real-estate, rent-roll, noi, read-only
 
 # AskRentAI MCP
 
-**Read-only Rent Manager intelligence for AI clients — plain-English portfolio questions answered from live data, with no write path back to the property management system.** AskRentAI is a hosted MCP server built on Rent Manager, the platform used across a large share of US rental housing, covering apartments, single-family, commercial, self-storage and mobile home / RV communities. Operators ask "which properties are below budget on NOI this quarter" and get the answer from the API at the moment they ask — no exports, no stale spreadsheets, no sync to configure.
+**Read-only Rent Manager intelligence for AI clients - plain-English portfolio questions answered from live data, with no write path back to the property management system.** AskRentAI is a hosted MCP server built on Rent Manager, the platform used across a large share of US rental housing, covering apartments, single-family, commercial, self-storage and mobile home / RV communities. Operators ask "which properties are below budget on NOI this quarter" and get the answer from the API at the moment they ask - no exports, no stale spreadsheets, no sync to configure.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -26,7 +26,7 @@ Built by: Brian Menold (github.com/brianmenold/askrentai-mcp)
 
 Rent Manager ships a capable web API, but using it means knowing which endpoint holds the data, how the tables relate, how to authenticate and how to page results. Most property operators don't have a developer to spare for a reporting question, so API access sits switched on and unused while everyone goes back to exporting reports by hand.
 
-**AskRentAI closes that gap: the AI calls the API for you, at the moment you ask.** The read-only architecture is the safety point, not a limitation — the server cannot post a charge, edit a lease or change a tenant record, so pointing a read-only Rent Manager API user at it gives a blast radius of zero.
+**AskRentAI closes that gap: the AI calls the API for you, at the moment you ask.** The read-only architecture is the safety point, not a limitation - the server cannot post a charge, edit a lease or change a tenant record, so pointing a read-only Rent Manager API user at it gives a blast radius of zero.
 
 ## Tools & Capabilities
 
@@ -75,11 +75,11 @@ OAuth sign-in on first connect. The vendor recommends a read-only Rent Manager A
 
 ## Integration with CorpusIQ
 
-AskRentAI covers the property layer that CorpusIQ's 40+ connectors reach from the business side. A composed workflow can hold QuickBooks books, Stripe revenue and GA4 web traffic in CorpusIQ while AskRentAI answers the portfolio questions — delinquency aging, lease-expiry exposure, NOI variance — in the same agent session, so a single report can reconcile portfolio performance against the general ledger without exporting anything.
+AskRentAI covers the property layer that CorpusIQ's 40+ connectors reach from the business side. A composed workflow can hold QuickBooks books, Stripe revenue and GA4 web traffic in CorpusIQ while AskRentAI answers the portfolio questions - delinquency aging, lease-expiry exposure, NOI variance - in the same agent session, so a single report can reconcile portfolio performance against the general ledger without exporting anything.
 
 ## Limitations
 
-- Rent Manager only — no Buildium, AppFolio or Yardi coverage
+- Rent Manager only - no Buildium, AppFolio or Yardi coverage
 - Read-only by design: no charges, lease edits or tenant-record changes
 - Brand new (Aug 2026 listing), no track record yet; single-vendor hosted service
 - $10 per user per month after the 7-day trial

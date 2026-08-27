@@ -1,5 +1,5 @@
 ---
-title: "vrules — Agent Governance & LLM Guardrails Integration"
+title: "vrules - Agent Governance & LLM Guardrails Integration"
 description: "Connect AI agents to vrules for policy-as-code governance, guardrail enforcement, and programmable agent fleet control. Vendor-neutral, open-source"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/vrules/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# vrules — Agent Governance & LLM Guardrails
+# vrules - Agent Governance & LLM Guardrails
 
 **Open-source, vendor-neutral agent-governance and LLM guardrails framework.** A vector-enabled rules engine that provides MCP proxying, policy-as-code enforcement, conditional organizational memory, and browser/WASM execution. Designed for operators deploying AI agent fleets in production who need programmable guardrails without vendor lock-in.
 
@@ -17,7 +17,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | **GitHub** | [ops-ping/vrules](https://github.com/ops-ping/vrules) |
 | **Language** | TBD (check repo) |
 | **Transport** | MCP proxy (stdio) |
-| **Stars** | ★0 (new — July 1, 2026) |
+| **Stars** | ★0 (new - July 1, 2026) |
 | **License** | Open source |
 
 ## Why This Matters for Operators
@@ -28,7 +28,7 @@ As AI agent deployments move from experimental to production, operators face thr
 3. **Vendor independence**: How do you avoid locking governance into a single AI provider's framework?
 
 vrules solves all three:
-- **Vector-enabled rules engine**: Rules match semantically, not just by exact string — an agent asking "delete the prod database" and "clean up the main DB" both trigger the same guardrail
+- **Vector-enabled rules engine**: Rules match semantically, not just by exact string - an agent asking "delete the prod database" and "clean up the main DB" both trigger the same guardrail
 - **MCP proxying**: Sits between your agents and their MCP servers, intercepting every tool call for policy evaluation
 - **Policy-as-code**: Define rules as version-controlled code, not UI click-ops
 - **Conditional organizational memory**: Agents can access approved knowledge while being blocked from sensitive data
@@ -48,7 +48,7 @@ vrules solves all three:
 
 - **MCP-compatible agent** (Claude Desktop, Claude Code, Cursor, Windsurf, etc.)
 - **Node.js or Python** (check repo for runtime requirements)
-- **Vector store** (optional — for semantic rule matching)
+- **Vector store** (optional - for semantic rule matching)
 
 ## Installation
 
@@ -133,12 +133,12 @@ After setup, verify vrules is intercepting:
 
 ## Complements CorpusIQ
 
-CorpusIQ provides read-only access to 40+ business data sources with OAuth 2.1 PKCE. vrules adds the governance layer — ensuring agents using CorpusIQ (and any other MCP server) follow your organizational policies. Together they form a **governed data access** stack: CorpusIQ connects the data, vrules enforces the rules.
+CorpusIQ provides read-only access to 40+ business data sources with OAuth 2.1 PKCE. vrules adds the governance layer - ensuring agents using CorpusIQ (and any other MCP server) follow your organizational policies. Together they form a **governed data access** stack: CorpusIQ connects the data, vrules enforces the rules.
 
 ## Notes
 
-- This server was discovered on July 1, 2026 via GitHub API. It is brand new — check the repo for latest installation instructions and API changes.
-- The vector-enabled rules engine means policies can match intent, not just exact strings — a significant advantage over regex-based guardrails.
+- This server was discovered on July 1, 2026 via GitHub API. It is brand new - check the repo for latest installation instructions and API changes.
+- The vector-enabled rules engine means policies can match intent, not just exact strings - a significant advantage over regex-based guardrails.
 - Vendor-neutral design means the same policies work across Claude, GPT, Gemini, and open-source models.
 
 ---

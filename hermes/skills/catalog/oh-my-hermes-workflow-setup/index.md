@@ -1,5 +1,5 @@
 ---
-title: Oh-My-Hermes Workflow — Agent Orchestration Framework Setup Guide
+title: Oh-My-Hermes Workflow - Agent Orchestration Framework Setup Guide
 description: Install and configure the Oh-My-Hermes workflow framework that provides opinionated patterns for Hermes agent task orchestration, session management, and tool chaining.
 publisher: aradotso/hermes-skills
 installs: 182
@@ -11,9 +11,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Oh-My-Hermes Workflow — Agent Orchestration Framework Setup Guide
+# Oh-My-Hermes Workflow - Agent Orchestration Framework Setup Guide
 
-Oh-My-Hermes Workflow is an opinionated workflow framework for Hermes Agent inspired by Oh-My-Zsh. It provides consistent patterns for task orchestration, session lifecycle management, and tool chaining — so every Hermes session follows proven, repeatable workflows.
+Oh-My-Hermes Workflow is an opinionated workflow framework for Hermes Agent inspired by Oh-My-Zsh. It provides consistent patterns for task orchestration, session lifecycle management, and tool chaining - so every Hermes session follows proven, repeatable workflows.
 
 **Publisher:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)  
 **Source:** skills.sh  
@@ -25,7 +25,7 @@ Oh-My-Hermes Workflow is an opinionated workflow framework for Hermes Agent insp
 
 - **Workflow Templates:** Pre-built workflow patterns for common Hermes tasks
 - **Session Management:** Structured session lifecycle (init → execute → verify → handoff)
-- **Tool Chaining:** Declarative tool pipelines — define input/output contracts between tools
+- **Tool Chaining:** Declarative tool pipelines - define input/output contracts between tools
 - **Context Preservation:** Automatic context saving and restoration across session boundaries
 - **Convention Enforcement:** Ensures consistent patterns across all agent operations
 

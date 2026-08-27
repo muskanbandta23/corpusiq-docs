@@ -1,6 +1,6 @@
 ---
-title: "MailStream — Physical Mail MCP: Postcards & Letters from"
-description: "The first MCP server for physical mail. Send postcards and letters, manage mailing lists and campaigns — all through AI agent commands."
+title: "MailStream - Physical Mail MCP: Postcards & Letters from"
+description: "The first MCP server for physical mail. Send postcards and letters, manage mailing lists and campaigns - all through AI agent commands."
 source: mailstream.app
 stars: 0
 language: N/A (Hosted SaaS)
@@ -14,22 +14,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MailStream — Physical Mail MCP for AI Agents
+# MailStream - Physical Mail MCP for AI Agents
 
 **Physical mail operations through MCP.** MailStream is the first MCP server that lets AI agents send real postcards, letters, and manage direct mail campaigns. Operators can trigger physical mail from the same AI conversation where they're analyzing customer data.
 
 ## What It Does for Operators
 
-- **Send postcards** — AI agents can trigger physical postcard sends to mailing lists
-- **Send letters** — Full letter mailing with templates and personalization
-- **Campaign management** — Create, manage, and track direct mail campaigns
-- **List management** — Upload and manage mailing lists
-- **Agent-native** — All direct mail operations through MCP tools
+- **Send postcards** - AI agents can trigger physical postcard sends to mailing lists
+- **Send letters** - Full letter mailing with templates and personalization
+- **Campaign management** - Create, manage, and track direct mail campaigns
+- **List management** - Upload and manage mailing lists
+- **Agent-native** - All direct mail operations through MCP tools
 
 ## Installation
 
 ```bash
-# No installation — hosted platform
+# No installation - hosted platform
 # Sign up at mailstream.app, configure campaigns
 ```
 
@@ -61,10 +61,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Operator Use Cases
 
-1. **Ecommerce Brands** — Trigger "We miss you" postcards to lapsed customers from AI agent
-2. **B2B Sales** — Send personalized letters to high-value prospects after AI research
-3. **Real Estate** — Automated "Just Sold" postcards to neighborhoods
-4. **Non-Profits** — Thank-you letters triggered by donation events
+1. **Ecommerce Brands** - Trigger "We miss you" postcards to lapsed customers from AI agent
+2. **B2B Sales** - Send personalized letters to high-value prospects after AI research
+3. **Real Estate** - Automated "Just Sold" postcards to neighborhoods
+4. **Non-Profits** - Thank-you letters triggered by donation events
 
 ## CorpusIQ Angle
 

@@ -11,7 +11,7 @@ tags: [gitlab, devops, merge-requests, issues, pipelines, project-management, se
 
 # GitLab MCP (zereight/gitlab-mcp)
 
-**GitLab MCP server for AI clients — manage projects, merge requests, issues, pipelines, wiki pages, releases, tags, and milestones through stdio, SSE, or Streamable HTTP.** Auth supports personal access tokens, OAuth, a read-only mode, and remote authorization. Actively maintained since February 2025 with 1,898 stars, npm package `@zereight/mcp-gitlab`, and an official MCP registry listing.
+**GitLab MCP server for AI clients - manage projects, merge requests, issues, pipelines, wiki pages, releases, tags, and milestones through stdio, SSE, or Streamable HTTP.** Auth supports personal access tokens, OAuth, a read-only mode, and remote authorization. Actively maintained since February 2025 with 1,898 stars, npm package `@zereight/mcp-gitlab`, and an official MCP registry listing.
 
 ```
 Server type: stdio, SSE, or Streamable HTTP
@@ -25,7 +25,7 @@ Built by: zereight (repo: zereight/gitlab-mcp, docs: zereight.github.io/gitlab-m
 
 ## Why This Matters for Operators
 
-Operators running engineering teams on GitLab — especially self-hosted GitLab — live in two surfaces: the code platform and the business tools. This MCP puts the code platform's management layer (issues, MRs, pipelines, milestones) inside the agent that already writes the status updates, so sprint standups, release checks, and merge-request triage happen from chat instead of browser tabs.
+Operators running engineering teams on GitLab - especially self-hosted GitLab - live in two surfaces: the code platform and the business tools. This MCP puts the code platform's management layer (issues, MRs, pipelines, milestones) inside the agent that already writes the status updates, so sprint standups, release checks, and merge-request triage happen from chat instead of browser tabs.
 
 **Read-only mode is the sane default.** Connect with a read-only token for status and reporting use cases; enable write scopes only where the agent is trusted to act. The three transports (stdio for local agents, SSE and Streamable HTTP for remote or self-hosted instances) cover every deployment shape.
 
@@ -68,7 +68,7 @@ brew install zereight/gitlab-mcp/zereight-mcp-gitlab
 
 ## Configuration
 
-Create a personal access token with the minimum scopes for the intended use — `read_api` for read-only reporting, `api` where the agent must act. For self-hosted instances, set `GITLAB_API_URL` to the instance root. Remote deployment runs the server with SSE or Streamable HTTP and the remote authorization flow.
+Create a personal access token with the minimum scopes for the intended use - `read_api` for read-only reporting, `api` where the agent must act. For self-hosted instances, set `GITLAB_API_URL` to the instance root. Remote deployment runs the server with SSE or Streamable HTTP and the remote authorization flow.
 
 ## Business Relevance
 
@@ -79,13 +79,13 @@ Create a personal access token with the minimum scopes for the intended use — 
 
 ## Integration with CorpusIQ
 
-CorpusIQ covers the business data plane — finance, commerce, marketing, CRM. GitLab MCP covers the engineering data plane — code, MRs, pipelines. The two are the classic "business + build" pair for a product company.
+CorpusIQ covers the business data plane - finance, commerce, marketing, CRM. GitLab MCP covers the engineering data plane - code, MRs, pipelines. The two are the classic "business + build" pair for a product company.
 
-The composed workflow: CorpusIQ answers "how did the release perform" (revenue, sessions, funnel) while GitLab MCP answers "what shipped and what's in flight" (MRs merged, pipelines green, issues closed). A single agent session can reconcile deployment events with business impact — the release retrospective writes itself.
+The composed workflow: CorpusIQ answers "how did the release perform" (revenue, sessions, funnel) while GitLab MCP answers "what shipped and what's in flight" (MRs merged, pipelines green, issues closed). A single agent session can reconcile deployment events with business impact - the release retrospective writes itself.
 
 ## Limitations
 
-- Write operations require PAT scopes beyond read-only — scope discipline is on the operator
+- Write operations require PAT scopes beyond read-only - scope discipline is on the operator
 - Server manages GitLab only; no GitHub or Bitbucket coverage
 - Self-hosted instances need reachable API URL from wherever the agent runs
-- Dev-tool class server — value concentrates where engineering output is the business
+- Dev-tool class server - value concentrates where engineering output is the business

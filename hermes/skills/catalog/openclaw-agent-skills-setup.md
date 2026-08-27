@@ -1,22 +1,22 @@
 ---
-title: "OpenClaw Agent Skills — Official OpenClaw Org Skill Suite Setup"
-description: "openclaw/agent-skills — 8 skills, ~2.0K installs: the OpenClaw org's canonical agent workflow suite covering structured code review (autoreview), PR/issue transcript provenance, session inspection, prompt handoff, and black-box behavior validation."
+title: "OpenClaw Agent Skills - Official OpenClaw Org Skill Suite Setup"
+description: "openclaw/agent-skills - 8 skills, ~2.0K installs: the OpenClaw org's canonical agent workflow suite covering structured code review (autoreview), PR/issue transcript provenance, session inspection, prompt handoff, and black-box behavior validation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-19"
 tags: ["hermes skill", "agent skill", "skill setup", "openclaw", "code review", "agent handoff", "session viewer"]
 ---
 
-# OpenClaw Agent Skills — Setup Guide
+# OpenClaw Agent Skills - Setup Guide
 
 **Source:** [openclaw/agent-skills](https://skills.sh/openclaw/agent-skills)
 **GitHub:** [openclaw/agent-skills](https://github.com/openclaw/agent-skills)
 **Skills:** 8 skills · ~2.0K total installs
 **Category:** Agent Operations
 **First Seen:** August 19, 2026 sweep
-**Quality Tier:** 🟡 Beta — official OpenClaw org repository (1,057 GitHub stars, actively maintained — last commit August 18, 2026); install counts still growing
+**Quality Tier:** 🟡 Beta - official OpenClaw org repository (1,057 GitHub stars, actively maintained - last commit August 18, 2026); install counts still growing
 
-This is the public canonical source for shared agent workflows from the OpenClaw organization itself. The goal stated in the repo: write a workflow once, reuse it everywhere, and avoid hand-copying long SKILL.md files across repos. The 8 skills cluster into three families — review (autoreview, behavior-validator, crabbox), handoff/context (handoff, agent-transcript), and sessions/documentation (session-viewer, beam, readme-standard). autoreview is the flagship at 1,388 installs, a structured multi-engine code review workflow (Codex, Claude, Amp, Pi, Kimi) that reports blocking issues only when explicitly requested.
+This is the public canonical source for shared agent workflows from the OpenClaw organization itself. The goal stated in the repo: write a workflow once, reuse it everywhere, and avoid hand-copying long SKILL.md files across repos. The 8 skills cluster into three families - review (autoreview, behavior-validator, crabbox), handoff/context (handoff, agent-transcript), and sessions/documentation (session-viewer, beam, readme-standard). autoreview is the flagship at 1,388 installs, a structured multi-engine code review workflow (Codex, Claude, Amp, Pi, Kimi) that reports blocking issues only when explicitly requested.
 
 ---
 
@@ -65,22 +65,22 @@ Top skills by installs: autoreview (1,388), agent-transcript (355), session-view
 
 1. Clone and list: `git clone https://github.com/openclaw/agent-skills.git && cd agent-skills && scripts/install-skills --list`
 2. Install the flagship: `scripts/install-skills autoreview`
-3. For review closeout, say "run autoreview on this change" — it reports P0 blocking issues by default
-4. For handoffs, say "write a handoff for the next agent" — it builds a standalone prompt and copies it to the clipboard
+3. For review closeout, say "run autoreview on this change" - it reports P0 blocking issues by default
+4. For handoffs, say "write a handoff for the next agent" - it builds a standalone prompt and copies it to the clipboard
 
 ## CorpusIQ Use Cases
 
 | Use Case | How |
 |---|---|
-| **Agent code review closeout** | autoreview's P0-only default output maps to our verify-before-assertion discipline — blocking issues only, advisory output, no blind apply |
-| **Multi-agent handoffs** | handoff builds path-free standalone prompts for fresh agents — matches our multi-agent orchestration and delegation patterns |
-| **Session forensics** | session-viewer renders session JSONL as searchable single-file HTML — useful for auditing agent runs and sharing context |
-| **PR/issue transparency** | agent-transcript attaches sanitized agent transcripts to PRs (redacted, fail-closed on secrets) — matches our public-content sanitization rules |
-| **Behavior validation** | behavior-validator checks user-visible behavior against a contract without source inspection — useful for testing skills against their documented behavior |
+| **Agent code review closeout** | autoreview's P0-only default output maps to our verify-before-assertion discipline - blocking issues only, advisory output, no blind apply |
+| **Multi-agent handoffs** | handoff builds path-free standalone prompts for fresh agents - matches our multi-agent orchestration and delegation patterns |
+| **Session forensics** | session-viewer renders session JSONL as searchable single-file HTML - useful for auditing agent runs and sharing context |
+| **PR/issue transparency** | agent-transcript attaches sanitized agent transcripts to PRs (redacted, fail-closed on secrets) - matches our public-content sanitization rules |
+| **Behavior validation** | behavior-validator checks user-visible behavior against a contract without source inspection - useful for testing skills against their documented behavior |
 
 ## Limitations / Verification
 
-- Below the 20K install guide bar — drafted on official-org authority (the OpenClaw org itself, 1,057 GitHub stars, last commit August 18, 2026)
+- Below the 20K install guide bar - drafted on official-org authority (the OpenClaw org itself, 1,057 GitHub stars, last commit August 18, 2026)
 - Skills are Codex/OpenClaw-first; Hermes usage works via SKILL.md conventions but the installer targets generic agent skill directories
 - agent-transcript is explicitly best-effort and local-only; PR/issue creation continues without it
 - beam requires an authenticated OpenClaw receiver endpoint

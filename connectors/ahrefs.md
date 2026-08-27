@@ -5,7 +5,7 @@ description: "Ahrefs is one of the most trusted platforms for backlink analysis 
 # Ahrefs
 
 ## What it unlocks
-Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organic keyword rankings, referring domains, competitor intelligence, and top-performing pages — all inside the conversation — so you can size up any domain without opening the Ahrefs dashboard.
+Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organic keyword rankings, referring domains, competitor intelligence, and top-performing pages - all inside the conversation - so you can size up any domain without opening the Ahrefs dashboard.
 
 ## Before you connect
 - An Ahrefs account with API access (Advanced plan or higher)
@@ -41,9 +41,9 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 - "What are the highest-traffic pages on competitor.com?"
 
 ## Troubleshooting
-- **"API token invalid"** — Confirm your Ahrefs plan includes API access (Advanced or higher) and that the token hasn't been rotated.
-- **"No data for domain"** — Ahrefs may not have crawled the domain yet, or the domain is very new. Try a more established domain to verify the connection works.
-- **Rate limits** — Ahrefs enforces per-token rate limits. If you're querying heavily, space out requests or upgrade your plan.
+- **"API token invalid"** - Confirm your Ahrefs plan includes API access (Advanced or higher) and that the token hasn't been rotated.
+- **"No data for domain"** - Ahrefs may not have crawled the domain yet, or the domain is very new. Try a more established domain to verify the connection works.
+- **Rate limits** - Ahrefs enforces per-token rate limits. If you're querying heavily, space out requests or upgrade your plan.
 ---
 
 *

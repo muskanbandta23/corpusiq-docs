@@ -1,6 +1,6 @@
 ---
-title: "Apollo.io MCP — Integration Guide"
-description: "MCP server for Apollo.io — 45+ tools for lead search, contact enrichment, sequence management, and CRM. 275M+ contacts, 30M+ companies."
+title: "Apollo.io MCP - Integration Guide"
+description: "MCP server for Apollo.io - 45+ tools for lead search, contact enrichment, sequence management, and CRM. 275M+ contacts, 30M+ companies."
 category: "Sales & Outreach"
 stars: "★★★"
 source: mcpservers.org
@@ -15,7 +15,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # Apollo.io MCP
 
-MCP server wrapping Apollo.io's full API — 45+ tools giving AI agents access to the world's largest B2B contact database (275M+ contacts, 30M+ companies). Combined with the LinkedIn MCP by GTM API, this forms an end-to-end AI-driven outbound pipeline.
+MCP server wrapping Apollo.io's full API - 45+ tools giving AI agents access to the world's largest B2B contact database (275M+ contacts, 30M+ companies). Combined with the LinkedIn MCP by GTM API, this forms an end-to-end AI-driven outbound pipeline.
 
 ## What It Does
 
@@ -32,7 +32,7 @@ Apollo.io is the dominant B2B data platform. Before this MCP:
 2. Human uploads CSVs to CRM or outreach tool
 3. Human writes sequences and triggers them manually
 
-Now: AI agent searches Apollo → qualifies leads → enriches with direct contact data → pushes to CRM → triggers sequences — in one conversation.
+Now: AI agent searches Apollo → qualifies leads → enriches with direct contact data → pushes to CRM → triggers sequences - in one conversation.
 
 Paired with LinkedIn MCP, the workflow becomes:
 1. AI agent searches LinkedIn for target personas
@@ -135,9 +135,9 @@ mcp_servers:
 
 Apollo.io plans (required):
 - **Free:** 100 email credits/month, basic search
-- **Basic:** $59/user/month — 900 email credits, sequences
-- **Professional:** $99/user/month — 1,200 email credits, advanced filters, A/B testing
-- **Organization:** $149/user/month — 2,400 email credits, CRM sync, job changes
+- **Basic:** $59/user/month - 900 email credits, sequences
+- **Professional:** $99/user/month - 1,200 email credits, advanced filters, A/B testing
+- **Organization:** $149/user/month - 2,400 email credits, CRM sync, job changes
 
 The MCP server itself is free and open source (MIT).
 
@@ -176,6 +176,6 @@ Agent: "Add these 50 qualified leads to our 'Enterprise Outbound' sequence and s
 
 ## See Also
 
-- [[linkedin-mcp-gtm]] — LinkedIn automation (complementary)
-- [[atlassian-mcp]] — Jira/Confluence for product teams
-- [[stripe-mcp]] — Billing and payments
+- [[linkedin-mcp-gtm]] - LinkedIn automation (complementary)
+- [[atlassian-mcp]] - Jira/Confluence for product teams
+- [[stripe-mcp]] - Billing and payments

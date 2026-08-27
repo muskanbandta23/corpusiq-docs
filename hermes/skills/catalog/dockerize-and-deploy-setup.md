@@ -1,5 +1,5 @@
 ---
-title: "Dockerize and Deploy — Containerize any repo for"
+title: "Dockerize and Deploy - Containerize any repo for"
 description: Dockerfile, docker-compose with volumes, and preflight script generation. 44+ installs from rockclaver/systemcraft.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dockerize-and-deploy-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Dockerize and Deploy — Setup Guide
+# Dockerize and Deploy - Setup Guide
 
 **Source:** [rockclaver/systemcraft](https://skills.sh/rockclaver/systemcraft/dockerize-and-deploy) (44+ installs)
 **Category:** Engineering / DevOps
 **Quality Tier:** 🔵 Community
 
-Systematic skill for containerizing any repository. Generates multi-stage Dockerfiles, docker-compose configurations for dev and production, preflight validation scripts, and a deploy pipeline — one phase at a time.
+Systematic skill for containerizing any repository. Generates multi-stage Dockerfiles, docker-compose configurations for dev and production, preflight validation scripts, and a deploy pipeline - one phase at a time.
 
 ---
 
@@ -88,9 +88,9 @@ docker --version && docker compose version
 
 ## Notes
 
-- Never embed secrets in Docker/compose files — use environment variables or secrets management
+- Never embed secrets in Docker/compose files - use environment variables or secrets management
 - Always run containers as non-root user
-- No `latest` image tags in production — pin versions
+- No `latest` image tags in production - pin versions
 - DB volumes use named volumes only, never host bind mounts
 - Guardrails enforced: no secrets, non-root, pinned tags, named volumes
 - References included for volume/healthcheck patterns, resource limits, and rolling deploy strategies

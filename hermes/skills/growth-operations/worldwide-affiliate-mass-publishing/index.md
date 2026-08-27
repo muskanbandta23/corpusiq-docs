@@ -10,11 +10,11 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Worldwide Affiliate Mass Publishing
 
-Strategy for mass-publishing affiliate program landing pages across 100+ languages using the Rentry.co API. No authentication required — pure API POST calls.
+Strategy for mass-publishing affiliate program landing pages across 100+ languages using the Rentry.co API. No authentication required - pure API POST calls.
 
 ## Contents
 
-- [SKILL.md](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/) — Complete skill definition with strategy, templates, and execution commands
+- [SKILL.md](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/) - Complete skill definition with strategy, templates, and execution commands
 
 ## Key Facts
 
@@ -24,9 +24,9 @@ Strategy for mass-publishing affiliate program landing pages across 100+ languag
 
 ## Related Skills
 
-- [SKILL.md — Complete Definition](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/)
+- [SKILL.md - Complete Definition](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/)
 - [Growth Operations](/hermes/skills/growth-operations/)
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

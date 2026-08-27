@@ -1,20 +1,20 @@
 ---
-title: "Claude for Legal Skills — Anthropic Legal Workflow Suite Setup"
-description: "anthropics/claude-for-legal — 118 skills, 54.4K installs: Anthropic's official legal-workflow suite covering contract review, matter management, regulatory research, and lawyer-facing drafting pipelines."
+title: "Claude for Legal Skills - Anthropic Legal Workflow Suite Setup"
+description: "anthropics/claude-for-legal - 118 skills, 54.4K installs: Anthropic's official legal-workflow suite covering contract review, matter management, regulatory research, and lawyer-facing drafting pipelines."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-for-legal-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-18"
 tags: ["hermes skill", "agent skill", "skill setup", "legal", "contract review", "anthropic", "claude"]
 ---
 
-# Claude for Legal Skills — Setup Guide
+# Claude for Legal Skills - Setup Guide
 
 **Source:** [anthropics/claude-for-legal](https://skills.sh/anthropics/claude-for-legal)
 **GitHub:** [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal)
 **Skills:** 118 skills · 54.4K total installs
 **Category:** Legal Operations
 **First Seen:** May 13, 2026 (catalogued August 18, 2026 sweep)
-**Quality Tier:** 🟢 Production — Gen Agent Trust Hub Pass, Socket Pass, and Snyk Pass on the flagship legal-writing skill; official Anthropic publisher; 9.2K GitHub stars
+**Quality Tier:** 🟢 Production - Gen Agent Trust Hub Pass, Socket Pass, and Snyk Pass on the flagship legal-writing skill; official Anthropic publisher; 9.2K GitHub stars
 
 Claude for Legal is Anthropic's official skill suite for legal workflows. It covers the full matter lifecycle: intake, drafting, review (NDA, MSA, DPA, vendor agreements, IP clauses), regulatory research, compliance tracking, and client communication. The flagship legal-writing skill encodes a strict no-rewriting rule for law-student feedback (structural critique only, with labeled example phrasings), and the suite ships with its own skill-manager and skill-installer for governing the pack inside Claude environments.
 
@@ -73,7 +73,7 @@ Top skills by installs: legal-writing (962), draft (669), flashcards (574), saas
 - Security audits on the legal-writing flagship: Gen Agent Trust Hub Pass, Socket Pass, Snyk Pass
 - Publisher-page total verified (54.4K across 118 skills); 9.2K GitHub stars as of the sweep
 - Official Anthropic publisher; skills assume a Claude-style plugin directory layout (`~/.claude/plugins/config/claude-for-legal/`)
-- Legal guidance is not legal advice — outputs should be reviewed by qualified counsel for binding matters
+- Legal guidance is not legal advice - outputs should be reviewed by qualified counsel for binding matters
 
 ```bash
 npx skills add anthropics/claude-for-legal   # verify install works

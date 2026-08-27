@@ -1,5 +1,5 @@
 ---
-title: "MCP Email Server — IMAP/SMTP Email for AI Agents"
+title: "MCP Email Server - IMAP/SMTP Email for AI Agents"
 description: "Integration guide for ai-zerolab/mcp-email-server. IMAP and SMTP email access via MCP for Hermes Agent. Send/receive emails from AI agents."
 category: mcp
 tags: [mcp-server, email, imap, smtp, hermes-agent, integration]
@@ -12,7 +12,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Email Server — IMAP/SMTP Email for AI Agents
+# MCP Email Server - IMAP/SMTP Email for AI Agents
 
 **Repository:** [ai-zerolab/mcp-email-server](https://github.com/ai-zerolab/mcp-email-server)
 **Stars:** 281 ★
@@ -22,7 +22,7 @@ robots: "index,follow"
 
 ## What It Does
 
-Provides IMAP and SMTP access for AI agents via MCP. Agents can read, search, and send emails through standard email protocols — no API wrappers needed. Works with any email provider that supports IMAP/SMTP (Gmail, Outlook, Fastmail, ProtonMail Bridge, self-hosted).
+Provides IMAP and SMTP access for AI agents via MCP. Agents can read, search, and send emails through standard email protocols - no API wrappers needed. Works with any email provider that supports IMAP/SMTP (Gmail, Outlook, Fastmail, ProtonMail Bridge, self-hosted).
 
 ### Tools Provided
 
@@ -114,7 +114,7 @@ mcp_servers:
 
 ```bash
 hermes mcp list
-# Should show: email (ai-zerolab/mcp-email-server) — CONNECTED
+# Should show: email (ai-zerolab/mcp-email-server) - CONNECTED
 ```
 
 ## Use Cases
@@ -122,24 +122,24 @@ hermes mcp list
 1. **Unified inbox search:** Query multiple email accounts across providers through one MCP interface
 2. **Automated email triage:** Agent scans inbox, categorizes, and drafts responses
 3. **Self-hosted email integration:** Connect self-hosted mail servers (Dovecot, iRedMail) to AI agents
-4. **Privacy-first email:** Bypass Gmail API tracking — read email over standard IMAP
+4. **Privacy-first email:** Bypass Gmail API tracking - read email over standard IMAP
 5. **Email migration scripts:** Move emails between accounts/providers via agent orchestration
 
 ## Security Considerations
 
 - Store credentials in environment variables, never in config files
 - Use app-specific passwords, not account master passwords
-- IMAP/SMTP credentials provide full email access — scope carefully
+- IMAP/SMTP credentials provide full email access - scope carefully
 - Consider a dedicated email account for agent use rather than personal inbox
 - Gmail users: app passwords require 2FA (good for security)
-- The MCP server runs locally — credentials never leave your machine
+- The MCP server runs locally - credentials never leave your machine
 
 ## Limitations
 
-- No OAuth support — credentials-based auth only
+- No OAuth support - credentials-based auth only
 - Limited attachment handling (raw MIME only)
 - IMAP SEARCH syntax is less powerful than Gmail's search operators
-- No push notifications — polling-based inbox monitoring
+- No push notifications - polling-based inbox monitoring
 - Single account per server instance (run multiple instances for multiple accounts)
 
 ## Troubleshooting
@@ -153,6 +153,6 @@ hermes mcp list
 
 ## Related Guides
 
-- [CorpusIQ Email Connector](/hermes/mcp/connectors/email/) — OAuth-based Gmail/Outlook
-- [Google Search Console MCP](/hermes/mcp/servers/external/google-search-console-mcp/) — SEO analytics via MCP
-- [ComparEdge LLM Cost MCP](/hermes/mcp/servers/external/comparedge-llm-cost-mcp/) — Token cost intelligence
+- [CorpusIQ Email Connector](/hermes/mcp/connectors/email/) - OAuth-based Gmail/Outlook
+- [Google Search Console MCP](/hermes/mcp/servers/external/google-search-console-mcp/) - SEO analytics via MCP
+- [ComparEdge LLM Cost MCP](/hermes/mcp/servers/external/comparedge-llm-cost-mcp/) - Token cost intelligence

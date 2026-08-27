@@ -11,7 +11,7 @@ tags: [real-estate, mls, austin, listings, comps, market-stats, remote-mcp, no-a
 
 # Austin MLS MCP
 
-**Live Austin-area MLS listings inside any MCP-capable AI assistant — active listings, property details, schools, taxes, and neighborhood data for the Austin metro.** A free remote MCP server with no install: one connector URL gives agents natural-language search over active listings, closed-sale comparables, and market statistics. Listings are updated every few minutes.
+**Live Austin-area MLS listings inside any MCP-capable AI assistant - active listings, property details, schools, taxes, and neighborhood data for the Austin metro.** A free remote MCP server with no install: one connector URL gives agents natural-language search over active listings, closed-sale comparables, and market statistics. Listings are updated every few minutes.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,7 +25,7 @@ Built by: NeuhausRE.com (Austin real estate brokerage)
 
 ## Why This Matters for Operators
 
-Austin real estate professionals, investors, and analysts currently answer "find 4-bed homes in Lakeway under $1M on at least an acre" by clicking through MLS filters and dashboards. This server replaces that with a single natural-language question inside the AI they already use, then backs it with comps and market statistics from the same source — brokerage-sourced MLS data refreshed every few minutes.
+Austin real estate professionals, investors, and analysts currently answer "find 4-bed homes in Lakeway under $1M on at least an acre" by clicking through MLS filters and dashboards. This server replaces that with a single natural-language question inside the AI they already use, then backs it with comps and market statistics from the same source - brokerage-sourced MLS data refreshed every few minutes.
 
 The brokerage-native source matters: listings are first-party, not scraped. And the free, no-auth design means agents can be pointed at it without managing credential lifecycles.
 
@@ -68,7 +68,7 @@ No account, no key. Works in Claude Desktop, claude.ai (Pro or Max via Settings 
 
 ## Integration with CorpusIQ
 
-CorpusIQ brings the money and pipeline layer (QuickBooks, Stripe, CRM) while Austin MLS brings the live property layer for the Austin metro. A real estate operator can run both in one agent session: CorpusIQ for commission accounting, deal pipeline, and financials, Austin MLS for current listings, comps, and market stats — then join the two on address or ZIP.
+CorpusIQ brings the money and pipeline layer (QuickBooks, Stripe, CRM) while Austin MLS brings the live property layer for the Austin metro. A real estate operator can run both in one agent session: CorpusIQ for commission accounting, deal pipeline, and financials, Austin MLS for current listings, comps, and market stats - then join the two on address or ZIP.
 
 ## Limitations
 

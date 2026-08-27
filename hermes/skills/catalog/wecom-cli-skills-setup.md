@@ -1,20 +1,20 @@
 ---
-title: "WeCom CLI Skills — Enterprise WeChat Agent Suite Setup"
-description: "wecomteam/wecom-cli — 28 skills, 153.4K installs: official WeChat Work (WeCom) docs, meetings, contacts, todos, messages, and smartsheet skills for agent assistants."
+title: "WeCom CLI Skills - Enterprise WeChat Agent Suite Setup"
+description: "wecomteam/wecom-cli - 28 skills, 153.4K installs: official WeChat Work (WeCom) docs, meetings, contacts, todos, messages, and smartsheet skills for agent assistants."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-cli-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-18"
 tags: ["hermes skill", "agent skill", "skill setup", "wecom", "wechat work", "enterprise", "productivity"]
 ---
 
-# WeCom CLI Skills — Setup Guide
+# WeCom CLI Skills - Setup Guide
 
 **Source:** [wecomteam/wecom-cli](https://skills.sh/wecomteam/wecom-cli)
 **GitHub:** [wecomteam/wecom-cli](https://github.com/wecomteam/wecom-cli)
 **Skills:** 28 skills · 153.4K total installs
 **Category:** Enterprise Productivity
 **First Seen:** catalogued August 18, 2026 sweep (wecomcli-doc on skills.sh since April 2, 2026)
-**Quality Tier:** 🟡 Trusted — official WeCom team org; flagship wecomcli-doc passes Gen Agent Trust Hub and Socket, Snyk Warn (named)
+**Quality Tier:** 🟡 Trusted - official WeCom team org; flagship wecomcli-doc passes Gen Agent Trust Hub and Socket, Snyk Warn (named)
 
 The official WeChat Work (WeCom, Tencent's enterprise IM) agent suite gives assistants command-line control of enterprise docs, meetings, contacts, todos, messages, schedules, and smartsheets. At 153.4K installs across 28 skills it is the largest enterprise-productivity cluster on the platform from a first-party vendor org, with 2.7K GitHub stars and skill docs maintained in Chinese by the WeCom team.
 
@@ -64,7 +64,7 @@ The suite is resource-skill structured: each skill owns one business domain and 
 
 1. Install the CLI: `npm install -g @wecom/cli` and verify `wecom-cli --version` is 1.1.0+
 2. Install skills: `npx skills add wecomteam/wecom-cli`
-3. Read `wecomcli-shared` first — the common pre-checks are mandatory for every other skill
+3. Read `wecomcli-shared` first - the common pre-checks are mandatory for every other skill
 4. Ask in natural language, e.g. "read the latest meeting notes" or "append a row to the smartsheet"
 
 ## CorpusIQ Use Cases
@@ -80,9 +80,9 @@ The suite is resource-skill structured: each skill owns one business domain and 
 
 - Security audits on the wecomcli-doc flagship: Gen Agent Trust Hub Pass, Socket Pass, Snyk Warn (named in the tier)
 - Publisher-page total verified (153.4K across 28 skills); 2.7K GitHub stars as of the sweep
-- SKILL.md content is maintained in Chinese by the WeCom team — agents need Chinese-language instruction handling
+- SKILL.md content is maintained in Chinese by the WeCom team - agents need Chinese-language instruction handling
 - Requires the `@wecom/cli` npm package at 1.1.0+; the suite refuses to run on older versions
-- Tail skills (message, shared, media, calendar, doc-manage, disk, email) are 500-504 installs each — early content
+- Tail skills (message, shared, media, calendar, doc-manage, disk, email) are 500-504 installs each - early content
 
 ```bash
 npx skills add wecomteam/wecom-cli   # verify install works
@@ -90,7 +90,7 @@ npx skills add wecomteam/wecom-cli   # verify install works
 
 ## Related
 
-- [WeCom Unified — Routing Suite Setup](/hermes/skills/catalog/wecom-unified-skills-setup/)
+- [WeCom Unified - Routing Suite Setup](/hermes/skills/catalog/wecom-unified-skills-setup/)
 - [Skills Catalog](/hermes/skills/catalog/)
 - [Skills Marketplace](/hermes/skills/marketplace/)
 

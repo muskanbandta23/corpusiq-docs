@@ -1,5 +1,5 @@
 ---
-title: "LLM Prices CN MCP Server — Daily-Verified LLM Pricing"
+title: "LLM Prices CN MCP Server - Daily-Verified LLM Pricing"
 description: "Integration guide for szp2005/llm-prices-cn: 44+ LLM models, daily-verified pricing (CN & global), hosted MCP server for live price queries and token cost"
 category: finance
 tags: [mcp, llm-pricing, cost-optimization, api, token-estimation]
@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ---
 
-# LLM Prices CN MCP Server — LLM API Pricing Dataset
+# LLM Prices CN MCP Server - LLM API Pricing Dataset
 
 **Repo:** [szp2005/llm-prices-cn](https://github.com/szp2005/llm-prices-cn)
 **Pricing:** Free, hosted
@@ -21,14 +21,14 @@ robots: "index,follow"
 
 ## Overview
 
-LLM Prices CN is a daily-verified dataset of LLM API pricing covering 44+ models across Chinese and global providers. It includes a hosted MCP server for live price queries and token cost estimation — critical for business operators managing AI agent infrastructure costs.
+LLM Prices CN is a daily-verified dataset of LLM API pricing covering 44+ models across Chinese and global providers. It includes a hosted MCP server for live price queries and token cost estimation - critical for business operators managing AI agent infrastructure costs.
 
 ## Why Business Operators Need This
 
-1. **Cost Visibility** — With 44+ LLM models available, pricing changes frequently. LLM Prices CN verifies prices daily so your cost estimates are always current.
-2. **Provider Comparison** — Compare input/output token pricing across OpenAI, Anthropic, DeepSeek, Moonshot, Zhipu, Qwen, and more in one query.
-3. **Budget Planning** — Estimate monthly LLM costs based on expected token volume before committing to a provider.
-4. **China + Global Coverage** — Unique coverage of Chinese LLM providers (DeepSeek, Moonshot, Zhipu, Qwen) alongside global providers — essential for operators with multi-market needs.
+1. **Cost Visibility** - With 44+ LLM models available, pricing changes frequently. LLM Prices CN verifies prices daily so your cost estimates are always current.
+2. **Provider Comparison** - Compare input/output token pricing across OpenAI, Anthropic, DeepSeek, Moonshot, Zhipu, Qwen, and more in one query.
+3. **Budget Planning** - Estimate monthly LLM costs based on expected token volume before committing to a provider.
+4. **China + Global Coverage** - Unique coverage of Chinese LLM providers (DeepSeek, Moonshot, Zhipu, Qwen) alongside global providers - essential for operators with multi-market needs.
 
 ## Installation
 
@@ -103,7 +103,7 @@ The server is hosted and requires no local installation:
 
 ```
 "Compare input/output pricing for all Chinese LLM providers. I need 1M tokens/day."
-"Show me the pricing history for GPT-4o over the last 3 months — has it changed?"
+"Show me the pricing history for GPT-4o over the last 3 months - has it changed?"
 "Which provider has the best price/performance ratio for coding tasks?"
 ```
 
@@ -117,18 +117,18 @@ The server is hosted and requires no local installation:
 
 ## Best Practices
 
-1. **Check prices weekly** — LLM pricing changes frequently, especially among Chinese providers competing aggressively
-2. **Use estimate_cost before large jobs** — A 10M token batch job can cost $0.50 or $15.00 depending on the model
-3. **Compare tiers fairly** — Match capability tiers (e.g., GPT-4o vs Claude Sonnet 4, not GPT-4o vs Haiku)
-4. **Factor in quality** — Lowest cost isn't always best. Cross-reference with your quality requirements
-5. **Monitor price_history** — Track trends to spot providers getting cheaper (or more expensive) over time
+1. **Check prices weekly** - LLM pricing changes frequently, especially among Chinese providers competing aggressively
+2. **Use estimate_cost before large jobs** - A 10M token batch job can cost $0.50 or $15.00 depending on the model
+3. **Compare tiers fairly** - Match capability tiers (e.g., GPT-4o vs Claude Sonnet 4, not GPT-4o vs Haiku)
+4. **Factor in quality** - Lowest cost isn't always best. Cross-reference with your quality requirements
+5. **Monitor price_history** - Track trends to spot providers getting cheaper (or more expensive) over time
 
 ## Limitations
 
-- New server (July 2026) — data freshness guarantees still being established
-- China-focused dataset — some global providers may have less frequent updates
-- Token cost estimation assumes standard tokenization — actual costs vary with prompt structure
-- Hosted endpoint URL may change — verify the current endpoint on the GitHub repo
+- New server (July 2026) - data freshness guarantees still being established
+- China-focused dataset - some global providers may have less frequent updates
+- Token cost estimation assumes standard tokenization - actual costs vary with prompt structure
+- Hosted endpoint URL may change - verify the current endpoint on the GitHub repo
 
 ## For Operators: Integration with CorpusIQ
 
@@ -138,7 +138,7 @@ The server is hosted and requires no local installation:
 
 ## See Also
 
-- [Correctover MCP Guide](/hermes/mcp/servers/external/correctover-mcp/) — LLM API failover and cost validation
+- [Correctover MCP Guide](/hermes/mcp/servers/external/correctover-mcp/) - LLM API failover and cost validation
 - [Stripe MCP Guide](/hermes/mcp/#stripe)
 - [QuickBooks MCP Guide](/hermes/mcp/#quickbooks)
 - [External MCP Server Catalog](/hermes/mcp/servers/external/)

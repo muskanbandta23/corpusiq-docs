@@ -1,6 +1,6 @@
 ---
-title: GBrain Agent Operations — Full Setup Guide for Hermes Agents
-description: Install, configure, and use GBrain operational skills for Hermes Agents — cross-modal review, soul audit, cron scheduling, minion orchestration, and daily task preparation.
+title: GBrain Agent Operations - Full Setup Guide for Hermes Agents
+description: Install, configure, and use GBrain operational skills for Hermes Agents - cross-modal review, soul audit, cron scheduling, minion orchestration, and daily task preparation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gbrain-agent-operations-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# GBrain Agent Operations — Setup Guide
+# GBrain Agent Operations - Setup Guide
 
 **Source:** [garrytan/gbrain](https://skills.sh/garrytan/gbrain) (24,066 ⭐)
 **Category:** Agent Operations & Knowledge Management
@@ -81,7 +81,7 @@ npx skills add garrytan/gbrain/concept-synthesis
 | **Repo Architecture** | "where should I file this", "which category" | Decision protocol for filing brain pages by domain and lifecycle |
 | **Signal Detector** | Always-on, fires on every inbound message | Detects actionable signals from messages, emails, notifications |
 | **Webhook Transforms** | "set up webhook for X", "ingest from webhook" | Converts external events (SMS, meetings, social) into structured brain pages |
-| **Perplexity Research** | "research X with brain context", "what's new about Y" | Brain-augmented web research — returns what's NEW vs what the brain already knows |
+| **Perplexity Research** | "research X with brain context", "what's new about Y" | Brain-augmented web research - returns what's NEW vs what the brain already knows |
 | **Article Enrichment** | "enrich this article", "structure this dump" | Transforms raw text dumps into structured pages with executive summaries |
 | **Concept Synthesis** | "synthesize concepts", "map my ideas" | Deduplicates and organizes concepts into tiered intellectual maps |
 
@@ -94,7 +94,7 @@ npx skills add garrytan/gbrain/concept-synthesis
 | **Agent identity governance** | Run soul-audit to generate/update agent SOUL.md after any behavior change. Frontmatter-guard prevents metadata corruption across 400+ brain pages. |
 | **Pre-deployment quality gates** | Cross-modal review on all public content and code before pushing. Smoke-test after every Hermes restart to verify toolchain health. |
 | **Scheduled content operations** | Cron-scheduler manages 6 PM daily reports, morning video generation, and weekly performance audits with quiet-hour awareness. |
-| **Multi-agent fan-out** | Minion-orchestrator spawns parallel research subagents for competitive analysis, prospect research, and content mining — all from a single queue. |
+| **Multi-agent fan-out** | Minion-orchestrator spawns parallel research subagents for competitive analysis, prospect research, and content mining - all from a single queue. |
 | **Skill development pipeline** | Skillify converts proven workflows into reusable skills. Skill-creator generates conformant SKILL.md. Skillpack-check audits the installed skillset. |
 | **Daily intelligence brief** | Daily-task-prep loads calendar + open threads + brain context. Signal-detector surfaces high-priority inbound signals. Combined, this replaces manual morning triage. |
 | **Knowledge synthesis** | Concept-synthesis maps ideas across brain sections. Article-enrichment structures raw research. Together, they turn information firehose into actionable intelligence. |
@@ -131,4 +131,4 @@ gbrain smoke-test
 ---
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june25-2026/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

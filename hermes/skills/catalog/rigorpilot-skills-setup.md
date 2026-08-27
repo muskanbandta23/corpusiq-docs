@@ -1,6 +1,6 @@
 ---
-title: "RigorPilot Skills — AI Research & Paper Reproduction"
-description: Install llllllllama/rigorpilot-skills (2.6M combined installs) — 12 skills for AI research exploration, paper reproduction, code exploration, safe debugging, and ML training runs.
+title: "RigorPilot Skills - AI Research & Paper Reproduction"
+description: Install llllllllama/rigorpilot-skills (2.6M combined installs) - 12 skills for AI research exploration, paper reproduction, code exploration, safe debugging, and ML training runs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rigorpilot-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# RigorPilot Skills — Setup Guide
+# RigorPilot Skills - Setup Guide
 
 **Source:** [lllllllama/rigorpilot-skills](https://www.skills.sh/lllllllama/rigorpilot-skills) (2.6M combined installs)
 **GitHub:** [github.com/lllllllama/rigorpilot-skills](https://github.com/lllllllama/rigorpilot-skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 12, 2026
 **Quality Tier:** 🟡 Beta (high install volume, young publisher)
 
-RigorPilot packages the full AI-research loop as twelve agent skills: explore a research area, resolve paper context, reproduce experiments, run training, and audit the result — all with safety-first debugging. Every skill carries ~234K installs, making this one of the highest-volume research clusters on skills.sh.
+RigorPilot packages the full AI-research loop as twelve agent skills: explore a research area, resolve paper context, reproduce experiments, run training, and audit the result - all with safety-first debugging. Every skill carries ~234K installs, making this one of the highest-volume research clusters on skills.sh.
 
 ---
 
@@ -76,7 +76,7 @@ npx skills add llllllllama/rigorpilot-skills --skill safe-debug
 
 ## Limitations / Verification
 
-- Newest skill (`ai-paper-reproduction`) has zero installs — treat as alpha
+- Newest skill (`ai-paper-reproduction`) has zero installs - treat as alpha
 - Verify install: `npx skills list | grep -E "research|rigor"` shows installed entries
 - Training skills assume a working GPU environment; they orchestrate, they don't provision hardware
 

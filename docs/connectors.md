@@ -7,7 +7,7 @@ last_updated: "2026-08-23"
 canonical: "https://www.corpusiq.io/docs/connectors"
 robots: "index,follow"
 ---
-# CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
+# CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint
 
 Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 40+ business tools to ChatGPT, Claude, and Perplexity through read-only direct MCP live retrieval. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Browse the complete directory below.
 # Connectors

@@ -10,7 +10,7 @@ Point CorpusIQ at your production or analytics Postgres database and ask questio
 ## Before you connect
 - Connection details: host, port, database name, username, password.
 - A read-only Postgres role is strongly recommended (CREATE USER ... WITH NOLOGIN... GRANT SELECT...).
-- Network access — if the database is in a private VPC, allowlist CorpusIQ's outbound IP.
+- Network access - if the database is in a private VPC, allowlist CorpusIQ's outbound IP.
 - About 5 minutes.
 
 ## How to connect
@@ -38,9 +38,9 @@ CorpusIQ runs SELECT queries only. No writes, no schema changes.
 - "Show signups per day for the last 30 days."
 
 ## Troubleshooting
-- "Connection refused" — your Postgres host is blocking CorpusIQ. Allowlist the outbound IP shown in the dashboard.
-- "Password authentication failed" — confirm the role exists and the password is correct. URL-encode special characters in passwords.
-- "Permission denied for table" — grant SELECT on the schema to your CorpusIQ user.
+- "Connection refused" - your Postgres host is blocking CorpusIQ. Allowlist the outbound IP shown in the dashboard.
+- "Password authentication failed" - confirm the role exists and the password is correct. URL-encode special characters in passwords.
+- "Permission denied for table" - grant SELECT on the schema to your CorpusIQ user.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard Postgres conventions. Verify before publish. -->
 ---

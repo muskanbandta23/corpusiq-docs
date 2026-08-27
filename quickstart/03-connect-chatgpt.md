@@ -2,7 +2,7 @@
 
 CorpusIQ works with ChatGPT through two paths. Pick whichever fits.
 
-## Option A — CorpusIQ Custom GPT (easiest)
+## Option A - CorpusIQ Custom GPT (easiest)
 
 If you have ChatGPT Plus, Pro, or Team:
 
@@ -10,14 +10,14 @@ If you have ChatGPT Plus, Pro, or Team:
    CorpusIQ GPT**. This takes you to our published Custom GPT in the GPT
    Store.
 2. Click **Start chat**. ChatGPT will ask you to authenticate to CorpusIQ on
-   first use — a single click-through.
+   first use - a single click-through.
 3. After auth, you can ask the GPT business questions and it will use your
    connected CorpusIQ sources.
 
 <!-- screenshot: CorpusIQ Custom GPT landing page -->
 <!-- screenshot: OAuth approval prompt -->
 
-## Option B — ChatGPT MCP connector (Enterprise / direct)
+## Option B - ChatGPT MCP connector (Enterprise / direct)
 
 If you're on ChatGPT Enterprise or want to wire CorpusIQ as a first-class MCP
 tool source:
@@ -37,7 +37,7 @@ Ask:
 > List my CorpusIQ connectors and their status.
 
 You should see a status table. Most connectors will say "Not connected" until
-you authenticate them — that's the next step.
+you authenticate them - that's the next step.
 
 ## Next
 

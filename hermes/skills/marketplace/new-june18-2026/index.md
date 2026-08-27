@@ -26,7 +26,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 | 6 | `python-debugpy` | 133 | Debug Python: pdb REPL + debugpy remote (DAP) |
 | 7 | `godmode` | 130 | Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN |
 
-## Additional Skills (13–89 installs)
+## Additional Skills (13-89 installs)
 
 | # | Skill | Installs | Description |
 |---|-------|----------|-------------|

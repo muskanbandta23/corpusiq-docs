@@ -1,5 +1,5 @@
 ---
-title: "Apiosk MCP — AI-Native Payments for Tools & APIs"
+title: "Apiosk MCP - AI-Native Payments for Tools & APIs"
 description: "Discover, pay for, execute, and publish monetized APIs directly from AI agents. Per-call settlement in USDC over x402. 42 tools including wallet management"
 date: 2026-08-12
 source: mcp.so
@@ -18,7 +18,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What is Apiosk?
 
-AI-native payments infrastructure for tools and APIs. Agents discover, pay for, execute, and publish monetized APIs directly through MCP, settled per call in USDC over x402 protocol. Think "Stripe for AI agents" — 42 tools covering discovery, wallet management, payment execution, and API publishing.
+AI-native payments infrastructure for tools and APIs. Agents discover, pay for, execute, and publish monetized APIs directly through MCP, settled per call in USDC over x402 protocol. Think "Stripe for AI agents" - 42 tools covering discovery, wallet management, payment execution, and API publishing.
 
 **Category:** Developer Tools / Commerce  
 **Author:** obcraft  
@@ -26,13 +26,13 @@ AI-native payments infrastructure for tools and APIs. Agents discover, pay for, 
 
 ## Why It Matters for Operators
 
-Apiosk is the most complete agent-payments infrastructure observed to date. While FiatDock is a marketplace, Apiosk is the *payment rail* — the layer that makes per-call API monetization work.
+Apiosk is the most complete agent-payments infrastructure observed to date. While FiatDock is a marketplace, Apiosk is the *payment rail* - the layer that makes per-call API monetization work.
 
 For operators, the significance is:
-1. **Monetization path for tools** — Operators could publish their own APIs and get paid per call by other agents
-2. **Pay-as-you-go data** — Instead of monthly SaaS subscriptions, agents pay $0.001–$0.01 per data call
-3. **Federated discovery** — `apiosk_discover` searches across Apiosk catalog + external x402 listings
-4. **No platform lock-in** — Non-custodial wallets; agent holds its own keys
+1. **Monetization path for tools** - Operators could publish their own APIs and get paid per call by other agents
+2. **Pay-as-you-go data** - Instead of monthly SaaS subscriptions, agents pay $0.001-$0.01 per data call
+3. **Federated discovery** - `apiosk_discover` searches across Apiosk catalog + external x402 listings
+4. **No platform lock-in** - Non-custodial wallets; agent holds its own keys
 
 ## Connection Details
 
@@ -64,10 +64,10 @@ For operators, the significance is:
 
 ## Verified Use Cases
 
-1. **Paid Data APIs** — Agent pays $0.01 for live market data, company financials, or SEO metrics
-2. **Tool Monetization** — Developer publishes a data-enrichment API; earns USDC per call from other agents
-3. **Autonomous Budget Management** — Agent manages its own wallet with spending limits and transaction history
-4. **Federated Discovery** — One `discover` call searches multiple marketplaces for the best-priced API
+1. **Paid Data APIs** - Agent pays $0.01 for live market data, company financials, or SEO metrics
+2. **Tool Monetization** - Developer publishes a data-enrichment API; earns USDC per call from other agents
+3. **Autonomous Budget Management** - Agent manages its own wallet with spending limits and transaction history
+4. **Federated Discovery** - One `discover` call searches multiple marketplaces for the best-priced API
 
 ## CorpusIQ Integration Opportunity
 

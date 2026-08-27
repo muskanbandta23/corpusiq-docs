@@ -1,6 +1,6 @@
 ---
-title: "NERAI Risk Intelligence MCP — Geopolitical grounding"
-description: "Connect NERAI's geopolitical risk intelligence — 60 countries, calibrated forecasts, maritime chokepoint tracking, sanctions, and trade-control data"
+title: "NERAI Risk Intelligence MCP - Geopolitical grounding"
+description: "Connect NERAI's geopolitical risk intelligence - 60 countries, calibrated forecasts, maritime chokepoint tracking, sanctions, and trade-control data"
 category: mcp
 tags: [mcp-server, risk-intelligence, geopolitics, supply-chain, compliance, procurement, trading]
 source: mcp.so
@@ -19,7 +19,7 @@ last_updated: "2026-08-12"
 
 # NERAI Risk Intelligence MCP Server
 
-**The geopolitical grounding layer for AI agents.** Your procurement, trading, or compliance agent knows your systems; it does not know the world. NERAI is the world, as a tool call — 60 countries, calibrated forecasts with published out-of-sample validation, maritime chokepoints with live AIS traffic, sanctions and trade-control data — every answer source-linked and dated.
+**The geopolitical grounding layer for AI agents.** Your procurement, trading, or compliance agent knows your systems; it does not know the world. NERAI is the world, as a tool call - 60 countries, calibrated forecasts with published out-of-sample validation, maritime chokepoints with live AIS traffic, sanctions and trade-control data - every answer source-linked and dated.
 
 ## Why It Matters for Operators
 
@@ -31,21 +31,21 @@ For business operators managing international supply chains, procurement, or com
 - *"Compare the risk trajectory of Poland and Romania over the next 13 weeks."*
 - *"Is this commodity subject to dual-use export controls in my jurisdiction?"*
 
-This turns AI agents from system-only tools into world-aware operators — grounding every procurement decision, trade, or compliance check in current, validated geopolitical data.
+This turns AI agents from system-only tools into world-aware operators - grounding every procurement decision, trade, or compliance check in current, validated geopolitical data.
 
 ## Technical Details
 
 | Field | Value |
 |-------|-------|
 | **Transport** | Streamable HTTP (remote, no local process) |
-| **Auth** | Bearer token — instant free key via `POST /register` |
+| **Auth** | Bearer token - instant free key via `POST /register` |
 | **Endpoint** | `https://nerai-mcp.neraicorp.workers.dev/mcp` |
 | **Tools** | 16 tools across 5 layers: Country Risk, Foresight, Supply Chain, Maritime, Trade Controls |
-| **Validation** | Published out-of-sample MASE 0.85–0.95, 61–67% directional accuracy across 4–52 week horizons |
+| **Validation** | Published out-of-sample MASE 0.85-0.95, 61-67% directional accuracy across 4-52 week horizons |
 | **Free tier** | 5 countries, 100 calls/month |
-| **Pro tier** | €490/mo or €4,900/yr — all 60 countries, 100k calls |
-| **Enterprise** | From €15,000/yr — HS-level commodity checks, reviewed precedent corpus, SLA |
-| **Response contract** | Every response carries `_meta`: `as_of`, source, refresh cadence, and limitations — self-documenting audit trail |
+| **Pro tier** | €490/mo or €4,900/yr - all 60 countries, 100k calls |
+| **Enterprise** | From €15,000/yr - HS-level commodity checks, reviewed precedent corpus, SLA |
+| **Response contract** | Every response carries `_meta`: `as_of`, source, refresh cadence, and limitations - self-documenting audit trail |
 
 ## Setup
 
@@ -96,11 +96,11 @@ https://nerai-mcp.neraicorp.workers.dev/mcp/YOUR_KEY
 
 ## For Business Operators
 
-NERAI is built for the procurement, trading, and compliance operator who needs to make decisions in an uncertain world. Unlike generic risk reports that arrive weekly, this MCP server lets your AI agent check ground truth at decision time — whether that's re-ordering from a supplier in a deteriorating region, routing a shipment around a chokepoint, or verifying that a transaction doesn't trigger sanctions.
+NERAI is built for the procurement, trading, and compliance operator who needs to make decisions in an uncertain world. Unlike generic risk reports that arrive weekly, this MCP server lets your AI agent check ground truth at decision time - whether that's re-ordering from a supplier in a deteriorating region, routing a shipment around a chokepoint, or verifying that a transaction doesn't trigger sanctions.
 
-The free tier (5 countries, 100 calls/month) is sufficient for operators focused on a specific region. Pro unlocks the full 60-country dataset and 100k monthly calls — suitable for global supply chain operators. Enterprise includes human-reviewed enforcement precedents and commodity-level trade control checks.
+The free tier (5 countries, 100 calls/month) is sufficient for operators focused on a specific region. Pro unlocks the full 60-country dataset and 100k monthly calls - suitable for global supply chain operators. Enterprise includes human-reviewed enforcement precedents and commodity-level trade control checks.
 
-**Key differentiator:** NERAI publishes its forecast validation scores (MASE 0.85–0.95). Unlike most risk providers who claim accuracy, NERAI proves it — ask your current vendor for their Brier score.
+**Key differentiator:** NERAI publishes its forecast validation scores (MASE 0.85-0.95). Unlike most risk providers who claim accuracy, NERAI proves it - ask your current vendor for their Brier score.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "New Skills Discovered — June 28, 2026 (Update 2)"
-description: "9 new skills discovered — sundial-org OpenClaw collection (news-summary, ffmpeg-video-editor, Jina Reader, reminders, proactive agent, topic monitor"
+title: "New Skills Discovered - June 28, 2026 (Update 2)"
+description: "9 new skills discovered - sundial-org OpenClaw collection (news-summary, ffmpeg-video-editor, Jina Reader, reminders, proactive agent, topic monitor"
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026-update2/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 28, 2026 (Update 2)
+# New Skills Discovered - June 28, 2026 (Update 2)
 
 Sweep date: **June 28, 2026 (evening)** | Source: [skills.sh API](https://skills.sh) | Method: 14-term query sweep → precise cross-reference against all existing catalog
 
-**Summary:** 9 new skills discovered — complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) (3 skills) and [afternoon update](/hermes/skills/marketplace/new-june28-2026-update/) (17 skills). This sweep covers the **sundial-org/awesome-openclaw-skills** collection (7 skills), plus an aradotso marketing automation skill and a prompt-security audit watchdog.
+**Summary:** 9 new skills discovered - complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) (3 skills) and [afternoon update](/hermes/skills/marketplace/new-june28-2026-update/) (17 skills). This sweep covers the **sundial-org/awesome-openclaw-skills** collection (7 skills), plus an aradotso marketing automation skill and a prompt-security audit watchdog.
 
 ---
 
@@ -45,7 +45,7 @@ npx skills add sundial-org/awesome-openclaw-skills --skill news-summary
 
 ### FFmpeg Video Editor (1,208 installs)
 
-Video editing via FFmpeg from Hermes agents. Trim, concatenate, resize, add watermarks, transcode — all via skill commands.
+Video editing via FFmpeg from Hermes agents. Trim, concatenate, resize, add watermarks, transcode - all via skill commands.
 
 ```bash
 npx skills add sundial-org/awesome-openclaw-skills --skill ffmpeg-video-editor
@@ -55,7 +55,7 @@ npx skills add sundial-org/awesome-openclaw-skills --skill ffmpeg-video-editor
 
 ### Jina Reader (982 installs)
 
-Web content extraction via Jina AI's Reader API. Extracts clean markdown from any URL — bypasses paywalls, handles JS-rendered content.
+Web content extraction via Jina AI's Reader API. Extracts clean markdown from any URL - bypasses paywalls, handles JS-rendered content.
 
 ```bash
 npx skills add sundial-org/awesome-openclaw-skills --skill jina-reader
@@ -71,7 +71,7 @@ npx skills add sundial-org/awesome-openclaw-skills --skill remind-me
 
 ### Proactive Agent (599 installs)
 
-Self-triggering agent skill — the agent proactively monitors conditions and takes action without being asked. Useful for monitoring pipelines, cron health, and alert conditions.
+Self-triggering agent skill - the agent proactively monitors conditions and takes action without being asked. Useful for monitoring pipelines, cron health, and alert conditions.
 
 ```bash
 npx skills add sundial-org/awesome-openclaw-skills --skill proactive-agent
@@ -89,7 +89,7 @@ npx skills add sundial-org/awesome-openclaw-skills --skill topic-monitor
 
 ### Financial Market Analysis (524 installs)
 
-Real-time financial data analysis — stock prices, market trends, portfolio tracking.
+Real-time financial data analysis - stock prices, market trends, portfolio tracking.
 
 ```bash
 npx skills add sundial-org/awesome-openclaw-skills --skill financial-market-analysis
@@ -103,7 +103,7 @@ npx skills add sundial-org/awesome-openclaw-skills --skill financial-market-anal
 
 **Publisher:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) | **Installs:** 714
 
-Marketing automation for OpenClaw/Hermes agents — campaign management, audience targeting, content scheduling. From the same publisher behind the hermes-skills ecosystem (50+ Hermes-native skills).
+Marketing automation for OpenClaw/Hermes agents - campaign management, audience targeting, content scheduling. From the same publisher behind the hermes-skills ecosystem (50+ Hermes-native skills).
 
 ```bash
 npx skills add aradotso/marketing-skills --skill openclaw-marketing-skills

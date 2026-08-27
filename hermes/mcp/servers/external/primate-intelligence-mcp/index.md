@@ -1,6 +1,6 @@
 ---
-title: "Primate Intelligence MCP — Integration Guide"
-description: "Real-time video analysis and scene understanding for AI agents via predictive world models — register videos by URL, ask questions in plain English, get"
+title: "Primate Intelligence MCP - Integration Guide"
+description: "Real-time video analysis and scene understanding for AI agents via predictive world models - register videos by URL, ask questions in plain English, get"
 category: mcp
 tags: [mcp-server, video-analysis, content-monitoring, media-intelligence, video-understanding, agent-tools, hermes-agent]
 last_updated: 2026-07-31
@@ -9,17 +9,17 @@ robots: "index,follow"
 
 ---
 
-# Primate Intelligence MCP — Video Scene Understanding for AI Agents
+# Primate Intelligence MCP - Video Scene Understanding for AI Agents
 
 **Rating:** ★★ | **Category:** Media & Content | **Transport:** Streamable HTTP (OAuth 2.1 + Dynamic Client Registration + PKCE)
 
 ## What It Does
 
-Primate Intelligence gives AI agents the ability to watch and understand video content at scale. Register a video by URL, ask questions in plain English, and get deterministic yes/no/indeterminate answers with confidence scores and clip timestamps. Unlike AI models that hallucinate video descriptions, Primate Intelligence uses predictive world models — it builds a structured understanding of what's actually happening in each scene and answers questions against that model. The result: reliable, auditable answers about video content without watching the video yourself.
+Primate Intelligence gives AI agents the ability to watch and understand video content at scale. Register a video by URL, ask questions in plain English, and get deterministic yes/no/indeterminate answers with confidence scores and clip timestamps. Unlike AI models that hallucinate video descriptions, Primate Intelligence uses predictive world models - it builds a structured understanding of what's actually happening in each scene and answers questions against that model. The result: reliable, auditable answers about video content without watching the video yourself.
 
 ## Why Business Operators Need This
 
-Content monitoring teams spend hours manually checking competitor videos for claims, messaging changes, and compliance issues. Operations teams verifying user-generated content at scale can't watch every upload. Primate Intelligence lets your AI agent do this — "Does this competitor's product demo claim feature X?" or "Is there any adult content in these 200 user submissions?" — with deterministic answers and timestamps you can verify. For media companies, e-commerce operators monitoring competitor video content, brand safety teams, and compliance teams handling video submissions, this is a force multiplier. First MCP for AI video understanding with auditable, non-hallucinated results.
+Content monitoring teams spend hours manually checking competitor videos for claims, messaging changes, and compliance issues. Operations teams verifying user-generated content at scale can't watch every upload. Primate Intelligence lets your AI agent do this - "Does this competitor's product demo claim feature X?" or "Is there any adult content in these 200 user submissions?" - with deterministic answers and timestamps you can verify. For media companies, e-commerce operators monitoring competitor video content, brand safety teams, and compliance teams handling video submissions, this is a force multiplier. First MCP for AI video understanding with auditable, non-hallucinated results.
 
 ## Quick Start
 
@@ -64,7 +64,7 @@ Primate Intelligence exposes 10 tools with full MCP annotations:
 
 | Tool | Description |
 |------|-------------|
-| `register_video` | Register a video by URL for analysis — supports YouTube, Vimeo, and direct MP4 links |
+| `register_video` | Register a video by URL for analysis - supports YouTube, Vimeo, and direct MP4 links |
 | `ask_question` | Ask a yes/no question about the video; returns answer + confidence score + timestamp |
 | `ask_open_question` | Ask an open-ended question; returns most relevant scene + description |
 | `list_videos` | List all registered videos and their analysis status |
@@ -92,9 +92,9 @@ Alternatively, use the npm package (`npx @primate-intelligence/mcp`) for local s
 - **MCP Endpoint:** `https://api.primateintelligence.ai/mcp`
 - **npm:** `@primate-intelligence/mcp`
 
-## Verdict: ★★ — Pioneering Video Understanding for Agents
+## Verdict: ★★ - Pioneering Video Understanding for Agents
 
-Primate Intelligence is the first MCP server for AI video understanding with auditable results. The predictive world model approach — deterministic answers instead of hallucinated descriptions — sets it apart from generic vision AI. For operators who need to monitor competitor video content, verify UGC at scale, or check video compliance without manual review, this is a genuinely new capability.
+Primate Intelligence is the first MCP server for AI video understanding with auditable results. The predictive world model approach - deterministic answers instead of hallucinated descriptions - sets it apart from generic vision AI. For operators who need to monitor competitor video content, verify UGC at scale, or check video compliance without manual review, this is a genuinely new capability.
 
 **Strengths:** Deterministic yes/no/indeterminate answers (no hallucination), confidence scores and clip timestamps for audit, cross-video search, OAuth 2.1 + PKCE security, 10 well-documented tools.
 

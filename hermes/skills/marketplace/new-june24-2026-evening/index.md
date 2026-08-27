@@ -1,6 +1,6 @@
 ---
-title: June 24, 2026 (Evening) — Skills Discovery Roundup
-description: Evening sweep — 28 new Hermes repos discovered including ContextForge RAG profile, Math via Code skill, Memory Stack OS, Loop Maker, Skywork Skills Hub (18 skills), and 18+ more integrations and tools
+title: June 24, 2026 (Evening) - Skills Discovery Roundup
+description: Evening sweep - 28 new Hermes repos discovered including ContextForge RAG profile, Math via Code skill, Memory Stack OS, Loop Maker, Skywork Skills Hub (18 skills), and 18+ more integrations and tools
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june24-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 June 24, 2026 (Evening) — Skills Discovery Roundup
+# 🆕 June 24, 2026 (Evening) - Skills Discovery Roundup
 
 **28 repos discovered, 5 setup guides created. Evening sweep following the morning roundup.**
 
@@ -26,19 +26,19 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-### 1. ContextForge RAG — Installable Hermes Profile (codegraphtheory)
+### 1. ContextForge RAG - Installable Hermes Profile (codegraphtheory)
 
-A complete Hermes Agent profile for production RAG architecture — not just a single skill, but a full agent identity bundle. Built from the `hermes-profile-template`.
+A complete Hermes Agent profile for production RAG architecture - not just a single skill, but a full agent identity bundle. Built from the `hermes-profile-template`.
 
 **Bundles 5 skills:** principal-ai-architect, technical-roadmapping, production-rag-architecture, rag-evaluation-observability, agentic-workflow-issue-factory.
 
 Install with: `hermes profile install github.com/codegraphtheory/context-forge-rag --name context-forge-rag --yes`
 
-**Why it matters:** First Hermes Agent *profile* (not skill) discovered. Represents a new distribution pattern — full agent identities as installable packages. MIT licensed.
+**Why it matters:** First Hermes Agent *profile* (not skill) discovered. Represents a new distribution pattern - full agent identities as installable packages. MIT licensed.
 
 ---
 
-### 2. Math via Code — Zero Arithmetic Errors (tommulkins)
+### 2. Math via Code - Zero Arithmetic Errors (tommulkins)
 
 Hard rule: all arithmetic with 3+ numbers goes through code execution. Born from repeated financial modeling errors where LLM in-head math produced wrong numbers on SDE, P&L, and facility rollups.
 
@@ -46,17 +46,17 @@ Hard rule: all arithmetic with 3+ numbers goes through code execution. Born from
 
 ---
 
-### 3. Hermes Memory Stack — Memory OS Layer (Chukwuemeka001)
+### 3. Hermes Memory Stack - Memory OS Layer (Chukwuemeka001)
 
 228 tests across 4 remediation areas + semantic retrieval + auto-extraction + temporal versioning. The most comprehensive memory solution found in the ecosystem to date.
 
 **Components:** semantic session search, conservative auto-extraction, temporal versioning, state.db remediation, MEMORY.md audit, pointer rewrite, temporal migration.
 
-**Why it matters:** Addresses a universal Hermes Agent pain point — memory overload and state.db bloat. 19KB README with production-ready tooling. Apache-2.0 licensed.
+**Why it matters:** Addresses a universal Hermes Agent pain point - memory overload and state.db bloat. 19KB README with production-ready tooling. Apache-2.0 licensed.
 
 ---
 
-### 4. Loop Maker — Cross-Harness Loop Scaffolding (EricTechPro)
+### 4. Loop Maker - Cross-Harness Loop Scaffolding (EricTechPro)
 
 7-question wizard that interviews you and outputs a ready-to-run loop folder (SKILL.md + STATE.md + verifier.py + stop conditions). Works across Claude Code, Codex, Hermes, and OpenClaw.
 
@@ -74,21 +74,21 @@ Two-part system:
 
 The hub includes skills for: animations, architecture design, artifacts building, content marketing, PRD creation, data science, design extraction, frontend design, marketing psychology, short drama writing, stock market analysis, APA papers, business analysis reports, competitive analysis, legal agreements, web design, YouTube watching, and repo management.
 
-**Why it matters:** Largest single-author Hermes skill collection discovered (18 skills). The submodule pattern is novel — enables monorepo-style management of distributed skill repos.
+**Why it matters:** Largest single-author Hermes skill collection discovered (18 skills). The submodule pattern is novel - enables monorepo-style management of distributed skill repos.
 
 ---
 
 ## 📋 Full Discovery List (28 repos)
 
-### Skills & Profiles (5 repos — setup guides created)
+### Skills & Profiles (5 repos - setup guides created)
 
 | Repo | Notes |
 |------|-------|
-| `codegraphtheory/context-forge-rag` | ✅ Setup guide — Hermes profile for RAG |
-| `tommulkins/hermes-skill-math-via-code` | ✅ Setup guide — arithmetic via code |
-| `Chukwuemeka001/hermes-memory-stack` | ✅ Setup guide — memory OS (228 tests) |
-| `EricTechPro/loop-maker` | ✅ Setup guide — cross-harness loop tool |
-| `Victor-F-M-A-R/skywork-skill-skill-repo-manager` | ✅ Setup guide — skill repo management |
+| `codegraphtheory/context-forge-rag` | ✅ Setup guide - Hermes profile for RAG |
+| `tommulkins/hermes-skill-math-via-code` | ✅ Setup guide - arithmetic via code |
+| `Chukwuemeka001/hermes-memory-stack` | ✅ Setup guide - memory OS (228 tests) |
+| `EricTechPro/loop-maker` | ✅ Setup guide - cross-harness loop tool |
+| `Victor-F-M-A-R/skywork-skill-skill-repo-manager` | ✅ Setup guide - skill repo management |
 
 ### Collections & Hubs (1 repo)
 
@@ -100,7 +100,7 @@ The hub includes skills for: animations, architecture design, artifacts building
 
 | Repo | Description |
 |------|-------------|
-| `dhoman/dockter-hermes` | ⭐1 — Docker + Tailscale configs for Hermes |
+| `dhoman/dockter-hermes` | ⭐1 - Docker + Tailscale configs for Hermes |
 | `Sanjeever/hermes-dock` | Wails desktop launcher for Hermes Docker |
 | `LIDASHUN88/cookiecutter-hermes-workspace` | Cookiecutter template: constitution layer + .devlog/ skeleton |
 | `Christian-Starcke/code-server-hermes-railway` | code-server + Hermes ACP on Railway |
@@ -125,7 +125,7 @@ The hub includes skills for: animations, architecture design, artifacts building
 
 | Repo | Description |
 |------|-------------|
-| `Phill93/hermes-mqtt-agentpet` | MQTT bridge — Blacky status, menubar, AgentPet |
+| `Phill93/hermes-mqtt-agentpet` | MQTT bridge - Blacky status, menubar, AgentPet |
 
 ### Config & Community (3 repos)
 
@@ -142,7 +142,7 @@ The hub includes skills for: animations, architecture design, artifacts building
 | `XFSeven7/cursor2api` | Cursor CLI → OpenAI API bridge (for Hermes/OpenClaw) |
 | `octer-ai/octer-shell` | Shell scripts for Octer.ai model on Hermes |
 
-### OpenClaw-Topic (2 repos — noted, not Hermes-native)
+### OpenClaw-Topic (2 repos - noted, not Hermes-native)
 
 | Repo | Description |
 |------|-------------|

@@ -1,5 +1,5 @@
 ---
-title: Social Content — Multi-Platform Social Media Creation for Hermes
+title: Social Content - Multi-Platform Social Media Creation for Hermes
 description: Create, schedule, and optimize social media content for LinkedIn, X/Twitter, Instagram, TikTok, Facebook. Covers carousels, threads, short-form video, social listening, and engagement. 38.5K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/social-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Social Content — Setup Guide
+# Social Content - Setup Guide
 
 **Source:** [coreyhaines31/marketingskills](https://skills.sh/coreyhaines31/marketingskills/social) (38,500+ installs)
 **Category:** Growth / Social Media
@@ -64,12 +64,12 @@ npx skills add coreyhaines31/marketingskills --skill social
 
 When invoked, the skill guides through:
 
-1. **Goal Setting** — Brand awareness, leads, traffic, or community?
-2. **Audience Analysis** — Platform demographics, content preferences
-3. **Brand Voice** — Professional, casual, witty, or authoritative?
-4. **Content Creation** — Platform-optimized posts with hooks and CTAs
-5. **Scheduling** — Optimal posting times per platform
-6. **Social Listening** — Brand mentions, competitor monitoring, engagement opportunities
+1. **Goal Setting** - Brand awareness, leads, traffic, or community?
+2. **Audience Analysis** - Platform demographics, content preferences
+3. **Brand Voice** - Professional, casual, witty, or authoritative?
+4. **Content Creation** - Platform-optimized posts with hooks and CTAs
+5. **Scheduling** - Optimal posting times per platform
+6. **Social Listening** - Brand mentions, competitor monitoring, engagement opportunities
 
 ---
 
@@ -111,10 +111,10 @@ tvly search "competitor_name review OR alternative" --time-range week --json
 
 ## Tips
 
-- Hooks determine 80% of engagement — spend 50% of creation time on the first line
+- Hooks determine 80% of engagement - spend 50% of creation time on the first line
 - Carousels and document posts outperform text-only on LinkedIn by 3-5x
-- Reply to relevant conversations before posting — engagement earns reach
-- One strong take per post — multiple ideas dilute the message
+- Reply to relevant conversations before posting - engagement earns reach
+- One strong take per post - multiple ideas dilute the message
 - Video content: first 3 seconds determine whether they keep watching
 
 ---
@@ -123,7 +123,7 @@ tvly search "competitor_name review OR alternative" --time-range week --json
 
 | Issue | Solution |
 |---|---|
-| Low engagement | Audit hooks — are they specific, emotional, or counterintuitive? |
+| Low engagement | Audit hooks - are they specific, emotional, or counterintuitive? |
 | Zero reach | Check for shadowbans, platform restrictions, or algorithm changes |
 | Content fatigue | Repurpose top performers in new formats instead of creating from scratch |
 | Inconsistent posting | Build a 2-week content buffer before starting daily posting |
@@ -132,6 +132,6 @@ tvly search "competitor_name review OR alternative" --time-range week --json
 
 ## See Also
 
-- Content Strategy Setup — Content strategy planning (companion skill)
-- [Postiz](https://postiz.com) — Open-source social media scheduling tool
-- [Buffer Social Media Guide](https://buffer.com/library/social-media-strategy) — Social media strategy for brands
+- Content Strategy Setup - Content strategy planning (companion skill)
+- [Postiz](https://postiz.com) - Open-source social media scheduling tool
+- [Buffer Social Media Guide](https://buffer.com/library/social-media-strategy) - Social media strategy for brands

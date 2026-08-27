@@ -12,7 +12,7 @@ Stop screenshotting Klaviyo dashboards to paste into ChatGPT. CorpusIQ connects 
 
 ## How to connect Klaviyo to ChatGPT
 
-1. Sign up at corpusiq.io — free 30-day trial
+1. Sign up at corpusiq.io - free 30-day trial
 2. Click Connections then Klaviyo then paste your private API key
 3. In ChatGPT, connect the CorpusIQ MCP server
 4. Ask your first question
@@ -21,9 +21,9 @@ Stop screenshotting Klaviyo dashboards to paste into ChatGPT. CorpusIQ connects 
 
 ## Why not just use Klaviyo analytics?
 
-Klaviyo shows email metrics. CorpusIQ shows what your email did to your business — revenue, Shopify orders, ad spend correlation — all in one answer.
+Klaviyo shows email metrics. CorpusIQ shows what your email did to your business - revenue, Shopify orders, ad spend correlation - all in one answer.
 
-"Did our last campaign drive more Shopify revenue than our best Google Ads campaign this month?" — one question, answered across both platforms.
+"Did our last campaign drive more Shopify revenue than our best Google Ads campaign this month?" - one question, answered across both platforms.
 
 [Connect Klaviyo to ChatGPT free](https://www.corpusiq.io)
 ---

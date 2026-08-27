@@ -10,22 +10,22 @@ tags: [sanctions, ofac, compliance, aml, kyc, fintech]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sanctions-screening-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "MCP server for OFAC, EU, UK, and UN sanctions screening. Hosted on MCPize. Enables AI agents to perform compliance checks directly — essential for fintech."
+description: "MCP server for OFAC, EU, UK, and UN sanctions screening. Hosted on MCPize. Enables AI agents to perform compliance checks directly - essential for fintech."
 
 ---
 
 # Sanctions Screening MCP Server
 
-MCP server for **OFAC, EU, UK, and UN sanctions screening**. Hosted on MCPize. Enables AI agents to perform compliance checks directly — essential for fintech AML/KYC workflows, payment processors, and any business handling international transactions.
+MCP server for **OFAC, EU, UK, and UN sanctions screening**. Hosted on MCPize. Enables AI agents to perform compliance checks directly - essential for fintech AML/KYC workflows, payment processors, and any business handling international transactions.
 
 ## What It Does
 
 Sanctions screening is legally required for financial services. This MCP server wraps consolidated sanctions lists into agent-callable tools:
 
-- **OFAC** — US Treasury Office of Foreign Assets Control (SDN list)
-- **EU Consolidated List** — European Union sanctions
-- **UK Sanctions List** — HM Treasury / OFSI
-- **UN Security Council** — United Nations consolidated sanctions
+- **OFAC** - US Treasury Office of Foreign Assets Control (SDN list)
+- **EU Consolidated List** - European Union sanctions
+- **UK Sanctions List** - HM Treasury / OFSI
+- **UN Security Council** - United Nations consolidated sanctions
 
 ## Business Operator Use Cases
 
@@ -38,7 +38,7 @@ Sanctions screening is legally required for financial services. This MCP server 
 
 ## Installation
 
-Hosted on **MCPize** — no local install required. Connect directly:
+Hosted on **MCPize** - no local install required. Connect directly:
 
 ```json
 {
@@ -61,19 +61,19 @@ npm install
 
 ## Tools Provided
 
-- `screen_individual` — Screen a person/entity by name against all lists
-- `screen_batch` — Batch screen multiple entities
-- `check_ofac` — OFAC-specific screening
-- `check_eu` — EU-specific screening
-- `check_uk` — UK-specific screening
-- `check_un` — UN-specific screening
+- `screen_individual` - Screen a person/entity by name against all lists
+- `screen_batch` - Batch screen multiple entities
+- `check_ofac` - OFAC-specific screening
+- `check_eu` - EU-specific screening
+- `check_uk` - UK-specific screening
+- `check_un` - UN-specific screening
 
 ## Limitations
 
-- **0 stars, brand new** — Created July 22, 2026. Not proven.
-- **Hosted on MCPize** — Third-party dependency. Data goes through their infra.
-- **No watchlist monitoring** — One-time screening only. No ongoing monitoring.
-- **Regulatory gap** — Sanctions screening results must be reviewed by humans for regulatory compliance. Agent-only screening is insufficient for audit.
+- **0 stars, brand new** - Created July 22, 2026. Not proven.
+- **Hosted on MCPize** - Third-party dependency. Data goes through their infra.
+- **No watchlist monitoring** - One-time screening only. No ongoing monitoring.
+- **Regulatory gap** - Sanctions screening results must be reviewed by humans for regulatory compliance. Agent-only screening is insufficient for audit.
 
 ## Operator Verdict
 

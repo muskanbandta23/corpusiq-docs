@@ -1,6 +1,6 @@
 ---
 name: "twocents MCP"
-description: "Human feedback for AI agents — share pages and collect structured feedback. twocents gives direct channel request feedback. can generated content, designs,."
+description: "Human feedback for AI agents - share pages and collect structured feedback. twocents gives direct channel request feedback. can generated content, designs,."
 category: "Productivity"
 source: "mcp.so"
 discovered: "2026-07-23"
@@ -10,26 +10,26 @@ remote_endpoint: "https://twocents.page/mcp"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/twocents-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "twocents MCP — Human Feedback Loop for AI Agents"
+title: "twocents MCP - Human Feedback Loop for AI Agents"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# twocents MCP — Human Feedback Loop for AI Agents
+# twocents MCP - Human Feedback Loop for AI Agents
 
 twocents gives AI agents a direct channel to request human feedback. Agents can share generated content, designs, or proposals via a simple web page, and humans can leave structured feedback that flows back into the agent's context.
 
 ## What It Does
 
-- **Share pages** — Agent creates a simple, shareable web page with content for review
-- **Collect feedback** — Humans leave comments, approvals, or revision requests
-- **Structured feedback** — Feedback can be structured (approve/reject/revise) or freeform
-- **Remote MCP** — Works as a remote endpoint, no local install needed
+- **Share pages** - Agent creates a simple, shareable web page with content for review
+- **Collect feedback** - Humans leave comments, approvals, or revision requests
+- **Structured feedback** - Feedback can be structured (approve/reject/revise) or freeform
+- **Remote MCP** - Works as a remote endpoint, no local install needed
 
 ## Quick Start
 
 ```bash
-# Remote endpoint — no local install
+# Remote endpoint - no local install
 hermes mcp add twocents --url https://twocents.page/mcp
 
 # Or Claude Code
@@ -49,10 +49,10 @@ claude mcp add twocents --url https://twocents.page/mcp
 
 ## Use Cases
 
-- **Content review** — Agent drafts a blog post, shares it via twocents, PM reviews and approves
-- **Design feedback** — Agent generates UI mockups → shares → designer leaves pixel-level feedback
-- **Decision gates** — Agent proposes architecture decision → shares for team vote → proceeds on approval
-- **Client review** — Agent drafts deliverables → shares with client → incorporates feedback in next iteration
+- **Content review** - Agent drafts a blog post, shares it via twocents, PM reviews and approves
+- **Design feedback** - Agent generates UI mockups → shares → designer leaves pixel-level feedback
+- **Decision gates** - Agent proposes architecture decision → shares for team vote → proceeds on approval
+- **Client review** - Agent drafts deliverables → shares with client → incorporates feedback in next iteration
 
 ## Hermes Agent Integration
 
@@ -66,7 +66,7 @@ page = mcp_twocents_share_page(
 # Later: check for feedback
 feedback = mcp_twocents_get_feedback(page_id=page.id)
 if feedback.status == "approved":
-    print("Calendar approved — proceeding with scheduling")
+    print("Calendar approved - proceeding with scheduling")
 ```
 
 ---

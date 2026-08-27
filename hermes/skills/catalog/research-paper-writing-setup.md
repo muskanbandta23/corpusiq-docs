@@ -1,6 +1,6 @@
 ---
-title: Research Paper Writing Pipeline — Hermes Skill Setup Guide
-description: Install and configure research-paper-writing, the official Hermes Agent skill for end-to-end ML/AI research paper production targeting NeurIPS, ICML, ICLR, ACL, AAAI, and COLM — 396 installs.
+title: Research Paper Writing Pipeline - Hermes Skill Setup Guide
+description: Install and configure research-paper-writing, the official Hermes Agent skill for end-to-end ML/AI research paper production targeting NeurIPS, ICML, ICLR, ACL, AAAI, and COLM - 396 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/research-paper-writing-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Research Paper Writing Pipeline — Setup Guide
+# Research Paper Writing Pipeline - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/research-paper-writing) (396 installs)
 **Originally from:** [master-cai/research-paper-writing-skills](https://skills.sh/master-cai/research-paper-writing-skills/research-paper-writing)
@@ -18,7 +18,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 End-to-end pipeline for producing publication-ready ML/AI research papers targeting top venues: **NeurIPS, ICML, ICLR, ACL, AAAI, and COLM**. Covers the full research lifecycle: experiment design, execution, monitoring, analysis, paper writing, review, revision, and submission.
 
-⚠️ This is **not a linear pipeline** — it is an iterative loop. Results trigger new experiments. Reviews trigger new analysis. The agent must handle these feedback loops.
+⚠️ This is **not a linear pipeline** - it is an iterative loop. Results trigger new experiments. Reviews trigger new analysis. The agent must handle these feedback loops.
 
 ---
 
@@ -73,7 +73,7 @@ cp -r /tmp/hermes-agent/skills/research/research-paper-writing ~/.hermes/skills/
 | Hermes Agent | v0.20.0+ |
 | Python | 3.10+ with numpy, scipy, matplotlib |
 | LaTeX | texlive-full (recommended for PDF output) |
-| GPU access | Optional — for experiment execution |
+| GPU access | Optional - for experiment execution |
 
 ---
 
@@ -91,7 +91,7 @@ The agent should walk through hypothesis formulation, experimental design, and s
 
 ## Pitfalls
 
-- **Iterative, not linear:** The pipeline loops. Don't expect a one-pass paper — expect rounds of experiment → analyze → revise.
+- **Iterative, not linear:** The pipeline loops. Don't expect a one-pass paper - expect rounds of experiment → analyze → revise.
 - **LaTeX dependency:** PDF output requires a working LaTeX installation (`texlive` or `miktex`).
 - **Venue-specific formatting:** Each venue has strict formatting requirements. Verify the template version before submission.
 - **Snyk warning:** The skill carries a SnykWarn security audit. Review before use in sensitive research environments.

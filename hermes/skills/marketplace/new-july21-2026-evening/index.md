@@ -1,5 +1,5 @@
 ---
-title: "New Skills — July 21, 2026 Marketplace Sweep (Evening)"
+title: "New Skills - July 21, 2026 Marketplace Sweep (Evening)"
 description: "7 additional Hermes-relevant skills discovered on skills.sh in evening sweep. 33.5K+ combined installs across the new batch. Evening sweep supplementing"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july21-2026-evening/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 21, 2026 (Evening)
+# New Skills - July 21, 2026 (Evening)
 
 Additional skills discovered during the July 21 evening marketplace sweep. 7 new setup guides created for Hermes agents. This supplements the morning sweep (10 skills, 458K installs) and afternoon sweep (6 skills, 12.3K installs).
 
@@ -54,9 +54,9 @@ Additional skills discovered during the July 21 evening marketplace sweep. 7 new
 
 ## Notes
 
-- **self-improving-agent** (32.2K installs) is the standout discovery — a universal agent self-evolution framework based on 2025 lifelong learning research. Uses multi-memory architecture (semantic + episodic + working) with hooks-based self-correction.
+- **self-improving-agent** (32.2K installs) is the standout discovery - a universal agent self-evolution framework based on 2025 lifelong learning research. Uses multi-memory architecture (semantic + episodic + working) with hooks-based self-correction.
 - **hermes-webui-agent** and **hermes-workspace-ai-agent-ui** extend the Hermes agent UI ecosystem with two different approaches: WebUI (lightweight Flask, daemon-managed) and Workspace (Next.js, swarm-enabled, full IDE-like experience).
-- **hermes-traffic-guardian** is a specification-only skill (v0.0.1-beta5) from Prompt Security — builders implement the runtime. Currently a baseline for Hermes security posture integration.
+- **hermes-traffic-guardian** is a specification-only skill (v0.0.1-beta5) from Prompt Security - builders implement the runtime. Currently a baseline for Hermes security posture integration.
 - **codex-mcp-server-integration** bridges OpenAI Codex CLI into MCP-compatible editors, enabling AI code review and generation without leaving Hermes.
 - These 7 skills were discovered using `npx skills find` with 16 targeted queries across Hermes, OpenClaw, MCP, security, and marketing domains.
 - Total catalog now covers 347+ Hermes-relevant skills from skills.sh and community sources. Today's three sweeps (morning, afternoon, evening) added 23 total new setup guides.

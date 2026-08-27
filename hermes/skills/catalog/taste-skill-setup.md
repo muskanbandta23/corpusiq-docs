@@ -1,6 +1,6 @@
 ---
-title: "taste-skill — Design-to-Code & AI Image Generation for"
-description: Install and use leonxlnx/taste-skill — convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and accessibility-first output.
+title: "taste-skill - Design-to-Code & AI Image Generation for"
+description: Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and accessibility-first output.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# taste-skill — Setup Guide
+# taste-skill - Setup Guide
 
 **Source:** [leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill) (156,100 installs)
 **Category:** Design / Image Generation
@@ -44,7 +44,7 @@ npx skills list | grep taste-skill
 |---|---|
 | **Node.js** | 18+ |
 | **Hermes Agent** | Any version |
-| **Design system** | Optional — provide existing tokens for consistent output |
+| **Design system** | Optional - provide existing tokens for consistent output |
 | **AI model access** | OpenAI API key (GPT-4o) or Anthropic API key (Claude) |
 
 ---
@@ -140,7 +140,7 @@ When design tokens are provided, generated code respects:
 # Refine generated output with natural language
 taste refine \
   --target "src/pages/LandingPage.tsx" \
-  --change "Make the CTA button more prominent — increase size, add subtle glow animation"
+  --change "Make the CTA button more prominent - increase size, add subtle glow animation"
 
 taste refine \
   --target "src/app/dashboard/" \
@@ -169,7 +169,7 @@ taste image-to-code \
 # Generate 3 landing page variants for A/B testing
 for variant in "benefit-focused" "feature-focused" "social-proof"; do
   taste imagegen-web \
-    --prompt "CorpusIQ landing page: hero, features, testimonials, pricing, footer — $variant variant" \
+    --prompt "CorpusIQ landing page: hero, features, testimonials, pricing, footer - $variant variant" \
     --output "ab-tests/landing-$variant/"
 done
 ```
@@ -226,14 +226,14 @@ Generated code automatically includes:
 | Colors don't match brand | No design tokens provided | Pass `--design-tokens "tokens/colors.json"` with brand colors |
 | Mobile UI doesn't look native | Wrong framework specified | Use `--framework "react-native"` for native look or `"flutter"` for Material |
 | Output has accessibility issues | AI model hallucinating ARIA | Run `taste audit-a11y --target "output/"` for automatic fixes |
-| Generation takes 30+ seconds | Large/complex prompt | Break into smaller components (header, hero, features — separately) |
+| Generation takes 30+ seconds | Large/complex prompt | Break into smaller components (header, hero, features - separately) |
 | Tailwind classes conflict | Multiple generations in same project | Use `--prefix "tw-"` to namespace Tailwind classes |
 
 ---
 
 ## See Also
 
-- [skill-creator](/hermes/skills/catalog/skill-creator-setup/) — Anthropic's skill creation framework (317K installs)
-- [remotion-best-practices](/hermes/skills/catalog/remotion-best-practices-setup/) — Programmatic video with React (430K installs)
-- [apify-agent-skills](/hermes/skills/catalog/apify-agent-skills-setup/) — Web scraping for competitive research
-- [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup/) — Market research automation
+- [skill-creator](/hermes/skills/catalog/skill-creator-setup/) - Anthropic's skill creation framework (317K installs)
+- [remotion-best-practices](/hermes/skills/catalog/remotion-best-practices-setup/) - Programmatic video with React (430K installs)
+- [apify-agent-skills](/hermes/skills/catalog/apify-agent-skills-setup/) - Web scraping for competitive research
+- [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup/) - Market research automation

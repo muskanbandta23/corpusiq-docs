@@ -1,5 +1,5 @@
 ---
-title: Minions Hermes Mission Control — Multi-Agent Coordination Setup Guide
+title: Minions Hermes Mission Control - Multi-Agent Coordination Setup Guide
 description: Install and configure Minions Hermes Mission Control for coordinating swarms of Hermes agents with shared task boards and real-time progress tracking.
 publisher: aradotso/hermes-skills
 installs: 173
@@ -11,9 +11,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Minions Hermes Mission Control — Multi-Agent Coordination Setup Guide
+# Minions Hermes Mission Control - Multi-Agent Coordination Setup Guide
 
-Minions Hermes Mission Control is a multi-agent coordination dashboard for Hermes. Dispatch tasks to swarms of agents, track progress on shared boards, and aggregate results — all from a single control interface.
+Minions Hermes Mission Control is a multi-agent coordination dashboard for Hermes. Dispatch tasks to swarms of agents, track progress on shared boards, and aggregate results - all from a single control interface.
 
 **Publisher:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)  
 **Source:** skills.sh  
@@ -115,9 +115,9 @@ hermes skill invoke minions-hermes-mission-control --board trends-research --sta
 ```
 Board: trends-research | 3 tasks | Updated: 2s ago
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ corpusiq-growth/search-social    — Done (42s)
-🔄 corpusiq-growth/analyze-papers   — Running (18s elapsed)
-⏳ corpusiq-research/web-scrape     — Queued
+✅ corpusiq-growth/search-social    - Done (42s)
+🔄 corpusiq-growth/analyze-papers   - Running (18s elapsed)
+⏳ corpusiq-research/web-scrape     - Queued
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -199,9 +199,9 @@ hermes skill invoke minions-hermes-mission-control --board test-board --aggregat
 
 ## Related Skills
 
-- [Blueprint Orchestration](/hermes/skills/catalog/blueprint-orchestration-setup/) — Multi-agent blueprint methodology
-- [Oh-My-Hermes Workflow](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) — Workflow framework
-- [CorpusIQ Supervisor Agent](/hermes/skills/catalog/) — Wave dispatch and swarm coordination
+- [Blueprint Orchestration](/hermes/skills/catalog/blueprint-orchestration-setup/) - Multi-agent blueprint methodology
+- [Oh-My-Hermes Workflow](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) - Workflow framework
+- [CorpusIQ Supervisor Agent](/hermes/skills/catalog/) - Wave dispatch and swarm coordination
 
 ---
 

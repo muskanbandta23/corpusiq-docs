@@ -1,6 +1,6 @@
 ---
 title: "Datadog MCP Server - CorpusIQ Docs"
-description: Official Datadog MCP server bridging observability data — APM, logs, metrics, monitors, dashboards, and security signals — into any MCP-capable AI agent.
+description: Official Datadog MCP server bridging observability data - APM, logs, metrics, monitors, dashboards, and security signals - into any MCP-capable AI agent.
 category: DevOps
 stars: n/a (no public repo for the server)
 added: 2026-08-15
@@ -11,7 +11,7 @@ tags: [observability, monitoring, apm, logs, metrics, dashboards, security-signa
 
 # Datadog MCP Server
 
-**Remote MCP server (Streamable HTTP, OAuth)** — the official Datadog MCP Server bridges observability data into AI agents: APM traces, logs, metrics, monitors, dashboards, and security signals, with context efficiency built in (truncation, per-tool `max_tokens`, and connection-time toolset selection). Every MCP action is recorded in Datadog's own Audit Trail.
+**Remote MCP server (Streamable HTTP, OAuth)** - the official Datadog MCP Server bridges observability data into AI agents: APM traces, logs, metrics, monitors, dashboards, and security signals, with context efficiency built in (truncation, per-tool `max_tokens`, and connection-time toolset selection). Every MCP action is recorded in Datadog's own Audit Trail.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: Datadog (docs.datadoghq.com/mcp_server)
 
 Incident response today means a human tabbing between dashboards while an agent that already knows the incident context sits idle. The Datadog MCP Server puts the observability stack inside the agent loop: the agent that detected the anomaly can pull the traces, correlate the logs, check the monitors, and propose the fix without a hand-off.
 
-**The mechanism that matters is the built-in context discipline** — responses truncate with instructions for requesting more, most tools accept `max_tokens`, and you can limit tools at connection time with `toolsets` and `omit_tools`, so the agent pays for signal, not dashboards.
+**The mechanism that matters is the built-in context discipline** - responses truncate with instructions for requesting more, most tools accept `max_tokens`, and you can limit tools at connection time with `toolsets` and `omit_tools`, so the agent pays for signal, not dashboards.
 
 ## Tools & Capabilities
 
@@ -48,7 +48,7 @@ Incident response today means a human tabbing between dashboards while an agent 
 curl -fsSL https://coterm.datadoghq.com/mcp-cli/install.sh | sh
 ```
 
-Per-client walkthroughs (Cursor, Claude Code, Codex, Gemini CLI, VS Code, Warp, Devin, JetBrains, Goose, and more) live at docs.datadoghq.com/mcp_server/setup.md. A separate local-only Code Security MCP server exists for SAST/SCA/secrets/IaC/SBOM scans — only direct users there if they ask for local code scanning.
+Per-client walkthroughs (Cursor, Claude Code, Codex, Gemini CLI, VS Code, Warp, Devin, JetBrains, Goose, and more) live at docs.datadoghq.com/mcp_server/setup.md. A separate local-only Code Security MCP server exists for SAST/SCA/secrets/IaC/SBOM scans - only direct users there if they ask for local code scanning.
 
 ## Configuration
 
@@ -57,7 +57,7 @@ Per-client walkthroughs (Cursor, Claude Code, Codex, Gemini CLI, VS Code, Warp, 
   "mcpServers": {
     "datadog": {
       "type": "http",
-      "url": "<your Datadog MCP endpoint — provisioned by the coterm CLI OAuth flow>"
+      "url": "<your Datadog MCP endpoint - provisioned by the coterm CLI OAuth flow>"
     }
   }
 }
@@ -74,7 +74,7 @@ Auth notes: connection flows through Datadog OAuth (organization-scoped, respect
 
 ## Integration with CorpusIQ
 
-Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow: the agent pulls cost anomalies from the catalogued multi-cloud FinOps tooling, then uses Datadog MCP to pull the metrics and traces behind the spike — attribution and explanation in one loop. For CorpusIQ-agent operators, Datadog's Audit Trail plus the MCP usage metrics give the same governance visibility over agent tool calls that CorpusIQ connectors give over business data, and the Stripe connector can reconcile any Datadog usage billing changes against actual charges.
+Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow: the agent pulls cost anomalies from the catalogued multi-cloud FinOps tooling, then uses Datadog MCP to pull the metrics and traces behind the spike - attribution and explanation in one loop. For CorpusIQ-agent operators, Datadog's Audit Trail plus the MCP usage metrics give the same governance visibility over agent tool calls that CorpusIQ connectors give over business data, and the Stripe connector can reconcile any Datadog usage billing changes against actual charges.
 
 ## Limitations
 
@@ -82,7 +82,7 @@ Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow
 - Fair-use limits (50 requests/10 seconds, 50K monthly tool calls) are vendor-set and subject to change
 - Requires an active Datadog account and organization RBAC setup
 - Usage data (including user prompts) is collected and stored 120 days
-- Under significant development — the vendor runs a public feedback form for gaps
+- Under significant development - the vendor runs a public feedback form for gaps
 
 ## See Also
 

@@ -28,21 +28,21 @@ Built by: Aryan418-dev (MCPGRAM)
 
 Operators today wire each business app into each agent separately: one OAuth flow for Slack, another for Salesforce, another for GitHub. MCPGRAM collapses that into one consent screen and one token per workspace. The isolation design is the key safety property: each user's OAuth token only carries their own selected workspace API key, so one agent session cannot silently reach another tenant's tools.
 
-For operators running multiple client workspaces or internal teams, this means a single gateway to configure and audit — the consent flow records which workspace an agent was granted access to, instead of scattering API keys across client config files.
+For operators running multiple client workspaces or internal teams, this means a single gateway to configure and audit - the consent flow records which workspace an agent was granted access to, instead of scattering API keys across client config files.
 
 ## Tools & Capabilities
 
 | Capability | What it does |
 |---|---|
 | Multi-app gateway | Connects Slack, GitHub, Google, Salesforce, and 30+ apps through one endpoint |
-| OAuth 2.1 flow | Built-in DCR, PKCE, authorize, token, and revoke endpoints — no external Auth0/WorkOS dependency |
+| OAuth 2.1 flow | Built-in DCR, PKCE, authorize, token, and revoke endpoints - no external Auth0/WorkOS dependency |
 | Workspace consent | Consent selects the workspace; tokens bind to that workspace's API key |
 | Token isolation | Each user's token only carries their own workspace key |
 | Dual paths | OAuth for Claude/Cursor; bearer workspace API key for HTTP clients |
 
 ## Installation
 
-OAuth path (Claude, Cursor — the client discovers authorization on the same origin):
+OAuth path (Claude, Cursor - the client discovers authorization on the same origin):
 
 ```json
 {
@@ -73,7 +73,7 @@ Smithery install: `npx -y smithery mcp add aaryanverma4326/Mcpgram`
 
 ## Configuration
 
-Self-hosting the gateway requires the full OAuth environment: `MCP_PUBLIC_URL`, `OAUTH_JWT_SECRET`, Supabase URL/anon key/service key, and `MCPGRAM_BASE_URL` pointing at the MCPGRAM API. The hosted deployment at mcpgram-mcp-server.vercel.app needs none of this — connect and consent.
+Self-hosting the gateway requires the full OAuth environment: `MCP_PUBLIC_URL`, `OAUTH_JWT_SECRET`, Supabase URL/anon key/service key, and `MCPGRAM_BASE_URL` pointing at the MCPGRAM API. The hosted deployment at mcpgram-mcp-server.vercel.app needs none of this - connect and consent.
 
 Repository: `github.com/Aryan418-dev/mcpgram-mcp-server` (server) and `github.com/Aryan418-dev/mcpgram-dashboard` (dashboard). No license file declared on either repository at time of cataloguing (checked Aug 19, 2026).
 
@@ -86,19 +86,19 @@ Repository: `github.com/Aryan418-dev/mcpgram-mcp-server` (server) and `github.co
 
 ## Integration with CorpusIQ
 
-MCPGRAM is the app-connectivity layer; CorpusIQ is the business-data layer. An operator can run both in one agent session: CorpusIQ for financials, CRM records, and marketing data across 40+ connectors, MCPGRAM for the workspace tools those same teams live in — Slack threads, GitHub repos, Salesforce objects — then join the two on customer or project identifiers. They overlap on Salesforce and Google: use CorpusIQ when you need structured analytics across connectors, MCPGRAM when you need the raw app surface.
+MCPGRAM is the app-connectivity layer; CorpusIQ is the business-data layer. An operator can run both in one agent session: CorpusIQ for financials, CRM records, and marketing data across 40+ connectors, MCPGRAM for the workspace tools those same teams live in - Slack threads, GitHub repos, Salesforce objects - then join the two on customer or project identifiers. They overlap on Salesforce and Google: use CorpusIQ when you need structured analytics across connectors, MCPGRAM when you need the raw app surface.
 
 ## Limitations
 
 - New listing (Aug 2026), zero-star repositories, no track record
-- No license declared on either repository — review before commercial use
+- No license declared on either repository - review before commercial use
 - Tool surface depends on which apps the workspace has connected
 - Hosted endpoints are third-party dependencies; self-hosting requires a Supabase-backed OAuth stack
 - Pricing for the hosted gateway is not published in the docs
 
 ## See Also
 
-- [WaveSpeed MCP — Media Generation](/hermes/mcp/servers/external/wavespeed-mcp/)
-- [SYNTHORA MCP — Verified Multi-Source Intelligence](/hermes/mcp/servers/external/synthora-mcp/)
+- [WaveSpeed MCP - Media Generation](/hermes/mcp/servers/external/wavespeed-mcp/)
+- [SYNTHORA MCP - Verified Multi-Source Intelligence](/hermes/mcp/servers/external/synthora-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

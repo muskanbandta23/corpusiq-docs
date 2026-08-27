@@ -9,13 +9,13 @@ robots: "index,follow"
 
 ---
 
-# Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5–20/Month
+# Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5-20/Month
 
 Run Hermes Agent 24/7 on a cloud VPS for always-on AI automation at minimal cost. No hardware to maintain, no electricity bill, and your agent stays online even when your laptop is off. This cloud VPS setup guide covers provisioning, model configuration, cron persistence, and security hardening.
 
 ## Overview
 
-A cloud VPS is the best budget option for always-on Hermes Agent operation. For $5–20/month you get a Linux server that runs 24/7 with built-in uptime guarantees. Use API-based models (OpenRouter for 200+ models including free-tier options) since VPS instances don't have GPUs.
+A cloud VPS is the best budget option for always-on Hermes Agent operation. For $5-20/month you get a Linux server that runs 24/7 with built-in uptime guarantees. Use API-based models (OpenRouter for 200+ models including free-tier options) since VPS instances don't have GPUs.
 
 ## How It Works
 
@@ -153,7 +153,7 @@ sudo apt install unattended-upgrades
 ## Benefits
 
 - **Always-on**: 24/7 operation with cloud provider uptime guarantees
-- **Budget-friendly**: $5–20/month total including models
+- **Budget-friendly**: $5-20/month total including models
 - **Zero hardware maintenance**: No physical machine to manage
 - **Instant scaling**: Upgrade RAM/CPU with a few clicks
 - **Global regions**: Deploy close to your data sources
@@ -168,7 +168,7 @@ sudo apt install unattended-upgrades
 | Honcho (free tier) | $0 |
 | **Total** | **~$5/month** |
 
-For heavier usage with Claude-level models: ~$15–25/month.
+For heavier usage with Claude-level models: ~$15-25/month.
 
 ## FAQ
 

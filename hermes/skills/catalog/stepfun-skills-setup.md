@@ -1,6 +1,6 @@
 ---
-title: StepFun (阶跃星辰) — Full Setup Guide for Hermes Agents
-description: Install and configure the StepFun API skills from fengjunlu618/stepfun-skills. First Chinese LLM provider for Hermes Agent — multimodal reasoning, TTS, ASR, image generation, real-time voice, and RAG via Step Plan subscription.
+title: StepFun (阶跃星辰) - Full Setup Guide for Hermes Agents
+description: Install and configure the StepFun API skills from fengjunlu618/stepfun-skills. First Chinese LLM provider for Hermes Agent - multimodal reasoning, TTS, ASR, image generation, real-time voice, and RAG via Step Plan subscription.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stepfun-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# StepFun (阶跃星辰) — Setup Guide
+# StepFun (阶跃星辰) - Setup Guide
 
 **Source:** [fengjunlu618/stepfun-skills](https://github.com/fengjunlu618/stepfun-skills)
 **Category:** LLM Provider / Multimodal
 
-The first Chinese LLM provider skill suite for Hermes Agent. Provides access to StepFun's full model lineup — multimodal reasoning, text-to-speech, speech recognition, image generation, real-time voice, and search/RAG — all through a Step Plan subscription channel (separate from standard API billing).
+The first Chinese LLM provider skill suite for Hermes Agent. Provides access to StepFun's full model lineup - multimodal reasoning, text-to-speech, speech recognition, image generation, real-time voice, and search/RAG - all through a Step Plan subscription channel (separate from standard API billing).
 
 ---
 
@@ -30,11 +30,11 @@ Individual skills:
 
 | Skill | Command |
 |---|---|
-| **stepfun-chat** | Chat Completions — text reasoning, multimodal, Tool Call, routing |
-| **stepfun-tts** | TTS + voice cloning — Contextual TTS, 19 official voices |
-| **stepfun-image** | Text-to-image + image editing — 1-2s generation |
-| **stepfun-asr** | Speech recognition — async file + streaming |
-| **stepfun-realtime** | Real-time voice conversation — speech ↔ speech |
+| **stepfun-chat** | Chat Completions - text reasoning, multimodal, Tool Call, routing |
+| **stepfun-tts** | TTS + voice cloning - Contextual TTS, 19 official voices |
+| **stepfun-image** | Text-to-image + image editing - 1-2s generation |
+| **stepfun-asr** | Speech recognition - async file + streaming |
+| **stepfun-realtime** | Real-time voice conversation - speech ↔ speech |
 
 ---
 
@@ -43,7 +43,7 @@ Individual skills:
 | Requirement | Details |
 |---|---|
 | **StepFun Account** | Register at [platform.stepfun.com](https://platform.stepfun.com) |
-| **Step Plan Subscription** | Required — calls go through Step Plan (not standard API credit) |
+| **Step Plan Subscription** | Required - calls go through Step Plan (not standard API credit) |
 | **STEPFUN_API_KEY** | Set in `~/.hermes/.env`: `STEPFUN_API_KEY=sk-...` |
 | **Hermes Agent** | v0.20.0+ |
 
@@ -97,7 +97,7 @@ Individual skills:
 |---|---|
 | 401 Unauthorized | Verify `STEPFUN_API_KEY` in `~/.hermes/.env` |
 | Billing errors | Ensure Step Plan subscription is active (not standard API credit) |
-| Model not found | Check model name exactly — StepFun model IDs are case-sensitive |
+| Model not found | Check model name exactly - StepFun model IDs are case-sensitive |
 | Rate limiting | Step Plan has per-minute quotas; stagger requests |
 
 ## Verification

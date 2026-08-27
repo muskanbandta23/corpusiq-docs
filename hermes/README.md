@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Resources — Tools, Skills, MCP Servers & Deployment Knowledge
+title: Hermes Agent Resources - Tools, Skills, MCP Servers & Deployment Knowledge
 description: "A curated collection of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and community tools. Everything you need to build"
 category: Documentation
 tags:
@@ -18,7 +18,7 @@ robots: "index,follow"
   <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Hermes Agent" width="600">
 </p>
 
-<h1 align="center">Hermes Agent — Community Resources</h1>
+<h1 align="center">Hermes Agent - Community Resources</h1>
 
 <p align="center">
   <b>A curated directory of tools, skills, MCP servers, and deployment knowledge for building production AI agents with Hermes.</b>
@@ -36,12 +36,12 @@ robots: "index,follow"
 
 | | | | |
 |---|---|---|---|
-| [agents](agents/) — Agent personalities | [architecture](architecture/) — Design patterns | [best-practices](best-practices/) — Guidelines | [blueprints](blueprints/) — Workflows |
-| [changelog](changelog/) — Version history | [community](community/) — Links & projects | [content-ops](content-ops/) — Content tools | [data](data/) — Data handling |
-| [governance](governance/) — Ops & monitoring | [guides](guides/) — Patterns & research | [infrastructure](infrastructure/) — Deploy guides | [integrations](integrations/) — Connectors |
-| [knowledge](knowledge/) — Memory systems | [mcp](mcp/) — MCP servers catalog | [orchestration](orchestration/) — Multi-agent | [outputs](outputs/) — Templates |
-| [prompts](prompts/) — Prompt library | [scripts](scripts/) — Utility scripts | [setup](setup/) — Installation guides | [skills](skills/) — Agent skills |
-| [tools](tools/) — Auxiliary tools | [troubleshooting](troubleshooting/) — Fixes |
+| [agents](agents/) - Agent personalities | [architecture](architecture/) - Design patterns | [best-practices](best-practices/) - Guidelines | [blueprints](blueprints/) - Workflows |
+| [changelog](changelog/) - Version history | [community](community/) - Links & projects | [content-ops](content-ops/) - Content tools | [data](data/) - Data handling |
+| [governance](governance/) - Ops & monitoring | [guides](guides/) - Patterns & research | [infrastructure](infrastructure/) - Deploy guides | [integrations](integrations/) - Connectors |
+| [knowledge](knowledge/) - Memory systems | [mcp](mcp/) - MCP servers catalog | [orchestration](orchestration/) - Multi-agent | [outputs](outputs/) - Templates |
+| [prompts](prompts/) - Prompt library | [scripts](scripts/) - Utility scripts | [setup](setup/) - Installation guides | [skills](skills/) - Agent skills |
+| [tools](tools/) - Auxiliary tools | [troubleshooting](troubleshooting/) - Fixes |
 
 ---
 
@@ -51,11 +51,11 @@ The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) cover in
 
 This repository fills that gap:
 
-- **440+ repos** indexed across 18 categories — MCP servers, agent personalities, skills, blueprints
-- **Memory stack guides** — Honcho + GBrain + memcore-cloud triple stack for persistent agent memory
-- **Deployment patterns** — single machine, multi-machine, Docker, systemd, model routing strategies
-- **Skill directory** — find reusable agent workflows from agentskills.io, skills.sh, and the community
-- **MCP server catalog** — 301+ servers discovered across 19 sweeps since June 2026
+- **440+ repos** indexed across 18 categories - MCP servers, agent personalities, skills, blueprints
+- **Memory stack guides** - Honcho + GBrain + memcore-cloud triple stack for persistent agent memory
+- **Deployment patterns** - single machine, multi-machine, Docker, systemd, model routing strategies
+- **Skill directory** - find reusable agent workflows from agentskills.io, skills.sh, and the community
+- **MCP server catalog** - 301+ servers discovered across 19 sweeps since June 2026
 
 **This is the directory you wish existed when you started building.**
 
@@ -101,8 +101,8 @@ Most Hermes setups are single-machine chat loops. Production requires distinct l
 
 For production agents handling browser automation, video processing, or heavy workloads:
 
-- **Primary node** — GPU compute for inference, orchestration, LLM routing
-- **Worker node** — Apple Silicon or x86 for browser automation, social publishing, FFmpeg
+- **Primary node** - GPU compute for inference, orchestration, LLM routing
+- **Worker node** - Apple Silicon or x86 for browser automation, social publishing, FFmpeg
 
 Offloading noisy workloads keeps the primary agent stable.
 
@@ -116,9 +116,9 @@ The biggest gap between a chat agent and an autonomous operator is persistent kn
 
 | System | Type | Use Case | Stars |
 |--------|------|----------|-------|
-| **[Honcho](https://mcp.honcho.dev)** | Peer memory | Identity, preferences, conversation history, decisions | — |
+| **[Honcho](https://mcp.honcho.dev)** | Peer memory | Identity, preferences, conversation history, decisions | - |
 | **[GBrain](https://github.com/garrytan/gbrain)** | Knowledge base | File indexing, code understanding | 23K+ |
-| **[memcore-cloud](https://github.com/memcore-cloud)** | Cross-session | Context injection, raw source tracking, FTS5 recall | — |
+| **[memcore-cloud](https://github.com/memcore-cloud)** | Cross-session | Context injection, raw source tracking, FTS5 recall | - |
 | **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving | Long-term memory evolution | 7.5K+ |
 | **[claude-mem](https://github.com/thedotmack/claude-mem)** | Session persistence | Persistent context across sessions | 82K+ |
 
@@ -134,8 +134,8 @@ Skills are reusable, self-contained agent workflows. Hermes loads them on demand
 
 | Source | Description |
 |--------|-------------|
-| **[agentskills.io](https://agentskills.io)** | Open standard skill hub — cross-agent compatible |
-| **[skills.sh](https://skills.sh)** | Community marketplace — new skills daily |
+| **[agentskills.io](https://agentskills.io)** | Open standard skill hub - cross-agent compatible |
+| **[skills.sh](https://skills.sh)** | Community marketplace - new skills daily |
 | **[wondelai/skills](https://github.com/wondelai/skills)** | Cross-platform skills library (380+ stars) |
 | **[agency-agents](https://github.com/msitarzewski/agency-agents)** | 232 specialized agent personalities (115K+ stars) |
 | **[aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)** | Blueprint orchestration patterns |
@@ -148,7 +148,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 | Server | Description |
 |--------|-------------|
-| **[CorpusIQ MCP](https://corpusiq.io)** | 40+ business APIs — Shopify, Stripe, QuickBooks, HubSpot, GA4, Meta Ads, Gmail, Slack. Single OAuth. Read-only. CASA Tier 2 certified. |
+| **[CorpusIQ MCP](https://corpusiq.io)** | 40+ business APIs - Shopify, Stripe, QuickBooks, HubSpot, GA4, Meta Ads, Gmail, Slack. Single OAuth. Read-only. CASA Tier 2 certified. |
 | **[Stripe MCP](https://github.com/stripe/agent-toolkit)** | Payment processing, charges, customers, payouts |
 | **[GitHub MCP](https://github.com/github/github-mcp-server)** | Repository management, issues, PRs, code review |
 | **[Postgres MCP](https://github.com/modelcontextprotocol/servers)** | Direct database access with SQL |
@@ -198,9 +198,9 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 | [hermes-desktop](https://github.com/fathah/hermes-desktop) | 12K+ | Desktop companion app |
 | [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 8K+ | 24/7 AI workforce orchestration |
 | [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet management |
-| [Hermes Agency](https://github.com/DeployFaith/Hermes_Agency) | — | P2P agent collaboration |
+| [Hermes Agency](https://github.com/DeployFaith/Hermes_Agency) | - | P2P agent collaboration |
 
-**[Full ecosystem directory](ecosystem.md)** — 670+ repos indexed across 18 categories (139 approved, 531 pending review), updated daily. 93 skills catalogued, 190+ tools indexed.
+**[Full ecosystem directory](ecosystem.md)** - 670+ repos indexed across 18 categories (139 approved, 531 pending review), updated daily. 93 skills catalogued, 190+ tools indexed.
 
 ---
 
@@ -210,4 +210,4 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 ---
 
-*Curated by [CorpusIQ](https://www.corpusiq.io) — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by [CorpusIQ](https://www.corpusiq.io) - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

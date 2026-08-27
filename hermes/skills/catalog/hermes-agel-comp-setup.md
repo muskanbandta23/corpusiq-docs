@@ -1,5 +1,5 @@
 ---
-title: "AGEL-Comp Safety Framework — Setup Guide"
+title: "AGEL-Comp Safety Framework - Setup Guide"
 description: "Install and configure the AGEL-Comp neuro-symbolic safety layer for Hermes Agent. Automatic blocking, causal learning, and queryable world model."
 skill_name: hermes-agel-comp
 category: Security
@@ -14,9 +14,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# AGEL-Comp Safety Framework — Full Setup Guide
+# AGEL-Comp Safety Framework - Full Setup Guide
 
-A neuro-symbolic safety layer for [Hermes Agent](https://github.com/NousResearch/hermes-agent) based on the AGEL-Comp framework (Shahid & Rothe, 2026). Works transparently through Hermes plugin hooks — **zero agent compliance needed.**
+A neuro-symbolic safety layer for [Hermes Agent](https://github.com/NousResearch/hermes-agent) based on the AGEL-Comp framework (Shahid & Rothe, 2026). Works transparently through Hermes plugin hooks - **zero agent compliance needed.**
 
 ---
 
@@ -32,15 +32,15 @@ The `agel-safety` plugin intercepts tool calls **before execution**:
 | `terminal` | Command matches destructive pattern (`rm -rf`, `git reset --hard`, `DROP TABLE`, …) |
 | `write_file` | Target path matches secret-file pattern |
 
-The agent sees the block reason and can ask for user approval — it doesn't silently fail.
+The agent sees the block reason and can ask for user approval - it doesn't silently fail.
 
 ### Causal learning from mistakes
 
 When a tool call returns an error, the plugin runs the **MCS+ILP pipeline**:
 
-1. **MCS (Minimal Contrastive Search)** — isolates the causal factor
-2. **ILP (Inductive Logic Programming)** — generalizes to a reusable rule
-3. **CPG world model** is updated — the agent won't make the same mistake twice
+1. **MCS (Minimal Contrastive Search)** - isolates the causal factor
+2. **ILP (Inductive Logic Programming)** - generalizes to a reusable rule
+3. **CPG world model** is updated - the agent won't make the same mistake twice
 
 **Example:** Agent reads `passwords.txt` and gets "Permission denied" → learns `requires_approval(X) :- contains_secrets(X)` and `contains_secrets(passwords_txt)` → next time, any file reading triggers an NTP check and is blocked if secrets are suspected.
 
@@ -120,7 +120,7 @@ cp agel_comp_tool.py $HERMES_HOME/plugins/agel-comp/
 │                 │                                │
 │  ┌──────────────▼────────────────────────────┐  │
 │  │           Causal Program Graph            │  │
-│  │  W = (V, E)  —  Horn clauses as rules    │  │
+│  │  W = (V, E)  -  Horn clauses as rules    │  │
 │  │  Persists to $HERMES_HOME/agel_comp/     │  │
 │  └──────────────────────────────────────────┘  │
 │                                                 │
@@ -288,7 +288,7 @@ agel_comp(action="reset", rule_id=12)
 
 ### Agent bypassing the safety layer
 
-AGEL-Comp works through Hermes plugin hooks — the agent cannot disable it. If the agent appears to be bypassing blocks, check:
+AGEL-Comp works through Hermes plugin hooks - the agent cannot disable it. If the agent appears to be bypassing blocks, check:
 
 1. Plugin is loaded: `hermes plugins list | grep agel`
 2. Hook is registered: check logs for `agel-safety: pre_tool_call registered`
@@ -298,9 +298,9 @@ AGEL-Comp works through Hermes plugin hooks — the agent cannot disable it. If 
 
 ## Related Tools
 
-- [hermes-doctor](https://github.com/503496348-ops/hermes-doctor) — Self-diagnosis and self-healing plugin
-- [agent-supervision-skills](https://github.com/drippy-passport968/agent-supervision-skills) — Delegate tasks with verification gates
-- [hermes-flight-recorder](https://github.com/zwright8/hermes-flight-recorder) — Trace-based autonomy evals
+- [hermes-doctor](https://github.com/503496348-ops/hermes-doctor) - Self-diagnosis and self-healing plugin
+- [agent-supervision-skills](https://github.com/drippy-passport968/agent-supervision-skills) - Delegate tasks with verification gates
+- [hermes-flight-recorder](https://github.com/zwright8/hermes-flight-recorder) - Trace-based autonomy evals
 
 ---
 

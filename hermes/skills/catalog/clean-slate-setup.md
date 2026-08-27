@@ -1,5 +1,5 @@
 ---
-title: Clean Slate — Session-End Verification Skill Setup Guide
+title: Clean Slate - Session-End Verification Skill Setup Guide
 description: "Install and configure clean-slate, the session-end verification skill that turns. Source: sidhartha1s/clean-slate."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clean-slate-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Clean Slate — Setup Guide
+# Clean Slate - Setup Guide
 
 **Source:** [sidhartha1s/clean-slate](https://github.com/sidhartha1s/clean-slate)
 **Category:** Agent Infrastructure / Quality Assurance
 **License:** MIT · **Published:** June 28, 2026
 
-Every coding agent eventually says "this should work" when it doesn't. Clean Slate is a session-end verification skill that audits every claim — merged PRs, passing tests, fixed bugs — against the real artifact (git history, CI status, test output). It reconciles unmerged work, flags half-finished changes, and produces a verifiable status report.
+Every coding agent eventually says "this should work" when it doesn't. Clean Slate is a session-end verification skill that audits every claim - merged PRs, passing tests, fixed bugs - against the real artifact (git history, CI status, test output). It reconciles unmerged work, flags half-finished changes, and produces a verifiable status report.
 
 ---
 
@@ -66,17 +66,17 @@ hooks:
 ### Output Example
 
 ```
-Clean Slate Report — Session #8472
+Clean Slate Report - Session #8472
 ===================================
-✅ PR #342 merged — commit a3f2b1c on main
-✅ Tests pass — 142/142, 0 failures
+✅ PR #342 merged - commit a3f2b1c on main
+✅ Tests pass - 142/142, 0 failures
 ⚠️  Branch fix/login-timeout not deleted
-❌ Bug #591 claim "fixed" — no related commit found
+❌ Bug #591 claim "fixed" - no related commit found
 ⚠️  2 files modified but not committed:
     - src/auth/session.ts
     - docs/CHANGELOG.md
 
-Verdict: SESSION NOT CLEAN — 1 unverified fix, 2 uncommitted files
+Verdict: SESSION NOT CLEAN - 1 unverified fix, 2 uncommitted files
 ```
 
 ---
@@ -86,7 +86,7 @@ Verdict: SESSION NOT CLEAN — 1 unverified fix, 2 uncommitted files
 | Use Case | How |
 |---|---|
 | Agent session hygiene | Run at end of every coding session to catch loose ends |
-| CI/CD gate | Add as pre-merge check — block PRs from unclean sessions |
+| CI/CD gate | Add as pre-merge check - block PRs from unclean sessions |
 | Multi-agent coordination | Verify one agent's claims before another agent builds on them |
 | Onboarding QA | New contributors run clean-slate to build verification habits |
 

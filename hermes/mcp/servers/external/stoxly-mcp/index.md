@@ -1,5 +1,5 @@
 ---
-title: "Stoxly MCP — Free Stock & ETF Fundamental Analysis"
+title: "Stoxly MCP - Free Stock & ETF Fundamental Analysis"
 server: stoxly
 rating: ★★
 category: Finance
@@ -15,11 +15,11 @@ description: "Stoxly is a free remote MCP server providing stock and ETF fundame
 
 ---
 
-# Stoxly MCP — Integration Guide
+# Stoxly MCP - Integration Guide
 
 ## Overview
 
-Stoxly is a free remote MCP server providing stock and ETF fundamental analysis. It delivers a 10-point score, verdict, and key metrics for any ticker symbol — no API key, no account, no subscription required.
+Stoxly is a free remote MCP server providing stock and ETF fundamental analysis. It delivers a 10-point score, verdict, and key metrics for any ticker symbol - no API key, no account, no subscription required.
 
 For business operators who need quick equity research without paid Bloomberg/FactSet subscriptions, Stoxly provides instant fundamental intelligence directly in their AI assistant.
 
@@ -34,7 +34,7 @@ For business operators who need quick equity research without paid Bloomberg/Fac
 
 ## Setup
 
-Stoxly is a remote MCP server — no local installation required. Add to your MCP client configuration:
+Stoxly is a remote MCP server - no local installation required. Add to your MCP client configuration:
 
 ```json
 {
@@ -51,7 +51,7 @@ Stoxly is a remote MCP server — no local installation required. Add to your MC
 
 ## Tools
 
-Stoxly provides fundamental analysis tools (exact tools TBD — server is brand new, added Aug 10, 2026):
+Stoxly provides fundamental analysis tools (exact tools TBD - server is brand new, added Aug 10, 2026):
 
 | Tool | Description |
 |------|-------------|
@@ -77,18 +77,18 @@ Stoxly provides fundamental analysis tools (exact tools TBD — server is brand 
 
 ## Limitations
 
-- **Brand new** (Aug 10, 2026) — tool surface may be limited initially
-- **Fundamentals only** — no technical analysis, no real-time pricing
-- **Unknown coverage** — unclear how many tickers/exchanges are supported
-- **Free tier sustainability** — monitor for pricing changes as server matures
+- **Brand new** (Aug 10, 2026) - tool surface may be limited initially
+- **Fundamentals only** - no technical analysis, no real-time pricing
+- **Unknown coverage** - unclear how many tickers/exchanges are supported
+- **Free tier sustainability** - monitor for pricing changes as server matures
 
 ## Verdict
 
-★★ — **Worth connecting for quick fundamental checks.** Stoxly fills the gap between "no financial MCP" and paid financial data services. Its free, no-auth model makes it zero-friction to try. For operators who do occasional equity research, this is an instant upgrade. For heavy financial users, pair with Sugra API MCP (1,500+ endpoints) or Fintel MCP for comprehensive coverage.
+★★ - **Worth connecting for quick fundamental checks.** Stoxly fills the gap between "no financial MCP" and paid financial data services. Its free, no-auth model makes it zero-friction to try. For operators who do occasional equity research, this is an instant upgrade. For heavy financial users, pair with Sugra API MCP (1,500+ endpoints) or Fintel MCP for comprehensive coverage.
 
 ## Related MCP Servers in Catalog
 
-- **Sugra API MCP** — 1,500+ endpoints across 36 data domains (★★★)
-- **Fintel MCP** — Hosted financial data, real-time + historical (★★★)
-- **Capital.com MCP** — CFD trading, forex, indices, commodities (★★)
-- **InvestSights MCP** — Indian stock market (NSE/BSE) research (★★)
+- **Sugra API MCP** - 1,500+ endpoints across 36 data domains (★★★)
+- **Fintel MCP** - Hosted financial data, real-time + historical (★★★)
+- **Capital.com MCP** - CFD trading, forex, indices, commodities (★★)
+- **InvestSights MCP** - Indian stock market (NSE/BSE) research (★★)

@@ -7,7 +7,7 @@ Sign up at corpusiq.io, verify your email, land on the dashboard.
 ## Steps
 
 1. Go to **https://corpusiq.io** and click **Sign up**.
-2. Use a work email — that's the address your team and connectors will be
+2. Use a work email - that's the address your team and connectors will be
    associated with.
 3. Verify the email from the message we send you.
 4. You'll land on the CorpusIQ dashboard. Bookmark it.

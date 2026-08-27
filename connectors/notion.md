@@ -1,11 +1,11 @@
 ---
 title: "Notion - CorpusIQ Docs - CorpusIQ"
-description: "Notion holds a surprising amount of business data that lives outside your SaaS tools — project plans, meeting notes, hiring trackers, product specs. C."
+description: "Notion holds a surprising amount of business data that lives outside your SaaS tools - project plans, meeting notes, hiring trackers, product specs. C."
 ---
 # Notion
 
 ## What it unlocks
-Notion holds a surprising amount of business data that lives outside your SaaS tools — project plans, meeting notes, hiring trackers, product specs. Connecting it lets CorpusIQ search across your workspace, query databases, and read pages, so questions like "what's the status on the Q2 launch plan?" get real answers from your actual Notion docs.
+Notion holds a surprising amount of business data that lives outside your SaaS tools - project plans, meeting notes, hiring trackers, product specs. Connecting it lets CorpusIQ search across your workspace, query databases, and read pages, so questions like "what's the status on the Q2 launch plan?" get real answers from your actual Notion docs.
 
 ## Before you connect
 - A Notion workspace where you can create internal integrations
@@ -16,7 +16,7 @@ Notion holds a surprising amount of business data that lives outside your SaaS t
 1. Go to [notion.so/my-integrations](https://www.notion.so/my-integrations) and click **New integration**.
 2. Name it something recognizable (e.g. `CorpusIQ read-only`) and select the workspace you want to connect.
 3. <!-- screenshot: Notion integration creation screen -->
-4. Copy the Internal Integration Token — Notion shows it once.
+4. Copy the Internal Integration Token - Notion shows it once.
 5. For each database or page you want CorpusIQ to read, open it in Notion, click the ••• menu, go to Connections, and add your new integration.
 6. <!-- screenshot: Notion connections menu -->
 7. Open your CorpusIQ dashboard and click Connections.
@@ -44,10 +44,10 @@ CorpusIQ never creates pages, edits content, or modifies databases.
 - "Who are the users in my Notion workspace?"
 
 ## Troubleshooting
-- **"No databases found"** — Your integration token hasn't been granted access to any databases yet. Open each database, go to ••• → Connections, and add the integration.
-- **"Page not found"** — Same issue: the integration needs explicit access to each page. You must invite it via the Connections menu on every page or database individually.
-- **"Integration token invalid"** — The token may have been regenerated. Create a new integration at notion.so/my-integrations and update the token in CorpusIQ.
-- **Block content looks incomplete** — Notion paginates block children. Large pages will return content in pages; CorpusIQ handles pagination automatically, but very large documents may need multiple calls.
+- **"No databases found"** - Your integration token hasn't been granted access to any databases yet. Open each database, go to ••• → Connections, and add the integration.
+- **"Page not found"** - Same issue: the integration needs explicit access to each page. You must invite it via the Connections menu on every page or database individually.
+- **"Integration token invalid"** - The token may have been regenerated. Create a new integration at notion.so/my-integrations and update the token in CorpusIQ.
+- **Block content looks incomplete** - Notion paginates block children. Large pages will return content in pages; CorpusIQ handles pagination automatically, but very large documents may need multiple calls.
 ---
 
 *

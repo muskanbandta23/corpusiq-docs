@@ -1,5 +1,5 @@
 ---
-title: "XActions MCP — X/Twitter Automation Without API Fees"
+title: "XActions MCP - X/Twitter Automation Without API Fees"
 description: "Integration guide for nirholas/xactions. Complete X/Twitter automation via MCP: scrapers, posting, analytics, growth tools. No API fees."
 category: mcp
 tags: [mcp-server, twitter, x, social-media, automation, hermes-agent]
@@ -12,7 +12,7 @@ robots: "index,follow"
 
 ---
 
-# XActions MCP — X/Twitter Automation Without API Fees
+# XActions MCP - X/Twitter Automation Without API Fees
 
 **Repository:** [nirholas/xactions](https://github.com/nirholas/xactions)
 **Stars:** 384 ★
@@ -54,7 +54,7 @@ Complete X/Twitter automation toolkit operating through web scraping (no API fee
 | **Multi-platform** | X only | X only | X + LinkedIn + Instagram |
 | **Best for** | Growth hacking, low budget | Reliable posting | Professional management |
 
-**Verdict:** XActions is a growth-hacking tool — use for research, competitor analysis, and bulk operations where API costs would be prohibitive. For production posting, xurl or Postiz remain safer choices due to official API compliance.
+**Verdict:** XActions is a growth-hacking tool - use for research, competitor analysis, and bulk operations where API costs would be prohibitive. For production posting, xurl or Postiz remain safer choices due to official API compliance.
 
 ## Setup for Hermes Agent
 
@@ -136,30 +136,30 @@ hermes mcp list | grep xactions
 - Limit daily actions (under 100 follows/unfollows per day)
 - Rotate user agents and browser profiles
 - Use residential proxy IPs (not datacenter IPs)
-- Monitor account health daily — stop at first warning
+- Monitor account health daily - stop at first warning
 
 **Internal note:** CorpusIQ's main X account (@corpusiq) should NEVER use XActions. Reserve for growth/experimental accounts only.
 
 ## Limitations
 
-- No scheduling or queuing — real-time execution only
-- Cookie sessions expire (typically 7-30 days) — requires re-authentication
+- No scheduling or queuing - real-time execution only
+- Cookie sessions expire (typically 7-30 days) - requires re-authentication
 - X UI changes can break scrapers without warning
 - No DM support
 - Media uploads are less reliable than text-only tweets
-- Rate detection is probabilistic — cannot guarantee safety
+- Rate detection is probabilistic - cannot guarantee safety
 
 ## Troubleshooting
 
 | Issue | Fix |
 |-------|-----|
-| `Login failed` | Cookies expired — re-export from browser |
+| `Login failed` | Cookies expired - re-export from browser |
 | `Rate limited` | Reduce action frequency, rotate IP |
 | `Tweet not posting` | Check for X UI changes; update to latest version |
-| `Scraper returning empty` | X may have changed page structure — check repo issues |
+| `Scraper returning empty` | X may have changed page structure - check repo issues |
 
 ## Related Guides
 
-- [OpenTweet MCP](/hermes/mcp/servers/external/opentweet-mcp/) — Alternative Twitter MCP server
-- [CorpusIQ Social Cadence Engine](/hermes/mcp/servers/external/) — Multi-platform posting schedule
-- [Cross-Platform Commenting Engine](/hermes/mcp/servers/external/) — Automated engagement across platforms
+- [OpenTweet MCP](/hermes/mcp/servers/external/opentweet-mcp/) - Alternative Twitter MCP server
+- [CorpusIQ Social Cadence Engine](/hermes/mcp/servers/external/) - Multi-platform posting schedule
+- [Cross-Platform Commenting Engine](/hermes/mcp/servers/external/) - Automated engagement across platforms

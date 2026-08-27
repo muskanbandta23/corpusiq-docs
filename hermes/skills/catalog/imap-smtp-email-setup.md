@@ -1,6 +1,6 @@
 ---
-title: IMAP/SMTP Email — OpenClaw Email Integration Setup Guide
-description: Setup guide for the imap-smtp-email skill — bring email reading and sending capabilities to your OpenClaw agent. IMAP for inbox access, SMTP for sending.
+title: IMAP/SMTP Email - OpenClaw Email Integration Setup Guide
+description: Setup guide for the imap-smtp-email skill - bring email reading and sending capabilities to your OpenClaw agent. IMAP for inbox access, SMTP for sending.
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/imap-smtp-email-setup/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# IMAP/SMTP Email — OpenClaw Email Integration
+# IMAP/SMTP Email - OpenClaw Email Integration
 
 **Publisher:** [boomsystel-code](https://skills.sh/boomsystel-code/openclaw-workspace) | **Installs:** 1,207 | **Category:** Email
 
-Gives your OpenClaw agent full email capabilities — read inboxes via IMAP, send messages via SMTP. Works with Gmail, Outlook, custom mail servers, and any provider supporting standard IMAP/SMTP protocols.
+Gives your OpenClaw agent full email capabilities - read inboxes via IMAP, send messages via SMTP. Works with Gmail, Outlook, custom mail servers, and any provider supporting standard IMAP/SMTP protocols.
 
 ## Prerequisites
 
@@ -148,4 +148,4 @@ openssl s_client -connect smtp.gmail.com:587 -starttls smtp -crlf
 
 ---
 
-*Part of the Hermes Skills Library — curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) — one MCP endpoint, all your business tools.*
+*Part of the Hermes Skills Library - curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) - one MCP endpoint, all your business tools.*

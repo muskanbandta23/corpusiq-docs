@@ -1,5 +1,5 @@
 ---
-title: Canvas LMS — Full Setup Guide for Hermes Agents
+title: Canvas LMS - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the Canvas LMS skill from NousResearch. Read-only access to courses, assignments, and grades for student agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/canvas-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Canvas LMS — Setup Guide
+# Canvas LMS - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) (227.9K⭐)
 **Skill:** `nousresearch/hermes-agent@canvas`
@@ -94,7 +94,7 @@ python3 <skill-dir>/scripts/canvas_api.py --check
 
 ### Script: `canvas_api.py`
 
-The skill ships with `scripts/canvas_api.py` — a Python CLI that wraps the Canvas REST API. All commands use the token from the environment.
+The skill ships with `scripts/canvas_api.py` - a Python CLI that wraps the Canvas REST API. All commands use the token from the environment.
 
 ---
 
@@ -133,7 +133,7 @@ After setup, run the check command:
 python3 <skill-dir>/scripts/canvas_api.py --check
 ```
 
-Expected output: `✓ Connected to Canvas LMS — 2 courses, 0 upcoming assignments due in 7 days`
+Expected output: `✓ Connected to Canvas LMS - 2 courses, 0 upcoming assignments due in 7 days`
 
 ---
 

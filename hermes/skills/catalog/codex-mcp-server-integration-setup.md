@@ -1,5 +1,5 @@
 ---
-title: "Codex MCP Server Integration — OpenAI Codex CLI via MCP"
+title: "Codex MCP Server Integration - OpenAI Codex CLI via MCP"
 description: "129+ installs. Bridge Codex CLI into MCP-compatible editors for AI-powered code analysis, generation, review, and web search. Setup guide for Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codex-mcp-server-integration-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Codex MCP Server Integration — Setup Guide
+# Codex MCP Server Integration - Setup Guide
 
 **Source:** [aradotso/mcp-skills](https://github.com/aradotso/mcp-skills) (129+ installs)
 **Category:** Agent Infrastructure / MCP Integration
@@ -131,10 +131,10 @@ codex "explain this: const x = [1,2,3].map(n => n * 2)"
 
 ## Notes
 
-- Codex 0.87+ returns `threadId` for session resumption — enables multi-turn conversations
+- Codex 0.87+ returns `threadId` for session resumption - enables multi-turn conversations
 - Sandbox mode `read-only` is recommended for code review; use `workspace-write` only for generation tasks
-- The `review` tool is separate from `codex` — it wraps git diff analysis with AI review
-- Requires active Codex CLI authentication — tokens expire and need refresh
+- The `review` tool is separate from `codex` - it wraps git diff analysis with AI review
+- Requires active Codex CLI authentication - tokens expire and need refresh
 - Web search capability depends on Codex CLI provider configuration (requires OpenAI API)
 
 ---

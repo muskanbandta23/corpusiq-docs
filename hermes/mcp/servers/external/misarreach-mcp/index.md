@@ -11,7 +11,7 @@ tags: [sales, outbound, lead-generation, email-verification, cold-outreach, pipe
 
 # MisarReach MCP
 
-**Outbound sales from any MCP client — build and qualify lead lists, verify emails, run multi-step outreach sequences across channels, check deliverability, and review the pipeline with 27 tools.** Available as a local npm server or a hosted streamable-HTTP endpoint, with an optional API key (the server answers `initialize` and `tools/list` unauthenticated and exposes a browser `login` tool).
+**Outbound sales from any MCP client - build and qualify lead lists, verify emails, run multi-step outreach sequences across channels, check deliverability, and review the pipeline with 27 tools.** Available as a local npm server or a hosted streamable-HTTP endpoint, with an optional API key (the server answers `initialize` and `tools/list` unauthenticated and exposes a browser `login` tool).
 
 ```
 Server type: Local (npm, stdio) or Remote (Streamable HTTP)
@@ -26,7 +26,7 @@ Built by: Misar AI
 
 ## Why This Matters for Operators
 
-Operators who run outbound motion currently stitch together list building, verification, sequencing, and CRM review across four or five tools. MisarReach collapses the whole outbound stack into one MCP server: an agent can build a lead list, verify the addresses, launch a multi-step sequence across channels, check deliverability before the blast, and review pipeline health — all inside the assistant it already uses, without leaving the conversation for a separate sales platform.
+Operators who run outbound motion currently stitch together list building, verification, sequencing, and CRM review across four or five tools. MisarReach collapses the whole outbound stack into one MCP server: an agent can build a lead list, verify the addresses, launch a multi-step sequence across channels, check deliverability before the blast, and review pipeline health - all inside the assistant it already uses, without leaving the conversation for a separate sales platform.
 
 The optional-auth design matters for automation: tools can be listed and inspected without a key, so evaluation costs nothing, and the browser login flow handles the human approval step when a key is needed.
 
@@ -87,7 +87,7 @@ Registry ID: `io.github.Misar-AI/misarreach-mcp`. MIT licensed, repository at `g
 
 ## Integration with CorpusIQ
 
-CorpusIQ brings the money and customer layer (Stripe, CRM, QuickBooks) while MisarReach brings the outbound motion layer. A growth operator can run both in one agent session: CorpusIQ for pipeline accounting, deal tracking, and financials, MisarReach for lead generation, verification, and outreach sequences — then join the two on email or company name.
+CorpusIQ brings the money and customer layer (Stripe, CRM, QuickBooks) while MisarReach brings the outbound motion layer. A growth operator can run both in one agent session: CorpusIQ for pipeline accounting, deal tracking, and financials, MisarReach for lead generation, verification, and outreach sequences - then join the two on email or company name.
 
 ## Limitations
 
@@ -98,7 +98,7 @@ CorpusIQ brings the money and customer layer (Stripe, CRM, QuickBooks) while Mis
 
 ## See Also
 
-- [MisarMail MCP — Transactional Email and Campaigns](/hermes/mcp/servers/external/misarmail-mcp/)
-- [Misar.Blog MCP — Blog Publishing](/hermes/mcp/servers/external/misarblog-mcp/)
+- [MisarMail MCP - Transactional Email and Campaigns](/hermes/mcp/servers/external/misarmail-mcp/)
+- [Misar.Blog MCP - Blog Publishing](/hermes/mcp/servers/external/misarblog-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

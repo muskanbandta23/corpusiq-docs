@@ -35,9 +35,9 @@ Read-only. CorpusIQ never modifies your GA4 property.
 
 ## The cross-source answer
 
-"Google Ads drove 4,200 clicks last week. How many turned into purchases in GA4, and what was the revenue?" — one question, answered across both platforms in 30 seconds.
+"Google Ads drove 4,200 clicks last week. How many turned into purchases in GA4, and what was the revenue?" - one question, answered across both platforms in 30 seconds.
 
-[Start free — connect GA4 to Claude](https://www.corpusiq.io)
+[Start free - connect GA4 to Claude](https://www.corpusiq.io)
 ---
 
 *

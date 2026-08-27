@@ -54,7 +54,7 @@ You ask Perplexity. Same.
 
 The AI changes. The answer does not.
 
-Every answer cites its exact source record — order number, transaction ID, campaign name. You can verify instead of trusting blind.
+Every answer cites its exact source record - order number, transaction ID, campaign name. You can verify instead of trusting blind.
 
 ## The Infrastructure Era
 

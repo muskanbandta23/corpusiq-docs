@@ -1,5 +1,5 @@
 ---
-title: "Hermes Backup Recovery — Encrypted Backup Skill for"
+title: "Hermes Backup Recovery - Encrypted Backup Skill for"
 description: "Back up, verify, restore, and health-check your Hermes Agent deployment state with age encryption. Repo: JimmyHuang2002/hermes-backup-recovery."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-backup-recovery-setup/"
 robots: "index,follow"
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## Overview
 
-An Agent Skill for backing up, verifying, restoring, and health-checking a Hermes Agent deployment's state. Uses age encryption for secure backups. Hardware-agnostic — works on Raspberry Pi, cloud VMs, and desktop.
+An Agent Skill for backing up, verifying, restoring, and health-checking a Hermes Agent deployment's state. Uses age encryption for secure backups. Hardware-agnostic - works on Raspberry Pi, cloud VMs, and desktop.
 
 ## Installation
 
@@ -34,5 +34,5 @@ hermes-backup health   # Health check
 
 ## Pitfalls
 
-- Brand new (0 stars, July 21) — minimal testing
+- Brand new (0 stars, July 21) - minimal testing
 - Requires age CLI for encryption

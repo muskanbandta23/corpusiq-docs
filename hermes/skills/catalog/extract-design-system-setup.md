@@ -1,6 +1,6 @@
 ---
-title: "Extract Design System — UI Extraction Skill Setup"
-description: Install arvindrk/extract-design-system (127.3K installs) — extracts a reusable design system (tokens, components, typography, spacing) from any existing website or interface for agent-driven UI work.
+title: "Extract Design System - UI Extraction Skill Setup"
+description: Install arvindrk/extract-design-system (127.3K installs) - extracts a reusable design system (tokens, components, typography, spacing) from any existing website or interface for agent-driven UI work.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/extract-design-system-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -8,15 +8,15 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Extract Design System — Setup Guide
+# Extract Design System - Setup Guide
 
 **Source:** [arvindrk/extract-design-system](https://www.skills.sh/arvindrk/extract-design-system) (1 skill · 127.3K installs)
 **Repo:** [github.com/arvindrk/extract-design-system](https://github.com/arvindrk/extract-design-system)
 **Category:** Design Quality / UI Engineering
 **First Seen:** August 13, 2026
-**Quality Tier:** 🟢 Production (127.3K installs — the largest single-skill install count in the August 13 sweep)
+**Quality Tier:** 🟢 Production (127.3K installs - the largest single-skill install count in the August 13 sweep)
 
-A single skill with a 127K install base: `extract-design-system` reverse-engineers an existing interface into a structured design system — color tokens, typography scales, spacing rules, and component patterns. It solves the hardest problem in agent-driven UI work: matching an existing brand instead of generating a generic look. Pair it with `anti-ui-slop` for a complete design-quality pipeline.
+A single skill with a 127K install base: `extract-design-system` reverse-engineers an existing interface into a structured design system - color tokens, typography scales, spacing rules, and component patterns. It solves the hardest problem in agent-driven UI work: matching an existing brand instead of generating a generic look. Pair it with `anti-ui-slop` for a complete design-quality pipeline.
 
 ---
 
@@ -45,7 +45,7 @@ hermes skills install arvindrk/extract-design-system/extract-design-system
 | Requirement | Details |
 |---|---|
 | A live UI to extract | Website URL or codebase |
-| Any agent runtime | Pure procedural knowledge — no API keys |
+| Any agent runtime | Pure procedural knowledge - no API keys |
 
 ---
 
@@ -62,7 +62,7 @@ hermes skills install arvindrk/extract-design-system/extract-design-system
 
 ## Limitations / Verification
 
-- Output quality depends on the target UI's consistency — hand-built sites yield less structure
+- Output quality depends on the target UI's consistency - hand-built sites yield less structure
 - Verify install: `npx skills list | grep design-system`
 
 ---

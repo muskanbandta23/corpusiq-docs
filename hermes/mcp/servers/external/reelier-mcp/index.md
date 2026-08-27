@@ -16,14 +16,14 @@ description: "MCP server for **recording agent tool-call workflows and replaying
 
 # Reelier MCP Server
 
-MCP server for **recording agent tool-call workflows and replaying them deterministically at zero tokens**. Agents make claims — Reelier writes receipts. Record an agent's workflow once, replay it exactly, and diff runs to catch drift.
+MCP server for **recording agent tool-call workflows and replaying them deterministically at zero tokens**. Agents make claims - Reelier writes receipts. Record an agent's workflow once, replay it exactly, and diff runs to catch drift.
 
 ## What It Does
 
-- **Workflow Recording** — Capture every tool call, parameter, and response in an agent session
-- **Deterministic Replay** — Replay recorded workflows exactly — no LLM, no tokens, no variation
-- **Drift Detection** — Diff current runs against recorded baselines to detect changes
-- **Zero Token Cost** — Replay costs nothing because it's purely deterministic
+- **Workflow Recording** - Capture every tool call, parameter, and response in an agent session
+- **Deterministic Replay** - Replay recorded workflows exactly - no LLM, no tokens, no variation
+- **Drift Detection** - Diff current runs against recorded baselines to detect changes
+- **Zero Token Cost** - Replay costs nothing because it's purely deterministic
 
 ## Business Operator Use Cases
 
@@ -62,18 +62,18 @@ Add to your MCP client config:
 
 ## Tools Provided
 
-- `start_recording` — Begin capturing agent workflow
-- `stop_recording` — End capture and save workflow
-- `replay_workflow` — Deterministically replay a saved workflow
-- `diff_workflows` — Compare two workflow runs, identify drift
-- `list_recordings` — Browse saved workflow recordings
+- `start_recording` - Begin capturing agent workflow
+- `stop_recording` - End capture and save workflow
+- `replay_workflow` - Deterministically replay a saved workflow
+- `diff_workflows` - Compare two workflow runs, identify drift
+- `list_recordings` - Browse saved workflow recordings
 
 ## Limitations
 
-- **0 stars, brand new** — Created July 22, 2026. Experimental.
-- **Deterministic only** — Replay is exact. Can't adapt to changed environments or APIs.
-- **Storage growth** — Long workflows with large responses consume disk space.
-- **No scheduling** — Manual trigger only. No cron/CI integration yet.
+- **0 stars, brand new** - Created July 22, 2026. Experimental.
+- **Deterministic only** - Replay is exact. Can't adapt to changed environments or APIs.
+- **Storage growth** - Long workflows with large responses consume disk space.
+- **No scheduling** - Manual trigger only. No cron/CI integration yet.
 
 ## Operator Verdict
 

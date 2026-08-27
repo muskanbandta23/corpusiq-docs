@@ -16,7 +16,7 @@ Production agents need dedicated hardware. Here's the architecture pattern.
 
 | Problem | Single Machine | Two Machines |
 |---------|---------------|--------------|
-| Browser automation crashes | Takes down your agent | Isolated on worker — agent stays up |
+| Browser automation crashes | Takes down your agent | Isolated on worker - agent stays up |
 | Video rendering pegs CPU | Blocks all other tasks | Offloaded to worker with FFmpeg |
 | Social publishing failures | Can't post anywhere | Worker node runs Postiz independently |
 | Memory pressure | LLM + browser + video = OOM | LLM on primary, everything else on worker |
@@ -52,7 +52,7 @@ Production agents need dedicated hardware. Here's the architecture pattern.
 │  OS: macOS (ARM64)                                                │
 │                                                                  │
 │  Services:                                                       │
-│  ├── Postiz CLI (social publishing — X, LinkedIn, TikTok, IG)    │
+│  ├── Postiz CLI (social publishing - X, LinkedIn, TikTok, IG)    │
 │  ├── Playwright (browser automation, stealth)                    │
 │  ├── FFmpeg (video post-production)                              │
 │  ├── patchright (Cloudflare bypass)                              │

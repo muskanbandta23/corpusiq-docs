@@ -1,6 +1,6 @@
 ---
 title: "openclaw-history-ingest Setup Guide"
-description: "Complete setup guide for openclaw-history-ingest — ingest OpenClaw agent conversation history into an Obsidian wiki vault."
+description: "Complete setup guide for openclaw-history-ingest - ingest OpenClaw agent conversation history into an Obsidian wiki vault."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-history-ingest-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 **Skill:** `openclaw-history-ingest` · **Installs:** 2,700+ · **Source:** [ar9av/obsidian-wiki](https://github.com/ar9av/obsidian-wiki)
 
-openclaw-history-ingest extracts OpenClaw agent conversation history — MEMORY.md entries, session JSONL logs, and decision artifacts — and ingests them into an Obsidian wiki vault. Enables unified knowledge management across Hermes and OpenClaw agents.
+openclaw-history-ingest extracts OpenClaw agent conversation history - MEMORY.md entries, session JSONL logs, and decision artifacts - and ingests them into an Obsidian wiki vault. Enables unified knowledge management across Hermes and OpenClaw agents.
 
 ---
 
@@ -54,6 +54,6 @@ The skill activates and provides browser automation tools accessible through nat
 
 ## Related Skills
 
-- [wiki-history-ingest](/hermes/skills/catalog/wiki-history-ingest-setup/) — Unified agent history ingestion router
-- [hermes-history-ingest](/hermes/skills/catalog/hermes-history-ingest-setup/) — Hermes agent history ingestion
+- [wiki-history-ingest](/hermes/skills/catalog/wiki-history-ingest-setup/) - Unified agent history ingestion router
+- [hermes-history-ingest](/hermes/skills/catalog/hermes-history-ingest-setup/) - Hermes agent history ingestion
 - [Skills Catalog](/hermes/skills/catalog/)

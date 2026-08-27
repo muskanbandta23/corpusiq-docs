@@ -1,5 +1,5 @@
 ---
-title: "pipeworx-io Business Data Suite — Industrial MCP Wrappers"
+title: "pipeworx-io Business Data Suite - Industrial MCP Wrappers"
 description: "Connect Tradier, EODHD, Diffbot, Coresignal, PeopleDataLabs, Shodan, SEO Backlinks, Emailable to Hermes Agent. Systematic API wrapping for business"
 category: mcp
 tags: [mcp-server, pipeworx, business-intelligence, finance, market-data, company-data, security]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# pipeworx-io Business Data Suite — MCP Servers
+# pipeworx-io Business Data Suite - MCP Servers
 
 ## What It Is
 
-pipeworx-io shipped 18+ MCP servers on July 2, 2026 — the single largest one-day batch in MCP ecosystem history. Their business data suite wraps major APIs for finance, business intelligence, security, marketing, real estate, and logistics.
+pipeworx-io shipped 18+ MCP servers on July 2, 2026 - the single largest one-day batch in MCP ecosystem history. Their business data suite wraps major APIs for finance, business intelligence, security, marketing, real estate, and logistics.
 
 **Pattern**: Every business API gets a clean MCP wrapper. Single dependency (TypeScript), consistent tool naming, shared configuration pattern.
 
@@ -85,7 +85,7 @@ hermes mcp add tradier --command "node" --args "dist/index.js" --workdir "$(pwd)
 }
 ```
 
-**All pipeworx MCPs follow this pattern** — replace `tradier` with the server name and set the appropriate API key.
+**All pipeworx MCPs follow this pattern** - replace `tradier` with the server name and set the appropriate API key.
 
 ## Recommended Stack for Business Operators
 
@@ -122,17 +122,17 @@ Security/Infra:
 
 ## Why pipeworx-io Matters
 
-The "every API gets an MCP wrapper" industrialization signals that MCP server creation is shifting from artisanal (one-off, hand-crafted) to industrial (systematic, templated). This is the same pattern that made npm/pip successful — a low-friction packaging format enables an explosion of integrations.
+The "every API gets an MCP wrapper" industrialization signals that MCP server creation is shifting from artisanal (one-off, hand-crafted) to industrial (systematic, templated). This is the same pattern that made npm/pip successful - a low-friction packaging format enables an explosion of integrations.
 
 ## Limitations
 
-- All pipeworx MCPs are single-API wrappers — no cross-source intelligence
+- All pipeworx MCPs are single-API wrappers - no cross-source intelligence
 - Require individual API keys (no unified auth)
-- New servers — limited battle-testing, expect bugs
-- No TypeScript SDK abstractions — each MCP is standalone
+- New servers - limited battle-testing, expect bugs
+- No TypeScript SDK abstractions - each MCP is standalone
 
 ## See Also
 
-- SentiSense MCP — for market sentiment (zero API key)
-- HPSILab Quant Finance MCP — for options analytics
-- SEOforGPT MCP — for AI visibility and GEO
+- SentiSense MCP - for market sentiment (zero API key)
+- HPSILab Quant Finance MCP - for options analytics
+- SEOforGPT MCP - for AI visibility and GEO

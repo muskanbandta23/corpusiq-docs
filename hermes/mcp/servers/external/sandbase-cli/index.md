@@ -11,7 +11,7 @@ tags: [ai-models, model-catalog, api-bridge, cost-tracking, dev-tools, npm, loca
 
 # SandBase CLI
 
-**A local MCP bridge that connects 25 AI client targets to a catalog of 2,000+ AI models and APIs, with discovery, inspection, execution, and cost tracking.** SandBase CLI is a TypeScript/Node stdio server (Apache-2.0) that gives any MCP-capable assistant a searchable catalog of models, multimodal generation, and sandboxed execution — plus per-run cost accounting.
+**A local MCP bridge that connects 25 AI client targets to a catalog of 2,000+ AI models and APIs, with discovery, inspection, execution, and cost tracking.** SandBase CLI is a TypeScript/Node stdio server (Apache-2.0) that gives any MCP-capable assistant a searchable catalog of models, multimodal generation, and sandboxed execution - plus per-run cost accounting.
 
 ```
 Server type: Local (npm, stdio MCP bridge)
@@ -73,7 +73,7 @@ Apache-2.0 licensed, repository at `github.com/sandbaseai/cli`. Account balance 
 
 ## Integration with CorpusIQ
 
-CorpusIQ brings the business data layer (GA4, Search Console, Ahrefs, CRM) while SandBase brings the model execution layer. An operator can run both in one agent session: CorpusIQ for business metrics and connectors, SandBase for model catalog discovery, execution, and cost tracking — with the runs ledger feeding the same cost discipline CorpusIQ applies to marketing spend.
+CorpusIQ brings the business data layer (GA4, Search Console, Ahrefs, CRM) while SandBase brings the model execution layer. An operator can run both in one agent session: CorpusIQ for business metrics and connectors, SandBase for model catalog discovery, execution, and cost tracking - with the runs ledger feeding the same cost discipline CorpusIQ applies to marketing spend.
 
 ## Limitations
 
@@ -84,6 +84,6 @@ CorpusIQ brings the business data layer (GA4, Search Console, Ahrefs, CRM) while
 
 ## See Also
 
-- [Routara LLM Gateway MCP — Multi-Provider LLM Routing](/hermes/mcp/servers/external/routara-llm-gateway-mcp/)
+- [Routara LLM Gateway MCP - Multi-Provider LLM Routing](/hermes/mcp/servers/external/routara-llm-gateway-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

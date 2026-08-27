@@ -34,7 +34,7 @@ authentication and architecture docs.
 ## What CorpusIQ does
 
 **Authenticates each connector via OAuth.** You log in with the vendor
-(Google, Shopify, QuickBooks) — not with CorpusIQ. The vendor shows you
+(Google, Shopify, QuickBooks) - not with CorpusIQ. The vendor shows you
 the exact permissions being requested and you approve. CorpusIQ never
 sees your vendor passwords.
 
@@ -58,7 +58,7 @@ encrypted at rest.
 
 CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Operational
 MCP logs are retained for up to 30 days. The infrastructure is multi-tenant
-but the data is single-tenant per user — every read uses your user
+but the data is single-tenant per user - every read uses your user
 identity to scope the query.
 
 ## Authentication, in two layers
@@ -66,17 +66,17 @@ identity to scope the query.
 There are two authentications happening when you use CorpusIQ. They are
 independent.
 
-**Layer 1 — Who you are to CorpusIQ.** You sign into CorpusIQ once. This
+**Layer 1 - Who you are to CorpusIQ.** You sign into CorpusIQ once. This
 gives you an identity token. Every request you make from Claude or
 ChatGPT carries that identity so CorpusIQ knows it's you.
 
-**Layer 2 — CorpusIQ's link to each vendor.** Separately, each connector
+**Layer 2 - CorpusIQ's link to each vendor.** Separately, each connector
 holds its own OAuth token scoped to your CorpusIQ identity. When you
 ask a question, CorpusIQ looks up the right vendor token, invokes the documented operation and returns the result.
 
 If Layer 1 fails, you can't use CorpusIQ at all. If Layer 2 fails for a
 specific connector (token expired, vendor revoked, scopes changed),
-only that connector stops working — the others are unaffected.
+only that connector stops working - the others are unaffected.
 
 ## What the AI assistant sees
 

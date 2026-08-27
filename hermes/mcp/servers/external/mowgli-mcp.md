@@ -1,5 +1,5 @@
 ---
-title: "Mowgli MCP — Integration Guide"
+title: "Mowgli MCP - Integration Guide"
 description: "Connect AI coding agents to Mowgli's intelligent product canvas for design iteration. Modify product designs conversationally and sync changes back to code."
 category: mcp
 tags: [mcp-server, mowgli, product-design, design-to-code, ux, product-development]
@@ -11,9 +11,9 @@ robots: "index,follow"
 
 ---
 
-# Mowgli MCP — Integration Guide
+# Mowgli MCP - Integration Guide
 
-**What it does:** Mowgli is an intelligent product canvas that connects to coding agents via MCP. It lets product teams and developers iterate on product design — from sweeping new flows down to surgical component tweaks — and sync changes back to code, all through natural language conversations.
+**What it does:** Mowgli is an intelligent product canvas that connects to coding agents via MCP. It lets product teams and developers iterate on product design - from sweeping new flows down to surgical component tweaks - and sync changes back to code, all through natural language conversations.
 
 **Why it matters:** The design→development handoff is one of the highest-friction points in product development. Mowgli MCP eliminates "design drift" by making the product canvas directly accessible to AI coding agents, enabling faithful design-to-code translation and real-time design iteration without Figma exports, screenshots, or manual specification.
 
@@ -26,7 +26,7 @@ robots: "index,follow"
 | **Endpoint** | `https://app.mowgli.ai/mcp` |
 | **Source** | `app.mowgli.ai` |
 | **Category** | Product Design & UX |
-| **CorpusIQ Verdict** | ★★★★☆ — Game-changing for product teams, early-stage |
+| **CorpusIQ Verdict** | ★★★★☆ - Game-changing for product teams, early-stage |
 
 ## Setup
 
@@ -41,7 +41,7 @@ robots: "index,follow"
 ```bash
 # In Mowgli dashboard:
 # Settings → API → Generate Key
-# Copy the key — it's shown once
+# Copy the key - it's shown once
 ```
 
 ### 2. Configure MCP Client
@@ -83,7 +83,7 @@ For Claude Code or terminal-based clients:
 
 | Tool | Description |
 |------|-------------|
-| `get_canvas` | Retrieve the current product canvas — screens, flows, components |
+| `get_canvas` | Retrieve the current product canvas - screens, flows, components |
 | `get_screen` | Get a specific screen's design, components, and states |
 | `get_component` | Get detailed specs for a specific component (colors, spacing, variants) |
 | `update_component` | Modify a component's properties (text, color, layout, state) |
@@ -150,7 +150,7 @@ Agent: "Found 3 discrepancies: button color, spacing in form, missing loading st
 
 ## CorpusIQ Assessment
 
-**Strategic Value:** High. The product canvas approach — where design lives as structured data that both humans and AI can manipulate — is the future of design-to-code workflows. Mowgli's MCP integration makes this vision tangible today.
+**Strategic Value:** High. The product canvas approach - where design lives as structured data that both humans and AI can manipulate - is the future of design-to-code workflows. Mowgli's MCP integration makes this vision tangible today.
 
 **Integration Difficulty:** Low. Remote endpoint with API key auth. No local dependencies.
 

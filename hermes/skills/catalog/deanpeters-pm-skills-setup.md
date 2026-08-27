@@ -1,5 +1,5 @@
 ---
-title: Dean Peters PM Skills — Product Management Workflows for Hermes Agents
+title: Dean Peters PM Skills - Product Management Workflows for Hermes Agents
 description: Structured product management skills with 8.8K+ combined installs. PRD development, user story creation, and roadmap planning for agent-driven product development.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deanpeters-pm-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Dean Peters PM Skills — Setup Guide
+# Dean Peters PM Skills - Setup Guide
 
 **Source:** [deanpeters/product-manager-skills](https://skills.sh/deanpeters/product-manager-skills) (8.8K+ combined installs)
 **Category:** Product & Strategy
@@ -32,9 +32,9 @@ npx skills add deanpeters/product-manager-skills --skill roadmap-planning
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **prd-development** | 3.2K | Complete PRD creation — problem statement, personas, solution, metrics, user stories, scope |
+| **prd-development** | 3.2K | Complete PRD creation - problem statement, personas, solution, metrics, user stories, scope |
 | **user-story** | 2.9K | User story generation with acceptance criteria, Given-When-Then format |
-| **roadmap-planning** | 2.7K | Strategic roadmap creation — timeline, milestones, dependencies, resource planning |
+| **roadmap-planning** | 2.7K | Strategic roadmap creation - timeline, milestones, dependencies, resource planning |
 
 ---
 
@@ -66,7 +66,7 @@ npx skills add deanpeters/product-manager-skills --skill roadmap-planning
 ```bash
 # Generate a PRD from problem statement
 npx skills use deanpeters/product-manager-skills@prd-development
-# Then: "Build a PRD for self-serve workspace provisioning — here are my discovery notes"
+# Then: "Build a PRD for self-serve workspace provisioning - here are my discovery notes"
 
 # Generate user stories from PRD
 npx skills use deanpeters/product-manager-skills@user-story
@@ -85,7 +85,7 @@ npx skills list | grep deanpeters/product-manager-skills
 
 ## Notes
 
-- Structured, template-driven approach — consistent output format every time
+- Structured, template-driven approach - consistent output format every time
 - Works with or without upfront discovery data; handles "empty-handed" invocations gracefully
 - Complements `phuryn/pm-skills` (competitive analysis) and `refoundai/lenny-skills` (PM methodology)
 - PRD template follows industry-standard sections used at major tech companies

@@ -1,6 +1,6 @@
 ---
 title: "QuickBooks MCP Server - CorpusIQ Docs"
-description: QuickBooks MCP integration guide — connect AI agents to QuickBooks Online via OAuth2 with 550+ tools for invoicing, billing, reporting, and inventory.
+description: QuickBooks MCP integration guide - connect AI agents to QuickBooks Online via OAuth2 with 550+ tools for invoicing, billing, reporting, and inventory.
 source: datagrout.ai
 category: Finance / Accounting
 stars: N/A (hosted platform)
@@ -14,7 +14,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # QuickBooks MCP Server (datagrout)
 
-**First comprehensive QuickBooks MCP server** — connects AI agents directly to QuickBooks Online through OAuth2. 550+ tools covering the full scope of business accounting: invoices, bills, reports, inventory, and more.
+**First comprehensive QuickBooks MCP server** - connects AI agents directly to QuickBooks Online through OAuth2. 550+ tools covering the full scope of business accounting: invoices, bills, reports, inventory, and more.
 
 > **Source:** [datagrout.ai/integrations/quickbooks-mcp-server](https://datagrout.ai/integrations/quickbooks-mcp-server)
 > **Category:** Finance / Accounting
@@ -26,13 +26,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 The QuickBooks MCP Server exposes 550+ tools that let AI agents:
 
-- **Invoicing** — Create, send, and track invoices directly from AI conversations
-- **Bills** — Capture and manage bills, track payables
-- **Reports** — Pull P&L, balance sheets, cash flow statements, and custom reports
-- **Inventory** — Track stock levels, manage purchase orders, and reorder points
-- **Write operations** — Disabled by default per integration (security-first). Enable selectively.
+- **Invoicing** - Create, send, and track invoices directly from AI conversations
+- **Bills** - Capture and manage bills, track payables
+- **Reports** - Pull P&L, balance sheets, cash flow statements, and custom reports
+- **Inventory** - Track stock levels, manage purchase orders, and reorder points
+- **Write operations** - Disabled by default per integration (security-first). Enable selectively.
 
-Write operations are **disabled by default** — you opt in to specific write capabilities per integration. This makes it safe for operators who want read-only reporting initially, then graduate to AI-assisted bookkeeping.
+Write operations are **disabled by default** - you opt in to specific write capabilities per integration. This makes it safe for operators who want read-only reporting initially, then graduate to AI-assisted bookkeeping.
 
 ## Why This Matters for Operators
 
@@ -56,7 +56,7 @@ All from any MCP-compatible AI client (Claude, Cursor, Codex, etc.).
 | Scope | Full QBO | Data connectors | Xero-specific | QBO-specific |
 | Maturity | New (July 2026) | Production | Production | Community |
 
-CorpusIQ's QuickBooks connector remains the best choice for multi-source business intelligence (combining QuickBooks with Shopify, Stripe, HubSpot, etc. in one query). The datagrout QuickBooks MCP is the best option for deep QuickBooks operations — especially if you need write capabilities for invoicing and bill management.
+CorpusIQ's QuickBooks connector remains the best choice for multi-source business intelligence (combining QuickBooks with Shopify, Stripe, HubSpot, etc. in one query). The datagrout QuickBooks MCP is the best option for deep QuickBooks operations - especially if you need write capabilities for invoicing and bill management.
 
 ## Integration Setup
 
@@ -111,21 +111,21 @@ By default, write operations are disabled. To enable invoicing, bill creation, o
 
 ## Security Model
 
-- **OAuth 2.0** with Intuit — tokens are scoped to your QuickBooks company
-- **Write operations disabled by default** — you explicitly opt in per integration
-- **Per-tool audit** — every AI-initiated action is logged in Datagrout
-- **Revocable** — disconnect the integration from either Datagrout or Intuit's side at any time
+- **OAuth 2.0** with Intuit - tokens are scoped to your QuickBooks company
+- **Write operations disabled by default** - you explicitly opt in per integration
+- **Per-tool audit** - every AI-initiated action is logged in Datagrout
+- **Revocable** - disconnect the integration from either Datagrout or Intuit's side at any time
 
 ## Limitations
 
-- **Requires Datagrout platform** — not a standalone open-source server
-- **QuickBooks Online only** — no QuickBooks Desktop support
-- **New platform** — July 2026 launch, expect rapid iteration
+- **Requires Datagrout platform** - not a standalone open-source server
+- **QuickBooks Online only** - no QuickBooks Desktop support
+- **New platform** - July 2026 launch, expect rapid iteration
 - **Write operations** require deliberate opt-in per integration
 
 ## See Also
 
-- [[oracle-mcp]] — Oracle Fusion Cloud MCP (also by datagrout)
-- [[xero-mcp]] — Official Xero MCP server
-- [[laravel-quickbooks-mcp]] — Community PHP QuickBooks MCP
-- [[corpusiq-quickbooks]] — CorpusIQ's multi-source QuickBooks connector
+- [[oracle-mcp]] - Oracle Fusion Cloud MCP (also by datagrout)
+- [[xero-mcp]] - Official Xero MCP server
+- [[laravel-quickbooks-mcp]] - Community PHP QuickBooks MCP
+- [[corpusiq-quickbooks]] - CorpusIQ's multi-source QuickBooks connector

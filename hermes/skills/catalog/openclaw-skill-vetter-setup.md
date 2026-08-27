@@ -1,5 +1,5 @@
 ---
-title: openclaw-skill-vetter — Setup Guide
+title: openclaw-skill-vetter - Setup Guide
 description: Automated skill quality validation for Hermes agents. Scan installed skills for missing dependencies, trigger conflicts, security anti-patterns, and structural issues.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# openclaw-skill-vetter — Setup Guide
+# openclaw-skill-vetter - Setup Guide
 
 ## Prerequisites
 - **Hermes Agent** installed
@@ -57,7 +57,7 @@ hermes skills vet --all --output report.md
 ### 1. Dependency Validation
 ```
 ✅ corpusiq-email-standards: all 3 dependencies available (himalaya, terminal, memory)
-❌ seo-audit: missing dependency 'web_extract' — web tools not configured
+❌ seo-audit: missing dependency 'web_extract' - web tools not configured
 ⚠️  browser-automation: optional dependency 'playwright' not installed
 ```
 
@@ -74,9 +74,9 @@ hermes skills vet --all --output report.md
 
 ### 3. Security Anti-Pattern Scan
 ```
-🔴 CRITICAL: skill 'metamask-openclaw-security' — executes downloaded binaries
-🟡 WARNING: skill 'browser-automation' — spawns headless browser with network access
-🟢 SAFE: skill 'memory-hygiene' — file operations on LanceDB only, no network
+🔴 CRITICAL: skill 'metamask-openclaw-security' - executes downloaded binaries
+🟡 WARNING: skill 'browser-automation' - spawns headless browser with network access
+🟢 SAFE: skill 'memory-hygiene' - file operations on LanceDB only, no network
 ```
 
 ### 4. Structure Validation
@@ -111,7 +111,7 @@ skill_vetter:
 
 1. **Marketplace Quality Gate:** Before adding a new marketplace skill to the CorpusIQ docs, run vetting to ensure it meets quality standards.
 
-2. **Production Agent Safety:** CorpusIQ's 133+ skills need continuous validation — this prevents a broken dependency from silently failing in production.
+2. **Production Agent Safety:** CorpusIQ's 133+ skills need continuous validation - this prevents a broken dependency from silently failing in production.
 
 3. **Security Compliance:** Automated scanning for dangerous patterns keeps CorpusIQ agents compliant with security best practices.
 
@@ -127,7 +127,7 @@ Add to your Hermes session start hook:
 #!/bin/bash
 # ~/.hermes/hooks/session-start.sh
 echo "Vetting installed skills..."
-hermes skills vet --all --quiet || echo "⚠️  Skill vetting found issues — check logs"
+hermes skills vet --all --quiet || echo "⚠️  Skill vetting found issues - check logs"
 ```
 
 ## Troubleshooting
@@ -147,4 +147,4 @@ hermes skills vet --all --quiet || echo "⚠️  Skill vetting found issues — 
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

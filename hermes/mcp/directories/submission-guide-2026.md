@@ -1,5 +1,5 @@
 ---
-title: "MCP Directory Submission Guide — Where to List a Server in 2026"
+title: "MCP Directory Submission Guide - Where to List a Server in 2026"
 description: "Field-tested walkthrough of every major MCP directory: free vs paid, form vs GitHub, sign-in requirements, and what actually works. Updated August 2026 from real submissions."
 category: "MCP"
 tags: ["mcp", "directory", "submission", "listing", "discovery", "registry", "marketing"]
@@ -8,17 +8,17 @@ canonical: "https://www.corpusiq.io/docs/hermes/mcp/directories/submission-guide
 robots: "index,follow"
 ---
 
-# MCP Directory Submission Guide — 2026
+# MCP Directory Submission Guide - 2026
 
 A server only helps developers who can find it. This guide documents every major MCP directory, how submission actually works (field-tested August 2026), and what each one costs in effort.
 
-## Tier 1 — Auto-indexed from the Official Registry
+## Tier 1 - Auto-indexed from the Official Registry
 
 The official Model Context Protocol registry at registry.modelcontextprotocol.io feeds many directories automatically. If your server is in the registry, several directories pick it up without a manual submission. Reverse-DNS naming (io.yourorg.your-server) is the registry standard.
 
 Directories that mirror the official registry include mcpservers.org and several aggregator mirrors. Being listed there gives you multilingual coverage (English, Russian, Simplified Chinese, Traditional Chinese, and more) with zero manual work.
 
-## Tier 2 — Free web forms
+## Tier 2 - Free web forms
 
 | Directory | Method | Notes |
 |-----------|--------|-------|
@@ -29,16 +29,16 @@ Directories that mirror the official registry include mcpservers.org and several
 | MCP Server Space | Web form | Requires Google or GitHub OAuth sign-in |
 | AgenticSkills.io | Web form | 200+ servers, security-audit focused. Review about 48 hours. Their backend can be flaky |
 
-## Tier 3 — GitHub-based
+## Tier 3 - GitHub-based
 
 | Directory | Method | Notes |
 |-----------|--------|-------|
 | mcpservers.org | GitHub PR or website form | De facto standard directory. Also pulls from the official registry |
-| Developers Digest MCP Directory | GitHub issue or PR | Template: server name, GitHub URL, description, install command, category, tags. Their submission repo link returned 404 in August 2026 — email the maintainers if that happens |
+| Developers Digest MCP Directory | GitHub issue or PR | Template: server name, GitHub URL, description, install command, category, tags. Their submission repo link returned 404 in August 2026 - email the maintainers if that happens |
 | Cursor Directory | GitHub PR or website | Popular for Cursor-focused tooling |
 | MCPHub | GitHub | Small but dev-focused |
 
-## Tier 4 — Paid or blocked
+## Tier 4 - Paid or blocked
 
 | Directory | Cost | Notes |
 |-----------|------|-------|
@@ -57,7 +57,7 @@ Directories that mirror the official registry include mcpservers.org and several
 ## Field notes (August 2026)
 
 - FutureTools Turnstile auto-passed in a real browser after filling the form. The challenge widget resolved itself on submit.
-- The official registry search API paginates alphabetically and ignores query parameters — verify listing by pulling the server entry directly rather than searching.
+- The official registry search API paginates alphabetically and ignores query parameters - verify listing by pulling the server entry directly rather than searching.
 - Claude's built-in connector directory (claude.ai) is separate from the public MCP registry and has its own compliance review. Being in both is the strongest possible placement.
 - Track every submission in a log with the email or issue URL used. Directory coverage decays silently; a quarterly re-check is cheap.
 

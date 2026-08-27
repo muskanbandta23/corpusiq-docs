@@ -1,22 +1,22 @@
 ---
-title: Argent Skills — Mobile Dev Agent Toolkit Setup
-description: "software-mansion/argent — 20 skills, 154.0K installs: Android emulator and iOS simulator setup, React Native workflows, device interaction, profilers, screenshot diffing, and QA flows from the creators of react-native-reanimated."
+title: Argent Skills - Mobile Dev Agent Toolkit Setup
+description: "software-mansion/argent - 20 skills, 154.0K installs: Android emulator and iOS simulator setup, React Native workflows, device interaction, profilers, screenshot diffing, and QA flows from the creators of react-native-reanimated."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/argent-mobile-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "react-native", "mobile development", "emulator", "simulator", "qa"]
 ---
 
-# Argent Skills — Setup Guide
+# Argent Skills - Setup Guide
 
 **Source:** [software-mansion/argent](https://skills.sh/software-mansion/argent)
 **GitHub:** [software-mansion/argent](https://github.com/software-mansion/argent)
 **Skills:** 20 skills · 154.0K total installs
 **Category:** Mobile Development & QA
 **First Seen:** catalogued August 15, 2026 midday sweep
-**Quality Tier:** 🟢 Production (established vendor — Software Mansion, creators of react-native-reanimated, react-native-gesture-handler, and react-native-screens)
+**Quality Tier:** 🟢 Production (established vendor - Software Mansion, creators of react-native-reanimated, react-native-gesture-handler, and react-native-screens)
 
-Argent is Software Mansion's agent toolkit for mobile development: it teaches agents how to stand up Android emulators and iOS simulators, drive device interaction, run React Native workflows and profilers, debug Metro, and diff screenshots. When queued in the morning sweep it was estimated at 11.9K installs from API sums; the publisher page shows 154.0K — the largest queue underestimate of the day, which is why it leads this batch.
+Argent is Software Mansion's agent toolkit for mobile development: it teaches agents how to stand up Android emulators and iOS simulators, drive device interaction, run React Native workflows and profilers, debug Metro, and diff screenshots. When queued in the morning sweep it was estimated at 11.9K installs from API sums; the publisher page shows 154.0K - the largest queue underestimate of the day, which is why it leads this batch.
 
 ---
 

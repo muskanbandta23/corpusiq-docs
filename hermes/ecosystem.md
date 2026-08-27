@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 173+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 173+ repos, tools, skills, and integrations
 last_updated: 2026-08-27
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -13,7 +13,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 A comprehensive, curated directory of the Hermes Agent ecosystem. **173+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **173+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **173+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -62,7 +62,7 @@ _Core Hermes Agent repos, official builds_
 
 ### [ksimback/hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem) ⭐ 1,076
 
->🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
+>🗺️ Hermes Atlas - the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
 
 **Language:** HTML | **Topics:** ai-agents, ecosystem-map, hermes-agent, hermes-atlas, nous-research | **Score:** 85/100
 
@@ -70,7 +70,7 @@ _Core Hermes Agent repos, official builds_
 
 ### [stephenschoettler/hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) ⭐ 892
 
->Lossless Context Management plugin for Hermes Agent — DAG-based context engine that never loses a message
+>Lossless Context Management plugin for Hermes Agent - DAG-based context engine that never loses a message
 
 **Language:** Python | **Score:** 75/100
 
@@ -94,7 +94,7 @@ _Core Hermes Agent repos, official builds_
 
 ### [tale-project/tale](https://github.com/tale-project/tale) ⭐ 12
 
->The Orchestrator for AI Agents — Connect OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and Pi. Pool their knowledge, delegate tasks, and build your swarm of agents.
+>The Orchestrator for AI Agents - Connect OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and Pi. Pool their knowledge, delegate tasks, and build your swarm of agents.
 
 **Language:** TypeScript | **Topics:** agent-skills, agentic-ai, agentic-workflow, ai, ai-agents | **Score:** 72/100
 
@@ -102,7 +102,7 @@ _Core Hermes Agent repos, official builds_
 
 ### [zcweah1981/awesome-hermes-agent-zh](https://github.com/zcweah1981/awesome-hermes-agent-zh) ⭐ 37
 
->Hermes Agent中文站 — 中文实战入口：上手路径、国内落地、OpenClaw 共存迁移、排障参考与可下载方案包。
+>Hermes Agent中文站 - 中文实战入口：上手路径、国内落地、OpenClaw 共存迁移、排障参考与可下载方案包。
 
 **Language:** Python | **Topics:** agent, ai, ai-agent, chinese-docs, deepseek, hermes, hermes-agent, hermes-skill, mcp, multi-agent, openclaw, qwen | **Score:** 70/100
 
@@ -110,7 +110,7 @@ _Core Hermes Agent repos, official builds_
 
 ### [shiwenwen/hope-agent](https://github.com/shiwenwen/hope-agent) ⭐ 1,261
 
->🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment — compatible with Hermes Agent, OpenClaw, Claude Code, Codex, and more.
+>🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment - compatible with Hermes Agent, OpenClaw, Claude Code, Codex, and more.
 
 **Language:** Rust | **Topics:** agent, ai, ai-assistant, cross-device, desktop-app, hermes-agent, mcp, openclaw, personal | **Score:** 75/100
 
@@ -126,7 +126,7 @@ _Core Hermes Agent repos, official builds_
 
 ### [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive) ⭐ 1,473
 
->AI-powered virtual executive team — a single coherent executive persona backed by 8 specialist Claude agents (CSO, CFO, CHRO, GC, COO, CMO, CPO, Board). RAG over built-in MBA knowledge plus your company documents via ChromaDB, SQLite episodic memory across sessions, proactive scheduler, and prompt-cached system prompts (up to 85% hit rate). FastAPI backend + Next.js 15 UI, Apache 2.0.
+>AI-powered virtual executive team - a single coherent executive persona backed by 8 specialist Claude agents (CSO, CFO, CHRO, GC, COO, CMO, CPO, Board). RAG over built-in MBA knowledge plus your company documents via ChromaDB, SQLite episodic memory across sessions, proactive scheduler, and prompt-cached system prompts (up to 85% hit rate). FastAPI backend + Next.js 15 UI, Apache 2.0.
 
 **Language:** Python | **Topics:** ai, anthropic, claude, fastapi, llm, multi-agent, nextjs, python, rag, typescript | **Score:** 80/100
 
@@ -138,7 +138,7 @@ _Docker, Kubernetes, production hosting_
 
 ### [jnMetaCode/shellward](https://github.com/jnMetaCode/shellward) ⭐ 109
 
->AI Agent Security Middleware — 8-layer defense, DLP data flow, prompt injection detection, zero dependencies. SDK + MCP server for Claude Code, Cursor, LangChain, Hermes Agent & more.
+>AI Agent Security Middleware - 8-layer defense, DLP data flow, prompt injection detection, zero dependencies. SDK + MCP server for Claude Code, Cursor, LangChain, Hermes Agent & more.
 
 **Language:** TypeScript | **Topics:** agent-security, ai-agent, ai-firewall, ai-safety, ai-security
 
@@ -154,7 +154,7 @@ _Docker, Kubernetes, production hosting_
 
 ### [yuluyangguang1/hermes-portable](https://github.com/yuluyangguang1/hermes-portable) ⭐ 38
 
->🔌 Plug-in-a-USB AI agent — zero-install, zero-trace, cross-platform portable Hermes Agent. Self-contained with all dependencies.
+>🔌 Plug-in-a-USB AI agent - zero-install, zero-trace, cross-platform portable Hermes Agent. Self-contained with all dependencies.
 
 **Language:** Python | **Topics:** ai-agent, cross-platform, hermes, portable, python, usb | **Score:** 75/100
 
@@ -210,13 +210,13 @@ _Docker, Kubernetes, production hosting_
 
 ### [mrbooboo1987-creator/hermes-grok-trading-system](https://github.com/mrbooboo1987-creator/hermes-grok-trading-system) ⭐ 0
 
->Autonomous 24/7 AI trading agent powered by Grok 4.20 — the model that won Alpha Arena Season 1.5. Complete production-ready system with risk management, paper trading, cron/systemd support.
+>Autonomous 24/7 AI trading agent powered by Grok 4.20 - the model that won Alpha Arena Season 1.5. Complete production-ready system with risk management, paper trading, cron/systemd support.
 
 ---
 
 ### [aivrar/portable-hermes-agent](https://github.com/aivrar/portable-hermes-agent) ⭐ 205
 
->Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.
+>Hermes Agent made portable desktop for Windows - 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.
 
 **Language:** Python | **Topics:** hermes-agent, portable, windows, desktop | **Score:** 74/100
 
@@ -252,7 +252,7 @@ _Community forks with significant changes_
 
 ### [mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer) ⭐ 165
 
->🧠 Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | 生产级外挂记忆系统，兼容Hermes/Claude/Cursor等任意AI智能体
+>🧠 Production-grade memory sidecar for AI agents - gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | 生产级外挂记忆系统，兼容Hermes/Claude/Cursor等任意AI智能体
 
 **Language:** Python | **Topics:** agent-memory, ai-agent, claude-code, cli, codex | **Score:** 75/100
 
@@ -312,7 +312,7 @@ _Platform connectors, bridges, adapters_
 
 ### [bitrouter/bitrouter](https://github.com/bitrouter/bitrouter) ⭐ 211
 
->The self-improving LLM router that optimizes your agentic workflows with every run — works with any harness (Hermes Agent, OpenClaw, Claude Code, Codex), any model, any loop.
+>The self-improving LLM router that optimizes your agentic workflows with every run - works with any harness (Hermes Agent, OpenClaw, Claude Code, Codex), any model, any loop.
 
 **Language:** Rust | **Topics:** agent-harness, ai-agent, api-gateway, hermes-agent, llm-router, mcp, openclaw, rust | **Score:** 82/100
 
@@ -356,7 +356,7 @@ _Model Context Protocol servers & integrations_
 
 ### [ruvnet/metaharness](https://github.com/ruvnet/metaharness) ⭐ 354
 
->🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).
+>🛠️ The meta-harness for AI agents - scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).
 
 **Language:** TypeScript | **Topics:** agent-harness, agent-harness-generator, agent-scaffolding, agentic-ai, agentic-framework | **Score:** 75/100
 
@@ -380,7 +380,7 @@ _Model Context Protocol servers & integrations_
 
 ### [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) ⭐ 26
 
->心虫 (HeartFlow) — 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
+>心虫 (HeartFlow) - 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
 
 **Language:** JavaScript | **Topics:** ai-being, ai-philosophy, ai-psychology, cognitive-engine, decision-engine | **Score:** 75/100
 
@@ -388,7 +388,7 @@ _Model Context Protocol servers & integrations_
 
 ### [Bo1202/Aivy-OS](https://github.com/Bo1202/Aivy-OS) ⭐ 21
 
->Your own digital life form — local AI companion with persistent memory, IDE workspace, MCP support, and 30+ tools. Companion-first alternative to Hermes Agent / OpenClaw / Claude Code.
+>Your own digital life form - local AI companion with persistent memory, IDE workspace, MCP support, and 30+ tools. Companion-first alternative to Hermes Agent / OpenClaw / Claude Code.
 
 **Topics:** ai-agent, ai-agents, ai-assistant, ai-companion, ai-os | **Score:** 70/100
 
@@ -400,7 +400,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ⭐ 82,700
 
->Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+>Persistent Context Across Sessions for Every Agent -  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
 **Language:** JavaScript | **Topics:** ai, ai-agents, ai-memory, anthropic, artificial-intelligence
 
@@ -416,7 +416,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) ⭐ 50,162
 
->Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
+>Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent - fewer tokens, fewer tool calls, 100% local
 
 **Language:** TypeScript
 
@@ -440,7 +440,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) ⭐ 8,152
 
->PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.
+>PraisonAI 🦞 - Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.
 
 **Language:** Python | **Topics:** agents, ai, ai-agent-framework, ai-agent-sdk, ai-agents
 
@@ -456,7 +456,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) ⭐ 5,720
 
->Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector.
+>Native web workspace for Hermes Agent - chat, terminal, memory, skills, inspector.
 
 **Language:** JavaScript | **Topics:** agent-ui, ai-workspace, hackathon, hermes-agent, nous-research
 
@@ -464,7 +464,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [codejunkie99/agentic-stack](https://github.com/codejunkie99/agentic-stack) ⭐ 2,112
 
->One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge when you switch.
+>One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python - and keeps its knowledge when you switch.
 
 **Language:** Python
 
@@ -488,7 +488,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent) ⭐ 652
 
->🍙 A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.
+>🍙 A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context - all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.
 
 **Language:** TypeScript | **Topics:** agent, agentic-ai, ai, ai-agents, hermes-agent, long-term-memory, mcp, memory, personal-ai, tui | **Score:** 88/100
 
@@ -496,7 +496,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [awizemann/scarf](https://github.com/awizemann/scarf) ⭐ 629
 
->Native macOS and iOS App for the Hermes AI agent — multi-window, multi-server (local + remote over SSH). Chat, dashboard, sessions, memory, cron, MCP, and more.
+>Native macOS and iOS App for the Hermes AI agent - multi-window, multi-server (local + remote over SSH). Chat, dashboard, sessions, memory, cron, MCP, and more.
 
 **Language:** Swift | **Topics:** ai-agent, gui, hermes, macos, macos-app
 
@@ -504,7 +504,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [WEIFENG2333/phistory](https://github.com/WEIFENG2333/phistory) ⭐ 364
 
->📸 Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes Agent — track prompt evolution and debug agent behavior.
+>📸 Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes Agent - track prompt evolution and debug agent behavior.
 
 **Language:** HTML | **Score:** 78/100
 
@@ -544,7 +544,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [longyunfeigu/learn-hermes-agent](https://github.com/longyunfeigu/learn-hermes-agent) ⭐ 153
 
->A 27-chapter hands-on tutorial for building an autonomous AI agent from zero in Python. Agent loop, tool system, memory, skills, MCP,     multi-platform gateway, and self-evolution — inspired by Hermes Agent.
+>A 27-chapter hands-on tutorial for building an autonomous AI agent from zero in Python. Agent loop, tool system, memory, skills, MCP,     multi-platform gateway, and self-evolution - inspired by Hermes Agent.
 
 **Language:** Python | **Topics:** agent-from-scratch, agent-tutorial, ai-agent, chatbot, hermes-agent
 
@@ -560,7 +560,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [KSroido/Kagi-Session2API-MCP](https://github.com/KSroido/Kagi-Session2API-MCP) ⭐ 137
 
->Free Kagi Search MCP server — access search and summarizer via session tokens, no API key needed. Works with Claude Desktop, Cursor, Windsurf, Hermes and any MCP client.
+>Free Kagi Search MCP server - access search and summarizer via session tokens, no API key needed. Works with Claude Desktop, Cursor, Windsurf, Hermes and any MCP client.
 
 **Language:** Python | **Topics:** ai-agent, ai-coding, claude-desktop, cursor, kagi
 
@@ -568,7 +568,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [ruvnet/agent-harness-generator](https://github.com/ruvnet/agent-harness-generator) ⭐ 99
 
->🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).
+>🛠️ The meta-harness for AI agents - scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).
 
 **Language:** TypeScript | **Topics:** agent-harness, agent-harness-generator, agent-scaffolding, agentic-ai, agentic-framework
 
@@ -592,7 +592,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [yantrikos/yantrikdb-hermes-plugin](https://github.com/yantrikos/yantrikdb-hermes-plugin) ⭐ 60
 
->YantrikDB memory provider for NousResearch/hermes-agent — self-maintaining memory with canonicalization, contradiction tracking, recency ranking, and explainable recall.
+>YantrikDB memory provider for NousResearch/hermes-agent - self-maintaining memory with canonicalization, contradiction tracking, recency ranking, and explainable recall.
 
 **Language:** Python | **Topics:** ai-memory, hermes-agent, hermes-agent-plugin, hermes-memory-provider, hermes-plugin
 
@@ -600,7 +600,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [TheAiSingularity/hermesclaw](https://github.com/TheAiSingularity/hermesclaw) ⭐ 53
 
->Hermes Agent (NousResearch) sandboxed by NVIDIA OpenShell — hardware-enforced network/filesystem/syscall policy, full memory + gateway stack
+>Hermes Agent (NousResearch) sandboxed by NVIDIA OpenShell - hardware-enforced network/filesystem/syscall policy, full memory + gateway stack
 
 **Language:** Shell | **Topics:** ai-agent, docker, hermes, llama-cpp, llm
 
@@ -632,7 +632,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [cx2002302-lang/zettelkasten-second-memory](https://github.com/cx2002302-lang/zettelkasten-second-memory) ⭐ 16
 
->🗂️ Turns AI conversations into a permanent Zettelkasten knowledge base — atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure for Hermes Agent and OpenClaw.
+>🗂️ Turns AI conversations into a permanent Zettelkasten knowledge base - atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure for Hermes Agent and OpenClaw.
 
 **Language:** TypeScript | **Topics:** ai-agent, hermes-agent, knowledge-graph, mcp, note-taking, openclaw, second-memory, zettelkasten | **Score:** 72/100
 
@@ -654,7 +654,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [luluthehermeticcrabBot/phronesis](https://github.com/luluthehermeticcrabBot/phronesis) ⭐ 2
 
->Practical wisdom from agent experience. Auto-skill creation, FTS5 session search, persona system, memory consolidation, and Telegram notifications — bridging Hermes Agent's adaptive learning loop into OpenCode's plugin ecosystem.
+>Practical wisdom from agent experience. Auto-skill creation, FTS5 session search, persona system, memory consolidation, and Telegram notifications - bridging Hermes Agent's adaptive learning loop into OpenCode's plugin ecosystem.
 
 **Language:** JavaScript
 
@@ -732,7 +732,7 @@ _General discoveries, misc tools_
 
 ### [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) ⭐ 15,046
 
->🎭 216 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
+>🎭 216 个即插即用的 AI 专家角色 - 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
 
 **Language:** Shell | **Topics:** agency-orchestrator, agent-definitions, ai-agents, ai-roles, chinese
 
@@ -758,7 +758,7 @@ _Evaluations, benchmarks, research papers_
 
 ### [awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases) ⭐ 114
 
->Curated real-world use cases for Hermes Agent — the self-improving AI agent from Nous Research. Backed by primary sources.
+>Curated real-world use cases for Hermes Agent - the self-improving AI agent from Nous Research. Backed by primary sources.
 
 **Language:** Python | **Score:** 72/100
 
@@ -774,7 +774,7 @@ _Evaluations, benchmarks, research papers_
 
 ### [mudrii/hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) ⭐ 58
 
->Comprehensive documentation for Hermes Agent by NousResearch — the self-improving AI agent (v0.2.0)
+>Comprehensive documentation for Hermes Agent by NousResearch - the self-improving AI agent (v0.2.0)
 
 **Language:** MDX
 
@@ -798,7 +798,7 @@ _Evaluations, benchmarks, research papers_
 
 ### [aiunlocked1412/hermes-agent-pixel](https://github.com/aiunlocked1412/hermes-agent-pixel) ⭐ 14
 
->Watch your Hermes agent work live as a character in the Pixel Agents office — a push-based bridge integrating NousResearch/hermes-agent with pixel-agents-hq/pixel-agents.
+>Watch your Hermes agent work live as a character in the Pixel Agents office - a push-based bridge integrating NousResearch/hermes-agent with pixel-agents-hq/pixel-agents.
 
 **Language:** TypeScript
 
@@ -822,7 +822,7 @@ _Evaluations, benchmarks, research papers_
 
 ### [CogalNocloz/Hermes_evaluation](https://github.com/CogalNocloz/Hermes_evaluation) ⭐ 0
 
->Benchmark Hermes — Hello World Nuxt 4 style Nocloz
+>Benchmark Hermes - Hello World Nuxt 4 style Nocloz
 
 **Language:** TypeScript
 
@@ -830,7 +830,7 @@ _Evaluations, benchmarks, research papers_
 
 ### [chejinge/agent-product-benchmark-hermes](https://github.com/chejinge/agent-product-benchmark-hermes) ⭐ 0
 
->Multi-dimensional evaluation framework for AI coding agents — Hermes Edition
+>Multi-dimensional evaluation framework for AI coding agents - Hermes Edition
 
 ---
 
@@ -910,7 +910,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) ⭐ 5,450
 
->🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活
+>🦸 AI 编程超能力 · 中文增强版 - superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活
 
 **Language:** Shell | **Topics:** agent-skills, agentic-coding, ai-coding, chinese, claude-code
 
@@ -918,7 +918,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) ⭐ 4,116
 
->⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA
+>⚒ Evolutionary self-improvement for Hermes Agent - optimize skills, prompts, and code using DSPy + GEPA
 
 **Language:** Python
 
@@ -934,7 +934,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem) ⭐ 1,050
 
->🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
+>🗺️ Hermes Atlas - the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
 
 **Language:** HTML | **Score:** 80/100
 
@@ -958,7 +958,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) ⭐ 381
 
-> A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time you work with Hermes and solve something — setting up a project, debugging code, creating a PR — that   workflow disappears at the end of the session. You have to explain it again next time.
+> A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time you work with Hermes and solve something - setting up a project, debugging code, creating a PR - that   workflow disappears at the end of the session. You have to explain it again next time.
 
 **Language:** Python
 
@@ -982,7 +982,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [AlexAI-MCP/hermes-CCC](https://github.com/AlexAI-MCP/hermes-CCC) ⭐ 119
 
->Hermes Agent ported to Claude Code Channel — 46 native skills, no OAuth, no external process
+>Hermes Agent ported to Claude Code Channel - 46 native skills, no OAuth, no external process
 
 **Language:** PowerShell
 
@@ -1014,7 +1014,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [agentchatme/agentchat-hermes](https://github.com/agentchatme/agentchat-hermes) ⭐ 12
 
->AgentChat platform plugin for Nous Research's Hermes Agent runtime — peer-to-peer messaging for autonomous agents over WebSocket. Bundles the agent etiquette skill. (PyPI: agentchatme-hermes)
+>AgentChat platform plugin for Nous Research's Hermes Agent runtime - peer-to-peer messaging for autonomous agents over WebSocket. Bundles the agent etiquette skill. (PyPI: agentchatme-hermes)
 
 **Language:** Python
 
@@ -1022,7 +1022,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [BlockRunAI/ClawRouter-Hermes](https://github.com/BlockRunAI/ClawRouter-Hermes) ⭐ 12
 
->ClawRouter for Hermes — 55+ LLMs, x402 USDC micropayments on Base & Solana. Python plugin wrapping the ClawRouter proxy for NousResearch/hermes-agent.
+>ClawRouter for Hermes - 55+ LLMs, x402 USDC micropayments on Base & Solana. Python plugin wrapping the ClawRouter proxy for NousResearch/hermes-agent.
 
 **Language:** Python | **Topics:** blockrun, clawrouter, hermes, hermes-agent, llm-router
 
@@ -1038,7 +1038,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [pom11/hscc](https://github.com/pom11/hscc) ⭐ 3
 
->Hermes Spark Cluster Control — Install package, plugins, skills, templates
+>Hermes Spark Cluster Control - Install package, plugins, skills, templates
 
 **Language:** Python
 
@@ -1046,7 +1046,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [thestark77/cobalt-agent](https://github.com/thestark77/cobalt-agent) ⭐ 3
 
->Modular orchestration plugin for Hermes Agent — model routing, tool guard, skill injection
+>Modular orchestration plugin for Hermes Agent - model routing, tool guard, skill injection
 
 **Language:** Python
 
@@ -1076,7 +1076,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [hugocarreira/agentrc](https://github.com/hugocarreira/agentrc) ⭐ 2
 
->Single source of truth for AI coding agents — share AGENTS.md, RTK.md, skills, and plugins across OpenCode, Codex, Claude, Copilot, Hermes & Gemini CLI. Powered by agentrc.
+>Single source of truth for AI coding agents - share AGENTS.md, RTK.md, skills, and plugins across OpenCode, Codex, Claude, Copilot, Hermes & Gemini CLI. Powered by agentrc.
 
 **Language:** Markdown | **Topics:** ai, ai-agent, automation, claude, codex
 
@@ -1114,7 +1114,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [easyvibecoding/vibe-sci](https://github.com/easyvibecoding/vibe-sci) ⭐ 1
 
->Provider-neutral autonomous ML research paper writer — ideation -> LaTeX writeup -> peer review -> anti-hallucination numerical audit. Spun out from hermes-sci to remove Hermes-runtime coupling.
+>Provider-neutral autonomous ML research paper writer - ideation -> LaTeX writeup -> peer review -> anti-hallucination numerical audit. Spun out from hermes-sci to remove Hermes-runtime coupling.
 
 **Language:** Python | **Topics:** agent-skills, ai-scientist, anti-hallucination, arxiv, autonomous-research
 
@@ -1134,7 +1134,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [megberts/mcp-hermes-integration](https://github.com/megberts/mcp-hermes-integration) ⭐ 0
 
->Connect Hermes Agent to WebsitePublisher.ai via MCP — 59 tools for AI-powered web publishing
+>Connect Hermes Agent to WebsitePublisher.ai via MCP - 59 tools for AI-powered web publishing
 
 **Language:** Shell | **Topics:** hermes-agent, mcp
 
@@ -1148,7 +1148,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [kaankacar/stellar-agent-kit](https://github.com/kaankacar/stellar-agent-kit) ⭐ 0
 
->Connect any AI agent to Stellar / Soroban — TypeScript SDK with plugin architecture for LangChain, Vercel AI SDK, OpenAI, and Anthropic tool-calling. Includes autonomous-agent runner, Telegram bot template, and Hermes Agent integration.
+>Connect any AI agent to Stellar / Soroban - TypeScript SDK with plugin architecture for LangChain, Vercel AI SDK, OpenAI, and Anthropic tool-calling. Includes autonomous-agent runner, Telegram bot template, and Hermes Agent integration.
 
 **Language:** TypeScript
 
@@ -1156,7 +1156,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [am423/hermesbenchv0_1](https://github.com/am423/hermesbenchv0_1) ⭐ 0
 
->Hermes Agent benchmark v0.1 — evaluate local models on the actual tool-calling patterns Hermes users hit. Reproducible, trace-capturing, training-data ready.
+>Hermes Agent benchmark v0.1 - evaluate local models on the actual tool-calling patterns Hermes users hit. Reproducible, trace-capturing, training-data ready.
 
 **Language:** Python
 
@@ -1164,7 +1164,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [Undermybelt/hermes-skills-research](https://github.com/Undermybelt/hermes-skills-research) ⭐ 0
 
->Hermes Agent research skills — paper discovery, literature review, academic tools
+>Hermes Agent research skills - paper discovery, literature review, academic tools
 
 **Language:** TeX
 
@@ -1172,7 +1172,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [0451-software/research-skills](https://github.com/0451-software/research-skills) ⭐ 0
 
->Research skills for Hermes Agent — paper discovery, archiving, reading, and writing pipelines.
+>Research skills for Hermes Agent - paper discovery, archiving, reading, and writing pipelines.
 
 **Language:** Python
 
@@ -1188,7 +1188,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [42-evey/hermes-plugins](https://github.com/42-evey/hermes-plugins) ⭐ 387
 
->Custom plugins for hermes-agent — goal management, inter-agent bridge, model selection, cost control
+>Custom plugins for hermes-agent - goal management, inter-agent bridge, model selection, cost control
 
 **Language:** Python | **Topics:** ai-agent, autonomous-agent, hermes-agent, open-source, plugins | **Score:** 77/100
 
@@ -1224,7 +1224,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) ⭐ 35,898
 
->🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.
+>🔥 1Panel is a modern, open-source VPS control panel - and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.
 
 **Language:** Go | **Topics:** agent, clawdbot, copaw, docker, docker-ui
 
@@ -1256,7 +1256,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [EKKOLearnAI/hermes-studio](https://github.com/EKKOLearnAI/hermes-studio) ⭐ 8,000
 
->Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics 
+>Web dashboard for Hermes Agent - multi-platform AI chat, session management, scheduled jobs, usage analytics 
 
 **Language:** TypeScript | **Topics:** agent, ai-agent, chat-ui, dashboard, hermes
 
@@ -1264,7 +1264,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [qingchencloud/clawpanel](https://github.com/qingchencloud/clawpanel) ⭐ 2,842
 
->🦞 OpenClaw & Hermes Agent 多引擎 AI 管理面板 — 内置 AI 助手（工具调用 + 图片识别 + 多模态），一键安装 | Tauri v2 跨平台桌面应用 | 11 种语言
+>🦞 OpenClaw & Hermes Agent 多引擎 AI 管理面板 - 内置 AI 助手（工具调用 + 图片识别 + 多模态），一键安装 | Tauri v2 跨平台桌面应用 | 11 种语言
 
 **Language:** JavaScript | **Topics:** admin-panel, ai-agent, ai-assistant, ai-chat, ai-tools
 
@@ -1304,7 +1304,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [oh-my-hermes](https://github.com/witt3rd/oh-my-hermes) ⭐ 83
 
->Oh My Hermes (OMH) — Multi-agent orchestration skills for Hermes Agent. Inspired by oh-my-claudecode, rebuilt natively for Hermes primitives.
+>Oh My Hermes (OMH) - Multi-agent orchestration skills for Hermes Agent. Inspired by oh-my-claudecode, rebuilt natively for Hermes primitives.
 
 **Language:** Python | **Score:** 59/100
 
@@ -1320,7 +1320,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [mlennie/hermes-mcp](https://github.com/mlennie/hermes-mcp) ⭐ 45
 
-> MCP server that lets any llm (i.e. Claude Desktop) delegate tasks to a local Hermes Agent — cron jobs, web search, email, documents, and more.
+> MCP server that lets any llm (i.e. Claude Desktop) delegate tasks to a local Hermes Agent - cron jobs, web search, email, documents, and more.
 
 **Language:** Python
 
@@ -1328,7 +1328,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [chrisryugj/hermes-dashboard](https://github.com/chrisryugj/hermes-dashboard) ⭐ 31
 
->Web dashboard for Hermes Agent gateway — full config, MCP, cron, model management without CLI
+>Web dashboard for Hermes Agent gateway - full config, MCP, cron, model management without CLI
 
 **Language:** HTML
 
@@ -1336,7 +1336,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [H-Ali13381/hermes-linux-ricing](https://github.com/H-Ali13381/hermes-linux-ricing) ⭐ 16
 
->Most desktop customization is hours of config files, forum threads, and broken themes — Hermes flips that on its head by learning your setup, your style, and your ideas, then creates your dream desktop look.
+>Most desktop customization is hours of config files, forum threads, and broken themes - Hermes flips that on its head by learning your setup, your style, and your ideas, then creates your dream desktop look.
 
 **Language:** Python | **Topics:** ascii-art, braille, cli-theme, hermes, hermes-agent
 
@@ -1352,7 +1352,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [ksimback/hermes-atlas-mcp](https://github.com/ksimback/hermes-atlas-mcp) ⭐ 6
 
->MCP server exposing the Hermes Atlas ecosystem catalog — 100+ Hermes Agent tools, skills, plugins, and integrations — to any MCP-aware client (Claude Desktop, Cursor, Continue).
+>MCP server exposing the Hermes Atlas ecosystem catalog - 100+ Hermes Agent tools, skills, plugins, and integrations - to any MCP-aware client (Claude Desktop, Cursor, Continue).
 
 **Language:** JavaScript
 
@@ -1360,7 +1360,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [synthalorian/hermes-wingman](https://github.com/synthalorian/hermes-wingman) ⭐ 5
 
->The complete Hermes Agent GUI — Flutter desktop + mobile app + Rails 8 web dashboard. Glass morphism UI, 29 themes, Rust backend. Replaces the entire Hermes CLI.
+>The complete Hermes Agent GUI - Flutter desktop + mobile app + Rails 8 web dashboard. Glass morphism UI, 29 themes, Rust backend. Replaces the entire Hermes CLI.
 
 **Language:** Dart
 
@@ -1414,7 +1414,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [anomaliagent007-hue/hermes-mimo-bridge](https://github.com/anomaliagent007-hue/hermes-mimo-bridge) ⭐ 0
 
->Production bridge between Hermes Agent and Xiaomi MiMo API — long-chain reasoning + multi-agent orchestration. Built end-to-end by an autonomous AI agent.
+>Production bridge between Hermes Agent and Xiaomi MiMo API - long-chain reasoning + multi-agent orchestration. Built end-to-end by an autonomous AI agent.
 
 **Language:** Python
 
@@ -1422,7 +1422,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [kkllxy/hermes-web-ui](https://github.com/kkllxy/hermes-web-ui) ⭐ 0
 
->Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp)
+>Web dashboard for Hermes Agent - multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp)
 
 ---
 
@@ -1436,7 +1436,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) ⭐ 452
 
->Android device control for hermes-agent — bridge app + Python toolset
+>Android device control for hermes-agent - bridge app + Python toolset
 
 **Language:** Python | **Score:** 71/100
 
@@ -1444,7 +1444,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [pyrate-llama/hermes-ui](https://github.com/pyrate-llama/hermes-ui) ⭐ 195
 
->The command center for Hermes Agent — chat, steer, browse files, manage skills, and monitor everything from a single glassmorphic HTML app.
+>The command center for Hermes Agent - chat, steer, browse files, manage skills, and monitor everything from a single glassmorphic HTML app.
 
 **Language:** HTML | **Topics:** ai, ai-assistant, chat-interface, dashboard, glassmorphism, hermes, hermes-agent, llm, mcp, python, react, self-hosted, single-file, tailscale, web-ui | **Score:** 74/100
 

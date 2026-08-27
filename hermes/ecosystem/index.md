@@ -494,7 +494,7 @@ CowAgent  --  comprehensive AI agent framework for building autonomous task exec
 ### ksimback/hermes-ecosystem
 ⭐ **1,076** · `HTML` · [github.com/ksimback/hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem)
 
-🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com. The go-to visual directory for discovering the full Hermes ecosystem landscape — browse tools, skills, integrations, and community projects in an interactive map format.
+🗺️ Hermes Atlas - the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com. The go-to visual directory for discovering the full Hermes ecosystem landscape - browse tools, skills, integrations, and community projects in an interactive map format.
 
 **Key capabilities:** Ecosystem visualization, tool discovery, community directory, interactive mapping, Hermes-compatible
 **Related:** [Architecture →](/hermes/architecture/) · [Skills Catalog →](/hermes/skills/catalog/)
@@ -595,7 +595,7 @@ Open Design platform  --  local-first, open-source design tool with 259+ skills 
 ### chrisryugj/hermes-dashboard
 ⭐ **31** · `HTML` · [https://github.com/chrisryugj/hermes-dashboard](https://github.com/chrisryugj/hermes-dashboard)
 
-Web dashboard for Hermes Agent gateway — full config, MCP, cron, model management without CLI
+Web dashboard for Hermes Agent gateway - full config, MCP, cron, model management without CLI
 
 
 ---
@@ -603,7 +603,7 @@ Web dashboard for Hermes Agent gateway — full config, MCP, cron, model managem
 ### synthalorian/hermes-wingman
 ⭐ **5** · `Dart` · [https://github.com/synthalorian/hermes-wingman](https://github.com/synthalorian/hermes-wingman)
 
-The complete Hermes Agent GUI — Flutter desktop + mobile app + Rails 8 web dashboard. Glass morphism UI, 29 themes, Rust backend. Replaces the entire Hermes CLI.
+The complete Hermes Agent GUI - Flutter desktop + mobile app + Rails 8 web dashboard. Glass morphism UI, 29 themes, Rust backend. Replaces the entire Hermes CLI.
 
 
 ---
@@ -663,7 +663,7 @@ One brain, many harnesses. Portable `.agent/` folder (memory + skills + config) 
 ### mnemosyne-oss/mnemosyne
 ⭐ **1,358** · `Python` · [github.com/mnemosyne-oss/mnemosyne](https://github.com/mnemosyne-oss/mnemosyne)
 
-The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else. Production-grade local memory with zero external dependencies — battle-tested across agents, AI, ML, and Nous Research workflows.
+The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else. Production-grade local memory with zero external dependencies - battle-tested across agents, AI, ML, and Nous Research workflows.
 
 **Key capabilities:** Zero dependencies, sub-ms retrieval, local-first, Hermes-native, agents/AI/ML ecosystem
 
@@ -832,7 +832,7 @@ Local-first SQLite memory for Hermes with authority lanes, recall snippets, audi
 ### luluthehermeticcrabBot/phronesis
 ⭐ **2** · `JavaScript` · [https://github.com/luluthehermeticcrabBot/phronesis](https://github.com/luluthehermeticcrabBot/phronesis)
 
-Practical wisdom from agent experience. Auto-skill creation, FTS5 session search, persona system, memory consolidation, and Telegram notifications — bridging Hermes Agent's adaptive learning loop into OpenCode's plugin ecosystem.
+Practical wisdom from agent experience. Auto-skill creation, FTS5 session search, persona system, memory consolidation, and Telegram notifications - bridging Hermes Agent's adaptive learning loop into OpenCode's plugin ecosystem.
 
 
 ---
@@ -874,7 +874,7 @@ A server-side memory and knowledge graph API for AI agents. Stores episodic memo
 ### yun520-1/mark-heartflow-skill
 ⭐ **26** · `JavaScript` · [github.com/yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
 
-心虫 (HeartFlow) — Cognitive state encoder + autonomous decision engine. 60 modules encode raw text into structured cognitive data, judgment engine handles multi-path decisions, decision routing does field tracking, self-healing RL learns from errors. Invoked by Hermes Agent via MCP, providing structured cognitive snapshots to LLMs.
+心虫 (HeartFlow) - Cognitive state encoder + autonomous decision engine. 60 modules encode raw text into structured cognitive data, judgment engine handles multi-path decisions, decision routing does field tracking, self-healing RL learns from errors. Invoked by Hermes Agent via MCP, providing structured cognitive snapshots to LLMs.
 
 **Key capabilities:** Cognitive state encoding, multi-path decision engine, field tracking, self-healing reinforcement learning, MCP-native integration, structured cognitive snapshots
 **Maintainer:** yun520-1
@@ -884,7 +884,7 @@ A server-side memory and knowledge graph API for AI agents. Stores episodic memo
 ### cx2002302-lang/zettelkasten-second-memory
 ⭐ **16** · `TypeScript` · [github.com/cx2002302-lang/zettelkasten-second-memory](https://github.com/cx2002302-lang/zettelkasten-second-memory)
 
-An OpenClaw (2026.4/2026.6+) and Hermes Agent plugin that turns AI conversations into a permanent Zettelkasten knowledge base — atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure. Converts agent dialogue into structured, interlinked knowledge artifacts with SQLite persistence.
+An OpenClaw (2026.4/2026.6+) and Hermes Agent plugin that turns AI conversations into a permanent Zettelkasten knowledge base - atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure. Converts agent dialogue into structured, interlinked knowledge artifacts with SQLite persistence.
 
 **Maintainer:** cx2002302-lang
 **Topics:** `knowledge-management`, `zettelkasten`, `mcp-server`, `note-taking`, `second-memory`, `knowledge-graph`
@@ -1304,7 +1304,7 @@ Unity MCP server  --  Model Context Protocol server bridging autonomous agents w
 ### ksimback/hermes-atlas-mcp
 ⭐ **6** · `JavaScript` · [https://github.com/ksimback/hermes-atlas-mcp](https://github.com/ksimback/hermes-atlas-mcp)
 
-MCP server exposing the Hermes Atlas ecosystem catalog — 100+ Hermes Agent tools, skills, plugins, and integrations — to any MCP-aware client (Claude Desktop, Cursor, Continue).
+MCP server exposing the Hermes Atlas ecosystem catalog - 100+ Hermes Agent tools, skills, plugins, and integrations - to any MCP-aware client (Claude Desktop, Cursor, Continue).
 
 
 ---
@@ -1320,7 +1320,7 @@ Hermes Agent Composio MCP integration - connects Hermes to Composio for 1000+ to
 ### megberts/mcp-hermes-integration
 ⭐ **0** · `Shell` · [https://github.com/megberts/mcp-hermes-integration](https://github.com/megberts/mcp-hermes-integration)
 
-Connect Hermes Agent to WebsitePublisher.ai via MCP — 59 tools for AI-powered web publishing
+Connect Hermes Agent to WebsitePublisher.ai via MCP - 59 tools for AI-powered web publishing
 
 **Topics:** `hermes-agent`, `mcp`
 
@@ -2266,7 +2266,7 @@ Local-first memory, recall, and skill evolution plugin for Codex agents.
 ### agentchatme/agentchat-hermes
 ⭐ **12** · `Python` · [https://github.com/agentchatme/agentchat-hermes](https://github.com/agentchatme/agentchat-hermes)
 
-AgentChat platform plugin for Nous Research's Hermes Agent runtime — peer-to-peer messaging for autonomous agents over WebSocket. Bundles the agent etiquette skill. (PyPI: agentchatme-hermes)
+AgentChat platform plugin for Nous Research's Hermes Agent runtime - peer-to-peer messaging for autonomous agents over WebSocket. Bundles the agent etiquette skill. (PyPI: agentchatme-hermes)
 
 
 ---
@@ -2376,7 +2376,7 @@ Free AI gateway: one endpoint, multiple models  --  unified API gateway providin
 ### bitrouter/bitrouter
 ⭐ **203** · `Rust` · [github.com/bitrouter/bitrouter](https://github.com/bitrouter/bitrouter)
 
-Context-aware agentic LLM gateway and router that optimizes agentic workflows with every run. Works with any harness (Hermes Agent, Claude Code, Codex, OpenCode), any model (OpenAI-compatible, Anthropic-compatible, LiteLLM), and any loop. Features ACP-native routing, agent observability, guardrails, and MCP integration — all in a high-performance Rust binary.
+Context-aware agentic LLM gateway and router that optimizes agentic workflows with every run. Works with any harness (Hermes Agent, Claude Code, Codex, OpenCode), any model (OpenAI-compatible, Anthropic-compatible, LiteLLM), and any loop. Features ACP-native routing, agent observability, guardrails, and MCP integration - all in a high-performance Rust binary.
 
 **Maintainer:** [bitrouter](https://github.com/bitrouter)
 **Key capabilities:** LLM gateway, agentic routing, ACP-native, multi-harness, multi-model, agent observability, guardrails, MCP integration, Rust
@@ -2932,7 +2932,7 @@ Wave Terminal  --  open-source terminal workspace with graphical widgets, web re
 ### PatterAI/Patter
 ⭐ **967** · `Python` · [github.com/PatterAI/Patter](https://github.com/PatterAI/Patter)
 
-Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your Hermes agent a voice — build real-time voice AI applications with self-hosted infrastructure.
+Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your Hermes agent a voice - build real-time voice AI applications with self-hosted infrastructure.
 
 **Key capabilities:** Voice AI SDK, real-time voice, self-hosted, Vapi alternative, Retell alternative, open-source, Hermes-compatible
 **Related:** [Tools & Utilities →](#tools-utilities)
@@ -3042,7 +3042,7 @@ AI companies compete for stars. Competitive multi-agent arena for testing agent 
 ### agent-of-empires/agent-of-empires
 ⭐ **2,816** · `Rust` · [github.com/agent-of-empires/agent-of-empires](https://github.com/agent-of-empires/agent-of-empires)
 
-Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Multi-agent orchestrator supporting Hermes Agent, Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, Copilot CLI, and Pi.dev — unified interface for managing coding agents across providers.
+Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Multi-agent orchestrator supporting Hermes Agent, Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, Copilot CLI, and Pi.dev - unified interface for managing coding agents across providers.
 
 **Key capabilities:** Multi-agent orchestration, TUI + Web UI, cross-provider support, Hermes-compatible, mobile-ready, task management
 **Related:** [Orchestration →](#orchestration-multi-agent-swarms)
@@ -3184,7 +3184,7 @@ Conductor  --  Netflix-originated, battle-tested workflow orchestration engine n
 ### thestark77/cobalt-agent
 ⭐ **3** · `Python` · [https://github.com/thestark77/cobalt-agent](https://github.com/thestark77/cobalt-agent)
 
-Modular orchestration plugin for Hermes Agent — model routing, tool guard, skill injection
+Modular orchestration plugin for Hermes Agent - model routing, tool guard, skill injection
 
 
 ---
@@ -3192,7 +3192,7 @@ Modular orchestration plugin for Hermes Agent — model routing, tool guard, ski
 ### hugocarreira/agentrc
 ⭐ **2** · `Markdown` · [https://github.com/hugocarreira/agentrc](https://github.com/hugocarreira/agentrc)
 
-Single source of truth for AI coding agents — share AGENTS.md, RTK.md, skills, and plugins across OpenCode, Codex, Claude, Copilot, Hermes & Gemini CLI. Powered by agentrc.
+Single source of truth for AI coding agents - share AGENTS.md, RTK.md, skills, and plugins across OpenCode, Codex, Claude, Copilot, Hermes & Gemini CLI. Powered by agentrc.
 
 **Topics:** `ai`, `ai-agent`, `automation`, `claude`, `codex`, `developer-tools`, `opencode`, `productivity`
 
@@ -3201,7 +3201,7 @@ Single source of truth for AI coding agents — share AGENTS.md, RTK.md, skills,
 ### Intelligent-Internet/zenith
 ⭐ **257** · `Python` · [github.com/Intelligent-Internet/zenith](https://github.com/Intelligent-Internet/zenith)
 
-Zenith — a continuous-improvement harness for long-running agent tasks. Turns Claude Code, Codex, or Hermes into a multi-agent mission orchestrator via MCP/ACP. Supports agent-client-protocol, multi-agent orchestration, long-horizon tasks, and LLM-powered autonomous workflows.
+Zenith - a continuous-improvement harness for long-running agent tasks. Turns Claude Code, Codex, or Hermes into a multi-agent mission orchestrator via MCP/ACP. Supports agent-client-protocol, multi-agent orchestration, long-horizon tasks, and LLM-powered autonomous workflows.
 
 **Topics:** `agent-client-protocol`, `agent-harness`, `ai-agents`, `claude-code`, `codex`, `llm`, `long-horizon-tasks`, `mcp`, `model-context-protocol`, `multi-agent`, `orchestration`
 **Related:** [Orchestration →](#orchestration-multi-agent-swarms)
@@ -3257,7 +3257,7 @@ Production bridge between Hermes Agent and Xiaomi MiMo API  --  long-chain reaso
 ### yuluyangguang1/hermes-portable
 ⭐ **37** · `Python` · [github.com/yuluyangguang1/hermes-portable](https://github.com/yuluyangguang1/hermes-portable)
 
-Plug-in-a-USB AI agent — zero-install, zero-trace, cross-platform portable Hermes Agent. Runs directly from a USB drive with no installation required, leaving no traces on the host machine. Ideal for air-gapped environments, demos, and secure portable deployments.
+Plug-in-a-USB AI agent - zero-install, zero-trace, cross-platform portable Hermes Agent. Runs directly from a USB drive with no installation required, leaving no traces on the host machine. Ideal for air-gapped environments, demos, and secure portable deployments.
 
 **Key capabilities:** USB portable, zero-install, zero-trace, cross-platform, self-contained, air-gap ready
 **Related:** [Hermes Setup Guide →](/hermes/setup/)
@@ -3363,7 +3363,7 @@ Windows-native integrated package bundling Hermes Agent v0.16.0 + Hermes WebUI v
 ### pom11/hscc
 ⭐ **3** · `Python` · [https://github.com/pom11/hscc](https://github.com/pom11/hscc)
 
-Hermes Spark Cluster Control — Install package, plugins, skills, templates
+Hermes Spark Cluster Control - Install package, plugins, skills, templates
 
 
 ---
@@ -3876,7 +3876,7 @@ a local-first visual orchestration workspace for AI agents, enabling users to de
 ### kaankacar/stellar-agent-kit
 ⭐ **0** · `TypeScript` · [https://github.com/kaankacar/stellar-agent-kit](https://github.com/kaankacar/stellar-agent-kit)
 
-Connect any AI agent to Stellar / Soroban — TypeScript SDK with plugin architecture for LangChain, Vercel AI SDK, OpenAI, and Anthropic tool-calling. Includes autonomous-agent runner, Telegram bot template, and Hermes Agent integration.
+Connect any AI agent to Stellar / Soroban - TypeScript SDK with plugin architecture for LangChain, Vercel AI SDK, OpenAI, and Anthropic tool-calling. Includes autonomous-agent runner, Telegram bot template, and Hermes Agent integration.
 
 
 ---
@@ -3948,7 +3948,7 @@ Agentic training trajectories from Hermes sessions. Distill agent behavior into 
 ### xiaojilele-glitch/WhyBuddy
 ⭐ **347** · `TypeScript` · [github.com/xiaojilele-glitch/WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy)
 
-A simple and universal product rehearsal engine — spec anything. Connect Hermes agents to a product rehearsal engine for speccing and iterating on product ideas. Multi-agent compatible.
+A simple and universal product rehearsal engine - spec anything. Connect Hermes agents to a product rehearsal engine for speccing and iterating on product ideas. Multi-agent compatible.
 
 **Status:** Active · **Forks:** 57  
 **Key capabilities:** Product rehearsal, spec engine, Hermes integration, multi-agent, product iteration  
@@ -3967,7 +3967,7 @@ RDF parse data for NousResearch/hermes-paperclip-adapter
 ### mage0535/hermes-memory-installer
 ⭐ **165** · `Python` · [github.com/mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer)
 
-Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. Compatible with Hermes, Claude, Cursor, and any AI agent.
+Production-grade memory sidecar for AI agents - gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. Compatible with Hermes, Claude, Cursor, and any AI agent.
 
 **Status:** Active · **Forks:** 9  
 **Key capabilities:** Agent memory, knowledge graph, semantic search, vector memory, 3-tier recall, gbrain, production-grade  
@@ -4132,13 +4132,13 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 115000 | 232 AI agent personalities across 16 divisions — marketing, engineering, design, QA, security, support. One-click install for Claude Code, Copilot, Cursor, Aider, OpenCode. MIT license. | agent-personality, multi-agent, marketing, engineering, design |
-| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | 6019 | Curated collection of AI system prompts across multiple platforms — ChatGPT, Claude, Gemini, Copilot. Production-tested prompt engineering patterns. | prompt-engineering, system-prompts, agent-personality |
-| [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) | 2261 | Claude Code skills for Go development — testing, linting, debugging, code generation. Golang-specific agent workflows. | golang, claude-code, development |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 115000 | 232 AI agent personalities across 16 divisions - marketing, engineering, design, QA, security, support. One-click install for Claude Code, Copilot, Cursor, Aider, OpenCode. MIT license. | agent-personality, multi-agent, marketing, engineering, design |
+| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | 6019 | Curated collection of AI system prompts across multiple platforms - ChatGPT, Claude, Gemini, Copilot. Production-tested prompt engineering patterns. | prompt-engineering, system-prompts, agent-personality |
+| [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) | 2261 | Claude Code skills for Go development - testing, linting, debugging, code generation. Golang-specific agent workflows. | golang, claude-code, development |
 | [erikdarlingdata/PerformanceMonitor](https://github.com/erikdarlingdata/PerformanceMonitor) | 423 | SQL Server performance monitoring with AI agent integration. Production database observability. | database, monitoring, sql-server |
-| [Karanjot786/agent-skills-cli](https://github.com/Karanjot786/agent-skills-cli) | 163 | CLI tool for managing AI agent skills — install, update, publish agent skills across platforms. | agent-skills, cli, developer-tools |
-| [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 23236 | 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, | agent, ecosystem |
-| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 15451 | Trigger.dev – build and deploy fully‑managed AI agents and workflows | agent, ecosystem |
+| [Karanjot786/agent-skills-cli](https://github.com/Karanjot786/agent-skills-cli) | 163 | CLI tool for managing AI agent skills - install, update, publish agent skills across platforms. | agent-skills, cli, developer-tools |
+| [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 23236 | 280+ free n8n automation templates - ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, | agent, ecosystem |
+| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 15451 | Trigger.dev - build and deploy fully‑managed AI agents and workflows | agent, ecosystem |
 | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | 13341 | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Altern | agent, ecosystem |
 | [waooAI/waoowaoo](https://github.com/waooAI/waoowaoo) | 12863 | 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts t | agent, ecosystem |
 | [firerpa/lamda](https://github.com/firerpa/lamda) | 7834 |  The most powerful Android RPA agent framework, next generation mobile automation. | agent, ecosystem |
@@ -4149,7 +4149,7 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [SmythOS/sre](https://github.com/SmythOS/sre) | 1279 | The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and produ | agent, ecosystem |
 | [massgen/MassGen](https://github.com/massgen/MassGen) | 1063 | 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier m | agent, ecosystem |
 | [docker/compose-for-agents](https://github.com/docker/compose-for-agents) | 982 | Build and run AI agents using Docker Compose. A collection of ready-to-use examples for orchestrating open-source LLMs,  | agent, ecosystem |
-| [bytechefhq/bytechef](https://github.com/bytechefhq/bytechef) | 775 | Open-source platform that unifies AI agent orchestration and workflow automation — autonomy and precision in one platfor | agent, ecosystem |
+| [bytechefhq/bytechef](https://github.com/bytechefhq/bytechef) | 775 | Open-source platform that unifies AI agent orchestration and workflow automation - autonomy and precision in one platfor | agent, ecosystem |
 | [giuseppe-trisciuoglio/developer-kit](https://github.com/giuseppe-trisciuoglio/developer-kit) | 291 |  Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and  | agent, ecosystem |
 | [osovv/grace-marketplace](https://github.com/osovv/grace-marketplace) | 214 |  GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic mar | agent, ecosystem |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 141060 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, L | agent, ecosystem |
@@ -4162,19 +4162,19 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 9860 | HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) a | agent, ecosystem |
 | [refly-ai/refly](https://github.com/refly-ai/refly) | 7396 | The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Curs | agent, ecosystem |
 | [steipete/agent-rules](https://github.com/steipete/agent-rules) | 5693 | Rules and Knowledge to work better with agents such as Claude Code or Cursor | agent, ecosystem |
-| [intellectronica/ruler](https://github.com/intellectronica/ruler) | 2773 | Ruler — apply the same rules to all coding agents | agent, ecosystem |
+| [intellectronica/ruler](https://github.com/intellectronica/ruler) | 2773 | Ruler - apply the same rules to all coding agents | agent, ecosystem |
 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 1938 | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code,  | agent, ecosystem |
 | [IsHexx/system-prompts-and-models-of-ai-tools-chinese](https://github.com/IsHexx/system-prompts-and-models-of-ai-tools-chinese) | 1194 | AI编程工具中文提示词合集，包含Cursor、Devin、VSCode Agent等多种AI编程工具的提示词，为中文开发者提供AI辅助编程参考资源。持续更新中文编程Rules和最新AI编程提示词。 | agent, ecosystem |
 | [instructa/ai-prompts](https://github.com/instructa/ai-prompts) | 1052 | Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot | agent, ecosystem |
 | [ModelEngine-Group/nexent](https://github.com/ModelEngine-Group/nexent) | 5265 | Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineer | agent, ecosystem |
 | [EvoAgentX/EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | 3088 | 🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents | agent, ecosystem |
-| [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 3891 | AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for persona | agent, ecosystem |
+| [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 3891 | AI-assisted TradingView chart analysis - connect Claude Code to your TradingView Desktop for persona | agent, ecosystem |
 | [SomeOddCodeGuy/WilmerAI](https://github.com/SomeOddCodeGuy/WilmerAI) | 817 | WilmerAI is one of the oldest LLM semantic routers. It uses multi-layer prompt routing and complex w | agent, ecosystem |
 | [lofcz/LLMTornado](https://github.com/lofcz/LLMTornado) | 621 | The .NET library to build AI agents with 30+ built-in connectors. | agent, ecosystem |
 | [timothy-odofin/agenthub-be](https://github.com/timothy-odofin/agenthub-be) | 570 | Open-source RAG platform with multi-LLM support. Build AI agents that connect to your data, tools, a | agent, ecosystem |
 | [makafeli/n8n-workflow-builder](https://github.com/makafeli/n8n-workflow-builder) | 526 | AI assistant integration for n8n workflow automation through Model Context Protocol (MCP). Connect C | agent, ecosystem |
 
-| [ruvnet/metaharness](https://github.com/ruvnet/metaharness) | 355 | 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own np | agent, ecosystem |
+| [ruvnet/metaharness](https://github.com/ruvnet/metaharness) | 355 | 🛠️ The meta-harness for AI agents - scaffold your own focused, branded agent harness with its own np | agent, ecosystem |
 | [zhu1090093659/spec_driven_develop](https://github.com/zhu1090093659/spec_driven_develop) | 909 | Spec-driven development workflow for AI coding agents: architecture-first planning, task decompositi | agent, ecosystem |
 | [DjangoPeng/agent-hub](https://github.com/DjangoPeng/agent-hub) | 339 | This repository is a hub for AI Agent projects, including GitHub Sentinel, LanguageMentor, and ChatP | agent, ecosystem |
 | [groupzer0/vs-code-agents](https://github.com/groupzer0/vs-code-agents) | 274 | A multi-agent workflow system for GitHub Copilot in VS Code that brings structure, quality gates, an | agent, ecosystem |
@@ -4182,16 +4182,16 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow) | 163 | Advanced Agentic Development Environment for DevPods, GitHub Codespaces, Rackspace Spot & more. Rufl | agent, ecosystem |
 | [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima) | 1099 | Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini & Perplexity to your coding tools without any  | agent, ecosystem |
 | [iansinnott/obsidian-claude-code-mcp](https://github.com/iansinnott/obsidian-claude-code-mcp) | 309 | Connect Claude Code and other AI tools to your Obsidian notes using Model Context Protocol (MCP) | agent, ecosystem |
-| [HarmonicSecurity/claudit-sec](https://github.com/HarmonicSecurity/claudit-sec) | 292 | Security audit tool for Claude Desktop and Claude Code on macOS — single-command visibility into MCP | agent, ecosystem |
+| [HarmonicSecurity/claudit-sec](https://github.com/HarmonicSecurity/claudit-sec) | 292 | Security audit tool for Claude Desktop and Claude Code on macOS - single-command visibility into MCP | agent, ecosystem |
 | [Glade-tool/glade-mcp](https://github.com/Glade-tool/glade-mcp) | 167 | Connect any MCP-compatible AI client (Claude Code, Cursor, Windsurf) to Unity or Godot. 235+ granula | agent, ecosystem |
 | [mixelpixx/SSH-MCP](https://github.com/mixelpixx/SSH-MCP) | 49 | A Model Context Protocol (MCP) server that provides SSH access to remote servers, allowing AI tools  | agent, ecosystem |
 
-## New Additions — June 25, 2026
+## New Additions - June 25, 2026
 
 | Repository | Stars | Description |
 |-----------|-------|-------------|
-| [rolandpg/zettelforge](https://github.com/rolandpg/zettelforge) | 50 | Agentic memory for CTI — STIX knowledge graphs, threat-actor alias resolution |
-| [QuantaSeal/mcp-server](https://github.com/QuantaSeal/mcp-server) | 0 | QuantaSeal MCP Server — 18 tools for AI agents |
+| [rolandpg/zettelforge](https://github.com/rolandpg/zettelforge) | 50 | Agentic memory for CTI - STIX knowledge graphs, threat-actor alias resolution |
+| [QuantaSeal/mcp-server](https://github.com/QuantaSeal/mcp-server) | 0 | QuantaSeal MCP Server - 18 tools for AI agents |
 | [invertible-statue269/colign](https://github.com/invertible-statue269/colign) | 2 | Align teams on specs before AI writes code |
-| [Lucenx9/forktty](https://github.com/Lucenx9/forktty) | 6 | Linux-native workspace for coding agents — Ghostty terminals, git worktrees |
-| [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) | 26 | 心虫 (HeartFlow) — Cognitive state encoder + autonomous decision engine via MCP |
+| [Lucenx9/forktty](https://github.com/Lucenx9/forktty) | 6 | Linux-native workspace for coding agents - Ghostty terminals, git worktrees |
+| [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) | 26 | 心虫 (HeartFlow) - Cognitive state encoder + autonomous decision engine via MCP |

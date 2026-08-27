@@ -1,5 +1,5 @@
 ---
-title: "Retasc MCP — Integration Guide"
+title: "Retasc MCP - Integration Guide"
 description: "The issue tracker for AI agents over MCP. Atomic claims, dependency-aware dispatch, parallel swarms, and cross-runtime handoffs for agent orchestration."
 category: mcp
 tags: [mcp-server, agent-orchestration, task-management, multi-agent, issue-tracker, claude-code, hermes-agent]
@@ -9,22 +9,22 @@ robots: "index,follow"
 
 ---
 
-# Retasc MCP — AI Agent Task Orchestration for Hermes Agent
+# Retasc MCP - AI Agent Task Orchestration for Hermes Agent
 
-Retasc is the MCP server AI coding agents pull work from. It replaces traditional issue trackers with atomic claims, dependency-aware dispatch, and parallel swarm execution — purpose-built for agentic workflows, not human project management.
+Retasc is the MCP server AI coding agents pull work from. It replaces traditional issue trackers with atomic claims, dependency-aware dispatch, and parallel swarm execution - purpose-built for agentic workflows, not human project management.
 
 ## What It Does
 
 Retasc transforms how AI agents consume and complete work:
 
-- **Atomic claims with lease/TTL** — Agents claim individual work items with per-claim tokens and expiration. No double-work, no orphaned tasks.
-- **next_batch wave dispatch** — Parallel agent swarms pull the next ready batch based on dependency resolution and effective priority.
-- **Dependency-graph scheduling** — Tasks blocked on incomplete dependencies never surface. When a blocker completes, dependents become available automatically.
-- **Resumable handoffs** — Any runtime (Claude Code, Codex, Cursor) resumes from the last checkpoint. Cross-runtime handoffs are native, not bolted on.
-- **Deadline-aware dispatch** — `dueAt` SLA pressure: a breach outranks an urgent-priority task.
-- **Inbound intake webhooks** — GitHub and GitLab issues sync in; done-items sync back to the source.
-- **Outbound notifications** — Slack, Discord, and Telegram DMs on done, assigned, review, or canceled.
-- **Human principal binding** — Every claim and edit is traceable to the signed-in human who authorized the agent.
+- **Atomic claims with lease/TTL** - Agents claim individual work items with per-claim tokens and expiration. No double-work, no orphaned tasks.
+- **next_batch wave dispatch** - Parallel agent swarms pull the next ready batch based on dependency resolution and effective priority.
+- **Dependency-graph scheduling** - Tasks blocked on incomplete dependencies never surface. When a blocker completes, dependents become available automatically.
+- **Resumable handoffs** - Any runtime (Claude Code, Codex, Cursor) resumes from the last checkpoint. Cross-runtime handoffs are native, not bolted on.
+- **Deadline-aware dispatch** - `dueAt` SLA pressure: a breach outranks an urgent-priority task.
+- **Inbound intake webhooks** - GitHub and GitLab issues sync in; done-items sync back to the source.
+- **Outbound notifications** - Slack, Discord, and Telegram DMs on done, assigned, review, or canceled.
+- **Human principal binding** - Every claim and edit is traceable to the signed-in human who authorized the agent.
 
 ### Why It Matters for Operators
 
@@ -90,7 +90,7 @@ Feed Retasc with feature specs. Multiple Claude Code agents claim tasks in paral
 Create content tasks with `dueAt` timestamps. Retasc's deadline-aware dispatch ensures time-sensitive posts surface above non-urgent work. Agents check `next_batch` and always pull what matters most.
 
 ### Cross-runtime Handoffs
-Start a research task in Claude Code, checkpoint it. Resume from Codex or Cursor. Retasc handles the context handoff — same claim, same state, different runtime.
+Start a research task in Claude Code, checkpoint it. Resume from Codex or Cursor. Retasc handles the context handoff - same claim, same state, different runtime.
 
 ## Pricing
 
@@ -100,7 +100,7 @@ Start a research task in Claude Code, checkpoint it. Resume from Codex or Cursor
 
 ## Limitations
 
-- **MCP-native only:** No traditional web UI for human task management — this is purpose-built for agents
+- **MCP-native only:** No traditional web UI for human task management - this is purpose-built for agents
 - **Early stage:** New product, ecosystem integrations growing
 - **API key auth:** Not OAuth; key management is manual
 - **Dependency on MCP client support:** Requires clients that support Streamable HTTP transport
@@ -109,4 +109,4 @@ Start a research task in Claude Code, checkpoint it. Resume from Codex or Cursor
 
 Retasc is the most significant agent orchestration MCP we've seen this month. It solves the fundamental mismatch between human-centric issue trackers and agent workflows. For operators running multiple AI coding agents, this replaces the Jira/Linear API + custom dispatch scripts pattern with a single MCP endpoint. Strong recommend for any multi-agent workflow.
 
-**Rating: ★★★ — Essential for multi-agent operators**
+**Rating: ★★★ - Essential for multi-agent operators**

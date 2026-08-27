@@ -1,6 +1,6 @@
 ---
-title: "DataNexus MCP — Public Data Intelligence (55 Tools)"
-description: "DataNexus MCP server provides 55 tools for verified public data — CVE vulnerabilities, patents, federal contracts, NPI provider data, nonprofits, and domain"
+title: "DataNexus MCP - Public Data Intelligence (55 Tools)"
+description: "DataNexus MCP server provides 55 tools for verified public data - CVE vulnerabilities, patents, federal contracts, NPI provider data, nonprofits, and domain"
 category: mcp
 tags: [mcp-server, data-intelligence, public-data, cve, patents, federal-contracts, open-data]
 last_updated: 2026-07-19
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# DataNexus MCP Server — Public Data Intelligence
+# DataNexus MCP Server - Public Data Intelligence
 
 DataNexus MCP is a public data intelligence server with 55 tools spanning CVE security vulnerabilities, patent databases, federal contracts, NPI healthcare provider data, nonprofit registries, and domain intelligence. It's live at datanexusmcp.com with over 8,000 calls on Smithery and listed on Glama.
 
@@ -22,7 +22,7 @@ DataNexus MCP is a public data intelligence server with 55 tools spanning CVE se
 
 ## Why This Matters for Operators
 
-Operators making business decisions need external intelligence — Is a vendor vulnerable to a known CVE? Has a competitor filed new patents? Are there federal contracts in our space? Who are the key nonprofits in our market? DataNexus answers all of these from a single MCP server with verified, structured data. No more cobbling together 5 different APIs.
+Operators making business decisions need external intelligence - Is a vendor vulnerable to a known CVE? Has a competitor filed new patents? Are there federal contracts in our space? Who are the key nonprofits in our market? DataNexus answers all of these from a single MCP server with verified, structured data. No more cobbling together 5 different APIs.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 ---
-title: AWS Agent Toolkit — Official AWS Skills for Hermes Agents
-description: AWS's official agent toolkit — MCP servers, skills, and plugins for building on AWS. 4.3K+ combined installs across 19 core skills covering IAM, CDK, serverless, containers, databases, and AI/ML.
+title: AWS Agent Toolkit - Official AWS Skills for Hermes Agents
+description: AWS's official agent toolkit - MCP servers, skills, and plugins for building on AWS. 4.3K+ combined installs across 19 core skills covering IAM, CDK, serverless, containers, databases, and AI/ML.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aws-agent-toolkit-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# AWS Agent Toolkit — Setup Guide
+# AWS Agent Toolkit - Setup Guide
 
 **Source:** [aws/agent-toolkit-for-aws](https://skills.sh/aws/agent-toolkit-for-aws) (4.3K+ combined installs)
 **GitHub:** [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) (2,119 ⭐)
@@ -66,20 +66,20 @@ npx skills add aws/agent-toolkit-for-aws --skill signing-in-to-aws
 | **aws-cloudformation** | 3.6K | CloudFormation templates for declarative infrastructure provisioning |
 | **aws-containers** | 3.5K | ECS, EKS, and Fargate for container orchestration at any scale |
 | **connecting-to-data-source** | 2.8K | Data source connectivity via VPC endpoints, proxies, and federated queries |
-| **aws-serverless** | — | Lambda, API Gateway, Step Functions, and EventBridge patterns |
-| **aws-compute** | — | EC2, Auto Scaling, Spot Instances, and placement groups |
-| **aws-database** | — | RDS, DynamoDB, ElastiCache, and DocumentDB managed databases |
-| **aws-networking** | — | VPC, subnets, security groups, load balancers, and Route 53 |
-| **aws-observability** | — | CloudWatch, X-Ray, and CloudTrail for monitoring and tracing |
-| **aws-deployment** | — | CodeDeploy, CodePipeline, and ECR for CI/CD on AWS |
-| **aws-messaging-and-streaming** | — | SQS, SNS, Kinesis, and MSK for event-driven architectures |
-| **amazon-bedrock** | — | Bedrock foundation models, knowledge bases, agents, and guardrails |
-| **aws-blocks** | — | AWS Blocks visual infrastructure builder patterns |
-| **signing-in-to-aws** | — | SSO, IAM Identity Center, and credential management for agents |
-| **launch-with-aws** | — | New account setup, best-practice foundations, and Control Tower |
-| **aws-sdk-js-v3-usage** | — | AWS SDK for JavaScript v3 with modular client patterns |
-| **aws-sdk-python-usage** | — | Boto3 idiomatic Python patterns for AWS APIs |
-| **aws-sdk-swift-usage** | — | AWS SDK for Swift with native iOS and macOS patterns |
+| **aws-serverless** | - | Lambda, API Gateway, Step Functions, and EventBridge patterns |
+| **aws-compute** | - | EC2, Auto Scaling, Spot Instances, and placement groups |
+| **aws-database** | - | RDS, DynamoDB, ElastiCache, and DocumentDB managed databases |
+| **aws-networking** | - | VPC, subnets, security groups, load balancers, and Route 53 |
+| **aws-observability** | - | CloudWatch, X-Ray, and CloudTrail for monitoring and tracing |
+| **aws-deployment** | - | CodeDeploy, CodePipeline, and ECR for CI/CD on AWS |
+| **aws-messaging-and-streaming** | - | SQS, SNS, Kinesis, and MSK for event-driven architectures |
+| **amazon-bedrock** | - | Bedrock foundation models, knowledge bases, agents, and guardrails |
+| **aws-blocks** | - | AWS Blocks visual infrastructure builder patterns |
+| **signing-in-to-aws** | - | SSO, IAM Identity Center, and credential management for agents |
+| **launch-with-aws** | - | New account setup, best-practice foundations, and Control Tower |
+| **aws-sdk-js-v3-usage** | - | AWS SDK for JavaScript v3 with modular client patterns |
+| **aws-sdk-python-usage** | - | Boto3 idiomatic Python patterns for AWS APIs |
+| **aws-sdk-swift-usage** | - | AWS SDK for Swift with native iOS and macOS patterns |
 
 ---
 

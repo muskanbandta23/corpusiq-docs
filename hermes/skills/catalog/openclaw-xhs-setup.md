@@ -1,6 +1,6 @@
 ---
-title: OpenClaw XHS Setup — Xiaohongshu (RED) Integration for AI Agents
-description: Install and configure zhjiang22/openclaw-xhs — Xiaohongshu (Little Red Book) MCP integration for OpenClaw and Hermes agents. Hot topic tracking, personal memory export, Chinese social media automation.
+title: OpenClaw XHS Setup - Xiaohongshu (RED) Integration for AI Agents
+description: Install and configure zhjiang22/openclaw-xhs - Xiaohongshu (Little Red Book) MCP integration for OpenClaw and Hermes agents. Hot topic tracking, personal memory export, Chinese social media automation.
 author: zhjiang22
 repo: https://github.com/zhjiang22/openclaw-xhs
 stars: 113
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Source:** [zhjiang22/openclaw-xhs](https://skills.sh/zhjiang22/openclaw-xhs) (113 ⭐)
 **Category:** Social Media / Growth
 
-OpenClaw XHS integrates Xiaohongshu (小红书, "Little Red Book") — China's 300M+ user lifestyle and shopping platform — into your AI agent workflow. Built as an MCP server, it enables your Hermes or OpenClaw agent to read, monitor, and analyze Xiaohongshu content, track hot topics, and export personal memory banks.
+OpenClaw XHS integrates Xiaohongshu (小红书, "Little Red Book") - China's 300M+ user lifestyle and shopping platform - into your AI agent workflow. Built as an MCP server, it enables your Hermes or OpenClaw agent to read, monitor, and analyze Xiaohongshu content, track hot topics, and export personal memory banks.
 
 ---
 
@@ -129,7 +129,7 @@ Xiaohongshu has 300M+ monthly active users, predominantly young, affluent Chines
 - Lifestyle trends and shopping decisions
 - Brand perception in the Chinese market
 
-For AI companies and SaaS products expanding into APAC, Xiaohongshu intelligence is critical — and this MCP integration makes it accessible directly from your agent workflow.
+For AI companies and SaaS products expanding into APAC, Xiaohongshu intelligence is critical - and this MCP integration makes it accessible directly from your agent workflow.
 
 ---
 
@@ -137,9 +137,9 @@ For AI companies and SaaS products expanding into APAC, Xiaohongshu intelligence
 
 - 113 GitHub stars, actively maintained (updated July 2026)
 - Chinese-language README with English code comments
-- Built as MCP server — compatible with any MCP client (Hermes, OpenClaw, Claude Desktop)
+- Built as MCP server - compatible with any MCP client (Hermes, OpenClaw, Claude Desktop)
 - Includes hot topic tracking, memory export, and content analysis tools
-- Cookie-based auth (no API key required — uses standard web session)
+- Cookie-based auth (no API key required - uses standard web session)
 
 ---
 
@@ -147,7 +147,7 @@ For AI companies and SaaS products expanding into APAC, Xiaohongshu intelligence
 
 - **Cookie expiry:** Session cookies expire every 24-48h and must be manually refreshed
 - **Rate limiting:** Xiaohongshu may rate-limit aggressive scraping
-- **Chinese-language content:** Most content is in Chinese — pair with translation tools for non-Chinese speakers
+- **Chinese-language content:** Most content is in Chinese - pair with translation tools for non-Chinese speakers
 - **No posting:** Read-only at this time (posting requires additional anti-bot measures)
 
 ---

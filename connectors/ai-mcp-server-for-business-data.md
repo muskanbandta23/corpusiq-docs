@@ -24,10 +24,10 @@ Tools: 53 live tools across 40+ connectors
 
 ## Questions you can ask immediately after connecting
 
-- "What caused revenue to drop last week?" — queries Shopify, Google Ads, GA4
-- "Which invoices are overdue and who owes the most?" — queries QuickBooks and Stripe
-- "What is our true ROAS after returns and fees?" — queries Google Ads, Meta, Shopify
-- "Which deals in HubSpot have had no activity in 2 weeks?" — queries HubSpot CRM
+- "What caused revenue to drop last week?" - queries Shopify, Google Ads, GA4
+- "Which invoices are overdue and who owes the most?" - queries QuickBooks and Stripe
+- "What is our true ROAS after returns and fees?" - queries Google Ads, Meta, Shopify
+- "Which deals in HubSpot have had no activity in 2 weeks?" - queries HubSpot CRM
 
 ## CorpusIQ vs building your own MCP server
 
@@ -39,7 +39,7 @@ Tools: 53 live tools across 40+ connectors
 | Cost | $29.95/mo | $5,000+/mo engineering |
 | Pre-built skills | 133+ | You write your own prompts |
 
-[Start free — 30-day trial, no credit card](https://www.corpusiq.io)
+[Start free - 30-day trial, no credit card](https://www.corpusiq.io)
 ---
 
 *

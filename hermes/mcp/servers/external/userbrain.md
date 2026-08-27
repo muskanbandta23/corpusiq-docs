@@ -1,6 +1,6 @@
 ---
-title: "Userbrain MCP — UX Research Analytics for AI Agents"
-description: "Explore user testing data, summarize session feedback, and uncover UX insights from unmoderated usability tests — all through your MCP client."
+title: "Userbrain MCP - UX Research Analytics for AI Agents"
+description: "Explore user testing data, summarize session feedback, and uncover UX insights from unmoderated usability tests - all through your MCP client."
 category: mcp
 tags: [mcp-server, ux-research, usability-testing, user-testing, product-research]
 last_updated: 2026-07-08
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Userbrain MCP — UX Research Connector
+# Userbrain MCP - UX Research Connector
 
 ## What It Is
 
-Userbrain MCP (`userbrain.com`) connects AI agents to Userbrain's unmoderated remote usability testing platform. Product teams can query test session data, summarize participant feedback, identify pain points, and surface actionable UX insights — all from within their AI assistant. No more manually watching hours of test recordings.
+Userbrain MCP (`userbrain.com`) connects AI agents to Userbrain's unmoderated remote usability testing platform. Product teams can query test session data, summarize participant feedback, identify pain points, and surface actionable UX insights - all from within their AI assistant. No more manually watching hours of test recordings.
 
 ## Tools Available
 
@@ -47,4 +47,4 @@ https://mcp.userbrain.com/mcp
 ## See Also
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Analytics Connectors — GA4, PostHog](/hermes/mcp/connectors/)
+- [CorpusIQ Analytics Connectors - GA4, PostHog](/hermes/mcp/connectors/)

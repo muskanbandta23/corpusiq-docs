@@ -1,5 +1,5 @@
 ---
-title: Hermes Learns Manim — Math Animation Setup Guide
+title: Hermes Learns Manim - Math Animation Setup Guide
 description: Enable Hermes Agent to create epic math and physics animations and study notes from text and images using the Manim animation library.
 publisher: harleycoops/math-to-manim
 stars: 2443
@@ -12,11 +12,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Learns Manim — Math Animation Setup Guide
+# Hermes Learns Manim - Math Animation Setup Guide
 
-The `hermes-learns-manim` skill enables Hermes Agent to generate professional math and physics animations using the Manim (Mathematical Animation) library. Describe a concept in text or provide an image, and Hermes produces a rendered animation — ideal for educational content, explainer videos, and technical documentation.
+The `hermes-learns-manim` skill enables Hermes Agent to generate professional math and physics animations using the Manim (Mathematical Animation) library. Describe a concept in text or provide an image, and Hermes produces a rendered animation - ideal for educational content, explainer videos, and technical documentation.
 
-**Publisher:** [harleycoops/math-to-manim](https://github.com/harleycoops/math-to-manim) — 2,443⭐  
+**Publisher:** [harleycoops/math-to-manim](https://github.com/harleycoops/math-to-manim) - 2,443⭐  
 **Source:** skills.sh  
 **Quality Tier:** 🔵 Community (untested by CorpusIQ)
 
@@ -166,9 +166,9 @@ For CorpusIQ content workflows:
 
 ## Related Skills
 
-- [HyperFrames Video Pipeline](/hermes/skills/catalog/hyperframes-setup) — HTML-based video compositions
-- [Remotion Best Practices](/hermes/skills/catalog/remotion-best-practices-setup) — React-based video production
-- [Media Use](/hermes/skills/catalog/media-use-setup/) — Agent Media OS for all media needs
+- [HyperFrames Video Pipeline](/hermes/skills/catalog/hyperframes-setup) - HTML-based video compositions
+- [Remotion Best Practices](/hermes/skills/catalog/remotion-best-practices-setup) - React-based video production
+- [Media Use](/hermes/skills/catalog/media-use-setup/) - Agent Media OS for all media needs
 
 ---
 

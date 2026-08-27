@@ -1,5 +1,5 @@
 ---
-title: "Kalshi MCP — Prediction Markets for AI Agents"
+title: "Kalshi MCP - Prediction Markets for AI Agents"
 description: "Connect Kalshi prediction markets to Hermes Agent. Get markets, positions, and place orders from any AI agent. First MCP for CFTC-regulated prediction"
 category: mcp
 tags: [mcp-server, kalshi, prediction-markets, finance, trading, event-contracts]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Kalshi MCP — Prediction Markets Server
+# Kalshi MCP - Prediction Markets Server
 
 ## What It Is
 
-Kalshi is the first CFTC-regulated prediction market in the US. This MCP server gives AI agents programmatic access to Kalshi markets — enabling programmatic event-driven analysis and trading.
+Kalshi is the first CFTC-regulated prediction market in the US. This MCP server gives AI agents programmatic access to Kalshi markets - enabling programmatic event-driven analysis and trading.
 
 **GitHub**: https://github.com/onofre-jauregui/kalshi-mcp (TypeScript, new)
 
@@ -77,11 +77,11 @@ hermes mcp add kalshi --command "node" --args "dist/index.js" --workdir "$(pwd)"
 
 - US-only (Kalshi is CFTC-regulated for US residents)
 - Kalshi API requires RSA key-pair authentication (more complex than Bearer tokens)
-- New server — limited tool coverage, expect rapid iteration
+- New server - limited tool coverage, expect rapid iteration
 - Prediction markets are not available in all US states
 
 ## See Also
 
-- SentiSense MCP — for market sentiment intelligence
-- HPSILab Quant Finance MCP — for options analytics and Monte Carlo
-- pipeworx-io/mcp-tradier — for traditional stock/options market data
+- SentiSense MCP - for market sentiment intelligence
+- HPSILab Quant Finance MCP - for options analytics and Monte Carlo
+- pipeworx-io/mcp-tradier - for traditional stock/options market data

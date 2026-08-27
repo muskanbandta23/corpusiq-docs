@@ -1,5 +1,5 @@
 ---
-title: Firecrawl Workflows — Growth & Research Automation for Hermes
+title: Firecrawl Workflows - Growth & Research Automation for Hermes
 description: Install and use firecrawl/firecrawl-workflows (120K combined installs) for automated deep research, lead generation, market research, and SEO auditing from within Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-workflows-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Firecrawl Workflows — Setup Guide
+# Firecrawl Workflows - Setup Guide
 
 **Source:** [firecrawl/firecrawl-workflows](https://github.com/firecrawl/firecrawl-workflows) (120K+ combined installs)
 **Category:** Growth & Research
@@ -21,19 +21,19 @@ Production-grade web research and growth workflows from Firecrawl. Four high-val
 ## Installation
 
 ```bash
-# Deep Research — multi-page research synthesis
+# Deep Research - multi-page research synthesis
 npx skills add firecrawl/firecrawl-workflows@firecrawl-deep-research
 
-# Lead Generation — automated lead discovery and enrichment
+# Lead Generation - automated lead discovery and enrichment
 npx skills add firecrawl/firecrawl-workflows@firecrawl-lead-gen
 
-# Market Research — competitive landscape analysis
+# Market Research - competitive landscape analysis
 npx skills add firecrawl/firecrawl-workflows@firecrawl-market-research
 
-# SEO Audit — technical and content SEO analysis
+# SEO Audit - technical and content SEO analysis
 npx skills add firecrawl/firecrawl-workflows@firecrawl-seo-audit
 
-# Knowledge Base — build searchable knowledge bases from websites (bonus)
+# Knowledge Base - build searchable knowledge bases from websites (bonus)
 npx skills add firecrawl/firecrawl-workflows@firecrawl-knowledge-base
 ```
 
@@ -48,7 +48,7 @@ npx skills list | grep firecrawl
 
 | Requirement | Details |
 |---|---|
-| **Firecrawl API Key** | Sign up at [firecrawl.dev](https://firecrawl.dev) — free tier: 500 credits/month |
+| **Firecrawl API Key** | Sign up at [firecrawl.dev](https://firecrawl.dev) - free tier: 500 credits/month |
 | **Hermes Agent** | Any version |
 | **Node.js** | 18+ |
 
@@ -94,7 +94,7 @@ firecrawl-deep-research "What are the top MCP server frameworks in 2026?" \
 ...
 
 ## Sources
-1. Firecrawl web extraction documentation — Relevance: High
+1. Firecrawl web extraction documentation - Relevance: High
 ...
 ```
 
@@ -169,7 +169,7 @@ firecrawl-seo-audit https://corpusiq.io \
 
 ### Growth Operations
 - **`firecrawl-lead-gen`** automates prospect discovery for CorpusIQ outreach campaigns. Replace manual LinkedIn searches with automated, enriched lead lists.
-- **`firecrawl-market-research`** feeds the product roadmap with competitive intelligence — feature gaps, pricing opportunities, and positioning insights.
+- **`firecrawl-market-research`** feeds the product roadmap with competitive intelligence - feature gaps, pricing opportunities, and positioning insights.
 
 ### Research & Intelligence
 - **`firecrawl-deep-research`** replaces hours of manual competitive analysis. One command produces a cited research report.
@@ -225,6 +225,6 @@ cd ~/corpusiq-brain && gbrain import research/$WEEK/ --no-embed
 
 ## See Also
 
-- [Firecrawl Skills](/hermes/skills/catalog/firecrawl/) — Core Firecrawl scraping and search skills
-- [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup/) — Alternative web scraping (30K Actors)
-- [agent-browser](/hermes/skills/catalog/agent-browser-setup/) — Browser automation for custom scraping
+- [Firecrawl Skills](/hermes/skills/catalog/firecrawl/) - Core Firecrawl scraping and search skills
+- [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup/) - Alternative web scraping (30K Actors)
+- [agent-browser](/hermes/skills/catalog/agent-browser-setup/) - Browser automation for custom scraping

@@ -1,5 +1,5 @@
 ---
-title: "1Password MCP — Secrets Management for AI Agents Without"
+title: "1Password MCP - Secrets Management for AI Agents Without"
 description: "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets"
 category: mcp
 tags: [mcp-server, security, secrets-management, 1password, official, devops, ai-agents]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# 1Password MCP Server ★ Official (Beta) — New July 17
+# 1Password MCP Server ★ Official (Beta) - New July 17
 
-The 1Password MCP server bridges MCP-compatible AI agents (Codex, Kiro, Claude Code, Cursor) to 1Password Environments — letting agents create environments, list variables, and manage secrets without ever reading or exposing the secret values.
+The 1Password MCP server bridges MCP-compatible AI agents (Codex, Kiro, Claude Code, Cursor) to 1Password Environments - letting agents create environments, list variables, and manage secrets without ever reading or exposing the secret values.
 
 This is the first major secrets-management platform to ship an official MCP server, marking a significant milestone in AI agent security infrastructure.
 
@@ -25,10 +25,10 @@ This is the first major secrets-management platform to ship an official MCP serv
 
 The core design principle is unlike any other MCP server: **the agent never sees the secrets.** The MCP server acts as a secure bridge that:
 
-- **Creates Environments** — provision new 1Password Environments from an MCP client
-- **Lists variable names** — enumerate environment variables without revealing values
-- **Manages secrets** — update, rotate, and organize secrets through authorized processes
-- **Authorizes via prompts** — every sensitive operation triggers a human authorization prompt
+- **Creates Environments** - provision new 1Password Environments from an MCP client
+- **Lists variable names** - enumerate environment variables without revealing values
+- **Manages secrets** - update, rotate, and organize secrets through authorized processes
+- **Authorizes via prompts** - every sensitive operation triggers a human authorization prompt
 
 Secrets remain in 1Password and are only accessed by authorized processes at runtime. The MCP client (your AI agent) orchestrates secrets management while 1Password enforces the security boundary.
 
@@ -65,7 +65,7 @@ For Cursor/VS Code, add to your `mcp.json`:
 }
 ```
 
-First connection triggers an OAuth authorization flow — sign in to 1Password and authorize the MCP client.
+First connection triggers an OAuth authorization flow - sign in to 1Password and authorize the MCP client.
 
 ## Business Relevance
 
@@ -75,7 +75,7 @@ This is a landmark MCP server for operators running AI agents in production:
 
 2. **Auditable agent actions:** Every secrets operation goes through 1Password's authorization prompts, creating an audit trail of what the agent attempted and what was approved.
 
-3. **Enterprise-ready patterns:** 1Password's approach — agent orchestrates, platform enforces — sets the pattern for enterprise MCP integrations. Expect similar designs from AWS Secrets Manager, HashiCorp Vault, and Azure Key Vault.
+3. **Enterprise-ready patterns:** 1Password's approach - agent orchestrates, platform enforces - sets the pattern for enterprise MCP integrations. Expect similar designs from AWS Secrets Manager, HashiCorp Vault, and Azure Key Vault.
 
 4. **Environment provisioning at scale:** Operators managing multiple deployment environments can let agents handle the mechanical work of creating and organizing environments while maintaining zero-trust on secret values.
 
@@ -89,7 +89,7 @@ This is a landmark MCP server for operators running AI agents in production:
 ## Limitations (Beta)
 
 - Currently supports Codex and Kiro as primary MCP clients; broader client support expected
-- Beta status — API may change before GA
+- Beta status - API may change before GA
 - Requires 1Password Environments (separate from standard 1Password vaults)
 
 ---

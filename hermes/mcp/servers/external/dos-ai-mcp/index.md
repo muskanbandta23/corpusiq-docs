@@ -1,6 +1,6 @@
 ---
 title: "DOS AI MCP - CorpusIQ Docs - CorpusIQ"
-description: WhatsApp and Telegram AI assistant operations over MCP — projects, conversations, leads and analytics for chatbot operators, with no destructive tools by design.
+description: WhatsApp and Telegram AI assistant operations over MCP - projects, conversations, leads and analytics for chatbot operators, with no destructive tools by design.
 category: Communication
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [whatsapp, telegram, chatbots, crm, lead-management, messaging, api-key, r
 
 # DOS AI MCP
 
-**Remote MCP server (Streamable HTTP, Bearer API key)** — DOS AI is a platform for AI assistants (chatbots) in WhatsApp and Telegram with a built-in CRM. The MCP endpoint exposes the same data a human operator sees in the cabinet: projects, conversations, messages, leads, analytics and balance — through 13 tools that carry no destructive operations by design.
+**Remote MCP server (Streamable HTTP, Bearer API key)** - DOS AI is a platform for AI assistants (chatbots) in WhatsApp and Telegram with a built-in CRM. The MCP endpoint exposes the same data a human operator sees in the cabinet: projects, conversations, messages, leads, analytics and balance - through 13 tools that carry no destructive operations by design.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,11 +25,11 @@ Built by: DOS AI (dosai.pro)
 
 ## Why This Matters for Operators
 
-Chatbots on WhatsApp and Telegram are only useful if someone operates them: watching conversations, catching leads, correcting prompts, and handing the dialog to a human when the rules say so. The DOS AI MCP puts that operator loop in the agent itself. A CorpusIQ-style agent can read the conversations, file leads, update a bot's prompt, send an operator message into a live dialog, and pull conversion analytics — from any MCP client.
+Chatbots on WhatsApp and Telegram are only useful if someone operates them: watching conversations, catching leads, correcting prompts, and handing the dialog to a human when the rules say so. The DOS AI MCP puts that operator loop in the agent itself. A CorpusIQ-style agent can read the conversations, file leads, update a bot's prompt, send an operator message into a live dialog, and pull conversion analytics - from any MCP client.
 
-**Two design decisions make this safe to hand to an agent**: there is no delete-project, no payment, and no member management — the destructive tool list is empty and a test guards it — and every tool calls the public REST route over HTTP, so a read-only key stays read-only and project scoping applies exactly once. Keys can be scoped to a single project and to read-only access, and only a SHA-256 hash of the key is stored.
+**Two design decisions make this safe to hand to an agent**: there is no delete-project, no payment, and no member management - the destructive tool list is empty and a test guards it - and every tool calls the public REST route over HTTP, so a read-only key stays read-only and project scoping applies exactly once. Keys can be scoped to a single project and to read-only access, and only a SHA-256 hash of the key is stored.
 
-The OpenAPI spec, `llms.txt`, and a full public corpus (`llms-full.txt`) are published — agent-readable documentation as a first-class deliverable.
+The OpenAPI spec, `llms.txt`, and a full public corpus (`llms-full.txt`) are published - agent-readable documentation as a first-class deliverable.
 
 ## Tools & Capabilities
 
@@ -76,15 +76,15 @@ Rate limit is 120 requests per minute per key with `Retry-After` on 429. Webhook
 
 ## Integration with CorpusIQ
 
-DOS AI is the messaging front-end that feeds the CorpusIQ CRM backbone. Leads captured in WhatsApp or Telegram conversations can be pushed into HubSpot or LeadConnector through the CorpusIQ CRM connector, so a chat inquiry becomes a pipeline contact instead of a lost dialog. The CorpusIQ calendar connector closes the loop the platform already starts — DOS AI bots book Google Calendar slots natively, and CorpusIQ reads the same calendar for meeting context. Analytics from DOS AI (`get_analytics`) can sit beside CorpusIQ GA4 in cross-source reporting: bot dialogs versus site traffic, one attribution view.
+DOS AI is the messaging front-end that feeds the CorpusIQ CRM backbone. Leads captured in WhatsApp or Telegram conversations can be pushed into HubSpot or LeadConnector through the CorpusIQ CRM connector, so a chat inquiry becomes a pipeline contact instead of a lost dialog. The CorpusIQ calendar connector closes the loop the platform already starts - DOS AI bots book Google Calendar slots natively, and CorpusIQ reads the same calendar for meeting context. Analytics from DOS AI (`get_analytics`) can sit beside CorpusIQ GA4 in cross-source reporting: bot dialogs versus site traffic, one attribution view.
 
 ## Limitations
 
-- Brand new — no track record yet; listed August 17, 2026
-- WhatsApp/Telegram only — no web or other messaging channels
+- Brand new - no track record yet; listed August 17, 2026
+- WhatsApp/Telegram only - no web or other messaging channels
 - No destructive tools means deletions still happen in the human cabinet
 - Rate limits (120 req/min per key) require pacing for heavy analytics pulls
-- Hosted platform — conversation data lives on DOS AI infrastructure; webhooks help you take it out
+- Hosted platform - conversation data lives on DOS AI infrastructure; webhooks help you take it out
 
 ## See Also
 

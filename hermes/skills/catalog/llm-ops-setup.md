@@ -1,5 +1,5 @@
 ---
-title: "LLM-OPS — Setup Guide - CorpusIQ Docs"
+title: "LLM-OPS - Setup Guide - CorpusIQ Docs"
 description: LLM Operations skill covering RAG, embeddings, vector databases, fine-tuning, prompt engineering, cost management, and production AI architectures.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/llm-ops-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# LLM-OPS — Setup Guide
+# LLM-OPS - Setup Guide
 
 ## Prerequisites
 - **Node.js 18+** (for npx)
@@ -42,7 +42,7 @@ Trigger the skill when you need specialized LLM operations assistance:
 
 - "Set up a RAG pipeline for our documentation"
 - "Compare Pinecone vs Chroma for our use case"
-- "Optimize our LLM costs — we're spending too much on API calls"
+- "Optimize our LLM costs - we're spending too much on API calls"
 - "Design an eval framework for our agent responses"
 - "Implement semantic caching for repeated queries"
 
@@ -76,11 +76,11 @@ Documents → Chunking → Embeddings → Vector Store → Retrieval → LLM →
 
 ## CorpusIQ Use Cases
 
-1. **Agent Knowledge Base:** Build RAG pipelines over the CorpusIQ docs, Hermes operating protocols, and governance rules — agents query their own knowledge base instead of relying on training data.
+1. **Agent Knowledge Base:** Build RAG pipelines over the CorpusIQ docs, Hermes operating protocols, and governance rules - agents query their own knowledge base instead of relying on training data.
 
 2. **Cost Tracking:** Monitor and optimize LLM spend across all CorpusIQ agents (Sonnet, Opus, DeepSeek, Qwen). Route queries to the cheapest capable model.
 
-3. **Quality Evaluations:** Implement eval suites for agent responses — measure accuracy, helpfulness, and safety before deploying new agent versions.
+3. **Quality Evaluations:** Implement eval suites for agent responses - measure accuracy, helpfulness, and safety before deploying new agent versions.
 
 4. **Semantic Caching:** Cache frequent agent queries (e.g., "What's the preflight gate?") to reduce API costs by 30-60%.
 
@@ -100,4 +100,4 @@ Documents → Chunking → Embeddings → Vector Store → Retrieval → LLM →
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

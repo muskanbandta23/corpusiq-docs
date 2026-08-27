@@ -1,5 +1,5 @@
 ---
-title: "hermes-top — Setup Guide - CorpusIQ Docs"
+title: "hermes-top - Setup Guide - CorpusIQ Docs"
 description: "Install and run hermes-top, a live htop/btop-style terminal dashboard for Hermes Agent that reads state.db directly."
 skill_name: hermes-top
 category: Monitoring
@@ -14,19 +14,19 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# hermes-top — Full Setup Guide
+# hermes-top - Full Setup Guide
 
-A read-only, `htop`/`btop`-style live terminal dashboard for [Hermes Agent](https://github.com/NousResearch/hermes-agent). Reads Hermes's SQLite `state.db` directly — **never writes, cannot interfere with a running Hermes.**
+A read-only, `htop`/`btop`-style live terminal dashboard for [Hermes Agent](https://github.com/NousResearch/hermes-agent). Reads Hermes's SQLite `state.db` directly - **never writes, cannot interfere with a running Hermes.**
 
 ---
 
 ## Prerequisites
 
-- **Go 1.26+** (build only — binary is self-contained)
-- **Hermes Agent v0.20.0 or newer** — must have run at least once so `state.db` exists
+- **Go 1.26+** (build only - binary is self-contained)
+- **Hermes Agent v0.20.0 or newer** - must have run at least once so `state.db` exists
 - Terminal with 256-color support (most modern terminals)
 
-The SQLite driver is [`modernc.org/sqlite`](https://modernc.org/sqlite) — a pure Go implementation. **No CGO, no system libsqlite3.** Single static binary, cross-compiles trivially.
+The SQLite driver is [`modernc.org/sqlite`](https://modernc.org/sqlite) - a pure Go implementation. **No CGO, no system libsqlite3.** Single static binary, cross-compiles trivially.
 
 ---
 
@@ -71,7 +71,7 @@ Launches the TUI. Reads `state.db` from the default location (see Database Locat
 | Flag | Default | Meaning |
 |------|---------|---------|
 | `--db PATH` | (auto) | Path to Hermes `state.db`. Supports `~` expansion. |
-| `--interval DUR` | `400ms` | Refresh interval, clamped to `250ms`–`500ms`. |
+| `--interval DUR` | `400ms` | Refresh interval, clamped to `250ms`-`500ms`. |
 | `--dump` | off | Print one text snapshot of the database and exit (no TUI). Scriptable. |
 
 ### Examples
@@ -122,7 +122,7 @@ Three panes, side by side:
 | Pane | Shows |
 |------|-------|
 | **Sessions** | Active/recent Hermes sessions with model, profile, and status |
-| **Actions** | Tool calls, skill loads, subagent spawns — with timing and status |
+| **Actions** | Tool calls, skill loads, subagent spawns - with timing and status |
 | **Events** | Model switches, token usage, errors, lifecycle events |
 
 ---
@@ -149,7 +149,7 @@ Actions and events panes auto-follow new rows while the cursor is on the newest 
 
 ## JSON Display
 
-Tool arguments and results are JSON. By default each entry is rendered as a single readable line — `key=value` with escapes decoded (so `&` shows as `&`, not `&amp;`) and subtle syntax coloring.
+Tool arguments and results are JSON. By default each entry is rendered as a single readable line - `key=value` with escapes decoded (so `&` shows as `&`, not `&amp;`) and subtle syntax coloring.
 
 **Expand:** Highlight an entry and press `Enter` to expand it inline into full, indented, syntax-highlighted JSON.
 
@@ -211,7 +211,7 @@ echo $TERM
 
 ### Running against a remote Hermes
 
-`hermes-top` reads `state.db` directly — it cannot connect to a remote Hermes over the network. To monitor a remote instance:
+`hermes-top` reads `state.db` directly - it cannot connect to a remote Hermes over the network. To monitor a remote instance:
 
 ```bash
 # Option 1: SSH + local read
@@ -226,9 +226,9 @@ hermes-top --db /tmp/remote-state.db
 
 ## Related Tools
 
-- [hermes-hud](https://github.com/Lucasdjs22/hermes-hud) — Alternative terminal HUD for agent memory, skills, and behavior
-- [hermes-flight-recorder](https://github.com/zwright8/hermes-flight-recorder) — Trace-based scorecards and static eval reports
-- [hermes-doctor](https://github.com/503496348-ops/hermes-doctor) — Self-diagnosis and self-healing plugin
+- [hermes-hud](https://github.com/Lucasdjs22/hermes-hud) - Alternative terminal HUD for agent memory, skills, and behavior
+- [hermes-flight-recorder](https://github.com/zwright8/hermes-flight-recorder) - Trace-based scorecards and static eval reports
+- [hermes-doctor](https://github.com/503496348-ops/hermes-doctor) - Self-diagnosis and self-healing plugin
 
 ---
 

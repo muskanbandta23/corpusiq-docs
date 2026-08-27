@@ -1,6 +1,6 @@
 ---
-title: AutoLoRA — Self-Fine-Tuning Hermes Skill Setup Guide
-description: Install and configure autolora — a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with Stripe-paid cost control.
+title: AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide
+description: Install and configure autolora - a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with Stripe-paid cost control.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# AutoLoRA — Setup Guide
+# AutoLoRA - Setup Guide
 
 **Source:** [DJLougen/autolora](https://github.com/DJLougen/autolora) · 1★
 **Category:** Agent Infrastructure / Model Optimization
 **License:** MIT · **Published:** June 28, 2026
 
-AutoLoRA lets Hermes fine-tune itself. It curates successful agent traces (AUC-based selection), trains a LoRA adapter on RunPod using Unsloth, and hot-swaps the improved model into the active agent — all while keeping costs capped via Stripe payment thresholds. Set your benchmark targets, and AutoLoRA iterates until the agent meets them.
+AutoLoRA lets Hermes fine-tune itself. It curates successful agent traces (AUC-based selection), trains a LoRA adapter on RunPod using Unsloth, and hot-swaps the improved model into the active agent - all while keeping costs capped via Stripe payment thresholds. Set your benchmark targets, and AutoLoRA iterates until the agent meets them.
 
 ---
 
@@ -79,7 +79,7 @@ skills:
 ## Usage with Hermes Agent
 
 ```
-"Run autolora — fine-tune on my last 100 sessions with a 0.90 benchmark target"
+"Run autolora - fine-tune on my last 100 sessions with a 0.90 benchmark target"
 "Show autolora training status"
 "Hot-swap to the latest autolora adapter"
 ```
@@ -130,7 +130,7 @@ hermes skill run autolora --swap adapter-2026-06-29-v3
 
 - Requires 50+ high-quality sessions before first run
 - RunPod cold start adds 2-5 minutes to training time
-- LoRA adapters are model-specific — won't transfer between base models
+- LoRA adapters are model-specific - won't transfer between base models
 - Over-training on a narrow task can reduce general capability
 - Benchmark against holdout tasks before deploying to production
 

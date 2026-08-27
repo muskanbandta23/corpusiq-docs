@@ -1,5 +1,5 @@
 ---
-title: "Hermes Meshtastic Adapter — LoRa Mesh Integration Setup"
+title: "Hermes Meshtastic Adapter - LoRa Mesh Integration Setup"
 description: "Set up the Hermes Meshtastic Adapter (4⭐) to connect your Hermes agent to a Meshtastic LoRa mesh network for off-grid communication."
 skill_name: hermes-meshtastic-adapter
 category: iot-hardware
@@ -13,13 +13,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Meshtastic Adapter — Full Setup Guide
+# Hermes Meshtastic Adapter - Full Setup Guide
 
 **Repo:** [amscotti/hermes-meshtastic-adapter](https://github.com/amscotti/hermes-meshtastic-adapter) | ⭐ 4
 **Author:** amscotti | **Language:** Python
 **License:** MIT
 
-The Hermes Meshtastic Adapter is a Hermes Agent plugin that bridges your agent to a Meshtastic LoRa mesh network. It receives plain-text messages from the mesh and can send responses back — enabling Hermes interaction over long-range, low-power radio networks that operate without cell towers or WiFi.
+The Hermes Meshtastic Adapter is a Hermes Agent plugin that bridges your agent to a Meshtastic LoRa mesh network. It receives plain-text messages from the mesh and can send responses back - enabling Hermes interaction over long-range, low-power radio networks that operate without cell towers or WiFi.
 
 ---
 
@@ -219,7 +219,7 @@ hermes:
 
 ### "Response prefix not working"
 
-Check the exact prefix in config — it's case-sensitive:
+Check the exact prefix in config - it's case-sensitive:
 ```yaml
 filters:
   require_prefix: "Hermes:"  # Must match exactly

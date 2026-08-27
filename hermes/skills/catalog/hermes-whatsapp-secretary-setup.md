@@ -1,6 +1,6 @@
 ---
-title: Hermes WhatsApp Secretary — Setup Guide
-description: Install and configure the WhatsApp secretary skill for Hermes Agent — read, summarize, draft-and-confirm replies, and schedule messages via WhatsApp.
+title: Hermes WhatsApp Secretary - Setup Guide
+description: Install and configure the WhatsApp secretary skill for Hermes Agent - read, summarize, draft-and-confirm replies, and schedule messages via WhatsApp.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-whatsapp-secretary-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes WhatsApp Secretary — Setup Guide
+# Hermes WhatsApp Secretary - Setup Guide
 
 **Source:** [ricktechmecha/hermes-whatsapp-secretary](https://github.com/ricktechmecha/hermes-whatsapp-secretary)
 **Category:** Communication Bots / Productivity
 **License:** MIT · **Published:** June 27, 2026
 
-A personal WhatsApp secretary skill for Hermes Agent. It reads incoming WhatsApp messages, summarizes threads, drafts replies for your approval, and can schedule messages — all through the Hermes agent interface. Never miss an important WhatsApp message while working, and never type a reply you didn't approve.
+A personal WhatsApp secretary skill for Hermes Agent. It reads incoming WhatsApp messages, summarizes threads, drafts replies for your approval, and can schedule messages - all through the Hermes agent interface. Never miss an important WhatsApp message while working, and never type a reply you didn't approve.
 
 ---
 
@@ -107,9 +107,9 @@ Draft reply: 'Sure Sarah, 3pm works for me. See you then!'
 ## Security Notes
 
 - WhatsApp Web session must be re-authenticated periodically
-- Store WhatsApp auth state securely — it grants full message access
+- Store WhatsApp auth state securely - it grants full message access
 - `require_confirmation: true` is strongly recommended for production use
-- Messages are processed locally — no third-party server involved
+- Messages are processed locally - no third-party server involved
 
 ---
 

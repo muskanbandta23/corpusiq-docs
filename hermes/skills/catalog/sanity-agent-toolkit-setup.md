@@ -1,5 +1,5 @@
 ---
-title: Sanity Agent Toolkit — Headless CMS Operations for Hermes Agents
+title: Sanity Agent Toolkit - Headless CMS Operations for Hermes Agents
 description: Sanity CMS best practices, migration, SEO/AEO, content modeling, experimentation, and Portable Text from Sanity.io. 34K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sanity-agent-toolkit-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Sanity Agent Toolkit — Setup Guide
+# Sanity Agent Toolkit - Setup Guide
 
 **Source:** [sanity-io/agent-toolkit](https://skills.sh/sanity-io/agent-toolkit) (34K+ combined installs)
 **Category:** Development / Content Infrastructure
 **Quality Tier:** 🟡 Beta
 
-Sanity.io's official agent toolkit — structured content operations for the leading headless CMS. Covers content modeling, migrations, SEO/AEO best practices, content experimentation, and Portable Text serialization. Essential for Hermes agents managing content-driven applications.
+Sanity.io's official agent toolkit - structured content operations for the leading headless CMS. Covers content modeling, migrations, SEO/AEO best practices, content experimentation, and Portable Text serialization. Essential for Hermes agents managing content-driven applications.
 
 ---
 
@@ -35,12 +35,12 @@ npx skills add sanity-io/agent-toolkit --skill portable-text-serialization
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **sanity-best-practices** | 14.4K | Core Sanity patterns — schema design, GROQ queries, studio customization |
-| **sanity-migration** | 8.1K | Content migration scripts — import/export, schema evolution, data transforms |
+| **sanity-best-practices** | 14.4K | Core Sanity patterns - schema design, GROQ queries, studio customization |
+| **sanity-migration** | 8.1K | Content migration scripts - import/export, schema evolution, data transforms |
 | **seo-aeo-best-practices** | 4.6K | SEO and Answer Engine Optimization for structured content |
-| **content-modeling-best-practices** | 3.1K | Content type design — reusable blocks, references, localization |
+| **content-modeling-best-practices** | 3.1K | Content type design - reusable blocks, references, localization |
 | **content-experimentation-best-practices** | 2.4K | A/B testing content structures, personalization, dynamic pages |
-| **portable-text-serialization** | 1.4K | Portable Text spec — rich text serialization, custom annotations, embeds |
+| **portable-text-serialization** | 1.4K | Portable Text spec - rich text serialization, custom annotations, embeds |
 
 ---
 
@@ -63,7 +63,7 @@ npx skills list | grep sanity
 
 ## Notes
 
-- Official Sanity.io skills — actively maintained
+- Official Sanity.io skills - actively maintained
 - `seo-aeo-best-practices` covers AEO (Answer Engine Optimization) for AI search visibility
 - `content-modeling` skill is critical for scalable content architectures
 - Quality tier 🟡 Beta: 34K+ combined installs

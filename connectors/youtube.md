@@ -5,7 +5,7 @@ description: "Bring your YouTube channel analytics into conversation alongside y
 # YouTube
 
 ## What it unlocks
-Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming from, and what's working — without bouncing into YouTube Studio.
+Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming from, and what's working - without bouncing into YouTube Studio.
 
 ## Before you connect
 - A YouTube channel (personal or Brand Account).
@@ -41,9 +41,9 @@ Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes
 - "What are people saying in the comments of my newest video?"
 
 ## Troubleshooting
-- "Channel not found" — Brand Accounts need an extra picker step. Disconnect and reconnect, then choose the correct channel.
-- Analytics empty — YouTube Analytics has a ~48-hour lag for fresh data.
-- Permission error on a Brand Account — your Google login must have at least Manager access on the Brand Account.
+- "Channel not found" - Brand Accounts need an extra picker step. Disconnect and reconnect, then choose the correct channel.
+- Analytics empty - YouTube Analytics has a ~48-hour lag for fresh data.
+- Permission error on a Brand Account - your Google login must have at least Manager access on the Brand Account.
 ---
 
 *

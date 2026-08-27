@@ -43,7 +43,7 @@ Post-June 18 final sweep, the ecosystem continues to grow. Today's findings incl
 
 Multi-agent coordination historically fails in three ways:
 1. **Group chat noise**  --  Telegram/Discord message storms eat context tokens, leak credentials
-2. **Synchronous HTTP timeouts**  --  Agent tool calls take 5–15 minutes; HTTP connections die at 300–600s
+2. **Synchronous HTTP timeouts**  --  Agent tool calls take 5-15 minutes; HTTP connections die at 300-600s
 3. **SSH overhead**  --  Remote process execution requires SSH; reports must be scp'd
 
 ### The Solution: "Drop in Mailbox, Don't Call"
@@ -54,7 +54,7 @@ AgentMesh replaces synchronous HTTP with **Redis-backed named inboxes** (`inbox:
 HTTP Synchronous ("phone call")     Redis Queue ("mailbox")
 requests.post(url, timeout=600)     redis.lpush("inbox:bobo", task_json)
 Client blocks waiting               Client returns immediately
-Timeout at 5–10 minutes             Hours-long tasks OK
+Timeout at 5-10 minutes             Hours-long tasks OK
 Cross-machine needs SSH             0 SSH  --  shared Redis + HTTP LLM
 Report must be scp'd                Report lands on initiator's machine
 ```

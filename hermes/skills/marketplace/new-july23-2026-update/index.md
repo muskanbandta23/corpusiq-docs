@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 23, 2026 Marketplace Sweep (Update)"
-description: "5 new Hermes-relevant publishers discovered on skills.sh — 21 skills, 136K+ combined installs. Afternoon sweep update."
+title: "New Skills - July 23, 2026 Marketplace Sweep (Update)"
+description: "5 new Hermes-relevant publishers discovered on skills.sh - 21 skills, 136K+ combined installs. Afternoon sweep update."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july23-2026-update/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 23, 2026 (Update)
+# New Skills - July 23, 2026 (Update)
 
 ## Summary
 
@@ -63,7 +63,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Notes
 
-- **antibrow** is the standout find — 29.9K installs, MCP server mode, real-device fingerprints. Directly addresses CorpusIQ's anti-bot blocking issues on Instagram, TikTok, and Reddit.
-- **reddapi** + **reddit-leads** bypass Reddit's API rate limits entirely — third-party index with no quotas. Useful for market research and B2B lead discovery.
-- **deepline** GTM skills have significant install counts (92K combined) — mature ecosystem for TAM analysis and prospecting.
-- 46 additional skills discovered but not yet documented — mostly Claude/Cursor-specific or niche tools. Will evaluate in future sweeps.
+- **antibrow** is the standout find - 29.9K installs, MCP server mode, real-device fingerprints. Directly addresses CorpusIQ's anti-bot blocking issues on Instagram, TikTok, and Reddit.
+- **reddapi** + **reddit-leads** bypass Reddit's API rate limits entirely - third-party index with no quotas. Useful for market research and B2B lead discovery.
+- **deepline** GTM skills have significant install counts (92K combined) - mature ecosystem for TAM analysis and prospecting.
+- 46 additional skills discovered but not yet documented - mostly Claude/Cursor-specific or niche tools. Will evaluate in future sweeps.

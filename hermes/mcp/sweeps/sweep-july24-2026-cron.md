@@ -1,6 +1,6 @@
 ---
-title: MCP Server Sweep — July 24, 2026 (Cron)
-description: "MCP Server Sweep — July 24, 2026 (Cron). All 1 new server has an integration guide at `servers/external/`:. Setup and usage guide for CorpusIQ users.."
+title: MCP Server Sweep - July 24, 2026 (Cron)
+description: "MCP Server Sweep - July 24, 2026 (Cron). All 1 new server has an integration guide at `servers/external/`:. Setup and usage guide for CorpusIQ users.."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july24-2026-cron/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Sweep — July 24, 2026 (Cron)
+# MCP Server Sweep - July 24, 2026 (Cron)
 
 **Sweep time:** 2026-07-24T18:00 UTC (cron)
 **Sources checked:** mcp.so, mcpservers.org
@@ -23,7 +23,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Highlights
 
-- **Groundwork** (1★): Tenant-scoped, read-only company-state feed for MCP-compatible agents. Stops agents from inventing your company — module catalog, brand settings, entitlements, and curated how-tos all surfaced through structured MCP tools. Public proof endpoint available (no account needed). Pro tier at $49/mo with 14-day trial. GitHub: `Rarefied-Earth/groundwork`.
+- **Groundwork** (1★): Tenant-scoped, read-only company-state feed for MCP-compatible agents. Stops agents from inventing your company - module catalog, brand settings, entitlements, and curated how-tos all surfaced through structured MCP tools. Public proof endpoint available (no account needed). Pro tier at $49/mo with 14-day trial. GitHub: `Rarefied-Earth/groundwork`.
 
 ## Integration Guides Created
 

@@ -1,22 +1,22 @@
 ---
-title: "Autonnel Skills — Conversion & Funnel Optimization Suite Setup Guide for Hermes Agents"
-description: "autonnel/autonnel-skills — 6 skills, 147.5K combined installs: landing page conversion audits, sales funnel blueprints, server-side conversion tracking, funnel platform selection, post-purchase upsell flows, and self-hosted funnel launches."
+title: "Autonnel Skills - Conversion & Funnel Optimization Suite Setup Guide for Hermes Agents"
+description: "autonnel/autonnel-skills - 6 skills, 147.5K combined installs: landing page conversion audits, sales funnel blueprints, server-side conversion tracking, funnel platform selection, post-purchase upsell flows, and self-hosted funnel launches."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/autonnel-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-24"
 tags: ["hermes skill", "agent skill", "skill setup", "conversion optimization", "sales funnel", "landing page", "server-side tracking", "upsell"]
 ---
 
-# Autonnel Skills — Setup Guide
+# Autonnel Skills - Setup Guide
 
 **Source:** [autonnel/autonnel-skills](https://skills.sh/autonnel/autonnel-skills)
 **GitHub:** [autonnel/autonnel-skills](https://github.com/autonnel/autonnel-skills) (Apache-2.0, published Aug 19, 2026)
 **Skills:** 6 skills, 147.5K combined installs
 **Category:** Growth / Conversion Optimization
 **First Seen:** August 24, 2026 sweep (skills.sh first-listed Aug 5, 2026)
-**Quality Tier:** 🟡 Beta — 147.5K installs and clean Gen Agent Trust Hub + Socket audits, but the source repo is skills.sh-published with no star history yet and two skills carry a Snyk Warn/Fail flag; review before production pipeline use
+**Quality Tier:** 🟡 Beta - 147.5K installs and clean Gen Agent Trust Hub + Socket audits, but the source repo is skills.sh-published with no star history yet and two skills carry a Snyk Warn/Fail flag; review before production pipeline use
 
-The Autonnel pack is a complete conversion-optimization workflow for paid traffic: audit the page, blueprint the funnel, pick the platform, wire server-side tracking, bolt on post-purchase upsells, and optionally self-host the whole funnel. Every skill is written for an agent operator — the landing page audit explicitly refuses generic advice ("do not return a generic 'add more social proof' list — every finding must name the element, the failure mode, and what to change it to") and the blueprint skill turns an offer into a page-by-page funnel spec with a price ladder and per-step metric targets.
+The Autonnel pack is a complete conversion-optimization workflow for paid traffic: audit the page, blueprint the funnel, pick the platform, wire server-side tracking, bolt on post-purchase upsells, and optionally self-host the whole funnel. Every skill is written for an agent operator - the landing page audit explicitly refuses generic advice ("do not return a generic 'add more social proof' list - every finding must name the element, the failure mode, and what to change it to") and the blueprint skill turns an offer into a page-by-page funnel spec with a price ladder and per-step metric targets.
 
 This is the first skills.sh suite covering the full conversion-funnel lifecycle in one pack, and it maps directly onto the CorpusIQ growth-operations charter: audit corpusiq.io pages, blueprint funnel flows, and fix tracking gaps.
 
@@ -24,7 +24,7 @@ This is the first skills.sh suite covering the full conversion-funnel lifecycle 
 
 ## Installation
 
-The maintained-checkout pattern (recommended — keeps the skills updateable with `git pull`):
+The maintained-checkout pattern (recommended - keeps the skills updateable with `git pull`):
 
 ```bash
 git clone https://github.com/autonnel/autonnel-skills.git
@@ -79,8 +79,8 @@ npx skills add https://github.com/autonnel/autonnel-skills --skill landing-page-
 
 | Use Case | How |
 |---|---|
-| **Landing page audits** | Run landing-page-conversion-audit against corpusiq.io pages before scaling ad spend — element-named fix lists beat generic CRO advice |
-| **Funnel design** | sales-funnel-blueprint turns the CorpusIQ offer into a page-by-page funnel spec with per-step metric targets — a ready input for the frontend team |
+| **Landing page audits** | Run landing-page-conversion-audit against corpusiq.io pages before scaling ad spend - element-named fix lists beat generic CRO advice |
+| **Funnel design** | sales-funnel-blueprint turns the CorpusIQ offer into a page-by-page funnel spec with per-step metric targets - a ready input for the frontend team |
 | **Tracking gap fix** | server-side-conversion-tracking is the durable fix for iOS/ad-blocker tracking loss on our conversion pixels |
 | **Platform decisions** | funnel-platform-picker's total-cost-plus-lock-in math is reusable for any funnel-platform buy decision, not just ClickFunnels-class tools |
 | **AOV growth** | post-purchase-upsell-flow is a direct playbook for average-order-value lift without touching the main funnel |
@@ -88,10 +88,10 @@ npx skills add https://github.com/autonnel/autonnel-skills --skill landing-page-
 ## Limitations / Verification
 
 - Source repo has no star history yet (skills.sh-published Aug 5, 2026); the 147.5K install count is the marketplace's own metric.
-- Two skills carry Snyk Fail flags (landing-page-conversion-audit, server-side-conversion-tracking) — review dependencies before running them in a production pipeline; the other four are Warn-level.
-- The audit skill is designed to refuse on zero-traffic pages and on wrong-audience problems ("a page audit cannot fix a broken offer; say so and stop") — treat that as a feature, not a bug.
+- Two skills carry Snyk Fail flags (landing-page-conversion-audit, server-side-conversion-tracking) - review dependencies before running them in a production pipeline; the other four are Warn-level.
+- The audit skill is designed to refuse on zero-traffic pages and on wrong-audience problems ("a page audit cannot fix a broken offer; say so and stop") - treat that as a feature, not a bug.
 
 ## Related
 
-- [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup/) — search-side of the same conversion funnel
-- [Skills Marketplace](/hermes/skills/marketplace/) — marketplace index for more discovery batches
+- [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup/) - search-side of the same conversion funnel
+- [Skills Marketplace](/hermes/skills/marketplace/) - marketplace index for more discovery batches

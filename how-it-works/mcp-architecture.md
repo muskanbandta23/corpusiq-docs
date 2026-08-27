@@ -24,7 +24,7 @@ engineering, no CSV uploads, no stale context.
 
 MCP servers expose **tools** (callable functions with typed inputs and
 outputs) and optionally **resources** (documents or data the AI can
-read). CorpusIQ exposes tools only — one tool per connector action.
+read). CorpusIQ exposes tools only - one tool per connector action.
 
 Official spec: https://modelcontextprotocol.io
 
@@ -102,7 +102,7 @@ layer that holds and uses the OAuth token.
 ## The skills engine
 
 Some questions require more than one connector. "What is my true CAC?"
-requires every ad platform, GA4, and Shopify or QuickBooks — at minimum
+requires every ad platform, GA4, and Shopify or QuickBooks - at minimum
 four separate API calls, with a join step.
 
 The skills engine encodes these multi-step workflows as **runbooks**:
@@ -116,17 +116,17 @@ When an LLM calls `invoke_skill` with a skill name like
 
 Skills are the main reason CorpusIQ answers broad business questions
 better than a raw tool list. The LLM doesn't have to figure out which
-five connectors to call and how to join them — the runbook already knows.
+five connectors to call and how to join them - the runbook already knows.
 
 Available skills include:
 
-- `executive-snapshot` — business health across finance, sales, and marketing.
-- `ad-spend-truth-report` — cross-platform ROAS from actual revenue data.
-- `financial-command-center` — cash, AR, expenses, anomalies.
-- `ecommerce-command-center` — store health, LTV, CAC, inventory.
-- `email-lifecycle-intel` — email channel health across all ESPs.
-- `board-update-drafter` — investor-update format from live actuals.
-- `customer-health-scorecard` — per-account health scoring.
+- `executive-snapshot` - business health across finance, sales, and marketing.
+- `ad-spend-truth-report` - cross-platform ROAS from actual revenue data.
+- `financial-command-center` - cash, AR, expenses, anomalies.
+- `ecommerce-command-center` - store health, LTV, CAC, inventory.
+- `email-lifecycle-intel` - email channel health across all ESPs.
+- `board-update-drafter` - investor-update format from live actuals.
+- `customer-health-scorecard` - per-account health scoring.
 
 Call `invoke_skill` or `list_skills` to discover and run them.
 
@@ -265,12 +265,12 @@ async with sse_client(
 
 CorpusIQ tool names follow the pattern `connector_action`:
 
-- `get_orders` — Shopify or Amazon Seller orders.
-- `list_campaigns` — Meta Ads or Google Ads campaigns.
-- `run_report` — GA4 custom report.
-- `get_profit_loss` — QuickBooks P&L.
-- `invoke_skill` — run a multi-connector skill by name.
-- `resolve_connector` — discover which tools to call for a given intent.
+- `get_orders` - Shopify or Amazon Seller orders.
+- `list_campaigns` - Meta Ads or Google Ads campaigns.
+- `run_report` - GA4 custom report.
+- `get_profit_loss` - QuickBooks P&L.
+- `invoke_skill` - run a multi-connector skill by name.
+- `resolve_connector` - discover which tools to call for a given intent.
 
 Call `resolve_connector` with a plain-English intent to get back the
 exact tool schemas relevant to your question. This is the fastest way
@@ -293,13 +293,13 @@ parameter names.
 
 ## Further reading
 
-- [Connectors explained](connectors-explained.md) — how OAuth and
+- [Connectors explained](connectors-explained.md) - how OAuth and
   connector auth works.
-- [Skills explained](skills-explained.md) — deeper dive on the
+- [Skills explained](skills-explained.md) - deeper dive on the
   runbook/skills engine.
 - [Prompts: MCP developer queries](../prompts/mcp-developer-queries.md)
-  — 20+ example prompts for developers.
-- [Quickstart](../quickstart/README.md) — fastest path from zero to first answer.
+  - 20+ example prompts for developers.
+- [Quickstart](../quickstart/README.md) - fastest path from zero to first answer.
 ---
 
 *

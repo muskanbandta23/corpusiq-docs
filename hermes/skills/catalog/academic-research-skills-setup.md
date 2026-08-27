@@ -1,13 +1,13 @@
 ---
-title: Academic Research Skills — Paper Pipeline for Agents Setup
-description: "imbad0202/academic-research-skills — 4 skills at 26.4K installs: academic-paper, academic-paper-reviewer, deep-research, and academic-pipeline for literature review, paper drafting, review, and research workflows."
+title: Academic Research Skills - Paper Pipeline for Agents Setup
+description: "imbad0202/academic-research-skills - 4 skills at 26.4K installs: academic-paper, academic-paper-reviewer, deep-research, and academic-pipeline for literature review, paper drafting, review, and research workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/academic-research-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "academic", "deep research"]
 ---
 
-# Academic Research Skills — Setup Guide
+# Academic Research Skills - Setup Guide
 
 **Source:** [imbad0202/academic-research-skills](https://skills.sh/imbad0202/academic-research-skills)
 **GitHub:** [imbad0202/academic-research-skills](https://github.com/imbad0202/academic-research-skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "research", "academic", "de
 **First Seen:** August 15, 2026 sweep
 **Quality Tier:** 🟡 Trusted (community suite; verify per-skill before production use)
 
-A four-skill academic research suite: academic-paper for paper drafting, academic-paper-reviewer for peer-review workflows, deep-research for multi-source investigation, and academic-pipeline for end-to-end research orchestration. Distinct from the separate `izillionways/academic-research-skills-hermes` repo already in our ecosystem tracking — this is the skills.sh marketplace cluster. Complements the research intelligence framework used across CorpusIQ research sweeps.
+A four-skill academic research suite: academic-paper for paper drafting, academic-paper-reviewer for peer-review workflows, deep-research for multi-source investigation, and academic-pipeline for end-to-end research orchestration. Distinct from the separate `izillionways/academic-research-skills-hermes` repo already in our ecosystem tracking - this is the skills.sh marketplace cluster. Complements the research intelligence framework used across CorpusIQ research sweeps.
 
 ---
 
@@ -66,7 +66,7 @@ npx skills add imbad0202/academic-research-skills --skill academic-paper-reviewe
 
 ## Limitations / Verification
 
-- Community suite — per-skill quality varies; verify outputs against primary sources
+- Community suite - per-skill quality varies; verify outputs against primary sources
 - Academic orientation; adapt prompts for business research contexts
 
 ```bash
@@ -76,8 +76,8 @@ npx skills add imbad0202/academic-research-skills --skill deep-research   # veri
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Grounded Citations](/hermes/skills/) — cited, verifiable sources
-- [Awesome LLM Apps Skills Setup](/hermes/skills/catalog/awesome-llm-apps-skills-setup/) — role-based research skills
+- [Grounded Citations](/hermes/skills/) - cited, verifiable sources
+- [Awesome LLM Apps Skills Setup](/hermes/skills/catalog/awesome-llm-apps-skills-setup/) - role-based research skills
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

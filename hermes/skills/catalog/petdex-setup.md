@@ -1,5 +1,5 @@
 ---
-title: "Petdex — Animated Mascots for Hermes Agent"
+title: "Petdex - Animated Mascots for Hermes Agent"
 description: "Install and configure animated petdex mascots for Hermes Agent. Add personality and visual feedback to your agent with desktop companions."
 category: catalog
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/petdex-setup/"
@@ -9,7 +9,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Petdex — Animated Mascots Setup Guide
+# Petdex - Animated Mascots Setup Guide
 
 Add an animated desktop mascot to your Hermes agent. Petdex provides a collection of pixel-art animated companions that react to agent activity, giving your Hermes instance personality and visual feedback.
 

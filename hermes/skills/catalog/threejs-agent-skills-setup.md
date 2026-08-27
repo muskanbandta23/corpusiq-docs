@@ -1,13 +1,13 @@
 ---
-title: "Three.js Agent Skills — 3D & WebGL Suite Setup"
-description: "cloudai-x/threejs-skills — 10 skills, 80.0K installs: Three.js fundamentals, animation, shaders, geometry, lighting, materials, and postprocessing for agent-driven 3D web work."
+title: "Three.js Agent Skills - 3D & WebGL Suite Setup"
+description: "cloudai-x/threejs-skills - 10 skills, 80.0K installs: Three.js fundamentals, animation, shaders, geometry, lighting, materials, and postprocessing for agent-driven 3D web work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threejs-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "threejs", "webgl", "3d"]
 ---
 
-# Three.js Agent Skills — Setup Guide
+# Three.js Agent Skills - Setup Guide
 
 **Source:** [cloudai-x/threejs-skills](https://skills.sh/cloudai-x/threejs-skills)
 **GitHub:** [cloudai-x/threejs-skills](https://github.com/cloudai-x/threejs-skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "threejs", "webgl", "3d"]
 **First Seen:** catalogued August 15, 2026 evening sweep
 **Quality Tier:** 🟡 Trusted (community publisher, multi-skill suite; individual audit pages not fetched)
 
-A complete Three.js knowledge base packaged as agent skills, covering the full rendering stack: fundamentals, animation, shaders, geometry, interaction, materials, postprocessing, lighting, loaders, and textures. Queued in prior sweeps at a 7.9K API-sum estimate; the publisher page shows 80.0K across 10 skills — a 10x jump.
+A complete Three.js knowledge base packaged as agent skills, covering the full rendering stack: fundamentals, animation, shaders, geometry, interaction, materials, postprocessing, lighting, loaders, and textures. Queued in prior sweeps at a 7.9K API-sum estimate; the publisher page shows 80.0K across 10 skills - a 10x jump.
 
 ---
 
@@ -66,8 +66,8 @@ npx skills add cloudai-x/threejs-skills
 ## Limitations / Verification
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
-- Community-maintained suite — verify skill content against the official Three.js docs for version-specific APIs
-- No WebXR or physics content — pair with a physics library skill for interactive scenes
+- Community-maintained suite - verify skill content against the official Three.js docs for version-specific APIs
+- No WebXR or physics content - pair with a physics library skill for interactive scenes
 
 ```bash
 npx skills add cloudai-x/threejs-skills   # verify install works

@@ -1,5 +1,5 @@
 ---
-title: "SentiSense MCP — Market Intelligence for AI Agents"
+title: "SentiSense MCP - Market Intelligence for AI Agents"
 description: "Connect SentiSense market intelligence to Hermes Agent. US market mood, stock sentiment, analyst ratings, 13F filings. Five read-only tools, zero-config"
 category: mcp
 tags: [mcp-server, sentisense, finance, market-intelligence, sentiment, stocks, investing]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# SentiSense — Market Intelligence MCP Server
+# SentiSense - Market Intelligence MCP Server
 
 ## What It Is
 
@@ -25,7 +25,7 @@ SentiSense brings institutional-grade market intelligence into AI agents. Ask yo
 | `get_stock_sentiment` | SentiSense Score + sentiment analysis for any ticker |
 | `get_market_news` | Market-moving news with sentiment overlay |
 | `get_analyst_ratings` | Consensus analyst ratings and price targets |
-| `get_institutional_activity` | 13F filing data — who's buying and selling |
+| `get_institutional_activity` | 13F filing data - who's buying and selling |
 
 ## Quick Start
 
@@ -33,7 +33,7 @@ SentiSense brings institutional-grade market intelligence into AI agents. Ask yo
 # Add to Hermes
 hermes mcp add sentisense --url https://api.sentisense.ai/mcp
 
-# Authenticate (OAuth — no API key needed)
+# Authenticate (OAuth - no API key needed)
 hermes mcp auth sentisense
 # → Opens browser: Log in with Google/GitHub
 # → Done. 5 tools available.
@@ -62,11 +62,11 @@ hermes mcp auth sentisense
 ## Limitations
 
 - US markets only (no international coverage)
-- Read-only — no trading execution
+- Read-only - no trading execution
 - Sentiment data has inherent lag (daily updates, not real-time)
 
 ## See Also
 
-- HPSILab Quant Finance MCP — for options analytics and Monte Carlo simulations
-- pipeworx-io/mcp-tradier — for real-time stock & options market data
-- Kalshi MCP — for prediction market analysis
+- HPSILab Quant Finance MCP - for options analytics and Monte Carlo simulations
+- pipeworx-io/mcp-tradier - for real-time stock & options market data
+- Kalshi MCP - for prediction market analysis

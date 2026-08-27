@@ -1,5 +1,5 @@
 ---
-title: Firecrawl Agent — AI-Powered Structured Data Extraction
+title: Firecrawl Agent - AI-Powered Structured Data Extraction
 description: Autonomous data extraction that navigates complex sites and returns structured JSON. 73.9K+ installs. Use for pricing extraction, product listings, directory scraping, and any multi-page structured data extraction.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-agent-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Firecrawl Agent — Setup Guide
+# Firecrawl Agent - Setup Guide
 
 **Source:** [firecrawl/cli](https://skills.sh/firecrawl/cli/firecrawl-agent) (73,900+ installs)
 **Category:** Web Extraction / Data
@@ -113,10 +113,10 @@ firecrawl agent "extract company name, website, and description for all listings
 
 ## Tips
 
-- Always use `--wait` to get results inline — without it, returns a job ID
-- Use `--schema` for predictable, structured output — otherwise agent returns freeform data
-- Agent runs consume more credits than simple scrapes — use `--max-credits` to cap spending
-- For simple single-page extraction, prefer `firecrawl scrape` — faster and cheaper
+- Always use `--wait` to get results inline - without it, returns a job ID
+- Use `--schema` for predictable, structured output - otherwise agent returns freeform data
+- Agent runs consume more credits than simple scrapes - use `--max-credits` to cap spending
+- For simple single-page extraction, prefer `firecrawl scrape` - faster and cheaper
 
 ---
 
@@ -126,13 +126,13 @@ firecrawl agent "extract company name, website, and description for all listings
 |---|---|
 | `FIRECRAWL_API_KEY not set` | Export your key: `export FIRECRAWL_API_KEY=fc-...` |
 | Agent timeout | Increase `--max-credits` or simplify the query |
-| Schema mismatch | Ensure JSON schema is valid — test with `echo '{"type":"object"}' | jq` |
-| No results | Try broader starting URLs — agent needs entry points to navigate from |
+| Schema mismatch | Ensure JSON schema is valid - test with `echo '{"type":"object"}' | jq` |
+| No results | Try broader starting URLs - agent needs entry points to navigate from |
 
 ---
 
 ## See Also
 
-- [Firecrawl Docs](https://docs.firecrawl.com) — Core Firecrawl CLI setup and configuration
-- Firecrawl Workflows Setup — Multi-step extraction workflows
-- [Firecrawl Docs](https://docs.firecrawl.com) — Official documentation
+- [Firecrawl Docs](https://docs.firecrawl.com) - Core Firecrawl CLI setup and configuration
+- Firecrawl Workflows Setup - Multi-step extraction workflows
+- [Firecrawl Docs](https://docs.firecrawl.com) - Official documentation

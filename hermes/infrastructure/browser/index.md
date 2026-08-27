@@ -62,4 +62,4 @@ browser = await p.chromium.launch_persistent_context(
 
 ## Cost Discipline
 
-Vision-driven browser automation bills per LLM call. Use it only where selector automation fails. Everything else runs on plain Playwright — free.
+Vision-driven browser automation bills per LLM call. Use it only where selector automation fails. Everything else runs on plain Playwright - free.

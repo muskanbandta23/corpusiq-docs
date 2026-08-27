@@ -1,5 +1,5 @@
 ---
-title: "NemoClaw User Guide — Security Setup"
+title: "NemoClaw User Guide - Security Setup"
 description: Install and use the NemoClaw security user guide from nvidia/skills (99 installs). Enterprise-grade security best practices for autonomous Hermes agent deployments.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nemoclaw-user-guide-setup/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# NemoClaw User Guide — Setup Guide
+# NemoClaw User Guide - Setup Guide
 
 **Source:** [nvidia/skills](https://skills.sh/nvidia/skills) (99 installs)
 **Category:** Security & Governance
 
-A security-focused user guide for NemoClaw — a hardened OpenClaw variant providing permission models, audit logging, and secure execution boundaries for Hermes agents. Published by NVIDIA, signaling enterprise validation of the Hermes/OpenClaw agent ecosystem. Covers security best practices for deploying autonomous agents in production environments.
+A security-focused user guide for NemoClaw - a hardened OpenClaw variant providing permission models, audit logging, and secure execution boundaries for Hermes agents. Published by NVIDIA, signaling enterprise validation of the Hermes/OpenClaw agent ecosystem. Covers security best practices for deploying autonomous agents in production environments.
 
 ---
 
@@ -30,7 +30,7 @@ npx skills add nvidia/skills --skill nemoclaw-user-guide
 | Requirement | Details |
 |---|---|
 | **Hermes Agent** | v0.20.0+ with OpenClaw runtime support |
-| **NemoClaw Runtime** | Installed alongside the skill — provides the hardened execution layer |
+| **NemoClaw Runtime** | Installed alongside the skill - provides the hardened execution layer |
 | **Audit Log Storage** | Local directory or S3 bucket for agent audit trails |
 
 ---
@@ -42,7 +42,7 @@ npx skills add nvidia/skills --skill nemoclaw-user-guide
 | Capability | How to Trigger | Notes |
 |---|---|---|
 | Permission gates | Configured in `~/.hermes/config.yaml` | Fine-grained tool access control |
-| Audit logging | Automatic — all agent actions logged | JSONL format, S3-compatible storage |
+| Audit logging | Automatic - all agent actions logged | JSONL format, S3-compatible storage |
 | Execution sandboxing | Enabled by default | Prevents unauthorized filesystem/network access |
 | Security policy review | "Review my agent security policy" | Hardening recommendations |
 | Threat detection | "Scan for security misconfigurations" | Checks permission model, env exposure, credential hygiene |
@@ -78,7 +78,7 @@ hermes nemoclaw harden --apply
 
 | Issue | Fix |
 |---|---|
-| "Permission denied" on legitimate tool | Check `~/.hermes/config.yaml` nemoclaw rules — add explicit allow |
+| "Permission denied" on legitimate tool | Check `~/.hermes/config.yaml` nemoclaw rules - add explicit allow |
 | Audit log grows too large | Configure log rotation: `nemoclaw config set --log-rotation 7d` |
 | "NemoClaw runtime not found" | Reinstall: `npx skills add nvidia/skills --skill nemoclaw-user-guide --force` |
 

@@ -1,13 +1,13 @@
 ---
-title: Huashu Design Skill — HTML-First Agent Design Setup
-description: "alchaincyf/huashu-design — huashu-design (42.9K installs, 23K GitHub stars): HTML-first prototyping, animations, slide decks, and design direction with five design philosophies and specialist role embodiment."
+title: Huashu Design Skill - HTML-First Agent Design Setup
+description: "alchaincyf/huashu-design - huashu-design (42.9K installs, 23K GitHub stars): HTML-first prototyping, animations, slide decks, and design direction with five design philosophies and specialist role embodiment."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huashu-design-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "prototyping"]
 ---
 
-# Huashu Design Skill — Setup Guide
+# Huashu Design Skill - Setup Guide
 
 **Source:** [alchaincyf/huashu-design](https://skills.sh/alchaincyf/huashu-design)
 **GitHub:** [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) (23.0K stars)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "design", "prototyping"]
 **First Seen:** April 21, 2026 (catalogued August 15, 2026 sweep)
 **Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub pass; Socket and Snyk report warnings)
 
-Huashu-Design (花叔Design) is an HTML-first design skill that makes the agent embody a specialist — animator, UX designer, slide designer, or prototyper — based on the task, rather than acting as a generic HTML tool. It enforces a brand asset protocol (logo, product imagery, and UI screenshots before color values), delivers three differentiated design directions when context is unclear, and spans five design philosophies: information architecture, motion poetry, minimalism, experimental, and East Asian. Four user-confirmation checkpoints gate the workflow.
+Huashu-Design (花叔Design) is an HTML-first design skill that makes the agent embody a specialist - animator, UX designer, slide designer, or prototyper - based on the task, rather than acting as a generic HTML tool. It enforces a brand asset protocol (logo, product imagery, and UI screenshots before color values), delivers three differentiated design directions when context is unclear, and spans five design philosophies: information architecture, motion poetry, minimalism, experimental, and East Asian. Four user-confirmation checkpoints gate the workflow.
 
 ---
 
@@ -63,9 +63,9 @@ npx skills add alchaincyf/huashu-design
 
 ## Limitations / Verification
 
-- Explicitly not for production web apps, SEO sites, or backend systems — prototypes and decks only
+- Explicitly not for production web apps, SEO sites, or backend systems - prototypes and decks only
 - SKILL.md is written in Chinese; English capabilities are summarized on the marketplace page
-- Socket and Snyk audits carry warnings — review before production use
+- Socket and Snyk audits carry warnings - review before production use
 
 ```bash
 npx skills add alchaincyf/huashu-design   # verify install works
@@ -74,8 +74,8 @@ npx skills add alchaincyf/huashu-design   # verify install works
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Emil Kowalski Skills — Design Engineering Suite Setup](/hermes/skills/catalog/emilkowalski-skills-setup/)
-- [UI/UX Pro Max — Design System Skill Pack Setup](/hermes/skills/catalog/ui-ux-pro-max-setup/)
+- [Emil Kowalski Skills - Design Engineering Suite Setup](/hermes/skills/catalog/emilkowalski-skills-setup/)
+- [UI/UX Pro Max - Design System Skill Pack Setup](/hermes/skills/catalog/ui-ux-pro-max-setup/)
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

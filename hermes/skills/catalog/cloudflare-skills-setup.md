@@ -1,6 +1,6 @@
 ---
-title: "Cloudflare Skills — Edge Computing & Workers Platform"
-description: Cloudflare's official agent skills — Wrangler CLI, Workers, Durable Objects, web performance, and Turnstile. 100K+ combined installs across 11 skills for building on the edge.
+title: "Cloudflare Skills - Edge Computing & Workers Platform"
+description: Cloudflare's official agent skills - Wrangler CLI, Workers, Durable Objects, web performance, and Turnstile. 100K+ combined installs across 11 skills for building on the edge.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Cloudflare Skills — Setup Guide
+# Cloudflare Skills - Setup Guide
 
 **Source:** [cloudflare/skills](https://skills.sh/cloudflare/skills) (100K+ combined installs)
 **GitHub:** [cloudflare/skills](https://github.com/cloudflare/skills) (2,481 ⭐)
@@ -49,18 +49,18 @@ npx skills add cloudflare/skills --skill cloudflare-one-migrations
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **wrangler** | 39.4K | Wrangler CLI — deploy Workers, manage KV/R2/D1, tail logs, configure bindings |
-| **workers-best-practices** | 32.7K | Production Workers patterns — error handling, caching, routing, performance |
-| **web-perf** | 28.9K | Web performance optimization — CDN caching, image optimization, HTTP/3 |
-| **turnstile-spin** | 15.0K | Turnstile anti-bot integration — invisible CAPTCHA alternative, server-side validation |
-| **building-mcp-server-on-cloudflare** | 3.6K | Deploy MCP servers on Workers — SSE transport, Durable Object state, D1 persistence |
-| **agents-sdk** | — | Cloudflare Agents SDK — stateful AI agents with Durable Objects, real-time communication |
-| **durable-objects** | — | Durable Objects — strongly consistent state, WebSocket coordination, transactional storage |
-| **cloudflare** | — | General Cloudflare platform knowledge — zones, DNS, SSL/TLS, firewall rules |
-| **cloudflare-one** | — | Zero Trust platform — Access, Gateway, WARP, browser isolation |
-| **sandbox-sdk** | — | Sandbox SDK — isolated execution environments for untrusted code |
-| **cloudflare-email-service** | — | Email Workers — programmatic email routing, parsing, and delivery |
-| **cloudflare-one-migrations** | — | Zero Trust migration tooling — legacy to Cloudflare One migration patterns |
+| **wrangler** | 39.4K | Wrangler CLI - deploy Workers, manage KV/R2/D1, tail logs, configure bindings |
+| **workers-best-practices** | 32.7K | Production Workers patterns - error handling, caching, routing, performance |
+| **web-perf** | 28.9K | Web performance optimization - CDN caching, image optimization, HTTP/3 |
+| **turnstile-spin** | 15.0K | Turnstile anti-bot integration - invisible CAPTCHA alternative, server-side validation |
+| **building-mcp-server-on-cloudflare** | 3.6K | Deploy MCP servers on Workers - SSE transport, Durable Object state, D1 persistence |
+| **agents-sdk** | - | Cloudflare Agents SDK - stateful AI agents with Durable Objects, real-time communication |
+| **durable-objects** | - | Durable Objects - strongly consistent state, WebSocket coordination, transactional storage |
+| **cloudflare** | - | General Cloudflare platform knowledge - zones, DNS, SSL/TLS, firewall rules |
+| **cloudflare-one** | - | Zero Trust platform - Access, Gateway, WARP, browser isolation |
+| **sandbox-sdk** | - | Sandbox SDK - isolated execution environments for untrusted code |
+| **cloudflare-email-service** | - | Email Workers - programmatic email routing, parsing, and delivery |
+| **cloudflare-one-migrations** | - | Zero Trust migration tooling - legacy to Cloudflare One migration patterns |
 
 ---
 

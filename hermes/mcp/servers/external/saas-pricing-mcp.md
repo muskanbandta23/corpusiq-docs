@@ -1,5 +1,5 @@
 ---
-title: "SaaS & AI Pricing API MCP — Competitive Intelligence"
+title: "SaaS & AI Pricing API MCP - Competitive Intelligence"
 description: "Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ tools. OpenAPI 3.1, no API key required. Market research for operators."
 category: mcp
 tags: [mcp-server, business-intelligence, saas, pricing, competitive-research, market-intelligence]
@@ -11,9 +11,9 @@ robots: "index,follow"
 
 # SaaS & AI Pricing API MCP Server ★ New (July 14)
 
-Free REST API and MCP server providing verified pricing data for 490+ SaaS, AI, and LLM tools. OpenAPI 3.1 format, no API key required. Gives AI agents structured access to the pricing landscape — perfect for competitive research, tool stack evaluation, and market intelligence.
+Free REST API and MCP server providing verified pricing data for 490+ SaaS, AI, and LLM tools. OpenAPI 3.1 format, no API key required. Gives AI agents structured access to the pricing landscape - perfect for competitive research, tool stack evaluation, and market intelligence.
 
-**Source:** mcp.so (exact repo TBD — GitHub search API rate-limited)
+**Source:** mcp.so (exact repo TBD - GitHub search API rate-limited)
 **Submitted:** July 14, 2026
 
 ## Key Features
@@ -38,10 +38,10 @@ Essential for operators in procurement, finance, engineering leadership, and any
 
 ## Integration with CorpusIQ
 
-Pair with CorpusIQ's financial connectors (QuickBooks, Stripe) to compare actual spend against market pricing. Ask your AI agent: "We spend $X on these tools — are there cheaper alternatives?" and get data-driven answers spanning both your actual costs and market rates.
+Pair with CorpusIQ's financial connectors (QuickBooks, Stripe) to compare actual spend against market pricing. Ask your AI agent: "We spend $X on these tools - are there cheaper alternatives?" and get data-driven answers spanning both your actual costs and market rates.
 
 ## Limitations
 
 - Exact GitHub repo TBD (GitHub search API rate-limited as of July 14)
-- 490 tools is comprehensive but not exhaustive — niche tools may be missing
-- Pricing changes frequently — data freshness depends on update frequency
+- 490 tools is comprehensive but not exhaustive - niche tools may be missing
+- Pricing changes frequently - data freshness depends on update frequency

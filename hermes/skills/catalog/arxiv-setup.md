@@ -1,5 +1,5 @@
 ---
-title: arXiv — Academic Paper Search Setup Guide
+title: arXiv - Academic Paper Search Setup Guide
 description: Install and configure arxiv, the official Hermes Agent skill for searching academic papers via arXiv's free REST API. 77 installs, zero dependencies, no API key needed.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/arxiv-setup/"
 robots: "index,follow"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# arXiv Research — Setup Guide
+# arXiv Research - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/arxiv) (77 peak installs)
 **Category:** Research / Academic
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** None (curl only)
 
-Search and retrieve academic papers from arXiv via their free REST API. No API key, no Python packages, no authentication — just curl and the arXiv API. Returns Atom XML with paper metadata, abstracts, and links to full-text PDFs.
+Search and retrieve academic papers from arXiv via their free REST API. No API key, no Python packages, no authentication - just curl and the arXiv API. Returns Atom XML with paper metadata, abstracts, and links to full-text PDFs.
 
 ---
 
@@ -150,16 +150,16 @@ curl -s "https://export.arxiv.org/api/query?search_query=all:test&max_results=1"
 
 ## Related Skills
 
-- **[ocr-and-documents](https://skills.sh/nousresearch/hermes-agent/ocr-and-documents)** — Extract text from academic PDFs and scanned documents
-- **[research-paper-writing](https://skills.sh/nousresearch/hermes-agent/research-paper-writing)** — Write academic papers with proper formatting
-- **[llm-wiki](https://skills.sh/nousresearch/hermes-agent/llm-wiki)** — Build a personal research wiki from collected papers
+- **[ocr-and-documents](https://skills.sh/nousresearch/hermes-agent/ocr-and-documents)** - Extract text from academic PDFs and scanned documents
+- **[research-paper-writing](https://skills.sh/nousresearch/hermes-agent/research-paper-writing)** - Write academic papers with proper formatting
+- **[llm-wiki](https://skills.sh/nousresearch/hermes-agent/llm-wiki)** - Build a personal research wiki from collected papers
 
 ---
 
 ## Pro Tips
 
-1. **Use `sortBy=submittedDate`** — Always sort by date for literature reviews. Default is relevance, which biases toward older highly-cited papers.
-2. **Limit `max_results`** — arXiv's API is rate-limited. Start with `max_results=5` and increase only if needed.
-3. **Cache results** — For literature reviews, save the XML output to a file and process locally rather than re-querying.
-4. **Read PDFs via web_extract** — After finding a paper, use `web_extract(urls=["https://arxiv.org/pdf/PAPER_ID"])` to get the full text without downloading.
-5. **Combine with humanizer** — Use the humanizer skill to convert academic abstracts into plain-language summaries.
+1. **Use `sortBy=submittedDate`** - Always sort by date for literature reviews. Default is relevance, which biases toward older highly-cited papers.
+2. **Limit `max_results`** - arXiv's API is rate-limited. Start with `max_results=5` and increase only if needed.
+3. **Cache results** - For literature reviews, save the XML output to a file and process locally rather than re-querying.
+4. **Read PDFs via web_extract** - After finding a paper, use `web_extract(urls=["https://arxiv.org/pdf/PAPER_ID"])` to get the full text without downloading.
+5. **Combine with humanizer** - Use the humanizer skill to convert academic abstracts into plain-language summaries.

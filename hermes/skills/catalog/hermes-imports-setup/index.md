@@ -1,5 +1,5 @@
 ---
-title: Hermes Imports — Setup Guide for Hermes Agents
+title: Hermes Imports - Setup Guide for Hermes Agents
 description: Convert local Hermes workflows into sanitized ECC skills and release-pack artifacts. Strip private state, paths, and credentials for safe public reuse. 2.7K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-imports-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Imports — Setup Guide
+# Hermes Imports - Setup Guide
 
 **Source:** [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) (Community)
 **Skill:** `hermes-imports` · **Installs:** 2.7K+ · **Category:** Workflow / DevOps
 **Platform:** Linux, macOS, Windows
 
-Hermes Imports converts repeated Hermes operator workflows into safe, shareable ECC (Everything Claude Code) skills. It strips private workspace state — local paths, credentials, account names, personal data — and produces release-pack artifacts ready for public distribution.
+Hermes Imports converts repeated Hermes operator workflows into safe, shareable ECC (Everything Claude Code) skills. It strips private workspace state - local paths, credentials, account names, personal data - and produces release-pack artifacts ready for public distribution.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 ---
 title: "Growth Operations Skills - CorpusIQ Docs"
-description: Growth operations skills for Hermes Agent — affiliate programs, worldwide promotion, organic discovery, and automated outreach. Part of the Hermes Skills Library.
+description: Growth operations skills for Hermes Agent - affiliate programs, worldwide promotion, organic discovery, and automated outreach. Part of the Hermes Skills Library.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -26,10 +26,10 @@ Skills for automated growth operations with Hermes Agent. These skills handle di
 
 Growth operations skills typically integrate with:
 
-- **Postiz CLI** — Social media scheduling and cross-posting
-- **Gmail API** — Email outreach and monitoring
-- **Playwright** — Browser automation for platforms without APIs
-- **GitHub API** — Repository promotion and community engagement
+- **Postiz CLI** - Social media scheduling and cross-posting
+- **Gmail API** - Email outreach and monitoring
+- **Playwright** - Browser automation for platforms without APIs
+- **GitHub API** - Repository promotion and community engagement
 
 ## Community Skills
 
@@ -45,4 +45,4 @@ Browse the [Skills Marketplace](/hermes/skills/marketplace/) for the full catalo
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

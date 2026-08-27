@@ -16,16 +16,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Moxie Docs MCP — Automated Codebase Documentation
+# Moxie Docs MCP - Automated Codebase Documentation
 
 Moxie Docs generates and maintains searchable documentation for GitHub repositories, provides MCP context to AI coding agents, detects documentation drift, and creates automated Friday Cleanup PRs.
 
 ## What It Does
 
-- **Auto-generate docs** — Scans your codebase and produces structured documentation
-- **MCP context** — Feeds up-to-date codebase knowledge into AI agents via MCP tools
-- **Drift detection** — Alerts when code changes make documentation stale
-- **Cleanup PRs** — Automated Friday PRs to fix broken links, outdated examples, and formatting
+- **Auto-generate docs** - Scans your codebase and produces structured documentation
+- **MCP context** - Feeds up-to-date codebase knowledge into AI agents via MCP tools
+- **Drift detection** - Alerts when code changes make documentation stale
+- **Cleanup PRs** - Automated Friday PRs to fix broken links, outdated examples, and formatting
 
 ## Quick Start
 
@@ -57,10 +57,10 @@ hermes mcp add moxie-docs -- npx tsx /path/to/moxie-docs/src/index.ts
 
 ## Use Cases
 
-- **Onboarding acceleration** — New developers ask the agent "how does the auth system work?" and get accurate, current docs
-- **CI/CD integration** — Run `check_drift` in CI to block PRs that break documentation
-- **Agent context** — AI coding agents pull Moxie Docs context instead of guessing at codebase architecture
-- **Documentation maintenance** — Friday Cleanup PRs keep docs fresh without manual effort
+- **Onboarding acceleration** - New developers ask the agent "how does the auth system work?" and get accurate, current docs
+- **CI/CD integration** - Run `check_drift` in CI to block PRs that break documentation
+- **Agent context** - AI coding agents pull Moxie Docs context instead of guessing at codebase architecture
+- **Documentation maintenance** - Friday Cleanup PRs keep docs fresh without manual effort
 
 ## Hermes Agent Integration
 

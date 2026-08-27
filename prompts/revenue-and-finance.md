@@ -33,7 +33,7 @@ Ask these in Claude or ChatGPT with CorpusIQ connected.
 
 ## Custom
 
-Combine any of these questions. CorpusIQ handles multi-source queries natively — just ask.
+Combine any of these questions. CorpusIQ handles multi-source queries natively - just ask.
 
 ---
 

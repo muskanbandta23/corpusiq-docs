@@ -1,5 +1,5 @@
 ---
-title: "Confluent MCP — Apache Kafka for AI Agents"
+title: "Confluent MCP - Apache Kafka for AI Agents"
 description: "Connect AI agents to Apache Kafka via the official Confluent MCP server. Real-time event streaming, topic management, schema registry, and consumer group"
 category: mcp
 tags: [mcp-server]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Confluent MCP — Apache Kafka for AI Agents
+# Confluent MCP - Apache Kafka for AI Agents
 
 ## What It Is
 
-Confluent MCP exposes Apache Kafka data streaming capabilities over the Model Context Protocol. AI agents can manage topics, monitor consumer groups, interact with Schema Registry, and oversee Connect pipelines — making Kafka's event-driven infrastructure accessible through natural language.
+Confluent MCP exposes Apache Kafka data streaming capabilities over the Model Context Protocol. AI agents can manage topics, monitor consumer groups, interact with Schema Registry, and oversee Connect pipelines - making Kafka's event-driven infrastructure accessible through natural language.
 
 ## Tools Available
 

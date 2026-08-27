@@ -1,5 +1,5 @@
 ---
-title: New June 26, 2026 — 43 New Skills Across 4 Ecosystems
+title: New June 26, 2026 - 43 New Skills Across 4 Ecosystems
 description: 43 newly discovered skills across Matt Pocock's TypeScript toolkit (1.4M+ installs), OpenClaw ecosystem (17 skills), pbakaus/impeccable (2 skills, 90K installs), and CLI-Anything harnesses (9 skills). Massive developer-tooling and agent-infrastructure expansion.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june26-2026/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 26, 2026
+# New Skills Discovered - June 26, 2026
 
-**Sources:** [skills.sh](https://skills.sh) — [mattpocock/skills](https://skills.sh/mattpocock/skills), [pbakaus/impeccable](https://skills.sh/pbakaus/impeccable), [hkuds/cli-anything](https://skills.sh/hkuds/cli-anything), [sundial-org/awesome-openclaw-skills](https://skills.sh/sundial-org/awesome-openclaw-skills), and 8 additional OpenClaw publishers
+**Sources:** [skills.sh](https://skills.sh) - [mattpocock/skills](https://skills.sh/mattpocock/skills), [pbakaus/impeccable](https://skills.sh/pbakaus/impeccable), [hkuds/cli-anything](https://skills.sh/hkuds/cli-anything), [sundial-org/awesome-openclaw-skills](https://skills.sh/sundial-org/awesome-openclaw-skills), and 8 additional OpenClaw publishers
 **Total new:** 43 skills | **Combined installs:** 1.8M+
 **Date:** June 26, 2026
 
@@ -20,9 +20,9 @@ Four major ecosystem expansions: Matt Pocock's TypeScript/developer toolkit (15 
 
 ## Skills Discovered
 
-### 1. Matt Pocock's TypeScript Developer Toolkit (15 skills — 1,469,488 combined installs)
+### 1. Matt Pocock's TypeScript Developer Toolkit (15 skills - 1,469,488 combined installs)
 
-Matt Pocock is the world's leading TypeScript educator (146K GitHub stars). These 15 skills automate the complete TypeScript/React development lifecycle — writing, refactoring, code review, migration, and content creation.
+Matt Pocock is the world's leading TypeScript educator (146K GitHub stars). These 15 skills automate the complete TypeScript/React development lifecycle - writing, refactoring, code review, migration, and content creation.
 
 | Skill | Installs | Description |
 |---|---|---|
@@ -43,14 +43,14 @@ Matt Pocock is the world's leading TypeScript educator (146K GitHub stars). Thes
 
 ---
 
-### 2. OpenClaw Ecosystem (17 skills — 294,954 combined installs)
+### 2. OpenClaw Ecosystem (17 skills - 294,954 combined installs)
 
 A massive expansion of the OpenClaw/ClawPilot agent ecosystem from 9 publishers. Covers Linux cloud security, Chinese social media (Xiaohongshu, 10K+ installs), stock market data, browser automation, and agent self-improvement.
 
 | Skill | Publisher | Installs | Description |
 |---|---|---|---|
 | **openclaw-secure-linux-cloud** | xixu-me/skills | 240,343 | Secure Linux cloud deployment hardening for OpenClaw agents |
-| **xiaohongshu** | zhjiang22/openclaw-xhs | 10,622 | Xiaohongshu/RED social media integration — China's Instagram equivalent |
+| **xiaohongshu** | zhjiang22/openclaw-xhs | 10,622 | Xiaohongshu/RED social media integration - China's Instagram equivalent |
 | **akshare-stock** | molezzz/openclaw-stock-skill | 10,199 | Chinese A-share stock market data via AKShare |
 | **stock-market-pro** | sundial-org/awesome-openclaw-skills | 3,857 | Professional stock market analysis and trading signals |
 | **openclaw-persona-forge** | affaan-m/everything-claude-code | 3,505 | Dynamic persona creation and management for agents |
@@ -69,7 +69,7 @@ A massive expansion of the OpenClaw/ClawPilot agent ecosystem from 9 publishers.
 
 ---
 
-### 3. pbakaus/impeccable — UI/Design Refinement (2 skills — 90,472 combined installs)
+### 3. pbakaus/impeccable - UI/Design Refinement (2 skills - 90,472 combined installs)
 
 Impeccable (41K stars) is a UI refinement tool for AI-generated interfaces. These skills teach impeccable usage and visual arrangement patterns.
 
@@ -80,7 +80,7 @@ Impeccable (41K stars) is a UI refinement tool for AI-generated interfaces. Thes
 
 ---
 
-### 4. CLI-Anything GUI Harnesses (9 skills — 4,769 combined installs)
+### 4. CLI-Anything GUI Harnesses (9 skills - 4,769 combined installs)
 
 CLI-Anything (43K stars) makes GUI apps agent-native by generating CLI harnesses. These skills wrap Blender, Audacity, ComfyUI, Ollama, and other GUI tools for agent control.
 
@@ -98,7 +98,7 @@ CLI-Anything (43K stars) makes GUI apps agent-native by generating CLI harnesses
 
 ---
 
-### 5. Letta AI — Agent Memory (1 skill — 64 installs)
+### 5. Letta AI - Agent Memory (1 skill - 64 installs)
 
 | Skill | Publisher | Installs | Description |
 |---|---|---|---|
@@ -173,11 +173,11 @@ npx skills add letta-ai/letta-code --skill acquiring-skills
 
 **Matt Pocock's TypeScript Toolkit** is the single largest skills.sh discovery since the marketplace launched. With 15 skills averaging 98K installs each, these represent the most popular developer workflow skills available for AI agents. They cover the complete software development lifecycle: writing, reviewing, refactoring, testing, content creation, and migration. For Hermes agents working with TypeScript/React codebases, this toolkit is transformative.
 
-**The OpenClaw ecosystem expansion** adds 17 skills from 9 previously uncatalogued publishers. Highlights include secure Linux cloud deployment (240K installs — the highest single install count in this sweep), Xiaohongshu integration (China's Instagram with 300M+ users), stock market data pipelines, and browser automation. This significantly expands the agent infrastructure toolkit for non-English and financial markets.
+**The OpenClaw ecosystem expansion** adds 17 skills from 9 previously uncatalogued publishers. Highlights include secure Linux cloud deployment (240K installs - the highest single install count in this sweep), Xiaohongshu integration (China's Instagram with 300M+ users), stock market data pipelines, and browser automation. This significantly expands the agent infrastructure toolkit for non-English and financial markets.
 
 **pbakaus/impeccable** brings UI refinement to the agent workflow with 90K combined installs. Impeccable is the leading tool for polishing AI-generated interfaces.
 
-**CLI-Anything harnesses** continue the agent-native revolution — making GUI applications controllable by agents through CLI wrappers. These 9 harnesses cover creative tools (Audacity, Shotcut, ComfyUI), productivity tools (Zotero, NotebookLM), and infrastructure (Ollama, FreeCAD).
+**CLI-Anything harnesses** continue the agent-native revolution - making GUI applications controllable by agents through CLI wrappers. These 9 harnesses cover creative tools (Audacity, Shotcut, ComfyUI), productivity tools (Zotero, NotebookLM), and infrastructure (Ollama, FreeCAD).
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Datadog Agent Skills Setup Guide"
-description: "Install and configure Datadog agent skills for monitoring, logging, APM, LLM observability, and audit — 20+ skills, ~12K installs"
+description: "Install and configure Datadog agent skills for monitoring, logging, APM, LLM observability, and audit - 20+ skills, ~12K installs"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/datadog-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Publisher:** [datadog-labs/agent-skills](https://github.com/datadog-labs/agent-skills) (146⭐)
 **Skills.sh:** `npx skills add datadog-labs/agent-skills`
 **Installs:** ~12,000+ combined across 20+ skills
-**Quality:** 🟢 Production — official Datadog Labs repository
+**Quality:** 🟢 Production - official Datadog Labs repository
 
 > Datadog skills for Claude Code, Codex CLI, Gemini CLI, Cursor, Windsurf, OpenCode, and other AI agents. Essential monitoring, logging, tracing, and observability through the `pup` CLI.
 
@@ -21,20 +21,20 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 | Skill | Category | Installs | Purpose |
 |-------|----------|----------|---------|
-| **dd-pup** | Core CLI | 2,573 | Primary CLI — commands, auth, PATH setup |
+| **dd-pup** | Core CLI | 2,573 | Primary CLI - commands, auth, PATH setup |
 | **dd-monitors** | Monitoring | 1,198 | Create, manage, mute monitors and alerts |
 | **dd-logs** | Logging | 1,314 | Search logs, pipelines, archives |
 | **dd-apm** | APM | 1,266 | Traces, services, performance, Single-Step Instrumentation |
 | **dd-docs** | Docs | 1,156 | Search Datadog documentation |
 | **dd-browser-sdk** | Browser | 263 | RUM, Logs, Session Replay, version migration |
-| **dd-audit** | Audit | 404 | Audit Trail investigations — SOC 2/PCI compliance, AI activity auditing |
-| **dd-apps** | Platform | 39 | Build Datadog Apps — scaffold, run, upload, publish |
+| **dd-audit** | Audit | 404 | Audit Trail investigations - SOC 2/PCI compliance, AI activity auditing |
+| **dd-apps** | Platform | 39 | Build Datadog Apps - scaffold, run, upload, publish |
 | **agent-observability-*** | LLM Obs | 233-237 | LLM trace analysis, eval generation, session classification (8 skills) |
-| **dd-software-delivery** | CI/CD | — | Unblock PR pipelines, triage flaky tests |
+| **dd-software-delivery** | CI/CD | - | Unblock PR pipelines, triage flaky tests |
 
 ## Why This Matters for Hermes Agents
 
-Datadog skills give Hermes agents production-grade observability — search logs, query traces, manage monitors, and analyze LLM performance — all through the `pup` CLI without leaving the agent context. The **Agent Observability (LLMO)** skills are particularly relevant for teams running Hermes in production: they enable root-cause analysis of agent failures, automated eval generation, and session quality classification.
+Datadog skills give Hermes agents production-grade observability - search logs, query traces, manage monitors, and analyze LLM performance - all through the `pup` CLI without leaving the agent context. The **Agent Observability (LLMO)** skills are particularly relevant for teams running Hermes in production: they enable root-cause analysis of agent failures, automated eval generation, and session quality classification.
 
 ## Installation
 
@@ -42,7 +42,7 @@ Datadog skills give Hermes agents production-grade observability — search logs
 
 ```bash
 # Install pup CLI (required for all Datadog skills)
-# Option 1: Homebrew (macOS/Linux) — recommended
+# Option 1: Homebrew (macOS/Linux) - recommended
 brew tap datadog-labs/pack
 brew install datadog-labs/pack/pup
 
@@ -136,7 +136,7 @@ npx skills add datadog-labs/agent-skills \
 | Check auth | `pup auth status` |
 | Refresh token | `pup auth refresh` |
 
-## Agent Observability (LLMO) — 8-Skill Pipeline
+## Agent Observability (LLMO) - 8-Skill Pipeline
 
 The LLM Observability skills form a complete eval pipeline for agent monitoring:
 
@@ -188,7 +188,7 @@ claude mcp add --scope user --transport http "datadog-mcp-core" \
 
 ### CI/CD
 ```
-"Unblock the main branch PR pipeline — check what's failing"
+"Unblock the main branch PR pipeline - check what's failing"
 "Triage the flaky test in the auth service"
 ```
 
@@ -196,7 +196,7 @@ claude mcp add --scope user --transport http "datadog-mcp-core" \
 ```
 "Show who changed the production database monitor"
 "Audit API key usage for SOC 2 compliance evidence"
-"Investigate the AWS cost spike at 2am — who deployed what"
+"Investigate the AWS cost spike at 2am - who deployed what"
 ```
 
 ## Verification
@@ -224,17 +224,17 @@ pup monitors list      # Should return monitor list (may be empty)
 
 3. **The LLMO eval pipeline is powerful for production Hermes deployments.** If you're running agent workloads at scale, the `agent-observability-eval-pipeline` gives you a complete 8-phase feedback loop from failure detection to experiment analysis.
 
-4. **`pup` commands respect your Datadog role permissions.** If the agent can't see certain monitors or logs, check the API key's RBAC scope — not the skill.
+4. **`pup` commands respect your Datadog role permissions.** If the agent can't see certain monitors or logs, check the API key's RBAC scope - not the skill.
 
 5. **CI/CD skills require both `pup` CLI and the Datadog MCP server.** Install both before using `triage-flaky-test` or `unblock-pr`.
 
 ## Related Skills
 
-- [Grafana Agent Skills](/hermes/skills/catalog/grafana-skills-setup/) — alternative observability platform
-- [MongoDB Agent Skills](/hermes/skills/catalog/mongodb-agent-skills-setup/) — database monitoring companion
-- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup/) — cloud infrastructure monitoring
-- [Cloudflare Skills](/hermes/skills/catalog/cloudflare-skills-setup/) — edge observability
+- [Grafana Agent Skills](/hermes/skills/catalog/grafana-skills-setup/) - alternative observability platform
+- [MongoDB Agent Skills](/hermes/skills/catalog/mongodb-agent-skills-setup/) - database monitoring companion
+- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup/) - cloud infrastructure monitoring
+- [Cloudflare Skills](/hermes/skills/catalog/cloudflare-skills-setup/) - edge observability
 
 ---
 
-*Source: [skills.sh — datadog-labs/agent-skills](https://skills.sh/datadog-labs/agent-skills) · [GitHub](https://github.com/datadog-labs/agent-skills) · ~12,000 combined installs across 20+ skills*
+*Source: [skills.sh - datadog-labs/agent-skills](https://skills.sh/datadog-labs/agent-skills) · [GitHub](https://github.com/datadog-labs/agent-skills) · ~12,000 combined installs across 20+ skills*

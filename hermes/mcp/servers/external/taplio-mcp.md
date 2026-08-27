@@ -11,21 +11,21 @@ remote_endpoint: "https://mcp.taplio.com"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/taplio-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Taplio MCP — LinkedIn Management from AI Agents"
+title: "Taplio MCP - LinkedIn Management from AI Agents"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Taplio MCP — LinkedIn Management from AI Agents
+# Taplio MCP - LinkedIn Management from AI Agents
 
 Taplio's official MCP server lets AI assistants (Claude, Cursor, Codex, Hermes Agent) draft, schedule, publish, and analyze LinkedIn posts directly through the Model Context Protocol.
 
 ## What It Does
 
-- **Draft posts** — Generate LinkedIn content from your AI agent using your brand voice and past performance data
-- **Schedule & publish** — Queue posts for optimal times, publish immediately, or save drafts
-- **Analytics** — Pull post performance metrics (impressions, engagement, clicks) directly into agent context
-- **Content inspiration** — Access trending topics and viral post templates from Taplio's database
+- **Draft posts** - Generate LinkedIn content from your AI agent using your brand voice and past performance data
+- **Schedule & publish** - Queue posts for optimal times, publish immediately, or save drafts
+- **Analytics** - Pull post performance metrics (impressions, engagement, clicks) directly into agent context
+- **Content inspiration** - Access trending topics and viral post templates from Taplio's database
 
 ## Quick Start
 
@@ -37,7 +37,7 @@ hermes mcp add taplio --url https://mcp.taplio.com
 claude mcp add taplio --url https://mcp.taplio.com
 ```
 
-**Prerequisites:** A Taplio account (taplio.com). The MCP endpoint uses Taplio's existing auth — connect once and the token persists.
+**Prerequisites:** A Taplio account (taplio.com). The MCP endpoint uses Taplio's existing auth - connect once and the token persists.
 
 ## Key Tools
 
@@ -52,10 +52,10 @@ claude mcp add taplio --url https://mcp.taplio.com
 
 ## Use Cases
 
-- **Personal branding at scale** — Agent drafts daily LinkedIn posts based on your expertise areas, you review and approve
-- **Performance monitoring** — Agent pulls weekly analytics and generates a performance report with recommendations
-- **Content repurposing** — Feed a blog post or video transcript → agent drafts multiple LinkedIn posts
-- **A/B testing** — Agent creates variants of post hooks and tracks which perform better
+- **Personal branding at scale** - Agent drafts daily LinkedIn posts based on your expertise areas, you review and approve
+- **Performance monitoring** - Agent pulls weekly analytics and generates a performance report with recommendations
+- **Content repurposing** - Feed a blog post or video transcript → agent drafts multiple LinkedIn posts
+- **A/B testing** - Agent creates variants of post hooks and tracks which perform better
 
 ## Hermes Agent Integration
 

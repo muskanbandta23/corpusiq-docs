@@ -1,6 +1,6 @@
 ---
 title: Crustdata MCP Integration Guide
-description: Full setup guide for Crustdata MCP — real-time B2B company and people intelligence with 15+ live data sources covering 1B+ people and 100M+ companies
+description: Full setup guide for Crustdata MCP - real-time B2B company and people intelligence with 15+ live data sources covering 1B+ people and 100M+ companies
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crustdata/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Crustdata MCP — Integration Guide
+# Crustdata MCP - Integration Guide
 
 **Real-time B2B company and people intelligence for AI agents.** Crustdata connects to 15+ live data sources so you can search companies, find and enrich contacts, run job and social-post searches, and set up monitoring watchers across 1B+ people and 100M+ companies.
 
@@ -16,16 +16,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does
 
-Crustdata is a B2B intelligence layer for AI agents. Instead of manually searching LinkedIn, crunchbase, job boards, and company databases, your AI agent queries Crustdata over MCP and gets structured results from all sources simultaneously. Set up watchers that monitor target accounts and people for changes — new job posts, leadership moves, funding events, and social signals.
+Crustdata is a B2B intelligence layer for AI agents. Instead of manually searching LinkedIn, crunchbase, job boards, and company databases, your AI agent queries Crustdata over MCP and gets structured results from all sources simultaneously. Set up watchers that monitor target accounts and people for changes - new job posts, leadership moves, funding events, and social signals.
 
 ## Key Capabilities
 
-- **Company Search** — Find and enrich company profiles with firmographics, funding, and news
-- **People Search** — Find and enrich contact profiles with role, history, and social presence
-- **Job Intelligence** — Search job postings, track hiring patterns, identify growth signals
-- **Social Monitoring** — Track social posts and presence for companies and key people
-- **Watchers** — Set up persistent monitors that alert on changes to target accounts/people
-- **15+ Data Sources** — Aggregated from public and licensed B2B data providers
+- **Company Search** - Find and enrich company profiles with firmographics, funding, and news
+- **People Search** - Find and enrich contact profiles with role, history, and social presence
+- **Job Intelligence** - Search job postings, track hiring patterns, identify growth signals
+- **Social Monitoring** - Track social posts and presence for companies and key people
+- **Watchers** - Set up persistent monitors that alert on changes to target accounts/people
+- **15+ Data Sources** - Aggregated from public and licensed B2B data providers
 
 ## Installation
 
@@ -65,7 +65,7 @@ Agent queries Crustdata across all sources and delivers a comprehensive company 
 "Enrich these 20 company names with HQ location, employee count, industry, 
 and the LinkedIn profiles of their CTO and VP of Engineering."
 ```
-Batch enrichment for outbound prospecting — fills CRM gaps automatically.
+Batch enrichment for outbound prospecting - fills CRM gaps automatically.
 
 ### 3. Trigger-Based Outreach
 ```
@@ -113,9 +113,9 @@ Cross-references job postings, social activity, and company updates for competit
 
 ## Related Resources
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) — full curated catalog
-- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) — 40+ native business data connectors
-- [ENTIA Entity Verification](/hermes/mcp/servers/external/#entia-entity-verification) — complementary business verification MCP
+- [External MCP Server Catalog](/hermes/mcp/servers/external/) - full curated catalog
+- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) - 40+ native business data connectors
+- [ENTIA Entity Verification](/hermes/mcp/servers/external/#entia-entity-verification) - complementary business verification MCP
 
 ---
 

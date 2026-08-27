@@ -2,7 +2,7 @@
 
 Pick a connector that holds data you actually care about. For most founders,
 that's **QuickBooks** (the money) or **Google Analytics 4** (the traffic). This
-guide uses QuickBooks as the worked example — substitute your tool, the flow
+guide uses QuickBooks as the worked example - substitute your tool, the flow
 is the same.
 
 ## What's about to happen
@@ -37,12 +37,12 @@ Open Claude or ChatGPT and ask:
 
 > Show me my QuickBooks company info.
 
-You should get back the company name, address, fiscal year, and industry —
+You should get back the company name, address, fiscal year, and industry -
 read live from your QuickBooks. If you do, you're wired up.
 
 ## Connect a few more
 
-You'll get the most value from CorpusIQ when at least 3–4 connectors are
+You'll get the most value from CorpusIQ when at least 3-4 connectors are
 authenticated. Recommended starter set by business type:
 
 | Business type | Recommended starter connectors |

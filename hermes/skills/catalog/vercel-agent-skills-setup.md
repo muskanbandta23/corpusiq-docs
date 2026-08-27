@@ -1,6 +1,6 @@
 ---
-title: Vercel Agent Skills — Full Setup Guide for Hermes Agents
-description: Install and use Vercel's official agent skills collection — 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub stars.
+title: Vercel Agent Skills - Full Setup Guide for Hermes Agents
+description: Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Vercel Agent Skills — Setup Guide
+# Vercel Agent Skills - Setup Guide
 
 **Source:** [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (29,139⭐)
 **Category:** Development / Quality
@@ -39,7 +39,7 @@ npx skills add vercel-labs/agent-skills --skill writing-guidelines
 |---|---|
 | **Vercel account** | Required for `vercel-optimize` skill only |
 | **Vercel API token** | Set as `VERCEL_TOKEN` env var for optimization skill |
-| **Hermes Agent** | Any version — skills load as markdown instructions |
+| **Hermes Agent** | Any version - skills load as markdown instructions |
 
 ---
 
@@ -89,8 +89,8 @@ Accessibility (aria-labels, semantic HTML, keyboard handlers), Focus States, For
 | Issue | Fix |
 |---|---|
 | **vercel-optimize fails** | Ensure `VERCEL_TOKEN` env var is set with team scope |
-| **Skill not found** | Verify install: `npx skills list` — should show `vercel-labs/agent-skills` |
-| **Rules conflict with project conventions** | Skills are advisory — override specific rules in project config |
+| **Skill not found** | Verify install: `npx skills list` - should show `vercel-labs/agent-skills` |
+| **Rules conflict with project conventions** | Skills are advisory - override specific rules in project config |
 
 ## Verification
 
@@ -101,7 +101,7 @@ npx skills list | grep vercel-labs
 # Verify Vercel token (for optimize skill)
 npx vercel whoami
 
-# Quick test — check web design guidelines load
+# Quick test - check web design guidelines load
 ls $(npx skills list --json 2>/dev/null | python3 -c "import json,sys; d=json.load(sys.stdin); print([s['path'] for s in d if 'web-design' in s.get('name','')][0])" 2>/dev/null)
 ```
 

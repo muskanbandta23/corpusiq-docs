@@ -1,6 +1,6 @@
 ---
-title: Hermes Attestation Guardian — Security Verification Skill Setup
-description: Install and configure hermes-attestation-guardian, a security attestation skill from prompt-security/clawsec for verifying Hermes CLI, Gateway, and profile-managed deployments — 94 installs.
+title: Hermes Attestation Guardian - Security Verification Skill Setup
+description: Install and configure hermes-attestation-guardian, a security attestation skill from prompt-security/clawsec for verifying Hermes CLI, Gateway, and profile-managed deployments - 94 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-attestation-guardian-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Attestation Guardian — Setup Guide
+# Hermes Attestation Guardian - Setup Guide
 
 **Source:** [prompt-security/clawsec](https://skills.sh/prompt-security/clawsec/hermes-attestation-guardian) (94 installs)
 **Category:** Security / Verification
 **License:** Apache 2.0 · **Platforms:** Linux, macOS, Windows
 **Dependencies:** Hermes Agent (CLI/Gateway/profile-managed)
 
-The Attestation Guardian verifies the integrity and authenticity of Hermes infrastructure components — CLI binaries, gateway deployments, and profile-managed environments. Performs release artifact verification, runtime attestation checks, and signed manifest validation.
+The Attestation Guardian verifies the integrity and authenticity of Hermes infrastructure components - CLI binaries, gateway deployments, and profile-managed environments. Performs release artifact verification, runtime attestation checks, and signed manifest validation.
 
 ⚠️ **Important scope:** This skill targets Hermes infrastructure only (CLI/Gateway/profile-managed deployments). Not an OpenClaw runtime hook package.
 

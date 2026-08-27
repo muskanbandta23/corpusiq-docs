@@ -1,22 +1,22 @@
 ---
-title: "Mintlify Docs Skills — Documentation Platform Setup"
-description: "mintlify/docs — 5 skills, 9.2K installs: Mintlify documentation authoring, nav updates, and API references from the Mintlify team."
+title: "Mintlify Docs Skills - Documentation Platform Setup"
+description: "mintlify/docs - 5 skills, 9.2K installs: Mintlify documentation authoring, nav updates, and API references from the Mintlify team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mintlify-docs-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "documentation", "mintlify"]
 ---
 
-# Mintlify Docs Skills — Setup Guide
+# Mintlify Docs Skills - Setup Guide
 
 **Source:** [mintlify/docs](https://skills.sh/mintlify/docs)
 **GitHub:** [mintlify/docs](https://github.com/mintlify/docs)
 **Skills:** 5 skills · 9.2K total installs
 **Category:** Documentation
 **First Seen:** catalogued August 15, 2026 evening sweep
-**Quality Tier:** 🟢 Production (official org — Mintlify, the docs platform vendor)
+**Quality Tier:** 🟢 Production (official org - Mintlify, the docs platform vendor)
 
-Mintlify's official skills teach agents to author documentation, update navigation, and build API references for Mintlify-based docs sites. Useful wherever teams maintain public docs — the exact class of work the CorpusIQ knowledge base represents.
+Mintlify's official skills teach agents to author documentation, update navigation, and build API references for Mintlify-based docs sites. Useful wherever teams maintain public docs - the exact class of work the CorpusIQ knowledge base represents.
 
 ---
 
@@ -46,7 +46,7 @@ npx skills add mintlify/docs
 ## Quick Start
 
 1. Install: `npx skills add mintlify/docs`
-2. Start with the core `mintlify` skill — it carries 99% of the suite's installs
+2. Start with the core `mintlify` skill - it carries 99% of the suite's installs
 3. Ask: "author this new page and wire it into the docs navigation"
 
 ## CorpusIQ Use Cases
@@ -61,7 +61,7 @@ npx skills add mintlify/docs
 ## Limitations / Verification
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
-- The core skill dominates: doc-reader, doc-author, update-nav, and mintlify-api show sub-100 installs — early content
+- The core skill dominates: doc-reader, doc-author, update-nav, and mintlify-api show sub-100 installs - early content
 - Requires a Mintlify project; not a general-purpose docs tool
 
 ```bash

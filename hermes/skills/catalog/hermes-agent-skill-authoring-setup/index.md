@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Skill Authoring — Official Guide for Writing SKILL.md
+title: Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md
 description: Official Nous Research guide for writing high-quality SKILL.md files for the Hermes Agent ecosystem. Templates, best practices, validation, and publishing workflow. 230+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Agent Skill Authoring — Setup Guide
+# Hermes Agent Skill Authoring - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (Official)
 **Skill:** `hermes-agent-skill-authoring` · **Installs:** 230+ · **Category:** Development / Skill Creation
@@ -32,7 +32,7 @@ npx skills add nousresearch/hermes-agent --skill hermes-agent-skill-authoring -g
 | Requirement | Details |
 |---|---|
 | **Hermes Agent** | v0.20.0+ |
-| **Text Editor** | Any — VS Code recommended for YAML frontmatter validation |
+| **Text Editor** | Any - VS Code recommended for YAML frontmatter validation |
 | **GitHub Account** | For publishing to skills.sh marketplace |
 
 ---
@@ -80,9 +80,9 @@ How to confirm the skill worked correctly.
 | `name` | ✅ | Lowercase, hyphens only, max 64 chars. Must match directory name. |
 | `description` | ✅ | 1-2 sentences. Appears in skills list and marketplace search. |
 | `version` | ✅ | SemVer. Bump when changing workflow significantly. |
-| `platforms` | — | Array: `linux`, `macos`, `windows`. Omit if cross-platform. |
-| `metadata.hermes.tags` | — | Keywords for skill search. |
-| `metadata.hermes.related_skills` | — | Skill names this skill works with or extends. |
+| `platforms` | - | Array: `linux`, `macos`, `windows`. Omit if cross-platform. |
+| `metadata.hermes.tags` | - | Keywords for skill search. |
+| `metadata.hermes.related_skills` | - | Skill names this skill works with or extends. |
 
 ---
 
@@ -97,17 +97,17 @@ Answer three questions in the first paragraph:
 
 ### 2. Prerequisites Section
 
-Be specific. Don't say "need API access" — say "OpenAI API key with `gpt-4` model access, set as `OPENAI_API_KEY` environment variable."
+Be specific. Don't say "need API access" - say "OpenAI API key with `gpt-4` model access, set as `OPENAI_API_KEY` environment variable."
 
 ### 3. Workflow Section
 
 Numbered steps with exact commands. Every command should be copy-paste runnable:
 
 ```bash
-# Good — exact, runnable
+# Good - exact, runnable
 python3 scripts/validate.py --input config.yaml
 
-# Bad — vague
+# Bad - vague
 validate the configuration file
 ```
 
@@ -172,14 +172,14 @@ gh repo edit --add-topic hermes-agent
 
 ```
 my-skill/
-├── SKILL.md              # Required — the skill definition
-├── references/           # Optional — detailed reference docs
+├── SKILL.md              # Required - the skill definition
+├── references/           # Optional - detailed reference docs
 │   └── api.md
-├── templates/            # Optional — output templates
+├── templates/            # Optional - output templates
 │   └── report.md
-├── scripts/              # Optional — helper scripts
+├── scripts/              # Optional - helper scripts
 │   └── validate.py
-└── assets/               # Optional — images, configs
+└── assets/               # Optional - images, configs
     └── logo.png
 ```
 
@@ -187,6 +187,6 @@ my-skill/
 
 ## Related Skills
 
-- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) — Official core skill
-- [Skill Creator](/hermes/skills/catalog/skill-creator-setup/) — Community skill creation workflow
-- [Skill Repo Manager](/hermes/skills/catalog/skill-repo-manager-setup/) — Managing multi-skill repos
+- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) - Official core skill
+- [Skill Creator](/hermes/skills/catalog/skill-creator-setup/) - Community skill creation workflow
+- [Skill Repo Manager](/hermes/skills/catalog/skill-repo-manager-setup/) - Managing multi-skill repos

@@ -1,5 +1,5 @@
 ---
-title: "July 4, 2026 — agent-sessions (683⭐)"
+title: "July 4, 2026 - agent-sessions (683⭐)"
 description: "24 new Hermes-relevant repos discovered July 4, 2026: agent-sessions macOS session browser (683⭐), Hermes ArXiv Agent (91⭐), memoria-vault research OS"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 July 4, 2026 — 24 New Repos Discovered
+# 🆕 July 4, 2026 - 24 New Repos Discovered
 
 **Date:** July 4, 2026
 **New Repos:** 24 | **New Skills/Tools:** 24 | **Combined Stars:** 1,316
 
-A sweep of the `hermes-agent` and `hermes-skill` GitHub topics surfaced 24 repos not captured in the July 3 sweeps. The standout is **agent-sessions** — a local-first macOS app (683⭐) for browsing, searching, and resuming AI coding-agent session histories across Hermes Agent, Claude Code, Codex, and Cursor.
+A sweep of the `hermes-agent` and `hermes-skill` GitHub topics surfaced 24 repos not captured in the July 3 sweeps. The standout is **agent-sessions** - a local-first macOS app (683⭐) for browsing, searching, and resuming AI coding-agent session histories across Hermes Agent, Claude Code, Codex, and Cursor.
 
 ---
 
@@ -27,7 +27,7 @@ A sweep of the `hermes-agent` and `hermes-skill` GitHub topics surfaced 24 repos
 | 2 | **Hermes ArXiv Agent** | 91 | Skill | Research | genggng/hermes-arxiv-agent |
 | 3 | **mark-heartflow-skill** | 30 | Skill | AI/RL | yun520-1/mark-heartflow-skill |
 
-### Mid Tier (3–13 Stars)
+### Mid Tier (3-13 Stars)
 
 | # | Project | Stars | Type | Category | Source |
 |---|---------|:-----:|------|----------|--------|
@@ -40,7 +40,7 @@ A sweep of the `hermes-agent` and `hermes-skill` GitHub topics surfaced 24 repos
 | 10 | **persona-agent** | 4 | Agent | Personal | Code-MonkeyZhang/persona-agent |
 | 11 | **hermes-companion** | 3 | Agent | Assistant | bdhhsx/hermes-companion |
 
-### Base Tier (0–2 Stars)
+### Base Tier (0-2 Stars)
 
 | # | Project | Stars | Type | Category | Source |
 |---|---------|:-----:|------|----------|--------|
@@ -71,17 +71,17 @@ A sweep of the `hermes-agent` and `hermes-skill` GitHub topics surfaced 24 repos
 **Language:** Swift
 **Platform:** macOS (native)
 
-Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session histories. Works with Hermes Agent, Claude Code, Codex, and Cursor. All session data stays local — no cloud sync, no telemetry.
+Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session histories. Works with Hermes Agent, Claude Code, Codex, and Cursor. All session data stays local - no cloud sync, no telemetry.
 
 **Key features:**
 - Browse session history across multiple agent runtimes
 - Full-text search across all conversation history
 - Resume sessions from any supported agent
 - Analyze conversation patterns and agent behavior
-- Local-first — all data stays on device
+- Local-first - all data stays on device
 - Native SwiftUI macOS app
 
-**Setup Guide:** [agent-sessions — Full Setup Guide](/hermes/skills/catalog/agent-sessions-setup/)
+**Setup Guide:** [agent-sessions - Full Setup Guide](/hermes/skills/catalog/agent-sessions-setup/)
 
 ```bash
 # Download from GitHub Releases
@@ -115,7 +115,7 @@ A Hermes Agent skill that automatically fetches papers from arXiv daily, generat
 - Hermes Agent skill architecture
 - Configurable categories and keywords
 
-**Setup Guide:** [Hermes ArXiv Agent — Full Setup Guide](/hermes/skills/catalog/hermes-arxiv-agent-setup/)
+**Setup Guide:** [Hermes ArXiv Agent - Full Setup Guide](/hermes/skills/catalog/hermes-arxiv-agent-setup/)
 
 ```bash
 git clone https://github.com/genggng/hermes-arxiv-agent.git
@@ -123,7 +123,7 @@ cd hermes-arxiv-agent
 # Configure in hermes config.yaml
 ```
 
-**Why this matters:** Keeping up with arXiv is a constant pain for researchers and engineers. This skill automates the entire pipeline — fetching, summarizing, notifying, and hosting — within the Hermes ecosystem. At 91 stars, it's one of the most popular domain-specific Hermes skills.
+**Why this matters:** Keeping up with arXiv is a constant pain for researchers and engineers. This skill automates the entire pipeline - fetching, summarizing, notifying, and hosting - within the Hermes ecosystem. At 91 stars, it's one of the most popular domain-specific Hermes skills.
 
 ---
 
@@ -134,7 +134,7 @@ cd hermes-arxiv-agent
 **Repo:** [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
 **Author:** yun520-1
 
-HeartFlow — an AI cognitive engine for Hermes Agent: multi-path judgment, self-correcting RL, 3-layer memory (working/semantic/episodic), and U/D/A/H filtering (Useful/Dangerous/Ambiguous/Harmless). A complete cognitive architecture as a Hermes skill.
+HeartFlow - an AI cognitive engine for Hermes Agent: multi-path judgment, self-correcting RL, 3-layer memory (working/semantic/episodic), and U/D/A/H filtering (Useful/Dangerous/Ambiguous/Harmless). A complete cognitive architecture as a Hermes skill.
 
 **Key features:**
 - Multi-path judgment with self-correction
@@ -157,7 +157,7 @@ npx skills add yun520-1/mark-heartflow-skill
 **Repo:** [tale-project/tale](https://github.com/tale-project/tale)
 **Author:** tale-project
 
-The Orchestrator for AI Agents — connects OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, and more under a single orchestration layer. Route tasks, share context, and manage agent lifecycles.
+The Orchestrator for AI Agents - connects OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, and more under a single orchestration layer. Route tasks, share context, and manage agent lifecycles.
 
 ```bash
 git clone https://github.com/tale-project/tale.git
@@ -184,7 +184,7 @@ Agent skill for building cinematic, scroll-driven websites from a brief: visual 
 - Production-ready HTML/CSS/JS output
 - Hermes Agent and Claude Code compatible
 
-**Setup Guide:** [cinematic-scroll-skill — Full Setup Guide](/hermes/skills/catalog/cinematic-scroll-skill-setup/)
+**Setup Guide:** [cinematic-scroll-skill - Full Setup Guide](/hermes/skills/catalog/cinematic-scroll-skill-setup/)
 
 ```bash
 npx skills add MustBeSimo/cinematic-scroll-skill
@@ -238,19 +238,19 @@ git clone https://github.com/Guilhermepelido/hermes-optimization-guide.git
 **Repo:** [eranroseman/memoria-vault](https://github.com/eranroseman/memoria-vault)
 **Author:** eranroseman
 
-A research operating system — seven AI agents that read, enrich, and write inside your Obsidian vault. Each agent has a specialized role: researcher, summarizer, linker, critic, archivist, publisher, and orchestrator. Turns your Obsidian vault into an active research laboratory.
+A research operating system - seven AI agents that read, enrich, and write inside your Obsidian vault. Each agent has a specialized role: researcher, summarizer, linker, critic, archivist, publisher, and orchestrator. Turns your Obsidian vault into an active research laboratory.
 
 **Key features:**
 - Seven specialized AI agents operating on your vault
-- Researcher — reads and extracts from sources
-- Summarizer — distills findings into concise notes
-- Linker — connects ideas across notes
-- Critic — challenges assumptions and finds gaps
-- Archivist — organizes and maintains the vault
-- Publisher — formats for external sharing
-- Orchestrator — coordinates agent workflows
+- Researcher - reads and extracts from sources
+- Summarizer - distills findings into concise notes
+- Linker - connects ideas across notes
+- Critic - challenges assumptions and finds gaps
+- Archivist - organizes and maintains the vault
+- Publisher - formats for external sharing
+- Orchestrator - coordinates agent workflows
 
-**Setup Guide:** [memoria-vault — Full Setup Guide](/hermes/skills/catalog/memoria-vault-setup/)
+**Setup Guide:** [memoria-vault - Full Setup Guide](/hermes/skills/catalog/memoria-vault-setup/)
 
 ```bash
 git clone https://github.com/eranroseman/memoria-vault.git
@@ -258,7 +258,7 @@ cd memoria-vault
 # Configure Obsidian vault path and agent settings
 ```
 
-**Why this matters:** Most AI + Obsidian integrations are single-agent (one model reading/writing notes). Memoria-vault deploys a full research team — seven agents with distinct roles — coordinated inside your vault. This is the research lab model applied to personal knowledge management.
+**Why this matters:** Most AI + Obsidian integrations are single-agent (one model reading/writing notes). Memoria-vault deploys a full research team - seven agents with distinct roles - coordinated inside your vault. This is the research lab model applied to personal knowledge management.
 
 ---
 
@@ -270,7 +270,7 @@ cd memoria-vault
 **Author:** amscotti
 **Language:** Python
 
-Hermes Agent platform plugin that connects Hermes to a Meshtastic LoRa mesh network. Receives plain-text messages from the mesh and can send responses back — enabling Hermes agent interaction over long-range, low-power radio networks.
+Hermes Agent platform plugin that connects Hermes to a Meshtastic LoRa mesh network. Receives plain-text messages from the mesh and can send responses back - enabling Hermes agent interaction over long-range, low-power radio networks.
 
 **Key features:**
 - Meshtastic LoRa mesh integration
@@ -279,7 +279,7 @@ Hermes Agent platform plugin that connects Hermes to a Meshtastic LoRa mesh netw
 - Hermes Agent plugin architecture
 - Python-based, lightweight
 
-**Setup Guide:** [Hermes Meshtastic Adapter — Full Setup Guide](/hermes/skills/catalog/hermes-meshtastic-adapter-setup/)
+**Setup Guide:** [Hermes Meshtastic Adapter - Full Setup Guide](/hermes/skills/catalog/hermes-meshtastic-adapter-setup/)
 
 ```bash
 git clone https://github.com/amscotti/hermes-meshtastic-adapter.git
@@ -287,7 +287,7 @@ cd hermes-meshtastic-adapter
 pip install -r requirements.txt
 ```
 
-**Why this matters:** This is one of the first Hermes plugins bridging the physical world. Meshtastic LoRa networks operate without cell towers or WiFi — this adapter lets a Hermes agent communicate in off-grid, disaster, or remote field scenarios.
+**Why this matters:** This is one of the first Hermes plugins bridging the physical world. Meshtastic LoRa networks operate without cell towers or WiFi - this adapter lets a Hermes agent communicate in off-grid, disaster, or remote field scenarios.
 
 #### omnilimb (1⭐)
 
@@ -317,7 +317,7 @@ git clone https://github.com/Lucasdjs22/hermes-hud.git
 
 **Repo:** [503496348-ops/hermes-doctor](https://github.com/503496348-ops/hermes-doctor)
 
-Hermes Doctor (白龙马医生) — Hermes Agent self-diagnosis and self-healing plugin. Health checkups, prescription matching, repair plans, medical record accumulation, and Feishu message routing. Diagnose and fix your agent automatically.
+Hermes Doctor (白龙马医生) - Hermes Agent self-diagnosis and self-healing plugin. Health checkups, prescription matching, repair plans, medical record accumulation, and Feishu message routing. Diagnose and fix your agent automatically.
 
 ```bash
 git clone https://github.com/503496348-ops/hermes-doctor.git
@@ -367,7 +367,7 @@ git clone https://github.com/Arseni6361/hermes-CCC.git
 
 **Repo:** [ChrisLamDev/hermes-devops-skills](https://github.com/ChrisLamDev/hermes-devops-skills)
 
-14+ macOS & GitHub DevOps skills for AI coding agents — CI/CD, tooling, automation, and system diagnostics. A comprehensive DevOps skill pack for Hermes agents on macOS.
+14+ macOS & GitHub DevOps skills for AI coding agents - CI/CD, tooling, automation, and system diagnostics. A comprehensive DevOps skill pack for Hermes agents on macOS.
 
 ```bash
 npx skills add ChrisLamDev/hermes-devops-skills
@@ -446,13 +446,13 @@ git clone https://github.com/slickpurse464/Noshy.git
 ## Why These Matter for Hermes Users
 
 ### Session Management Goes Mainstream
-**agent-sessions** (683⭐) signals that the community is ready for production-grade session tooling. Browsing, searching, and resuming sessions across multiple agent runtimes is no longer a nice-to-have — it's infrastructure.
+**agent-sessions** (683⭐) signals that the community is ready for production-grade session tooling. Browsing, searching, and resuming sessions across multiple agent runtimes is no longer a nice-to-have - it's infrastructure.
 
 ### Domain Specialization Accelerates
 This sweep shows Hermes skills penetrating specific domains: academic research (arXiv Agent), hardware/IoT (Meshtastic adapter, omnilimb), health (Apollo), and design (cinematic-scroll). The ecosystem is growing beyond general-purpose coding agents into specialized vertical tools.
 
 ### Cognitive Architecture Emerges
-**mark-heartflow-skill** and **hermes-agent-self-evolution** represent a new category: skills that modify HOW Hermes thinks, not just WHAT it can do. Multi-path judgment, self-correcting RL, genetic optimization — these are meta-skills that improve the agent itself.
+**mark-heartflow-skill** and **hermes-agent-self-evolution** represent a new category: skills that modify HOW Hermes thinks, not just WHAT it can do. Multi-path judgment, self-correcting RL, genetic optimization - these are meta-skills that improve the agent itself.
 
 ### Multi-Agent Coordination
 **tale** (13⭐) and **memoria-vault** (4⭐) both deploy multiple coordinated agents. The pattern is clear: single agents are giving way to agent teams with specialized roles and orchestration layers.
@@ -463,11 +463,11 @@ This sweep shows Hermes skills penetrating specific domains: academic research (
 
 This sweep produced 5 detailed setup guides:
 
-- **[agent-sessions Setup](/hermes/skills/catalog/agent-sessions-setup/)** — macOS install, session browsing, search, cross-agent support
-- **[Hermes ArXiv Agent Setup](/hermes/skills/catalog/hermes-arxiv-agent-setup/)** — arXiv API config, Feishu integration, local website hosting
-- **[cinematic-scroll-skill Setup](/hermes/skills/catalog/cinematic-scroll-skill-setup/)** — Skill install, brief format, visual system generation
-- **[memoria-vault Setup](/hermes/skills/catalog/memoria-vault-setup/)** — Obsidian vault config, 7-agent orchestration, role customization
-- **[Hermes Meshtastic Adapter Setup](/hermes/skills/catalog/hermes-meshtastic-adapter-setup/)** — Hardware pairing, mesh config, message routing
+- **[agent-sessions Setup](/hermes/skills/catalog/agent-sessions-setup/)** - macOS install, session browsing, search, cross-agent support
+- **[Hermes ArXiv Agent Setup](/hermes/skills/catalog/hermes-arxiv-agent-setup/)** - arXiv API config, Feishu integration, local website hosting
+- **[cinematic-scroll-skill Setup](/hermes/skills/catalog/cinematic-scroll-skill-setup/)** - Skill install, brief format, visual system generation
+- **[memoria-vault Setup](/hermes/skills/catalog/memoria-vault-setup/)** - Obsidian vault config, 7-agent orchestration, role customization
+- **[Hermes Meshtastic Adapter Setup](/hermes/skills/catalog/hermes-meshtastic-adapter-setup/)** - Hardware pairing, mesh config, message routing
 
 ---
 

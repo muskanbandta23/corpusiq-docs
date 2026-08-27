@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Framework — Core Nous Research Agent"
+title: "Hermes Agent Framework - Core Nous Research Agent"
 description: "176+ installs. Guide to Nous Research's Hermes Agent framework with self-improving learning loops, three-layer memory, and automatic Skill creation. Setup"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-framework-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Agent Framework — Setup Guide
+# Hermes Agent Framework - Setup Guide
 
 **Source:** [aradotso/ai-agent-skills](https://github.com/aradotso/ai-agent-skills) (176+ installs)
 **Category:** Hermes Agent / Core Framework
@@ -50,9 +50,9 @@ cp .env.example .env
 ## Key Capabilities
 
 ### Three-Layer Memory System
-- **Episodic**: Conversation history — stores user/agent interactions with retrieval
-- **Semantic**: Knowledge base — searchable vector store for facts, patterns, and domain knowledge
-- **Procedural**: Skills — reusable procedures that auto-evolve based on usage and feedback
+- **Episodic**: Conversation history - stores user/agent interactions with retrieval
+- **Semantic**: Knowledge base - searchable vector store for facts, patterns, and domain knowledge
+- **Procedural**: Skills - reusable procedures that auto-evolve based on usage and feedback
 
 ### Self-Improving Learning Loop
 Configure automatic learning: reflection interval (every N interactions), skill creation threshold (after N similar tasks), and feedback sensitivity. Agent detects patterns, creates Skills for repeated tasks, and improves existing Skills based on human feedback.
@@ -119,10 +119,10 @@ python -c "from hermes_agent import HermesAgent; a = HermesAgent(model='gpt-4-tu
 
 ## Notes
 
-- Start with conservative learning settings — higher thresholds prevent over-generalization
-- Provide feedback regularly — the learning loop improves proportionally with human input quality
-- Review auto-generated Skills before heavy use — inspect and refine before production reliance
-- Monitor token usage — learning loops can increase API calls
+- Start with conservative learning settings - higher thresholds prevent over-generalization
+- Provide feedback regularly - the learning loop improves proportionally with human input quality
+- Review auto-generated Skills before heavy use - inspect and refine before production reliance
+- Monitor token usage - learning loops can increase API calls
 - Version control your Skills in git for reproducibility
 - Separate agents by role using orchestration for complex workflows
 

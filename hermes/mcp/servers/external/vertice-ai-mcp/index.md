@@ -11,7 +11,7 @@ tags: [procurement, saas-spend, contracts, finops, vendor-management, cost-optim
 
 # Vertice AI MCP
 
-**Remote MCP server (Streamable HTTP, OAuth 2.1 PKCE)** — the official hosted connector from Vertice that puts your procurement workspace inside an AI assistant. Query contracts, vendors, and SaaS spend in natural language, then trigger Vertice workflows on your behalf. It exposes the same data and actions as the Vertice web app, governed by the same role-based access controls.
+**Remote MCP server (Streamable HTTP, OAuth 2.1 PKCE)** - the official hosted connector from Vertice that puts your procurement workspace inside an AI assistant. Query contracts, vendors, and SaaS spend in natural language, then trigger Vertice workflows on your behalf. It exposes the same data and actions as the Vertice web app, governed by the same role-based access controls.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: Vertice (vertice.one)
 
 Procurement questions live in spreadsheets and inboxes today. Which contracts expire in the next 90 days? What is our total annual spend with this vendor, and which other vendors sit in the same category? An operator has to assemble that answer from the Vertice dashboard, exports, and email threads.
 
-**The Vertice connector answers those questions in one chat turn and can act on them.** Connecting an assistant grants nothing beyond what you can already see in Vertice yourself — the RBAC model from the web app carries straight through to MCP. That governance model, not the tool count, is the differentiator: procurement spend visibility inside an agent without loosening a single permission.
+**The Vertice connector answers those questions in one chat turn and can act on them.** Connecting an assistant grants nothing beyond what you can already see in Vertice yourself - the RBAC model from the web app carries straight through to MCP. That governance model, not the tool count, is the differentiator: procurement spend visibility inside an agent without loosening a single permission.
 
 ## Tools & Capabilities
 
@@ -74,14 +74,14 @@ Access is granted on request through your Vertice Account Manager while the conn
 
 ## Integration with CorpusIQ
 
-Vertice pairs with the CorpusIQ finance stack: QuickBooks provides the general ledger view of what was paid, Stripe shows the payment rail, and Vertice MCP adds the procurement layer — which contracts, which vendors, what renewals are coming. A composed workflow runs the renewal sweep in Vertice, matches vendors against QuickBooks spend, and checks Stripe for the payment history on the same account. The read-only governance posture complements CorpusIQ's own read-only connector design.
+Vertice pairs with the CorpusIQ finance stack: QuickBooks provides the general ledger view of what was paid, Stripe shows the payment rail, and Vertice MCP adds the procurement layer - which contracts, which vendors, what renewals are coming. A composed workflow runs the renewal sweep in Vertice, matches vendors against QuickBooks spend, and checks Stripe for the payment history on the same account. The read-only governance posture complements CorpusIQ's own read-only connector design.
 
 ## Limitations
 
-- Preview program — access is limited and granted on request through your Vertice Account Manager
+- Preview program - access is limited and granted on request through your Vertice Account Manager
 - Requires an active Vertice tenant and user account in good standing
 - Exact tool list is not published; surface depends on Vertice's orchestration layer
-- Commercial SaaS — no self-host path
+- Commercial SaaS - no self-host path
 
 ## See Also
 

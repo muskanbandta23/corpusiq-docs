@@ -5,7 +5,7 @@ description: "Automatically notify Bing, Yandex, Seznam, and other engines when 
 # IndexNow
 
 Automatically notify search engines (Bing, Yandex, Seznam, Naver) the moment your URLs
-change — without waiting for a crawler to find them. IndexNow is a push protocol: you submit,
+change - without waiting for a crawler to find them. IndexNow is a push protocol: you submit,
 search engines act, discovery lag drops from days to minutes.
 
 CorpusIQ pairs IndexNow with your existing connectors. When a Shopify product goes live, a
@@ -14,17 +14,17 @@ to IndexNow in one step.
 
 ## What it unlocks
 
-- **Instant crawl triggers** — submit new/updated/deleted URLs the moment they change
-- **Batch submission** — up to 10,000 URLs per POST, mixing http and https
-- **Verified ownership** — host a single text file once; search engines cache it
-- **Multi-engine reach** — one submission propagates to all IndexNow-compatible engines
-- **SEO closed-loop** — combine with Search Console or Semrush to track ranking improvement
+- **Instant crawl triggers** - submit new/updated/deleted URLs the moment they change
+- **Batch submission** - up to 10,000 URLs per POST, mixing http and https
+- **Verified ownership** - host a single text file once; search engines cache it
+- **Multi-engine reach** - one submission propagates to all IndexNow-compatible engines
+- **SEO closed-loop** - combine with Search Console or Semrush to track ranking improvement
   after submission
 
 ## Before you connect
 
 - Your website domain (e.g. `www.corpusiq.io`)
-- An IndexNow API key — minimum 8 characters, alphanumeric + dashes
+- An IndexNow API key - minimum 8 characters, alphanumeric + dashes
   - Generate a key at [indexnow.org](https://www.indexnow.org) or create your own
     random hex string (e.g. `openssl rand -hex 16`)
 - Ability to host a `.txt` file at your domain root **or** at a custom path
@@ -34,7 +34,7 @@ No account signup required. IndexNow is an open protocol.
 
 ## How to connect
 
-### Step 1 — Generate your key
+### Step 1 - Generate your key
 
 ```bash
 # Generate a 32-hex-character key (recommended length)
@@ -42,11 +42,11 @@ openssl rand -hex 16
 # Example output: a3f9b2c1d4e5f678901234abcdef5678
 ```
 
-### Step 2 — Host the key file
+### Step 2 - Host the key file
 
 Create a UTF-8 text file named `{your-key}.txt` containing only the key on the first line.
 
-**Option A — Root directory (simplest):**
+**Option A - Root directory (simplest):**
 
 ```
 https://www.corpusiq.io/a3f9b2c1d4e5f678901234abcdef5678.txt
@@ -57,19 +57,19 @@ File contents:
 a3f9b2c1d4e5f678901234abcdef5678
 ```
 
-**Option B — Custom path (specify `keyLocation` in each request):**
+**Option B - Custom path (specify `keyLocation` in each request):**
 
 Place the file anywhere on the same host and include the full URL as `keyLocation` in your
 IndexNow requests.
 
-### Step 3 — Verify the file is live
+### Step 3 - Verify the file is live
 
 ```bash
 curl -s https://www.corpusiq.io/a3f9b2c1d4e5f678901234abcdef5678.txt
 # Should return the key string
 ```
 
-### Step 4 — Add credentials to CorpusIQ
+### Step 4 - Add credentials to CorpusIQ
 
 1. Open your CorpusIQ dashboard and click Connections.
 2. Find IndexNow and click Connect.
@@ -102,7 +102,7 @@ Content-Type: application/json
 ```
 
 A `200` response means the engine received your submission. It is not a guarantee of
-immediate indexing — it removes the discovery bottleneck.
+immediate indexing - it removes the discovery bottleneck.
 
 Supported engines (all reachable via `api.indexnow.org`): Bing, Yandex, Seznam, Naver.
 
@@ -135,22 +135,22 @@ After submitting to IndexNow, remind me to check Search Console impressions in 2
 
 ## Troubleshooting
 
-- **HTTP 400** — URL is malformed or not on the declared host. Verify the `host` field
+- **HTTP 400** - URL is malformed or not on the declared host. Verify the `host` field
   matches the domain in every URL exactly (including `www` prefix if used).
-- **HTTP 403** — Key file not found or content mismatch. Re-check the file is publicly
+- **HTTP 403** - Key file not found or content mismatch. Re-check the file is publicly
   accessible and contains only the key string (no trailing spaces or extra lines).
-- **HTTP 422** — Too many URLs in one request (max 10,000) or key format invalid
-  (must be 8–128 alphanumeric/dash characters).
-- **HTTP 429** — Rate limited. IndexNow guidelines allow up to 10,000 URLs/day per domain.
+- **HTTP 422** - Too many URLs in one request (max 10,000) or key format invalid
+  (must be 8-128 alphanumeric/dash characters).
+- **HTTP 429** - Rate limited. IndexNow guidelines allow up to 10,000 URLs/day per domain.
   Spread submissions if you have a large site.
-- Key file caching — search engines cache your key file. If you rotate the key, allow
+- Key file caching - search engines cache your key file. If you rotate the key, allow
   up to 24 hours for the new file to be picked up before submissions resume.
 
 ## Notes
 
 - IndexNow is read-write from the network's perspective (you are pushing to external
   endpoints), but CorpusIQ never writes to your CMS or website.
-- Submission acknowledges receipt only — actual re-crawl timing is at the search engine's
+- Submission acknowledges receipt only - actual re-crawl timing is at the search engine's
   discretion.
 - Combine with [Search Console](search-console.md) and [Semrush](semrush.md) to measure
   ranking lift after submission.

@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Note2IT MCP — AI Agent Knowledge Management for Hermes Agent
+# Note2IT MCP - AI Agent Knowledge Management for Hermes Agent
 
 Give your AI agents a persistent notebook system with meeting transcripts, structured summaries, and undoable edits.
 
@@ -17,11 +17,11 @@ Give your AI agents a persistent notebook system with meeting transcripts, struc
 
 Note2IT is a knowledge workspace designed for human + AI agent collaboration:
 
-- **Notebooks, sections, and nested pages** — hierarchical organization
+- **Notebooks, sections, and nested pages** - hierarchical organization
 - **Meeting recording** → automatic transcript + structured summary with action items
-- **AI agent access** — search, read, and make precise, undoable edits
-- **Fast slash-command editor** — keyboard-first for humans
-- **MCP-native** — Claude and other AI agents connect directly
+- **AI agent access** - search, read, and make precise, undoable edits
+- **Fast slash-command editor** - keyboard-first for humans
+- **MCP-native** - Claude and other AI agents connect directly
 
 For operators managing knowledge work, this replaces scattered Notion pages, meeting notes, and task lists with a single, AI-accessible knowledge base.
 

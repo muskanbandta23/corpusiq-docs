@@ -1,5 +1,5 @@
 ---
-title: "Social Media Marketing — Agent-Driven Social Strategy"
+title: "Social Media Marketing - Agent-Driven Social Strategy"
 description: "329+ installs. Build and execute social media marketing strategies for solopreneur businesses. Platform selection, content planning, engagement tactics, and"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/social-media-marketing-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Social Media Marketing — Setup Guide
+# Social Media Marketing - Setup Guide
 
 **Source:** [jk-0001/skills](https://skills.sh/jk-0001/skills/social-media-marketing) (329+ installs)
 **Category:** Growth & Marketing / Social Media
@@ -79,8 +79,8 @@ npx skills add jk-0001/skills --skill social-media-marketing
 ### Example: LinkedIn Post Structure
 
 ```
-HOOK (first 1-2 lines — must grab attention in the feed)
-BODY (story, insight, or framework — 3-5 short paragraphs with line breaks)
+HOOK (first 1-2 lines - must grab attention in the feed)
+BODY (story, insight, or framework - 3-5 short paragraphs with line breaks)
 CTA (ask a question, invite comments, or link to something)
 ```
 
@@ -111,9 +111,9 @@ npx skills path social-media-marketing
 ## Notes
 
 - Designed for solopreneurs but scalable to agent-driven content operations
-- Platform selection framework prevents the "be everywhere" trap — focus beats breadth
-- Content mix ratios are guidance, not hard rules — adjust based on audience engagement data
+- Platform selection framework prevents the "be everywhere" trap - focus beats breadth
+- Content mix ratios are guidance, not hard rules - adjust based on audience engagement data
 - Pairs well with `content-strategy` (Corey Haines, 110K+ installs) for full content planning pipeline
-- Thread structures are optimized for algorithmic distribution — engagement begets reach
+- Thread structures are optimized for algorithmic distribution - engagement begets reach
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Skills Gallery Setup Guide - CorpusIQ Docs"
-description: Install and configure the Skills Gallery — 1,672+ AI agent skills across 49 categories, compatible with Hermes Agent and 60+ other tools. One command, every skill.
+description: Install and configure the Skills Gallery - 1,672+ AI agent skills across 49 categories, compatible with Hermes Agent and 60+ other tools. One command, every skill.
 skill_name: skills-gallery
 repo: uthumany/Skills-Gallery
 compatibility: Hermes Agent, Claude Code, Codex, Gemini CLI, OpenClaw, Cursor, Windsurf, and 50+ more
@@ -12,11 +12,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skills Gallery — Setup Guide
+# Skills Gallery - Setup Guide
 
 ## Overview
 
-Skills Gallery is the largest single collection of AI agent skills ever published. One command installs access to **1,672+ skills** organized across **49 categories** — frontend development, security auditing, creative coding, multi-agent orchestration, and everything in between.
+Skills Gallery is the largest single collection of AI agent skills ever published. One command installs access to **1,672+ skills** organized across **49 categories** - frontend development, security auditing, creative coding, multi-agent orchestration, and everything in between.
 
 **Key Facts:**
 - **1,672+ skills** across **49 categories**
@@ -37,7 +37,7 @@ Skills Gallery is the largest single collection of AI agent skills ever publishe
 
 ## Installation
 
-### Option 1: npx (No Install — Recommended for Hermes)
+### Option 1: npx (No Install - Recommended for Hermes)
 
 ```bash
 npx skills-gallery
@@ -204,4 +204,4 @@ skills-gallery search "context window"
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Skills Gallery on GitHub](https://github.com/uthumany/Skills-Gallery) →*
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

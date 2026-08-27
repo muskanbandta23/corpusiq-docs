@@ -25,7 +25,7 @@ Built by: Superflow (usesuperflow.ai)
 
 ## Why This Matters for Operators
 
-AI-driven search is now a real acquisition channel, and almost nobody measures whether their site is reachable to the AI crawlers that matter. The individual checks here exist as scattered one-off tools; Superflow packs the whole pre-publish and post-publish QA loop into a single endpoint an agent can call mid-workflow. An agent drafting a landing page can generate the llms.txt, validate the JSON-LD, confirm the social preview renders on LinkedIn, and verify GPTBot can still crawl the robots.txt — all in the same conversation, with no setup beyond pointing the client at the URL.
+AI-driven search is now a real acquisition channel, and almost nobody measures whether their site is reachable to the AI crawlers that matter. The individual checks here exist as scattered one-off tools; Superflow packs the whole pre-publish and post-publish QA loop into a single endpoint an agent can call mid-workflow. An agent drafting a landing page can generate the llms.txt, validate the JSON-LD, confirm the social preview renders on LinkedIn, and verify GPTBot can still crawl the robots.txt - all in the same conversation, with no setup beyond pointing the client at the URL.
 
 The keyless design is the adoption hook: zero signup friction, tools are stateless and read-only (plus a UTM builder and MD5 hash), and the server runs on the vendor's infra.
 
@@ -86,13 +86,13 @@ The AI-visibility checks pair naturally with CorpusIQ's search console and analy
 ## Limitations
 
 - 13 tools live (the directory submission lists 19; the endpoint exposes 13 as of Aug 21, 2026)
-- Read-only QA tooling plus a UTM builder and MD5 hash — no crawl infrastructure, no indexing writes
+- Read-only QA tooling plus a UTM builder and MD5 hash - no crawl infrastructure, no indexing writes
 - No published rate limits on the free keyless endpoint
 - Tools operate on one URL per call; bulk site audits require the agent to loop
 
 ## See Also
 
-- [Simplepages MCP — Landing Pages Built From Chat](/hermes/mcp/servers/external/simplepages-mcp/)
-- [AdMapix MCP — Competitor Ad Creative Intelligence](/hermes/mcp/servers/external/admapix-mcp/)
+- [Simplepages MCP - Landing Pages Built From Chat](/hermes/mcp/servers/external/simplepages-mcp/)
+- [AdMapix MCP - Competitor Ad Creative Intelligence](/hermes/mcp/servers/external/admapix-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

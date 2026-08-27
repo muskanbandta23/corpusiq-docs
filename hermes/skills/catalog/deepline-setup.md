@@ -1,5 +1,5 @@
 ---
-title: Deepline — GTM Platform Skills for Hermes Agents
+title: Deepline - GTM Platform Skills for Hermes Agents
 description: Six GTM platform skills for TAM building, portfolio prospecting, niche signal discovery, LinkedIn URL lookup, feedback analysis, and Clay integration. 92K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deepline-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Deepline — Setup Guide
+# Deepline - Setup Guide
 
 **Source:** [code.deepline.com](https://skills.sh/code.deepline.com) (92K+ combined installs)
 **Category:** Go-to-Market / Prospecting
 **Quality Tier:** 🟢 Production
 
-Deepline is a GTM platform that provides six skills for go-to-market research, prospecting, and pipeline building — all accessible as agent skills. High install counts (14-15K each) indicate a mature, well-adopted ecosystem. These skills give Hermes agents structured access to TAM analysis, prospect discovery, and market signal detection.
+Deepline is a GTM platform that provides six skills for go-to-market research, prospecting, and pipeline building - all accessible as agent skills. High install counts (14-15K each) indicate a mature, well-adopted ecosystem. These skills give Hermes agents structured access to TAM analysis, prospect discovery, and market signal detection.
 
 ---
 
@@ -62,7 +62,7 @@ Identify emerging market signals before they become saturated. Detects early-sta
 Build data-backed Total Addressable Market analyses with structured methodologies. Generates TAM/SAM/SOM breakdowns with source attribution.
 
 ### Portfolio Prospecting (15.3K)
-Discover and qualify prospects at portfolio scale — ideal for outbound campaigns, partnership development, and ecosystem mapping.
+Discover and qualify prospects at portfolio scale - ideal for outbound campaigns, partnership development, and ecosystem mapping.
 
 ### LinkedIn URL Lookup (15.3K)
 Resolve and enrich LinkedIn URLs for companies and individuals. Useful for prospect research, job change alerts, and company growth tracking.
@@ -71,11 +71,11 @@ Resolve and enrich LinkedIn URLs for companies and individuals. Useful for prosp
 Analyze customer feedback, reviews, and market signals across platforms to identify product improvement opportunities and competitive weaknesses.
 
 ### Clay-to-Deepline Bridge (15.3K)
-Pipe Clay.com enrichment data directly into Deepline workflows — unified data pipeline for GTM operations.
+Pipe Clay.com enrichment data directly into Deepline workflows - unified data pipeline for GTM operations.
 
 ---
 
-## Quick Start — Hermes Agent
+## Quick Start - Hermes Agent
 
 ```bash
 # Install all six skills
@@ -103,8 +103,8 @@ npx skills list | grep "code.deepline.com"
 
 ## Notes
 
-- **Mature ecosystem**: 92K+ combined installs across 6 skills — production-grade reliability
+- **Mature ecosystem**: 92K+ combined installs across 6 skills - production-grade reliability
 - **Use case for CorpusIQ**: TAM analysis for market sizing, portfolio prospecting for lead generation, signal discovery for identifying operator pain points
 - **Clay integration**: If using Clay.com for data enrichment, the clay-to-deepline bridge unifies the pipeline
-- **LinkedIn skill**: No LinkedIn API auth needed — resolves public URLs and enriches with available data
+- **LinkedIn skill**: No LinkedIn API auth needed - resolves public URLs and enriches with available data
 - **Related skills**: prospect-research-personalization, inbound-lead-analysis-domain-first

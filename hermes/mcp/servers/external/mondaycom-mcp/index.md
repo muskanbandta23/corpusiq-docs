@@ -1,5 +1,5 @@
 ---
-title: "Monday.com MCP — Project Management for AI Agents"
+title: "Monday.com MCP - Project Management for AI Agents"
 description: "Connect AI agents to Monday.com via the official MCP server. Manage projects, workflows, boards, and automations through natural language."
 category: mcp
 tags: [mcp-server]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Monday.com MCP — Project Management for AI Agents
+# Monday.com MCP - Project Management for AI Agents
 
 ## What It Is
 
-Monday.com MCP exposes Monday.com project management capabilities over the Model Context Protocol. AI agents can create and manage boards, items, columns, and automations — the first major project management platform to ship a dedicated MCP server.
+Monday.com MCP exposes Monday.com project management capabilities over the Model Context Protocol. AI agents can create and manage boards, items, columns, and automations - the first major project management platform to ship a dedicated MCP server.
 
 ## Tools Available
 

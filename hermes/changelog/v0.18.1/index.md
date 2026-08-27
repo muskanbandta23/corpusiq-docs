@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent v0.18.1 — Infrastructure Patch
+title: Hermes Agent v0.18.1 - Infrastructure Patch
 description: Stable tagged release rolling up ~660 PRs merged since v0.18.0. Bug fixes, hardening, and in-progress feature work for Docker images, hosted deployments, and PyPI installs. July 7, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.1/"
 robots: "index,follow"
@@ -13,7 +13,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 **Release Date:** July 7, 2026
 **Since v0.18.0:** ~660 PRs · ~990 files changed · +89,500 / −10,400 lines
 
-> **Infrastructure-driven patch tag.** This release rolls up the ~660 PRs merged since v0.18.0 into a stable tagged release for downstream consumers — Docker images, hosted deployments, and PyPI installs. Full curated release notes for this window will ship with **v0.19.0**.
+> **Infrastructure-driven patch tag.** This release rolls up the ~660 PRs merged since v0.18.0 into a stable tagged release for downstream consumers - Docker images, hosted deployments, and PyPI installs. Full curated release notes for this window will ship with **v0.19.0**.
 
 ---
 
@@ -27,7 +27,7 @@ This is a non-curated roll-up of all work on main since v0.18.0 shipped six days
 - **MCP and provider fixes**
 - **Stability hardening** across the platform
 
-~667 commits landed across roughly 990 files. Nothing in this window is skipped — it will all be documented in the next minor release.
+~667 commits landed across roughly 990 files. Nothing in this window is skipped - it will all be documented in the next minor release.
 
 ## Updating
 
@@ -40,7 +40,7 @@ pip install -U hermes-agent
 
 ---
 
-*← [v0.18.0 — The Judgment Release](/hermes/changelog/v0.18.0/) | [v0.18.2 — WhatsApp Fix](/hermes/changelog/v0.18.2/) →*
+*← [v0.18.0 - The Judgment Release](/hermes/changelog/v0.18.0/) | [v0.18.2 - WhatsApp Fix](/hermes/changelog/v0.18.2/) →*
 
 *↑ [Changelog Home](/hermes/changelog/)*
 

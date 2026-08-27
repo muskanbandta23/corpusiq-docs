@@ -11,7 +11,7 @@ tags: [business-math, analytics, csv, invoices, sla, governance, remote-mcp, sui
 
 # Moltline Studio MCP Suite
 
-**A suite of 14 remote MCP servers from Moltline Studio — streamable-HTTP endpoints independently audited A/A+ on MCPize Verified, each serving a machine-readable server card at `/.well-known/mcp/server-card.json`.** The flagship set covers merchant math, paste-your-data analytics, business-day arithmetic, and agent governance; eight additional servers (humanizer, business, personal, creator, research, outbound, educator, skillmd-lint) round out the catalog. Anonymous free tier; premium tools unlock by license.
+**A suite of 14 remote MCP servers from Moltline Studio - streamable-HTTP endpoints independently audited A/A+ on MCPize Verified, each serving a machine-readable server card at `/.well-known/mcp/server-card.json`.** The flagship set covers merchant math, paste-your-data analytics, business-day arithmetic, and agent governance; eight additional servers (humanizer, business, personal, creator, research, outbound, educator, skillmd-lint) round out the catalog. Anonymous free tier; premium tools unlock by license.
 
 ```
 Server type: Remote (Streamable HTTP, session management, JSON-RPC-compliant errors)
@@ -25,9 +25,9 @@ Built by: Moltline Studio (moltlinestudio.com, GitHub: GarphenGate)
 
 ## Why This Matters for Operators
 
-Most MCP servers answer a data question; these answer a math question. Operators constantly re-derive the same deterministic numbers — processor fees on a charge, net after fees, discount stacking, proration, installments, business-day deadlines, SLA windows, timezone overlaps — and usually by hand in a spreadsheet. Moltline's flagship servers compute them in code, deterministically, no external calls, with audit-grade reproducibility.
+Most MCP servers answer a data question; these answer a math question. Operators constantly re-derive the same deterministic numbers - processor fees on a charge, net after fees, discount stacking, proration, installments, business-day deadlines, SLA windows, timezone overlaps - and usually by hand in a spreadsheet. Moltline's flagship servers compute them in code, deterministically, no external calls, with audit-grade reproducibility.
 
-**The governance server is the outlier worth noting.** It audits MCP configurations, scores tool blast radius, and scans skill-file injection — the same hygiene CorpusIQ's own ecosystem increasingly demands as agent tool counts grow.
+**The governance server is the outlier worth noting.** It audits MCP configurations, scores tool blast radius, and scans skill-file injection - the same hygiene CorpusIQ's own ecosystem increasingly demands as agent tool counts grow.
 
 ## Tools & Capabilities
 
@@ -60,7 +60,7 @@ All endpoints speak MCP protocol 2025-06-18 with session management and JSON-RPC
 }
 ```
 
-Add only the endpoints your workflow needs — each server is independent. The free tier is anonymous-open (no key needed to try); premium tools require a license.
+Add only the endpoints your workflow needs - each server is independent. The free tier is anonymous-open (no key needed to try); premium tools require a license.
 
 ## Configuration
 
@@ -76,13 +76,13 @@ No local state. Each endpoint can be attached to a client independently, which k
 
 ## Integration with CorpusIQ
 
-CorpusIQ answers "what is the data" — connected, live, multi-source. Moltline answers "what is the math" — deterministic computation over numbers, whether they came from CorpusIQ, a CSV, or a conversation.
+CorpusIQ answers "what is the data" - connected, live, multi-source. Moltline answers "what is the math" - deterministic computation over numbers, whether they came from CorpusIQ, a CSV, or a conversation.
 
-The composed workflow: CorpusIQ pulls live revenue and ad spend into the session; Moltline's merchant and data endpoints compute net-of-fees, run the A/B test, or project the cohort — the derived number is reproducible in code, not recomputed by hand. CorpusIQ's read-only retrieval model and Moltline's deterministic math are complementary halves of operator analytics.
+The composed workflow: CorpusIQ pulls live revenue and ad spend into the session; Moltline's merchant and data endpoints compute net-of-fees, run the A/B test, or project the cohort - the derived number is reproducible in code, not recomputed by hand. CorpusIQ's read-only retrieval model and Moltline's deterministic math are complementary halves of operator analytics.
 
 ## Limitations
 
-- Suite model means multiple endpoints to manage — no single unified surface
+- Suite model means multiple endpoints to manage - no single unified surface
 - Free tier is anonymous; premium pricing is license-based and unpublished in the listing
 - Newer publisher (submitted Aug 16, 2026) with no long track record
 - Merchant-math and timeops tools assume operator-provided inputs; no data connectors included

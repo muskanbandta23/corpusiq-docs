@@ -1,6 +1,6 @@
 ---
-title: "TofuBofu AI Visibility MCP — Integration Guide"
-description: "Connect AI agents to TofuBofu for AI visibility scanning — measure how your brand appears across ChatGPT, Claude, Gemini, Perplexity, and Google AI"
+title: "TofuBofu AI Visibility MCP - Integration Guide"
+description: "Connect AI agents to TofuBofu for AI visibility scanning - measure how your brand appears across ChatGPT, Claude, Gemini, Perplexity, and Google AI"
 category: mcp
 tags: [mcp-server, ai-visibility, brand-monitoring, marketing, seo]
 last_updated: 2026-07-18
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# TofuBofu AI Visibility MCP — Integration Guide
+# TofuBofu AI Visibility MCP - Integration Guide
 
 **Source:** mcp.so listing (remote MCP server)  
 **Author:** Arnav Neil / TofuBofu  
@@ -19,15 +19,15 @@ robots: "index,follow"
 
 ## What It Does
 
-TofuBofu runs a free AI visibility scan for any B2B company, right inside your AI assistant. Ask it to scan a domain and it runs the questions real buyers ask across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews, and more — returning a concrete **Brand Visibility Score**, a share-of-voice breakdown, top coverage themes, source URLs, and a rank vs competitors.
+TofuBofu runs a free AI visibility scan for any B2B company, right inside your AI assistant. Ask it to scan a domain and it runs the questions real buyers ask across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews, and more - returning a concrete **Brand Visibility Score**, a share-of-voice breakdown, top coverage themes, source URLs, and a rank vs competitors.
 
 Think of it as "SEO for AI platforms." As consumers shift from Google searches to asking AI assistants directly, knowing how your brand appears in AI responses becomes as critical as knowing your Google ranking.
 
 The MCP server enables:
 - **Marketing operators** to audit their AI brand presence in one conversation
-- **Competitive intelligence** — see how competitors rank across AI platforms
-- **Content strategy** — identify coverage gaps and themes for AI-optimized content
-- **Zero-cost brand monitoring** — free tier, no API key, instant results
+- **Competitive intelligence** - see how competitors rank across AI platforms
+- **Content strategy** - identify coverage gaps and themes for AI-optimized content
+- **Zero-cost brand monitoring** - free tier, no API key, instant results
 
 ## Why This Matters for Operators
 
@@ -96,10 +96,10 @@ Based on mcp.so listing data, TofuBofu provides:
 
 ## Limitations
 
-- **B2B-only:** Currently focused on B2B companies — consumer brands may get less useful results
+- **B2B-only:** Currently focused on B2B companies - consumer brands may get less useful results
 - **English-first:** AI platform queries are in English; non-English brand presence may be underrepresented
 - **Snapshot, not continuous:** Each scan is a point-in-time measurement, not ongoing monitoring (for continuous monitoring, pair with Octolens MCP)
-- **New product:** TofuBofu appears to be an early-stage product — expect rapid iteration
+- **New product:** TofuBofu appears to be an early-stage product - expect rapid iteration
 
 ## Complementary Tools
 

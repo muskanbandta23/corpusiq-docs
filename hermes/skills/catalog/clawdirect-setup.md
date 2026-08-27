@@ -1,5 +1,5 @@
 ---
-title: "napoleond/clawdirect — Agent Self-Direction Framework"
+title: "napoleond/clawdirect - Agent Self-Direction Framework"
 description: "Complete setup guide for clawdirect and clawdirect-dev: structured agent task execution, work trees, directives, and development mode for Hermes/OpenClaw"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdirect-setup/"
 robots: "index,follow"
@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Setup Guide: napoleond/clawdirect
 
-**2 skills for structured agent self-direction — task execution, work trees, and development directives.**
+**2 skills for structured agent self-direction - task execution, work trees, and development directives.**
 
 ## Quick Install
 
@@ -30,8 +30,8 @@ npx skills add napoleond/clawdirect/clawdirect-dev
 
 | Skill | Installs | Purpose |
 |-------|:--------:|---------|
-| **clawdirect** | 4,617 | Core agent directing — structured task execution, work trees, directives |
-| **clawdirect-dev** | 4,502 | Development mode — extended directives for coding, testing, deployment |
+| **clawdirect** | 4,617 | Core agent directing - structured task execution, work trees, directives |
+| **clawdirect-dev** | 4,502 | Development mode - extended directives for coding, testing, deployment |
 
 ## What It Does
 

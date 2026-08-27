@@ -1,5 +1,5 @@
 ---
-title: "Lawstronaut MCP — Legal & Regulatory Research Across"
+title: "Lawstronaut MCP - Legal & Regulatory Research Across"
 description: "Millions of official legal and regulatory source documents from 155+ jurisdictions accessible via MCP. Structured legal research for AI agents."
 category: mcp
 tags: [mcp-server, legal, compliance, research, regulatory, business-operations]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Lawstronaut MCP Server ★ New (July 15)
 
-Access millions of official legal and regulatory source documents from 155+ jurisdictions through MCP. Lawstronaut supports AI agents with structured legal research — laws, regulations, cases, guidance, and official sources — all queryable in plain language.
+Access millions of official legal and regulatory source documents from 155+ jurisdictions through MCP. Lawstronaut supports AI agents with structured legal research - laws, regulations, cases, guidance, and official sources - all queryable in plain language.
 
 **Source:** mcp.so (submitted July 15, 2026)
 **Category:** Databases
@@ -42,10 +42,10 @@ Pair with CorpusIQ's business data connectors to contextualize legal research ag
 
 ## Limitations
 
-- Not a substitute for legal counsel — provides source documents, not legal advice
-- Coverage varies by jurisdiction — some countries have more comprehensive document libraries than others
+- Not a substitute for legal counsel - provides source documents, not legal advice
+- Coverage varies by jurisdiction - some countries have more comprehensive document libraries than others
 - Document freshness depends on government publication schedules
-- English-language focus — non-English documents may have limited searchability
+- English-language focus - non-English documents may have limited searchability
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "MailFixture — Email & SMS Testing MCP for Automated QA"
+title: "MailFixture - Email & SMS Testing MCP for Automated QA"
 description: "Receive-only email and SMS inboxes for automated testing. Wait-for-OTP and wait-for-link tools let AI agents complete verification flows without human"
 source: mailfixture.com
 stars: 0
@@ -14,22 +14,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MailFixture — Email & SMS Testing MCP for Automated QA
+# MailFixture - Email & SMS Testing MCP for Automated QA
 
 **Disposable email and SMS inboxes for AI agent testing.** MailFixture provides receive-only inboxes that AI agents can use to complete email/SMS verification flows during automated testing. Wait-for-OTP and wait-for-link tools eliminate the manual verification step.
 
 ## What It Does for Operators
 
-- **Receive-only inboxes** — Temporary email and SMS addresses for testing
-- **Wait-for-OTP** — AI agent polls inbox until verification code arrives, then returns it
-- **Wait-for-link** — AI agent polls inbox for magic link, then returns it
-- **No setup** — Inboxes created on demand through MCP tools
-- **Agent-native testing** — Complete end-to-end signup flows without human intervention
+- **Receive-only inboxes** - Temporary email and SMS addresses for testing
+- **Wait-for-OTP** - AI agent polls inbox until verification code arrives, then returns it
+- **Wait-for-link** - AI agent polls inbox for magic link, then returns it
+- **No setup** - Inboxes created on demand through MCP tools
+- **Agent-native testing** - Complete end-to-end signup flows without human intervention
 
 ## Installation
 
 ```bash
-# No installation — hosted API
+# No installation - hosted API
 # Sign up at mailfixture.com for API key
 ```
 
@@ -60,10 +60,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Operator Use Cases
 
-1. **QA Automation** — End-to-end signup flow testing without manual email verification
-2. **CI/CD Pipelines** — Automated integration tests that complete OAuth and email verification
-3. **Developer Tools** — Test password reset, email confirmation, and 2FA flows programmatically
-4. **Agent Development** — Build and test AI agents that interact with email-based workflows
+1. **QA Automation** - End-to-end signup flow testing without manual email verification
+2. **CI/CD Pipelines** - Automated integration tests that complete OAuth and email verification
+3. **Developer Tools** - Test password reset, email confirmation, and 2FA flows programmatically
+4. **Agent Development** - Build and test AI agents that interact with email-based workflows
 
 ## CorpusIQ Angle
 

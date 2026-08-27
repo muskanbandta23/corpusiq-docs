@@ -1,5 +1,5 @@
 ---
-title: Skill Vetter — Setup Guide for Hermes Agents
+title: Skill Vetter - Setup Guide for Hermes Agents
 description: Security-first pre-install vetting for OpenClaw skills. Structured red-flag checklist covering permissions, patterns, and suspicious instructions. 20.6K+ installs with 97% trust score.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetter-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skill Vetter — Setup Guide
+# Skill Vetter - Setup Guide
 
 **Source:** [useai-pro/openclaw-skills-security](https://github.com/useai-pro/openclaw-skills-security) (Community)
 **Skill:** `skill-vetter` · **Installs:** 20.6K+ · **Category:** Security
@@ -54,10 +54,10 @@ The skill audits against these red-flag categories:
 
 Produces a conservative manual review with:
 
-- **Trust Score** — overall safety assessment
-- **Red Flags** — specific concerns with line references
-- **Permission Summary** — what the skill can access
-- **Recommendation** — Install, Review Further, or Block
+- **Trust Score** - overall safety assessment
+- **Red Flags** - specific concerns with line references
+- **Permission Summary** - what the skill can access
+- **Recommendation** - Install, Review Further, or Block
 
 ## Trust Score: 97/100
 

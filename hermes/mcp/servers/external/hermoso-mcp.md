@@ -1,5 +1,5 @@
 ---
-title: "hermoso MCP Server — AI Ad Studio for Agents"
+title: "hermoso MCP Server - AI Ad Studio for Agents"
 description: "Integration guide for hermoso-ai/hermoso: 52-tool AI ad studio that generates video/image/UGC ads and researches competitor ad libraries across Meta"
 category: marketing
 tags: [mcp, advertising, video-generation, ugc, competitor-research, meta-ads, google-ads, linkedin-ads]
@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ---
 
-# hermoso MCP Server — AI Ad Studio
+# hermoso MCP Server - AI Ad Studio
 
 **Repo:** [hermoso-ai/hermoso](https://github.com/hermoso-ai/hermoso)
 **Install:** `npx -y hermoso mcp`
@@ -24,15 +24,15 @@ robots: "index,follow"
 
 ## Overview
 
-hermoso is an AI ad studio built for agents. It enables AI assistants to generate finished video, image, and UGC avatar ads for any brand — complete with script writing, voiceover, music, and brand end cards — plus research competitor ads across the Meta, Google, and LinkedIn ad libraries, as well as TikTok, Instagram, and YouTube organic content.
+hermoso is an AI ad studio built for agents. It enables AI assistants to generate finished video, image, and UGC avatar ads for any brand - complete with script writing, voiceover, music, and brand end cards - plus research competitor ads across the Meta, Google, and LinkedIn ad libraries, as well as TikTok, Instagram, and YouTube organic content.
 
 ## Why Business Operators Need This
 
 For a business operator running growth, marketing, and competitive intelligence, hermoso is transformative:
 
-1. **Competitor Ad Research** — Your agent can research what ads competitors are running across Meta, Google, and LinkedIn ad libraries, then synthesize insights about messaging, creative angles, and spend patterns.
-2. **UGC Video Generation** — Turn competitive insights into finished UGC-style video ads with AI avatars, voiceover, and branding — all through agent conversation, no editing software needed.
-3. **Cross-Platform Analysis** — Analyze organic content performance on TikTok, Instagram, and YouTube alongside paid ads for a complete competitive picture.
+1. **Competitor Ad Research** - Your agent can research what ads competitors are running across Meta, Google, and LinkedIn ad libraries, then synthesize insights about messaging, creative angles, and spend patterns.
+2. **UGC Video Generation** - Turn competitive insights into finished UGC-style video ads with AI avatars, voiceover, and branding - all through agent conversation, no editing software needed.
+3. **Cross-Platform Analysis** - Analyze organic content performance on TikTok, Instagram, and YouTube alongside paid ads for a complete competitive picture.
 
 **Example operator workflow:** "Research what ads our top 3 competitors are running on Meta and Google this month. Find the highest-performing creative angles. Generate 5 UGC-style video ads for our product using those insights. Include a brand end card with our logo and website."
 
@@ -86,7 +86,7 @@ Connect directly to the hosted endpoint:
 ```
 "Search the Meta Ad Library for ads from [competitor] running in the last 30 days. Focus on video ads."
 "Find the top-performing Google Ads from [industry] brands this quarter."
-"Analyze LinkedIn Sponsored Content from [competitor] — what messaging angles are they using?"
+"Analyze LinkedIn Sponsored Content from [competitor] - what messaging angles are they using?"
 ```
 
 ### UGC Ad Generation
@@ -106,18 +106,18 @@ Connect directly to the hosted endpoint:
 
 ## Best Practices
 
-1. **Start with research before generation** — Use the ad library tools to understand competitor creative before generating your own.
-2. **Batch generate variations** — Generate 5-10 UGC variations at once for A/B testing on Meta/Google.
-3. **Use brand end cards consistently** — Upload your brand assets once, then all generated ads include your branding automatically.
-4. **Combine organic + paid insights** — Cross-reference ad library data with organic content performance for complete competitive intelligence.
-5. **Iterate fast** — The free signup grant lets you generate multiple rounds without cost concern. Test, learn, regenerate.
+1. **Start with research before generation** - Use the ad library tools to understand competitor creative before generating your own.
+2. **Batch generate variations** - Generate 5-10 UGC variations at once for A/B testing on Meta/Google.
+3. **Use brand end cards consistently** - Upload your brand assets once, then all generated ads include your branding automatically.
+4. **Combine organic + paid insights** - Cross-reference ad library data with organic content performance for complete competitive intelligence.
+5. **Iterate fast** - The free signup grant lets you generate multiple rounds without cost concern. Test, learn, regenerate.
 
 ## Limitations
 
-- New server (created July 2026) — API stability and tool coverage may evolve rapidly
-- Video generation quality depends on AI model capabilities — review outputs before publishing
+- New server (created July 2026) - API stability and tool coverage may evolve rapidly
+- Video generation quality depends on AI model capabilities - review outputs before publishing
 - Ad library data availability varies by platform (Meta most comprehensive, LinkedIn limited)
-- Free tier may have usage caps — check current limits at `app.hermoso.ai`
+- Free tier may have usage caps - check current limits at `app.hermoso.ai`
 
 ## For Operators: Integration with CorpusIQ
 

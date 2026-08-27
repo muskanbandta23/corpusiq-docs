@@ -1,6 +1,6 @@
 ---
 title: Metabase MCP Server ★★★ Official
-description: "This is the first major BI platform to ship MCP natively — a paradigm shift for how operators interact with business data."
+description: "This is the first major BI platform to ship MCP natively - a paradigm shift for how operators interact with business data."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/metabase-mcp/"
 robots: "index,follow"
@@ -20,18 +20,18 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Overview
 
-**Metabase** ships a built-in MCP server starting from its July 2026 release. AI clients connect directly to your Metabase instance and use the semantic layer to search, query, and visualize data — no separate connector required. It builds on Metabase's Agent API to expose tools for navigating your entire BI surface area: databases, tables, questions, dashboards, and collections.
+**Metabase** ships a built-in MCP server starting from its July 2026 release. AI clients connect directly to your Metabase instance and use the semantic layer to search, query, and visualize data - no separate connector required. It builds on Metabase's Agent API to expose tools for navigating your entire BI surface area: databases, tables, questions, dashboards, and collections.
 
-This is the first major BI platform to ship MCP natively — a paradigm shift for how operators interact with business data.
+This is the first major BI platform to ship MCP natively - a paradigm shift for how operators interact with business data.
 
 ## Key Capabilities
 
-- **Search** — Find tables, metrics, cards, dashboards, and collections using keywords or natural-language queries
-- **Navigate entities** — Read metadata for databases, schemas, tables, questions, dashboards, and metrics via `metabase://` URIs
-- **Build and run queries** — Construct queries against tables or metrics, execute them, and get structured results with column metadata
-- **Run raw SQL** — Execute native SQL against databases (requires native-query permission)
-- **Save and update questions** — Create or modify saved questions (cards) from agent-constructed queries
-- **Dashboard management** — Create new dashboards with auto-positioned saved questions, update metadata, archive
+- **Search** - Find tables, metrics, cards, dashboards, and collections using keywords or natural-language queries
+- **Navigate entities** - Read metadata for databases, schemas, tables, questions, dashboards, and metrics via `metabase://` URIs
+- **Build and run queries** - Construct queries against tables or metrics, execute them, and get structured results with column metadata
+- **Run raw SQL** - Execute native SQL against databases (requires native-query permission)
+- **Save and update questions** - Create or modify saved questions (cards) from agent-constructed queries
+- **Dashboard management** - Create new dashboards with auto-positioned saved questions, update metadata, archive
 
 ## Tools Reference
 
@@ -88,11 +88,11 @@ Connect via Streamable HTTP at `https://metabase.yourcompany.com/api/mcp` with t
 
 ## Business Operator Use Cases
 
-1. **Natural Language Analytics** — "What was our MRR last month broken down by plan tier?" — agent queries Metabase and returns formatted results
-2. **Automated Board Reports** — Agent pulls KPIs from Metabase dashboards weekly, formats into a report
-3. **Anomaly Detection** — Agent monitors key metrics and alerts on unexpected deviations
-4. **Ad-Hoc Data Exploration** — "Show me churn by acquisition channel for Q2" — agent builds and executes the query
-5. **Dashboard Creation** — Agent auto-builds dashboards for new initiatives based on natural language descriptions
+1. **Natural Language Analytics** - "What was our MRR last month broken down by plan tier?" - agent queries Metabase and returns formatted results
+2. **Automated Board Reports** - Agent pulls KPIs from Metabase dashboards weekly, formats into a report
+3. **Anomaly Detection** - Agent monitors key metrics and alerts on unexpected deviations
+4. **Ad-Hoc Data Exploration** - "Show me churn by acquisition channel for Q2" - agent builds and executes the query
+5. **Dashboard Creation** - Agent auto-builds dashboards for new initiatives based on natural language descriptions
 
 ## Pricing
 
@@ -109,4 +109,4 @@ Connect via Streamable HTTP at `https://metabase.yourcompany.com/api/mcp` with t
 
 ## Verdict
 
-★★★★★ — The first major BI platform to go MCP-native. Essential for any business operator running Metabase who wants AI agents to interact with their BI layer directly. The built-in semantic layer means agents query meaningful business concepts ("MRR", "churn"), not raw table names — this is the right architecture for AI-powered analytics.
+★★★★★ - The first major BI platform to go MCP-native. Essential for any business operator running Metabase who wants AI agents to interact with their BI layer directly. The built-in semantic layer means agents query meaningful business concepts ("MRR", "churn"), not raw table names - this is the right architecture for AI-powered analytics.

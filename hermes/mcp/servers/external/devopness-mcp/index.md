@@ -1,5 +1,5 @@
 ---
-title: "Devopness MCP — AI DevOps on Your Cloud, Any Stack, One"
+title: "Devopness MCP - AI DevOps on Your Cloud, Any Stack, One"
 description: "Integration guide for devopness/devopness. Deploy apps, infrastructure, and CI/CD across any cloud via MCP. Deterministic API, no cloud credentials in AI"
 category: mcp
 tags: [mcp-server, devops, cloud, deployment, infrastructure, ci-cd, hermes-agent]
@@ -12,7 +12,7 @@ robots: "index,follow"
 
 ---
 
-# Devopness MCP — AI DevOps on Your Cloud
+# Devopness MCP - AI DevOps on Your Cloud
 
 **Repository:** [devopness/devopness](https://github.com/devopness/devopness)
 **Stars:** 434 ★
@@ -23,7 +23,7 @@ robots: "index,follow"
 
 ## What It Does
 
-Devopness is an AI-native DevOps platform that lets AI agents (via MCP) deploy applications, provision infrastructure, and manage CI/CD pipelines across any cloud provider — AWS, Azure, GCP, DigitalOcean, and more. The key differentiator: **no cloud credentials are ever exposed to the AI chat**. All operations go through Devopness's deterministic API, which holds credentials server-side.
+Devopness is an AI-native DevOps platform that lets AI agents (via MCP) deploy applications, provision infrastructure, and manage CI/CD pipelines across any cloud provider - AWS, Azure, GCP, DigitalOcean, and more. The key differentiator: **no cloud credentials are ever exposed to the AI chat**. All operations go through Devopness's deterministic API, which holds credentials server-side.
 
 ### Key Capabilities
 
@@ -32,16 +32,16 @@ Devopness is an AI-native DevOps platform that lets AI agents (via MCP) deploy a
 | **App Deployment** | Deploy Node.js, Python, Go, Ruby, PHP, static sites to any cloud |
 | **Infrastructure Provisioning** | Create servers, databases, load balancers, storage across AWS/Azure/GCP/DO |
 | **CI/CD Pipeline Management** | Create, trigger, and monitor deployment pipelines |
-| **Cloud Credential Isolation** | AI agents never see AWS keys or cloud credentials — Devopness holds them |
+| **Cloud Credential Isolation** | AI agents never see AWS keys or cloud credentials - Devopness holds them |
 | **Multi-Cloud Unified API** | Same MCP tools work across all supported clouds |
 | **Environments** | Staging, production, and ephemeral environments managed through MCP |
 
 ## Why Business Operators Care
 
-- **Deploy without DevOps engineers:** Business operators can deploy apps via natural language — "deploy the Next.js app to AWS with a PostgreSQL database"
-- **Credential safety:** Cloud credentials (AWS access keys, Azure service principals) never enter the AI chat context — no accidental leaks
+- **Deploy without DevOps engineers:** Business operators can deploy apps via natural language - "deploy the Next.js app to AWS with a PostgreSQL database"
+- **Credential safety:** Cloud credentials (AWS access keys, Azure service principals) never enter the AI chat context - no accidental leaks
 - **Audit trail:** Every deployment, infrastructure change, and pipeline trigger is logged and attributable
-- **Multi-cloud from one interface:** AWS, Azure, GCP all through the same MCP tools — no provider-specific CLI learning curve
+- **Multi-cloud from one interface:** AWS, Azure, GCP all through the same MCP tools - no provider-specific CLI learning curve
 
 ## Setup for Hermes Agent
 
@@ -109,7 +109,7 @@ Once configured, ask Hermes:
 | Feature | Devopness MCP | AWS/Azure CLI | Superserve MCP |
 |---------|---------------|---------------|----------------|
 | **Multi-cloud** | Yes (AWS, Azure, GCP, DO) | Provider-specific | Cloud-agnostic |
-| **Credential isolation** | Full — AI never sees keys | Keys in env/config | Sandbox isolation |
+| **Credential isolation** | Full - AI never sees keys | Keys in env/config | Sandbox isolation |
 | **Deployment** | App + infra + CI/CD | Infra only | Sandbox provisioning |
 | **CI/CD** | Built-in pipelines | External (GitHub Actions, etc.) | None |
 | **Best for** | Full-stack cloud management | Infrastructure-as-code | Isolated dev environments |
@@ -121,16 +121,16 @@ Devopness uses a **credential firewall** architecture:
 1. You store cloud credentials in Devopness (not in AI chat or local config)
 2. AI agent calls Devopness MCP tools with declarative intents ("deploy app X to staging")
 3. Devopness API executes against your cloud using server-side credentials
-4. AI agent receives only results and status — never sees or touches credentials
+4. AI agent receives only results and status - never sees or touches credentials
 
-This is complementary to CorpusIQ's read-only external-source retrieval model — CorpusIQ reads business data, Devopness executes infrastructure actions.
+This is complementary to CorpusIQ's read-only external-source retrieval model - CorpusIQ reads business data, Devopness executes infrastructure actions.
 
 ## Pitfalls
 
 1. **Free plan limits:** Check deployment concurrency and server count limits on the free tier before production use.
-2. **Provider coverage:** Not all cloud services are available — verify your target services (RDS, EKS, AKS) are supported.
+2. **Provider coverage:** Not all cloud services are available - verify your target services (RDS, EKS, AKS) are supported.
 3. **State drift:** If infrastructure is modified outside Devopness (via AWS Console, Terraform), the MCP's view may be stale.
-4. **Cost visibility:** AI-initiated deployments can create resources that incur costs — set up budget alerts in your cloud provider.
+4. **Cost visibility:** AI-initiated deployments can create resources that incur costs - set up budget alerts in your cloud provider.
 
 ---
 

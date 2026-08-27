@@ -1,5 +1,5 @@
 ---
-title: Linux Systemd Agent Deployment — Setup Guide
+title: Linux Systemd Agent Deployment - Setup Guide
 description: Deploy OpenClaw/Hermes agents as Linux systemd services with supervision, logging, restart policies, and resource limits.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/linux-systemd-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Linux Systemd Agent Deployment — Setup Guide
+# Linux Systemd Agent Deployment - Setup Guide
 
 ## Prerequisites
 - **Linux** system with systemd (Ubuntu 20.04+, Debian 11+, Fedora 35+)
@@ -20,7 +20,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 | Capability | Description |
 |-----------|-------------|
 | **Unit File Generation** | Create systemd `.service` files for agent processes |
-| **Restart Policies** | `on-failure`, `always`, `no` — with RestartSec delay |
+| **Restart Policies** | `on-failure`, `always`, `no` - with RestartSec delay |
 | **Journald Logging** | stdout/stderr automatically captured to journald |
 | **Resource Limits** | MemoryMax, CPUQuota, TasksMax for agent processes |
 | **Environment Variables** | Inject API keys, tokens, config paths via Environment= |
@@ -113,8 +113,8 @@ sudo systemctl start hermes-gateway.service
 ### Resource Limits
 
 ```ini
-MemoryMax=4G          # Hard memory cap — agent gets OOM-killed if exceeded
-MemoryHigh=3G         # Soft limit — agent gets throttled
+MemoryMax=4G          # Hard memory cap - agent gets OOM-killed if exceeded
+MemoryHigh=3G         # Soft limit - agent gets throttled
 CPUQuota=200%         # Max 2 CPU cores
 TasksMax=512          # Max threads/processes
 ```
@@ -135,7 +135,7 @@ journalctl -u hermes-gateway.service -f --since "10 minutes ago"
 
 2. **Cron Workers:** Long-running monitor workers (email, social) can run as systemd services instead of cron, giving better logging and restart behavior.
 
-3. **Multi-Agent Deployments:** Each agent profile gets its own systemd unit — isolation via MemoryMax and separate environment variables.
+3. **Multi-Agent Deployments:** Each agent profile gets its own systemd unit - isolation via MemoryMax and separate environment variables.
 
 ## Troubleshooting
 
@@ -153,4 +153,4 @@ journalctl -u hermes-gateway.service -f --since "10 minutes ago"
 
 ---
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

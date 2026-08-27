@@ -5,7 +5,7 @@ description: "LinkedIn Ads is the primary paid-acquisition channel for B2B. Conn
 # LinkedIn Ads
 
 ## What it unlocks
-LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-level spend — then line them up next to your CRM pipeline and revenue to see which LinkedIn campaigns actually closed deals.
+LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-level spend - then line them up next to your CRM pipeline and revenue to see which LinkedIn campaigns actually closed deals.
 
 ## Before you connect
 - A LinkedIn account with access to the ad accounts you want to read
@@ -41,10 +41,10 @@ CorpusIQ never creates campaigns, changes budgets, or modifies ads.
 - "Which creatives are running in my remarketing campaign?"
 
 ## Troubleshooting
-- **"No ad accounts found"** — Your LinkedIn user doesn't have Viewer access to any ad account. Ask an account admin to add you in Campaign Manager → Account Settings → Manage Access.
-- **"Insufficient permissions"** — Your role on the ad account may be too restrictive. You need at least Viewer access.
-- **Campaign analytics return zero** — Check the date range. LinkedIn Ads reporting may lag by 24–48 hours.
-- **Auth fails** — Reset the LinkedIn Ads connector in your dashboard and reconnect with the correct LinkedIn account.
+- **"No ad accounts found"** - Your LinkedIn user doesn't have Viewer access to any ad account. Ask an account admin to add you in Campaign Manager → Account Settings → Manage Access.
+- **"Insufficient permissions"** - Your role on the ad account may be too restrictive. You need at least Viewer access.
+- **Campaign analytics return zero** - Check the date range. LinkedIn Ads reporting may lag by 24-48 hours.
+- **Auth fails** - Reset the LinkedIn Ads connector in your dashboard and reconnect with the correct LinkedIn account.
 ---
 
 *

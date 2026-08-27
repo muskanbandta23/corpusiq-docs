@@ -1,6 +1,6 @@
 ---
-title: "New Skills Discovered — June 28, 2026 (Update 3)"
-description: "9 new skills discovered — Agent Flywheel mega-toolkit (25+ skills), ClawDBot Feishu suite (11 skills), plus 7 standalone skills spanning email, health"
+title: "New Skills Discovered - June 28, 2026 (Update 3)"
+description: "9 new skills discovered - Agent Flywheel mega-toolkit (25+ skills), ClawDBot Feishu suite (11 skills), plus 7 standalone skills spanning email, health"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026-update3/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,21 +8,21 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 28, 2026 (Update 3)
+# New Skills Discovered - June 28, 2026 (Update 3)
 
 **Sweep date:** June 28, 2026 (late evening) | **Source:** [skills.sh API](https://skills.sh) | **Method:** 3-term query sweep (hermes, openclaw, clawdbot) → precise cross-reference against all existing catalog and marketplace docs
 
-**Summary:** 9 newly discovered repos totaling ~8,800 combined skill installs. Complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) (3 skills), [afternoon update](/hermes/skills/marketplace/new-june28-2026-update/) (17 skills), and [evening update 2](/hermes/skills/marketplace/new-june28-2026-update2/) (9 skills). This third sweep covers two major collections — the **Agent Flywheel mega-toolkit** (25+ skills for SSH, deployment, browser automation, swarm workflows, and more) and the **ClawDBot Feishu suite** (11 skills for the Lark/Feishu platform) — plus 7 standalone skills.
+**Summary:** 9 newly discovered repos totaling ~8,800 combined skill installs. Complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) (3 skills), [afternoon update](/hermes/skills/marketplace/new-june28-2026-update/) (17 skills), and [evening update 2](/hermes/skills/marketplace/new-june28-2026-update2/) (9 skills). This third sweep covers two major collections - the **Agent Flywheel mega-toolkit** (25+ skills for SSH, deployment, browser automation, swarm workflows, and more) and the **ClawDBot Feishu suite** (11 skills for the Lark/Feishu platform) - plus 7 standalone skills.
 
 ---
 
-## Top Find #1: Agent Flywheel Mega-Toolkit (25+ skills — 2,200+ installs)
+## Top Find #1: Agent Flywheel Mega-Toolkit (25+ skills - 2,200+ installs)
 
 **Repo:** [dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations](https://github.com/dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations)
 **Publisher:** [dicklesworthstone](https://github.com/dicklesworthstone) (also publishes pi_agent_rust, beads_rust, eidetic_engine_cli, and other agent infrastructure repos)
 **Combined installs:** 2,201 across 25 skills
 
-The most comprehensive single-publisher ClawDBot/Hermes toolkit discovered to date. Covers the complete agent operations lifecycle — infrastructure (SSH, GCloud, Vercel), browser automation (Claude-Chrome, cursor), multi-agent orchestration (agent-swarm, planning-workflow, agent-fungibility), communication (agent-mail, Discord), code quality (de-slopify, GitHub, cass), and terminal/UI (ghostty, wezterm, building-glamorous-tuis).
+The most comprehensive single-publisher ClawDBot/Hermes toolkit discovered to date. Covers the complete agent operations lifecycle - infrastructure (SSH, GCloud, Vercel), browser automation (Claude-Chrome, cursor), multi-agent orchestration (agent-swarm, planning-workflow, agent-fungibility), communication (agent-mail, Discord), code quality (de-slopify, GitHub, cass), and terminal/UI (ghostty, wezterm, building-glamorous-tuis).
 
 | Skill | Installs | Category |
 |-------|----------|----------|
@@ -69,13 +69,13 @@ npx skills add dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations
 
 ---
 
-## Top Find #2: ClawDBot Feishu Suite (11 skills — 4,800+ installs)
+## Top Find #2: ClawDBot Feishu Suite (11 skills - 4,800+ installs)
 
 **Repo:** [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)
 **Publisher:** [m1heng](https://github.com/m1heng)
 **Combined installs:** 4,793 across 11 skills
 
-A complete Feishu (Lark) integration suite for ClawDBot/Hermes agents. Feishu is ByteDance's enterprise collaboration platform with 100M+ users across China and Southeast Asia. This suite enables agents to read/write documents, manage drives, handle wikis, send messages, manage tasks, test E2E flows, and handle permissions — every Feishu API surface covered.
+A complete Feishu (Lark) integration suite for ClawDBot/Hermes agents. Feishu is ByteDance's enterprise collaboration platform with 100M+ users across China and Southeast Asia. This suite enables agents to read/write documents, manage drives, handle wikis, send messages, manage tasks, test E2E flows, and handle permissions - every Feishu API surface covered.
 
 | Skill | Installs | Category |
 |-------|----------|----------|
@@ -106,35 +106,35 @@ npx skills add m1heng/clawdbot-feishu --skill feishu-message
 
 ## 7 Standalone Skills
 
-### eversonl/clawdbot-garmin-health-analysis — Garmin Health Analysis (58 installs)
+### eversonl/clawdbot-garmin-health-analysis - Garmin Health Analysis (58 installs)
 Analyzes Garmin health data (sleep, HRV, activity, stress) through ClawDBot/Hermes agents. Pulls data from Garmin Connect API and produces health insights, trend analysis, and recommendations.
 
 ```bash
 npx skills add eversonl/clawdbot-garmin-health-analysis --skill garmin-health-analysis
 ```
 
-### leoyeai/openclaw-master-skills — Master Skills Collection (270 installs)
+### leoyeai/openclaw-master-skills - Master Skills Collection (270 installs)
 Curated collection of master-level skills for OpenClaw agents. Bundles multiple skill categories under one install for rapid agent bootstrapping.
 
 ```bash
 npx skills add leoyeai/openclaw-master-skills --skill openclaw-master-skills
 ```
 
-### kesslerio/mineru-pdf-parser-clawdbot-skill — MinerU PDF Parser (101 installs)
-High-quality PDF parsing using the MinerU engine. Extracts text, tables, and structured content from PDFs — useful for document-heavy agent workflows (contract review, research synthesis, data extraction).
+### kesslerio/mineru-pdf-parser-clawdbot-skill - MinerU PDF Parser (101 installs)
+High-quality PDF parsing using the MinerU engine. Extracts text, tables, and structured content from PDFs - useful for document-heavy agent workflows (contract review, research synthesis, data extraction).
 
 ```bash
 npx skills add kesslerio/mineru-pdf-parser-clawdbot-skill --skill mineru-pdf
 ```
 
-### 0xindiebruh/openclaw-mission-control-skill — Mission Control (355 installs)
+### 0xindiebruh/openclaw-mission-control-skill - Mission Control (355 installs)
 Centralized dashboard and control interface for managing multiple OpenClaw agents. Provides agent status monitoring, task dispatch, and performance analytics.
 
 ```bash
 npx skills add 0xindiebruh/openclaw-mission-control-skill --skill openclaw-mission-control
 ```
 
-### mvanhorn/clawdbot-skill-search-x — Search X + Polymarket (108 installs)
+### mvanhorn/clawdbot-skill-search-x - Search X + Polymarket (108 installs)
 Two skills: **search-x** (55 installs) for X/Twitter search integration, and **polymarket** (53 installs) for Polymarket prediction market data. Enables agents to monitor social sentiment and prediction markets.
 
 ```bash
@@ -142,14 +142,14 @@ npx skills add mvanhorn/clawdbot-skill-search-x --skill search-x
 npx skills add mvanhorn/clawdbot-skill-polymarket --skill polymarket
 ```
 
-### kimasplund/clawdbot-skills-pack — Self-Improving Agent Pack (194 installs)
+### kimasplund/clawdbot-skills-pack - Self-Improving Agent Pack (194 installs)
 Packaged skill collection focused on agent self-improvement workflows. Enables agents to analyze their own performance, identify gaps, and suggest optimizations.
 
 ```bash
 npx skills add kimasplund/clawdbot-skills-pack --skill self-improving-agent
 ```
 
-### 1018466411/openclaw-stock-data-skill — Stock Data Skill (619 installs)
+### 1018466411/openclaw-stock-data-skill - Stock Data Skill (619 installs)
 OpenClaw skill for retrieving real-time and historical stock market data. Provides price quotes, financial statements, and market analytics for agent-driven trading and analysis workflows.
 
 ```bash
@@ -183,4 +183,4 @@ npx skills add 1018466411/openclaw-stock-data-skill --skill openclaw-stock-skill
 
 ---
 
-*This Hermes repo is one of the largest structured collections of Hermes Agent resources. Discovered and curated by [CorpusIQ](https://www.corpusiq.io) — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*This Hermes repo is one of the largest structured collections of Hermes Agent resources. Discovered and curated by [CorpusIQ](https://www.corpusiq.io) - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

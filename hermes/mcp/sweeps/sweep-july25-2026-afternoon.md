@@ -1,5 +1,5 @@
 ---
-title: "MCP Sweep — July 25, 2026 Afternoon (11:00 AM MST)"
+title: "MCP Sweep - July 25, 2026 Afternoon (11:00 AM MST)"
 description: "1. **GitHub token:** The current token has been flagged for search spam. Consider rotating to a new classic PAT or using a different account for search"
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july25-2026-afternoon/"
@@ -8,10 +8,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Sweep — July 25, 2026 Afternoon (11:00 AM MST)
+# MCP Sweep - July 25, 2026 Afternoon (11:00 AM MST)
 
 ## Summary
-- **Method:** mcpservers.org sitemap scrape (GitHub Search API blocked — "user flagged as spammy")
+- **Method:** mcpservers.org sitemap scrape (GitHub Search API blocked - "user flagged as spammy")
 - **Servers indexed:** 9,634 (mcpservers.org)
 - **Compared against:** 91 existing catalog entries
 - **New servers discovered:** 17
@@ -19,15 +19,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## New Business-Relevant Servers Found
 
-### ★★★ OpusGrowth MCP — Guide Written
+### ★★★ OpusGrowth MCP - Guide Written
 - **Repo:** opusgrowth/Opus-Growth-The-MCP-Connector-for-Ad-Platforms
 - **Created:** July 10, 2026 | **Updated:** July 24, 2026
 - **Stars:** 0 (new)
-- **Description:** Hosted MCP connector for Google Ads, Microsoft Advertising, TikTok Ads, LinkedIn Ads — 233 tools, write actions with approval gates
-- **Business value:** HIGH — Ad spend management is a top operator use case
+- **Description:** Hosted MCP connector for Google Ads, Microsoft Advertising, TikTok Ads, LinkedIn Ads - 233 tools, write actions with approval gates
+- **Business value:** HIGH - Ad spend management is a top operator use case
 - **Status:** Pre-launch, waitlist only
 
-### Additional Discoveries (No Guides — Monitoring)
+### Additional Discoveries (No Guides - Monitoring)
 
 | Server | Stars | Created | Relevance |
 |--------|-------|---------|-----------|

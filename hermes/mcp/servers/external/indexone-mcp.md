@@ -23,7 +23,7 @@ Index One MCP provides AI agents with access to financial index data, backtestin
 ## Installation
 
 ```bash
-# Installation TBD — server is newly listed
+# Installation TBD - server is newly listed
 ```
 
 ## Claude Desktop / Hermes Config
@@ -52,11 +52,11 @@ Index One MCP provides AI agents with access to financial index data, backtestin
 
 ## Operator Use Cases
 
-1. **Portfolio analysis** — Query index performance data for investment decisions
-2. **Strategy backtesting** — Run historical simulations before deploying capital
-3. **Automated reporting** — Generate investment performance reports via AI agents
-4. **Risk assessment** — Use index data for risk modeling and exposure analysis
-5. **Market monitoring** — Track index movements and trigger alerts
+1. **Portfolio analysis** - Query index performance data for investment decisions
+2. **Strategy backtesting** - Run historical simulations before deploying capital
+3. **Automated reporting** - Generate investment performance reports via AI agents
+4. **Risk assessment** - Use index data for risk modeling and exposure analysis
+5. **Market monitoring** - Track index movements and trigger alerts
 
 ## CorpusIQ Angle
 

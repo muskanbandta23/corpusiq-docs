@@ -1,11 +1,11 @@
 ---
 title: "GunBroker - CorpusIQ Docs - CorpusIQ"
-description: "GunBroker is the primary marketplace for firearms sellers, and its data — active listings, watchers, sold revenue, fraud claims — lives nowhere else.."
+description: "GunBroker is the primary marketplace for firearms sellers, and its data - active listings, watchers, sold revenue, fraud claims - lives nowhere else.."
 ---
 # GunBroker
 
 ## What it unlocks
-GunBroker is the primary marketplace for firearms sellers, and its data — active listings, watchers, sold revenue, fraud claims — lives nowhere else. Connecting it lets CorpusIQ answer questions about inventory, sell-through, fees, and buyer disputes in plain English, alongside the rest of your business data.
+GunBroker is the primary marketplace for firearms sellers, and its data - active listings, watchers, sold revenue, fraud claims - lives nowhere else. Connecting it lets CorpusIQ answer questions about inventory, sell-through, fees, and buyer disputes in plain English, alongside the rest of your business data.
 
 ## Before you connect
 - A GunBroker seller account
@@ -31,7 +31,7 @@ Read-only access to:
 - Orders with buyer info, item, amount, and fulfillment status
 - Feedback you've received
 - Open fraud or dispute claims
-- Billing — listing fees, final value fees, account charges
+- Billing - listing fees, final value fees, account charges
 - Marketplace search and category browsing
 - FFL lookups by buyer ZIP code
 
@@ -45,9 +45,9 @@ CorpusIQ never lists items, edits prices, or contacts buyers.
 - "Find an FFL near ZIP 30303."
 
 ## Troubleshooting
-- **"Invalid credentials"** — GunBroker is case-sensitive on username. Double-check capitalization and try again.
-- **Two-factor blocking login** — Temporarily disable 2FA, connect, and re-enable. CorpusIQ keeps a long-lived API token after the first login.
-- **Empty inventory summary** — If you have no active listings, the summary returns zeros. Check active listings directly to confirm.
+- **"Invalid credentials"** - GunBroker is case-sensitive on username. Double-check capitalization and try again.
+- **Two-factor blocking login** - Temporarily disable 2FA, connect, and re-enable. CorpusIQ keeps a long-lived API token after the first login.
+- **Empty inventory summary** - If you have no active listings, the summary returns zeros. Check active listings directly to confirm.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ---

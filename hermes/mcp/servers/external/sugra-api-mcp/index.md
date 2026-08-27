@@ -1,6 +1,6 @@
 ---
-title: "Sugra API MCP — Comprehensive Business Data for AI Agents"
-description: "Official MCP server for the Sugra API — 1,500+ endpoints across 36 data domains from 160+ primary sources. Markets, economics, company fundamentals"
+title: "Sugra API MCP - Comprehensive Business Data for AI Agents"
+description: "Official MCP server for the Sugra API - 1,500+ endpoints across 36 data domains from 160+ primary sources. Markets, economics, company fundamentals"
 category: mcp
 tags: [mcp-server, data-analytics, business-intelligence, finance, economics]
 source: mcp.so
@@ -20,7 +20,7 @@ last_updated: "2026-08-12"
 
 ## Why It Matters for Operators
 
-Sugra API MCP is one of the most comprehensive data MCP servers yet — it gives AI agents structured access to an enormous range of business-critical data through a single MCP connection. Think of it as a Bloomberg Terminal for AI agents, but broader: not just markets, but company data, economic indicators, government statistics, news, and climate data — all source-attributed.
+Sugra API MCP is one of the most comprehensive data MCP servers yet - it gives AI agents structured access to an enormous range of business-critical data through a single MCP connection. Think of it as a Bloomberg Terminal for AI agents, but broader: not just markets, but company data, economic indicators, government statistics, news, and climate data - all source-attributed.
 
 For CorpusIQ operators, this means your AI agent can:
 - Pull real-time market and economic data alongside your QuickBooks/Stripe financials
@@ -99,13 +99,13 @@ Sugra API MCP complements CorpusIQ's 40+ business connectors by providing extern
 ## Limitations
 
 - Requires API key from Sugra Systems (apply at sugra.io)
-- 1,500+ endpoints is a lot — use tool filtering in your MCP client to avoid context bloat
-- New server (1 star, July 2026) — API stability not yet proven at scale
-- Remote only (no local/stdio option) — requires internet connectivity
+- 1,500+ endpoints is a lot - use tool filtering in your MCP client to avoid context bloat
+- New server (1 star, July 2026) - API stability not yet proven at scale
+- Remote only (no local/stdio option) - requires internet connectivity
 
 ## See Also
 
-- [[index]] — Full external MCP catalog
-- Capital.com MCP — Trading/CFD MCP
-- Fintel MCP — Financial data MCP
-- AlphaVantage MCP — Stock market data MCP
+- [[index]] - Full external MCP catalog
+- Capital.com MCP - Trading/CFD MCP
+- Fintel MCP - Financial data MCP
+- AlphaVantage MCP - Stock market data MCP

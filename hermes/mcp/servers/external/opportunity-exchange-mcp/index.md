@@ -1,6 +1,6 @@
 ---
-title: Opportunity Exchange MCP — Saskatchewan Labour-Market Data
-description: "Setup and usage guide for Opportunity Exchange MCP — Saskatchewan Labour-Market Data. Part of the Hermes resource directory."
+title: Opportunity Exchange MCP - Saskatchewan Labour-Market Data
+description: "Setup and usage guide for Opportunity Exchange MCP - Saskatchewan Labour-Market Data. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/opportunity-exchange-mcp/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Opportunity Exchange MCP — Saskatchewan Labour-Market Data
+# Opportunity Exchange MCP - Saskatchewan Labour-Market Data
 
 **Priority:** HIGH | **Category:** Government / Procurement / HR  
 **Transport:** Remote Streamable HTTP | **Auth:** None (keyless)  
@@ -20,13 +20,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Opportunity Exchange exposes Saskatchewan (and Canadian) labour-market data with the economic context that makes it a decision. It covers measured wages for all 516 NOC 2021 occupations (Statistics Canada data), CMHC average rents and vacancy rates for 178 centres, provincial trade flows, occupation profiles, and discretionary-income outcomes.
 
-**Every answer carries truth-state metadata** — agents always know whether a number is a live measurement, a statistical aggregate, a preview, or synthetic demonstration data. This is critical for operators making procurement, hiring, or government-contract decisions where data provenance matters.
+**Every answer carries truth-state metadata** - agents always know whether a number is a live measurement, a statistical aggregate, a preview, or synthetic demonstration data. This is critical for operators making procurement, hiring, or government-contract decisions where data provenance matters.
 
 ## Installation
 
 ```bash
 # Remote endpoint, no install required
-# No auth needed — keyless, CORS-open
+# No auth needed - keyless, CORS-open
 ```
 
 ## Claude Desktop / Hermes Config
@@ -64,11 +64,11 @@ Key tools include:
 
 ## CorpusIQ Angle
 
-**Complementary — government vertical.** CorpusIQ's financial data sources (QuickBooks, Stripe) combined with Opportunity Exchange's labour-market data would let operators model total cost of workforce expansion across Canadian provinces. This is a differentiated capability for operators bidding on Canadian government contracts.
+**Complementary - government vertical.** CorpusIQ's financial data sources (QuickBooks, Stripe) combined with Opportunity Exchange's labour-market data would let operators model total cost of workforce expansion across Canadian provinces. This is a differentiated capability for operators bidding on Canadian government contracts.
 
 ## Limitations
 
 - Geographic scope: Saskatchewan-first, Canada-wide for some data
 - CMHC data covers 178 centres (not all municipalities)
 - Keyless access has per-client rate limiting (self-pacing via `RateLimit-*` headers)
-- Operated by VeilPoint — single-entity dependency
+- Operated by VeilPoint - single-entity dependency

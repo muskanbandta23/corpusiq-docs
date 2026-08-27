@@ -1,6 +1,6 @@
 ---
 name: "Argus Testing MCP"
-description: "Autonomous QA that tests web and macOS apps like a real engineer — and verifies every bug. Argus MCP server performs quality assurance testing applications."
+description: "Autonomous QA that tests web and macOS apps like a real engineer - and verifies every bug. Argus MCP server performs quality assurance testing applications."
 category: "Development"
 source: "mcp.so"
 discovered: "2026-07-23"
@@ -10,22 +10,22 @@ repository: "https://github.com/chriswu727/argus"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/argus-testing-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Argus Testing MCP — Autonomous QA for Web & macOS"
+title: "Argus Testing MCP - Autonomous QA for Web & macOS"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Argus Testing MCP — Autonomous QA for Web & macOS
+# Argus Testing MCP - Autonomous QA for Web & macOS
 
 Argus is an MCP server that performs autonomous quality assurance testing on web and macOS applications. Unlike scripted test runners, Argus explores apps like a human QA engineer, reports bugs, and verifies each finding.
 
 ## What It Does
 
-- **Exploratory testing** — Navigates web and macOS apps organically, discovering edge cases
-- **Bug detection** — Identifies visual regressions, broken flows, and unexpected behavior
-- **Self-verification** — Every reported bug is independently verified before surfacing
-- **Playwright-powered** — Browser testing via Playwright for reliable cross-browser coverage
-- **macOS native** — Tests native macOS apps alongside web apps
+- **Exploratory testing** - Navigates web and macOS apps organically, discovering edge cases
+- **Bug detection** - Identifies visual regressions, broken flows, and unexpected behavior
+- **Self-verification** - Every reported bug is independently verified before surfacing
+- **Playwright-powered** - Browser testing via Playwright for reliable cross-browser coverage
+- **macOS native** - Tests native macOS apps alongside web apps
 
 ## Quick Start
 
@@ -57,10 +57,10 @@ hermes mcp add argus -- npx tsx /path/to/argus/src/index.ts
 
 ## Use Cases
 
-- **Pre-release QA** — Run Argus against staging before every deployment
-- **Continuous testing** — Agent triggers Argus on new PRs to catch regressions early
-- **Cross-browser testing** — Test across Chromium, Firefox, and WebKit in one session
-- **Accessibility auditing** — Detect a11y issues during exploratory testing
+- **Pre-release QA** - Run Argus against staging before every deployment
+- **Continuous testing** - Agent triggers Argus on new PRs to catch regressions early
+- **Cross-browser testing** - Test across Chromium, Firefox, and WebKit in one session
+- **Accessibility auditing** - Detect a11y issues during exploratory testing
 
 ## Hermes Agent Integration
 

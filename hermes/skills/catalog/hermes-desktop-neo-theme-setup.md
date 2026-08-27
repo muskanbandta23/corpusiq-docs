@@ -1,5 +1,5 @@
 ---
-title: "Hermes Desktop Neo Theme — Setup Guide"
+title: "Hermes Desktop Neo Theme - Setup Guide"
 description: "Install the Matrix digital rain Neo Theme for Hermes Desktop Electron app. Complete cyberpunk visual overhaul with canvas animations."
 skill_name: hermes-desktop-neo-theme
 category: Desktop/UI
@@ -14,7 +14,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Desktop Neo Theme — Full Setup Guide
+# Hermes Desktop Neo Theme - Full Setup Guide
 
 A complete Matrix/cyberpunk built-in theme for the Hermes Desktop Electron app. Drop-in 3 files: `presets.ts`, `styles.css`, `context.tsx`.
 
@@ -22,10 +22,10 @@ A complete Matrix/cyberpunk built-in theme for the Hermes Desktop Electron app. 
 
 ## Features
 
-- **Matrix digital rain** — Canvas animation of binary 0/1 falling code, bold fluorescent green, 50ms frame rate, auto-inject into `#root` DOM
-- **Full dark-mode color palette** — Green phosphor (`#00ff41` / `#c8ffc8`) on pure black
-- **Light-mode safe** — `html:has(body.neo-active)` + `documentElement.classList.add('dark')` double lock prevents theme bleed
-- **Tooltip/Bubble/Button fixes** — Custom CSS overrides prevent the bg-foreground/text-background inversion trap
+- **Matrix digital rain** - Canvas animation of binary 0/1 falling code, bold fluorescent green, 50ms frame rate, auto-inject into `#root` DOM
+- **Full dark-mode color palette** - Green phosphor (`#00ff41` / `#c8ffc8`) on pure black
+- **Light-mode safe** - `html:has(body.neo-active)` + `documentElement.classList.add('dark')` double lock prevents theme bleed
+- **Tooltip/Bubble/Button fixes** - Custom CSS overrides prevent the bg-foreground/text-background inversion trap
 - **Noto Sans SC** leading font stack with Source Code Pro fallback for legible Chinese
 - **Neon glow borders** on search fields, scroll-to-top buttons, focus rings
 - **16-color green ANSI** terminal palette
@@ -34,7 +34,7 @@ A complete Matrix/cyberpunk built-in theme for the Hermes Desktop Electron app. 
 
 ## Prerequisites
 
-- **Hermes Desktop** installed (Electron app — macOS `.app`, Linux AppImage, or Windows `.exe`)
+- **Hermes Desktop** installed (Electron app - macOS `.app`, Linux AppImage, or Windows `.exe`)
 - **Hermes Agent source code** accessible locally (needed to rebuild the asar)
 - **Node.js 20+** and **npm** (for `npm run build` and `npx asar`)
 - Git (to clone the theme repo)
@@ -60,7 +60,7 @@ cd <hermes-agent>/apps/desktop
 npm run build
 
 # 4. Pack the asar
-# ⚠️ NEVER use `npx asar pack dist app.asar` — missing package.json + electron/main.cjs will crash
+# ⚠️ NEVER use `npx asar pack dist app.asar` - missing package.json + electron/main.cjs will crash
 rm -rf /tmp/neo-asar-root && mkdir -p /tmp/neo-asar-root
 cp -r dist assets electron public /tmp/neo-asar-root/
 cp package.json /tmp/neo-asar-root/
@@ -71,7 +71,7 @@ cd /tmp/neo-asar-root && npx asar pack . <Hermes.app/Contents/Resources/app.asar
 
 ### Important: MUST pack the complete tree
 
-The common mistake is running `npx asar pack dist app.asar`. This only packs the `dist/` directory and **omits** `package.json`, `electron/main.cjs`, and other files the Electron runtime needs — the app will crash on launch.
+The common mistake is running `npx asar pack dist app.asar`. This only packs the `dist/` directory and **omits** `package.json`, `electron/main.cjs`, and other files the Electron runtime needs - the app will crash on launch.
 
 Always include: `dist/`, `assets/`, `electron/`, `public/`, and `package.json`.
 
@@ -118,7 +118,7 @@ cd /tmp/neo-asar-root && npx asar pack . "$APP_ASAR"
 
 ## Restore After Hermes Desktop Update (~5 min)
 
-When Hermes Desktop updates, it replaces `app.asar` — your Neo theme is lost. To restore:
+When Hermes Desktop updates, it replaces `app.asar` - your Neo theme is lost. To restore:
 
 ```bash
 # 1. Pull latest theme (or re-clone)
@@ -207,7 +207,7 @@ Set `rainEnabled: false` in `presets.ts` to keep the green phosphor theme withou
 
 **Symptom:** Hermes Desktop won't launch, or shows a white screen.
 
-**Cause:** Incomplete asar pack — missing `package.json`, `electron/`, or `assets/`.
+**Cause:** Incomplete asar pack - missing `package.json`, `electron/`, or `assets/`.
 
 **Fix:** Re-pack with ALL required directories:
 ```bash
@@ -249,9 +249,9 @@ git log --oneline -5
 
 ## Related Tools
 
-- [hermes-skins](https://github.com/mdgld/hermes-skins) — Monokai-based TUI/CLI skins
-- [hermes-mod](https://github.com/Joello2925/hermes-mod) — Web UI for managing CLI skins
-- [Hermes Desktop Companion](https://github.com/aradotso/hermes-skills) — Desktop agent companion app
+- [hermes-skins](https://github.com/mdgld/hermes-skins) - Monokai-based TUI/CLI skins
+- [hermes-mod](https://github.com/Joello2925/hermes-mod) - Web UI for managing CLI skins
+- [Hermes Desktop Companion](https://github.com/aradotso/hermes-skills) - Desktop agent companion app
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "New Skills — August 12, 2026 - CorpusIQ Docs"
-description: 7 newly discovered Hermes Agent skills from skills.sh marketplace sweep — HeartMuLa music generation, simplify-code parallel review, ideation brainstorming, subagent-driven development, Linear integration, webhook subscriptions, and grounded citations.
+title: "New Skills - August 12, 2026 - CorpusIQ Docs"
+description: 7 newly discovered Hermes Agent skills from skills.sh marketplace sweep - HeartMuLa music generation, simplify-code parallel review, ideation brainstorming, subagent-driven development, Linear integration, webhook subscriptions, and grounded citations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — August 12, 2026
+# New Skills - August 12, 2026
 
 **Source:** [skills.sh](https://skills.sh) via `npx skills search`
 **Date:** August 12, 2026
@@ -34,16 +34,16 @@ Routine daily sweep of the skills.sh marketplace. After cross-referencing the fu
 
 ## Skill Highlights
 
-### heartmula — Open-Source Suno Alternative (224 installs)
+### heartmula - Open-Source Suno Alternative (224 installs)
 Apache 2.0 licensed music generation. Four-model pipeline: HeartMuLa generates from lyrics + tags, HeartCodec decodes to audio, HeartTranscriptor transcribes vocals, HeartCLAP verifies style alignment. Runs locally, no API keys, full ownership of output.
 
-### simplify-code — Four Parallel Code Reviewers (187 installs)
+### simplify-code - Four Parallel Code Reviewers (187 installs)
 Cleanup pass with four concurrent reviewers: Reuse, Quality, Efficiency, Altitude. Each hunts its own problem class. Four reviewers, one review's latency. Complements `requesting-code-review` (bug hunt) with waste reduction.
 
-### subagent-driven-development — Multi-Agent Task Dispatch (88 installs)
+### subagent-driven-development - Multi-Agent Task Dispatch (88 installs)
 Fresh subagent per task with automated two-stage review. Consumes `plan` skill output. Clean context isolation prevents cross-task errors. Automated gating between steps.
 
-### grounded-citations — Verifiable Source Chains (22 installs)
+### grounded-citations - Verifiable Source Chains (22 installs)
 Low install count but high research integrity value. Perplexity-style inline citations with ledger-owned URL mapping. Verbatim quote verification. `verify --evidence` command. Integrates with `research-paper-writing` for academic pipelines.
 
 ---
@@ -51,10 +51,10 @@ Low install count but high research integrity value. Perplexity-style inline cit
 ## Installation
 
 ```bash
-# HeartMuLa — AI Music Generation
+# HeartMuLa - AI Music Generation
 npx skills add nousresearch/hermes-agent --skill heartmula
 
-# Simplify Code — Parallel Review
+# Simplify Code - Parallel Review
 npx skills add nousresearch/hermes-agent --skill simplify-code
 
 # Creative Ideation

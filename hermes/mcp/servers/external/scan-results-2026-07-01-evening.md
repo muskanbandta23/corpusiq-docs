@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Scan Results — 2026-07-01 (PM Evening Update)"
+title: "MCP Server Scan Results - 2026-07-01 (PM Evening Update)"
 description: "Evening update to the July 1 MCP server discovery scan. 5 new business-relevant servers found via GitHub API."
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-01-evening/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Directory Scan — July 1, 2026 (PM Evening Update)
+# MCP Server Directory Scan - July 1, 2026 (PM Evening Update)
 
 ## SOURCE: GitHub API (created >2026-07-01T12:00)
 
@@ -16,26 +16,26 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - GitHub API search: `topic:mcp-server created:>2026-07-01T12:00Z`
 - 50 repos returned; 5 passed business-relevance filter
 - Cross-referenced against existing catalog (index.md, morning + afternoon scans)
-- mcp.so and mcpservers.org both accessible but serve SSR SPAs — scraping yields no new data
+- mcp.so and mcpservers.org both accessible but serve SSR SPAs - scraping yields no new data
 - This is the third scan of the day (morning, PM, PM evening)
 
 ---
 
 ## NEW BUSINESS-RELEVANT SERVERS
 
-### 1. vrules — Agent Governance & Guardrails ★ New
+### 1. vrules - Agent Governance & Guardrails ★ New
 - **Category:** Compliance / Security / Agent Infrastructure
 - Open-source, vendor-neutral agent-governance and LLM guardrails framework. Vector-enabled rules engine for MCP proxying, policy-as-code, conditional organizational memory, and browser/WASM execution.
 - GitHub: github.com/ops-ping/vrules (⭐0)
 - **Business relevance:** First dedicated agent-governance MCP server. Operators deploying AI agent fleets in production need programmable guardrails, policy enforcement, and governance without vendor lock-in. vrules fills this gap with a vector-enabled rules engine that matches intent (not just keywords) and an MCP proxy architecture that sits between agents and their tools. Essential for regulated industries and any team running multi-agent deployments. **Created integration guide.**
 
-### 2. Hermes Plant MCP Server — Deterministic Finance & Quant APIs ★ New
+### 2. Hermes Plant MCP Server - Deterministic Finance & Quant APIs ★ New
 - **Category:** Finance / Quantitative Analysis
 - Runnable MCP server for deterministic finance and quant APIs paid over x402. Provably correct financial calculations, quantitative models, and market analytics with cryptographic payment rails.
 - GitHub: github.com/JesseGdotIO/hermesplant-mcp-server (⭐0)
-- **Business relevance:** Bridges the trust gap between AI agents and financial computation. Every calculation is deterministic (same inputs → same outputs, like a smart contract) with x402 micropayment rails for pay-per-call pricing. Essential for operators building AI-driven quantitative finance workflows — portfolio analysis, options pricing, risk management, DCF modeling — where hallucinated numbers are unacceptable. **Created integration guide.**
+- **Business relevance:** Bridges the trust gap between AI agents and financial computation. Every calculation is deterministic (same inputs → same outputs, like a smart contract) with x402 micropayment rails for pay-per-call pricing. Essential for operators building AI-driven quantitative finance workflows - portfolio analysis, options pricing, risk management, DCF modeling - where hallucinated numbers are unacceptable. **Created integration guide.**
 
-### 3. Google Analytics MCP — Open-Source GA4 ★ New
+### 3. Google Analytics MCP - Open-Source GA4 ★ New
 - **Category:** Analytics / Marketing
 - Free, open-source MCP server (44 tools) connecting Google Analytics 4 to Claude, Cursor, Windsurf, and any MCP client. Traffic analysis, funnel exploration, real-time reporting, and e-commerce analytics via natural language. MIT license.
 - GitHub: github.com/yusofansari/google-analytics-mcp (⭐0)
@@ -77,7 +77,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 - **Agent governance emerges as a category**: vrules is the first dedicated agent governance MCP server. As operators move from single-agent experiments to multi-agent production deployments, programmable guardrails become essential infrastructure. This category will grow rapidly.
 - **Open-source Google Marketing Suite arrives**: yusofansari's trio (GA4 + Ads + GSC, all MIT-licensed) signals a shift toward zero-cost, no-vendor-lock-in marketing MCPs. Perfect for operators who want Google data without proprietary MCP dependencies.
-- **Deterministic finance meets crypto payment rails**: Hermes Plant combines provably correct financial computation with x402 micropayments — a model for trustless, verifiable AI agent finance. The "smart contract for quant finance" pattern could become standard.
+- **Deterministic finance meets crypto payment rails**: Hermes Plant combines provably correct financial computation with x402 micropayments - a model for trustless, verifiable AI agent finance. The "smart contract for quant finance" pattern could become standard.
 - **3rd scan of the day**: The MCP ecosystem is now generating enough new servers daily to warrant multiple sweeps. Morning (pushed), afternoon (created), and evening (created after noon) each yield different results.
 
 ---

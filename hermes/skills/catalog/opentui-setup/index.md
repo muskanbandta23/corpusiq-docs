@@ -1,6 +1,6 @@
 ---
-title: OpenTUI — Setup Guide for Hermes Agents
-description: "Build terminal user interfaces with Core, React, or Solid APIs — 52.8K+ installs. Source: msmps/opentui-skill (Community)."
+title: OpenTUI - Setup Guide for Hermes Agents
+description: "Build terminal user interfaces with Core, React, or Solid APIs - 52.8K+ installs. Source: msmps/opentui-skill (Community)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opentui-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenTUI — Setup Guide
+# OpenTUI - Setup Guide
 
 **Source:** [msmps/opentui-skill](https://github.com/msmps/opentui-skill) (Community)
 **Skill:** `opentui` · **Installs:** 52,800+ · **Category:** Development & Tools
@@ -25,12 +25,12 @@ npx skills add msmps/opentui-skill@opentui
 ## What It Does
 
 OpenTUI provides a complete TUI development workflow:
-- **Framework selection** — Choose Core, React, or Solid based on project needs
-- **Component library** — Pre-built TUI components (tables, forms, charts, etc.)
-- **Layout system** — Flexible terminal layout management
-- **Keyboard handling** — Keymap configuration and input management
-- **Animation support** — Terminal animations and transitions
-- **Testing utilities** — TUI-specific test helpers
+- **Framework selection** - Choose Core, React, or Solid based on project needs
+- **Component library** - Pre-built TUI components (tables, forms, charts, etc.)
+- **Layout system** - Flexible terminal layout management
+- **Keyboard handling** - Keymap configuration and input management
+- **Animation support** - Terminal animations and transitions
+- **Testing utilities** - TUI-specific test helpers
 
 ## Prerequisites
 
@@ -44,10 +44,10 @@ OpenTUI provides a complete TUI development workflow:
 
 When using OpenTUI with Hermes agents:
 
-1. **Use `create-tui` for new projects** — See framework `REFERENCE.md` quick starts
-2. **`create-tui` options must come before arguments** — `bunx create-tui -t react my-app` works, `bunx create-tui my-app -t react` does NOT
-3. **Never call `process.exit()` directly** — Use `renderer.destroy()` instead
-4. **Text styling requires nested tags in React/Solid** — Use modifier elements, not props
+1. **Use `create-tui` for new projects** - See framework `REFERENCE.md` quick starts
+2. **`create-tui` options must come before arguments** - `bunx create-tui -t react my-app` works, `bunx create-tui my-app -t react` does NOT
+3. **Never call `process.exit()` directly** - Use `renderer.destroy()` instead
+4. **Text styling requires nested tags in React/Solid** - Use modifier elements, not props
 
 ## Usage with Hermes
 
@@ -71,19 +71,19 @@ The skill loads detailed reference files based on your framework choice:
 ## Reference File Structure
 
 Framework references follow a 5-file pattern:
-- `REFERENCE.md` — Main framework reference
-- `components/` — Component-specific docs
-- `layout/` — Layout system docs
-- `keyboard/` — Input handling
-- `testing/` — Test patterns
+- `REFERENCE.md` - Main framework reference
+- `components/` - Component-specific docs
+- `layout/` - Layout system docs
+- `keyboard/` - Input handling
+- `testing/` - Test patterns
 
 Cross-cutting concepts (animation, keymaps) are single-file guides.
 
 ## Related Skills
 
-- [CLI Anything Harnesses Setup](/docs/hermes/skills/catalog/cli-anything-harnesses-setup/) — CLI tool wrappers
-- [Browser Harness Setup](/docs/hermes/skills/catalog/browser-harness-setup/) — Browser automation
-- [Terminal Skills Setup](/docs/hermes/skills/catalog/terminal-skills-setup/) — General terminal operations
+- [CLI Anything Harnesses Setup](/docs/hermes/skills/catalog/cli-anything-harnesses-setup/) - CLI tool wrappers
+- [Browser Harness Setup](/docs/hermes/skills/catalog/browser-harness-setup/) - Browser automation
+- [Terminal Skills Setup](/docs/hermes/skills/catalog/terminal-skills-setup/) - General terminal operations
 
 ## Source
 

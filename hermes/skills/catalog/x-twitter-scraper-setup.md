@@ -1,6 +1,6 @@
 ---
-title: X/Twitter Scraper — Full Setup Guide for Hermes Agents
-description: Install and configure the x-twitter-scraper skill from sickn33/antigravity-awesome-skills. Comprehensive X/Twitter automation — tweet search, follower export, posting, DMs, webhooks, MCP, Hermes Tweet plugin, and TweetClaw. 148 installs.
+title: X/Twitter Scraper - Full Setup Guide for Hermes Agents
+description: Install and configure the x-twitter-scraper skill from sickn33/antigravity-awesome-skills. Comprehensive X/Twitter automation - tweet search, follower export, posting, DMs, webhooks, MCP, Hermes Tweet plugin, and TweetClaw. 148 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/x-twitter-scraper-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# X/Twitter Scraper — Setup Guide
+# X/Twitter Scraper - Setup Guide
 
 **Source:** [sickn33/antigravity-awesome-skills](https://skills.sh/sickn33/antigravity-awesome-skills) (148 installs) | [GitHub](https://github.com/sickn33/antigravity-awesome-skills) (41,720⭐)
 **Category:** social, data
@@ -23,7 +23,7 @@ Comprehensive X/Twitter automation skill for Hermes Agent. Covers the full Twitt
 npx skills add sickn33/antigravity-awesome-skills --skill x-twitter-scraper
 ```
 
-This is a documentation-only skill — it doesn't bundle executable code. The external tools (Xquik, Hermes Tweet plugin, TweetClaw) must be installed separately.
+This is a documentation-only skill - it doesn't bundle executable code. The external tools (Xquik, Hermes Tweet plugin, TweetClaw) must be installed separately.
 
 ---
 
@@ -105,4 +105,4 @@ hermes tweet_explore --query "test" --count 1
 ---
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june25-2026-update/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

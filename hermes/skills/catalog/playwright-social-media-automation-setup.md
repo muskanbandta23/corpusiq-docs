@@ -1,6 +1,6 @@
 ---
-title: Playwright Social Media Automation — API-First, Browser Fallback
-description: Automate social posting and comment monitoring with Playwright when APIs are unavailable. Reddit, Discord, and generic web forms — with anti-bot patterns, reliability waits, and a fallback decision tree.
+title: Playwright Social Media Automation - API-First, Browser Fallback
+description: Automate social posting and comment monitoring with Playwright when APIs are unavailable. Reddit, Discord, and generic web forms - with anti-bot patterns, reliability waits, and a fallback decision tree.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-social-media-automation-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Playwright Social Media Automation — Setup Guide
+# Playwright Social Media Automation - Setup Guide
 
-**Source:** [microsoft/playwright](https://github.com/microsoft/playwright) — 74,000+ ★ | Python/JS
+**Source:** [microsoft/playwright](https://github.com/microsoft/playwright) - 74,000+ ★ | Python/JS
 **Category:** Automation / Social Media
 **Quality Tier:** 🟢 Production (official Microsoft project)
 
@@ -90,7 +90,7 @@ async def retry_action(async_fn, max_attempts=3, delay=2):
 
 - Use a realistic user-agent string (never "Playwright")
 - Headful mode on first deployment; go headless only after it works
-- Add human-like delays between actions (500–2000 ms)
+- Add human-like delays between actions (500-2000 ms)
 - Use `launch_persistent_context()` so login sessions survive restarts
 
 ### 5. Wait for JavaScript to settle

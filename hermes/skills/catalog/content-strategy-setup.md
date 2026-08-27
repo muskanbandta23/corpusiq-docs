@@ -1,5 +1,5 @@
 ---
-title: "Content Strategy — Full Planning Framework for Hermes"
+title: "Content Strategy - Full Planning Framework for Hermes"
 description: Plan content that drives traffic, builds authority, and generates leads. Covers searchable vs shareable frameworks, topic clusters, editorial calendars, and content roadmaps. 110.2K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/content-strategy-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Content Strategy — Setup Guide
+# Content Strategy - Setup Guide
 
 **Source:** [coreyhaines31/marketingskills](https://skills.sh/coreyhaines31/marketingskills/content-strategy) (110,200+ installs)
 **Category:** Growth / Content Marketing
 **Quality Tier:** 🟢 Production
 
-A comprehensive content strategy framework for planning content that drives traffic, builds authority, and generates leads. Every piece of content must be searchable, shareable, or both — with search traffic as the foundation. Covers business context gathering, customer research, competitive gap analysis, and editorial calendar design.
+A comprehensive content strategy framework for planning content that drives traffic, builds authority, and generates leads. Every piece of content must be searchable, shareable, or both - with search traffic as the foundation. Covers business context gathering, customer research, competitive gap analysis, and editorial calendar design.
 
 ---
 
@@ -53,7 +53,7 @@ npx skills add coreyhaines31/marketingskills --skill content-strategy
 - Language customers use to describe their problems
 
 #### 3. Current State Audit
-- Existing content inventory — what's working?
+- Existing content inventory - what's working?
 - Resources available: writers, budget, time
 - Content formats: written, video, audio
 
@@ -71,7 +71,7 @@ npx skills add coreyhaines31/marketingskills --skill content-strategy
 | **Shareable** | Social media, email, Slack | Immediate reach | Shares, engagement, referrals |
 | **Both** | In-depth guides, original research | Compound growth | Both metrics |
 
-Prioritize search-first — search traffic compounds. Shareable content spikes and fades.
+Prioritize search-first - search traffic compounds. Shareable content spikes and fades.
 
 ---
 
@@ -79,11 +79,11 @@ Prioritize search-first — search traffic compounds. Shareable content spikes a
 
 When invoked, the skill guides through:
 
-1. **Discovery** — Gather business context, customer insights, competitive landscape
-2. **Topic Cluster Design** — Pillar pages + cluster content mapping
-3. **Editorial Calendar** — 90-day content roadmap with priorities
-4. **Format Selection** — Match topic to best format (guide, video, tool, template)
-5. **Distribution Plan** — Where each piece lives and how it's promoted
+1. **Discovery** - Gather business context, customer insights, competitive landscape
+2. **Topic Cluster Design** - Pillar pages + cluster content mapping
+3. **Editorial Calendar** - 90-day content roadmap with priorities
+4. **Format Selection** - Match topic to best format (guide, video, tool, template)
+5. **Distribution Plan** - Where each piece lives and how it's promoted
 
 ---
 
@@ -116,10 +116,10 @@ Topic Cluster: "Business Operator Data Consolidation"
 
 ## Tips
 
-- Start with customer questions, not keyword research — real problems produce better content
-- Every piece should have ONE primary goal: rank, share, or convert — not all three
-- Topic clusters beat isolated posts — Google rewards topical authority
-- Repurpose long-form into social snippets — one guide becomes 10+ social posts
+- Start with customer questions, not keyword research - real problems produce better content
+- Every piece should have ONE primary goal: rank, share, or convert - not all three
+- Topic clusters beat isolated posts - Google rewards topical authority
+- Repurpose long-form into social snippets - one guide becomes 10+ social posts
 
 ---
 
@@ -136,6 +136,6 @@ Topic Cluster: "Business Operator Data Consolidation"
 
 ## See Also
 
-- Social Media Setup — Social media content creation (companion skill)
-- [HubSpot Content Strategy Guide](https://blog.hubspot.com/marketing/content-marketing-strategy) — Content marketing strategy fundamentals
-- [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) — SEO fundamentals and best practices
+- Social Media Setup - Social media content creation (companion skill)
+- [HubSpot Content Strategy Guide](https://blog.hubspot.com/marketing/content-marketing-strategy) - Content marketing strategy fundamentals
+- [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) - SEO fundamentals and best practices

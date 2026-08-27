@@ -1,11 +1,11 @@
 ---
 title: "Odoo - CorpusIQ Docs - CorpusIQ"
-description: "Pull your Odoo ERP into conversation — sales orders, invoices, CRM pipeline, inventory, projects, employees — without clicking through twenty Odoo scr."
+description: "Pull your Odoo ERP into conversation - sales orders, invoices, CRM pipeline, inventory, projects, employees - without clicking through twenty Odoo scr."
 ---
 # Odoo
 
 ## What it unlocks
-Pull your Odoo ERP into conversation — sales orders, invoices, CRM pipeline, inventory, projects, employees — without clicking through twenty Odoo screens. Ask questions that span modules in one shot.
+Pull your Odoo ERP into conversation - sales orders, invoices, CRM pipeline, inventory, projects, employees - without clicking through twenty Odoo screens. Ask questions that span modules in one shot.
 
 ## Before you connect
 - An Odoo instance URL (Odoo Online, Odoo.sh, or self-hosted).
@@ -41,9 +41,9 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 - "List active projects and their task counts."
 
 ## Troubleshooting
-- "Authentication failed" — generate a fresh API key in Odoo (Preferences → Account Security) and retry.
-- "Database not found" — check that the database name exactly matches what Odoo shows on the login screen.
-- A module looks empty — confirm the connected user has access rights to that module's records.
+- "Authentication failed" - generate a fresh API key in Odoo (Preferences → Account Security) and retry.
+- "Database not found" - check that the database name exactly matches what Odoo shows on the login screen.
+- A module looks empty - confirm the connected user has access rights to that module's records.
 ---
 
 *

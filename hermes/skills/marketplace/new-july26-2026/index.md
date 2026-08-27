@@ -1,5 +1,5 @@
 ---
-title: "New Skills — July 26, 2026 Marketplace Sweep"
+title: "New Skills - July 26, 2026 Marketplace Sweep"
 description: "6 new enterprise publishers, 6 setup guides created, ~146K+ combined installs. Enterprise platform sweep of skills.sh for Hermes-relevant skills from"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july26-2026/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 26, 2026
+# New Skills - July 26, 2026
 
 ## Summary
 
@@ -81,6 +81,6 @@ Enterprise publisher sweep: searched skills.sh by owner for all major cloud and 
 - This sweep specifically targeted enterprise platform publishers that previous sweeps (focused on broad search terms) had missed. The owner-scoped search approach revealed high-value skills from major platforms.
 - **cloudflare/skills** has the highest combined install count (100K+) of any single publisher documented outside of the top community packages (like obra/superpowers at 1.2M).
 - **google/skills** at 75+ skills and 15K stars is the most comprehensive agent skills collection from any single platform vendor.
-- **microsoft** has skills (vscode, aspire-skills, skills-for-fabric, win-dev-skills) but all had fewer than 200 installs each — deprioritized pending install growth.
-- **nvidia/skills** (1.6K installs) covers Jetson, TAO, and NeMo but is specialized for hardware and ML research — deferred for a future AI/ML-specific sweep.
+- **microsoft** has skills (vscode, aspire-skills, skills-for-fabric, win-dev-skills) but all had fewer than 200 installs each - deprioritized pending install growth.
+- **nvidia/skills** (1.6K installs) covers Jetson, TAO, and NeMo but is specialized for hardware and ML research - deferred for a future AI/ML-specific sweep.
 - 310 catalog entries now exist (up from 304 after this sweep).

@@ -1,5 +1,5 @@
 ---
-title: Hermes Labyrinth — Observability Dashboard Plugin for Hermes Agent
+title: Hermes Labyrinth - Observability Dashboard Plugin for Hermes Agent
 description: Read-only observability plugin that maps agent journeys, crossings, guideposts, and cron runs. Exportable reports. 187+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Labyrinth — Setup Guide
+# Hermes Labyrinth - Setup Guide
 
 **Source:** [aradotso/trending-skills](https://github.com/aradotso/trending-skills) (187+ installs)
 **Category:** Agent Infrastructure / Observability
@@ -147,8 +147,8 @@ curl http://127.0.0.1:9119/api/plugins/hermes-labyrinth/journeys | jq '. | lengt
 
 ## Notes
 
-- **Read-only by design** — no write operations, safe to run in production
-- **Black-box recorder** — not a chat UI, designed for post-hoc analysis
-- **Exportable evidence** — JSON and Markdown reports for sharing findings
+- **Read-only by design** - no write operations, safe to run in production
+- **Black-box recorder** - not a chat UI, designed for post-hoc analysis
+- **Exportable evidence** - JSON and Markdown reports for sharing findings
 - From the [ara.so](https://ara.so) Daily 2026 Skills collection
 - Complements `openclaw-control-center` for agent monitoring

@@ -1,6 +1,6 @@
 ---
-title: Grounded Citations — Skill Setup Guide
-description: Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains — Perplexity-style fact-checking for research and documents — 22 installs.
+title: Grounded Citations - Skill Setup Guide
+description: Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains - Perplexity-style fact-checking for research and documents - 22 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/grounded-citations-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Grounded Citations — Setup Guide
+# Grounded Citations - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/grounded-citations) (22 installs)
 **Category:** Research / Quality Assurance
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** Hermes Agent, web retrieval tools (web_search/web_extract)
 
-Every claim from an outside source gets an inline numbered citation and a `Sources:` reference list, Perplexity-style. A ledger script owns the `url → [n]` mapping so numbers and URLs come from retrieval, never from model memory. For high-stakes work, the same ledger doubles as a fact-checking chain — verbatim quotes are verified against source text, and model-knowledge claims are flagged `[unverified]`.
+Every claim from an outside source gets an inline numbered citation and a `Sources:` reference list, Perplexity-style. A ledger script owns the `url → [n]` mapping so numbers and URLs come from retrieval, never from model memory. For high-stakes work, the same ledger doubles as a fact-checking chain - verbatim quotes are verified against source text, and model-knowledge claims are flagged `[unverified]`.
 
 ---
 
@@ -85,9 +85,9 @@ ColBERT-style late interaction has shown 15-20% improvement over
 single-vector methods on the BEIR benchmark [3].
 
 Sources:
-[1] https://arxiv.org/abs/2401.xxxxx — "Agentic RAG: A Survey"
-[2] https://blog.langchain.dev/... — Hybrid Search in Production
-[3] https://arxiv.org/abs/2004.12832 — ColBERT (original paper)
+[1] https://arxiv.org/abs/2401.xxxxx - "Agentic RAG: A Survey"
+[2] https://blog.langchain.dev/... - Hybrid Search in Production
+[3] https://arxiv.org/abs/2004.12832 - ColBERT (original paper)
 ```
 
 ### Verify existing content
@@ -96,7 +96,7 @@ Sources:
 > Verify the citations in /home/user/report.md --evidence
 ```
 
-This checks every `[n]` citation — if a claim doesn't trace to source text, it fails.
+This checks every `[n]` citation - if a claim doesn't trace to source text, it fails.
 
 ---
 
@@ -111,7 +111,7 @@ This checks every `[n]` citation — if a claim doesn't trace to source text, it
 ```markdown
 ...as demonstrated by Smith et al. [^1].
 
-[^1]: https://example.com/paper — "Title Here" (2024)
+[^1]: https://example.com/paper - "Title Here" (2024)
 ```
 
 **In documents (PDF/docx):**
@@ -144,7 +144,7 @@ Superscript numbers with endnote-style source list.
 
 ## Tips
 
-- **Trust the ledger, not memory:** The `url → [n]` mapping is deterministic — model never invents URLs
+- **Trust the ledger, not memory:** The `url → [n]` mapping is deterministic - model never invents URLs
 - **Verbatim quotes only:** If the text isn't literally in the fetched page, the citation fails
 - **`[unverified]` is honest:** Better to flag model knowledge than fabricate a source
 - **Re-run `verify --evidence` after edits:** Adding/removing claims may break citation chains

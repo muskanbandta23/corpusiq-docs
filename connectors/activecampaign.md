@@ -1,11 +1,11 @@
 ---
 title: "ActiveCampaign - CorpusIQ Docs"
-description: "ActiveCampaign holds your email contacts, automations, and pipeline deals — the moment-by-moment record of how prospects move from a first open to a c."
+description: "ActiveCampaign holds your email contacts, automations, and pipeline deals - the moment-by-moment record of how prospects move from a first open to a c."
 ---
 # ActiveCampaign
 
 ## What it unlocks
-ActiveCampaign holds your email contacts, automations, and pipeline deals — the moment-by-moment record of how prospects move from a first open to a closed sale. Connecting it lets CorpusIQ answer questions about list health, campaign performance, and which automations are actually pulling weight, alongside revenue data from Shopify, QuickBooks, and GA4.
+ActiveCampaign holds your email contacts, automations, and pipeline deals - the moment-by-moment record of how prospects move from a first open to a closed sale. Connecting it lets CorpusIQ answer questions about list health, campaign performance, and which automations are actually pulling weight, alongside revenue data from Shopify, QuickBooks, and GA4.
 
 ## Before you connect
 - An ActiveCampaign account with admin access
@@ -41,9 +41,9 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 - "Find every contact tagged 'webinar-april'."
 
 ## Troubleshooting
-- **"Invalid API key"** — Regenerate the key in ActiveCampaign (Settings → Developer) and paste the new value.
-- **API URL wrong** — It must be your full account URL like `https://youraccount.api-us1.com`, not the dashboard URL.
-- **Empty campaign list** — Your API user may not have permission for the campaign view; switch to an admin-level key.
+- **"Invalid API key"** - Regenerate the key in ActiveCampaign (Settings → Developer) and paste the new value.
+- **API URL wrong** - It must be your full account URL like `https://youraccount.api-us1.com`, not the dashboard URL.
+- **Empty campaign list** - Your API user may not have permission for the campaign view; switch to an admin-level key.
 ---
 
 *

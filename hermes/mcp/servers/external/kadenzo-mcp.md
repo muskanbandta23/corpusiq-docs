@@ -1,5 +1,5 @@
 ---
-title: "Kadenzo MCP — Agent-Native Social Media Scheduling and"
+title: "Kadenzo MCP - Agent-Native Social Media Scheduling and"
 description: "Kadenzo MCP server lets any MCP-compatible agent schedule, manage, generate, and analyze social media content. Full content pipeline from creation to"
 category: mcp
 tags: [mcp-server, social-media, scheduling, content-management, marketing]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Kadenzo MCP Server — Agent-Native Social Media
+# Kadenzo MCP Server - Agent-Native Social Media
 
 Kadenzo MCP lets any AI agent (Claude Desktop, Cursor, ChatGPT, Hermes) schedule, manage, generate, and analyze social media content. It's the first social media management platform purpose-built for agent-driven workflows rather than human dashboards.
 
@@ -21,7 +21,7 @@ Kadenzo MCP lets any AI agent (Claude Desktop, Cursor, ChatGPT, Hermes) schedule
 
 ## Why This Matters
 
-Social media management tools (Postiz, Buffer, Hootsuite) are built for humans clicking buttons. Kadenzo flips the model — the agent is the operator and the tool exposes its full capabilities through MCP. For teams already using AI agents for content creation, Kadenzo eliminates the "copy-paste from agent to scheduler" step.
+Social media management tools (Postiz, Buffer, Hootsuite) are built for humans clicking buttons. Kadenzo flips the model - the agent is the operator and the tool exposes its full capabilities through MCP. For teams already using AI agents for content creation, Kadenzo eliminates the "copy-paste from agent to scheduler" step.
 
 ## Installation
 
@@ -65,7 +65,7 @@ Requires a Kadenzo API key. Sign up at [Kadenzo](https://github.com/Kadenzo/kade
 
 ## CorpusIQ Relevance
 
-Kadenzo competes in the same space as Postiz (CorpusIQ's current social scheduler) but with an MCP-native architecture. Worth monitoring closely — if agent-native social scheduling becomes the standard, CorpusIQ's Postiz integration should evolve to match. The `generate_content` tool with brand voice parameters is especially interesting for CorpusIQ's multi-avatar content strategy.
+Kadenzo competes in the same space as Postiz (CorpusIQ's current social scheduler) but with an MCP-native architecture. Worth monitoring closely - if agent-native social scheduling becomes the standard, CorpusIQ's Postiz integration should evolve to match. The `generate_content` tool with brand voice parameters is especially interesting for CorpusIQ's multi-avatar content strategy.
 
 ## See Also
 

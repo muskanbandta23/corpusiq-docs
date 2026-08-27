@@ -44,7 +44,7 @@ Each stage has its own cron schedule, triggers, and automated actions. The pipel
                      └───────────────────┘
 ```
 
-## Stage 1: Onboarding (Days 0–30)
+## Stage 1: Onboarding (Days 0-30)
 
 **Goal:** Get new customers to their first meaningful value milestone within 30 days.
 
@@ -66,7 +66,7 @@ Each stage has its own cron schedule, triggers, and automated actions. The pipel
 
 **Day 7 Milestone Review:**
 1. Query analytics for: login count, features used, time spent, configuration completeness
-2. Score onboarding health (0–100):
+2. Score onboarding health (0-100):
    ```
    health_score = (login_count × 5) 
                 + (features_configured × 15) 
@@ -89,7 +89,7 @@ A customer graduates from onboarding when:
 
 **Cron:** `0 8 * * *`  --  daily onboarding health sweep.
 
-## Stage 2: Engagement (Days 31–90)
+## Stage 2: Engagement (Days 31-90)
 
 **Goal:** Deepen product usage, expand to more team members, and establish recurring value.
 
@@ -153,15 +153,15 @@ risk_score = (login_decline × 20)       # Login frequency dropped > 30%
 ```
 
 Risk categories:
-- **0–30:** Healthy  --  standard engagement workflow
-- **31–50:** At Risk  --  initiate retention playbook
+- **0-30:** Healthy  --  standard engagement workflow
+- **31-50:** At Risk  --  initiate retention playbook
 - **51+:** Critical  --  executive escalation
 
 **Cron:** `0 7 * * 1-5`  --  daily churn risk sweep.
 
 ### Retention Playbook
 
-**At Risk (31–50):**
+**At Risk (31-50):**
 1. Notify account manager with risk score breakdown  --  which specific signals triggered the alert
 2. Schedule a check-in call within 5 business days
 3. Send curated content addressing the specific area of concern (e.g., if feature usage dropped, send training material for the dropped features)

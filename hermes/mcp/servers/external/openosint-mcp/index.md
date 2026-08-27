@@ -1,6 +1,6 @@
 ---
-title: "OpenOSINT MCP — Integration Guide"
-description: "MCP-native OSINT framework — 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open"
+title: "OpenOSINT MCP - Integration Guide"
+description: "MCP-native OSINT framework - 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open"
 category: "Security & Intelligence"
 stars: "★★"
 source: mcpservers.org
@@ -15,7 +15,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # OpenOSINT MCP
 
-MCP-native open-source intelligence framework. Nine tools covering the full OSINT stack — email enumeration, username search, breach verification, WHOIS lookups, IP intelligence, subdomain discovery, Google dorks, paste searches, and phone intelligence. Free, open source (MIT), and works as both an MCP server and standalone Python CLI.
+MCP-native open-source intelligence framework. Nine tools covering the full OSINT stack - email enumeration, username search, breach verification, WHOIS lookups, IP intelligence, subdomain discovery, Google dorks, paste searches, and phone intelligence. Free, open source (MIT), and works as both an MCP server and standalone Python CLI.
 
 ## What It Does
 
@@ -113,17 +113,17 @@ mcp_servers:
 
 ### Vendor Due Diligence
 ```
-Agent: "We're about to sign a $50K contract with vendor.com. Run full OSINT — anything concerning?"
+Agent: "We're about to sign a $50K contract with vendor.com. Run full OSINT - anything concerning?"
 → whois_lookup(vendor.com) → subdomain_enum → email_lookup(contact emails) → breach_check(vendor.com) → google_dorks("site:vendor.com confidential") → paste_search("vendor.com") → consolidated report
 ```
-Result: "vendor.com registered 2019, clean WHOIS, no breaches, but found exposed .env backup on staging.vendor.com (Google dorks hit) and one employee email in a 2024 breach — flag for security review."
+Result: "vendor.com registered 2019, clean WHOIS, no breaches, but found exposed .env backup on staging.vendor.com (Google dorks hit) and one employee email in a 2024 breach - flag for security review."
 
 ### Competitive Intelligence
 ```
 Agent: "What subdomains does competitor.com have and what tech stack is on each?"
 → subdomain_enum(competitor.com) → ip_lookup for each → identify hosting/CDN/tech stack → report
 ```
-Result: 24 subdomains found — staging, api, admin, analytics, internal wiki, partner portal. Tech stack: AWS + Cloudflare + React.
+Result: 24 subdomains found - staging, api, admin, analytics, internal wiki, partner portal. Tech stack: AWS + Cloudflare + React.
 
 ### Domain Acquisition Research
 ```
@@ -148,7 +148,7 @@ Result: 18 subdomains, 2 staging servers exposed, 1 PDF with API keys found via 
 
 ## Privacy & Ethics
 
-OpenOSINT uses only publicly available data sources. No hacking, no credential stuffing, no bypassing access controls. It automates what a human can already do manually — just faster.
+OpenOSINT uses only publicly available data sources. No hacking, no credential stuffing, no bypassing access controls. It automates what a human can already do manually - just faster.
 
 **Operators should:**
 - Only investigate domains and emails you have a legitimate business reason to research
@@ -161,11 +161,11 @@ OpenOSINT uses only publicly available data sources. No hacking, no credential s
 - **Rate limits:** Public APIs (WHOIS, DNS, Google) have rate limits. Bulk enumeration may require paid API keys.
 - **HaveIBeenPwned:** Without an API key, breach checks are limited to basic domain search. HIBP API key is $3.50/month for full access.
 - **Google Dorks:** Google may CAPTCHA or rate-limit automated queries. Use sparingly.
-- **Paste searches:** Coverage depends on Pastebin and similar sites' availability — not all paste sites are indexed.
+- **Paste searches:** Coverage depends on Pastebin and similar sites' availability - not all paste sites are indexed.
 - **Accuracy:** IP geolocation is approximate (~city level). Phone carrier data may be stale for ported numbers.
 
 ## See Also
 
-- [[datanexus-mcp]] — Public data intelligence (complementary: federal contracts, patents, CVE)
-- [[sanctions-screening-mcp]] — OFAC/EU/UK/UN sanctions screening
-- [[browserless-mcp]] — Browser automation for visual investigation
+- [[datanexus-mcp]] - Public data intelligence (complementary: federal contracts, patents, CVE)
+- [[sanctions-screening-mcp]] - OFAC/EU/UK/UN sanctions screening
+- [[browserless-mcp]] - Browser automation for visual investigation

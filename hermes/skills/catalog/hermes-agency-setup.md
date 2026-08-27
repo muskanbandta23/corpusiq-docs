@@ -1,6 +1,6 @@
 ---
-title: Hermes Agency — P2P Agent Collaboration Setup Guide
-description: End-to-end setup for Hermes Agency — P2P agent discovery, encrypted communication, and multi-agent orchestration via AgentAnycast SDK for Hermes Agent profiles.
+title: Hermes Agency - P2P Agent Collaboration Setup Guide
+description: End-to-end setup for Hermes Agency - P2P agent discovery, encrypted communication, and multi-agent orchestration via AgentAnycast SDK for Hermes Agent profiles.
 skill_name: hermes-agency
 author: DeployFaith
 stars: 0
@@ -13,16 +13,16 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Agency — P2P Agent Collaboration Setup Guide
+# Hermes Agency - P2P Agent Collaboration Setup Guide
 
 **Author:** [DeployFaith](https://github.com/DeployFaith)
 **Repo:** [DeployFaith/Hermes_Agency](https://github.com/DeployFaith/Hermes_Agency)
 **SDK:** [AgentAnycast Python SDK](https://github.com/AgentAnycast/agentanycast-python) (Apache 2.0, PyPI: `agentanycast`)
 **Created:** June 22, 2026
 
-A Hermes plugin that gives every Hermes profile its own P2P node with a persistent identity, auto-generated AgentCard from `SOUL.md` + installed skills, and encrypted P2P communication with other agents — across LAN or WAN.
+A Hermes plugin that gives every Hermes profile its own P2P node with a persistent identity, auto-generated AgentCard from `SOUL.md` + installed skills, and encrypted P2P communication with other agents - across LAN or WAN.
 
-> **Status:** Local testing / PR-prep. Early stage — actively developed.
+> **Status:** Local testing / PR-prep. Early stage - actively developed.
 
 ---
 
@@ -104,7 +104,7 @@ Hermes profile
 | `a2a_check_autonomy` | Check autonomy policy for a proposed action |
 | `a2a_log_routing_correction` | Record routing-correction feedback when learning is enabled |
 
-### Orchestrator (5 tools — only for promoted orchestrator profiles)
+### Orchestrator (5 tools - only for promoted orchestrator profiles)
 
 | Tool | Description |
 |------|-------------|
@@ -246,10 +246,10 @@ hermes agency demote <profile>
 |-------|--------|
 | **Plugin loading** | Opt-in via `plugins.enabled` |
 | **Runtime operation** | Gated by `agency.enabled` |
-| **Remote task execution** | Defaults to safe behavior — no terminal/file access granted by default |
+| **Remote task execution** | Defaults to safe behavior - no terminal/file access granted by default |
 | **Incoming processor** | Uses delegation/subprocess modes only when explicitly configured |
 | **AgentCard exposure** | Only non-secret metadata: provider/model names, configured booleans, profile/toolset summaries. NEVER exposes API keys, raw env vars, Discord channel IDs, local daemon paths, or profile-private data |
-| **Daemon/relay** | External runtime components — NOT vendored into the plugin |
+| **Daemon/relay** | External runtime components - NOT vendored into the plugin |
 
 ---
 
@@ -260,7 +260,7 @@ hermes agency demote <profile>
 ```python
 # In a Hermes session on Machine 1
 /agency start
-# → "Node running — Peer ID: 12D3KooW..."
+# → "Node running - Peer ID: 12D3KooW..."
 ```
 
 ### Agent 2 (Sender)
@@ -293,13 +293,13 @@ agentanycast discover translate
 ## Three Ways to Send a Task
 
 ```python
-# 1. Direct — by Peer ID
+# 1. Direct - by Peer ID
 await node.send_task(peer_id="12D3KooW...", message=msg)
 
-# 2. Anycast — by skill (relay resolves the target)
+# 2. Anycast - by skill (relay resolves the target)
 await node.send_task(skill="translate", message=msg)
 
-# 3. HTTP Bridge — to standard HTTP A2A agents
+# 3. HTTP Bridge - to standard HTTP A2A agents
 await node.send_task(url="https://agent.example.com", message=msg)
 ```
 
@@ -358,10 +358,10 @@ python -m pytest hermes-agency/tests/test_unit.py -q
 # Syntax check
 python -m py_compile hermes-agency/*.py
 
-# E2E (local P2P — no relay/registry required)
+# E2E (local P2P - no relay/registry required)
 python hermes-agency/tests/test_e2e.py
 
-# Full E2E (with relay/registry — set env vars first)
+# Full E2E (with relay/registry - set env vars first)
 export AGENTANYCAST_E2E_REGISTRY=...
 export AGENTANYCAST_E2E_RELAY=...
 python hermes-agency/tests/test_e2e_full.py
@@ -373,22 +373,22 @@ python hermes-agency/tests/test_e2e_full.py
 
 This is the **first P2P multi-agent plugin** discovered for Hermes Agent that doesn't require SSH, centralized servers, or shared infrastructure. Key innovations:
 
-- **Drop-in-mailbox architecture** — Agents communicate via encrypted P2P messages, not synchronous HTTP calls. No timeouts, no SSH tunnels.
-- **LAN + WAN** — mDNS for same-network discovery, relay for cross-network. Zero-config local; one env var for global.
-- **Skill-based anycast** — Send a task to "translate" and the relay finds the right agent. No hardcoded peer IDs.
-- **Safe by default** — Remote agents can't access terminal/file tools unless explicitly configured.
-- **Framework-agnostic** — Serve CrewAI, LangGraph, OpenAI Agents, Claude Agent SDK, or Strands agents as P2P nodes.
+- **Drop-in-mailbox architecture** - Agents communicate via encrypted P2P messages, not synchronous HTTP calls. No timeouts, no SSH tunnels.
+- **LAN + WAN** - mDNS for same-network discovery, relay for cross-network. Zero-config local; one env var for global.
+- **Skill-based anycast** - Send a task to "translate" and the relay finds the right agent. No hardcoded peer IDs.
+- **Safe by default** - Remote agents can't access terminal/file tools unless explicitly configured.
+- **Framework-agnostic** - Serve CrewAI, LangGraph, OpenAI Agents, Claude Agent SDK, or Strands agents as P2P nodes.
 
-This is the foundation for truly decentralized CorpusIQ agent swarms — autonomous operators that discover each other, bid on work, and collaborate without a central orchestrator.
+This is the foundation for truly decentralized CorpusIQ agent swarms - autonomous operators that discover each other, bid on work, and collaborate without a central orchestrator.
 
 ---
 
 ## Known Limitations
 
-- **Early stage** — Created June 22, 2026. Actively developed but not production-hardened.
-- **Relay required for WAN** — LAN works out of the box; cross-network needs a deployed relay.
-- **Orchestrator profile promotion** — Manual via `hermes agency promote`. No auto-election yet.
-- **No upstream PR yet** — Do not open PRs to NousResearch/hermes-agent unless author explicitly asks.
+- **Early stage** - Created June 22, 2026. Actively developed but not production-hardened.
+- **Relay required for WAN** - LAN works out of the box; cross-network needs a deployed relay.
+- **Orchestrator profile promotion** - Manual via `hermes agency promote`. No auto-election yet.
+- **No upstream PR yet** - Do not open PRs to NousResearch/hermes-agent unless author explicitly asks.
 
 ---
 

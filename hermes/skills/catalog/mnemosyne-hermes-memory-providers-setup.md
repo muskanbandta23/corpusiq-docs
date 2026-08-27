@@ -1,6 +1,6 @@
 ---
-title: "Mnemosyne Hermes Memory Providers — Local-First Agent"
-description: Install and configure hermes-memory-providers from mnemosyne-oss/mnemosyne (2.3K stars) — replaces MEMORY.md/USER.md with SQLite vector + FTS5 hybrid search, 20 memory tools, and lifecycle hooks. 100% local.
+title: "Mnemosyne Hermes Memory Providers - Local-First Agent"
+description: Install and configure hermes-memory-providers from mnemosyne-oss/mnemosyne (2.3K stars) - replaces MEMORY.md/USER.md with SQLite vector + FTS5 hybrid search, 20 memory tools, and lifecycle hooks. 100% local.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Mnemosyne Hermes Memory Providers — Setup Guide
+# Mnemosyne Hermes Memory Providers - Setup Guide
 
 **Source:** [mnemosyne-oss/mnemosyne](https://skills.sh/mnemosyne-oss/mnemosyne/hermes-memory-providers)
 **GitHub:** [github.com/mnemosyne-oss/mnemosyne](https://github.com/mnemosyne-oss/mnemosyne) (2.3K⭐)
@@ -84,7 +84,7 @@ hermes mnemosyne version   # provider version
 
 ## Limitations / Verification
 
-- Provider replaces MEMORY.md/USER.md — migrate existing memory files before enabling
+- Provider replaces MEMORY.md/USER.md - migrate existing memory files before enabling
 - 4 installs on skills.sh; the repo (2.3K⭐) is established but the Hermes provider integration is new
 - Verify: `hermes mnemosyne version` returns the provider version, and a fresh session shows the `# Mnemosyne Memory` context block
 
@@ -92,7 +92,7 @@ hermes mnemosyne version   # provider version
 
 ## Related
 
-- [Discovery Page — Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
 - [Knowledge Architecture](/hermes/knowledge/)
 - [Skills Catalog](/hermes/skills/catalog/)
 

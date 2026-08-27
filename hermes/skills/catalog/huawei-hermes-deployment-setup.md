@@ -1,5 +1,5 @@
 ---
-title: Huawei Cloud Hermes Deployment — Full Setup Guide
+title: Huawei Cloud Hermes Deployment - Full Setup Guide
 description: Deploy Hermes Agent on Huawei Cloud Flexus L-series servers using the huaweicloud-skills deployment template (43 installs). Production Docker Compose with ARM64 support.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huawei-hermes-deployment-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Huawei Cloud Flexus — Hermes Deployment Guide
+# Huawei Cloud Flexus - Hermes Deployment Guide
 
 **Source:** [huaweicloud/huaweicloud-skills](https://skills.sh/huaweicloud/huaweicloud-skills) (43 installs)
 **Category:** Infrastructure & Deployment
@@ -80,7 +80,7 @@ bash SKILL_DIR/scripts/logs.sh --service hermes-agent
 | Use Case | How |
 |---|---|
 | **Asian Market Deployment** | Deploy CorpusIQ agent infrastructure in Huawei Cloud's Asia-Pacific regions for lower latency |
-| **ARM64 Production** | Run Hermes agents on ARM64 Flexus instances — cost-efficient for always-on cron agents |
+| **ARM64 Production** | Run Hermes agents on ARM64 Flexus instances - cost-efficient for always-on cron agents |
 | **Multi-Cloud Strategy** | Add Huawei Cloud as a deployment option alongside AWS/GCP/Azure |
 | **China Market Access** | Huawei Cloud provides compliant infrastructure for Chinese market operations |
 | **Disaster Recovery** | Use Huawei Cloud as a secondary region for agent failover |

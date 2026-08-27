@@ -1,6 +1,6 @@
 ---
-title: "Skills-101 Superpowers — AI Media & Automation Pack"
-description: "Install skills-101/superpowers (488.4K combined installs) — 86 skills: AI video/image/avatar generation, ElevenLabs audio cluster, twitter automation, agent browser, Remotion rendering, and growth playbooks."
+title: "Skills-101 Superpowers - AI Media & Automation Pack"
+description: "Install skills-101/superpowers (488.4K combined installs) - 86 skills: AI video/image/avatar generation, ElevenLabs audio cluster, twitter automation, agent browser, Remotion rendering, and growth playbooks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-101-superpowers-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skills-101 Superpowers — Setup Guide
+# Skills-101 Superpowers - Setup Guide
 
 **Source:** [skills-101/superpowers](https://www.skills.sh/skills-101/superpowers) (488.4K combined installs)
 **GitHub:** [github.com/skills-101/superpowers](https://github.com/skills-101/superpowers)
@@ -16,9 +16,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 12, 2026
 **Quality Tier:** 🟡 Beta (fast-growing superpowers fork)
 
-`skills-101/superpowers` is an extended edition of the classic `obra/superpowers` library, tuned for AI media and growth automation. The four headline skills — `ai-video-generation`, `ai-image-generation`, `ai-avatar-video`, and `twitter-automation` — each carry ~88K installs. Below them sits a deep bench: an ElevenLabs audio cluster (TTS, STT, dubbing, music, voice cloning), Flux and Qwen image models, agent browser tooling, and 50+ growth/content playbooks.
+`skills-101/superpowers` is an extended edition of the classic `obra/superpowers` library, tuned for AI media and growth automation. The four headline skills - `ai-video-generation`, `ai-image-generation`, `ai-avatar-video`, and `twitter-automation` - each carry ~88K installs. Below them sits a deep bench: an ElevenLabs audio cluster (TTS, STT, dubbing, music, voice cloning), Flux and Qwen image models, agent browser tooling, and 50+ growth/content playbooks.
 
-> **Note:** This is a different publisher from `101-skills/skills` (covered in the [AI Video Generation guide](/hermes/skills/catalog/ai-video-generation-setup/)) — same family, different repo and skill set.
+> **Note:** This is a different publisher from `101-skills/skills` (covered in the [AI Video Generation guide](/hermes/skills/catalog/ai-video-generation-setup/)) - same family, different repo and skill set.
 
 ---
 
@@ -52,7 +52,7 @@ npx skills add skills-101/superpowers --skill twitter-automation
 | `remotion-render` | 11.1K | Remotion video rendering |
 | `python-executor` | 11.1K | Sandboxed Python execution |
 
-**Model connectors:** `flux-image`, `qwen-image-2`, `nano-banana`, `gpt-image`, `seedance`, `happyhorse`, `google-veo`, `p-video`, `p-image` — single-skill wrappers per generation model.
+**Model connectors:** `flux-image`, `qwen-image-2`, `nano-banana`, `gpt-image`, `seedance`, `happyhorse`, `google-veo`, `p-video`, `p-image` - single-skill wrappers per generation model.
 
 **ElevenLabs cluster:** `elevenlabs-tts`, `elevenlabs-stt`, `elevenlabs-dubbing`, `elevenlabs-music`, `elevenlabs-voice-isolator`, `elevenlabs-voice-changer`, `elevenlabs-sound-effects`, `elevenlabs-dialogue`.
 
@@ -83,7 +83,7 @@ npx skills add skills-101/superpowers --skill twitter-automation
 
 ## Limitations / Verification
 
-- Fork of `obra/superpowers` — verify upstream differences before relying on behavior parity
+- Fork of `obra/superpowers` - verify upstream differences before relying on behavior parity
 - ~50 playbook skills have 17-19 installs each; treat the install counts as community votes on the headline four
 - Verify install: `npx skills list | grep -E "ai-video|elevenlabs|twitter-automation"`
 

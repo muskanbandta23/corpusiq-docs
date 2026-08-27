@@ -1,6 +1,6 @@
 ---
-title: Hermes + Obsidian Giveaway Pack — Setup Guide
-description: Complete always-on Hermes + Obsidian integration — VPS setup, self-organizing vault, phone-to-vault capture workflow. 4 repos, 36 stars total.
+title: Hermes + Obsidian Giveaway Pack - Setup Guide
+description: Complete always-on Hermes + Obsidian integration - VPS setup, self-organizing vault, phone-to-vault capture workflow. 4 repos, 36 stars total.
 skill_name: hermes-obsidian-giveaway-pack
 author: david-internal
 stars: 36 total across repos
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes + Obsidian Giveaway Pack — Setup Guide
+# Hermes + Obsidian Giveaway Pack - Setup Guide
 
 **Author:** [david-internal](https://github.com/david-internal)
 **Total stars:** 36 across 4 repos
@@ -29,7 +29,7 @@ The giveaway pack contains four repos, each a standalone bundle that builds on t
 
 | # | Repo | Stars | What It Does |
 |---|------|:-----:|-------------|
-| 1 | `hermes-obsidian-giveaway-pack` | 11 ⭐ | All bundles combined — the full pack |
+| 1 | `hermes-obsidian-giveaway-pack` | 11 ⭐ | All bundles combined - the full pack |
 | 2 | `hermes-obsidian-always-on-setup` | 9 ⭐ | VPS + systemd + Obsidian Sync base setup |
 | 3 | `hermes-obsidian-self-organizing-vault` | 9 ⭐ | Vault curator skill + starter templates |
 | 4 | `hermes-obsidian-capture-and-proof` | 7 ⭐ | Telegram → Obsidian capture + sync doctor |
@@ -87,9 +87,9 @@ sudo bash hermes-obsidian-always-on-setup/skills/hermes-obsidian-setup/scripts/i
 
 ### Key Gotchas
 
-- **Obsidian Sync + obsidian-headless must point at the same vault path** — mismatched paths are the #1 failure mode
-- **Hermes `obsidian_vault_path` must match the headless client's vault folder** — verify with `hermes config get`
-- **systemd service must restart on failure** — the install script includes `Restart=always`
+- **Obsidian Sync + obsidian-headless must point at the same vault path** - mismatched paths are the #1 failure mode
+- **Hermes `obsidian_vault_path` must match the headless client's vault folder** - verify with `hermes config get`
+- **systemd service must restart on failure** - the install script includes `Restart=always`
 
 ---
 
@@ -227,10 +227,10 @@ done
 
 Give viewers one ZIP containing all three folders, or optionally three separate ZIPs:
 
-- `always-on-setup.zip` — VPS + Hermes + Obsidian Sync
-- `self-organizing-vault.zip` — Vault curator + templates
-- `capture-and-proof.zip` — Phone workflow + sync doctor
-- `hermes-obsidian-giveaway-pack.zip` — Everything
+- `always-on-setup.zip` - VPS + Hermes + Obsidian Sync
+- `self-organizing-vault.zip` - Vault curator + templates
+- `capture-and-proof.zip` - Phone workflow + sync doctor
+- `hermes-obsidian-giveaway-pack.zip` - Everything
 
 ---
 
@@ -238,11 +238,11 @@ Give viewers one ZIP containing all three folders, or optionally three separate 
 
 The hard part of Hermes + Obsidian isn't knowing that Hermes can write Markdown. It's making the always-on VPS, Obsidian Sync, headless client, and Hermes vault path all point at the same folder. This pack eliminates those setup traps:
 
-- **Path alignment** — Every config points at the same vault folder
-- **Persistence** — systemd keeps the sync service alive across restarts
-- **Consistency** — The vault curator enforces naming, tags, and link rules
-- **Debuggability** — The sync doctor diagnoses the full Hermes → Obsidian loop
-- **Phone-first** — Telegram capture works from any device
+- **Path alignment** - Every config points at the same vault folder
+- **Persistence** - systemd keeps the sync service alive across restarts
+- **Consistency** - The vault curator enforces naming, tags, and link rules
+- **Debuggability** - The sync doctor diagnoses the full Hermes → Obsidian loop
+- **Phone-first** - Telegram capture works from any device
 
 ---
 

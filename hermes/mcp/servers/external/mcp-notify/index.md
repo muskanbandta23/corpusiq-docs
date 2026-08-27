@@ -1,5 +1,5 @@
 ---
-title: "MCP Notify — Monitor the MCP Registry for New Servers"
+title: "MCP Notify - Monitor the MCP Registry for New Servers"
 description: "Integration guide for nirholas/mcp-notify. Real-time monitoring of the MCP ecosystem: new/updated/removed servers, notifications via Discord, Slack, Email"
 category: mcp
 tags: [mcp-server, monitoring, notifications, devops, registry, hermes-agent]
@@ -12,7 +12,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Notify — Monitor the MCP Registry for New Servers
+# MCP Notify - Monitor the MCP Registry for New Servers
 
 **Repository:** [nirholas/mcp-notify](https://github.com/nirholas/mcp-notify)
 **Stars:** 28 ★
@@ -39,7 +39,7 @@ MCP Notify polls the MCP Registry for changes and sends real-time notifications 
 
 ## Why This Matters
 
-The MCP ecosystem grows at ~10-15 servers/day. Manually checking mcp.so and mcpservers.org for new servers is unsustainable. MCP Notify automates discovery — it watches the registry and alerts you when relevant servers appear.
+The MCP ecosystem grows at ~10-15 servers/day. Manually checking mcp.so and mcpservers.org for new servers is unsustainable. MCP Notify automates discovery - it watches the registry and alerts you when relevant servers appear.
 
 For CorpusIQ specifically: new MCP servers in the "business," "marketing," "analytics," and "CRM" categories are competitive signals. Early detection of category entrants allows faster competitive response.
 
@@ -172,10 +172,10 @@ MCP Notify: "2 new: QuickBooks MCP (45★), Salesforce MCP (12★)"
 
 ## Limitations
 
-- Polling-based (not real-time push) — up to 60-min delay on new server discovery
+- Polling-based (not real-time push) - up to 60-min delay on new server discovery
 - Registry sources may have incomplete coverage (not all servers are listed everywhere)
 - Category classification relies on source metadata (may be inaccurate)
-- Early stage project (28★) — API may change
+- Early stage project (28★) - API may change
 - No historical trending data (only deltas from baseline)
 
 ## Troubleshooting
@@ -189,6 +189,6 @@ MCP Notify: "2 new: QuickBooks MCP (45★), Salesforce MCP (12★)"
 
 ## Related Guides
 
-- [Scan Results July 15](/hermes/mcp/servers/external/scan-results-2026-07-15/) — Latest manual scan
-- [MCP Directory Maintenance](/hermes/mcp/servers/external/) — Keeping our listings current
-- [Hermes Ecosystem Discovery](/hermes/mcp/servers/external/) — Nightly ecosystem engine
+- [Scan Results July 15](/hermes/mcp/servers/external/scan-results-2026-07-15/) - Latest manual scan
+- [MCP Directory Maintenance](/hermes/mcp/servers/external/) - Keeping our listings current
+- [Hermes Ecosystem Discovery](/hermes/mcp/servers/external/) - Nightly ecosystem engine

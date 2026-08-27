@@ -1,22 +1,22 @@
 ---
-title: "Langfuse Agent Skills — LLM Observability Setup"
-description: "langfuse/skills — 6 skills, 13.1K installs: LLM tracing, prompt management, and observability workflows from the Langfuse team."
+title: "Langfuse Agent Skills - LLM Observability Setup"
+description: "langfuse/skills - 6 skills, 13.1K installs: LLM tracing, prompt management, and observability workflows from the Langfuse team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langfuse-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "llm", "observability", "langfuse"]
 ---
 
-# Langfuse Agent Skills — Setup Guide
+# Langfuse Agent Skills - Setup Guide
 
 **Source:** [langfuse/skills](https://skills.sh/langfuse/skills)
 **GitHub:** [langfuse/skills](https://github.com/langfuse/skills)
 **Skills:** 6 skills · 13.1K total installs
 **Category:** LLM Observability
 **First Seen:** catalogued August 15, 2026 evening sweep
-**Quality Tier:** 🟢 Production (official org — Langfuse, the LLM observability platform)
+**Quality Tier:** 🟢 Production (official org - Langfuse, the LLM observability platform)
 
-Langfuse's official skills teach agents to instrument LLM calls with tracing, manage prompts, and run observability workflows. For a multi-model operation like CorpusIQ — DeepSeek primary, Claude fallbacks, cost tracking — tracing is how you see where tokens and money actually go.
+Langfuse's official skills teach agents to instrument LLM calls with tracing, manage prompts, and run observability workflows. For a multi-model operation like CorpusIQ - DeepSeek primary, Claude fallbacks, cost tracking - tracing is how you see where tokens and money actually go.
 
 ---
 
@@ -48,7 +48,7 @@ npx skills add langfuse/skills
 ## Quick Start
 
 1. Install: `npx skills add langfuse/skills`
-2. Start with the core `langfuse` skill — it carries 97% of the suite's installs
+2. Start with the core `langfuse` skill - it carries 97% of the suite's installs
 3. Ask: "instrument my agent loop with Langfuse tracing and show cost per model"
 
 ## CorpusIQ Use Cases
@@ -63,7 +63,7 @@ npx skills add langfuse/skills
 ## Limitations / Verification
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
-- The core skill dominates: observability, API, and CLI skills show sub-1K installs — treat as early content
+- The core skill dominates: observability, API, and CLI skills show sub-1K installs - treat as early content
 - Requires a running Langfuse instance and SDK integration to be useful
 
 ```bash

@@ -1,5 +1,5 @@
 ---
-title: Connect Your Business Tools to AI — 40+ Read-Only Connectors
+title: Connect Your Business Tools to AI - 40+ Read-Only Connectors
 description: Connect Shopify, Stripe, QuickBooks, GA4, and Meta Ads to ChatGPT, Claude, Perplexity, and Slack with read-only external-source retrieval and source-cited answers.
 canonical: "https://www.corpusiq.io/docs/hermes/seo/connect-business-tools-to-ai/"
 robots: "index,follow"
@@ -22,7 +22,7 @@ CorpusIQ fixes this.
 
 You connect your business tools once. Read-only OAuth. Five minutes.
 
-Then every AI you use — ChatGPT, Claude, Perplexity, Slack — inherits the connections.
+Then every AI you use - ChatGPT, Claude, Perplexity, Slack - inherits the connections.
 
 Ask a question. The intelligence layer routes to your Shopify for orders, Stripe for payments, QuickBooks for margin, Meta Ads for spend. It validates the numbers against each other. It returns a source-cited answer.
 
@@ -34,7 +34,7 @@ Shopify. Stripe. QuickBooks. Google Analytics. Meta Ads. HubSpot. Klaviyo. Gmail
 
 Read-only on every connection. No write access. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. OAuth credentials are encrypted and retained while the connection is active.
 
-Every answer cites its exact source — order number, transaction ID, campaign name. You can verify it instead of trusting it blind.
+Every answer cites its exact source - order number, transaction ID, campaign name. You can verify it instead of trusting it blind.
 
 ## What Changes
 

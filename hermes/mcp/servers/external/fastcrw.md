@@ -1,5 +1,5 @@
 ---
-title: "fastCRW MCP — Open-Source Rust Web Crawler and Search"
+title: "fastCRW MCP - Open-Source Rust Web Crawler and Search"
 description: "fastCRW is an open-source (AGPL-3.0), self-hostable Rust web crawler and search API. Single ~6MB static binary exposing search and crawl endpoints for AI"
 category: mcp
 tags: [mcp-server, web-crawler, search, rust, self-hosted, open-source, data-extraction]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# fastCRW MCP Server — Rust Web Crawler for Agents
+# fastCRW MCP Server - Rust Web Crawler for Agents
 
-fastCRW is an open-source, self-hostable web crawler and search API written in Rust. It ships as a single ~6MB static binary that exposes search and crawl endpoints for AI agents. No API keys, no cloud dependency, no usage limits — run it on your own hardware.
+fastCRW is an open-source, self-hostable web crawler and search API written in Rust. It ships as a single ~6MB static binary that exposes search and crawl endpoints for AI agents. No API keys, no cloud dependency, no usage limits - run it on your own hardware.
 
 **Source:** awesome-mcp-servers PR #8861 (discovered July 19, 2026)
 **Category:** Search & Data Extraction
@@ -22,7 +22,7 @@ fastCRW is an open-source, self-hostable web crawler and search API written in R
 
 ## Why This Matters
 
-Web search is the most common MCP tool and also the most rate-limited and expensive (Brave API costs, Firecrawl credits). fastCRW offers a self-hosted alternative — crawl and search the web from your own infrastructure, with no per-query billing. The 6MB Rust binary means it runs on anything from a Raspberry Pi to a cloud VM.
+Web search is the most common MCP tool and also the most rate-limited and expensive (Brave API costs, Firecrawl credits). fastCRW offers a self-hosted alternative - crawl and search the web from your own infrastructure, with no per-query billing. The 6MB Rust binary means it runs on anything from a Raspberry Pi to a cloud VM.
 
 ## Installation
 

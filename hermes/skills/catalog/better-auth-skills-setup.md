@@ -1,5 +1,5 @@
 ---
-title: "Better Auth Skills — Authentication Infrastructure for"
+title: "Better Auth Skills - Authentication Infrastructure for"
 description: Auth best practices, multi-tenancy, 2FA, and security patterns from Better Auth. 203K+ combined installs across 6 skills. Framework-agnostic auth patterns for agent-built applications.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/better-auth-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Better Auth Skills — Setup Guide
+# Better Auth Skills - Setup Guide
 
 **Source:** [better-auth/skills](https://skills.sh/better-auth/skills) (203K+ combined installs)
 **Category:** Development / Security
 **Quality Tier:** 🟢 Production
 
-Complete authentication infrastructure skills from Better Auth — the open-source auth framework. Covers auth best practices, credential management, multi-tenant organization patterns, two-factor authentication, and security hardening. Framework-agnostic patterns applicable to any Hermes agent building user-facing applications.
+Complete authentication infrastructure skills from Better Auth - the open-source auth framework. Covers auth best practices, credential management, multi-tenant organization patterns, two-factor authentication, and security hardening. Framework-agnostic patterns applicable to any Hermes agent building user-facing applications.
 
 ---
 
@@ -35,12 +35,12 @@ npx skills add better-auth/skills --skill better-auth-security-best-practices
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **better-auth-best-practices** | 78.1K | Core auth patterns — sessions, tokens, OAuth flows |
+| **better-auth-best-practices** | 78.1K | Core auth patterns - sessions, tokens, OAuth flows |
 | **create-auth-skill** | 29.8K | Scaffold complete auth systems from requirements |
-| **email-and-password-best-practices** | 26.2K | Credential auth — hashing, reset flows, brute-force protection |
-| **organization-best-practices** | 24.9K | Multi-tenant org patterns — RBAC, teams, invitations |
+| **email-and-password-best-practices** | 26.2K | Credential auth - hashing, reset flows, brute-force protection |
+| **organization-best-practices** | 24.9K | Multi-tenant org patterns - RBAC, teams, invitations |
 | **two-factor-authentication-best-practices** | 23.4K | TOTP, SMS, passkeys, recovery codes |
-| **better-auth-security-best-practices** | 21.3K | Security hardening — CSRF, CORS, rate limiting, audit logs |
+| **better-auth-security-best-practices** | 21.3K | Security hardening - CSRF, CORS, rate limiting, audit logs |
 
 ---
 
@@ -59,7 +59,7 @@ npx skills add better-auth/skills --skill better-auth-security-best-practices
 Session management, JWT vs opaque tokens, OAuth 2.0/OIDC flows, social login patterns, and refresh token rotation.
 
 ### Auth Scaffolding (create-auth-skill)
-Generate complete auth systems: database schema, API routes, middleware, email templates, and client SDK setup — all from a requirements prompt.
+Generate complete auth systems: database schema, API routes, middleware, email templates, and client SDK setup - all from a requirements prompt.
 
 ### Credential Management (email-and-password)
 Password hashing (bcrypt/argon2), secure reset flows with time-limited tokens, brute-force detection with progressive delays, and email verification patterns.
@@ -104,6 +104,6 @@ npx skills list | grep better-auth
 ## Notes
 
 - Better Auth is the fastest-growing open-source auth framework (40K+ GitHub stars)
-- Skills are framework-agnostic — patterns apply to any auth implementation
+- Skills are framework-agnostic - patterns apply to any auth implementation
 - Organization and 2FA skills are particularly valuable for SaaS products built by Hermes agents
 - Quality tier 🟢 Production: 203K+ combined installs, active maintenance

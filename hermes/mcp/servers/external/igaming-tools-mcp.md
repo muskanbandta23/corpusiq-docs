@@ -1,6 +1,6 @@
 ---
 name: "iGaming Tools MCP"
-description: "Structured iGaming reference data — slot specs, RTP variants, providers, regulators, news and jobs. MCP server providing data: specifications, (Return Play."
+description: "Structured iGaming reference data - slot specs, RTP variants, providers, regulators, news and jobs. MCP server providing data: specifications, (Return Play."
 category: "Database"
 source: "mcpservers.org"
 discovered: "2026-07-23"
@@ -9,22 +9,22 @@ remote_endpoint: "https://i-gaming.tools/docs/mcp/"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/igaming-tools-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "iGaming Tools MCP — Gaming Industry Reference Data"
+title: "iGaming Tools MCP - Gaming Industry Reference Data"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# iGaming Tools MCP — Gaming Industry Reference Data
+# iGaming Tools MCP - Gaming Industry Reference Data
 
 A structured MCP server providing iGaming reference data: slot specifications, RTP (Return to Player) variants, game providers, regulatory information, industry news, and job listings.
 
 ## What It Does
 
-- **Slot database** — Technical specifications, RTP percentages, volatility ratings for thousands of slots
-- **Provider directory** — Game providers with portfolio overviews and market presence
-- **Regulatory data** — Licensing jurisdictions, compliance requirements, restricted markets
-- **Industry news** — Curated iGaming news feed
-- **Job listings** — Industry job postings
+- **Slot database** - Technical specifications, RTP percentages, volatility ratings for thousands of slots
+- **Provider directory** - Game providers with portfolio overviews and market presence
+- **Regulatory data** - Licensing jurisdictions, compliance requirements, restricted markets
+- **Industry news** - Curated iGaming news feed
+- **Job listings** - Industry job postings
 
 ## Quick Start
 
@@ -51,10 +51,10 @@ claude mcp add igaming-tools --url https://i-gaming.tools/mcp
 
 ## Use Cases
 
-- **Competitive analysis** — Compare slot portfolios across providers
-- **Market research** — Analyze RTP trends, volatility preferences by region
-- **Compliance** — Check regulatory requirements before entering new markets
-- **Content creation** — Pull slot data for reviews, comparison articles
+- **Competitive analysis** - Compare slot portfolios across providers
+- **Market research** - Analyze RTP trends, volatility preferences by region
+- **Compliance** - Check regulatory requirements before entering new markets
+- **Content creation** - Pull slot data for reviews, comparison articles
 
 ---
 

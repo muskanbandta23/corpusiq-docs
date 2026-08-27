@@ -1,6 +1,6 @@
 ---
-title: Agenthood — 14-Agent AI Engineering Team Setup Guide
-description: Install and configure Agenthood's 14 specialized AI agents for Hermes — code review, security audit, architecture design, testing, and more. Drop-in Markdown skills for any agent runtime.
+title: Agenthood - 14-Agent AI Engineering Team Setup Guide
+description: Install and configure Agenthood's 14 specialized AI agents for Hermes - code review, security audit, architecture design, testing, and more. Drop-in Markdown skills for any agent runtime.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agenthood-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Agenthood — Setup Guide
+# Agenthood - Setup Guide
 
 **Source:** [fworks-tech/agenthood](https://skills.sh/fworks-tech/agenthood) · [GitHub](https://github.com/fworks-tech/agenthood)
 **Category:** Multi-Agent Architecture / Development Workflows
 **npm:** `agenthood` (v3.0.0) · **License:** MIT
 
-Agenthood packages a complete AI engineering team as 14 individual SKILL.md files. Each agent — from The Reviewer to The Auditor — is a self-contained role with defined responsibilities, communication standards, and quality gates. They work with any agent runtime including Hermes Agent, Claude Code, and Copilot.
+Agenthood packages a complete AI engineering team as 14 individual SKILL.md files. Each agent - from The Reviewer to The Auditor - is a self-contained role with defined responsibilities, communication standards, and quality gates. They work with any agent runtime including Hermes Agent, Claude Code, and Copilot.
 
 ---
 
@@ -164,8 +164,8 @@ hermes --skill the-auditor "Run full security audit:
 | Variable | Provider | Free Tier |
 |----------|----------|-----------|
 | `GROQ_API_KEY` | Groq (default) | [console.groq.com](https://console.groq.com) |
-| `ANTHROPIC_API_KEY` | Anthropic | — |
-| `OPENAI_API_KEY` | OpenAI | — |
+| `ANTHROPIC_API_KEY` | Anthropic | - |
+| `OPENAI_API_KEY` | OpenAI | - |
 
 Or use **Ollama** for fully offline execution (no API key required):
 
@@ -181,10 +181,10 @@ npx agenthood run the-reviewer "review this code" --provider ollama
 Agenthood solves a critical gap in the agent ecosystem: **standardized, composable agent roles.** Instead of every team reinventing code review agents, security auditors, and PR validators, Agenthood provides battle-tested implementations that work across runtimes.
 
 For Hermes specifically:
-- **Drop-in quality gates** — the-doorman validates branches, the-reviewer enforces standards
-- **Multi-agent blueprints** — reference architecture for Hermes agent teams
-- **Runtime-agnostic** — skills work with Hermes, Claude Code, Copilot, and the standalone CLI
-- **Opinionated standards** — agents have real standards (they will block merges with bad commit messages)
+- **Drop-in quality gates** - the-doorman validates branches, the-reviewer enforces standards
+- **Multi-agent blueprints** - reference architecture for Hermes agent teams
+- **Runtime-agnostic** - skills work with Hermes, Claude Code, Copilot, and the standalone CLI
+- **Opinionated standards** - agents have real standards (they will block merges with bad commit messages)
 
 ---
 

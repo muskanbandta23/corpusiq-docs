@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Ecosystem Contributors
 
-Thank you to everyone who has contributed to the Hermes Ecosystem Directory — through repository submissions, reviews, and curation.
+Thank you to everyone who has contributed to the Hermes Ecosystem Directory - through repository submissions, reviews, and curation.
 
 ## Maintainers
 
@@ -22,7 +22,7 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 | Contributor | Submissions | Approved | First Contribution | Last Active |
 |-------------|-------------|----------|--------------------|-------------|
-| — | — | — | — | — |
+| - | - | - | - | - |
 
 *No community contributors yet. [Be the first →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review)*
 

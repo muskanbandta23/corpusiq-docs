@@ -1,6 +1,6 @@
 ---
-title: Matt Pocock TypeScript Developer Toolkit — Setup Guide
-description: Install and configure 19 Matt Pocock skills for Hermes Agent — complete TypeScript/React development lifecycle automation with 1.7M+ combined installs. Writing, refactoring, code review, implementation workflows, and decision mapping.
+title: Matt Pocock TypeScript Developer Toolkit - Setup Guide
+description: Install and configure 19 Matt Pocock skills for Hermes Agent - complete TypeScript/React development lifecycle automation with 1.7M+ combined installs. Writing, refactoring, code review, implementation workflows, and decision mapping.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Matt Pocock is the world's leading TypeScript educator (146K GitHub stars). These **19 skills** from [mattpocock/skills](https://skills.sh/mattpocock/skills) bring his proven TypeScript/React development methodology to AI agents. Combined installs: **1,700,000+** across the skills.sh marketplace.
 
-> **June 2026 Update:** Four new skills added — `implement` (implementation workflow), `decision-mapping` (decision frameworks), `writing-great-skills` (skill authoring guide), and `ask-matt` (Q&A helper).
+> **June 2026 Update:** Four new skills added - `implement` (implementation workflow), `decision-mapping` (decision frameworks), `writing-great-skills` (skill authoring guide), and `ask-matt` (Q&A helper).
 
 ---
 
@@ -20,7 +20,7 @@ Matt Pocock is the world's leading TypeScript educator (146K GitHub stars). Thes
 
 - Hermes Agent installed and running
 - Node.js 18+ with `npx` available
-- A TypeScript or React project to work with (optional — skills work on any codebase)
+- A TypeScript or React project to work with (optional - skills work on any codebase)
 
 ---
 
@@ -55,7 +55,7 @@ npx skills add mattpocock/skills --skill ubiquitous-language
 npx skills add mattpocock/skills --skill setup-pre-commit
 npx skills add mattpocock/skills --skill git-guardrails-claude-code
 
-# Implementation & decision support (NEW — June 2026)
+# Implementation & decision support (NEW - June 2026)
 npx skills add mattpocock/skills --skill implement
 npx skills add mattpocock/skills --skill decision-mapping
 npx skills add mattpocock/skills --skill ask-matt
@@ -124,8 +124,8 @@ hermes skill mattpocock/skills/ask-matt
 | Issue | Fix |
 |---|---|
 | `npx skills add` not found | Run `npm install -g skills` first |
-| Skill not loading in Hermes | Check `hermes skill list` — the skill name must match the install name exactly |
-| TypeScript errors after using `design-an-interface` | The skill generates TypeScript interfaces — review before committing |
+| Skill not loading in Hermes | Check `hermes skill list` - the skill name must match the install name exactly |
+| TypeScript errors after using `design-an-interface` | The skill generates TypeScript interfaces - review before committing |
 
 ---
 

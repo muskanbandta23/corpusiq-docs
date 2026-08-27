@@ -1,11 +1,11 @@
 ---
 title: "eBay - CorpusIQ Docs - CorpusIQ"
-description: "For eBay sellers, the financial truth sits inside Seller Hub — orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fo."
+description: "For eBay sellers, the financial truth sits inside Seller Hub - orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fo."
 ---
 # eBay
 
 ## What it unlocks
-For eBay sellers, the financial truth sits inside Seller Hub — orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fold marketplace revenue and seller health into the same answers as your other channels, so you can see your full business picture without bouncing between dashboards.
+For eBay sellers, the financial truth sits inside Seller Hub - orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fold marketplace revenue and seller health into the same answers as your other channels, so you can see your full business picture without bouncing between dashboards.
 
 ## Before you connect
 - An eBay seller account
@@ -27,7 +27,7 @@ Read-only access to:
 - Seller standards profile
 - Customer service metrics, including INAD and INR rates
 - Listing traffic reports
-- Funds summary — settled, on hold, total balance
+- Funds summary - settled, on hold, total balance
 - Seller privileges and entitlements
 
 CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
@@ -40,9 +40,9 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 - "What's my refund rate on eBay this quarter?"
 
 ## Troubleshooting
-- **"Missing finances scope"** — Disconnect and reconnect; the funds summary requires the `sell.finances` scope which is requested during OAuth.
-- **Traffic report empty** — eBay's traffic data has a 24–48 hour lag. Check yesterday's date, not today's.
-- **Standards profile blank** — New sellers don't have a standards profile yet; eBay requires a minimum order volume.
+- **"Missing finances scope"** - Disconnect and reconnect; the funds summary requires the `sell.finances` scope which is requested during OAuth.
+- **Traffic report empty** - eBay's traffic data has a 24-48 hour lag. Check yesterday's date, not today's.
+- **Standards profile blank** - New sellers don't have a standards profile yet; eBay requires a minimum order volume.
 ---
 
 *

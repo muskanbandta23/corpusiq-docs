@@ -1,5 +1,5 @@
 ---
-title: "Seiche Finance MCP — US Money Market Stress Testing"
+title: "Seiche Finance MCP - US Money Market Stress Testing"
 description: "Free open source funding stress terminal for US money markets. 22 engines, honest backtests, zero data cost using Fed/NY Fed/OFR/Treasury public APIs."
 category: mcp
 tags: [mcp-server, finance, money-markets, stress-testing, fed, treasury]
@@ -11,13 +11,13 @@ robots: "index,follow"
 
 # Seiche Finance MCP Server ★ New (July 12)
 
-Free open source funding stress terminal for US money markets — 22 stress-testing engines, honest backtests, zero data cost. Pulls from Federal Reserve, NY Fed, OFR, and Treasury public APIs. Licensed under AGPL-3.0.
+Free open source funding stress terminal for US money markets - 22 stress-testing engines, honest backtests, zero data cost. Pulls from Federal Reserve, NY Fed, OFR, and Treasury public APIs. Licensed under AGPL-3.0.
 
 **Source:** mcp.so (submitted July 12, 2026) · **GitHub:** beepboop2025 (exact repo TBD)
 
 ## What It Is
 
-Seiche is a specialized financial MCP server that models US money market stress scenarios. Using 22 distinct simulation engines, it backtests funding strategies against historical stress events and generates risk metrics. All data comes from free public APIs — no Bloomberg or Reuters terminal needed.
+Seiche is a specialized financial MCP server that models US money market stress scenarios. Using 22 distinct simulation engines, it backtests funding strategies against historical stress events and generates risk metrics. All data comes from free public APIs - no Bloomberg or Reuters terminal needed.
 
 ## Business Relevance
 
@@ -64,13 +64,13 @@ cd seiche && pip install -e .
 ## Limitations
 
 - US money markets only (no international/EM markets)
-- AGPL-3.0 license (copyleft — review implications for commercial use)
+- AGPL-3.0 license (copyleft - review implications for commercial use)
 - Requires Python environment with numpy/pandas dependencies
-- New project — engine accuracy should be validated against established models
+- New project - engine accuracy should be validated against established models
 - Self-hosted (no cloud API); runs locally
 
 ## See Also
 
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) — Real-time financial news and sentiment
-- [AlphaVantage MCP](/hermes/mcp/servers/external/alphavantage-mcp/) — Stock fundamentals and technical data
-- [Kalshi MCP](/hermes/mcp/servers/external/kalshi-mcp/) — Prediction market data
+- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) - Real-time financial news and sentiment
+- [AlphaVantage MCP](/hermes/mcp/servers/external/alphavantage-mcp/) - Stock fundamentals and technical data
+- [Kalshi MCP](/hermes/mcp/servers/external/kalshi-mcp/) - Prediction market data

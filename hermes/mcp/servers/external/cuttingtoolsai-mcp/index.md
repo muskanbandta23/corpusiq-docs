@@ -11,7 +11,7 @@ tags: [manufacturing, machining, carbide, procurement, industrial-data, cross-re
 
 # CuttingToolsAI MCP
 
-**Brand-neutral carbide grade cross-reference for machining, as a one-tool keyless MCP server.** CuttingToolsAI exposes a single read-only tool, `grade_xref`, that answers the procurement question that burns machining hours: "what is comparable to this grade?" Ask for Sandvik GC4325 or Kennametal KC5010 and the server returns catalog-verified comparable insert grades across manufacturers at the same ISO application position, with provenance for every row. The server never invents a grade — unknown codes return an empty result.
+**Brand-neutral carbide grade cross-reference for machining, as a one-tool keyless MCP server.** CuttingToolsAI exposes a single read-only tool, `grade_xref`, that answers the procurement question that burns machining hours: "what is comparable to this grade?" Ask for Sandvik GC4325 or Kennametal KC5010 and the server returns catalog-verified comparable insert grades across manufacturers at the same ISO application position, with provenance for every row. The server never invents a grade - unknown codes return an empty result.
 
 ```
 Server type: Hosted remote (Streamable HTTP, Cloudflare Worker)
@@ -26,9 +26,9 @@ Built by: CuttingToolsAI (cuttingtoolsai.eu)
 
 ## Why This Matters for Operators
 
-Machine shops lose real money when a preferred grade is discontinued, on backorder, or marked up. The existing workflow — thumbing manufacturer catalogs or asking a distributor who has an incentive — is slow and vendor-biased. CuttingToolsAI encodes the comparison logic from manufacturer-published application charts and serves it through an MCP endpoint, so a CAM programmer, quoting engineer, or procurement agent can ask for equivalents in one call and get rows with provenance.
+Machine shops lose real money when a preferred grade is discontinued, on backorder, or marked up. The existing workflow - thumbing manufacturer catalogs or asking a distributor who has an incentive - is slow and vendor-biased. CuttingToolsAI encodes the comparison logic from manufacturer-published application charts and serves it through an MCP endpoint, so a CAM programmer, quoting engineer, or procurement agent can ask for equivalents in one call and get rows with provenance.
 
-The scoping is honest: comparability means a shared ISO application position in manufacturer-published charts, not physical interchangeability — the tool description says so explicitly. No tools are sold and no manufacturer commission is taken.
+The scoping is honest: comparability means a shared ISO application position in manufacturer-published charts, not physical interchangeability - the tool description says so explicitly. No tools are sold and no manufacturer commission is taken.
 
 ## Tools & Capabilities
 
@@ -55,7 +55,7 @@ claude mcp add --transport http cuttingtoolsai https://cuttingtoolsai-mcp.memmiz
 }
 ```
 
-No API key and no self-hosting — the server is a Cloudflare Worker fronting the public REST endpoint at cuttingtoolsai.eu/api/xref, which is also listed in public-apis.
+No API key and no self-hosting - the server is a Cloudflare Worker fronting the public REST endpoint at cuttingtoolsai.eu/api/xref, which is also listed in public-apis.
 
 ## Configuration
 
@@ -70,18 +70,18 @@ Nothing to configure. The single tool is stateless and read-only. The backing da
 
 ## Integration with CorpusIQ
 
-CuttingToolsAI supplies the technical data point — the equivalent grade — and CorpusIQ supplies the commercial layer around it: procurement teams can pair a `grade_xref` lookup with CorpusIQ's QuickBooks connector to compare landed cost against the original grade, and distributors running ecommerce can attach the xref result to product records through the SHOPLINE or Amazon Seller connectors for listing descriptions.
+CuttingToolsAI supplies the technical data point - the equivalent grade - and CorpusIQ supplies the commercial layer around it: procurement teams can pair a `grade_xref` lookup with CorpusIQ's QuickBooks connector to compare landed cost against the original grade, and distributors running ecommerce can attach the xref result to product records through the SHOPLINE or Amazon Seller connectors for listing descriptions.
 
 ## Limitations
 
-- One tool only, one grade per call — no batch endpoint
+- One tool only, one grade per call - no batch endpoint
 - Comparability is by ISO application position, not interchangeability; test cuts still rule
 - Brand-new listing (repo created Aug 18, 2026, MIT, zero stars)
 - Coverage is bounded by manufacturer-published charts; niche or private-label grades may not resolve
 
 ## See Also
 
-- [Opportunity Atlas MCP — Construction Opportunity Intelligence](/hermes/mcp/servers/external/opportunity-atlas-mcp/)
-- [Dutch Vehicle Context — Dutch Vehicle Reports](/hermes/mcp/servers/external/dutch-vehicle-context/)
+- [Opportunity Atlas MCP - Construction Opportunity Intelligence](/hermes/mcp/servers/external/opportunity-atlas-mcp/)
+- [Dutch Vehicle Context - Dutch Vehicle Reports](/hermes/mcp/servers/external/dutch-vehicle-context/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

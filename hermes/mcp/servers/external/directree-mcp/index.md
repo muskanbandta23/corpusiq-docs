@@ -1,5 +1,5 @@
 ---
-title: "directree MCP — Honest Software Directory for AI Agents"
+title: "directree MCP - Honest Software Directory for AI Agents"
 description: "Query the directree honest software directory from any AI assistant. Compare SaaS tools, read observed/AI-inferred/founder-edited reviews."
 date: 2026-08-12
 source: mcp.so
@@ -26,7 +26,7 @@ directree MCP server lets AI agents query the honest software directory. It prov
 
 ## Why It Matters for Operators
 
-Software selection is a persistent pain point for business operators. The SaaS landscape has 30,000+ tools, and comparison sites are dominated by affiliate-driven rankings. directree's "honest" approach — clearly labeling review provenance — is a meaningful differentiator.
+Software selection is a persistent pain point for business operators. The SaaS landscape has 30,000+ tools, and comparison sites are dominated by affiliate-driven rankings. directree's "honest" approach - clearly labeling review provenance - is a meaningful differentiator.
 
 For operators, this means:
 - **Tool comparison**: "Compare the top 5 email marketing tools for e-commerce"
@@ -62,10 +62,10 @@ For operators, this means:
 
 ## Verified Use Cases
 
-1. **Growth Stack Research** — Agent researches best tools for a specific growth workflow (email, CRM, analytics)
-2. **Competitive Intel** — Agent discovers what tools competitors use and compares stacks
-3. **Vendor Evaluation** — Agent compiles structured comparison with provenance-labeled reviews
-4. **Budget Optimization** — Agent filters tools by price tier and feature set
+1. **Growth Stack Research** - Agent researches best tools for a specific growth workflow (email, CRM, analytics)
+2. **Competitive Intel** - Agent discovers what tools competitors use and compares stacks
+3. **Vendor Evaluation** - Agent compiles structured comparison with provenance-labeled reviews
+4. **Budget Optimization** - Agent filters tools by price tier and feature set
 
 ## CorpusIQ Integration Opportunity
 

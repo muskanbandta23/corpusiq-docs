@@ -1,5 +1,5 @@
 ---
-title: Humanizer — Anti-AI-Slop Text Humanizer Setup Guide
+title: Humanizer - Anti-AI-Slop Text Humanizer Setup Guide
 description: Install and configure humanizer, the official Hermes Agent skill that strips AI-isms and adds real voice to text. 87 installs, built by Siqi Chen (@blader), ported by Nous Research.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/humanizer-setup/"
 robots: "index,follow"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Humanizer — Setup Guide
+# Humanizer - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/humanizer) (87 peak installs)
 **Category:** Creative / Writing
 **License:** MIT · **Author:** Siqi Chen (@blader), ported by Hermes Agent
 **Version:** 2.5.1 · **Platforms:** Linux, macOS, Windows
 
-Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's "Signs of AI writing" guide maintained by WikiProject AI Cleanup, derived from observations of thousands of AI-generated text instances. LLMs use statistical algorithms that tend toward the most likely completion — this skill spots and strips those telltale patterns.
+Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's "Signs of AI writing" guide maintained by WikiProject AI Cleanup, derived from observations of thousands of AI-generated text instances. LLMs use statistical algorithms that tend toward the most likely completion - this skill spots and strips those telltale patterns.
 
 ---
 
@@ -24,7 +24,7 @@ Identify and remove signs of AI-generated text to make writing sound natural and
 | Pattern Category | What It Catches | Fix Applied |
 |-----------------|-----------------|-------------|
 | **Overused transitions** | "Furthermore," "Moreover," "In conclusion," "Additionally" | Replaced with natural connectors or removed |
-| **Hedging language** | "It is worth noting that," "It is important to consider" | Stripped — state the point directly |
+| **Hedging language** | "It is worth noting that," "It is important to consider" | Stripped - state the point directly |
 | **Forced structure** | "First, ... Second, ... Finally, ..." | Converted to organic paragraph flow |
 | **AI vocabulary tells** | "delve," "tapestry," "landscape," "realm," "crucial," "paramount" | Replaced with plain-language alternatives |
 | **Overly formal tone** | Academic register when casual is appropriate | Adjusted to match target voice |
@@ -118,15 +118,15 @@ Hermes: [Returns de-slopped version]
 
 ## Related Skills
 
-- **[songwriting-and-ai-music](https://skills.sh/nousresearch/hermes-agent/songwriting-and-ai-music)** — AI music generation with similar creative voice control
-- **[ultimate-humanizer](ultimate-humanizer-setup.md)** — Community alternative with 50 patterns and 5D scoring
-- **[research-paper-writing](https://skills.sh/nousresearch/hermes-agent/research-paper-writing)** — Academic writing with the same anti-AI-slop pass
+- **[songwriting-and-ai-music](https://skills.sh/nousresearch/hermes-agent/songwriting-and-ai-music)** - AI music generation with similar creative voice control
+- **[ultimate-humanizer](ultimate-humanizer-setup.md)** - Community alternative with 50 patterns and 5D scoring
+- **[research-paper-writing](https://skills.sh/nousresearch/hermes-agent/research-paper-writing)** - Academic writing with the same anti-AI-slop pass
 
 ---
 
 ## Pro Tips
 
-1. **Run a pre-publish pass** — Load humanizer before sending any user-facing text (release notes, docs, PR descriptions).
-2. **Combine with voice calibration** — The 5-minute investment of providing a writing sample pays off in every subsequent humanization.
-3. **Not just for English** — The patterns are language-agnostic; the skill works across any language the underlying model supports.
-4. **Iterative refinement** — Run the humanizer, read the result, then ask for specific adjustments ("make it more casual," "shorter sentences," "add more personality").
+1. **Run a pre-publish pass** - Load humanizer before sending any user-facing text (release notes, docs, PR descriptions).
+2. **Combine with voice calibration** - The 5-minute investment of providing a writing sample pays off in every subsequent humanization.
+3. **Not just for English** - The patterns are language-agnostic; the skill works across any language the underlying model supports.
+4. **Iterative refinement** - Run the humanizer, read the result, then ask for specific adjustments ("make it more casual," "shorter sentences," "add more personality").

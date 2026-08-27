@@ -1,5 +1,5 @@
 ---
-title: Skill Vetter — Security Audit for Hermes Skills (useai-pro)
+title: Skill Vetter - Security Audit for Hermes Skills (useai-pro)
 description: Security-first vetting for OpenClaw/Hermes skills before installation. Checks for red flags, permission scope, and suspicious patterns. 20.5K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetter-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skill Vetter — Setup Guide
+# Skill Vetter - Setup Guide
 
 **Source:** [useai-pro/openclaw-skills-security](https://skills.sh/useai-pro/openclaw-skills-security/skill-vetter) (20,500+ installs)
 **Category:** Security / Governance
@@ -64,9 +64,9 @@ The skill-vetter follows a four-stage protocol:
 - Excessive permission requests relative to stated functionality
 
 #### Step 4: Recommendation
-- **INSTALL** — No red flags, permissions justified
-- **REVIEW** — Minor concerns, install with monitoring
-- **BLOCK** — Critical red flags, do not install
+- **INSTALL** - No red flags, permissions justified
+- **REVIEW** - Minor concerns, install with monitoring
+- **BLOCK** - Critical red flags, do not install
 
 ---
 
@@ -83,10 +83,10 @@ npx skills use useai-pro/openclaw-skills-security@skill-vetter --skill <skill-na
 
 When reviewing a skill manually, apply these checks:
 
-1. Read the SKILL.md frontmatter — verify `name`, `version`, `description`, `author`
-2. Check `allowed-tools` or `permissions` section — assess risk level per tool
+1. Read the SKILL.md frontmatter - verify `name`, `version`, `description`, `author`
+2. Check `allowed-tools` or `permissions` section - assess risk level per tool
 3. Scan for suspicious patterns: `eval()`, `exec()`, base64 strings, hardcoded URLs
-4. Compare stated functionality against requested permissions — they should align
+4. Compare stated functionality against requested permissions - they should align
 5. Document your decision: INSTALL / REVIEW / BLOCK with justification
 
 ---
@@ -107,13 +107,13 @@ For CorpusIQ Hermes agents, integrate skill-vetter into the governance pipeline:
 | Issue | Solution |
 |---|---|
 | Unknown skill format | Ensure the skill has a SKILL.md with proper frontmatter |
-| Missing author info | Flag as REVIEW — anonymous skills require extra scrutiny |
+| Missing author info | Flag as REVIEW - anonymous skills require extra scrutiny |
 | Permission mismatch | If a skill requests `shell` but only needs `fileRead`, flag as BLOCK |
 
 ---
 
 ## See Also
 
-- Skill Vetting Setup — NVIDIA SkillSpector-based alternative vetting system
-- OpenClaw Audit Watchdog Setup — Runtime audit monitoring for installed skills
-- [ClawHub](https://clawhub.ai) — Official OpenClaw skill marketplace
+- Skill Vetting Setup - NVIDIA SkillSpector-based alternative vetting system
+- OpenClaw Audit Watchdog Setup - Runtime audit monitoring for installed skills
+- [ClawHub](https://clawhub.ai) - Official OpenClaw skill marketplace

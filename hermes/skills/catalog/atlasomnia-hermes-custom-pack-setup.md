@@ -1,20 +1,20 @@
 ---
-title: "AtlasOmnia Hermes Custom Pack — 60+ Skill Independent Pack Setup"
-description: "atlasomnia/hermes-custom-pack — 60+ installable skills, plugins, and utilities for Hermes Agent: a Hermes-ops core (config editing, context optimization, self-evaluation, session maintenance, Mnemosyne, plugin development) plus verification, macOS automation, and productivity families."
+title: "AtlasOmnia Hermes Custom Pack - 60+ Skill Independent Pack Setup"
+description: "atlasomnia/hermes-custom-pack - 60+ installable skills, plugins, and utilities for Hermes Agent: a Hermes-ops core (config editing, context optimization, self-evaluation, session maintenance, Mnemosyne, plugin development) plus verification, macOS automation, and productivity families."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup/"
 robots: "index,follow"
 last_updated: "2026-08-19"
 tags: ["hermes skill", "agent skill", "skill setup", "hermes configuration", "hermes plugins", "mnemosyne", "skill audit", "pre-push gates"]
 ---
 
-# AtlasOmnia Hermes Custom Pack — Setup Guide
+# AtlasOmnia Hermes Custom Pack - Setup Guide
 
 **Source:** [atlasomnia/hermes-custom-pack](https://skills.sh/atlasomnia/hermes-custom-pack)
 **GitHub:** [AtlasOmnia/hermes-agent-custom-pack](https://github.com/AtlasOmnia/hermes-agent-custom-pack)
 **Skills:** 60+ skills (9 indexed on skills.sh at 2-3 installs each) · independent per-package installs
 **Category:** Hermes Operations + Productivity
 **First Seen:** August 19, 2026 evening sweep
-**Quality Tier:** 🟡 Beta — 48 GitHub stars, unofficial pack, every package documented with explicit verification steps and safe to inspect before use
+**Quality Tier:** 🟡 Beta - 48 GitHub stars, unofficial pack, every package documented with explicit verification steps and safe to inspect before use
 
 An independent pack of practical skills, plugins, integrations, scripts, and utilities built by AtlasOmnia from real Hermes installations. Unlike monolithic skill dumps, every package installs on its own and carries its own verification steps. The strongest value is the Hermes-ops core: configuration editing patterns that work around security guards, context payload optimization, self-evaluation through external models, session history maintenance, and Mnemosyne memory operations. The verification family (pre-push gates, publication link audits, source verification, evidence-based replies) overlaps directly with CorpusIQ's public-content discipline.
 
@@ -34,7 +34,7 @@ Install it directly:
 hermes skills install https://raw.githubusercontent.com/AtlasOmnia/hermes-agent-custom-pack/main/skills/browser-harness-authoring/SKILL.md
 ```
 
-Start a new Hermes session after installation so the skill registry is refreshed. Note the GitHub repo name is `hermes-agent-custom-pack` while the skills.sh source listing shows `atlasomnia/hermes-custom-pack` — use the GitHub raw URLs for direct installs.
+Start a new Hermes session after installation so the skill registry is refreshed. Note the GitHub repo name is `hermes-agent-custom-pack` while the skills.sh source listing shows `atlasomnia/hermes-custom-pack` - use the GitHub raw URLs for direct installs.
 
 ## Prerequisites
 
@@ -70,14 +70,14 @@ Hermes-ops skills indexed on skills.sh: hermes-diagnostic-review (3), hermes-age
 |---|---|
 | **Session DB and context optimization** | hermes-context-optimization and hermes-session-maintenance map to our three-phase session DB optimization and token-health work |
 | **Pre-push sanitization** | github-pre-push-gates (immutable verification, privacy scanning, clean publication) matches our pre-push sanitization checklist for public content |
-| **Outbound link integrity** | publication-link-audit verifies every outbound URL — the same class of check as our broken-link audits |
+| **Outbound link integrity** | publication-link-audit verifies every outbound URL - the same class of check as our broken-link audits |
 | **Skill quality grading** | skill-auditor's A-F grading with fix suggestions aligns with our quarterly skill audits and skill-consolidate passes |
 | **Overnight autonomy** | hermes-overnight-autonomy and nightly-self-check-decision recording match our nocturnal cron maintenance cycle |
 | **Evidence-disciplined replies** | evidence-based-replies and source-verification encode verify-before-assertion for public responses |
 
 ## Limitations / Verification
 
-- Below the 20K install guide bar — drafted on cluster authority: a cohesive 60+ skill Hermes-native pack with a strong ops core, 48 GitHub stars
+- Below the 20K install guide bar - drafted on cluster authority: a cohesive 60+ skill Hermes-native pack with a strong ops core, 48 GitHub stars
 - Unofficial and not affiliated with Nous Research; every package should still be inspected before install (the pack's own stated policy)
 - Some families are macOS-only or require CLI companions not present on Linux workers
 - Related project `AtlasOmnia/hermes-loops` (autoresearch propose→test→keep/revert harness) is a separate monorepo, not part of this pack
@@ -91,6 +91,6 @@ hermes skills inspect https://raw.githubusercontent.com/AtlasOmnia/hermes-agent-
 - [Skills Catalog](/hermes/skills/catalog/)
 - [Skills Marketplace](/hermes/skills/marketplace/)
 - [Hermes Field Kit Setup](/hermes/skills/catalog/hermes-field-kit-setup/)
-- [Avoid AI Writing — AI-Pattern Audit & Rewrite Setup](/hermes/skills/catalog/avoid-ai-writing-setup/)
+- [Avoid AI Writing - AI-Pattern Audit & Rewrite Setup](/hermes/skills/catalog/avoid-ai-writing-setup/)
 
 *Powered by CorpusIQ*

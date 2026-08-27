@@ -1,5 +1,5 @@
 ---
-title: "steipete/clawdis — 14 OpenClaw Skills"
+title: "steipete/clawdis - 14 OpenClaw Skills"
 description: "Complete setup guide for the clawdis skill collection: tmux, openai-whisper, ordercli, peekaboo, himalaya, clawhub, video-frames, session-logs, healthcheck"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdis-setup/"
 robots: "index,follow"
@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Setup Guide: steipete/clawdis
 
-**14 skills for Hermes/OpenClaw agents — terminal, media, monitoring, and productivity.**
+**14 skills for Hermes/OpenClaw agents - terminal, media, monitoring, and productivity.**
 
 ## Quick Install
 
@@ -53,10 +53,10 @@ npx skills add steipete/clawdis/spotify-player
 
 | Skill | Installs | Purpose |
 |-------|:--------:|---------|
-| **tmux** | 4,964 | Agent controls tmux sessions — create windows, split panes, send commands |
-| **ordercli** | 3,388 | CLI-based ordering interface — agent can place orders programmatically |
-| **peekaboo** | 3,112 | Screenshot capture — agent takes screenshots for visual context |
-| **clawhub** | 2,859 | Central skill discovery hub — find and install ecosystem skills |
+| **tmux** | 4,964 | Agent controls tmux sessions - create windows, split panes, send commands |
+| **ordercli** | 3,388 | CLI-based ordering interface - agent can place orders programmatically |
+| **peekaboo** | 3,112 | Screenshot capture - agent takes screenshots for visual context |
+| **clawhub** | 2,859 | Central skill discovery hub - find and install ecosystem skills |
 
 ### Media & Audio (4 skills)
 
@@ -64,24 +64,24 @@ npx skills add steipete/clawdis/spotify-player
 |-------|:--------:|---------|
 | **openai-whisper** | 3,781 | Speech-to-text transcription via OpenAI Whisper API |
 | **video-frames** | 2,762 | Frame extraction and analysis from video files |
-| **sonoscli** | 2,457 | Sonos speaker control — play, pause, volume, queue |
-| **spotify-player** | 2,438 | Spotify playback — search, play, queue management |
+| **sonoscli** | 2,457 | Sonos speaker control - play, pause, volume, queue |
+| **spotify-player** | 2,438 | Spotify playback - search, play, queue management |
 
 ### Monitoring & Logging (3 skills)
 
 | Skill | Installs | Purpose |
 |-------|:--------:|---------|
-| **session-logs** | 2,616 | Agent session logging — searchable history across conversations |
-| **healthcheck** | 2,594 | System health — CPU, memory, disk, process monitoring |
+| **session-logs** | 2,616 | Agent session logging - searchable history across conversations |
+| **healthcheck** | 2,594 | System health - CPU, memory, disk, process monitoring |
 | **model-usage** | 2,458 | LLM token tracking and cost reporting across providers |
 
 ### Productivity (3 skills)
 
 | Skill | Installs | Purpose |
 |-------|:--------:|---------|
-| **himalaya** | 2,907 | Terminal email — send, receive, manage emails |
-| **trello** | 2,578 | Trello board management — create/move cards, add comments |
-| **blogwatcher** | 2,451 | RSS/Atom feed monitoring — track blog updates |
+| **himalaya** | 2,907 | Terminal email - send, receive, manage emails |
+| **trello** | 2,578 | Trello board management - create/move cards, add comments |
+| **blogwatcher** | 2,451 | RSS/Atom feed monitoring - track blog updates |
 
 ## Configuration
 
@@ -104,10 +104,10 @@ skills:
 
 ## Use Cases
 
-1. **Session-aware coding agent**: `tmux` + `session-logs` — agent works across tmux sessions with full context history
-2. **Media production pipeline**: `video-frames` + `openai-whisper` — extract frames, transcribe audio, generate captions
-3. **System operator agent**: `healthcheck` + `model-usage` — monitors system health and reports costs
-4. **Content monitoring loop**: `blogwatcher` + `himalaya` — watches feeds, summarizes, emails digests
+1. **Session-aware coding agent**: `tmux` + `session-logs` - agent works across tmux sessions with full context history
+2. **Media production pipeline**: `video-frames` + `openai-whisper` - extract frames, transcribe audio, generate captions
+3. **System operator agent**: `healthcheck` + `model-usage` - monitors system health and reports costs
+4. **Content monitoring loop**: `blogwatcher` + `himalaya` - watches feeds, summarizes, emails digests
 
 ## Troubleshooting
 

@@ -1,22 +1,22 @@
 ---
-title: "CTF Security Skills — Offensive Security Suite Setup"
-description: "ljagiello/ctf-skills — 12 skills, 71.6K installs: reverse engineering, web exploitation, OSINT, forensics, cryptography, and AI/ML challenge skills for security work."
+title: "CTF Security Skills - Offensive Security Suite Setup"
+description: "ljagiello/ctf-skills - 12 skills, 71.6K installs: reverse engineering, web exploitation, OSINT, forensics, cryptography, and AI/ML challenge skills for security work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ctf-security-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "ctf", "osint"]
 ---
 
-# CTF Security Skills — Setup Guide
+# CTF Security Skills - Setup Guide
 
 **Source:** [ljagiello/ctf-skills](https://skills.sh/ljagiello/ctf-skills)
 **GitHub:** [ljagiello/ctf-skills](https://github.com/ljagiello/ctf-skills)
 **Skills:** 12 skills · 71.6K total installs
 **Category:** Security / CTF
 **First Seen:** catalogued August 15, 2026 evening sweep
-**Quality Tier:** 🟡 Trusted (individual publisher, offensive-security content — use for authorized testing and CTF practice only)
+**Quality Tier:** 🟡 Trusted (individual publisher, offensive-security content - use for authorized testing and CTF practice only)
 
-A full offensive-security curriculum as agent skills: reverse engineering, web exploitation, binary exploitation (pwn), OSINT, cryptography, forensics, malware analysis, AI/ML challenge work, and writeup generation. Queued in prior sweeps; the publisher page confirms 71.6K installs across 12 skills — the largest security-focused cluster catalogued to date.
+A full offensive-security curriculum as agent skills: reverse engineering, web exploitation, binary exploitation (pwn), OSINT, cryptography, forensics, malware analysis, AI/ML challenge work, and writeup generation. Queued in prior sweeps; the publisher page confirms 71.6K installs across 12 skills - the largest security-focused cluster catalogued to date.
 
 ---
 
@@ -69,7 +69,7 @@ npx skills add ljagiello/ctf-skills
 ## Limitations / Verification
 
 - Publisher-page install counts verified; individual skill audit pages were not fetched for this multi-skill suite
-- Offensive techniques — only use against systems you own or are explicitly authorized to test
+- Offensive techniques - only use against systems you own or are explicitly authorized to test
 - Skills assume CTF-style targets; adapting to production systems requires additional judgment
 
 ```bash

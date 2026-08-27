@@ -1,13 +1,13 @@
 ---
-title: "Makerskills — Personal Operator Agent Suite Setup"
-description: "coreyhaines31/makerskills — 23-skill suite for the personal operator's craft (4.7K installs, 681 stars): second-brain and company-brain knowledge vaults, deep-research, decide, business-brainstorm, CFO skills, content and PM workflows, plus meta-skills for authoring your own. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
+title: "Makerskills - Personal Operator Agent Suite Setup"
+description: "coreyhaines31/makerskills - 23-skill suite for the personal operator's craft (4.7K installs, 681 stars): second-brain and company-brain knowledge vaults, deep-research, decide, business-brainstorm, CFO skills, content and PM workflows, plus meta-skills for authoring your own. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/makerskills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-24"
 tags: ["hermes skill", "agent skill", "skill setup", "second brain", "knowledge management", "business operations"]
 ---
 
-# Makerskills — Setup Guide
+# Makerskills - Setup Guide
 
 **Source:** [coreyhaines31/makerskills](https://skills.sh/coreyhaines31/makerskills)
 **GitHub:** [coreyhaines31/makerskills](https://github.com/coreyhaines31/makerskills) (681⭐, created June 3, 2026, actively maintained)
@@ -134,7 +134,7 @@ npx skills add coreyhaines31/makerskills
 
 - Below the usual 20K publisher bar; drafted on suite-scale precedent (23 cohesive skills, 4.7K publisher-page installs, 681⭐, active development the day of the sweep) and direct relevance to business-operator agents
 - The repo README and playbook prose target Claude Code, Codex, and Cursor; Hermes installs via the paths above, and tool references (e.g. `deep-research` naming WebSearch, WebFetch, Notion) map onto equivalent Hermes tools
-- Snyk flags a Warn on the security audit (Gen Agent Trust Hub and Socket pass) — review SKILL.md files before activation
+- Snyk flags a Warn on the security audit (Gen Agent Trust Hub and Socket pass) - review SKILL.md files before activation
 - Install counts are from skills.sh publisher pages as of the August 24, 2026 sweep; API search undercounts this cluster ~10x
 
 ```bash
@@ -147,16 +147,16 @@ npx skills find "company-brain" --json 2>&1 | grep skills.sh
 
 ## Security
 
-- [coreyhaines31/makerskills repo](https://github.com/coreyhaines31/makerskills) — review SKILL.md files before install (standard practice)
-- [Hermes skills security](/hermes/best-practices/security/) — skill trust guidance
+- [coreyhaines31/makerskills repo](https://github.com/coreyhaines31/makerskills) - review SKILL.md files before install (standard practice)
+- [Hermes skills security](/hermes/best-practices/security/) - skill trust guidance
 - skills.sh security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Warn
 
 ## Related
 
-- [GBrain Agent Operations Setup](/hermes/skills/catalog/gbrain-agent-operations-setup/) — vector memory layer for Hermes agents
-- [Honcho Integration Setup](/hermes/skills/catalog/honcho-integration-setup/) — conversational memory infrastructure
-- [Agentic Awesome Skills (AAS) Setup](/hermes/skills/catalog/agentic-awesome-skills-setup/) — 2,000+ skill catalog with memory-systems playbooks
-- [Skills Catalog](/hermes/skills/catalog/) — full catalog index
+- [GBrain Agent Operations Setup](/hermes/skills/catalog/gbrain-agent-operations-setup/) - vector memory layer for Hermes agents
+- [Honcho Integration Setup](/hermes/skills/catalog/honcho-integration-setup/) - conversational memory infrastructure
+- [Agentic Awesome Skills (AAS) Setup](/hermes/skills/catalog/agentic-awesome-skills-setup/) - 2,000+ skill catalog with memory-systems playbooks
+- [Skills Catalog](/hermes/skills/catalog/) - full catalog index
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

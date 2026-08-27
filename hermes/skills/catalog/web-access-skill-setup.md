@@ -1,22 +1,22 @@
 ---
-title: "Web Access Skill — Unified Browsing & Scraping Setup"
-description: "eze-is/web-access — 1 skill, 15.7K installs: unified web access for search, scraping, login-required operations, and CDP browser automation through your existing Chrome or Edge. 8.7K GitHub stars; audit findings named in Limitations."
+title: "Web Access Skill - Unified Browsing & Scraping Setup"
+description: "eze-is/web-access - 1 skill, 15.7K installs: unified web access for search, scraping, login-required operations, and CDP browser automation through your existing Chrome or Edge. 8.7K GitHub stars; audit findings named in Limitations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-access-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-17"
 tags: ["hermes skill", "agent skill", "skill setup", "web scraping", "browser automation", "web-access"]
 ---
 
-# Web Access Skill — Setup Guide
+# Web Access Skill - Setup Guide
 
 **Source:** [eze-is/web-access](https://skills.sh/eze-is/web-access)
 **GitHub:** [eze-is/web-access](https://github.com/eze-is/web-access)
 **Skills:** 1 skill · 15.7K installs
 **Category:** Web Access & Scraping
 **First Seen:** catalogued August 17, 2026 sweep (web-access on skills.sh since March 19, 2026)
-**Quality Tier:** 🟡 Trusted — Socket Warn and Snyk Fail named (see Limitations)
+**Quality Tier:** 🟡 Trusted - Socket Warn and Snyk Fail named (see Limitations)
 
-web-access is a unified web access skill covering three methods in one workflow: WebSearch for discovery, WebFetch/curl for static content, and CDP browser automation for login-protected or dynamically-rendered platforms (Xiaohongshu, WeChat, Twitter, and similar). It drives your existing Chrome or Edge through a CDP proxy — preserving login state, running in background tabs, with no separate browser instance.
+web-access is a unified web access skill covering three methods in one workflow: WebSearch for discovery, WebFetch/curl for static content, and CDP browser automation for login-protected or dynamically-rendered platforms (Xiaohongshu, WeChat, Twitter, and similar). It drives your existing Chrome or Edge through a CDP proxy - preserving login state, running in background tabs, with no separate browser instance.
 
 ---
 
@@ -36,7 +36,7 @@ npx skills add https://github.com/eze-is/web-access --skill web-access
 
 | Requirement | Details |
 |---|---|
-| **Node.js 22+** | Required — uses native WebSocket |
+| **Node.js 22+** | Required - uses native WebSocket |
 | **Chrome or Edge** | Your existing browser, driven via CDP proxy |
 | **Dependency check** | Skill runs `check-deps.mjs` before any network operation |
 
@@ -57,16 +57,16 @@ npx skills add https://github.com/eze-is/web-access --skill web-access
 
 | Use Case | How |
 |---|---|
-| **Login-gated research** | Preserves real browser sessions — the same property our Mac Mini Playwright context provides, available to any agent |
+| **Login-gated research** | Preserves real browser sessions - the same property our Mac Mini Playwright context provides, available to any agent |
 | **Resilient fetch path** | A third fallback path when our primary search backends degrade |
 | **Social-platform checks** | CDP interaction with platforms that block headless automation |
 
 ## Limitations / Verification
 
-- Security audits on web-access: Gen Agent Trust Hub Pass, Socket **Warn**, Snyk **Fail** — named per catalog policy; review before use in security-sensitive contexts
+- Security audits on web-access: Gen Agent Trust Hub Pass, Socket **Warn**, Snyk **Fail** - named per catalog policy; review before use in security-sensitive contexts
 - Publisher-page install counts verified (15.7K single skill); GitHub 8.7K stars on the repo
-- SKILL.md front matter is bilingual (Chinese primary) — the dependency check and config prompts appear in Chinese first
-- Requires a real Chrome/Edge session on the host — not a headless replacement
+- SKILL.md front matter is bilingual (Chinese primary) - the dependency check and config prompts appear in Chinese first
+- Requires a real Chrome/Edge session on the host - not a headless replacement
 
 ```bash
 npx skills add eze-is/web-access   # verify install works

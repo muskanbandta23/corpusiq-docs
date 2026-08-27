@@ -1,5 +1,5 @@
 ---
-title: "Granola MCP — AI Meeting Notes for Hermes Agent"
+title: "Granola MCP - AI Meeting Notes for Hermes Agent"
 description: "Connect Granola meeting notes to Hermes Agent. Query your notes, search transcripts, and get meeting insights directly from any AI client. Official MCP from"
 category: mcp
 tags: [mcp-server, granola, meeting-notes, productivity, transcription, knowledge-retrieval, search]
@@ -13,7 +13,7 @@ robots: "index,follow"
 
 ## Overview
 
-Granola MCP (`granola-mcp`) connects AI agents to your Granola meeting notes library. Query past meetings, search transcripts, extract action items, and surface insights from your entire meeting history — all from your AI assistant. Official MCP server from Granola.
+Granola MCP (`granola-mcp`) connects AI agents to your Granola meeting notes library. Query past meetings, search transcripts, extract action items, and surface insights from your entire meeting history - all from your AI assistant. Official MCP server from Granola.
 
 **Key advantage**: Turn your meeting notes into a queryable knowledge base. AI agents can answer "what did we decide about pricing in the Q2 review?" by searching your actual meeting transcripts, not guessing.
 
@@ -24,7 +24,7 @@ Granola MCP (`granola-mcp`) connects AI agents to your Granola meeting notes lib
 - **Action item extraction**: Pull action items and decisions from any meeting
 - **Cross-meeting insights**: Find patterns and recurring themes across multiple meetings
 - **Date-range queries**: Filter by meeting date, participant, or project
-- **Remote endpoint**: Hosted MCP server — connect directly, no installation
+- **Remote endpoint**: Hosted MCP server - connect directly, no installation
 
 ## Installation
 
@@ -60,7 +60,7 @@ hermes mcp auth granola --api-key YOUR_GRANOLA_API_KEY
 
 ## Business Use Cases
 
-1. **Meeting Prep**: Before a client call, ask AI agent "what did we discuss last time with Acme Corp?" — get full context from Granola
+1. **Meeting Prep**: Before a client call, ask AI agent "what did we discuss last time with Acme Corp?" - get full context from Granola
 2. **Decision Tracking**: Query "what pricing decisions were made in Q2?" and get exact meeting references
 3. **Action Item Follow-up**: AI agent surfaces unresolved action items from past 30 days of meetings
 4. **Project Retrospectives**: Search all project meetings for blockers, decisions, and timeline commitments
@@ -68,7 +68,7 @@ hermes mcp auth granola --api-key YOUR_GRANOLA_API_KEY
 
 ## Business Relevance
 
-Granola is the go-to meeting notes platform for operators who live in meetings. MCP integration means meeting knowledge escapes the silo — AI agents now have access to the richest source of institutional knowledge: what was actually discussed and decided.
+Granola is the go-to meeting notes platform for operators who live in meetings. MCP integration means meeting knowledge escapes the silo - AI agents now have access to the richest source of institutional knowledge: what was actually discussed and decided.
 
 ## Limitations
 
@@ -79,6 +79,6 @@ Granola is the go-to meeting notes platform for operators who live in meetings. 
 
 ## See Also
 
-- Cal.com MCP — for scheduling automation
-- NotebookLM MCP — for AI research notebooks
-- CorpusIQ MCP — for cross-platform business data (CRM, email, analytics)
+- Cal.com MCP - for scheduling automation
+- NotebookLM MCP - for AI research notebooks
+- CorpusIQ MCP - for cross-platform business data (CRM, email, analytics)

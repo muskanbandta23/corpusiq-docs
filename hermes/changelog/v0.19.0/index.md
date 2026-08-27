@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.19.0 — The Quicksilver Release
-description: Hermes Agent v0.19.0 (v2026.7.20) — The Quicksilver Release. ~80% first-token speed improvement, terminal billing, Bitwarden/1Password integration, smart approvals, durable delivery, live subagent transcripts, new frontier models, and 2,245 commits from 450+ contributors. July 20, 2026.
+title: Hermes Agent v0.19.0 - The Quicksilver Release
+description: Hermes Agent v0.19.0 (v2026.7.20) - The Quicksilver Release. ~80% first-token speed improvement, terminal billing, Bitwarden/1Password integration, smart approvals, durable delivery, live subagent transcripts, new frontier models, and 2,245 commits from 450+ contributors. July 20, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.19.0/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -19,36 +19,36 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## ✨ Highlights
 
-- **~80% faster first-token time** — Cold-start "Initializing agent..." dropped from ~4.3s to ~0.9s across CLI, gateway, TUI, desktop, and cron. Reasoning models now stream their thinking live by default, and the response box paints per token instead of per line. ([#59332](https://github.com/NousResearch/hermes-agent/pull/59332), [#59389](https://github.com/NousResearch/hermes-agent/pull/59389))
+- **~80% faster first-token time** - Cold-start "Initializing agent..." dropped from ~4.3s to ~0.9s across CLI, gateway, TUI, desktop, and cron. Reasoning models now stream their thinking live by default, and the response box paints per token instead of per line. ([#59332](https://github.com/NousResearch/hermes-agent/pull/59332), [#59389](https://github.com/NousResearch/hermes-agent/pull/59389))
 
-- **Desktop app speed wave — 20+ targeted perf PRs** — 14× faster streaming markdown, virtualized diffs, snappy session switching, pre-warmed profile backends, and idle-mount boot-hidden panes. The desktop app feels native under load. ([#67154](https://github.com/NousResearch/hermes-agent/pull/67154), [#67818](https://github.com/NousResearch/hermes-agent/pull/67818), [#65898](https://github.com/NousResearch/hermes-agent/pull/65898))
+- **Desktop app speed wave - 20+ targeted perf PRs** - 14× faster streaming markdown, virtualized diffs, snappy session switching, pre-warmed profile backends, and idle-mount boot-hidden panes. The desktop app feels native under load. ([#67154](https://github.com/NousResearch/hermes-agent/pull/67154), [#67818](https://github.com/NousResearch/hermes-agent/pull/67818), [#65898](https://github.com/NousResearch/hermes-agent/pull/65898))
 
-- **Terminal billing — `/subscription` and `/topup`** — See your plan, preview upgrade costs, schedule downgrades, and apply changes — all from the TUI or classic CLI. The desktop app got a matching billing settings tab. ([#51639](https://github.com/NousResearch/hermes-agent/pull/51639), [#61054](https://github.com/NousResearch/hermes-agent/pull/61054))
+- **Terminal billing - `/subscription` and `/topup`** - See your plan, preview upgrade costs, schedule downgrades, and apply changes - all from the TUI or classic CLI. The desktop app got a matching billing settings tab. ([#51639](https://github.com/NousResearch/hermes-agent/pull/51639), [#61054](https://github.com/NousResearch/hermes-agent/pull/61054))
 
-- **Smart approvals are now the default** — An LLM reviewer independently assesses flagged commands instead of asking you to approve every single one. Combined with user-defined deny rules and `/deny <reason>`, approval fatigue drops sharply without giving up control. ([#62661](https://github.com/NousResearch/hermes-agent/pull/62661), [#59164](https://github.com/NousResearch/hermes-agent/pull/59164))
+- **Smart approvals are now the default** - An LLM reviewer independently assesses flagged commands instead of asking you to approve every single one. Combined with user-defined deny rules and `/deny <reason>`, approval fatigue drops sharply without giving up control. ([#62661](https://github.com/NousResearch/hermes-agent/pull/62661), [#59164](https://github.com/NousResearch/hermes-agent/pull/59164))
 
-- **Bitwarden & 1Password secret sources** — A pluggable `SecretSource` interface fetches API keys from Bitwarden and 1Password (`op://` references) at load time, with multiple vaults, deterministic precedence, and conflict warnings. ([#59498](https://github.com/NousResearch/hermes-agent/pull/59498))
+- **Bitwarden & 1Password secret sources** - A pluggable `SecretSource` interface fetches API keys from Bitwarden and 1Password (`op://` references) at load time, with multiple vaults, deterministic precedence, and conflict warnings. ([#59498](https://github.com/NousResearch/hermes-agent/pull/59498))
 
-- **Watch your subagents work — live transcripts + durable background delegation** — `delegate_task` dispatches return live transcript files you can `tail -f`. Background delegation completions are now durable through process restarts via an ownership-checked ledger. ([#67479](https://github.com/NousResearch/hermes-agent/pull/67479), [#63494](https://github.com/NousResearch/hermes-agent/pull/63494))
+- **Watch your subagents work - live transcripts + durable background delegation** - `delegate_task` dispatches return live transcript files you can `tail -f`. Background delegation completions are now durable through process restarts via an ownership-checked ledger. ([#67479](https://github.com/NousResearch/hermes-agent/pull/67479), [#63494](https://github.com/NousResearch/hermes-agent/pull/63494))
 
-- **Delivery-obligation ledger** — Final responses are recorded in a durable ledger in `state.db` and redelivered on the next boot if the gateway crashes mid-delivery. Closes a P1 silent-loss window for Telegram, Discord, Slack, and every other channel. ([#67181](https://github.com/NousResearch/hermes-agent/pull/67181))
+- **Delivery-obligation ledger** - Final responses are recorded in a durable ledger in `state.db` and redelivered on the next boot if the gateway crashes mid-delivery. Closes a P1 silent-loss window for Telegram, Discord, Slack, and every other channel. ([#67181](https://github.com/NousResearch/hermes-agent/pull/67181))
 
-- **Profile-based message routing** — A single multiplexed gateway sharing one bot token can route specific guilds, channels, or threads to different profiles — each with fully isolated config, skills, memory, and secrets. ([#64835](https://github.com/NousResearch/hermes-agent/pull/64835), [#65700](https://github.com/NousResearch/hermes-agent/pull/65700))
+- **Profile-based message routing** - A single multiplexed gateway sharing one bot token can route specific guilds, channels, or threads to different profiles - each with fully isolated config, skills, memory, and secrets. ([#64835](https://github.com/NousResearch/hermes-agent/pull/64835), [#65700](https://github.com/NousResearch/hermes-agent/pull/65700))
 
-- **New providers and frontier models** — Fireworks AI and DeepInfra as first-class providers. Model catalogs: GPT-5.6 (Sol/Terra/Luna + Pro), grok-4.5 (GA), moonshotai/kimi-k3, claude-fable-5 / claude-sonnet-5, tencent/hy3, plus LM Studio JIT loading. ([#62593](https://github.com/NousResearch/hermes-agent/pull/62593), [#63969](https://github.com/NousResearch/hermes-agent/pull/63969), [#61616](https://github.com/NousResearch/hermes-agent/pull/61616))
+- **New providers and frontier models** - Fireworks AI and DeepInfra as first-class providers. Model catalogs: GPT-5.6 (Sol/Terra/Luna + Pro), grok-4.5 (GA), moonshotai/kimi-k3, claude-fable-5 / claude-sonnet-5, tencent/hy3, plus LM Studio JIT loading. ([#62593](https://github.com/NousResearch/hermes-agent/pull/62593), [#63969](https://github.com/NousResearch/hermes-agent/pull/63969), [#61616](https://github.com/NousResearch/hermes-agent/pull/61616))
 
-- **New reasoning effort tiers — `max` and `ultra`** — Selectable everywhere with per-model overrides, per-slot MoA preset effort, and per-task auxiliary effort. Thinking depth is now a dial, not a global switch. ([#62650](https://github.com/NousResearch/hermes-agent/pull/62650), [#64458](https://github.com/NousResearch/hermes-agent/pull/64458))
+- **New reasoning effort tiers - `max` and `ultra`** - Selectable everywhere with per-model overrides, per-slot MoA preset effort, and per-task auxiliary effort. Thinking depth is now a dial, not a global switch. ([#62650](https://github.com/NousResearch/hermes-agent/pull/62650), [#64458](https://github.com/NousResearch/hermes-agent/pull/64458))
 
-- **Session export to Markdown, Quarto, HTML, and Hugging Face formats** — With full filter surface, optional `--redact` secret-scrubbing, and compacted-session lineage stitching. ([#60186](https://github.com/NousResearch/hermes-agent/pull/60186))
+- **Session export to Markdown, Quarto, HTML, and Hugging Face formats** - With full filter surface, optional `--redact` secret-scrubbing, and compacted-session lineage stitching. ([#60186](https://github.com/NousResearch/hermes-agent/pull/60186))
 
-- **Security hardening round** — Vertex credential scoping, media/vision file-read guards, webhook body-cap sweep, bot-token redaction, six P1 hardening PRs, and CI hardened against untrusted-ref interpolation. ([#57660](https://github.com/NousResearch/hermes-agent/pull/57660), [#58709](https://github.com/NousResearch/hermes-agent/pull/58709))
+- **Security hardening round** - Vertex credential scoping, media/vision file-read guards, webhook body-cap sweep, bot-token redaction, six P1 hardening PRs, and CI hardened against untrusted-ref interpolation. ([#57660](https://github.com/NousResearch/hermes-agent/pull/57660), [#58709](https://github.com/NousResearch/hermes-agent/pull/58709))
 
 ---
 
-## ⚡ Performance — the speed spine
+## ⚡ Performance - the speed spine
 
 ### First-turn latency (all platforms)
-- **~80% TTFT cut** — Discord capability detection off the critical path (token-keyed 24h disk cache), Ollama probe skipped for non-Ollama providers, agent-init blocking work removed; cold submit→dispatch ~4.3s → ~0.9s ([#59332](https://github.com/NousResearch/hermes-agent/pull/59332))
+- **~80% TTFT cut** - Discord capability detection off the critical path (token-keyed 24h disk cache), Ollama probe skipped for non-Ollama providers, agent-init blocking work removed; cold submit→dispatch ~4.3s → ~0.9s ([#59332](https://github.com/NousResearch/hermes-agent/pull/59332))
 - `display.show_reasoning` default ON (watch the model think instead of a spinner), per-token response-box painting, prompt-build caching, mtime-cached timezone resolution ([#59389](https://github.com/NousResearch/hermes-agent/pull/59389))
 - Segment mixed tool batches to recover lost concurrency; drop per-call base64 re-serialization from request-size estimates ([#64460](https://github.com/NousResearch/hermes-agent/pull/64460), [#67788](https://github.com/NousResearch/hermes-agent/pull/67788))
 
@@ -63,7 +63,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 - Skill discovery cached by scan signature; snapshot manifest builds ~5× faster ([#61414](https://github.com/NousResearch/hermes-agent/pull/61414), [#61131](https://github.com/NousResearch/hermes-agent/pull/61131))
 - Copy-on-write message prep; model-metadata probe-cache cluster; gateway session resume from one SELECT ([#61133](https://github.com/NousResearch/hermes-agent/pull/61133), [#61368](https://github.com/NousResearch/hermes-agent/pull/61368), [#67247](https://github.com/NousResearch/hermes-agent/pull/67247))
 - `hermes update` skips npm install when Node manifests are unchanged ([#61580](https://github.com/NousResearch/hermes-agent/pull/61580))
-- Byte-stable gateway system prompts — pinned session-context render keeps the prompt cache alive ([#67403](https://github.com/NousResearch/hermes-agent/pull/67403))
+- Byte-stable gateway system prompts - pinned session-context render keeps the prompt cache alive ([#67403](https://github.com/NousResearch/hermes-agent/pull/67403))
 
 ---
 
@@ -72,10 +72,10 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ### Providers & models
 - **Fireworks AI** provider with cost estimation, promoted to #2 in provider pickers ([#62593](https://github.com/NousResearch/hermes-agent/pull/62593), [#65476](https://github.com/NousResearch/hermes-agent/pull/65476))
 - **DeepInfra** hardened integration; **Upstage Solar** provider ([#63969](https://github.com/NousResearch/hermes-agent/pull/63969), [#64541](https://github.com/NousResearch/hermes-agent/pull/64541))
-- **GPT-5.6 (Sol/Terra/Luna + Pro)** end-to-end — context lengths, native/Codex catalogs, pricing, compaction caps ([#61616](https://github.com/NousResearch/hermes-agent/pull/61616))
-- **Claude Sonnet 5 fully wired** — curated lists, intro pricing, and metadata across every route ([#67932](https://github.com/NousResearch/hermes-agent/pull/67932))
+- **GPT-5.6 (Sol/Terra/Luna + Pro)** end-to-end - context lengths, native/Codex catalogs, pricing, compaction caps ([#61616](https://github.com/NousResearch/hermes-agent/pull/61616))
+- **Claude Sonnet 5 fully wired** - curated lists, intro pricing, and metadata across every route ([#67932](https://github.com/NousResearch/hermes-agent/pull/67932))
 - grok-4.5 (GA), kimi-k3, claude-fable-5, tencent/hy3, LM Studio JIT loading ([#60887](https://github.com/NousResearch/hermes-agent/pull/60887), [#65913](https://github.com/NousResearch/hermes-agent/pull/65913), [#65472](https://github.com/NousResearch/hermes-agent/pull/65472))
-- **Hide providers you don't use** — `enabled: false` per-provider flag + `excluded_providers` config ([#67971](https://github.com/NousResearch/hermes-agent/pull/67971))
+- **Hide providers you don't use** - `enabled: false` per-provider flag + `excluded_providers` config ([#67971](https://github.com/NousResearch/hermes-agent/pull/67971))
 - Bedrock catalog wave: real context-window probing, 1M-context rows for Claude + Fable, Opus 4.8/4.7 rows ([#68007](https://github.com/NousResearch/hermes-agent/pull/68007), [#67977](https://github.com/NousResearch/hermes-agent/pull/67977))
 - Provider pickers: Qwen providers folded into one group row; collapsible provider groups in desktop ([#67758](https://github.com/NousResearch/hermes-agent/pull/67758), [#67904](https://github.com/NousResearch/hermes-agent/pull/67904))
 
@@ -87,8 +87,8 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ### Delegation, approvals & the agent loop
 - Live subagent transcripts + durable background completions ([#67479](https://github.com/NousResearch/hermes-agent/pull/67479), [#63494](https://github.com/NousResearch/hermes-agent/pull/63494))
 - Smart approvals default + user-defined deny rules + `/deny <reason>` ([#62661](https://github.com/NousResearch/hermes-agent/pull/62661), [#59164](https://github.com/NousResearch/hermes-agent/pull/59164), [#54518](https://github.com/NousResearch/hermes-agent/pull/54518))
-- `/model --once` — one-turn model override that reverts automatically ([#67113](https://github.com/NousResearch/hermes-agent/pull/67113))
-- Stacked slash-skill invocations — `/skill-a /skill-b do XYZ` loads both skills in order ([#57987](https://github.com/NousResearch/hermes-agent/pull/57987), [#58763](https://github.com/NousResearch/hermes-agent/pull/58763))
+- `/model --once` - one-turn model override that reverts automatically ([#67113](https://github.com/NousResearch/hermes-agent/pull/67113))
+- Stacked slash-skill invocations - `/skill-a /skill-b do XYZ` loads both skills in order ([#57987](https://github.com/NousResearch/hermes-agent/pull/57987), [#58763](https://github.com/NousResearch/hermes-agent/pull/58763))
 
 ### Secret sources
 - Pluggable `SecretSource` interface; Bitwarden + 1Password vaults with deterministic precedence and conflict warnings ([#59498](https://github.com/NousResearch/hermes-agent/pull/59498))
@@ -112,7 +112,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## 📱 Messaging Platforms
 
-- **Inline choice pickers** for `/reasoning` and `/fast` on Telegram, Discord, and Matrix — one-tap native buttons ([#65799](https://github.com/NousResearch/hermes-agent/pull/65799))
+- **Inline choice pickers** for `/reasoning` and `/fast` on Telegram, Discord, and Matrix - one-tap native buttons ([#65799](https://github.com/NousResearch/hermes-agent/pull/65799))
 - **WhatsApp**: native Baileys polls, locations, rich inbound metadata; dashboard pairing flow ([#58865](https://github.com/NousResearch/hermes-agent/pull/58865), [#60571](https://github.com/NousResearch/hermes-agent/pull/60571))
 - **Discord**: recover messages missed during reconnect; auto-created threads renamed to session titles; configurable interactive view timeout ([#66149](https://github.com/NousResearch/hermes-agent/pull/66149), [#60187](https://github.com/NousResearch/hermes-agent/pull/60187))
 - **Slack**: live per-tool status line ([#67080](https://github.com/NousResearch/hermes-agent/pull/67080))
@@ -123,8 +123,8 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## 🖥️ Hermes Desktop App
 
-- **Contribution-driven shell on a layout-tree model** — panes, zones, and layouts as data ([#60638](https://github.com/NousResearch/hermes-agent/pull/60638), [#67303](https://github.com/NousResearch/hermes-agent/pull/67303))
-- **Capabilities page** — Skills/Tools/MCP + Hub in one place, with responsive overlay nav ([#57590](https://github.com/NousResearch/hermes-agent/pull/57590), [#57441](https://github.com/NousResearch/hermes-agent/pull/57441))
+- **Contribution-driven shell on a layout-tree model** - panes, zones, and layouts as data ([#60638](https://github.com/NousResearch/hermes-agent/pull/60638), [#67303](https://github.com/NousResearch/hermes-agent/pull/67303))
+- **Capabilities page** - Skills/Tools/MCP + Hub in one place, with responsive overlay nav ([#57590](https://github.com/NousResearch/hermes-agent/pull/57590), [#57441](https://github.com/NousResearch/hermes-agent/pull/57441))
 - **Hermes Cloud connection mode**; soft gateway switch + gateway-settings polish; terminal execution backend picker ([#61912](https://github.com/NousResearch/hermes-agent/pull/61912), [#67203](https://github.com/NousResearch/hermes-agent/pull/67203))
 - Keybind hint tooltips + keybinds settings tab; unified worktree dialog; green unread dot for background-finished sessions ([#65204](https://github.com/NousResearch/hermes-agent/pull/65204), [#62243](https://github.com/NousResearch/hermes-agent/pull/62243))
 - Session + project color system; unified active-project identity in chat status ([#67469](https://github.com/NousResearch/hermes-agent/pull/67469), [#67681](https://github.com/NousResearch/hermes-agent/pull/67681))
@@ -145,7 +145,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ## 🧰 CLI & TUI
 
 - `/subscription` + `/topup` terminal billing ([#51639](https://github.com/NousResearch/hermes-agent/pull/51639))
-- `/model --once` — one-turn model override ([#67113](https://github.com/NousResearch/hermes-agent/pull/67113))
+- `/model --once` - one-turn model override ([#67113](https://github.com/NousResearch/hermes-agent/pull/67113))
 - Stacked slash-skill invocations with autocomplete + ghost text ([#57987](https://github.com/NousResearch/hermes-agent/pull/57987), [#58763](https://github.com/NousResearch/hermes-agent/pull/58763))
 - `--safe-mode` troubleshooting flag; uninstall dry-run; TLS failures fail fast with fix hints ([#45300](https://github.com/NousResearch/hermes-agent/pull/45300), [#60111](https://github.com/NousResearch/hermes-agent/pull/60111))
 - TUI: model picker refresh support; custom skill bundles dispatched as agent turns ([#59782](https://github.com/NousResearch/hermes-agent/pull/59782), [#62859](https://github.com/NousResearch/hermes-agent/pull/62859))
@@ -168,7 +168,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ## 🔒 Security & Reliability
 
 - Vertex: credential/project/region resolution through profile secret scope; `VERTEX_CREDENTIALS_PATH` stripped from subprocess env ([#56680](https://github.com/NousResearch/hermes-agent/pull/56680), [#56582](https://github.com/NousResearch/hermes-agent/pull/56582))
-- Six P1 hardening PRs salvaged in one pass — browser guards, MEDIA anchoring, .env lockdown ([#57660](https://github.com/NousResearch/hermes-agent/pull/57660))
+- Six P1 hardening PRs salvaged in one pass - browser guards, MEDIA anchoring, .env lockdown ([#57660](https://github.com/NousResearch/hermes-agent/pull/57660))
 - Media/vision/image-gen local-file reads routed through shared credential-read guard; unified image-source resolver ([#58709](https://github.com/NousResearch/hermes-agent/pull/58709), [#58752](https://github.com/NousResearch/hermes-agent/pull/58752))
 - Webhook body-cap sweep: explicit `client_max_size` on 3 uncapped aiohttp servers ([#59180](https://github.com/NousResearch/hermes-agent/pull/59180), [#59215](https://github.com/NousResearch/hermes-agent/pull/59215))
 - Redaction: Fireworks token prefixes + Telegram transport errors; env-lookup false positives fixed ([#58501](https://github.com/NousResearch/hermes-agent/pull/58501), [#58534](https://github.com/NousResearch/hermes-agent/pull/58534))
@@ -187,33 +187,33 @@ pip install -U hermes-agent
 
 ---
 
-## 👥 Contributors — 450+ people
+## 👥 Contributors - 450+ people
 
 ### Core team
-- **@teknium1** — release lead; TTFT perf wave, delivery + delegation durability, smart approvals, SecretSource, gateway multiplex, sessions export, security round, ~290-PR community salvage
-- **@OutThisLife** — desktop app (speed wave, layout-tree shell, Capabilities page, session colors, TUI incremental markdown, perf harness)
-- **@kshitijk4poor** — GPT-5.6 end-to-end, DeepInfra + Upstage Solar providers, perf cluster, compression integrity, mem0, dashboard guards
-- **@ethernet8023** — CI overhaul, desktop keybinds/worktrees/status indicators, full desktop TypeScript conversion
-- **@benbarclay** — relay OIDC provisioning, gateway multiplex override, Nous auth self-heal, hosted MCP OAuth
-- **@alt-glitch** — terminal billing (`/subscription`, `/topup`), desktop billing tab
-- **@helix4u** — desktop provider/model UX, TUI model picker refresh, Windows install/updater hardening
-- **@austinpickett** — desktop custom endpoint settings
-- **@SHL0MS** — unbroker + unreal-mcp skills, humanizer expansion
+- **@teknium1** - release lead; TTFT perf wave, delivery + delegation durability, smart approvals, SecretSource, gateway multiplex, sessions export, security round, ~290-PR community salvage
+- **@OutThisLife** - desktop app (speed wave, layout-tree shell, Capabilities page, session colors, TUI incremental markdown, perf harness)
+- **@kshitijk4poor** - GPT-5.6 end-to-end, DeepInfra + Upstage Solar providers, perf cluster, compression integrity, mem0, dashboard guards
+- **@ethernet8023** - CI overhaul, desktop keybinds/worktrees/status indicators, full desktop TypeScript conversion
+- **@benbarclay** - relay OIDC provisioning, gateway multiplex override, Nous auth self-heal, hosted MCP OAuth
+- **@alt-glitch** - terminal billing (`/subscription`, `/topup`), desktop billing tab
+- **@helix4u** - desktop provider/model UX, TUI model picker refresh, Windows install/updater hardening
+- **@austinpickett** - desktop custom endpoint settings
+- **@SHL0MS** - unbroker + unreal-mcp skills, humanizer expansion
 
 ### Top community contributors
-- **@srojk34** — Vertex credential scoping, subprocess env stripping, Raft chunked-request body limits
-- **@HexLab98** — 11 fixes across MCP capability gating, Windows installer PATH, desktop cron editing
-- **@UnathiCodex** — desktop stability: zoom, LaTeX rendering, resume-stall and runtime-readiness fixes
-- **@xxxigm** — `<think>` leak fix, dashboard auth/theme/PTY fixes
-- **@erosika** — desktop declarative memory-provider panel + honcho recall/timeout correctness
-- **@Frowtek** — credential security: master stores never mounted into skill sandboxes, live-transcript redaction
-- **@necoweb3** — browser private-page CDP guard, cron one-shot liveness, gateway compression fail-closed
-- **@DavidMetcalfe** — desktop updater version pill, local/custom endpoint exposure
-- **@shannonsands** — dashboard: mobile channel setup, Discord toolsets from web UI
-- **@vishal-dharm** — Gemini request-context improvements
-- **@PRATHAMESH75** — cron one-shot stale-removal race, dashboard multiplex port-binding guard
+- **@srojk34** - Vertex credential scoping, subprocess env stripping, Raft chunked-request body limits
+- **@HexLab98** - 11 fixes across MCP capability gating, Windows installer PATH, desktop cron editing
+- **@UnathiCodex** - desktop stability: zoom, LaTeX rendering, resume-stall and runtime-readiness fixes
+- **@xxxigm** - `<think>` leak fix, dashboard auth/theme/PTY fixes
+- **@erosika** - desktop declarative memory-provider panel + honcho recall/timeout correctness
+- **@Frowtek** - credential security: master stores never mounted into skill sandboxes, live-transcript redaction
+- **@necoweb3** - browser private-page CDP guard, cron one-shot liveness, gateway compression fail-closed
+- **@DavidMetcalfe** - desktop updater version pill, local/custom endpoint exposure
+- **@shannonsands** - dashboard: mobile channel setup, Discord toolsets from web UI
+- **@vishal-dharm** - Gemini request-context improvements
+- **@PRATHAMESH75** - cron one-shot stale-removal race, dashboard multiplex port-binding guard
 
-Plus 440+ additional contributors — the biggest contributor window yet.
+Plus 440+ additional contributors - the biggest contributor window yet.
 
 ---
 
@@ -221,7 +221,7 @@ Plus 440+ additional contributors — the biggest contributor window yet.
 
 ---
 
-*← [v0.18.2 — WhatsApp Baileys Fix](/hermes/changelog/v0.18.2/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.18.2 - WhatsApp Baileys Fix](/hermes/changelog/v0.18.2/) | [Changelog Home](/hermes/changelog/) →*
 
 *↑ [Changelog Home](/hermes/changelog/)*
 

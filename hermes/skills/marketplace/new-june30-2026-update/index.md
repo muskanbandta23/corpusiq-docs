@@ -1,5 +1,5 @@
 ---
-title: "June 30, 2026 (Update) — Matt Pocock Engineering Skills"
+title: "June 30, 2026 (Update) - Matt Pocock Engineering Skills"
 description: "7 additional Hermes skills discovered June 30, 2026 late sweep: 5 Matt Pocock engineering skills (1.3M+ combined installs), ChromaDB integration, OpenClaw"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 June 30, 2026 — Update: 7 Additional Skills
+# 🆕 June 30, 2026 - Update: 7 Additional Skills
 
 **Date:** June 30, 2026 (Update to [main June 30 sweep](/hermes/skills/marketplace/new-june30-2026/))
 **New Repos:** 3 | **New Skills:** 7 | **Combined Installs:** 1,312,684
 
-A second-pass sweep across skills.sh surfaced 7 additional skills missed in the morning sweep. Five Matt Pocock engineering skills — totalling 1.3M+ installs — bring production-grade software engineering workflows to Hermes agents: architecture review, PRD synthesis, issue decomposition, and adversarial plan grilling.
+A second-pass sweep across skills.sh surfaced 7 additional skills missed in the morning sweep. Five Matt Pocock engineering skills - totalling 1.3M+ installs - bring production-grade software engineering workflows to Hermes agents: architecture review, PRD synthesis, issue decomposition, and adversarial plan grilling.
 
 ---
 
@@ -49,7 +49,7 @@ npx skills add mattpocock/skills@improve-codebase-architecture
 #### to-prd (308,668 installs)
 **Repo:** [mattpocock/skills](https://github.com/mattpocock/skills)
 
-Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed. Converts natural-language discussions into structured product requirement documents.
+Turn the current conversation into a PRD and publish it to the project issue tracker - no interview, just synthesis of what you've already discussed. Converts natural-language discussions into structured product requirement documents.
 
 ```bash
 npx skills add mattpocock/skills@to-prd
@@ -71,7 +71,7 @@ npx skills add mattpocock/skills@to-issues
 #### setup-matt-pocock-skills (288,420 installs)
 **Repo:** [mattpocock/skills](https://github.com/mattpocock/skills)
 
-Configure the repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the Matt Pocock engineering skill suite.
+Configure the repo for the engineering skills - set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the Matt Pocock engineering skill suite.
 
 ```bash
 npx skills add mattpocock/skills@setup-matt-pocock-skills
@@ -93,7 +93,7 @@ npx skills add mattpocock/skills@grilling
 #### cli-anything-chromadb (331 installs)
 **Repo:** [hkuds/cli-anything](https://github.com/hkuds/cli-anything)
 
-ChromaDB integration for CLI-Anything. Brings vector search and embedding storage to Hermes agents via the CLI-Anything framework — persistent, disk-backed semantic memory for any CLI tool.
+ChromaDB integration for CLI-Anything. Brings vector search and embedding storage to Hermes agents via the CLI-Anything framework - persistent, disk-backed semantic memory for any CLI tool.
 
 ```bash
 npx skills add hkuds/cli-anything@cli-anything-chromadb
@@ -104,7 +104,7 @@ npx skills add hkuds/cli-anything@cli-anything-chromadb
 #### voltagent-openclaw-skill-loader (40 installs)
 **Repo:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)
 
-Fully automatic OpenClaw skill manager that installs, updates, and launches 5,200+ community skills from ClawHub with zero manual configuration. Bulk skill management for OpenClaw agents — discover, install, and update community skills programmatically.
+Fully automatic OpenClaw skill manager that installs, updates, and launches 5,200+ community skills from ClawHub with zero manual configuration. Bulk skill management for OpenClaw agents - discover, install, and update community skills programmatically.
 
 ```bash
 npx skills add aradotso/hermes-skills@voltagent-openclaw-skill-loader
@@ -114,11 +114,11 @@ npx skills add aradotso/hermes-skills@voltagent-openclaw-skill-loader
 
 ## Why These Matter
 
-**Matt Pocock's engineering skills are the most-installed skills.sh suite** — 1.3M+ combined installs across 5 skills. They give Hermes agents production-grade software engineering workflows: architecture review → PRD generation → issue decomposition → adversarial critique. Any Hermes agent doing code work benefits from this pipeline.
+**Matt Pocock's engineering skills are the most-installed skills.sh suite** - 1.3M+ combined installs across 5 skills. They give Hermes agents production-grade software engineering workflows: architecture review → PRD generation → issue decomposition → adversarial critique. Any Hermes agent doing code work benefits from this pipeline.
 
 **The gap between "assistant" and "engineer" is closing.** These skills replace human-driven code review, spec writing, and project management with agent-driven equivalents. The install counts (300K+ per skill) show real adoption, not experimental toy projects.
 
-**OpenClaw skill management is becoming automated.** voltagent-openclaw-skill-loader (5,200+ skills from ClawHub) signals that OpenClaw's skill ecosystem is large enough to need programmatic management — not manual `npx skills add` one at a time.
+**OpenClaw skill management is becoming automated.** voltagent-openclaw-skill-loader (5,200+ skills from ClawHub) signals that OpenClaw's skill ecosystem is large enough to need programmatic management - not manual `npx skills add` one at a time.
 
 ---
 
@@ -126,4 +126,4 @@ npx skills add aradotso/hermes-skills@voltagent-openclaw-skill-loader
 
 ---
 
-*Part of the Hermes Skills Library. Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Part of the Hermes Skills Library. Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

@@ -1,6 +1,6 @@
 ---
-title: Pathix MCP — Microsoft Dynamics 365 Forensics
-description: "Setup and usage guide for Pathix MCP — Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory."
+title: Pathix MCP - Microsoft Dynamics 365 Forensics
+description: "Setup and usage guide for Pathix MCP - Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pathix-mcp/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Pathix MCP — Microsoft Dynamics 365 Forensics
+# Pathix MCP - Microsoft Dynamics 365 Forensics
 
 **Priority:** MEDIUM | **Category:** Enterprise / ERP / Compliance  
 **Transport:** Remote Streamable HTTP | **Auth:** OAuth via Microsoft Entra  
@@ -24,7 +24,7 @@ Pathix is a forensics platform for Microsoft Dynamics 365 and the Dataverse. It 
 ## Installation
 
 ```bash
-# Self-hosted, commercial — runs in customer's Azure subscription
+# Self-hosted, commercial - runs in customer's Azure subscription
 # No public endpoint or standalone install
 # Deployment via Azure Marketplace: https://pathix.app
 ```
@@ -57,20 +57,20 @@ Every dependency edge carries resolution confidence (declared / parsed / AI-deri
 
 ## Operator Use Cases
 
-1. **Change impact analysis:** Before modifying a Dynamics 365 table, ask Pathix "what reads this column?" — instantly see all plugins, flows, scripts, and reports that would break
-2. **Security audit:** Map the actual reachability of sensitive fields — does that intern's security role accidentally grant access to financial data through a chain of inherited permissions?
+1. **Change impact analysis:** Before modifying a Dynamics 365 table, ask Pathix "what reads this column?" - instantly see all plugins, flows, scripts, and reports that would break
+2. **Security audit:** Map the actual reachability of sensitive fields - does that intern's security role accidentally grant access to financial data through a chain of inherited permissions?
 3. **M&A system integration:** When merging two companies, scan both Dynamics environments to identify shared dependencies, conflicts, and integration points
 4. **Deployment forensics:** "Sales pipeline conversion dropped 15% since Tuesday" → Pathix shows which deployment changed the opportunity close logic
 5. **Compliance evidence:** Generate dependency maps for SOX/GDPR auditors showing exactly which systems touch regulated data
 
 ## CorpusIQ Angle
 
-**Complementary — enterprise vertical.** CorpusIQ's data sources could be enriched with Pathix dependency data for enterprises on Dynamics 365. A combined view would let operators see: "This QuickBooks integration depends on these 3 plugins, this security role, and this Power Automate flow."
+**Complementary - enterprise vertical.** CorpusIQ's data sources could be enriched with Pathix dependency data for enterprises on Dynamics 365. A combined view would let operators see: "This QuickBooks integration depends on these 3 plugins, this security role, and this Power Automate flow."
 
 ## Limitations
 
-- **Commercial + self-hosted only** — no free tier, no public endpoint. Enterprise sales motion required
+- **Commercial + self-hosted only** - no free tier, no public endpoint. Enterprise sales motion required
 - Azure-only deployment (customer's Azure subscription)
 - Microsoft Dynamics 365 / Dataverse only (not Salesforce, NetSuite, etc.)
-- 21 read-only tools — no write capability for remediation
+- 21 read-only tools - no write capability for remediation
 - OAuth via Microsoft Entra requires enterprise identity setup

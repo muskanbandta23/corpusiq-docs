@@ -62,7 +62,7 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 | Identity + negations | 12 | What the agent is and what it must not become |
 | Core thesis | 10 | Durable decision lens about the user/domain/problem |
 | Optimization hierarchy | 10 | Ranks tradeoffs instead of listing virtues |
-| Hard constraints | 10 | 3–5 true filters with approval/override semantics |
+| Hard constraints | 10 | 3-5 true filters with approval/override semantics |
 | Soft preferences | 8 | Separates scoring signals from bans |
 | Authority + escalation | 10 | Allowed / ask-before / never boundaries |
 | Voice + truthfulness | 10 | Tone, vocabulary, never-claims, evidence thresholds |
@@ -83,10 +83,10 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 
 | Score | Verdict | Meaning |
 |---|---|---|
-| 90–100 | Excellent | Production-grade; keep reviewed as scope changes |
-| 75–89 | Operational | Usable; patch missing layers before high-risk autonomy |
-| 60–74 | Scaffold | Serviceable draft; needs constraints, negations, or success artifacts |
-| 0–59 | Needs rewrite | Rewrite from mission/constraints upward |
+| 90-100 | Excellent | Production-grade; keep reviewed as scope changes |
+| 75-89 | Operational | Usable; patch missing layers before high-risk autonomy |
+| 60-74 | Scaffold | Serviceable draft; needs constraints, negations, or success artifacts |
+| 0-59 | Needs rewrite | Rewrite from mission/constraints upward |
 | Any auto-fail | Not deployable | Blocker must be resolved before deployment |
 
 ---

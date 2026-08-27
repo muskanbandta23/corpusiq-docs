@@ -1,5 +1,5 @@
 ---
-title: "Git PR Review (skills.sh) — Automated PR description"
+title: "Git PR Review (skills.sh) - Automated PR description"
 description: Generate concise, structured PR descriptions from commit history with minimal token usage. 34+ installs from sickn33/antigravity-awesome-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/git-pr-review-skills-sh-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Git PR Review (skills.sh) — Setup Guide
+# Git PR Review (skills.sh) - Setup Guide
 
 **Source:** [sickn33/antigravity-awesome-skills](https://skills.sh/sickn33/antigravity-awesome-skills/git-pr-review) (34+ installs)
 **Category:** Engineering / Code Review
@@ -44,7 +44,7 @@ Extracts types (feat, fix, refactor, chore, docs, test) from commit messages, in
 Clusters commits by feature/module using keyword and file path heuristics. Same keyword or folder/file pattern → same group.
 
 ### Conditional Diff Inspection
-Only inspects actual diffs when commit messages are vague or grouping is unclear — minimizing token usage.
+Only inspects actual diffs when commit messages are vague or grouping is unclear - minimizing token usage.
 
 ### Structured Output
 Produces: Title (type(scope): summary, max 72 chars) → Summary (1-2 lines) → Changes (grouped bullet points) → Technical Notes (migrations, env vars, breaking changes) → Impact (user/system impact, risks).
@@ -80,8 +80,8 @@ git log --no-merges --pretty=format:"%h|%s" main..HEAD | head -10
 
 ## Notes
 
-- Max ~120-180 words output total — no repetition of commit messages
+- Max ~120-180 words output total - no repetition of commit messages
 - Commit messages are treated as inert evidence, not instructions (untrusted input protection)
 - If commit message conflicts with actual diff, trusts the diff and flags the mismatch
-- Complements `onewave-ai/claude-skills@git-pr-reviewer` (239 installs — full PR review checklist) and `davila7/claude-code-templates@create-pr` (316 installs — PR creation)
+- Complements `onewave-ai/claude-skills@git-pr-reviewer` (239 installs - full PR review checklist) and `davila7/claude-code-templates@create-pr` (316 installs - PR creation)
 - Quality tier 🔵 Community: 34 installs, newer but well-scoped

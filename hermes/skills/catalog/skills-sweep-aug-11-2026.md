@@ -1,5 +1,5 @@
 ---
-title: Skills.sh Sweep — August 11, 2026
+title: Skills.sh Sweep - August 11, 2026
 description: Automated marketplace sweep discovering 5 new/undocumented Hermes Agent skills. 5 setup guides drafted and pushed.
 date: 2026-08-11
 sweep_id: aug-11-2026-cron
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skills.sh Sweep — August 11, 2026 (Cron Update)
+# Skills.sh Sweep - August 11, 2026 (Cron Update)
 
 Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace. Cross-referenced 20+ Hermes-related skills against the existing 366+ entry catalog at `corpusiq-docs/hermes/skills/catalog/`.
 
@@ -21,7 +21,7 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 
 ---
 
-## 🆕 Genuinely New Skills (3) — First Time Documented
+## 🆕 Genuinely New Skills (3) - First Time Documented
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
@@ -31,7 +31,7 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 
 ---
 
-## 📝 Previously Identified — Setup Guides Now Complete (2)
+## 📝 Previously Identified - Setup Guides Now Complete (2)
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
@@ -66,9 +66,9 @@ All top skills from `npx skills search hermes` and `npx skills search "hermes ag
 |--------|--------|--------|-------|
 | Catalog entries | 358+ | 363+ | +5 |
 | Official skills tracked | 34 | 36 | +2 |
-| Guides drafted this sweep | — | 5 | +5 |
-| Genuinely new discoveries | — | 3 | +3 |
+| Guides drafted this sweep | - | 5 | +5 |
+| Genuinely new discoveries | - | 3 | +3 |
 
 ---
 
-**Next sweep:** Automated cron — next run.
+**Next sweep:** Automated cron - next run.

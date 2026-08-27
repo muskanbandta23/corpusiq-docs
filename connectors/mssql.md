@@ -1,16 +1,16 @@
 ---
 title: "Microsoft SQL Server (MSSQL) - CorpusIQ Docs"
-description: "Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems — ERPs, line."
+description: "Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems - ERPs, line."
 ---
 # Microsoft SQL Server (MSSQL)
 
 ## What it unlocks
-Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems — ERPs, line-of-business apps, data warehouses.
+Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems - ERPs, line-of-business apps, data warehouses.
 
 ## Before you connect
 - Connection details: server hostname, port, database name, username, password.
 - A read-only SQL login is strongly recommended.
-- Network access — if the database is on a private network, allowlist CorpusIQ's outbound IP.
+- Network access - if the database is on a private network, allowlist CorpusIQ's outbound IP.
 - About 5 minutes.
 
 ## How to connect
@@ -39,9 +39,9 @@ CorpusIQ runs SELECT queries only. No INSERT, UPDATE, DELETE, or DDL.
 - "Describe the schema of the Invoices table."
 
 ## Troubleshooting
-- "Login failed" — check that SQL Authentication is enabled on the server (not just Windows Auth) and the credentials are correct.
-- "Cannot open server" — firewall is blocking CorpusIQ. Allowlist the outbound IP from your dashboard.
-- "Encryption error" — toggle "Trust server certificate" if your server uses a self-signed cert.
+- "Login failed" - check that SQL Authentication is enabled on the server (not just Windows Auth) and the credentials are correct.
+- "Cannot open server" - firewall is blocking CorpusIQ. Allowlist the outbound IP from your dashboard.
+- "Encryption error" - toggle "Trust server certificate" if your server uses a self-signed cert.
 ---
 
 *

@@ -1,5 +1,5 @@
 ---
-title: "Beastmode — Mixture of Agents (MofA) for Hermes Workflows"
+title: "Beastmode - Mixture of Agents (MofA) for Hermes Workflows"
 description: "Orchestrate multiple Hermes agents with Beastmode's Mixture of Agents framework for cost-optimized parallel work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/beastmode-setup/"
 robots: "index,follow"
@@ -40,5 +40,5 @@ chmod +x beastmode.sh
 
 ## Pitfalls
 
-- Shell-based — limited error handling
-- Early-stage (7 stars) — test thoroughly before production use
+- Shell-based - limited error handling
+- Early-stage (7 stars) - test thoroughly before production use

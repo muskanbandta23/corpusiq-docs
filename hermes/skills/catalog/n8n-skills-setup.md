@@ -1,13 +1,13 @@
 ---
-title: "n8n Skills — Workflow Automation for Business"
-description: "n8n automation skills — czlonkowski/n8n-skills (15 skills, 48.4K installs) plus the official n8n-io/skills (14 skills). Workflow patterns, node configuration, MCP tool integration, JavaScript/Python code nodes, subworkflows, self-hosting, error handling for agents building n8n automations."
+title: "n8n Skills - Workflow Automation for Business"
+description: "n8n automation skills - czlonkowski/n8n-skills (15 skills, 48.4K installs) plus the official n8n-io/skills (14 skills). Workflow patterns, node configuration, MCP tool integration, JavaScript/Python code nodes, subworkflows, self-hosting, error handling for agents building n8n automations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/n8n-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-14"
 tags: ["hermes skill", "agent skill", "skill setup", "n8n", "workflow automation", "business operations"]
 ---
 
-# n8n Skills — Setup Guide
+# n8n Skills - Setup Guide
 
 **Source:** [czlonkowski/n8n-skills](https://skills.sh/czlonkowski/n8n-skills) · [n8n-io/skills](https://skills.sh/n8n-io/skills) (official)
 **GitHub:** [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) · [n8n-io/skills](https://github.com/n8n-io/skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "n8n", "workflow automation
 **First Seen:** August 14, 2026 afternoon sweep
 **Quality Tier:** 🟢 Production (community suite 48.4K installs + official vendor skills)
 
-n8n is the open-source workflow automation platform business operators use to connect their stack without code. These skills make an agent fluent in building, debugging, and hardening n8n workflows — including MCP tool integration, which bridges directly into the Hermes MCP ecosystem. Two complementary repos: the community suite (15 skills, 48.4K) is broader and workflow-focused; the official repo (14 skills) encodes n8n's own best practices.
+n8n is the open-source workflow automation platform business operators use to connect their stack without code. These skills make an agent fluent in building, debugging, and hardening n8n workflows - including MCP tool integration, which bridges directly into the Hermes MCP ecosystem. Two complementary repos: the community suite (15 skills, 48.4K) is broader and workflow-focused; the official repo (14 skills) encodes n8n's own best practices.
 
 ---
 
@@ -30,7 +30,7 @@ npx skills add czlonkowski/n8n-skills
 npx skills add n8n-io/skills
 ```
 
-No API key required for the skills themselves. Building real workflows needs an n8n instance — cloud (n8n.io), self-hosted (`n8n-self-hosting` skill covers it), or local via Docker/npx.
+No API key required for the skills themselves. Building real workflows needs an n8n instance - cloud (n8n.io), self-hosted (`n8n-self-hosting` skill covers it), or local via Docker/npx.
 
 ## What It Provides
 
@@ -39,7 +39,7 @@ No API key required for the skills themselves. Building real workflows needs an 
 | Skill | Installs | Purpose |
 |---|---|---|
 | `n8n-workflow-patterns` | 9.8K | Reusable workflow design patterns |
-| `n8n-mcp-tools-expert` | 6.7K | MCP tool integration inside n8n — connects n8n to MCP servers (including Hermes-exposed tools) |
+| `n8n-mcp-tools-expert` | 6.7K | MCP tool integration inside n8n - connects n8n to MCP servers (including Hermes-exposed tools) |
 | `n8n-node-configuration` | 6.1K | Correct configuration of n8n nodes |
 | `n8n-code-javascript` | 5.7K | JavaScript Code node patterns |
 | `n8n-validation-expert` | 5.3K | Workflow validation before activation |
@@ -56,7 +56,7 @@ No API key required for the skills themselves. Building real workflows needs an 
 
 ### n8n-io/skills (official, 14 skills)
 
-`n8n-workflow-lifecycle-official`, `n8n-agents-official`, `n8n-debugging-official`, `n8n-code-nodes-official`, `n8n-error-handling-official`, `n8n-credentials-and-security-official`, `using-n8n-skills-official`, `n8n-expressions-official`, `n8n-node-configuration-official`, `n8n-loops-official`, `n8n-subworkflows-official`, `n8n-binary-and-data-official`, `n8n-data-tables-official`, `n8n-extending-mcp-official` — official guidance mirroring the community suite's topics.
+`n8n-workflow-lifecycle-official`, `n8n-agents-official`, `n8n-debugging-official`, `n8n-code-nodes-official`, `n8n-error-handling-official`, `n8n-credentials-and-security-official`, `using-n8n-skills-official`, `n8n-expressions-official`, `n8n-node-configuration-official`, `n8n-loops-official`, `n8n-subworkflows-official`, `n8n-binary-and-data-official`, `n8n-data-tables-official`, `n8n-extending-mcp-official` - official guidance mirroring the community suite's topics.
 
 ## Quick Start
 
@@ -70,14 +70,14 @@ No API key required for the skills themselves. Building real workflows needs an 
 
 | Use Case | How |
 |---|---|
-| **Operator enablement** | Business operators live in n8n — these skills let us spec and ship automations for them, strengthening the CorpusIQ operator platform thesis |
-| **MCP bridge** | `n8n-mcp-tools-expert` + `n8n-extending-mcp-official` document calling MCP tools from n8n — the same protocol CorpusIQ connectors speak |
+| **Operator enablement** | Business operators live in n8n - these skills let us spec and ship automations for them, strengthening the CorpusIQ operator platform thesis |
+| **MCP bridge** | `n8n-mcp-tools-expert` + `n8n-extending-mcp-official` document calling MCP tools from n8n - the same protocol CorpusIQ connectors speak |
 | **Internal automations** | Draft and validate n8n workflows for internal ops before handoff to the dev team |
 | **Inbound lead answers** | Answer "can CorpusIQ help me automate X in n8n" questions with working workflow designs |
 
 ## Limitations / Verification
 
-- Skills are guidance workflows, not an n8n deployment — you need an n8n instance (cloud or self-hosted) for execution
+- Skills are guidance workflows, not an n8n deployment - you need an n8n instance (cloud or self-hosted) for execution
 - Community repo is third-party maintained; cross-check against the official repo where topics overlap
 - `n8n-self-hosting` assumes Docker or npm hosting experience
 

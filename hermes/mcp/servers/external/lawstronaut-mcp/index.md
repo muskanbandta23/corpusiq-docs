@@ -1,6 +1,6 @@
 ---
-title: "Lawstronaut MCP — Integration Guide"
-description: "Legal research infrastructure for AI agents — 50M+ laws and court cases from 155+ jurisdictions via MCP. Structured legal data, continuously updated."
+title: "Lawstronaut MCP - Integration Guide"
+description: "Legal research infrastructure for AI agents - 50M+ laws and court cases from 155+ jurisdictions via MCP. Structured legal data, continuously updated."
 category: mcp
 tags: [mcp-server, legal-research, compliance, regulatory, legal-data, governance, hermes-agent]
 last_updated: 2026-08-10
@@ -9,17 +9,17 @@ robots: "index,follow"
 
 ---
 
-# Lawstronaut MCP — Legal Research for AI Agents
+# Lawstronaut MCP - Legal Research for AI Agents
 
 **Rating:** ★★★ | **Category:** Legal & Compliance | **Transport:** Streamable HTTP
 
 ## What It Does
 
-Lawstronaut is the infrastructure layer that connects AI agents to millions of legal documents across 155+ jurisdictions — laws, regulations, court cases, guidance, and official sources. Structured legal data, continuously updated, accessible via MCP. Paid subscription required; OAuth 2.0 and Bearer token authentication supported.
+Lawstronaut is the infrastructure layer that connects AI agents to millions of legal documents across 155+ jurisdictions - laws, regulations, court cases, guidance, and official sources. Structured legal data, continuously updated, accessible via MCP. Paid subscription required; OAuth 2.0 and Bearer token authentication supported.
 
 ## Why Business Operators Need This
 
-For operators in regulated industries, compliance isn't optional — it's existential. Lawstronaut makes legal research an agent-native capability: your AI can answer "What are the current data residency requirements for SaaS in Germany?" or "Has there been any new FTC enforcement action in our category?" with citations to actual laws and cases. Unlike general web search, Lawstronaut returns structured legal data from official sources — not summaries, not blog posts, not hallucinated statutes. The 155+ jurisdiction coverage means this scales internationally.
+For operators in regulated industries, compliance isn't optional - it's existential. Lawstronaut makes legal research an agent-native capability: your AI can answer "What are the current data residency requirements for SaaS in Germany?" or "Has there been any new FTC enforcement action in our category?" with citations to actual laws and cases. Unlike general web search, Lawstronaut returns structured legal data from official sources - not summaries, not blog posts, not hallucinated statutes. The 155+ jurisdiction coverage means this scales internationally.
 
 **Competitive landscape:** The Bot Wire MCP (catalogued Jul 31) covers regulatory/economic primary sources but focuses on SEC, Federal Register, and US federal agencies. Lawstronaut is broader (155+ jurisdictions) and deeper (court cases, not just regulations). The two are complementary: Bot Wire for real-time regulatory monitoring, Lawstronaut for structured legal research.
 
@@ -83,8 +83,8 @@ Lawstronaut's tools cover the full legal research workflow:
 |----------|-----------|
 | **Search** | Full-text search across 50M+ legal documents with jurisdiction, date, and document-type filters |
 | **Retrieve** | Fetch complete legal documents with structured metadata (citation, court, date, parties, statutes cited) |
-| **Browse** | Navigate legal hierarchies — jurisdiction → court → case type → year |
-| **Citations** | Trace citation networks — what cites this case, what this case cites |
+| **Browse** | Navigate legal hierarchies - jurisdiction → court → case type → year |
+| **Citations** | Trace citation networks - what cites this case, what this case cites |
 | **Updates** | Check for newer treatments (overruled, distinguished, affirmed) and regulatory amendments |
 | **Export** | Structured output in markdown with proper legal citations |
 
@@ -128,9 +128,9 @@ Paid subscription required. Plans vary by document access volume and jurisdictio
 | **Server Card** | `https://mcp.lawstronaut.com/.well-known/mcp/server-card.json` |
 | **MCP Endpoint** | `https://mcp.lawstronaut.com` |
 
-## Verdict: ★★★ — Essential for Compliance & Legal Operations
+## Verdict: ★★★ - Essential for Compliance & Legal Operations
 
-Lawstronaut is the most comprehensive legal research MCP server available — 155+ jurisdictions, 50M+ documents, structured data with proper citations. For any operator in a regulated industry or any business operating across multiple jurisdictions, this closes the gap between "ask your AI lawyer" and "get actual legal citations from official sources."
+Lawstronaut is the most comprehensive legal research MCP server available - 155+ jurisdictions, 50M+ documents, structured data with proper citations. For any operator in a regulated industry or any business operating across multiple jurisdictions, this closes the gap between "ask your AI lawyer" and "get actual legal citations from official sources."
 
 **Strengths:** 155+ jurisdictions, 50M+ documents, OAuth + Bearer token auth, proper legal citations, structured document metadata, continuously updated, public server card for tool discovery.
 

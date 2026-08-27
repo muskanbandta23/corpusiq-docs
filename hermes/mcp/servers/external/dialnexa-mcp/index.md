@@ -1,6 +1,6 @@
 ---
 title: "DialNexa MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Voice AI agent platform over MCP — create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1
+description: Voice AI agent platform over MCP - create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1
 category: Communication
 stars: n/a (new listing)
 added: 2026-08-13
@@ -11,7 +11,7 @@ tags: [voice-ai, telephony, outbound-calls, sales, campaigns, remote-mcp]
 
 # DialNexa MCP
 
-**Remote MCP server (Streamable HTTP, OAuth 2.1 PKCE) from DialNexa.** The first full voice-AI-agent platform observed with a production MCP surface: create, inspect, configure, and remove voice agents; find call records and place confirmed outbound calls; manage campaigns, leads, and batch calls; build workflow graphs; search and purchase phone numbers; and read dashboard metrics — all from chat, behind explicit safety levels.
+**Remote MCP server (Streamable HTTP, OAuth 2.1 PKCE) from DialNexa.** The first full voice-AI-agent platform observed with a production MCP surface: create, inspect, configure, and remove voice agents; find call records and place confirmed outbound calls; manage campaigns, leads, and batch calls; build workflow graphs; search and purchase phone numbers; and read dashboard metrics - all from chat, behind explicit safety levels.
 
 ```
 Server type: Remote (Streamable HTTP, stateless)
@@ -25,7 +25,7 @@ Built by: DialNexa (dialnexa.com)
 
 ## Why This Matters for Operators
 
-Voice agents are moving from demo to operations, and the missing piece has been control — most platforms expose a dashboard, not a protocol. DialNexa exposes the whole lifecycle as MCP tools, and it classifies every tool as read only, state changing, destructive, or billable. **Tools that place calls, spend money, or permanently delete resources require explicit approval before they run** — the same human-gate architecture this sweep cycle keeps finding in production-grade servers.
+Voice agents are moving from demo to operations, and the missing piece has been control - most platforms expose a dashboard, not a protocol. DialNexa exposes the whole lifecycle as MCP tools, and it classifies every tool as read only, state changing, destructive, or billable. **Tools that place calls, spend money, or permanently delete resources require explicit approval before they run** - the same human-gate architecture this sweep cycle keeps finding in production-grade servers.
 
 **The consent model is workspace-scoped.** OAuth 2.1 with PKCE lets the user pick the workspace on the consent screen; tool arguments cannot switch workspaces afterwards. Read scope exists separately from write scope, so an assistant can watch metrics without ever touching the dialer.
 
@@ -74,14 +74,14 @@ OAuth-capable clients bootstrap from the `WWW-Authenticate` challenge and open t
 
 ## Integration with CorpusIQ
 
-DialNexa handles the voice channel; CorpusIQ owns the business data the voice channel feeds and reads. The composed pipeline: HubSpot or Close contacts (CorpusIQ CRM connectors) seed the campaign lists, DialNexa runs the confirmed outbound calls, and outcomes land back in the CRM — pipeline movement and revenue close through CorpusIQ's QuickBooks and Stripe connectors. Attribution mirrors CallRail-style tracking: call data from DialNexa, revenue truth from CorpusIQ, matched on the customer record.
+DialNexa handles the voice channel; CorpusIQ owns the business data the voice channel feeds and reads. The composed pipeline: HubSpot or Close contacts (CorpusIQ CRM connectors) seed the campaign lists, DialNexa runs the confirmed outbound calls, and outcomes land back in the CRM - pipeline movement and revenue close through CorpusIQ's QuickBooks and Stripe connectors. Attribution mirrors CallRail-style tracking: call data from DialNexa, revenue truth from CorpusIQ, matched on the customer record.
 
 ## Limitations
 
-- Commercial platform — billable tools (calls, number purchases) require per-action approval and budget discipline
-- No self-host option — cloud API with workspace-scoped OAuth
+- Commercial platform - billable tools (calls, number purchases) require per-action approval and budget discipline
+- No self-host option - cloud API with workspace-scoped OAuth
 - Safety classifications are vendor-defined; review destructive tool docs before granting write scope
-- Newer listing — track record still forming
+- Newer listing - track record still forming
 
 ## See Also
 

@@ -1,5 +1,5 @@
 ---
-title: "Clipkit MCP — Video Infra for AI Agents"
+title: "Clipkit MCP - Video Infra for AI Agents"
 description: "Compose motion-graphics video from JSON documents via MCP. Open protocol, validation-first, deterministic GPU rendering."
 date: 2026-08-12
 source: mcp.so
@@ -18,7 +18,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What is Clipkit?
 
-Clipkit is the video infrastructure for AI agents. It turns a JSON timeline (the open Clipkit Protocol) into rendered video on a GPU. Describe a video as structured data; get an MP4. Agents compose, validate, preview, and render — no video editing skills required.
+Clipkit is the video infrastructure for AI agents. It turns a JSON timeline (the open Clipkit Protocol) into rendered video on a GPU. Describe a video as structured data; get an MP4. Agents compose, validate, preview, and render - no video editing skills required.
 
 **Category:** Content & Media  
 **License:** Apache-2.0 (protocol + tooling), BSL (runtime, free production tier)  
@@ -35,7 +35,7 @@ For CorpusIQ operators, this means:
 - **Data stories**: Turn metrics/analytics into motion-graphics narratives
 - **A/B creative testing**: Generate variants by modifying JSON parameters
 
-Different from AI Video MCP by AITuber (TikTok/social focus) or ViewMade (YouTube focus) — Clipkit is protocol-first with deterministic output, making it suitable for production pipelines.
+Different from AI Video MCP by AITuber (TikTok/social focus) or ViewMade (YouTube focus) - Clipkit is protocol-first with deterministic output, making it suitable for production pipelines.
 
 ## Connection Details
 
@@ -82,10 +82,10 @@ Different from AI Video MCP by AITuber (TikTok/social focus) or ViewMade (YouTub
 
 ## Verified Use Cases
 
-1. **AI-Generated Product Demos** — Ask Claude/Cursor to describe your SaaS workflow in JSON; Clipkit renders a motion-graphics walkthrough
-2. **Automated Launch Videos** — Templated promo compositions from product name, features, and CTA
-3. **Data-Driven Video Reports** — Turn analytics dashboards into animated video summaries
-4. **Pipeline Video Generation** — Render MP4s from JSON in CI/CD or automated workflows via REST API
+1. **AI-Generated Product Demos** - Ask Claude/Cursor to describe your SaaS workflow in JSON; Clipkit renders a motion-graphics walkthrough
+2. **Automated Launch Videos** - Templated promo compositions from product name, features, and CTA
+3. **Data-Driven Video Reports** - Turn analytics dashboards into animated video summaries
+4. **Pipeline Video Generation** - Render MP4s from JSON in CI/CD or automated workflows via REST API
 
 ## CorpusIQ Integration Opportunity
 
@@ -98,7 +98,7 @@ This creates a three-tier video production stack: UGC (HeyGen), YouTube SEO (Vie
 
 ## Verdict
 
-**★★★★★ Production-ready video infrastructure for agents.** The protocol-first approach (JSON → validate → preview → render) is well-designed for agent workflows. Deterministic GPU rendering means same JSON always produces same MP4 — critical for production pipelines. Free tier covers the entire creative workflow; only final render is paid. Strongly recommended for operators who want AI-generated video content without a video team.
+**★★★★★ Production-ready video infrastructure for agents.** The protocol-first approach (JSON → validate → preview → render) is well-designed for agent workflows. Deterministic GPU rendering means same JSON always produces same MP4 - critical for production pipelines. Free tier covers the entire creative workflow; only final render is paid. Strongly recommended for operators who want AI-generated video content without a video team.
 
 ## Resources
 

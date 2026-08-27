@@ -28,7 +28,7 @@ Built by: Fillo (fillo.so)
 
 Forms are the quiet plumbing of every operator's funnel: lead capture, surveys, intake, applications. Historically they live in a form SaaS with a dashboard, siloed from the agent workflows doing the follow-up. Fillo flips that: the MCP server makes forms programmable, so an agent can spin up a lead form, publish it, and read responses in the same session where it updates the CRM and drafts the follow-up.
 
-The native-rendering SDKs solve the classic embedded-form problem (janky iframes), and browser-direct uploads to customer-owned storage keep file data out of the form vendor's hands — a real compliance advantage for intake forms.
+The native-rendering SDKs solve the classic embedded-form problem (janky iframes), and browser-direct uploads to customer-owned storage keep file data out of the form vendor's hands - a real compliance advantage for intake forms.
 
 ## Tools & Capabilities
 
@@ -72,7 +72,7 @@ npx -y @usefillo/mcp
 
 ## Integration with CorpusIQ
 
-CorpusIQ closes the loop Fillo opens: Fillo captures the response, CorpusIQ tracks the resulting business — the lead in the CRM, the invoice in QuickBooks, the charge in Stripe. An agent can read new form submissions, qualify them against historical customer data through CorpusIQ connectors, and log the follow-up in the pipeline, all in one session.
+CorpusIQ closes the loop Fillo opens: Fillo captures the response, CorpusIQ tracks the resulting business - the lead in the CRM, the invoice in QuickBooks, the charge in Stripe. An agent can read new form submissions, qualify them against historical customer data through CorpusIQ connectors, and log the follow-up in the pipeline, all in one session.
 
 ## Limitations
 

@@ -1,6 +1,6 @@
 ---
-title: "RunComfy Agent Skills — AI Video & Image Generation"
-description: 30 production-grade media skills from prime-skills/runcomfy-agent-skills — AI video generation, avatar video, video editing, music generation. 61.1K+ combined installs via RunComfy cloud GPU platform.
+title: "RunComfy Agent Skills - AI Video & Image Generation"
+description: 30 production-grade media skills from prime-skills/runcomfy-agent-skills - AI video generation, avatar video, video editing, music generation. 61.1K+ combined installs via RunComfy cloud GPU platform.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/runcomfy-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# RunComfy Agent Skills — Setup Guide
+# RunComfy Agent Skills - Setup Guide
 
 **Source:** [prime-skills/runcomfy-agent-skills](https://skills.sh/prime-skills/runcomfy-agent-skills) (61.1K combined installs)
 **GitHub:** [prime-skills/runcomfy-agent-skills](https://github.com/prime-skills/runcomfy-agent-skills)
-**Platform:** [RunComfy](https://www.runcomfy.com) — cloud GPU platform for AI media generation
+**Platform:** [RunComfy](https://www.runcomfy.com) - cloud GPU platform for AI media generation
 **Category:** AI Media / Video Production
 **Quality Tier:** 🟡 Beta (first seen Jul 13, 2026)
 
@@ -50,13 +50,13 @@ npx skills add prime-skills/runcomfy-agent-skills --skill video-edit
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **video-edit** | 401.7K | Intent-routed video editing — restyle, motion transfer, outfit/background swap |
-| **image-to-video** | 400.3K | Animate still images — HappyHorse I2V, Wan 2.7, Seedance 2.0 |
+| **video-edit** | 401.7K | Intent-routed video editing - restyle, motion transfer, outfit/background swap |
+| **image-to-video** | 400.3K | Animate still images - HappyHorse I2V, Wan 2.7, Seedance 2.0 |
 | **ai-video-generation** | 345.1K | Full text-to-video + image-to-video via single CLI |
 | **ai-avatar-video** | 342.5K | Talking head / avatar video with lip-sync |
 | **video-inpainting** | 340.8K | Remove objects/people from video |
 | **video-outpainting** | 339.2K | Extend video frame boundaries |
-| **video-extend** | 339.7K | Extend video duration — Veo-style, Kling, Seedance |
+| **video-extend** | 339.7K | Extend video duration - Veo-style, Kling, Seedance |
 | **lipsync** | 2.0K | Audio-driven lip synchronization |
 
 ### Image Generation & Editing
@@ -87,10 +87,10 @@ Full list: 30 skills including seedance-v2, wan-2-7, happyhorse-1-0, kling-3-0, 
 
 ## CorpusIQ Use Cases
 
-- **Daily UGC Video Pipeline** — RunComfy as HeyGen alternative for avatar video; HyperFrames for composition
-- **Social Media Content** — Generate 60-second product demos from script + image
-- **Brand Assets** — Programmatic image generation for posts, headers, ads
-- **Multi-Model Routing** — Intent-based model selection: "animate this" picks best model automatically
+- **Daily UGC Video Pipeline** - RunComfy as HeyGen alternative for avatar video; HyperFrames for composition
+- **Social Media Content** - Generate 60-second product demos from script + image
+- **Brand Assets** - Programmatic image generation for posts, headers, ads
+- **Multi-Model Routing** - Intent-based model selection: "animate this" picks best model automatically
 
 ---
 
@@ -105,6 +105,6 @@ npx skills add prime-skills/runcomfy-agent-skills
 
 ## Related Skills
 
-- **HyperFrames** — Hermes-native video composition (complementary)
-- **HeyGen Video Automation** — Avatar video (RunComfy is an alternative)
-- **media-use** — Asset resolution layer for video projects
+- **HyperFrames** - Hermes-native video composition (complementary)
+- **HeyGen Video Automation** - Avatar video (RunComfy is an alternative)
+- **media-use** - Asset resolution layer for video projects

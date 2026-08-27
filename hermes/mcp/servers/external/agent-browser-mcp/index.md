@@ -17,7 +17,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does for Operators
 
-MCP server wrapping Vercel's agent-browser CLI. Provides browser automation tools for AI agents — navigate pages, click elements, extract content, take screenshots. Useful for web scraping and automation tasks that require JavaScript rendering.
+MCP server wrapping Vercel's agent-browser CLI. Provides browser automation tools for AI agents - navigate pages, click elements, extract content, take screenshots. Useful for web scraping and automation tasks that require JavaScript rendering.
 
 ## Installation
 
@@ -39,10 +39,10 @@ npx mcp-server-agent-browser
 
 ## Operator Use Cases
 
-1. **Web scraping** — extract data from JavaScript-heavy sites
-2. **Competitive monitoring** — screenshot and analyze competitor pages
-3. **Form automation** — fill and submit web forms
-4. **Visual testing** — automated screenshot comparison
+1. **Web scraping** - extract data from JavaScript-heavy sites
+2. **Competitive monitoring** - screenshot and analyze competitor pages
+3. **Form automation** - fill and submit web forms
+4. **Visual testing** - automated screenshot comparison
 
 ## CorpusIQ Angle
 

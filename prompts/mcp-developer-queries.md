@@ -1,6 +1,6 @@
 ---
 title: "MCP Developer Query Prompts - CorpusIQ Docs"
-description: CorpusIQ prompts for MCP developers — build, debug, and deploy Model Context Protocol servers connected to business data
+description: CorpusIQ prompts for MCP developers - build, debug, and deploy Model Context Protocol servers connected to business data
 ---
 
 # MCP Developer Queries
@@ -37,7 +37,7 @@ Ask these in Claude or ChatGPT with CorpusIQ connected. Each prompt targets a re
 
 ## Multi-Source Query Design
 
-> How do I design a multi-source query that pulls from Shopify orders, Stripe payments, and QuickBooks invoices — then reconciles them into a single response? Show the dependency graph and error handling for partial failures.
+> How do I design a multi-source query that pulls from Shopify orders, Stripe payments, and QuickBooks invoices - then reconciles them into a single response? Show the dependency graph and error handling for partial failures.
 
 ## Security Audit
 
@@ -49,7 +49,7 @@ Ask these in Claude or ChatGPT with CorpusIQ connected. Each prompt targets a re
 
 ## Custom
 
-Combine any of these queries. CorpusIQ handles multi-source analysis natively — just describe what you need to build or debug.
+Combine any of these queries. CorpusIQ handles multi-source analysis natively - just describe what you need to build or debug.
 
 ---
 

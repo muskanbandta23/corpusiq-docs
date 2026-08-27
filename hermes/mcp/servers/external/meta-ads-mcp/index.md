@@ -1,5 +1,5 @@
 ---
-title: "Meta Ads MCP — Integration Guide"
+title: "Meta Ads MCP - Integration Guide"
 description: Connect AI agents to Facebook/Instagram Ads for campaign management, creative analysis, and performance optimization through MCP.
 github: https://github.com/pipeboard-co/meta-ads-mcp
 stars: 1112
@@ -15,11 +15,11 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Meta Ads MCP — Integration Guide
+# Meta Ads MCP - Integration Guide
 
 ## Overview
 
-The Pipeboard Meta Ads MCP server connects AI agents directly to Facebook and Instagram advertising — campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Part of Pipeboard's 5-platform advertising family (also Google Ads, TikTok Ads, Snapchat Ads, and Reddit Ads).
+The Pipeboard Meta Ads MCP server connects AI agents directly to Facebook and Instagram advertising - campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Part of Pipeboard's 5-platform advertising family (also Google Ads, TikTok Ads, Snapchat Ads, and Reddit Ads).
 
 For e-commerce and DTC operators, this is transformative: "Which ad set has the highest ROAS this week and should I scale it?" becomes a single conversation with your AI agent instead of 20 minutes navigating Ads Manager.
 
@@ -64,9 +64,9 @@ npx @pipeboard-co/meta-ads-mcp
 ### Authentication
 
 OAuth 2.0 via Meta Business Login. Required permissions:
-- `ads_read` — Read campaign/ad set/ad data
-- `ads_management` — Create/edit campaigns (optional, for write tools)
-- `business_management` — Access business-level settings
+- `ads_read` - Read campaign/ad set/ad data
+- `ads_management` - Create/edit campaigns (optional, for write tools)
+- `business_management` - Access business-level settings
 
 For operators: generate a System User token in Meta Business Settings → System Users for persistent agent access.
 
@@ -114,7 +114,7 @@ Combine with cron: have AI agents check ROAS thresholds daily, increase budget o
 
 ## Security Considerations
 
-- **Ad Account Isolation:** Each MCP instance connects to one ad account — use separate configs for multiple accounts
+- **Ad Account Isolation:** Each MCP instance connects to one ad account - use separate configs for multiple accounts
 - **Permission Scope:** Start with `ads_read` only for analytics use cases. Add `ads_management` only when you trust the agent with budget changes
 - **Approval Gates:** Consider implementing a human-approval step before executing budget changes >$X
 - **Meta Rate Limits:** Meta API has strict rate limits. The MCP handles basic throttling but avoid querying insights every minute
@@ -140,7 +140,7 @@ They're complementary: Meta Ads MCP for deep Facebook/Instagram operations, Opus
 
 ## See Also
 
-- [OpusGrowth MCP Guide](/hermes/mcp/servers/external/opusgrowth-mcp/) — Cross-platform ad management
-- [Ahrefs MCP Guide](/hermes/mcp/servers/external/ahrefs-mcp/) — SEO and organic traffic context
-- [Stripe MCP Guide](/hermes/mcp/servers/external/stripe-mcp/) — Revenue-side validation
+- [OpusGrowth MCP Guide](/hermes/mcp/servers/external/opusgrowth-mcp/) - Cross-platform ad management
+- [Ahrefs MCP Guide](/hermes/mcp/servers/external/ahrefs-mcp/) - SEO and organic traffic context
+- [Stripe MCP Guide](/hermes/mcp/servers/external/stripe-mcp/) - Revenue-side validation
 - [Pipeboard Documentation](https://pipeboard.co/docs)

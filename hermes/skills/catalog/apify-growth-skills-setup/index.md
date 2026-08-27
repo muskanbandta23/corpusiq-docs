@@ -1,5 +1,5 @@
 ---
-title: Apify Growth Skills — Lead Gen, Brand Monitoring, Ultimate Scraper
+title: Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper
 description: Production-grade growth automation skills from Apify. Lead generation (2.8K), brand reputation monitoring (2.5K), and ultimate scraper (13.4K). 30,000+ pre-built Actors.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-growth-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Apify Growth Skills — Setup Guide
+# Apify Growth Skills - Setup Guide
 
 **Source:** [apify/agent-skills](https://github.com/apify/agent-skills) (2,232⭐)
 **Skills:** `apify-ultimate-scraper` (13.4K), `apify-lead-generation` (2.8K), `apify-brand-reputation-monitoring` (2.5K)
@@ -39,7 +39,7 @@ npx skills add apify/agent-skills
 
 | Requirement | Details |
 |---|---|
-| **Apify account** | [console.apify.com](https://console.apify.com) — free tier ($5/mo credit) |
+| **Apify account** | [console.apify.com](https://console.apify.com) - free tier ($5/mo credit) |
 | **Apify API token** | Apify Console → Settings → Integrations → API token |
 | **Apify MCP server** | `npx @apify/mcp` for MCP-native tool access (recommended) |
 
@@ -52,7 +52,7 @@ export APIFY_TOKEN="apify_api_..."
 ## Skill 1: apify-ultimate-scraper (13,400 installs)
 
 ### Overview
-The flagship Apify scraping skill. Handles any website regardless of complexity — SPAs with JavaScript rendering, infinite scroll pages, paginated lists, login-walled content, and CAPTCHA-protected sites. Built-in proxy rotation (residential + datacenter + mobile), automatic retry with exponential backoff, and structured output with full CSS/XPath selector support.
+The flagship Apify scraping skill. Handles any website regardless of complexity - SPAs with JavaScript rendering, infinite scroll pages, paginated lists, login-walled content, and CAPTCHA-protected sites. Built-in proxy rotation (residential + datacenter + mobile), automatic retry with exponential backoff, and structured output with full CSS/XPath selector support.
 
 ### Capabilities
 - **Any website:** Handles React, Vue, Angular SPAs with full JS rendering
@@ -115,20 +115,20 @@ npx skills run apify-lead-generation \
 ```
 
 ### CorpusIQ Use Case
-Power the outbound growth pipeline. Discover e-commerce operators, SaaS founders, and agency owners who need AI-powered business intelligence. Feed qualified leads into the CRM for nurture sequences. The skill handles the "discovery" half — CorpusIQ's `corpusiq-cold-outreach` skill handles the "engagement" half.
+Power the outbound growth pipeline. Discover e-commerce operators, SaaS founders, and agency owners who need AI-powered business intelligence. Feed qualified leads into the CRM for nurture sequences. The skill handles the "discovery" half - CorpusIQ's `corpusiq-cold-outreach` skill handles the "engagement" half.
 
 ---
 
 ## Skill 3: apify-brand-reputation-monitoring (2,500 installs)
 
 ### Overview
-Continuous brand monitoring across web, social media, and review platforms. Tracks every mention of your brand, products, and competitors. Sentiment analysis, trend detection, and configurable alerting. Designed for the "help-first community engagement" growth strategy — catch every mention before it goes unanswered.
+Continuous brand monitoring across web, social media, and review platforms. Tracks every mention of your brand, products, and competitors. Sentiment analysis, trend detection, and configurable alerting. Designed for the "help-first community engagement" growth strategy - catch every mention before it goes unanswered.
 
 ### Capabilities
 - **Platform coverage:** Reddit, X/Twitter, Hacker News, Product Hunt, G2, Capterra, Trustpilot, Google Reviews
 - **Sentiment analysis:** Real-time positive/negative/neutral classification
 - **Competitor tracking:** Side-by-side mention volume and sentiment comparison
-- **Alert thresholds:** Configurable — spike in negative mentions, competitor launch, review velocity change
+- **Alert thresholds:** Configurable - spike in negative mentions, competitor launch, review velocity change
 - **Delivery channels:** Slack webhook, email digest, webhook, or direct API
 - **Historical trending:** 30/60/90-day sentiment and volume trends
 
@@ -151,7 +151,7 @@ npx skills run apify-brand-reputation-monitoring \
 ```
 
 ### CorpusIQ Use Case
-Core growth infrastructure. Monitor every mention of "CorpusIQ," "Hermes Agent," and competitor names across the platforms where our audience lives. When someone asks "what's the best AI business intelligence tool?" on Reddit or HN — be there with a helpful answer within hours, not days. The `cross-platform-commenting-engine` skill handles the response; this skill handles the detection.
+Core growth infrastructure. Monitor every mention of "CorpusIQ," "Hermes Agent," and competitor names across the platforms where our audience lives. When someone asks "what's the best AI business intelligence tool?" on Reddit or HN - be there with a helpful answer within hours, not days. The `cross-platform-commenting-engine` skill handles the response; this skill handles the detection.
 
 ---
 
@@ -207,7 +207,7 @@ npx skills run apify-lead-generation \
   --location "Palo Alto, CA" \
   --limit 5
 
-# Test brand monitoring (your own brand — never scrape without permission)
+# Test brand monitoring (your own brand - never scrape without permission)
 npx skills run apify-brand-reputation-monitoring \
   --brand "CorpusIQ" \
   --audit \

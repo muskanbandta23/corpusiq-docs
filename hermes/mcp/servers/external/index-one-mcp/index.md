@@ -29,11 +29,11 @@ Query financial index data, run backtests, and build and deploy systematic inves
 
 ## Operator Use Cases
 
-1. **Investment research** — agent-driven financial data analysis
-2. **Strategy development** — backtest trading strategies programmatically
-3. **Portfolio monitoring** — track index performance via AI agents
-4. **Risk analysis** — automated risk assessment of investment strategies
-5. **Financial reporting** — agent-generated investment reports
+1. **Investment research** - agent-driven financial data analysis
+2. **Strategy development** - backtest trading strategies programmatically
+3. **Portfolio monitoring** - track index performance via AI agents
+4. **Risk analysis** - automated risk assessment of investment strategies
+5. **Financial reporting** - agent-generated investment reports
 
 ## CorpusIQ Angle
 
@@ -47,4 +47,4 @@ For operators in finance and investment management, Index One brings systematic 
 
 ---
 **Discovered:** July 24, 2026 via mcpservers.org /all page
-**Status:** JSON-LD extraction only — GitHub repo not identified
+**Status:** JSON-LD extraction only - GitHub repo not identified

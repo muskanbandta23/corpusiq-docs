@@ -16,7 +16,7 @@ Skills for integrating Hermes Agent with Google Workspace. These skills enable a
 
 | Skill | Description | Type |
 |-------|-------------|------|
-| Coming soon | New skills added regularly | — |
+| Coming soon | New skills added regularly | - |
 
 ## Related
 
@@ -25,4 +25,4 @@ Skills for integrating Hermes Agent with Google Workspace. These skills enable a
 
 ---
 
-*Part of the Hermes Skills Library. Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Part of the Hermes Skills Library. Curated by CorpusIQ - one MCP endpoint, all your business tools.*

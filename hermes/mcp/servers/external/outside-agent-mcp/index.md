@@ -20,10 +20,10 @@ Remote MCP server for **building and publishing production-ready AI agents** tha
 
 ## What It Does
 
-- **Agent Deployment** — Build AI agents in your IDE and deploy to web/SMS/phone
-- **Multi-Channel** — Same agent logic serves web chat, SMS text, and phone calls
-- **Remote MCP** — No local server needed — connect to hosted endpoint
-- **Production-Grade** — Built for production deployment, not just prototyping
+- **Agent Deployment** - Build AI agents in your IDE and deploy to web/SMS/phone
+- **Multi-Channel** - Same agent logic serves web chat, SMS text, and phone calls
+- **Remote MCP** - No local server needed - connect to hosted endpoint
+- **Production-Grade** - Built for production deployment, not just prototyping
 
 ## Business Operator Use Cases
 
@@ -36,7 +36,7 @@ Remote MCP server for **building and publishing production-ready AI agents** tha
 
 ## Installation
 
-Remote MCP server — add directly to your MCP client config:
+Remote MCP server - add directly to your MCP client config:
 
 ```json
 {
@@ -58,17 +58,17 @@ API key authentication. Create an account at the Outside Agent platform and gene
 
 ## Tools Provided
 
-- `create_agent` — Define agent persona, knowledge base, and channel configuration
-- `deploy_agent` — Deploy agent to specified channels (web, SMS, phone)
-- `list_agents` — View all deployed agents and their status
-- `get_conversation_logs` — Review agent interactions across channels
+- `create_agent` - Define agent persona, knowledge base, and channel configuration
+- `deploy_agent` - Deploy agent to specified channels (web, SMS, phone)
+- `list_agents` - View all deployed agents and their status
+- `get_conversation_logs` - Review agent interactions across channels
 
 ## Limitations
 
-- **0 stars, brand new** — Created July 15, 2026. Early stage.
-- **SaaS platform dependency** — Agents run on Outside Agent infrastructure, not self-hosted.
-- **Pricing unknown** — No public pricing for the platform.
-- **Vendor lock-in** — Agent definitions and conversation data live on their platform.
+- **0 stars, brand new** - Created July 15, 2026. Early stage.
+- **SaaS platform dependency** - Agents run on Outside Agent infrastructure, not self-hosted.
+- **Pricing unknown** - No public pricing for the platform.
+- **Vendor lock-in** - Agent definitions and conversation data live on their platform.
 
 ## Operator Verdict
 

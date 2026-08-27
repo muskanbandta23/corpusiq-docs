@@ -1,5 +1,5 @@
 ---
-title: Ghostwriter — Full Setup Guide for Hermes Agents
+title: Ghostwriter - Full Setup Guide for Hermes Agents
 description: Install and configure the Ghostwriter skill from okokelly/skill-ghostwriter. Autonomous email auto-reply pipeline with zero-token watchdog and voice-guided processor for VIP inboxes.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ghostwriter-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Ghostwriter — Setup Guide
+# Ghostwriter - Setup Guide
 
 **Source:** [okokelly/skill-ghostwriter](#repo-unavailable)
 **Category:** Email Automation
@@ -72,7 +72,7 @@ Processor (agent, context_from=Watchdog)
 |---|---|---|
 | **VIP Inbox Monitoring** | "Set up auto-reply for [person]" | Watchdog polls Gmail every 5 minutes |
 | **Voice-Guided Replies** | "Ghostwriter for [new contact]" | Processor drafts in your voice/style |
-| **Silent Mode** | Automatic — no emails = zero tokens | Watchdog exits without output when nothing found |
+| **Silent Mode** | Automatic - no emails = zero tokens | Watchdog exits without output when nothing found |
 | **Auto-Archive** | Built into processor | Sent replies are automatically archived |
 
 ---
@@ -81,11 +81,11 @@ Processor (agent, context_from=Watchdog)
 
 | Use Case | How |
 |---|---|
-| **VIP Client Auto-Reply** | "Ghostwriter for client@example.com" — handles their emails autonomously |
+| **VIP Client Auto-Reply** | "Ghostwriter for client@example.com" - handles their emails autonomously |
 | **Partner Communication** | Set up for integration partners who need quick responses |
 | **Investor Updates** | Auto-respond to investor emails with status updates in your voice |
 | **Support Triage** | Watchdog captures, processor drafts, human reviews before send |
-| **After-Hours Coverage** | Run 24/7 — watchdog costs nothing when inbox is quiet |
+| **After-Hours Coverage** | Run 24/7 - watchdog costs nothing when inbox is quiet |
 
 ---
 
@@ -94,7 +94,7 @@ Processor (agent, context_from=Watchdog)
 | Issue | Fix |
 |---|---|
 | Watchdog not detecting emails | Verify Google Workspace auth: `GAPI=... gmail.py` |
-| Processor sends no replies | Check cron offset — processor must run 1min after watchdog |
+| Processor sends no replies | Check cron offset - processor must run 1min after watchdog |
 | High token usage | Verify watchdog exits silently on no-match (check cron output) |
 | Wrong voice/style | Edit the voice prompt in `ghostwriter/SKILL.md` |
 

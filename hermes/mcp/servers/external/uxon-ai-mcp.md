@@ -1,5 +1,5 @@
 ---
-title: "UXON AI MCP — AI-Powered Landing Page Creation for"
+title: "UXON AI MCP - AI-Powered Landing Page Creation for"
 description: "MCP server and API that lets AI agents create landing pages and websites. Essential for marketing operators who want AI-assisted web presence without"
 category: mcp
 tags: [mcp-server, marketing, landing-pages, web-development, content-creation, design]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # UXON AI MCP Server ★ New (July 16)
 
-UXON is an MCP server and API that lets AI agents and developers create landing pages and websites programmatically. Operators can generate, customize, and deploy web pages directly from AI conversations — no code editor required.
+UXON is an MCP server and API that lets AI agents and developers create landing pages and websites programmatically. Operators can generate, customize, and deploy web pages directly from AI conversations - no code editor required.
 
 **Source:** GitHub (created July 16, 2026)
 **Category:** Marketing / Development
@@ -50,10 +50,10 @@ CorpusIQ Social → Drive traffic to generated pages via scheduled posts (Postiz
 ```
 
 ## Limitations
-- Early-stage project (23 stars) — likely evolving rapidly
+- Early-stage project (23 stars) - likely evolving rapidly
 - Landing page quality depends on AI model; may require human review
-- No built-in hosting — pages need separate deployment
-- Not a full website builder — focused on landing pages and simple sites
-- No e-commerce or dynamic functionality — static pages only
+- No built-in hosting - pages need separate deployment
+- Not a full website builder - focused on landing pages and simple sites
+- No e-commerce or dynamic functionality - static pages only
 
 *Back to [External MCP Catalog](/hermes/mcp/servers/external/)*

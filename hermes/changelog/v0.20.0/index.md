@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.20.0 — The Herald Release
-description: Hermes Agent v0.20.0 (v2026.8.3) — The Herald Release. Streaming conversational voice with barge-in, A2A v1.0 agent protocol, signed outbound webhooks, grounded research citations, desktop artifacts & plugin SDK, CLI power commands, tool self-recovery, and smarter compression. ~3,650 commits, 647 contributors. August 3, 2026.
+title: Hermes Agent v0.20.0 - The Herald Release
+description: Hermes Agent v0.20.0 (v2026.8.3) - The Herald Release. Streaming conversational voice with barge-in, A2A v1.0 agent protocol, signed outbound webhooks, grounded research citations, desktop artifacts & plugin SDK, CLI power commands, tool self-recovery, and smarter compression. ~3,650 commits, 647 contributors. August 3, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.0/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -19,31 +19,31 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## ✨ Highlights
 
-- **Streaming Conversational Voice with Barge-In** — Clause-by-clause TTS synthesis, interrupt by voice mid-sentence, busy-aware silence detection. Works across CLI voice mode, desktop, and gateway adapters. Talking to Hermes finally feels like a conversation.
+- **Streaming Conversational Voice with Barge-In** - Clause-by-clause TTS synthesis, interrupt by voice mid-sentence, busy-aware silence detection. Works across CLI voice mode, desktop, and gateway adapters. Talking to Hermes finally feels like a conversation.
 
-- **Wake Words & Hands-Free Control** — Open-vocabulary wake phrases ("hey Hermes" or anything you pick), on-device detection (no audio leaves your machine), multi-profile voice routing. Say "stop" to end voice chat hands-free on every surface.
+- **Wake Words & Hands-Free Control** - Open-vocabulary wake phrases ("hey Hermes" or anything you pick), on-device detection (no audio leaves your machine), multi-profile voice routing. Say "stop" to end voice chat hands-free on every surface.
 
-- **Voice on Every Platform** — Voice notes on WhatsApp, Feishu, DingTalk, LINE, QQ, Photon, Weixin transcribed and answered with platform-aware auto-TTS replies. Fully configurable STT with its own `hermes tools` category, GUI toggles, and OpenAI gpt-transcribe support.
+- **Voice on Every Platform** - Voice notes on WhatsApp, Feishu, DingTalk, LINE, QQ, Photon, Weixin transcribed and answered with platform-aware auto-TTS replies. Fully configurable STT with its own `hermes tools` category, GUI toggles, and OpenAI gpt-transcribe support.
 
-- **Grounded Citations & Fact-Checking** — The new `grounded-citations` skill matches quotes against actual page text (not hallucinated), links citations to exact evidence, and a fact-checking mode verifies any document or claim. Research goes from "sounds right" to "provably sourced."
+- **Grounded Citations & Fact-Checking** - The new `grounded-citations` skill matches quotes against actual page text (not hallucinated), links citations to exact evidence, and a fact-checking mode verifies any document or claim. Research goes from "sounds right" to "provably sourced."
 
-- **Outbound Webhooks** — Hermes pushes signed lifecycle events (session activity, turn completions, tool events) to any HTTP endpoint with HMAC signatures. Wire Hermes into CI, home automation, dashboards, or any HTTP-speaking service — no polling loop.
+- **Outbound Webhooks** - Hermes pushes signed lifecycle events (session activity, turn completions, tool events) to any HTTP endpoint with HMAC signatures. Wire Hermes into CI, home automation, dashboards, or any HTTP-speaking service - no polling loop.
 
-- **Desktop Becomes a Platform** — Artifacts (sandboxed live preview in right-rail viewer), plugin SDK (Kanban as founding plugin, `ctx.download`, floating panes, multiple GUI windows), global-hotkey quick-entry window. The desktop is now a workbench, not just a chat client.
+- **Desktop Becomes a Platform** - Artifacts (sandboxed live preview in right-rail viewer), plugin SDK (Kanban as founding plugin, `ctx.download`, floating panes, multiple GUI windows), global-hotkey quick-entry window. The desktop is now a workbench, not just a chat client.
 
-- **Agent-to-Agent Protocol (A2A v1.0)** — Bundled plugin implementing the A2A standard. Hermes can discover, talk to, and be driven by other A2A-compatible agents. Closes issue #514 — one of the oldest feature requests.
+- **Agent-to-Agent Protocol (A2A v1.0)** - Bundled plugin implementing the A2A standard. Hermes can discover, talk to, and be driven by other A2A-compatible agents. Closes issue #514 - one of the oldest feature requests.
 
-- **CLI Power-User Wave** — `!command` runs shell instantly without a model turn. `/init` generates AGENTS.md. `/diff` shows staged/all/session changes. `/context` breaks down context window usage. `/focus` enables reduced-output view. Ctrl+S stashes prompts. `hermes import-agent` migrates from Claude Code/Codex CLI in one command.
+- **CLI Power-User Wave** - `!command` runs shell instantly without a model turn. `/init` generates AGENTS.md. `/diff` shows staged/all/session changes. `/context` breaks down context window usage. `/focus` enables reduced-output view. Ctrl+S stashes prompts. `hermes import-agent` migrates from Claude Code/Codex CLI in one command.
 
-- **Mid-Turn Redirects** — Correct the agent while it works — the active turn is redirected with your new guidance, preserving in-flight work and the original prompt. Double-ESC discards drafts, composer undo stack built in.
+- **Mid-Turn Redirects** - Correct the agent while it works - the active turn is redirected with your new guidance, preserving in-flight work and the original prompt. Double-ESC discards drafts, composer undo stack built in.
 
-- **Tools That Fix Themselves** — Truncated terminal output spills to a readable file. `patch` detects already-applied edits and diagnoses whitespace mismatches. Searches probe near-misses and recover. `write_file` verifies on-disk content. Table stakes for long autonomous runs. Default tool iteration limit raised from 90 to 500.
+- **Tools That Fix Themselves** - Truncated terminal output spills to a readable file. `patch` detects already-applied edits and diagnoses whitespace mismatches. Searches probe near-misses and recover. `write_file` verifies on-disk content. Table stakes for long autonomous runs. Default tool iteration limit raised from 90 to 500.
 
-- **Smarter, Gentler Compression** — Proactive tool-result pruning, per-turn micro-compaction, guaranteed N-user-message tail survival, progress-aware timeouts, ghost-skill defense. Long sessions stay coherent and stop stalling.
+- **Smarter, Gentler Compression** - Proactive tool-result pruning, per-turn micro-compaction, guaranteed N-user-message tail survival, progress-aware timeouts, ghost-skill defense. Long sessions stay coherent and stop stalling.
 
-- **Smart Approvals Grow Up** — `hermes approvals suggest` mines history into allowlist proposals. Operator-customizable smart-approval policy. Consecutive-denial circuit breaker stops misbehaving loops cold. Desktop pairing approvals are profile-correct.
+- **Smart Approvals Grow Up** - `hermes approvals suggest` mines history into allowlist proposals. Operator-customizable smart-approval policy. Consecutive-denial circuit breaker stops misbehaving loops cold. Desktop pairing approvals are profile-correct.
 
-- **Faster Everywhere, Again** — Prompt caching covers tool schemas on native Anthropic. `hermes -w` cold start: ~14s → ~1.8s. Config reads 54× faster. Desktop 60fps wave 2: streaming cost independent of transcript length, idle CPU near zero.
+- **Faster Everywhere, Again** - Prompt caching covers tool schemas on native Anthropic. `hermes -w` cold start: ~14s → ~1.8s. Config reads 54× faster. Desktop 60fps wave 2: streaming cost independent of transcript length, idle CPU near zero.
 
 ---
 
@@ -78,7 +78,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ### Approvals & Agent Loop
 - `hermes approvals suggest` mines approval history into allowlist proposals
 - Consecutive-denial circuit breaker; docker/podman daemon-redirect approval gate
-- Mid-turn redirects — user corrections steer the active turn
+- Mid-turn redirects - user corrections steer the active turn
 - Delegation: structured timeout/stall metadata, live per-child `/agents` status, subagent `execute_code` access
 - Default tool iteration limit 90 → 500; tool_search validates blind tool_call args
 
@@ -111,13 +111,13 @@ tags: ["hermes agent", "ai agent", "nous research"]
 - Photon: native polls, effects, clarify-as-poll, rich links
 - Slack: native Block Kit clarify buttons; opt-in reaction triggers
 - Discord auto-thread sessions; WhatsApp configurable inbound read receipts
-- **Outbound webhooks** — push signed lifecycle events to external endpoints
+- **Outbound webhooks** - push signed lifecycle events to external endpoints
 
-## 🖥️ Desktop App — The Platform Wave
+## 🖥️ Desktop App - The Platform Wave
 
 ### Artifacts, Plugins & Quick Entry
-- **Artifacts** — versioned cards, sandboxed live preview, right-rail viewer
-- **Plugin SDK** — Kanban founding plugin, `ctx.download`, widget-app SDK, widget-grid layout engine
+- **Artifacts** - versioned cards, sandboxed live preview, right-rail viewer
+- **Plugin SDK** - Kanban founding plugin, `ctx.download`, widget-app SDK, widget-grid layout engine
 - **Quick-entry window** (global hotkey → any session); multiple GUI windows; floating pane placement
 - SSH remote-backend connection mode; event-driven live sync replaces always-on polls
 - Agent can drive the shell (preview pane + pane focus) AND inspect the desktop app it's developing
@@ -141,7 +141,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 - `!` shell mode; `/init` AGENTS.md generation; `/diff` (staged/all/session); `/context` breakdown; `/focus` reduced-output
 - Ctrl+S prompt stash; persistent `/goal` indicator; multi-select clarify across CLI/gateway/TUI
-- `hermes import-agent` — one-command migration from Claude Code/Codex CLI
+- `hermes import-agent` - one-command migration from Claude Code/Codex CLI
 - Per-turn summary line + live token flow in spinner; cross-surface theme SDK
 - `hermes -w` startup ~14s → ~1.8s; banner update-check 6× faster
 - Dashboard lazy-loads routes + GROUP BY session stats; session filtering tabs
@@ -163,7 +163,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 - Tier-3 credential reads scoped; CVE dependency pins refreshed
 - Windows hardening: text-mode subprocess decode bug class closed, console flashes hidden
 - Four session-state fixes; compact v23 FTS layout + `hermes sessions optimize`
-- OpenViking memory-provider hardening — fail closed on blocked endpoints
+- OpenViking memory-provider hardening - fail closed on blocked endpoints
 
 ## 👥 Contributors
 
@@ -187,7 +187,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.19.1 — Patch Release](/hermes/changelog/v0.19.1/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.19.1 - Patch Release](/hermes/changelog/v0.19.1/) | [Changelog Home](/hermes/changelog/) →*
 
 *↑ [Changelog Home](/hermes/changelog/)*
 

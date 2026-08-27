@@ -1,6 +1,6 @@
 ---
-title: "excalidraw — Setup Guide - CorpusIQ Docs"
-description: Generate Excalidraw diagrams, sketches, and wireframes from text descriptions — visual thinking for Hermes agents.
+title: "excalidraw - Setup Guide - CorpusIQ Docs"
+description: Generate Excalidraw diagrams, sketches, and wireframes from text descriptions - visual thinking for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# excalidraw — Setup Guide
+# excalidraw - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Skill:** `excalidraw`
@@ -47,7 +47,7 @@ After install, reload skills:
 ## Key Features
 
 - **Hand-drawn aesthetic**: Sketch-like lines that signal draft status
-- **JSON-native**: Excalidraw files are plain JSON — easy to version in git
+- **JSON-native**: Excalidraw files are plain JSON - easy to version in git
 - **Export options**: PNG, SVG, or embeddable links
 - **Library integration**: Rich shape library with custom components
 - **Collaboration**: Live multi-user editing via excalidraw.com
@@ -62,12 +62,12 @@ The skill integrates with Hermes' file and rendering tools:
 
 ## CorpusIQ Use Cases
 
-1. **Architecture documentation** — System diagrams for corpusiq-docs
-2. **Product specs** — Wireframes for new features under development
-3. **Client deliverables** — Architecture diagrams for enterprise proposals
-4. **Internal communication** — Flowcharts for growth and product processes
-5. **Pitch decks** — Visual diagrams for investor and partner presentations
-6. **Technical blog posts** — Diagrams for the CorpusIQ engineering blog
+1. **Architecture documentation** - System diagrams for corpusiq-docs
+2. **Product specs** - Wireframes for new features under development
+3. **Client deliverables** - Architecture diagrams for enterprise proposals
+4. **Internal communication** - Flowcharts for growth and product processes
+5. **Pitch decks** - Visual diagrams for investor and partner presentations
+6. **Technical blog posts** - Diagrams for the CorpusIQ engineering blog
 
 ## Troubleshooting
 

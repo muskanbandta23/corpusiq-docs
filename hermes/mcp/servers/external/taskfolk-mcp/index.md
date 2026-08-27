@@ -11,7 +11,7 @@ tags: [project-management, task-management, remote-mcp, api, teams, sprints, pro
 
 # Taskfolk MCP
 
-**Project management for teams and their AI agents over a first-party remote MCP.** Taskfolk is a project-management platform (boards, backlogs, sprints, timelines, docs, reports, and workflows) whose developer platform exposes a versioned REST API of roughly 180 operations — and a first-party MCP server that exposes the same operations to AI agents, so an agent works through the exact API your own code does.
+**Project management for teams and their AI agents over a first-party remote MCP.** Taskfolk is a project-management platform (boards, backlogs, sprints, timelines, docs, reports, and workflows) whose developer platform exposes a versioned REST API of roughly 180 operations - and a first-party MCP server that exposes the same operations to AI agents, so an agent works through the exact API your own code does.
 
 ```
 Server type: Hosted remote (Streamable HTTP)
@@ -23,7 +23,7 @@ Built by: Taskfolk (taskfolk.ai)
 
 ## Why This Matters for Operators
 
-Most MCP-to-project-management bridges wrap a subset of a platform and drift from its real API. Taskfolk's MCP server is first-party and sits on the same OpenAPI contract as its REST surface — the OpenAPI spec is the source of truth, giving a clean path to generated SDKs and identical semantics whether the caller is code or an agent. Usage and audit views show every call and change, so you can see what an integration did and when.
+Most MCP-to-project-management bridges wrap a subset of a platform and drift from its real API. Taskfolk's MCP server is first-party and sits on the same OpenAPI contract as its REST surface - the OpenAPI spec is the source of truth, giving a clean path to generated SDKs and identical semantics whether the caller is code or an agent. Usage and audit views show every call and change, so you can see what an integration did and when.
 
 ## Tools & Capabilities
 
@@ -71,17 +71,17 @@ Pricing tiers are published at taskfolk.ai/pricing; the developer surface is ava
 
 ## Integration with CorpusIQ
 
-Taskfolk covers team execution tracking — adjacent to, not overlapping, CorpusIQ's finance and analytics connectors. In one agent session, an ops team can have agents update sprints and issues through Taskfolk while CorpusIQ reports on the business layer: QuickBooks for budget, Stripe for payments, and GA4 for launch metrics — then join the two on project or client name. The scoped-key and audit-view design matches CorpusIQ's provenance discipline.
+Taskfolk covers team execution tracking - adjacent to, not overlapping, CorpusIQ's finance and analytics connectors. In one agent session, an ops team can have agents update sprints and issues through Taskfolk while CorpusIQ reports on the business layer: QuickBooks for budget, Stripe for payments, and GA4 for launch metrics - then join the two on project or client name. The scoped-key and audit-view design matches CorpusIQ's provenance discipline.
 
 ## Limitations
 
 - Newer listing (Aug 2026) with a smaller community than the giants it compares against
 - Requires a Taskfolk workspace and API key; no anonymous read surface
-- MCP surface is a mirror of the REST API — no capabilities beyond the API contract
+- MCP surface is a mirror of the REST API - no capabilities beyond the API contract
 
 ## See Also
 
-- [Atono MCP Server — Agile Project Management for Agents](/hermes/mcp/servers/external/atono-mcp-server/)
-- [MCPGRAM MCP — OAuth Connectivity Gateway for AI Agents](/hermes/mcp/servers/external/mcpgram-mcp/)
+- [Atono MCP Server - Agile Project Management for Agents](/hermes/mcp/servers/external/atono-mcp-server/)
+- [MCPGRAM MCP - OAuth Connectivity Gateway for AI Agents](/hermes/mcp/servers/external/mcpgram-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

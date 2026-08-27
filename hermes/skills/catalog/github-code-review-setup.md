@@ -1,6 +1,6 @@
 ---
-title: github-code-review — Setup Guide
-description: Automate GitHub PR reviews, diffs, and inline comments via gh CLI or REST API for Hermes agents — 281 installs.
+title: github-code-review - Setup Guide
+description: Automate GitHub PR reviews, diffs, and inline comments via gh CLI or REST API for Hermes agents - 281 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/github-code-review-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# github-code-review — Setup Guide
+# github-code-review - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Skill:** `github-code-review`
 **Installs:** 281
 
-The `github-code-review` skill automates pull request review workflows for Hermes agents. Review diffs, add inline comments, approve or request changes, and manage the review lifecycle — all from the terminal via `gh` CLI or GitHub REST API.
+The `github-code-review` skill automates pull request review workflows for Hermes agents. Review diffs, add inline comments, approve or request changes, and manage the review lifecycle - all from the terminal via `gh` CLI or GitHub REST API.
 
 ## Installation
 
@@ -85,11 +85,11 @@ The skill can automatically check for:
 
 ## CorpusIQ Use Cases
 
-1. **corpusiq-docs PR review** — Automated review of community PRs
-2. **Internal code review** — First-pass review for CorpusIQ engineering PRs
-3. **Dependency updates** — Automated review of Dependabot/Renovate PRs
-4. **Open source contributions** — Review Hermes ecosystem PRs
-5. **Release validation** — Pre-release diff audit for changelog generation
+1. **corpusiq-docs PR review** - Automated review of community PRs
+2. **Internal code review** - First-pass review for CorpusIQ engineering PRs
+3. **Dependency updates** - Automated review of Dependabot/Renovate PRs
+4. **Open source contributions** - Review Hermes ecosystem PRs
+5. **Release validation** - Pre-release diff audit for changelog generation
 
 ## Troubleshooting
 

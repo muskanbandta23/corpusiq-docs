@@ -1,5 +1,5 @@
 ---
-title: Solana Blockchain — Full Setup Guide for Hermes Agents
+title: Solana Blockchain - Full Setup Guide for Hermes Agents
 description: Query Solana on-chain data with USD pricing via CoinGecko. 8 commands for wallet portfolios, tokens, transactions, NFTs, whale detection, network stats, and price lookup. No API key needed.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/solana-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Solana Blockchain — Setup Guide
+# Solana Blockchain - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) (227.9K⭐)
 **Skill:** `nousresearch/hermes-agent@solana`
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Category:** Blockchain / Web3
 **First Seen:** Apr 4, 2026
 
-Query Solana on-chain data enriched with USD pricing via CoinGecko. 8 commands covering wallet portfolios, token info, transactions, activity, NFTs, whale detection, network stats, and price lookups. Uses only Python standard library — no API key needed.
+Query Solana on-chain data enriched with USD pricing via CoinGecko. 8 commands covering wallet portfolios, token info, transactions, activity, NFTs, whale detection, network stats, and price lookups. Uses only Python standard library - no API key needed.
 
 ---
 
@@ -38,7 +38,7 @@ npx skills add https://github.com/nousresearch/hermes-agent --skill solana
 
 | Requirement | Details |
 |---|---|
-| **Python 3** | For all scripts (stdlib only — `urllib`, `json`, `argparse`) |
+| **Python 3** | For all scripts (stdlib only - `urllib`, `json`, `argparse`) |
 | **Hermes Agent** | Any version |
 | **No API key** | All queries run against public RPC endpoints + CoinGecko free tier |
 

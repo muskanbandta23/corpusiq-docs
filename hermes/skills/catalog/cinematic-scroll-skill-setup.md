@@ -1,5 +1,5 @@
 ---
-title: "cinematic-scroll-skill — Scroll-Driven Website Builder"
+title: "cinematic-scroll-skill - Scroll-Driven Website Builder"
 description: "Set up the cinematic-scroll-skill (9⭐) to generate cinematic, scroll-driven websites from briefs using your Hermes agent."
 skill_name: cinematic-scroll-skill
 category: web-design
@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# cinematic-scroll-skill — Full Setup Guide
+# cinematic-scroll-skill - Full Setup Guide
 
 **Repo:** [MustBeSimo/cinematic-scroll-skill](https://github.com/MustBeSimo/cinematic-scroll-skill) | ⭐ 9
 **Author:** MustBeSimo | **Language:** TypeScript
@@ -45,7 +45,7 @@ npm install
 
 ## Configuration
 
-The skill auto-configures. No API keys required — it generates everything locally.
+The skill auto-configures. No API keys required - it generates everything locally.
 
 ### Custom Templates (Optional)
 
@@ -80,10 +80,10 @@ and a pricing table with hover animations.
 ```
 
 The skill generates:
-1. **Visual system** — color palette, typography, spacing, component tokens
-2. **Motion storyboard** — which elements animate on scroll, timing, easing
-3. **Performance budget** — CSS/JS size targets, LCP/FID thresholds
-4. **HTML/CSS/JS** — production-ready output
+1. **Visual system** - color palette, typography, spacing, component tokens
+2. **Motion storyboard** - which elements animate on scroll, timing, easing
+3. **Performance budget** - CSS/JS size targets, LCP/FID thresholds
+4. **HTML/CSS/JS** - production-ready output
 
 ### Output Location
 
@@ -214,7 +214,7 @@ cp -r cinematic-scroll-skill ~/.hermes/skills/
 
 1. Make sure CSS Grid and CSS Scroll-Driven Animations are supported in your browser
 2. Chrome 115+, Safari 17.4+, Firefox 125+
-3. Check the console for JS errors (should be none — no frameworks used)
+3. Check the console for JS errors (should be none - no frameworks used)
 
 ### "Brief not understood"
 

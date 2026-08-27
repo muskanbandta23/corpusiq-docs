@@ -1,6 +1,6 @@
 ---
-title: "Competitor Tracker & Co. MCP — Integration Guide"
-description: "Agentic competitor intelligence — ~50 tools for tracking competitor pricing, product, messaging, and corporate changes via weekly crawls, exposed as MCP"
+title: "Competitor Tracker & Co. MCP - Integration Guide"
+description: "Agentic competitor intelligence - ~50 tools for tracking competitor pricing, product, messaging, and corporate changes via weekly crawls, exposed as MCP"
 category: mcp
 tags: [mcp-server, competitive-intelligence, competitor-tracking, market-research, growth-operations, hermes-agent]
 last_updated: 2026-08-10
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# Competitor Tracker & Co. MCP — Agentic Competitive Intelligence
+# Competitor Tracker & Co. MCP - Agentic Competitive Intelligence
 
 **Rating:** ★★★ | **Category:** Growth & Market Intelligence | **Transport:** Streamable HTTP
 
 ## What It Does
 
-Competitor Tracker & Co. watches your competitors' websites and tells you what changed. Every week it crawls their pricing, product, messaging, and corporate pages, detects the changes that matter, and files a tagged, ranked dossier. The MCP server puts that same intelligence inside your AI assistant — subscribe to competitors, read the change feed, and pull page snapshots without leaving chat.
+Competitor Tracker & Co. watches your competitors' websites and tells you what changed. Every week it crawls their pricing, product, messaging, and corporate pages, detects the changes that matter, and files a tagged, ranked dossier. The MCP server puts that same intelligence inside your AI assistant - subscribe to competitors, read the change feed, and pull page snapshots without leaving chat.
 
 ## Why Business Operators Need This
 
-Competitive intelligence typically lives in a separate dashboard you check quarterly. Competitor Tracker & Co. makes it an agent-native capability: ask "what changed across my competitors this week?" and get a ranked answer with specific page snapshots showing before/after. For growth operators, product managers, and founders, this means competitive awareness becomes continuous and conversational — not a quarterly research project. ~50 tools covering reads, writes, and destructive operations with confirm-gates for safety.
+Competitive intelligence typically lives in a separate dashboard you check quarterly. Competitor Tracker & Co. makes it an agent-native capability: ask "what changed across my competitors this week?" and get a ranked answer with specific page snapshots showing before/after. For growth operators, product managers, and founders, this means competitive awareness becomes continuous and conversational - not a quarterly research project. ~50 tools covering reads, writes, and destructive operations with confirm-gates for safety.
 
-**Competitive landscape:** The only MCP server purpose-built for competitive website intelligence. Closest analog is Competitor Tracker & Co.'s own web dashboard; this MCP server brings that data into agent workflows. Not a traditional SEO tool (Ahrefs, SEMrush) — focuses on website change detection, not keyword rankings.
+**Competitive landscape:** The only MCP server purpose-built for competitive website intelligence. Closest analog is Competitor Tracker & Co.'s own web dashboard; this MCP server brings that data into agent workflows. Not a traditional SEO tool (Ahrefs, SEMrush) - focuses on website change detection, not keyword rankings.
 
 ## Quick Start
 
@@ -118,11 +118,11 @@ Full tool catalog: [competitortracker.io/docs/mcp/tools](https://competitortrack
 
 Ask your agent: *"What changed across our competitors this week?"*
 
-The agent calls `list_org_changes` with a date filter, returns ranked changes with page snapshots, and synthesizes a brief — pricing moves, new product pages, messaging shifts.
+The agent calls `list_org_changes` with a date filter, returns ranked changes with page snapshots, and synthesizes a brief - pricing moves, new product pages, messaging shifts.
 
 ### Subscribe to a New Competitor
 
-Ask your agent: *"Start tracking acme.com — pricing and product pages."*
+Ask your agent: *"Start tracking acme.com - pricing and product pages."*
 
 The agent calls `subscribe_competitor` with the URL and category filters. Weekly crawls begin automatically.
 
@@ -146,7 +146,7 @@ Competitor Tracker & Co. operates on a coin-based system. Coins cover competitor
 | **Demo** | [competitortracker.io/demo/agent](https://competitortracker.io/demo/agent/) |
 | **MCP Endpoint** | `https://mcp.competitortracker.io/mcp` |
 
-## Verdict: ★★★ — Essential for Growth & Product Operators
+## Verdict: ★★★ - Essential for Growth & Product Operators
 
 Competitor Tracker & Co. is the first MCP server that makes competitive website intelligence an agent-native capability. For any operator running product or growth through AI agents, this removes the context-switch between "working in your agent" and "checking what competitors are doing." The ~50-tool surface with read/write/destructive tiers and confirm gates shows mature API design.
 

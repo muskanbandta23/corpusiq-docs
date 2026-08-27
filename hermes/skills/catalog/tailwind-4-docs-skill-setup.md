@@ -1,13 +1,13 @@
 ---
-title: Tailwind 4 Docs Skill — Local Docs Snapshot Setup
-description: "lombiq/tailwind-agent-skills — tailwind-4-docs (10.1K installs): navigate a locally synced Tailwind CSS v4 documentation snapshot for development, migration, and review questions with official guidance. Snyk audit: Warn."
+title: Tailwind 4 Docs Skill - Local Docs Snapshot Setup
+description: "lombiq/tailwind-agent-skills - tailwind-4-docs (10.1K installs): navigate a locally synced Tailwind CSS v4 documentation snapshot for development, migration, and review questions with official guidance. Snyk audit: Warn."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tailwind-4-docs-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "tailwind", "css", "documentation"]
 ---
 
-# Tailwind 4 Docs Skill — Setup Guide
+# Tailwind 4 Docs Skill - Setup Guide
 
 **Source:** [lombiq/tailwind-agent-skills](https://skills.sh/lombiq/tailwind-agent-skills)
 **GitHub:** [lombiq/tailwind-agent-skills](https://github.com/lombiq/tailwind-agent-skills) (62 stars)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "tailwind", "css", "documen
 **First Seen:** Feb 3, 2026 (catalogued August 15, 2026 midday sweep)
 **Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub and Socket pass; Snyk Warn on the skill page)
 
-tailwind-4-docs teaches an agent to answer Tailwind CSS v4 questions — utilities, variants, config, migration, compatibility, implementation, refactors, and reviews — from a locally synced snapshot of the official documentation, instead of stale training data.
+tailwind-4-docs teaches an agent to answer Tailwind CSS v4 questions - utilities, variants, config, migration, compatibility, implementation, refactors, and reviews - from a locally synced snapshot of the official documentation, instead of stale training data.
 
 ---
 
@@ -58,7 +58,7 @@ npx skills add lombiq/tailwind-agent-skills --skill tailwind-4-docs
 
 ## Limitations / Verification
 
-- Snyk audit Warn (named on the skill page) — install into a reviewed environment
+- Snyk audit Warn (named on the skill page) - install into a reviewed environment
 - Upstream Tailwind docs are source-available, not open-source; you must initialize the snapshot yourself and comply with the upstream license
 - Requires re-initialization when the snapshot is older than one week
 

@@ -1,5 +1,5 @@
 ---
-title: "MCP Server Sweep — July 19, 2026"
+title: "MCP Server Sweep - July 19, 2026"
 description: "20 new MCP servers discovered from awesome-mcp-servers (punkpeye/awesome-mcp-servers) since last sweep on July 17. Headline finds: SignWell (official"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Sweep — July 19, 2026
+# MCP Server Sweep - July 19, 2026
 
 Discovered 20 new MCP servers from the [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) list, added via merged PRs on July 13, 2026. This is the first sweep since the July 17 catalog update.
 
@@ -21,8 +21,8 @@ Discovered 20 new MCP servers from the [awesome-mcp-servers](https://github.com/
 
 | Server | Category | Why It Matters |
 |--------|----------|----------------|
-| **SignWell MCP** | Workplace | Official e-signature MCP — first major e-sign platform with native MCP support |
-| **Setell MCP** | Finance | Quote-to-cash for service businesses — vertical AI agent for shops, contractors |
+| **SignWell MCP** | Workplace | Official e-signature MCP - first major e-sign platform with native MCP support |
+| **Setell MCP** | Finance | Quote-to-cash for service businesses - vertical AI agent for shops, contractors |
 | **DataNexus MCP** | Data Intelligence | 55 tools for public data (CVE, patents, federal contracts, NPI, nonprofits) |
 | **Linksee Memory** | Knowledge & Memory | 6-layer cross-agent memory with Ebbinghaus forgetting curve + drift detection |
 | **Engram** | Knowledge & Memory | Self-hosted git-backed markdown memory with dashboard |
@@ -70,10 +70,10 @@ Detailed setup guides drafted for the 10 headline servers above. Each guide cove
 
 Several of these servers are directly relevant to CorpusIQ's operator audience:
 
-- **SignWell** — e-signature is a core operator workflow. CorpusIQ could integrate SignWell alongside existing connectors.
-- **Setell** — quote-to-cash mirrors CorpusIQ's business operations focus. Potential partnership or competitive analysis target.
-- **DataNexus** — 55 public data tools complement CorpusIQ's business data connectors. Patent and federal contract data could fuel lead intelligence.
-- **Kadenzo** — social media scheduling MCP competes with Postiz. Worth monitoring.
+- **SignWell** - e-signature is a core operator workflow. CorpusIQ could integrate SignWell alongside existing connectors.
+- **Setell** - quote-to-cash mirrors CorpusIQ's business operations focus. Potential partnership or competitive analysis target.
+- **DataNexus** - 55 public data tools complement CorpusIQ's business data connectors. Patent and federal contract data could fuel lead intelligence.
+- **Kadenzo** - social media scheduling MCP competes with Postiz. Worth monitoring.
 
 ## See Also
 

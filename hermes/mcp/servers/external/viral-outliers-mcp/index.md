@@ -11,7 +11,7 @@ tags: [creator-intelligence, viral-content, social-research, tiktok, instagram, 
 
 # Viral Outliers MCP
 
-**Remote MCP server (Streamable HTTP, Bearer API key)** — a continuously-crawled database of viral social media outliers exposed to AI agents. Search overperforming posts by query and platform, pull profile stats, generate transcripts, and crawl new profiles on demand, with no scraping infrastructure on your side.
+**Remote MCP server (Streamable HTTP, Bearer API key)** - a continuously-crawled database of viral social media outliers exposed to AI agents. Search overperforming posts by query and platform, pull profile stats, generate transcripts, and crawl new profiles on demand, with no scraping infrastructure on your side.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: Viral Outliers (viraloutliers.com)
 
 Finding what is actually working on social usually means opening each platform and scrolling. Viral Outliers replaces that with scored search: outlier posts ranked by how far they overperform their baseline, retrievable by query and platform filter in one call.
 
-**Content teams get the signal without the scroll.** Every capability exists as both a REST endpoint and an MCP tool, billed from one credit system, so an assistant can run the full loop — find the post, read its stats, transcribe it, compare profiles — inside one conversation.
+**Content teams get the signal without the scroll.** Every capability exists as both a REST endpoint and an MCP tool, billed from one credit system, so an assistant can run the full loop - find the post, read its stats, transcribe it, compare profiles - inside one conversation.
 
 ## Tools & Capabilities
 
@@ -41,7 +41,7 @@ Finding what is actually working on social usually means opening each platform a
 | Crawl a New Profile | 40 | On-demand TikTok, Instagram, YouTube profile crawl |
 | Check Job Status | Free | Poll async crawl/transcribe jobs |
 | Check Credit Balance | Free | Credit meter for the workspace |
-| Compare Profiles | — | Side-by-side creator comparison |
+| Compare Profiles | - | Side-by-side creator comparison |
 
 Async skills return a job reference you poll for free. The full REST contract is published in `openapi.json` and a machine-readable summary at `/llms.txt`.
 
@@ -78,14 +78,14 @@ Create an API key in Settings → API Keys. Subscriptions include monthly credit
 
 ## Integration with CorpusIQ
 
-Viral Outliers pairs with CorpusIQ's content stack: Postiz handles publishing and scheduling, while Viral Outliers feeds the research phase — which formats are overperforming, which creators to watch. A composed workflow searches outlier posts for a topic, transcribes the top hits, and hands a content brief to the publishing pipeline. The credit-metered, read-only posture matches CorpusIQ's read-only connector philosophy.
+Viral Outliers pairs with CorpusIQ's content stack: Postiz handles publishing and scheduling, while Viral Outliers feeds the research phase - which formats are overperforming, which creators to watch. A composed workflow searches outlier posts for a topic, transcribes the top hits, and hands a content brief to the publishing pipeline. The credit-metered, read-only posture matches CorpusIQ's read-only connector philosophy.
 
 ## Limitations
 
-- Commercial credit system — heavy transcription and crawling burn credits fast
+- Commercial credit system - heavy transcription and crawling burn credits fast
 - No self-host path
 - Coverage limited to TikTok, Instagram, and YouTube
-- Brand new — no track record yet
+- Brand new - no track record yet
 
 ## See Also
 

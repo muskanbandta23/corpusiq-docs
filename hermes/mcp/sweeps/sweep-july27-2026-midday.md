@@ -1,5 +1,5 @@
 ---
-title: MCP Server Sweep — July 27, 2026 (Mid-Day)
+title: MCP Server Sweep - July 27, 2026 (Mid-Day)
 description: "The morning sweep (10:05 UTC) processed mcpservers.org /all, mcpso issues up to #3319, and the awesome-mcp-servers PR queue. This mid-day sweep found:"
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july27-2026-midday/"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Server Sweep — July 27, 2026 (Mid-Day)
+# MCP Server Sweep - July 27, 2026 (Mid-Day)
 
 **Run:** 2026-07-27T18:05 UTC  
 **Sources checked:** mcpservers.org /all, chatmcp/mcpso issues, awesome-mcp-servers PR queue  
@@ -26,7 +26,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-## New Servers — Integration Guides Written (4)
+## New Servers - Integration Guides Written (4)
 
 ### MEDIUM Priority (4)
 | Server | Category | Transport | Auth | Repository |
@@ -38,10 +38,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-## New Servers — Listed Only (2)
+## New Servers - Listed Only (2)
 
-- **Polystrike** — Polymarket tweet counters, crypto betting (LOW — not business-relevant)
-- **Meltema Weather** — Multi-source weather forecasts, 5 tools (LOW — niche use case)
+- **Polystrike** - Polymarket tweet counters, crypto betting (LOW - not business-relevant)
+- **Meltema Weather** - Multi-source weather forecasts, 5 tools (LOW - niche use case)
 
 ---
 
@@ -49,15 +49,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 The morning sweep (10:05 UTC) processed mcpservers.org /all, mcpso issues up to #3319, and the awesome-mcp-servers PR queue. This mid-day sweep found:
 
-- **mcpservers.org /all refreshed** — 2 new servers appeared that weren't in the morning sweep (Outstand MCP, Index One)
-- **mcpso issues** — No new issues since #3319 (last processed in morning sweep)
-- **awesome-mcp-servers PR queue** — No new merged PRs
+- **mcpservers.org /all refreshed** - 2 new servers appeared that weren't in the morning sweep (Outstand MCP, Index One)
+- **mcpso issues** - No new issues since #3319 (last processed in morning sweep)
+- **awesome-mcp-servers PR queue** - No new merged PRs
 
 ## Source Health
 
 | Source | Status | Notes |
 |--------|--------|-------|
-| mcpservers.org /all | ✅ Healthy | Refreshed since morning — 2 new entries |
+| mcpservers.org /all | ✅ Healthy | Refreshed since morning - 2 new entries |
 | chatmcp/mcpso issues | ✅ Healthy | No new issues since morning sweep |
 | awesome-mcp-servers PR queue | ⚠️ Stale | No new merged PRs since morning |
 | mcp.so sitemap | ⏭️ Skipped | Sufficient coverage from other sources |

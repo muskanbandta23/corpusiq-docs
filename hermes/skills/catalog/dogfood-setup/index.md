@@ -1,5 +1,5 @@
 ---
-title: Dogfood — Setup Guide for Hermes Agents
+title: Dogfood - Setup Guide for Hermes Agents
 description: Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured reports. 4.9K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Dogfood — Setup Guide
+# Dogfood - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) (Official)
 **Skill:** `dogfood` · **Installs:** 4.9K+ · **Category:** QA / Testing
 **Platform:** Linux, macOS, Windows
 
-Dogfood is Nous Research's official skill for systematic exploratory QA testing of web applications. It guides Hermes agents through a structured 5-phase workflow — Plan, Explore, Interact, Edge Cases, Report — using the browser toolset to find bugs, capture screenshots as evidence, and produce structured bug reports.
+Dogfood is Nous Research's official skill for systematic exploratory QA testing of web applications. It guides Hermes agents through a structured 5-phase workflow - Plan, Explore, Interact, Edge Cases, Report - using the browser toolset to find bugs, capture screenshots as evidence, and produce structured bug reports.
 
 ## Installation
 
@@ -37,7 +37,7 @@ npx skills add nousresearch/hermes-agent@dogfood
 
 1. Create output directory: `dogfood-output/screenshots/`
 2. Identify testing scope from user input
-3. Build a sitemap — pages, features, flows to test:
+3. Build a sitemap - pages, features, flows to test:
    - Landing/home page
    - Navigation (header, footer, sidebar)
    - Key user flows (sign up, login, search, checkout)
@@ -49,9 +49,9 @@ npx skills add nousresearch/hermes-agent@dogfood
 For each page in your plan:
 
 1. **Navigate**: `browser_navigate(url="https://example.com/page")`
-2. **Snapshot**: `browser_snapshot()` — understand DOM structure
-3. **Console check**: `browser_console(clear=true)` — catch JS errors after every navigation and interaction. Silent JS errors are high-value findings.
-4. **Visual assessment**: `browser_vision(question="Describe the page layout, identify visual issues, broken elements, or accessibility concerns", annotate=true)` — `annotate=true` overlays numbered `[N]` labels on interactive elements. Each `[N]` maps to ref `@eN`.
+2. **Snapshot**: `browser_snapshot()` - understand DOM structure
+3. **Console check**: `browser_console(clear=true)` - catch JS errors after every navigation and interaction. Silent JS errors are high-value findings.
+4. **Visual assessment**: `browser_vision(question="Describe the page layout, identify visual issues, broken elements, or accessibility concerns", annotate=true)` - `annotate=true` overlays numbered `[N]` labels on interactive elements. Each `[N]` maps to ref `@eN`.
 
 ### Phase 3: Interact
 

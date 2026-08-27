@@ -1,6 +1,6 @@
 ---
-title: Memory Merger Setup — Agent Session Memory Consolidation
-description: Install and configure GitHub's memory-merger skill from awesome-copilot — merge and consolidate agent session memories across restarts.
+title: Memory Merger Setup - Agent Session Memory Consolidation
+description: Install and configure GitHub's memory-merger skill from awesome-copilot - merge and consolidate agent session memories across restarts.
 author: github/awesome-copilot
 repo: https://github.com/github/awesome-copilot
 stars: 36,652
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Source:** [github/awesome-copilot@memory-merger](https://skills.sh/github/awesome-copilot/memory-merger) (part of 36,652 ⭐ repo)
 **Category:** Agent Infrastructure / Memory
 
-Memory Merger is a community-contributed skill from GitHub's awesome-copilot repository that consolidates agent session memories. It merges fragmented memory entries from multiple sessions into a coherent, deduplicated knowledge base — preventing memory bloat and ensuring your agent's context stays clean and relevant.
+Memory Merger is a community-contributed skill from GitHub's awesome-copilot repository that consolidates agent session memories. It merges fragmented memory entries from multiple sessions into a coherent, deduplicated knowledge base - preventing memory bloat and ensuring your agent's context stays clean and relevant.
 
 ---
 
@@ -101,10 +101,10 @@ memory:
 | Memory Type | Merge Behavior |
 |---|---|
 | **User preferences** | Latest wins, old versions archived |
-| **Codebase facts** | Merged — duplicates removed, contradictions flagged |
-| **Session context** | Summarized — key decisions preserved, routine logs pruned |
+| **Codebase facts** | Merged - duplicates removed, contradictions flagged |
+| **Session context** | Summarized - key decisions preserved, routine logs pruned |
 | **Tool configurations** | Latest version kept, old configs archived with timestamp |
-| **Error patterns** | Consolidated — same error from different sessions merged into one entry with occurrence count |
+| **Error patterns** | Consolidated - same error from different sessions merged into one entry with occurrence count |
 
 ---
 
@@ -126,7 +126,7 @@ Agents that run for weeks accumulate massive context bloat:
 - Stale preferences lead to wrong behavior
 - Contradictory entries cause inconsistent decisions
 
-Memory Merger keeps your agent's memory lean, accurate, and efficient — reducing context window waste by 30-60% in long-running deployments.
+Memory Merger keeps your agent's memory lean, accurate, and efficient - reducing context window waste by 30-60% in long-running deployments.
 
 ---
 

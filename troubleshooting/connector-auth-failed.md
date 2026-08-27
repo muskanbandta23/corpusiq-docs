@@ -5,7 +5,7 @@ description: "You clicked Connect, the OAuth flow started, and then it failed. H
 # Connector authentication failed
 
 You clicked "Connect Shopify" (or any other connector). The browser
-bounced you to the vendor, you signed in, you approved — and CorpusIQ
+bounced you to the vendor, you signed in, you approved - and CorpusIQ
 came back with an error, or the connector status still shows as not
 connected.
 
@@ -26,7 +26,7 @@ account doesn't have permissions for the resource you're trying to read
 1. Open a new private/incognito browser window.
 2. Make sure you're signed into **only** the right account.
 3. Reconnect from CorpusIQ. The OAuth screen should clearly show which
-   account is about to be authorized — verify it before approving.
+   account is about to be authorized - verify it before approving.
 
 ## Cause 2: You denied or skipped a permission scope
 
@@ -41,7 +41,7 @@ empty results.
 **Fix:**
 1. Disconnect the connector from CorpusIQ.
 2. Reconnect. On the vendor consent screen, **leave every requested
-   scope checked**. CorpusIQ only asks for read scopes — there are no
+   scope checked**. CorpusIQ only asks for read scopes - there are no
    write scopes to worry about.
 
 ## Cause 3: The vendor blocked the OAuth request

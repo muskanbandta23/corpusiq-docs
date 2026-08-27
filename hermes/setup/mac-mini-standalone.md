@@ -15,7 +15,7 @@ The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders 
 
 ## Overview
 
-The Mac Mini M4's unified memory architecture (16–32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended [Hermes Agent setup](/hermes/setup/) platform for solo operators who want a single-box solution.
+The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended [Hermes Agent setup](/hermes/setup/) platform for solo operators who want a single-box solution.
 
 ## How It Works
 
@@ -164,7 +164,7 @@ Full details in the [memory architecture guide](/hermes/knowledge/).
 ## Benefits of Mac Mini M4 + Hermes Agent
 
 - **Single-box simplicity**: No worker nodes, no SSH, no multi-machine coordination
-- **Unified memory**: 16–32GB shared between CPU and GPU  --  ideal for local LLM inference
+- **Unified memory**: 16-32GB shared between CPU and GPU  --  ideal for local LLM inference
 - **Silent operation**: ~20W idle, ~40W under load  --  leave it running 24/7
 - **Native browser automation**: Playwright and patchright run directly on macOS
 - **Developer ecosystem**: Homebrew, Python, Node.js  --  everything just works
@@ -176,11 +176,11 @@ Full details in the [memory architecture guide](/hermes/knowledge/).
 |---|---|
 | Mac Mini M4 hardware | $599 (one-time) |
 | Ollama models | Free |
-| OpenRouter API | ~$5–20/month |
+| OpenRouter API | ~$5-20/month |
 | Honcho | Free tier available |
 | Electricity | ~$3/month at $0.15/kWh |
 
-**Total: ~$600 upfront, $10–25/month ongoing.**
+**Total: ~$600 upfront, $10-25/month ongoing.**
 
 ## FAQ
 
@@ -188,7 +188,7 @@ Full details in the [memory architecture guide](/hermes/knowledge/).
 The Mac Mini M4 offers silent operation, lower power consumption (~20W vs 150W+), unified memory architecture that's ideal for LLM inference, and native macOS support for all Hermes Agent features. A [gaming PC setup](gaming-pc.md) provides more raw GPU power but at higher cost, noise, and power draw.
 
 ### Can I use only local models on Mac Mini?
-Yes. With 16GB RAM you can comfortably run models up to ~8B parameters; with 24GB+ you can run 13B–14B models. For heavier workloads, supplement with cloud models via OpenRouter as a fallback.
+Yes. With 16GB RAM you can comfortably run models up to ~8B parameters; with 24GB+ you can run 13B-14B models. For heavier workloads, supplement with cloud models via OpenRouter as a fallback.
 
 ### How do I prevent my Mac Mini from sleeping?
 Use `caffeinate -dims &` from the terminal or go to System Settings → Battery → Options → Prevent automatic sleeping on power adapter.

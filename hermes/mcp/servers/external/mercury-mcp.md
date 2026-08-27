@@ -1,5 +1,5 @@
 ---
-title: "Mercury MCP — Business Banking Data for AI Agents"
+title: "Mercury MCP - Business Banking Data for AI Agents"
 description: "Official Mercury MCP server (beta) giving AI agents read-only access to accounts, transactions, balances, and cards via OAuth 2.0. Hosted at"
 category: mcp
 tags: [mcp-server, fintech, banking, mercury, official, finance, startup-operations]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Mercury MCP Server ★ Official (Beta) — New July 17
+# Mercury MCP Server ★ Official (Beta) - New July 17
 
-Mercury's official MCP server connects AI agents to your Mercury business banking data — accounts, transactions, balances, and cards — through a secure OAuth 2.0 flow. The hosted server at `https://mcp.mercury.com/mcp` supports Dynamic Client Registration (RFC 7591) so you can register clients without manual setup.
+Mercury's official MCP server connects AI agents to your Mercury business banking data - accounts, transactions, balances, and cards - through a secure OAuth 2.0 flow. The hosted server at `https://mcp.mercury.com/mcp` supports Dynamic Client Registration (RFC 7591) so you can register clients without manual setup.
 
 This is a landmark MCP server: Mercury is the first banking platform to ship an official MCP server, enabling AI agents to access financial data in a read-only, OAuth-secured model.
 
@@ -24,15 +24,15 @@ This is a landmark MCP server: Mercury is the first banking platform to ship an 
 
 ## What It Does
 
-- **Accounts** — list and view Mercury business accounts
-- **Transactions** — search and retrieve transaction history
-- **Balances** — check current balances across accounts
-- **Cards** — view Mercury debit/credit card information
-- **Read-only by design** — Mercury scoped the MCP to prevent unintended actions
+- **Accounts** - list and view Mercury business accounts
+- **Transactions** - search and retrieve transaction history
+- **Balances** - check current balances across accounts
+- **Cards** - view Mercury debit/credit card information
+- **Read-only by design** - Mercury scoped the MCP to prevent unintended actions
 
 ## Key Innovation: Banking Data Without Credential Exposure
 
-Mercury's MCP design mirrors the emerging enterprise pattern: the agent orchestrates financial queries while OAuth enforces the security boundary. Your Mercury login credentials are never shared with the AI tool — authentication happens through Mercury's OAuth flow.
+Mercury's MCP design mirrors the emerging enterprise pattern: the agent orchestrates financial queries while OAuth enforces the security boundary. Your Mercury login credentials are never shared with the AI tool - authentication happens through Mercury's OAuth flow.
 
 Sessions remain active for 3 days per chat thread, after which re-authentication is required.
 
@@ -43,7 +43,7 @@ Sessions remain active for 3 days per chat thread, after which re-authentication
 1. Open **Add Connectors** in Claude or **Apps & Connectors** in ChatGPT
 2. Create a new custom connection
 3. Add Mercury as a new MCP using URL: `https://mcp.mercury.com/mcp`
-4. Start a chat asking about Mercury data — OAuth login prompt appears
+4. Start a chat asking about Mercury data - OAuth login prompt appears
 5. Authenticate with your Mercury credentials
 
 ### Dynamic Client Registration (For App Developers)
@@ -78,7 +78,7 @@ You'll receive a `client_id` and `client_secret` for the standard OAuth authoriz
 
 1. **First banking MCP:** Mercury is the first financial institution to ship an official MCP server. This signals that regulated financial services are embracing the protocol.
 
-2. **Operator dashboard in AI:** Business operators can query account balances, recent transactions, and card activity directly from their AI workspace — no context-switching to Mercury's dashboard.
+2. **Operator dashboard in AI:** Business operators can query account balances, recent transactions, and card activity directly from their AI workspace - no context-switching to Mercury's dashboard.
 
 3. **Startup finance automation:** AI agents can monitor cash position, flag unusual transactions, and generate financial summaries without manual data entry or API integration work.
 
@@ -101,6 +101,6 @@ You'll receive a `client_id` and `client_secret` for the standard OAuth authoriz
 
 ## See Also
 
-- [Asana MCP](/hermes/mcp/servers/external/asana-mcp/) — project management MCP
-- [1Password MCP](/hermes/mcp/servers/external/1password-mcp/) — secrets management MCP
+- [Asana MCP](/hermes/mcp/servers/external/asana-mcp/) - project management MCP
+- [1Password MCP](/hermes/mcp/servers/external/1password-mcp/) - secrets management MCP
 - [External MCP Catalog](/hermes/mcp/servers/external/)

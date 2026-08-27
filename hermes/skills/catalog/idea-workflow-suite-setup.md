@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Idea Workflow Suite — Setup Guide
+title: Hermes Agent Idea Workflow Suite - Setup Guide
 description: Install and configure the complete idea-to-build pipeline for Hermes Agent. Turn rough ideas into design docs, UI briefs, and implementation plans with 4 chained skills from akoliteza/hermes-agent-idea-workflow (235⭐).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/idea-workflow-suite-setup/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 # Hermes Agent Idea Workflow Suite
 
 **Repo:** [AkoliteZA/hermes-agent-idea-workflow](https://github.com/AkoliteZA/hermes-agent-idea-workflow)  
-**Stars:** 235 · **Skills:** 4 · **Installs:** 27–40 each
+**Stars:** 235 · **Skills:** 4 · **Installs:** 27-40 each
 
-The Idea Workflow Suite is a pre-build product/spec pipeline for Hermes Agent. Four skills chain together to turn rough ideas into design docs, UI briefs, and implementation plans — producing structured Markdown artifacts at each stage.
+The Idea Workflow Suite is a pre-build product/spec pipeline for Hermes Agent. Four skills chain together to turn rough ideas into design docs, UI briefs, and implementation plans - producing structured Markdown artifacts at each stage.
 
 ## Pipeline Overview
 
@@ -96,28 +96,28 @@ The `idea-superpowers-suite` orchestrator will:
 
 ### Stage-by-Stage Usage
 
-**Stage 1 — Design Doc (`idea-to-design-doc`):**
+**Stage 1 - Design Doc (`idea-to-design-doc`):**
 ```
 "Turn this idea into a design doc: a dashboard that aggregates
 Shopify, Stripe, and GA4 data into one view for operators."
 ```
 Triggers when you mention "design doc," "product spec," or "flesh out this idea."
 
-**Stage 2 — UI Brief (`idea-to-ui-design-brief`):**
+**Stage 2 - UI Brief (`idea-to-ui-design-brief`):**
 ```
 "Take this design doc and create a UI brief. Include image-generation
 prompts for the dashboard mockup."
 ```
 Triggers on "UI brief," "design brief," "mockup," or when a design doc is ready.
 
-**Stage 3 — Implementation Plan (`idea-to-implementation-doc`):**
+**Stage 3 - Implementation Plan (`idea-to-implementation-doc`):**
 ```
 "Review this design doc, research similar products, and create an
 implementation roadmap with technical milestones."
 ```
 Triggers on "implementation plan," "roadmap," "technical spec," or "how to build."
 
-**Stage 4 — Orchestrator (`idea-superpowers-suite`):**
+**Stage 4 - Orchestrator (`idea-superpowers-suite`):**
 ```
 "Run the full idea workflow: I want to build a business intelligence
 tool for e-commerce operators."
@@ -147,7 +147,7 @@ Each stage produces structured Markdown files:
 
 ## Capabilities
 
-- **Guided Ideation:** Each stage asks clarifying questions before producing output — no vague one-shot generation
+- **Guided Ideation:** Each stage asks clarifying questions before producing output - no vague one-shot generation
 - **Competitive Research:** The implementation stage researches similar products as context
 - **AI Image Prompts:** The UI brief stage generates image-generation prompts for mockups
 - **Build-Ready Output:** Implementation plans include file structure, API contracts, and milestone timelines
@@ -160,14 +160,14 @@ Each stage produces structured Markdown files:
 | Skill not triggering | Verify with `hermes skills list --marketplace`. The skill activates on keywords like "design doc," "implementation plan," or "idea workflow." |
 | Pipeline stops mid-way | Run individual stages manually. The orchestrator chains them but individual stages work standalone. |
 | Missing tools | Requires `terminal`, `web_extract`, and `write_file`. Verify these are available in your Hermes config. |
-| Output quality | The skills use guided questions — answer them thoroughly for best results. Vague inputs produce vague outputs. |
+| Output quality | The skills use guided questions - answer them thoroughly for best results. Vague inputs produce vague outputs. |
 
 ## Related Skills
 
-- `writing-plans` — General-purpose plan writing (bundled with Hermes Agent)
-- `superpowers:writing-plans` — Superpowers variant with enhanced structure
-- `codex` — Delegate implementation to OpenAI Codex CLI after the spec is complete
-- `blueprint-orchestration` — Multi-agent orchestration for larger projects
+- `writing-plans` - General-purpose plan writing (bundled with Hermes Agent)
+- `superpowers:writing-plans` - Superpowers variant with enhanced structure
+- `codex` - Delegate implementation to OpenAI Codex CLI after the spec is complete
+- `blueprint-orchestration` - Multi-agent orchestration for larger projects
 
 ---
 

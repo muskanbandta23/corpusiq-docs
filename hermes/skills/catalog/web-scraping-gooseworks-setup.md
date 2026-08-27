@@ -1,5 +1,5 @@
 ---
-title: "Web Scraping (Gooseworks) — Multi-engine scraping for"
+title: "Web Scraping (Gooseworks) - Multi-engine scraping for"
 description: Scrape websites, extract structured data, and automate browsers via Scrapegraph, Olostep, Riveter, Brand.dev, and Notte. 35+ installs from gooseworks-ai.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-scraping-gooseworks-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Web Scraping (Gooseworks) — Setup Guide
+# Web Scraping (Gooseworks) - Setup Guide
 
 **Source:** [gooseworks-ai/goose-skills](https://skills.sh/gooseworks-ai/goose-skills/web-scraping) (35+ installs)
 **Category:** Engineering / Data Extraction
@@ -38,19 +38,19 @@ npx skills add gooseworks-ai/goose-skills --skill web-scraping
 
 ## Key Capabilities
 
-### Scrapegraph — AI-Powered Scraping
+### Scrapegraph - AI-Powered Scraping
 Natural language extraction with optional output schemas. Convert pages to markdown, crawl with AI extraction, search + scrape. Supports stealth mode for bot protection, JS rendering for SPAs, and pagination up to 100 pages.
 
-### Olostep — Scalable Batch Processing
+### Olostep - Scalable Batch Processing
 High-volume scraping, batch jobs, site crawling, URL discovery, and AI-powered answers from pages. Supports country-specific scraping, page interactions, and CSS selector removal.
 
-### Riveter — Structured Schema Extraction
+### Riveter - Structured Schema Extraction
 Define exact output schemas with field-level prompts and formats (number, JSON, URL, text, email, tag, date, boolean). Multi-URL extraction with chained tool calls (web_search, web_scrape, query_pdf, query_image).
 
-### Brand.dev — Brand Asset Extraction
+### Brand.dev - Brand Asset Extraction
 Extract logos, colors, fonts, design systems, and screenshots from any domain. AI-powered data extraction by company name, email, or ticker symbol.
 
-### Notte — Browser Automation
+### Notte - Browser Automation
 Session-based scraping with CAPTCHA solving, proxy rotation, and autonomous AI agents for multi-step browser tasks.
 
 ---
@@ -96,9 +96,9 @@ curl -s -X POST "https://api.gooseworks.ai/v1/proxy/orthogonal/search" \
 
 ## Notes
 
-- Five specialized engines under one API gateway — pick the right tool for each task
+- Five specialized engines under one API gateway - pick the right tool for each task
 - Scrapegraph is go-to for natural language extraction; Olostep for batch/volume; Riveter for structured data; Brand.dev for logos/branding; Notte for browser-heavy pages
 - Supports CAPTCHA solving and proxy rotation (Notte, Scrapegraph stealth mode)
-- All engines support async operations — start jobs, poll for results
+- All engines support async operations - start jobs, poll for results
 - `npx gooseworks login` to set up credentials if `~/.gooseworks/credentials.json` doesn't exist
 - Quality tier 🔵 Community: 35 installs, newer but comprehensive

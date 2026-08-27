@@ -19,8 +19,8 @@ Cosmos DB is often where the unglamorous-but-critical data lives: event logs, te
 3. <!-- screenshot: Cosmos DB connection form in CorpusIQ -->
 4. Enter your endpoint (e.g. `https://yourdb.documents.azure.com:443/`), database name, and container name.
 5. Choose your auth method:
-   - **Key** — paste the primary key from the Azure portal → Keys.
-   - **AAD** — paste the user principal and tenant ID; the service account must have the Cosmos DB Data Reader role on the database.
+   - **Key** - paste the primary key from the Azure portal → Keys.
+   - **AAD** - paste the user principal and tenant ID; the service account must have the Cosmos DB Data Reader role on the database.
 6. Click Save.
 
 You'll see Cosmos DB change from gray to green in your CorpusIQ dashboard.
@@ -43,9 +43,9 @@ CorpusIQ never inserts, updates, or deletes documents.
 - "Is my Cosmos connection healthy?"
 
 ## Troubleshooting
-- **"401 Unauthorized"** — Key is wrong or expired. Get a fresh primary key from Azure portal → Cosmos DB account → Keys.
-- **AAD auth fails** — The principal must hold the Cosmos DB Built-in Data Reader role (not just RBAC on the account).
-- **Cross-partition errors** — Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
+- **"401 Unauthorized"** - Key is wrong or expired. Get a fresh primary key from Azure portal → Cosmos DB account → Keys.
+- **AAD auth fails** - The principal must hold the Cosmos DB Built-in Data Reader role (not just RBAC on the account).
+- **Cross-partition errors** - Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
 ---
 
 *

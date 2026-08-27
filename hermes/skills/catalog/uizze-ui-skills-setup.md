@@ -1,6 +1,6 @@
 ---
-title: "Uizze UI Skills — Anti-UI-Slop Design Quality Setup"
-description: Install the uizze.com UI quality skills (394.7K combined installs) — anti-ui-slop (260.5K), ui-radar (132K), ui-design, and ui-slop-score for detecting and fixing AI-generated interface slop.
+title: "Uizze UI Skills - Anti-UI-Slop Design Quality Setup"
+description: Install the uizze.com UI quality skills (394.7K combined installs) - anti-ui-slop (260.5K), ui-radar (132K), ui-design, and ui-slop-score for detecting and fixing AI-generated interface slop.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/uizze-ui-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Uizze UI Skills — Setup Guide
+# Uizze UI Skills - Setup Guide
 
 **Source:** [uizze.com](https://www.skills.sh/site/uizze.com) (5 skills · 394.7K combined installs)
 **Site:** [uizze.com](https://uizze.com/)
@@ -16,14 +16,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 12, 2026
 **Quality Tier:** 🟢 Production (`anti-ui-slop` at 260.5K installs)
 
-Uizze's skills attack a specific problem: "UI slop" — the generic, samey, gradient-and-glassmorphism interfaces that AI coding agents default to. `anti-ui-slop` is the flagship at 260.5K installs, joined by `ui-radar` (132K) which scans and scores existing interfaces. Together they form a design-quality gate for anything an agent builds.
+Uizze's skills attack a specific problem: "UI slop" - the generic, samey, gradient-and-glassmorphism interfaces that AI coding agents default to. `anti-ui-slop` is the flagship at 260.5K installs, joined by `ui-radar` (132K) which scans and scores existing interfaces. Together they form a design-quality gate for anything an agent builds.
 
 ---
 
 ## Installation
 
 ```bash
-# Site registry listing — install by skill
+# Site registry listing - install by skill
 npx skills add https://skills.sh/site/uizze.com --skill anti-ui-slop
 npx skills add https://skills.sh/site/uizze.com --skill ui-radar
 ```
@@ -50,7 +50,7 @@ If the CLI rejects site-registry sources, clone the skill definitions directly f
 |---|---|
 | Node.js + npx | For the skills.sh CLI install path |
 | A UI to build or audit | Works on code or live URLs |
-| Any agent runtime | Pure procedural knowledge — no API keys |
+| Any agent runtime | Pure procedural knowledge - no API keys |
 
 ---
 
@@ -67,7 +67,7 @@ If the CLI rejects site-registry sources, clone the skill definitions directly f
 
 ## Limitations / Verification
 
-- Site-registry publisher (no GitHub repo) — install path depends on skills.sh CLI support for site sources
+- Site-registry publisher (no GitHub repo) - install path depends on skills.sh CLI support for site sources
 - `anti-ai-ui-slop` at 3 installs is experimental
 - Verify install: `npx skills list | grep -i slop`
 

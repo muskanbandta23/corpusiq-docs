@@ -1,5 +1,5 @@
 ---
-title: "Nexly Analytics MCP — Integration Guide"
+title: "Nexly Analytics MCP - Integration Guide"
 description: "Connect AI tools to Nexly product analytics via MCP. Read-only access to traffic, funnels, reports, and anomalies. OAuth 2.0. Streamable HTTP."
 category: mcp
 tags: [mcp-server, analytics, nexly, product-analytics, read-only]
@@ -20,26 +20,26 @@ robots: "index,follow"
 
 ## Overview
 
-Nexly provides a hosted MCP server that lets AI tools like Claude, Cursor, and Codex securely read your Nexly analytics — traffic, reports, funnels, and property details — directly inside the chat or editor. There is nothing to install and no tokens to copy: you connect with OAuth and authorize access with your Nexly account.
+Nexly provides a hosted MCP server that lets AI tools like Claude, Cursor, and Codex securely read your Nexly analytics - traffic, reports, funnels, and property details - directly inside the chat or editor. There is nothing to install and no tokens to copy: you connect with OAuth and authorize access with your Nexly account.
 
-Access is **read-only** — connected tools can query analytics but can never change anything in your account.
+Access is **read-only** - connected tools can query analytics but can never change anything in your account.
 
 ## What You Can Do
 
-- **Query traffic analytics** — Ask AI assistants about visitor counts, page views, and traffic sources
-- **Pull funnel data** — Get conversion rates and drop-off points for marketing funnels
-- **Read reports** — Access saved reports and their data
-- **Monitor anomalies** — Query anomaly detection results
-- **AI-traffic insights** — Access AI-generated traffic insights
-- **Property details** — Retrieve site/property configuration
+- **Query traffic analytics** - Ask AI assistants about visitor counts, page views, and traffic sources
+- **Pull funnel data** - Get conversion rates and drop-off points for marketing funnels
+- **Read reports** - Access saved reports and their data
+- **Monitor anomalies** - Query anomaly detection results
+- **AI-traffic insights** - Access AI-generated traffic insights
+- **Property details** - Retrieve site/property configuration
 
 ## Use Cases for Business Operators
 
-1. **"How's our traffic today?"** — Ask your AI assistant instead of logging into a dashboard.
-2. **Funnel debugging** — "Where are users dropping off in the signup funnel this week?"
-3. **Anomaly detection** — "Did anything unusual happen with our traffic yesterday?"
-4. **Meeting prep** — Pull traffic stats, top pages, and conversion data into a pre-meeting briefing.
-5. **Cross-tool analysis** — Combine Nexly analytics with Stripe revenue, Shopify orders, or HubSpot leads through multi-source MCP queries.
+1. **"How's our traffic today?"** - Ask your AI assistant instead of logging into a dashboard.
+2. **Funnel debugging** - "Where are users dropping off in the signup funnel this week?"
+3. **Anomaly detection** - "Did anything unusual happen with our traffic yesterday?"
+4. **Meeting prep** - Pull traffic stats, top pages, and conversion data into a pre-meeting briefing.
+5. **Cross-tool analysis** - Combine Nexly analytics with Stripe revenue, Shopify orders, or HubSpot leads through multi-source MCP queries.
 
 ## Before You Connect
 
@@ -100,32 +100,32 @@ Then run `codex mcp login nexly` to authorize.
 
 ### Option 4: Any MCP Client
 
-Add the endpoint URL `https://api.nexly.to/mcp` to your MCP client's configuration. Nexly uses standard OAuth 2.0 with Streamable HTTP — supported by all major MCP clients.
+Add the endpoint URL `https://api.nexly.to/mcp` to your MCP client's configuration. Nexly uses standard OAuth 2.0 with Streamable HTTP - supported by all major MCP clients.
 
 ## Security Model
 
-- **OAuth 2.0** — Standard secure authentication
-- **Read-only** — Connected tools can query analytics but never modify your account
-- **No API tokens needed** — OAuth flow handles authentication without copying secrets
-- **Revocable** — Disconnect from Nexly or your MCP client at any time
+- **OAuth 2.0** - Standard secure authentication
+- **Read-only** - Connected tools can query analytics but never modify your account
+- **No API tokens needed** - OAuth flow handles authentication without copying secrets
+- **Revocable** - Disconnect from Nexly or your MCP client at any time
 
 ## Available Tools
 
 Nexly exposes tools for:
-- **Analytics** — Traffic, page views, sources, visitor data
-- **Reports** — Saved reports and report data
-- **Funnels** — Conversion funnels and drop-off analysis
-- **Properties** — Site and property configuration
-- **Anomalies** — Anomaly detection results
-- **AI Insights** — AI-generated traffic insights
+- **Analytics** - Traffic, page views, sources, visitor data
+- **Reports** - Saved reports and report data
+- **Funnels** - Conversion funnels and drop-off analysis
+- **Properties** - Site and property configuration
+- **Anomalies** - Anomaly detection results
+- **AI Insights** - AI-generated traffic insights
 
 All tools are read-only and respect your Nexly plan's data access level.
 
 ## Limitations
 
-- **Read-only** — No configuration changes, event creation, or property management via MCP
-- **OAuth only** — API tokens (`nxp_…`) cannot be used for MCP connections
-- **Plan-dependent** — Available data depends on your Nexly plan tier
+- **Read-only** - No configuration changes, event creation, or property management via MCP
+- **OAuth only** - API tokens (`nxp_…`) cannot be used for MCP connections
+- **Plan-dependent** - Available data depends on your Nexly plan tier
 
 ## Comparison with Other Analytics MCP Servers
 

@@ -1,6 +1,6 @@
 ---
-title: "Hermes Hybrid Memory — Full Setup Guide"
-description: "Install and configure the Hybrid Memory plugin for Hermes Agent — graph + vector + holographic memory in one SQLite file with Hofstadter-inspired analogy"
+title: "Hermes Hybrid Memory - Full Setup Guide"
+description: "Install and configure the Hybrid Memory plugin for Hermes Agent - graph + vector + holographic memory in one SQLite file with Hofstadter-inspired analogy"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-hybrid-memory-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Hybrid Memory — Setup Guide
+# Hermes Hybrid Memory - Setup Guide
 
 **Repo:** [sheldon904/hermes-hybrid-memory](https://github.com/sheldon904/hermes-hybrid-memory)
 **Author:** sheldon904
@@ -182,7 +182,7 @@ The brain visualization is a self-contained HTML file showing:
 ## Key Mechanisms
 
 ### Analogy Slot
-The Hofstadter-inspired analogy mechanism finds memories that are **structurally similar but superficially different**. Example: "Which of our leads looks most like our best client?" — the system matches on relationship patterns (lead→discovery→trial→purchase) rather than surface text similarity.
+The Hofstadter-inspired analogy mechanism finds memories that are **structurally similar but superficially different**. Example: "Which of our leads looks most like our best client?" - the system matches on relationship patterns (lead→discovery→trial→purchase) rather than surface text similarity.
 
 ### Emergent Chunking
 After every ~50 facts, the system looks for patterns that can be compressed into reusable categories. A chunk is a named concept that replaces the raw facts it subsumes, saving retrieval cost and improving recall quality.

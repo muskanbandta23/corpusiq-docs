@@ -1,5 +1,5 @@
 ---
-title: "Fund Momentum MCP — VC Intelligence for AI Assistants"
+title: "Fund Momentum MCP - VC Intelligence for AI Assistants"
 server: fund-momentum-mcp
 rating: ★★
 category: Finance / Fundraising
@@ -15,7 +15,7 @@ description: "Fund Momentum MCP gives AI assistants access to a database of 920+
 
 ---
 
-# Fund Momentum MCP — Integration Guide
+# Fund Momentum MCP - Integration Guide
 
 ## Overview
 
@@ -53,12 +53,12 @@ Fund Momentum is a remote MCP server. Add to your MCP client:
 
 ## Tools
 
-Exact tools TBD — server uses PostgREST-generated endpoints. Expected capabilities:
+Exact tools TBD - server uses PostgREST-generated endpoints. Expected capabilities:
 
 | Tool | Description |
 |------|-------------|
 | `search_funds` | Search 920+ VC funds by sector, stage, geography, check size |
-| `get_investor_signals` | Live deployment signals — who's actively writing checks |
+| `get_investor_signals` | Live deployment signals - who's actively writing checks |
 | `match_startup` | AI-powered matching of a startup profile against active funds |
 | `get_fund_profile` | Detailed fund profile: partners, portfolio, thesis, check size |
 
@@ -81,18 +81,18 @@ Exact tools TBD — server uses PostgREST-generated endpoints. Expected capabili
 
 ## Limitations
 
-- **VC-only** — no angel investors, no debt financing, no grants
-- **920 funds** — solid but not comprehensive (vs. CrunchBase's 50K+)
-- **Paid** — API key required, pricing details on website
-- **US/EU focus** — unclear coverage of emerging market VCs
-- **Startup matching quality unknown** — AI matching is only as good as the data
+- **VC-only** - no angel investors, no debt financing, no grants
+- **920 funds** - solid but not comprehensive (vs. CrunchBase's 50K+)
+- **Paid** - API key required, pricing details on website
+- **US/EU focus** - unclear coverage of emerging market VCs
+- **Startup matching quality unknown** - AI matching is only as good as the data
 
 ## Verdict
 
-★★ — **Valuable for founders actively fundraising.** Fund Momentum fills a gap — there's no other VC intelligence MCP server. For operators raising a round, this saves hours of manual investor research. For operators not currently fundraising, the utility is limited. Pair with akta.pro (company intelligence) for a complete due-diligence stack: Fund Momentum for VC/investor intelligence, akta.pro for company-level data.
+★★ - **Valuable for founders actively fundraising.** Fund Momentum fills a gap - there's no other VC intelligence MCP server. For operators raising a round, this saves hours of manual investor research. For operators not currently fundraising, the utility is limited. Pair with akta.pro (company intelligence) for a complete due-diligence stack: Fund Momentum for VC/investor intelligence, akta.pro for company-level data.
 
 ## Related MCP Servers in Catalog
 
-- **akta.pro** — Private company intelligence, headcount, web traffic (★★, catalogued Aug 10 morning)
-- **Competitor Tracker & Co.** — Agentic competitor intelligence (★★★, catalogued Aug 10 morning)
-- **Pangolinfo MCP** — Amazon data + IP compliance tools (★★)
+- **akta.pro** - Private company intelligence, headcount, web traffic (★★, catalogued Aug 10 morning)
+- **Competitor Tracker & Co.** - Agentic competitor intelligence (★★★, catalogued Aug 10 morning)
+- **Pangolinfo MCP** - Amazon data + IP compliance tools (★★)

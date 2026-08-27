@@ -1,13 +1,13 @@
 ---
-title: RKnall Claude Skills — SVG Logo & GitLab Stack Setup
-description: "rknall/claude-skills — 10 skills, 8.5K installs: SVG Logo Designer (6.2K), Python backend architecture review, web design builder, Docker validator, and a GitLab stack generator/validator/secrets-manager series."
+title: RKnall Claude Skills - SVG Logo & GitLab Stack Setup
+description: "rknall/claude-skills - 10 skills, 8.5K installs: SVG Logo Designer (6.2K), Python backend architecture review, web design builder, Docker validator, and a GitLab stack generator/validator/secrets-manager series."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rknall-claude-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "svg", "logo design", "gitlab", "docker", "backend review"]
 ---
 
-# RKnall Claude Skills — Setup Guide
+# RKnall Claude Skills - Setup Guide
 
 **Source:** [rknall/claude-skills](https://skills.sh/rknall/claude-skills)
 **GitHub:** [rknall/claude-skills](https://github.com/rknall/claude-skills)
@@ -64,7 +64,7 @@ npx skills add rknall/claude-skills
 ## Limitations / Verification
 
 - Mixed-focus suite; the GitLab series is niche to GitLab users
-- UI/UX Design Review shows 0 installs — unvalidated
+- UI/UX Design Review shows 0 installs - unvalidated
 - Install counts verified on publisher page
 
 ```bash

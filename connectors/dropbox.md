@@ -1,11 +1,11 @@
 ---
 title: "Dropbox - CorpusIQ Docs - CorpusIQ"
-description: "A lot of operating context — contracts, past board updates, vendor invoices, design files — lives in Dropbox folders. Connecting Dropbox lets CorpusIQ."
+description: "A lot of operating context - contracts, past board updates, vendor invoices, design files - lives in Dropbox folders. Connecting Dropbox lets CorpusIQ."
 ---
 # Dropbox
 
 ## What it unlocks
-A lot of operating context — contracts, past board updates, vendor invoices, design files — lives in Dropbox folders. Connecting Dropbox lets CorpusIQ search and read those documents so they can show up in answers alongside live data from your other tools.
+A lot of operating context - contracts, past board updates, vendor invoices, design files - lives in Dropbox folders. Connecting Dropbox lets CorpusIQ search and read those documents so they can show up in answers alongside live data from your other tools.
 
 ## Before you connect
 - A Dropbox account (personal or Business)
@@ -37,9 +37,9 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 - "Show me Dropbox files I've touched in the last week."
 
 ## Troubleshooting
-- **"Token expired"** — Disconnect and reconnect from Dashboard → Connectors.
-- **Can't find a file** — Search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes and try again.
-- **PDF reads blank** — Image-only PDFs need OCR; CorpusIQ only reads embedded text.
+- **"Token expired"** - Disconnect and reconnect from Dashboard → Connectors.
+- **Can't find a file** - Search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes and try again.
+- **PDF reads blank** - Image-only PDFs need OCR; CorpusIQ only reads embedded text.
 ---
 
 *

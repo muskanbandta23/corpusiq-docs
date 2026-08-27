@@ -1,6 +1,6 @@
 ---
-title: "PLUR MCP — Persistent Memory for AI Agents"
-description: "Open, local-first memory for AI agents. Store corrections, preferences, and conventions as plain-text engrams on your own machine — memory you can read"
+title: "PLUR MCP - Persistent Memory for AI Agents"
+description: "Open, local-first memory for AI agents. Store corrections, preferences, and conventions as plain-text engrams on your own machine - memory you can read"
 category: mcp
 tags: [mcp, memory, knowledge, agent-memory, local-first, plur, hermes-agent]
 github: https://github.com/plur-ai/plur
@@ -15,19 +15,19 @@ last_updated: "2026-08-12"
 
 ---
 
-# PLUR MCP — Persistent Memory for AI Agents
+# PLUR MCP - Persistent Memory for AI Agents
 
-**PLUR** solves the amnesia problem: AI agents start every session with amnesia — you re-explain the project, repeat your preferences, and correct the same mistakes over and over. PLUR gives them a memory that persists.
+**PLUR** solves the amnesia problem: AI agents start every session with amnesia - you re-explain the project, repeat your preferences, and correct the same mistakes over and over. PLUR gives them a memory that persists.
 
-It's open, local-first memory for AI agents. Your agent's corrections, preferences, and conventions are stored as plain-text engrams on your own machine — memory you can read, correct, and carry across sessions without vendor lock-in.
+It's open, local-first memory for AI agents. Your agent's corrections, preferences, and conventions are stored as plain-text engrams on your own machine - memory you can read, correct, and carry across sessions without vendor lock-in.
 
 ## What It Does
 
 - **Persistent agent memory**: Corrections, preferences, and conventions survive across sessions
-- **Local-first**: All engrams stored as plain-text files on your machine — no cloud dependency
+- **Local-first**: All engrams stored as plain-text files on your machine - no cloud dependency
 - **Open source (MIT)**: Full transparency, no vendor lock-in
 - **Multi-agent aware**: One memory store for all your MCP-compatible agents
-- **Human-readable**: Engrams are plain text — you can read, edit, and prune them directly
+- **Human-readable**: Engrams are plain text - you can read, edit, and prune them directly
 
 ## Key Tools
 
@@ -106,14 +106,14 @@ PLUR differentiates by being: (1) fully local, (2) plain-text readable, (3) MIT 
 
 ## Limitations
 
-- **No cloud sync (yet)**: Engrams are local — share via git, rsync, or your own sync solution
+- **No cloud sync (yet)**: Engrams are local - share via git, rsync, or your own sync solution
 - **New project**: Early-stage, API may evolve
 - **Text-only**: No structured data or multimodal memory (yet)
-- **Local setup required**: Must install Node.js and clone the repo — no hosted version
+- **Local setup required**: Must install Node.js and clone the repo - no hosted version
 
 ## Category
 
-**Memory & Knowledge** — PLUR focuses specifically on agent corrections and preferences, making it complementary to general documentation tools like Context7 and company-state feeds like Groundwork.
+**Memory & Knowledge** - PLUR focuses specifically on agent corrections and preferences, making it complementary to general documentation tools like Context7 and company-state feeds like Groundwork.
 
 ---
 

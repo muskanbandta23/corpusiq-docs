@@ -1,6 +1,6 @@
 ---
 title: Google Ads MCP Server Integration Guide
-description: AI-powered Google Ads campaign management — create, monitor, and optimize campaigns, ad groups, keywords, and budgets directly from Hermes Agent.
+description: AI-powered Google Ads campaign management - create, monitor, and optimize campaigns, ad groups, keywords, and budgets directly from Hermes Agent.
 category: mcp
 tags: [mcp, google-ads, advertising, ppc, campaigns, marketing, sem, hermes-agent]
 last_updated: 2026-07-21
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# Google Ads MCP — Ad Campaign Management for Hermes Agent
+# Google Ads MCP - Ad Campaign Management for Hermes Agent
 
-Google Ads MCP gives your AI agent direct access to Google Ads campaign management. Create campaigns, adjust bids, pull performance reports, and monitor budgets — all through natural language commands to your agent.
+Google Ads MCP gives your AI agent direct access to Google Ads campaign management. Create campaigns, adjust bids, pull performance reports, and monitor budgets - all through natural language commands to your agent.
 
 ## What It Does
 
 Google Ads MCP connects your agent to the Google Ads API:
 
-- **Campaign management** — Create, update, pause, and list campaigns
-- **Ad group operations** — Manage ad groups within campaigns
-- **Keyword management** — Add, update, and monitor keyword performance
-- **Budget tracking** — Monitor spend, set budgets, and get alerts on overruns
-- **Performance reports** — Pull campaign metrics (impressions, clicks, conversions, CPA, ROAS)
+- **Campaign management** - Create, update, pause, and list campaigns
+- **Ad group operations** - Manage ad groups within campaigns
+- **Keyword management** - Add, update, and monitor keyword performance
+- **Budget tracking** - Monitor spend, set budgets, and get alerts on overruns
+- **Performance reports** - Pull campaign metrics (impressions, clicks, conversions, CPA, ROAS)
 
 ## Quick Setup
 
@@ -30,7 +30,7 @@ Google Ads MCP connects your agent to the Google Ads API:
 - **Developer token** from Google Ads API center
 - **OAuth2 credentials** (client ID + client secret) from Google Cloud Console
 - **Customer ID** (the 10-digit Google Ads account number)
-- **Rust toolchain** (this MCP is written in Rust — `cargo build`)
+- **Rust toolchain** (this MCP is written in Rust - `cargo build`)
 
 ### Add to Hermes Agent
 
@@ -119,7 +119,7 @@ Google Ads MCP + CorpusIQ = complete marketing operations:
 3. **CorpusIQ Search Console connector** → align paid + organic keyword strategy
 4. **AI agent** → cross-reference ad performance with CRM pipeline data
 
-This gives you a marketing command center where your agent monitors all paid channels, rebalances budgets, and catches wasted spend — before it burns through your monthly ad budget.
+This gives you a marketing command center where your agent monitors all paid channels, rebalances budgets, and catches wasted spend - before it burns through your monthly ad budget.
 
 ## Pricing
 
@@ -132,7 +132,7 @@ This gives you a marketing command center where your agent monitors all paid cha
 - Developer token requires application approval from Google (standard level sufficient for most)
 - OAuth2 refresh token must be generated via playground or app
 - Google Ads API has daily quota limits (typically 10,000-15,000 operations/day for basic access)
-- Rust build required — `cargo` toolchain must be installed
+- Rust build required - `cargo` toolchain must be installed
 - Performance Max campaign management is limited vs Search campaigns
 
 ---

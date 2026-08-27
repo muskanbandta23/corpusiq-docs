@@ -1,6 +1,6 @@
 ---
-title: OpusGrowth MCP — Ad Platform Connector
-description: Hosted MCP connector for Google Ads, Microsoft Advertising, TikTok Ads, and LinkedIn Ads — 233 tools with write-action approval gates
+title: OpusGrowth MCP - Ad Platform Connector
+description: Hosted MCP connector for Google Ads, Microsoft Advertising, TikTok Ads, and LinkedIn Ads - 233 tools with write-action approval gates
 severity: ★★★ (high business value)
 source: mcpservers.org · GitHub
 created: 2026-07-25
@@ -12,13 +12,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# OpusGrowth MCP — Ad Platform Connector
+# OpusGrowth MCP - Ad Platform Connector
 
 ## Overview
 
 OpusGrowth MCP is a hosted MCP connector that brings Google Ads, Microsoft Advertising, TikTok Ads, and LinkedIn Ads under a single agent-native interface. With 233 tools and real write actions (protected by approval gates), it lets AI agents manage paid campaigns across all four major ad platforms from Claude, ChatGPT, or any MCP-compatible client.
 
-**Why it matters for operators:** Ad spend management is one of the highest-ROI use cases for AI agents. Instead of logging into 4 different dashboards, an operator can describe a budget reallocation or bid adjustment in natural language and have the agent execute it — with approval gates keeping a human in the loop for spend decisions.
+**Why it matters for operators:** Ad spend management is one of the highest-ROI use cases for AI agents. Instead of logging into 4 different dashboards, an operator can describe a budget reallocation or bid adjustment in natural language and have the agent execute it - with approval gates keeping a human in the loop for spend decisions.
 
 | Detail | Value |
 |--------|-------|
@@ -69,7 +69,7 @@ Built specifically for MCP clients (Claude, ChatGPT, Cursor, etc.) rather than r
 }
 ```
 
-1. Sign up at [opusgrowth.com](https://opusgrowth.com) (pre-launch — join waitlist)
+1. Sign up at [opusgrowth.com](https://opusgrowth.com) (pre-launch - join waitlist)
 2. Connect your ad platform accounts via OAuth
 3. Add the MCP endpoint to your agent config
 4. Start with read-only queries to verify data access
@@ -95,6 +95,6 @@ Built specifically for MCP clients (Claude, ChatGPT, Cursor, etc.) rather than r
 
 ## See Also
 
-- [[hermes/mcp/servers/external/google-ads-mcp]] — Google Ads MCP (individual platform)
-- [[hermes/mcp/servers/external/gainium-mcp]] — Gainium trading MCP (finance)
-- [[hermes/mcp/servers/external/capital-com-mcp]] — Capital.com trading MCP
+- [[hermes/mcp/servers/external/google-ads-mcp]] - Google Ads MCP (individual platform)
+- [[hermes/mcp/servers/external/gainium-mcp]] - Gainium trading MCP (finance)
+- [[hermes/mcp/servers/external/capital-com-mcp]] - Capital.com trading MCP

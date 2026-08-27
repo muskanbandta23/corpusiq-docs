@@ -1,6 +1,6 @@
 ---
-title: "July 27, 2026 (Night) — Reddit Automation, OpenTUI,"
-description: "Late-night sweep: 4 new Hermes-relevant skills discovered — Reddit Automation (112.9K), OpenTUI (52.8K), DBS Content (17.6K), Monitoring Expert (3.9K)"
+title: "July 27, 2026 (Night) - Reddit Automation, OpenTUI,"
+description: "Late-night sweep: 4 new Hermes-relevant skills discovered - Reddit Automation (112.9K), OpenTUI (52.8K), DBS Content (17.6K), Monitoring Expert (3.9K)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july27-2026-night/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# July 27, 2026 (Night) — 4 New Skill Setup Guides
+# July 27, 2026 (Night) - 4 New Skill Setup Guides
 
 **Discovered:** 4 new skills from 4 publishers · **Combined installs:** 172,900+ · **Guides created:** 4
 
@@ -24,23 +24,23 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ## Category Breakdown
 
 ### Marketing & Growth
-- **doany-skills/skills@reddit-automation** (112.9K installs) — Find high-intent Reddit threads, draft honest replies with disclosure. Two-phase: discovery + drafting. Enforces "help-first" engagement with experience grammar and human-in-the-loop review.
+- **doany-skills/skills@reddit-automation** (112.9K installs) - Find high-intent Reddit threads, draft honest replies with disclosure. Two-phase: discovery + drafting. Enforces "help-first" engagement with experience grammar and human-in-the-loop review.
 
 ### Development & Tools
-- **msmps/opentui-skill@opentui** (52.8K installs) — Build terminal user interfaces with Core, React, or Solid APIs. Components, layout, keyboard handling, animations, and testing for TUI applications.
+- **msmps/opentui-skill@opentui** (52.8K installs) - Build terminal user interfaces with Core, React, or Solid APIs. Components, layout, keyboard handling, animations, and testing for TUI applications.
 
 ### DevOps & Infrastructure
-- **jeffallan/claude-skills@monitoring-expert** (3.9K installs) — Comprehensive observability: Prometheus/Grafana dashboards, structured logging, distributed tracing, load testing (k6/Artillery), profiling, and capacity planning.
+- **jeffallan/claude-skills@monitoring-expert** (3.9K installs) - Comprehensive observability: Prometheus/Grafana dashboards, structured logging, distributed tracing, load testing (k6/Artillery), profiling, and capacity planning.
 
 ### Content & Media
-- **op7418/guizang-social-card-skill@guizang-social-card-skill** (3.7K installs) — Generate Xiaohongshu carousels, Live Photo motion cards, WeChat cover pairs, and Swiss-style editorial social images.
+- **op7418/guizang-social-card-skill@guizang-social-card-skill** (3.7K installs) - Generate Xiaohongshu carousels, Live Photo motion cards, WeChat cover pairs, and Swiss-style editorial social images.
 
 ## Setup Guides Created
 
-1. **[Reddit Automation Setup](/docs/hermes/skills/catalog/reddit-automation-setup/)** — Honest Reddit marketing for Hermes growth agents
-2. **[OpenTUI Setup](/docs/hermes/skills/catalog/opentui-setup/)** — Terminal UI framework for building interactive CLI tools
-3. **[Monitoring Expert Setup](/docs/hermes/skills/catalog/monitoring-expert-setup/)** — Observability, dashboards, and performance testing
-4. **[Guizang Social Card Skill Setup](/docs/hermes/skills/catalog/guizang-social-card-skill-setup/)** — Social card generation for Xiaohongshu, WeChat, and more
+1. **[Reddit Automation Setup](/docs/hermes/skills/catalog/reddit-automation-setup/)** - Honest Reddit marketing for Hermes growth agents
+2. **[OpenTUI Setup](/docs/hermes/skills/catalog/opentui-setup/)** - Terminal UI framework for building interactive CLI tools
+3. **[Monitoring Expert Setup](/docs/hermes/skills/catalog/monitoring-expert-setup/)** - Observability, dashboards, and performance testing
+4. **[Guizang Social Card Skill Setup](/docs/hermes/skills/catalog/guizang-social-card-skill-setup/)** - Social card generation for Xiaohongshu, WeChat, and more
 
 ## Quick Install
 
@@ -51,7 +51,7 @@ npx skills add jeffallan/claude-skills@monitoring-expert
 npx skills add op7418/guizang-social-card-skill@guizang-social-card-skill
 ```
 
-## Additional Skills Noted (S3 — No Setup Guide)
+## Additional Skills Noted (S3 - No Setup Guide)
 
 The following skills were discovered but are either platform-specific, have no accessible SKILL.md, or have very low install counts:
 
@@ -61,9 +61,9 @@ The following skills were discovered but are either platform-specific, have no a
 | `agently-mail` | agent.qq.com | 48.8K | No GitHub repo / SKILL.md not accessible |
 | `react-native-best-practices` | callstackincubator/agent-skills | 21K | Platform-specific (React Native), lower Hermes relevance |
 | `akshare-stock` | molezzz/openclaw-stock-skill | 10.7K | Niche (Chinese stock market data) |
-| `expo-cicd-workflows` | expo/skills | 39.7K | No matching skill — skill name mismatch on marketplace |
-| `flutter-embedding-native-views` | flutter/skills | 8.3K | No matching skill — skill name mismatch on marketplace |
-| `lark-skill-maker` / `lark-workflow-*` | larksuite/cli, open.feishu.cn | 380K–483K | Platform-specific (Lark/Feishu by ByteDance) |
+| `expo-cicd-workflows` | expo/skills | 39.7K | No matching skill - skill name mismatch on marketplace |
+| `flutter-embedding-native-views` | flutter/skills | 8.3K | No matching skill - skill name mismatch on marketplace |
+| `lark-skill-maker` / `lark-workflow-*` | larksuite/cli, open.feishu.cn | 380K-483K | Platform-specific (Lark/Feishu by ByteDance) |
 
 ## Why This Matters for Hermes
 

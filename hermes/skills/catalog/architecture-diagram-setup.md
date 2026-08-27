@@ -1,5 +1,5 @@
 ---
-title: Architecture Diagram — Full Setup Guide for Hermes Agents
+title: Architecture Diagram - Full Setup Guide for Hermes Agents
 description: Generate professional dark-themed technical architecture diagrams as standalone HTML files with inline SVG. No external tools, no API keys, no rendering libraries.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/architecture-diagram-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Architecture Diagram — Setup Guide
+# Architecture Diagram - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) (227.9K⭐)
 **Skill:** `nousresearch/hermes-agent@architecture-diagram`
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Category:** Engineering / Diagrams
 **First Seen:** Apr 15, 2026
 
-Generate professional, dark-themed technical architecture diagrams as standalone HTML files with inline SVG graphics. No external tools, no API keys, no rendering libraries — just write the HTML file and open it in a browser.
+Generate professional, dark-themed technical architecture diagrams as standalone HTML files with inline SVG graphics. No external tools, no API keys, no rendering libraries - just write the HTML file and open it in a browser.
 
 ---
 
@@ -82,7 +82,7 @@ The skill instructs the agent to generate pure HTML with inline SVG elements. Th
 - **Self-contained:** Single HTML file, no external dependencies
 - **Dark-themed:** Professionally styled with grid background
 - **Responsive:** Scales to viewport
-- **Shareable:** Send the HTML file directly — opens in any browser
+- **Shareable:** Send the HTML file directly - opens in any browser
 
 ---
 

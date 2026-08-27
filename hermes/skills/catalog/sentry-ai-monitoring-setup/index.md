@@ -1,6 +1,6 @@
 ---
-title: Sentry AI Monitoring — Full Setup Guide for Hermes Agents
-description: Error tracking and monitoring for AI agent deployments. Sentry feature setup (2.7K), Node.js SDK (2.6K), and AI monitoring dashboard (616). From getsentry — the industry-standard error tracking platform.
+title: Sentry AI Monitoring - Full Setup Guide for Hermes Agents
+description: Error tracking and monitoring for AI agent deployments. Sentry feature setup (2.7K), Node.js SDK (2.6K), and AI monitoring dashboard (616). From getsentry - the industry-standard error tracking platform.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-ai-monitoring-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Sentry AI Monitoring — Setup Guide
+# Sentry AI Monitoring - Setup Guide
 
 **Source:** [getsentry/sentry-for-ai](https://github.com/getsentry/sentry-for-ai) + [getsentry/sentry-agent-skills](https://github.com/getsentry/sentry-agent-skills)
 **Skills:** `sentry-feature-setup` (2,700), `sentry-node-sdk` (2,600), `sentry-setup-ai-monitoring` (616)
@@ -34,7 +34,7 @@ npx skills add getsentry/sentry-agent-skills@sentry-setup-ai-monitoring
 
 | Requirement | Details |
 |---|---|
-| **Sentry account** | [sentry.io](https://sentry.io) — free tier: 5K errors/month, 1 user |
+| **Sentry account** | [sentry.io](https://sentry.io) - free tier: 5K errors/month, 1 user |
 | **Sentry DSN** | From Sentry → Settings → Projects → [Project] → Client Keys (DSN) |
 | **Node.js 18+** | For the sentry-node-sdk skill |
 | **Hermes Agent** | Any version |
@@ -49,12 +49,12 @@ export SENTRY_DSN="https://xxxxxx@sentry.io/project-id"
 ## Skill 1: sentry-feature-setup (2,700 installs)
 
 ### Overview
-Feature flag and release monitoring for agent deployments. Track which agent versions, model configurations, and skill combinations correlate with error rates. Progressive rollout support — ship new skills to a subset of agent instances, monitor error rates, then expand or roll back.
+Feature flag and release monitoring for agent deployments. Track which agent versions, model configurations, and skill combinations correlate with error rates. Progressive rollout support - ship new skills to a subset of agent instances, monitor error rates, then expand or roll back.
 
 ### Capabilities
 - **Release tracking:** Associate every error with a specific agent version + skill set
 - **Feature flags:** Toggle skills on/off per agent instance; correlate with error patterns
-- **Progressive rollout:** Canary deployment — 10% → 25% → 50% → 100% with automatic rollback on error spike
+- **Progressive rollout:** Canary deployment - 10% → 25% → 50% → 100% with automatic rollback on error spike
 - **Model correlation:** Track error rates by model (Sonnet vs Opus vs DeepSeek) to identify model-specific failure modes
 - **Skill health scores:** Per-skill error rate, latency, and success rate dashboards
 
@@ -93,7 +93,7 @@ npx skills run sentry-feature-setup --health-check "apify-lead-generation"
 ## Skill 2: sentry-node-sdk (2,600 installs)
 
 ### Overview
-Sentry's Node.js SDK instrumented specifically for agent runtimes. Auto-captures unhandled promise rejections, tool call failures, and MCP connection errors — but adds agent-specific context: current skill name, tool chain, model identifier, token usage, and session ID. Drop-in replacement for generic `console.error()` or `try/catch` logging.
+Sentry's Node.js SDK instrumented specifically for agent runtimes. Auto-captures unhandled promise rejections, tool call failures, and MCP connection errors - but adds agent-specific context: current skill name, tool chain, model identifier, token usage, and session ID. Drop-in replacement for generic `console.error()` or `try/catch` logging.
 
 ### What It Captures Automatically
 | Error Type | Captured Context |
@@ -126,7 +126,7 @@ Sentry.init({
 ```
 
 ### Hermes Integration
-The skill instruments Hermes' error handling automatically. Once installed, every unhandled error in a Hermes session is captured with full agent context and routed to your Sentry project. No code changes required — the skill wraps the error boundary.
+The skill instruments Hermes' error handling automatically. Once installed, every unhandled error in a Hermes session is captured with full agent context and routed to your Sentry project. No code changes required - the skill wraps the error boundary.
 
 ---
 
@@ -193,11 +193,11 @@ npx skills run sentry-setup-ai-monitoring \
 
 | Use Case | Skills Used |
 |---|---|
-| **Cron job reliability** | sentry-feature-setup + sentry-setup-ai-monitoring — track every cron execution, alert on failures, weekly reliability reports |
-| **Skill deployment safety** | sentry-feature-setup — canary new skills before full rollout; auto-rollback on error spike |
-| **Model performance tracking** | sentry-node-sdk + sentry-setup-ai-monitoring — compare Sonnet vs Opus error rates and latency; data-driven model routing |
-| **Growth agent uptime** | sentry-setup-ai-monitoring — ensure social monitoring, lead gen, and content posting never silently fail |
-| **Multi-agent observability** | All three — unified dashboard across CorpusIQ's growth, BD, support, and dev agents |
+| **Cron job reliability** | sentry-feature-setup + sentry-setup-ai-monitoring - track every cron execution, alert on failures, weekly reliability reports |
+| **Skill deployment safety** | sentry-feature-setup - canary new skills before full rollout; auto-rollback on error spike |
+| **Model performance tracking** | sentry-node-sdk + sentry-setup-ai-monitoring - compare Sonnet vs Opus error rates and latency; data-driven model routing |
+| **Growth agent uptime** | sentry-setup-ai-monitoring - ensure social monitoring, lead gen, and content posting never silently fail |
+| **Multi-agent observability** | All three - unified dashboard across CorpusIQ's growth, BD, support, and dev agents |
 
 ---
 
@@ -237,7 +237,7 @@ CorpusIQ already uses several monitoring systems. Sentry AI monitoring complemen
 
 | Existing System | Sentry Adds |
 |---|---|
-| **Token health cron** | Error tracking for the cron itself — detect when token refresh fails silently |
+| **Token health cron** | Error tracking for the cron itself - detect when token refresh fails silently |
 | **System auditor** | Agent-specific error categorization (tool failure vs model error vs MCP drop) |
 | **Daily HTML reports** | Real-time alerting (don't wait for the daily report to discover failures) |
 | **Honcho session tracking** | Structured error context per session for post-mortem analysis |

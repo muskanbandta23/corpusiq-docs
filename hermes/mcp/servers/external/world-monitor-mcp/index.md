@@ -1,6 +1,6 @@
 ---
 title: "World Monitor MCP - CorpusIQ Docs"
-description: Live global-intelligence MCP server for AI agents — markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all source-grounded with freshness stamps.
+description: Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all source-grounded with freshness stamps.
 category: Research
 stars: n/a (new listing)
 added: 2026-08-15
@@ -11,7 +11,7 @@ tags: [geopolitical-intelligence, risk-monitoring, supply-chain, sanctions, mark
 
 # World Monitor MCP
 
-**Remote MCP server (Streamable HTTP, OAuth 2.1 or API key)** — World Monitor exposes its global-intelligence platform over MCP: 63 read-only tools spanning markets, conflicts, aviation, maritime activity, energy, climate, cyber threats, supply chains, sanctions, and procurement, all backed by hundreds of institutional and open-source providers with per-observation provenance and freshness metadata.
+**Remote MCP server (Streamable HTTP, OAuth 2.1 or API key)** - World Monitor exposes its global-intelligence platform over MCP: 63 read-only tools spanning markets, conflicts, aviation, maritime activity, energy, climate, cyber threats, supply chains, sanctions, and procurement, all backed by hundreds of institutional and open-source providers with per-observation provenance and freshness metadata.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: koala73 (github.com/koala73/worldmonitor, AGPL-3.0)
 
 ## Why This Matters for Operators
 
-Most agents can search the web, but search results do not give a stable operating picture. World Monitor normalizes hundreds of official, institutional, commercial, and open-source providers into consistent intelligence surfaces an agent can query with one tool call each — with `cached_at` and `stale` fields on every result so the agent can tell a current observation from a degraded snapshot.
+Most agents can search the web, but search results do not give a stable operating picture. World Monitor normalizes hundreds of official, institutional, commercial, and open-source providers into consistent intelligence surfaces an agent can query with one tool call each - with `cached_at` and `stale` fields on every result so the agent can tell a current observation from a degraded snapshot.
 
-**The differentiator is source-attributed, freshness-stamped, structured intelligence across every domain that breaks a supply chain** — chokepoint transit counts on a 10-minute cadence, OFAC sanctions lists, tariff trends, energy storage levels, maritime disruptions, and open procurement opportunities — plus server-side JMESPath projection on every tool so large responses get trimmed before they enter the model context.
+**The differentiator is source-attributed, freshness-stamped, structured intelligence across every domain that breaks a supply chain** - chokepoint transit counts on a 10-minute cadence, OFAC sanctions lists, tariff trends, energy storage levels, maritime disruptions, and open procurement opportunities - plus server-side JMESPath projection on every tool so large responses get trimmed before they enter the model context.
 
 ## Tools & Capabilities
 
@@ -83,15 +83,15 @@ Auth notes: OAuth 2.1 on first connect, or a World Monitor API key for headless 
 
 ## Integration with CorpusIQ
 
-World Monitor is the outside-world layer that CorpusIQ's inside-the-business connectors lack. A composed workflow: use Stripe and QuickBooks connectors to map revenue exposure by country, then World Monitor's `get_country_risk` and `get_supply_chain_data` to score those same countries for instability and logistics stress. Feed Google Ads and Meta Ads connectors with `get_tariff_trends` and consumer-price data to reallocate spend away from softening markets. It also complements the catalogued NERAI Risk Intelligence server — World Monitor is the broader surveillance surface, NERAI the calibrated forecasting layer.
+World Monitor is the outside-world layer that CorpusIQ's inside-the-business connectors lack. A composed workflow: use Stripe and QuickBooks connectors to map revenue exposure by country, then World Monitor's `get_country_risk` and `get_supply_chain_data` to score those same countries for instability and logistics stress. Feed Google Ads and Meta Ads connectors with `get_tariff_trends` and consumer-price data to reallocate spend away from softening markets. It also complements the catalogued NERAI Risk Intelligence server - World Monitor is the broader surveillance surface, NERAI the calibrated forecasting layer.
 
 ## Limitations
 
-- Brand new listing — no long track record yet
+- Brand new listing - no long track record yet
 - Commercial cloud service; source is AGPL-3.0 but the hosted endpoint is the product
 - Pro tools (`search_intel_history`, `get_similar_events`, `get_intel_timeline`) are gated behind the Pro tier
 - China macro is limited to official 12-series data; upstream gaps are declared in the tool docs
-- AI-generated forecasts and briefs are model outputs — always check the source fields
+- AI-generated forecasts and briefs are model outputs - always check the source fields
 
 ## See Also
 

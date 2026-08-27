@@ -1,13 +1,13 @@
 ---
-title: "Genkit Skills — Firebase Genkit AI Framework Setup"
-description: "genkit-ai/skills — 4 skills, 57.3K combined installs. Official Firebase Genkit development skills for building AI features in JavaScript, Dart, Go, and Python."
+title: "Genkit Skills - Firebase Genkit AI Framework Setup"
+description: "genkit-ai/skills - 4 skills, 57.3K combined installs. Official Firebase Genkit development skills for building AI features in JavaScript, Dart, Go, and Python."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genkit-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
 tags: ["hermes skill", "agent skill", "skill setup", "ai-framework"]
 ---
 
-# Genkit Skills — Setup Guide
+# Genkit Skills - Setup Guide
 
 **Source:** [skills.sh](https://www.skills.sh/genkit-ai/skills) (57.3K combined installs)
 **GitHub:** [genkit-ai/skills](https://github.com/genkit-ai/skills)
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "ai-framework"]
 **First Seen:** August 13, 2026 sweep
 **Quality Tier:** 🟢 Production (official Google/Firebase)
 
-Firebase Genkit is Google's open-source framework for building AI features (RAG, agents, flows, evals) with production tooling. This is the official companion skill pack — one development skill per language SDK. Complements the existing firebase/agent-skills cluster in the catalog.
+Firebase Genkit is Google's open-source framework for building AI features (RAG, agents, flows, evals) with production tooling. This is the official companion skill pack - one development skill per language SDK. Complements the existing firebase/agent-skills cluster in the catalog.
 
 ---
 
@@ -41,8 +41,8 @@ npx skills add genkit-ai/skills
 
 ## CorpusIQ Use Cases
 
-- **Eval-driven agent tooling** — Genkit's eval harness is a reference for CorpusIQ's own agent-eval framework
-- **Customer-facing AI features** — the RAG and flows patterns for embedded assistant features in operator dashboards
+- **Eval-driven agent tooling** - Genkit's eval harness is a reference for CorpusIQ's own agent-eval framework
+- **Customer-facing AI features** - the RAG and flows patterns for embedded assistant features in operator dashboards
 
 ## Limitations / Verification
 
@@ -51,5 +51,5 @@ npx skills add genkit-ai/skills
 
 ## Related
 
-- [Firebase Agent Skills — Google Backend Setup](/hermes/skills/catalog/google-skills-setup/)
-- [Convex Agent Skills — Backend Platform Setup](/hermes/skills/catalog/convex-agent-skills-setup/)
+- [Firebase Agent Skills - Google Backend Setup](/hermes/skills/catalog/google-skills-setup/)
+- [Convex Agent Skills - Backend Platform Setup](/hermes/skills/catalog/convex-agent-skills-setup/)

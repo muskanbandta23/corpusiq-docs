@@ -1,6 +1,6 @@
 ---
-title: Midscene — AI-Powered Visual Browser Automation for Hermes Agents
-description: Configure Midscene (14K+ GitHub stars) for vision-driven UI automation — browser-use, computer-use, and phone-use with natural language commands. Works with Hermes for web testing, scraping, and autonomous interaction.
+title: Midscene - AI-Powered Visual Browser Automation for Hermes Agents
+description: Configure Midscene (14K+ GitHub stars) for vision-driven UI automation - browser-use, computer-use, and phone-use with natural language commands. Works with Hermes for web testing, scraping, and autonomous interaction.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/midscene-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Midscene Skills — Setup Guide
+# Midscene Skills - Setup Guide
 
 **Source:** [web-infra-dev/midscene-skills](https://skills.sh/web-infra-dev/midscene-skills) (6K+ combined installs)
-**GitHub:** [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene) — 14,183 ★ | JavaScript
+**GitHub:** [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene) - 14,183 ★ | JavaScript
 **Category:** Automation / Browser-Use
 **Quality Tier:** 🟢 Production (14K+ GitHub stars, active development)
 
-Midscene is an AI-powered, vision-driven UI automation framework that works across web browsers, desktop applications, and mobile devices. Instead of brittle CSS selectors or XPath, Midscene uses visual AI to locate and interact with UI elements — making it resilient to DOM changes and ideal for autonomous Hermes agents that need reliable browser automation.
+Midscene is an AI-powered, vision-driven UI automation framework that works across web browsers, desktop applications, and mobile devices. Instead of brittle CSS selectors or XPath, Midscene uses visual AI to locate and interact with UI elements - making it resilient to DOM changes and ideal for autonomous Hermes agents that need reliable browser automation.
 
 ---
 
@@ -88,8 +88,8 @@ npx -y @midscene/web@1 take_screenshot
 
 Two flags for complex scenarios:
 
-- `--deep-locate` — extra visual reasoning to pinpoint elements (fixes location drift)
-- `--deep-think` — deeper planning for complex multi-step instructions
+- `--deep-locate` - extra visual reasoning to pinpoint elements (fixes location drift)
+- `--deep-think` - deeper planning for complex multi-step instructions
 
 ```bash
 # Combine both for challenging pages
@@ -148,7 +148,7 @@ npx -y @midscene/web@1 act --prompt "navigate to example.com"
 | Connection failure | Ensure Chrome/Chromium installed; check firewall isn't blocking debugging ports |
 | API key errors | Verify `MIDSCENE_MODEL_API_KEY` in `.env` is valid |
 | Timeouts | Take screenshot first to verify page loaded; add waits between steps |
-| Screenshots not displaying | Path is absolute local file — use Read tool to view |
+| Screenshots not displaying | Path is absolute local file - use Read tool to view |
 | Version mismatch | `npm ls @midscene/web @midscene/core @midscene/shared` → `npm i @midscene/web@latest` |
 
 ---
@@ -165,7 +165,7 @@ npx -y @midscene/web@1 act --prompt "navigate to example.com"
 ## Notes
 
 - **Production-grade**: 14K GitHub stars, actively maintained by web-infra-dev team
-- **Vision-first**: No CSS selectors needed — Midscene sees the UI like a human
+- **Vision-first**: No CSS selectors needed - Midscene sees the UI like a human
 - **Best for**: Dynamic SPAs, complex forms, sites with frequent DOM changes
-- **Complementary**: Use alongside Hermes' native browser tools — Midscene for visual tasks, Playwright for API-level control
+- **Complementary**: Use alongside Hermes' native browser tools - Midscene for visual tasks, Playwright for API-level control
 - **Related**: See [Browser-Use Automation](/hermes/skills/catalog/browser-use-automation-setup) and [Playwright Social Media](/hermes/skills/catalog/playwright-social-media-automation-setup)

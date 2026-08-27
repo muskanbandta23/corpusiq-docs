@@ -1,6 +1,6 @@
 ---
-title: TimesFM Forecasting — Full Setup Guide for Hermes Agents
-description: Install and use Google's TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth — no training required.
+title: TimesFM Forecasting - Full Setup Guide for Hermes Agents
+description: Install and use Google's TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth - no training required.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# TimesFM Forecasting — Setup Guide
+# TimesFM Forecasting - Setup Guide
 
 **Source:** [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) (699 installs)
 **Also available from:** google-research/timesfm (153), eturkes/claude-scientific-skills (23)
 **Category:** Data Science / Forecasting
 
-Google Research's TimesFM is a decoder-only foundation model for time series forecasting. Unlike traditional statistical models (ARIMA, Prophet), TimesFM requires zero training — pass historical data and get predictions immediately. The skill wraps this into a Claude Code / Hermes agent workflow.
+Google Research's TimesFM is a decoder-only foundation model for time series forecasting. Unlike traditional statistical models (ARIMA, Prophet), TimesFM requires zero training - pass historical data and get predictions immediately. The skill wraps this into a Claude Code / Hermes agent workflow.
 
 ---
 
@@ -36,7 +36,7 @@ npx skills add google-research/timesfm --skill timesfm-forecasting
 
 | Requirement | Details |
 |---|---|
-| **Python 3.10+** | `python3 --version` — TimesFM requires 3.10+ |
+| **Python 3.10+** | `python3 --version` - TimesFM requires 3.10+ |
 | **Historical data** | CSV or JSON with timestamp + value columns |
 | **Hermes Agent** | Any version with skills support |
 
@@ -56,7 +56,7 @@ The skill will install this automatically on first use, but pre-installing avoid
 
 | Capability | How to Trigger | Notes |
 |---|---|---|
-| Point forecasting | "Forecast next 30 days of this revenue data" | Zero-shot — no model training |
+| Point forecasting | "Forecast next 30 days of this revenue data" | Zero-shot - no model training |
 | Uncertainty intervals | "Forecast with 90% confidence intervals" | Built-in quantile prediction |
 | Multi-horizon | "Predict 7-day, 30-day, and 90-day forecasts" | Variable horizon from single call |
 | Seasonal decomposition | "Decompose this time series" | Trend + seasonal + residual |
@@ -93,7 +93,7 @@ python3 SKILL_DIR/scripts/forecast.py --input data.csv --detect-anomalies
 
 | Issue | Fix |
 |---|---|
-| `ModuleNotFoundError: timesfm` | `pip install timesfm` — package not auto-installed |
+| `ModuleNotFoundError: timesfm` | `pip install timesfm` - package not auto-installed |
 | `CUDA not available` | TimesFM runs on CPU. Add `--device cpu` flag for non-GPU environments. |
 | Out-of-memory on large datasets | TimesFM context window is 512 points. Batch longer series or downsample. |
 | Prediction looks flat | Input series may lack clear trend/seasonality. Add exogenous features or extend history. |

@@ -1,5 +1,5 @@
 ---
-title: "Webotee Amazon MCP — Amazon Seller Intelligence"
+title: "Webotee Amazon MCP - Amazon Seller Intelligence"
 description: "Connect Webotee Amazon MCP to Hermes Agent. Research Amazon products, analyze buy-box history, identify competing sellers, and discover under-competed"
 category: mcp
 tags: [mcp-server, webotee, amazon, ecommerce, seller-intelligence, product-research, niche-analysis]
@@ -13,9 +13,9 @@ robots: "index,follow"
 
 ## Overview
 
-Webotee Amazon MCP (`webotee-amazon-mcp`) brings Amazon marketplace intelligence directly into AI agents. Research products, analyze buy-box dynamics, identify competing sellers, and discover under-competed niches — all from your AI assistant. Purpose-built for Amazon sellers, brand managers, and ecommerce operators.
+Webotee Amazon MCP (`webotee-amazon-mcp`) brings Amazon marketplace intelligence directly into AI agents. Research products, analyze buy-box dynamics, identify competing sellers, and discover under-competed niches - all from your AI assistant. Purpose-built for Amazon sellers, brand managers, and ecommerce operators.
 
-**Key advantage**: Amazon seller research typically requires expensive tools (Jungle Scout, Helium 10) and manual data analysis. Webotee MCP makes this data queryable via natural language — "show me under-competed niches in home & kitchen with over $10K monthly revenue and fewer than 5 competitors."
+**Key advantage**: Amazon seller research typically requires expensive tools (Jungle Scout, Helium 10) and manual data analysis. Webotee MCP makes this data queryable via natural language - "show me under-competed niches in home & kitchen with over $10K monthly revenue and fewer than 5 competitors."
 
 ## Key Features
 
@@ -64,24 +64,24 @@ hermes mcp config webotee-amazon --env WEBOTEE_API_KEY
 
 1. **Product Opportunity Discovery**: "Find product niches in pet supplies with under 50 reviews on the top 3 listings and over $15K/month estimated revenue"
 2. **Competitive Monitoring**: Track competitor buy-box ownership, pricing changes, and new product launches
-3. **Brand Audit**: "Analyze my brand's Amazon presence — which ASINs are losing buy-box share and to whom?"
+3. **Brand Audit**: "Analyze my brand's Amazon presence - which ASINs are losing buy-box share and to whom?"
 4. **Category Expansion**: "What categories adjacent to my current products show low competition and high demand?"
 5. **Pricing Strategy**: Monitor competitor pricing patterns and adjust your pricing strategy based on real-time market data
 
 ## Business Relevance
 
-Amazon's marketplace generates $500B+ in annual GMV but seller intelligence tools remain expensive and fragmented. Webotee MCP brings Amazon research into the AI-native workflow — operators running Amazon businesses can research products, monitor competitors, and discover opportunities without switching between Jungle Scout, Helium 10, Keepa, and Seller Central. For agencies managing multiple Amazon brands, this is a force multiplier.
+Amazon's marketplace generates $500B+ in annual GMV but seller intelligence tools remain expensive and fragmented. Webotee MCP brings Amazon research into the AI-native workflow - operators running Amazon businesses can research products, monitor competitors, and discover opportunities without switching between Jungle Scout, Helium 10, Keepa, and Seller Central. For agencies managing multiple Amazon brands, this is a force multiplier.
 
 ## Limitations
 
 - Amazon data is aggregated/estimated (not real-time API from Amazon directly)
 - Coverage varies by marketplace (US marketplace is primary; international coverage growing)
-- Niche analysis depends on data freshness — results may lag live marketplace by hours
+- Niche analysis depends on data freshness - results may lag live marketplace by hours
 - Requires Webotee subscription for API access
-- Category taxonomy follows Amazon's structure — some niche categorization quirks
+- Category taxonomy follows Amazon's structure - some niche categorization quirks
 
 ## See Also
 
-- CorpusIQ MCP — for Shopify, QuickBooks, and cross-platform business data
-- SEOforGPT MCP — for AI visibility and generative engine optimization
-- SentiSense MCP — for market sentiment and trend intelligence
+- CorpusIQ MCP - for Shopify, QuickBooks, and cross-platform business data
+- SEOforGPT MCP - for AI visibility and generative engine optimization
+- SentiSense MCP - for market sentiment and trend intelligence

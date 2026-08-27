@@ -18,7 +18,7 @@ Claude Desktop reads its MCP config file once, at startup. If you
 edited the config while Claude was running, Claude is still using the
 old config.
 
-**Fix:** Quit Claude Desktop completely (not just close the window —
+**Fix:** Quit Claude Desktop completely (not just close the window -
 fully quit). Reopen it. Try again.
 
 On Mac: `Cmd-Q` or right-click the dock icon → Quit. On Windows: right-
@@ -45,7 +45,7 @@ The config file is JSON. A single missing comma or unbalanced brace
 breaks the whole file, and Claude silently ignores it.
 
 **How to check:** Paste the contents of `claude_desktop_config.json`
-into any JSON validator (search "JSON validator" — there are dozens).
+into any JSON validator (search "JSON validator" - there are dozens).
 If it shows an error, fix the syntax.
 
 Common slip-ups:

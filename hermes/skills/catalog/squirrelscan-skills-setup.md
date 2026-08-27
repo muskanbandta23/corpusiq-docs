@@ -1,13 +1,13 @@
 ---
-title: SquirrelScan Skills — Website Audit Tool Setup Guide for Hermes Agents
-description: "squirrelscan/skills — 2 skills, 71.4K combined installs. Agent-driven website audits (SEO, performance, accessibility) via the SquirrelScan audit tool."
+title: SquirrelScan Skills - Website Audit Tool Setup Guide for Hermes Agents
+description: "squirrelscan/skills - 2 skills, 71.4K combined installs. Agent-driven website audits (SEO, performance, accessibility) via the SquirrelScan audit tool."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/squirrelscan-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
 tags: ["hermes skill", "agent skill", "skill setup", "seo"]
 ---
 
-# SquirrelScan Skills — Setup Guide
+# SquirrelScan Skills - Setup Guide
 
 **Source:** [skills.sh](https://www.skills.sh/squirrelscan/skills) (71.4K combined installs)
 **GitHub:** [squirrelscan/skills](https://github.com/squirrelscan/skills)
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "seo"]
 **First Seen:** August 13, 2026 sweep
 **Quality Tier:** 🔵 Community
 
-Agent skills for the SquirrelScan website audit tool. The flagship `audit-website` (68.4K installs) walks an agent through a structured site audit — performance, SEO, accessibility, and content — using SquirrelScan's crawler output. Small cluster, high signal: website audits are one of the most common operator asks for agents.
+Agent skills for the SquirrelScan website audit tool. The flagship `audit-website` (68.4K installs) walks an agent through a structured site audit - performance, SEO, accessibility, and content - using SquirrelScan's crawler output. Small cluster, high signal: website audits are one of the most common operator asks for agents.
 
 ---
 
@@ -39,9 +39,9 @@ npx skills add squirrelscan/skills
 
 ## CorpusIQ Use Cases
 
-- **Docs site health** — periodic `audit-website` runs on docs.corpusiq.io complement the existing SEO/AEO/GEO pass
-- **Competitor site teardowns** — quick structured audits of competitor landing pages for the competitive-intelligence brief
-- **Client-facing value** — audit workflow reusable as a CorpusIQ onboarding artifact for business operators
+- **Docs site health** - periodic `audit-website` runs on docs.corpusiq.io complement the existing SEO/AEO/GEO pass
+- **Competitor site teardowns** - quick structured audits of competitor landing pages for the competitive-intelligence brief
+- **Client-facing value** - audit workflow reusable as a CorpusIQ onboarding artifact for business operators
 
 ## Limitations / Verification
 
@@ -50,5 +50,5 @@ npx skills add squirrelscan/skills
 
 ## Related
 
-- [OSINT Skills — Open-Source Intelligence Investigation Setup](/hermes/skills/catalog/osint-skills-setup/)
+- [OSINT Skills - Open-Source Intelligence Investigation Setup](/hermes/skills/catalog/osint-skills-setup/)
 - [CorpusIQ SEO Audit Skill](https://www.corpusiq.io/docs/hermes/skills/catalog/featured-seo-audit/)

@@ -1,18 +1,18 @@
 ---
-title: "PostHog — Product Analytics - CorpusIQ Docs"
-description: "Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention — inside Claude or ChatGPT.."
+title: "PostHog - Product Analytics - CorpusIQ Docs"
+description: "Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention - inside Claude or ChatGPT.."
 ---
-# PostHog — Product Analytics
+# PostHog - Product Analytics
 
-Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention — inside Claude or ChatGPT.
+Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention - inside Claude or ChatGPT.
 
 ## What it unlocks
 
-- **Event analysis** — what events are firing, how often, from which users
-- **Funnel performance** — conversion rates between key product steps
-- **User profiles** — search and inspect person records across your product
-- **Feature adoption** — which features are being used by which segments
-- **Custom HogQL queries** — run SQL-style queries against your PostHog data
+- **Event analysis** - what events are firing, how often, from which users
+- **Funnel performance** - conversion rates between key product steps
+- **User profiles** - search and inspect person records across your product
+- **Feature adoption** - which features are being used by which segments
+- **Custom HogQL queries** - run SQL-style queries against your PostHog data
 
 ## Example prompts
 

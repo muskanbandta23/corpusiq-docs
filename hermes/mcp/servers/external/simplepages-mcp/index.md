@@ -11,7 +11,7 @@ tags: [landing-pages, page-builder, conversion-tracking, marketing-websites, no-
 
 # Simplepages MCP
 
-**Remote MCP server (Streamable HTTP, OAuth-style connect flow) — the Simplepages landing-page workspace as agent tools.** Point an MCP client at Simplepages and it works with pages the way you already work with the assistant: describe a page and it builds one, tell it to change a headline and it edits in place, ask how a page is doing and it returns visitors, leads, and revenue. Connection is per-workspace and user-approved, with the assistant's chats never seen by the vendor.
+**Remote MCP server (Streamable HTTP, OAuth-style connect flow) - the Simplepages landing-page workspace as agent tools.** Point an MCP client at Simplepages and it works with pages the way you already work with the assistant: describe a page and it builds one, tell it to change a headline and it edits in place, ask how a page is doing and it returns visitors, leads, and revenue. Connection is per-workspace and user-approved, with the assistant's chats never seen by the vendor.
 
 ```
 Server type: Hosted remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Simplepages (simplepages.ai)
 
 ## Why This Matters for Operators
 
-Landing pages are the step between ad spend and revenue, and the usual loop — ask a freelancer for a page, wait, request edits, wait, then export analytics to judge it — takes days per iteration. Simplepages MCP compresses it to a conversation. "Build a coffee-subscription landing page" produces a page in the workspace ready for the editor; "make the headline say Book now" edits it in place and saves the draft. The operator keeps the final publish action, which is the right human gate: the assistant builds, edits, and reads back; you take the page live.
+Landing pages are the step between ad spend and revenue, and the usual loop - ask a freelancer for a page, wait, request edits, wait, then export analytics to judge it - takes days per iteration. Simplepages MCP compresses it to a conversation. "Build a coffee-subscription landing page" produces a page in the workspace ready for the editor; "make the headline say Book now" edits it in place and saves the draft. The operator keeps the final publish action, which is the right human gate: the assistant builds, edits, and reads back; you take the page live.
 
-The measurement side is what makes it a growth tool rather than a page generator. The agent can ask how a single page is doing — visitors, leads, revenue — or pull the whole workspace at a glance, so the question "is the new pricing page converting?" is answered from the same surface that edits the page. Publishing-from-chat is on the vendor's roadmap, which would close the loop fully.
+The measurement side is what makes it a growth tool rather than a page generator. The agent can ask how a single page is doing - visitors, leads, revenue - or pull the whole workspace at a glance, so the question "is the new pricing page converting?" is answered from the same surface that edits the page. Publishing-from-chat is on the vendor's roadmap, which would close the loop fully.
 
 ## Tools & Capabilities
 
@@ -75,14 +75,14 @@ Auth notes: approval happens through your existing Simplepages login; the connec
 
 ## Integration with CorpusIQ
 
-Simplepages MCP fits the attribution loop that CorpusIQ already reads: the CorpusIQ Meta Ads and Google Ads connectors show which campaigns drive clicks, the CorpusIQ GA4 connector shows what happens after the click, and Simplepages MCP supplies the page layer in between — build the variant in chat, then judge it against ad-driven traffic and conversion data from CorpusIQ. For ecommerce operators, the CorpusIQ Shopify connector shows order value while Simplepages reports page-level leads and revenue, so the agent can tie a landing-page experiment to store outcomes. The direction of flow: Simplepages MCP builds and measures the page; CorpusIQ reads the ads and commerce systems around it.
+Simplepages MCP fits the attribution loop that CorpusIQ already reads: the CorpusIQ Meta Ads and Google Ads connectors show which campaigns drive clicks, the CorpusIQ GA4 connector shows what happens after the click, and Simplepages MCP supplies the page layer in between - build the variant in chat, then judge it against ad-driven traffic and conversion data from CorpusIQ. For ecommerce operators, the CorpusIQ Shopify connector shows order value while Simplepages reports page-level leads and revenue, so the agent can tie a landing-page experiment to store outcomes. The direction of flow: Simplepages MCP builds and measures the page; CorpusIQ reads the ads and commerce systems around it.
 
 ## Limitations
 
-- Publishing from chat is not shipped yet — the assistant builds, edits, and reads back; the human publishes
+- Publishing from chat is not shipped yet - the assistant builds, edits, and reads back; the human publishes
 - Endpoint URL is provisioned per account in-app, not published publicly
-- Commercial tool — requires a Simplepages account; page depth and pricing per vendor
-- Brand new MCP surface — the connection flow is documented, the tool list is served live
+- Commercial tool - requires a Simplepages account; page depth and pricing per vendor
+- Brand new MCP surface - the connection flow is documented, the tool list is served live
 - Workspace scoping means the agent sees only what you point it at
 
 ## See Also

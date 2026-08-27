@@ -1,6 +1,6 @@
 ---
 title: Hermes Flight Recorder Setup Guide
-description: Set up the Hermes Autonomy Flight Recorder — adversarial eval harness for autonomous agent runs with trace-based scorecards, HTML reports, and training data export.
+description: Set up the Hermes Autonomy Flight Recorder - adversarial eval harness for autonomous agent runs with trace-based scorecards, HTML reports, and training data export.
 skill_name: hermes-flight-recorder
 repo: zwright8/hermes-flight-recorder
 compatibility: Hermes Agent
@@ -12,18 +12,18 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Flight Recorder — Setup Guide
+# Hermes Flight Recorder - Setup Guide
 
 ## Overview
 
-The Hermes Autonomy Flight Recorder is a standalone adversarial eval harness for Hermes Agent runs. It converts run artifacts into normalized traces, scores them against explicit autonomy boundaries, and renders static HTML reports. This is accountability and regression infrastructure — not a sandbox, not a security boundary.
+The Hermes Autonomy Flight Recorder is a standalone adversarial eval harness for Hermes Agent runs. It converts run artifacts into normalized traces, scores them against explicit autonomy boundaries, and renders static HTML reports. This is accountability and regression infrastructure - not a sandbox, not a security boundary.
 
 **Key Facts:**
-- **Deterministic scoring** — no API keys, no network required
-- **Static HTML reports** — viewable in any browser
-- **Training data export** — SFT, DPO, and reward model views
-- **Scenario quality metrics** — measures evaluation contract strength
-- **Evidence coverage reports** — verifies judgment backing
+- **Deterministic scoring** - no API keys, no network required
+- **Static HTML reports** - viewable in any browser
+- **Training data export** - SFT, DPO, and reward model views
+- **Scenario quality metrics** - measures evaluation contract strength
+- **Evidence coverage reports** - verifies judgment backing
 
 ---
 
@@ -212,7 +212,7 @@ ls runs/training_export/manifest.json
 ## Limitations
 
 - **Not a security boundary:** Real containment belongs at the OS, process, and network layers
-- **Offline only:** No live monitoring — evaluates completed runs
+- **Offline only:** No live monitoring - evaluates completed runs
 - **Trace-dependent:** Quality of evaluation depends on trace completeness
 - **Deterministic scoring:** Does not use LLM-as-judge (by design)
 
@@ -220,4 +220,4 @@ ls runs/training_export/manifest.json
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Flight Recorder on GitHub](https://github.com/zwright8/hermes-flight-recorder) →*
 
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

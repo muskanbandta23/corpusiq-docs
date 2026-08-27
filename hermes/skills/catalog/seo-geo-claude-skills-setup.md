@@ -1,13 +1,13 @@
 ---
-title: "SEO GEO Claude Skills — 20-Skill SEO & Generative"
-description: "aaron-he-zhu/seo-geo-claude-skills — 20 skills, 126.6K installs. Backlink analysis (26.1K), keyword research, competitor analysis, technical/on-page SEO, GEO content optimization for AI answer engines, schema markup, SERP analysis, rank tracking, entity optimization."
+title: "SEO GEO Claude Skills - 20-Skill SEO & Generative"
+description: "aaron-he-zhu/seo-geo-claude-skills - 20 skills, 126.6K installs. Backlink analysis (26.1K), keyword research, competitor analysis, technical/on-page SEO, GEO content optimization for AI answer engines, schema markup, SERP analysis, rank tracking, entity optimization."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/seo-geo-claude-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-14"
 tags: ["hermes skill", "agent skill", "skill setup", "seo", "geo", "generative engine optimization", "content"]
 ---
 
-# SEO GEO Claude Skills — Setup Guide
+# SEO GEO Claude Skills - Setup Guide
 
 **Source:** [aaron-he-zhu/seo-geo-claude-skills](https://skills.sh/aaron-he-zhu/seo-geo-claude-skills)
 **GitHub:** [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "seo", "geo", "generative e
 **First Seen:** August 14, 2026 afternoon sweep
 **Quality Tier:** 🟢 Production (flagship `backlink-analyzer` at 26.1K installs)
 
-A complete SEO and GEO (Generative Engine Optimization) toolkit — GEO being the newer frontier: optimizing content so AI answer engines (Perplexity, ChatGPT, Gemini) cite and surface it. Twenty skills cover the full loop from keyword research through rank tracking, with dedicated GEO content optimization, entity optimization, and schema markup generation. Complements the CorpusIQ docs SEO/AEO/GEO pass workflow.
+A complete SEO and GEO (Generative Engine Optimization) toolkit - GEO being the newer frontier: optimizing content so AI answer engines (Perplexity, ChatGPT, Gemini) cite and surface it. Twenty skills cover the full loop from keyword research through rank tracking, with dedicated GEO content optimization, entity optimization, and schema markup generation. Complements the CorpusIQ docs SEO/AEO/GEO pass workflow.
 
 ---
 
@@ -26,7 +26,7 @@ A complete SEO and GEO (Generative Engine Optimization) toolkit — GEO being th
 npx skills add aaron-he-zhu/seo-geo-claude-skills
 ```
 
-The skills are workflow packages — pair them with your existing SEO data sources (Google Search Console, Ahrefs, Semrush connectors, Firecrawl SEO audit).
+The skills are workflow packages - pair them with your existing SEO data sources (Google Search Console, Ahrefs, Semrush connectors, Firecrawl SEO audit).
 
 ## What It Provides
 
@@ -57,7 +57,7 @@ The skills are workflow packages — pair them with your existing SEO data sourc
 
 1. `npx skills add aaron-he-zhu/seo-geo-claude-skills`
 2. "Run a technical SEO check on corpusiq.io and list blockers in priority order"
-3. "Audit this page for GEO readiness — will an AI answer engine cite it, and why or why not"
+3. "Audit this page for GEO readiness - will an AI answer engine cite it, and why or why not"
 4. "Generate schema markup for a docs page and a product page"
 5. "Compare our content coverage against our top 3 competitors and list gaps"
 
@@ -72,9 +72,9 @@ The skills are workflow packages — pair them with your existing SEO data sourc
 
 ## Related
 
-- [Marketing Skills — Growth Tooling Setup](/hermes/skills/catalog/marketingskills-setup/)
-- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup/) — `firecrawl-seo-audit` workflow
-- [OPC Skills — SEO GEO Setup](/hermes/skills/catalog/opc-skills-setup/)
+- [Marketing Skills - Growth Tooling Setup](/hermes/skills/catalog/marketingskills-setup/)
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup/) - `firecrawl-seo-audit` workflow
+- [OPC Skills - SEO GEO Setup](/hermes/skills/catalog/opc-skills-setup/)
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

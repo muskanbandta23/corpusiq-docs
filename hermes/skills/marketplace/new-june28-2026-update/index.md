@@ -1,6 +1,6 @@
 ---
-title: New Skills Discovered — June 28, 2026
-description: 17 new skills discovered across the OpenClaw, GBrain, and Hermes ecosystems — email integration, security hardening, stock analysis tools, auto-updaters, and more.
+title: New Skills Discovered - June 28, 2026
+description: 17 new skills discovered across the OpenClaw, GBrain, and Hermes ecosystems - email integration, security hardening, stock analysis tools, auto-updaters, and more.
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026-update/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 28, 2026 (Update)
+# New Skills Discovered - June 28, 2026 (Update)
 
 Sweep date: **June 28, 2026** | Source: [skills.sh API](https://skills.sh) | Method: 10-term query sweep → cross-reference against full docs catalog
 
-**Summary:** 17 skills discovered (second sweep of the day), 14 with 200+ installs. Complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) which found 3 skills (Threads Growth, NemoClaw, Huawei). This sweep focuses on the OpenClaw ecosystem — security, financial tools, email/contacts integration, and deployment automation.
+**Summary:** 17 skills discovered (second sweep of the day), 14 with 200+ installs. Complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) which found 3 skills (Threads Growth, NemoClaw, Huawei). This sweep focuses on the OpenClaw ecosystem - security, financial tools, email/contacts integration, and deployment automation.
 
 ---
 
@@ -77,10 +77,10 @@ npx skills add framix-team/openclaw-tavily/tavily-search
 
 Detailed setup guides are available for the most impactful skills:
 
-- [IMAP/SMTP Email — OpenClaw Email Integration](/hermes/skills/catalog/imap-smtp-email-setup/)
-- [Auto Updater — OpenClaw Self-Updating](/hermes/skills/catalog/openclaw-auto-updater-setup/)
-- [Security Hardening — OpenClaw Security Suite](/hermes/skills/catalog/openclaw-security-hardening-setup/)
-- [Tavily Search — Web Search for OpenClaw](/hermes/skills/catalog/tavily-search-openclaw-setup/)
+- [IMAP/SMTP Email - OpenClaw Email Integration](/hermes/skills/catalog/imap-smtp-email-setup/)
+- [Auto Updater - OpenClaw Self-Updating](/hermes/skills/catalog/openclaw-auto-updater-setup/)
+- [Security Hardening - OpenClaw Security Suite](/hermes/skills/catalog/openclaw-security-hardening-setup/)
+- [Tavily Search - Web Search for OpenClaw](/hermes/skills/catalog/tavily-search-openclaw-setup/)
 
 ---
 
@@ -90,4 +90,4 @@ Detailed setup guides are available for the most impactful skills:
 
 ---
 
-*Part of the Hermes Skills Library — curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) — one MCP endpoint, all your business tools.*
+*Part of the Hermes Skills Library - curated by CorpusIQ. Content remains attributed to original authors and repositories. [CorpusIQ](https://corpusiq.io) - one MCP endpoint, all your business tools.*

@@ -1,5 +1,5 @@
 ---
-title: "datamcp — Hosted MCP Gateway for PostgreSQL, MySQL &"
+title: "datamcp - Hosted MCP Gateway for PostgreSQL, MySQL &"
 description: "Hosted MCP gateway that connects AI agents to PostgreSQL, MySQL, and OpenAPI endpoints. Server-side credentials, scoped access links, zero local setup."
 source: datamcp.app
 stars: 0
@@ -14,22 +14,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# datamcp — Hosted MCP Gateway for Databases & APIs
+# datamcp - Hosted MCP Gateway for Databases & APIs
 
 **Database and API MCP gateway.** datamcp lets AI agents query PostgreSQL, MySQL, and any OpenAPI endpoint through a single hosted MCP server. Server-side credential management means no local database config. Generate scoped access links for team members.
 
 ## What It Does for Operators
 
-- **PostgreSQL + MySQL MCP** — Query production databases through AI agents with server-side credentials
-- **OpenAPI gateway** — Connect any REST API to your MCP client through datamcp's proxy
-- **Scoped access links** — Generate read-only or table-specific links for different team members
-- **Zero local setup** — No local database drivers, VPNs, or SSH tunnels. All connections managed server-side.
-- **Audit trail** — Track which agent queried what, when.
+- **PostgreSQL + MySQL MCP** - Query production databases through AI agents with server-side credentials
+- **OpenAPI gateway** - Connect any REST API to your MCP client through datamcp's proxy
+- **Scoped access links** - Generate read-only or table-specific links for different team members
+- **Zero local setup** - No local database drivers, VPNs, or SSH tunnels. All connections managed server-side.
+- **Audit trail** - Track which agent queried what, when.
 
 ## Installation
 
 ```bash
-# No installation — hosted platform
+# No installation - hosted platform
 # Sign up at datamcp.app, connect your databases
 ```
 
@@ -60,10 +60,10 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## Operator Use Cases
 
-1. **Data Analysts** — "What were our top 10 products by revenue last month?" → query directly from AI agent
-2. **Engineering Teams** — Give AI agents read-only production database access for debugging
-3. **Business Operators** — Connect Stripe/Shopify OpenAPI endpoints through datamcp for unified querying
-4. **Agencies** — Generate scoped database access links for client reporting without sharing credentials
+1. **Data Analysts** - "What were our top 10 products by revenue last month?" → query directly from AI agent
+2. **Engineering Teams** - Give AI agents read-only production database access for debugging
+3. **Business Operators** - Connect Stripe/Shopify OpenAPI endpoints through datamcp for unified querying
+4. **Agencies** - Generate scoped database access links for client reporting without sharing credentials
 
 ## CorpusIQ Angle
 
@@ -74,4 +74,4 @@ datamcp is complementary to CorpusIQ for operators who need direct database acce
 - Requires datamcp.app account and database connection setup
 - Read-only queries (no write operations through MCP)
 - Query performance depends on datamcp's proxy infrastructure
-- New platform — uptime and reliability TBD
+- New platform - uptime and reliability TBD

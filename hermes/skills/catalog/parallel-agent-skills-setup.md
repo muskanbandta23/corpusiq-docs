@@ -1,5 +1,5 @@
 ---
-title: "parallel-web/parallel-agent-skills — Web Intelligence"
+title: "parallel-web/parallel-agent-skills - Web Intelligence"
 description: Install parallel-web/parallel-agent-skills@parallel-monitor (9.2K installs) for agent-native web search, content extraction, deep research, and data enrichment. Works with Claude Code, Cursor, Codex CLI, and GitHub Copilot.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/parallel-agent-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# parallel-web/parallel-agent-skills — Setup Guide
+# parallel-web/parallel-agent-skills - Setup Guide
 
 **Source:** [parallel-web/parallel-agent-skills](https://github.com/parallel-web/parallel-agent-skills) (9.2K installs for parallel-monitor)
 **Category:** Web Intelligence / Agent Tools
 **Harnesses:** Claude Code, Codex CLI, Cursor, GitHub Copilot, Cline
 
-Web search, content extraction, deep research, and data enrichment for AI coding agents. Built on [Parallel](https://parallel.ai) infrastructure. Provides agents with real-time web access for research, monitoring, and data gathering — without the overhead of managing browser instances.
+Web search, content extraction, deep research, and data enrichment for AI coding agents. Built on [Parallel](https://parallel.ai) infrastructure. Provides agents with real-time web access for research, monitoring, and data gathering - without the overhead of managing browser instances.
 
 ---
 
@@ -62,7 +62,7 @@ parallel-cli status
 | Requirement | Details |
 |---|---|
 | **parallel-cli** | Install via skill setup or directly: `npm i -g parallel-cli` |
-| **API Key** | Get from [parallel.ai](https://parallel.ai) — free tier available |
+| **API Key** | Get from [parallel.ai](https://parallel.ai) - free tier available |
 | **Hermes Agent** | Any version with Claude Code plugin support |
 | **Funded Account** | Required for web extraction (pay-as-you-go) |
 
@@ -207,7 +207,7 @@ parallel-cli monitor --url "https://target.com" --interval 6h
 
 ## See Also
 
-- [Firecrawl Workflows Setup](/hermes/skills/catalog/firecrawl-workflows-setup/) — Web scraping and SEO audits (120K installs)
-- [agent-browser Setup](/hermes/skills/catalog/agent-browser-setup/) — Accessibility-tree browser automation (553K installs)
-- [Apify Agent Skills Setup](/hermes/skills/catalog/apify-agent-skills-setup/) — Web scraping Actors
-- [wshobson Agents Marketplace](/hermes/skills/catalog/wshobson-agents-setup/) — 94-plugin agent marketplace
+- [Firecrawl Workflows Setup](/hermes/skills/catalog/firecrawl-workflows-setup/) - Web scraping and SEO audits (120K installs)
+- [agent-browser Setup](/hermes/skills/catalog/agent-browser-setup/) - Accessibility-tree browser automation (553K installs)
+- [Apify Agent Skills Setup](/hermes/skills/catalog/apify-agent-skills-setup/) - Web scraping Actors
+- [wshobson Agents Marketplace](/hermes/skills/catalog/wshobson-agents-setup/) - 94-plugin agent marketplace

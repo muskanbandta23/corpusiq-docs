@@ -1,5 +1,5 @@
 ---
-title: GTM Agents — Go-to-Market & Sales Methodology for Hermes Growth Agents
+title: GTM Agents - Go-to-Market & Sales Methodology for Hermes Growth Agents
 description: Cold outreach, scriptwriting, procurement playbooks, technical bid libraries, SEO writing, and fraud detection. 1.4K+ combined installs across 6 GTM-focused skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gtm-agents-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# GTM Agents — Setup Guide
+# GTM Agents - Setup Guide
 
 **Source:** [gtmagents/gtm-agents](https://skills.sh/gtmagents/gtm-agents) (1.4K+ combined installs)
 **Category:** Growth / Sales
@@ -35,12 +35,12 @@ npx skills add gtmagents/gtm-agents --skill fraud-detection
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **cold-outreach** | 490 | Multi-channel cold outreach campaigns — email, LinkedIn, calling sequences |
+| **cold-outreach** | 490 | Multi-channel cold outreach campaigns - email, LinkedIn, calling sequences |
 | **scriptwriting** | 265 | Sales call and demo scripts with objection handling patterns |
-| **procurement-playbook** | 182 | Enterprise procurement processes — RFPs, security questionnaires, compliance |
-| **technical-bid-library** | 162 | Technical proposal writing — architecture diagrams, pricing models, SLAs |
+| **procurement-playbook** | 182 | Enterprise procurement processes - RFPs, security questionnaires, compliance |
+| **technical-bid-library** | 162 | Technical proposal writing - architecture diagrams, pricing models, SLAs |
 | **seo-writing** | 148 | SEO-optimized content writing with keyword research and content briefs |
-| **fraud-detection** | 142 | Lead and transaction fraud detection patterns — signals, scoring, verification |
+| **fraud-detection** | 142 | Lead and transaction fraud detection patterns - signals, scoring, verification |
 
 ---
 
@@ -69,7 +69,7 @@ npx skills list | grep gtm-agents
 
 ## Notes
 
-- Community-maintained — lower install base but high signal for growth agents
+- Community-maintained - lower install base but high signal for growth agents
 - `cold-outreach` complements existing CorpusIQ outreach skills
 - `seo-writing` integrates with content strategy workflows
 - `fraud-detection` useful for lead qualification and filtering

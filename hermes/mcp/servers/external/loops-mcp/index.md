@@ -1,6 +1,6 @@
 ---
 title: "Loops MCP Server - CorpusIQ Docs"
-description: Official Loops MCP for AI agents — manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.
+description: Official Loops MCP for AI agents - manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-15
@@ -11,7 +11,7 @@ tags: [email-marketing, transactional-email, contact-management, campaigns, deli
 
 # Loops MCP Server
 
-**MCP server (connection flow via Loops app, paired with CLI and agent skills)** — Loops, the email platform built for software companies, ships an official MCP server for managing contacts, mailing lists, campaigns, transactional email, and account data. It is part of a three-layer agent surface: the MCP server for Claude Code and Claude Desktop, a CLI, and installable agent skills that teach agents the Loops API, CLI, markup language (LMX), and email best practices.
+**MCP server (connection flow via Loops app, paired with CLI and agent skills)** - Loops, the email platform built for software companies, ships an official MCP server for managing contacts, mailing lists, campaigns, transactional email, and account data. It is part of a three-layer agent surface: the MCP server for Claude Code and Claude Desktop, a CLI, and installable agent skills that teach agents the Loops API, CLI, markup language (LMX), and email best practices.
 
 ```
 Server type: MCP server via Loops app connection flow (Claude Code / Claude Desktop)
@@ -25,9 +25,9 @@ Built by: Loops (loops.so)
 
 ## Why This Matters for Operators
 
-Email is the highest-leverage owned channel for software businesses, and it is still run from a dashboard an agent cannot touch. Loops' MCP server closes that gap: the assistant that already knows the signup flow, the lifecycle logic, and the campaign calendar can now execute against the live platform — add a contact, fire a transactional email, check a list, read campaign state — instead of describing what a human should click next.
+Email is the highest-leverage owned channel for software businesses, and it is still run from a dashboard an agent cannot touch. Loops' MCP server closes that gap: the assistant that already knows the signup flow, the lifecycle logic, and the campaign calendar can now execute against the live platform - add a contact, fire a transactional email, check a list, read campaign state - instead of describing what a human should click next.
 
-**The mechanism that matters is the skills layer around the server** — the vendor ships a CLI, API skills, an LMX email-markup skill, and a deliverability best-practices skill, so an agent gets both the tool surface and the operating knowledge in one install.
+**The mechanism that matters is the skills layer around the server** - the vendor ships a CLI, API skills, an LMX email-markup skill, and a deliverability best-practices skill, so an agent gets both the tool surface and the operating knowledge in one install.
 
 ## Tools & Capabilities
 
@@ -46,7 +46,7 @@ Parallel surfaces: REST API at `app.loops.so/api/v1` with a published OpenAPI sp
 ## Installation
 
 ```bash
-# One-shot installer — CLI plus every agent skill
+# One-shot installer - CLI plus every agent skill
 curl -fsSL https://install.loops.so/wizard | sh
 # Skills only
 curl -fsSL https://install.loops.so/skills | sh
@@ -75,7 +75,7 @@ Auth notes: Loops account credentials and API keys are managed in the Loops app 
 - **Founders running software businesses** get lifecycle email operated from inside the agent that owns the product logic
 - **Growth operators** get campaigns, lists, and transactional sends as tool calls instead of dashboard hops
 - **Engineering teams** get the CLI and OpenAPI spec for app-side automation with an agent that already knows both
-- **Deliverability-minded operators** get the email best-practices skill — consent, lifecycle coverage, and transactional-vs-marketing audits
+- **Deliverability-minded operators** get the email best-practices skill - consent, lifecycle coverage, and transactional-vs-marketing audits
 
 ## Integration with CorpusIQ
 
@@ -83,10 +83,10 @@ Loops composes with CorpusIQ's email and analytics connectors as an execution la
 
 ## Limitations
 
-- Brand new MCP listing — no long track record yet
+- Brand new MCP listing - no long track record yet
 - MCP connection flow is documented for Claude Code and Claude Desktop first; other clients go through the REST API or CLI
 - The endpoint URL is provisioned through the vendor's in-app flow, not published as a copy-paste config
-- Commercial SaaS — the MCP surface requires a Loops account and platform subscription
+- Commercial SaaS - the MCP surface requires a Loops account and platform subscription
 - Tool list is vendor-described, not independently enumerated; treat app.loops.so/openapi.json as the REST contract
 
 ## See Also

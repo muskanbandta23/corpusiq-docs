@@ -1,5 +1,5 @@
 ---
-title: ai-video-generation — AI Video Production for Hermes (196K installs)
+title: ai-video-generation - AI Video Production for Hermes (196K installs)
 description: Install and use 101-skills/skills@ai-video-generation (196K installs) for end-to-end AI video production. Script-to-video pipeline, AI avatars, voiceover synthesis, and multi-format export.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-video-generation-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# ai-video-generation — Setup Guide
+# ai-video-generation - Setup Guide
 
 **Source:** [101-skills/skills](https://github.com/101-skills/skills) (196,300 installs)
 **Category:** AI Media / Video Production
@@ -97,7 +97,7 @@ scenes:
     transition: fade-in
   - duration: 30s
     type: presenter
-    content: "Problem statement — AI avatar on screen"
+    content: "Problem statement - AI avatar on screen"
     avatar: business-casual-male
   - duration: 40s
     type: screen-recording
@@ -105,7 +105,7 @@ scenes:
     overlay: presenter-pip
   - duration: 15s
     type: cta
-    content: "Visit corpusiq.io — free trial"
+    content: "Visit corpusiq.io - free trial"
     transition: zoom-out
 ```
 
@@ -201,7 +201,7 @@ ai-video generate \
 
 ## See Also
 
-- [remotion-best-practices](/hermes/skills/catalog/remotion-best-practices-setup/) — Programmatic video with React (430K installs)
-- [hyperframes](/hermes/skills/catalog/) — Template-based AI video generation (108K installs)
-- [corpusiq-ugc-video-strategy](/hermes/skills/catalog/) — CorpusIQ's UGC video content strategy
-- [video-transcription-analysis](/hermes/skills/catalog/) — Extract insights from competitor videos
+- [remotion-best-practices](/hermes/skills/catalog/remotion-best-practices-setup/) - Programmatic video with React (430K installs)
+- [hyperframes](/hermes/skills/catalog/) - Template-based AI video generation (108K installs)
+- [corpusiq-ugc-video-strategy](/hermes/skills/catalog/) - CorpusIQ's UGC video content strategy
+- [video-transcription-analysis](/hermes/skills/catalog/) - Extract insights from competitor videos

@@ -80,7 +80,7 @@ The automation layer reads incoming emails, extracts scheduling intent or follow
 **Workflow:**
 1. Agent reads the email requesting availability
 2. Calls `list_my_calendar_events` for the requested date range
-3. Identifies open slots based on working hours (configurable: default 9 AM–5 PM, timezone-aware)
+3. Identifies open slots based on working hours (configurable: default 9 AM-5 PM, timezone-aware)
 4. Respects buffer rules (no back-to-back meetings, minimum 15-minute gaps)
 5. Formats availability as a clean bulleted list with timezone notation
 6. Optionally generates booking link text for insertion in the reply

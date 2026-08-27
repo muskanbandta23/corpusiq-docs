@@ -1,5 +1,5 @@
 ---
-title: "HPSILab Quant Finance MCP — Options Analytics & Monte"
+title: "HPSILab Quant Finance MCP - Options Analytics & Monte"
 description: "Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations"
 category: mcp
 tags: [mcp-server, hpsilab, quant-finance, options, black-scholes, monte-carlo, greeks, volatility]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# HPSILab — Quant Finance MCP Server
+# HPSILab - Quant Finance MCP Server
 
 ## What It Is
 
@@ -23,7 +23,7 @@ HPSILab is an institutional-grade quantitative finance MCP server. It gives AI a
 |-----------|-------------|
 | `analyze_stock` | Comprehensive stock analysis with fundamentals and technical indicators |
 | `get_iv_radar` | Implied volatility surface visualization and skew analysis |
-| `get_option_pressure` | Options flow analysis — call/put volume, open interest, unusual activity |
+| `get_option_pressure` | Options flow analysis - call/put volume, open interest, unusual activity |
 | `get_monte_carlo` | Monte Carlo path generation, scenario analysis, VaR calculation |
 | `get_ai_prediction` | AI-driven price predictions with confidence intervals |
 | `get_equity_curves` | Strategy backtesting with transaction costs, slippage, benchmark comparison |
@@ -34,7 +34,7 @@ HPSILab is an institutional-grade quantitative finance MCP server. It gives AI a
 ## Quick Start
 
 ```bash
-# Option 1: Remote endpoint (recommended — no local install)
+# Option 1: Remote endpoint (recommended - no local install)
 hermes mcp add hpsilab --url https://hpsilab.com/mcp
 
 # Option 2: Via PyPI (local install)
@@ -78,12 +78,12 @@ See also: [PyPI package](https://pypi.org/project/hpsilab-mcp/) | [Official site
 
 - Requires HPSILab account/API access
 - Quantum ML features are experimental (Qiskit dependency adds complexity)
-- Monte Carlo simulations are compute-intensive — not suitable for real-time trading
-- New server — models and signals unvalidated in production
+- Monte Carlo simulations are compute-intensive - not suitable for real-time trading
+- New server - models and signals unvalidated in production
 
 ## See Also
 
-- SentiSense MCP — for market sentiment and analyst ratings
-- pipeworx-io/mcp-tradier — for real-time stock/options market data
-- Hermes Plant MCP — for deterministic financial computation with crypto rails
-- Kalshi MCP — for prediction market analysis and trading
+- SentiSense MCP - for market sentiment and analyst ratings
+- pipeworx-io/mcp-tradier - for real-time stock/options market data
+- Hermes Plant MCP - for deterministic financial computation with crypto rails
+- Kalshi MCP - for prediction market analysis and trading

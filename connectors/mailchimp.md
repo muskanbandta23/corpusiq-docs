@@ -5,7 +5,7 @@ description: "Pull your Mailchimp campaign performance into the same conversatio
 # Mailchimp
 
 ## What it unlocks
-Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newsletter actually drove sales — not just opens.
+Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newsletter actually drove sales - not just opens.
 
 ## Before you connect
 - A Mailchimp account with admin access.
@@ -37,9 +37,9 @@ Read-only. CorpusIQ never sends mail, edits campaigns, or changes your lists.
 - "Compare my Mailchimp opens to Shopify revenue on the same days."
 
 ## Troubleshooting
-- "Authorization failed" — your Mailchimp session expired. Log into Mailchimp in another tab, then retry Connect.
-- No campaigns appear — confirm the campaigns are in Sent status, not Draft.
-- Wrong audience showing — Mailchimp accounts can have multiple audiences. Specify the audience name in your question.
+- "Authorization failed" - your Mailchimp session expired. Log into Mailchimp in another tab, then retry Connect.
+- No campaigns appear - confirm the campaigns are in Sent status, not Draft.
+- Wrong audience showing - Mailchimp accounts can have multiple audiences. Specify the audience name in your question.
 ---
 
 *

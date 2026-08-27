@@ -1,6 +1,6 @@
 ---
-title: New June 25, 2026 — 33 GBrain Skills Discovered
-description: 33 newly catalogued GBrain skills from garrytan/gbrain — agent identity, orchestration, quality gates, scheduling, research, and brain management tools for Hermes Agents.
+title: New June 25, 2026 - 33 GBrain Skills Discovered
+description: 33 newly catalogued GBrain skills from garrytan/gbrain - agent identity, orchestration, quality gates, scheduling, research, and brain management tools for Hermes Agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june25-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovered — June 25, 2026
+# New Skills Discovered - June 25, 2026
 
 **Source:** [garrytan/gbrain](https://skills.sh/garrytan/gbrain) via [skills.sh](https://skills.sh)
 **Total new:** 33 skills | **Combined installs:** 2,802+
 **Date:** June 25, 2026
 
-A major expansion of the GBrain ecosystem — 33 previously uncatalogued skills from Garry Tan's agent brain layer. These span agent identity generation, subagent orchestration, quality gates, scheduling, research augmentation, and brain knowledge management. All compatible with Hermes Agent via the OpenClaw/Hermes runtime.
+A major expansion of the GBrain ecosystem - 33 previously uncatalogued skills from Garry Tan's agent brain layer. These span agent identity generation, subagent orchestration, quality gates, scheduling, research augmentation, and brain knowledge management. All compatible with Hermes Agent via the OpenClaw/Hermes runtime.
 
 ---
 
@@ -26,7 +26,7 @@ A major expansion of the GBrain ecosystem — 33 previously uncatalogued skills 
 | **soul-audit** | 134 | 6-phase interactive interview generating agent identity (SOUL.md), user profile, access control, and operational cadence. Re-runnable anytime. |
 | **cron-scheduler** | 134 | Schedule management with staggering, quiet hours, and wake-up override for agent automation. |
 | **daily-task-prep** | 134 | Morning preparation: calendar lookahead, meeting context loading, open threads synthesis. |
-| **skillify** | 133 | The meta skill — turn any raw feature into a properly-skilled, tested, documented skill following GBrain conformance standards. |
+| **skillify** | 133 | The meta skill - turn any raw feature into a properly-skilled, tested, documented skill following GBrain conformance standards. |
 | **repo-architecture** | 132 | Decision protocol for filing brain pages by primary domain, functional area, and lifecycle stage. |
 | **signal-detector** | 132 | Always-on ambient signal capture. Fires on every inbound message to detect actionable signals. |
 | **skill-creator** | 130 | Create new skills following the GBrain conformance standard. Generates SKILL.md with triggers, tools, and mutating flags. |
@@ -36,7 +36,7 @@ A major expansion of the GBrain ecosystem — 33 previously uncatalogued skills 
 | **smoke-test** | 110 | Post-restart smoke tests + auto-fix for gbrain and OpenClaw environments. |
 | **frontmatter-guard** | 109 | Validate and auto-repair YAML frontmatter on brain pages. Catches malformed metadata before it corrupts the knowledge base. |
 
-## Mid-Value Tier (50–99 installs)
+## Mid-Value Tier (50-99 installs)
 
 | Skill | Installs | Description |
 |---|---|---|
@@ -58,7 +58,7 @@ A major expansion of the GBrain ecosystem — 33 previously uncatalogued skills 
 | Skill | Installs | Description |
 |---|---|---|
 | **schema-author** | 55 | Evolve the brain's schema pack: add page types, propose new ones from corpus scans, backfill page.type, audit pack health. |
-| **eiirp** | 55 | "Everything In Its Right Place" — universal post-work organizer that files output into proper brain locations after any task. |
+| **eiirp** | 55 | "Everything In Its Right Place" - universal post-work organizer that files output into proper brain locations after any task. |
 | **brain-taxonomist** | 55 | Filing gate for ALL brain writes. Consulted before creating any new page to ensure proper taxonomy placement. |
 | **schema-unify** | 47 | Migrate a brain from gbrain-base to gbrain-base-v2's 14-canonical-type taxonomy via the unify-types Minion handler. |
 | **skill-optimizer** | 40 | Self-evolving skill optimization via SkillOpt-paper-grounded text-space optimizer. Improves skills based on usage patterns. |
@@ -125,4 +125,4 @@ brain-ops, idea-ingest, query, maintain, meeting-ingestion, enrich, data-researc
 ---
 
 *← [Marketplace Overview](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

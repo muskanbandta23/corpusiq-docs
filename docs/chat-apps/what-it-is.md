@@ -13,8 +13,8 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 # What the chat app is
 
-CorpusIQ connects your business tools — accounting, ecommerce, ads, email,
-CRM, analytics — and lets you ask questions across them in plain English. The
+CorpusIQ connects your business tools - accounting, ecommerce, ads, email,
+CRM, analytics - and lets you ask questions across them in plain English. The
 chat app puts that same ability inside Slack and Microsoft Teams.
 
 You type a question in a direct message to the app, or @-mention it in a
@@ -46,7 +46,7 @@ the same workspace who asks the same question gets answers from *their*
 connected tools, not yours.
 
 That's why linking exists. Without it, the app has no way to know whose data to
-read, so it won't guess — it asks you to link first.
+read, so it won't guess - it asks you to link first.
 
 ## What it can answer
 
@@ -57,13 +57,13 @@ orders and inventory, CRM pipeline, web analytics, SEO, and files in your
 cloud drives.
 
 If a tool isn't connected yet, the app tells you plainly and points you to
-connect it — it doesn't invent an answer.
+connect it - it doesn't invent an answer.
 
 ## What it reads, and what it doesn't
 
 The app is read-only against your business tools. It looks things up and reports
 them back. It does not move money, send emails, change records, or post on your
-behalf. Answers are drawn live from your connected tools each time you ask —
+behalf. Answers are drawn live from your connected tools each time you ask -
 direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ## Next

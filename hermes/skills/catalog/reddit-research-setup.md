@@ -1,5 +1,5 @@
 ---
-title: "Reddit Research API — Semantic Search & B2B Lead"
+title: "Reddit Research API - Semantic Search & B2B Lead"
 description: Access Reddit's full data archive via reddapi.dev. Semantic search, trend analysis, and AI-powered B2B lead scoring. 2.8K + 1.3K installs across two skills. Zero Reddit rate limits.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Reddit Research & Leads — Setup Guide
+# Reddit Research & Leads - Setup Guide
 
 **Source:** [lignertys/reddit-research-skill](https://skills.sh/lignertys/reddit-research-skill) (4.1K+ combined installs)
 **Category:** Research / Lead Generation
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Two skills in one repo providing Reddit data access without Reddit's API rate limits. **reddapi** offers semantic search across millions of posts and comments, subreddit discovery, and trend analysis. **reddit-leads** uses AI-powered lead scoring (0-100) to find B2B prospects actively expressing buying intent across 50K+ subreddits.
 
-Key advantage: This is a third-party service, not Reddit official — so there are **no rate limits, no daily quotas, and 24/7 availability**. 1024D vector search matches on meaning, not just keywords.
+Key advantage: This is a third-party service, not Reddit official - so there are **no rate limits, no daily quotas, and 24/7 availability**. 1024D vector search matches on meaning, not just keywords.
 
 ---
 
@@ -42,7 +42,7 @@ npx skills add lignertys/reddit-research-skill --skill reddit-leads
 
 | Requirement | Details |
 |---|---|
-| **API Key** | Sign up at [reddapi.dev](https://reddapi.dev) — Free: 3 searches/mo, Lite $19.9/mo (500 calls), Starter $49/mo (5K), Pro $99/mo (15K) |
+| **API Key** | Sign up at [reddapi.dev](https://reddapi.dev) - Free: 3 searches/mo, Lite $19.9/mo (500 calls), Starter $49/mo (5K), Pro $99/mo (15K) |
 | **Environment** | `export REDDAPI_API_KEY="your_key"` |
 
 ---
@@ -50,7 +50,7 @@ npx skills add lignertys/reddit-research-skill --skill reddit-leads
 ## Key Capabilities
 
 ### Semantic Search (reddapi)
-Natural language search across millions of Reddit posts — no keyword matching, meaning-based:
+Natural language search across millions of Reddit posts - no keyword matching, meaning-based:
 
 ```bash
 # Market research
@@ -58,7 +58,7 @@ curl -X POST "https://reddapi.dev/api/v1/search/semantic" \
   -H "Authorization: Bearer $REDDAPI_API_KEY" \
   -d '{"query": "best productivity tools for remote teams", "limit": 100}'
 
-# Pain point discovery — "I wish there was an app that"
+# Pain point discovery - "I wish there was an app that"
 curl -X POST "https://reddapi.dev/api/v1/search/semantic" \
   -H "Authorization: Bearer $REDDAPI_API_KEY" \
   -d '{"query": "I wish there was an app that", "limit": 100}'
@@ -86,9 +86,9 @@ AI scores every post 0-100 on buying intent with 5 lead type categories:
 |---|---|
 | **pain_point** | User describing a problem, looking for solution |
 | **solution_request** | Actively asking "what tool should I use for X" |
-| **complaint** | Frustrated with current tool — switching signal |
+| **complaint** | Frustrated with current tool - switching signal |
 | **feature_request** | Wants something their tool doesn't have |
-| **comparison** | Evaluating options — ready to buy |
+| **comparison** | Evaluating options - ready to buy |
 
 ### Subreddit Discovery (reddapi)
 
@@ -104,7 +104,7 @@ curl "https://reddapi.dev/api/subreddits/programming" \
 
 ---
 
-## Quick Start — Hermes Agent
+## Quick Start - Hermes Agent
 
 ```bash
 # Set API key
@@ -139,8 +139,8 @@ curl -X POST "https://reddapi.dev/api/v1/search/semantic" \
 
 ## Notes
 
-- **No Reddit API limits**: reddapi.dev is a third-party index — unlimited QPS, no daily quotas
+- **No Reddit API limits**: reddapi.dev is a third-party index - unlimited QPS, no daily quotas
 - **Use cases for CorpusIQ**: Market research, competitive analysis, pain point discovery, B2B lead generation for business operators
-- **Lead scoring**: 0-100 with industry auto-detection — filter for scores >70 for warmest prospects
-- **Free tier**: 3 searches/month — sufficient for evaluation. Lite ($19.9/mo) for production use
+- **Lead scoring**: 0-100 with industry auto-detection - filter for scores >70 for warmest prospects
+- **Free tier**: 3 searches/month - sufficient for evaluation. Lite ($19.9/mo) for production use
 - **Related skills**: reddit-praw-automation, help-first-community-engagement

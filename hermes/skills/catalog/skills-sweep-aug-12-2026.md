@@ -1,5 +1,5 @@
 ---
-title: Skills.sh Sweep — August 12, 2026
+title: Skills.sh Sweep - August 12, 2026
 description: Automated marketplace sweep discovering 7 new/undocumented Hermes Agent skills from the 215-skill nousresearch/hermes-agent catalog. 7 setup guides drafted and pushed.
 date: 2026-08-12
 sweep_id: aug-12-2026-cron
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Skills.sh Sweep — August 12, 2026 (Cron Update)
+# Skills.sh Sweep - August 12, 2026 (Cron Update)
 
 Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace. Cross-referenced the full 215-skill `nousresearch/hermes-agent` catalog plus external marketplace listings against the existing 380+ entry catalog at `corpusiq-docs/hermes/skills/catalog/`.
 
@@ -38,10 +38,10 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 ## Skill Details
 
 ### 1. heartmula (224 installs)
-Open-source AI music generation with HeartMuLa models (Apache 2.0). Four-model pipeline: HeartMuLa (3B/7B music LM), HeartCodec (12.5Hz audio codec), HeartTranscriptor (Whisper-based lyrics), HeartCLAP (audio-text alignment). Suno/Udio alternative — local, offline, no API keys.
+Open-source AI music generation with HeartMuLa models (Apache 2.0). Four-model pipeline: HeartMuLa (3B/7B music LM), HeartCodec (12.5Hz audio codec), HeartTranscriptor (Whisper-based lyrics), HeartCLAP (audio-text alignment). Suno/Udio alternative - local, offline, no API keys.
 
 ### 2. simplify-code (187 installs)
-Parallel code review with four focused reviewers running concurrently: Reuse (DRY), Quality (maintainability), Efficiency (performance), Altitude (architecture). Cleanup pass, not bug hunt — removes duplication, flattens complexity, cuts waste. Each reviewer runs in parallel.
+Parallel code review with four focused reviewers running concurrently: Reuse (DRY), Quality (maintainability), Efficiency (performance), Altitude (architecture). Cleanup pass, not bug hunt - removes duplication, flattens complexity, cuts waste. Each reviewer runs in parallel.
 
 ### 3. ideation (111 installs)
 Constraint-driven creative ideation. Generates 3 concrete project ideas from a creative constraint library, then builds the chosen one. Philosophy: constraint + direction = creativity. Works for code, art, hardware, tools.
@@ -50,7 +50,7 @@ Constraint-driven creative ideation. Generates 3 concrete project ideas from a c
 Multi-agent development workflow. Dispatches fresh subagents per task with systematic two-stage review (spec compliance then quality). Clean context per task, automated gating between steps. Consumes `plan` skill output.
 
 ### 5. linear (80 installs)
-Linear.app integration via GraphQL API using curl. No MCP server, no OAuth — just an API key. Manage issues, projects, sprints, and team workloads from Hermes. Both UUID and short IDs (ENG-123) work.
+Linear.app integration via GraphQL API using curl. No MCP server, no OAuth - just an API key. Manage issues, projects, sprints, and team workloads from Hermes. Both UUID and short IDs (ENG-123) work.
 
 ### 6. webhook-subscriptions (80 installs)
 External service webhook triggers for Hermes. GitHub pushes, Stripe events, CI/CD completions become agent triggers. HMAC signature verification, per-subscription routing, dynamic subscription management.
@@ -85,11 +85,11 @@ Full cross-reference against the 215-skill nousresearch/hermes-agent catalog con
 |--------|-----------------|--------|--------|-------|
 | Catalog entries | 358+ | 363+ | 370+ | +7 |
 | Official skills tracked | 34 | 36 | 43 | +7 |
-| Guides drafted this sweep | — | 5 | 7 | +7 |
+| Guides drafted this sweep | - | 5 | 7 | +7 |
 | nousresearch/hermes-agent coverage | ~170/215 | ~175/215 | ~182/215 | +7 |
 
 ---
 
-**Next sweep:** Automated cron — next run.
+**Next sweep:** Automated cron - next run.
 
 *Powered by CorpusIQ*

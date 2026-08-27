@@ -1,5 +1,5 @@
 ---
-title: "MCP Long-Term Memory (GraphRAG) — Persistent Agent Memory"
+title: "MCP Long-Term Memory (GraphRAG) - Persistent Agent Memory"
 description: "GraphRAG-backed long-term memory for AI agents via MCP. Neo4j knowledge graph storage for cross-session context persistence. First open-source GraphRAG MCP"
 category: mcp
 tags: [mcp-server, graphrag, memory, neo4j, knowledge-graph, agent-infrastructure]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# MCP Long-Term Memory — GraphRAG Memory Server
+# MCP Long-Term Memory - GraphRAG Memory Server
 
 ## What It Is
 
@@ -17,7 +17,7 @@ A Model Context Protocol (MCP) server that provides GraphRAG-based long-term mem
 
 **GitHub**: https://github.com/null-create/mcp-long-term-memory (Python, new)
 
-**Why GraphRAG**: Unlike simple vector stores that retrieve semantically similar chunks, GraphRAG builds a knowledge graph — entities, relationships, and communities — enabling multi-hop reasoning and structured recall that vectors alone cannot provide.
+**Why GraphRAG**: Unlike simple vector stores that retrieve semantically similar chunks, GraphRAG builds a knowledge graph - entities, relationships, and communities - enabling multi-hop reasoning and structured recall that vectors alone cannot provide.
 
 ## Tools Available
 
@@ -90,8 +90,8 @@ Knowledge Graph
 ## Business Use Cases
 
 1. **Persistent Agent Assistants**: Agents that remember user preferences, past decisions, and project context across sessions
-2. **Enterprise Knowledge Base**: Auto-building knowledge graphs from agent interactions — every question asked and answer found becomes structured knowledge
-3. **Multi-Agent Memory**: Shared knowledge graph across a fleet of agents — "what did the research agent learn that the operations agent needs?"
+2. **Enterprise Knowledge Base**: Auto-building knowledge graphs from agent interactions - every question asked and answer found becomes structured knowledge
+3. **Multi-Agent Memory**: Shared knowledge graph across a fleet of agents - "what did the research agent learn that the operations agent needs?"
 4. **Audit Trail**: Every agent decision and its context stored as a queryable graph for compliance
 
 ## Comparison: Vector vs. GraphRAG Memory
@@ -108,11 +108,11 @@ Knowledge Graph
 ## Limitations
 
 - Requires running Neo4j instance (operational overhead)
-- New server — GraphRAG integration may be incomplete
+- New server - GraphRAG integration may be incomplete
 - GraphRAG quality depends on LLM extraction quality (garbage in, garbage out)
 - Not a drop-in replacement for simpler vector memory solutions
 
 ## See Also
 
-- Honcho MCP — for session-based agent memory and user modeling
-- Mem0 — for vector-based agent memory (simpler, no graph DB required)
+- Honcho MCP - for session-based agent memory and user modeling
+- Mem0 - for vector-based agent memory (simpler, no graph DB required)

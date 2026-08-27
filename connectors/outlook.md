@@ -5,7 +5,7 @@ description: "Pull your Outlook inbox and calendar into the conversation. Ask wh
 # Outlook
 
 ## What it unlocks
-Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you, or what's blocking a deal — without opening Outlook.
+Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you, or what's blocking a deal - without opening Outlook.
 
 ## Before you connect
 - A Microsoft 365 or Outlook.com account.
@@ -37,9 +37,9 @@ Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates even
 - "Summarize this morning's unread mail."
 
 ## Troubleshooting
-- "Admin approval required" — your IT admin must whitelist CorpusIQ in Microsoft Entra. Send them the consent URL from your dashboard.
-- Calendar empty — confirm the events are in your default calendar, not a shared/team calendar.
-- "Token expired" — Microsoft tokens roll over often. Click Reconnect in your dashboard.
+- "Admin approval required" - your IT admin must whitelist CorpusIQ in Microsoft Entra. Send them the consent URL from your dashboard.
+- Calendar empty - confirm the events are in your default calendar, not a shared/team calendar.
+- "Token expired" - Microsoft tokens roll over often. Click Reconnect in your dashboard.
 ---
 
 *

@@ -12,9 +12,9 @@ Real ROAS in one question. No spreadsheets, no manual data pulls.
 
 1. A CorpusIQ account (free trial at [corpusiq.io](https://corpusiq.io))
 2. These connectors connected:
-   - **Shopify** — for revenue, orders, and customer data
-   - **Meta Ads** (Facebook/Instagram) — for ad spend and campaign data
-   - **Google Ads** — for ad spend and campaign data
+   - **Shopify** - for revenue, orders, and customer data
+   - **Meta Ads** (Facebook/Instagram) - for ad spend and campaign data
+   - **Google Ads** - for ad spend and campaign data
 3. CorpusIQ added to your AI tool (Claude Desktop, ChatGPT, or Cursor)
 
 ## What We're Building

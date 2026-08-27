@@ -9,21 +9,21 @@ repository: "https://github.com/dokumendiregister/dokumendiregister"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dokumendiregister-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "dokumendiregister MCP — Estonian Public Document Search"
+title: "dokumendiregister MCP - Estonian Public Document Search"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# dokumendiregister MCP — Estonian Public Document Search
+# dokumendiregister MCP - Estonian Public Document Search
 
 A free, no-authentication MCP server that searches Estonian public-authority document registers (dokumendiregistrid). One search across all authorities, with every document linked to the companies named in it. Built on dokumendiregister.ee open data.
 
 ## What It Does
 
-- **Unified search** — Search across all Estonian public authority document registers in one query
-- **Company linking** — Every document is linked to the companies named within it
-- **No API key** — Completely open access, no authentication required
-- **Open data** — Built on Estonia's public dokumendiregister.ee infrastructure
+- **Unified search** - Search across all Estonian public authority document registers in one query
+- **Company linking** - Every document is linked to the companies named within it
+- **No API key** - Completely open access, no authentication required
+- **Open data** - Built on Estonia's public dokumendiregister.ee infrastructure
 
 ## Quick Start
 
@@ -53,10 +53,10 @@ hermes mcp add dokumendiregister -- npx tsx /path/to/dokumendiregister/src/index
 
 ## Use Cases
 
-- **Due diligence** — Search for all public documents mentioning a target company
-- **Compliance monitoring** — Track regulatory filings and public notices for monitored entities
-- **Legal research** — Cross-reference company documents across multiple authorities
-- **Market intelligence** — Monitor competitors' public filings in Estonia
+- **Due diligence** - Search for all public documents mentioning a target company
+- **Compliance monitoring** - Track regulatory filings and public notices for monitored entities
+- **Legal research** - Cross-reference company documents across multiple authorities
+- **Market intelligence** - Monitor competitors' public filings in Estonia
 
 ---
 

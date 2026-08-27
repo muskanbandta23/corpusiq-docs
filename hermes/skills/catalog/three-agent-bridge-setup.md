@@ -1,6 +1,6 @@
 ---
 title: Three-Agent Bridge Protocol Setup Guide
-description: Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge — real-time sync protocol for multi-agent Hermes deployments across separate machines
+description: Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge - real-time sync protocol for multi-agent Hermes deployments across separate machines
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/three-agent-bridge-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -20,7 +20,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ## 1. What It Is
 
-A real-time synchronization protocol for three Hermes agents: **Human + Desktop Hermes + VPS Hermes**. Uses a shared JSONL bridge file as the common communication channel — solving the fundamental problem that Hermes bots can't join Telegram group chats and two agents in separate DMs can't see each other's conversations.
+A real-time synchronization protocol for three Hermes agents: **Human + Desktop Hermes + VPS Hermes**. Uses a shared JSONL bridge file as the common communication channel - solving the fundamental problem that Hermes bots can't join Telegram group chats and two agents in separate DMs can't see each other's conversations.
 
 ### Architecture
 
@@ -127,7 +127,7 @@ Each line in `bridge-chat.jsonl` is a JSON object:
 ```json
 {"sender": "desktop", "level": 10, "text": "Starting deployment pipeline...", "ts": "2026-06-24T14:30:00Z"}
 {"sender": "vps", "level": 20, "text": "Pipeline received. Executing step 1...", "ts": "2026-06-24T14:30:02Z"}
-{"sender": "human", "level": 5, "text": "Hold deployment — I need to review the config first", "ts": "2026-06-24T14:30:05Z"}
+{"sender": "human", "level": 5, "text": "Hold deployment - I need to review the config first", "ts": "2026-06-24T14:30:05Z"}
 ```
 
 ### Priority Levels
@@ -182,7 +182,7 @@ hermes -s three-agent-bridge "Check bridge for messages since last read"
 
 ## 8. Pitfalls (From Real-World Deployment)
 
-- **Symlinked bridge files:** If the bridge is a symlink, `tail` follows it but `cp` replaces it — use `cp -a` to preserve.
+- **Symlinked bridge files:** If the bridge is a symlink, `tail` follows it but `cp` replaces it - use `cp -a` to preserve.
 - **SSH key expiry:** SSH-based polling breaks when keys expire. Use certificate-based auth or keychain.
 - **Polling vs push:** 2-second polling on SSH creates ~43K SSH connections/day. Consider Syncthing for lower overhead.
 - **File locking:** Simultaneous writes can corrupt the JSONL file. Use atomic writes (write to temp, rename) on both sides.

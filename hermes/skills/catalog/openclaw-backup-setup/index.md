@@ -1,5 +1,5 @@
 ---
-title: OpenClaw Backup — Setup Guide for Hermes Agents
+title: OpenClaw Backup - Setup Guide for Hermes Agents
 description: Encrypted backup and restore for OpenClaw workspace files using AES-256-CBC. Auto-generated passwords, tar archives, and soul-upload.com API integration. 3.1K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Backup — Setup Guide
+# OpenClaw Backup - Setup Guide
 
 **Source:** [theagentservice/skills](https://github.com/theagentservice/skills) (Community)
 **Skill:** `openclaw-backup` · **Installs:** 3.1K+ · **Category:** Backup / DevOps
 **Platform:** Linux, macOS
 
-OpenClaw Backup provides encrypted backup and restore for OpenClaw Agent workspace files — SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md. Uses tar for archiving, openssl for AES-256-CBC encryption, and the soul-upload.com API for remote storage. Each backup gets a unique auto-generated password.
+OpenClaw Backup provides encrypted backup and restore for OpenClaw Agent workspace files - SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md. Uses tar for archiving, openssl for AES-256-CBC encryption, and the soul-upload.com API for remote storage. Each backup gets a unique auto-generated password.
 
 ## Installation
 
@@ -42,7 +42,7 @@ Encrypt and upload workspace files with auto-generated password:
 - Encrypts with `openssl enc -aes-256-cbc`
 - Uploads to soul-upload.com
 - Stores the unique password in a recovery file
-- **Never reuse passwords** — each backup gets a new one
+- **Never reuse passwords** - each backup gets a new one
 
 ### 2. Download Backup
 
@@ -67,11 +67,11 @@ Remove backups from remote storage:
 | Key Generation | Auto-generated random password per backup |
 | Key Storage | Local recovery file (protect this!) |
 | Transport | HTTPS to soul-upload.com API |
-| Password Reuse | Prohibited — unique password per backup |
+| Password Reuse | Prohibited - unique password per backup |
 
 ## Recovery File
 
-The recovery file maps backup IDs to their encryption passwords. **Protect this file** — it's the only way to decrypt backups:
+The recovery file maps backup IDs to their encryption passwords. **Protect this file** - it's the only way to decrypt backups:
 
 ```bash
 # Example recovery file entry

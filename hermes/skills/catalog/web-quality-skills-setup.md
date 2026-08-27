@@ -1,6 +1,6 @@
 ---
-title: "web-quality-skills — Google-Grade Web Quality Audits"
-description: Install and use addyosmani/web-quality-skills — accessibility, SEO, performance, and comprehensive web quality audits from Google Chrome's engineering lead. WCAG 2.1, Core Web Vitals, structured data validation.
+title: "web-quality-skills - Google-Grade Web Quality Audits"
+description: Install and use addyosmani/web-quality-skills - accessibility, SEO, performance, and comprehensive web quality audits from Google Chrome's engineering lead. WCAG 2.1, Core Web Vitals, structured data validation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-quality-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# web-quality-skills — Setup Guide
+# web-quality-skills - Setup Guide
 
 **Source:** [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) (37,000 installs)
 **Category:** Web Quality / SEO
@@ -30,7 +30,7 @@ npx skills add addyosmani/web-quality-skills@seo
 # Performance audit
 npx skills add addyosmani/web-quality-skills@performance
 
-# Combined audit (recommended — runs all three)
+# Combined audit (recommended - runs all three)
 npx skills add addyosmani/web-quality-skills@web-quality-audit
 ```
 
@@ -135,11 +135,11 @@ web-quality performance \
 
 **Performance metrics:**
 - FCP (First Contentful Paint)
-- LCP (Largest Contentful Paint) — target <2.5s
-- TBT (Total Blocking Time) — target <200ms
-- CLS (Cumulative Layout Shift) — target <0.1
-- INP (Interaction to Next Paint) — target <200ms
-- Speed Index — target <3.4s
+- LCP (Largest Contentful Paint) - target <2.5s
+- TBT (Total Blocking Time) - target <200ms
+- CLS (Cumulative Layout Shift) - target <0.1
+- INP (Interaction to Next Paint) - target <200ms
+- Speed Index - target <3.4s
 
 **Bundle analysis:**
 - Chunk size breakdown (per-route code splitting audit)
@@ -159,12 +159,12 @@ web-quality audit \
 ```
 
 **Combined report structure:**
-1. **Executive summary** — overall score, critical issues count, estimated fix time
-2. **Critical issues** (must fix — blocking, legal risk, SEO penalty)
-3. **High priority** (should fix — user impact, ranking impact)
-4. **Medium priority** (nice to fix — minor UX, optimization)
-5. **Low priority** (cosmetic — no user/ranking impact)
-6. **Fix timeline** — estimated effort per issue, recommended order
+1. **Executive summary** - overall score, critical issues count, estimated fix time
+2. **Critical issues** (must fix - blocking, legal risk, SEO penalty)
+3. **High priority** (should fix - user impact, ranking impact)
+4. **Medium priority** (nice to fix - minor UX, optimization)
+5. **Low priority** (cosmetic - no user/ranking impact)
+6. **Fix timeline** - estimated effort per issue, recommended order
 
 ---
 
@@ -270,7 +270,7 @@ done
 
 ## See Also
 
-- [marketingskills](/hermes/skills/catalog/marketingskills-setup/) — SEO audit + content strategy (160K installs)
-- [firecrawl-seo-audit](/hermes/skills/catalog/firecrawl-workflows-setup/) — Technical SEO crawl (29.2K installs)
-- [vercel-agent-skills](/hermes/skills/catalog/vercel-agent-skills-setup/) — Web design guidelines + optimization (29K installs)
-- [seo-geo](/hermes/skills/catalog/) — Generative Engine Optimization for AI search
+- [marketingskills](/hermes/skills/catalog/marketingskills-setup/) - SEO audit + content strategy (160K installs)
+- [firecrawl-seo-audit](/hermes/skills/catalog/firecrawl-workflows-setup/) - Technical SEO crawl (29.2K installs)
+- [vercel-agent-skills](/hermes/skills/catalog/vercel-agent-skills-setup/) - Web design guidelines + optimization (29K installs)
+- [seo-geo](/hermes/skills/catalog/) - Generative Engine Optimization for AI search

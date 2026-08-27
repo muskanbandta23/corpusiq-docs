@@ -1,13 +1,13 @@
 ---
-title: Tiangong AI Skills — Email & Research Data Fetching Suite Setup
-description: "tiangong-ai/skills — 58 skills, 9.0K installs: email SMTP send and IMAP fetch, plus a research data-fetching suite over GDELT, regulations.gov, NASA FIRMS, Open-Meteo, EPA AirNow, USGS, Bluesky, YouTube, scientific journals, and Figshare."
+title: Tiangong AI Skills - Email & Research Data Fetching Suite Setup
+description: "tiangong-ai/skills - 58 skills, 9.0K installs: email SMTP send and IMAP fetch, plus a research data-fetching suite over GDELT, regulations.gov, NASA FIRMS, Open-Meteo, EPA AirNow, USGS, Bluesky, YouTube, scientific journals, and Figshare."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tiangong-ai-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "email", "smtp", "imap", "research", "data fetching"]
 ---
 
-# Tiangong AI Skills — Setup Guide
+# Tiangong AI Skills - Setup Guide
 
 **Source:** [tiangong-ai/skills](https://skills.sh/tiangong-ai/skills)
 **GitHub:** [tiangong-ai/skills](https://github.com/tiangong-ai/skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "email", "smtp", "imap", "r
 **First Seen:** catalogued August 15, 2026 midday sweep
 **Quality Tier:** 🟡 Trusted (publisher is the Tiangong national AI platform org, Beijing Academy of AI; suite verified at 9.0K on publisher page)
 
-Tiangong publishes the largest research-data-fetching suite we have catalogued: 58 skills spanning email (SMTP send, IMAP fetch and append), scientific journal search, and a wide net of public data sources — GDELT, regulations.gov, NASA FIRMS fire data, Open-Meteo, EPA AirNow, USGS water data, the Federal Register, Bluesky cascades, YouTube comments, and Figshare datasets.
+Tiangong publishes the largest research-data-fetching suite we have catalogued: 58 skills spanning email (SMTP send, IMAP fetch and append), scientific journal search, and a wide net of public data sources - GDELT, regulations.gov, NASA FIRMS fire data, Open-Meteo, EPA AirNow, USGS water data, the Federal Register, Bluesky cascades, YouTube comments, and Figshare datasets.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: STEADYWRK Dispatch MCP Server Integration Guide
-description: Field-service dispatch for AI agents — instant quotes, tracked work orders, and public evals across 8 trade verticals. Connect field operations to Hermes Agent.
+description: Field-service dispatch for AI agents - instant quotes, tracked work orders, and public evals across 8 trade verticals. Connect field operations to Hermes Agent.
 category: mcp
 tags: [mcp, field-service, dispatch, work-orders, quotes, trade-operations, hermes-agent]
 last_updated: 2026-07-26
@@ -9,19 +9,19 @@ robots: "index,follow"
 
 ---
 
-# STEADYWRK Dispatch MCP — Field-Service Operations for Hermes Agent
+# STEADYWRK Dispatch MCP - Field-Service Operations for Hermes Agent
 
-STEADYWRK Dispatch connects AI agents to real-world field operations — price jobs, create tracked work orders, and inspect published capability evaluations across 8 trade verticals. Built by a sovereign AI company in Aqaba, Jordan.
+STEADYWRK Dispatch connects AI agents to real-world field operations - price jobs, create tracked work orders, and inspect published capability evaluations across 8 trade verticals. Built by a sovereign AI company in Aqaba, Jordan.
 
 ## What It Does
 
 STEADYWRK Dispatch turns your AI agent into a field-service dispatcher:
 
-- **Instant quotes** — Price any job across 8 trade verticals with `dispatch.quote`
-- **Tracked work orders** — Create and monitor work orders through completion with `dispatch.order`
-- **Public evals** — Inspect published capability evaluations and trade indexes with `dispatch.evals` and `dispatch.index`
-- **Zero-setup public tools** — Evals and index are free, no API key required
-- **Audit log** — Every decision is logged and traceable
+- **Instant quotes** - Price any job across 8 trade verticals with `dispatch.quote`
+- **Tracked work orders** - Create and monitor work orders through completion with `dispatch.order`
+- **Public evals** - Inspect published capability evaluations and trade indexes with `dispatch.evals` and `dispatch.index`
+- **Zero-setup public tools** - Evals and index are free, no API key required
+- **Audit log** - Every decision is logged and traceable
 
 ## Quick Setup
 
@@ -72,7 +72,7 @@ Create and track field-service work orders from natural language:
 
 ```
 Agent prompt: "Create a work order for the plumbing repair at
-123 Main St — leaking water heater, tenant reports water damage.
+123 Main St - leaking water heater, tenant reports water damage.
 Priority: high. Schedule for tomorrow morning. Notify the tenant
 when the tech is en route."
 ```
@@ -110,12 +110,12 @@ This replaces the manual "receive email, call trades, get paper quote, type invo
 ## Pricing
 
 - **Public tools (evals, index):** Free, no signup required
-- **Quote and order tools:** API key required — contact STEADYWRK for pricing
+- **Quote and order tools:** API key required - contact STEADYWRK for pricing
 - **8 trade verticals:** HVAC, plumbing, electrical, roofing, general contracting, landscaping, pest control, cleaning
 
 ## Limitations
 
-- Currently 8 trade verticals — specialized trades (elevator, fire systems, industrial) not yet covered
+- Currently 8 trade verticals - specialized trades (elevator, fire systems, industrial) not yet covered
 - Quote accuracy depends on published trade evals being current
 - API key required for write operations (quote, order)
 - No webhook/event callback for status changes (polling required)

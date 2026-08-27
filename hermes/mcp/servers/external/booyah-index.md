@@ -1,5 +1,5 @@
 ---
-title: "Booyah Index MCP — Southeast Asia Business Directory"
+title: "Booyah Index MCP - Southeast Asia Business Directory"
 description: "Free AI-readable directory of 3,520 local businesses across 14 Southeast Asian cities. Search restaurants, services, and local businesses in Bangkok"
 category: mcp
 tags: [mcp-server, business-directory, southeast-asia, local-business, travel, market-research]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Booyah Index MCP — SE Asia Business Directory
+# Booyah Index MCP - SE Asia Business Directory
 
 ## What It Is
 
-Booyah Index MCP (`sarapab-th/booyah-index-mcp`) provides an AI-readable directory of 3,520 local businesses across 14 Southeast Asian cities — Bangkok, Singapore, Bali, Kuala Lumpur, Ho Chi Minh City, and more. Market researchers, expansion teams, and travel operators can search and analyze local business landscapes without scraping or manual research.
+Booyah Index MCP (`sarapab-th/booyah-index-mcp`) provides an AI-readable directory of 3,520 local businesses across 14 Southeast Asian cities - Bangkok, Singapore, Bali, Kuala Lumpur, Ho Chi Minh City, and more. Market researchers, expansion teams, and travel operators can search and analyze local business landscapes without scraping or manual research.
 
 ## Tools Available
 
@@ -39,7 +39,7 @@ npx mcp-remote https://getbooyah.com/api/mcp
 ## Limitations
 
 - **SE Asia only**: 14 cities, no coverage outside Southeast Asia
-- **Static directory**: Not real-time — data freshness depends on Booyah's update cycle
+- **Static directory**: Not real-time - data freshness depends on Booyah's update cycle
 - **Limited depth**: 3,520 businesses across 14 cities averages ~250/city
 
 ## See Also

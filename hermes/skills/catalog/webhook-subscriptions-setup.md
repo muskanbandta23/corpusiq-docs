@@ -1,6 +1,6 @@
 ---
-title: Webhook Subscriptions — Skill Setup Guide
-description: Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints — 80 installs.
+title: Webhook Subscriptions - Skill Setup Guide
+description: Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints - 80 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/webhook-subscriptions-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Webhook Subscriptions — Setup Guide
+# Webhook Subscriptions - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/webhook-subscriptions) (80 installs)
 **Category:** Automation / Integration
 **License:** MIT · **Platforms:** Linux, macOS
 **Dependencies:** Hermes Agent, Hermes Gateway with webhook platform enabled
 
-Create dynamic webhook subscriptions so external services can trigger Hermes agent runs by POSTing events to a URL. GitHub pushes, Stripe payment events, CI/CD pipeline completions, IoT sensor alerts — any service that can send an HTTP POST becomes a trigger for Hermes to take action.
+Create dynamic webhook subscriptions so external services can trigger Hermes agent runs by POSTing events to a URL. GitHub pushes, Stripe payment events, CI/CD pipeline completions, IoT sensor alerts - any service that can send an HTTP POST becomes a trigger for Hermes to take action.
 
 ---
 
@@ -24,7 +24,7 @@ Create dynamic webhook subscriptions so external services can trigger Hermes age
 | Capability | How |
 |-----------|-----|
 | **Event-driven agent runs** | External service POSTs → Hermes processes event |
-| **HMAC signature verification** | Prevents spoofed requests — only trusted sources trigger |
+| **HMAC signature verification** | Prevents spoofed requests - only trusted sources trigger |
 | **Payload-to-context injection** | Webhook body becomes agent context |
 | **Per-subscription filtering** | Route different events to different profiles/skills |
 | **Dynamic subscription management** | Create, list, delete subscriptions from Hermes |
@@ -117,7 +117,7 @@ ngrok http 8742
 ```
 > Subscribe to GitHub push events for corpusiq/api
 > Create a Stripe webhook for payment_intent.succeeded events
-> Watch my CI pipeline — trigger on build complete
+> Watch my CI pipeline - trigger on build complete
 ```
 
 ### Listing and managing
@@ -168,7 +168,7 @@ ngrok http 8742
 
 ## Tips
 
-- **One subscription per event source:** Don't multiplex — create separate subscriptions for GitHub, Stripe, CI
+- **One subscription per event source:** Don't multiplex - create separate subscriptions for GitHub, Stripe, CI
 - **Profile routing:** Route production events to your ops profile, dev events to your dev profile
 - **Test with sample payloads:** Use the test command before wiring up live services
 - **Monitor in gateway logs:** `hermes gateway logs` shows incoming webhook activity

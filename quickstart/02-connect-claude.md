@@ -4,7 +4,7 @@ description: "CorpusIQ runs as an MCP server, which is the standard way AI assis
 ---
 # 2. Connect CorpusIQ to Claude
 
-CorpusIQ runs as an **MCP server** — a standard way for AI assistants to talk
+CorpusIQ runs as an **MCP server** - a standard way for AI assistants to talk
 to outside data. Claude Desktop has built-in MCP support, so this takes about
 two minutes.
 
@@ -18,12 +18,12 @@ two minutes.
 
 1. In CorpusIQ, open **Settings → Integrations → Claude Desktop**. Copy the
    MCP configuration block we generate for you. It contains your personal API
-   token — don't share it.
+   token - don't share it.
 2. Open Claude Desktop. Click your name → **Settings → Developer →
    Edit Config**. This opens `claude_desktop_config.json` in your editor.
 3. Paste the block from CorpusIQ into the `mcpServers` section. If the file
    was empty, just paste the whole thing.
-4. Save the file and fully quit Claude Desktop (not just close the window —
+4. Save the file and fully quit Claude Desktop (not just close the window -
    quit it from the menu bar).
 5. Reopen Claude. You should see a small plug/tools icon near the message box
    indicating MCP tools are available.
@@ -38,7 +38,7 @@ In Claude, type:
 
 > What CorpusIQ connectors do I have configured?
 
-You should get back a status table listing every connector — most marked
+You should get back a status table listing every connector - most marked
 "Not connected" since you haven't authenticated any yet. That's expected.
 
 ## Next

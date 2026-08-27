@@ -1,6 +1,6 @@
 ---
-title: "ClaraConverts MCP — Website Conversion Agent, Provisioned and Managed Over MCP"
-description: "MCP server for ClaraConverts, a 24/7 AI conversion agent for websites: 9 tools provision and manage the account — pricing, trial tenant, embed snippet, site knowledge refresh, integration config and upgrades — over Streamable HTTP."
+title: "ClaraConverts MCP - Website Conversion Agent, Provisioned and Managed Over MCP"
+description: "MCP server for ClaraConverts, a 24/7 AI conversion agent for websites: 9 tools provision and manage the account - pricing, trial tenant, embed snippet, site knowledge refresh, integration config and upgrades - over Streamable HTTP."
 category: Marketing & Conversion
 stars: n/a (new listing)
 added: 2026-08-21
@@ -11,7 +11,7 @@ tags: [conversion, cro, website, lead-capture, ai-agent, provisioning, marketing
 
 # ClaraConverts MCP
 
-**Provision and manage a website conversion agent entirely through tool calls.** ClaraConverts answers visitor questions, guides decisions and captures leads on any website with a one-line embed. Its MCP server is the account layer: an agent can check pricing, spin up a 14-day trial tenant, fetch the embed snippet, refresh the site knowledge base, configure integrations, list Cal.com event types and generate upgrade links — no dashboard clicking.
+**Provision and manage a website conversion agent entirely through tool calls.** ClaraConverts answers visitor questions, guides decisions and captures leads on any website with a one-line embed. Its MCP server is the account layer: an agent can check pricing, spin up a 14-day trial tenant, fetch the embed snippet, refresh the site knowledge base, configure integrations, list Cal.com event types and generate upgrade links - no dashboard clicking.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: ClaraConverts (companion repo: github.com/cognicores/claraconverts-age
 
 A website conversion agent is only useful once it's live, trained on the site and wired into the tools that book the meetings. That setup is normally a sequence of dashboard steps. **ClaraConverts' MCP makes the agent do its own onboarding**: `create_trial_tenant` mints the account, `get_embed_snippet` returns the one-liner to install, `refresh_site_knowledge` retrains on the site after a redesign, and `configure_integration` wires Cal.com so booked meetings land on your calendar.
 
-The free-to-start model matters too — public tools (pricing, integrations, trial creation) work without credentials, so an agent can evaluate the product before you commit.
+The free-to-start model matters too - public tools (pricing, integrations, trial creation) work without credentials, so an agent can evaluate the product before you commit.
 
 ## Tools & Capabilities
 
@@ -75,11 +75,11 @@ Public tools need no auth. Account tools send `Authorization: Bearer <token>` fr
 
 ## Integration with CorpusIQ
 
-ClaraConverts captures the leads; CorpusIQ routes and measures them. A composed workflow has the conversion agent qualify visitors on-site while CorpusIQ's CRM connectors (HubSpot, Close) receive the captured leads and GA4 tracks the conversion path that produced them — one session can then answer "how many of this week's site leads came from the ClaraConverts agent, and what did they buy" across both surfaces.
+ClaraConverts captures the leads; CorpusIQ routes and measures them. A composed workflow has the conversion agent qualify visitors on-site while CorpusIQ's CRM connectors (HubSpot, Close) receive the captured leads and GA4 tracks the conversion path that produced them - one session can then answer "how many of this week's site leads came from the ClaraConverts agent, and what did they buy" across both surfaces.
 
 ## Limitations
 
-- Backend is closed-source (companion repo only) — you depend on the hosted service
+- Backend is closed-source (companion repo only) - you depend on the hosted service
 - MCP surface is provisioning and management, not the live conversation data
 - Paid plans start at $49/mo after the 14-day trial
 - Brand new listing (Aug 2026), no track record yet

@@ -36,9 +36,9 @@ CorpusIQ never sends mail or edits contacts.
 - "Compare my email send days to GA4 traffic spikes."
 
 ## Troubleshooting
-- **"Token expired"** — Constant Contact tokens refresh automatically, but if you see this, disconnect and reconnect.
-- **Empty contact list** — Make sure the account you authorized actually owns the lists you're expecting.
-- **Campaign metrics look low** — The connector returns send-level data, not deep engagement metrics; for opens and clicks check the Constant Contact UI directly.
+- **"Token expired"** - Constant Contact tokens refresh automatically, but if you see this, disconnect and reconnect.
+- **Empty contact list** - Make sure the account you authorized actually owns the lists you're expecting.
+- **Campaign metrics look low** - The connector returns send-level data, not deep engagement metrics; for opens and clicks check the Constant Contact UI directly.
 ---
 
 *

@@ -1,5 +1,5 @@
 ---
-title: "Netlify Agent Skills — Serverless deployment, edge"
+title: "Netlify Agent Skills - Serverless deployment, edge"
 description: 6 deployment-focused skills from Netlify covering functions, config, frameworks, edge functions, and forms. 7.9K+ combined installs. Essential for Hermes agents managing Netlify deployments.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/netlify-agent-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Netlify Agent Skills — Setup Guide
+# Netlify Agent Skills - Setup Guide
 
 **Source:** [netlify/context-and-tools](https://github.com/netlify/context-and-tools) (7,900+ combined installs)
 **Category:** Infrastructure & DevOps
 **Quality Tier:** 🟢 Production
 
-Netlify's official agent skills provide authoritative guidance for building, deploying, and managing applications on the Netlify platform. These skills cover serverless functions, edge functions, framework-specific deployment config, forms handling, and platform configuration — giving Hermes agents the full Netlify operations toolkit.
+Netlify's official agent skills provide authoritative guidance for building, deploying, and managing applications on the Netlify platform. These skills cover serverless functions, edge functions, framework-specific deployment config, forms handling, and platform configuration - giving Hermes agents the full Netlify operations toolkit.
 
 ---
 
@@ -39,8 +39,8 @@ npx skills add netlify/context-and-tools --skill netlify-forms
 | **netlify-config** | 1.3K | Configure `netlify.toml` with redirects, headers, build settings, and environment variables |
 | **netlify-deploy** | 1.3K | Deploy via Git, CLI, or API. Covers branch deploys, deploy previews, rollbacks, and split testing |
 | **netlify-frameworks** | 1.3K | Framework-specific deployment guidance: Next.js, Remix, Astro, SvelteKit, Nuxt, and more |
-| **netlify-edge-functions** | 1.3K | Edge Functions using Deno runtime — location-based personalization, auth at the edge, A/B testing, geolocation |
-| **netlify-forms** | 1.3K | Built-in form handling without server-side code — spam filtering, notifications, webhooks, file uploads |
+| **netlify-edge-functions** | 1.3K | Edge Functions using Deno runtime - location-based personalization, auth at the edge, A/B testing, geolocation |
+| **netlify-forms** | 1.3K | Built-in form handling without server-side code - spam filtering, notifications, webhooks, file uploads |
 
 ---
 
@@ -57,7 +57,7 @@ npx skills add netlify/context-and-tools --skill netlify-forms
 ## Key Capabilities
 
 ### Serverless Functions
-Build API endpoints, background jobs, and scheduled tasks directly in your repo. Netlify Functions auto-scale and use standard Web API `Request`/`Response` objects. Modern syntax uses default export + Config pattern — no legacy `exports.handler`.
+Build API endpoints, background jobs, and scheduled tasks directly in your repo. Netlify Functions auto-scale and use standard Web API `Request`/`Response` objects. Modern syntax uses default export + Config pattern - no legacy `exports.handler`.
 
 ### Edge Functions
 Run code at the edge on Deno runtime for ultra-low-latency personalization, auth gates, geolocation routing, and A/B testing before the request hits origin.
@@ -104,8 +104,8 @@ npx skills list | grep netlify
 
 ## Notes
 
-- All skills use the official Netlify documentation as their knowledge base — no guesswork
+- All skills use the official Netlify documentation as their knowledge base - no guesswork
 - Edge Functions require the `@netlify/edge-functions` types package for TypeScript
-- Functions auto-detect TypeScript — no build step needed
-- Form handling is built into Netlify's edge — enable with `netlify` attribute on HTML forms
+- Functions auto-detect TypeScript - no build step needed
+- Form handling is built into Netlify's edge - enable with `netlify` attribute on HTML forms
 - Hermes agents can use these skills to provision full-stack apps, set up API endpoints, and manage CI/CD on Netlify

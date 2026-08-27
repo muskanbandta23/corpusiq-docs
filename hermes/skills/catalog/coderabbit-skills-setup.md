@@ -1,13 +1,13 @@
 ---
-title: CodeRabbit Skills — AI Code Review Setup Guide for Hermes Agents
-description: "coderabbitai/skills — official CodeRabbit skills: code-review (9.7K installs) and autofix (6.2K). AI-driven code review and automatic fix application for pull requests."
+title: CodeRabbit Skills - AI Code Review Setup Guide for Hermes Agents
+description: "coderabbitai/skills - official CodeRabbit skills: code-review (9.7K installs) and autofix (6.2K). AI-driven code review and automatic fix application for pull requests."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coderabbit-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-14"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "pull requests", "automation"]
 ---
 
-# CodeRabbit Skills — Setup Guide
+# CodeRabbit Skills - Setup Guide
 
 **Source:** [coderabbitai/skills](https://skills.sh/coderabbitai/skills)
 **GitHub:** [coderabbitai/skills](https://github.com/coderabbitai/skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "code review", "pull reques
 **First Seen:** August 14, 2026 evening sweep
 **Quality Tier:** 🟢 Production (official CodeRabbit)
 
-CodeRabbit — the AI code review platform — publishes its review methodology as installable skills. `code-review` (9.7K installs) encodes a structured review pass for pull requests; `autofix` (6.2K) applies fixes for the issues found. The code-review skill was on the hot leaderboard during the sweep (+7 in one hour). These skills give any agent CodeRabbit-style review discipline without the CodeRabbit SaaS subscription.
+CodeRabbit - the AI code review platform - publishes its review methodology as installable skills. `code-review` (9.7K installs) encodes a structured review pass for pull requests; `autofix` (6.2K) applies fixes for the issues found. The code-review skill was on the hot leaderboard during the sweep (+7 in one hour). These skills give any agent CodeRabbit-style review discipline without the CodeRabbit SaaS subscription.
 
 ---
 
@@ -67,8 +67,8 @@ npx skills list | grep coderabbit
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Review Loop Skill Setup](/hermes/skills/catalog/review-loop-skill-setup/) — review → feedback → verify loop
-- [ECC Engineering Skills Setup](/hermes/skills/catalog/ecc-engineering-skills-setup/) — security-review companion
+- [Review Loop Skill Setup](/hermes/skills/catalog/review-loop-skill-setup/) - review → feedback → verify loop
+- [ECC Engineering Skills Setup](/hermes/skills/catalog/ecc-engineering-skills-setup/) - security-review companion
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

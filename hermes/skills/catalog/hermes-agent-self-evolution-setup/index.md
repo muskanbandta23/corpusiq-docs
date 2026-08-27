@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Self-Evolution — Auto-Learning Skill Framework
+title: Hermes Agent Self-Evolution - Auto-Learning Skill Framework
 description: Aradotso community skill for Hermes agent self-evolution. Agents learn from past tasks, auto-create reusable skills, and improve over time. 280+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-self-evolution-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Agent Self-Evolution — Setup Guide
+# Hermes Agent Self-Evolution - Setup Guide
 
 **Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)
 **Skill:** `hermes-agent-self-evolution` · **Installs:** 280+ · **Category:** Agent Learning / Meta
 **Platform:** Linux, macOS, Windows
 
-A self-improvement framework for Hermes agents that learns from completed tasks, automatically creates reusable skills, and continuously improves performance. Agents observe their own execution patterns, identify reusable workflows, and codify them as new skills — reducing manual curation and accelerating capability growth.
+A self-improvement framework for Hermes agents that learns from completed tasks, automatically creates reusable skills, and continuously improves performance. Agents observe their own execution patterns, identify reusable workflows, and codify them as new skills - reducing manual curation and accelerating capability growth.
 
 ---
 
@@ -129,7 +129,7 @@ hermes skills evolve --analyze-last 10
 
 ## Limitations
 
-This is a **community skill** (not official Nous Research). It auto-generates skills by pattern matching — quality varies. Some generated skills may be:
+This is a **community skill** (not official Nous Research). It auto-generates skills by pattern matching - quality varies. Some generated skills may be:
 - Too specific (only works for one exact scenario)
 - Missing edge cases the agent hasn't encountered yet
 - Redundant with existing skills (check before activating)
@@ -165,6 +165,6 @@ metadata:
 
 ## Related Skills
 
-- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) — Official core skill
-- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) — Writing SKILL.md files
+- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) - Official core skill
+- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) - Writing SKILL.md files
 - [Aradotso Hermes Skills Collection](https://github.com/aradotso/hermes-skills)

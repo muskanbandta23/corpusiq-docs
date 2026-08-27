@@ -11,7 +11,7 @@ tags: [sap, market-intelligence, consulting-rates, research, business-intelligen
 
 # Analytics Legends MCP
 
-**Hosted read-only market intelligence for the SAP analytics services market, with a citation URL on every row.** Analytics Legends MCP exists so an assistant answering a question about SAP Datasphere, Business Data Cloud, SAP Analytics Cloud, BW/4HANA or Databricks can cite a record instead of guessing. 20 tools cover the consulting firm directory, published day-rate benchmarks, contract openings, stack vocabulary, study metadata, and a curated market-news corpus — and every response states the size of the population it was drawn from.
+**Hosted read-only market intelligence for the SAP analytics services market, with a citation URL on every row.** Analytics Legends MCP exists so an assistant answering a question about SAP Datasphere, Business Data Cloud, SAP Analytics Cloud, BW/4HANA or Databricks can cite a record instead of guessing. 20 tools cover the consulting firm directory, published day-rate benchmarks, contract openings, stack vocabulary, study metadata, and a curated market-news corpus - and every response states the size of the population it was drawn from.
 
 ```
 Server type: Hosted remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: Analytics Legends
 
 Companies that run SAP analytics stacks buy two things constantly: consulting capacity and current market knowledge. Both are normally assembled from recruiter calls, forum threads, and gut feel. Analytics Legends turns that into an agent-callable surface where every answer carries its source: day rates come with basis, sample size, and the population they were drawn from, and firm records link to a citation page.
 
-The honesty mechanics are the differentiator. A `sample_size` of null is stated as such rather than implied away, and each response reports the size of the population it was queried against — so an agent knows the difference between a one-observation rate and a market-wide band.
+The honesty mechanics are the differentiator. A `sample_size` of null is stated as such rather than implied away, and each response reports the size of the population it was queried against - so an agent knows the difference between a one-observation rate and a market-wide band.
 
 ## Tools & Capabilities
 
@@ -73,18 +73,18 @@ No configuration for the free tier. Subscriber tools require a key issued throug
 
 ## Integration with CorpusIQ
 
-Analytics Legends supplies the SAP-services market layer — a domain none of CorpusIQ's connectors cover. In one agent session, a finance leader can pull day-rate benchmarks and firm shortlists through Analytics Legends while CorpusIQ handles the money side: QuickBooks for budgets, Stripe for invoices to the chosen firm, and email for the engagement thread — then join the two on vendor name or contract value. The read-only, citation-first design matches CorpusIQ's source-declared reporting discipline.
+Analytics Legends supplies the SAP-services market layer - a domain none of CorpusIQ's connectors cover. In one agent session, a finance leader can pull day-rate benchmarks and firm shortlists through Analytics Legends while CorpusIQ handles the money side: QuickBooks for budgets, Stripe for invoices to the chosen firm, and email for the engagement thread - then join the two on vendor name or contract value. The read-only, citation-first design matches CorpusIQ's source-declared reporting discipline.
 
 ## Limitations
 
-- SAP analytics services market only — not product usage telemetry or system access
+- SAP analytics services market only - not product usage telemetry or system access
 - 6 of 20 tools require a paid subscription
 - New listing (Aug 2026), zero-star repository, single vendor
 - Read-only by design; no write path to any SAP system
 
 ## See Also
 
-- [SYNTHORA MCP — Verified Multi-Source Intelligence Mesh](/hermes/mcp/servers/external/synthora-mcp/)
-- [Profitelligence MCP — Financial Intelligence from First-Party SEC Data](/hermes/mcp/servers/external/profitelligence-mcp/)
+- [SYNTHORA MCP - Verified Multi-Source Intelligence Mesh](/hermes/mcp/servers/external/synthora-mcp/)
+- [Profitelligence MCP - Financial Intelligence from First-Party SEC Data](/hermes/mcp/servers/external/profitelligence-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

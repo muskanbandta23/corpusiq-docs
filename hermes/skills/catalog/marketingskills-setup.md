@@ -1,6 +1,6 @@
 ---
-title: marketingskills — Complete Marketing Suite for Hermes (160K+ installs)
-description: Install and use coreyhaines31/marketingskills — 12 battle-tested marketing skills for SEO, copywriting, content strategy, lead generation, social media, and AI marketing.
+title: marketingskills - Complete Marketing Suite for Hermes (160K+ installs)
+description: Install and use coreyhaines31/marketingskills - 12 battle-tested marketing skills for SEO, copywriting, content strategy, lead generation, social media, and AI marketing.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/marketingskills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# marketingskills — Setup Guide
+# marketingskills - Setup Guide
 
 **Source:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (160K+ combined installs)
 **Category:** Marketing Suite
@@ -59,7 +59,7 @@ npx skills list | grep marketingskills
 |---|---|
 | **Node.js** | 18+ (for npx skills CLI) |
 | **Hermes Agent** | Any version |
-| **API Keys** | None required — all skills are prompt/instruction based |
+| **API Keys** | None required - all skills are prompt/instruction based |
 | **Optional** | Firecrawl API key enhances `seo-audit` and `programmatic-seo` |
 
 ---
@@ -70,7 +70,7 @@ npx skills list | grep marketingskills
 
 | Skill | Installs | What It Does | CorpusIQ Use Case |
 |---|---|---|---|
-| `seo-audit` | 163.9K | Full technical SEO analysis — crawl, index, rank | corpusiq-docs SEO optimization |
+| `seo-audit` | 163.9K | Full technical SEO analysis - crawl, index, rank | corpusiq-docs SEO optimization |
 | `copywriting` | 154.1K | Persuasive marketing copy across formats | Landing pages, ads, email campaigns |
 | `content-strategy` | 108.4K | Content calendars, topic clusters, pillar pages | Blog and docs content planning |
 
@@ -79,7 +79,7 @@ npx skills list | grep marketingskills
 | Skill | Installs | What It Does | CorpusIQ Use Case |
 |---|---|---|---|
 | `marketing-psychology` | 113.0K | Consumer behavior, persuasion frameworks, Cialdini | Conversion optimization, pricing page |
-| `programmatic-seo` | 104.0K | Automated SEO at scale — 1000s of pages | corpusiq-docs programmatic pages |
+| `programmatic-seo` | 104.0K | Automated SEO at scale - 1000s of pages | corpusiq-docs programmatic pages |
 | `marketing-ideas` | 101.1K | Creative campaign concepts, viral hooks | Social media campaign ideation |
 
 ### Tier 3: Growth & Lead Gen
@@ -198,7 +198,7 @@ npx skills run coreyhaines31/marketingskills@lead-magnets \
 
 ## See Also
 
-- [clawfu-skills](/hermes/skills/catalog/clawfu-skills-setup/) — 175 marketing methodologies as MCP server
-- [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup/) — Web research & SEO workflows (120K installs)
-- [corpusiq-content-strategy](/hermes/skills/) — CorpusIQ's belief-bridge content framework
-- [seo-geo](/hermes/skills/catalog/platform/seo-geo) — Generative Engine Optimization
+- [clawfu-skills](/hermes/skills/catalog/clawfu-skills-setup/) - 175 marketing methodologies as MCP server
+- [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup/) - Web research & SEO workflows (120K installs)
+- [corpusiq-content-strategy](/hermes/skills/) - CorpusIQ's belief-bridge content framework
+- [seo-geo](/hermes/skills/catalog/platform/seo-geo) - Generative Engine Optimization

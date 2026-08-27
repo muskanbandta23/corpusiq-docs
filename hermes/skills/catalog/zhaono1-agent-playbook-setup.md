@@ -1,20 +1,20 @@
 ---
-title: "Zhaono1 Agent Playbook — 24-Role Agent Workflow Suite Setup"
-description: "zhaono1/agent-playbook — 24 skills, 50.4K installs: self-improving agent loop, planning, security audit, and full lifecycle roles from PRD to deployment."
+title: "Zhaono1 Agent Playbook - 24-Role Agent Workflow Suite Setup"
+description: "zhaono1/agent-playbook - 24 skills, 50.4K installs: self-improving agent loop, planning, security audit, and full lifecycle roles from PRD to deployment."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/zhaono1-agent-playbook-setup/"
 robots: "index,follow"
 last_updated: "2026-08-17"
 tags: ["hermes skill", "agent skill", "skill setup", "agent workflows", "self-improvement"]
 ---
 
-# Zhaono1 Agent Playbook — Setup Guide
+# Zhaono1 Agent Playbook - Setup Guide
 
 **Source:** [zhaono1/agent-playbook](https://skills.sh/zhaono1/agent-playbook)
 **GitHub:** [zhaono1/agent-playbook](https://github.com/zhaono1/agent-playbook)
 **Skills:** 24 skills · 50.4K total installs
 **Category:** Agent Workflows
 **First Seen:** catalogued August 17, 2026 evening sweep (self-improving-agent on skills.sh since January 22, 2026; queue re-verification promoted the cluster from stale API numbers)
-**Quality Tier:** 🟡 Trusted — flagship self-improving-agent carries Gen Agent Trust Hub Warn and Socket Warn (Snyk Pass); both named in Limitations
+**Quality Tier:** 🟡 Trusted - flagship self-improving-agent carries Gen Agent Trust Hub Warn and Socket Warn (Snyk Pass); both named in Limitations
 
 A 24-role agent lifecycle suite: self-improving-agent (33.1K installs) implements a multi-memory feedback loop with hooks-based self-correction, and the rest of the pack covers the full build cycle from PRD planning through code review, testing, and deployment. The cluster had been parked on stale API-sum numbers (top skill presumed under 1.2K); its publisher page reads 50.4K total.
 
@@ -74,10 +74,10 @@ npx skills add https://github.com/zhaono1/agent-playbook --skill self-improving-
 
 ## Limitations / Verification
 
-- Security audits on self-improving-agent: Gen Agent Trust Hub Warn, Socket Warn, Snyk Pass — trusted with both warns named; the skill writes agent memory files, which drives the audit warnings
+- Security audits on self-improving-agent: Gen Agent Trust Hub Warn, Socket Warn, Snyk Pass - trusted with both warns named; the skill writes agent memory files, which drives the audit warnings
 - Publisher-page total verified (50.4K across 24 skills); repo at 73 GitHub stars
 - A sibling publisher's self-improving-agent is already guided separately (charon-fan/agent-playbook at 32.2K); this guide covers zhaono1's full 24-skill suite on its own publisher-page numbers
-- 23 of 24 skills sit under 1.2K installs — the suite's weight is concentrated in self-improving-agent
+- 23 of 24 skills sit under 1.2K installs - the suite's weight is concentrated in self-improving-agent
 
 ```bash
 npx skills add zhaono1/agent-playbook   # verify install works
@@ -85,7 +85,7 @@ npx skills add zhaono1/agent-playbook   # verify install works
 
 ## Related
 
-- [Self-Improving Agent — charon-fan Edition](/hermes/skills/catalog/self-improving-agent-setup/)
+- [Self-Improving Agent - charon-fan Edition](/hermes/skills/catalog/self-improving-agent-setup/)
 - [Skills Catalog](/hermes/skills/catalog/)
 - [Skills Marketplace](/hermes/skills/marketplace/)
 

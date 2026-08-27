@@ -1,6 +1,6 @@
 ---
-title: "GenMedia Skills — AI Media Generation Cluster Setup"
-description: Install the genmedia-labs/skills cluster (42.5K installs) — video-edit, ai-music, ai-video-generation, ai-image-generation, image-to-video plus 25 model-specific generation skills (FLUX, Kling, GPT Image, Seedance, Wan, Nano Banana).
+title: "GenMedia Skills - AI Media Generation Cluster Setup"
+description: Install the genmedia-labs/skills cluster (42.5K installs) - video-edit, ai-music, ai-video-generation, ai-image-generation, image-to-video plus 25 model-specific generation skills (FLUX, Kling, GPT Image, Seedance, Wan, Nano Banana).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genmedia-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# GenMedia Skills — Setup Guide
+# GenMedia Skills - Setup Guide
 
 **Source:** [genmedia-labs/skills](https://www.skills.sh/genmedia-labs/skills) (30 skills · 42.5K combined installs)
 **Repo:** [github.com/genmedia-labs/skills](https://github.com/genmedia-labs/skills)
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **First Seen:** August 13, 2026
 **Quality Tier:** 🟢 Production (`video-edit` 8.7K, `ai-music` 8.6K, `ai-video-generation` 8.5K installs)
 
-GenMedia is the fastest-moving media cluster on skills.sh right now — `ai-video-generation` gained 372 installs in a single hour during the August 13 sweep. Five core skills cover the editing and generation workflow, while 25 model-specific skills pin the exact generation backends: FLUX 2 Klein, Kling 3.0, GPT Image 2, Seedance V2, Wan 2.7, Nano Banana 2, and more. One install command gives an agent the whole modern image/video generation surface.
+GenMedia is the fastest-moving media cluster on skills.sh right now - `ai-video-generation` gained 372 installs in a single hour during the August 13 sweep. Five core skills cover the editing and generation workflow, while 25 model-specific skills pin the exact generation backends: FLUX 2 Klein, Kling 3.0, GPT Image 2, Seedance V2, Wan 2.7, Nano Banana 2, and more. One install command gives an agent the whole modern image/video generation surface.
 
 ---
 
@@ -59,7 +59,7 @@ If the CLI rejects the multi-skill source, clone [genmedia-labs/skills](https://
 |---|---|
 | Node.js + npx | For the skills.sh CLI install path |
 | Generation API keys | Per-model keys (FLUX, Kling, OpenAI, etc.) only for the backends you use |
-| Any agent runtime | Skills are procedural — no runtime-specific code |
+| Any agent runtime | Skills are procedural - no runtime-specific code |
 
 ---
 
@@ -76,7 +76,7 @@ If the CLI rejects the multi-skill source, clone [genmedia-labs/skills](https://
 
 ## Limitations / Verification
 
-- Model skills at 1 install each are new — treat as recipes, verify against provider docs
+- Model skills at 1 install each are new - treat as recipes, verify against provider docs
 - API costs accrue per backend; only pin models you have keys for
 - Verify install: `npx skills list | grep -E 'video|image|music'`
 

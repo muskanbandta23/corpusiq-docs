@@ -5,7 +5,7 @@ description: "Airtable holds operating data that never makes it into your BI too
 # Airtable
 
 ## What it unlocks
-Airtable is where a lot of operating data lives that never made it into a "real" SaaS tool — content calendars, hiring pipelines, partnership trackers, product roadmaps. Connecting it means CorpusIQ can pull those records into answers alongside your finance, sales, and marketing data, so a question like "what's blocking shipping this month?" can actually see your Airtable backlog.
+Airtable is where a lot of operating data lives that never made it into a "real" SaaS tool - content calendars, hiring pipelines, partnership trackers, product roadmaps. Connecting it means CorpusIQ can pull those records into answers alongside your finance, sales, and marketing data, so a question like "what's blocking shipping this month?" can actually see your Airtable backlog.
 
 ## Before you connect
 - An Airtable account with access to the bases you want CorpusIQ to read
@@ -40,9 +40,9 @@ CorpusIQ never writes, edits, or deletes Airtable data.
 - "Pull record recXYZ from the Hiring base."
 
 ## Troubleshooting
-- **"Base not found"** — Your token wasn't granted access to that base. Edit the token at airtable.com/create/tokens and add the base.
-- **"Insufficient scope"** — Token is missing `data.records:read` or `schema.bases:read`. Recreate with both.
-- **Records look stale** — Airtable API returns live data; check whether you're looking at the right view or whether a filter has hidden recent rows.
+- **"Base not found"** - Your token wasn't granted access to that base. Edit the token at airtable.com/create/tokens and add the base.
+- **"Insufficient scope"** - Token is missing `data.records:read` or `schema.bases:read`. Recreate with both.
+- **Records look stale** - Airtable API returns live data; check whether you're looking at the right view or whether a filter has hidden recent rows.
 ---
 
 *

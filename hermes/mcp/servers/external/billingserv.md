@@ -1,5 +1,5 @@
 ---
-title: "BillingServ MCP — Invoice & Customer Management"
+title: "BillingServ MCP - Invoice & Customer Management"
 description: "Connect AI agents to BillingServ API for customer, invoice, and order lookups. Automate billing inquiries and account reconciliation directly from your MCP"
 category: mcp
 tags: [mcp-server, billing, invoicing, finance, accounts-receivable]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# BillingServ MCP — Billing & Invoicing Connector
+# BillingServ MCP - Billing & Invoicing Connector
 
 ## What It Is
 
-BillingServ MCP (`BillingServ/MCP`) exposes the BillingServ billing platform API over the Model Context Protocol. AI agents can look up customers, retrieve invoices, check order statuses, and reconcile accounts — turning billing operations into conversational queries.
+BillingServ MCP (`BillingServ/MCP`) exposes the BillingServ billing platform API over the Model Context Protocol. AI agents can look up customers, retrieve invoices, check order statuses, and reconcile accounts - turning billing operations into conversational queries.
 
 ## Tools Available
 
@@ -40,9 +40,9 @@ npx -y @billingserv/mcp
 
 - **BillingServ-specific**: Only works with BillingServ platform accounts
 - **Early-stage**: Documentation and tool surface still evolving
-- **No write-back**: Lookups only — no invoice creation or payment processing
+- **No write-back**: Lookups only - no invoice creation or payment processing
 
 ## See Also
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Finance Connectors — QuickBooks, Stripe](/hermes/mcp/connectors/)
+- [CorpusIQ Finance Connectors - QuickBooks, Stripe](/hermes/mcp/connectors/)

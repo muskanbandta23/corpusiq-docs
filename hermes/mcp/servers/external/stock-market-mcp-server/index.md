@@ -1,6 +1,6 @@
 ---
-title: "Stock Market MCP Server — Integration Guide"
-description: "Connect AI agents to 90+ free financial data tools — SEC filings, insider trades, FRED macro, 13F holdings, and more via the Equibles Stock Market MCP"
+title: "Stock Market MCP Server - Integration Guide"
+description: "Connect AI agents to 90+ free financial data tools - SEC filings, insider trades, FRED macro, 13F holdings, and more via the Equibles Stock Market MCP"
 category: mcp
 tags: [mcp-server, finance, stocks, market-data, sec, investing]
 last_updated: 2026-07-19
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Stock Market MCP Server — Integration Guide
+# Stock Market MCP Server - Integration Guide
 
 **Source:** GitHub (daniel3303/stock-market-mcp-server)  
 **Author:** daniel3303 / Equibles  
-**Transport:** Local MCP (stdio) — `npx` runner  
+**Transport:** Local MCP (stdio) - `npx` runner  
 **Auth:** Free tier (no card required); API key from Equibles for extended access  
 **GitHub:** [github.com/daniel3303/stock-market-mcp-server](https://github.com/daniel3303/stock-market-mcp-server)  
 **Stars:** ★2 (new)  
@@ -21,19 +21,19 @@ robots: "index,follow"
 
 ## What It Does
 
-The Stock Market MCP Server is one of the **most comprehensive free financial MCP servers** on the market — 90+ tools exposing SEC filings, institutional holdings, insider and congressional trades, earnings call transcripts, short interest data, FRED macroeconomic indicators, and more. Built on the Equibles financial data platform.
+The Stock Market MCP Server is one of the **most comprehensive free financial MCP servers** on the market - 90+ tools exposing SEC filings, institutional holdings, insider and congressional trades, earnings call transcripts, short interest data, FRED macroeconomic indicators, and more. Built on the Equibles financial data platform.
 
 AI agents can:
 
 - **SEC Filings:** Retrieve company filings, financial statements, and disclosures directly from EDGAR
-- **13F Holdings:** Query institutional investor portfolios — see what hedge funds and asset managers hold
+- **13F Holdings:** Query institutional investor portfolios - see what hedge funds and asset managers hold
 - **Insider & Congressional Trades:** Track insider buying/selling and congressional stock trading activity
 - **Earnings Calls:** Pull transcripts of quarterly earnings calls for any public company
 - **Short Interest:** Monitor short interest data and borrow rates
-- **FRED Macro:** Access Federal Reserve Economic Data — GDP, employment, inflation, interest rates
+- **FRED Macro:** Access Federal Reserve Economic Data - GDP, employment, inflation, interest rates
 - **Stock Quotes:** Real-time and historical price data across global exchanges
 
-Think of it as "Bloomberg Terminal light" — 90+ financial intelligence tools accessible through natural language conversation.
+Think of it as "Bloomberg Terminal light" - 90+ financial intelligence tools accessible through natural language conversation.
 
 ## Why This Matters for Operators
 
@@ -41,9 +41,9 @@ Think of it as "Bloomberg Terminal light" — 90+ financial intelligence tools a
 
 2. **Free tier, no friction:** No credit card required for the free tier. Operators can start querying financial data in one terminal command.
 
-3. **90+ tools = deep coverage:** Most financial MCPs offer 5-20 tools. Stock Market MCP's 90+ tools cover every major financial data surface operators need — from macro (FRED) to micro (individual filings).
+3. **90+ tools = deep coverage:** Most financial MCPs offer 5-20 tools. Stock Market MCP's 90+ tools cover every major financial data surface operators need - from macro (FRED) to micro (individual filings).
 
-4. **Complements the catalog:** Existing financial MCPs specialize (Alpha Vantage for stocks, Ko Financial for SEC/insider, FinData for quotes). Stock Market MCP bundles them all — making it the go-to for operators who want one financial MCP instead of three.
+4. **Complements the catalog:** Existing financial MCPs specialize (Alpha Vantage for stocks, Ko Financial for SEC/insider, FinData for quotes). Stock Market MCP bundles them all - making it the go-to for operators who want one financial MCP instead of three.
 
 ## Setup
 
@@ -135,10 +135,10 @@ Once connected, ask your AI assistant:
 
 ## Caveats
 
-- **New project:** Only 2 GitHub stars — the server is days old. Expect rapid iteration and possible breaking changes.
+- **New project:** Only 2 GitHub stars - the server is days old. Expect rapid iteration and possible breaking changes.
 - **Free tier limits:** The free tier has rate limits; check [equibles.com](https://equibles.com) for current pricing.
 - **Financial data latency:** Real-time quotes may have 15-minute delays depending on exchange. SEC/FRED data is official and up-to-date.
-- **Local only:** This is a stdio MCP server — it runs on your machine, not as a hosted remote endpoint.
+- **Local only:** This is a stdio MCP server - it runs on your machine, not as a hosted remote endpoint.
 
 ---
 

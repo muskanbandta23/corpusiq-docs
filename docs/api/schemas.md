@@ -37,7 +37,7 @@ A `Chunk` represents a single relevant result fragment returned from a connected
 | `chunk_id` | string | Unique identifier for this result chunk |
 | `content` | string | The human-readable content matched from the data source |
 | `source_url` | string | Direct link to the source record in the connected tool |
-| `relevance_score` | number | Semantic similarity score (0.0–1.0) against the query |
+| `relevance_score` | number | Semantic similarity score (0.0-1.0) against the query |
 | `metadata` | object | Tool-specific key-value fields extracted from the source record |
 
 The `metadata` object varies by connector. Fields returned depend on what the source tool exposes. Examples:
@@ -91,7 +91,7 @@ All API errors follow a consistent format regardless of the HTTP status code.
 A: A /query response includes query_id, query (echo), results array with connector/chunks, and search_summary with connectors_searched, total_chunks_found, and duration_ms.
 
 **Q: What fields are in each result chunk?**  
-A: Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0–1), and metadata with source-specific fields like subject, date, or status.
+A: Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0-1), and metadata with source-specific fields like subject, date, or status.
 
 **Q: How are errors structured in API responses?**  
 A: Errors use a consistent format: {"error": {"type": "error_category", "message": "human-readable description", "details": {}}} with appropriate HTTP status codes (400, 401, 429, 500).

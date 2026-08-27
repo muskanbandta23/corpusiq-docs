@@ -1,22 +1,22 @@
 ---
-title: Trail of Bits Skills Curated — Agent Security Suite Setup
-description: "trailofbits/skills-curated — 31 skills, 2.4K installs: security research firm Trail of Bits curates Ghidra reverse engineering, ffuf web fuzzing, threat modeling, security review tooling, and OpenAI-branded agent skills (Playwright, PDF, deploy, CI)."
+title: Trail of Bits Skills Curated - Agent Security Suite Setup
+description: "trailofbits/skills-curated - 31 skills, 2.4K installs: security research firm Trail of Bits curates Ghidra reverse engineering, ffuf web fuzzing, threat modeling, security review tooling, and OpenAI-branded agent skills (Playwright, PDF, deploy, CI)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-skills-curated-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "reverse engineering", "fuzzing", "threat modeling"]
 ---
 
-# Trail of Bits Skills Curated — Setup Guide
+# Trail of Bits Skills Curated - Setup Guide
 
 **Source:** [trailofbits/skills-curated](https://skills.sh/trailofbits/skills-curated)
 **GitHub:** [trailofbits/skills-curated](https://github.com/trailofbits/skills-curated)
 **Skills:** 31 skills · 2.4K total installs
 **Category:** Security & Agent Workflow
 **First Seen:** catalogued August 15, 2026 midday sweep (hot leaderboard #1 this hour)
-**Quality Tier:** 🟡 Trusted (curated by Trail of Bits, a leading security research firm; install counts modest — ghidra-headless leads at 312)
+**Quality Tier:** 🟡 Trusted (curated by Trail of Bits, a leading security research firm; install counts modest - ghidra-headless leads at 312)
 
-Trail of Bits curates a security-and-workflow skill collection: reverse engineering with Ghidra, web fuzzing with ffuf, threat modeling and security review tooling, plus a set of OpenAI-branded agent skills covering PDFs, Playwright, spreadsheets, screenshots, deploys, CI fixes, and Sentry. It also includes agent workflow skills — planning-with-files, handoff, skill-extractor, and humanizer — that are directly relevant to agent operating discipline.
+Trail of Bits curates a security-and-workflow skill collection: reverse engineering with Ghidra, web fuzzing with ffuf, threat modeling and security review tooling, plus a set of OpenAI-branded agent skills covering PDFs, Playwright, spreadsheets, screenshots, deploys, CI fixes, and Sentry. It also includes agent workflow skills - planning-with-files, handoff, skill-extractor, and humanizer - that are directly relevant to agent operating discipline.
 
 ---
 
@@ -63,7 +63,7 @@ npx skills add trailofbits/skills-curated
 
 ## Limitations / Verification
 
-- Install counts are modest (2.4K total; top skill 312) — brand authority, not volume, is the signal
+- Install counts are modest (2.4K total; top skill 312) - brand authority, not volume, is the signal
 - Multi-skill suite; individual security-audit pages not fetched this sweep
 - OpenAI-branded skills assume OpenAI API access
 

@@ -44,7 +44,7 @@ Evening sweep uncovered 15 brand-new repositories across the Hermes and OpenClaw
 
 | # | Repo | Description |
 |---|------|-------------|
-| 9 | `Rishiidev/hermes-github-launch` | Full GitHub launch in ~4–6 min via 3 parallel delegated subagents per phase  --  SEO naming, competitor research, social preview SVG, GitHub Pages, v1.0.0 release, 7-day distribution calendar |
+| 9 | `Rishiidev/hermes-github-launch` | Full GitHub launch in ~4-6 min via 3 parallel delegated subagents per phase  --  SEO naming, competitor research, social preview SVG, GitHub Pages, v1.0.0 release, 7-day distribution calendar |
 | 10 | `Forsy-AI/agent-apprenticeship` | Agent learning ecosystem  --  500+ seed tasks, mentor modes, experience packs, contribution bundles. Supports Hermes, Codex, Claude Code, OpenClaw, Cursor |
 
 ---
@@ -123,7 +123,7 @@ Hermes Gateway plugin  --  install directly into `~/.hermes/plugins/platforms/ma
 
 ## Spotlight: Parallel GitHub Launch (Rishiidev)
 
-A Hermes-native evolution of `github-launch-agent`. One trigger (`github launch`) spawns 3 parallel delegated subagents per phase, cutting launch from 20+ minutes to ~4–6 minutes. Includes:
+A Hermes-native evolution of `github-launch-agent`. One trigger (`github launch`) spawns 3 parallel delegated subagents per phase, cutting launch from 20+ minutes to ~4-6 minutes. Includes:
 - SEO name scoring (5 candidates ranked)
 - Competitor README research
 - Auto-embedded social preview SVG

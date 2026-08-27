@@ -1,5 +1,5 @@
 ---
-title: "July 3, 2026 (Update) — Hermes Hybrid Memory + 5 More"
+title: "July 3, 2026 (Update) - Hermes Hybrid Memory + 5 More"
 description: "6 additional Hermes-relevant repos discovered in the late July 3 sweep: Hybrid Memory plugin (graph+vector+holographic), MCP ChatGPT bridge, Agent Bookmarks"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july3-2026-update/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 July 3, 2026 (Update) — 6 Additional Repos Discovered
+# 🆕 July 3, 2026 (Update) - 6 Additional Repos Discovered
 
 **Date:** July 3, 2026 (Late Sweep)
 **New Repos:** 6 | **New Skills/Tools:** 6 | **Combined Stars:** 1
 
-A follow-up sweep of the `hermes-agent` GitHub topic surfaced 6 repos not captured in the morning sweep. The standout is **Hermes Hybrid Memory** — a production-grade MemoryProvider plugin that replaces flat system-prompt memory with a unified graph + vector + holographic store in a single SQLite file.
+A follow-up sweep of the `hermes-agent` GitHub topic surfaced 6 repos not captured in the morning sweep. The standout is **Hermes Hybrid Memory** - a production-grade MemoryProvider plugin that replaces flat system-prompt memory with a unified graph + vector + holographic store in a single SQLite file.
 
 ---
 
@@ -41,19 +41,19 @@ A follow-up sweep of the `hermes-agent` GitHub topic surfaced 6 repos not captur
 **Language:** Python
 **License:** MIT
 
-A custom `MemoryProvider` plugin for Hermes Agent that replaces flat system-prompt memory with a unified store combining **structured facts**, **semantic vector recall (sqlite-vec)**, and a **knowledge graph** — all in one SQLite file. Includes Hofstadter-inspired mechanisms: analogy slot, emergent chunking, usage-driven forgetting (never age-driven), and a brain visualization tool.
+A custom `MemoryProvider` plugin for Hermes Agent that replaces flat system-prompt memory with a unified store combining **structured facts**, **semantic vector recall (sqlite-vec)**, and a **knowledge graph** - all in one SQLite file. Includes Hofstadter-inspired mechanisms: analogy slot, emergent chunking, usage-driven forgetting (never age-driven), and a brain visualization tool.
 
 **Key features:**
 - FTS5 full-text search + sqlite-vec (384-dim) vector search
 - Knowledge graph with nodes/edges maintained incrementally
 - Hofstadter-inspired analogy-making ("structurally similar but superficially different")
-- Emergent chunking — compresses raw experience into reusable categories
-- Usage-driven forgetting — naturally decays unused memories
-- Brain visualization tool (`brain_viz.py`) — interactive graph explorer
+- Emergent chunking - compresses raw experience into reusable categories
+- Usage-driven forgetting - naturally decays unused memories
+- Brain visualization tool (`brain_viz.py`) - interactive graph explorer
 - Production-tested (several weeks of real agent use)
 - MIT licensed, Python 3.11+
 
-**Setup Guide:** [Hermes Hybrid Memory — Full Setup Guide](/hermes/skills/catalog/hermes-hybrid-memory-setup/)
+**Setup Guide:** [Hermes Hybrid Memory - Full Setup Guide](/hermes/skills/catalog/hermes-hybrid-memory-setup/)
 
 ```bash
 # Clone into your Hermes plugins directory
@@ -88,7 +88,7 @@ Hermes/Claude MCP bridge skill for forwarding image prompts and reference images
 
 ```bash
 git clone https://github.com/blankyname/chatgpt-web-prompt-mcp-skill.git
-# Install as Hermes MCP server — see repo README
+# Install as Hermes MCP server - see repo README
 ```
 
 ---
@@ -101,7 +101,7 @@ git clone https://github.com/blankyname/chatgpt-web-prompt-mcp-skill.git
 **Author:** noderguru
 **Language:** Python
 
-Save any link to a Notion database with your AI agent — auto-classified, deduped, mirrored to Obsidian. A skill for Hermes Agent and any shell-capable agent.
+Save any link to a Notion database with your AI agent - auto-classified, deduped, mirrored to Obsidian. A skill for Hermes Agent and any shell-capable agent.
 
 **Key features:**
 - Notion API integration for bookmark storage
@@ -112,7 +112,7 @@ Save any link to a Notion database with your AI agent — auto-classified, dedup
 
 ```bash
 git clone https://github.com/noderguru/agent-bookmarks.git
-# Configure Notion API token + database ID — see repo README
+# Configure Notion API token + database ID - see repo README
 ```
 
 ---
@@ -127,10 +127,10 @@ git clone https://github.com/noderguru/agent-bookmarks.git
 A Hermes Agent skill for high-stakes decision escalation. Normal tasks stay fast and single-model; risky architecture, security, production, deployment, and research decisions are routed through a structured multi-model advisor panel, synthesized by an aggregator, and verified before final output.
 
 **Key features:**
-- Decision gate — classifies tasks for escalation
+- Decision gate - classifies tasks for escalation
 - Multi-model reference advisors (independent analysis, no tool execution)
 - Aggregator synthesizes, reconciles disagreements, chooses path
-- Verification step — smoke-test, red-team, or render-check
+- Verification step - smoke-test, red-team, or render-check
 - Built on Hermes native MoA provider (not a replacement)
 - Escalation discipline, not a generic multi-AI wrapper
 
@@ -155,7 +155,7 @@ Graph-based retrieval for Obsidian vaults with Hebbian synaptic plasticity. An M
 
 **Key features:**
 - Graph-based retrieval (not just vector search)
-- Hebbian learning — frequently co-activated nodes strengthen connections
+- Hebbian learning - frequently co-activated nodes strengthen connections
 - BM25 + ChromaDB + semantic search
 - MCP server for Hermes Agent and Claude Desktop
 - Ollama-compatible for local embeddings
@@ -182,7 +182,7 @@ AI-powered bootable USB for Windows repair. Built with Hermes Agent + DeepSeek. 
 
 ```bash
 git clone https://github.com/rednicv/redseek-rescue.git
-# Build the live ISO — see repo README
+# Build the live ISO - see repo README
 ```
 
 ---
@@ -190,20 +190,20 @@ git clone https://github.com/rednicv/redseek-rescue.git
 ## Why These Matter for Hermes Users
 
 ### Memory Infrastructure Maturation
-The standout find is **Hermes Hybrid Memory** — it represents a step-change in agent memory architecture. Instead of dumping text into a system prompt or a vector store, it builds a real knowledge graph. The Hofstadter-inspired analogy mechanism is particularly interesting: it allows the agent to recall "structurally similar but superficially different" memories — the kind of associative recall humans excel at.
+The standout find is **Hermes Hybrid Memory** - it represents a step-change in agent memory architecture. Instead of dumping text into a system prompt or a vector store, it builds a real knowledge graph. The Hofstadter-inspired analogy mechanism is particularly interesting: it allows the agent to recall "structurally similar but superficially different" memories - the kind of associative recall humans excel at.
 
 ### Decision Discipline for Autonomous Agents
 **MoA Synthesis** addresses a growing concern: as Hermes agents get more capable and autonomous, how do they know when to escalate? This skill formalizes the escalation decision, routing routine tasks through single-model paths while high-stakes decisions get multi-model review.
 
 ### Cross-Tool Bridges
-**ChatGPT Web Prompt MCP** and **BDH Graph Harness** show the ecosystem building bridges — connecting Hermes to ChatGPT Web, Obsidian vaults, and Notion databases. These aren't just skills; they're infrastructure that extends what a Hermes agent can reach.
+**ChatGPT Web Prompt MCP** and **BDH Graph Harness** show the ecosystem building bridges - connecting Hermes to ChatGPT Web, Obsidian vaults, and Notion databases. These aren't just skills; they're infrastructure that extends what a Hermes agent can reach.
 
 ---
 
 ## Setup Guides Added
 
 This sweep produced one detailed setup guide:
-- **[Hermes Hybrid Memory Setup](/hermes/skills/catalog/hermes-hybrid-memory-setup/)** — Installation, configuration, memory ingestion pipeline, brain visualization, and production tuning
+- **[Hermes Hybrid Memory Setup](/hermes/skills/catalog/hermes-hybrid-memory-setup/)** - Installation, configuration, memory ingestion pipeline, brain visualization, and production tuning
 
 ---
 

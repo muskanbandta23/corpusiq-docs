@@ -1,5 +1,5 @@
 ---
-title: "bb-browser-openclaw — Setup Guide"
+title: "bb-browser-openclaw - Setup Guide"
 description: "Full setup guide for bb-browser-openclaw: integrate Blackbox Browser (5,931⭐) with OpenClaw/Hermes agents for Chrome automation with real login state."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup/"
 robots: "index,follow"
@@ -8,11 +8,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# bb-browser-openclaw — Setup Guide
+# bb-browser-openclaw - Setup Guide
 
-**Skill:** `bb-browser-openclaw` | **Installs:** 584 | **Source:** [epiral/bb-browser](https://github.com/epiral/bb-browser) — 5,931⭐
+**Skill:** `bb-browser-openclaw` | **Installs:** 584 | **Source:** [epiral/bb-browser](https://github.com/epiral/bb-browser) - 5,931⭐
 
-OpenClaw wrapper for **Blackbox Browser** — one of the most popular AI-browser tools. Lets Hermes/OpenClaw agents control Chrome with your existing cookies, sessions, and login state. No headless-mode restrictions.
+OpenClaw wrapper for **Blackbox Browser** - one of the most popular AI-browser tools. Lets Hermes/OpenClaw agents control Chrome with your existing cookies, sessions, and login state. No headless-mode restrictions.
 
 ---
 
@@ -85,7 +85,7 @@ Once connected, your agent gains these browser-control tools:
 
 ### 4.1. Real Login State
 
-Unlike Playwright/Puppeteer, Blackbox Browser uses your **actual Chrome profile** — all cookies, sessions, and login states are preserved. Agents can:
+Unlike Playwright/Puppeteer, Blackbox Browser uses your **actual Chrome profile** - all cookies, sessions, and login states are preserved. Agents can:
 
 - Access authenticated dashboards without re-authentication
 - Interact with sites that block headless browsers
@@ -93,11 +93,11 @@ Unlike Playwright/Puppeteer, Blackbox Browser uses your **actual Chrome profile*
 
 ### 4.2. MCP-Native Architecture
 
-The skill wraps the MCP server, so Hermes/OpenClaw agents discover browser tools automatically — no custom tool registration needed.
+The skill wraps the MCP server, so Hermes/OpenClaw agents discover browser tools automatically - no custom tool registration needed.
 
 ### 4.3. Text-First Snapshots
 
-`browser_snapshot` returns structured accessibility-tree text (not raw HTML), optimized for LLM context windows. This is how the 5,931-star project achieved efficiency — agents get what they need without raw DOM bloat.
+`browser_snapshot` returns structured accessibility-tree text (not raw HTML), optimized for LLM context windows. This is how the 5,931-star project achieved efficiency - agents get what they need without raw DOM bloat.
 
 ---
 
@@ -105,10 +105,10 @@ The skill wraps the MCP server, so Hermes/OpenClaw agents discover browser tools
 
 | Scenario | Tools Used |
 |---|---|
-| **Social media monitoring** — Agent checks X/Reddit dashboards with login state | `browser_navigate` + `browser_snapshot` |
-| **E-commerce competitor analysis** — Agent browses Shopify/Amazon seller dashboards | `browser_navigate` + `browser_evaluate` |
-| **SaaS dashboard health checks** — Agent verifies Stripe/HubSpot dashboards load correctly | `browser_navigate` + `browser_screenshot` |
-| **Form autofill automation** — Agent fills GA4/Google Ads setup forms | `browser_type` + `browser_click` |
+| **Social media monitoring** - Agent checks X/Reddit dashboards with login state | `browser_navigate` + `browser_snapshot` |
+| **E-commerce competitor analysis** - Agent browses Shopify/Amazon seller dashboards | `browser_navigate` + `browser_evaluate` |
+| **SaaS dashboard health checks** - Agent verifies Stripe/HubSpot dashboards load correctly | `browser_navigate` + `browser_screenshot` |
+| **Form autofill automation** - Agent fills GA4/Google Ads setup forms | `browser_type` + `browser_click` |
 
 ---
 
@@ -118,7 +118,7 @@ The skill wraps the MCP server, so Hermes/OpenClaw agents discover browser tools
 |---|---|
 | **"Chrome not found"** | Set `CHROME_PATH` environment variable or install Chrome |
 | **MCP connection refused** | Verify `npx bb-browser serve` is running on expected port |
-| **Site blocks automation** | Blackbox uses real Chrome — most anti-bot measures don't trigger. If blocked, try: `npx bb-browser serve --stealth` |
+| **Site blocks automation** | Blackbox uses real Chrome - most anti-bot measures don't trigger. If blocked, try: `npx bb-browser serve --stealth` |
 | **Skills install fails** | Ensure Node.js 18+ and npm are installed; try `npx skills update` first |
 
 ---
@@ -156,4 +156,4 @@ npx bb-browser serve --chrome /usr/bin/google-chrome-stable
 
 ---
 
-*Part of the [Hermes Skills Library](/hermes/skills/) — curated by CorpusIQ. Setup guide for `bb-browser-openclaw` from [epiral/bb-browser](https://github.com/epiral/bb-browser). Content remains attributed to original authors.*
+*Part of the [Hermes Skills Library](/hermes/skills/) - curated by CorpusIQ. Setup guide for `bb-browser-openclaw` from [epiral/bb-browser](https://github.com/epiral/bb-browser). Content remains attributed to original authors.*

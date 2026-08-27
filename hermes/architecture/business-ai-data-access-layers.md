@@ -1,6 +1,6 @@
 ---
-title: How Business AI Agents Handle Data Access — The Infrastructure Layer
-description: "Setup and usage guide for How Business AI Agents Handle Data Access — The Infrastructure Layer. Part of the Hermes resource directory."
+title: How Business AI Agents Handle Data Access - The Infrastructure Layer
+description: "Setup and usage guide for How Business AI Agents Handle Data Access - The Infrastructure Layer. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/business-ai-data-access-layers/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# How Business AI Agents Handle Data Access — The Infrastructure Layer
+# How Business AI Agents Handle Data Access - The Infrastructure Layer
 
 Every business owner who has tried asking ChatGPT about their revenue has hit the same wall. The AI is capable. The data is there. But there is no pipe between them.
 
@@ -53,7 +53,7 @@ If a connector goes down, the others keep working. If a user switches from ChatG
 
 You should be able to ask your AI anything about your business and get the same answer regardless of which AI you use. The number should not change when you switch from ChatGPT to Claude. The confidence should not depend on which tool you opened first.
 
-This requires infrastructure that connects your actual business tools to AI — not a dashboard, not a CSV export, not a manual reconciliation. Infrastructure that lives between your data and your AI, invisible and consistent.
+This requires infrastructure that connects your actual business tools to AI - not a dashboard, not a CSV export, not a manual reconciliation. Infrastructure that lives between your data and your AI, invisible and consistent.
 
 ## The Alternative
 

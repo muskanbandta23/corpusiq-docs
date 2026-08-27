@@ -1,5 +1,5 @@
 ---
-title: "Linkly MCP — Link Shortener with Geo Redirects &"
+title: "Linkly MCP - Link Shortener with Geo Redirects &"
 description: "Link management with geo redirects, link rotators, and conversion tracking. MCP-native link operations for AI agents."
 category: mcp
 tags: [mcp-server, marketing, link-management, analytics, conversion-tracking]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Linkly Link Shortener MCP Server ★ New (July 16)
 
-Linkly is a link shortener with geo redirects, link rotators, conversion tracking, and a powerful API — now accessible through MCP for AI agent-driven link operations.
+Linkly is a link shortener with geo redirects, link rotators, conversion tracking, and a powerful API - now accessible through MCP for AI agent-driven link operations.
 
 **Source:** mcpservers.org (submitted July 16, 2026)
 **Category:** Marketing
@@ -45,7 +45,7 @@ Pair with CorpusIQ's analytics connectors (GA4, Meta Ads, Google Ads) to connect
 
 ## Limitations
 
-- Linkly account required — free tier has usage limits
+- Linkly account required - free tier has usage limits
 - Geo-redirect accuracy depends on IP geolocation (not 100% accurate)
 - Conversion tracking requires pixel/script installation on destination pages
 - Branded domains require separate configuration

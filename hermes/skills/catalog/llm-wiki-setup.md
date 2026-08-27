@@ -1,6 +1,6 @@
 ---
-title: "llm-wiki — Setup Guide - CorpusIQ Docs"
-description: Generate wiki-style documentation from any codebase or knowledge source using LLMs — 369 installs from nousresearch/hermes-agent.
+title: "llm-wiki - Setup Guide - CorpusIQ Docs"
+description: Generate wiki-style documentation from any codebase or knowledge source using LLMs - 369 installs from nousresearch/hermes-agent.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/llm-wiki-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# llm-wiki — Setup Guide
+# llm-wiki - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Skill:** `llm-wiki`
@@ -62,11 +62,11 @@ The skill integrates with Hermes' file tools:
 
 ## CorpusIQ Use Cases
 
-1. **corpusiq-docs expansion** — Auto-generate documentation pages for new features
-2. **Internal knowledge base** — Wiki for agent operating procedures
-3. **Connector documentation** — Standardized docs for each of 40+ connectors
-4. **Onboarding wiki** — Structured onboarding for new team members
-5. **API reference** — Auto-generated from MCP server tool definitions
+1. **corpusiq-docs expansion** - Auto-generate documentation pages for new features
+2. **Internal knowledge base** - Wiki for agent operating procedures
+3. **Connector documentation** - Standardized docs for each of 40+ connectors
+4. **Onboarding wiki** - Structured onboarding for new team members
+5. **API reference** - Auto-generated from MCP server tool definitions
 
 ## Troubleshooting
 

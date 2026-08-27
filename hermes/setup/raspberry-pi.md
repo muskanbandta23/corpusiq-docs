@@ -15,15 +15,15 @@ Run Hermes Agent 24/7 on a Raspberry Pi 5 for less than $80 in hardware and penn
 
 ## Overview
 
-The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. At $50–80, it draws ~5W idle and costs ~$5/year in electricity. It pairs with cloud API models for AI capabilities and is ideal for lightweight, persistent automation tasks that don't require GPU acceleration.
+The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. At $50-80, it draws ~5W idle and costs ~$5/year in electricity. It pairs with cloud API models for AI capabilities and is ideal for lightweight, persistent automation tasks that don't require GPU acceleration.
 
 ## How It Works
 
 | Feature | Raspberry Pi 5 |
 |---|---|
-| Cost | $50–80 (board only) |
+| Cost | $50-80 (board only) |
 | Power draw | ~5W idle, ~10W under load |
-| Annual electricity | ~$5–10 (24/7 at $0.12/kWh) |
+| Annual electricity | ~$5-10 (24/7 at $0.12/kWh) |
 | RAM | 4GB or 8GB |
 | Storage | microSD or NVMe (via HAT) |
 | Noise | Silent (no fan needed for light loads) |
@@ -78,7 +78,7 @@ hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull tinyllama       # ~637MB, runs on 4GB Pi
 ollama pull nomic-embed-text # Embeddings
-# Expect 2–5 tokens/sec  --  slow but functional
+# Expect 2-5 tokens/sec  --  slow but functional
 ```
 
 ### Step 5: External Storage (Recommended)
@@ -155,14 +155,14 @@ vcgencmd measure_temp
 | Power supply + case | $15 |
 | microSD (32GB) | $8 |
 | NVMe SSD (optional) | $25 |
-| **Total hardware** | **~$75–100** |
+| **Total hardware** | **~$75-100** |
 | Electricity (annual) | ~$6 |
-| OpenRouter API | $0–5/month |
+| OpenRouter API | $0-5/month |
 
 ## When Not to Use a Pi
 
 - Heavy browser automation (Playwright struggles)
-- Running models larger than 1–2B parameters locally
+- Running models larger than 1-2B parameters locally
 - Video processing or encoding
 - Multi-agent fleets
 
@@ -171,7 +171,7 @@ For those workloads, use a [cloud VPS](cloud-vps.md) or [gaming PC](gaming-pc.md
 ## FAQ
 
 ### Can a Raspberry Pi run local AI models?
-Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter  --  free tier models cost $0/token.
+Only very small models like TinyLlama (~1B parameters). Expect 2-5 tokens/second. For practical AI, use cloud API models via OpenRouter  --  free tier models cost $0/token.
 
 ### Why use external storage with Raspberry Pi?
 microSD cards wear out under constant write operations from logs and memory systems. An NVMe SSD via HAT or USB SSD provides faster, more durable storage.

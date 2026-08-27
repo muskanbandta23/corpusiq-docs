@@ -14,7 +14,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # IBANforge MCP Server
 
-IBANforge brings banking validation and compliance tools to AI agents through MCP. Validate IBANs, look up BIC/SWIFT codes, check Swiss clearing numbers, and classify EMI/vIBAN accounts — all from any MCP-compatible client.
+IBANforge brings banking validation and compliance tools to AI agents through MCP. Validate IBANs, look up BIC/SWIFT codes, check Swiss clearing numbers, and classify EMI/vIBAN accounts - all from any MCP-compatible client.
 
 ## What It Does
 
@@ -66,10 +66,10 @@ Free tier available with rate limits. Paid tiers for production volume. See [iba
 
 ## Repository
 
-`github.com/cammac-creator/ibanforge` — 2⭐, TypeScript (Hono), SQLite-backed. Updated July 2026.
+`github.com/cammac-creator/ibanforge` - 2⭐, TypeScript (Hono), SQLite-backed. Updated July 2026.
 
 ## See Also
 
-- [[honest-vies-mcp]] — EU VAT number validation
-- [[sanctions-screening-mcp]] — OFAC/EU/UK/UN sanctions screening
-- [[stripe-mcp]] — Payment processing
+- [[honest-vies-mcp]] - EU VAT number validation
+- [[sanctions-screening-mcp]] - OFAC/EU/UK/UN sanctions screening
+- [[stripe-mcp]] - Payment processing

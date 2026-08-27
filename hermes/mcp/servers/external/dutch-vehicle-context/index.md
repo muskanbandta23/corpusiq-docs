@@ -11,7 +11,7 @@ tags: [netherlands, vehicle-data, used-cars, mot, apk, recalls, odometer, remote
 
 # Dutch Vehicle Context MCP
 
-**One licence plate in, one verified vehicle report out — from eleven official Dutch registers.** Dutch Vehicle Context answers "is this a sensible buy" without an agent stitching datasets together: APK (MOT) history with readable defect descriptions per inspection, the official odometer verdict, and the full recall chain — including what can break, how dangerous it is, and what the remedy is — returned as one ~10 kB JSON answer with severity-sorted signals.
+**One licence plate in, one verified vehicle report out - from eleven official Dutch registers.** Dutch Vehicle Context answers "is this a sensible buy" without an agent stitching datasets together: APK (MOT) history with readable defect descriptions per inspection, the official odometer verdict, and the full recall chain - including what can break, how dangerous it is, and what the remedy is - returned as one ~10 kB JSON answer with severity-sorted signals.
 
 ```
 Server type: Hosted remote (Streamable HTTP) + plain HTTPS API
@@ -26,7 +26,7 @@ Built by: TradeBrite NL (rleefers)
 
 All the underlying data is public and free; the problem is fragmentation. The answer to a normal question sits across eleven datasets and two code tables, and the most valuable conclusions exist in none of them: a recall flagged simply as `Yes` in the base register, a recurring defect that only appears when you group inspection rounds, a re-inspection after repair that shares the same defects and would raise a false alarm if you counted dates. This layer computes those conclusions and labels them.
 
-`signals` are observations, never established defects, sorted by severity, each with a recommendation and its basis. Theft status is deliberately absent — it is not provided as open data, and every answer says so explicitly, so a clean-looking report can never be misread as "not stolen".
+`signals` are observations, never established defects, sorted by severity, each with a recommendation and its basis. Theft status is deliberately absent - it is not provided as open data, and every answer says so explicitly, so a clean-looking report can never be misread as "not stolen".
 
 ## Tools & Capabilities
 
@@ -68,18 +68,18 @@ No keys, no registration. The server is hosted and free. MIT licensed; the sourc
 
 ## Integration with CorpusIQ
 
-Dutch Vehicle Context delivers the Dutch vehicle-data layer, which CorpusIQ's connectors do not cover. In one agent session, a dealer can screen every plate through Dutch Vehicle Context while CorpusIQ handles the commercial layer: QuickBooks for the books, Stripe for payments, and email for purchase correspondence — joined on licence plate. The explicit no-theft-verdict design fits CorpusIQ's no-fabrication data doctrine.
+Dutch Vehicle Context delivers the Dutch vehicle-data layer, which CorpusIQ's connectors do not cover. In one agent session, a dealer can screen every plate through Dutch Vehicle Context while CorpusIQ handles the commercial layer: QuickBooks for the books, Stripe for payments, and email for purchase correspondence - joined on licence plate. The explicit no-theft-verdict design fits CorpusIQ's no-fabrication data doctrine.
 
 ## Limitations
 
 - Netherlands only; no theft status by design (not open data)
 - Not purchase or safety advice; signals are observations, not established defects
 - New listing (Aug 2026), zero-star repository, single maintainer
-- One tool surface — no bulk endpoints
+- One tool surface - no bulk endpoints
 
 ## See Also
 
-- [Dutch Property Context MCP — Netherlands Property Reports by Address](/hermes/mcp/servers/external/dutch-property-context/)
-- [RE Data Refinery MCP — Pay-Per-Query Real Estate Intelligence](/hermes/mcp/servers/external/re-data-refinery-mcp/)
+- [Dutch Property Context MCP - Netherlands Property Reports by Address](/hermes/mcp/servers/external/dutch-property-context/)
+- [RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence](/hermes/mcp/servers/external/re-data-refinery-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

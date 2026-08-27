@@ -1,6 +1,6 @@
 ---
-title: Hermes Kanban Obsidian Integration — Task Management Setup Guide
-description: Bridge Hermes Agent with Obsidian vaults for Kanban-style task management — sync agent task boards with your knowledge base.
+title: Hermes Kanban Obsidian Integration - Task Management Setup Guide
+description: Bridge Hermes Agent with Obsidian vaults for Kanban-style task management - sync agent task boards with your knowledge base.
 publisher: aradotso/hermes-skills
 installs: 136
 quality_tier: 🔵 Community
@@ -11,9 +11,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Kanban Obsidian Integration — Task Management Setup Guide
+# Hermes Kanban Obsidian Integration - Task Management Setup Guide
 
-The Hermes Kanban Obsidian Integration bridges Hermes Agent with Obsidian vaults. Hermes agents can read, create, and update Kanban boards stored in Obsidian — syncing agent task management with your personal knowledge base.
+The Hermes Kanban Obsidian Integration bridges Hermes Agent with Obsidian vaults. Hermes agents can read, create, and update Kanban boards stored in Obsidian - syncing agent task management with your personal knowledge base.
 
 **Publisher:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)  
 **Source:** skills.sh  
@@ -207,8 +207,8 @@ hermes skill invoke hermes-kanban-obsidian-integration \
 
 ## Related Skills
 
-- [Oh-My-Hermes Workflow](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) — Workflow framework
-- [Minions Mission Control](/hermes/skills/catalog/minions-hermes-mission-control-setup/) — Multi-agent coordination
+- [Oh-My-Hermes Workflow](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) - Workflow framework
+- [Minions Mission Control](/hermes/skills/catalog/minions-hermes-mission-control-setup/) - Multi-agent coordination
 - [Obsidian Giveaway Pack](/hermes/skills/catalog/hermes-obsidian-giveaway-pack-setup)
 
 ---

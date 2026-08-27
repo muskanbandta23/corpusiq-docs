@@ -36,9 +36,9 @@ Read-only. CorpusIQ never sends SMS, edits subscribers, or changes keywords.
 - "Find SMS opt-ins from the last 7 days."
 
 ## Troubleshooting
-- "Invalid API key" — regenerate the key in Postscript and paste it again. Whitespace around the key will break it.
-- No subscribers showing — confirm the API key was issued for the correct Postscript shop.
-- Missing fields — Postscript's API doesn't expose individual message-level metrics here; use Postscript's own dashboard for campaign analytics.
+- "Invalid API key" - regenerate the key in Postscript and paste it again. Whitespace around the key will break it.
+- No subscribers showing - confirm the API key was issued for the correct Postscript shop.
+- Missing fields - Postscript's API doesn't expose individual message-level metrics here; use Postscript's own dashboard for campaign analytics.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + Postscript public API docs. Verify before publish. -->
 ---

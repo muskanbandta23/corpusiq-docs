@@ -1,6 +1,6 @@
 ---
-title: Clerk Auth Skills — Authentication & User Management for AI Agents
-description: Clerk's official agent skills for authentication integration — Next.js patterns, setup, custom UI, backend API, webhooks, and testing. 156K+ combined installs across 10+ skills.
+title: Clerk Auth Skills - Authentication & User Management for AI Agents
+description: Clerk's official agent skills for authentication integration - Next.js patterns, setup, custom UI, backend API, webhooks, and testing. 156K+ combined installs across 10+ skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clerk-auth-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Clerk Auth Skills — Setup Guide
+# Clerk Auth Skills - Setup Guide
 
 **Source:** [clerk/skills](https://skills.sh/clerk/skills) (156K+ combined installs)
 **GitHub:** [clerk/skills](https://github.com/clerk/skills) (61 ⭐)
 **Category:** Development / Authentication
 **Quality Tier:** 🟢 Production
 
-Clerk is the leading authentication platform for modern web applications. Their agent skills teach AI coding agents how to integrate Clerk auth correctly — from initial setup through custom UI components, backend API integration, webhook handling, and testing. For Hermes agents building authenticated applications, these skills eliminate auth integration mistakes.
+Clerk is the leading authentication platform for modern web applications. Their agent skills teach AI coding agents how to integrate Clerk auth correctly - from initial setup through custom UI components, backend API integration, webhook handling, and testing. For Hermes agents building authenticated applications, these skills eliminate auth integration mistakes.
 
 ---
 
@@ -42,11 +42,11 @@ npx skills add clerk/skills --skill clerk-testing
 | Skill | Installs | Purpose |
 |---|---|---|
 | **clerk-nextjs-patterns** | 28.1K | Next.js App Router + Pages Router auth patterns, middleware, server components |
-| **clerk-setup** | 27.3K | Initial Clerk project setup — API keys, environment variables, provider config |
+| **clerk-setup** | 27.3K | Initial Clerk project setup - API keys, environment variables, provider config |
 | **clerk-custom-ui** | 26.6K | Build custom sign-in/sign-up flows with Clerk Elements (not pre-built components) |
-| **clerk-backend-api** | 25.1K | Server-side auth — protect API routes, validate sessions, manage users |
-| **clerk-webhooks** | 25.0K | Webhook integration — user.created, session.created, organization events |
-| **clerk-testing** | 24.1K | Testing authenticated flows — mock sessions, test user creation, E2E patterns |
+| **clerk-backend-api** | 25.1K | Server-side auth - protect API routes, validate sessions, manage users |
+| **clerk-webhooks** | 25.0K | Webhook integration - user.created, session.created, organization events |
+| **clerk-testing** | 24.1K | Testing authenticated flows - mock sessions, test user creation, E2E patterns |
 
 ---
 
@@ -63,7 +63,7 @@ npx skills add clerk/skills --skill clerk-testing
 ## Key Capabilities
 
 ### Next.js Auth Patterns (28.1K installs)
-Complete Next.js authentication patterns for both App Router and Pages Router. Covers middleware-based route protection, server component auth checks, client-side hooks (`useAuth`, `useUser`), and organization-aware routing. The most-installed Clerk skill for good reason — auth mistakes in Next.js are common and costly.
+Complete Next.js authentication patterns for both App Router and Pages Router. Covers middleware-based route protection, server component auth checks, client-side hooks (`useAuth`, `useUser`), and organization-aware routing. The most-installed Clerk skill for good reason - auth mistakes in Next.js are common and costly.
 
 ### Custom UI (26.6K installs)
 Build fully custom authentication interfaces using Clerk Elements. Move beyond pre-built `<SignIn />` components to branded, custom-designed auth flows while maintaining Clerk's security guarantees. Covers component composition, theming, and responsive design.
@@ -113,8 +113,8 @@ npx skills use clerk/skills@clerk-setup
 
 ## Notes
 
-- Clerk skills are framework-aware — `clerk-nextjs-patterns` targets Next.js specifically while `clerk-backend-api` is framework-agnostic
+- Clerk skills are framework-aware - `clerk-nextjs-patterns` targets Next.js specifically while `clerk-backend-api` is framework-agnostic
 - The combined install count (156K+) makes this the most-installed authentication skill set on skills.sh
 - For Hermes agents building SaaS applications: use `clerk-setup` + `clerk-nextjs-patterns` to get auth right on the first attempt
-- Clerk's free tier supports 10,000 monthly active users — sufficient for most early-stage applications
+- Clerk's free tier supports 10,000 monthly active users - sufficient for most early-stage applications
 - Pair with `makenotion/skills` or `airtable/skills` for full-stack SaaS agent capabilities

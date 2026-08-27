@@ -54,8 +54,8 @@ support and they'll update the registration.
 
 Even after the GPT is configured correctly, your first message that
 triggers a CorpusIQ tool call will prompt you to authenticate with
-CorpusIQ. You have to click through that — sign in with the email tied
-to your CorpusIQ account — for ChatGPT to get a token.
+CorpusIQ. You have to click through that - sign in with the email tied
+to your CorpusIQ account - for ChatGPT to get a token.
 
 **Symptom:** The GPT acts like CorpusIQ doesn't exist, or says it can't
 access your data, even though the action is configured.
@@ -82,7 +82,7 @@ Custom GPT actions require a paid ChatGPT plan (Plus, Team, or
 Enterprise) for both the builder and the user. If you're on the free
 plan, actions are not available.
 
-**Fix:** Upgrade, or use Claude Desktop instead — see
+**Fix:** Upgrade, or use Claude Desktop instead - see
 [claude-cant-see-corpusiq.md](claude-cant-see-corpusiq.md) for the
 parallel setup.
 

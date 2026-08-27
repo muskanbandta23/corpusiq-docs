@@ -1,6 +1,6 @@
 ---
 title: "Alison AI MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Read creative-performance analytics from your ad accounts — spend, KPIs, creative tags, and competitor intelligence — inside any MCP client
+description: Read creative-performance analytics from your ad accounts - spend, KPIs, creative tags, and competitor intelligence - inside any MCP client
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-13
@@ -11,7 +11,7 @@ tags: [ad-analytics, creative-intelligence, marketing, competitive-intelligence,
 
 # Alison AI MCP
 
-**Remote MCP server (Streamable HTTP, OAuth 2.1) for Alison AI's Evo — creative intelligence from your ad accounts inside any MCP client.** Point Claude Code, Claude, Cursor, or Codex at Evo and it reads the creative-performance warehouse directly: spend and KPIs, creative tags, competitor intelligence sourced from SensorTower and Pathmatics, and creative previews. The surface is the same analytics engine Evo's own analyst agent runs on. Read-only by design — 14 tools, no write path, no SQL to author.
+**Remote MCP server (Streamable HTTP, OAuth 2.1) for Alison AI's Evo - creative intelligence from your ad accounts inside any MCP client.** Point Claude Code, Claude, Cursor, or Codex at Evo and it reads the creative-performance warehouse directly: spend and KPIs, creative tags, competitor intelligence sourced from SensorTower and Pathmatics, and creative previews. The surface is the same analytics engine Evo's own analyst agent runs on. Read-only by design - 14 tools, no write path, no SQL to author.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Alison AI (alison.ai)
 
 ## Why This Matters for Operators
 
-The creative-performance question — "which creative is actually driving the spend we're paying for" — normally lives in a BI dashboard that nobody opens during a campaign review. Evo's MCP puts the same numbers inside the agent that is already writing the recap. The agent asks, the warehouse answers, and the analysis lands in chat with the numbers attached.
+The creative-performance question - "which creative is actually driving the spend we're paying for" - normally lives in a BI dashboard that nobody opens during a campaign review. Evo's MCP puts the same numbers inside the agent that is already writing the recap. The agent asks, the warehouse answers, and the analysis lands in chat with the numbers attached.
 
-**The grant is the security model.** OAuth 2.1 with PKCE and dynamic client registration means no API key ever leaves the platform. On sign-in you pick which product the client may read, and that choice is the ceiling on everything the client can ever see. Every request re-resolves authorization from the store — revocation is immediate, and a token scoped to accounts with no servable data is refused outright rather than handed zeroes.
+**The grant is the security model.** OAuth 2.1 with PKCE and dynamic client registration means no API key ever leaves the platform. On sign-in you pick which product the client may read, and that choice is the ceiling on everything the client can ever see. Every request re-resolves authorization from the store - revocation is immediate, and a token scoped to accounts with no servable data is refused outright rather than handed zeroes.
 
 ## Tools & Capabilities
 
@@ -48,7 +48,7 @@ The creative-performance question — "which creative is actually driving the sp
 | `run_competition_report` | Query competitor creatives and share of voice |
 | `get_creative` | Public thumbnail / preview URLs for creative ids you already hold (batch up to 25 per call) |
 
-Report rows carry creative ids, not images — pass the ids from `run_report`, `run_recipe`, or `run_competition_report` into one batched `get_creative` call to see the creatives.
+Report rows carry creative ids, not images - pass the ids from `run_report`, `run_recipe`, or `run_competition_report` into one batched `get_creative` call to see the creatives.
 
 ## Installation
 
@@ -56,7 +56,7 @@ Report rows carry creative ids, not images — pass the ids from `run_report`, `
 claude mcp add --transport http evo https://evo.alison.ai/mcp
 ```
 
-Then run `/mcp`, pick `evo`, and authenticate — the browser opens on the Evo sign-in page, you choose a product and approve, and the client keeps the token it is handed. Pre-approving every tool is safe: all 14 are read-only and none spends model budget.
+Then run `/mcp`, pick `evo`, and authenticate - the browser opens on the Evo sign-in page, you choose a product and approve, and the client keeps the token it is handed. Pre-approving every tool is safe: all 14 are read-only and none spends model budget.
 
 ## Configuration
 
@@ -71,28 +71,28 @@ Then run `/mcp`, pick `evo`, and authenticate — the browser opens on the Evo s
 }
 ```
 
-The client's first call returns `401` with a `WWW-Authenticate` header pointing at `/.well-known/oauth-protected-resource/mcp` — the client registers itself, opens the Evo approval page, and the server mints the token. Revoke any client from `GET /api/keys` and `DELETE /api/keys/{id}`; revocation is immediate, never cached.
+The client's first call returns `401` with a `WWW-Authenticate` header pointing at `/.well-known/oauth-protected-resource/mcp` - the client registers itself, opens the Evo approval page, and the server mints the token. Revoke any client from `GET /api/keys` and `DELETE /api/keys/{id}`; revocation is immediate, never cached.
 
 ## Business Relevance
 
-- **Growth leads** get creative-tag analysis (winning hooks, formats, angles) inside the agent that writes the ad briefs — the loop from data to next creative closes in one chat
+- **Growth leads** get creative-tag analysis (winning hooks, formats, angles) inside the agent that writes the ad briefs - the loop from data to next creative closes in one chat
 - **Performance marketers** run KPI reports and banded-uplift recipes without learning a BI tool, and never touch a SQL editor
-- **Brand teams** see competitor creatives and share of voice through `run_competition_report` — SensorTower/Pathmatics data through a chat interface
+- **Brand teams** see competitor creatives and share of voice through `run_competition_report` - SensorTower/Pathmatics data through a chat interface
 - **Agency account managers** connect once per client product; the grant keeps each client's data isolated to its own approval
-- **Finance stakeholders** get read-only access with no spend capability — the surface cannot mutate, cannot launch, cannot spend model budget
+- **Finance stakeholders** get read-only access with no spend capability - the surface cannot mutate, cannot launch, cannot spend model budget
 
 ## Integration with CorpusIQ
 
-Alison AI and CorpusIQ answer the two halves of the same question. CorpusIQ connectors — Meta Ads, Google Ads, LinkedIn Ads — pull cross-channel spend and revenue into one view with CorpusIQ's read-only external-source retrieval model. Evo's MCP adds the creative layer those connectors don't carry: which tags, hooks, and formats are moving the numbers, plus SensorTower/Pathmatics competition metrics.
+Alison AI and CorpusIQ answer the two halves of the same question. CorpusIQ connectors - Meta Ads, Google Ads, LinkedIn Ads - pull cross-channel spend and revenue into one view with CorpusIQ's read-only external-source retrieval model. Evo's MCP adds the creative layer those connectors don't carry: which tags, hooks, and formats are moving the numbers, plus SensorTower/Pathmatics competition metrics.
 
 The composed workflow: CorpusIQ resolves "what did we spend and what did it return across Meta, Google, and LinkedIn," while the Evo MCP inside the same agent session resolves "which creatives drove it, which tags repeat across winners, and what competitors are running." Both surfaces are read-only and grant-scoped, so a growth analyst can be given both without handing over campaign edit rights or spend capability.
 
 ## Limitations
 
-- Brand new listing — no track record yet (Aug 13, 2026)
+- Brand new listing - no track record yet (Aug 13, 2026)
 - Requires an Evo (alison.ai) product account; the MCP is not a standalone subscription
 - Read-only: no campaign edits, no budget changes through this surface
-- Commercial platform — no self-host option
+- Commercial platform - no self-host option
 - Browser OAuth flow per client; multiple clients mean multiple approvals to manage
 
 ## See Also

@@ -12,7 +12,7 @@ robots: index,follow
 
 Enterprise organizations face a unique tension when adopting AI-powered data access: the business demands real-time answers from dozens of systems, but security and compliance teams require guarantees that would traditionally block real-time access entirely. The result is often paralysis  --  AI initiatives stall while security reviews drag on, or worse, teams bypass security controls to get the access they need.
 
-CorpusIQ's MCP platform resolves this tension by providing an enterprise AI data access layer that meets the most stringent security requirements while delivering the real-time, natural-language data access that business teams expect. This guide covers the security architecture, compliance framework, and deployment model that make enterprise-grade AI data access possible  --  and why building the equivalent in-house typically takes 12–18 months of engineering effort.
+CorpusIQ's MCP platform resolves this tension by providing an enterprise AI data access layer that meets the most stringent security requirements while delivering the real-time, natural-language data access that business teams expect. This guide covers the security architecture, compliance framework, and deployment model that make enterprise-grade AI data access possible  --  and why building the equivalent in-house typically takes 12-18 months of engineering effort.
 
 ## The Enterprise AI Data Access Problem
 
@@ -117,29 +117,29 @@ CorpusIQ stores encrypted authentication tokens and connector configuration whil
 
 The question every enterprise faces: build an AI data access layer in-house or adopt a platform like CorpusIQ. Here's what building in-house entails:
 
-**Authentication and SSO integration.** Build SAML/OIDC integration with your identity provider. Implement JIT provisioning, session management, MFA enforcement. Handle token refresh, session timeout, and concurrent session policies. **Engineering effort: 4–8 weeks.**
+**Authentication and SSO integration.** Build SAML/OIDC integration with your identity provider. Implement JIT provisioning, session management, MFA enforcement. Handle token refresh, session timeout, and concurrent session policies. **Engineering effort: 4-8 weeks.**
 
-**Connector development.** Write and maintain API integrations for 20–50 business platforms. Handle OAuth flows, rate limiting, pagination, error recovery, schema changes. Each connector requires ongoing maintenance as APIs evolve. **Engineering effort: 3–4 weeks per connector, ongoing maintenance.**
+**Connector development.** Write and maintain API integrations for 20-50 business platforms. Handle OAuth flows, rate limiting, pagination, error recovery, schema changes. Each connector requires ongoing maintenance as APIs evolve. **Engineering effort: 3-4 weeks per connector, ongoing maintenance.**
 
-**Read-only enforcement.** Build a capability matrix that validates every API call against allowed operations. Implement at the API gateway, service, and connector levels. **Engineering effort: 2–3 weeks.**
+**Read-only enforcement.** Build a capability matrix that validates every API call against allowed operations. Implement at the API gateway, service, and connector levels. **Engineering effort: 2-3 weeks.**
 
-**Audit logging.** Build an audit logging system with immutable storage, structured log format, SIEM export, configurable retention, and real-time streaming. **Engineering effort: 3–5 weeks.**
+**Audit logging.** Build an audit logging system with immutable storage, structured log format, SIEM export, configurable retention, and real-time streaming. **Engineering effort: 3-5 weeks.**
 
-**AI model integration.** Build the tool discovery, function calling, and response synthesis layer that connects AI models to your data connectors. Handle prompt engineering, context window management, tool selection logic. **Engineering effort: 6–12 weeks.**
+**AI model integration.** Build the tool discovery, function calling, and response synthesis layer that connects AI models to your data connectors. Handle prompt engineering, context window management, tool selection logic. **Engineering effort: 6-12 weeks.**
 
 **Infrastructure and operations.** Provision and manage cloud infrastructure, implement high availability, configure monitoring and alerting, handle scaling. **Engineering effort: ongoing.**
 
-**Compliance certification.** Go through SOC 2 audit (6–12 months), CASA assessment, customer security reviews. **Timeline: 12+ months.**
+**Compliance certification.** Go through SOC 2 audit (6-12 months), CASA assessment, customer security reviews. **Timeline: 12+ months.**
 
-**Total in-house build: 12–18 months of engineering, $500K–$1.5M in engineering cost, plus ongoing maintenance.**
+**Total in-house build: 12-18 months of engineering, $500K-$1.5M in engineering cost, plus ongoing maintenance.**
 
 CorpusIQ provides this stack  --  40+ enterprise connectors, SSO integration, RBAC, read-only enforcement, audit trails, a SOC 2 aligned posture, CASA Tier 2 certification by DEKRA, and managed infrastructure  --  without requiring customers to build the connector layer themselves.
 
 ## How It Works
 
-**Step 1: SSO configuration.** Integrate CorpusIQ with your identity provider (Okta, Azure AD, Ping Identity, etc.) through SAML 2.0 or OpenID Connect. Configure role mappings to your existing directory groups. Typical setup: 1–2 hours with your IT team.
+**Step 1: SSO configuration.** Integrate CorpusIQ with your identity provider (Okta, Azure AD, Ping Identity, etc.) through SAML 2.0 or OpenID Connect. Configure role mappings to your existing directory groups. Typical setup: 1-2 hours with your IT team.
 
-**Step 2: Data source connections.** Business users connect their platforms through OAuth. Provider scopes vary by connector and documented operation; retrieval and write-capable tools remain separately named and annotated. Typical setup: 2–5 minutes per data source.
+**Step 2: Data source connections.** Business users connect their platforms through OAuth. Provider scopes vary by connector and documented operation; retrieval and write-capable tools remain separately named and annotated. Typical setup: 2-5 minutes per data source.
 
 **Step 3: Department-level governance.** Administrators configure which roles can access which data sources. Marketing connects its analytics stack. Finance connects its accounting platforms. Sales connects its CRM. Cross-department queries respect these boundaries  --  a marketing user cannot accidentally query financial data.
 
@@ -160,7 +160,7 @@ CorpusIQ provides this stack  --  40+ enterprise connectors, SSO integration, RB
 ## Frequently Asked Questions
 
 **Q: How does CorpusIQ integrate with our existing SSO provider?**
-A: CorpusIQ supports SAML 2.0 and OpenID Connect, integrating with Okta, Azure AD (Entra ID), Ping Identity, OneLogin, Google Workspace, and any standards-compliant identity provider. Configuration typically takes 1–2 hours and maps your existing directory groups to CorpusIQ roles.
+A: CorpusIQ supports SAML 2.0 and OpenID Connect, integrating with Okta, Azure AD (Entra ID), Ping Identity, OneLogin, Google Workspace, and any standards-compliant identity provider. Configuration typically takes 1-2 hours and maps your existing directory groups to CorpusIQ roles.
 
 **Q: Does CorpusIQ store our business data?**
 A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
@@ -184,7 +184,7 @@ A: The Azure Log Analytics workspace retains operational MCP logs for 30 days.
 A: Direct API access requires granting credentials that can potentially read, write, or modify data  --  and those credentials can be leaked, misused, or forgotten. CorpusIQ provides read-only external-source retrieval with separately annotated CorpusIQ control-plane operations, per-user authentication, granular RBAC, and audit trails.
 
 **Q: What's the deployment timeline for an enterprise rollout?**
-A: A departmental pilot can be operational in days  --  SSO configuration takes 1–2 hours, and data source connections take minutes each. Full enterprise deployment with governance policies, role mappings, and multi-department rollout typically takes 2–4 weeks.
+A: A departmental pilot can be operational in days  --  SSO configuration takes 1-2 hours, and data source connections take minutes each. Full enterprise deployment with governance policies, role mappings, and multi-department rollout typically takes 2-4 weeks.
 
 **Q: Can we build custom connectors for proprietary internal systems?**
 A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector development. Your internal ERP, proprietary databases, and homegrown applications can be exposed as MCP tools alongside the standard connector library.

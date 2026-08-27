@@ -1,6 +1,6 @@
 ---
-title: "akta.pro MCP — Integration Guide"
-description: "Private company intelligence MCP — company search, structured profiles, news monitoring, and alternative signals (headcount, traffic, reviews) for AI agents."
+title: "akta.pro MCP - Integration Guide"
+description: "Private company intelligence MCP - company search, structured profiles, news monitoring, and alternative signals (headcount, traffic, reviews) for AI agents."
 category: mcp
 tags: [mcp-server, company-intelligence, market-research, business-intelligence, due-diligence, hermes-agent]
 last_updated: 2026-08-10
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# akta.pro MCP — Private Company Intelligence for AI Agents
+# akta.pro MCP - Private Company Intelligence for AI Agents
 
 **Rating:** ★★ | **Category:** Business Intelligence | **Transport:** Streamable HTTP
 
@@ -19,9 +19,9 @@ akta.pro MCP connects AI assistants to a company-intelligence stack including co
 
 ## Why Business Operators Need This
 
-Traditional company research for due diligence, partnership evaluation, or competitive analysis involves checking 5+ different data sources (LinkedIn for headcount, SimilarWeb for traffic, news for recent developments, review sites for sentiment). akta.pro consolidates these into a single MCP connection — your agent can pull a comprehensive company profile with structured data and alternative signals in one call. For operators evaluating vendors, partners, acquisition targets, or competitors, this compresses hours of manual research into seconds.
+Traditional company research for due diligence, partnership evaluation, or competitive analysis involves checking 5+ different data sources (LinkedIn for headcount, SimilarWeb for traffic, news for recent developments, review sites for sentiment). akta.pro consolidates these into a single MCP connection - your agent can pull a comprehensive company profile with structured data and alternative signals in one call. For operators evaluating vendors, partners, acquisition targets, or competitors, this compresses hours of manual research into seconds.
 
-**Competitive landscape:** Similar to Fund Momentum MCP (VC intelligence, also new this sweep) but broader — Fund Momentum focuses on VC/investor signals while akta.pro covers general company intelligence. More structured than Sugra API MCP (catalogued earlier, 1,500+ endpoints across 36 domains) but narrower in scope — Sugra covers macroeconomic data while akta.pro focuses on company-level intelligence.
+**Competitive landscape:** Similar to Fund Momentum MCP (VC intelligence, also new this sweep) but broader - Fund Momentum focuses on VC/investor signals while akta.pro covers general company intelligence. More structured than Sugra API MCP (catalogued earlier, 1,500+ endpoints across 36 domains) but narrower in scope - Sugra covers macroeconomic data while akta.pro focuses on company-level intelligence.
 
 ## Quick Start
 
@@ -76,13 +76,13 @@ claude mcp add --transport http akta-pro https://mcp.akta.pro/mcp \
 
 ### Due Diligence on a Vendor
 
-Ask your agent: *"Give me a full profile on VendorX — headcount, funding, recent news, and any red flags."*
+Ask your agent: *"Give me a full profile on VendorX - headcount, funding, recent news, and any red flags."*
 
 The agent pulls structured company data, recent news, headcount trends, and review sentiment. Flags unusual patterns (headcount decline + negative review spike + recent leadership departure).
 
 ### Competitive Landscape Scan
 
-Ask your agent: *"Profile the top 5 companies in AI-powered analytics — compare headcount, funding, and traffic trends."*
+Ask your agent: *"Profile the top 5 companies in AI-powered analytics - compare headcount, funding, and traffic trends."*
 
 The agent searches for companies in the AI analytics category, pulls profiles for the top 5, and structures a comparison table with headcount, funding, and traffic.
 
@@ -94,7 +94,7 @@ The agent evaluates headcount trends (growing? shrinking?), recent news sentimen
 
 ## Pricing
 
-akta.pro requires a subscription. Check [akta.pro](https://akta.pro) for current plans. Published by Wokelo AI — the platform also offers AI-powered due diligence reports.
+akta.pro requires a subscription. Check [akta.pro](https://akta.pro) for current plans. Published by Wokelo AI - the platform also offers AI-powered due diligence reports.
 
 ## Repository & Resources
 
@@ -106,7 +106,7 @@ akta.pro requires a subscription. Check [akta.pro](https://akta.pro) for current
 | **Publisher** | [wokelo.ai](https://wokelo.ai) |
 | **MCP Endpoint** | `https://mcp.akta.pro/mcp` |
 
-## Verdict: ★★ — Strong for Due Diligence & Market Research
+## Verdict: ★★ - Strong for Due Diligence & Market Research
 
 akta.pro consolidates company research that normally requires 5+ separate tools into a single MCP connection. The alternative signals (headcount trends, traffic, reviews) provide a more complete picture than traditional company databases that only show firmographic data. Published by Wokelo AI, a company with existing due diligence expertise, which adds credibility.
 

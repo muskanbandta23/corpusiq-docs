@@ -1,5 +1,5 @@
 ---
-title: "Flash Props API MCP — Live Sports Betting Player Props"
+title: "Flash Props API MCP - Live Sports Betting Player Props"
 description: "Flash Props API MCP server provides live sports betting player props data across NBA, MLB, NFL, NHL, NCAA, and soccer leagues. Unified format across all"
 category: mcp
 tags: [mcp-server, sports, betting, data, nba, nfl, mlb, nhl, ncaa, soccer]
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Flash Props API MCP Server — Live Sports Props Data
+# Flash Props API MCP Server - Live Sports Props Data
 
-Flash Props API is a hosted remote MCP server for live sports betting player props. It covers NBA, MLB, NFL, NHL, NCAA, and soccer in a unified format — one API for all major sports. Designed for agents that need real-time betting data without managing multiple sports-specific APIs.
+Flash Props API is a hosted remote MCP server for live sports betting player props. It covers NBA, MLB, NFL, NHL, NCAA, and soccer in a unified format - one API for all major sports. Designed for agents that need real-time betting data without managing multiple sports-specific APIs.
 
 **Source:** awesome-mcp-servers PR #9896 (discovered July 19, 2026)
 **Category:** Sports / Data
@@ -26,7 +26,7 @@ Sports betting data is traditionally fragmented across league-specific APIs with
 ## Installation
 
 ```bash
-# Remote MCP — no installation needed
+# Remote MCP - no installation needed
 # Connect directly via SSE endpoint:
 # https://flash-props-api.example.com/sse
 ```
@@ -71,7 +71,7 @@ Requires a Flash Props API key. Contact the author via the GitHub repo.
 
 ## CorpusIQ Relevance
 
-Niche but high-value for operators in the sports betting and fantasy sports industries. Demonstrates the pattern of vertical-specific MCP data servers — a model CorpusIQ can replicate for e-commerce and DTC verticals.
+Niche but high-value for operators in the sports betting and fantasy sports industries. Demonstrates the pattern of vertical-specific MCP data servers - a model CorpusIQ can replicate for e-commerce and DTC verticals.
 
 ## See Also
 

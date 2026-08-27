@@ -1,6 +1,6 @@
 ---
-title: "Holdings MCP — Integration Guide"
-description: "Agentic invoicing and payments — let your AI send invoices and take payment via card or ACH. Free. Holdings MCP server for Claude, ChatGPT, and Cursor."
+title: "Holdings MCP - Integration Guide"
+description: "Agentic invoicing and payments - let your AI send invoices and take payment via card or ACH. Free. Holdings MCP server for Claude, ChatGPT, and Cursor."
 category: mcp
 tags: [mcp-server, invoicing, payments, finance-operations, accounts-receivable, hermes-agent]
 last_updated: 2026-08-10
@@ -9,17 +9,17 @@ robots: "index,follow"
 
 ---
 
-# Holdings MCP — Agentic Invoicing & Payments
+# Holdings MCP - Agentic Invoicing & Payments
 
 **Rating:** ★★★ | **Category:** Finance & Commerce | **Transport:** stdio (npm) or Streamable HTTP (remote)
 
 ## What It Does
 
-Holdings is agentic invoicing — software your AI can run. Connect Claude, ChatGPT, or Cursor, tell it who to bill, and it drafts the invoice, shows you a preview, and sends it the moment you confirm. Your client pays by card or ACH; you're told when the money lands. Free, no monthly fee — you pay standard payment-processing fees only when a client pays.
+Holdings is agentic invoicing - software your AI can run. Connect Claude, ChatGPT, or Cursor, tell it who to bill, and it drafts the invoice, shows you a preview, and sends it the moment you confirm. Your client pays by card or ACH; you're told when the money lands. Free, no monthly fee - you pay standard payment-processing fees only when a client pays.
 
 ## Why Business Operators Need This
 
-Invoicing is one of the highest-friction operational tasks for small businesses and freelancers. Holdings makes it a conversational action: "Send Acme the December retainer — $8,400, net 30." The agent drafts, you approve, the client pays. Every write is confirm-gated — a draft is created first, amounts are recomputed server-side, and nothing reaches a client until you explicitly confirm. This is the first MCP server to bridge the gap between AI agents and real payment collection.
+Invoicing is one of the highest-friction operational tasks for small businesses and freelancers. Holdings makes it a conversational action: "Send Acme the December retainer - $8,400, net 30." The agent drafts, you approve, the client pays. Every write is confirm-gated - a draft is created first, amounts are recomputed server-side, and nothing reaches a client until you explicitly confirm. This is the first MCP server to bridge the gap between AI agents and real payment collection.
 
 **Competitive landscape:** No other MCP server handles invoicing and payment collection. Stripe MCP (catalogued earlier) handles payment infrastructure but not invoicing workflows. QuickBooks MCP (catalogued earlier) handles accounting but requires a QuickBooks subscription. Holdings is purpose-built for agentic invoicing with no monthly platform fee.
 
@@ -36,7 +36,7 @@ Invoicing is one of the highest-friction operational tasks for small businesses 
 | **npm** | `@getholdings/mcp` |
 | **GitHub** | `holdings-io/mcp` (0★, created Jul 28, 2026) |
 
-### Option 1: Local (stdio) — Claude Desktop, Cursor, Cline, Windsurf
+### Option 1: Local (stdio) - Claude Desktop, Cursor, Cline, Windsurf
 
 ```json
 {
@@ -52,7 +52,7 @@ Invoicing is one of the highest-friction operational tasks for small businesses 
 }
 ```
 
-### Option 2: Remote (Streamable HTTP) — Any MCP Client
+### Option 2: Remote (Streamable HTTP) - Any MCP Client
 
 ```json
 {
@@ -88,13 +88,13 @@ Create a free key in your Holdings workspace → **Settings → API keys**. No m
 | **Clients** | CRUD operations | Manage the people and businesses you bill |
 | **Payments** | View status | See what's paid, outstanding, and overdue |
 
-Every write operation is **confirm-gated**: a draft is created first, nothing reaches a client until you explicitly approve the send. Amounts are recomputed server-side — the agent can't override totals.
+Every write operation is **confirm-gated**: a draft is created first, nothing reaches a client until you explicitly approve the send. Amounts are recomputed server-side - the agent can't override totals.
 
 ## Example Usage
 
 ### Send an Invoice
 
-Ask your agent: *"Send Acme Corp the December retainer — $8,400, net 30."*
+Ask your agent: *"Send Acme Corp the December retainer - $8,400, net 30."*
 
 The agent drafts the invoice with line items, shows you a preview with the computed total, and waits for your confirmation before sending. Acme gets a payment link; you get notified when they pay.
 
@@ -102,7 +102,7 @@ The agent drafts the invoice with line items, shows you a preview with the compu
 
 Ask your agent: *"Turn the accepted Q4 proposal for GlobalTech into an invoice."*
 
-The agent finds the quote, converts it to an invoice, and sends it — all in one conversation.
+The agent finds the quote, converts it to an invoice, and sends it - all in one conversation.
 
 ### Check Outstanding Payments
 
@@ -133,9 +133,9 @@ The agent creates the recurring invoice template with monthly scheduling.
 | **MCP Registry** | `com.getholdings/mcp` |
 | **MCP Endpoint** | `https://mcp.getholdings.com/mcp` |
 
-## Verdict: ★★★ — Essential for Freelancers & Small Business Operators
+## Verdict: ★★★ - Essential for Freelancers & Small Business Operators
 
-Holdings is the first MCP server that makes invoicing and payment collection an agent-native capability. The confirm-gated design (draft → preview → confirm → send) is exactly right for financial operations — the agent does the work, but you stay in control. Free pricing with no monthly fee removes the adoption barrier entirely.
+Holdings is the first MCP server that makes invoicing and payment collection an agent-native capability. The confirm-gated design (draft → preview → confirm → send) is exactly right for financial operations - the agent does the work, but you stay in control. Free pricing with no monthly fee removes the adoption barrier entirely.
 
 **Strengths:** Free (no monthly fee), confirm-gated writes prevent errors, dual transport (stdio + HTTP), card + ACH support, quotes-to-invoices conversion, recurring invoices, MCP Registry listed.
 

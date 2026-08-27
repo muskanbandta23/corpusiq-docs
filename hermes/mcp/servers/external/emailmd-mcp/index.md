@@ -51,11 +51,11 @@ Or use the hosted server (no API key required).
 
 ## Operator Use Cases
 
-1. **Automated client communications** — agent drafts professional emails from bullet points
-2. **Newsletter preview** — verify rendering in Outlook/Gmail before sending
-3. **Deliverability checking** — catch spam triggers before hitting send
-4. **Template management** — maintain markdown email templates, render on demand
-5. **Multi-format testing** — verify email appearance across clients
+1. **Automated client communications** - agent drafts professional emails from bullet points
+2. **Newsletter preview** - verify rendering in Outlook/Gmail before sending
+3. **Deliverability checking** - catch spam triggers before hitting send
+4. **Template management** - maintain markdown email templates, render on demand
+5. **Multi-format testing** - verify email appearance across clients
 
 ## CorpusIQ Angle
 

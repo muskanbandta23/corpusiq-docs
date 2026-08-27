@@ -1,5 +1,5 @@
 ---
-title: "July 28, 2026 — Hermes Skills Sweep: Dogfood QA, History"
+title: "July 28, 2026 - Hermes Skills Sweep: Dogfood QA, History"
 description: "6 new Hermes-relevant skills discovered: Dogfood (4.9K), Skill Vetter (20.6K), OpenClaw Backup (3.1K), Hermes History Ingest (2.1K), Hermes Imports (2.7K)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july28-2026-skills/"
 robots: "index,follow"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# July 28, 2026 — Hermes Skills Sweep
+# July 28, 2026 - Hermes Skills Sweep
 
-**6 new skills discovered — 34.4K+ combined installs.** This sweep focuses on Hermes-specific and OpenClaw ecosystem skills from the skills.sh marketplace. Discovery via `npx skills find` across 18 search terms.
+**6 new skills discovered - 34.4K+ combined installs.** This sweep focuses on Hermes-specific and OpenClaw ecosystem skills from the skills.sh marketplace. Discovery via `npx skills find` across 18 search terms.
 
 ## New Skills at a Glance
 
@@ -48,17 +48,17 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Setup Guides Created
 
-1. **[Dogfood Setup Guide](/hermes/skills/catalog/dogfood-setup/)** — Systematic QA testing with browser tools. 5-phase workflow for finding bugs and producing structured reports.
-2. **[Skill Vetter Setup Guide](/hermes/skills/catalog/skill-vetter-setup/)** — Pre-install security vetting for OpenClaw skills. Red-flag checklist for safe skill adoption.
-3. **[OpenClaw Backup Setup Guide](/hermes/skills/catalog/openclaw-backup-setup/)** — Encrypted workspace backup with AES-256-CBC. Auto-generated passwords, soul-upload.com API.
-4. **[Hermes Imports Setup Guide](/hermes/skills/catalog/hermes-imports-setup/)** — Sanitize and export Hermes workflows as reusable ECC skills.
-5. **[Hermes History Ingest Setup Guide](/hermes/skills/catalog/hermes-history-ingest-setup/)** — Mine Hermes session history into Obsidian knowledge base.
-6. **[Hermes Marketing Dashboard Setup Guide](/hermes/skills/catalog/hermes-marketing-dashboard-setup/)** — Full-stack marketing control center with CRM, outreach, and analytics.
+1. **[Dogfood Setup Guide](/hermes/skills/catalog/dogfood-setup/)** - Systematic QA testing with browser tools. 5-phase workflow for finding bugs and producing structured reports.
+2. **[Skill Vetter Setup Guide](/hermes/skills/catalog/skill-vetter-setup/)** - Pre-install security vetting for OpenClaw skills. Red-flag checklist for safe skill adoption.
+3. **[OpenClaw Backup Setup Guide](/hermes/skills/catalog/openclaw-backup-setup/)** - Encrypted workspace backup with AES-256-CBC. Auto-generated passwords, soul-upload.com API.
+4. **[Hermes Imports Setup Guide](/hermes/skills/catalog/hermes-imports-setup/)** - Sanitize and export Hermes workflows as reusable ECC skills.
+5. **[Hermes History Ingest Setup Guide](/hermes/skills/catalog/hermes-history-ingest-setup/)** - Mine Hermes session history into Obsidian knowledge base.
+6. **[Hermes Marketing Dashboard Setup Guide](/hermes/skills/catalog/hermes-marketing-dashboard-setup/)** - Full-stack marketing control center with CRM, outreach, and analytics.
 
 ## Quick Install
 
 ```bash
-# Official Hermes — QA testing
+# Official Hermes - QA testing
 npx skills add nousresearch/hermes-agent@dogfood
 
 # Security vetting for any skill install
@@ -79,4 +79,4 @@ npx skills add aradotso/marketing-skills@hermes-marketing-dashboard
 
 ## Why This Matters for Hermes
 
-These six skills fill critical gaps in the Hermes ecosystem. `dogfood` brings systematic QA testing — essential as Hermes agents increasingly drive production workflows. `skill-vetter` addresses the growing security surface area of the skills marketplace at 20.6K installs. `openclaw-backup` solves agent state persistence with encryption. The three community Hermes skills (`hermes-imports`, `hermes-history-ingest`, `hermes-marketing-dashboard`) demonstrate the maturing operator toolchain around Hermes — workflow export, knowledge mining, and marketing ops.
+These six skills fill critical gaps in the Hermes ecosystem. `dogfood` brings systematic QA testing - essential as Hermes agents increasingly drive production workflows. `skill-vetter` addresses the growing security surface area of the skills marketplace at 20.6K installs. `openclaw-backup` solves agent state persistence with encryption. The three community Hermes skills (`hermes-imports`, `hermes-history-ingest`, `hermes-marketing-dashboard`) demonstrate the maturing operator toolchain around Hermes - workflow export, knowledge mining, and marketing ops.

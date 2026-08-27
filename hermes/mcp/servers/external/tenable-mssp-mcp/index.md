@@ -1,6 +1,6 @@
 ---
 title: "Tenable MSSP MCP - CorpusIQ Docs"
-description: Tenable MSSP portal orchestration over MCP — bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.
+description: Tenable MSSP portal orchestration over MCP - bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.
 category: Development
 stars: n/a (new listing)
 added: 2026-08-17
@@ -11,7 +11,7 @@ tags: [tenable, vulnerability-management, mssp, security-ops, cve, enterprise-se
 
 # Tenable MSSP MCP
 
-**MCP server (stdio, self-hosted Python)** — an MSSP-aware orchestration layer around the Tenable Hexa AI MCP Server. Run Hexa AI tools across MSSP child containers through a scoped layer, query CVEs across tenants in bulk, and control exactly which child containers an action touches.
+**MCP server (stdio, self-hosted Python)** - an MSSP-aware orchestration layer around the Tenable Hexa AI MCP Server. Run Hexa AI tools across MSSP child containers through a scoped layer, query CVEs across tenants in bulk, and control exactly which child containers an action touches.
 
 ```
 Server type: stdio (Python 3.14, uv or pip install)
@@ -25,9 +25,9 @@ Built by: Andrew Spearson (github.com/andrewspearson/tenable-mcp-mssp)
 
 ## Why This Matters for Operators
 
-Managed security providers run dozens of Tenable tenants. Answering one CVE question across all of them manually means the same query in every portal — or a script someone maintains. This server gives the agent the orchestration layer: one prompt can query a CVE across every eligible child container, run a validated Hexa AI recipe across tenants with controlled fan-out, and return a CSV report of findings.
+Managed security providers run dozens of Tenable tenants. Answering one CVE question across all of them manually means the same query in every portal - or a script someone maintains. This server gives the agent the orchestration layer: one prompt can query a CVE across every eligible child container, run a validated Hexa AI recipe across tenants with controlled fan-out, and return a CSV report of findings.
 
-**Scope control is explicit**: a plain-text allowlist file restricts action tools to named child-container UUIDs, and expired containers, malformed data, missing child accounts, and `licenseType: "ao"` containers are blocked regardless. Queries and actions against child containers run concurrently on up to 10 containers at a time. The bulk CVE tool is deliberately conservative — it starts a server-managed background run and returns a run ID, with separate status and result tools, and the prompt must name the tool explicitly before it executes.
+**Scope control is explicit**: a plain-text allowlist file restricts action tools to named child-container UUIDs, and expired containers, malformed data, missing child accounts, and `licenseType: "ao"` containers are blocked regardless. Queries and actions against child containers run concurrently on up to 10 containers at a time. The bulk CVE tool is deliberately conservative - it starts a server-managed background run and returns a run ID, with separate status and result tools, and the prompt must name the tool explicitly before it executes.
 
 ## Tools & Capabilities
 
@@ -69,14 +69,14 @@ Environment: `TENABLE_MSSP_PORTAL_ACCESS_KEY`, `TENABLE_MSSP_PORTAL_SECRET_KEY`,
 
 ## Integration with CorpusIQ
 
-Tenable MSSP composes with the CorpusIQ reporting and governance stack as the security-evidence source. A CorpusIQ operator workflow can run the bulk CVE query, collect the CSV report, and fold it into the standard reporting pipeline the CorpusIQ connectors already serve — findings beside financials, one evidence package. The child-container allowlist mirrors the CorpusIQ scoping doctrine: credentials act only where explicitly permitted, and the audit trail records what ran. For MSPs running their own CorpusIQ instance, the security posture of managed tenants becomes another connector-backed data source instead of a manual portal crawl.
+Tenable MSSP composes with the CorpusIQ reporting and governance stack as the security-evidence source. A CorpusIQ operator workflow can run the bulk CVE query, collect the CSV report, and fold it into the standard reporting pipeline the CorpusIQ connectors already serve - findings beside financials, one evidence package. The child-container allowlist mirrors the CorpusIQ scoping doctrine: credentials act only where explicitly permitted, and the audit trail records what ran. For MSPs running their own CorpusIQ instance, the security posture of managed tenants becomes another connector-backed data source instead of a manual portal crawl.
 
 ## Limitations
 
-- Brand new — no track record yet; listed August 17, 2026
+- Brand new - no track record yet; listed August 17, 2026
 - Requires Tenable MSSP Portal API keys with Administrator privileges
 - Child containers need `hexa` licenses for Hexa AI tools and `vm` licenses for bulk CVE export
-- Python 3.14+ required — newer than many enterprise Python installations
+- Python 3.14+ required - newer than many enterprise Python installations
 - Self-hosted stdio server: you operate the process and the credential hygiene
 
 ## See Also

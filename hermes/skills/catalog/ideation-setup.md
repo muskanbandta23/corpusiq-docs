@@ -1,6 +1,6 @@
 ---
-title: Creative Ideation — Skill Setup Guide
-description: Install and configure ideation, the Hermes Agent skill for generating creative project ideas through constraint-driven brainstorming — 111 installs.
+title: Creative Ideation - Skill Setup Guide
+description: Install and configure ideation, the Hermes Agent skill for generating creative project ideas through constraint-driven brainstorming - 111 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ideation-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Creative Ideation — Setup Guide
+# Creative Ideation - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/ideation) (111 installs)
 **Category:** Creative / Productivity
@@ -74,7 +74,7 @@ cp -r /tmp/hermes-agent/skills/creative/ideation ~/.hermes/skills/
 > Give me project ideas for a CLI tool
 ```
 ```
-> I have a Raspberry Pi and sensors — what should I build?
+> I have a Raspberry Pi and sensors - what should I build?
 ```
 
 ### Pick and build
@@ -104,7 +104,7 @@ Hermes switches from ideation mode to execution mode, creating the project struc
 - **The constraint is the spark, not the cage:** Interpret loosely
 - **Say "more" to get fresh ideas:** The skill generates 3 at a time but can keep going
 - **Mix constraints:** "Under 100 lines AND uses AI" produces tighter ideas
-- **Save good ideas:** The skill doesn't persist — note the ones you might revisit
+- **Save good ideas:** The skill doesn't persist - note the ones you might revisit
 - **Domain matters:** Mention your stack/interests for more relevant ideas
 
 ---

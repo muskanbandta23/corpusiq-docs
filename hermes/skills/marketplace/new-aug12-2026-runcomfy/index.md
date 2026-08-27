@@ -1,6 +1,6 @@
 ---
-title: "August 12, 2026 — RunComfy Agent Skills (61.1K installs,"
-description: "Second skills.sh sweep for Aug 12: prime-skills/runcomfy-agent-skills — AI video generation, image-to-video, avatar video, video editing, music generation"
+title: "August 12, 2026 - RunComfy Agent Skills (61.1K installs,"
+description: "Second skills.sh sweep for Aug 12: prime-skills/runcomfy-agent-skills - AI video generation, image-to-video, avatar video, video editing, music generation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-runcomfy/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# August 12, 2026 — RunComfy Agent Skills
+# August 12, 2026 - RunComfy Agent Skills
 
 **Date:** August 12, 2026
 **New publishers:** 1
@@ -23,7 +23,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 **Source:** [skills.sh](https://skills.sh/prime-skills/runcomfy-agent-skills)
 **Category:** AI Media / Video Production
 
-RunComfy is a cloud GPU platform for AI media generation. This publisher ships 30 individual skills covering the full RunComfy model catalog — text-to-video, image-to-video, avatar video generation, video editing, image generation, music generation, and professional effects.
+RunComfy is a cloud GPU platform for AI media generation. This publisher ships 30 individual skills covering the full RunComfy model catalog - text-to-video, image-to-video, avatar video generation, video editing, image generation, music generation, and professional effects.
 
 ### Top Skills by Installs
 

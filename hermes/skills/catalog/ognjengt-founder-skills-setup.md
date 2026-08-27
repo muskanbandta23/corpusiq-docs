@@ -1,5 +1,5 @@
 ---
-title: Ognjen Founder Skills — Viral Growth & Content for Hermes Agents
+title: Ognjen Founder Skills - Viral Growth & Content for Hermes Agents
 description: Viral hook creation, SOP generation, and brand copywriting with 2.9K+ combined installs. 18 proven hook patterns with psychology-backed trigger words for social media growth.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ognjengt-founder-skills-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Ognjen Founder Skills — Setup Guide
+# Ognjen Founder Skills - Setup Guide
 
 **Source:** [ognjengt/founder-skills](https://skills.sh/ognjengt/founder-skills) (2.9K+ combined installs)
 **Category:** Growth Operations / Content
 **Quality Tier:** 🟡 Beta
 
-Founder-focused growth toolkit. Generate viral hooks using 18 proven patterns backed by trigger-word psychology, create standard operating procedures, and produce on-brand copy. The viral hook creator is the standout — pattern selection matrix maps 18 hook types to platforms (X, LinkedIn, Instagram, TikTok) and goals (awareness, education, engagement, conversion).
+Founder-focused growth toolkit. Generate viral hooks using 18 proven patterns backed by trigger-word psychology, create standard operating procedures, and produce on-brand copy. The viral hook creator is the standout - pattern selection matrix maps 18 hook types to platforms (X, LinkedIn, Instagram, TikTok) and goals (awareness, education, engagement, conversion).
 
 ---
 
@@ -67,9 +67,9 @@ npx skills add ognjengt/founder-skills --skill brand-copywriter
 Natural language invocation:
 
 ```
-Create 5 viral hooks for a product launch on X and LinkedIn — B2B SaaS, target audience is operations managers
+Create 5 viral hooks for a product launch on X and LinkedIn - B2B SaaS, target audience is operations managers
 Generate SOPs for our customer onboarding process
-Write brand copy for our new feature announcement — professional but not corporate tone
+Write brand copy for our new feature announcement - professional but not corporate tone
 ```
 
 ---
@@ -84,8 +84,8 @@ npx skills list | grep ognjengt/founder-skills
 
 ## Notes
 
-- Viral hook creator is the standout skill — 18 patterns with psychology-backed trigger words
+- Viral hook creator is the standout skill - 18 patterns with psychology-backed trigger words
 - Pattern Selection Matrix cross-references goals (awareness/education/engagement/conversion) × platforms
 - Requires reading `hook-patterns.md` and `trigger_words.md` reference files before execution
 - Optional `FOUNDER_CONTEXT.md` for brand-specific personalization
-- Complements CorpusIQ content workflows — integrate with `corpusiq-content-writing-system` for end-to-end social content production
+- Complements CorpusIQ content workflows - integrate with `corpusiq-content-writing-system` for end-to-end social content production

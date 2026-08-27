@@ -1,6 +1,6 @@
 ---
 title: SIXTA Connect MCP Server Integration Guide
-description: Zero-connection SQL analysis for PostgreSQL and MySQL — paste queries, get instant fixes from AI agents with SIXTA Connect MCP server
+description: Zero-connection SQL analysis for PostgreSQL and MySQL - paste queries, get instant fixes from AI agents with SIXTA Connect MCP server
 category: mcp
 tags: [mcp, sixta, sql, database, postgresql, mysql, analysis, optimization, hermes-agent]
 last_updated: 2026-07-08
@@ -9,30 +9,30 @@ robots: "index,follow"
 
 ---
 
-# SIXTA Connect MCP — Zero-Connection SQL Analysis for Hermes Agent
+# SIXTA Connect MCP - Zero-Connection SQL Analysis for Hermes Agent
 
-DBRE-grade SQL analysis inside any MCP client. No connection strings, no install beyond the MCP server — just paste a query, EXPLAIN plan, migration, or error, and get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL.
+DBRE-grade SQL analysis inside any MCP client. No connection strings, no install beyond the MCP server - just paste a query, EXPLAIN plan, migration, or error, and get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL.
 
 ## What It Does
 
 SIXTA Connect brings database reliability engineering (DBRE) to AI agents without ever touching your production database:
 
-- **SQL review** — Paste a query, get named findings (performance, anti-patterns, security)
-- **EXPLAIN analysis** — Paste EXPLAIN output, get optimization recommendations
-- **Migration review** — Paste schema migrations, get safety checks and improvement suggestions
-- **Error diagnosis** — Paste a database error, get root cause analysis and fixes
-- **Severity-ranked findings** — Each finding has severity, rationale, and ready-to-run fixes
+- **SQL review** - Paste a query, get named findings (performance, anti-patterns, security)
+- **EXPLAIN analysis** - Paste EXPLAIN output, get optimization recommendations
+- **Migration review** - Paste schema migrations, get safety checks and improvement suggestions
+- **Error diagnosis** - Paste a database error, get root cause analysis and fixes
+- **Severity-ranked findings** - Each finding has severity, rationale, and ready-to-run fixes
 
 ## Quick Setup
 
 ### Prerequisites
-- **No database credentials needed** — SIXTA works entirely on pasted content
-- **No API key required** — Public service
+- **No database credentials needed** - SIXTA works entirely on pasted content
+- **No API key required** - Public service
 
 ### Add to Hermes Agent
 
 ```bash
-# Streamable HTTP — connect and start analyzing
+# Streamable HTTP - connect and start analyzing
 hermes mcp add sixta -- url https://sixta.dev/mcp
 ```
 
@@ -53,7 +53,7 @@ Or manual config:
 
 | Tool | Description |
 |------|-------------|
-| `analyze_query` | Submit a SQL query for multi-faceted review — performance, anti-patterns, security |
+| `analyze_query` | Submit a SQL query for multi-faceted review - performance, anti-patterns, security |
 | `analyze_explain` | Parse EXPLAIN/EXPLAIN ANALYZE output and surface optimization opportunities |
 | `review_migration` | Check schema migrations for safety (locking, backfill, rollback) and best practices |
 | `diagnose_error` | Diagnose PostgreSQL/MySQL errors with root cause analysis and fix suggestions |
@@ -109,10 +109,10 @@ This gives operators a safe review layer between AI-generated SQL and production
 
 ## Why Zero-Connection Matters
 
-- **Security:** No credentials exposed to the MCP server — data never leaves your paste buffer
-- **Compliance:** SOC 2 and GDPR friendly — the service sees only what you explicitly submit
+- **Security:** No credentials exposed to the MCP server - data never leaves your paste buffer
+- **Compliance:** SOC 2 and GDPR friendly - the service sees only what you explicitly submit
 - **Flexibility:** Works with any PostgreSQL/MySQL deployment (self-hosted, RDS, Cloud SQL, Aurora)
-- **Speed:** No connection setup, no VPN configuration — paste and analyze instantly
+- **Speed:** No connection setup, no VPN configuration - paste and analyze instantly
 
 ## Pricing
 

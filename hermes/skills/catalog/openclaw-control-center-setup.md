@@ -1,5 +1,5 @@
 ---
-title: OpenClaw Control Center — Agent Monitoring Dashboard for OpenClaw
+title: OpenClaw Control Center - Agent Monitoring Dashboard for OpenClaw
 description: Local-first, security-first control center for OpenClaw agents. Visibility dashboard with readonly defaults, token attribution, and collaboration tracing. 4.3K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenClaw Control Center — Setup Guide
+# OpenClaw Control Center - Setup Guide
 
 **Source:** [aradotso/trending-skills](https://github.com/aradotso/trending-skills) (4,300+ installs)
 **Category:** Agent Infrastructure / Monitoring
 **Quality Tier:** 🟢 Production
 
-Transforms OpenClaw from a black box into a local, auditable control center. Provides visibility into agent activity, token spend, task execution chains, cross-session collaboration, memory state, and document sources — with security-first defaults that keep all mutations off by default.
+Transforms OpenClaw from a black box into a local, auditable control center. Provides visibility into agent activity, token spend, task execution chains, cross-session collaboration, memory state, and document sources - with security-first defaults that keep all mutations off by default.
 
 ---
 
@@ -35,7 +35,7 @@ Open:
 - English: `http://127.0.0.1:4310/?section=overview&lang=en`
 - Chinese: `http://127.0.0.1:4310/?section=overview&lang=zh`
 
-> Use `npm run dev:ui` over `UI_MODE=true npm run dev` — more stable, especially on Windows.
+> Use `npm run dev:ui` over `UI_MODE=true npm run dev` - more stable, especially on Windows.
 
 ---
 
@@ -64,7 +64,7 @@ openclaw-control-center/
 Copy `.env.example` to `.env` and configure:
 
 ```env
-# Security defaults — do NOT change without understanding implications
+# Security defaults - do NOT change without understanding implications
 READONLY_MODE=true
 LOCAL_TOKEN_AUTH_REQUIRED=true
 IMPORT_MUTATION_ENABLED=false

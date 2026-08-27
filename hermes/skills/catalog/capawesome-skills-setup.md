@@ -1,20 +1,20 @@
 ---
-title: "Capawesome Skills — Capacitor and Ionic Ecosystem Suite Setup"
-description: "capawesome-team/skills — 37 skills, 11.4K installs: the Capacitor ecosystem team's suite covering plugin installation, app development, Ionic frameworks, upgrades, and Capawesome Cloud."
+title: "Capawesome Skills - Capacitor and Ionic Ecosystem Suite Setup"
+description: "capawesome-team/skills - 37 skills, 11.4K installs: the Capacitor ecosystem team's suite covering plugin installation, app development, Ionic frameworks, upgrades, and Capawesome Cloud."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/capawesome-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-18"
 tags: ["hermes skill", "agent skill", "skill setup", "capacitor", "ionic", "mobile", "plugins"]
 ---
 
-# Capawesome Skills — Setup Guide
+# Capawesome Skills - Setup Guide
 
 **Source:** [capawesome-team/skills](https://skills.sh/capawesome-team/skills)
 **GitHub:** [capawesome-team/skills](https://github.com/capawesome-team/skills)
 **Skills:** 37 skills · 11.4K total installs
 **Category:** Mobile Development
 **First Seen:** March 16, 2026 (catalogued August 18, 2026 sweep)
-**Quality Tier:** 🟡 Trusted — Snyk Fail on the capacitor-plugins flagship (named); Gen Agent Trust Hub Pass and Socket Pass; 38 GitHub stars
+**Quality Tier:** 🟡 Trusted - Snyk Fail on the capacitor-plugins flagship (named); Gen Agent Trust Hub Pass and Socket Pass; 38 GitHub stars
 
 Capawesome is a well-known Capacitor and Ionic ecosystem team (plugin vendor, capawesome.cloud services, Capawesome CLI). This is their agent skill suite for mobile app work: installing and configuring Capacitor plugins from official, Capawesome, community, Firebase, MLKit, and RevenueCat sources; app development across Ionic (Angular, React, Vue) and Capacitor (Angular, React, Vue); plugin development and SPM support; in-app purchases and push notifications; and migrations between Capawesome Cloud and Capgo. The flagship capacitor-plugins skill encodes careful agent behavior: step-by-step guidance, auto-detection of project state before asking questions, one decision at a time, and concrete options instead of open-ended prompts.
 
@@ -58,7 +58,7 @@ Top skills by installs: capacitor-plugins (1.1K), ionic-angular (747), ionic-app
 
 1. Install: `npx skills add capawesome-team/skills`
 2. Load capacitor-plugins and name the plugin source (official, Capawesome, community, Firebase, MLKit, RevenueCat)
-3. Follow the step-by-step agent behavior — auto-detection first, one question at a time
+3. Follow the step-by-step agent behavior - auto-detection first, one question at a time
 
 ## CorpusIQ Use Cases
 
@@ -73,7 +73,7 @@ Top skills by installs: capacitor-plugins (1.1K), ionic-angular (747), ionic-app
 
 - Security audits on the capacitor-plugins flagship: Gen Agent Trust Hub Pass, Socket Pass, Snyk Fail (named in the tier)
 - Publisher-page total verified (11.4K across 37 skills); 38 GitHub stars as of the sweep
-- Below the 20K install guide bar — drafted on ecosystem-team authority (Capawesome is the recognized Capacitor plugin vendor) and direct relevance to agent-built mobile apps
+- Below the 20K install guide bar - drafted on ecosystem-team authority (Capawesome is the recognized Capacitor plugin vendor) and direct relevance to agent-built mobile apps
 - Skills assume an existing Capacitor project and macOS/iOS tooling for native work
 
 ```bash

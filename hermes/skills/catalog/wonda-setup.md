@@ -1,13 +1,13 @@
 ---
-title: "Wonda CLI — AI Content Creation from the Terminal"
-description: "degausai/wonda — 74.6K installs. Terminal-first AI content creation CLI: images, video, and media workflows agents can drive without a browser."
+title: "Wonda CLI - AI Content Creation from the Terminal"
+description: "degausai/wonda - 74.6K installs. Terminal-first AI content creation CLI: images, video, and media workflows agents can drive without a browser."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wonda-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
 tags: ["hermes skill", "agent skill", "skill setup", "media"]
 ---
 
-# Wonda CLI — Setup Guide
+# Wonda CLI - Setup Guide
 
 **Source:** [skills.sh](https://www.skills.sh/degausai/wonda) (74.6K installs)
 **GitHub:** [degausai/wonda](https://github.com/degausai/wonda) (143⭐, TypeScript)
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "media"]
 **First Seen:** August 13, 2026 sweep
 **Quality Tier:** 🔵 Community
 
-Wonda CLI is an AI-powered content creation tool for the terminal — image and video generation driven from the command line instead of a web UI. The skill teaches agents to orchestrate Wonda for media production inside automated pipelines, where browser-based generation tools don't fit. A single-skill publisher with outsized installs (74.6K).
+Wonda CLI is an AI-powered content creation tool for the terminal - image and video generation driven from the command line instead of a web UI. The skill teaches agents to orchestrate Wonda for media production inside automated pipelines, where browser-based generation tools don't fit. A single-skill publisher with outsized installs (74.6K).
 
 ---
 
@@ -40,8 +40,8 @@ npm install -g wonda-cli   # the underlying CLI
 
 ## CorpusIQ Use Cases
 
-- **Automated creative generation** — CLI-driven media fits the Mac Mini/Spark worker model where browser UIs are avoided
-- **Pipeline diversification** — an alternative generation backend alongside HyperFrames and Postiz media for batch ad creative
+- **Automated creative generation** - CLI-driven media fits the Mac Mini/Spark worker model where browser UIs are avoided
+- **Pipeline diversification** - an alternative generation backend alongside HyperFrames and Postiz media for batch ad creative
 
 ## Limitations / Verification
 
@@ -50,5 +50,5 @@ npm install -g wonda-cli   # the underlying CLI
 
 ## Related
 
-- [Higgsfield Skills — AI Video & Image Generation Cluster Setup](/hermes/skills/catalog/higgsfield-skills-setup/)
-- [GenMedia Skills — AI Media Generation Cluster Setup](/hermes/skills/catalog/genmedia-skills-setup/)
+- [Higgsfield Skills - AI Video & Image Generation Cluster Setup](/hermes/skills/catalog/higgsfield-skills-setup/)
+- [GenMedia Skills - AI Media Generation Cluster Setup](/hermes/skills/catalog/genmedia-skills-setup/)

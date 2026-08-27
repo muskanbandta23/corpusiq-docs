@@ -1,6 +1,6 @@
 ---
 title: "RunAPI CLI Skill Setup Guide - CorpusIQ Docs"
-description: Install and configure runapi-ai/cli-skill — unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.
+description: Install and configure runapi-ai/cli-skill - unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.
 category: media-ai
 publisher: runapi-ai
 maturity: beta
@@ -12,18 +12,18 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# RunAPI CLI Skill — Setup Guide
+# RunAPI CLI Skill - Setup Guide
 
-Unified AI media API CLI for agents by [runapi-ai](https://github.com/runapi-ai/cli-skill). Consolidates AI image generation, video creation, music/audio synthesis, and model API access under a single CLI — eliminating the need for separate integration skills per provider.
+Unified AI media API CLI for agents by [runapi-ai](https://github.com/runapi-ai/cli-skill). Consolidates AI image generation, video creation, music/audio synthesis, and model API access under a single CLI - eliminating the need for separate integration skills per provider.
 
 ## What It Provides
 
-- **AI Image Generation** — DALL-E, Stable Diffusion, Flux, Midjourney (via API)
-- **AI Video** — Runway, Pika, Kling, HeyGen
-- **AI Music/Audio** — Suno, Udio, ElevenLabs TTS
-- **AI Model APIs** — OpenAI, Anthropic, Google, DeepSeek, local Ollama
-- **Job Queue** — async job submission with status polling
-- **Cost Tracking** — per-provider usage and cost breakdown
+- **AI Image Generation** - DALL-E, Stable Diffusion, Flux, Midjourney (via API)
+- **AI Video** - Runway, Pika, Kling, HeyGen
+- **AI Music/Audio** - Suno, Udio, ElevenLabs TTS
+- **AI Model APIs** - OpenAI, Anthropic, Google, DeepSeek, local Ollama
+- **Job Queue** - async job submission with status polling
+- **Cost Tracking** - per-provider usage and cost breakdown
 
 ## Installation
 
@@ -113,7 +113,7 @@ hermes chat -q "Generate a simple test image using the cheapest provider"
 ## Pitfalls
 
 - **⚠️ API costs**: AI media APIs are expensive. A single video generation can cost $1-5. Set `cost_tracking: true` and monitor usage.
-- **⚠️ API key sprawl**: This skill requires many API keys. Use a `.env` file or secrets manager — never hardcode keys in config.
+- **⚠️ API key sprawl**: This skill requires many API keys. Use a `.env` file or secrets manager - never hardcode keys in config.
 - **Async jobs**: Video and music generation are async (minutes to hours). Use the job queue to check status. Don't block the session waiting.
 - **Rate limits**: Free-tier API keys have severe rate limits. For production use, upgrade to paid tiers.
 - **Model availability**: Some models (Kling, Midjourney API) have geographic restrictions or waitlists. Test availability before relying on them.

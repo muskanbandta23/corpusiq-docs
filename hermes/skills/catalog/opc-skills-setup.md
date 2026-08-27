@@ -1,6 +1,6 @@
 ---
-title: "OPC Skills — Solopreneur Toolkit for AI Agents (SEO,"
-description: resciencelab's OPC skills — solopreneur-focused agent skills for SEO-GEO, Reddit marketing, logo creation, product launches, and social media. 50K+ combined installs across 6 skills. Built for solo operators who need AI agents to handle growth work.
+title: "OPC Skills - Solopreneur Toolkit for AI Agents (SEO,"
+description: resciencelab's OPC skills - solopreneur-focused agent skills for SEO-GEO, Reddit marketing, logo creation, product launches, and social media. 50K+ combined installs across 6 skills. Built for solo operators who need AI agents to handle growth work.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opc-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OPC Skills — Setup Guide
+# OPC Skills - Setup Guide
 
 **Source:** [resciencelab/opc-skills](https://skills.sh/resciencelab/opc-skills) (50K+ combined installs)
 **GitHub:** [resciencelab/opc-skills](https://github.com/resciencelab/opc-skills) (1,174 ⭐)
@@ -41,12 +41,12 @@ npx skills add resciencelab/opc-skills --skill twitter
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **seo-geo** | 37.0K | Geo-targeted SEO — local search, multi-region strategy, hreflang, international ranking |
-| **reddit** | 3.0K | Reddit marketing — subreddit discovery, post timing, comment engagement, karma-building |
-| **logo-creator** | 2.6K | AI-assisted logo design — brief-to-concept, iteration, export-ready formats |
-| **nanobanana** | 2.6K | Micro-branding assets — social profile images, favicons, banner templates |
-| **producthunt** | 2.5K | Product Hunt launch playbook — listing optimization, hunter outreach, launch day tactics |
-| **twitter** | 1.9K | Twitter/X growth — thread writing, engagement patterns, growth tactics for founders |
+| **seo-geo** | 37.0K | Geo-targeted SEO - local search, multi-region strategy, hreflang, international ranking |
+| **reddit** | 3.0K | Reddit marketing - subreddit discovery, post timing, comment engagement, karma-building |
+| **logo-creator** | 2.6K | AI-assisted logo design - brief-to-concept, iteration, export-ready formats |
+| **nanobanana** | 2.6K | Micro-branding assets - social profile images, favicons, banner templates |
+| **producthunt** | 2.5K | Product Hunt launch playbook - listing optimization, hunter outreach, launch day tactics |
+| **twitter** | 1.9K | Twitter/X growth - thread writing, engagement patterns, growth tactics for founders |
 
 ---
 
@@ -65,13 +65,13 @@ npx skills add resciencelab/opc-skills --skill twitter
 ## Key Capabilities
 
 ### SEO-GEO (37.0K installs)
-The most-installed solopreneur skill on skills.sh. Geo-targeted SEO strategies for international and local search: hreflang tag configuration, multi-region content strategy, local keyword research, Google Business Profile optimization, and country-specific ranking factors. 37K installs makes this the de facto standard for AI-assisted international SEO. Previously had a minimal platform entry — this publisher-level guide provides complete coverage.
+The most-installed solopreneur skill on skills.sh. Geo-targeted SEO strategies for international and local search: hreflang tag configuration, multi-region content strategy, local keyword research, Google Business Profile optimization, and country-specific ranking factors. 37K installs makes this the de facto standard for AI-assisted international SEO. Previously had a minimal platform entry - this publisher-level guide provides complete coverage.
 
 ### Reddit Marketing (3.0K installs)
 Reddit engagement playbook for founders: subreddit discovery and analysis, post timing optimization (when each subreddit is most active), comment-first engagement patterns (provide value before promoting), karma-building strategy, and avoiding ban triggers. Directly applicable to CorpusIQ's Reddit growth operations.
 
 ### Product Hunt Launch (2.5K installs)
-End-to-end Product Hunt launch workflow: listing copy optimization, hunter identification and outreach templates, launch day checklist (maker comment, social amplification, community engagement), post-launch follow-up, and badge integration on landing pages. For founders timing their first PH launch — this is the playbook.
+End-to-end Product Hunt launch workflow: listing copy optimization, hunter identification and outreach templates, launch day checklist (maker comment, social amplification, community engagement), post-launch follow-up, and badge integration on landing pages. For founders timing their first PH launch - this is the playbook.
 
 ### Twitter/X Growth (1.9K installs)
 Founder-focused Twitter growth: thread writing patterns that drive engagement, reply-game strategy (which conversations to join), growth tactics (collaborative threads, quote-tweet value-adds), and content calendar structuring. Complements CorpusIQ's existing X/Twitter automation tools.
@@ -113,8 +113,8 @@ npx skills list | grep resciencelab/opc-skills
 
 ## Notes
 
-- **Built for solopreneurs**: Every skill targets the "I'm doing this myself" use case — no enterprise complexity, no team-assumptions baked in.
+- **Built for solopreneurs**: Every skill targets the "I'm doing this myself" use case - no enterprise complexity, no team-assumptions baked in.
 - **SEO-GEO is the standout**: 37K installs is massive for a single skill. Geo-targeted SEO is one of the highest-ROI growth channels for SaaS products.
-- **Reddit caution**: Reddit communities are sensitive to promotional content. The skill's "help-first" patterns align with CorpusIQ's own content doctrine — good synergy.
+- **Reddit caution**: Reddit communities are sensitive to promotional content. The skill's "help-first" patterns align with CorpusIQ's own content doctrine - good synergy.
 - **Product Hunt is tactical**: Launches are high-effort, high-reward events. This skill compresses weeks of research into an executable playbook.
 - **Complementary skills**: Reddit skill pairs with CorpusIQ's `reddit-praw-automation`; Twitter skill pairs with `xurl` and Postiz social deployment; SEO-GEO pairs with upcoming SEO automation work.

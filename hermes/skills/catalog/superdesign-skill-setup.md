@@ -1,20 +1,20 @@
 ---
-title: Superdesign Skill — Canvas Design & Inspiration Setup
-description: "superdesigndev/superdesign-skill — superdesign (8.0K installs): find design inspirations and generate/iterate design drafts on an infinite canvas via the Superdesign CLI; repo analysis, live-site extraction, and graphic asset modes. Socket Warn, Snyk Fail."
+title: Superdesign Skill - Canvas Design & Inspiration Setup
+description: "superdesigndev/superdesign-skill - superdesign (8.0K installs): find design inspirations and generate/iterate design drafts on an infinite canvas via the Superdesign CLI; repo analysis, live-site extraction, and graphic asset modes. Socket Warn, Snyk Fail."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/superdesign-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "canvas", "ui design"]
 ---
 
-# Superdesign Skill — Setup Guide
+# Superdesign Skill - Setup Guide
 
 **Source:** [superdesigndev/superdesign-skill](https://skills.sh/superdesigndev/superdesign-skill)
 **GitHub:** [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) (411 stars)
 **Skills:** 1 skill (`superdesign`) · 8.0K installs
 **Category:** UI Design & Creative Assets
 **First Seen:** Jan 21, 2026 (catalogued August 15, 2026 midday sweep)
-**Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub pass; Socket Warn and Snyk Fail on the skill page — named in Limitations)
+**Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub pass; Socket Warn and Snyk Fail on the skill page - named in Limitations)
 
 Superdesign helps agents find design inspirations and styles, then generate and iterate design drafts on an infinite canvas. It runs through its own CLI and covers repo analysis (building .superdesign/init/ context), brand-new page design, design-system seeding, improvement requests, graphic assets (posters, covers, social creatives), and design from a live website via extract-website.
 
@@ -60,7 +60,7 @@ npx skills add superdesigndev/superdesign-skill --skill superdesign
 
 ## Limitations / Verification
 
-- Socket Warn and Snyk Fail on the skill page — review flagged dependencies before production use
+- Socket Warn and Snyk Fail on the skill page - review flagged dependencies before production use
 - Faithful pixel-recreation and editable on-canvas clones require the Superdesign app (superdesign.dev), not the CLI
 - Install count verified on skill page: 8.0K
 

@@ -1,6 +1,6 @@
 ---
-title: "New Skills — August 13, 2026 - CorpusIQ Docs"
-description: "skills.sh sweep — 8 new publisher clusters, 101 skills, 253K+ installs: Extract Design System (127.3K), App Store Connect CLI (53.5K), GenMedia AI media (42.5K), Pika Plugins (20.1K), FlowKit Reddit (5.4K), HumanLayer HITL (2.7K), Fetcher social APIs (971), NuShell Pro (1.1K)."
+title: "New Skills - August 13, 2026 - CorpusIQ Docs"
+description: "skills.sh sweep - 8 new publisher clusters, 101 skills, 253K+ installs: Extract Design System (127.3K), App Store Connect CLI (53.5K), GenMedia AI media (42.5K), Pika Plugins (20.1K), FlowKit Reddit (5.4K), HumanLayer HITL (2.7K), Fetcher social APIs (971), NuShell Pro (1.1K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug13-2026/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -11,17 +11,17 @@ new_skills: 101
 guides_drafted: 8
 ---
 
-# New Skills — August 13, 2026
+# New Skills - August 13, 2026
 
 **Source:** [skills.sh](https://skills.sh) trending (24h) + hot (1h) leaderboards
 **Date:** August 13, 2026
 **Result:** 8 new publisher clusters · 101 skills · 253K+ listed installs · 8 setup guides
 
-Sweep driven by the trending and hot leaderboards. Surfaced eight clusters not previously catalogued, headlined by `extract-design-system` — the largest single-skill install count recorded in any sweep at 127.3K — and the App Store Connect CLI cluster, the most complete mobile release automation skill set on skills.sh.
+Sweep driven by the trending and hot leaderboards. Surfaced eight clusters not previously catalogued, headlined by `extract-design-system` - the largest single-skill install count recorded in any sweep at 127.3K - and the App Store Connect CLI cluster, the most complete mobile release automation skill set on skills.sh.
 
 ---
 
-## New Publishers (8) — All with Setup Guides
+## New Publishers (8) - All with Setup Guides
 
 | # | Publisher | Skills | Installs | Setup Guide |
 |---|-----------|:------:|---------:|-------------|
@@ -38,23 +38,23 @@ Sweep driven by the trending and hot leaderboards. Surfaced eight clusters not p
 
 ## Highlights
 
-### Extract Design System — 127.3K installs, single skill
-The largest single-skill install count recorded in any skills.sh sweep to date. Reverse-engineers an existing interface into structured design tokens, typography scales, and component patterns — the fix for generic AI-generated UI. Pairs with `anti-ui-slop` for a complete design-quality pipeline.
+### Extract Design System - 127.3K installs, single skill
+The largest single-skill install count recorded in any skills.sh sweep to date. Reverse-engineers an existing interface into structured design tokens, typography scales, and component patterns - the fix for generic AI-generated UI. Pairs with `anti-ui-slop` for a complete design-quality pipeline.
 
-### App Store Connect CLI — 53.5K, 33 skills
-Twenty-three `asc-*` skills covering the entire iOS release lifecycle — signing, Xcode builds, TestFlight, submission health, crash triage, notarization, ASO audit, screenshots, Apple Ads — plus ten `gpd-*` Google Play equivalents. An agent can run a mobile release end to end without opening either console.
+### App Store Connect CLI - 53.5K, 33 skills
+Twenty-three `asc-*` skills covering the entire iOS release lifecycle - signing, Xcode builds, TestFlight, submission health, crash triage, notarization, ASO audit, screenshots, Apple Ads - plus ten `gpd-*` Google Play equivalents. An agent can run a mobile release end to end without opening either console.
 
-### GenMedia — 42.5K, 30 skills, hottest cluster on the board
-`ai-video-generation` gained 372 installs in one hour during this sweep — the fastest-moving skill on skills.sh. Five core skills (video edit, music, video/image generation, image-to-video) plus 25 model pins: FLUX 2 Klein, Kling 3.0, GPT Image 2, Seedance V2, Wan 2.7, Nano Banana 2.
+### GenMedia - 42.5K, 30 skills, hottest cluster on the board
+`ai-video-generation` gained 372 installs in one hour during this sweep - the fastest-moving skill on skills.sh. Five core skills (video edit, music, video/image generation, image-to-video) plus 25 model pins: FLUX 2 Klein, Kling 3.0, GPT Image 2, Seedance V2, Wan 2.7, Nano Banana 2.
 
-### Pika Plugins — 20.1K, 22 skills
+### Pika Plugins - 20.1K, 22 skills
 Pika's official marketing video pack: `ugc-ads`, `build-a-brand`, `founder-product-video`, `app-sizzle`, `explainer`, `viral-hook`, `persona-builder`, plus a VFX family. The creative-direction layer for any agent with a video backend.
 
-### FlowKit Reddit Automation — 5.4K, +110 installs in one hour
+### FlowKit Reddit Automation - 5.4K, +110 installs in one hour
 Second-hottest social skill on the board during the sweep. The complete Reddit engagement loop as procedural knowledge: monitoring, help-first drafting, posting.
 
-### HumanLayer — 2.7K, HITL patterns
-`show-me` (2.0K) plus control-loop design skills from the leading human-in-the-loop tooling company. The architecture patterns behind approval gates — directly relevant to Commander-style governance.
+### HumanLayer - 2.7K, HITL patterns
+`show-me` (2.0K) plus control-loop design skills from the leading human-in-the-loop tooling company. The architecture patterns behind approval gates - directly relevant to Commander-style governance.
 
 ### NuShell Pro + Fetcher
 `nushell-pro` (1.1K) for typed shell pipelines; `fetcher-skills` (971) for X/Instagram/TikTok API access patterns with `twitter-api` carrying the base.

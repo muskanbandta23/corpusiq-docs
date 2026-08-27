@@ -1,5 +1,5 @@
 ---
-title: OpenAI Skills — Official OpenAI Agent Skills for Hermes Agents
+title: OpenAI Skills - Official OpenAI Agent Skills for Hermes Agents
 description: Production-grade PDF manipulation, CI debugging, security auditing, Linear integration, Playwright testing, and Figma implementation from OpenAI. 703K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openai-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# OpenAI Skills — Setup Guide
+# OpenAI Skills - Setup Guide
 
 **Source:** [openai/skills](https://skills.sh/openai/skills) (703K+ combined installs)
 **Category:** Development / Security / Design
@@ -46,36 +46,36 @@ npx skills add openai/skills --skill figma-implement-design
 
 ## Key Capabilities
 
-### pdf — PDF Manipulation
+### pdf - PDF Manipulation
 - Render PDFs to PNGs for visual inspection (`pdftoppm`)
 - Generate PDFs programmatically with `reportlab`
 - Extract text with `pdfplumber` and `pypdf`
 - Quality-first: verify alignment, spacing, and legibility before delivery
 - Dependencies: poppler-utils, reportlab, pdfplumber, pypdf
 
-### gh-fix-ci — CI Debugging
+### gh-fix-ci - CI Debugging
 - Inspect failing PR checks via `gh pr checks`
 - Fetch GitHub Actions logs for actionable failures
 - Bundled `inspect_pr_checks.py` script handles API field drift
 - Creates fix plans with approval gates before implementation
 - Scope: GitHub Actions only (external providers like Buildkite are out of scope)
 
-### security-best-practices — Security Auditing
+### security-best-practices - Security Auditing
 - Auto-detects language and framework from project context
 - Loads reference files for Python, JavaScript/TypeScript, and Go
 - Three modes: secure-by-default coding, passive vulnerability detection, full security reports
 - Produces prioritized reports with severity classifications
 - Supports project-specific overrides with documentation
 
-### linear — Project Management
+### linear - Project Management
 - Manage Linear issues, cycles, and project tracking
 - CLI-driven workflow for ticket creation and status updates
 
-### playwright — Browser Testing
+### playwright - Browser Testing
 - End-to-end browser automation and testing
 - Cross-browser testing with Playwright's API
 
-### figma-implement-design — Design-to-Code
+### figma-implement-design - Design-to-Code
 - Convert Figma design files into production-ready code
 - Handles component extraction, styling, and layout implementation
 
@@ -107,8 +107,8 @@ npx skills list | grep "openai/skills"
 
 ## Notes
 
-- These are official OpenAI skills — well-maintained and updated regularly
+- These are official OpenAI skills - well-maintained and updated regularly
 - All skills use `npx skills add` for installation (standard marketplace workflow)
 - The `security-best-practices` skill is especially valuable for Hermes agents working on production codebases
 - `gh-fix-ci` includes a bundled Python script for reliable CI inspection (works around `gh` CLI field drift)
-- PDF skill prefers visual verification — renders to PNG before declaring output ready
+- PDF skill prefers visual verification - renders to PNG before declaring output ready

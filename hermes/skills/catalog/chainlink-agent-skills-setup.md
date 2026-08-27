@@ -1,6 +1,6 @@
 ---
 title: Chainlink Agent Skills Setup Guide
-description: Install and configure smartcontractkit/chainlink-agent-skills — official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.
+description: Install and configure smartcontractkit/chainlink-agent-skills - official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.
 category: blockchain
 publisher: smartcontractkit
 maturity: production
@@ -12,18 +12,18 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Chainlink Agent Skills — Setup Guide
+# Chainlink Agent Skills - Setup Guide
 
-Official Chainlink oracle and Cross-Chain Interoperability Protocol (CCIP) skills by [smartcontractkit](https://github.com/smartcontractkit/chainlink-agent-skills). Production-grade blockchain data access for AI agents — price feeds, on-chain data queries, and cross-chain messaging.
+Official Chainlink oracle and Cross-Chain Interoperability Protocol (CCIP) skills by [smartcontractkit](https://github.com/smartcontractkit/chainlink-agent-skills). Production-grade blockchain data access for AI agents - price feeds, on-chain data queries, and cross-chain messaging.
 
 ## What It Provides
 
-- **Price Feeds** — real-time asset prices from Chainlink Data Feeds
-- **CCIP Messaging** — cross-chain message sending and receiving
-- **Proof of Reserve** — verify collateralization of on-chain assets
-- **Automation** — Chainlink Automation (formerly Keepers) for scheduled on-chain actions
-- **Functions** — serverless compute for fetching off-chain data on-demand
-- **VRF** — verifiable random numbers for gaming/NFT applications
+- **Price Feeds** - real-time asset prices from Chainlink Data Feeds
+- **CCIP Messaging** - cross-chain message sending and receiving
+- **Proof of Reserve** - verify collateralization of on-chain assets
+- **Automation** - Chainlink Automation (formerly Keepers) for scheduled on-chain actions
+- **Functions** - serverless compute for fetching off-chain data on-demand
+- **VRF** - verifiable random numbers for gaming/NFT applications
 
 ## Installation
 
@@ -100,7 +100,7 @@ hermes chat -q "What's the latest block number on Ethereum mainnet?"
 ## Pitfalls
 
 - **⚠️ RPC costs**: Ethereum mainnet RPC calls can be expensive. Use a reliable provider (Alchemy, Infura) with rate limits configured. Polygon/Arbitrum are cheaper for testing.
-- **⚠️ Private key security**: NEVER store private keys in config files. Use environment variables or a hardware wallet. The skill only needs read access for price feeds — sending transactions requires explicit enable.
+- **⚠️ Private key security**: NEVER store private keys in config files. Use environment variables or a hardware wallet. The skill only needs read access for price feeds - sending transactions requires explicit enable.
 - **Gas fees**: CCIP messaging and Automation actions incur gas fees. Monitor costs carefully on mainnet.
 - **Network congestion**: During high-traffic periods, RPC calls may timeout. Set appropriate retry and timeout values.
 - **Data feed freshness**: Chainlink price feeds update based on deviation thresholds and heartbeat intervals. Prices may be up to 1 hour old for low-volatility assets.

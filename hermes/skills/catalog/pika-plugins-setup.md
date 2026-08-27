@@ -1,6 +1,6 @@
 ---
-title: Pika Plugins — Video Creation Skill Pack Setup Guide for Hermes Agents
-description: Install the pika-labs/pika-plugins cluster (20.1K installs, 22 skills) — ugc-ads, build-a-brand, founder-product-video, app-sizzle, explainer, viral-hook, persona-builder, content-director, VFX family for Pika video generation.
+title: Pika Plugins - Video Creation Skill Pack Setup Guide for Hermes Agents
+description: Install the pika-labs/pika-plugins cluster (20.1K installs, 22 skills) - ugc-ads, build-a-brand, founder-product-video, app-sizzle, explainer, viral-hook, persona-builder, content-director, VFX family for Pika video generation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pika-plugins-setup/"
 robots: "index,follow"
 last_updated: "2026-08-13"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Pika Plugins — Setup Guide
+# Pika Plugins - Setup Guide
 
 **Source:** [pika-labs/pika-plugins](https://www.skills.sh/pika-labs/pika-plugins) (22 skills · 20.1K combined installs)
 **Repo:** [github.com/pika-labs/pika-plugins](https://github.com/pika-labs/pika-plugins)
@@ -48,8 +48,8 @@ hermes skills install pika-labs/pika-plugins/founder-product-video
 | `persona-builder` | 739 | On-screen persona design |
 | `content-director` | 735 | Creative direction across clips |
 | `language-swap` | 988 | Multi-language video variants |
-| VFX family: `4k-vfx`, `vfx`, `fix-my-look`, `voxel-it`, `stagefight` | 365–508 | Visual effects and transformations |
-| Sports/fun: `gameday`, `baseball-trend`, `kiss-cam`, `anime-soccer`, `world-cup-anime`, `anime-match` | 1–1.5K | Entertainment formats |
+| VFX family: `4k-vfx`, `vfx`, `fix-my-look`, `voxel-it`, `stagefight` | 365-508 | Visual effects and transformations |
+| Sports/fun: `gameday`, `baseball-trend`, `kiss-cam`, `anime-soccer`, `world-cup-anime`, `anime-match` | 1-1.5K | Entertainment formats |
 
 ---
 
@@ -59,7 +59,7 @@ hermes skills install pika-labs/pika-plugins/founder-product-video
 |---|---|
 | Pika account/API | The generation backend these prompts target |
 | Node.js + npx | For the skills.sh CLI install path |
-| Any agent runtime | Skills are procedural — no runtime-specific code |
+| Any agent runtime | Skills are procedural - no runtime-specific code |
 
 ---
 
@@ -76,8 +76,8 @@ hermes skills install pika-labs/pika-plugins/founder-product-video
 
 ## Limitations / Verification
 
-- Requires Pika as the generation backend — prompts are Pika-tuned
-- Sports/entertainment skills are niche — skip unless that content vertical matters
+- Requires Pika as the generation backend - prompts are Pika-tuned
+- Sports/entertainment skills are niche - skip unless that content vertical matters
 - Verify install: `npx skills list | grep pika`
 
 ---

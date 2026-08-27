@@ -1,6 +1,6 @@
 ---
-title: New Skills Discovery — July 16, 2026
-description: 4 new skills discovered via skills.sh batch sweep. Agent Browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), and ClawFu Skills (134⭐) — browser automation, development quality, web scraping, and marketing methodologies.
+title: New Skills Discovery - July 16, 2026
+description: 4 new skills discovered via skills.sh batch sweep. Agent Browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), and ClawFu Skills (134⭐) - browser automation, development quality, web scraping, and marketing methodologies.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july16-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 16, 2026
+# New Skills - July 16, 2026
 
 Morning sweep across 33 broad search terms on skills.sh surfaced **4 new skills** not previously catalogued in the Hermes docs. These span browser automation (38K⭐ Vercel Labs), development quality (29K⭐ Vercel), web scraping (2.2K⭐ Apify), and marketing methodologies (134⭐ ClawFu). Combined install base: **70,000+ GitHub stars**.
 
@@ -31,7 +31,7 @@ Fast native Rust CLI for browser automation, purpose-built for AI agents. Uses C
 
 ### Capabilities
 - **Accessibility snapshots:** `agent-browser snapshot` returns tree with refs (@e1, @e2...)
-- **Ref-based interaction:** Click, fill, and get text using accessibility refs — no selectors needed
+- **Ref-based interaction:** Click, fill, and get text using accessibility refs - no selectors needed
 - **Traditional selectors:** CSS selector support for direct element targeting
 - **JavaScript evaluation:** Execute arbitrary JS in page context
 - **Daemon mode:** Persistent browser sessions across multiple operations
@@ -44,7 +44,7 @@ agent-browser install
 ```
 
 ### Hermes/CorpusIQ Relevance
-Massive for competitive research, social media monitoring, and web scraping. The accessibility-tree approach means agents don't need to build fragile CSS selectors — they can work with semantic element refs that survive DOM changes. At 38K stars, this is the most popular agent-specific browser tool.
+Massive for competitive research, social media monitoring, and web scraping. The accessibility-tree approach means agents don't need to build fragile CSS selectors - they can work with semantic element refs that survive DOM changes. At 38K stars, this is the most popular agent-specific browser tool.
 
 **Setup guide:** [agent-browser-setup.md](/hermes/skills/catalog/agent-browser-setup/)
 
@@ -93,7 +93,7 @@ npx skills add apify/agent-skills
 ```
 
 ### Hermes/CorpusIQ Relevance
-Transforms competitive intel and market research capabilities. Instead of building custom scrapers for each platform, agents can leverage Apify's maintained Actor library. Instagram, TikTok, LinkedIn, Reddit, Google Maps, Yelp — all accessible through one skill set. MCP-compatible for native Hermes tool integration.
+Transforms competitive intel and market research capabilities. Instead of building custom scrapers for each platform, agents can leverage Apify's maintained Actor library. Instagram, TikTok, LinkedIn, Reddit, Google Maps, Yelp - all accessible through one skill set. MCP-compatible for native Hermes tool integration.
 
 **Setup guide:** [apify-agent-skills-setup.md](/hermes/skills/catalog/apify-agent-skills-setup/)
 
@@ -103,7 +103,7 @@ Transforms competitive intel and market research capabilities. Instead of buildi
 
 **Source:** [guia-matthieu/clawfu-skills](https://github.com/guia-matthieu/clawfu-skills) · **134⭐** · **Python (MCP Server)**
 
-175 expert marketing methodologies encoded as agent-readable skills. Dunford on positioning, Schwartz on copywriting, Cialdini on persuasion, Ogilvy on advertising, Hormozi on offers, Voss on negotiation — 28 categories delivered as an MCP server. Free, MIT licensed.
+175 expert marketing methodologies encoded as agent-readable skills. Dunford on positioning, Schwartz on copywriting, Cialdini on persuasion, Ogilvy on advertising, Hormozi on offers, Voss on negotiation - 28 categories delivered as an MCP server. Free, MIT licensed.
 
 ### Capabilities
 - **Content (24 skills):** Copywriting, storytelling, persuasion, SEO writing
@@ -119,7 +119,7 @@ npx @clawfu/mcp-skills
 ```
 
 ### Hermes/CorpusIQ Relevance
-This is the marketing brain CorpusIQ agents have been missing. Instead of improvising growth tactics, agents can now load battle-tested frameworks from the world's best marketers. Positioning (Dunford) for competitive messaging. Copywriting (Schwartz) for landing pages. Mom Test for customer discovery. Growth Loops (Reforge) for sustainable acquisition. Delivered as MCP — native Hermes tool integration.
+This is the marketing brain CorpusIQ agents have been missing. Instead of improvising growth tactics, agents can now load battle-tested frameworks from the world's best marketers. Positioning (Dunford) for competitive messaging. Copywriting (Schwartz) for landing pages. Mom Test for customer discovery. Growth Loops (Reforge) for sustainable acquisition. Delivered as MCP - native Hermes tool integration.
 
 **Setup guide:** [clawfu-skills-setup.md](/hermes/skills/catalog/clawfu-skills-setup/)
 

@@ -1,5 +1,5 @@
 ---
-title: "lucid.page MCP — Publish Markdown Pages Instantly from Any Agent"
+title: "lucid.page MCP - Publish Markdown Pages Instantly from Any Agent"
 description: "Zero-config remote MCP server that turns Markdown into a beautifully typeset shareable page: publish anonymously without signup, update in place with revisions, list and delete owned docs, and bind pages into multi-chapter bundles. Free."
 category: Content & Publishing
 stars: n/a (new listing)
@@ -11,7 +11,7 @@ tags: [markdown, publishing, docs, share, agent-output, bundles, no-signup, remo
 
 # lucid.page MCP
 
-**The missing "publish" button for AI agents — Markdown in, shareable page out, no account required.** lucid.page runs a hosted MCP endpoint where one tool call publishes Markdown as a typeset page and returns its URL. Anonymous publishing works with no signup and pages never expire by default; a free `lp_` API key adds ownership, updates with revision history, private docs, multi-chapter bundles and rate headroom.
+**The missing "publish" button for AI agents - Markdown in, shareable page out, no account required.** lucid.page runs a hosted MCP endpoint where one tool call publishes Markdown as a typeset page and returns its URL. Anonymous publishing works with no signup and pages never expire by default; a free `lp_` API key adds ownership, updates with revision history, private docs, multi-chapter bundles and rate headroom.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -25,9 +25,9 @@ Built by: Bitgate (lucid.page)
 
 ## Why This Matters for Operators
 
-Agents produce a constant stream of valuable text — research reports, recaps, changelogs, field notes — that dies in the chat window because sharing it means pasting into Docs or Notion by hand. **lucid.page gives the agent a publish action**, so "write up the competitor analysis and send me a link" becomes two tool calls and a clean URL a human can open on any device.
+Agents produce a constant stream of valuable text - research reports, recaps, changelogs, field notes - that dies in the chat window because sharing it means pasting into Docs or Notion by hand. **lucid.page gives the agent a publish action**, so "write up the competitor analysis and send me a link" becomes two tool calls and a clean URL a human can open on any device.
 
-Anonymous publish returns a one-time claim token the human can use to claim the page into their account — the agent can publish freely without ever holding credentials that could edit anything it shouldn't.
+Anonymous publish returns a one-time claim token the human can use to claim the page into their account - the agent can publish freely without ever holding credentials that could edit anything it shouldn't.
 
 ## Tools & Capabilities
 
@@ -68,22 +68,22 @@ Optional auth: `Authorization: Bearer lp_…` from the lucid.page dashboard unlo
 - **Founders** get agent-written recaps and investor updates as shareable pages, not chat walls
 - **Consultants and agencies** ship research reports to clients as clean links with revision history
 - **Teams running always-on agents** collect outputs into owned, listed docs instead of logs
-- **Anyone showing agent work** uses anonymous publish plus the claim-token flow — no credentials shared with the agent
+- **Anyone showing agent work** uses anonymous publish plus the claim-token flow - no credentials shared with the agent
 
 ## Integration with CorpusIQ
 
-lucid.page is the delivery layer for CorpusIQ's analytical output: a CorpusIQ session that builds a monthly business recap (Stripe, QuickBooks, GA4) can publish it straight to a client-ready page, then hand over the link — one session from books to boardroom. For recurring reporting, the bundle tool turns per-month pages into a dated multi-chapter archive a client can navigate.
+lucid.page is the delivery layer for CorpusIQ's analytical output: a CorpusIQ session that builds a monthly business recap (Stripe, QuickBooks, GA4) can publish it straight to a client-ready page, then hand over the link - one session from books to boardroom. For recurring reporting, the bundle tool turns per-month pages into a dated multi-chapter archive a client can navigate.
 
 ## Limitations
 
 - Brand new (Aug 2026 listing), no track record yet
 - Anonymous pages can't be updated later unless claimed or the publish used a key
 - Revision history and private docs require an lp_ API key
-- Hosted service — pages live on lucid.page's domain
+- Hosted service - pages live on lucid.page's domain
 - Pro analytics (views, referrers, countries) is a paid tier
 
 ## See Also
 
-- [LiveSend MCP — Client Reports as Trackable Protected Links](/hermes/mcp/servers/external/livesend-mcp/)
+- [LiveSend MCP - Client Reports as Trackable Protected Links](/hermes/mcp/servers/external/livesend-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

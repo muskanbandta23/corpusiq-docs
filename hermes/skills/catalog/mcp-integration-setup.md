@@ -1,5 +1,5 @@
 ---
-title: "MCP Integration — Connect MCP servers to agent plugins"
+title: "MCP Integration - Connect MCP servers to agent plugins"
 description: Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-integration-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# MCP Integration — Setup Guide
+# MCP Integration - Setup Guide
 
 **Source:** [anthropics/claude-plugins-public](https://skills.sh/anthropics/claude-plugins-public/mcp-integration) (78+ installs)
 **Category:** Engineering / MCP
@@ -96,8 +96,8 @@ npx skills list | grep mcp-integration
 ## Notes
 
 - Tool naming convention: `mcp__plugin_<name>_<server>__<tool>`
-- Always use `${CLAUDE_PLUGIN_ROOT}` for portable paths — never hardcode absolute paths
+- Always use `${CLAUDE_PLUGIN_ROOT}` for portable paths - never hardcode absolute paths
 - Pre-allow specific MCP tools rather than wildcards for security
-- Use HTTPS/WSS only — never HTTP/WS for production
+- Use HTTPS/WSS only - never HTTP/WS for production
 - Documentation covers lifecycle management, error handling, debugging, and performance best practices
 - Complements `aradotso/mcp-skills@codex-mcp-server-integration` (129 installs) for Codex-specific MCP workflows

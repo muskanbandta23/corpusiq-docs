@@ -1,6 +1,6 @@
 ---
-title: Songwriting & AI Music Generation — Hermes Skill Setup Guide
-description: Install and configure songwriting-and-ai-music, the official Hermes Agent skill for AI-assisted songwriting, music generation, and audio production — 324 installs.
+title: Songwriting & AI Music Generation - Hermes Skill Setup Guide
+description: Install and configure songwriting-and-ai-music, the official Hermes Agent skill for AI-assisted songwriting, music generation, and audio production - 324 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/songwriting-and-ai-music-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Songwriting & AI Music Generation — Setup Guide
+# Songwriting & AI Music Generation - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/songwriting-and-ai-music) (324 installs)
 **Category:** Creative / Music
@@ -23,7 +23,7 @@ A creative guideline skill for AI-assisted songwriting and music generation. Cov
 
 | Capability | How |
 |-----------|-----|
-| **Song structure** | Common skeletons — pop/rock, jazz, folk, storytelling |
+| **Song structure** | Common skeletons - pop/rock, jazz, folk, storytelling |
 | **Lyrical composition** | Verse, chorus, bridge, refrain patterns |
 | **Genre awareness** | Structure conventions for different musical styles |
 | **AI music integration** | Hooks for AI music generation tools (Suno, Udio, etc.) |
@@ -96,7 +96,7 @@ The agent should respond with a structured song following the pattern.
 
 - **Not an audio generator:** This skill provides lyrical/structure guidance. For actual audio generation, pair with an AI music tool (Suno, Udio, Audiocraft).
 - **Guidelines, not rules:** The skill explicitly states "Art breaks rules on purpose." Don't expect rigid enforcement of structures.
-- **Genre appropriateness:** Some structures work better for certain genres — the skill will guide but the user should confirm fit.
+- **Genre appropriateness:** Some structures work better for certain genres - the skill will guide but the user should confirm fit.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Monitoring Expert — Setup Guide for Hermes Agents
-description: "Configure monitoring systems, implement observability pipelines, create dashboards — 3.9K+ installs. Source: jeffallan/claude-skills (Community)."
+title: Monitoring Expert - Setup Guide for Hermes Agents
+description: "Configure monitoring systems, implement observability pipelines, create dashboards - 3.9K+ installs. Source: jeffallan/claude-skills (Community)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/monitoring-expert-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Monitoring Expert — Setup Guide
+# Monitoring Expert - Setup Guide
 
 **Source:** [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) (Community)
 **Skill:** `monitoring-expert` · **Installs:** 3,900+ · **Category:** DevOps & Infrastructure
@@ -26,10 +26,10 @@ npx skills add jeffallan/claude-skills@monitoring-expert
 
 The skill follows a four-stage observability workflow:
 
-1. **Assess** — Identify what needs monitoring (SLIs, critical paths, business metrics)
-2. **Instrument** — Add logging, metrics, and traces to applications
-3. **Collect** — Configure aggregation and storage (Prometheus, log shippers, OTLP)
-4. **Visualize** — Build dashboards using RED (Rate/Errors/Duration) or USE (Utilization/Saturation/Errors) methods
+1. **Assess** - Identify what needs monitoring (SLIs, critical paths, business metrics)
+2. **Instrument** - Add logging, metrics, and traces to applications
+3. **Collect** - Configure aggregation and storage (Prometheus, log shippers, OTLP)
+4. **Visualize** - Build dashboards using RED (Rate/Errors/Duration) or USE (Utilization/Saturation/Errors) methods
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ Trigger the skill for any observability task:
 ### Example: Setting Up API Monitoring
 
 ```
-"Configure Prometheus metrics for our Express.js API — track request rate, error rate, and p95 latency"
+"Configure Prometheus metrics for our Express.js API - track request rate, error rate, and p95 latency"
 ```
 
 The skill instruments the application with appropriate metrics libraries, configures scrape endpoints, builds Grafana dashboards, and defines alerting rules.
@@ -82,9 +82,9 @@ The skill instruments the application with appropriate metrics libraries, config
 
 ## Related Skills
 
-- [AWS Agent Toolkit Setup](/docs/hermes/skills/catalog/aws-agent-toolkit-setup/) — AWS infrastructure monitoring
-- [Sentry AI Monitoring Setup](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup/) — Error tracking
-- [HashiCorp Agent Skills Setup](/docs/hermes/skills/catalog/hashicorp-agent-skills-setup/) — Infrastructure management
+- [AWS Agent Toolkit Setup](/docs/hermes/skills/catalog/aws-agent-toolkit-setup/) - AWS infrastructure monitoring
+- [Sentry AI Monitoring Setup](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup/) - Error tracking
+- [HashiCorp Agent Skills Setup](/docs/hermes/skills/catalog/hashicorp-agent-skills-setup/) - Infrastructure management
 
 ## Source
 

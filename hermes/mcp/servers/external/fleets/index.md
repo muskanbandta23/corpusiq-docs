@@ -1,6 +1,6 @@
 ---
 title: "Fleets MCP Integration Guide - CorpusIQ Docs"
-description: Full setup guide for Fleets MCP — multi-site analytics dashboard for AI agents with GA4, Search Console, Cloudflare, and PageSpeed data
+description: Full setup guide for Fleets MCP - multi-site analytics dashboard for AI agents with GA4, Search Console, Cloudflare, and PageSpeed data
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fleets/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,24 +8,24 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Fleets MCP — Integration Guide
+# Fleets MCP - Integration Guide
 
-**Multi-site analytics dashboard for AI agents.** Read-only GA4, Search Console, Cloudflare edge, and PageSpeed data across every site you run, plus audits that return paste-ready fixes — all through a single MCP server.
+**Multi-site analytics dashboard for AI agents.** Read-only GA4, Search Console, Cloudflare edge, and PageSpeed data across every site you run, plus audits that return paste-ready fixes - all through a single MCP server.
 
 > **Command:** `npx -y fleets-mcp` · **Source:** mcp.so · **Last seen:** July 4, 2026
 
 ## What It Does
 
-Fleets gives your AI agent a unified analytics view across all your web properties. Instead of checking Google Analytics, Search Console, Cloudflare, and PageSpeed separately, your agent queries all four through one MCP endpoint. Ask "Which of my sites had the biggest traffic drop this week and what's causing it?" and the agent cross-references analytics, search data, and edge/CDN metrics in one pass — then returns paste-ready fixes from the audit tools.
+Fleets gives your AI agent a unified analytics view across all your web properties. Instead of checking Google Analytics, Search Console, Cloudflare, and PageSpeed separately, your agent queries all four through one MCP endpoint. Ask "Which of my sites had the biggest traffic drop this week and what's causing it?" and the agent cross-references analytics, search data, and edge/CDN metrics in one pass - then returns paste-ready fixes from the audit tools.
 
 ## Key Capabilities
 
-- **GA4 Analytics** — Traffic, conversions, user behavior, and trends across all sites
-- **Google Search Console** — Search performance, indexing status, query rankings, and click-through rates
-- **Cloudflare Edge** — CDN performance, security events, caching metrics, and edge analytics
-- **PageSpeed Insights** — Performance audits, Core Web Vitals, and optimization recommendations
-- **Audit Engine** — Returns paste-ready fixes for identified issues (not just problem descriptions)
-- **Cross-Site Comparison** — Compare metrics across your entire portfolio in one query
+- **GA4 Analytics** - Traffic, conversions, user behavior, and trends across all sites
+- **Google Search Console** - Search performance, indexing status, query rankings, and click-through rates
+- **Cloudflare Edge** - CDN performance, security events, caching metrics, and edge analytics
+- **PageSpeed Insights** - Performance audits, Core Web Vitals, and optimization recommendations
+- **Audit Engine** - Returns paste-ready fixes for identified issues (not just problem descriptions)
+- **Cross-Site Comparison** - Compare metrics across your entire portfolio in one query
 
 ## Installation
 
@@ -59,7 +59,7 @@ Pairs with the Fleets CLI (npm: `fleets`) for additional management.
 ### 1. Weekly Traffic Audit
 ```
 "Compare traffic across all my sites this week vs last week. Which sites 
-dropped more than 10%? Check their Search Console and PageSpeed — give 
+dropped more than 10%? Check their Search Console and PageSpeed - give 
 me paste-ready fixes for the top 3 issues."
 ```
 Automated weekly audit that previously required checking 4+ dashboards.
@@ -88,7 +88,7 @@ Post-launch monitoring across all analytics surfaces.
 
 ## Data Safety
 
-Fleets is **read-only** — it cannot modify your analytics, search console settings, or Cloudflare configuration. All recommendations are paste-ready fixes that you review and apply manually. This makes it safe for production use without risk of automated changes to your live infrastructure.
+Fleets is **read-only** - it cannot modify your analytics, search console settings, or Cloudflare configuration. All recommendations are paste-ready fixes that you review and apply manually. This makes it safe for production use without risk of automated changes to your live infrastructure.
 
 ## Prerequisites
 
@@ -99,9 +99,9 @@ Fleets is **read-only** — it cannot modify your analytics, search console sett
 
 ## Related Resources
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) — full curated catalog
-- [Analytics & BI MCPs](/hermes/mcp/servers/external/#analytics--business-intelligence) — complementary analytics tools
-- [CorpusIQ GA4 Connector](/hermes/mcp/connectors/) — native GA4 data access through CorpusIQ
+- [External MCP Server Catalog](/hermes/mcp/servers/external/) - full curated catalog
+- [Analytics & BI MCPs](/hermes/mcp/servers/external/#analytics--business-intelligence) - complementary analytics tools
+- [CorpusIQ GA4 Connector](/hermes/mcp/connectors/) - native GA4 data access through CorpusIQ
 
 ---
 

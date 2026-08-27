@@ -49,10 +49,10 @@ npx githunt-mcp
 
 ## Operator Use Cases
 
-1. **Technical recruiting** — find developers by skill, location, and activity
-2. **Competitive intelligence** — analyze competitor engineering teams
-3. **Vendor assessment** — evaluate open-source contributors for partnerships
-4. **Talent mapping** — identify skilled developers in target regions
+1. **Technical recruiting** - find developers by skill, location, and activity
+2. **Competitive intelligence** - analyze competitor engineering teams
+3. **Vendor assessment** - evaluate open-source contributors for partnerships
+4. **Talent mapping** - identify skilled developers in target regions
 
 ## CorpusIQ Angle
 

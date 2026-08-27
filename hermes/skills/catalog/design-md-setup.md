@@ -1,5 +1,5 @@
 ---
-title: DESIGN.md — Full Setup Guide for Hermes Agents
+title: DESIGN.md - Full Setup Guide for Hermes Agents
 description: Google's open spec for describing visual identity to coding agents. YAML design tokens + Markdown rationale. Lint, diff, and export to Tailwind/W3C DTCG.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-md-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# DESIGN.md — Setup Guide
+# DESIGN.md - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) (227.9K⭐)
 **Skill:** `nousresearch/hermes-agent@design-md`

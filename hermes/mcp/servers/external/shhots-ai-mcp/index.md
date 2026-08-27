@@ -11,7 +11,7 @@ tags: [ugc-ads, ai-video, product-photography, ad-creative, video-generation, ec
 
 # Shhots AI MCP
 
-**Remote MCP server (Streamable HTTP, account sign-in)** — the full Shhots ad engine, one prompt away. Generate AI UGC ads with avatars speaking your script, cinematic product films with camera moves and pacing, and studio-quality product photos from a reference image, without leaving the conversation.
+**Remote MCP server (Streamable HTTP, account sign-in)** - the full Shhots ad engine, one prompt away. Generate AI UGC ads with avatars speaking your script, cinematic product films with camera moves and pacing, and studio-quality product photos from a reference image, without leaving the conversation.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Built by: Shhots (shhots.ai)
 
 UGC-style creative is the best-performing ad format for most ecommerce brands and also the most expensive to produce per variant. Shhots removes the shoot: creator-style video ads with AI avatars speaking your script, in 12 languages and every aspect ratio, ten variants at a time.
 
-**Campaign planning and creative production happen in one chat.** Describe the shot, get the finished cut back in your workspace. Product photography gets the same treatment — new scenes, backdrops, and styles from a single reference image, no camera.
+**Campaign planning and creative production happen in one chat.** Describe the shot, get the finished cut back in your workspace. Product photography gets the same treatment - new scenes, backdrops, and styles from a single reference image, no camera.
 
 ## Tools & Capabilities
 
@@ -78,7 +78,7 @@ Shhots sits upstream of the paid channels CorpusIQ already reads: generate the c
 - Requires Shhots Pro or Scale plan
 - Live for Claude and ChatGPT only; other clients coming
 - Commercial rendering costs
-- Brand new — no track record yet
+- Brand new - no track record yet
 
 ## See Also
 

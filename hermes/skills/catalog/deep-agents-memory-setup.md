@@ -1,5 +1,5 @@
 ---
-title: Deep Agents Memory — LangChain Persistent Memory for Hermes Agents
+title: Deep Agents Memory - LangChain Persistent Memory for Hermes Agents
 description: Pluggable memory backends for LangChain Deep Agents. StateBackend (ephemeral), StoreBackend (persistent), FilesystemMiddleware, and CompositeBackend for routing. 12.8K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deep-agents-memory-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Deep Agents Memory — Setup Guide
+# Deep Agents Memory - Setup Guide
 
 **Source:** [langchain-ai/langchain-skills](https://skills.sh/langchain-ai/langchain-skills/deep-agents-memory) (12,800+ installs)
 **Category:** Agent Infrastructure / Memory
 **Quality Tier:** 🟡 Beta
 
-LangChain's pluggable backend system for Deep Agents — providing short-term (ephemeral), long-term (persistent), and hybrid memory architectures. When your agent needs to remember state across threads, sessions, or invocations.
+LangChain's pluggable backend system for Deep Agents - providing short-term (ephemeral), long-term (persistent), and hybrid memory architectures. When your agent needs to remember state across threads, sessions, or invocations.
 
 ---
 
@@ -144,7 +144,7 @@ For CorpusIQ Hermes agents, the StoreBackend pattern provides session-persistent
 
 ## See Also
 
-- AgentMemory Setup — AgentMemory integration for Hermes
-- Hermes Memory Stack Setup — Hermes native memory stack
-- Hermes Hybrid Memory Setup — Hybrid memory architecture
-- [LangChain Deep Agents Docs](https://docs.langchain.com) — Official documentation
+- AgentMemory Setup - AgentMemory integration for Hermes
+- Hermes Memory Stack Setup - Hermes native memory stack
+- Hermes Hybrid Memory Setup - Hybrid memory architecture
+- [LangChain Deep Agents Docs](https://docs.langchain.com) - Official documentation

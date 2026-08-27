@@ -1,6 +1,6 @@
 ---
 title: "Oracle MCP Server - CorpusIQ Docs"
-description: Oracle MCP integration guide — connect AI agents to Oracle Fusion Cloud via OAuth2 with 1000+ tools for Financials, Procurement, Inventory, Suppliers, Tax, and Workforce.
+description: Oracle MCP integration guide - connect AI agents to Oracle Fusion Cloud via OAuth2 with 1000+ tools for Financials, Procurement, Inventory, Suppliers, Tax, and Workforce.
 source: datagrout.ai
 category: Cloud Service / ERP
 stars: N/A (hosted platform)
@@ -14,7 +14,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 # Oracle MCP Server (datagrout)
 
-**First Oracle Fusion Cloud MCP server** — connects AI agents directly to Oracle's enterprise ERP platform through OAuth2. 1,000+ tools covering Financials, Procurement, Inventory, Suppliers, Tax, and Workforce.
+**First Oracle Fusion Cloud MCP server** - connects AI agents directly to Oracle's enterprise ERP platform through OAuth2. 1,000+ tools covering Financials, Procurement, Inventory, Suppliers, Tax, and Workforce.
 
 > **Source:** [datagrout.ai/integrations/oracle-mcp-server](https://datagrout.ai/integrations/oracle-mcp-server)
 > **Category:** Cloud Service / ERP
@@ -26,14 +26,14 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 The Oracle MCP Server exposes 1,000+ tools that let AI agents interact with Oracle Fusion Cloud:
 
-- **Financials** — General ledger, payables, receivables, assets, cash management
-- **Procurement** — Purchase orders, supplier agreements, requisitions, sourcing
-- **Inventory** — Stock levels, item management, warehouses, transfers
-- **Suppliers** — Supplier profiles, contracts, performance tracking
-- **Tax** — Tax configurations, compliance reporting
-- **Workforce** — HR data, organizational structures, headcount reporting
+- **Financials** - General ledger, payables, receivables, assets, cash management
+- **Procurement** - Purchase orders, supplier agreements, requisitions, sourcing
+- **Inventory** - Stock levels, item management, warehouses, transfers
+- **Suppliers** - Supplier profiles, contracts, performance tracking
+- **Tax** - Tax configurations, compliance reporting
+- **Workforce** - HR data, organizational structures, headcount reporting
 
-Write operations are **disabled by default** per integration — you enable them selectively. This follows the same security model as the datagrout QuickBooks MCP.
+Write operations are **disabled by default** per integration - you enable them selectively. This follows the same security model as the datagrout QuickBooks MCP.
 
 ## Why This Matters for Operators
 
@@ -126,23 +126,23 @@ Write operations are disabled by default. To enable (e.g., allowing the AI agent
 
 ## Security Model
 
-- **OAuth 2.0** with Oracle Fusion Cloud — scoped to your instance
-- **Write operations disabled by default** — explicit opt-in per integration
-- **Module-scoped** — you control exactly which Oracle modules are accessible
-- **Per-tool audit** — every AI-initiated action is logged in Datagrout
-- **Revocable** — disconnect from Datagrout or revoke the Oracle OAuth grant
+- **OAuth 2.0** with Oracle Fusion Cloud - scoped to your instance
+- **Write operations disabled by default** - explicit opt-in per integration
+- **Module-scoped** - you control exactly which Oracle modules are accessible
+- **Per-tool audit** - every AI-initiated action is logged in Datagrout
+- **Revocable** - disconnect from Datagrout or revoke the Oracle OAuth grant
 
 ## Limitations
 
-- **Requires Datagrout platform** — not standalone
-- **Oracle Fusion Cloud only** — no E-Business Suite, PeopleSoft, or JD Edwards support
-- **New platform** — July 2026 launch
+- **Requires Datagrout platform** - not standalone
+- **Oracle Fusion Cloud only** - no E-Business Suite, PeopleSoft, or JD Edwards support
+- **New platform** - July 2026 launch
 - **Write operations** require deliberate opt-in
-- **Oracle licensing** may require specific API access tiers — verify with your Oracle rep
+- **Oracle licensing** may require specific API access tiers - verify with your Oracle rep
 
 ## See Also
 
-- [[quickbooks-mcp]] — QuickBooks MCP Server (also by datagrout)
-- [[abapilot-mcp]] — SAP ECC/S4HANA ABAP MCP
-- [[capforge-mcp]] — SAP CAP/CDS development MCP
-- [[corpusiq-oracle]] — CorpusIQ's Oracle connector (part of 37-source suite)
+- [[quickbooks-mcp]] - QuickBooks MCP Server (also by datagrout)
+- [[abapilot-mcp]] - SAP ECC/S4HANA ABAP MCP
+- [[capforge-mcp]] - SAP CAP/CDS development MCP
+- [[corpusiq-oracle]] - CorpusIQ's Oracle connector (part of 37-source suite)

@@ -31,7 +31,7 @@ Use the issue tracker. Do not open freeform issues.
 
 1. Go to https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose
 2. Select "Connector Enhancement Request"
-3. Fill out every field — connector name, use case, current workaround, business impact
+3. Fill out every field - connector name, use case, current workaround, business impact
 4. Apply the relevant `connector:` label (e.g. `connector:shopify`)
 
 Enhancement requests without a clear use case and business impact will be deprioritized.
@@ -60,7 +60,7 @@ If your recipe spans multiple connectors, list all of them.
 
 ## Examples
 
-Examples are runnable code samples — configs, scripts, integrations.
+Examples are runnable code samples - configs, scripts, integrations.
 See `examples/` for existing examples.
 
 To submit an example:
@@ -2858,7 +2858,7 @@ URL: https://www.corpusiq.io/docs/api
 
 # CorpusIQ API Reference
 
-Full REST API documentation for programmatic access to CorpusIQ. Authenticate with bearer tokens, query your connected business tools, and manage user data — all through a JSON API at `https://mcp2.corpusiq.io/mcp`.
+Full REST API documentation for programmatic access to CorpusIQ. Authenticate with bearer tokens, query your connected business tools, and manage user data - all through a JSON API at `https://mcp2.corpusiq.io/mcp`.
 
 ## Quick Links
 
@@ -3305,7 +3305,7 @@ A: All successful responses return HTTP 200 with a JSON body. Errors follow a co
 A: External-source retrieval endpoints are read-only. Connector-management and CorpusIQ control-plane endpoints can change CorpusIQ-owned state and are documented separately.
 
 **Q: How fast are API query responses?**  
-A: Most queries return results in 1–5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.
+A: Most queries return results in 1-5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.
 
 ## Internal Links
 
@@ -3477,7 +3477,7 @@ A `Chunk` represents a single relevant result fragment returned from a connected
 | `chunk_id` | string | Unique identifier for this result chunk |
 | `content` | string | The human-readable content matched from the data source |
 | `source_url` | string | Direct link to the source record in the connected tool |
-| `relevance_score` | number | Semantic similarity score (0.0–1.0) against the query |
+| `relevance_score` | number | Semantic similarity score (0.0-1.0) against the query |
 | `metadata` | object | Tool-specific key-value fields extracted from the source record |
 
 The `metadata` object varies by connector. Fields returned depend on what the source tool exposes. Examples:
@@ -3531,7 +3531,7 @@ All API errors follow a consistent format regardless of the HTTP status code.
 A: A /query response includes query_id, query (echo), results array with connector/chunks, and search_summary with connectors_searched, total_chunks_found, and duration_ms.
 
 **Q: What fields are in each result chunk?**  
-A: Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0–1), and metadata with source-specific fields like subject, date, or status.
+A: Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0-1), and metadata with source-specific fields like subject, date, or status.
 
 **Q: How are errors structured in API responses?**  
 A: Errors use a consistent format: {"error": {"type": "error_category", "message": "human-readable description", "details": {}}} with appropriate HTTP status codes (400, 401, 429, 500).
@@ -4932,23 +4932,23 @@ dashboard or a separate AI tool, you ask a question in a chat you already use
 and get an answer back, drawn from the business tools you've connected.
 
 This section is about **using** the app once it's installed in your workspace.
-It does not cover installing it — that's handled by your workspace admin, and
+It does not cover installing it - that's handled by your workspace admin, and
 the steps will change once the app is in the Slack and Teams marketplaces.
 
 Five short reads. Start at the top if the app is new to you.
 
-- [what-it-is.md](what-it-is.md) — what the chat app does, and how it's
+- [what-it-is.md](what-it-is.md) - what the chat app does, and how it's
   different from the CorpusIQ dashboard. Read this first.
-- [getting-started-slack.md](getting-started-slack.md) — the three things you
+- [getting-started-slack.md](getting-started-slack.md) - the three things you
   do once in Slack to start getting answers: link your account, set your AI
   key, ask your first question.
-- [getting-started-teams.md](getting-started-teams.md) — the same three steps
+- [getting-started-teams.md](getting-started-teams.md) - the same three steps
   in Microsoft Teams, where signing in uses your Microsoft account.
-- [asking-questions.md](asking-questions.md) — how to ask, what the answers
+- [asking-questions.md](asking-questions.md) - how to ask, what the answers
   look like, and a set of questions worth trying first.
-- [commands-and-account.md](commands-and-account.md) — the commands for
+- [commands-and-account.md](commands-and-account.md) - the commands for
   signing in, signing out, and switching which CorpusIQ account you're using.
-- [troubleshooting.md](troubleshooting.md) — the four things that stop you
+- [troubleshooting.md](troubleshooting.md) - the four things that stop you
   getting an answer, and how to fix each one.
 
 ## The short version
@@ -4957,11 +4957,11 @@ Three things stand between a fresh install and a useful answer:
 
 1. **Link your CorpusIQ account.** The app won't touch your data until it knows
    who you are. Linking connects your Slack or Teams identity to your CorpusIQ
-   account, so answers come from *your* connected tools — not a shared login.
+   account, so answers come from *your* connected tools - not a shared login.
 2. **Set your AI key.** The app uses your own OpenAI, Anthropic, or Azure
    OpenAI key to do the thinking. You add it once in the CorpusIQ dashboard.
 3. **Ask.** Message the app directly, or @-mention it in a channel. Plain
-   English. The answer comes back formatted — numbers as tiles, not a wall of
+   English. The answer comes back formatted - numbers as tiles, not a wall of
    text.
 
 Do those once and every question after is just step three.
@@ -4989,7 +4989,7 @@ Plain English, no special syntax:
 
 You don't need to name the tool. CorpusIQ works out that "revenue" means your
 accounting or payments data and goes there. If a question could mean two things,
-it's fine to say which — "revenue from Stripe" or "orders in Shopify" — but you
+it's fine to say which - "revenue from Stripe" or "orders in Shopify" - but you
 rarely need to.
 
 ## Follow-ups work
@@ -5009,8 +5009,8 @@ every time.
 ## What the answers look like
 
 CorpusIQ replies with the numbers laid out, not buried in a paragraph. Key
-figures come back as tiles in Slack and as cards in Teams — a revenue figure, a
-change versus the prior period, a count of orders — so you can read the result
+figures come back as tiles in Slack and as cards in Teams - a revenue figure, a
+change versus the prior period, a count of orders - so you can read the result
 at a glance. Longer explanations come as short text above or beside the tiles.
 
 When a question spans several tools, the answer pulls them together. When it
@@ -5040,7 +5040,7 @@ connected.
 
 > Where are we spending the most and getting the least back?
 
-> How did our email campaigns perform this month — opens, clicks, revenue?
+> How did our email campaigns perform this month - opens, clicks, revenue?
 
 ### Store and orders
 
@@ -5070,7 +5070,7 @@ connected.
 
 > What changed the most week over week?
 
-That last kind — the broad "how are we doing" question — is where the chat app
+That last kind - the broad "how are we doing" question - is where the chat app
 earns its place. One question in a channel, and everyone sees the same answer,
 drawn live from the tools behind it.
 
@@ -5078,7 +5078,7 @@ drawn live from the tools behind it.
 
 CorpusIQ shows where a number came from. If something looks wrong, the usual
 cause is a tool that isn't connected or a question that could be read two ways.
-Ask it to be specific — name the tool or the date range — and see
+Ask it to be specific - name the tool or the date range - and see
 [troubleshooting.md](troubleshooting.md) if it persists.
 
 ---
@@ -5089,7 +5089,7 @@ URL: https://www.corpusiq.io/docs/chat-apps/commands-and-account
 # Commands and your account
 
 There are only a couple of commands to know. Most of the time you won't touch
-them — you link once and ask questions from then on. They matter when you're
+them - you link once and ask questions from then on. They matter when you're
 setting up, stepping away from a shared machine, or switching accounts.
 
 ## Signing in
@@ -5105,7 +5105,7 @@ in. Full walkthrough in [getting-started-slack.md](getting-started-slack.md).
 If you're not linked, Teams shows a **Sign in** prompt that uses your Microsoft
 account. Walkthrough in [getting-started-teams.md](getting-started-teams.md).
 
-You stay linked until you sign out — you don't re-run this before every
+You stay linked until you sign out - you don't re-run this before every
 question.
 
 ## Signing out
@@ -5121,7 +5121,7 @@ you again until you sign back in. Use it when:
 
 The app confirms when you're signed out. If you weren't linked to begin with, it
 tells you that plainly instead of pretending it did something. If the sign-out
-doesn't take for any reason, it says so and asks you to try again — it won't
+doesn't take for any reason, it says so and asks you to try again - it won't
 claim you're signed out when you aren't.
 
 **Teams:** the same **corpusiq-logout** action is available from the app's
@@ -5129,8 +5129,8 @@ command menu.
 
 ## Switching accounts
 
-If you need the app to act as a different CorpusIQ account — say you have a
-personal one and a shared team one — sign out and back in:
+If you need the app to act as a different CorpusIQ account - say you have a
+personal one and a shared team one - sign out and back in:
 
 1. Sign out (`/corpusiq-logout` in Slack, or the logout action in Teams).
 2. Sign in again and choose the account you want.
@@ -5141,7 +5141,7 @@ just sign-out, sign-in.
 ## A note on privacy
 
 The app always acts as the linked person, using their permissions. Signing in
-doesn't give the app more access than you already have — it reads the same
+doesn't give the app more access than you already have - it reads the same
 tools you connected, nothing more. Signing out removes the app's ability to act
 as you until you choose to link again.
 
@@ -5154,13 +5154,13 @@ URL: https://www.corpusiq.io/docs/chat-apps/getting-started-slack
 
 Three steps, once. After that, asking a question is all that's left.
 
-## Step 1 — Link your CorpusIQ account
+## Step 1 - Link your CorpusIQ account
 
 The app won't read any data until it knows who you are. Linking connects your
 Slack identity to your CorpusIQ account.
 
 1. In Slack, type `/corpusiq-login` and send it. You can do this in a direct
-   message to the app or in any channel — the reply comes to you privately.
+   message to the app or in any channel - the reply comes to you privately.
 2. The app sends you a direct message with a link and a short code.
 3. Open the link, confirm the code matches, and sign in to CorpusIQ.
 4. The app messages you the moment you're connected. The code is good for about
@@ -5171,9 +5171,9 @@ Slack identity to your CorpusIQ account.
 You only do this once. The app remembers you until you sign out.
 
 If you're already linked and run `/corpusiq-login` again, the app tells you so
-— it won't create a second login.
+- it won't create a second login.
 
-## Step 2 — Set your AI key
+## Step 2 - Set your AI key
 
 CorpusIQ does the thinking with an AI model, and in Slack and Teams you bring
 your own key for it. This keeps the AI spend and the data on the model side
@@ -5188,13 +5188,13 @@ You add the key once, in the CorpusIQ dashboard (not in Slack):
 <!-- screenshot: the dashboard AI key setting with a provider selected -->
 
 Until a key is set, the app will tell you it needs one rather than answering
-with someone else's — so if your first question comes back asking for a key,
+with someone else's - so if your first question comes back asking for a key,
 this is the step you're missing.
 
 Your workspace may be set up so the key is already provided for everyone. If so,
-you can skip this step — ask a question, and if it answers, you're set.
+you can skip this step - ask a question, and if it answers, you're set.
 
-## Step 3 — Ask your first question
+## Step 3 - Ask your first question
 
 Now the part you're here for. Two ways to ask:
 
@@ -5211,7 +5211,7 @@ answer to, so you can see the shape of a reply:
 
 > How many orders are waiting to ship?
 
-The answer comes back in the thread, formatted — key numbers as tiles, not a
+The answer comes back in the thread, formatted - key numbers as tiles, not a
 paragraph you have to read twice.
 
 <!-- screenshot: a CorpusIQ answer in a Slack thread showing KPI tiles -->
@@ -5222,7 +5222,7 @@ and the answer is there.
 
 ## That's it
 
-You've done the two one-time steps. From here on it's just step three — ask,
+You've done the two one-time steps. From here on it's just step three - ask,
 read, ask again. For questions worth trying next, see
 [asking-questions.md](asking-questions.md).
 
@@ -5233,15 +5233,15 @@ URL: https://www.corpusiq.io/docs/chat-apps/getting-started-teams
 
 # Getting started in Microsoft Teams
 
-Three steps, once. The only real difference from Slack is how you sign in —
+Three steps, once. The only real difference from Slack is how you sign in -
 Teams uses your Microsoft account, so it's usually a single tap.
 
-## Step 1 — Sign in to CorpusIQ
+## Step 1 - Sign in to CorpusIQ
 
 The app won't read any data until it knows who you are. In Teams, this uses the
 Microsoft account you're already signed in with.
 
-1. Open a chat with the CorpusIQ app and send it a message — a simple "hi" is
+1. Open a chat with the CorpusIQ app and send it a message - a simple "hi" is
    enough the first time.
 2. If you're not linked yet, the app shows a **Sign in** prompt. Tap it.
 3. Confirm with your Microsoft account. Because you're already signed in to
@@ -5255,7 +5255,7 @@ You only do this once. The app stays linked until you sign out.
 If the sign-in prompt doesn't appear, or tapping it doesn't complete, see
 [troubleshooting.md](troubleshooting.md).
 
-## Step 2 — Set your AI key
+## Step 2 - Set your AI key
 
 CorpusIQ does the thinking with an AI model, and in Slack and Teams you bring
 your own key for it. This keeps the AI spend and the data on the model side
@@ -5270,14 +5270,14 @@ You add the key once, in the CorpusIQ dashboard (not in Teams):
 <!-- screenshot: the dashboard AI key setting with a provider selected -->
 
 If your first question comes back asking for a key, this is the step you're
-missing. Some workspaces provide the key for everyone — if a question answers
+missing. Some workspaces provide the key for everyone - if a question answers
 without you setting one, you're already covered.
 
 Azure OpenAI is worth calling out for Microsoft-centric teams: using it keeps
 the model calls inside your own Azure tenant, alongside the rest of your
 Microsoft stack.
 
-## Step 3 — Ask your first question
+## Step 3 - Ask your first question
 
 Two ways to ask:
 
@@ -5293,7 +5293,7 @@ Plain English. A good first question is one you can sanity-check:
 
 > How many orders are waiting to ship?
 
-The answer comes back as a card — key numbers laid out, not a paragraph to
+The answer comes back as a card - key numbers laid out, not a paragraph to
 squint at.
 
 ![A CorpusIQ answer in Microsoft Teams: a short summary line followed by an Adaptive Card showing the session count and its breakdown, with a "Powered by CorpusIQ" footer.](assets/teams-answer-sessions.png)
@@ -5314,7 +5314,7 @@ URL: https://www.corpusiq.io/docs/chat-apps/troubleshooting
 # Troubleshooting
 
 Almost every "it's not answering" comes down to one of four things. Work down
-the list — they're in the order you'll hit them.
+the list - they're in the order you'll hit them.
 
 ## "It's asking me to sign in"
 
@@ -5323,7 +5323,7 @@ The app isn't linked to your CorpusIQ account yet, or your link expired.
 - **Slack:** run `/corpusiq-login` and follow the direct message it sends you.
 - **Teams:** send the app a message and tap the **Sign in** prompt.
 
-If you linked a while ago and it's asking again, the link timed out — sign in
+If you linked a while ago and it's asking again, the link timed out - sign in
 again and it'll stick.
 
 See [getting-started-slack.md](getting-started-slack.md) or
@@ -5340,13 +5340,13 @@ Add it in the CorpusIQ dashboard, not in chat:
 3. Add a key from OpenAI, Anthropic, or Azure OpenAI and save.
 
 Ask again and it'll answer. If you believe your workspace provides a shared key,
-check with whoever set the app up — the message means the app read no key for
+check with whoever set the app up - the message means the app read no key for
 you.
 
 ## "It says a tool isn't connected"
 
 You asked something that needs a business tool you haven't linked to CorpusIQ
-yet — for example, asking about orders before connecting your store.
+yet - for example, asking about orders before connecting your store.
 
 The reply points you to connect it. Do that once in the dashboard, then ask the
 same question again. The app doesn't guess at data it can't reach, which is why
@@ -5367,7 +5367,7 @@ One person is linked at a time, so signing out and back in puts it right.
 If tapping **Sign in** in Teams doesn't finish:
 
 - Make sure you're signed in to Teams with the Microsoft account you expect.
-- Try the message again — send a fresh message to bring the prompt back.
+- Try the message again - send a fresh message to bring the prompt back.
 - If it still won't complete, your workspace's sign-in setup may need an
   admin's attention. Tell whoever installed the app, or email
   [support@corpusiq.io](mailto:support@corpusiq.io).
@@ -5386,8 +5386,8 @@ URL: https://www.corpusiq.io/docs/chat-apps/what-it-is
 
 # What the chat app is
 
-CorpusIQ connects your business tools — accounting, ecommerce, ads, email,
-CRM, analytics — and lets you ask questions across them in plain English. The
+CorpusIQ connects your business tools - accounting, ecommerce, ads, email,
+CRM, analytics - and lets you ask questions across them in plain English. The
 chat app puts that same ability inside Slack and Microsoft Teams.
 
 You type a question in a direct message to the app, or @-mention it in a
@@ -5419,7 +5419,7 @@ the same workspace who asks the same question gets answers from *their*
 connected tools, not yours.
 
 That's why linking exists. Without it, the app has no way to know whose data to
-read, so it won't guess — it asks you to link first.
+read, so it won't guess - it asks you to link first.
 
 ## What it can answer
 
@@ -5430,13 +5430,13 @@ orders and inventory, CRM pipeline, web analytics, SEO, and files in your
 cloud drives.
 
 If a tool isn't connected yet, the app tells you plainly and points you to
-connect it — it doesn't invent an answer.
+connect it - it doesn't invent an answer.
 
 ## What it reads, and what it doesn't
 
 The app is read-only against your business tools. It looks things up and reports
 them back. It does not move money, send emails, change records, or post on your
-behalf. Answers are drawn live from your connected tools each time you ask —
+behalf. Answers are drawn live from your connected tools each time you ask -
 direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ## Next
@@ -9953,10 +9953,10 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
+# CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint
 URL: https://www.corpusiq.io/docs/connectors
 
-# CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
+# CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint
 
 Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 40+ business tools to ChatGPT, Claude, and Perplexity through read-only direct MCP live retrieval. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Browse the complete directory below.
 # Connectors
@@ -11192,7 +11192,7 @@ URL: https://www.corpusiq.io/docs/enterprise-ai-data-access
 
 Enterprise organizations face a unique tension when adopting AI-powered data access: the business demands real-time answers from dozens of systems, but security and compliance teams require guarantees that would traditionally block real-time access entirely. The result is often paralysis  --  AI initiatives stall while security reviews drag on, or worse, teams bypass security controls to get the access they need.
 
-CorpusIQ's MCP platform resolves this tension by providing an enterprise AI data access layer that meets the most stringent security requirements while delivering the real-time, natural-language data access that business teams expect. This guide covers the security architecture, compliance framework, and deployment model that make enterprise-grade AI data access possible  --  and why building the equivalent in-house typically takes 12–18 months of engineering effort.
+CorpusIQ's MCP platform resolves this tension by providing an enterprise AI data access layer that meets the most stringent security requirements while delivering the real-time, natural-language data access that business teams expect. This guide covers the security architecture, compliance framework, and deployment model that make enterprise-grade AI data access possible  --  and why building the equivalent in-house typically takes 12-18 months of engineering effort.
 
 ## The Enterprise AI Data Access Problem
 
@@ -11297,13 +11297,13 @@ CorpusIQ stores encrypted authentication tokens and connector configuration whil
 
 The question every enterprise faces: build an AI data access layer in-house or adopt a platform like CorpusIQ. Here's what building in-house entails:
 
-**Authentication and SSO integration.** Build SAML/OIDC integration with your identity provider. Implement JIT provisioning, session management, MFA enforcement. Handle token refresh, session timeout, and concurrent session policies. **Engineering effort: 4–8 weeks.**
+**Authentication and SSO integration.** Build SAML/OIDC integration with your identity provider. Implement JIT provisioning, session management, MFA enforcement. Handle token refresh, session timeout, and concurrent session policies. **Engineering effort: 4-8 weeks.**
 
-**Connector development.** Write and maintain API integrations for 20–50 business platforms. Handle OAuth flows, rate limiting, pagination, error recovery, schema changes. Each connector requires ongoing maintenance as APIs evolve. **Engineering effort: 3–4 weeks per connector, ongoing maintenance.**
+**Connector development.** Write and maintain API integrations for 20-50 business platforms. Handle OAuth flows, rate limiting, pagination, error recovery, schema changes. Each connector requires ongoing maintenance as APIs evolve. **Engineering effort: 3-4 weeks per connector, ongoing maintenance.**
 
-**Read-only enforcement.** Build a capability matrix that validates every API call against allowed operations. Implement at the API gateway, service, and connector levels. **Engineering effort: 2–3 weeks.**
+**Read-only enforcement.** Build a capability matrix that validates every API call against allowed operations. Implement at the API gateway, service, and connector levels. **Engineering effort: 2-3 weeks.**
 
-**Audit logging.** Build an audit logging system with immutable storage, structured log format, SIEM export, configurable retention, and real-time streaming. **Engineering effort: 3–5 weeks.**
+**Audit logging.** Build an audit logging system with immutable storage, structured log format, SIEM export, configurable retention, and real-time streaming. **Engineering effort: 3-5 weeks.**
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -11894,7 +11894,7 @@ Read-only. CorpusIQ cannot change tracking or settings. No raw customer files or
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze Google Ads with AI (Ask Campaign Questions in Plain English)
@@ -11935,7 +11935,7 @@ Read-only. CorpusIQ cannot change bids, budgets, or campaigns. No raw customer f
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze HubSpot with AI (Ask CRM Questions in Plain English)
@@ -11976,7 +11976,7 @@ Read-only. CorpusIQ cannot edit contacts, deals, or pipelines. No raw customer f
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze Klaviyo with AI (Ask Email Marketing Questions in Plain English)
@@ -12017,7 +12017,7 @@ Read-only. CorpusIQ cannot send emails or edit campaigns. No raw customer files 
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
 # How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide
@@ -12280,7 +12280,7 @@ Shopify's analytics answer questions about Shopify. CorpusIQ answers questions t
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
 # How to Build an AI Knowledge Base
@@ -14593,10 +14593,10 @@ Ready to unlock AI-powered insights from your CRM data?
 [Content truncated; see the canonical page for the complete text.]
 
 ---
-# CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
+# CorpusIQ - Connect Your Business Data to ChatGPT, Claude, and Perplexity
 URL: https://www.corpusiq.io/docs
 
-# CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
+# CorpusIQ - Connect Your Business Data to ChatGPT, Claude, and Perplexity
 
 **CorpusIQ gives every AI the same verified answer.** Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 40+ business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. No raw customer files or full connector response payloads retained. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs. In Claude, add CorpusIQ through the custom connector flow using the public MCP endpoint.
 
@@ -14611,6 +14611,14 @@ URL: https://www.corpusiq.io/docs
 ## Who This Is For
 
 **Operators** who need answers across Stripe, HubSpot, QuickBooks, and Shopify without logging into each one. **Developers** building AI agents that need governed access to business data. **Teams** that want a single source of truth their AI can actually query.
+
+## Evidence
+
+"The same number in ChatGPT, Claude, and Perplexity. Every time." - Benoit Pecqueur, Founder, CorpusIQ
+
+"When a user selects your site as a preferred source, your content is more likely to appear in Top Stories, highlighted with a preferred badge. In AI Mode and AI Overviews, your content can be highlighted with a preferred badge for users who have selected your site as a preferred source." - [Google Search Central documentation](https://developers.google.com/search/docs/appearance/preferred-sources)
+
+CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude.
 
 ## Frequently Asked Questions
 
@@ -17646,17 +17654,30 @@ See the [MCP Integration Guide](https://corpusiq.io/mcp) for setup instructions.
 
 ## Frequently Asked Questions
 
-**Q: How long does it take to set up CorpusIQ?**  
-A: Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage.
+### How long does it take to set up CorpusIQ?
+Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage.
 
-**Q: Do I need a credit card to start?**  
-A: No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately.
+### Do I need a credit card to start?
+No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately.
 
-**Q: What are the best data sources to connect first?**  
-A: Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth.
+### What are the best data sources to connect first?
+Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth.
 
-**Q: How do I get an API token?**  
-A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection.
+### How do I get an API token?
+Go to Dashboard → Settings → API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How long does it take to set up CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage."}},
+    {"@type": "Question", "name": "Do I need a credit card to start?", "acceptedAnswer": {"@type": "Answer", "text": "No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately."}},
+    {"@type": "Question", "name": "What are the best data sources to connect first?", "acceptedAnswer": {"@type": "Answer", "text": "Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth."}},
+    {"@type": "Question", "name": "How do I get an API token?", "acceptedAnswer": {"@type": "Answer", "text": "Go to Dashboard, Settings, API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection."}}
+  ]
+}
+</script>
 
 ## Internal Links
 

@@ -1,5 +1,5 @@
 ---
-title: "Financial News MCP — Real-Time Market Data for AI Agents"
+title: "Financial News MCP - Real-Time Market Data for AI Agents"
 description: "Real-time financial news search by ticker, source, and language with sentiment analysis and entity extraction for AI agents."
 category: mcp
 tags: [mcp-server, finance, news, sentiment, market-data]
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Financial News MCP Server ★ New (July 12)
 
-Real-time financial news for AI agents — search by ticker, source, and language, with sentiment and entity data. Provides live market context for trading, research, and financial analysis workflows.
+Real-time financial news for AI agents - search by ticker, source, and language, with sentiment and entity data. Provides live market context for trading, research, and financial analysis workflows.
 
 **Source:** mcp.so (submitted July 12, 2026)
 
@@ -71,5 +71,5 @@ npx @financial-news/mcp-server
 
 ## See Also
 
-- [Seiche Finance MCP](/hermes/mcp/servers/external/seiche-finance-mcp/) — US money market stress testing
-- [AlphaVantage MCP](/hermes/mcp/servers/external/alphavantage-mcp/) — Stock fundamentals and technical data
+- [Seiche Finance MCP](/hermes/mcp/servers/external/seiche-finance-mcp/) - US money market stress testing
+- [AlphaVantage MCP](/hermes/mcp/servers/external/alphavantage-mcp/) - Stock fundamentals and technical data

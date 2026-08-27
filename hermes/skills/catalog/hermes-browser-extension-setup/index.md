@@ -1,5 +1,5 @@
 ---
-title: "Hermes Browser Extension — Full Setup Guide"
+title: "Hermes Browser Extension - Full Setup Guide"
 description: "Install, configure, and use the Hermes Browser Extension side panel for Chrome/Edge/Chromium. Connect active browser context to your local or remote Hermes"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup/"
 robots: "index,follow"
@@ -8,28 +8,28 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Browser Extension — Setup Guide
+# Hermes Browser Extension - Setup Guide
 
 **Repo:** [abundantbeing/hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
 **Stars:** 439 | **Author:** Jon Komet (`@abundantbeing`)
-**Status:** Public alpha — load unpacked, not on Chrome Web Store yet
+**Status:** Public alpha - load unpacked, not on Chrome Web Store yet
 **Skills.sh:** `npx skills add aradotso/hermes-skills --skill hermes-browser-extension`
 
 ---
 
 ## What It Is
 
-The Hermes Browser Extension is a Chrome/Edge/Chromium side panel that connects to your Hermes Gateway/API server. It's not a standalone chatbot — it talks to the real Hermes Agent runtime (local by default, remote when configured) so it can use the models, tools, skills, sessions, memory, and MCP servers already configured in Hermes.
+The Hermes Browser Extension is a Chrome/Edge/Chromium side panel that connects to your Hermes Gateway/API server. It's not a standalone chatbot - it talks to the real Hermes Agent runtime (local by default, remote when configured) so it can use the models, tools, skills, sessions, memory, and MCP servers already configured in Hermes.
 
 ### Key Features
 
-- **Browser-native side panel** — MV3 extension powered by Chrome's Side Panel API
-- **Local or remote Hermes** — Default `http://127.0.0.1:8642`, configurable to any reachable URL
-- **Dashboard WebSocket mode** — No API key needed when you have a signed-in remote Hermes dashboard tab
-- **Auto-sync** — Connected providers/models, profiles, skills, sessions, and capabilities sync automatically
-- **Hermes compatibility panel** — Older gateways degrade into explicit fallback/manual modes instead of breaking
-- **Context injection** — Sends active tab/browser context into a persisted Hermes session, or switch to Chat-only
-- **Composer-header context menu** — Quick controls for context scope (Chat only / Follow active tab / Page only)
+- **Browser-native side panel** - MV3 extension powered by Chrome's Side Panel API
+- **Local or remote Hermes** - Default `http://127.0.0.1:8642`, configurable to any reachable URL
+- **Dashboard WebSocket mode** - No API key needed when you have a signed-in remote Hermes dashboard tab
+- **Auto-sync** - Connected providers/models, profiles, skills, sessions, and capabilities sync automatically
+- **Hermes compatibility panel** - Older gateways degrade into explicit fallback/manual modes instead of breaking
+- **Context injection** - Sends active tab/browser context into a persisted Hermes session, or switch to Chat-only
+- **Composer-header context menu** - Quick controls for context scope (Chat only / Follow active tab / Page only)
 
 ---
 
@@ -97,9 +97,9 @@ Click the Hermes icon in your browser toolbar, or use the keyboard shortcut (con
 ### 3. Configure Context Scope
 
 The composer header has a context menu with three modes:
-- **Chat only** — No browser context sent; pure chat with Hermes
-- **Follow active tab** — Context follows whichever tab you're viewing
-- **Page only** — Context stays locked to one page
+- **Chat only** - No browser context sent; pure chat with Hermes
+- **Follow active tab** - Context follows whichever tab you're viewing
+- **Page only** - Context stays locked to one page
 
 ### 4. Appearance Settings
 
@@ -196,7 +196,7 @@ Browse documentation or competitor sites, then:
 ### Side panel not showing
 
 - Requires Chrome/Edge 114+
-- Check `chrome://extensions` — the extension must be enabled
+- Check `chrome://extensions` - the extension must be enabled
 - Try the keyboard shortcut: `chrome://extensions/shortcuts`
 
 ---
@@ -204,10 +204,10 @@ Browse documentation or competitor sites, then:
 ## Security Notes
 
 - The extension runs with MV3 permissions model
-- Browser context is **read-only** — the extension cannot modify pages
+- Browser context is **read-only** - the extension cannot modify pages
 - All communication with Hermes uses the configured API endpoint (local by default)
 - API keys are stored in browser extension storage, not synced to cloud
-- No telemetry or external services — all processing happens through your Hermes instance
+- No telemetry or external services - all processing happens through your Hermes instance
 
 ---
 

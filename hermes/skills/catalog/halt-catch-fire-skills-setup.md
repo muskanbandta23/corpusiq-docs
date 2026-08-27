@@ -1,6 +1,6 @@
 ---
-title: Halt-Catch-Fire Agent Skills — Setup Guide
-description: Install and configure 6 new agent skills from halt-catch-fire — Remotion video rendering, AI avatar video, Twitter automation, AI video/image generation, and browser automation. 500K+ combined installs.
+title: Halt-Catch-Fire Agent Skills - Setup Guide
+description: Install and configure 6 new agent skills from halt-catch-fire - Remotion video rendering, AI avatar video, Twitter automation, AI video/image generation, and browser automation. 500K+ combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/halt-catch-fire-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Halt-Catch-Fire Agent Skills — Setup Guide
+# Halt-Catch-Fire Agent Skills - Setup Guide
 
 **Source:** [halt-catch-fire/skills](https://skills.sh/halt-catch-fire/skills)
 **First Discovered:** June 27, 2026
@@ -77,7 +77,7 @@ Export as 1080p MP4 with the "fade" transition between scenes
 
 ### 2. ai-avatar-video
 
-AI avatar video generation — talking head videos driven by text input.
+AI avatar video generation - talking head videos driven by text input.
 
 **Use cases:**
 - Automated video presentations
@@ -92,7 +92,7 @@ Use the "professional" avatar preset with the product screenshot as background
 
 ### 3. twitter-automation
 
-Full Twitter/X automation — posting, reading timelines, engaging with mentions.
+Full Twitter/X automation - posting, reading timelines, engaging with mentions.
 
 **Use cases:**
 - Automated social media management
@@ -135,7 +135,7 @@ Generate a hero image for our blog post about AI agents, 1200x630, modern tech a
 
 ### 6. agent-browser
 
-Browser automation for agents — navigate, click, extract data, fill forms.
+Browser automation for agents - navigate, click, extract data, fill forms.
 
 **Use cases:**
 - Web scraping and data extraction

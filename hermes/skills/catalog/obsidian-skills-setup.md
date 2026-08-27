@@ -1,6 +1,6 @@
 ---
 title: Obsidian Agent Skills Setup Guide
-description: Install and configure kepano/obsidian-skills (44K★) for Hermes Agent — workflows for open Obsidian formats, vault management, and note operations.
+description: Install and configure kepano/obsidian-skills (44K★) for Hermes Agent - workflows for open Obsidian formats, vault management, and note operations.
 category: hermes-skills
 publisher: kepano
 stars: 44,167
@@ -15,18 +15,18 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Obsidian Agent Skills — Setup Guide
+# Obsidian Agent Skills - Setup Guide
 
-Official Obsidian Agent Skills by [kepano](https://github.com/kepano/obsidian-skills) (44,167★ GitHub stars). Agent Skills-spec-compatible workflows for open Obsidian formats — vault management, note creation, linking, and plugin operations. MIT licensed, production-grade.
+Official Obsidian Agent Skills by [kepano](https://github.com/kepano/obsidian-skills) (44,167★ GitHub stars). Agent Skills-spec-compatible workflows for open Obsidian formats - vault management, note creation, linking, and plugin operations. MIT licensed, production-grade.
 
 ## What It Provides
 
-- **Vault navigation** — browse, search, and traverse Obsidian vaults
-- **Note creation & editing** — create, update, and link notes using Obsidian-flavored Markdown
-- **Wikilink management** — resolve, create, and audit `[[wikilinks]]`
-- **Plugin awareness** — understand Dataview, Kanban, Calendar, and other common plugin formats
-- **Template workflows** — apply Obsidian templates to new notes
-- **Graph analysis** — query the knowledge graph for related notes and orphans
+- **Vault navigation** - browse, search, and traverse Obsidian vaults
+- **Note creation & editing** - create, update, and link notes using Obsidian-flavored Markdown
+- **Wikilink management** - resolve, create, and audit `[[wikilinks]]`
+- **Plugin awareness** - understand Dataview, Kanban, Calendar, and other common plugin formats
+- **Template workflows** - apply Obsidian templates to new notes
+- **Graph analysis** - query the knowledge graph for related notes and orphans
 
 ## Installation
 
@@ -102,10 +102,10 @@ hermes chat -q "List the top-level folders in my Obsidian vault at ~/Documents/O
 
 ## Pitfalls
 
-- **Vault path must be absolute** — `~` expansion may not work in all harnesses. Use full paths.
+- **Vault path must be absolute** - `~` expansion may not work in all harnesses. Use full paths.
 - **Large vaults (>10K notes)**: First scan may be slow. Use `.obsidianignore` patterns to exclude large binary folders.
 - **Plugin-dependent features**: Dataview queries, Kanban boards, and Calendar entries require those plugins to be installed and active in the vault.
-- **Sync conflicts**: If using Obsidian Sync, ensure the agent operates on the local vault copy — not a sync daemon that might conflict.
+- **Sync conflicts**: If using Obsidian Sync, ensure the agent operates on the local vault copy - not a sync daemon that might conflict.
 
 ## See Also
 

@@ -1,5 +1,5 @@
 ---
-title: "Kvasir Legal MCP — EU Law Grounding for AI Agents"
+title: "Kvasir Legal MCP - EU Law Grounding for AI Agents"
 description: "Ground legal AI on verifiable German, Bavarian, and EU law with canonical objects, provenance tracking, and pinpoint citations. Compliance and legal"
 category: mcp
 tags: [mcp-server, legal, compliance, eu-law, german-law, rag, regulatory]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Kvasir Legal MCP — EU Law Grounding
+# Kvasir Legal MCP - EU Law Grounding
 
 ## What It Is
 
-Kvasir Legal MCP (`kvasir.legal`) provides AI agents with verifiable access to German, Bavarian, and EU law — delivered as canonical legal objects with cryptographic provenance and pinpoint citations. Legal professionals and compliance teams can query regulations, search case law, and ground AI outputs in authoritative sources rather than hallucinated legal references.
+Kvasir Legal MCP (`kvasir.legal`) provides AI agents with verifiable access to German, Bavarian, and EU law - delivered as canonical legal objects with cryptographic provenance and pinpoint citations. Legal professionals and compliance teams can query regulations, search case law, and ground AI outputs in authoritative sources rather than hallucinated legal references.
 
 ## Tools Available
 
@@ -46,4 +46,4 @@ npx mcp-remote https://kvasir.legal/mcp
 ## See Also
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
-- [VRules MCP — AI Governance](/hermes/mcp/servers/external/vrules/)
+- [VRules MCP - AI Governance](/hermes/mcp/servers/external/vrules/)

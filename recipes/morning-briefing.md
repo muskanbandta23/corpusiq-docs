@@ -41,7 +41,7 @@ Your AI returns something like:
 - GA4 sessions: 2,847 (up 12% from yesterday)
 - Stripe net revenue: $14,230 (up 8%)
 - Klaviyo campaign sends: 18,400 (normal)
-- Meta Ads spend: $342 (down 15% — flag)
+- Meta Ads spend: $342 (down 15% - flag)
 - Shopify orders: 47 (up 4%)
 
 The Meta Ads drop gets flagged. You investigate. Turns out a campaign exhausted its budget overnight. You catch it at 8 AM instead of discovering it at the weekly review. You fix it in 30 seconds.

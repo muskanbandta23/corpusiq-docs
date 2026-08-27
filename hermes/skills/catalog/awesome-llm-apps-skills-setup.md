@@ -1,13 +1,13 @@
 ---
-title: "Awesome LLM Apps Skills — Role-Based Agent Skills"
-description: "shubhamsaboo/awesome-llm-apps — 26 skills, 79.7K total installs from the famous awesome-llm-apps repo. fullstack-developer (8.0K), academic-researcher (6.8K), content-creator (4.7K), code-reviewer, technical-writer, project-planner, data-analyst, deep-research, fact-checker, strategy-advisor, email-drafter."
+title: "Awesome LLM Apps Skills - Role-Based Agent Skills"
+description: "shubhamsaboo/awesome-llm-apps - 26 skills, 79.7K total installs from the famous awesome-llm-apps repo. fullstack-developer (8.0K), academic-researcher (6.8K), content-creator (4.7K), code-reviewer, technical-writer, project-planner, data-analyst, deep-research, fact-checker, strategy-advisor, email-drafter."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-14"
 tags: ["hermes skill", "agent skill", "skill setup", "role skills", "research", "content creation"]
 ---
 
-# Awesome LLM Apps Skills — Setup Guide
+# Awesome LLM Apps Skills - Setup Guide
 
 **Source:** [shubhamsaboo/awesome-llm-apps](https://skills.sh/shubhamsaboo/awesome-llm-apps)
 **GitHub:** [shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -48,7 +48,7 @@ npx skills add shubhamsaboo/awesome-llm-apps
 | deep-research / fact-checker | 3.7K / 3.3K | Research depth and verification |
 | strategy-advisor / decision-helper | 3.1K / 3.0K | Business strategy framing |
 | email-drafter / meeting-notes | ~2.8K | Communication outputs |
-| scope-creep-detector / commit-archaeologist / dependency-doctor | 69–237 | Niche agent utilities |
+| scope-creep-detector / commit-archaeologist / dependency-doctor | 69-237 | Niche agent utilities |
 
 ## Quick Start
 
@@ -69,7 +69,7 @@ npx skills add shubhamsaboo/awesome-llm-apps
 
 ## Limitations / Verification
 
-- Role skills are prompts/methodologies, not tools — they shape the agent's workflow, not its capabilities
+- Role skills are prompts/methodologies, not tools - they shape the agent's workflow, not its capabilities
 - Community-maintained; treat strategy and research outputs as draft-grade until verified against primary sources
 
 ```bash
@@ -79,8 +79,8 @@ npx skills list | grep -c awesome
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup/) — research execution workflows
-- [CorpusIQ Research Intelligence](/hermes/skills/catalog/) — research framework skills
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup/) - research execution workflows
+- [CorpusIQ Research Intelligence](/hermes/skills/catalog/) - research framework skills
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

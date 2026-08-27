@@ -1,6 +1,6 @@
 ---
 title: "SYNTHORA MCP - Verified Multi-Source Intelligence Mesh"
-description: "SYNTHORA Intelligence Mesh MCP server exposes 30 verified multi-source intelligence tools — sanctions screening, crypto market data, prediction markets, macro and maritime intel — with pay-per-call x402 USDC settlement on Base"
+description: "SYNTHORA Intelligence Mesh MCP server exposes 30 verified multi-source intelligence tools - sanctions screening, crypto market data, prediction markets, macro and maritime intel - with pay-per-call x402 USDC settlement on Base"
 category: Intelligence & Compliance
 stars: n/a (hosted service)
 added: 2026-08-19
@@ -11,7 +11,7 @@ tags: [intelligence, compliance, sanctions-screening, prediction-markets, macro-
 
 # SYNTHORA MCP
 
-**An intelligence agency for AI agents: 30 tools exposing verified multi-source data, paid per call in USDC on Base.** SYNTHORA crosses independent sources for every answer and each response declares its sources and is Ed25519-signed — crypto market data, OFAC/sanctions screening, smart-contract safety, prediction markets across Polymarket and Kalshi, maritime chokepoint intel, WHO health data, macro/FX, and weather.
+**An intelligence agency for AI agents: 30 tools exposing verified multi-source data, paid per call in USDC on Base.** SYNTHORA crosses independent sources for every answer and each response declares its sources and is Ed25519-signed - crypto market data, OFAC/sanctions screening, smart-contract safety, prediction markets across Polymarket and Kalshi, maritime chokepoint intel, WHO health data, macro/FX, and weather.
 
 ```
 Server type: Remote (Streamable HTTP, JSON-RPC 2.0)
@@ -59,7 +59,7 @@ The MCP surface exposes 30 tools drawn from a live catalog of 223 services (67 v
 
 ## Configuration
 
-No API key is required to browse tools and list the catalog. Paid calls require an x402-aware wallet with USDC on Base mainnet (eip155:8453); settlement runs through the Coinbase CDP facilitator. Per-call prices are quoted live in each HTTP 402 response (example: AgentGuard pre-trade risk verdicts at 0.02 USDC). All services are scoring and analysis only — they return verdicts and never execute trades.
+No API key is required to browse tools and list the catalog. Paid calls require an x402-aware wallet with USDC on Base mainnet (eip155:8453); settlement runs through the Coinbase CDP facilitator. Per-call prices are quoted live in each HTTP 402 response (example: AgentGuard pre-trade risk verdicts at 0.02 USDC). All services are scoring and analysis only - they return verdicts and never execute trades.
 
 ## Business Relevance
 
@@ -70,7 +70,7 @@ No API key is required to browse tools and list the catalog. Paid calls require 
 
 ## Integration with CorpusIQ
 
-SYNTHORA is the external-intelligence and compliance layer; CorpusIQ is the internal business-data layer. A finance operator can screen a counterparty through SYNTHORA's sanctions and wallet-reputation tools, then pull the relationship's actual financial history through CorpusIQ's accounting and CRM connectors — external risk verdict plus internal books in one session. Both platforms share the agent-first payment philosophy: CorpusIQ's connector model and SYNTHORA's x402 per-call pricing both avoid forcing annual seat licenses for machine access.
+SYNTHORA is the external-intelligence and compliance layer; CorpusIQ is the internal business-data layer. A finance operator can screen a counterparty through SYNTHORA's sanctions and wallet-reputation tools, then pull the relationship's actual financial history through CorpusIQ's accounting and CRM connectors - external risk verdict plus internal books in one session. Both platforms share the agent-first payment philosophy: CorpusIQ's connector model and SYNTHORA's x402 per-call pricing both avoid forcing annual seat licenses for machine access.
 
 ## Limitations
 
@@ -81,7 +81,7 @@ SYNTHORA is the external-intelligence and compliance layer; CorpusIQ is the inte
 
 ## See Also
 
-- [Profitelligence MCP — Financial Intelligence from SEC Data](/hermes/mcp/servers/external/profitelligence-mcp/)
-- [Live Listing Proof MCP — Fail-Closed Listing Verification](/hermes/mcp/servers/external/live-listing-proof-mcp/)
+- [Profitelligence MCP - Financial Intelligence from SEC Data](/hermes/mcp/servers/external/profitelligence-mcp/)
+- [Live Listing Proof MCP - Fail-Closed Listing Verification](/hermes/mcp/servers/external/live-listing-proof-mcp/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

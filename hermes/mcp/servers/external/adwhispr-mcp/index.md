@@ -1,6 +1,6 @@
 ---
 title: "AdWhispr MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Complete ad workflow MCP — research any brand's live Facebook/TikTok ads, clone the proven winners, and launch real campaigns on Google, TikTok, and Meta — all from AI chat
+description: Complete ad workflow MCP - research any brand's live Facebook/TikTok ads, clone the proven winners, and launch real campaigns on Google, TikTok, and Meta - all from AI chat
 category: Marketing / Advertising
 stars: featured
 added: 2026-08-11
@@ -15,7 +15,7 @@ last_updated: "2026-08-12"
 
 # AdWhispr MCP
 
-**Remote MCP server (Streamable HTTP, OAuth) for the full advertising loop.** Turn Claude, ChatGPT, or Cursor into a complete ad workflow: research any brand's live Facebook and TikTok ads (ranked by days running), clone the proven winners for your own brand, and launch real campaigns on Google, TikTok, and Meta — all through natural language.
+**Remote MCP server (Streamable HTTP, OAuth) for the full advertising loop.** Turn Claude, ChatGPT, or Cursor into a complete ad workflow: research any brand's live Facebook and TikTok ads (ranked by days running), clone the proven winners for your own brand, and launch real campaigns on Google, TikTok, and Meta - all through natural language.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -29,9 +29,9 @@ Category: Marketing / Advertising
 
 The ad creative supply chain is broken for small operators. Top brands run 2,000-4,000 concurrent ads with dedicated creative teams. Small operators ship 10-15 ads/month and guess at what works. AdWhispr MCP solves this with three capabilities no other MCP combines:
 
-1. **Competitor ad intelligence** — See what ads your competitors are actually running (ranked by days running — the honest proxy for ad performance), with AI classification of hooks, formats, tones, and offers
-2. **Creative cloning** — Take a winning competitor ad, customize it to your brand (image or video), and get a ready-to-launch creative
-3. **Multi-platform launch** — Push campaigns to Google Search, Performance Max, TikTok, and Meta with a preview step before anything spends
+1. **Competitor ad intelligence** - See what ads your competitors are actually running (ranked by days running - the honest proxy for ad performance), with AI classification of hooks, formats, tones, and offers
+2. **Creative cloning** - Take a winning competitor ad, customize it to your brand (image or video), and get a ready-to-launch creative
+3. **Multi-platform launch** - Push campaigns to Google Search, Performance Max, TikTok, and Meta with a preview step before anything spends
 
 This is the first MCP that closes the full loop: research → creative → launch. Combined with our existing AdMake AI guide (creative generation + Meta publishing), operators can now build an AI-driven ad studio.
 
@@ -80,9 +80,9 @@ First connection opens a browser for OAuth sign-in (free account, no card requir
 
 ## Verdict
 
-★★★ **Catalogue immediately.** AdWhispr is the most complete ad workflow MCP observed to date — it covers the full creative lifecycle (research → clone → launch) across three ad platforms. The "days running" ranking as a proxy for ad performance is a genuinely useful heuristic that raw ad libraries don't provide. Combined with AdMake AI MCP (for net-new creative generation), operators now have a two-tool ad studio: AdWhispr for competitive cloning + AdMake AI for original creative. Pro tier at $39/mo is accessible for serious operators.
+★★★ **Catalogue immediately.** AdWhispr is the most complete ad workflow MCP observed to date - it covers the full creative lifecycle (research → clone → launch) across three ad platforms. The "days running" ranking as a proxy for ad performance is a genuinely useful heuristic that raw ad libraries don't provide. Combined with AdMake AI MCP (for net-new creative generation), operators now have a two-tool ad studio: AdWhispr for competitive cloning + AdMake AI for original creative. Pro tier at $39/mo is accessible for serious operators.
 
-**CorpusIQ angle:** This directly serves the operator use case of "I don't have a creative team — help me compete." Operators who use CorpusIQ for business analytics can now also run ad campaigns through the same AI interface.
+**CorpusIQ angle:** This directly serves the operator use case of "I don't have a creative team - help me compete." Operators who use CorpusIQ for business analytics can now also run ad campaigns through the same AI interface.
 
 ## Additional Resources
 

@@ -1,5 +1,5 @@
 ---
-title: NVIDIA DGX Spark — Primary Compute Pattern
+title: NVIDIA DGX Spark - Primary Compute Pattern
 description: "Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/dgx/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# NVIDIA DGX Spark — Primary Compute Pattern
+# NVIDIA DGX Spark - Primary Compute Pattern
 
 The DGX Spark is a compact GPU workstation well suited as the primary inference and orchestration node for an agent platform. It handles model inference, cron scheduling, memory management, and the majority of operational workloads.
 
@@ -32,7 +32,7 @@ NVIDIA GPU with CUDA support. Local inference eliminates API latency and cost fo
 Local Ollama models handle routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks.
 
 ### Cron Scheduling
-All recurring jobs run from the primary node. Each cron references standalone wrapper scripts — never inline shell with complex quoting.
+All recurring jobs run from the primary node. Each cron references standalone wrapper scripts - never inline shell with complex quoting.
 
 ### Memory Management
 Session state and knowledge stores live on local disk. Regular pruning keeps databases lean.

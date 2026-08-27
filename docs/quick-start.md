@@ -1,5 +1,5 @@
 ---
-title: "How to Connect Business Data to ChatGPT — CorpusIQ Quick"
+title: "How to Connect Business Data to ChatGPT - CorpusIQ Quick"
 description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API token"
 category: "Documentation"
 tags: ["corpusiq quick start", "connect data to chatgpt", "setup guide", "mcp setup", "oauth connection", "how to connect business data to ai", "first query", "chatgpt integration"]

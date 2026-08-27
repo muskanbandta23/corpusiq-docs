@@ -1,5 +1,5 @@
 ---
-title: "Hermes Full Backup — Setup Guide"
+title: "Hermes Full Backup - Setup Guide"
 description: "Install and use the Hermes Complete Backup script for disaster recovery. Self-contained Python script, zero dependencies."
 skill_name: hermes-full-backup
 category: DevOps/DR
@@ -14,11 +14,11 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Full Backup — Full Setup Guide
+# Hermes Full Backup - Full Setup Guide
 
 A self-contained Python backup script for Hermes Agent disaster recovery. Creates a `.zip` with everything needed to restore Hermes from scratch on a clean OS.
 
-**Stdlib only** — `zipfile` + `argparse` + `pathlib`. Works on any Python 3 installation.
+**Stdlib only** - `zipfile` + `argparse` + `pathlib`. Works on any Python 3 installation.
 
 ---
 
@@ -40,7 +40,7 @@ A self-contained Python backup script for Hermes Agent disaster recovery. Create
 
 ### Quick backup (`--quick`)
 
-Config + skills only — no source code, binaries, or installer. Useful for frequent lightweight snapshots.
+Config + skills only - no source code, binaries, or installer. Useful for frequent lightweight snapshots.
 
 ---
 
@@ -51,7 +51,7 @@ git clone https://github.com/edouardleroy/hermes-full-backup.git
 cd hermes-full-backup
 ```
 
-The script is self-contained — no `pip install` needed. Just run it:
+The script is self-contained - no `pip install` needed. Just run it:
 
 ```bash
 python hermes-complete-backup.py --help
@@ -147,9 +147,9 @@ cp -r /tmp/hermes-restore/skills/* ~/.hermes/skills/
 
 The backup ZIP contains sensitive files:
 
-- `.env` — API keys and tokens
-- `auth.json` — OAuth tokens and credentials
-- `state.db` — Session history with potentially sensitive tool output
+- `.env` - API keys and tokens
+- `auth.json` - OAuth tokens and credentials
+- `state.db` - Session history with potentially sensitive tool output
 
 **Treat backup ZIPs like secrets.** Store them encrypted, restrict access, and never commit them to version control.
 
@@ -169,7 +169,7 @@ Guárdalo en un lugar seguro. No lo compartas ni lo subas a repositorios públic
 
 | Decision | Reason |
 |----------|--------|
-| Single file, stdlib only | Runs on any Python 3 — no venv, no pip, no deps |
+| Single file, stdlib only | Runs on any Python 3 - no venv, no pip, no deps |
 | `$HERMES_HOME` as source of truth | Works on Windows, Linux, macOS without path changes |
 | `--json-config` for overrides | Customize without editing the script |
 | Credential warning in LEEME.txt | User must know the ZIP contains secrets |
@@ -221,7 +221,7 @@ chmod 600 ~/.hermes/.env ~/.hermes/auth.json
 
 ### Large backup files
 
-Full backups include source code and binaries — they can be 100MB+. Use `--quick` for daily backups and reserve full backups for weekly/monthly.
+Full backups include source code and binaries - they can be 100MB+. Use `--quick` for daily backups and reserve full backups for weekly/monthly.
 
 ### Windows paths
 
@@ -237,8 +237,8 @@ python hermes-complete-backup.py -o C:\\Users\\you\\backups\\hermes.zip
 
 ## Related Tools
 
-- [Hermes Agent Install Guide](https://hermes-agent.nousresearch.com/docs) — Official install docs
-- [Hermes Backup Script (alternative)](https://github.com/edouardleroy/hermes-full-backup) — This script's repo with tests and docs
+- [Hermes Agent Install Guide](https://hermes-agent.nousresearch.com/docs) - Official install docs
+- [Hermes Backup Script (alternative)](https://github.com/edouardleroy/hermes-full-backup) - This script's repo with tests and docs
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Safari Web Agent — macOS Browser Automation Setup"
+title: "Safari Web Agent - macOS Browser Automation Setup"
 description: Install and configure safari-web-agent for real Safari browser automation using native macOS CGEvent. Anti-bot bypass, login session persistence, works where Playwright fails. Hermes + Claude Code.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/safari-web-agent-setup/"
 robots: "index,follow"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Safari Web Agent — Setup Guide
+# Safari Web Agent - Setup Guide
 
 **Source:** [treyxu23/safari-web-agent](https://github.com/treyxu23/safari-web-agent) · 1★
 **Category:** Agent Infrastructure / Browser Automation
 **Platform:** macOS only
 **License:** MIT · **Published:** June 28, 2026
 
-Safari Web Agent solves the browser automation anti-bot problem by using your **real Safari browser** — not a headless Chromium instance. Native macOS CGEvent (Core Graphics) sends actual clicks and keystrokes, so websites see a real user with your login sessions, cookies, and fingerprint. Works on sites where Playwright, Puppeteer, and Selenium get detected and blocked.
+Safari Web Agent solves the browser automation anti-bot problem by using your **real Safari browser** - not a headless Chromium instance. Native macOS CGEvent (Core Graphics) sends actual clicks and keystrokes, so websites see a real user with your login sessions, cookies, and fingerprint. Works on sites where Playwright, Puppeteer, and Selenium get detected and blocked.
 
 ---
 
@@ -23,7 +23,7 @@ Safari Web Agent solves the browser automation anti-bot problem by using your **
 
 | Problem with Playwright | Safari Web Agent Solution |
 |------------------------|--------------------------|
-| Detected as bot | Real Safari — indistinguishable from human |
+| Detected as bot | Real Safari - indistinguishable from human |
 | No existing login sessions | Uses your logged-in Safari with all cookies |
 | CAPTCHA triggers | Native CGEvent bypasses automated input detection |
 | Cloudflare/WAF blocks | Real browser fingerprint passes all checks |
@@ -103,7 +103,7 @@ SKILL_DIR/scripts/execute-js.sh --code "document.title"
 |---|---|
 | Competitor research | Browse competitor sites without bot detection |
 | SaaS dashboard monitoring | Check real dashboards with your login sessions |
-| Social media management | Post, check analytics, engage — as real user |
+| Social media management | Post, check analytics, engage - as real user |
 | E-commerce operations | Monitor store dashboards, extract order data |
 | Ad account checks | Verify live ad campaigns without API access |
 
@@ -111,11 +111,11 @@ SKILL_DIR/scripts/execute-js.sh --code "document.title"
 
 ## Limitations
 
-- **macOS only** — No Linux/Windows support
-- **Single session** — One Safari window at a time
-- **Visible browser** — Safari must be open (not headless)
-- **Permission prompts** — First run requires user to grant Accessibility access
-- **Speed** — Slower than headless browsers (real UI events have natural delays)
+- **macOS only** - No Linux/Windows support
+- **Single session** - One Safari window at a time
+- **Visible browser** - Safari must be open (not headless)
+- **Permission prompts** - First run requires user to grant Accessibility access
+- **Speed** - Slower than headless browsers (real UI events have natural delays)
 
 ---
 

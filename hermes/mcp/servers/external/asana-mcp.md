@@ -1,5 +1,5 @@
 ---
-title: "Asana MCP V2 — Project Management for AI Agents"
+title: "Asana MCP V2 - Project Management for AI Agents"
 description: "Official Asana MCP V2 server connecting AI agents to tasks, projects, and workspaces via OAuth 2.0. Hosted at mcp.asana.com/v2/mcp. Requires pre-registered"
 category: mcp
 tags: [mcp-server, project-management, asana, official, productivity, team-operations]
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Asana MCP Server V2 ★ Official — New July 17
+# Asana MCP Server V2 ★ Official - New July 17
 
-Asana's official MCP V2 server connects AI agents to your Asana workspace — tasks, projects, workspaces, and team coordination — through OAuth 2.0 authentication. The hosted server at `https://mcp.asana.com/v2/mcp` requires pre-registration in the Asana Developer Console.
+Asana's official MCP V2 server connects AI agents to your Asana workspace - tasks, projects, workspaces, and team coordination - through OAuth 2.0 authentication. The hosted server at `https://mcp.asana.com/v2/mcp` requires pre-registration in the Asana Developer Console.
 
-This launch puts Asana alongside Atlassian (Jira/Confluence), Linear, and Notion as major productivity platforms with official MCP servers — making project management accessible to AI agents across the ecosystem.
+This launch puts Asana alongside Atlassian (Jira/Confluence), Linear, and Notion as major productivity platforms with official MCP servers - making project management accessible to AI agents across the ecosystem.
 
 **Source:** mcp.so (discovered July 17, 2026)
 **Category:** Productivity / Project Management / Team Operations
@@ -25,10 +25,10 @@ This launch puts Asana alongside Atlassian (Jira/Confluence), Linear, and Notion
 
 ## What It Does
 
-- **Tasks** — create, read, update, and search tasks across projects
-- **Projects** — list projects, view project details, manage project structure
-- **Workspaces** — access workspace-level information and organization
-- **Rich interaction** — comments, assignments, due dates, custom fields, and attachments
+- **Tasks** - create, read, update, and search tasks across projects
+- **Projects** - list projects, view project details, manage project structure
+- **Workspaces** - access workspace-level information and organization
+- **Rich interaction** - comments, assignments, due dates, custom fields, and attachments
 
 ## Setup
 
@@ -45,7 +45,7 @@ This launch puts Asana alongside Atlassian (Jira/Confluence), Linear, and Notion
 
 ### Claude Code (Native OAuth Support)
 
-Claude Code has native support for pre-configured OAuth — no third-party tools needed:
+Claude Code has native support for pre-configured OAuth - no third-party tools needed:
 
 ```bash
 claude mcp add --transport http \
@@ -89,11 +89,11 @@ Claude (or your MCP client) should fetch your Asana tasks using the MCP tools.
 
 ## Business Relevance
 
-1. **Project management without context switching:** Operators can manage Asana tasks, check project status, and update assignments directly from their AI workspace — no tab switching.
+1. **Project management without context switching:** Operators can manage Asana tasks, check project status, and update assignments directly from their AI workspace - no tab switching.
 
 2. **Team coordination at scale:** AI agents can surface overdue tasks, identify blocked work, and generate status reports across multiple projects simultaneously.
 
-3. **Workflow automation:** Combine Asana MCP with other MCP servers (GitHub, Slack, Google Calendar) to create cross-platform workflows — e.g., "create an Asana task for every GitHub issue labeled 'bug'."
+3. **Workflow automation:** Combine Asana MCP with other MCP servers (GitHub, Slack, Google Calendar) to create cross-platform workflows - e.g., "create an Asana task for every GitHub issue labeled 'bug'."
 
 4. **Enterprise PM suite:** Asana joins Atlassian (Jira/Confluence), Linear, and Notion in the MCP ecosystem. Teams can now choose their PM tool without losing AI agent integration.
 
@@ -108,7 +108,7 @@ Claude (or your MCP client) should fetch your Asana tasks using the MCP tools.
 
 ## Security Best Practices
 
-- Use unique credentials per developer — don't share client IDs/secrets
+- Use unique credentials per developer - don't share client IDs/secrets
 - Rotate credentials regularly
 - Never commit credentials to version control
 - For production, use a secrets manager (HashiCorp Vault, AWS Secrets Manager, 1Password CLI)
@@ -122,6 +122,6 @@ Claude (or your MCP client) should fetch your Asana tasks using the MCP tools.
 
 ## See Also
 
-- [Mercury MCP](/hermes/mcp/servers/external/mercury-mcp/) — banking MCP
-- [Atlassian MCP](/hermes/mcp/servers/external/) — Jira/Confluence MCP
+- [Mercury MCP](/hermes/mcp/servers/external/mercury-mcp/) - banking MCP
+- [Atlassian MCP](/hermes/mcp/servers/external/) - Jira/Confluence MCP
 - [External MCP Catalog](/hermes/mcp/servers/external/)

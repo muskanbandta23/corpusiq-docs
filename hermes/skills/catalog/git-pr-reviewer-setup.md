@@ -1,5 +1,5 @@
 ---
-title: Git PR Reviewer — Automated PR review checklist for Hermes Agents
+title: Git PR Reviewer - Automated PR review checklist for Hermes Agents
 description: Review pull requests for code quality, security issues, and best practices. 239+ installs on skills.sh from onewave-ai/claude-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/git-pr-reviewer-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Git PR Reviewer — Setup Guide
+# Git PR Reviewer - Setup Guide
 
 **Source:** [onewave-ai/claude-skills](https://skills.sh/onewave-ai/claude-skills/git-pr-reviewer) (239+ installs)
 **Category:** Engineering / Code Review

@@ -1,6 +1,6 @@
 ---
-title: Databricks Agent Skills — Data & AI Platform Skills for Hermes Agents
-description: Databricks' official agent skills collection — apps, pipelines, lakehouse, model serving, and vector search. 798+ combined installs across 6 skills for building on the Databricks Data Intelligence Platform.
+title: Databricks Agent Skills - Data & AI Platform Skills for Hermes Agents
+description: Databricks' official agent skills collection - apps, pipelines, lakehouse, model serving, and vector search. 798+ combined installs across 6 skills for building on the Databricks Data Intelligence Platform.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/databricks-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Databricks Agent Skills — Setup Guide
+# Databricks Agent Skills - Setup Guide
 
 **Source:** [databricks/databricks-agent-skills](https://skills.sh/databricks/databricks-agent-skills) (798+ combined installs)
 **GitHub:** [databricks/databricks-agent-skills](https://github.com/databricks/databricks-agent-skills) (225 ⭐)
@@ -41,9 +41,9 @@ npx skills add databricks/databricks-agent-skills --skill databricks-execution-c
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **databricks-apps** | 798 | Databricks Apps — build and deploy data applications with native authentication |
-| **databricks-pipelines** | 681 | Delta Live Tables — declarative ETL pipelines with quality enforcement |
-| **databricks-lakebase** | 612 | Unity Catalog lakehouse — governed data and AI asset management |
+| **databricks-apps** | 798 | Databricks Apps - build and deploy data applications with native authentication |
+| **databricks-pipelines** | 681 | Delta Live Tables - declarative ETL pipelines with quality enforcement |
+| **databricks-lakebase** | 612 | Unity Catalog lakehouse - governed data and AI asset management |
 | **databricks-model-serving** | 501 | Model serving endpoints for real-time and batch inference |
 | **databricks-vector-search** | 180 | Vector search indexes for RAG and semantic search applications |
 | **databricks-execution-compute** | 83 | Compute configuration for jobs, clusters, and SQL warehouses |

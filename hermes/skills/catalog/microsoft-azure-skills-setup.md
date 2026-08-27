@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Azure AI Foundry Skills — Enterprise Agent"
+title: "Microsoft Azure AI Foundry Skills - Enterprise Agent"
 description: Microsoft's official Azure AI Foundry agent skills with 478K+ combined installs. Deploy, manage, and optimize AI agents on Azure with enterprise-grade infrastructure, CI/CD, observability, and fine-tuning.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-azure-skills-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Microsoft Azure AI Foundry Skills — Setup Guide
+# Microsoft Azure AI Foundry Skills - Setup Guide
 
 **Source:** [microsoft/azure-skills](https://skills.sh/microsoft/azure-skills) (478K+ combined installs)
 **Category:** Agent Infrastructure / Cloud
@@ -32,7 +32,7 @@ npx skills add microsoft/azure-skills --skill azure-deploy
 
 | Skill | Installs | Purpose |
 |---|---|---|
-| **microsoft-foundry** | 478.2K | Full Azure AI Foundry agent platform — create, deploy, invoke, observe, CI/CD, routines, fine-tuning |
+| **microsoft-foundry** | 478.2K | Full Azure AI Foundry agent platform - create, deploy, invoke, observe, CI/CD, routines, fine-tuning |
 | **azure-ai** | 474.4K | Azure AI Services resource and project management |
 | **azure-deploy** | 474.1K | Agent deployment, versioning, and multi-environment management |
 
@@ -103,7 +103,7 @@ azd version      # Verify azd CLI
 
 ## Notes
 
-- Official Microsoft-maintained skills with 478K+ combined installs — the standard for Azure AI agent infrastructure
+- Official Microsoft-maintained skills with 478K+ combined installs - the standard for Azure AI agent infrastructure
 - Requires active Azure subscription and cloud resources (not local-only)
 - Best for production-grade agent deployments with enterprise requirements (VNet, CI/CD, observability)
 - Complements local agent development (Hermes, Claude Code) with cloud deployment capabilities

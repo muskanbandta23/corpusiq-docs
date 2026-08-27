@@ -1,6 +1,6 @@
 ---
-title: Herman's Skill Playbook — Setup Guide
-description: Execution skills by Herman (Hermes Agent) — GitHub installs, plugin management, DuckDB ops, API config, data analysis, memory management, GDrive uploads. 8 skills in 1 playbook.
+title: Herman's Skill Playbook - Setup Guide
+description: Execution skills by Herman (Hermes Agent) - GitHub installs, plugin management, DuckDB ops, API config, data analysis, memory management, GDrive uploads. 8 skills in 1 playbook.
 skill_name: herman-skill-playbook
 author: darraappen2 (Herman)
 stars: 0
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Herman's Skill Playbook — Setup Guide
+# Herman's Skill Playbook - Setup Guide
 
 **Author:** [darraappen2](https://github.com/darraappen2)
 **Repo:** [darraappen2/herman-skill-playbook](https://github.com/darraappen2/herman-skill-playbook)
@@ -21,7 +21,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 A single comprehensive playbook by Herman (a Hermes Agent) containing 8 execution-focused skills: GitHub installs, plugin management, service management, DuckDB operations, API configuration, data analysis, memory management, and Google Drive uploads.
 
-> *"Eksekusi dulu, diskusi belakangan"* — Execute first, discuss later.
+> *"Eksekusi dulu, diskusi belakangan"* - Execute first, discuss later.
 
 ---
 
@@ -29,7 +29,7 @@ A single comprehensive playbook by Herman (a Hermes Agent) containing 8 executio
 
 | # | Skill | Description |
 |---|-------|-------------|
-| 1 | **GitHub Install** | Install skill/plugin from GitHub — inspect, clone, copy |
+| 1 | **GitHub Install** | Install skill/plugin from GitHub - inspect, clone, copy |
 | 2 | **Plugin Install** | Install platform adapters into Hermes plugins directory |
 | 3 | **Service Management** | Start/poll/kill background processes with health checks |
 | 4 | **Database Ops** | DuckDB query, backup, CSV import |
@@ -44,11 +44,11 @@ A single comprehensive playbook by Herman (a Hermes Agent) containing 8 executio
 
 The playbook enforces five execution principles:
 
-1. **🔥 Load skill first, then execute** — ALWAYS use `skill_view(name='...')` BEFORE running a task. Skills contain the correct workflow.
-2. **Execute first, discuss later** — Run commands, see results, then correct if needed.
-3. **Inspect before install** — Check repo/file structure before executing.
-4. **Backup before changing** — Always backup config/DB before modification.
-5. **Verify after execution** — Confirm results are accurate before reporting.
+1. **🔥 Load skill first, then execute** - ALWAYS use `skill_view(name='...')` BEFORE running a task. Skills contain the correct workflow.
+2. **Execute first, discuss later** - Run commands, see results, then correct if needed.
+3. **Inspect before install** - Check repo/file structure before executing.
+4. **Backup before changing** - Always backup config/DB before modification.
+5. **Verify after execution** - Confirm results are accurate before reporting.
 
 ### When to Use Skill vs Execute Code
 
@@ -165,7 +165,7 @@ hermes config set model.default '<provider>/<model-id>'
 
 ### 6. Data Analysis
 
-Multi-dimensional analysis using DuckDB — division, month, department, outlet.
+Multi-dimensional analysis using DuckDB - division, month, department, outlet.
 
 ```bash
 # Example: Sales analysis by division and month
@@ -200,7 +200,7 @@ rclone-based Google Drive sync.
 # Copy to GDrive
 rclone copy /path/to/file gdrive:folder/ --progress
 
-# Sync (mirrors — deletes remote files not in source)
+# Sync (mirrors - deletes remote files not in source)
 rclone sync /path/to/dir gdrive:folder/ --progress
 
 # Fast listing for large directories
@@ -237,11 +237,11 @@ rclone copy "$BACKUP_DIR" gdrive:hermes-backups/$(date +%Y%m%d)/
 
 Herman's playbook fills a critical gap: **operational execution patterns for Hermes agents in production**. Unlike most skills that focus on what an agent should do conceptually, this playbook provides the exact commands, patterns, and gotchas for common operational tasks:
 
-- **Load-before-execute discipline** — Enforces the skill-first pattern that prevents agents from hallucinating workflows
-- **Backup-before-mutate** — Every DB config change is backed up first
-- **Health-check verification** — Services are verified with real curl/port checks, not assumptions
-- **Rclone for GDrive** — Uses the battle-tested rclone instead of fragile API wrappers
-- **Practical DuckDB** — Real queries for multi-dimensional analysis, not toy examples
+- **Load-before-execute discipline** - Enforces the skill-first pattern that prevents agents from hallucinating workflows
+- **Backup-before-mutate** - Every DB config change is backed up first
+- **Health-check verification** - Services are verified with real curl/port checks, not assumptions
+- **Rclone for GDrive** - Uses the battle-tested rclone instead of fragile API wrappers
+- **Practical DuckDB** - Real queries for multi-dimensional analysis, not toy examples
 
 ---
 

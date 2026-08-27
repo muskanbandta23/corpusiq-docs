@@ -1,6 +1,6 @@
 ---
 title: "Multi-Source Prompts - CorpusIQ Docs"
-description: CorpusIQ prompts that span multiple data sources — board updates, investor reports, cross-department analysis
+description: CorpusIQ prompts that span multiple data sources - board updates, investor reports, cross-department analysis
 ---
 
 # Multi-Source Prompts
@@ -33,11 +33,11 @@ Ask these in Claude or ChatGPT with CorpusIQ connected. The real power is asking
 
 ## Anomaly Detection
 
-> Flag anything unusual across all connected tools. Revenue spikes or drops, unusual ad spend, sudden churn, support ticket surges — anything that looks off.
+> Flag anything unusual across all connected tools. Revenue spikes or drops, unusual ad spend, sudden churn, support ticket surges - anything that looks off.
 
 ## Custom
 
-Combine any of these questions. CorpusIQ handles multi-source queries natively — just ask.
+Combine any of these questions. CorpusIQ handles multi-source queries natively - just ask.
 
 ---
 

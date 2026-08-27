@@ -1,6 +1,6 @@
 ---
-title: CLI-Anything Hermes — Full Setup Guide for Hermes Agents
-description: Install, configure, and use the cli-anything-hermes skill from hkuds/cli-anything. Orchestrate CLI-Anything harnesses for GUI applications through Hermes Agent — 43K⭐ ecosystem, 70+ application harnesses.
+title: CLI-Anything Hermes - Full Setup Guide for Hermes Agents
+description: Install, configure, and use the cli-anything-hermes skill from hkuds/cli-anything. Orchestrate CLI-Anything harnesses for GUI applications through Hermes Agent - 43K⭐ ecosystem, 70+ application harnesses.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-hermes-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# CLI-Anything Hermes — Setup Guide
+# CLI-Anything Hermes - Setup Guide
 
 **Source:** [hkuds/cli-anything](https://skills.sh/hkuds/cli-anything) (68 installs) | [GitHub](https://github.com/HKUDS/CLI-Anything) (43,822⭐)
 **Category:** automation, devtools
 
-Bridges Hermes Agent with the CLI-Anything ecosystem — a framework that makes ANY software agent-native by auto-generating CLI harnesses for GUI applications. This skill lets Hermes agents build, refine, test, and validate CLI-Anything harnesses for 70+ applications including Blender, GIMP, Godot, LibreOffice, Obsidian, QGIS, and more.
+Bridges Hermes Agent with the CLI-Anything ecosystem - a framework that makes ANY software agent-native by auto-generating CLI harnesses for GUI applications. This skill lets Hermes agents build, refine, test, and validate CLI-Anything harnesses for 70+ applications including Blender, GIMP, Godot, LibreOffice, Obsidian, QGIS, and more.
 
 ---
 
@@ -37,7 +37,7 @@ pip install cli-anything-hub
 |---|---|
 | **Python 3.10+** | Required by CLI-Anything core |
 | **Hermes Agent** | Any recent version with skill support |
-| **CLI-Anything Hub** | `pip install cli-anything-hub` — browse/install harnesses |
+| **CLI-Anything Hub** | `pip install cli-anything-hub` - browse/install harnesses |
 | **Target Applications** | The GUI apps you want to automate (Blender, GIMP, etc.) must be installed |
 
 ---
@@ -111,4 +111,4 @@ cli-hub list | head -10
 ---
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june25-2026-update/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

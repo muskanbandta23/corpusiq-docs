@@ -1,6 +1,6 @@
 ---
-title: "Coding Agent Project Management MCP — 71 Tools"
-description: "Project management for coding agents — bugs, features, sprints, cross-tenant contracts. 71 MCP tools for operators managing AI-assisted development"
+title: "Coding Agent Project Management MCP - 71 Tools"
+description: "Project management for coding agents - bugs, features, sprints, cross-tenant contracts. 71 MCP tools for operators managing AI-assisted development"
 category: mcp
 tags: [mcp-server, operations, project-management, development, coding-agents, agile]
 last_updated: 2026-07-14
@@ -11,9 +11,9 @@ robots: "index,follow"
 
 # Coding Agent Project Management MCP Server ★ New (July 14)
 
-Project management built for the AI coding agent era. Manage bugs, features, sprints, and cross-tenant contracts through 71 MCP tools — purpose-built for operators who orchestrate AI-assisted development workflows across multiple agents and projects.
+Project management built for the AI coding agent era. Manage bugs, features, sprints, and cross-tenant contracts through 71 MCP tools - purpose-built for operators who orchestrate AI-assisted development workflows across multiple agents and projects.
 
-**Source:** mcp.so (exact repo TBD — GitHub search API rate-limited)
+**Source:** mcp.so (exact repo TBD - GitHub search API rate-limited)
 **Submitted:** July 14, 2026
 
 ## Key Features
@@ -27,7 +27,7 @@ Project management built for the AI coding agent era. Manage bugs, features, spr
 
 ## Business Relevance
 
-As AI coding agents (Claude Code, Codex, Cursor) become integral to development workflows, traditional project management tools built for humans don't fit. This MCP server bridges that gap — your AI agents can read tasks, update status, and track progress programmatically while humans maintain visibility through the same interface.
+As AI coding agents (Claude Code, Codex, Cursor) become integral to development workflows, traditional project management tools built for humans don't fit. This MCP server bridges that gap - your AI agents can read tasks, update status, and track progress programmatically while humans maintain visibility through the same interface.
 
 Essential for:
 - **Engineering managers** overseeing AI-assisted development teams

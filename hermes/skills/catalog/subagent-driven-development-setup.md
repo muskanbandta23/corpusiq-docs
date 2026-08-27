@@ -1,6 +1,6 @@
 ---
-title: Subagent-Driven Development — Skill Setup Guide
-description: Install and configure subagent-driven-development, the official Hermes Agent skill for dispatching parallel subagents per task with systematic two-stage review — 88 installs.
+title: Subagent-Driven Development - Skill Setup Guide
+description: Install and configure subagent-driven-development, the official Hermes Agent skill for dispatching parallel subagents per task with systematic two-stage review - 88 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Subagent-Driven Development — Setup Guide
+# Subagent-Driven Development - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/subagent-driven-development) (88 installs)
 **Category:** Development / Workflow Automation
@@ -23,7 +23,7 @@ Execute implementation plans by dispatching fresh subagents per task with system
 
 | Capability | How |
 |-----------|-----|
-| **Task dispatch** | Spawns fresh subagents per task — clean context, no pollution |
+| **Task dispatch** | Spawns fresh subagents per task - clean context, no pollution |
 | **Two-stage review** | Spec compliance check then code quality review |
 | **Parallel execution** | Independent tasks run concurrently via delegation |
 | **Implementation plans** | Consumes output from the `plan` skill or user requirements |
@@ -45,7 +45,7 @@ Execute implementation plans by dispatching fresh subagents per task with system
 └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
-The core principle is fresh subagent per task. Each subagent sees only its own task context — no cross-contamination from prior work. Reviews are automated between tasks so nothing slips through.
+The core principle is fresh subagent per task. Each subagent sees only its own task context - no cross-contamination from prior work. Reviews are automated between tasks so nothing slips through.
 
 ---
 
@@ -68,9 +68,9 @@ cp -r /tmp/hermes-agent/skills/development/subagent-driven-development ~/.hermes
 
 ## Prerequisites
 
-1. **Hermes Agent v0.20.0+** — delegation subsystem required
-2. **`delegate_task` tool** — must be enabled in your Hermes config
-3. **Implementation plan** — from `plan` skill or documented requirements
+1. **Hermes Agent v0.20.0+** - delegation subsystem required
+2. **`delegate_task` tool** - must be enabled in your Hermes config
+3. **Implementation plan** - from `plan` skill or documented requirements
 
 ---
 
@@ -104,7 +104,7 @@ No additional configuration required. The skill uses Hermes' built-in delegation
 
 - **Subagent model:** Set `delegation.model` in config.yaml to match your task complexity (Sonnet for routine, Opus for critical)
 - **Max concurrent:** Set `delegation.max_concurrent_children` for independent task parallelism
-- **Review strictness:** The two-stage review is opinionated — spec compliance then code quality. Adjust by editing the skill's review prompts if needed.
+- **Review strictness:** The two-stage review is opinionated - spec compliance then code quality. Adjust by editing the skill's review prompts if needed.
 
 ---
 

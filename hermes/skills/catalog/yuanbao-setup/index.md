@@ -1,5 +1,5 @@
 ---
-title: Yuanbao (元宝) — Tencent Group Chat Integration for Hermes Agents
+title: Yuanbao (元宝) - Tencent Group Chat Integration for Hermes Agents
 description: Official Nous Research skill for Tencent Yuanbao group chat integration. @mention users, query group info and members, send direct messages. 550+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/yuanbao-setup/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Yuanbao (元宝) — Setup Guide
+# Yuanbao (元宝) - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (Official)
 **Skill:** `yuanbao` · **Installs:** 550+ · **Category:** Messaging / Chat Integration
 **Platform:** Linux, macOS, Windows
 
-Integrate Hermes Agent with Tencent Yuanbao (元宝) group chats. @mention users, query group information and member lists, and send direct messages — all from agent conversations. The gateway automatically converts `@nickname` references in replies into real @mentions.
+Integrate Hermes Agent with Tencent Yuanbao (元宝) group chats. @mention users, query group information and member lists, and send direct messages - all from agent conversations. The gateway automatically converts `@nickname` references in replies into real @mentions.
 
 ---
 
@@ -39,9 +39,9 @@ npx skills add nousresearch/hermes-agent --skill yuanbao -g -y
 
 ## How Messaging Works
 
-**Your text reply IS the message sent to the group/user.** The gateway automatically delivers your response text to the chat. You do NOT need any special "send message" tool — just reply naturally.
+**Your text reply IS the message sent to the group/user.** The gateway automatically delivers your response text to the chat. You do NOT need any special "send message" tool - just reply naturally.
 
-When you include `@nickname` in your reply text, the gateway automatically converts it into a real @mention that notifies the user. This is built-in — you have full @mention capability.
+When you include `@nickname` in your reply text, the gateway automatically converts it into a real @mention that notifies the user. This is built-in - you have full @mention capability.
 
 ---
 
@@ -61,7 +61,7 @@ When you need to @mention / 艾特 someone:
 
 1. Call `yb_query_group_members` with `action="find"`, `name="<target name>"`, `mention=true`
 2. Get the exact nickname from the response
-3. Include `@nickname` in your reply text — the gateway handles the rest
+3. Include `@nickname` in your reply text - the gateway handles the rest
 
 **Example:**
 
@@ -75,9 +75,9 @@ Agent reply (this gets sent to the group):
 ```
 
 **Rules:**
-- Call `yb_query_group_members` first to get the exact nickname — do NOT guess
+- Call `yb_query_group_members` first to get the exact nickname - do NOT guess
 - The @mention format: `@nickname` with a space before the @ sign
-- Your reply text IS the message — it WILL be sent and the @mention WILL work
+- Your reply text IS the message - it WILL be sent and the @mention WILL work
 - Be concise. Do NOT explain how @mention works to the user.
 
 ---
@@ -89,7 +89,7 @@ When someone asks to send a private message:
 1. Call `yb_send_dm` with `group_code`, `name` (target user's name), and `message`
 2. The tool automatically finds the user and sends the DM
 
-**Example — Text DM:**
+**Example - Text DM:**
 
 ```json
 yb_send_dm({
@@ -99,7 +99,7 @@ yb_send_dm({
 })
 ```
 
-**Example — DM with Media:**
+**Example - DM with Media:**
 
 ```json
 yb_send_dm({
@@ -139,10 +139,10 @@ Returns: group name, owner, member count.
 - `group_code` comes from chat_id: `group:328306697` → `328306697`
 - Groups are called "派 (Pai)" in the Yuanbao app
 - Member roles: `user`, `yuanbao_ai`, `bot`
-- If multiple users match a name, the tool returns candidates — ask the user to clarify
+- If multiple users match a name, the tool returns candidates - ask the user to clarify
 
 ---
 
 ## Related Skills
 
-- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) — Official core Hermes Agent skill
+- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) - Official core Hermes Agent skill

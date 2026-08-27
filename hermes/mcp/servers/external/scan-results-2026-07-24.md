@@ -1,6 +1,6 @@
 ---
-title: MCP Scan Results — July 24, 2026 (Evening)
-description: "Setup and usage guide for MCP Scan Results — July 24, 2026 (Evening). Part of the Hermes resource directory."
+title: MCP Scan Results - July 24, 2026 (Evening)
+description: "Setup and usage guide for MCP Scan Results - July 24, 2026 (Evening). Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-24/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# MCP Scan Results — July 24, 2026 (Evening)
+# MCP Scan Results - July 24, 2026 (Evening)
 
 **Scan time:** 19:04 MST, Friday July 24, 2026
 **Sources queried:** mcpservers.org /all, mcp.so sitemap page 19, awesome-mcp-servers PR queue
@@ -24,7 +24,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | mcp.so page 19 | ~50 today | 29 |
 | **Total** | **~84** | **43** |
 
-## HIGH Priority — Integration Guides Written
+## HIGH Priority - Integration Guides Written
 
 | Server | Category | Source | Guide |
 |--------|----------|--------|-------|
@@ -37,7 +37,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | Agent Browser MCP | Browser Automation | mcpservers.org | ✅ agent-browser-mcp/ |
 | AI Consensus | AI/Aggregator | mcpservers.org | ✅ ai-consensus-mcp/ |
 
-## HIGH Priority — Discovered but No Guide (GitHub repo unknown)
+## HIGH Priority - Discovered but No Guide (GitHub repo unknown)
 
 | Server | Category | Source |
 |--------|----------|--------|
@@ -49,7 +49,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | dida365-mcp-server | Productivity (Dida365) | mcp.so |
 | github-security-mcp-server | Security | mcp.so |
 
-## MEDIUM Priority — Listed Only
+## MEDIUM Priority - Listed Only
 
 | Server | Category | Source |
 |--------|----------|--------|
@@ -69,7 +69,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | FeatureBoard | Product Management | mcpservers.org |
 | KPI Depot | Analytics | mcpservers.org |
 
-## LOW Priority — Not Cataloged
+## LOW Priority - Not Cataloged
 
 19 additional servers from mcp.so and mcpservers.org. Full list in raw scan output. Includes: Grok Chat MCP, Claude Chat MCP, Fable MCP, Snipara, Peil-mcp, Actvt, Retasc, BBW Belles Formalwear, AIQUAA Playwright, iGaming Tools, Fixou, KoreanAds, and various niche dev tools.
 
@@ -90,7 +90,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 12: FeatureBoard (EXISTING: featureboard-mcp)
 13: Routara LLM Gateway (EXISTING: routara-llm-gateway-mcp)
 14: AI Consensus (NEW → guide written)
-15: BountyVerdict Agent Decision Tools (EXISTING: bug-bounty-intelligence-mcp — partial match)
+15: BountyVerdict Agent Decision Tools (EXISTING: bug-bounty-intelligence-mcp - partial match)
 16: KPI Depot (EXISTING: kpidepot-mcp.md)
 17: AIQUAA Playwright MCP Server (NEW)
 18: Retasc (NEW)
@@ -111,15 +111,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 ## awesome-mcp-servers Merged PRs (July 24)
 
 ```
-#10852: nagameTW/mcp-server-malcolm — Security (NEW → guide written)
-#10871: JayOfemi/byakugan — Workplace & Productivity (NEW → guide written)
-#10795: githunt-agent/githunt-mcp — Research (NEW → guide written)
-#10685: anypost/emailmd — Communication (NEW → guide written)
+#10852: nagameTW/mcp-server-malcolm - Security (NEW → guide written)
+#10871: JayOfemi/byakugan - Workplace & Productivity (NEW → guide written)
+#10795: githunt-agent/githunt-mcp - Research (NEW → guide written)
+#10685: anypost/emailmd - Communication (NEW → guide written)
 ```
 
 ## mcp.so Today's New (page 19, 2026-07-24 timestamps)
 
-53 new listings with today's date. 7 HIGH priority (CRM, database, M365, cost, task management, security), 10 MEDIUM, remainder LOW/non-business. High-priority ones lack GitHub repos in mcp.so slugs — need PR queue or mcpservers.org cross-reference for repo discovery.
+53 new listings with today's date. 7 HIGH priority (CRM, database, M365, cost, task management, security), 10 MEDIUM, remainder LOW/non-business. High-priority ones lack GitHub repos in mcp.so slugs - need PR queue or mcpservers.org cross-reference for repo discovery.
 
 ---
 **Next scan due:** July 25, 2026 (evening)

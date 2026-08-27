@@ -1,5 +1,5 @@
 ---
-title: "Google Search Console MCP — Integration Guide"
+title: "Google Search Console MCP - Integration Guide"
 description: "Hosted MCP server for Google Search Console analytics. Connect Claude, Cursor, or any MCP client to query clicks, impressions, rankings, indexing status"
 category: mcp
 tags: [mcp-server, seo, google-search-console, marketing, analytics]
@@ -21,9 +21,9 @@ robots: "index,follow"
 
 ## Overview
 
-The Google Search Console MCP server gives AI agents direct access to GSC analytics. Instead of logging into the GSC dashboard, operators can ask their AI assistant about site performance — clicks, impressions, CTR, average position, indexing status, and sitemap health — all through natural language.
+The Google Search Console MCP server gives AI agents direct access to GSC analytics. Instead of logging into the GSC dashboard, operators can ask their AI assistant about site performance - clicks, impressions, CTR, average position, indexing status, and sitemap health - all through natural language.
 
-This is one of the first MCP servers targeting SEO professionals, bridging the gap between AI coding agents and search performance data. Built on Cloudflare Workers with OAuth authentication, it requires no API key management — users sign in with their Google account.
+This is one of the first MCP servers targeting SEO professionals, bridging the gap between AI coding agents and search performance data. Built on Cloudflare Workers with OAuth authentication, it requires no API key management - users sign in with their Google account.
 
 ## What You Can Do
 
@@ -75,14 +75,14 @@ CorpusIQ can connect to this MCP server alongside its existing 40+ business data
 
 ## Limitations
 
-- 2 GitHub stars — very new, community validation pending
+- 2 GitHub stars - very new, community validation pending
 - OAuth flow requires browser interaction for initial setup
 - Self-hosted version requires Cloudflare Workers account
 - Query filtering depends on GSC API limitations (16 months of data, sampling on large sites)
 
 ## Verdict
 
-HIGH VALUE for any business operator doing SEO. The hosted + OAuth model eliminates API key friction. Serverless architecture (Cloudflare Workers) means zero maintenance for self-hosters. Watch for adoption growth — this fills a genuine gap in the MCP ecosystem.
+HIGH VALUE for any business operator doing SEO. The hosted + OAuth model eliminates API key friction. Serverless architecture (Cloudflare Workers) means zero maintenance for self-hosters. Watch for adoption growth - this fills a genuine gap in the MCP ecosystem.
 
 ---
 

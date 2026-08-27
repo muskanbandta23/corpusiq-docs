@@ -1,6 +1,6 @@
 ---
-title: Agentic Memory MCP — Persistent Memory for AI Agents
-description: "Setup and usage guide for Agentic Memory MCP — Persistent Memory for AI Agents. Part of the Hermes resource directory."
+title: Agentic Memory MCP - Persistent Memory for AI Agents
+description: "Setup and usage guide for Agentic Memory MCP - Persistent Memory for AI Agents. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-memory-mcp/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
 
-# Agentic Memory MCP — Persistent Memory for AI Agents
+# Agentic Memory MCP - Persistent Memory for AI Agents
 
 **Priority:** MEDIUM | **Category:** Knowledge & Memory / Infrastructure  
 **Transport:** Remote SSE + stdio fallback | **Auth:** API key (Bearer)  
@@ -68,12 +68,12 @@ npx agmry signup my-project
 1. **Multi-agent orchestration:** Agent A processes leads → pushes qualified leads to queue → Agent B picks up and sends proposals. Shared memory ensures no double-handling
 2. **Customer context persistence:** Support agent recalls full conversation history + preferences when a returning customer reaches out, regardless of which agent handled the previous interaction
 3. **Cross-session project state:** Operator's agent remembers project milestones, decisions, and action items across sessions without re-prompting
-4. **Agent fleet management:** All agents share one memory space with per-tenant isolation — update company info once, all agents immediately have it
+4. **Agent fleet management:** All agents share one memory space with per-tenant isolation - update company info once, all agents immediately have it
 5. **Compliance audit trail:** Ordered history provides a complete audit trail of what each agent knew and did
 
 ## CorpusIQ Angle
 
-**Infrastructure complement.** CorpusIQ's agent fleet (growth, support, dev, BD) could use Agentic Memory as the shared state layer — replacing session-DB workarounds with a purpose-built memory fabric. The queue system could formalize handoffs between agents (e.g., growth agent qualifies lead → BD agent receives via queue).
+**Infrastructure complement.** CorpusIQ's agent fleet (growth, support, dev, BD) could use Agentic Memory as the shared state layer - replacing session-DB workarounds with a purpose-built memory fabric. The queue system could formalize handoffs between agents (e.g., growth agent qualifies lead → BD agent receives via queue).
 
 ## Limitations
 

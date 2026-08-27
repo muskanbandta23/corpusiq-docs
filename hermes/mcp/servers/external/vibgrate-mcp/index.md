@@ -1,5 +1,5 @@
 ---
-title: "Vibgrate MCP — Integration Guide"
+title: "Vibgrate MCP - Integration Guide"
 description: "Connect AI agents to Vibgrate Cloud for dependency drift, vulnerability (CVE), and migration intelligence. 51 tools for DriftScores, EOL runtimes, upgrade"
 category: mcp
 tags: [mcp-server, devops, security, drift-detection, cve, dependency-management]
@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Vibgrate MCP — Integration Guide
+# Vibgrate MCP - Integration Guide
 
 **Source:** mcp.so listing  
 **Author:** Vibgrate  
@@ -20,14 +20,14 @@ robots: "index,follow"
 
 ## What It Does
 
-Vibgrate MCP connects your AI agents (Cursor, Claude, ChatGPT, Windsurf, VS Code) directly to Vibgrate Cloud — giving them 51 tools across 14 groups to query your team's software supply chain health:
+Vibgrate MCP connects your AI agents (Cursor, Claude, ChatGPT, Windsurf, VS Code) directly to Vibgrate Cloud - giving them 51 tools across 14 groups to query your team's software supply chain health:
 
-- **DriftScores** — quantify how far your dependencies have drifted from their ideal versions
-- **CVE scanning** — check for known vulnerabilities in your dependency tree
-- **EOL runtime detection** — flag end-of-life runtimes and libraries before they become security risks
-- **Upgrade path analysis** — calculate the blast radius of proposed dependency upgrades
-- **Organization catalog management** — manage your team's software inventory across repos
-- **Reports** — generate compliance and health reports on demand
+- **DriftScores** - quantify how far your dependencies have drifted from their ideal versions
+- **CVE scanning** - check for known vulnerabilities in your dependency tree
+- **EOL runtime detection** - flag end-of-life runtimes and libraries before they become security risks
+- **Upgrade path analysis** - calculate the blast radius of proposed dependency upgrades
+- **Organization catalog management** - manage your team's software inventory across repos
+- **Reports** - generate compliance and health reports on demand
 
 Source code never leaves your environment. The MCP server exposes only metadata collected by the Vibgrate CLI (`vg`).
 
@@ -70,7 +70,7 @@ Tokens are scoped and revocable from the Vibgrate dashboard.
 
 ## Local Companion: Vibgrate AI Context
 
-The same package includes `vg serve` — a local-first companion that runs on your machine:
+The same package includes `vg serve` - a local-first companion that runs on your machine:
 
 ```bash
 npx @vibgrate/cli serve
@@ -92,9 +92,9 @@ Use this when you want AI agents to have context about your codebase without sen
 
 ## Operator Relevance
 
-Vibgrate MCP is relevant for any business operator managing production software — startups, agencies, and enterprise teams alike. It turns the tedious work of tracking dependency drift and CVEs into a conversational workflow. Instead of running scanners and reading reports, operators can ask their AI assistant directly.
+Vibgrate MCP is relevant for any business operator managing production software - startups, agencies, and enterprise teams alike. It turns the tedious work of tracking dependency drift and CVEs into a conversational workflow. Instead of running scanners and reading reports, operators can ask their AI assistant directly.
 
 ## See Also
 
 - External MCP Server Catalog(/hermes/mcp/servers/external/)
-- Shieldly AWS MCP(/hermes/mcp/servers/external/shieldly-aws-mcp/) — AWS security analysis via MCP
+- Shieldly AWS MCP(/hermes/mcp/servers/external/shieldly-aws-mcp/) - AWS security analysis via MCP

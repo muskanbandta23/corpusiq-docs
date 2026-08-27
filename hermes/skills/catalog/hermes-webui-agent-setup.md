@@ -1,6 +1,6 @@
 ---
-title: "Hermes WebUI Agent — Browser-Based Hermes Agent"
-description: "240+ installs. Deploy, configure, and use Hermes WebUI — a web interface for Hermes Agent with persistent memory, scheduled jobs, and multi-platform"
+title: "Hermes WebUI Agent - Browser-Based Hermes Agent"
+description: "240+ installs. Deploy, configure, and use Hermes WebUI - a web interface for Hermes Agent with persistent memory, scheduled jobs, and multi-platform"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-webui-agent-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes WebUI Agent — Setup Guide
+# Hermes WebUI Agent - Setup Guide
 
 **Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) (240+ installs)
 **Category:** Hermes Agent / UI & Deployment
 **Quality Tier:** 🟡 Beta
 
-Expert skill for deploying, configuring, and using Hermes WebUI — a lightweight web interface for Hermes Agent built on Flask. Provides browser-based access with three-panel layout (sessions sidebar, chat center, workspace file browser), persistent memory, scheduled cron jobs, and 10+ messaging platform integrations.
+Expert skill for deploying, configuring, and using Hermes WebUI - a lightweight web interface for Hermes Agent built on Flask. Provides browser-based access with three-panel layout (sessions sidebar, chat center, workspace file browser), persistent memory, scheduled cron jobs, and 10+ messaging platform integrations.
 
 ---
 
@@ -122,9 +122,9 @@ curl http://localhost:8787/health
 
 ## Notes
 
-- Bootstrap auto-detects Hermes Agent installation — no manual path configuration needed
+- Bootstrap auto-detects Hermes Agent installation - no manual path configuration needed
 - Docker supports single-container, two-container (agent+webui isolated), and three-container (agent+dashboard+webui) setups
-- Supports Podman with some limitations (known issue with shared `.hermes` in Podman 3.4 — upgrade to Podman 4+)
+- Supports Podman with some limitations (known issue with shared `.hermes` in Podman 3.4 - upgrade to Podman 4+)
 - Workspace file browser mirrors `HERMES_WEBUI_DEFAULT_WORKSPACE` directory
 - For production, use reverse proxy (Nginx) with HTTPS and password protection enabled
 

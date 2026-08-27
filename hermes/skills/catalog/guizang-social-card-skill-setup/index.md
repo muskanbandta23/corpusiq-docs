@@ -1,6 +1,6 @@
 ---
-title: Guizang Social Card Skill — Setup Guide for Hermes Agents
-description: Generate polished social card images for Xiaohongshu, WeChat, and platform thumbnails — 3.7K+ installs
+title: Guizang Social Card Skill - Setup Guide for Hermes Agents
+description: Generate polished social card images for Xiaohongshu, WeChat, and platform thumbnails - 3.7K+ installs
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/guizang-social-card-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Guizang Social Card Skill — Setup Guide
+# Guizang Social Card Skill - Setup Guide
 
 **Source:** [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) (Community)
 **Skill:** `guizang-social-card-skill` · **Installs:** 3,700+ · **Category:** Content & Media
 **Platform:** Linux, macOS, Windows
 
-The Guizang Social Card Skill creates polished social card packages for Xiaohongshu (Rednote), WeChat Official Accounts, article covers, and platform thumbnails. It produces carousel image sets, Live Photo motion cards, triple-collage layouts, and WeChat cover pairs — all with Swiss-style editorial design. Perfect for Hermes agents managing social media content pipelines.
+The Guizang Social Card Skill creates polished social card packages for Xiaohongshu (Rednote), WeChat Official Accounts, article covers, and platform thumbnails. It produces carousel image sets, Live Photo motion cards, triple-collage layouts, and WeChat cover pairs - all with Swiss-style editorial design. Perfect for Hermes agents managing social media content pipelines.
 
 ## Installation
 
@@ -58,7 +58,7 @@ Trigger with natural language:
 ### Example: Product Launch Carousel
 
 ```
-"Create a 6-slide Xiaohongshu carousel for CorpusIQ — cover slide with product name, then 5 feature slides with screenshots"
+"Create a 6-slide Xiaohongshu carousel for CorpusIQ - cover slide with product name, then 5 feature slides with screenshots"
 ```
 
 The skill produces:
@@ -76,15 +76,15 @@ The skill applies Guizang-style Swiss/editorial magazine layouts:
 
 ## Important Rules
 
-- **Generated work lives in task folders** — Default: `local-tests/<slug>/` or user-specified output directory
-- **Never create root-level folders** — No `social-card-*`, `livephoto-*`, `wechat-*`, or `output/` at project root
-- **Self-contained** — Doesn't modify the original PPT skill, templates, or references
+- **Generated work lives in task folders** - Default: `local-tests/<slug>/` or user-specified output directory
+- **Never create root-level folders** - No `social-card-*`, `livephoto-*`, `wechat-*`, or `output/` at project root
+- **Self-contained** - Doesn't modify the original PPT skill, templates, or references
 
 ## Related Skills
 
-- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup/) — Video content creation
-- [HyperFrames Setup](/docs/hermes/skills/catalog/hyperframes-setup/) — Programmatic video generation
-- [Skills Collective AI Media Setup](/docs/hermes/skills/catalog/skills-collective-ai-media-setup/) — Image and video skills
+- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup/) - Video content creation
+- [HyperFrames Setup](/docs/hermes/skills/catalog/hyperframes-setup/) - Programmatic video generation
+- [Skills Collective AI Media Setup](/docs/hermes/skills/catalog/skills-collective-ai-media-setup/) - Image and video skills
 
 ## Source
 

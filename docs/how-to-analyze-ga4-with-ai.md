@@ -38,4 +38,4 @@ Read-only. CorpusIQ cannot change tracking or settings. No raw customer files or
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.

@@ -16,16 +16,16 @@ description: "Collibra Core REST API 2.0 uses basic auth (username/password). Th
 
 # Collibra MCP Server
 
-MCP server for the **Collibra Core REST API 2.0**. Enables AI agents to read and write Collibra assets, attributes, and relations — bringing enterprise data governance into the MCP ecosystem. Pairs with Power BI MCP servers to push semantic model lineage data.
+MCP server for the **Collibra Core REST API 2.0**. Enables AI agents to read and write Collibra assets, attributes, and relations - bringing enterprise data governance into the MCP ecosystem. Pairs with Power BI MCP servers to push semantic model lineage data.
 
 ## What It Does
 
 Collibra is the dominant enterprise data governance platform (used by 550+ Fortune 500 companies). This MCP server wraps the Collibra Core REST API 2.0, giving AI agents:
 
-- **Asset Discovery** — Search and read Collibra assets (tables, columns, reports, glossaries)
-- **Attribute Management** — Read/write asset attributes for metadata enrichment
-- **Relation Traversal** — Navigate asset relationships (lineage, composition, association)
-- **Semantic Lineage** — Pair with Power BI MCP to push model-to-report lineage
+- **Asset Discovery** - Search and read Collibra assets (tables, columns, reports, glossaries)
+- **Attribute Management** - Read/write asset attributes for metadata enrichment
+- **Relation Traversal** - Navigate asset relationships (lineage, composition, association)
+- **Semantic Lineage** - Pair with Power BI MCP to push model-to-report lineage
 
 ## Business Operator Use Cases
 
@@ -71,19 +71,19 @@ Collibra Core REST API 2.0 uses basic auth (username/password). The MCP server r
 
 ## Tools Provided
 
-- `search_assets` — Full-text search across Collibra assets
-- `get_asset` — Retrieve asset details by ID
-- `get_attributes` — Read attributes for an asset
-- `set_attribute` — Write/update an attribute value
-- `get_relations` — Navigate asset relationships
-- `create_relation` — Create new asset relationships
+- `search_assets` - Full-text search across Collibra assets
+- `get_asset` - Retrieve asset details by ID
+- `get_attributes` - Read attributes for an asset
+- `set_attribute` - Write/update an attribute value
+- `get_relations` - Navigate asset relationships
+- `create_relation` - Create new asset relationships
 
 ## Limitations
 
-- **0 stars, brand new** — Created July 22, 2026. Unproven in production.
-- **Basic auth only** — No OAuth or SSO support yet.
-- **Collibra license required** — You need a Collibra instance. Not free.
-- **No pagination** — Large catalogs may hit API limits.
+- **0 stars, brand new** - Created July 22, 2026. Unproven in production.
+- **Basic auth only** - No OAuth or SSO support yet.
+- **Collibra license required** - You need a Collibra instance. Not free.
+- **No pagination** - Large catalogs may hit API limits.
 
 ## Operator Verdict
 

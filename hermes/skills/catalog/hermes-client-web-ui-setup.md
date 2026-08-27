@@ -1,5 +1,5 @@
 ---
-title: Hermes Client Web UI — Full Setup Guide for Hermes Agents
+title: Hermes Client Web UI - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the hermes-client-web-ui skill from aradotso/devtools-skills. Web-based chat dashboard for Hermes Agent with multi-profile management, SSE streaming, and terminal integration.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-client-web-ui-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes Client Web UI — Setup Guide
+# Hermes Client Web UI - Setup Guide
 
 **Source:** [aradotso/devtools-skills](https://github.com/aradotso/devtools-skills) (59 installs) | [GitHub](https://github.com/lotsoftick/hermes_client)
 **Category:** interface, dashboard
@@ -82,7 +82,7 @@ hermes_client status     # Check if running
 | **Team dashboard** | Deploy on internal network for team access to shared Hermes profiles |
 | **Multi-agent monitoring** | Manage separate profiles for Growth, Support, and Dev agents in one UI |
 | **Remote access** | Tunnel via SSH or Tailscale to access Hermes from mobile/tablet |
-| **Demo environment** | Use web UI for client demos — cleaner than terminal output |
+| **Demo environment** | Use web UI for client demos - cleaner than terminal output |
 | **Training/onboarding** | New team members interact with Hermes through familiar chat interface |
 
 ---
@@ -118,4 +118,4 @@ open http://localhost:18888   # macOS
 ---
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june25-2026-update/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

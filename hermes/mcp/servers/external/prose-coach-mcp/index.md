@@ -1,6 +1,6 @@
 ---
 title: "Prose Coach MCP - CorpusIQ Docs"
-description: Deterministic AI-writing filter for MCP agents — flags 43 AI-writing patterns with quoted evidence and fixes before content ships
+description: Deterministic AI-writing filter for MCP agents - flags 43 AI-writing patterns with quoted evidence and fixes before content ships
 category: Content
 stars: 0 (brand new)
 added: 2026-08-12
@@ -15,7 +15,7 @@ last_updated: "2026-08-12"
 
 # Prose Coach MCP
 
-**Remote MCP server (Streamable HTTP, no auth) for Prose Coach.** A deterministic writing filter that marks 43 patterns that make text read as AI-generated — banned vocabulary and structural tells (triplets, negation formulas, summary closers, colon chains, flat rhythm) — with every finding quoting the line that triggered it and attaching the fix.
+**Remote MCP server (Streamable HTTP, no auth) for Prose Coach.** A deterministic writing filter that marks 43 patterns that make text read as AI-generated - banned vocabulary and structural tells (triplets, negation formulas, summary closers, colon chains, flat rhythm) - with every finding quoting the line that triggered it and attaching the fix.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,7 +27,7 @@ Category: Content / Writing
 
 ## Why This Matters for Operators
 
-Every AI assistant reaches for the same moves across every draft. Prose Coach is the first MCP purpose-built to de-AI drafts before they ship: a fixed rule set runs over your text, flags what's there, and density is scored against an accumulation threshold — one marker is noise, six is a habit. Because no language model reads your text, the same input always returns the same findings — unlike probabilistic "99% AI-written" detectors whose scores can't be checked against anything.
+Every AI assistant reaches for the same moves across every draft. Prose Coach is the first MCP purpose-built to de-AI drafts before they ship: a fixed rule set runs over your text, flags what's there, and density is scored against an accumulation threshold - one marker is noise, six is a habit. Because no language model reads your text, the same input always returns the same findings - unlike probabilistic "99% AI-written" detectors whose scores can't be checked against anything.
 
 ## Tools & Capabilities
 
@@ -64,21 +64,21 @@ No API key. A browser scanner at [prose.coach](https://www.prose.coach/) runs th
 
 ## Business Relevance
 
-- **Marketing teams** can run every email, ad, and social post through `scan_draft` before it ships — structural tells (triplets, summary closers) are exactly what makes mass-produced AI copy feel uncanny
-- **Content operators** get a free tier covering 3 drafts/day — enough for daily posting cadences without a subscription
+- **Marketing teams** can run every email, ad, and social post through `scan_draft` before it ships - structural tells (triplets, summary closers) are exactly what makes mass-produced AI copy feel uncanny
+- **Content operators** get a free tier covering 3 drafts/day - enough for daily posting cadences without a subscription
 - **Founders and executives** get a deterministic filter instead of an opaque AI-probability score they can't verify
-- **Agencies** can standardize voice at scale — PRO ($5/mo) gates `verify_revision`, which diffs the rewrite against the original
+- **Agencies** can standardize voice at scale - PRO ($5/mo) gates `verify_revision`, which diffs the rewrite against the original
 
 ## Integration with CorpusIQ
 
-Prose Coach pairs with CorpusIQ's business-data connectors on the content side of the stack: an agent pulls live numbers (Shopify orders, GA4 traffic, ad spend) through CorpusIQ, drafts customer-facing copy from that data, then runs the draft through Prose Coach before anything ships. CorpusIQ supplies the data; Prose Coach polishes the prose. The composition is natural for the same workflows covered by CorpusIQ's content-ops tooling: weekly performance recaps, customer win emails, and product update posts — all drafted by agents, all passed through a deterministic writing filter before they reach a human.
+Prose Coach pairs with CorpusIQ's business-data connectors on the content side of the stack: an agent pulls live numbers (Shopify orders, GA4 traffic, ad spend) through CorpusIQ, drafts customer-facing copy from that data, then runs the draft through Prose Coach before anything ships. CorpusIQ supplies the data; Prose Coach polishes the prose. The composition is natural for the same workflows covered by CorpusIQ's content-ops tooling: weekly performance recaps, customer win emails, and product update posts - all drafted by agents, all passed through a deterministic writing filter before they reach a human.
 
 ## Limitations
 
-- Brand new — listed on mcp.so Aug 12, 2026, no ecosystem track record yet
+- Brand new - listed on mcp.so Aug 12, 2026, no ecosystem track record yet
 - Free tier is a single tool (`scan_draft`); `coach_draft` and `verify_revision` require PRO
 - The 43-pattern rule set targets English-language writing moves
-- It flags patterns and attaches fixes — it does not rewrite; the revision happens in your client
+- It flags patterns and attaches fixes - it does not rewrite; the revision happens in your client
 - Hosted endpoint only (no self-hosted option); no auth means no account-scoped history
 
 ## See Also

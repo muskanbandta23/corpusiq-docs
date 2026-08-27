@@ -29,7 +29,7 @@ Plain English, no special syntax:
 
 You don't need to name the tool. CorpusIQ works out that "revenue" means your
 accounting or payments data and goes there. If a question could mean two things,
-it's fine to say which — "revenue from Stripe" or "orders in Shopify" — but you
+it's fine to say which - "revenue from Stripe" or "orders in Shopify" - but you
 rarely need to.
 
 ## Follow-ups work
@@ -49,8 +49,8 @@ every time.
 ## What the answers look like
 
 CorpusIQ replies with the numbers laid out, not buried in a paragraph. Key
-figures come back as tiles in Slack and as cards in Teams — a revenue figure, a
-change versus the prior period, a count of orders — so you can read the result
+figures come back as tiles in Slack and as cards in Teams - a revenue figure, a
+change versus the prior period, a count of orders - so you can read the result
 at a glance. Longer explanations come as short text above or beside the tiles.
 
 When a question spans several tools, the answer pulls them together. When it
@@ -80,7 +80,7 @@ connected.
 
 > Where are we spending the most and getting the least back?
 
-> How did our email campaigns perform this month — opens, clicks, revenue?
+> How did our email campaigns perform this month - opens, clicks, revenue?
 
 ### Store and orders
 
@@ -110,7 +110,7 @@ connected.
 
 > What changed the most week over week?
 
-That last kind — the broad "how are we doing" question — is where the chat app
+That last kind - the broad "how are we doing" question - is where the chat app
 earns its place. One question in a channel, and everyone sees the same answer,
 drawn live from the tools behind it.
 
@@ -118,5 +118,5 @@ drawn live from the tools behind it.
 
 CorpusIQ shows where a number came from. If something looks wrong, the usual
 cause is a tool that isn't connected or a question that could be read two ways.
-Ask it to be specific — name the tool or the date range — and see
+Ask it to be specific - name the tool or the date range - and see
 [troubleshooting.md](troubleshooting.md) if it persists.

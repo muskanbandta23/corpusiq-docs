@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 14, 2026 - CorpusIQ Docs"
-description: 2 new OpenClaw ecosystem skills discovered July 14, 2026 — openclaw-workspace (143 installs) and pymupdf-pdf (47 installs).
+title: "New Skills - July 14, 2026 - CorpusIQ Docs"
+description: 2 new OpenClaw ecosystem skills discovered July 14, 2026 - openclaw-workspace (143 installs) and pymupdf-pdf (47 installs).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july14-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovery — July 14, 2026
+# New Skills Discovery - July 14, 2026
 
 **Date:** July 14, 2026
 **Method:** skills.sh API sweep (9 queries across hermes, openclaw, clawdbot ecosystems)
@@ -27,19 +27,19 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Skill Details
 
-### 1. openclaw-workspace — Workspace Management (143 installs)
+### 1. openclaw-workspace - Workspace Management (143 installs)
 
 **Publisher:** [win4r/openclaw-workspace](https://skills.sh/win4r/openclaw-workspace)
 **Installs:** 143
 **Category:** Workspace Management / DevOps
 
-OpenClaw workspace management — organize, configure, and maintain your OpenClaw agent workspace. Complements existing workspace tools like `boomsystel-code/openclaw-workspace`.
+OpenClaw workspace management - organize, configure, and maintain your OpenClaw agent workspace. Complements existing workspace tools like `boomsystel-code/openclaw-workspace`.
 
 ```bash
 npx skills add win4r/openclaw-workspace --skill openclaw-workspace
 ```
 
-### 2. pymupdf-pdf — PyMuPDF PDF Parser (47 installs)
+### 2. pymupdf-pdf - PyMuPDF PDF Parser (47 installs)
 
 **Publisher:** [kesslerio/pymupdf-pdf-parser-clawdbot-skill](https://skills.sh/kesslerio/pymupdf-pdf-parser-clawdbot-skill)
 **Installs:** 47
@@ -55,16 +55,16 @@ npx skills add kesslerio/pymupdf-pdf-parser-clawdbot-skill --skill pymupdf-pdf
 
 ## Skipped Skills
 
-- **hermes-tweet** (davepoon/buildwithclaude, 22 installs) — Duplicate of already-catalogued [Xquik-dev/hermes-tweet](https://github.com/Xquik-dev/hermes-tweet) in the ecosystem index. Skipped per July 12 sweep precedent.
+- **hermes-tweet** (davepoon/buildwithclaude, 22 installs) - Duplicate of already-catalogued [Xquik-dev/hermes-tweet](https://github.com/Xquik-dev/hermes-tweet) in the ecosystem index. Skipped per July 12 sweep precedent.
 
 ---
 
 ## Cross-Reference Notes
 
-This lightweight sweep ran after the July 12 comprehensive sweep (317 skills, 9 new). Only 2 additional skills were found — both from repos not covered by prior sweeps. The OpenClaw ecosystem continues to show steady but modest growth in new skill submissions.
+This lightweight sweep ran after the July 12 comprehensive sweep (317 skills, 9 new). Only 2 additional skills were found - both from repos not covered by prior sweeps. The OpenClaw ecosystem continues to show steady but modest growth in new skill submissions.
 
 Previous sweep: [July 12, 2026](/hermes/skills/marketplace/new-july12-2026/)
 
 ---
 
-*Part of the Hermes Skills Library — curated by CorpusIQ. [View all skills](/hermes/skills/marketplace/)*
+*Part of the Hermes Skills Library - curated by CorpusIQ. [View all skills](/hermes/skills/marketplace/)*

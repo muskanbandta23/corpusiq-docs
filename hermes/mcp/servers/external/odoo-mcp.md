@@ -1,6 +1,6 @@
 ---
-title: "Odoo MCP — Zero-Setup ERP Connector for AI Agents"
-description: "Free AI layer for Odoo ERP v16+. Connects any MCP client to accounting, inventory, CRM, and sales — no Odoo App Store module required. Business operators"
+title: "Odoo MCP - Zero-Setup ERP Connector for AI Agents"
+description: "Free AI layer for Odoo ERP v16+. Connects any MCP client to accounting, inventory, CRM, and sales - no Odoo App Store module required. Business operators"
 category: mcp
 tags: [mcp-server, odoo, erp, accounting, inventory, crm, business-operations]
 last_updated: 2026-07-08
@@ -9,11 +9,11 @@ robots: "index,follow"
 
 ---
 
-# Odoo MCP — ERP Connector for AI Agents
+# Odoo MCP - ERP Connector for AI Agents
 
 ## What It Is
 
-Odoo MCP (`tuanle96/mcp-odoo`) provides a free AI layer for Odoo ERP — any edition, any version 16+. Unlike traditional ERP integrations that require installing Odoo App Store modules or admin-side configuration, this MCP server connects directly via the XML-RPC API with zero Odoo-side setup. Business operators can query live ERP data (invoices, inventory levels, CRM pipelines, sales orders) directly from any MCP-compatible AI agent.
+Odoo MCP (`tuanle96/mcp-odoo`) provides a free AI layer for Odoo ERP - any edition, any version 16+. Unlike traditional ERP integrations that require installing Odoo App Store modules or admin-side configuration, this MCP server connects directly via the XML-RPC API with zero Odoo-side setup. Business operators can query live ERP data (invoices, inventory levels, CRM pipelines, sales orders) directly from any MCP-compatible AI agent.
 
 ## Tools Available
 
@@ -31,7 +31,7 @@ ODOO_URL={your-odoo-url} ODOO_DB={database-name} ODOO_USERNAME={user} ODOO_PASSW
 
 ## Business Use Cases
 
-1. **Monthly close queries**: "Show me all unpaid invoices over 30 days and their customer names" — without logging into Odoo
+1. **Monthly close queries**: "Show me all unpaid invoices over 30 days and their customer names" - without logging into Odoo
 2. **Inventory alerts**: "Which products are below reorder threshold across Warehouse A and B?"
 3. **CRM pipeline review**: "Summarize opportunities in 'Negotiation' stage with deal values over $10K"
 4. **Sales performance**: "Show total revenue by salesperson this quarter vs last quarter"
@@ -49,14 +49,14 @@ ODOO_URL={your-odoo-url} ODOO_DB={database-name} ODOO_USERNAME={user} ODOO_PASSW
 
 ## Limitations
 
-- **Read-only**: Current implementation is read-only — no write-back to Odoo
+- **Read-only**: Current implementation is read-only - no write-back to Odoo
 - **Odoo 16+ only**: Requires Odoo version 16 or newer
-- **Authentication**: Uses XML-RPC user/password — ensure credentials are stored securely
+- **Authentication**: Uses XML-RPC user/password - ensure credentials are stored securely
 - **No Odoo.sh support yet**: Self-hosted Odoo instances only; Odoo.sh compatibility not confirmed
 - **Permission-bound**: Agent sees only what the authenticated Odoo user can access
 
 ## See Also
 
-- [CorpusIQ MCP Connectors — 40+ business data sources](/hermes/mcp/connectors/)
+- [CorpusIQ MCP Connectors - 40+ business data sources](/hermes/mcp/connectors/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [QuickBooks Integration via CorpusIQ](/hermes/mcp/connectors/#quickbooks)

@@ -1,5 +1,5 @@
 ---
-title: "Hermes ArXiv Agent — ArXiv Paper Fetcher Setup"
+title: "Hermes ArXiv Agent - ArXiv Paper Fetcher Setup"
 description: "Set up the Hermes ArXiv Agent (91⭐) to automatically fetch papers from arXiv, generate AI summaries, push to Feishu, and host a local reading website."
 skill_name: hermes-arxiv-agent
 category: research
@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Hermes ArXiv Agent — Full Setup Guide
+# Hermes ArXiv Agent - Full Setup Guide
 
 **Repo:** [genggng/hermes-arxiv-agent](https://github.com/genggng/hermes-arxiv-agent) | ⭐ 91
 **Author:** genggng | **Language:** Python
@@ -26,7 +26,7 @@ The Hermes ArXiv Agent is a Hermes skill that automates the academic paper pipel
 
 - Python 3.11+
 - Hermes Agent installed
-- Feishu/Lark bot (for notifications — optional)
+- Feishu/Lark bot (for notifications - optional)
 - Internet access for arXiv API
 
 ---

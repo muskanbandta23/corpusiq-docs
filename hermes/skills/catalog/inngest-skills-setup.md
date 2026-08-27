@@ -1,20 +1,20 @@
 ---
-title: "Inngest Skills — Durable Workflow Orchestration Setup"
-description: "inngest/inngest-skills — 14 skills, 19.3K installs: event design, durable functions, steps, middleware, and agent workflows from the Inngest team."
+title: "Inngest Skills - Durable Workflow Orchestration Setup"
+description: "inngest/inngest-skills - 14 skills, 19.3K installs: event design, durable functions, steps, middleware, and agent workflows from the Inngest team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inngest-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-16"
 tags: ["hermes skill", "agent skill", "skill setup", "workflow", "orchestration", "inngest"]
 ---
 
-# Inngest Skills — Setup Guide
+# Inngest Skills - Setup Guide
 
 **Source:** [inngest/inngest-skills](https://skills.sh/inngest/inngest-skills)
 **GitHub:** [inngest/inngest-skills](https://github.com/inngest/inngest-skills)
 **Skills:** 14 skills · 19.3K total installs
 **Category:** Workflow Orchestration
 **First Seen:** catalogued August 16, 2026 sweep (inngest-events on skills.sh since February 17, 2026)
-**Quality Tier:** 🟡 Trusted — official Inngest org; top skill carries a Snyk Warn (see Limitations)
+**Quality Tier:** 🟡 Trusted - official Inngest org; top skill carries a Snyk Warn (see Limitations)
 
 Inngest's official skills teach agents durable execution: event schemas, idempotency, fan-out patterns, step-based retries, middleware, and flow control. For a multi-cron operation like CorpusIQ, durable functions with automatic retry semantics are the pattern layer between a naive background job and a reliable one.
 
@@ -75,10 +75,10 @@ Note: these skills are TypeScript-focused. For Python or Go, the suite points to
 
 ## Limitations / Verification
 
-- Security audits on inngest-events: Gen Agent Trust Hub Pass, Socket Pass, **Snyk Warn** — trusted with the audit named
+- Security audits on inngest-events: Gen Agent Trust Hub Pass, Socket Pass, **Snyk Warn** - trusted with the audit named
 - Publisher-page install counts verified (19.3K total); GitHub 28 stars on the repo
 - TypeScript-only guidance; Python/Go users get documentation pointers, not skills
-- Eight of fourteen skills are sub-1K installs — the core five carry the suite
+- Eight of fourteen skills are sub-1K installs - the core five carry the suite
 
 ```bash
 npx skills add inngest/inngest-skills   # verify install works

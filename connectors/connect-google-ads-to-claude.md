@@ -25,7 +25,7 @@ Read-only. CorpusIQ never modifies bids, budgets, or campaigns.
 
 ## Connect Google Ads to Claude in 2 minutes
 
-1. Sign up at [corpusiq.io](https://www.corpusiq.io) — free 30-day trial
+1. Sign up at [corpusiq.io](https://www.corpusiq.io) - free 30-day trial
 2. Click **Connections** → Google Ads
 3. Authorize with your Google account
 4. Select the ad account(s) you want to connect
@@ -39,7 +39,7 @@ Google Ads spend + GA4 sessions + Shopify revenue in one answer:
 
 That's the question most operators can't answer. CorpusIQ answers it in 30 seconds.
 
-[Start free — connect Google Ads to Claude](https://www.corpusiq.io)
+[Start free - connect Google Ads to Claude](https://www.corpusiq.io)
 ---
 
 *

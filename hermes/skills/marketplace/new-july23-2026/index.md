@@ -1,6 +1,6 @@
 ---
-title: "New Skills — July 23, 2026 Marketplace Sweep"
-description: "9 new Hermes-relevant skill publishers discovered on skills.sh — Google ADK, Better Auth, Stitch, Knowledge Work Plugins, Lenny Skills, Sanity Toolkit, GTM"
+title: "New Skills - July 23, 2026 Marketplace Sweep"
+description: "9 new Hermes-relevant skill publishers discovered on skills.sh - Google ADK, Better Auth, Stitch, Knowledge Work Plugins, Lenny Skills, Sanity Toolkit, GTM"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july23-2026/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills — July 23, 2026
+# New Skills - July 23, 2026
 
 ## Summary
 | Metric | Count |
@@ -25,11 +25,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Notes
 
-- Largest sweep to date — 129 skills from 45 search terms. Previous sweeps averaged 30-40 skills scanned.
+- Largest sweep to date - 129 skills from 45 search terms. Previous sweeps averaged 30-40 skills scanned.
 - 9 entirely new publishers discovered, none previously catalogued. Major gap closure: Google's official agent toolkit, Better Auth's auth infrastructure, Anthropic's knowledge work plugins, and Lenny Rachitsky's PM methodology were all missing from the catalog.
-- The Google Agents CLI suite (357K combined) and Google Stitch (285K combined) are the highest-install discoveries — both from Google. These represent official agent infrastructure at massive scale.
-- Better Auth skills (203K combined) fill a critical gap — auth infrastructure for agent-built applications.
-- Lenny Skills (18K combined) bring structured PM methodology to agents — competitive analysis, PRD writing, and rapid prototyping workflows.
+- The Google Agents CLI suite (357K combined) and Google Stitch (285K combined) are the highest-install discoveries - both from Google. These represent official agent infrastructure at massive scale.
+- Better Auth skills (203K combined) fill a critical gap - auth infrastructure for agent-built applications.
+- Lenny Skills (18K combined) bring structured PM methodology to agents - competitive analysis, PRD writing, and rapid prototyping workflows.
 - Combined install count of 1M+ reflects the scale of these official/enterprise-grade skills vs typical community skills.
 
 ## New Publishers & Skills

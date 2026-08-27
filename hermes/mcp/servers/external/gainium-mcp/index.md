@@ -1,5 +1,5 @@
 ---
-title: "Gainium MCP — AI-Powered Crypto Trading Automation"
+title: "Gainium MCP - AI-Powered Crypto Trading Automation"
 description: "Open-source crypto trading automation platform with MCP integration. Build, test, and automate trading strategies without coding. Multi-exchange support"
 category: mcp
 tags: [mcp, finance, trading, crypto, automation, gainium, docker, hermes-agent]
@@ -15,11 +15,11 @@ last_updated: "2026-08-12"
 
 ---
 
-# Gainium MCP — AI-Powered Crypto Trading Automation
+# Gainium MCP - AI-Powered Crypto Trading Automation
 
 **Gainium** is an AI-powered, open-source crypto trading automation platform that enables traders to build, test, and automate trading strategies without coding. It supports multiple cryptocurrency exchanges and provides powerful tools for developing, validating, and deploying automated trading strategies.
 
-The MCP integration lets AI agents interact with the Gainium trading platform — querying markets, managing strategies, and monitoring portfolio performance — all through a standardized protocol.
+The MCP integration lets AI agents interact with the Gainium trading platform - querying markets, managing strategies, and monitoring portfolio performance - all through a standardized protocol.
 
 ## What It Does
 
@@ -122,22 +122,22 @@ mcp_servers:
 
 ## Limitations
 
-- **Docker required**: Full stack needs Docker — no lightweight install option
+- **Docker required**: Full stack needs Docker - no lightweight install option
 - **Crypto-only**: No support for stocks, forex, or traditional assets
-- **Self-hosted**: No managed cloud version — you run the infrastructure
+- **Self-hosted**: No managed cloud version - you run the infrastructure
 - **Early MCP integration**: MCP server is new; tool coverage expanding
 - **Live trading risk**: Always use paper trading first and set position limits
 
 ## Security Notes
 
 - **API keys**: Exchange API keys are stored in Gainium's encrypted database, not passed through MCP
-- **Paper trading default**: New strategies start in simulation mode — must be explicitly switched to live
+- **Paper trading default**: New strategies start in simulation mode - must be explicitly switched to live
 - **Read-only mode**: Configure agents with read-only exchange API keys for monitoring-only use
 - **Confirmation gates**: Live deployment and large trades require explicit confirmation
 
 ## Category
 
-**Finance** — Gainium joins tools like Capital.com MCP and Alpha Vantage in the finance MCP category. It differentiates by focusing on crypto trading automation with a no-code strategy builder and AI agent integration.
+**Finance** - Gainium joins tools like Capital.com MCP and Alpha Vantage in the finance MCP category. It differentiates by focusing on crypto trading automation with a no-code strategy builder and AI agent integration.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Awesome Hermes Agent Ecosystem — Comprehensive Ecosystem Navigation
-description: Navigate the entire Hermes Agent ecosystem — skills, tools, integrations, deployment, and multi-agent orchestration. 161+ installs.
+title: Awesome Hermes Agent Ecosystem - Comprehensive Ecosystem Navigation
+description: Navigate the entire Hermes Agent ecosystem - skills, tools, integrations, deployment, and multi-agent orchestration. 161+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Awesome Hermes Agent Ecosystem — Setup Guide
+# Awesome Hermes Agent Ecosystem - Setup Guide
 
 **Source:** [aradotso/ai-agent-skills](https://github.com/aradotso/ai-agent-skills) (161+ installs)
 **Category:** Hermes Ecosystem / Discovery
 **Quality Tier:** 🔵 Community
 
-Comprehensive knowledge of the Hermes Agent ecosystem maintained at [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent). Covers skills, tools, integrations, deployment patterns, and multi-agent orchestration — everything needed to extend Hermes beyond the defaults.
+Comprehensive knowledge of the Hermes Agent ecosystem maintained at [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent). Covers skills, tools, integrations, deployment patterns, and multi-agent orchestration - everything needed to extend Hermes beyond the defaults.
 
 ---
 
@@ -44,11 +44,11 @@ git clone https://github.com/0xNyk/awesome-hermes-agent.git
 
 ## What Makes Hermes Agent Unique
 
-- **Built-in learning loop** — creates skills from experience and improves them during use
-- **Autonomous Curator (v0.20.0+)** — maintains its own skill library with 7-day grade/consolidate/prune cycles
-- **18 messaging platforms** — Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom, QQBot, Yuanbao, and more
-- **7 terminal backends** — local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox
-- **Conversational memory** — searches past conversations and builds user model across sessions
+- **Built-in learning loop** - creates skills from experience and improves them during use
+- **Autonomous Curator (v0.20.0+)** - maintains its own skill library with 7-day grade/consolidate/prune cycles
+- **18 messaging platforms** - Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom, QQBot, Yuanbao, and more
+- **7 terminal backends** - local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox
+- **Conversational memory** - searches past conversations and builds user model across sessions
 
 ---
 
@@ -136,7 +136,7 @@ hermes profile list
 | Category | Key Resources |
 |---|---|
 | **Core** | NousResearch/hermes-agent (134K ⭐) |
-| **Skills Hub** | skills.sh — 519+ curated skill repos |
+| **Skills Hub** | skills.sh - 519+ curated skill repos |
 | **GUI** | hermes-workspace, mission-control |
 | **Memory** | mem0, honcho, chromadb integrations |
 | **Deployment** | Docker, Modal, Daytona, Vercel Sandbox |

@@ -16,7 +16,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## What It Does for Operators
 
-Agent-ready global image CDN that AI agents can install and operate through MCP. Provides programmatic CDN management — upload, transform, and serve images globally from your AI agent workflow.
+Agent-ready global image CDN that AI agents can install and operate through MCP. Provides programmatic CDN management - upload, transform, and serve images globally from your AI agent workflow.
 
 ## Key Tools
 
@@ -29,10 +29,10 @@ Agent-ready global image CDN that AI agents can install and operate through MCP.
 
 ## Operator Use Cases
 
-1. **Automated image delivery** — agent-managed image CDN for web properties
-2. **Image optimization** — automatic format conversion and resizing
-3. **Asset management** — track and manage CDN assets through AI agents
-4. **Performance optimization** — agent-driven cache management
+1. **Automated image delivery** - agent-managed image CDN for web properties
+2. **Image optimization** - automatic format conversion and resizing
+3. **Asset management** - track and manage CDN assets through AI agents
+4. **Performance optimization** - agent-driven cache management
 
 ## CorpusIQ Angle
 
@@ -46,4 +46,4 @@ For operators managing web properties, CDN.MN provides AI-native CDN management.
 
 ---
 **Discovered:** July 24, 2026 via mcpservers.org /all page
-**Status:** JSON-LD extraction only — GitHub repo not identified
+**Status:** JSON-LD extraction only - GitHub repo not identified

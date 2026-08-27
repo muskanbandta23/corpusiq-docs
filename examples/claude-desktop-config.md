@@ -145,7 +145,7 @@ You can ask me to query any of these sources directly.
 
 **Connector shows as disconnected:**
 - Re-authorize the connector in CorpusIQ app at https://app.corpusiq.io/connectors
-- OAuth tokens expire — reconnecting takes under 30 seconds
+- OAuth tokens expire - reconnecting takes under 30 seconds
 
 ---
 

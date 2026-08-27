@@ -1,5 +1,5 @@
 ---
-title: "MCP Sweep — August 13, 2026 (Morning)"
+title: "MCP Sweep - August 13, 2026 (Morning)"
 description: "Morning sweep. Social publishing landscape exploded to 13+ MCP tools. PostHell (15 networks), LLMScout (45+ SEO tools), Mission Control (agent fleet orchestration), OutreachMagic, TimeToPost GEO platform"
 date: 2026-08-13T08:00:00-07:00
 sources: [github.com, skills.sh, mcpservers.org, pulsemcp.com]
@@ -13,7 +13,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "social publishing"
 
 ---
 
-# MCP Server Discovery Sweep — August 13, 2026 (Morning)
+# MCP Server Discovery Sweep - August 13, 2026 (Morning)
 
 ## Summary
 
@@ -25,7 +25,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "social publishing"
 
 ## Top Finds
 
-### PostHell MCP — 15-Network Social Scheduler
+### PostHell MCP - 15-Network Social Scheduler
 
 Remote Streamable HTTP MCP server for AI agents. Shape notes into posts in the user's voice, queue drafts for human approval, read growth analytics, publish to 15 networks (X, LinkedIn, Instagram, TikTok, YouTube, Facebook, Threads, Pinterest, Bluesky, Reddit, Discord, Telegram, and more). API key auth with per-key opt-in publishing.
 
@@ -35,7 +35,7 @@ Remote Streamable HTTP MCP server for AI agents. Shape notes into posts in the u
 - Endpoint: https://www.posthell.com/api/mcp
 - Auth: API key
 
-### LLMScout — SEO Autopilot
+### LLMScout - SEO Autopilot
 
 Analyze any domain for winnable queries, 45+ free SEO tools, generate and publish SEO articles. Hosted MCP at tryspook.com/api/mcp. Cross-reference against Ahrefs, Semrush, and DataForSEO before trusting outputs.
 
@@ -44,7 +44,7 @@ Analyze any domain for winnable queries, 45+ free SEO tools, generate and publis
 - Repo: github.com/rudrendupaul/llmscout
 - Endpoint: https://tryspook.com/api/mcp
 
-### Mission Control — Agent Fleet Orchestration Dashboard
+### Mission Control - Agent Fleet Orchestration Dashboard
 
 Open-source self-hosted dashboard for AI agent orchestration: multi-agent fleets, task dispatch, cost tracking, RBAC, skill registry, framework adapters. Zero external dependencies, MIT license, 5.4K stars.
 
@@ -52,7 +52,7 @@ Open-source self-hosted dashboard for AI agent orchestration: multi-agent fleets
 
 - Repo: github.com/builderz-labs/mission-control
 
-### OutreachMagic — GTM Pipeline Agent
+### OutreachMagic - GTM Pipeline Agent
 
 Syncs Smartlead, Instantly, HeyReach, PlusVibe, EmailBison, Prosp, and Calendly into a local SQLite database your agent can query. Production-tier, Hermes-compatible via agentskills.io.
 
@@ -60,9 +60,9 @@ Syncs Smartlead, Instantly, HeyReach, PlusVibe, EmailBison, Prosp, and Calendly 
 
 - Repo: github.com/outreachmagic/outreachmagic
 
-### TimeToPost — AI SEO + GEO Platform
+### TimeToPost - AI SEO + GEO Platform
 
-Find keywords, track Google rankings, earn backlinks, manage outreach, monitor AI mentions. MCP server. GEO (Generative Engine Optimization) is the new SEO frontier — optimizing for AI-generated answers in Perplexity, ChatGPT, and Gemini.
+Find keywords, track Google rankings, earn backlinks, manage outreach, monitor AI mentions. MCP server. GEO (Generative Engine Optimization) is the new SEO frontier - optimizing for AI-generated answers in Perplexity, ChatGPT, and Gemini.
 
 **Why it matters:** First-mover advantage in GEO tracking. Watch for CorpusIQ mentions across AI answer engines.
 
@@ -70,16 +70,16 @@ Find keywords, track Google rankings, earn backlinks, manage outreach, monitor A
 
 ### More Finds
 
-- **Taisly MCP** — short-form video publishing to TikTok, Instagram Reels, YouTube Shorts, X, Facebook. OAuth + local stdio.
-- **Publora MCP** — 10-platform scheduling with LinkedIn comments and reactions.
-- **Tofu Bofu** — 12-platform publishing.
-- **bundle.social** — 14+ platform coverage.
-- **drawio-mcp-server** (jgraph, 1.4K stars) + drawio-skill (5.8K stars) — natural-language diagram generation.
-- **OpenOutreach** (2.6K stars) — agentic email automation, Python, self-hosted.
-- **GrowChief** (3.5K stars) — all-in-one social management, open source.
-- **Misar Blog MCP** — AI-first blogging: publish, draft, generate titles, analytics.
-- **Glippy** — AI agent discoverability analyzer.
-- **AI Slop Checker** — detects AI writing patterns in content.
+- **Taisly MCP** - short-form video publishing to TikTok, Instagram Reels, YouTube Shorts, X, Facebook. OAuth + local stdio.
+- **Publora MCP** - 10-platform scheduling with LinkedIn comments and reactions.
+- **Tofu Bofu** - 12-platform publishing.
+- **bundle.social** - 14+ platform coverage.
+- **drawio-mcp-server** (jgraph, 1.4K stars) + drawio-skill (5.8K stars) - natural-language diagram generation.
+- **OpenOutreach** (2.6K stars) - agentic email automation, Python, self-hosted.
+- **GrowChief** (3.5K stars) - all-in-one social management, open source.
+- **Misar Blog MCP** - AI-first blogging: publish, draft, generate titles, analytics.
+- **Glippy** - AI agent discoverability analyzer.
+- **AI Slop Checker** - detects AI writing patterns in content.
 
 ## Category Analysis
 
@@ -113,4 +113,4 @@ Mission Control for fleet management. Microsoft AGT for runtime policy enforceme
 
 ## Source
 
-Hermes Ecosystem Discovery Engine, nightly scan — GitHub, skills.sh, mcpservers.org, pulsemcp.com, Reddit, X/Twitter. Full report at data/ecosystem-discovery-2026-08-12.md.
+Hermes Ecosystem Discovery Engine, nightly scan - GitHub, skills.sh, mcpservers.org, pulsemcp.com, Reddit, X/Twitter. Full report at data/ecosystem-discovery-2026-08-12.md.

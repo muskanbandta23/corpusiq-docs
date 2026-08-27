@@ -1,6 +1,6 @@
 ---
-title: "Engram MCP — Git-Backed Shared Memory Dashboard for AI"
-description: "Engram MCP server — self-hosted memory with dashboard UI backed by a git repository of markdown files. Authoritative search ensures agents always get the"
+title: "Engram MCP - Git-Backed Shared Memory Dashboard for AI"
+description: "Engram MCP server - self-hosted memory with dashboard UI backed by a git repository of markdown files. Authoritative search ensures agents always get the"
 category: mcp
 tags: [mcp-server, memory, knowledge-management, git-backed, self-hosted, dashboard]
 last_updated: 2026-07-19
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Engram MCP Server — Git-Backed Memory Dashboard
+# Engram MCP Server - Git-Backed Memory Dashboard
 
-Engram is a self-hosted MCP server + dashboard that gives AI agents shared memory over a git-backed folder of markdown files. What differentiates it from other memory servers: search is authoritative — it always returns the latest committed version, not a stale embedding. The dashboard provides human visibility into what agents are remembering.
+Engram is a self-hosted MCP server + dashboard that gives AI agents shared memory over a git-backed folder of markdown files. What differentiates it from other memory servers: search is authoritative - it always returns the latest committed version, not a stale embedding. The dashboard provides human visibility into what agents are remembering.
 
 **Source:** awesome-mcp-servers PR #9807 (discovered July 19, 2026)
 **Category:** Knowledge & Memory
@@ -21,7 +21,7 @@ Engram is a self-hosted MCP server + dashboard that gives AI agents shared memor
 
 ## Why This Matters
 
-Most vector-based memory solutions have a fundamental problem: the embedding and the source document drift apart. Engram solves this by making the source of truth a git repository of markdown files — every write is a commit, every read is from HEAD. The dashboard lets humans audit what agents are writing, edit memories directly, and roll back bad writes via git.
+Most vector-based memory solutions have a fundamental problem: the embedding and the source document drift apart. Engram solves this by making the source of truth a git repository of markdown files - every write is a commit, every read is from HEAD. The dashboard lets humans audit what agents are writing, edit memories directly, and roll back bad writes via git.
 
 ## Installation
 
@@ -58,7 +58,7 @@ npx engram-mcp
 | Tool | Description |
 |------|-------------|
 | `write_memory` | Commit a new memory as a markdown file |
-| `search_memory` | Authoritative search — always returns HEAD version |
+| `search_memory` | Authoritative search - always returns HEAD version |
 | `edit_memory` | Modify an existing memory (creates a new commit) |
 | `list_memories` | Browse all stored memories with metadata |
 | `get_history` | View git log for a specific memory file |

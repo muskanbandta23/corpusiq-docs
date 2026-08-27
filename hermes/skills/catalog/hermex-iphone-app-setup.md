@@ -1,6 +1,6 @@
 ---
-title: "Hermex iPhone App — Setup Guide for Hermes Agent"
-description: "Step-by-step guide to install and configure Hermex — the native iPhone app for your self-hosted Hermes agent. App Store install, server pairing, Tailscale"
+title: "Hermex iPhone App - Setup Guide for Hermes Agent"
+description: "Step-by-step guide to install and configure Hermex - the native iPhone app for your self-hosted Hermes agent. App Store install, server pairing, Tailscale"
 category: mobile
 tags: [hermes-agent, hermex, ios, iphone, mobile, self-hosted, swiftui]
 last_updated: 2026-07-08
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Hermex iPhone App — Setup Guide
+# Hermex iPhone App - Setup Guide
 
-Hermex is a native SwiftUI iPhone app that turns your phone into a mobile cockpit for your self-hosted Hermes agent. Your agent, its tools, and your data stay on your own hardware — the phone is the control plane, not the compute plane. Free, private (no analytics, no tracking), and native (not a web wrapper).
+Hermex is a native SwiftUI iPhone app that turns your phone into a mobile cockpit for your self-hosted Hermes agent. Your agent, its tools, and your data stay on your own hardware - the phone is the control plane, not the compute plane. Free, private (no analytics, no tracking), and native (not a web wrapper).
 
 **Repo:** [uzairansaruzi/hermex](https://github.com/uzairansaruzi/hermex) (286⭐)
 **App Store:** [Hermex on the App Store](https://apps.apple.com/app/hermex/id6767006319)
@@ -25,10 +25,10 @@ Hermex is a native SwiftUI iPhone app that turns your phone into a mobile cockpi
 
 Before installing Hermex, you need a running Hermes Web UI server:
 
-1. **Hermes Web UI server** — Install and start `hermes-webui` on macOS, Linux, or Windows/WSL2
+1. **Hermes Web UI server** - Install and start `hermes-webui` on macOS, Linux, or Windows/WSL2
 2. **Python 3.11+** on the server
-3. **Network access** — Your iPhone must be able to reach the server (see connectivity options below)
-4. **Strong password** — Set `HERMES_WEBUI_PASSWORD` on the server
+3. **Network access** - Your iPhone must be able to reach the server (see connectivity options below)
+4. **Strong password** - Set `HERMES_WEBUI_PASSWORD` on the server
 
 ---
 
@@ -160,8 +160,8 @@ Once connected, Hermex gives you access to:
 | **Tasks** | View and edit your agent's scheduled cron jobs from your phone. |
 | **Skills** | Browse and search your agent's installed skills. |
 | **Workspace** | Explore your server's file system from the app. |
-| **Memory** | Read-only panel for agent memory — see what your agent remembers. |
-| **Insights** | Usage analytics — tokens, sessions, model usage. |
+| **Memory** | Read-only panel for agent memory - see what your agent remembers. |
+| **Insights** | Usage analytics - tokens, sessions, model usage. |
 
 ---
 
@@ -190,7 +190,7 @@ Check these in order:
 ### Slow Response Times
 
 - Hermex streams responses in real time. Latency depends on your model and server hardware, not the app.
-- For large responses with many tool calls, the streaming UI may feel sluggish — this is model-side, not app-side.
+- For large responses with many tool calls, the streaming UI may feel sluggish - this is model-side, not app-side.
 
 ---
 
@@ -199,7 +199,7 @@ Check these in order:
 - **No analytics, no tracking.** Hermex sends no data to the developer or any third party.
 - **No relay.** All communication is directly between your iPhone and your server.
 - **Your data stays on your hardware.** The app only displays what your server returns.
-- **Password-protected.** Server authentication via `HERMES_WEBUI_PASSWORD`. Set a strong password — it's your only defense on a publicly reachable hostname.
+- **Password-protected.** Server authentication via `HERMES_WEBUI_PASSWORD`. Set a strong password - it's your only defense on a publicly reachable hostname.
 - **Open source.** MIT licensed. [Full source on GitHub](https://github.com/uzairansaruzi/hermex).
 
 ---

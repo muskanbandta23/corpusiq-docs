@@ -1,13 +1,13 @@
 ---
-title: LiarJS Skills — Browser Fingerprint & Playwright Stealth Setup
-description: "liarjsdev/liarjs-skills — 4 skills at 51.9K installs: fingerprint-ci-gate, playwright-stealth-verify, browser-fingerprint-audit, and fingerprint-failure-triage for anti-bot detection and stealth verification."
+title: LiarJS Skills - Browser Fingerprint & Playwright Stealth Setup
+description: "liarjsdev/liarjs-skills - 4 skills at 51.9K installs: fingerprint-ci-gate, playwright-stealth-verify, browser-fingerprint-audit, and fingerprint-failure-triage for anti-bot detection and stealth verification."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/liarjs-fingerprint-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup", "playwright", "fingerprinting", "anti-bot"]
 ---
 
-# LiarJS Skills — Setup Guide
+# LiarJS Skills - Setup Guide
 
 **Source:** [liarjsdev/liarjs-skills](https://skills.sh/liarjsdev/liarjs-skills)
 **GitHub:** [liarjsdev/liarjs-skills](https://github.com/liarjsdev/liarjs-skills)
@@ -67,7 +67,7 @@ npx skills add liarjsdev/liarjs-skills --skill browser-fingerprint-audit
 
 ## Limitations / Verification
 
-- Stealth techniques evolve against detection — re-audit after platform updates
+- Stealth techniques evolve against detection - re-audit after platform updates
 - Skills assume a Playwright/CI toolchain is already present
 
 ```bash
@@ -77,8 +77,8 @@ npx skills add liarjsdev/liarjs-skills --skill browser-fingerprint-audit   # ver
 ## Related
 
 - [Skills Catalog](/hermes/skills/catalog/)
-- [Playwright Social Media Automation](/hermes/skills/) — browser automation doctrine
-- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) — browser inspection
+- [Playwright Social Media Automation](/hermes/skills/) - browser automation doctrine
+- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) - browser inspection
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 

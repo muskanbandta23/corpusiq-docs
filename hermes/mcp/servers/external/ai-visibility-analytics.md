@@ -1,5 +1,5 @@
 ---
-title: "AI Visibility Analytics MCP — Brand Monitoring"
+title: "AI Visibility Analytics MCP - Brand Monitoring"
 description: "Monitor brand visibility across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector for competitive intelligence and AI search"
 category: mcp
 tags: [mcp-server, marketing, seo, brand-monitoring, ai-search, competitive-intelligence]
@@ -11,9 +11,9 @@ robots: "index,follow"
 
 # AI Visibility Analytics MCP Server ★ New (July 14)
 
-Monitor your brand's presence across AI-powered search engines and chatbots — ChatGPT, Perplexity, Gemini, AI Overviews, and more. This MCP server connects AI assistants to visibility analytics so you can run scans, compare competitor mentions, and track how your brand appears in AI-generated responses.
+Monitor your brand's presence across AI-powered search engines and chatbots - ChatGPT, Perplexity, Gemini, AI Overviews, and more. This MCP server connects AI assistants to visibility analytics so you can run scans, compare competitor mentions, and track how your brand appears in AI-generated responses.
 
-**Source:** mcp.so (exact repo TBD — GitHub search API rate-limited)
+**Source:** mcp.so (exact repo TBD - GitHub search API rate-limited)
 **Submitted:** July 14, 2026
 
 ## Key Features
@@ -26,7 +26,7 @@ Monitor your brand's presence across AI-powered search engines and chatbots — 
 
 ## Business Relevance
 
-As AI search engines replace traditional search for a growing share of queries, brand visibility in AI responses becomes critical. This is the GEO (Generative Engine Optimization) equivalent of rank tracking — operators need to know if their brand appears when customers ask ChatGPT or Perplexity about solutions in their space. Essential for:
+As AI search engines replace traditional search for a growing share of queries, brand visibility in AI responses becomes critical. This is the GEO (Generative Engine Optimization) equivalent of rank tracking - operators need to know if their brand appears when customers ask ChatGPT or Perplexity about solutions in their space. Essential for:
 - Marketing operators tracking AI search presence
 - Brand managers monitoring AI reputation
 - Competitive intelligence teams benchmarking against rivals
@@ -40,4 +40,4 @@ Complements CorpusIQ's business data connectors by adding AI-search visibility t
 
 - Exact GitHub repo TBD (GitHub search API rate-limited as of July 14)
 - Coverage may vary by AI provider as their APIs evolve
-- New category — best practices for AI visibility tracking still emerging
+- New category - best practices for AI visibility tracking still emerging

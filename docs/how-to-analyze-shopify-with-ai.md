@@ -55,4 +55,4 @@ Shopify's analytics answer questions about Shopify. CorpusIQ answers questions t
 
 ## Try it
 
-corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+corpusiq.io/pricing - 30-day free trial, all 40+ connectors.

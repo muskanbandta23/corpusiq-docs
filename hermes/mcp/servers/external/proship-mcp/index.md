@@ -11,7 +11,7 @@ tags: [shipping, logistics, thailand-post, order-management, tracking, labels, e
 
 # ProShip MCP
 
-**MCP server for ProShip, a Thai order-management platform connected to Thailand Post — AI agents create Thailand Post shipments, print PDF shipping labels, track parcels with universal Thai carrier tracking, and manage orders.** Includes in-chat account signup so new users receive an API token without leaving the conversation. MIT-licensed, stateless remote streamable HTTP.
+**MCP server for ProShip, a Thai order-management platform connected to Thailand Post - AI agents create Thailand Post shipments, print PDF shipping labels, track parcels with universal Thai carrier tracking, and manage orders.** Includes in-chat account signup so new users receive an API token without leaving the conversation. MIT-licensed, stateless remote streamable HTTP.
 
 ```
 Server type: Remote (Streamable HTTP, stateless)
@@ -25,7 +25,7 @@ Built by: ProShip (repo: proship1/proship-mcp, docs include a Thai-language quic
 
 ## Why This Matters for Operators
 
-Thai ecommerce operators run their fulfillment through Thailand Post, and order management through platforms like ProShip. This MCP closes the last mile of that workflow inside the agent: an order that arrives in chat becomes a shipment with a printed PDF label and live tracking — without a human re-keying anything. The auto-generated docs page from the tool registry and Thai quick-start make it approachable for the operators who actually run these stores.
+Thai ecommerce operators run their fulfillment through Thailand Post, and order management through platforms like ProShip. This MCP closes the last mile of that workflow inside the agent: an order that arrives in chat becomes a shipment with a printed PDF label and live tracking - without a human re-keying anything. The auto-generated docs page from the tool registry and Thai quick-start make it approachable for the operators who actually run these stores.
 
 **The in-chat signup is the notable design decision.** Account creation and token issuance happen inside the conversation, so an agent can onboard a merchant, connect, and start creating shipments in one session.
 
@@ -39,7 +39,7 @@ Thai ecommerce operators run their fulfillment through Thailand Post, and order 
 | Order management | Manage orders from the connected platform |
 | Account | In-chat signup and API token issuance |
 
-Stateless remote transport means no local install — point any MCP client at the endpoint.
+Stateless remote transport means no local install - point any MCP client at the endpoint.
 
 ## Installation
 
@@ -58,7 +58,7 @@ Token issuance happens via the in-chat signup flow; the docs page at mcp.proship
 
 ## Configuration
 
-No local state — the server is remote and stateless. The token from signup identifies the account for order and shipment operations. Thai-language quick-start available for local operators.
+No local state - the server is remote and stateless. The token from signup identifies the account for order and shipment operations. Thai-language quick-start available for local operators.
 
 ## Business Relevance
 
@@ -75,7 +75,7 @@ The composed workflow: CorpusIQ reports the order and inventory picture, the age
 
 ## Limitations
 
-- Thailand-only carrier coverage — no relevance outside Thai fulfillment
+- Thailand-only carrier coverage - no relevance outside Thai fulfillment
 - Brand new submission (Aug 18, 2026), zero stars, no adoption track record
 - Single-vendor service operated by a small team
 - Tool list not yet auto-published in directories; inspect the docs page before integration

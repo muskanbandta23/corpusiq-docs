@@ -1,6 +1,6 @@
 ---
-title: Telegram CLI — Native Telegram Client for Hermes Agents
-description: Full-featured Telegram CLI for reading, searching, sending messages, managing groups, and syncing chat history. 425 installs. Fast native MTProto client — no bot API limitations.
+title: Telegram CLI - Native Telegram Client for Hermes Agents
+description: Full-featured Telegram CLI for reading, searching, sending messages, managing groups, and syncing chat history. 425 installs. Fast native MTProto client - no bot API limitations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skillhq-telegram-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Telegram CLI — Setup Guide
+# Telegram CLI - Setup Guide
 
 **Source:** [skillhq/telegram](https://skills.sh/skillhq/telegram) (425 installs)
 **Category:** Communication / Messaging
 **Quality Tier:** 🔵 Community
 
-A native Telegram CLI using the MTProto protocol — not the Bot API. This means full access to your Telegram account: read messages, search across all chats, send DMs and group messages, manage group members, mute chats, export history, and organize folders. Much more powerful than bot-only access for Hermes agents that need full Telegram account capabilities.
+A native Telegram CLI using the MTProto protocol - not the Bot API. This means full access to your Telegram account: read messages, search across all chats, send DMs and group messages, manage group members, mute chats, export history, and organize folders. Much more powerful than bot-only access for Hermes agents that need full Telegram account capabilities.
 
 ---
 
@@ -96,7 +96,7 @@ telegram folders                            # List chat folders
 
 ---
 
-## Quick Start — Hermes Agent
+## Quick Start - Hermes Agent
 
 ```bash
 # Install
@@ -128,9 +128,9 @@ telegram whoami --json | python3 -c "import json,sys; d=json.load(sys.stdin); pr
 
 ## Notes
 
-- **MTProto, not Bot API**: Full account access — read all chats, send as yourself, manage groups. Much more powerful than bot-only Telegram access
+- **MTProto, not Bot API**: Full account access - read all chats, send as yourself, manage groups. Much more powerful than bot-only Telegram access
 - **First-time auth**: Requires API credentials from my.telegram.org (one-time setup per account)
-- **Session persistence**: Session saved locally after `telegram auth` — no re-authentication needed
+- **Session persistence**: Session saved locally after `telegram auth` - no re-authentication needed
 - **Use case for CorpusIQ**: Monitor CorpusIQ Team forum, read Topic 2 messages programmatically, send alerts, export chat history for analysis
-- **Pitfall**: Not for bot accounts — use Telegram Bot API for @corpusiq_bot. This is for human account access
+- **Pitfall**: Not for bot accounts - use Telegram Bot API for @corpusiq_bot. This is for human account access
 - **Related skills**: telegram-bot-builder (if using bot API), corpusiq-inbound-communication-monitoring

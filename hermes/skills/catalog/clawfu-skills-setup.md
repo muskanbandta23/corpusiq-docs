@@ -1,6 +1,6 @@
 ---
-title: ClawFu Skills — Full Setup Guide for Hermes Agents
-description: Install and use ClawFu's 175 expert marketing methodologies for AI agents. MCP-native. Dunford, Schwartz, Cialdini, Ogilvy, Hormozi — encoded as agent-readable skills.
+title: ClawFu Skills - Full Setup Guide for Hermes Agents
+description: Install and use ClawFu's 175 expert marketing methodologies for AI agents. MCP-native. Dunford, Schwartz, Cialdini, Ogilvy, Hormozi - encoded as agent-readable skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawfu-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# ClawFu Skills — Setup Guide
+# ClawFu Skills - Setup Guide
 
 **Source:** [guia-matthieu/clawfu-skills](https://github.com/guia-matthieu/clawfu-skills) (134⭐)
 **Category:** Marketing
 **Language:** Python (MCP Server)
 
-175 expert marketing methodologies for AI agents. The world's best marketing thinkers — Dunford on positioning, Schwartz on copywriting, Cialdini on persuasion, Ogilvy on advertising, Hormozi on offers, Voss on negotiation — encoded as structured, agent-readable instructions. Free, open source, MIT licensed. Delivered as an MCP server.
+175 expert marketing methodologies for AI agents. The world's best marketing thinkers - Dunford on positioning, Schwartz on copywriting, Cialdini on persuasion, Ogilvy on advertising, Hormozi on offers, Voss on negotiation - encoded as structured, agent-readable instructions. Free, open source, MIT licensed. Delivered as an MCP server.
 
 ---
 
@@ -109,7 +109,7 @@ git clone https://github.com/guia-matthieu/clawfu-skills.git
 
 | Issue | Fix |
 |---|---|
-| **MCP connection refused** | Verify npx is available: `which npx` — install Node.js if missing |
+| **MCP connection refused** | Verify npx is available: `which npx` - install Node.js if missing |
 | **Skill not loading** | Check MCP server is in config.yaml and Hermes has restarted |
 | **Too many skills** | Use skill orchestrator (included) to chain relevant skills for complex tasks |
 
@@ -122,7 +122,7 @@ npx @clawfu/mcp-skills --help 2>&1 | head -5
 # Verify skill installed in Hermes
 hermes mcp list | grep clawfu
 
-# Quick test — ask Hermes to use a ClawFu skill
+# Quick test - ask Hermes to use a ClawFu skill
 # In session: "Use the ClawFu positioning framework to analyze our competitor messaging"
 ```
 

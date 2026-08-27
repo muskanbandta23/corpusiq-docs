@@ -1,5 +1,5 @@
 ---
-title: Cron Design Workflow — Full Setup Guide for Hermes Agents
+title: Cron Design Workflow - Full Setup Guide for Hermes Agents
 description: Install and configure the Cron Design Workflow skill from lovenps85/hermes-cron-design-workflow-skill. Reusable workflow for designing and improving Hermes cron jobs, scheduled automations, and recurring operations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cron-design-workflow-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Cron Design Workflow — Setup Guide
+# Cron Design Workflow - Setup Guide
 
 **Source:** [lovenps85/hermes-cron-design-workflow-skill](https://github.com/lovenps85/hermes-cron-design-workflow-skill)
 **Category:** Operations / DevOps
@@ -19,7 +19,7 @@ A reusable Hermes Agent skill for designing and improving cron jobs, scheduled a
 
 ## Installation
 
-### Option A: Clone/copy (recommended — preserves references)
+### Option A: Clone/copy (recommended - preserves references)
 
 ```bash
 git clone https://github.com/lovenps85/hermes-cron-design-workflow-skill.git
@@ -67,9 +67,9 @@ Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Ve
 | Phase | What Happens | Output |
 |---|---|---|
 | **Context** | Gather existing crons, schedules, and requirements | Structured requirements doc |
-| **Office Hour** | Open Q&A session — explore edge cases, constraints | Clarified scope |
+| **Office Hour** | Open Q&A session - explore edge cases, constraints | Clarified scope |
 | **Brainstorming** | Generate multiple approaches, evaluate trade-offs | Ranked options |
-| **Grill Me** | Stress-test the chosen approach — find failure modes | Hardened design |
+| **Grill Me** | Stress-test the chosen approach - find failure modes | Hardened design |
 | **Docs** | Write the cron spec, schedule, monitoring plan | Deployable documentation |
 | **Execute / Verify** | Deploy and validate the cron job | Running automation |
 
@@ -89,7 +89,7 @@ Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Ve
 | Use Case | How |
 |---|---|
 | **New Automation Design** | "Design a cron to monitor MCP server uptime every hour" |
-| **Existing Cron Optimization** | "Review the skills-sweep cron — it's running slow" |
+| **Existing Cron Optimization** | "Review the skills-sweep cron - it's running slow" |
 | **Scheduled Report Generation** | "Design a daily HTML report cron for growth metrics" |
 | **Watchdog Design** | "Design a watchdog for email inbox monitoring" |
 | **Cron Consolidation** | "Audit all crons and suggest consolidation" |
@@ -101,8 +101,8 @@ Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Ve
 | Issue | Fix |
 |---|---|
 | Skill not found | Verify clone path: `ls ~/.hermes/skills/devops/cron-design-workflow/` |
-| References missing | Use Option A (clone) — Option B may only install SKILL.md |
-| Pipeline stalls | Each phase builds on the last — ensure Context is complete before Office Hour |
+| References missing | Use Option A (clone) - Option B may only install SKILL.md |
+| Pipeline stalls | Each phase builds on the last - ensure Context is complete before Office Hour |
 
 ## Verification
 

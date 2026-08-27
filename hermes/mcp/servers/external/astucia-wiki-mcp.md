@@ -1,5 +1,5 @@
 ---
-title: "Astucia Wiki MCP — AI-Enabled Team Wiki for Hermes Agent"
+title: "Astucia Wiki MCP - AI-Enabled Team Wiki for Hermes Agent"
 description: "Connect Astucia Wiki to Hermes Agent. AI-native team wiki with semantic search, auto-organization, and natural language querying. For operators who need a"
 category: mcp
 tags: [mcp-server, wiki, knowledge-management, documentation, team-collaboration, productivity]
@@ -13,16 +13,16 @@ robots: "index,follow"
 
 ## Overview
 
-Astucia Wiki (`astucia-wiki-mcp`) is an AI-enabled team wiki that connects to MCP-compatible AI agents. Unlike traditional wikis where knowledge rots in unsearchable pages, Astucia is built from the ground up for AI access — semantic search, auto-tagging, and natural language queries work out of the box. Your agent can read, write, and organize wiki content as naturally as a team member.
+Astucia Wiki (`astucia-wiki-mcp`) is an AI-enabled team wiki that connects to MCP-compatible AI agents. Unlike traditional wikis where knowledge rots in unsearchable pages, Astucia is built from the ground up for AI access - semantic search, auto-tagging, and natural language queries work out of the box. Your agent can read, write, and organize wiki content as naturally as a team member.
 
-**Key advantage**: Finally, a wiki your AI agent can actually use. No more "our wiki has the answer but the agent can't find it" — Astucia exposes its entire knowledge graph over MCP.
+**Key advantage**: Finally, a wiki your AI agent can actually use. No more "our wiki has the answer but the agent can't find it" - Astucia exposes its entire knowledge graph over MCP.
 
 ## Key Features
 
 - **Semantic search**: Natural language queries surface relevant pages, not just keyword matches
 - **Auto-organization**: AI automatically tags, links, and structures content as it's added
 - **Agent-first editing**: Create, update, and organize pages via MCP tools
-- **Knowledge graph**: Pages are connected via AI-identified relationships — not manual linking
+- **Knowledge graph**: Pages are connected via AI-identified relationships - not manual linking
 - **Version history**: Track changes with AI-generated summaries of what changed and why
 - **Access control**: Team-based permissions with read/write/admin levels
 
@@ -59,7 +59,7 @@ hermes mcp add astucia --url https://astucia.wiki/api/mcp
 
 ## Why Operators Need This
 
-Most company wikis are write-only — people add pages, nobody finds them later. Astucia Wiki MCP flips this by making the wiki a first-class data source for AI agents. Your operating knowledge becomes a queryable asset rather than a graveyard of abandoned Confluence pages.
+Most company wikis are write-only - people add pages, nobody finds them later. Astucia Wiki MCP flips this by making the wiki a first-class data source for AI agents. Your operating knowledge becomes a queryable asset rather than a graveyard of abandoned Confluence pages.
 
 ## Comparison: Astucia vs Traditional Wikis
 
@@ -72,5 +72,5 @@ Most company wikis are write-only — people add pages, nobody finds them later.
 
 ---
 
-*Discovered via mcpservers.org — July 4, 2026*
+*Discovered via mcpservers.org - July 4, 2026*
 *← [External MCP Catalog](/hermes/mcp/servers/external/) | [Astucia Wiki](https://astucia.wiki) →*

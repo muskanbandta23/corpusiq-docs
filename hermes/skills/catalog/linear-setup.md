@@ -1,6 +1,6 @@
 ---
-title: Linear Integration — Skill Setup Guide
-description: Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API — no OAuth, no MCP server — 80 installs.
+title: Linear Integration - Skill Setup Guide
+description: Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API - no OAuth, no MCP server - 80 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/linear-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,14 +8,14 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Linear — Issue & Project Management Setup Guide
+# Linear - Issue & Project Management Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/linear) (80 installs)
 **Category:** Productivity / Project Management
 **License:** MIT · **Platforms:** Linux, macOS, Windows
 **Dependencies:** Hermes Agent, Linear.app account, Personal API key
 
-Manage Linear issues, projects, and teams directly from Hermes using the GraphQL API via `curl`. No MCP server, no OAuth dance, no extra dependencies — just an API key and HTTP. Create issues, query team workloads, manage sprints, and triage your backlog without leaving the terminal.
+Manage Linear issues, projects, and teams directly from Hermes using the GraphQL API via `curl`. No MCP server, no OAuth dance, no extra dependencies - just an API key and HTTP. Create issues, query team workloads, manage sprints, and triage your backlog without leaving the terminal.
 
 ---
 
@@ -71,7 +71,7 @@ cp -r /tmp/hermes-agent/skills/productivity/linear ~/.hermes/skills/
 3. Click **Create new API key**
 4. Copy the key (starts with `lin_api_`)
 
-**Important:** The org-level *Settings > API* page only shows OAuth apps and workspace-member keys — not your personal key. You must use the account-level security page.
+**Important:** The org-level *Settings > API* page only shows OAuth apps and workspace-member keys - not your personal key. You must use the account-level security page.
 
 ### Step 2: Configure Hermes
 
@@ -142,9 +142,9 @@ export LINEAR_API_KEY="lin_api_..."
 
 ## Tips
 
-- **Short IDs work everywhere:** Use `ENG-123` instead of full UUIDs — Linear resolves them automatically
+- **Short IDs work everywhere:** Use `ENG-123` instead of full UUIDs - Linear resolves them automatically
 - **Batch queries:** GraphQL lets you fetch issues + comments + project in one request
-- **Rate limits:** Linear has generous limits (1,000+ requests/minute) — no special handling needed
+- **Rate limits:** Linear has generous limits (1,000+ requests/minute) - no special handling needed
 - **Team awareness:** `team { id, name }` is available on issues for cross-team queries
 
 ---
@@ -153,7 +153,7 @@ export LINEAR_API_KEY="lin_api_..."
 
 | Problem | Likely Cause | Fix |
 |---------|-------------|-----|
-| 401 Unauthorized | Wrong key or "Bearer" prefix | Remove "Bearer" — Linear API keys don't use it |
+| 401 Unauthorized | Wrong key or "Bearer" prefix | Remove "Bearer" - Linear API keys don't use it |
 | "No team found" | Key scoped to wrong workspace | Verify key is from the correct Linear account |
 | Empty results | Query filter too strict | Broaden filters or remove status constraint |
 

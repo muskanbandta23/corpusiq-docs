@@ -10,12 +10,12 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Community
 
-Resources for the Hermes Agent community — badges, share cards, and contribution guides.
+Resources for the Hermes Agent community - badges, share cards, and contribution guides.
 
 ## Contents
 
-- [Badge](badge.md) — Community badge and status indicators
-- [Share Card](share-card.md) — Social sharing cards for Hermes projects
+- [Badge](badge.md) - Community badge and status indicators
+- [Share Card](share-card.md) - Social sharing cards for Hermes projects
 
 ---
 

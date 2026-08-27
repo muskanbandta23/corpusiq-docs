@@ -1,5 +1,5 @@
 ---
-title: "Sweep Report — July 30, 2026 - CorpusIQ Docs"
+title: "Sweep Report - July 30, 2026 - CorpusIQ Docs"
 date: 2026-07-30
 sources: mcpservers.org sitemaps (1-6 + priority), mcp.so /servers SSR
 status: complete
@@ -11,11 +11,11 @@ description: "Morning sweep of mcpservers.org sitemaps (6 server sitemaps + prio
 
 ---
 
-# MCP Directory Sweep — July 30, 2026
+# MCP Directory Sweep - July 30, 2026
 
 ## Summary
 
-Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) and mcp.so /servers page (76 servers on first page). Firecrawl + web_extract DOWN — used curl + sitemap scanning (proven fallback). Last comprehensive sweep was July 29 afternoon (~20 hours ago).
+Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) and mcp.so /servers page (76 servers on first page). Firecrawl + web_extract DOWN - used curl + sitemap scanning (proven fallback). Last comprehensive sweep was July 29 afternoon (~20 hours ago).
 
 **Result:** 1 business-relevant server discovered (IBANforge), ~300+ sitemap re-indexes noted. mcpservers.org still at ~10,377 servers. mcp.so at 18,065 servers.
 
@@ -23,7 +23,7 @@ Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) 
 
 ## ★★ Business-Relevant (1 Guide Written)
 
-### IBANforge MCP ★★ — July 30
+### IBANforge MCP ★★ - July 30
 **IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification via MCP.** AI agents validate international bank details before initiating payments. 6 tools: validate-iban, lookup-swift, lookup-iban, swiss-clearing, classify-emi, classify-viban. TypeScript (Hono), SQLite-backed, remote Streamable HTTP. Free tier available. First dedicated banking-compliance MCP server. `github.com/cammac-creator/ibanforge` (2⭐) · [Guide →](/hermes/mcp/servers/external/ibanforge-mcp/)
 
 ---
@@ -32,7 +32,7 @@ Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) 
 
 | Server | Source | Category | Notes |
 |--------|--------|----------|-------|
-| Orders of Magnitude — x402 API Catalog | mcp.so featured | Agent Infrastructure | 1000+ pay-per-call API endpoints via x402 on Base/USDC. Finance, weather, geography, economic data. Interesting but infrastructure-layer, not direct business tool. `github.com/OrdersOfMagnitudeLLC` |
+| Orders of Magnitude - x402 API Catalog | mcp.so featured | Agent Infrastructure | 1000+ pay-per-call API endpoints via x402 on Base/USDC. Finance, weather, geography, economic data. Interesting but infrastructure-layer, not direct business tool. `github.com/OrdersOfMagnitudeLLC` |
 | Termany | mcp.so featured | Developer Tools | Agent-Native Terminal. Developer-focused, not business-ops. |
 | Floors.live | mcp.so featured | Events | Event floor plan designer with 32 tools. Niche (event planning). |
 | Glasswarp | mcp.so featured | Infrastructure | See and control a real Windows PC from MCP. BYOH. DevOps/IT, not business-ops. |
@@ -49,7 +49,7 @@ Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) 
 
 ## Notable Ecosystem Observation
 
-The mcpservers.org `lastmod` field does NOT equal creation date. Over 300+ server pages were re-crawled on July 30, but these are overwhelmingly re-indexes of existing pages — not new server submissions. The sitemap-based discovery approach is becoming less useful for finding genuinely new servers; the mcp.so featured/newest page is a better signal for new submissions.
+The mcpservers.org `lastmod` field does NOT equal creation date. Over 300+ server pages were re-crawled on July 30, but these are overwhelmingly re-indexes of existing pages - not new server submissions. The sitemap-based discovery approach is becoming less useful for finding genuinely new servers; the mcp.so featured/newest page is a better signal for new submissions.
 
 ---
 

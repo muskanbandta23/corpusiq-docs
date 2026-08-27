@@ -1,5 +1,5 @@
 ---
-title: "Tech Logos — Official Brand Logo Installer for shadcn/ui (Hermes Agents)"
+title: "Tech Logos - Official Brand Logo Installer for shadcn/ui (Hermes Agents)"
 description: "Install official, theme-aware tech brand logos (154 available) from the Elements shadcn registry. Covers AI providers, auth stacks, social platforms, and payment logos for Next.js + shadcn/ui projects. 100+ installs, 521-star registry."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tech-logos-setup/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Tech Logos — Setup Guide
+# Tech Logos - Setup Guide
 
 **Source:** [crafter-station/elements](https://github.com/crafter-station/elements) (521 ⭐)
 **Skill:** `crafter-station/elements@tech-logos`
@@ -17,7 +17,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Quality Tier:** 🟢 Production (registry is a trusted shadcn directory entry)
 **First Seen:** August 25, 2026
 
-`tech-logos` is an agent playbook for installing official, theme-aware brand logos from the Elements registry — a full-stack shadcn/ui block library (auth, payments, AI components, and 154 tech brand logos). It triggers on logo/brand requests ("add a Clerk logo", "GitHub icon"), placeholder-logo detection, or when an agent builds landing pages, auth UIs, or integration showcases in a Next.js + shadcn/ui project. The skill files live in the repo's `.claude/skills/` directory (authored with Claude Code in mind), but the playbook is agent-agnostic: every action is a plain `npx shadcn` CLI command that any Hermes agent with terminal access can execute.
+`tech-logos` is an agent playbook for installing official, theme-aware brand logos from the Elements registry - a full-stack shadcn/ui block library (auth, payments, AI components, and 154 tech brand logos). It triggers on logo/brand requests ("add a Clerk logo", "GitHub icon"), placeholder-logo detection, or when an agent builds landing pages, auth UIs, or integration showcases in a Next.js + shadcn/ui project. The skill files live in the repo's `.claude/skills/` directory (authored with Claude Code in mind), but the playbook is agent-agnostic: every action is a plain `npx shadcn` CLI command that any Hermes agent with terminal access can execute.
 
 ---
 
@@ -28,7 +28,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 npx skills add crafter-station/elements --skill tech-logos
 ```
 
-The skill itself wraps the Elements shadcn registry — no plugin or API key is required. The underlying install primitive is the standard shadcn CLI:
+The skill itself wraps the Elements shadcn registry - no plugin or API key is required. The underlying install primitive is the standard shadcn CLI:
 
 ```bash
 # Add individual logos to a shadcn-initialized Next.js project
@@ -45,7 +45,7 @@ npx shadcn@latest add @elements/github-logo
 | **Node.js 18+** | Required by the shadcn CLI |
 | **Next.js project with shadcn/ui** | Run `npx shadcn@latest init` first if `components.json` is missing |
 | **Hermes Agent** | Terminal access; no version restriction |
-| **Elements registry** | Trusted shadcn registry — listed in the [shadcn directory](https://ui.shadcn.com/docs/directory?q=elements); no manual config |
+| **Elements registry** | Trusted shadcn registry - listed in the [shadcn directory](https://ui.shadcn.com/docs/directory?q=elements); no manual config |
 
 ---
 
@@ -102,7 +102,7 @@ npx shadcn@latest add @elements/vercel-logo @elements/supabase-logo @elements/st
 | `Component X not found` on install | Verify the name against the registry: `ls registry/default/blocks/logos/ \| sed 's/-logo$//'` (in the repo) or browse tryelements.dev/docs/logos |
 | `components.json` missing error | Run `npx shadcn@latest init` in the project root first |
 | Logo doesn't respect dark mode | Pass `mode="dark"` (or `"light"`) explicitly, or omit `mode` to auto-detect theme |
-| Need a logo that doesn't exist | Generate the pre-filled GitHub issue URL with the skill and file a `logo-request` — the skill formats title, body, and labels |
+| Need a logo that doesn't exist | Generate the pre-filled GitHub issue URL with the skill and file a `logo-request` - the skill formats title, body, and labels |
 | Wrong variant rendered | Check the `variant` prop: `"icon"` (mark only) vs `"wordmark"` (mark + wordmark) |
 
 ## Verification

@@ -1,5 +1,5 @@
 ---
-title: New Skills Discovery — July 12, 2026
+title: New Skills Discovery - July 12, 2026
 description: 9 new Hermes and OpenClaw ecosystem skills discovered via skills.sh API sweep. OpenClaw plugin testing tools, skill distribution utility, Solana plugins, WeChat integration, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july12-2026/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovery — July 12, 2026
+# New Skills Discovery - July 12, 2026
 
 **Date:** July 12, 2026
 **Method:** skills.sh API sweep (10 standard + 15 broader ecosystem queries)
@@ -26,9 +26,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 **New & Noteworthy:**
 
-- **distribute-skill-to-all-agents** (59 installs) — Sync skills across Codex, Claude Code, Pi, and Hermes agent folders. Canonical location management with symlink verification.
-- **openclaw-pre-release-plugin-testing** (62 installs) — Test OpenClaw plugins in pre-release environments from steipete/clawdis.
-- **openclaw-weixin-setup** (33 installs) — WeChat/Weixin integration for OpenClaw agents from skills.volces.com.
+- **distribute-skill-to-all-agents** (59 installs) - Sync skills across Codex, Claude Code, Pi, and Hermes agent folders. Canonical location management with symlink verification.
+- **openclaw-pre-release-plugin-testing** (62 installs) - Test OpenClaw plugins in pre-release environments from steipete/clawdis.
+- **openclaw-weixin-setup** (33 installs) - WeChat/Weixin integration for OpenClaw agents from skills.volces.com.
 
 ---
 
@@ -84,11 +84,11 @@ npx skills add davidondrej/skills --skill browser-harness
 
 ## Notes
 
-- **hermes-tweet** variants from wshobson/agents (72 installs) and davepoon/buildwithclaude (22 installs) surfaced but skipped — already catalogued as Xquik-dev/hermes-tweet in the ecosystem index.
-- All OpenClaw skills are niche but extend the ecosystem into plugin testing, blockchain, WeChat, and multimodal AI — gaps not previously covered.
+- **hermes-tweet** variants from wshobson/agents (72 installs) and davepoon/buildwithclaude (22 installs) surfaced but skipped - already catalogued as Xquik-dev/hermes-tweet in the ecosystem index.
+- All OpenClaw skills are niche but extend the ecosystem into plugin testing, blockchain, WeChat, and multimodal AI - gaps not previously covered.
 - `distribute-skill-to-all-agents` is the only genuinely new Hermes Agent skill. Full setup guide at [distribute-skill-to-all-agents →](/hermes/skills/catalog/distribute-skill-to-all-agents-setup/).
 
 ---
 
 *← [Marketplace Index](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
-*Curated by CorpusIQ — one MCP endpoint, all your business tools.*
+*Curated by CorpusIQ - one MCP endpoint, all your business tools.*

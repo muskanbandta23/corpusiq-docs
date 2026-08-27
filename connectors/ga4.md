@@ -1,19 +1,19 @@
 ---
-title: "GA4 — Google Analytics 4 - CorpusIQ Docs"
-description: "Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue — without leaving Cl."
+title: "GA4 - Google Analytics 4 - CorpusIQ Docs"
+description: "Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue - without leaving Cl."
 ---
-# GA4 — Google Analytics 4
+# GA4 - Google Analytics 4
 
-Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue — without leaving Claude or ChatGPT.
+Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue - without leaving Claude or ChatGPT.
 
 ## What it unlocks
 
-- **Traffic analysis** — sessions, users, pageviews by channel, device, country
-- **Acquisition breakdown** — which channels drive the most engaged visitors
-- **Conversion tracking** — goal completions, events, funnel performance
-- **Revenue reporting** — ecommerce purchase revenue, ROAS from GA4's perspective
-- **Real-time data** — active users right now, top pages in the last 30 minutes
-- **Cross-source analysis** — GA4 traffic vs Google Ads spend vs Shopify revenue in one answer
+- **Traffic analysis** - sessions, users, pageviews by channel, device, country
+- **Acquisition breakdown** - which channels drive the most engaged visitors
+- **Conversion tracking** - goal completions, events, funnel performance
+- **Revenue reporting** - ecommerce purchase revenue, ROAS from GA4's perspective
+- **Real-time data** - active users right now, top pages in the last 30 minutes
+- **Cross-source analysis** - GA4 traffic vs Google Ads spend vs Shopify revenue in one answer
 
 ## Example prompts
 
@@ -45,7 +45,7 @@ GA4 is part of the Google Workspace connector, not a separate connector.
 2. Click **Google Workspace**
 3. Sign in with the Google account that has access to your GA4 property
 4. Select the GA4 property you want to read
-5. Done — GA4 data comes through the Google Workspace connection, read-only, and never modifies your Analytics data
+5. Done - GA4 data comes through the Google Workspace connection, read-only, and never modifies your Analytics data
 
 ## What data CorpusIQ can see
 

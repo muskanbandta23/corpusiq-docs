@@ -1,5 +1,5 @@
 ---
-title: "AI Localization Agent MCP — Integration Guide"
+title: "AI Localization Agent MCP - Integration Guide"
 description: "Connect AI agents to l10n.dev's localization platform. Stop wasting AI tokens on translation workflows."
 category: mcp
 tags: [mcp-server, localization, translation, i18n, l10n-dev]
@@ -9,16 +9,16 @@ robots: "index,follow"
 
 ---
 
-# AI Localization Agent MCP — Integration Guide
+# AI Localization Agent MCP - Integration Guide
 
 **Provider:** l10n.dev
 **GitHub:** 3 stars
-**Category:** AI & Agents — Localization
+**Category:** AI & Agents - Localization
 **Listing:** mcp.so (July 13, 2026)
 
 ## Overview
 
-The AI Localization Agent MCP server connects AI agents to l10n.dev's localization platform. Designed to solve the problem of AI token waste in localization workflows — instead of sending entire documents through LLM context windows for translation, this MCP routes localization tasks through dedicated translation infrastructure.
+The AI Localization Agent MCP server connects AI agents to l10n.dev's localization platform. Designed to solve the problem of AI token waste in localization workflows - instead of sending entire documents through LLM context windows for translation, this MCP routes localization tasks through dedicated translation infrastructure.
 
 ## Why This Matters for Operators
 
@@ -60,8 +60,8 @@ Or add to your MCP client configuration:
 
 ## Complementary to CorpusIQ
 
-CorpusIQ provides business data connectors (QuickBooks, Shopify, Stripe, etc.). AI Localization Agent adds the translation layer — operators can pull data through CorpusIQ, analyze it, and then localize insights/reports through this MCP.
+CorpusIQ provides business data connectors (QuickBooks, Shopify, Stripe, etc.). AI Localization Agent adds the translation layer - operators can pull data through CorpusIQ, analyze it, and then localize insights/reports through this MCP.
 
 ## Status
 
-⚠️ **New listing (July 13, 2026)** — early-stage MCP server. Monitor GitHub for activity and documentation updates before production deployment.
+⚠️ **New listing (July 13, 2026)** - early-stage MCP server. Monitor GitHub for activity and documentation updates before production deployment.
