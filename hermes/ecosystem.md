@@ -124,6 +124,14 @@ _Core Hermes Agent repos, official builds_
 
 ---
 
+### [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive) ⭐ 1,473
+
+>AI-powered virtual executive team — a single coherent executive persona backed by 8 specialist Claude agents (CSO, CFO, CHRO, GC, COO, CMO, CPO, Board). RAG over built-in MBA knowledge plus your company documents via ChromaDB, SQLite episodic memory across sessions, proactive scheduler, and prompt-cached system prompts (up to 85% hit rate). FastAPI backend + Next.js 15 UI, Apache 2.0.
+
+**Language:** Python | **Topics:** ai, anthropic, claude, fastapi, llm, multi-agent, nextjs, python, rag, typescript | **Score:** 80/100
+
+---
+
 ## 🚀 Deployment
 
 _Docker, Kubernetes, production hosting_
