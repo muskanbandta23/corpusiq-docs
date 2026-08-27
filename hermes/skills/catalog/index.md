@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-24"
+last_updated: "2026-08-26"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -523,3 +523,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [System Atlas — Explorable Architecture Map Skill Setup](/docs/hermes/skills/catalog/system-atlas-setup/)
 - [Makerskills — Personal Operator Agent Suite Setup](/docs/hermes/skills/catalog/makerskills-setup/)
 - [Tech Logos — Brand Logo Installer for shadcn/ui Setup](/docs/hermes/skills/catalog/tech-logos-setup/)
+- [Generative Media Skills — 153-Skill Media Production Suite Setup](/docs/hermes/skills/catalog/generative-media-skills-setup/)

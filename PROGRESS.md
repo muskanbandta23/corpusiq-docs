@@ -4,11 +4,11 @@ Current state and ongoing work for the public docs repository.
 
 ## File count (updated August 26, 2026)
 
-- **Total Markdown files:** 1,976
+- **Total Markdown files:** 1,983
 - **Total HTML files:** 1,744 (MkDocs build output)
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 499 setup guides for Hermes skills
+- **Skills catalog:** 500 setup guides for Hermes skills
 - **MCP servers:** 504 server listing markdown pages (+ HTML companions); 601 total .md under hermes/mcp/; 382 servers / 268 guides in the external catalog
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
@@ -29,13 +29,14 @@ The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
 - **MCP server scans:** MCP.so + mcpservers.org scanned daily. 536 servers listed with integration guides.
-- **Skills.sh marketplace:** Daily scan for new Hermes skills. 493 setup guides published.
+- **Skills.sh marketplace:** Daily scan for new Hermes skills. 500 setup guides published.
 - **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
 
+- **Skills sweep ✅ (Aug 26, 2026):** 15-query skills.sh tiered sweep (605 unique skills, 0 failures). 89 NEW flags all below the 100-install bar (max 89), 113 PARTIAL. Both PARTIAL ≥100 candidates re-verified as standing rejections: `skill-composer-studio` (onewave-ai/claude-skills, 264 — Claude Code chain composer), `azure-chaos-studio` (microsoftdocs/agent-skills, 118 — Azure platform). New find: `calesthio/generative-media-skills` (137⭐ MIT, 153 skills, 2.1K indexed installs) — full media production brain with explicit HERMES.md support, direct fit for the UGC video pipeline (elevenlabs-tts, openai-gpt-image, hyperframes-video-composition, heygen-avatar-video, media-qc-delivery). Install path verified live (`npx skills add ... --list` → 151 packages; 2 YAML-parse skips documented). Added cluster setup guide `generative-media-skills-setup.md` + catalog index entry (500 setup guides; reconciled the marketplace stat line 493 → 500). Parked: oakoss/agent-skills (89), thatrebeccarae/claude-marketing (83), kyleamathews/field-lab (31), seven Hermes-named 1–8-install skills (watchlist). PII scan clean. Pushed to main, changed pages verified HTTP 200.
 - **Maintenance ✅ (Aug 26, 2026, afternoon):** Catalogued 3dlogo MCP (chatmcp/mcpso issue #3779, first post-midday issue) — 3D logos and coins, remote Streamable HTTP, OAuth 2.1 PKCE + free public tier; endpoint verified live (INIT 200 serverInfo 3dlogo v1.0.0, main endpoint HTTP 401 auth gate). External catalog: 381 → 382 servers, 267 → 268 guides. New sweep report sweep-aug26-2026-afternoon.md. Fixed 98 files with malformed frontmatter (`last_updated: 2026-08-23"` missing opening quote — dates were unquoted while the closing quote remained). Bumped 3 stale last_updated dates in docs/ (chatgpt-integration, enterprise-ai-data-access, mcp-vs-data-warehouse — cutoff Aug 19). Normalized 1 connector-count straggler (docs/what-is-an-mcp-server.md "over 30" → "over 40"). Internal links: 0 broken (3 false positives = Slack mrkdwn `[text](url)` examples). PII scan clean. PROGRESS.md stats refreshed (1,976 MD, 504 server pages, 601 hermes/mcp .md). Deployed to Vercel, changed pages verified HTTP 200.
 - **Maintenance ✅ (Aug 25, 2026):** Sanitized internal IP (192.168.x.x) from 2 sweep pages (sweep-august24-2026-evening, sweep-august25-2026-morning → "internal worker node"). Refreshed all 3 sitemaps (hermes-sitemap.xml 193 URLs + sitemap-index.xml 2 + sitemap.xml 323 → 2026-08-25). Connector count: 0 stragglers (canonical 40+ per corpusiq.io). Stale dates: 0 files. Internal links: 0 broken. Frontmatter: all 3,456 valid. External spot-check all 200. Deploy shipped 18 pending MCP server pages from Aug 24-25 sweeps (previously 404 on production) — all verified HTTP 200. PROGRESS.md stats refreshed (1,958 MD, 503 MCP servers, 585 hermes/mcp .md). Pushed to main (1c8931a0), deployed to Vercel, changed pages verified HTTP 200.
 - **Skills sweep ✅ (Aug 24, 2026, evening):** 48-query skills.sh API sweep (686 unique skills, 0 failures), plus hot-leaderboard and watchlist re-verification. API surface fully known at 2K threshold. New find: `coreyhaines31/makerskills` (23 skills, 4.7K publisher installs vs 480 API sum, 681⭐, active same day) — cohesive personal-operator suite (second-brain, company-brain, deep-research, decide, CFO skills) with zero tree hits. Added cluster setup guide `makerskills-setup.md` + catalog index entry (498 setup guides; catches up 4 uncounted Aug 24 morning guides). Parked below bar: serkan-ozal/browser-devtools-skills (496), secondsky/claude-skills (359, claude-skills repo, rejected), davidlee/doctrine spec-tech (89, watchlist). Mac Mini offline; sweep ran from Spark clone.
