@@ -122,6 +122,15 @@
   }
   </script>
   <meta name="last-updated" content="{% if page and page.meta and page.meta.last_updated %}{{ page.meta.last_updated }}{% endif %}">
+  {# WebMCP (W3C draft): register read-only docs tools for agentic browsers via
+     navigator.modelContext.registerTool() (webmcp.js). Inline reference so
+     static auditors can detect the integration; registration is a no-op when
+     the API is absent. #}
+  <script>
+    if ('modelContext' in navigator) {
+      document.documentElement.setAttribute('data-webmcp', 'available');
+    }
+  </script>
   {# Google Preferred Sources: interactive "Add to Preferred Sources" button.
      Readers who select corpusiq.io as a preferred source see our content
      highlighted with a "preferred" badge in Top Stories, AI Mode, and AI
