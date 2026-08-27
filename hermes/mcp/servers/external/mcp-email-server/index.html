@@ -23,7 +23,7 @@
     
     
   
-    <title>MCP Email Server — IMAP/SMTP Email for AI Agents</title>
+    <title>MCP Email Server - IMAP/SMTP Email for AI Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-email-server">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="MCP Email Server — IMAP/SMTP Email for AI Agents">
+  <meta property="og:title" content="MCP Email Server - IMAP/SMTP Email for AI Agents">
   <meta property="og:description" content="Integration guide for ai-zerolab/mcp-email-server. IMAP and SMTP email access via MCP for Hermes Agent. Send/receive emails from AI agents.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MCP Email Server — IMAP/SMTP Email for AI Agents">
+  <meta name="twitter:title" content="MCP Email Server - IMAP/SMTP Email for AI Agents">
   <meta name="twitter:description" content="Integration guide for ai-zerolab/mcp-email-server. IMAP and SMTP email access via MCP for Hermes Agent. Send/receive emails from AI agents.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "MCP Email Server \u2014 IMAP/SMTP Email for AI Agents",
+    "name": "MCP Email Server - IMAP/SMTP Email for AI Agents",
     "description": "Integration guide for ai-zerolab/mcp-email-server. IMAP and SMTP email access via MCP for Hermes Agent. Send/receive emails from AI agents.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-email-server",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP Email Server — IMAP/SMTP Email for AI Agents
+              MCP Email Server - IMAP/SMTP Email for AI Agents
             
           </span>
         </div>
@@ -10127,14 +10127,14 @@
   
 
 
-<h1 id="mcp-email-server-imapsmtp-email-for-ai-agents">MCP Email Server — IMAP/SMTP Email for AI Agents<a class="headerlink" href="#mcp-email-server-imapsmtp-email-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
+<h1 id="mcp-email-server-imapsmtp-email-for-ai-agents">MCP Email Server - IMAP/SMTP Email for AI Agents<a class="headerlink" href="#mcp-email-server-imapsmtp-email-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repository:</strong> <a href="https://github.com/ai-zerolab/mcp-email-server">ai-zerolab/mcp-email-server</a>
 <strong>Stars:</strong> 281 ★
 <strong>Category:</strong> Communication / Email
 <strong>License:</strong> MIT
 <strong>Last Updated:</strong> 2026-07-14</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
-<p>Provides IMAP and SMTP access for AI agents via MCP. Agents can read, search, and send emails through standard email protocols — no API wrappers needed. Works with any email provider that supports IMAP/SMTP (Gmail, Outlook, Fastmail, ProtonMail Bridge, self-hosted).</p>
+<p>Provides IMAP and SMTP access for AI agents via MCP. Agents can read, search, and send emails through standard email protocols - no API wrappers needed. Works with any email provider that supports IMAP/SMTP (Gmail, Outlook, Fastmail, ProtonMail Bridge, self-hosted).</p>
 <h3 id="tools-provided">Tools Provided<a class="headerlink" href="#tools-provided" title="Anchor link to this section">&para;</a></h3>
 <table>
 <thead>
@@ -10269,31 +10269,31 @@ SMTP_PASSWORD=your-app-password
 </code></pre></div>
 <h3 id="step-4-verify">Step 4: Verify<a class="headerlink" href="#step-4-verify" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>list
-<span class="c1"># Should show: email (ai-zerolab/mcp-email-server) — CONNECTED</span>
+<span class="c1"># Should show: email (ai-zerolab/mcp-email-server) - CONNECTED</span>
 </code></pre></div>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Unified inbox search:</strong> Query multiple email accounts across providers through one MCP interface</li>
 <li><strong>Automated email triage:</strong> Agent scans inbox, categorizes, and drafts responses</li>
 <li><strong>Self-hosted email integration:</strong> Connect self-hosted mail servers (Dovecot, iRedMail) to AI agents</li>
-<li><strong>Privacy-first email:</strong> Bypass Gmail API tracking — read email over standard IMAP</li>
+<li><strong>Privacy-first email:</strong> Bypass Gmail API tracking - read email over standard IMAP</li>
 <li><strong>Email migration scripts:</strong> Move emails between accounts/providers via agent orchestration</li>
 </ol>
 <h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Store credentials in environment variables, never in config files</li>
 <li>Use app-specific passwords, not account master passwords</li>
-<li>IMAP/SMTP credentials provide full email access — scope carefully</li>
+<li>IMAP/SMTP credentials provide full email access - scope carefully</li>
 <li>Consider a dedicated email account for agent use rather than personal inbox</li>
 <li>Gmail users: app passwords require 2FA (good for security)</li>
-<li>The MCP server runs locally — credentials never leave your machine</li>
+<li>The MCP server runs locally - credentials never leave your machine</li>
 </ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>No OAuth support — credentials-based auth only</li>
+<li>No OAuth support - credentials-based auth only</li>
 <li>Limited attachment handling (raw MIME only)</li>
 <li>IMAP SEARCH syntax is less powerful than Gmail's search operators</li>
-<li>No push notifications — polling-based inbox monitoring</li>
+<li>No push notifications - polling-based inbox monitoring</li>
 <li>Single account per server instance (run multiple instances for multiple accounts)</li>
 </ul>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
@@ -10325,9 +10325,9 @@ SMTP_PASSWORD=your-app-password
 </table>
 <h2 id="related-guides">Related Guides<a class="headerlink" href="#related-guides" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/connectors/email">CorpusIQ Email Connector</a> — OAuth-based Gmail/Outlook</li>
-<li><a href="/hermes/mcp/servers/external/google-search-console-mcp">Google Search Console MCP</a> — SEO analytics via MCP</li>
-<li><a href="/hermes/mcp/servers/external/comparedge-llm-cost-mcp">ComparEdge LLM Cost MCP</a> — Token cost intelligence</li>
+<li><a href="/hermes/mcp/connectors/email">CorpusIQ Email Connector</a> - OAuth-based Gmail/Outlook</li>
+<li><a href="/hermes/mcp/servers/external/google-search-console-mcp">Google Search Console MCP</a> - SEO analytics via MCP</li>
+<li><a href="/hermes/mcp/servers/external/comparedge-llm-cost-mcp">ComparEdge LLM Cost MCP</a> - Token cost intelligence</li>
 </ul>
 
 

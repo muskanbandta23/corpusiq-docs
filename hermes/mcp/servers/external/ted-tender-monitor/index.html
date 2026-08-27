@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="EU TED procurement monitoring for AI agents — search and track tender notices by CPV code, country, keyword, value, and type via Apify">
+        <meta name="description" content="EU TED procurement monitoring for AI agents - search and track tender notices by CPV code, country, keyword, value, and type via Apify">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ted-tender-monitor">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="TED Tender Monitor - CorpusIQ Docs">
-  <meta property="og:description" content="EU TED procurement monitoring for AI agents — search and track tender notices by CPV code, country, keyword, value, and type via Apify">
+  <meta property="og:description" content="EU TED procurement monitoring for AI agents - search and track tender notices by CPV code, country, keyword, value, and type via Apify">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="TED Tender Monitor - CorpusIQ Docs">
-  <meta name="twitter:description" content="EU TED procurement monitoring for AI agents — search and track tender notices by CPV code, country, keyword, value, and type via Apify">
+  <meta name="twitter:description" content="EU TED procurement monitoring for AI agents - search and track tender notices by CPV code, country, keyword, value, and type via Apify">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "TED Tender Monitor - CorpusIQ Docs",
-    "description": "EU TED procurement monitoring for AI agents \u2014 search and track tender notices by CPV code, country, keyword, value, and type via Apify",
+    "description": "EU TED procurement monitoring for AI agents - search and track tender notices by CPV code, country, keyword, value, and type via Apify",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ted-tender-monitor",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="ted-tender-monitor">TED Tender Monitor<a class="headerlink" href="#ted-tender-monitor" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP server over an Apify Actor (TED Tender Monitor — EU Procurement Alerts) from Telemark Digital.</strong> Search official EU TED procurement notices by CPV code, country, keyword, value, or notice type, and run persistent scheduled monitoring that delivers only new or changed tenders. An unofficial community tool: it wraps the keyless TED Search API into structured JSON with deduplication state, and ships with n8n and Make workflows ready to import.</p>
+<p><strong>MCP server over an Apify Actor (TED Tender Monitor - EU Procurement Alerts) from Telemark Digital.</strong> Search official EU TED procurement notices by CPV code, country, keyword, value, or notice type, and run persistent scheduled monitoring that delivers only new or changed tenders. An unofficial community tool: it wraps the keyless TED Search API into structured JSON with deduplication state, and ships with n8n and Make workflows ready to import.</p>
 <div class="highlight"><pre><span></span><code>Server type: MCP server over Apify Actor (ted-tender-watch)
 Auth: Apify account (the actor uses the keyless TED Search API underneath)
 Repo: github.com/Telemark-Digital/apify-monitoring-workflows (ted-tender-monitor/)
@@ -10057,7 +10057,7 @@ Category: Procurement / Sales
 Built by: Telemark Digital (unofficial, not affiliated with TED or the EU)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Public-sector revenue is the largest customer acquisition channel most operators never work: EU TED publishes the entire public procurement market above the thresholds, and every notice is a qualified, budgeted buyer. The problem has always been signal triage — thousands of notices, keyword noise, and duplicate reads.</p>
+<p>Public-sector revenue is the largest customer acquisition channel most operators never work: EU TED publishes the entire public procurement market above the thresholds, and every notice is a qualified, budgeted buyer. The problem has always been signal triage - thousands of notices, keyword noise, and duplicate reads.</p>
 <p><strong>Discovery and monitoring are different, and this tool is built for the difference.</strong> Sample-mode tasks return up to ten recent matching notices immediately for exploration; persistent tasks prime state once and thereafter return only new or changed notices plus one summary record. That deduplication is what makes a weekly tender review practical instead of a second job.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10112,7 +10112,7 @@ Built by: Telemark Digital (unofficial, not affiliated with TED or the EU)
 </code></pre></div>
 <p>The repo's README and thirteen example tasks define the monitoring surface; the mcpservers.org listing carries the server metadata. Workflows intentionally retrieve one non-paginated page with limit 1000.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>Connect the repo's <code>server.json</code> through your MCP client once the Apify token is available, or import the credential-free n8n workflow (<code>n8n.io/workflows/18030-monitor-eu-ted-tenders-with-apify-and-store-notices-in-n8n-data-tables/</code>). Webhook destinations and signing secrets are deliberately absent from public examples — configure them only in your private Task input for direct push delivery.</p>
+<p>Connect the repo's <code>server.json</code> through your MCP client once the Apify token is available, or import the credential-free n8n workflow (<code>n8n.io/workflows/18030-monitor-eu-ted-tenders-with-apify-and-store-notices-in-n8n-data-tables/</code>). Webhook destinations and signing secrets are deliberately absent from public examples - configure them only in your private Task input for direct push delivery.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>B2B operators entering the EU market</strong> get a standing view of public buyers actively procuring in their category.</li>
@@ -10121,13 +10121,13 @@ Built by: Telemark Digital (unofficial, not affiliated with TED or the EU)
 <li><strong>Compliance-driven vendors</strong> watch change notices and corrigenda without re-reading full notice feeds.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Tender monitoring produces leads; CorpusIQ converts them into pipeline. The composition: TED Tender Monitor surfaces new notices as structured JSON, the assistant qualifies them against the operator's fit, and CorpusIQ connectors take over — the prospect lands in HubSpot or Close as a lead, quotes and invoicing run through QuickBooks or Axonaut (for French entities, the natural EU pairing), and campaign ROI closes the loop in Stripe and GA4. For public-sector work in the EU, this is the first end-to-end chain from notice to invoice observed in the catalog.</p>
+<p>Tender monitoring produces leads; CorpusIQ converts them into pipeline. The composition: TED Tender Monitor surfaces new notices as structured JSON, the assistant qualifies them against the operator's fit, and CorpusIQ connectors take over - the prospect lands in HubSpot or Close as a lead, quotes and invoicing run through QuickBooks or Axonaut (for French entities, the natural EU pairing), and campaign ROI closes the loop in Stripe and GA4. For public-sector work in the EU, this is the first end-to-end chain from notice to invoice observed in the catalog.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Unofficial community tool — not affiliated with TED or the EU Publications Office</li>
+<li>Unofficial community tool - not affiliated with TED or the EU Publications Office</li>
 <li>Apify account required; per-tender event charges on top of platform usage</li>
 <li>Notice content depends on TED's own API availability</li>
-<li>Brand new listing — no track record yet; the repo's VALIDATION.md notes account-gated checks still in progress</li>
+<li>Brand new listing - no track record yet; the repo's VALIDATION.md notes account-gated checks still in progress</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

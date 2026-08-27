@@ -10435,7 +10435,7 @@
 <h1 id="gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation">Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation<a class="headerlink" href="#gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation" title="Anchor link to this section">&para;</a></h1>
 <p>Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration  --  no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's <a href="/docs/hermes/best-practices/model-selection">model selection</a> capabilities, you get a powerful AI workstation.</p>
+<p>A gaming PC delivers the highest raw inference performance for local AI models. With 8-24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50-200 tokens per second. Combined with Hermes Agent's <a href="/docs/hermes/best-practices/model-selection">model selection</a> capabilities, you get a powerful AI workstation.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10447,11 +10447,11 @@
 <tbody>
 <tr>
 <td>GPU memory</td>
-<td>8–24GB VRAM (runs 7B–70B models)</td>
+<td>8-24GB VRAM (runs 7B-70B models)</td>
 </tr>
 <tr>
 <td>Inference speed</td>
-<td>50–200 tokens/sec with CUDA</td>
+<td>50-200 tokens/sec with CUDA</td>
 </tr>
 <tr>
 <td>Cost per token</td>
@@ -10489,15 +10489,15 @@ ollama<span class="w"> </span>run<span class="w"> </span>llama3.2<span class="w"
 <span class="c1"># Check: nvidia-smi should show ollama using GPU memory</span>
 </code></pre></div>
 <h3 id="step-3-pull-models-that-fit-your-vram">Step 3: Pull Models That Fit Your VRAM<a class="headerlink" href="#step-3-pull-models-that-fit-your-vram" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># 6–8GB VRAM: 7B–8B models</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># 6-8GB VRAM: 7B-8B models</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>llama3.2<span class="w">          </span><span class="c1"># ~4.7GB</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>mistral:7b<span class="w">         </span><span class="c1"># ~4.1GB</span>
 
-<span class="c1"># 12–16GB VRAM: 13B–14B models</span>
+<span class="c1"># 12-16GB VRAM: 13B-14B models</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>qwen2.5:14b<span class="w">        </span><span class="c1"># ~8.5GB</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>phi4:14b<span class="w">           </span><span class="c1"># ~9.1GB</span>
 
-<span class="c1"># 20–24GB VRAM: 32B–34B models</span>
+<span class="c1"># 20-24GB VRAM: 32B-34B models</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>qwen2.5:32b<span class="w">        </span><span class="c1"># ~20GB</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>codestral:22b<span class="w">      </span><span class="c1"># ~13GB</span>
 
@@ -10549,7 +10549,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Zero API costs</strong>: All inference runs locally on your GPU</li>
-<li><strong>Maximum speed</strong>: 50–200 tokens/sec with CUDA</li>
+<li><strong>Maximum speed</strong>: 50-200 tokens/sec with CUDA</li>
 <li><strong>Complete privacy</strong>: Models and data never leave your machine</li>
 <li><strong>No rate limits</strong>: Unlimited inference 24/7</li>
 <li><strong>Multi-GPU ready</strong>: Scale with NVLink for larger models</li>
@@ -10561,7 +10561,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <h3 id="can-my-gaming-pc-run-hermes-agent-while-im-gaming">Can my gaming PC run Hermes Agent while I'm gaming?<a class="headerlink" href="#can-my-gaming-pc-run-hermes-agent-while-im-gaming" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Set <code>OLLAMA_KEEP_ALIVE=10m</code> so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.</p>
 <h3 id="what-vram-do-i-need-for-local-llms">What VRAM do I need for local LLMs?<a class="headerlink" href="#what-vram-do-i-need-for-local-llms" title="Anchor link to this section">&para;</a></h3>
-<p>6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our <a href="/docs/hermes/best-practices/model-selection">model selection guide</a> for detailed recommendations.</p>
+<p>6-8GB VRAM handles 7B models. 12-16GB handles 13-14B models. 24GB handles 32B models. See our <a href="/docs/hermes/best-practices/model-selection">model selection guide</a> for detailed recommendations.</p>
 <h3 id="which-gpu-is-best-for-hermes-agent">Which GPU is best for Hermes Agent?<a class="headerlink" href="#which-gpu-is-best-for-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ models. Multiple GPUs can be combined with NVLink.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>

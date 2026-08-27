@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure sebmarion/hermes-agent-skill-perfectloop — a design-layer framework for building safe, testable, gated agent loops with objective">
+        <meta name="description" content="Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Perfectloop — Agent Loop Design Framework Setup Guide</title>
+    <title>Perfectloop - Agent Loop Design Framework Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/perfectloop-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Perfectloop — Agent Loop Design Framework Setup Guide">
-  <meta property="og:description" content="Install and configure sebmarion/hermes-agent-skill-perfectloop — a design-layer framework for building safe, testable, gated agent loops with objective">
+  <meta property="og:title" content="Perfectloop - Agent Loop Design Framework Setup Guide">
+  <meta property="og:description" content="Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Perfectloop — Agent Loop Design Framework Setup Guide">
-  <meta name="twitter:description" content="Install and configure sebmarion/hermes-agent-skill-perfectloop — a design-layer framework for building safe, testable, gated agent loops with objective">
+  <meta name="twitter:title" content="Perfectloop - Agent Loop Design Framework Setup Guide">
+  <meta name="twitter:description" content="Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Perfectloop \u2014 Agent Loop Design Framework Setup Guide",
-    "description": "Install and configure sebmarion/hermes-agent-skill-perfectloop \u2014 a design-layer framework for building safe, testable, gated agent loops with objective",
+    "name": "Perfectloop - Agent Loop Design Framework Setup Guide",
+    "description": "Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/perfectloop-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Perfectloop — Agent Loop Design Framework Setup Guide
+              Perfectloop - Agent Loop Design Framework Setup Guide
             
           </span>
         </div>
@@ -10083,7 +10083,7 @@
   
 
 
-<h1 id="perfectloop-loop-design-framework-setup">Perfectloop — Loop Design Framework Setup<a class="headerlink" href="#perfectloop-loop-design-framework-setup" title="Anchor link to this section">&para;</a></h1>
+<h1 id="perfectloop-loop-design-framework-setup">Perfectloop - Loop Design Framework Setup<a class="headerlink" href="#perfectloop-loop-design-framework-setup" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/sebmarion/hermes-agent-skill-perfectloop">sebmarion/hermes-agent-skill-perfectloop</a>
 <strong>Stars:</strong> 0 ⭐ | <strong>License:</strong> MIT
 <strong>Created:</strong> June 24, 2026
@@ -10091,7 +10091,7 @@
 <strong>SKILL.md size:</strong> 21KB (largest single skill file this week)</p>
 <hr />
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A design-layer framework for turning vague automation ideas into safe, testable agent loops. Uses an 8-question core interview before any loop is designed — and will flatly reject bad loop candidates.</p>
+<p>A design-layer framework for turning vague automation ideas into safe, testable agent loops. Uses an 8-question core interview before any loop is designed - and will flatly reject bad loop candidates.</p>
 <p><strong>Core philosophy:</strong> The job is not to "make an agent" by writing a big prompt. The job is to design the system that repeatedly prompts, observes, verifies, records state, learns, and safely decides the next action.</p>
 <div class="highlight"><pre><span></span><code>Act → Observe → Learn → Repeat
          ↑
@@ -10106,7 +10106,7 @@
 <h2 id="2-prerequisites">2. Prerequisites<a class="headerlink" href="#2-prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Hermes Agent (works with cron jobs, watchdogs, background agents)</li>
-<li>No special tools — pure skill definition</li>
+<li>No special tools - pure skill definition</li>
 </ul>
 <h2 id="3-installation">3. Installation<a class="headerlink" href="#3-installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/sebmarion/hermes-agent-skill-perfectloop.git
@@ -10119,14 +10119,14 @@ cp<span class="w"> </span>-r<span class="w"> </span>hermes-agent-skill-perfectlo
 <h2 id="4-the-8-question-interview">4. The 8-Question Interview<a class="headerlink" href="#4-the-8-question-interview" title="Anchor link to this section">&para;</a></h2>
 <p>Before any loop is designed, Perfectloop answers these in order:</p>
 <ol>
-<li><strong>Should this be a loop at all?</strong> — If the task happens once, say no.</li>
-<li><strong>What exactly is the falsifiable goal?</strong> — Must be provably done or not done ("100 emails sent by 5 PM", not "improve engagement").</li>
-<li><strong>What outside signal can reject bad output?</strong> — Must exist. The agent cannot verify its own work.</li>
-<li><strong>What persistent state survives between runs?</strong> — A JSON file, DB row, or checkpoint that outlives the agent process.</li>
-<li><strong>What can the agent do, and what is forbidden?</strong> — Explicit permission boundaries.</li>
-<li><strong>When does the loop stop, escalate, or clean itself up?</strong> — Terminal conditions, budget limits, max retries.</li>
-<li><strong>Who/what verifies the verifier?</strong> — Prevent the gate itself from going rogue.</li>
-<li><strong>If scheduled, what cleanup proves the controller is removed?</strong> — Proof the cron job can be cleanly disabled.</li>
+<li><strong>Should this be a loop at all?</strong> - If the task happens once, say no.</li>
+<li><strong>What exactly is the falsifiable goal?</strong> - Must be provably done or not done ("100 emails sent by 5 PM", not "improve engagement").</li>
+<li><strong>What outside signal can reject bad output?</strong> - Must exist. The agent cannot verify its own work.</li>
+<li><strong>What persistent state survives between runs?</strong> - A JSON file, DB row, or checkpoint that outlives the agent process.</li>
+<li><strong>What can the agent do, and what is forbidden?</strong> - Explicit permission boundaries.</li>
+<li><strong>When does the loop stop, escalate, or clean itself up?</strong> - Terminal conditions, budget limits, max retries.</li>
+<li><strong>Who/what verifies the verifier?</strong> - Prevent the gate itself from going rogue.</li>
+<li><strong>If scheduled, what cleanup proves the controller is removed?</strong> - Proof the cron job can be cleanly disabled.</li>
 </ol>
 <p>If any answer is missing and materially changes the design, the skill asks the user. If low-stakes, it states a default and continues.</p>
 <h2 id="5-loop-design-output">5. Loop Design Output<a class="headerlink" href="#5-loop-design-output" title="Anchor link to this section">&para;</a></h2>
@@ -10228,7 +10228,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>hermes-agent-skill-perfectlo
 </tr>
 <tr>
 <td><strong>Community engagement</strong></td>
-<td>Reject outright — "engagement" is not falsifiable. Use observation-only instead.</td>
+<td>Reject outright - "engagement" is not falsifiable. Use observation-only instead.</td>
 </tr>
 </tbody>
 </table>

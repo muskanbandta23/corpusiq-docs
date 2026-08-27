@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Email infrastructure over MCP — register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A">
+        <meta name="description" content="Email infrastructure over MCP - register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/mektup-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Mektup MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Email infrastructure over MCP — register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A">
+  <meta property="og:description" content="Email infrastructure over MCP - register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mektup MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Email infrastructure over MCP — register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A">
+  <meta name="twitter:description" content="Email infrastructure over MCP - register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Mektup MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Email infrastructure over MCP \u2014 register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A",
+    "description": "Email infrastructure over MCP - register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mektup-mcp",
     
     "author": {
@@ -10036,17 +10036,17 @@
 
 
 <h1 id="mektup-mcp">Mektup MCP<a class="headerlink" href="#mektup-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote email-infrastructure server (Streamable HTTP, Bearer token)</strong> — Mektup gives AI agents and their humans a real email mailbox instead of a one-way sending API. Through 41 MCP tools an agent can register a domain, create a mailbox, send and receive mail, and manage threads, drafts, and folders. MIT, built by WeeCi (<code>github.com/WeeCi/mektup-mcp</code>), with signup and dashboard at usemektup.com.</p>
+<p><strong>Remote email-infrastructure server (Streamable HTTP, Bearer token)</strong> - Mektup gives AI agents and their humans a real email mailbox instead of a one-way sending API. Through 41 MCP tools an agent can register a domain, create a mailbox, send and receive mail, and manage threads, drafts, and folders. MIT, built by WeeCi (<code>github.com/WeeCi/mektup-mcp</code>), with signup and dashboard at usemektup.com.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: Bearer API token (mek_live_...)
 Endpoint: https://mcp.usemektup.com/mcp
 Tools: 41 tools (domains, mailboxes, send/receive, threads, drafts, folders)
-Pricing: Commercial — sign up at usemektup.com
+Pricing: Commercial - sign up at usemektup.com
 Category: Communication &amp; Email
 Built by: github.com/WeeCi/mektup-mcp
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Email for agents has mostly meant transactional send APIs — fire a message, never receive anything back. Mektup closes the loop: an agent can own a mailbox, receive inbound mail, and work it the way a human assistant would, from drafting replies to filing threads. For operators, that turns agent workflows from "the agent emails me a report" into "the agent runs the inbox" — domain registration included, so a side project or client workstream can get its own mail presence without a human provisioning step.</p>
+<p>Email for agents has mostly meant transactional send APIs - fire a message, never receive anything back. Mektup closes the loop: an agent can own a mailbox, receive inbound mail, and work it the way a human assistant would, from drafting replies to filing threads. For operators, that turns agent workflows from "the agent emails me a report" into "the agent runs the inbox" - domain registration included, so a side project or client workstream can get its own mail presence without a human provisioning step.</p>
 <p>The safety profile matters too: the Bearer token gates the API, and mailbox operations stay inside one vendor account with a dashboard for review, so the human keeps visibility over what the agent sent and received.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The 41 tools group into five surfaces:</p>
@@ -10096,17 +10096,17 @@ Built by: github.com/WeeCi/mektup-mcp
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Client service desks</strong> can let an agent triage a shared inbox and draft replies for human approval</li>
-<li><strong>Automated workflows</strong> gain a receive path — confirmations, bounce handling, and inbound triggers become agent-addressable</li>
+<li><strong>Automated workflows</strong> gain a receive path - confirmations, bounce handling, and inbound triggers become agent-addressable</li>
 <li><strong>New projects</strong> get domain plus mailbox provisioned in one conversation instead of an admin ticket</li>
 <li><strong>Agent teams</strong> get per-role mailboxes with a single vendor dashboard for oversight</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Mektup sits alongside CorpusIQ's email connectors as the inbound-capable complement: CorpusIQ covers Gmail/Outlook reading for existing human inboxes, while Mektup provisions agent-owned mail infrastructure. An operator can pair them — CorpusIQ watches the primary business inbox, and a Mektup mailbox handles agent-driven campaigns or client sub-brands, with all credentials held in the same secret store and rotated centrally.</p>
+<p>Mektup sits alongside CorpusIQ's email connectors as the inbound-capable complement: CorpusIQ covers Gmail/Outlook reading for existing human inboxes, while Mektup provisions agent-owned mail infrastructure. An operator can pair them - CorpusIQ watches the primary business inbox, and a Mektup mailbox handles agent-driven campaigns or client sub-brands, with all credentials held in the same secret store and rotated centrally.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Commercial service — pricing tiers are not published on the MCP listing; verify before committing</li>
+<li>Commercial service - pricing tiers are not published on the MCP listing; verify before committing</li>
 <li>Brand-new listing (submitted Aug 16, 2026); no community track record yet</li>
-<li>No published per-tool schema in the listing — tool discovery is the source of truth</li>
+<li>No published per-tool schema in the listing - tool discovery is the source of truth</li>
 <li>Email deliverability still depends on the vendor's infrastructure and domain reputation</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

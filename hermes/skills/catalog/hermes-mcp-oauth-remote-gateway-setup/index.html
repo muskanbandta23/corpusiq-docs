@@ -23,7 +23,7 @@
     
     
   
-    <title>MCP OAuth Remote Gateway — Official Hermes Skill Setup Guide</title>
+    <title>MCP OAuth Remote Gateway - Official Hermes Skill Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="MCP OAuth Remote Gateway — Official Hermes Skill Setup Guide">
+  <meta property="og:title" content="MCP OAuth Remote Gateway - Official Hermes Skill Setup Guide">
   <meta property="og:description" content="Install and use mcp-oauth-remote-gateway, the official Hermes Agent skill for completing MCP OAuth flows on remote gateways (containers, VPS, bots) where">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MCP OAuth Remote Gateway — Official Hermes Skill Setup Guide">
+  <meta name="twitter:title" content="MCP OAuth Remote Gateway - Official Hermes Skill Setup Guide">
   <meta name="twitter:description" content="Install and use mcp-oauth-remote-gateway, the official Hermes Agent skill for completing MCP OAuth flows on remote gateways (containers, VPS, bots) where">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "MCP OAuth Remote Gateway \u2014 Official Hermes Skill Setup Guide",
+    "name": "MCP OAuth Remote Gateway - Official Hermes Skill Setup Guide",
     "description": "Install and use mcp-oauth-remote-gateway, the official Hermes Agent skill for completing MCP OAuth flows on remote gateways (containers, VPS, bots) where",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP OAuth Remote Gateway — Official Hermes Skill Setup Guide
+              MCP OAuth Remote Gateway - Official Hermes Skill Setup Guide
             
           </span>
         </div>
@@ -10038,18 +10038,18 @@
   
 
 
-<h1 id="mcp-oauth-remote-gateway-setup-guide">MCP OAuth Remote Gateway — Setup Guide<a class="headerlink" href="#mcp-oauth-remote-gateway-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="mcp-oauth-remote-gateway-setup-guide">MCP OAuth Remote Gateway - Setup Guide<a class="headerlink" href="#mcp-oauth-remote-gateway-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/mcp-oauth-remote-gateway">nousresearch/hermes-agent</a>
 <strong>Repo:</strong> 229K⭐ · <strong>Skill installs:</strong> 1 · <strong>First Seen:</strong> ~August 4, 2026
 <strong>Category:</strong> MCP / Authentication / Infrastructure
 <strong>Security:</strong> Gen Agent Trust Hub Pass · Socket Pass · Snyk Pass</p>
-<p>The official Hermes Agent skill for the most common MCP OAuth failure mode in production deployments. Hermes' built-in MCP OAuth client runs a one-shot HTTP listener on <code>127.0.0.1:&lt;port&gt;</code> inside the Hermes process and registers that loopback address as the OAuth <code>redirect_uri</code>. That works on a local CLI. It breaks completely on a remote gateway (container, VPS, messaging bot), because the user's browser resolves <code>127.0.0.1</code> to their own laptop — the authorization code never reaches Hermes.</p>
+<p>The official Hermes Agent skill for the most common MCP OAuth failure mode in production deployments. Hermes' built-in MCP OAuth client runs a one-shot HTTP listener on <code>127.0.0.1:&lt;port&gt;</code> inside the Hermes process and registers that loopback address as the OAuth <code>redirect_uri</code>. That works on a local CLI. It breaks completely on a remote gateway (container, VPS, messaging bot), because the user's browser resolves <code>127.0.0.1</code> to their own laptop - the authorization code never reaches Hermes.</p>
 <p>This skill performs the OAuth dance by hand and writes the resulting tokens into the exact files Hermes' token storage expects, so a subsequent <code>/reload-mcp</code> finds cached tokens and skips the browser flow entirely.</p>
 <hr />
 <h2 id="when-to-use">When to Use<a class="headerlink" href="#when-to-use" title="Anchor link to this section">&para;</a></h2>
 <p>Use this skill when <strong>all</strong> of the following are true:</p>
 <ul>
-<li>Hermes runs as a remote gateway — container, VPS, or bot deployment, not a local CLI</li>
+<li>Hermes runs as a remote gateway - container, VPS, or bot deployment, not a local CLI</li>
 <li>You need to connect an MCP server that requires OAuth 2.0 authorization (Google, GitHub, Slack, etc.)</li>
 <li>The built-in browser flow fails because the loopback redirect never reaches the Hermes process</li>
 <li>You can run the authorization code exchange manually and place tokens in Hermes' token storage</li>
@@ -10066,7 +10066,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/inf
 <hr />
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li>The skill performs the OAuth authorization-code flow manually — outside the Hermes process</li>
+<li>The skill performs the OAuth authorization-code flow manually - outside the Hermes process</li>
 <li>The redirect URI is registered as a public/remote endpoint (or handled via manual code paste)</li>
 <li>The exchanged tokens are written into the exact files Hermes' token storage reads</li>
 <li><code>/reload-mcp</code> is issued; Hermes finds cached tokens and skips the browser flow</li>
@@ -10132,13 +10132,13 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/inf
 <h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Manual flow requires comfort with OAuth 2.0 authorization-code mechanics</li>
-<li>Skill is brand new (first seen early August 2026) — pin the install and re-check on Hermes upgrades</li>
+<li>Skill is brand new (first seen early August 2026) - pin the install and re-check on Hermes upgrades</li>
 <li>Verify: after placing tokens and running <code>/reload-mcp</code>, confirm the MCP server shows as connected with <code>hermes mcp list</code> or the in-session MCP status view</li>
 </ul>
 <hr />
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem">Discovery Page — Aug 12 OpenClaw Ecosystem Sweep</a></li>
+<li><a href="/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem">Discovery Page - Aug 12 OpenClaw Ecosystem Sweep</a></li>
 <li><a href="/hermes/mcp">MCP Reference</a></li>
 <li><a href="/hermes/skills/catalog">Skills Catalog</a></li>
 </ul>

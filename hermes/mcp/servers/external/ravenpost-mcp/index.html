@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Multi-platform social publishing over MCP — schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with">
+        <meta name="description" content="Multi-platform social publishing over MCP - schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ravenpost-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Ravenpost MCP - CorpusIQ Docs - CorpusIQ">
-  <meta property="og:description" content="Multi-platform social publishing over MCP — schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with">
+  <meta property="og:description" content="Multi-platform social publishing over MCP - schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ravenpost MCP - CorpusIQ Docs - CorpusIQ">
-  <meta name="twitter:description" content="Multi-platform social publishing over MCP — schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with">
+  <meta name="twitter:description" content="Multi-platform social publishing over MCP - schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Ravenpost MCP - CorpusIQ Docs - CorpusIQ",
-    "description": "Multi-platform social publishing over MCP \u2014 schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with",
+    "description": "Multi-platform social publishing over MCP - schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ravenpost-mcp",
     
     "author": {
@@ -10047,18 +10047,18 @@
 
 
 <h1 id="ravenpost-mcp">Ravenpost MCP<a class="headerlink" href="#ravenpost-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> — Ravenpost exposes a hosted multi-platform social scheduler to any MCP client: list connected accounts, upload or reshape media, preview a post exactly as each network will render it, then publish now, schedule it, or drop it into a weekly posting queue across Instagram, TikTok, X, Telegram, Facebook, LinkedIn, Threads, Bluesky and YouTube.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> - Ravenpost exposes a hosted multi-platform social scheduler to any MCP client: list connected accounts, upload or reshape media, preview a post exactly as each network will render it, then publish now, schedule it, or drop it into a weekly posting queue across Instagram, TikTok, X, Telegram, Facebook, LinkedIn, Threads, Bluesky and YouTube.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth (resource server) or personal access token
 Endpoint: https://api.ravenpo.st/mcp
 Tools: 21 across accounts, posts, media, analytics, reference
 Pricing: free plan covers trial; Agency plan for multi-workspace
 Category: Marketing
-Built by: Ravenpost (ravenpo.st) — registry name st.ravenpo/ravenpost
+Built by: Ravenpost (ravenpo.st) - registry name st.ravenpo/ravenpost
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Publishing from an agent is easy; publishing right is not. Caption limits differ per platform, thread models do not exist everywhere, some networks reject posts without media, and a platform-shape crop that looks fine in a preview can cut the subject when it goes live. Ravenpost's core mechanism is <code>preview_post</code> — a write-nothing render of the post as each destination will show it, plus the warnings a picture cannot carry.</p>
-<p><strong>Preview-before-publish is the safety gate</strong>: every tool declares read-only or destructive hints, so the client can tell what a call will do before allowing it. The server refuses to guess workspaces — a credential that can act in more than one workspace errors and names them rather than posting one client's content to another's accounts. Media reformats to the target platform shape, and <code>create_variants</code> cuts one image into several platform canvases at once, cropping on the subject rather than the middle.</p>
+<p>Publishing from an agent is easy; publishing right is not. Caption limits differ per platform, thread models do not exist everywhere, some networks reject posts without media, and a platform-shape crop that looks fine in a preview can cut the subject when it goes live. Ravenpost's core mechanism is <code>preview_post</code> - a write-nothing render of the post as each destination will show it, plus the warnings a picture cannot carry.</p>
+<p><strong>Preview-before-publish is the safety gate</strong>: every tool declares read-only or destructive hints, so the client can tell what a call will do before allowing it. The server refuses to guess workspaces - a credential that can act in more than one workspace errors and names them rather than posting one client's content to another's accounts. Media reformats to the target platform shape, and <code>create_variants</code> cuts one image into several platform canvases at once, cropping on the subject rather than the middle.</p>
 <p>For operators running recurring content, the weekly queue slots plus <code>best_times</code> (measured from the workspace's own posts, with an explicit not-enough-data answer) turn a posting tool into a cadence engine.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10114,14 +10114,14 @@ Built by: Ravenpost (ravenpo.st) — registry name st.ravenpo/ravenpost
 <li><strong>Analytics-driven operators</strong> get best-time recommendations measured from their own posting history</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Ravenpost complements the CorpusIQ analytics connectors at both ends of the funnel. Post-performance can be cross-checked against platform truth — CorpusIQ TikTok, YouTube and Instagram Business connectors read engagement from the platforms themselves, so Ravenpost's <code>get_analytics</code> can be validated rather than trusted alone. For the CorpusIQ content engine, Ravenpost's platform limits and queue tools give the social cadence scheduler a second execution surface: CorpusIQ drafts and approves, Ravenpost renders previews and publishes across networks the Postiz connector does not cover, like Telegram and Threads. The approval gate matches the CorpusIQ doctrine — the agent proposes, the human confirms, the audit trail records.</p>
+<p>Ravenpost complements the CorpusIQ analytics connectors at both ends of the funnel. Post-performance can be cross-checked against platform truth - CorpusIQ TikTok, YouTube and Instagram Business connectors read engagement from the platforms themselves, so Ravenpost's <code>get_analytics</code> can be validated rather than trusted alone. For the CorpusIQ content engine, Ravenpost's platform limits and queue tools give the social cadence scheduler a second execution surface: CorpusIQ drafts and approves, Ravenpost renders previews and publishes across networks the Postiz connector does not cover, like Telegram and Threads. The approval gate matches the CorpusIQ doctrine - the agent proposes, the human confirms, the audit trail records.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listed August 17, 2026</li>
-<li>Hosted only — no self-hosting; account required, vendor retains the platform connections</li>
+<li>Brand new - no track record yet; listed August 17, 2026</li>
+<li>Hosted only - no self-hosting; account required, vendor retains the platform connections</li>
 <li>Preview accuracy depends on the vendor keeping per-platform renderers current with network changes</li>
 <li>Free plan is a trial tier; multi-workspace separation sits on the paid Agency plan</li>
-<li>No engagement-reply tools — publishing and analytics only, no inbox or comment management</li>
+<li>No engagement-reply tools - publishing and analytics only, no inbox or comment management</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

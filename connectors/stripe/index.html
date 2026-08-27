@@ -10109,12 +10109,12 @@
 
 <h1 id="stripe">Stripe<a class="headerlink" href="#stripe" title="Anchor link to this section">&para;</a></h1>
 <h2 id="what-it-unlocks">What it unlocks<a class="headerlink" href="#what-it-unlocks" title="Anchor link to this section">&para;</a></h2>
-<p>See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout doesn't match the sum of charges, or whether a specific email shows up in your customer list — without leaving the chat or opening the Stripe dashboard.</p>
-<p>If you keep your books in QuickBooks, CorpusIQ can now reconcile Stripe payouts against your bank deposits in conversation — the same exercise your bookkeeper does every month, in plain English.</p>
+<p>See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout doesn't match the sum of charges, or whether a specific email shows up in your customer list - without leaving the chat or opening the Stripe dashboard.</p>
+<p>If you keep your books in QuickBooks, CorpusIQ can now reconcile Stripe payouts against your bank deposits in conversation - the same exercise your bookkeeper does every month, in plain English.</p>
 <h2 id="before-you-connect">Before you connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>A Stripe account (test or live mode both work).</li>
-<li>A <strong>restricted API key</strong> with read-only access on the resources listed below. Don't use your secret key — restricted keys are revocable per-scope and safer for AI integrations.</li>
+<li>A <strong>restricted API key</strong> with read-only access on the resources listed below. Don't use your secret key - restricted keys are revocable per-scope and safer for AI integrations.</li>
 <li>About 3 minutes.</li>
 </ul>
 <h2 id="how-to-connect">How to connect<a class="headerlink" href="#how-to-connect" title="Anchor link to this section">&para;</a></h2>
@@ -10136,7 +10136,7 @@
 <li><strong>Payouts</strong> → Read</li>
 <li><strong>Refunds</strong> → Read</li>
 <li><strong>Disputes</strong> → Read</li>
-<li>Click <strong>Create key</strong>. Stripe shows the key once — copy it now (it starts with <code>rk_live_…</code> in live mode or <code>rk_test_…</code> in test mode).</li>
+<li>Click <strong>Create key</strong>. Stripe shows the key once - copy it now (it starts with <code>rk_live_…</code> in live mode or <code>rk_test_…</code> in test mode).</li>
 </ol>
 <!-- screenshot: Stripe key reveal screen -->
 <ol>
@@ -10148,20 +10148,20 @@
 
 <p>You'll see Stripe change from gray to green in your CorpusIQ dashboard.</p>
 <blockquote>
-<p><strong>Already connected under an older key?</strong> If you set up Stripe before May 2026, your restricted key probably only has Charges, Customers, and Accounts checked. The new reconciliation questions need five additional Read scopes. Edit the existing key in the Stripe dashboard and add Balance, Balance transactions, Payouts, Refunds, and Disputes — or create a fresh key with the full list above. Either path works; no CorpusIQ-side change required.</p>
+<p><strong>Already connected under an older key?</strong> If you set up Stripe before May 2026, your restricted key probably only has Charges, Customers, and Accounts checked. The new reconciliation questions need five additional Read scopes. Edit the existing key in the Stripe dashboard and add Balance, Balance transactions, Payouts, Refunds, and Disputes - or create a fresh key with the full list above. Either path works; no CorpusIQ-side change required.</p>
 </blockquote>
 <h2 id="what-corpusiq-can-see">What CorpusIQ can see<a class="headerlink" href="#what-corpusiq-can-see" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Account profile</strong> — business name, country, default currency, capabilities.</li>
-<li><strong>Charges</strong> — payments collected, with amounts, currency, status (succeeded / pending / failed), customer attribution, and timestamps.</li>
-<li><strong>Customers</strong> — customer list with emails, names, balances, and creation dates. Filterable by exact-match email.</li>
-<li><strong>Payouts</strong> — money Stripe sent to your bank account. Status (pending / paid / failed / in_transit), arrival date, method (standard or instant), and amount.</li>
-<li><strong>Balance transactions</strong> — the canonical Stripe ledger. Every charge, refund, fee, and payout as one continuous timeline. Filterable by payout, which means CorpusIQ can answer "show me exactly what aggregated into yesterday's bank deposit."</li>
-<li><strong>Refunds</strong> — refunds as first-class records (amount, reason, status, linked charge), not just a flag on the original charge.</li>
-<li><strong>Disputes</strong> — chargebacks with status, reason, and evidence-due-by deadlines.</li>
-<li><strong>Balance</strong> — your current available and pending balances, including instant-payout availability if you have it enabled.</li>
+<li><strong>Account profile</strong> - business name, country, default currency, capabilities.</li>
+<li><strong>Charges</strong> - payments collected, with amounts, currency, status (succeeded / pending / failed), customer attribution, and timestamps.</li>
+<li><strong>Customers</strong> - customer list with emails, names, balances, and creation dates. Filterable by exact-match email.</li>
+<li><strong>Payouts</strong> - money Stripe sent to your bank account. Status (pending / paid / failed / in_transit), arrival date, method (standard or instant), and amount.</li>
+<li><strong>Balance transactions</strong> - the canonical Stripe ledger. Every charge, refund, fee, and payout as one continuous timeline. Filterable by payout, which means CorpusIQ can answer "show me exactly what aggregated into yesterday's bank deposit."</li>
+<li><strong>Refunds</strong> - refunds as first-class records (amount, reason, status, linked charge), not just a flag on the original charge.</li>
+<li><strong>Disputes</strong> - chargebacks with status, reason, and evidence-due-by deadlines.</li>
+<li><strong>Balance</strong> - your current available and pending balances, including instant-payout availability if you have it enabled.</li>
 </ul>
-<p>Read-only. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side — the connector physically cannot perform write operations even if asked.</p>
+<p>Read-only. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side - the connector physically cannot perform write operations even if asked.</p>
 <h2 id="questions-you-can-ask">Questions you can ask<a class="headerlink" href="#questions-you-can-ask" title="Anchor link to this section">&para;</a></h2>
 <h3 id="day-to-day-payments">Day-to-day payments<a class="headerlink" href="#day-to-day-payments" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10191,36 +10191,36 @@
 </ul>
 <h2 id="cross-source-questions">Cross-source questions<a class="headerlink" href="#cross-source-questions" title="Anchor link to this section">&para;</a></h2>
 <p>Stripe pairs cleanly with other connectors for richer questions:
-- "Reconcile my Stripe payouts against QuickBooks deposits last month" (Stripe + QuickBooks). The reconciliation block makes this real — same exercise your bookkeeper runs at month-end.
+- "Reconcile my Stripe payouts against QuickBooks deposits last month" (Stripe + QuickBooks). The reconciliation block makes this real - same exercise your bookkeeper runs at month-end.
 - "Compare Stripe revenue to Shopify orders this week" (Stripe + Shopify)
 - "Show me Shopify orders where the Stripe charge ended up in a dispute" (Stripe + Shopify)
 - "Which Klaviyo email campaigns drove the most Stripe revenue last month?" (Stripe + Klaviyo)
-- "GA4 purchase events vs Stripe successful charges yesterday — where's the gap?" (Stripe + GA4 — surfaces analytics tagging failures)
+- "GA4 purchase events vs Stripe successful charges yesterday - where's the gap?" (Stripe + GA4 - surfaces analytics tagging failures)
 - "What's our current cash position across Stripe balance and QuickBooks bank accounts?" (Stripe + QuickBooks)</p>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <p><strong>"Stripe permission denied" on a specific tool</strong>
-The restricted key may be missing a scope the tool needs. This is the most common error after a connector upgrade — the new reconciliation tools each need their own Read scope (Balance, Balance transactions, Payouts, Refunds, Disputes). The error message will say something like <em>"Having the 'rak_xxx' permission would allow this request to continue"</em> — go back to the Stripe dashboard, edit the key, and add the missing scope. Save, then retry.</p>
+The restricted key may be missing a scope the tool needs. This is the most common error after a connector upgrade - the new reconciliation tools each need their own Read scope (Balance, Balance transactions, Payouts, Refunds, Disputes). The error message will say something like <em>"Having the 'rak_xxx' permission would allow this request to continue"</em> - go back to the Stripe dashboard, edit the key, and add the missing scope. Save, then retry.</p>
 <p><strong><code>get_stripe_account</code> returns 403 even though "Accounts → Read" is set</strong>
-This is a known nuance with some Stripe account types. The "Accounts → Read" toggle in the dashboard does not always grant the specific <code>rak_accounts_kyc_basic_read</code> permission that <code>/v1/account</code> requires. The other Stripe tools work normally — only the account-profile tool is affected. If you need the account details and the toggle isn't enough, contact Stripe support to ask about granting <code>rak_accounts_kyc_basic_read</code> explicitly on your account type.</p>
+This is a known nuance with some Stripe account types. The "Accounts → Read" toggle in the dashboard does not always grant the specific <code>rak_accounts_kyc_basic_read</code> permission that <code>/v1/account</code> requires. The other Stripe tools work normally - only the account-profile tool is affected. If you need the account details and the toggle isn't enough, contact Stripe support to ask about granting <code>rak_accounts_kyc_basic_read</code> explicitly on your account type.</p>
 <p><strong>"API key invalid" or "API key expired"</strong>
 The restricted key was deleted or rotated in the Stripe dashboard. Create a fresh restricted key and re-save it in CorpusIQ via the Connections page.</p>
 <p><strong>"No charges in date range" / "No payouts in date range"</strong>
-Not an error — Stripe genuinely returns zero results when there's no activity in the window you asked about. Try a wider date range or check the Stripe dashboard to confirm.</p>
+Not an error - Stripe genuinely returns zero results when there's no activity in the window you asked about. Try a wider date range or check the Stripe dashboard to confirm.</p>
 <p><strong>Stripe rate limit (429)</strong>
 Stripe allows ~100 requests/second on live mode (~25 on test mode). Heavily paginated queries can hit this. The connector retries automatically with backoff; if it persists, ask narrower questions or limit pagination depth.</p>
 <p><strong>Payout total doesn't match my QuickBooks deposit</strong>
-That's exactly the question the reconciliation tools were built for. Ask CorpusIQ "show me every balance transaction in payout <code>po_xxx</code>" — you'll see the charges, refunds, and fees that aggregated into that one deposit, broken out by type. Stripe fees, instant-payout fees, and refunds issued during the payout window are the usual culprits.</p>
+That's exactly the question the reconciliation tools were built for. Ask CorpusIQ "show me every balance transaction in payout <code>po_xxx</code>" - you'll see the charges, refunds, and fees that aggregated into that one deposit, broken out by type. Stripe fees, instant-payout fees, and refunds issued during the payout window are the usual culprits.</p>
 <h2 id="key-revocation">Key revocation<a class="headerlink" href="#key-revocation" title="Anchor link to this section">&para;</a></h2>
-<p>You control access. To remove CorpusIQ's access to Stripe, go to <strong>Developers → API keys</strong> in your Stripe dashboard, find the restricted key, and click <strong>Delete</strong> (or <strong>Revoke</strong>). CorpusIQ will get a <code>401 api_key_expired</code> error on the next call and report it to you — no further coordination needed.</p>
+<p>You control access. To remove CorpusIQ's access to Stripe, go to <strong>Developers → API keys</strong> in your Stripe dashboard, find the restricted key, and click <strong>Delete</strong> (or <strong>Revoke</strong>). CorpusIQ will get a <code>401 api_key_expired</code> error on the next call and report it to you - no further coordination needed.</p>
 <h2 id="whats-still-on-the-roadmap">What's still on the roadmap<a class="headerlink" href="#whats-still-on-the-roadmap" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Subscriptions and invoices</strong> as first-class objects — for SaaS billing analysis. Planned next.</li>
+<li><strong>Subscriptions and invoices</strong> as first-class objects - for SaaS billing analysis. Planned next.</li>
 <li><strong>Single-resource drill-downs</strong> for charges and customers (today you can list them; soon you'll be able to ask for one specific charge or customer's full detail).</li>
-<li><strong>Modern payment objects</strong> — payment intents, checkout sessions, payment links. For newer integrations that don't use the legacy charges object directly.</li>
+<li><strong>Modern payment objects</strong> - payment intents, checkout sessions, payment links. For newer integrations that don't use the legacy charges object directly.</li>
 <li><strong>Stripe Connect OAuth</strong> for agencies managing multiple Stripe accounts.</li>
 <li><strong>Write tools</strong> for refunds and subscription mutations, gated by an explicit human-approval step.</li>
 <li><strong>Webhook ingestion</strong> for real-time payment events (currently pull-only).</li>
-<li><strong>Stripe Sigma / custom Reports API</strong> — likely out of scope; ask if you need it.</li>
+<li><strong>Stripe Sigma / custom Reports API</strong> - likely out of scope; ask if you need it.</li>
 </ul>
 <h2 id="if-you-need-any-of-the-above-sooner-ask-corpusiq-support">If you need any of the above sooner, ask CorpusIQ support.<a class="headerlink" href="#if-you-need-any-of-the-above-sooner-ask-corpusiq-support" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>

@@ -23,7 +23,7 @@
     
     
   
-    <title>Sentry AI Monitoring — Full Setup Guide for Hermes Agents</title>
+    <title>Sentry AI Monitoring - Full Setup Guide for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-ai-monitoring-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Sentry AI Monitoring — Full Setup Guide for Hermes Agents">
+  <meta property="og:title" content="Sentry AI Monitoring - Full Setup Guide for Hermes Agents">
   <meta property="og:description" content="Error tracking and monitoring for AI agent deployments. Sentry feature setup (2.7K), Node.js SDK (2.6K), and AI monitoring dashboard (616). From getsentry">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sentry AI Monitoring — Full Setup Guide for Hermes Agents">
+  <meta name="twitter:title" content="Sentry AI Monitoring - Full Setup Guide for Hermes Agents">
   <meta name="twitter:description" content="Error tracking and monitoring for AI agent deployments. Sentry feature setup (2.7K), Node.js SDK (2.6K), and AI monitoring dashboard (616). From getsentry">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Sentry AI Monitoring \u2014 Full Setup Guide for Hermes Agents",
+    "name": "Sentry AI Monitoring - Full Setup Guide for Hermes Agents",
     "description": "Error tracking and monitoring for AI agent deployments. Sentry feature setup (2.7K), Node.js SDK (2.6K), and AI monitoring dashboard (616). From getsentry",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-ai-monitoring-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sentry AI Monitoring — Full Setup Guide for Hermes Agents
+              Sentry AI Monitoring - Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -10210,7 +10210,7 @@
   
 
 
-<h1 id="sentry-ai-monitoring-setup-guide">Sentry AI Monitoring — Setup Guide<a class="headerlink" href="#sentry-ai-monitoring-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="sentry-ai-monitoring-setup-guide">Sentry AI Monitoring - Setup Guide<a class="headerlink" href="#sentry-ai-monitoring-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/getsentry/sentry-for-ai">getsentry/sentry-for-ai</a> + <a href="https://github.com/getsentry/sentry-agent-skills">getsentry/sentry-agent-skills</a>
 <strong>Skills:</strong> <code>sentry-feature-setup</code> (2,700), <code>sentry-node-sdk</code> (2,600), <code>sentry-setup-ai-monitoring</code> (616)
 <strong>Category:</strong> Monitoring / Observability
@@ -10235,7 +10235,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <tbody>
 <tr>
 <td><strong>Sentry account</strong></td>
-<td><a href="https://sentry.io">sentry.io</a> — free tier: 5K errors/month, 1 user</td>
+<td><a href="https://sentry.io">sentry.io</a> - free tier: 5K errors/month, 1 user</td>
 </tr>
 <tr>
 <td><strong>Sentry DSN</strong></td>
@@ -10257,12 +10257,12 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <hr />
 <h2 id="skill-1-sentry-feature-setup-2700-installs">Skill 1: sentry-feature-setup (2,700 installs)<a class="headerlink" href="#skill-1-sentry-feature-setup-2700-installs" title="Anchor link to this section">&para;</a></h2>
 <h3 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h3>
-<p>Feature flag and release monitoring for agent deployments. Track which agent versions, model configurations, and skill combinations correlate with error rates. Progressive rollout support — ship new skills to a subset of agent instances, monitor error rates, then expand or roll back.</p>
+<p>Feature flag and release monitoring for agent deployments. Track which agent versions, model configurations, and skill combinations correlate with error rates. Progressive rollout support - ship new skills to a subset of agent instances, monitor error rates, then expand or roll back.</p>
 <h3 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Release tracking:</strong> Associate every error with a specific agent version + skill set</li>
 <li><strong>Feature flags:</strong> Toggle skills on/off per agent instance; correlate with error patterns</li>
-<li><strong>Progressive rollout:</strong> Canary deployment — 10% → 25% → 50% → 100% with automatic rollback on error spike</li>
+<li><strong>Progressive rollout:</strong> Canary deployment - 10% → 25% → 50% → 100% with automatic rollback on error spike</li>
 <li><strong>Model correlation:</strong> Track error rates by model (Sonnet vs Opus vs DeepSeek) to identify model-specific failure modes</li>
 <li><strong>Skill health scores:</strong> Per-skill error rate, latency, and success rate dashboards</li>
 </ul>
@@ -10295,7 +10295,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <hr />
 <h2 id="skill-2-sentry-node-sdk-2600-installs">Skill 2: sentry-node-sdk (2,600 installs)<a class="headerlink" href="#skill-2-sentry-node-sdk-2600-installs" title="Anchor link to this section">&para;</a></h2>
 <h3 id="overview_1">Overview<a class="headerlink" href="#overview_1" title="Anchor link to this section">&para;</a></h3>
-<p>Sentry's Node.js SDK instrumented specifically for agent runtimes. Auto-captures unhandled promise rejections, tool call failures, and MCP connection errors — but adds agent-specific context: current skill name, tool chain, model identifier, token usage, and session ID. Drop-in replacement for generic <code>console.error()</code> or <code>try/catch</code> logging.</p>
+<p>Sentry's Node.js SDK instrumented specifically for agent runtimes. Auto-captures unhandled promise rejections, tool call failures, and MCP connection errors - but adds agent-specific context: current skill name, tool chain, model identifier, token usage, and session ID. Drop-in replacement for generic <code>console.error()</code> or <code>try/catch</code> logging.</p>
 <h3 id="what-it-captures-automatically">What It Captures Automatically<a class="headerlink" href="#what-it-captures-automatically" title="Anchor link to this section">&para;</a></h3>
 <table>
 <thead>
@@ -10353,7 +10353,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <span class="c1">// - token_usage: tokens consumed this session</span>
 </code></pre></div>
 <h3 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h3>
-<p>The skill instruments Hermes' error handling automatically. Once installed, every unhandled error in a Hermes session is captured with full agent context and routed to your Sentry project. No code changes required — the skill wraps the error boundary.</p>
+<p>The skill instruments Hermes' error handling automatically. Once installed, every unhandled error in a Hermes session is captured with full agent context and routed to your Sentry project. No code changes required - the skill wraps the error boundary.</p>
 <hr />
 <h2 id="skill-3-sentry-setup-ai-monitoring-616-installs">Skill 3: sentry-setup-ai-monitoring (616 installs)<a class="headerlink" href="#skill-3-sentry-setup-ai-monitoring-616-installs" title="Anchor link to this section">&para;</a></h2>
 <h3 id="overview_2">Overview<a class="headerlink" href="#overview_2" title="Anchor link to this section">&para;</a></h3>
@@ -10441,23 +10441,23 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <tbody>
 <tr>
 <td><strong>Cron job reliability</strong></td>
-<td>sentry-feature-setup + sentry-setup-ai-monitoring — track every cron execution, alert on failures, weekly reliability reports</td>
+<td>sentry-feature-setup + sentry-setup-ai-monitoring - track every cron execution, alert on failures, weekly reliability reports</td>
 </tr>
 <tr>
 <td><strong>Skill deployment safety</strong></td>
-<td>sentry-feature-setup — canary new skills before full rollout; auto-rollback on error spike</td>
+<td>sentry-feature-setup - canary new skills before full rollout; auto-rollback on error spike</td>
 </tr>
 <tr>
 <td><strong>Model performance tracking</strong></td>
-<td>sentry-node-sdk + sentry-setup-ai-monitoring — compare Sonnet vs Opus error rates and latency; data-driven model routing</td>
+<td>sentry-node-sdk + sentry-setup-ai-monitoring - compare Sonnet vs Opus error rates and latency; data-driven model routing</td>
 </tr>
 <tr>
 <td><strong>Growth agent uptime</strong></td>
-<td>sentry-setup-ai-monitoring — ensure social monitoring, lead gen, and content posting never silently fail</td>
+<td>sentry-setup-ai-monitoring - ensure social monitoring, lead gen, and content posting never silently fail</td>
 </tr>
 <tr>
 <td><strong>Multi-agent observability</strong></td>
-<td>All three — unified dashboard across CorpusIQ's growth, BD, support, and dev agents</td>
+<td>All three - unified dashboard across CorpusIQ's growth, BD, support, and dev agents</td>
 </tr>
 </tbody>
 </table>
@@ -10520,7 +10520,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <tbody>
 <tr>
 <td><strong>Token health cron</strong></td>
-<td>Error tracking for the cron itself — detect when token refresh fails silently</td>
+<td>Error tracking for the cron itself - detect when token refresh fails silently</td>
 </tr>
 <tr>
 <td><strong>System auditor</strong></td>

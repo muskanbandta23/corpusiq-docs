@@ -23,7 +23,7 @@
     
     
   
-    <title>Correctover MCP Server — Contract Validation & LLM API</title>
+    <title>Correctover MCP Server - Contract Validation & LLM API</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/correctover-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Correctover MCP Server — Contract Validation & LLM API">
+  <meta property="og:title" content="Correctover MCP Server - Contract Validation & LLM API">
   <meta property="og:description" content="Integration guide for Correctover/mcp-server: 6-dimension contract validation, self-healing LLM API failover with 87 rules across 9 providers. 22μs P50">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Correctover MCP Server — Contract Validation & LLM API">
+  <meta name="twitter:title" content="Correctover MCP Server - Contract Validation & LLM API">
   <meta name="twitter:description" content="Integration guide for Correctover/mcp-server: 6-dimension contract validation, self-healing LLM API failover with 87 rules across 9 providers. 22μs P50">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Correctover MCP Server \u2014 Contract Validation \u0026 LLM API",
+    "name": "Correctover MCP Server - Contract Validation \u0026 LLM API",
     "description": "Integration guide for Correctover/mcp-server: 6-dimension contract validation, self-healing LLM API failover with 87 rules across 9 providers. 22\u03bcs P50",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/correctover-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Correctover MCP Server — Contract Validation & LLM API
+              Correctover MCP Server - Contract Validation & LLM API
             
           </span>
         </div>
@@ -10110,21 +10110,21 @@
   
 
 
-<h1 id="correctover-mcp-server-contract-validation-api-failover">Correctover MCP Server — Contract Validation &amp; API Failover<a class="headerlink" href="#correctover-mcp-server-contract-validation-api-failover" title="Anchor link to this section">&para;</a></h1>
+<h1 id="correctover-mcp-server-contract-validation-api-failover">Correctover MCP Server - Contract Validation &amp; API Failover<a class="headerlink" href="#correctover-mcp-server-contract-validation-api-failover" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repo:</strong> <a href="https://github.com/Correctover/mcp-server">Correctover/mcp-server</a>
 <strong>Install:</strong> <code>npx -y correctover-mcp-server</code>
 <strong>Pricing:</strong> Open source
 <strong>Category:</strong> Legal / API Infrastructure</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>Correctover provides two critical capabilities for business operators who rely on AI:
-1. <strong>Contract validation</strong> — 6-dimension verification (structure, schema, latency, cost, identity, integrity) at 22μs P50
-2. <strong>Self-healing LLM API failover</strong> — 87 self-healing rules with MAPE-K autonomic loop across 9 LLM providers</p>
-<p>For operators running AI agents in production, this means contracts are validated before execution and LLM API calls automatically fail over when a provider goes down — no manual intervention needed.</p>
+1. <strong>Contract validation</strong> - 6-dimension verification (structure, schema, latency, cost, identity, integrity) at 22μs P50
+2. <strong>Self-healing LLM API failover</strong> - 87 self-healing rules with MAPE-K autonomic loop across 9 LLM providers</p>
+<p>For operators running AI agents in production, this means contracts are validated before execution and LLM API calls automatically fail over when a provider goes down - no manual intervention needed.</p>
 <h2 id="why-business-operators-need-this">Why Business Operators Need This<a class="headerlink" href="#why-business-operators-need-this" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Contract Risk Mitigation</strong> — Before your agent signs or executes any contract, Correctover validates it across 6 dimensions. Catches errors, missing clauses, and structural issues in microseconds.</li>
-<li><strong>API Reliability</strong> — If your primary LLM provider (OpenAI, Anthropic, etc.) has an outage, Correctover automatically fails over to an alternative provider in under 1 second (949ms E2E). Your agents keep running.</li>
-<li><strong>Cost Control</strong> — The cost dimension validation ensures you're not overpaying for API calls. BYOK (Bring Your Own Key) to 9 providers for direct, transparent pricing.</li>
+<li><strong>Contract Risk Mitigation</strong> - Before your agent signs or executes any contract, Correctover validates it across 6 dimensions. Catches errors, missing clauses, and structural issues in microseconds.</li>
+<li><strong>API Reliability</strong> - If your primary LLM provider (OpenAI, Anthropic, etc.) has an outage, Correctover automatically fails over to an alternative provider in under 1 second (949ms E2E). Your agents keep running.</li>
+<li><strong>Cost Control</strong> - The cost dimension validation ensures you're not overpaying for API calls. BYOK (Bring Your Own Key) to 9 providers for direct, transparent pricing.</li>
 </ol>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
@@ -10253,15 +10253,15 @@
 </code></pre></div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Always validate contracts before execution</strong> — 22μs is faster than human review by 6 orders of magnitude</li>
-<li><strong>Configure failover chains</strong> — Set up L1 (OpenAI/Anthropic) → L2 (DeepSeek/Moonshot) → L3 (Groq/Together) for maximum reliability</li>
-<li><strong>Monitor the health dashboard</strong> — Check provider health before starting long agent workflows</li>
-<li><strong>Use cost_estimate proactively</strong> — Compare provider pricing weekly; prices change frequently</li>
-<li><strong>BYOK for each provider</strong> — Direct API keys give you the best pricing and avoid middleware markups</li>
+<li><strong>Always validate contracts before execution</strong> - 22μs is faster than human review by 6 orders of magnitude</li>
+<li><strong>Configure failover chains</strong> - Set up L1 (OpenAI/Anthropic) → L2 (DeepSeek/Moonshot) → L3 (Groq/Together) for maximum reliability</li>
+<li><strong>Monitor the health dashboard</strong> - Check provider health before starting long agent workflows</li>
+<li><strong>Use cost_estimate proactively</strong> - Compare provider pricing weekly; prices change frequently</li>
+<li><strong>BYOK for each provider</strong> - Direct API keys give you the best pricing and avoid middleware markups</li>
 </ol>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>New server (June 2026) — production track record still developing</li>
+<li>New server (June 2026) - production track record still developing</li>
 <li>Contract validation focused on structure and schema, not legal advice (use a lawyer for legal review)</li>
 <li>Failover latency (949ms) may be noticeable in real-time chat applications</li>
 <li>Requires API keys for each provider you want to fail over to</li>

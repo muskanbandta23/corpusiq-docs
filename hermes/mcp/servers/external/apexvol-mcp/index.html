@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Options analytics over MCP — options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or">
+        <meta name="description" content="Options analytics over MCP - options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/apexvol-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="ApexVol MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Options analytics over MCP — options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or">
+  <meta property="og:description" content="Options analytics over MCP - options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ApexVol MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Options analytics over MCP — options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or">
+  <meta name="twitter:description" content="Options analytics over MCP - options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "ApexVol MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Options analytics over MCP \u2014 options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or",
+    "description": "Options analytics over MCP - options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/apexvol-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="apexvol-mcp">ApexVol MCP<a class="headerlink" href="#apexvol-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Self-hosted MCP client (Python, Bearer API token) with remote connector option</strong> — ApexVol exposes a full options-analytics stack to AI agents: options chains, IV rank, VRP, Greeks, GEX, expected moves, skew, term structure, and screeners across 56 published data endpoints. The <code>apexvol-mcp</code> client calls the same REST API under the hood, so anything in the API reference is one natural-language question away. MIT, built by Ryan Silk (<code>github.com/ryansilk/apexvol-mcp</code>), works with any paid ApexVol plan.</p>
+<p><strong>Self-hosted MCP client (Python, Bearer API token) with remote connector option</strong> - ApexVol exposes a full options-analytics stack to AI agents: options chains, IV rank, VRP, Greeks, GEX, expected moves, skew, term structure, and screeners across 56 published data endpoints. The <code>apexvol-mcp</code> client calls the same REST API under the hood, so anything in the API reference is one natural-language question away. MIT, built by Ryan Silk (<code>github.com/ryansilk/apexvol-mcp</code>), works with any paid ApexVol plan.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (pipx/Python) or remote connector
 Auth: Bearer API token (Pro plan, Account → API Access)
 Endpoint: REST base https://apexvol.com, paths under /api/mcp/data/*
@@ -10058,7 +10058,7 @@ Built by: github.com/ryansilk/apexvol-mcp
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Options analytics used to mean a terminal subscription plus a quant to run the numbers. ApexVol collapses that into a token and an install: an agent can ask "what is the IV rank for SPY" or request a full options-chain snapshot and get structured answers instead of screen-clicks. <strong>The same Pro token drives both the MCP client and direct REST calls, so operators get one billing line and one auth surface across agent and pipeline use.</strong></p>
-<p>The reference design is agent-first: a single-file API reference sized for LLM context windows (<code>apexvol.com/docs/api/apexvol-api.md</code>) means agents can implement against the endpoints without wading through interactive docs. Error handling is explicit and machine-readable — 401/403/426/429 with distinct meanings, so an agent can tell a revoked token from a tier entitlement gap from a rate limit and act accordingly.</p>
+<p>The reference design is agent-first: a single-file API reference sized for LLM context windows (<code>apexvol.com/docs/api/apexvol-api.md</code>) means agents can implement against the endpoints without wading through interactive docs. Error handling is explicit and machine-readable - 401/403/426/429 with distinct meanings, so an agent can tell a revoked token from a tier entitlement gap from a rate limit and act accordingly.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>Grouped from the published API reference (56 endpoints under <code>/api/mcp/data/</code>).</p>
 <table>
@@ -10124,13 +10124,13 @@ python<span class="w"> </span>-m<span class="w"> </span>apexvol_mcp.server
 <li><strong>Fundamental analysts</strong> can pull earnings calendars, verdicts, and post-earnings drift stats alongside price context</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>ApexVol pairs with the CorpusIQ financial connectors as the analytics layer over the accounting and banking layer. An operator can have CorpusIQ pull holdings and cash positions from QuickBooks or Stripe, then ask ApexVol to stress-test the portfolio's option exposure or run a hedge-recommendation pass — the composition turns static financial data into a live risk conversation. Because the client is self-hosted and token-gated, it fits inside the same governed environment as CorpusIQ's read-only connectors; the API token can be stored alongside other credentials in the operator's secret store and rotated centrally.</p>
+<p>ApexVol pairs with the CorpusIQ financial connectors as the analytics layer over the accounting and banking layer. An operator can have CorpusIQ pull holdings and cash positions from QuickBooks or Stripe, then ask ApexVol to stress-test the portfolio's option exposure or run a hedge-recommendation pass - the composition turns static financial data into a live risk conversation. Because the client is self-hosted and token-gated, it fits inside the same governed environment as CorpusIQ's read-only connectors; the API token can be stored alongside other credentials in the operator's secret store and rotated centrally.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Pro plan required — no free tier on the API</li>
+<li>Pro plan required - no free tier on the API</li>
 <li>Rate limits (60/min, 1000/hr) and a monthly usage cap per token</li>
 <li>Brand-new MCP listing; the underlying REST API is documented but the MCP client has no community track record yet</li>
-<li>Options analytics is a specialist domain — surface-level use returns surface-level value</li>
+<li>Options analytics is a specialist domain - surface-level use returns surface-level value</li>
 <li>US index and equity options focus; check coverage for your instruments before committing</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

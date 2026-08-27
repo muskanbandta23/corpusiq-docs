@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Measured Korean market data over MCP — SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily">
+        <meta name="description" content="Measured Korean market data over MCP - SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/cliometry-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Cliometry MCP - CorpusIQ Docs - CorpusIQ">
-  <meta property="og:description" content="Measured Korean market data over MCP — SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily">
+  <meta property="og:description" content="Measured Korean market data over MCP - SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cliometry MCP - CorpusIQ Docs - CorpusIQ">
-  <meta name="twitter:description" content="Measured Korean market data over MCP — SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily">
+  <meta name="twitter:description" content="Measured Korean market data over MCP - SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Cliometry MCP - CorpusIQ Docs - CorpusIQ",
-    "description": "Measured Korean market data over MCP \u2014 SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily",
+    "description": "Measured Korean market data over MCP - SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cliometry-mcp",
     
     "author": {
@@ -10047,18 +10047,18 @@
 
 
 <h1 id="cliometry-mcp">Cliometry MCP<a class="headerlink" href="#cliometry-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, no auth)</strong> — Cliometry exposes measured Korean market data as MCP tools: values a model cannot derive on its own, already computed daily, in structured form. Four read-only tools covering the SK Hynix ADR premium, realized leverage multiples, the VIX regime, and Korean semiconductor relative rotation.</p>
+<p><strong>Remote MCP server (Streamable HTTP, no auth)</strong> - Cliometry exposes measured Korean market data as MCP tools: values a model cannot derive on its own, already computed daily, in structured form. Four read-only tools covering the SK Hynix ADR premium, realized leverage multiples, the VIX regime, and Korean semiconductor relative rotation.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: None
 Endpoint: https://mcp.cliometry.com
 Tools: 4 (read-only, pre-computed daily)
 Pricing: free
 Category: Finance
-Built by: Cliometry (cliometry.com) — data CC BY 4.0
+Built by: Cliometry (cliometry.com) - data CC BY 4.0
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Market-measurement questions are where models hallucinate most confidently: a model knows what an ADR premium is, but it does not know today's number for KRX:000660, and it cannot compute a 252-trading-day decomposition from memory. Cliometry answers exactly those gaps with mechanical decompositions of past realized returns and daily-accumulated Korean series, delivered structured so no parsing is needed.</p>
-<p><strong>Every response carries its own source URL, as-of date, and stated limits</strong> — the evidence-handle pattern done right for market data. The realized-multiple tool withholds its ratio when the benchmark return is near zero because the ratio diverges there, and the VIX tool returns a fixed-threshold regime label (calm / watch / fear) that explicitly does not forecast direction. The service states plainly that it is delayed reference data for research and education, not investment advice.</p>
+<p><strong>Every response carries its own source URL, as-of date, and stated limits</strong> - the evidence-handle pattern done right for market data. The realized-multiple tool withholds its ratio when the benchmark return is near zero because the ratio diverges there, and the VIX tool returns a fixed-threshold regime label (calm / watch / fear) that explicitly does not forecast direction. The service states plainly that it is delayed reference data for research and education, not investment advice.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10070,7 +10070,7 @@ Built by: Cliometry (cliometry.com) — data CC BY 4.0
 <tbody>
 <tr>
 <td><code>get_realized_multiple</code></td>
-<td>How many times a leveraged or inverse ETF actually moved versus its daily target, over 20/60/252-day windows — KODEX Leverage, KODEX 200 Futures Inverse 2X, SOXL, TQQQ</td>
+<td>How many times a leveraged or inverse ETF actually moved versus its daily target, over 20/60/252-day windows - KODEX Leverage, KODEX 200 Futures Inverse 2X, SOXL, TQQQ</td>
 </tr>
 <tr>
 <td><code>get_adr_premium</code></td>
@@ -10082,7 +10082,7 @@ Built by: Cliometry (cliometry.com) — data CC BY 4.0
 </tr>
 <tr>
 <td><code>get_sector_rrg</code></td>
-<td>Relative Rotation Graph snapshot for Korean semiconductor-related sectors — relative-strength ratio, momentum, quadrant</td>
+<td>Relative Rotation Graph snapshot for Korean semiconductor-related sectors - relative-strength ratio, momentum, quadrant</td>
 </tr>
 </tbody>
 </table>
@@ -10111,10 +10111,10 @@ Built by: Cliometry (cliometry.com) — data CC BY 4.0
 <p>Cliometry slots into the CorpusIQ financial-data stack as the Korea specialist. Operators running market research across the CorpusIQ connectors can treat Cliometry's pre-computed series as structured inputs alongside the cross-source analytics layer: semiconductor-cycle context beside GA4 demand signals, or VIX regime beside Stripe and QuickBooks revenue volatility for planning. Because the server is keyless and free, it works as a standing research tool an agent can query any time a Korea-adjacent question appears, with every reading carrying its source URL for the evidence trail CorpusIQ reporting requires.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; submitted to mcp.so August 17, 2026</li>
-<li>Korean market only — no US or other regional coverage</li>
+<li>Brand new - no track record yet; submitted to mcp.so August 17, 2026</li>
+<li>Korean market only - no US or other regional coverage</li>
 <li>Delayed reference data, not real-time quotes; explicitly not investment advice</li>
-<li>Four tools only — no screening, backtesting, or portfolio functions</li>
+<li>Four tools only - no screening, backtesting, or portfolio functions</li>
 <li>Free service with no SLA; treat as research convenience, not a trading dependency</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

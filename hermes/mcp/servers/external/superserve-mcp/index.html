@@ -23,7 +23,7 @@
     
     
   
-    <title>Superserve MCP — Sandbox Infrastructure for AI Agents</title>
+    <title>Superserve MCP - Sandbox Infrastructure for AI Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/superserve-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Superserve MCP — Sandbox Infrastructure for AI Agents">
+  <meta property="og:title" content="Superserve MCP - Sandbox Infrastructure for AI Agents">
   <meta property="og:description" content="Integration guide for superserve-ai/superserve. Create and control isolated cloud sandboxes via MCP. 413 stars.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Superserve MCP — Sandbox Infrastructure for AI Agents">
+  <meta name="twitter:title" content="Superserve MCP - Sandbox Infrastructure for AI Agents">
   <meta name="twitter:description" content="Integration guide for superserve-ai/superserve. Create and control isolated cloud sandboxes via MCP. 413 stars.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Superserve MCP \u2014 Sandbox Infrastructure for AI Agents",
+    "name": "Superserve MCP - Sandbox Infrastructure for AI Agents",
     "description": "Integration guide for superserve-ai/superserve. Create and control isolated cloud sandboxes via MCP. 413 stars.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/superserve-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Superserve MCP — Sandbox Infrastructure for AI Agents
+              Superserve MCP - Sandbox Infrastructure for AI Agents
             
           </span>
         </div>
@@ -10094,7 +10094,7 @@
   
 
 
-<h1 id="superserve-mcp-sandbox-infrastructure-for-ai-agents">Superserve MCP — Sandbox Infrastructure for AI Agents<a class="headerlink" href="#superserve-mcp-sandbox-infrastructure-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
+<h1 id="superserve-mcp-sandbox-infrastructure-for-ai-agents">Superserve MCP - Sandbox Infrastructure for AI Agents<a class="headerlink" href="#superserve-mcp-sandbox-infrastructure-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repository:</strong> <a href="https://github.com/superserve-ai/superserve">superserve-ai/superserve</a>
 <strong>Stars:</strong> 413 ★
 <strong>Category:</strong> Infrastructure / Developer Environments
@@ -10102,7 +10102,7 @@
 <strong>License:</strong> Open source
 <strong>Last Updated:</strong> Active (July 2026)</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
-<p>Superserve provides on-demand, isolated cloud sandboxes that AI agents can create, control, and destroy via MCP. Think "Docker containers, but in the cloud, managed by your AI agent." Each sandbox is an ephemeral environment with its own filesystem, network, and compute — perfect for running untrusted code, testing deployments, or giving AI agents a safe playground.</p>
+<p>Superserve provides on-demand, isolated cloud sandboxes that AI agents can create, control, and destroy via MCP. Think "Docker containers, but in the cloud, managed by your AI agent." Each sandbox is an ephemeral environment with its own filesystem, network, and compute - perfect for running untrusted code, testing deployments, or giving AI agents a safe playground.</p>
 <h3 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h3>
 <table>
 <thead>
@@ -10114,11 +10114,11 @@
 <tbody>
 <tr>
 <td><strong>Sandbox Creation</strong></td>
-<td>Spin up isolated cloud sandboxes on demand — specify RAM, CPU, disk</td>
+<td>Spin up isolated cloud sandboxes on demand - specify RAM, CPU, disk</td>
 </tr>
 <tr>
 <td><strong>Code Execution</strong></td>
-<td>Run arbitrary code in sandboxed environments — safe for AI-generated code</td>
+<td>Run arbitrary code in sandboxed environments - safe for AI-generated code</td>
 </tr>
 <tr>
 <td><strong>File System</strong></td>
@@ -10134,16 +10134,16 @@
 </tr>
 <tr>
 <td><strong>Multi-Tenant Isolation</strong></td>
-<td>Each sandbox is fully isolated — no cross-contamination between agents or users</td>
+<td>Each sandbox is fully isolated - no cross-contamination between agents or users</td>
 </tr>
 </tbody>
 </table>
 <h2 id="why-business-operators-care">Why Business Operators Care<a class="headerlink" href="#why-business-operators-care" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Safe AI code execution:</strong> Delegate code generation and execution to AI agents without risking your production environment</li>
-<li><strong>Customer demos:</strong> Spin up live, isolated environments for each prospect — no shared state</li>
+<li><strong>Customer demos:</strong> Spin up live, isolated environments for each prospect - no shared state</li>
 <li><strong>Testing automation:</strong> AI agents can provision test environments, run integration tests, and destroy them automatically</li>
-<li><strong>Cost control:</strong> Pay only for sandbox uptime — ephemeral by design, no idle infrastructure costs</li>
+<li><strong>Cost control:</strong> Pay only for sandbox uptime - ephemeral by design, no idle infrastructure costs</li>
 </ul>
 <h2 id="setup-for-hermes-agent">Setup for Hermes Agent<a class="headerlink" href="#setup-for-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
@@ -10184,7 +10184,7 @@ superserve<span class="w"> </span>login
 <p>Once configured, ask Hermes:</p>
 <ul>
 <li>"Create a sandbox with Node.js 20 installed and run this script"</li>
-<li>"Spin up 5 identical sandboxes for load testing — run the test script in each"</li>
+<li>"Spin up 5 identical sandboxes for load testing - run the test script in each"</li>
 <li>"Show me all active sandboxes and their resource usage"</li>
 <li>"Destroy all sandboxes older than 1 hour"</li>
 <li>"Create a sandbox with a PostgreSQL database for integration testing"</li>
@@ -10241,17 +10241,17 @@ superserve<span class="w"> </span>login
 <p><strong>Verdict:</strong> Superserve for ephemeral/test workloads, Devopness for production deployments, Docker for local dev. These three form a complementary stack: develop locally (Docker), test in isolation (Superserve), deploy to production (Devopness).</p>
 <h2 id="security-model">Security Model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Complete isolation:</strong> Each sandbox runs in its own virtualized environment — no shared kernel, no shared filesystem</li>
+<li><strong>Complete isolation:</strong> Each sandbox runs in its own virtualized environment - no shared kernel, no shared filesystem</li>
 <li><strong>Ephemeral by default:</strong> Sandboxes auto-destroy after a configurable TTL (default: 1 hour)</li>
-<li><strong>Network controls:</strong> Outbound network access is allowlisted — sandboxes can't reach your internal network</li>
-<li><strong>Resource limits:</strong> CPU, RAM, and disk are capped per sandbox — no runaway costs</li>
+<li><strong>Network controls:</strong> Outbound network access is allowlisted - sandboxes can't reach your internal network</li>
+<li><strong>Resource limits:</strong> CPU, RAM, and disk are capped per sandbox - no runaway costs</li>
 </ul>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Cold start latency:</strong> Sandbox creation takes 5-15 seconds — not suitable for sub-second response workflows</li>
+<li><strong>Cold start latency:</strong> Sandbox creation takes 5-15 seconds - not suitable for sub-second response workflows</li>
 <li><strong>State is ephemeral:</strong> Anything not explicitly saved/persisted is lost when the sandbox is destroyed. Design workflows to export results.</li>
 <li><strong>Cost accumulation:</strong> Multiple agents creating sandboxes can accumulate costs quickly. Set TTL limits and budget alerts.</li>
-<li><strong>Not for persistent workloads:</strong> Superserve is designed for ephemeral use — for persistent deployments, use Devopness or direct cloud provisioning.</li>
+<li><strong>Not for persistent workloads:</strong> Superserve is designed for ephemeral use - for persistent deployments, use Devopness or direct cloud provisioning.</li>
 </ol>
 <hr />
 <p><em>Discovered July 16, 2026 during mcpservers.org sitemap scan. 413 stars at time of discovery. Complementary to Devopness (persistent deployments) and CorpusIQ (business data access).</em></p>

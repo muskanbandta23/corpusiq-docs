@@ -23,7 +23,7 @@
     
     
   
-    <title>openclaw-skill-vetter — Setup Guide</title>
+    <title>openclaw-skill-vetter - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="openclaw-skill-vetter — Setup Guide">
+  <meta property="og:title" content="openclaw-skill-vetter - Setup Guide">
   <meta property="og:description" content="Automated skill quality validation for Hermes agents. Scan installed skills for missing dependencies, trigger conflicts, security anti-patterns, and">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="openclaw-skill-vetter — Setup Guide">
+  <meta name="twitter:title" content="openclaw-skill-vetter - Setup Guide">
   <meta name="twitter:description" content="Automated skill quality validation for Hermes agents. Scan installed skills for missing dependencies, trigger conflicts, security anti-patterns, and">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "openclaw-skill-vetter \u2014 Setup Guide",
+    "name": "openclaw-skill-vetter - Setup Guide",
     "description": "Automated skill quality validation for Hermes agents. Scan installed skills for missing dependencies, trigger conflicts, security anti-patterns, and",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              openclaw-skill-vetter — Setup Guide
+              openclaw-skill-vetter - Setup Guide
             
           </span>
         </div>
@@ -10110,7 +10110,7 @@
   
 
 
-<h1 id="openclaw-skill-vetter-setup-guide">openclaw-skill-vetter — Setup Guide<a class="headerlink" href="#openclaw-skill-vetter-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="openclaw-skill-vetter-setup-guide">openclaw-skill-vetter - Setup Guide<a class="headerlink" href="#openclaw-skill-vetter-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Hermes Agent</strong> installed</li>
@@ -10175,7 +10175,7 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
 <h2 id="what-gets-checked">What Gets Checked<a class="headerlink" href="#what-gets-checked" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-dependency-validation">1. Dependency Validation<a class="headerlink" href="#1-dependency-validation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>✅ corpusiq-email-standards: all 3 dependencies available (himalaya, terminal, memory)
-❌ seo-audit: missing dependency &#39;web_extract&#39; — web tools not configured
+❌ seo-audit: missing dependency &#39;web_extract&#39; - web tools not configured
 ⚠️  browser-automation: optional dependency &#39;playwright&#39; not installed
 </code></pre></div>
 <h3 id="2-trigger-conflict-detection">2. Trigger Conflict Detection<a class="headerlink" href="#2-trigger-conflict-detection" title="Anchor link to this section">&para;</a></h3>
@@ -10188,9 +10188,9 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
    → First-match wins: corpusiq-email-standards
 </code></pre></div>
 <h3 id="3-security-anti-pattern-scan">3. Security Anti-Pattern Scan<a class="headerlink" href="#3-security-anti-pattern-scan" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>🔴 CRITICAL: skill &#39;metamask-openclaw-security&#39; — executes downloaded binaries
-🟡 WARNING: skill &#39;browser-automation&#39; — spawns headless browser with network access
-🟢 SAFE: skill &#39;memory-hygiene&#39; — file operations on LanceDB only, no network
+<div class="highlight"><pre><span></span><code>🔴 CRITICAL: skill &#39;metamask-openclaw-security&#39; - executes downloaded binaries
+🟡 WARNING: skill &#39;browser-automation&#39; - spawns headless browser with network access
+🟢 SAFE: skill &#39;memory-hygiene&#39; - file operations on LanceDB only, no network
 </code></pre></div>
 <h3 id="4-structure-validation">4. Structure Validation<a class="headerlink" href="#4-structure-validation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>❌ skill &#39;untitled-skill&#39;: missing YAML frontmatter
@@ -10220,7 +10220,7 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
 <p><strong>Marketplace Quality Gate:</strong> Before adding a new marketplace skill to the CorpusIQ docs, run vetting to ensure it meets quality standards.</p>
 </li>
 <li>
-<p><strong>Production Agent Safety:</strong> CorpusIQ's 133+ skills need continuous validation — this prevents a broken dependency from silently failing in production.</p>
+<p><strong>Production Agent Safety:</strong> CorpusIQ's 133+ skills need continuous validation - this prevents a broken dependency from silently failing in production.</p>
 </li>
 <li>
 <p><strong>Security Compliance:</strong> Automated scanning for dangerous patterns keeps CorpusIQ agents compliant with security best practices.</p>
@@ -10237,7 +10237,7 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
 <div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 <span class="c1"># ~/.hermes/hooks/session-start.sh</span>
 <span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Vetting installed skills...&quot;</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--all<span class="w"> </span>--quiet<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;⚠️  Skill vetting found issues — check logs&quot;</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--all<span class="w"> </span>--quiet<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;⚠️  Skill vetting found issues - check logs&quot;</span>
 </code></pre></div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10280,7 +10280,7 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
 <p><em>← <a href="/hermes/skills/catalog">Skills Catalog</a> | <a href="/hermes/skills/marketplace">Marketplace</a> →</em>
 <em>↑ <a href="/hermes/skills">Skills Home</a></em></p>
 <hr />
-<p><em>Curated by CorpusIQ — one MCP endpoint, all your business tools.</em></p>
+<p><em>Curated by CorpusIQ - one MCP endpoint, all your business tools.</em></p>
 
 
 

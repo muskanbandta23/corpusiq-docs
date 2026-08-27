@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure runapi-ai/cli-skill — unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.">
+        <meta name="description" content="Install and configure runapi-ai/cli-skill - unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/runapi-cli-skill-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="RunAPI CLI Skill Setup Guide - CorpusIQ Docs">
-  <meta property="og:description" content="Install and configure runapi-ai/cli-skill — unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.">
+  <meta property="og:description" content="Install and configure runapi-ai/cli-skill - unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="RunAPI CLI Skill Setup Guide - CorpusIQ Docs">
-  <meta name="twitter:description" content="Install and configure runapi-ai/cli-skill — unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.">
+  <meta name="twitter:description" content="Install and configure runapi-ai/cli-skill - unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "RunAPI CLI Skill Setup Guide - CorpusIQ Docs",
-    "description": "Install and configure runapi-ai/cli-skill \u2014 unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.",
+    "description": "Install and configure runapi-ai/cli-skill - unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/runapi-cli-skill-setup",
     
     "datePublished": "2026-08-12",
@@ -10099,16 +10099,16 @@
   
 
 
-<h1 id="runapi-cli-skill-setup-guide">RunAPI CLI Skill — Setup Guide<a class="headerlink" href="#runapi-cli-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>Unified AI media API CLI for agents by <a href="https://github.com/runapi-ai/cli-skill">runapi-ai</a>. Consolidates AI image generation, video creation, music/audio synthesis, and model API access under a single CLI — eliminating the need for separate integration skills per provider.</p>
+<h1 id="runapi-cli-skill-setup-guide">RunAPI CLI Skill - Setup Guide<a class="headerlink" href="#runapi-cli-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p>Unified AI media API CLI for agents by <a href="https://github.com/runapi-ai/cli-skill">runapi-ai</a>. Consolidates AI image generation, video creation, music/audio synthesis, and model API access under a single CLI - eliminating the need for separate integration skills per provider.</p>
 <h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>AI Image Generation</strong> — DALL-E, Stable Diffusion, Flux, Midjourney (via API)</li>
-<li><strong>AI Video</strong> — Runway, Pika, Kling, HeyGen</li>
-<li><strong>AI Music/Audio</strong> — Suno, Udio, ElevenLabs TTS</li>
-<li><strong>AI Model APIs</strong> — OpenAI, Anthropic, Google, DeepSeek, local Ollama</li>
-<li><strong>Job Queue</strong> — async job submission with status polling</li>
-<li><strong>Cost Tracking</strong> — per-provider usage and cost breakdown</li>
+<li><strong>AI Image Generation</strong> - DALL-E, Stable Diffusion, Flux, Midjourney (via API)</li>
+<li><strong>AI Video</strong> - Runway, Pika, Kling, HeyGen</li>
+<li><strong>AI Music/Audio</strong> - Suno, Udio, ElevenLabs TTS</li>
+<li><strong>AI Model APIs</strong> - OpenAI, Anthropic, Google, DeepSeek, local Ollama</li>
+<li><strong>Job Queue</strong> - async job submission with status polling</li>
+<li><strong>Cost Tracking</strong> - per-provider usage and cost breakdown</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install via skills.sh</span>
@@ -10197,7 +10197,7 @@ hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </s
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>⚠️ API costs</strong>: AI media APIs are expensive. A single video generation can cost $1-5. Set <code>cost_tracking: true</code> and monitor usage.</li>
-<li><strong>⚠️ API key sprawl</strong>: This skill requires many API keys. Use a <code>.env</code> file or secrets manager — never hardcode keys in config.</li>
+<li><strong>⚠️ API key sprawl</strong>: This skill requires many API keys. Use a <code>.env</code> file or secrets manager - never hardcode keys in config.</li>
 <li><strong>Async jobs</strong>: Video and music generation are async (minutes to hours). Use the job queue to check status. Don't block the session waiting.</li>
 <li><strong>Rate limits</strong>: Free-tier API keys have severe rate limits. For production use, upgrade to paid tiers.</li>
 <li><strong>Model availability</strong>: Some models (Kling, Midjourney API) have geographic restrictions or waitlists. Test availability before relying on them.</li>

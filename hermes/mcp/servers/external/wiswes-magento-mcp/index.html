@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Magento 2 store operations over MCP — catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI">
+        <meta name="description" content="Magento 2 store operations over MCP - catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/wiswes-magento-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="WisWes Magento MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Magento 2 store operations over MCP — catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI">
+  <meta property="og:description" content="Magento 2 store operations over MCP - catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="WisWes Magento MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Magento 2 store operations over MCP — catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI">
+  <meta name="twitter:description" content="Magento 2 store operations over MCP - catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "WisWes Magento MCP - CorpusIQ Docs",
-    "description": "Magento 2 store operations over MCP \u2014 catalog, cart, checkout, customer, sales and wishlist tools served from the store\u0027s own web server, powering an AI",
+    "description": "Magento 2 store operations over MCP - catalog, cart, checkout, customer, sales and wishlist tools served from the store\u0027s own web server, powering an AI",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/wiswes-magento-mcp",
     
     "author": {
@@ -10047,18 +10047,18 @@
 
 
 <h1 id="wiswes-magento-mcp">WisWes Magento MCP<a class="headerlink" href="#wiswes-magento-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Magento 2 module (self-hosted endpoint, shared-secret auth)</strong> — the official WisWes module plugs a Magento 2 store into the WisWes AI shopping assistant over the Model Context Protocol: a stateless MCP HTTP endpoint at <code>/mcp</code> served through the store's own web server, 22 typed tools across catalog, cart, checkout, customer, sales, and wishlist, and a nightly catalogue push to a vector index for semantic product search.</p>
+<p><strong>Magento 2 module (self-hosted endpoint, shared-secret auth)</strong> - the official WisWes module plugs a Magento 2 store into the WisWes AI shopping assistant over the Model Context Protocol: a stateless MCP HTTP endpoint at <code>/mcp</code> served through the store's own web server, 22 typed tools across catalog, cart, checkout, customer, sales, and wishlist, and a nightly catalogue push to a vector index for semantic product search.</p>
 <div class="highlight"><pre><span></span><code>Server type: Magento 2 module (stateless MCP HTTP endpoint on your web server)
 Auth: shared install secret (minted by one-click admin handshake), plus customer/admin bearer scoping
 Endpoint: https://&lt;your-magento&gt;/mcp
 Tools: 22 (catalog, cart, checkout, customer, sales, wishlist)
 Pricing: free module (GPL-3.0); WisWes assistant service per wiswes.com
 Category: Commerce
-Built by: WisWes (wiswes.com) — composer package wiswes/magento-mcp, v1.0.7
+Built by: WisWes (wiswes.com) - composer package wiswes/magento-mcp, v1.0.7
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Most commerce AI demos stop at search. WisWes goes to the transaction: the Wes chat persona on the storefront can read live Magento data and act on the cart with no glue code. Shoppers ask questions in natural language, the assistant calls the right tool against the live store, and the store ships more orders.</p>
-<p><strong>The endpoint is your own web server</strong>: there is no separate process to manage, no third-party middleware holding a database copy, and the shared secret is minted server-to-server through an admin handshake the merchant never sees in the browser. Auth is tiered — catalog tools need only the install secret, cart and customer tools additionally forward the shopper's customer token, and order updates require customer (own orders) or admin (any order) context — so anonymous shoppers can browse but cannot read a cart until they sign in.</p>
+<p><strong>The endpoint is your own web server</strong>: there is no separate process to manage, no third-party middleware holding a database copy, and the shared secret is minted server-to-server through an admin handshake the merchant never sees in the browser. Auth is tiered - catalog tools need only the install secret, cart and customer tools additionally forward the shopper's customer token, and order updates require customer (own orders) or admin (any order) context - so anonymous shoppers can browse but cannot read a cart until they sign in.</p>
 <p>The nightly incremental push sends only enabled, visible products to the WisWes vector index in batches of 100, with a compact retrieval payload the LLM sees verbatim when a result matches.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10121,9 +10121,9 @@ bin/magento<span class="w"> </span>cache:flush
 <p>WisWes Magento pairs with the CorpusIQ analytics stack to close the loop between assistant conversations and store economics. CorpusIQ GA4 reads the traffic and conversion the WisWes widget drives; the CorpusIQ Stripe connector reads the settled revenue; the cross-source view tells the merchant whether the AI assistant lifts basket size or just shifts browsing. For operators running Shopify and Magento stores side by side, WisWes Magento gives the Magento side an assistant parity path with the Shopify tooling CorpusIQ already indexes. WisWes indexes only the embedded search payload it needs for semantic lookup. The authoritative commerce data lives in the merchant's Magento store, and CorpusIQ connectors read the financial truth directly from the connected sources.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listed August 17, 2026</li>
+<li>Brand new - no track record yet; listed August 17, 2026</li>
 <li>Magento 2 only (2.4.4+); no Magento 1 or OpenMage support</li>
-<li>The assistant itself is a WisWes service — the module is free, the workspace plan governs index size (<code>skipped_cap</code> when the plan limit is hit)</li>
+<li>The assistant itself is a WisWes service - the module is free, the workspace plan governs index size (<code>skipped_cap</code> when the plan limit is hit)</li>
 <li>Self-hosted endpoint means your web server must be reachable from WisWes (firewall/NAT considerations)</li>
 <li>No published tool-level API docs beyond the module README; extend-by-code for custom tools</li>
 </ul>

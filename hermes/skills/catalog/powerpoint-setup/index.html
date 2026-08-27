@@ -23,7 +23,7 @@
     
     
   
-    <title>powerpoint — Setup Guide - CorpusIQ Docs</title>
+    <title>powerpoint - Setup Guide - CorpusIQ Docs</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/powerpoint-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="powerpoint — Setup Guide - CorpusIQ Docs">
+  <meta property="og:title" content="powerpoint - Setup Guide - CorpusIQ Docs">
   <meta property="og:description" content="Create, read, and edit .pptx decks, slides, notes, and templates. Official Hermes skill. 393+ installs on skills.sh.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="powerpoint — Setup Guide - CorpusIQ Docs">
+  <meta name="twitter:title" content="powerpoint - Setup Guide - CorpusIQ Docs">
   <meta name="twitter:description" content="Create, read, and edit .pptx decks, slides, notes, and templates. Official Hermes skill. 393+ installs on skills.sh.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "powerpoint \u2014 Setup Guide - CorpusIQ Docs",
+    "name": "powerpoint - Setup Guide - CorpusIQ Docs",
     "description": "Create, read, and edit .pptx decks, slides, notes, and templates. Official Hermes skill. 393+ installs on skills.sh.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/powerpoint-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              powerpoint — Setup Guide - CorpusIQ Docs
+              powerpoint - Setup Guide - CorpusIQ Docs
             
           </span>
         </div>
@@ -9995,7 +9995,7 @@
   <a href="#creating-decks-with-pptxgenjs-key-gotchas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Creating Decks with pptxgenjs — Key Gotchas
+        Creating Decks with pptxgenjs - Key Gotchas
       
     </span>
   </a>
@@ -10133,7 +10133,7 @@
 <strong>Category:</strong> Productivity / Office<br />
 <strong>Skill ID:</strong> <code>powerpoint</code></p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Create, read, and edit PowerPoint decks from scratch or via template-based XML manipulation. Supports speaker notes, charts, design QA, and LibreOffice rendering. A <code>.pptx</code> is a ZIP archive of XML files — this skill gives you complete control over every element.</p>
+<p>Create, read, and edit PowerPoint decks from scratch or via template-based XML manipulation. Supports speaker notes, charts, design QA, and LibreOffice rendering. A <code>.pptx</code> is a ZIP archive of XML files - this skill gives you complete control over every element.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>nousresearch/hermes-agent@powerpoint<span class="w"> </span>-a<span class="w"> </span>hermes-agent<span class="w"> </span>-y
 </code></pre></div>
@@ -10181,20 +10181,20 @@ brew<span class="w"> </span>install<span class="w"> </span>libreoffice<span clas
 </tr>
 </tbody>
 </table>
-<h2 id="creating-decks-with-pptxgenjs-key-gotchas">Creating Decks with pptxgenjs — Key Gotchas<a class="headerlink" href="#creating-decks-with-pptxgenjs-key-gotchas" title="Anchor link to this section">&para;</a></h2>
+<h2 id="creating-decks-with-pptxgenjs-key-gotchas">Creating Decks with pptxgenjs - Key Gotchas<a class="headerlink" href="#creating-decks-with-pptxgenjs-key-gotchas" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Set <code>pres.layout</code> before adding slides.</strong> Default canvas is <code>LAYOUT_16x9</code> = 10" × 5.625", not 13.3" wide.</li>
-<li><strong>Hex colors: never <code>#</code>, never 8 digits.</strong> Use <code>color: "FF0000"</code> — both <code>"#FF0000"</code> and alpha hex values corrupt the file.</li>
-<li><strong>pptxgenjs mutates option objects</strong> — never share one <code>shadow</code>/options object across two <code>add*</code> calls.</li>
-<li><strong>Shadow <code>offset</code> must be ≥ 0</strong> — negative offset corrupts the file. Use <code>angle</code> to cast direction.</li>
-<li><strong><code>letterSpacing</code> is silently ignored</strong> — use <code>charSpacing</code> instead.</li>
+<li><strong>Hex colors: never <code>#</code>, never 8 digits.</strong> Use <code>color: "FF0000"</code> - both <code>"#FF0000"</code> and alpha hex values corrupt the file.</li>
+<li><strong>pptxgenjs mutates option objects</strong> - never share one <code>shadow</code>/options object across two <code>add*</code> calls.</li>
+<li><strong>Shadow <code>offset</code> must be ≥ 0</strong> - negative offset corrupts the file. Use <code>angle</code> to cast direction.</li>
+<li><strong><code>letterSpacing</code> is silently ignored</strong> - use <code>charSpacing</code> instead.</li>
 <li><strong>Lists:</strong> <code>bullet: true</code> on each item; never a literal <code>•</code> (renders double bullets).</li>
-<li><strong>One <code>new pptxgen()</code> per output file</strong> — never reuse an instance.</li>
-<li><strong>Text boxes have built-in padding</strong> — set <code>margin: 0</code> when aligning with shapes at same x.</li>
+<li><strong>One <code>new pptxgen()</code> per output file</strong> - never reuse an instance.</li>
+<li><strong>Text boxes have built-in padding</strong> - set <code>margin: 0</code> when aligning with shapes at same x.</li>
 <li><strong>Speaker notes:</strong> <code>slide.addNotes("...")</code> (plain text, once per slide).</li>
-<li><strong>Keep charts native</strong> — use <code>addChart()</code> for everything PowerPoint can chart. Only render images for chart types PowerPoint has no native form for (Sankey, network, chord).</li>
+<li><strong>Keep charts native</strong> - use <code>addChart()</code> for everything PowerPoint can chart. Only render images for chart types PowerPoint has no native form for (Sankey, network, chord).</li>
 <li><strong>On stacked bar/column charts, <code>dataLabelPosition</code> must be <code>ctr</code>, <code>inEnd</code>, or <code>inBase</code>.</strong> <code>outEnd</code> corrupts the file.</li>
-<li><strong>Always run <code>validate.py</code> after generation</strong> — catches chart faults and XML defects.</li>
+<li><strong>Always run <code>validate.py</code> after generation</strong> - catches chart faults and XML defects.</li>
 </ul>
 <h2 id="editing-existing-decks-and-templates">Editing Existing Decks and Templates<a class="headerlink" href="#editing-existing-decks-and-templates" title="Anchor link to this section">&para;</a></h2>
 <p>Pick layouts first with thumbnail grid:</p>
@@ -10217,9 +10217,9 @@ python<span class="w"> </span>scripts/office/validate.py<span class="w"> </span>
 </code></pre></div>
 <p><strong>Important rules:</strong>
 - Do all structural work (add, delete, reorder) before editing slide content
-- Never copy a slide file by hand — use <code>add_slide.py</code>
+- Never copy a slide file by hand - use <code>add_slide.py</code>
 - If using <code>python-pptx</code>: assign <code>run.text</code> not <code>text_frame.text</code> (preserves formatting)
-- <code>.potx</code> templates unpack and pack identically — keep <code>.potx</code> extension on output
+- <code>.potx</code> templates unpack and pack identically - keep <code>.potx</code> extension on output
 - Legacy <code>.ppt</code> must be converted first: <code>soffice --headless --convert-to pptx file.ppt</code></p>
 <h2 id="design-guidelines">Design Guidelines<a class="headerlink" href="#design-guidelines" title="Anchor link to this section">&para;</a></h2>
 <p>The skill includes comprehensive design guidance for creating professional presentations:</p>
@@ -10298,10 +10298,10 @@ python<span class="w"> </span>scripts/office/validate.py<span class="w"> </span>
 </table>
 <h3 id="slide-design-rules">Slide Design Rules<a class="headerlink" href="#slide-design-rules" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Every slide needs a visual element — image, chart, icon, or shape. Text-only slides are forgettable.</li>
+<li>Every slide needs a visual element - image, chart, icon, or shape. Text-only slides are forgettable.</li>
 <li>Pick a bold, content-informed color palette. Dominance over equality: one color should dominate 60-70%.</li>
 <li>Dark/light contrast: dark backgrounds for title + conclusion slides, light for content ("sandwich" structure).</li>
-<li>Commit to a visual motif — one distinctive element repeated across all slides.</li>
+<li>Commit to a visual motif - one distinctive element repeated across all slides.</li>
 </ul>
 <h3 id="layout-options">Layout Options<a class="headerlink" href="#layout-options" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10347,11 +10347,11 @@ python<span class="w"> </span>scripts/office/validate.py<span class="w"> </span>
 </table>
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><code>docx</code></strong> — Word document creation and editing</li>
-<li><strong><code>xlsx</code></strong> — Excel spreadsheet creation and editing</li>
-<li><strong><code>pdf</code></strong> — PDF manipulation</li>
-<li><strong><code>pptx-author</code></strong> (optional finance skill) — Finance-specific presentation generation</li>
-<li><strong><code>popular-web-designs</code></strong> — Design systems and color palettes for web UIs (complementary)</li>
+<li><strong><code>docx</code></strong> - Word document creation and editing</li>
+<li><strong><code>xlsx</code></strong> - Excel spreadsheet creation and editing</li>
+<li><strong><code>pdf</code></strong> - PDF manipulation</li>
+<li><strong><code>pptx-author</code></strong> (optional finance skill) - Finance-specific presentation generation</li>
+<li><strong><code>popular-web-designs</code></strong> - Design systems and color palettes for web UIs (complementary)</li>
 </ul>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check installation</span>
@@ -10369,7 +10369,7 @@ python<span class="w"> </span>~/.hermes/skills/powerpoint/scripts/office/validat
 <li>License: Proprietary (see LICENSE.txt in skill directory for complete terms)</li>
 <li>Supports both from-scratch generation (pptxgenjs) and template-based editing (XML manipulation)</li>
 <li>LibreOffice required for rendering/QA (headless mode supported)</li>
-<li>See skill's SKILL.md for the complete gotchas reference — 20+ common pitfalls documented</li>
+<li>See skill's SKILL.md for the complete gotchas reference - 20+ common pitfalls documented</li>
 </ul>
 
 

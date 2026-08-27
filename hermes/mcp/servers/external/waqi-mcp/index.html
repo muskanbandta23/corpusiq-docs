@@ -10036,7 +10036,7 @@
 
 
 <h1 id="waqi-mcp">Waqi MCP<a class="headerlink" href="#waqi-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Hosted MCP server that sits between your business tools and your AI assistant — Waqi fetches data read-only from Stripe, Xero, your CRM, and 14 other connectors, strips names, card numbers, and personal details, writes a provable audit entry, and only then returns the cleaned data to the model.</strong> Your AI gets real answers from real business data; your customers' personal data never reaches it. Commercial service by Bilazann, from £99/month.</p>
+<p><strong>Hosted MCP server that sits between your business tools and your AI assistant - Waqi fetches data read-only from Stripe, Xero, your CRM, and 14 other connectors, strips names, card numbers, and personal details, writes a provable audit entry, and only then returns the cleaned data to the model.</strong> Your AI gets real answers from real business data; your customers' personal data never reaches it. Commercial service by Bilazann, from £99/month.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (HTTP, per-person token URLs)
 Auth: Token embedded in URL (per team member, individually revocable)
 Endpoint: https://waqi.bilazann.com/api/mcp/YOUR_TOKEN
@@ -10046,8 +10046,8 @@ Category: Data &amp; Analytics / Compliance
 Built by: Bilazann (bilazann.com/waqi, repo: ajprolific/waqi-mcp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>The single biggest blocker to using AI on real business data is what else rides along with it — customer names, card numbers, personal details. Waqi attacks that directly: redaction happens before any response leaves the server, so the model only ever sees cleaned data, and the audit log is written after redaction so the log itself never holds sensitive values.</p>
-<p><strong>The audit trail is the product, not a feature.</strong> Every call is logged — who asked, which tool, what was caught. For accountants, agencies, and clinics where confidentiality is the business, that converts "has our data been through an AI?" from a reassurance into a record. Per-person tokens mean every team member gets their own URL with individual attribution and per-person revocation.</p>
+<p>The single biggest blocker to using AI on real business data is what else rides along with it - customer names, card numbers, personal details. Waqi attacks that directly: redaction happens before any response leaves the server, so the model only ever sees cleaned data, and the audit log is written after redaction so the log itself never holds sensitive values.</p>
+<p><strong>The audit trail is the product, not a feature.</strong> Every call is logged - who asked, which tool, what was caught. For accountants, agencies, and clinics where confidentiality is the business, that converts "has our data been through an AI?" from a reassurance into a record. Per-person tokens mean every team member gets their own URL with individual attribution and per-person revocation.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10075,14 +10075,14 @@ Built by: Bilazann (bilazann.com/waqi, repo: ajprolific/waqi-mcp)
 </tr>
 <tr>
 <td>Credential vault</td>
-<td>Connector keys stored encrypted and write-only — no read-back, even for the owner</td>
+<td>Connector keys stored encrypted and write-only - no read-back, even for the owner</td>
 </tr>
 </tbody>
 </table>
-<p>Read-only by design: Waqi fetches, it never writes to your tools. No self-host — it runs as a managed service.</p>
+<p>Read-only by design: Waqi fetches, it never writes to your tools. No self-host - it runs as a managed service.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li>Sign up at bilazann.com/waqi — the dashboard issues each team member a personal MCP URL.</li>
+<li>Sign up at bilazann.com/waqi - the dashboard issues each team member a personal MCP URL.</li>
 <li>Connect a tool (Stripe, Xero, Zoho, Slack…) in the dashboard.</li>
 <li>Paste the MCP URL into your client.</li>
 </ol>
@@ -10097,7 +10097,7 @@ Built by: Bilazann (bilazann.com/waqi, repo: ajprolific/waqi-mcp)
 </code></pre></div>
 <p>Claude: Settings → Connectors → Add custom connector. ChatGPT: Settings → Connectors → Developer mode. Step-by-step guides at bilazann.com/waqi/docs.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>The dashboard is the control surface: connectors per team, token issuance, revocation, and the audit trail. Credentials are write-only — not even the account owner can read them back. Data is fetched per request, redacted, and returned; only encrypted credentials and the already-redacted audit log are stored.</p>
+<p>The dashboard is the control surface: connectors per team, token issuance, revocation, and the audit trail. Credentials are write-only - not even the account owner can read them back. Data is fetched per request, redacted, and returned; only encrypted credentials and the already-redacted audit log are stored.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Accountants and agencies</strong> give clients an auditable answer on AI exposure for every query</li>
@@ -10106,13 +10106,13 @@ Built by: Bilazann (bilazann.com/waqi, repo: ajprolific/waqi-mcp)
 <li><strong>Teams</strong> get per-person attribution and per-person kill switches on AI access to business data</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ's MCP server is direct multi-source business data access — 40+ connectors answered in one surface, read-only, OAuth-scoped. Waqi is the privacy wrapper for cases where the raw record level must pass through: it adds redaction and an audit trail in front of individual tools like Stripe or Xero.</p>
+<p>CorpusIQ's MCP server is direct multi-source business data access - 40+ connectors answered in one surface, read-only, OAuth-scoped. Waqi is the privacy wrapper for cases where the raw record level must pass through: it adds redaction and an audit trail in front of individual tools like Stripe or Xero.</p>
 <p>The composed posture: CorpusIQ for aggregate, multi-source business questions where no raw personal data needs to enter the prompt, and Waqi in front of specific connectors when a team must hand AI record-level access under a compliance regime. Both are read-only on the data plane; Waqi adds the DLP and audit layer CorpusIQ deliberately leaves to enterprise tooling.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Commercial from £99/month — no free tier beyond trial</li>
-<li>Hosted only — no self-host option, vendor custody of the audit log</li>
-<li>No published tool list yet (mcp.so shows none detected) — surface must be evaluated in trial</li>
+<li>Commercial from £99/month - no free tier beyond trial</li>
+<li>Hosted only - no self-host option, vendor custody of the audit log</li>
+<li>No published tool list yet (mcp.so shows none detected) - surface must be evaluated in trial</li>
 <li>16 connectors today, focused on payments, accounting, CRM, and communication</li>
 <li>Brand new listing (Aug 18, 2026)</li>
 </ul>

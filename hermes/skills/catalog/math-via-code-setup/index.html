@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure tommulkins/hermes-skill-math-via-code — enforce all multi-step arithmetic through code execution to eliminate LLM math errors in">
+        <meta name="description" content="Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors in">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Math via Code — Hermes Agent Skill Setup Guide</title>
+    <title>Math via Code - Hermes Agent Skill Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/math-via-code-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Math via Code — Hermes Agent Skill Setup Guide">
-  <meta property="og:description" content="Install and configure tommulkins/hermes-skill-math-via-code — enforce all multi-step arithmetic through code execution to eliminate LLM math errors in">
+  <meta property="og:title" content="Math via Code - Hermes Agent Skill Setup Guide">
+  <meta property="og:description" content="Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors in">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Math via Code — Hermes Agent Skill Setup Guide">
-  <meta name="twitter:description" content="Install and configure tommulkins/hermes-skill-math-via-code — enforce all multi-step arithmetic through code execution to eliminate LLM math errors in">
+  <meta name="twitter:title" content="Math via Code - Hermes Agent Skill Setup Guide">
+  <meta name="twitter:description" content="Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors in">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Math via Code \u2014 Hermes Agent Skill Setup Guide",
-    "description": "Install and configure tommulkins/hermes-skill-math-via-code \u2014 enforce all multi-step arithmetic through code execution to eliminate LLM math errors in",
+    "name": "Math via Code - Hermes Agent Skill Setup Guide",
+    "description": "Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors in",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/math-via-code-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Math via Code — Hermes Agent Skill Setup Guide
+              Math via Code - Hermes Agent Skill Setup Guide
             
           </span>
         </div>
@@ -10122,14 +10122,14 @@
   
 
 
-<h1 id="math-via-code-skill-setup">Math via Code — Skill Setup<a class="headerlink" href="#math-via-code-skill-setup" title="Anchor link to this section">&para;</a></h1>
+<h1 id="math-via-code-skill-setup">Math via Code - Skill Setup<a class="headerlink" href="#math-via-code-skill-setup" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/tommulkins/hermes-skill-math-via-code">tommulkins/hermes-skill-math-via-code</a>
 <strong>Stars:</strong> 0 ⭐ | <strong>License:</strong> MIT
 <strong>Created:</strong> June 24, 2026
 <strong>Category:</strong> Development / Accuracy / Financial Analysis</p>
 <hr />
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A Hermes Agent skill that enforces a hard rule: <strong>all arithmetic with 3+ numbers goes through code execution.</strong> No exceptions. Born from repeated errors in financial modeling — SDE calculations, P&amp;L analysis, and facility rollups where a single transposed digit cascaded into incorrect deal evaluations.</p>
+<p>A Hermes Agent skill that enforces a hard rule: <strong>all arithmetic with 3+ numbers goes through code execution.</strong> No exceptions. Born from repeated errors in financial modeling - SDE calculations, P&amp;L analysis, and facility rollups where a single transposed digit cascaded into incorrect deal evaluations.</p>
 <p><strong>Core philosophy:</strong> LLM arithmetic accuracy degrades sharply past ~150k context tokens and is unreliable even below that. Code is always right; in-head math is not.</p>
 <h3 id="what-it-handles">What It Handles<a class="headerlink" href="#what-it-handles" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10141,7 +10141,7 @@
 </ul>
 <h3 id="when-not-to-use">When NOT to Use<a class="headerlink" href="#when-not-to-use" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Single-operation arithmetic on two numbers (<code>5 * 3</code>, <code>100 - 20</code>) — these are safe in-head</li>
+<li>Single-operation arithmetic on two numbers (<code>5 * 3</code>, <code>100 - 20</code>) - these are safe in-head</li>
 <li>Pure text manipulation or formatting tasks</li>
 </ul>
 <hr />
@@ -10166,9 +10166,9 @@
 </code></pre></div>
 <h3 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Anchor link to this section">&para;</a></h3>
 <ol>
-<li><strong>Determine inputs</strong> — Capture numbers as variables from conversation, files, or APIs. Never re-type from memory.</li>
-<li><strong>Write the calculation</strong> — Use <code>execute_code</code> for in-memory math; use <code>terminal</code> with project venv for packages (openpyxl, pandas).</li>
-<li><strong>Self-check</strong> — Include assertions or cross-checks against source data.</li>
+<li><strong>Determine inputs</strong> - Capture numbers as variables from conversation, files, or APIs. Never re-type from memory.</li>
+<li><strong>Write the calculation</strong> - Use <code>execute_code</code> for in-memory math; use <code>terminal</code> with project venv for packages (openpyxl, pandas).</li>
+<li><strong>Self-check</strong> - Include assertions or cross-checks against source data.</li>
 </ol>
 <h3 id="example-sde-calculation">Example: SDE Calculation<a class="headerlink" href="#example-sde-calculation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Instead of in-head math, the skill routes to:</span>
@@ -10272,7 +10272,7 @@
 <tr>
 <td>Assertion fails</td>
 <td>Source data inconsistent</td>
-<td>Report the mismatch — don't silently proceed</td>
+<td>Report the mismatch - don't silently proceed</td>
 </tr>
 </tbody>
 </table>

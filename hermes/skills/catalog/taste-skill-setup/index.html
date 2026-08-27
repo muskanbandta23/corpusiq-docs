@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and use leonxlnx/taste-skill — convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and">
+        <meta name="description" content="Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>taste-skill — Design-to-Code & AI Image Generation for</title>
+    <title>taste-skill - Design-to-Code & AI Image Generation for</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="taste-skill — Design-to-Code & AI Image Generation for">
-  <meta property="og:description" content="Install and use leonxlnx/taste-skill — convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and">
+  <meta property="og:title" content="taste-skill - Design-to-Code & AI Image Generation for">
+  <meta property="og:description" content="Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="taste-skill — Design-to-Code & AI Image Generation for">
-  <meta name="twitter:description" content="Install and use leonxlnx/taste-skill — convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and">
+  <meta name="twitter:title" content="taste-skill - Design-to-Code & AI Image Generation for">
+  <meta name="twitter:description" content="Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "taste-skill \u2014 Design-to-Code \u0026 AI Image Generation for",
-    "description": "Install and use leonxlnx/taste-skill \u2014 convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and",
+    "name": "taste-skill - Design-to-Code \u0026 AI Image Generation for",
+    "description": "Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              taste-skill — Design-to-Code & AI Image Generation for
+              taste-skill - Design-to-Code & AI Image Generation for
             
           </span>
         </div>
@@ -10149,7 +10149,7 @@
   
 
 
-<h1 id="taste-skill-setup-guide">taste-skill — Setup Guide<a class="headerlink" href="#taste-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="taste-skill-setup-guide">taste-skill - Setup Guide<a class="headerlink" href="#taste-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/leonxlnx/taste-skill">leonxlnx/taste-skill</a> (156,100 installs)
 <strong>Category:</strong> Design / Image Generation
 <strong>Languages:</strong> TypeScript</p>
@@ -10188,7 +10188,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>Design system</strong></td>
-<td>Optional — provide existing tokens for consistent output</td>
+<td>Optional - provide existing tokens for consistent output</td>
 </tr>
 <tr>
 <td><strong>AI model access</strong></td>
@@ -10269,7 +10269,7 @@ taste<span class="w"> </span>imagegen-web<span class="w"> </span><span class="se
 <div class="highlight"><pre><span></span><code><span class="c1"># Refine generated output with natural language</span>
 taste<span class="w"> </span>refine<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--target<span class="w"> </span><span class="s2">&quot;src/pages/LandingPage.tsx&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--change<span class="w"> </span><span class="s2">&quot;Make the CTA button more prominent — increase size, add subtle glow animation&quot;</span>
+<span class="w">  </span>--change<span class="w"> </span><span class="s2">&quot;Make the CTA button more prominent - increase size, add subtle glow animation&quot;</span>
 
 taste<span class="w"> </span>refine<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--target<span class="w"> </span><span class="s2">&quot;src/app/dashboard/&quot;</span><span class="w"> </span><span class="se">\</span>
@@ -10290,7 +10290,7 @@ taste<span class="w"> </span>image-to-code<span class="w"> </span><span class="s
 <div class="highlight"><pre><span></span><code><span class="c1"># Generate 3 landing page variants for A/B testing</span>
 <span class="k">for</span><span class="w"> </span>variant<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;benefit-focused&quot;</span><span class="w"> </span><span class="s2">&quot;feature-focused&quot;</span><span class="w"> </span><span class="s2">&quot;social-proof&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
 <span class="w">  </span>taste<span class="w"> </span>imagegen-web<span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--prompt<span class="w"> </span><span class="s2">&quot;CorpusIQ landing page: hero, features, testimonials, pricing, footer — </span><span class="nv">$variant</span><span class="s2"> variant&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--prompt<span class="w"> </span><span class="s2">&quot;CorpusIQ landing page: hero, features, testimonials, pricing, footer - </span><span class="nv">$variant</span><span class="s2"> variant&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">    </span>--output<span class="w"> </span><span class="s2">&quot;ab-tests/landing-</span><span class="nv">$variant</span><span class="s2">/&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
@@ -10444,7 +10444,7 @@ taste<span class="w"> </span>imagegen-web<span class="w"> </span><span class="se
 <tr>
 <td>Generation takes 30+ seconds</td>
 <td>Large/complex prompt</td>
-<td>Break into smaller components (header, hero, features — separately)</td>
+<td>Break into smaller components (header, hero, features - separately)</td>
 </tr>
 <tr>
 <td>Tailwind classes conflict</td>
@@ -10456,10 +10456,10 @@ taste<span class="w"> </span>imagegen-web<span class="w"> </span><span class="se
 <hr />
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/skill-creator-setup">skill-creator</a> — Anthropic's skill creation framework (317K installs)</li>
-<li><a href="/hermes/skills/catalog/remotion-best-practices-setup">remotion-best-practices</a> — Programmatic video with React (430K installs)</li>
-<li><a href="/hermes/skills/catalog/apify-agent-skills-setup">apify-agent-skills</a> — Web scraping for competitive research</li>
-<li><a href="/hermes/skills/catalog/firecrawl-workflows-setup">firecrawl-workflows</a> — Market research automation</li>
+<li><a href="/hermes/skills/catalog/skill-creator-setup">skill-creator</a> - Anthropic's skill creation framework (317K installs)</li>
+<li><a href="/hermes/skills/catalog/remotion-best-practices-setup">remotion-best-practices</a> - Programmatic video with React (430K installs)</li>
+<li><a href="/hermes/skills/catalog/apify-agent-skills-setup">apify-agent-skills</a> - Web scraping for competitive research</li>
+<li><a href="/hermes/skills/catalog/firecrawl-workflows-setup">firecrawl-workflows</a> - Market research automation</li>
 </ul>
 
 

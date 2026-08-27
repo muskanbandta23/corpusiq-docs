@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent — safely delegate coding work to Cursor CLI with">
+        <meta name="description" content="Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor CLI with">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Cursor Delegate — Hermes Agent Skill for Cursor CLI</title>
+    <title>Cursor Delegate - Hermes Agent Skill for Cursor CLI</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Cursor Delegate — Hermes Agent Skill for Cursor CLI">
-  <meta property="og:description" content="Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent — safely delegate coding work to Cursor CLI with">
+  <meta property="og:title" content="Cursor Delegate - Hermes Agent Skill for Cursor CLI">
+  <meta property="og:description" content="Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor CLI with">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Cursor Delegate — Hermes Agent Skill for Cursor CLI">
-  <meta name="twitter:description" content="Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent — safely delegate coding work to Cursor CLI with">
+  <meta name="twitter:title" content="Cursor Delegate - Hermes Agent Skill for Cursor CLI">
+  <meta name="twitter:description" content="Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor CLI with">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Cursor Delegate \u2014 Hermes Agent Skill for Cursor CLI",
-    "description": "Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent \u2014 safely delegate coding work to Cursor CLI with",
+    "name": "Cursor Delegate - Hermes Agent Skill for Cursor CLI",
+    "description": "Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor CLI with",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cursor Delegate — Hermes Agent Skill for Cursor CLI
+              Cursor Delegate - Hermes Agent Skill for Cursor CLI
             
           </span>
         </div>
@@ -10270,7 +10270,7 @@
 <li>Requires Hermes to independently inspect diffs, run tests, and accept/reject</li>
 <li>Integrates natively with Grok models (default: <code>grok-4.5-xhigh</code>)</li>
 </ul>
-<p><strong>Key design rule:</strong> Cursor is an external implementation executor — <strong>never</strong> a source of truth. Hermes owns task construction, workspace selection, safe invocation, diff review, independent tests, corrective iterations, and the final acceptance decision.</p>
+<p><strong>Key design rule:</strong> Cursor is an external implementation executor - <strong>never</strong> a source of truth. Hermes owns task construction, workspace selection, safe invocation, diff review, independent tests, corrective iterations, and the final acceptance decision.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Cursor CLI</strong> installed and in <code>$PATH</code> (<code>agent --version</code> must work)</li>
@@ -10414,11 +10414,11 @@ pytest<span class="w"> </span>tests/db/<span class="w"> </span>-x<span class="w"
 </tbody>
 </table>
 <p>The wrapper <strong>does NOT</strong> pass:
-- <code>--force</code> — no forced overwrites
-- <code>--yolo</code> — no skip-confirmation
-- <code>--approve-mcps</code> — no MCP auto-approval
-- <code>--add-dir</code> — no directory injection
-- Arbitrary headers — no HTTP header manipulation</p>
+- <code>--force</code> - no forced overwrites
+- <code>--yolo</code> - no skip-confirmation
+- <code>--approve-mcps</code> - no MCP auto-approval
+- <code>--add-dir</code> - no directory injection
+- Arbitrary headers - no HTTP header manipulation</p>
 <h2 id="when-to-use">When to Use<a class="headerlink" href="#when-to-use" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Use for:</strong>
 - Non-trivial implementation, debugging, migration, or refactoring
@@ -10439,7 +10439,7 @@ pytest<span class="w"> </span>tests/db/<span class="w"> </span>-x<span class="w"
 <p>The wrapper has a configurable timeout (default: 600s). If exceeded:
 1. The Cursor process group is killed
 2. Partial output is captured in the log file
-3. The worktree may contain partial changes — discard and retry</p>
+3. The worktree may contain partial changes - discard and retry</p>
 <h3 id="model-not-available">Model not available<a class="headerlink" href="#model-not-available" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>agent<span class="w"> </span>--list-models
 <span class="c1"># Verify grok-4.5-xhigh or override with --model</span>
@@ -10452,19 +10452,19 @@ git<span class="w"> </span>worktree<span class="w"> </span>remove<span class="w"
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>
-<p><strong>Never trust Cursor's self-report</strong> — Always inspect the actual diff. Cursor may claim success while producing broken code.</p>
+<p><strong>Never trust Cursor's self-report</strong> - Always inspect the actual diff. Cursor may claim success while producing broken code.</p>
 </li>
 <li>
-<p><strong>Dirty repos</strong> — The wrapper does NOT check for uncommitted changes. Hermes must verify <code>git status --short</code> before delegating.</p>
+<p><strong>Dirty repos</strong> - The wrapper does NOT check for uncommitted changes. Hermes must verify <code>git status --short</code> before delegating.</p>
 </li>
 <li>
-<p><strong>Model alias drift</strong> — <code>grok-4.5-xhigh</code> may not appear in <code>agent --list-models</code> but was verified working. If it fails, check model availability with <code>agent --list-models</code> and override with <code>--model</code>.</p>
+<p><strong>Model alias drift</strong> - <code>grok-4.5-xhigh</code> may not appear in <code>agent --list-models</code> but was verified working. If it fails, check model availability with <code>agent --list-models</code> and override with <code>--model</code>.</p>
 </li>
 <li>
-<p><strong>Large repos</strong> — Worktree creation on large repos (1GB+) may take several seconds. Account for this in timeout calculations.</p>
+<p><strong>Large repos</strong> - Worktree creation on large repos (1GB+) may take several seconds. Account for this in timeout calculations.</p>
 </li>
 <li>
-<p><strong>Tests may not exist</strong> — If the repo has no tests for the changed area, Hermes must manually verify correctness through code review.</p>
+<p><strong>Tests may not exist</strong> - If the repo has no tests for the changed area, Hermes must manually verify correctness through code review.</p>
 </li>
 </ol>
 <h2 id="verification-checklist">Verification Checklist<a class="headerlink" href="#verification-checklist" title="Anchor link to this section">&para;</a></h2>

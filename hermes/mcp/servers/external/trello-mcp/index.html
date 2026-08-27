@@ -23,7 +23,7 @@
     
     
   
-    <title>Trello MCP Server — Integration Guide</title>
+    <title>Trello MCP Server - Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/trello-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Trello MCP Server — Integration Guide">
+  <meta property="og:title" content="Trello MCP Server - Integration Guide">
   <meta property="og:description" content="Official Atlassian Trello MCP server. Cloud-hosted bridge for AI tools to access Trello boards, lists, cards, and checklists. OAuth 2.0. Streamable HTTP.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Trello MCP Server — Integration Guide">
+  <meta name="twitter:title" content="Trello MCP Server - Integration Guide">
   <meta name="twitter:description" content="Official Atlassian Trello MCP server. Cloud-hosted bridge for AI tools to access Trello boards, lists, cards, and checklists. OAuth 2.0. Streamable HTTP.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Trello MCP Server \u2014 Integration Guide",
+    "name": "Trello MCP Server - Integration Guide",
     "description": "Official Atlassian Trello MCP server. Cloud-hosted bridge for AI tools to access Trello boards, lists, cards, and checklists. OAuth 2.0. Streamable HTTP.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/trello-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Trello MCP Server — Integration Guide
+              Trello MCP Server - Integration Guide
             
           </span>
         </div>
@@ -10130,27 +10130,27 @@
 <strong>Status:</strong> Available (Beta)
 <strong>Repository:</strong> <a href="https://github.com/atlassian/trello-mcp-server">github.com/atlassian/trello-mcp-server</a></p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>The official Trello MCP server is a cloud-hosted bridge between your Trello account and any MCP-compatible AI assistant. Once connected, AI tools can read boards, lists, cards, and checklists — and take actions on your behalf based on the permissions you grant.</p>
+<p>The official Trello MCP server is a cloud-hosted bridge between your Trello account and any MCP-compatible AI assistant. Once connected, AI tools can read boards, lists, cards, and checklists - and take actions on your behalf based on the permissions you grant.</p>
 <p>Atlassian now offers official MCP servers across their entire product suite: Jira, Confluence, and Trello. This makes MCP the standard integration layer for Atlassian's AI ecosystem.</p>
 <h2 id="what-you-can-do">What You Can Do<a class="headerlink" href="#what-you-can-do" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Read boards, lists, cards</strong> — Query Trello content from AI assistants</li>
-<li><strong>Create and update cards</strong> — Manage tasks without switching apps</li>
-<li><strong>Manage checklists</strong> — Add, update, and complete checklist items</li>
-<li><strong>Search across workspaces</strong> — Find cards and boards by keyword</li>
-<li><strong>Archive (no delete)</strong> — Cards and lists can be archived but not permanently deleted</li>
-<li><strong>Workspace-scoped access</strong> — Each connection authorizes one workspace (multi-workspace planned)</li>
+<li><strong>Read boards, lists, cards</strong> - Query Trello content from AI assistants</li>
+<li><strong>Create and update cards</strong> - Manage tasks without switching apps</li>
+<li><strong>Manage checklists</strong> - Add, update, and complete checklist items</li>
+<li><strong>Search across workspaces</strong> - Find cards and boards by keyword</li>
+<li><strong>Archive (no delete)</strong> - Cards and lists can be archived but not permanently deleted</li>
+<li><strong>Workspace-scoped access</strong> - Each connection authorizes one workspace (multi-workspace planned)</li>
 </ul>
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Daily standup automation:</strong> Ask your AI assistant "What's on my Trello board today?" and get a prioritized task list.</li>
 <li><strong>Cross-tool workflows:</strong> Connect Trello tasks to Slack alerts, email summaries, or GitHub issues through your AI agent.</li>
-<li><strong>Project reporting:</strong> Query Trello for project status, blocked cards, and upcoming deadlines — all from chat.</li>
+<li><strong>Project reporting:</strong> Query Trello for project status, blocked cards, and upcoming deadlines - all from chat.</li>
 <li><strong>Bulk operations:</strong> Update multiple cards, reorder lists, or assign tasks without clicking through the Trello UI.</li>
 </ol>
 <h2 id="before-you-connect">Before You Connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>A Trello account (any plan works — Free, Standard, Premium, or Enterprise)</li>
+<li>A Trello account (any plan works - Free, Standard, Premium, or Enterprise)</li>
 <li>Access to a supported MCP client</li>
 <li>A modern browser for the OAuth authorization flow</li>
 </ul>
@@ -10194,17 +10194,17 @@
 <p>Refer to the <a href="https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md">Gemini CLI MCP documentation</a> and add the Trello endpoint.</p>
 <h2 id="security-model">Security Model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>OAuth 2.0</strong> — Industry-standard authentication</li>
-<li><strong>Workspace-scoped</strong> — AI tools only access the workspace you explicitly authorize</li>
-<li><strong>Permission-respecting</strong> — All actions respect your existing Trello permissions; AI can't do anything you can't</li>
-<li><strong>No destructive deletes</strong> — Cards and lists can be archived, never permanently deleted</li>
-<li><strong>Revocable</strong> — Disconnect at any time from Trello or your AI client settings</li>
+<li><strong>OAuth 2.0</strong> - Industry-standard authentication</li>
+<li><strong>Workspace-scoped</strong> - AI tools only access the workspace you explicitly authorize</li>
+<li><strong>Permission-respecting</strong> - All actions respect your existing Trello permissions; AI can't do anything you can't</li>
+<li><strong>No destructive deletes</strong> - Cards and lists can be archived, never permanently deleted</li>
+<li><strong>Revocable</strong> - Disconnect at any time from Trello or your AI client settings</li>
 </ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Single workspace per connection</strong> — Each MCP connection supports one Trello workspace. Multi-workspace is planned.</li>
-<li><strong>No permanent delete</strong> — Archive-only for safety. Manual deletion still available in Trello directly.</li>
-<li><strong>Beta status</strong> — The server is marked as beta; API surface may change.</li>
+<li><strong>Single workspace per connection</strong> - Each MCP connection supports one Trello workspace. Multi-workspace is planned.</li>
+<li><strong>No permanent delete</strong> - Archive-only for safety. Manual deletion still available in Trello directly.</li>
+<li><strong>Beta status</strong> - The server is marked as beta; API surface may change.</li>
 </ul>
 <h2 id="comparison-with-atlassian-jiraconfluence-mcp">Comparison with Atlassian Jira/Confluence MCP<a class="headerlink" href="#comparison-with-atlassian-jiraconfluence-mcp" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10254,7 +10254,7 @@ A: No. It's included with any Trello plan, including Free.</p>
 <p><strong>Q: Can I use this with multiple Trello workspaces?</strong>
 A: Currently, each MCP connection supports one workspace. Multi-workspace support is planned.</p>
 <p><strong>Q: What happens if I disconnect?</strong>
-A: The AI assistant loses access immediately. Reconnect to restore — no data is lost.</p>
+A: The AI assistant loses access immediately. Reconnect to restore - no data is lost.</p>
 <p><strong>Q: Can the AI permanently delete my Trello cards?</strong>
 A: No. Destructive delete operations are not supported. The AI can archive cards and lists but cannot permanently delete them.</p>
 <hr />

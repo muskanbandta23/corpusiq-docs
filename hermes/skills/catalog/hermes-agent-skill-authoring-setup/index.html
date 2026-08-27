@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Agent Skill Authoring — Official Guide for Writing SKILL.md</title>
+    <title>Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Agent Skill Authoring — Official Guide for Writing SKILL.md">
+  <meta property="og:title" content="Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md">
   <meta property="og:description" content="Official Nous Research guide for writing high-quality SKILL.md files for the Hermes Agent ecosystem. Templates, best practices, validation, and publishing">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Agent Skill Authoring — Official Guide for Writing SKILL.md">
+  <meta name="twitter:title" content="Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md">
   <meta name="twitter:description" content="Official Nous Research guide for writing high-quality SKILL.md files for the Hermes Agent ecosystem. Templates, best practices, validation, and publishing">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Agent Skill Authoring \u2014 Official Guide for Writing SKILL.md",
+    "name": "Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md",
     "description": "Official Nous Research guide for writing high-quality SKILL.md files for the Hermes Agent ecosystem. Templates, best practices, validation, and publishing",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Agent Skill Authoring — Official Guide for Writing SKILL.md
+              Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md
             
           </span>
         </div>
@@ -10121,7 +10121,7 @@
   
 
 
-<h1 id="hermes-agent-skill-authoring-setup-guide">Hermes Agent Skill Authoring — Setup Guide<a class="headerlink" href="#hermes-agent-skill-authoring-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-skill-authoring-setup-guide">Hermes Agent Skill Authoring - Setup Guide<a class="headerlink" href="#hermes-agent-skill-authoring-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/NousResearch/hermes-agent">nousresearch/hermes-agent</a> (Official)
 <strong>Skill:</strong> <code>hermes-agent-skill-authoring</code> · <strong>Installs:</strong> 230+ · <strong>Category:</strong> Development / Skill Creation
 <strong>Platform:</strong> Linux, macOS, Windows</p>
@@ -10147,7 +10147,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>Text Editor</strong></td>
-<td>Any — VS Code recommended for YAML frontmatter validation</td>
+<td>Any - VS Code recommended for YAML frontmatter validation</td>
 </tr>
 <tr>
 <td><strong>GitHub Account</strong></td>
@@ -10214,17 +10214,17 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><code>platforms</code></td>
-<td style="text-align: center;">—</td>
+<td style="text-align: center;">-</td>
 <td>Array: <code>linux</code>, <code>macos</code>, <code>windows</code>. Omit if cross-platform.</td>
 </tr>
 <tr>
 <td><code>metadata.hermes.tags</code></td>
-<td style="text-align: center;">—</td>
+<td style="text-align: center;">-</td>
 <td>Keywords for skill search.</td>
 </tr>
 <tr>
 <td><code>metadata.hermes.related_skills</code></td>
-<td style="text-align: center;">—</td>
+<td style="text-align: center;">-</td>
 <td>Skill names this skill works with or extends.</td>
 </tr>
 </tbody>
@@ -10237,13 +10237,13 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 - <strong>When</strong> should an agent load it?
 - <strong>Why</strong> use this instead of general knowledge?</p>
 <h3 id="2-prerequisites-section">2. Prerequisites Section<a class="headerlink" href="#2-prerequisites-section" title="Anchor link to this section">&para;</a></h3>
-<p>Be specific. Don't say "need API access" — say "OpenAI API key with <code>gpt-4</code> model access, set as <code>OPENAI_API_KEY</code> environment variable."</p>
+<p>Be specific. Don't say "need API access" - say "OpenAI API key with <code>gpt-4</code> model access, set as <code>OPENAI_API_KEY</code> environment variable."</p>
 <h3 id="3-workflow-section">3. Workflow Section<a class="headerlink" href="#3-workflow-section" title="Anchor link to this section">&para;</a></h3>
 <p>Numbered steps with exact commands. Every command should be copy-paste runnable:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Good — exact, runnable</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Good - exact, runnable</span>
 python3<span class="w"> </span>scripts/validate.py<span class="w"> </span>--input<span class="w"> </span>config.yaml
 
-<span class="c1"># Bad — vague</span>
+<span class="c1"># Bad - vague</span>
 validate<span class="w"> </span>the<span class="w"> </span>configuration<span class="w"> </span>file
 </code></pre></div>
 <h3 id="4-pitfalls-section">4. Pitfalls Section<a class="headerlink" href="#4-pitfalls-section" title="Anchor link to this section">&para;</a></h3>
@@ -10291,22 +10291,22 @@ gh<span class="w"> </span>repo<span class="w"> </span>edit<span class="w"> </spa
 <hr />
 <h2 id="skill-directory-structure">Skill Directory Structure<a class="headerlink" href="#skill-directory-structure" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>my-skill/
-├── SKILL.md              # Required — the skill definition
-├── references/           # Optional — detailed reference docs
+├── SKILL.md              # Required - the skill definition
+├── references/           # Optional - detailed reference docs
 │   └── api.md
-├── templates/            # Optional — output templates
+├── templates/            # Optional - output templates
 │   └── report.md
-├── scripts/              # Optional — helper scripts
+├── scripts/              # Optional - helper scripts
 │   └── validate.py
-└── assets/               # Optional — images, configs
+└── assets/               # Optional - images, configs
     └── logo.png
 </code></pre></div>
 <hr />
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/hermes-agent-setup">Hermes Agent Core</a> — Official core skill</li>
-<li><a href="/hermes/skills/catalog/skill-creator-setup">Skill Creator</a> — Community skill creation workflow</li>
-<li><a href="/hermes/skills/catalog/skill-repo-manager-setup">Skill Repo Manager</a> — Managing multi-skill repos</li>
+<li><a href="/hermes/skills/catalog/hermes-agent-setup">Hermes Agent Core</a> - Official core skill</li>
+<li><a href="/hermes/skills/catalog/skill-creator-setup">Skill Creator</a> - Community skill creation workflow</li>
+<li><a href="/hermes/skills/catalog/skill-repo-manager-setup">Skill Repo Manager</a> - Managing multi-skill repos</li>
 </ul>
 
 

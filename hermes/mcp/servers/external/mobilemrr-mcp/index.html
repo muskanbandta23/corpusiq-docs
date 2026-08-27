@@ -10047,18 +10047,18 @@
 
 
 <h1 id="mobilemrr-mcp">MobileMRR MCP<a class="headerlink" href="#mobilemrr-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote acquisition-data server (Streamable HTTP, no auth)</strong> — MobileMRR is a marketplace and public database for mobile apps with verified revenue, exposed over MCP at <code>mobilemrr.com/mcp</code>. Founders can prove an app makes real money, and buyers can evaluate an acquisition using provider-backed revenue data instead of screenshots or self-reported claims. Five read-only tools cover search, detail, leaderboard, side-by-side comparison, and live valuation estimates.</p>
+<p><strong>Remote acquisition-data server (Streamable HTTP, no auth)</strong> - MobileMRR is a marketplace and public database for mobile apps with verified revenue, exposed over MCP at <code>mobilemrr.com/mcp</code>. Founders can prove an app makes real money, and buyers can evaluate an acquisition using provider-backed revenue data instead of screenshots or self-reported claims. Five read-only tools cover search, detail, leaderboard, side-by-side comparison, and live valuation estimates.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: None
 Endpoint: https://mobilemrr.com/mcp
 Tools: 5 (search_listings, get_listing, get_leaderboard, compare_listings, estimate_valuation)
-Pricing: Free — listing an app is free; no agent-side billing
+Pricing: Free - listing an app is free; no agent-side billing
 Category: Finance &amp; Commerce
 Built by: MobileMRR (mobilemrr.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>App acquisitions have run on trust — screenshots of revenue dashboards and founder-claimed numbers. MobileMRR replaces that with verification: the seller connects their RevenueCat or Superwall account and MobileMRR reads MRR, subscriber counts, and revenue directly from the provider's API. An agent can then filter listings by verified MRR, asking price, category, and platform, and pull side-by-side comparisons with profit multiples.</p>
-<p><strong>The key advantage: diligence that used to take a broker and a data room now starts with one agent query.</strong> The valuation tool adds a live low-mid-high estimate from MRR, category, age, platform, and verification status — a first-pass filter before human negotiation.</p>
+<p>App acquisitions have run on trust - screenshots of revenue dashboards and founder-claimed numbers. MobileMRR replaces that with verification: the seller connects their RevenueCat or Superwall account and MobileMRR reads MRR, subscriber counts, and revenue directly from the provider's API. An agent can then filter listings by verified MRR, asking price, category, and platform, and pull side-by-side comparisons with profit multiples.</p>
+<p><strong>The key advantage: diligence that used to take a broker and a data room now starts with one agent query.</strong> The valuation tool adds a live low-mid-high estimate from MRR, category, age, platform, and verification status - a first-pass filter before human negotiation.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10090,7 +10090,7 @@ Built by: MobileMRR (mobilemrr.com)
 </tr>
 </tbody>
 </table>
-<p>Only revenue marked verified via RevenueCat or Superwall should be treated as confirmed; unverified figures are founder-claimed estimates. Listing creation is human-only for now — agent-side listing support is planned.</p>
+<p>Only revenue marked verified via RevenueCat or Superwall should be treated as confirmed; unverified figures are founder-claimed estimates. Listing creation is human-only for now - agent-side listing support is planned.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>mobilemrr<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://mobilemrr.com/mcp
 </code></pre></div>
@@ -10105,7 +10105,7 @@ Built by: MobileMRR (mobilemrr.com)
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>No API key, no account — the server is public and read-only by design, so nothing can be created or modified through it.</p>
+<p>No API key, no account - the server is public and read-only by design, so nothing can be created or modified through it.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Buyers</strong> filter the for-sale pool by verified MRR and asking price, then compare finalists with profit multiples</li>
@@ -10114,16 +10114,16 @@ Built by: MobileMRR (mobilemrr.com)
 <li><strong>Analysts</strong> get a live valuation model with explicit inputs instead of rule-of-thumb multiples</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>MobileMRR pairs naturally with CorpusIQ's revenue connectors as a comps layer. An operator can pull their own verified revenue from CorpusIQ's Stripe and GA4 connectors, then use MobileMRR's leaderboard and <code>estimate_valuation</code> to benchmark that number against the live mobile-app acquisition market — same MRR, different multiples, one comparison pass.</p>
+<p>MobileMRR pairs naturally with CorpusIQ's revenue connectors as a comps layer. An operator can pull their own verified revenue from CorpusIQ's Stripe and GA4 connectors, then use MobileMRR's leaderboard and <code>estimate_valuation</code> to benchmark that number against the live mobile-app acquisition market - same MRR, different multiples, one comparison pass.</p>
 <p>For an acquisition target, the composed workflow runs the other direction: MobileMRR supplies verified MRR, asking price, and valuation range, while CorpusIQ's Stripe and QuickBooks connectors model the target's revenue mechanics once the data room opens. CorpusIQ holds the deal's financial ground truth; MobileMRR supplies the market context.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — submitted to mcp.so in mid-August 2026; marketplace liquidity is thin until listings accumulate</li>
-<li>Read-only — agents cannot create or edit listings; submission is a human flow</li>
+<li>Brand new - submitted to mcp.so in mid-August 2026; marketplace liquidity is thin until listings accumulate</li>
+<li>Read-only - agents cannot create or edit listings; submission is a human flow</li>
 <li>Only RevenueCat and Superwall verification providers are supported today</li>
 <li>Unverified listings carry founder-claimed revenue; treat them accordingly</li>
-<li>The valuation model is a live estimate — outputs are not guaranteed identical across repeated calls</li>
-<li>No escrow or transactions — purchases complete off-platform between buyer and seller</li>
+<li>The valuation model is a live estimate - outputs are not guaranteed identical across repeated calls</li>
+<li>No escrow or transactions - purchases complete off-platform between buyer and seller</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

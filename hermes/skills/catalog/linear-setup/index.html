@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API — no OAuth, no MCP server — 80">
+        <meta name="description" content="Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API - no OAuth, no MCP server - 80">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Linear Integration — Skill Setup Guide</title>
+    <title>Linear Integration - Skill Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/linear-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Linear Integration — Skill Setup Guide">
-  <meta property="og:description" content="Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API — no OAuth, no MCP server — 80">
+  <meta property="og:title" content="Linear Integration - Skill Setup Guide">
+  <meta property="og:description" content="Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API - no OAuth, no MCP server - 80">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Linear Integration — Skill Setup Guide">
-  <meta name="twitter:description" content="Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API — no OAuth, no MCP server — 80">
+  <meta name="twitter:title" content="Linear Integration - Skill Setup Guide">
+  <meta name="twitter:description" content="Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API - no OAuth, no MCP server - 80">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Linear Integration \u2014 Skill Setup Guide",
-    "description": "Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API \u2014 no OAuth, no MCP server \u2014 80",
+    "name": "Linear Integration - Skill Setup Guide",
+    "description": "Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API - no OAuth, no MCP server - 80",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/linear-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Linear Integration — Skill Setup Guide
+              Linear Integration - Skill Setup Guide
             
           </span>
         </div>
@@ -10155,12 +10155,12 @@
   
 
 
-<h1 id="linear-issue-project-management-setup-guide">Linear — Issue &amp; Project Management Setup Guide<a class="headerlink" href="#linear-issue-project-management-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="linear-issue-project-management-setup-guide">Linear - Issue &amp; Project Management Setup Guide<a class="headerlink" href="#linear-issue-project-management-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/linear">nousresearch/hermes-agent</a> (80 installs)
 <strong>Category:</strong> Productivity / Project Management
 <strong>License:</strong> MIT · <strong>Platforms:</strong> Linux, macOS, Windows
 <strong>Dependencies:</strong> Hermes Agent, Linear.app account, Personal API key</p>
-<p>Manage Linear issues, projects, and teams directly from Hermes using the GraphQL API via <code>curl</code>. No MCP server, no OAuth dance, no extra dependencies — just an API key and HTTP. Create issues, query team workloads, manage sprints, and triage your backlog without leaving the terminal.</p>
+<p>Manage Linear issues, projects, and teams directly from Hermes using the GraphQL API via <code>curl</code>. No MCP server, no OAuth dance, no extra dependencies - just an API key and HTTP. Create issues, query team workloads, manage sprints, and triage your backlog without leaving the terminal.</p>
 <hr />
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10223,7 +10223,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/pro
 <li>Click <strong>Create new API key</strong></li>
 <li>Copy the key (starts with <code>lin_api_</code>)</li>
 </ol>
-<p><strong>Important:</strong> The org-level <em>Settings &gt; API</em> page only shows OAuth apps and workspace-member keys — not your personal key. You must use the account-level security page.</p>
+<p><strong>Important:</strong> The org-level <em>Settings &gt; API</em> page only shows OAuth apps and workspace-member keys - not your personal key. You must use the account-level security page.</p>
 <h3 id="step-2-configure-hermes">Step 2: Configure Hermes<a class="headerlink" href="#step-2-configure-hermes" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>setup
 </code></pre></div>
@@ -10289,9 +10289,9 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/pro
 <hr />
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Short IDs work everywhere:</strong> Use <code>ENG-123</code> instead of full UUIDs — Linear resolves them automatically</li>
+<li><strong>Short IDs work everywhere:</strong> Use <code>ENG-123</code> instead of full UUIDs - Linear resolves them automatically</li>
 <li><strong>Batch queries:</strong> GraphQL lets you fetch issues + comments + project in one request</li>
-<li><strong>Rate limits:</strong> Linear has generous limits (1,000+ requests/minute) — no special handling needed</li>
+<li><strong>Rate limits:</strong> Linear has generous limits (1,000+ requests/minute) - no special handling needed</li>
 <li><strong>Team awareness:</strong> <code>team { id, name }</code> is available on issues for cross-team queries</li>
 </ul>
 <hr />
@@ -10308,7 +10308,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/pro
 <tr>
 <td>401 Unauthorized</td>
 <td>Wrong key or "Bearer" prefix</td>
-<td>Remove "Bearer" — Linear API keys don't use it</td>
+<td>Remove "Bearer" - Linear API keys don't use it</td>
 </tr>
 <tr>
 <td>"No team found"</td>

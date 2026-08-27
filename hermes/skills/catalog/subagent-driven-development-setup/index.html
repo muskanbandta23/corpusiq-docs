@@ -23,7 +23,7 @@
     
     
   
-    <title>Subagent-Driven Development — Skill Setup Guide</title>
+    <title>Subagent-Driven Development - Skill Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Subagent-Driven Development — Skill Setup Guide">
+  <meta property="og:title" content="Subagent-Driven Development - Skill Setup Guide">
   <meta property="og:description" content="Install and configure subagent-driven-development, the official Hermes Agent skill for dispatching parallel subagents per task with systematic two-stage">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Subagent-Driven Development — Skill Setup Guide">
+  <meta name="twitter:title" content="Subagent-Driven Development - Skill Setup Guide">
   <meta name="twitter:description" content="Install and configure subagent-driven-development, the official Hermes Agent skill for dispatching parallel subagents per task with systematic two-stage">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Subagent-Driven Development \u2014 Skill Setup Guide",
+    "name": "Subagent-Driven Development - Skill Setup Guide",
     "description": "Install and configure subagent-driven-development, the official Hermes Agent skill for dispatching parallel subagents per task with systematic two-stage",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Subagent-Driven Development — Skill Setup Guide
+              Subagent-Driven Development - Skill Setup Guide
             
           </span>
         </div>
@@ -10088,7 +10088,7 @@
   
 
 
-<h1 id="subagent-driven-development-setup-guide">Subagent-Driven Development — Setup Guide<a class="headerlink" href="#subagent-driven-development-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="subagent-driven-development-setup-guide">Subagent-Driven Development - Setup Guide<a class="headerlink" href="#subagent-driven-development-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/subagent-driven-development">nousresearch/hermes-agent</a> (88 installs)
 <strong>Category:</strong> Development / Workflow Automation
 <strong>License:</strong> MIT · <strong>Platforms:</strong> Linux, macOS, Windows
@@ -10106,7 +10106,7 @@
 <tbody>
 <tr>
 <td><strong>Task dispatch</strong></td>
-<td>Spawns fresh subagents per task — clean context, no pollution</td>
+<td>Spawns fresh subagents per task - clean context, no pollution</td>
 </tr>
 <tr>
 <td><strong>Two-stage review</strong></td>
@@ -10138,7 +10138,7 @@
 │  (next task)  │     │  (isolated)  │     │   (Gate 2)   │
 └──────────────┘     └──────────────┘     └──────────────┘
 </code></pre></div>
-<p>The core principle is fresh subagent per task. Each subagent sees only its own task context — no cross-contamination from prior work. Reviews are automated between tasks so nothing slips through.</p>
+<p>The core principle is fresh subagent per task. Each subagent sees only its own task context - no cross-contamination from prior work. Reviews are automated between tasks so nothing slips through.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="via-skillssh-recommended">Via skills.sh (Recommended)<a class="headerlink" href="#via-skillssh-recommended" title="Anchor link to this section">&para;</a></h3>
@@ -10151,9 +10151,9 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Hermes Agent v0.20.0+</strong> — delegation subsystem required</li>
-<li><strong><code>delegate_task</code> tool</strong> — must be enabled in your Hermes config</li>
-<li><strong>Implementation plan</strong> — from <code>plan</code> skill or documented requirements</li>
+<li><strong>Hermes Agent v0.20.0+</strong> - delegation subsystem required</li>
+<li><strong><code>delegate_task</code> tool</strong> - must be enabled in your Hermes config</li>
+<li><strong>Implementation plan</strong> - from <code>plan</code> skill or documented requirements</li>
 </ol>
 <hr />
 <h2 id="basic-usage">Basic Usage<a class="headerlink" href="#basic-usage" title="Anchor link to this section">&para;</a></h2>
@@ -10179,7 +10179,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 <ul>
 <li><strong>Subagent model:</strong> Set <code>delegation.model</code> in config.yaml to match your task complexity (Sonnet for routine, Opus for critical)</li>
 <li><strong>Max concurrent:</strong> Set <code>delegation.max_concurrent_children</code> for independent task parallelism</li>
-<li><strong>Review strictness:</strong> The two-stage review is opinionated — spec compliance then code quality. Adjust by editing the skill's review prompts if needed.</li>
+<li><strong>Review strictness:</strong> The two-stage review is opinionated - spec compliance then code quality. Adjust by editing the skill's review prompts if needed.</li>
 </ul>
 <hr />
 <h2 id="when-to-use-vs-when-not">When to Use vs When Not<a class="headerlink" href="#when-to-use-vs-when-not" title="Anchor link to this section">&para;</a></h2>

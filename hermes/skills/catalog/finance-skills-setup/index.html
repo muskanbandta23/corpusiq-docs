@@ -23,7 +23,7 @@
     
     
   
-    <title>Finance Skills — Financial Analysis for Hermes Agents</title>
+    <title>Finance Skills - Financial Analysis for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/finance-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Finance Skills — Financial Analysis for Hermes Agents">
+  <meta property="og:title" content="Finance Skills - Financial Analysis for Hermes Agents">
   <meta property="og:description" content="Collection of financial analysis skills (yfinance, stock correlation, options, generative UI) with 8.6K+ combined installs. Enables Hermes agents to fetch">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Finance Skills — Financial Analysis for Hermes Agents">
+  <meta name="twitter:title" content="Finance Skills - Financial Analysis for Hermes Agents">
   <meta name="twitter:description" content="Collection of financial analysis skills (yfinance, stock correlation, options, generative UI) with 8.6K+ combined installs. Enables Hermes agents to fetch">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Finance Skills \u2014 Financial Analysis for Hermes Agents",
+    "name": "Finance Skills - Financial Analysis for Hermes Agents",
     "description": "Collection of financial analysis skills (yfinance, stock correlation, options, generative UI) with 8.6K+ combined installs. Enables Hermes agents to fetch",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/finance-skills-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Finance Skills — Financial Analysis for Hermes Agents
+              Finance Skills - Financial Analysis for Hermes Agents
             
           </span>
         </div>
@@ -9990,7 +9990,7 @@
   <a href="#yfinance-data-market-data-fetching" class="md-nav__link">
     <span class="md-ellipsis">
       
-        yfinance-data — Market Data Fetching
+        yfinance-data - Market Data Fetching
       
     </span>
   </a>
@@ -10001,7 +10001,7 @@
   <a href="#stock-correlation-portfolio-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        stock-correlation — Portfolio Analysis
+        stock-correlation - Portfolio Analysis
       
     </span>
   </a>
@@ -10012,7 +10012,7 @@
   <a href="#options-payoff-strategy-modeling" class="md-nav__link">
     <span class="md-ellipsis">
       
-        options-payoff — Strategy Modeling
+        options-payoff - Strategy Modeling
       
     </span>
   </a>
@@ -10023,7 +10023,7 @@
   <a href="#generative-ui-financial-visualization" class="md-nav__link">
     <span class="md-ellipsis">
       
-        generative-ui — Financial Visualization
+        generative-ui - Financial Visualization
       
     </span>
   </a>
@@ -10034,7 +10034,7 @@
   <a href="#hormuz-strait-geopolitical-risk" class="md-nav__link">
     <span class="md-ellipsis">
       
-        hormuz-strait — Geopolitical Risk
+        hormuz-strait - Geopolitical Risk
       
     </span>
   </a>
@@ -10099,7 +10099,7 @@
   
 
 
-<h1 id="finance-skills-setup-guide">Finance Skills — Setup Guide<a class="headerlink" href="#finance-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="finance-skills-setup-guide">Finance Skills - Setup Guide<a class="headerlink" href="#finance-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/himself65/finance-skills">himself65/finance-skills</a> (8.6K+ combined installs)
 <strong>Category:</strong> Growth Operations / Business Intelligence
 <strong>Quality Tier:</strong> 🟡 Beta</p>
@@ -10166,7 +10166,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>yfinance</strong></td>
-<td>Auto-installed by skills — <code>pip install yfinance</code></td>
+<td>Auto-installed by skills - <code>pip install yfinance</code></td>
 </tr>
 <tr>
 <td><strong>Internet</strong></td>
@@ -10180,7 +10180,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
-<h3 id="yfinance-data-market-data-fetching">yfinance-data — Market Data Fetching<a class="headerlink" href="#yfinance-data-market-data-fetching" title="Anchor link to this section">&para;</a></h3>
+<h3 id="yfinance-data-market-data-fetching">yfinance-data - Market Data Fetching<a class="headerlink" href="#yfinance-data-market-data-fetching" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">yfinance</span> <span class="k">as</span> <span class="nn">yf</span>
 
 <span class="c1"># Current stock price</span>
@@ -10201,13 +10201,13 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <span class="n">data</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">download</span><span class="p">([</span><span class="s2">&quot;AAPL&quot;</span><span class="p">,</span> <span class="s2">&quot;MSFT&quot;</span><span class="p">,</span> <span class="s2">&quot;GOOGL&quot;</span><span class="p">],</span> <span class="n">period</span><span class="o">=</span><span class="s2">&quot;6mo&quot;</span><span class="p">)</span>
 </code></pre></div>
 Covers 19 data categories: stock prices, history, financials, options, dividends, earnings, analyst targets, institutional holders, insider transactions, and more.</p>
-<h3 id="stock-correlation-portfolio-analysis">stock-correlation — Portfolio Analysis<a class="headerlink" href="#stock-correlation-portfolio-analysis" title="Anchor link to this section">&para;</a></h3>
+<h3 id="stock-correlation-portfolio-analysis">stock-correlation - Portfolio Analysis<a class="headerlink" href="#stock-correlation-portfolio-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>Analyze correlation matrices between tickers to understand diversification, sector exposure, and risk concentration. Useful for business operators evaluating market positions.</p>
-<h3 id="options-payoff-strategy-modeling">options-payoff — Strategy Modeling<a class="headerlink" href="#options-payoff-strategy-modeling" title="Anchor link to this section">&para;</a></h3>
+<h3 id="options-payoff-strategy-modeling">options-payoff - Strategy Modeling<a class="headerlink" href="#options-payoff-strategy-modeling" title="Anchor link to this section">&para;</a></h3>
 <p>Model long calls, puts, covered calls, spreads, and iron condors with payoff diagrams. Decision-support for options-aware operators.</p>
-<h3 id="generative-ui-financial-visualization">generative-ui — Financial Visualization<a class="headerlink" href="#generative-ui-financial-visualization" title="Anchor link to this section">&para;</a></h3>
+<h3 id="generative-ui-financial-visualization">generative-ui - Financial Visualization<a class="headerlink" href="#generative-ui-financial-visualization" title="Anchor link to this section">&para;</a></h3>
 <p>Generate charts, dashboards, and interactive UI components from financial data. Output formats include matplotlib charts, HTML dashboards, and data tables.</p>
-<h3 id="hormuz-strait-geopolitical-risk">hormuz-strait — Geopolitical Risk<a class="headerlink" href="#hormuz-strait-geopolitical-risk" title="Anchor link to this section">&para;</a></h3>
+<h3 id="hormuz-strait-geopolitical-risk">hormuz-strait - Geopolitical Risk<a class="headerlink" href="#hormuz-strait-geopolitical-risk" title="Anchor link to this section">&para;</a></h3>
 <p>Analyze market impact of geopolitical events, supply chain disruptions, and macro shocks. Applies scenario analysis to portfolios.</p>
 <hr />
 <h2 id="quick-start-for-hermes-agents">Quick Start for Hermes Agents<a class="headerlink" href="#quick-start-for-hermes-agents" title="Anchor link to this section">&para;</a></h2>

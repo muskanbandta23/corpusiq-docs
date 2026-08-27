@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure autolora — a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with">
+        <meta name="description" content="Install and configure autolora - a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>AutoLoRA — Self-Fine-Tuning Hermes Skill Setup Guide</title>
+    <title>AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="AutoLoRA — Self-Fine-Tuning Hermes Skill Setup Guide">
-  <meta property="og:description" content="Install and configure autolora — a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with">
+  <meta property="og:title" content="AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide">
+  <meta property="og:description" content="Install and configure autolora - a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AutoLoRA — Self-Fine-Tuning Hermes Skill Setup Guide">
-  <meta name="twitter:description" content="Install and configure autolora — a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with">
+  <meta name="twitter:title" content="AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide">
+  <meta name="twitter:description" content="Install and configure autolora - a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "AutoLoRA \u2014 Self-Fine-Tuning Hermes Skill Setup Guide",
-    "description": "Install and configure autolora \u2014 a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with",
+    "name": "AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide",
+    "description": "Install and configure autolora - a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AutoLoRA — Self-Fine-Tuning Hermes Skill Setup Guide
+              AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide
             
           </span>
         </div>
@@ -10061,11 +10061,11 @@
   
 
 
-<h1 id="autolora-setup-guide">AutoLoRA — Setup Guide<a class="headerlink" href="#autolora-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="autolora-setup-guide">AutoLoRA - Setup Guide<a class="headerlink" href="#autolora-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/DJLougen/autolora">DJLougen/autolora</a> · 1★
 <strong>Category:</strong> Agent Infrastructure / Model Optimization
 <strong>License:</strong> MIT · <strong>Published:</strong> June 28, 2026</p>
-<p>AutoLoRA lets Hermes fine-tune itself. It curates successful agent traces (AUC-based selection), trains a LoRA adapter on RunPod using Unsloth, and hot-swaps the improved model into the active agent — all while keeping costs capped via Stripe payment thresholds. Set your benchmark targets, and AutoLoRA iterates until the agent meets them.</p>
+<p>AutoLoRA lets Hermes fine-tune itself. It curates successful agent traces (AUC-based selection), trains a LoRA adapter on RunPod using Unsloth, and hot-swaps the improved model into the active agent - all while keeping costs capped via Stripe payment thresholds. Set your benchmark targets, and AutoLoRA iterates until the agent meets them.</p>
 <hr />
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>1. AUC TRACE CURATION
@@ -10131,7 +10131,7 @@
 </code></pre></div>
 <hr />
 <h2 id="usage-with-hermes-agent">Usage with Hermes Agent<a class="headerlink" href="#usage-with-hermes-agent" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>&quot;Run autolora — fine-tune on my last 100 sessions with a 0.90 benchmark target&quot;
+<div class="highlight"><pre><span></span><code>&quot;Run autolora - fine-tune on my last 100 sessions with a 0.90 benchmark target&quot;
 &quot;Show autolora training status&quot;
 &quot;Hot-swap to the latest autolora adapter&quot;
 </code></pre></div>
@@ -10215,7 +10215,7 @@ hermes<span class="w"> </span>skill<span class="w"> </span>run<span class="w"> <
 <ul>
 <li>Requires 50+ high-quality sessions before first run</li>
 <li>RunPod cold start adds 2-5 minutes to training time</li>
-<li>LoRA adapters are model-specific — won't transfer between base models</li>
+<li>LoRA adapters are model-specific - won't transfer between base models</li>
 <li>Over-training on a narrow task can reduce general capability</li>
 <li>Benchmark against holdout tasks before deploying to production</li>
 </ul>

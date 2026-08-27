@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Agent — Core Official Skill Setup Guide</title>
+    <title>Hermes Agent - Core Official Skill Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Agent — Core Official Skill Setup Guide">
+  <meta property="og:title" content="Hermes Agent - Core Official Skill Setup Guide">
   <meta property="og:description" content="Official Nous Research Hermes Agent skill. CLI invocation, subagent delegation, persistent memory, self-improving skills, MCP integration, browser">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Agent — Core Official Skill Setup Guide">
+  <meta name="twitter:title" content="Hermes Agent - Core Official Skill Setup Guide">
   <meta name="twitter:description" content="Official Nous Research Hermes Agent skill. CLI invocation, subagent delegation, persistent memory, self-improving skills, MCP integration, browser">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Agent \u2014 Core Official Skill Setup Guide",
+    "name": "Hermes Agent - Core Official Skill Setup Guide",
     "description": "Official Nous Research Hermes Agent skill. CLI invocation, subagent delegation, persistent memory, self-improving skills, MCP integration, browser",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Agent — Core Official Skill Setup Guide
+              Hermes Agent - Core Official Skill Setup Guide
             
           </span>
         </div>
@@ -10138,7 +10138,7 @@
   
 
 
-<h1 id="hermes-agent-core-skill-setup-guide">Hermes Agent — Core Skill Setup Guide<a class="headerlink" href="#hermes-agent-core-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-core-skill-setup-guide">Hermes Agent - Core Skill Setup Guide<a class="headerlink" href="#hermes-agent-core-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/NousResearch/hermes-agent">nousresearch/hermes-agent</a> (Official)
 <strong>Skill:</strong> <code>hermes-agent</code> · <strong>Installs:</strong> 400+ · <strong>Category:</strong> Core / Agent Framework
 <strong>Platform:</strong> Linux, macOS, Windows</p>
@@ -10200,12 +10200,12 @@ hermes<span class="w"> </span>delegate<span class="w"> </span>--parallel<span cl
 <span class="w">  </span><span class="s2">&quot;Scan Reddit for CorpusIQ threads&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span><span class="s2">&quot;Review HN front page for relevant discussions&quot;</span>
 </code></pre></div>
-<p>Subagents get their own conversation, terminal session, and toolset. Results flow back as summaries — intermediate tool output never floods context.</p>
+<p>Subagents get their own conversation, terminal session, and toolset. Results flow back as summaries - intermediate tool output never floods context.</p>
 <h3 id="3-persistent-memory">3. Persistent Memory<a class="headerlink" href="#3-persistent-memory" title="Anchor link to this section">&para;</a></h3>
 <p>Two-tier memory architecture:</p>
 <ul>
-<li><strong>FTS5 full-text search</strong> — fast keyword/boolean retrieval across all past sessions</li>
-<li><strong>LLM summaries</strong> — semantic compression of key facts, preferences, and patterns</li>
+<li><strong>FTS5 full-text search</strong> - fast keyword/boolean retrieval across all past sessions</li>
+<li><strong>LLM summaries</strong> - semantic compression of key facts, preferences, and patterns</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search past sessions</span>
 hermes<span class="w"> </span>session<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;MCP server deployment&quot;</span>
@@ -10290,19 +10290,19 @@ hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w">
 <tbody>
 <tr>
 <td>Simple Q&amp;A (single turn)</td>
-<td style="text-align: center;">$0.001–0.01</td>
+<td style="text-align: center;">$0.001-0.01</td>
 </tr>
 <tr>
 <td>Research task (multi-turn)</td>
-<td style="text-align: center;">$0.02–0.10</td>
+<td style="text-align: center;">$0.02-0.10</td>
 </tr>
 <tr>
 <td>Complex task with subagents</td>
-<td style="text-align: center;">$0.05–0.50</td>
+<td style="text-align: center;">$0.05-0.50</td>
 </tr>
 <tr>
 <td>Full daily operations sweep</td>
-<td style="text-align: center;">$0.10–1.00</td>
+<td style="text-align: center;">$0.10-1.00</td>
 </tr>
 </tbody>
 </table>
@@ -10310,10 +10310,10 @@ hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w">
 <hr />
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/hermes-agent-skill-authoring-setup">Hermes Agent Skill Authoring</a> — Writing SKILL.md files</li>
-<li><a href="/hermes/skills/catalog">dandacompany/hermes</a> — Self-hosting and operations guide</li>
-<li><a href="/hermes/skills/catalog">wihy/hermes-agent-skill</a> — Portable CLI wrapper v2.0</li>
-<li><a href="https://hermes-agent.nousresearch.com/docs">Hermes Documentation</a> — Official docs</li>
+<li><a href="/hermes/skills/catalog/hermes-agent-skill-authoring-setup">Hermes Agent Skill Authoring</a> - Writing SKILL.md files</li>
+<li><a href="/hermes/skills/catalog">dandacompany/hermes</a> - Self-hosting and operations guide</li>
+<li><a href="/hermes/skills/catalog">wihy/hermes-agent-skill</a> - Portable CLI wrapper v2.0</li>
+<li><a href="https://hermes-agent.nousresearch.com/docs">Hermes Documentation</a> - Official docs</li>
 </ul>
 
 

@@ -23,7 +23,7 @@
     
     
   
-    <title>OpenClaw Backup — Setup Guide for Hermes Agents</title>
+    <title>OpenClaw Backup - Setup Guide for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="OpenClaw Backup — Setup Guide for Hermes Agents">
+  <meta property="og:title" content="OpenClaw Backup - Setup Guide for Hermes Agents">
   <meta property="og:description" content="Encrypted backup and restore for OpenClaw workspace files using AES-256-CBC. Auto-generated passwords, tar archives, and soul-upload.com API integration">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="OpenClaw Backup — Setup Guide for Hermes Agents">
+  <meta name="twitter:title" content="OpenClaw Backup - Setup Guide for Hermes Agents">
   <meta name="twitter:description" content="Encrypted backup and restore for OpenClaw workspace files using AES-256-CBC. Auto-generated passwords, tar archives, and soul-upload.com API integration">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "OpenClaw Backup \u2014 Setup Guide for Hermes Agents",
+    "name": "OpenClaw Backup - Setup Guide for Hermes Agents",
     "description": "Encrypted backup and restore for OpenClaw workspace files using AES-256-CBC. Auto-generated passwords, tar archives, and soul-upload.com API integration",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OpenClaw Backup — Setup Guide for Hermes Agents
+              OpenClaw Backup - Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -10088,11 +10088,11 @@
   
 
 
-<h1 id="openclaw-backup-setup-guide">OpenClaw Backup — Setup Guide<a class="headerlink" href="#openclaw-backup-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="openclaw-backup-setup-guide">OpenClaw Backup - Setup Guide<a class="headerlink" href="#openclaw-backup-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/theagentservice/skills">theagentservice/skills</a> (Community)
 <strong>Skill:</strong> <code>openclaw-backup</code> · <strong>Installs:</strong> 3.1K+ · <strong>Category:</strong> Backup / DevOps
 <strong>Platform:</strong> Linux, macOS</p>
-<p>OpenClaw Backup provides encrypted backup and restore for OpenClaw Agent workspace files — SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md. Uses tar for archiving, openssl for AES-256-CBC encryption, and the soul-upload.com API for remote storage. Each backup gets a unique auto-generated password.</p>
+<p>OpenClaw Backup provides encrypted backup and restore for OpenClaw Agent workspace files - SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md. Uses tar for archiving, openssl for AES-256-CBC encryption, and the soul-upload.com API for remote storage. Each backup gets a unique auto-generated password.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>theagentservice/skills@openclaw-backup
 </code></pre></div>
@@ -10135,7 +10135,7 @@
 <li>Encrypts with <code>openssl enc -aes-256-cbc</code></li>
 <li>Uploads to soul-upload.com</li>
 <li>Stores the unique password in a recovery file</li>
-<li><strong>Never reuse passwords</strong> — each backup gets a new one</li>
+<li><strong>Never reuse passwords</strong> - each backup gets a new one</li>
 </ul>
 <h3 id="2-download-backup">2. Download Backup<a class="headerlink" href="#2-download-backup" title="Anchor link to this section">&para;</a></h3>
 <p>Download and decrypt backups using stored password:</p>
@@ -10177,12 +10177,12 @@
 </tr>
 <tr>
 <td>Password Reuse</td>
-<td>Prohibited — unique password per backup</td>
+<td>Prohibited - unique password per backup</td>
 </tr>
 </tbody>
 </table>
 <h2 id="recovery-file">Recovery File<a class="headerlink" href="#recovery-file" title="Anchor link to this section">&para;</a></h2>
-<p>The recovery file maps backup IDs to their encryption passwords. <strong>Protect this file</strong> — it's the only way to decrypt backups:</p>
+<p>The recovery file maps backup IDs to their encryption passwords. <strong>Protect this file</strong> - it's the only way to decrypt backups:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Example recovery file entry</span>
 backup_20260728_120000:<span class="w"> </span>aB3xK9mQ7rW2vY5n
 </code></pre></div>

@@ -10098,25 +10098,25 @@
 
 
 <h1 id="reading-files-and-pdfs">Reading files and PDFs<a class="headerlink" href="#reading-files-and-pdfs" title="Anchor link to this section">&para;</a></h1>
-<p>When you connect a file source — Google Drive, OneDrive, or Dropbox —
+<p>When you connect a file source - Google Drive, OneDrive, or Dropbox -
 CorpusIQ doesn't just see filenames. It reads the text <em>inside</em> your
 documents and answers from it. Ask "what's the deadline in the vendor
 contract in my Drive?" and CorpusIQ opens the PDF, pulls the text, and
-answers — citing the file.</p>
+answers - citing the file.</p>
 <p>This page explains how that text extraction works, and where its limits
 are.</p>
 <h2 id="which-files-it-reads">Which files it reads<a class="headerlink" href="#which-files-it-reads" title="Anchor link to this section">&para;</a></h2>
 <p>Across Google Drive, OneDrive, and Dropbox, CorpusIQ reads the common
 document formats:</p>
 <ul>
-<li><strong>PDF</strong> — the main one, and the one with the most care behind it
+<li><strong>PDF</strong> - the main one, and the one with the most care behind it
   (below).</li>
 <li><strong>Word</strong> (<code>.docx</code>, and older <code>.doc</code> where possible).</li>
-<li><strong>Excel</strong> (<code>.xlsx</code>) — sheets and rows.</li>
-<li><strong>PowerPoint</strong> (<code>.pptx</code>) — slide text.</li>
+<li><strong>Excel</strong> (<code>.xlsx</code>) - sheets and rows.</li>
+<li><strong>PowerPoint</strong> (<code>.pptx</code>) - slide text.</li>
 </ul>
 <p>The same engine runs no matter which of the three file connectors the
-document lives in. Connect Dropbox or Drive or OneDrive — the reading
+document lives in. Connect Dropbox or Drive or OneDrive - the reading
 behaves the same way.</p>
 <h2 id="how-pdf-reading-works">How PDF reading works<a class="headerlink" href="#how-pdf-reading-works" title="Anchor link to this section">&para;</a></h2>
 <p>PDFs are deceptively hard. A clean-looking invoice can store its text in
@@ -10125,8 +10125,8 @@ uses a three-tier strategy and automatically picks the best one that
 works for each file:</p>
 <ol>
 <li>
-<p><strong>Form-field reading first.</strong> Many business PDFs — tax forms,
-   e-filed paperwork, structured applications — store their real values
+<p><strong>Form-field reading first.</strong> Many business PDFs - tax forms,
+   e-filed paperwork, structured applications - store their real values
    in named form fields rather than free-flowing text. CorpusIQ reads
    those fields directly. This is the most reliable data in the
    document, so it's surfaced first.</p>
@@ -10134,7 +10134,7 @@ works for each file:</p>
 <li>
 <p><strong>Layout-aware extraction.</strong> For everything else, CorpusIQ reads the
    text using each character's actual position on the page. That's the
-   part that keeps <strong>tables and multi-column pages intact</strong> — a label
+   part that keeps <strong>tables and multi-column pages intact</strong> - a label
    stays matched to its value instead of getting scrambled the way a
    plain text dump would. A two-column report or a line-item table comes
    out readable, not jumbled.</p>
@@ -10147,14 +10147,14 @@ works for each file:</p>
 </ol>
 <p>You can also point CorpusIQ at a <strong>specific page range</strong> in a long
 document, or have it <strong>search the document for a term</strong> and return only
-the pages that mention it — useful when the file is 200 pages and you
+the pages that mention it - useful when the file is 200 pages and you
 care about one clause.</p>
 <h2 id="the-one-limit-worth-knowing">The one limit worth knowing<a class="headerlink" href="#the-one-limit-worth-knowing" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ reads PDFs that contain real, digital text — the kind produced
+<p>CorpusIQ reads PDFs that contain real, digital text - the kind produced
 when a document is exported or saved as a PDF. That covers the vast
 majority of business documents.</p>
 <p>What it does <strong>not</strong> do today is read a PDF that's purely a <em>scanned
-image</em> — a photo or scan of a page with no embedded text behind it. For
+image</em> - a photo or scan of a page with no embedded text behind it. For
 those, CorpusIQ will tell you honestly that there's no extractable text
 rather than guess. Reading text off scanned images is a separate
 capability (optical character recognition), and it isn't part of the

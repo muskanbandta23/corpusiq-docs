@@ -23,7 +23,7 @@
     
     
   
-    <title>Reddit Research API — Semantic Search & B2B Lead</title>
+    <title>Reddit Research API - Semantic Search & B2B Lead</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Reddit Research API — Semantic Search & B2B Lead">
+  <meta property="og:title" content="Reddit Research API - Semantic Search & B2B Lead">
   <meta property="og:description" content="Access Reddit's full data archive via reddapi.dev. Semantic search, trend analysis, and AI-powered B2B lead scoring. 2.8K + 1.3K installs across two skills">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Reddit Research API — Semantic Search & B2B Lead">
+  <meta name="twitter:title" content="Reddit Research API - Semantic Search & B2B Lead">
   <meta name="twitter:description" content="Access Reddit's full data archive via reddapi.dev. Semantic search, trend analysis, and AI-powered B2B lead scoring. 2.8K + 1.3K installs across two skills">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Reddit Research API \u2014 Semantic Search \u0026 B2B Lead",
+    "name": "Reddit Research API - Semantic Search \u0026 B2B Lead",
     "description": "Access Reddit\u0027s full data archive via reddapi.dev. Semantic search, trend analysis, and AI-powered B2B lead scoring. 2.8K + 1.3K installs across two skills",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Reddit Research API — Semantic Search & B2B Lead
+              Reddit Research API - Semantic Search & B2B Lead
             
           </span>
         </div>
@@ -10039,7 +10039,7 @@
   <a href="#quick-start-hermes-agent" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick Start — Hermes Agent
+        Quick Start - Hermes Agent
       
     </span>
   </a>
@@ -10088,12 +10088,12 @@
   
 
 
-<h1 id="reddit-research-leads-setup-guide">Reddit Research &amp; Leads — Setup Guide<a class="headerlink" href="#reddit-research-leads-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="reddit-research-leads-setup-guide">Reddit Research &amp; Leads - Setup Guide<a class="headerlink" href="#reddit-research-leads-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/lignertys/reddit-research-skill">lignertys/reddit-research-skill</a> (4.1K+ combined installs)
 <strong>Category:</strong> Research / Lead Generation
 <strong>Quality Tier:</strong> 🟡 Beta</p>
 <p>Two skills in one repo providing Reddit data access without Reddit's API rate limits. <strong>reddapi</strong> offers semantic search across millions of posts and comments, subreddit discovery, and trend analysis. <strong>reddit-leads</strong> uses AI-powered lead scoring (0-100) to find B2B prospects actively expressing buying intent across 50K+ subreddits.</p>
-<p>Key advantage: This is a third-party service, not Reddit official — so there are <strong>no rate limits, no daily quotas, and 24/7 availability</strong>. 1024D vector search matches on meaning, not just keywords.</p>
+<p>Key advantage: This is a third-party service, not Reddit official - so there are <strong>no rate limits, no daily quotas, and 24/7 availability</strong>. 1024D vector search matches on meaning, not just keywords.</p>
 <hr />
 <h2 id="included-skills">Included Skills<a class="headerlink" href="#included-skills" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10134,7 +10134,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <tbody>
 <tr>
 <td><strong>API Key</strong></td>
-<td>Sign up at <a href="https://reddapi.dev">reddapi.dev</a> — Free: 3 searches/mo, Lite $19.9/mo (500 calls), Starter $49/mo (5K), Pro $99/mo (15K)</td>
+<td>Sign up at <a href="https://reddapi.dev">reddapi.dev</a> - Free: 3 searches/mo, Lite $19.9/mo (500 calls), Starter $49/mo (5K), Pro $99/mo (15K)</td>
 </tr>
 <tr>
 <td><strong>Environment</strong></td>
@@ -10145,13 +10145,13 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="semantic-search-reddapi">Semantic Search (reddapi)<a class="headerlink" href="#semantic-search-reddapi" title="Anchor link to this section">&para;</a></h3>
-<p>Natural language search across millions of Reddit posts — no keyword matching, meaning-based:</p>
+<p>Natural language search across millions of Reddit posts - no keyword matching, meaning-based:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Market research</span>
 curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/search/semantic&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;best productivity tools for remote teams&quot;, &quot;limit&quot;: 100}&#39;</span>
 
-<span class="c1"># Pain point discovery — &quot;I wish there was an app that&quot;</span>
+<span class="c1"># Pain point discovery - &quot;I wish there was an app that&quot;</span>
 curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/search/semantic&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;I wish there was an app that&quot;, &quot;limit&quot;: 100}&#39;</span>
@@ -10187,7 +10187,7 @@ curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </spa
 </tr>
 <tr>
 <td><strong>complaint</strong></td>
-<td>Frustrated with current tool — switching signal</td>
+<td>Frustrated with current tool - switching signal</td>
 </tr>
 <tr>
 <td><strong>feature_request</strong></td>
@@ -10195,7 +10195,7 @@ curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </spa
 </tr>
 <tr>
 <td><strong>comparison</strong></td>
-<td>Evaluating options — ready to buy</td>
+<td>Evaluating options - ready to buy</td>
 </tr>
 </tbody>
 </table>
@@ -10209,7 +10209,7 @@ curl<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/subre
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
-<h2 id="quick-start-hermes-agent">Quick Start — Hermes Agent<a class="headerlink" href="#quick-start-hermes-agent" title="Anchor link to this section">&para;</a></h2>
+<h2 id="quick-start-hermes-agent">Quick Start - Hermes Agent<a class="headerlink" href="#quick-start-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set API key</span>
 <span class="nb">export</span><span class="w"> </span><span class="nv">REDDAPI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_key&quot;</span>
 
@@ -10236,10 +10236,10 @@ curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </spa
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>No Reddit API limits</strong>: reddapi.dev is a third-party index — unlimited QPS, no daily quotas</li>
+<li><strong>No Reddit API limits</strong>: reddapi.dev is a third-party index - unlimited QPS, no daily quotas</li>
 <li><strong>Use cases for CorpusIQ</strong>: Market research, competitive analysis, pain point discovery, B2B lead generation for business operators</li>
-<li><strong>Lead scoring</strong>: 0-100 with industry auto-detection — filter for scores &gt;70 for warmest prospects</li>
-<li><strong>Free tier</strong>: 3 searches/month — sufficient for evaluation. Lite ($19.9/mo) for production use</li>
+<li><strong>Lead scoring</strong>: 0-100 with industry auto-detection - filter for scores &gt;70 for warmest prospects</li>
+<li><strong>Free tier</strong>: 3 searches/month - sufficient for evaluation. Lite ($19.9/mo) for production use</li>
 <li><strong>Related skills</strong>: reddit-praw-automation, help-first-community-engagement</li>
 </ul>
 

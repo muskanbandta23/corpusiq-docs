@@ -23,7 +23,7 @@
     
     
   
-    <title>distribute-skill-to-all-agents — Setup Guide</title>
+    <title>distribute-skill-to-all-agents - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="distribute-skill-to-all-agents — Setup Guide">
+  <meta property="og:title" content="distribute-skill-to-all-agents - Setup Guide">
   <meta property="og:description" content="Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills. Sync a skill across Codex, Claude Code, Pi, and Hermes agent">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="distribute-skill-to-all-agents — Setup Guide">
+  <meta name="twitter:title" content="distribute-skill-to-all-agents - Setup Guide">
   <meta name="twitter:description" content="Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills. Sync a skill across Codex, Claude Code, Pi, and Hermes agent">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "distribute-skill-to-all-agents \u2014 Setup Guide",
+    "name": "distribute-skill-to-all-agents - Setup Guide",
     "description": "Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills. Sync a skill across Codex, Claude Code, Pi, and Hermes agent",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              distribute-skill-to-all-agents — Setup Guide
+              distribute-skill-to-all-agents - Setup Guide
             
           </span>
         </div>
@@ -10066,7 +10066,7 @@
   
 
 
-<h1 id="distribute-skill-to-all-agents-setup-guide">distribute-skill-to-all-agents — Setup Guide<a class="headerlink" href="#distribute-skill-to-all-agents-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="distribute-skill-to-all-agents-setup-guide">distribute-skill-to-all-agents - Setup Guide<a class="headerlink" href="#distribute-skill-to-all-agents-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/davidondrej/skills">davidondrej/skills</a> (59 installs)
 <strong>Category:</strong> Agent Infrastructure / Skill Management</p>
 <p>Sync a skill across the 4 agent skill folders (Codex, Claude Code, Pi, Hermes) so all agents discover it. Handles the symlink layout for <code>.claude</code> and <code>.pi</code> and copies only to the independent <code>.hermes</code> directory.</p>
@@ -10099,7 +10099,7 @@
 </tr>
 <tr>
 <td><strong>Hermes standalone</strong></td>
-<td><code>~/.hermes/skills/</code> is independent — manual copy required</td>
+<td><code>~/.hermes/skills/</code> is independent - manual copy required</td>
 </tr>
 </tbody>
 </table>
@@ -10160,22 +10160,22 @@ cp<span class="w"> </span>-r<span class="w"> </span>~/.agents/skills/<span class
 <tr>
 <td>Codex / OpenAI Agents</td>
 <td><code>~/.agents/skills/</code></td>
-<td><strong>Canonical</strong> — author skills here first</td>
+<td><strong>Canonical</strong> - author skills here first</td>
 </tr>
 <tr>
 <td>Claude Code</td>
 <td><code>~/.claude/skills/</code></td>
-<td><strong>Symlink → <code>~/.agents/skills/</code></strong> — writing to <code>.agents/skills</code> automatically covers Claude</td>
+<td><strong>Symlink → <code>~/.agents/skills/</code></strong> - writing to <code>.agents/skills</code> automatically covers Claude</td>
 </tr>
 <tr>
 <td>Pi Agent</td>
 <td><code>~/.pi/agent/skills/</code></td>
-<td><strong>Symlink → <code>~/.agents/skills/</code></strong> — auto-covered. (Path is <code>/agent/</code> nested — NOT <code>~/.pi/skills/</code>)</td>
+<td><strong>Symlink → <code>~/.agents/skills/</code></strong> - auto-covered. (Path is <code>/agent/</code> nested - NOT <code>~/.pi/skills/</code>)</td>
 </tr>
 <tr>
 <td>Hermes Agent</td>
 <td><code>~/.hermes/skills/</code></td>
-<td><strong>Independent copy</strong> — the only one needing a manual copy</td>
+<td><strong>Independent copy</strong> - the only one needing a manual copy</td>
 </tr>
 </tbody>
 </table>
@@ -10223,7 +10223,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>~/.agents/skills/<span class
 <tbody>
 <tr>
 <td><code>.claude/skills</code> is a real directory, not a symlink</td>
-<td>The user has diverged copies — ask before touching. Compare contents to decide which is canonical</td>
+<td>The user has diverged copies - ask before touching. Compare contents to decide which is canonical</td>
 </tr>
 <tr>
 <td>Byte counts don't match after copy</td>

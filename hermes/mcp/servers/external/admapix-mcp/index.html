@@ -10047,7 +10047,7 @@
 
 
 <h1 id="admapix-mcp">AdMapix MCP<a class="headerlink" href="#admapix-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Local stdio MCP server (uvx, API key) — raw competitor ad creative data from the AdMapix ad-intelligence API for MCP-compatible agents.</strong> AdMapix MCP exposes a single <code>search_creatives</code> tool that queries the AdMapix ad library and returns structured JSON records — media URLs, first-seen dates, estimated impressions, days-active — rather than screenshots or summaries. Presentation and analysis are deliberately out of scope; the server is the data pipe, and the agent decides what to do with it.</p>
+<p><strong>Local stdio MCP server (uvx, API key) - raw competitor ad creative data from the AdMapix ad-intelligence API for MCP-compatible agents.</strong> AdMapix MCP exposes a single <code>search_creatives</code> tool that queries the AdMapix ad library and returns structured JSON records - media URLs, first-seen dates, estimated impressions, days-active - rather than screenshots or summaries. Presentation and analysis are deliberately out of scope; the server is the data pipe, and the agent decides what to do with it.</p>
 <div class="highlight"><pre><span></span><code>Server type: Local stdio (Python, mcporter installer or uvx)
 Auth: ADMAPIX_API_KEY environment variable
 Endpoint: n/a (stdio; calls the AdMapix API)
@@ -10057,8 +10057,8 @@ Category: Marketing / Ad Intelligence
 Built by: fly0pants (PyPI admapix-mcp v1.0.0)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Competitor ad research is the most manual task in performance marketing: open the ad libraries, search each brand, screenshot what changed, paste into a doc, repeat next week. AdMapix MCP collapses that into a callable query. <code>search_creatives</code> accepts keyword, app name, advertiser, category, or ad copy, and filters by creative format (image, video, playable ad), country or region, and date range — then returns the raw API records with media URLs and metrics like estimated impressions and days active. Because the output is structured, an agent can diff competitor creative over time, spot what a rival is scaling, and feed findings into a brief without anyone touching an ad library UI.</p>
-<p>The sorting surface is what makes it an intelligence tool rather than a search box: results can be ordered by first seen, relevance, estimated impressions, or days active, and pagination carries the same filters forward. That is the loop a growth operator actually runs — what is new, what is spending, what has been live forever — expressed as parameters instead of tab-hoarding.</p>
+<p>Competitor ad research is the most manual task in performance marketing: open the ad libraries, search each brand, screenshot what changed, paste into a doc, repeat next week. AdMapix MCP collapses that into a callable query. <code>search_creatives</code> accepts keyword, app name, advertiser, category, or ad copy, and filters by creative format (image, video, playable ad), country or region, and date range - then returns the raw API records with media URLs and metrics like estimated impressions and days active. Because the output is structured, an agent can diff competitor creative over time, spot what a rival is scaling, and feed findings into a brief without anyone touching an ad library UI.</p>
+<p>The sorting surface is what makes it an intelligence tool rather than a search box: results can be ordered by first seen, relevance, estimated impressions, or days active, and pagination carries the same filters forward. That is the loop a growth operator actually runs - what is new, what is spending, what has been live forever - expressed as parameters instead of tab-hoarding.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10097,7 +10097,7 @@ bash<span class="w"> </span>admapix/install.sh<span class="w"> </span>&lt;YOUR_A
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>The API key is issued by an AdMapix administrator — the MCP package itself is installable, but queries require account access.</p>
+<p>The API key is issued by an AdMapix administrator - the MCP package itself is installable, but queries require account access.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Performance marketers</strong> get competitor creative search and change tracking as agent tooling instead of ad-library tab-hopping</li>
@@ -10106,13 +10106,13 @@ bash<span class="w"> </span>admapix/install.sh<span class="w"> </span>&lt;YOUR_A
 <li><strong>Media buyers</strong> filter by estimated impressions and days active to separate scaled winners from experiments</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>AdMapix MCP feeds the planning side of a paid-marketing stack that CorpusIQ reads on the performance side. An operator pulls competitor creative intelligence through AdMapix — who is running video vs playable ads, in which countries, for how long — and then reads the same markets' spend and conversion reality through the CorpusIQ Meta Ads and Google Ads connectors. The pairing turns "what are they running" into "what are they running, and what is it costing us to hold share". GA4 traffic from the CorpusIQ GA4 connector closes the loop on which of your own landing pages the market responds to. The direction of flow: AdMapix MCP supplies market-side creative data; CorpusIQ reads the operator's own ad and site performance.</p>
+<p>AdMapix MCP feeds the planning side of a paid-marketing stack that CorpusIQ reads on the performance side. An operator pulls competitor creative intelligence through AdMapix - who is running video vs playable ads, in which countries, for how long - and then reads the same markets' spend and conversion reality through the CorpusIQ Meta Ads and Google Ads connectors. The pairing turns "what are they running" into "what are they running, and what is it costing us to hold share". GA4 traffic from the CorpusIQ GA4 connector closes the loop on which of your own landing pages the market responds to. The direction of flow: AdMapix MCP supplies market-side creative data; CorpusIQ reads the operator's own ad and site performance.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Single-tool surface — one search endpoint, no write path, no alerts or monitoring</li>
+<li>Single-tool surface - one search endpoint, no write path, no alerts or monitoring</li>
 <li>Requires an AdMapix API key, which is account-gated rather than public</li>
-<li>Brand new listing — no community track record yet</li>
-<li>Stdio only — no hosted remote endpoint</li>
+<li>Brand new listing - no community track record yet</li>
+<li>Stdio only - no hosted remote endpoint</li>
 <li>Raw records need an agent (or analyst) to interpret; no built-in summaries or recommendations</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

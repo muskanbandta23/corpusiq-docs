@@ -23,7 +23,7 @@
     
     
   
-    <title>Terminal Skills — System Administration Skill Pack for Hermes Agents</title>
+    <title>Terminal Skills - System Administration Skill Pack for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/terminal-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Terminal Skills — System Administration Skill Pack for Hermes Agents">
+  <meta property="og:title" content="Terminal Skills - System Administration Skill Pack for Hermes Agents">
   <meta property="og:description" content="Collection of terminal-focused skills (cron, systemd, network-tools, VPN) with 2.4K+ combined installs. Gives Hermes agents structured knowledge for Linux">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Terminal Skills — System Administration Skill Pack for Hermes Agents">
+  <meta name="twitter:title" content="Terminal Skills - System Administration Skill Pack for Hermes Agents">
   <meta name="twitter:description" content="Collection of terminal-focused skills (cron, systemd, network-tools, VPN) with 2.4K+ combined installs. Gives Hermes agents structured knowledge for Linux">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Terminal Skills \u2014 System Administration Skill Pack for Hermes Agents",
+    "name": "Terminal Skills - System Administration Skill Pack for Hermes Agents",
     "description": "Collection of terminal-focused skills (cron, systemd, network-tools, VPN) with 2.4K+ combined installs. Gives Hermes agents structured knowledge for Linux",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/terminal-skills-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Terminal Skills — System Administration Skill Pack for Hermes Agents
+              Terminal Skills - System Administration Skill Pack for Hermes Agents
             
           </span>
         </div>
@@ -9990,7 +9990,7 @@
   <a href="#cron-scheduled-task-management" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cron — Scheduled Task Management
+        Cron - Scheduled Task Management
       
     </span>
   </a>
@@ -10001,7 +10001,7 @@
   <a href="#systemd-service-management" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Systemd — Service Management
+        Systemd - Service Management
       
     </span>
   </a>
@@ -10012,7 +10012,7 @@
   <a href="#network-tools-diagnostics" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Network Tools — Diagnostics
+        Network Tools - Diagnostics
       
     </span>
   </a>
@@ -10023,7 +10023,7 @@
   <a href="#system-admin-general-operations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        System Admin — General Operations
+        System Admin - General Operations
       
     </span>
   </a>
@@ -10088,11 +10088,11 @@
   
 
 
-<h1 id="terminal-skills-setup-guide">Terminal Skills — Setup Guide<a class="headerlink" href="#terminal-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="terminal-skills-setup-guide">Terminal Skills - Setup Guide<a class="headerlink" href="#terminal-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/chaterm/terminal-skills">chaterm/terminal-skills</a> (2.4K+ combined installs)
 <strong>Category:</strong> Engineering / System Administration
 <strong>Quality Tier:</strong> 🟡 Beta</p>
-<p>A collection of terminal and system administration skills from chaterm that give Hermes agents structured, reusable knowledge for managing Linux systems — cron job scheduling, systemd service management, network diagnostics, and VPN configuration. While Hermes agents already have terminal access, these skills provide best-practice templates and troubleshooting patterns.</p>
+<p>A collection of terminal and system administration skills from chaterm that give Hermes agents structured, reusable knowledge for managing Linux systems - cron job scheduling, systemd service management, network diagnostics, and VPN configuration. While Hermes agents already have terminal access, these skills provide best-practice templates and troubleshooting patterns.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>chaterm/terminal-skills<span class="w"> </span>--skill<span class="w"> </span>cron
@@ -10165,7 +10165,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
-<h3 id="cron-scheduled-task-management">Cron — Scheduled Task Management<a class="headerlink" href="#cron-scheduled-task-management" title="Anchor link to this section">&para;</a></h3>
+<h3 id="cron-scheduled-task-management">Cron - Scheduled Task Management<a class="headerlink" href="#cron-scheduled-task-management" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code><span class="c1"># View current crontab</span>
 crontab<span class="w"> </span>-l
 
@@ -10179,7 +10179,7 @@ crontab<span class="w"> </span>-e
 <span class="m">0</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span><span class="m">1</span>-5<span class="w"> </span><span class="nb">command</span><span class="w">     </span><span class="c1"># Weekdays at midnight</span>
 </code></pre></div>
 Ideal for creating and debugging Hermes cron jobs, understanding schedule syntax, and monitoring cron logs for failures.</p>
-<h3 id="systemd-service-management">Systemd — Service Management<a class="headerlink" href="#systemd-service-management" title="Anchor link to this section">&para;</a></h3>
+<h3 id="systemd-service-management">Systemd - Service Management<a class="headerlink" href="#systemd-service-management" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code><span class="c1"># Service lifecycle</span>
 systemctl<span class="w"> </span>status<span class="w"> </span>&lt;service&gt;
 systemctl<span class="w"> </span>start/stop/restart<span class="w"> </span>&lt;service&gt;
@@ -10189,7 +10189,7 @@ systemctl<span class="w"> </span>enable/disable<span class="w"> </span>&lt;servi
 journalctl<span class="w"> </span>-u<span class="w"> </span>&lt;service&gt;<span class="w"> </span>--no-pager<span class="w"> </span>-n<span class="w"> </span><span class="m">50</span>
 </code></pre></div>
 Directly applicable to managing the Hermes gateway service, debugging death loops, and authoring systemd unit files.</p>
-<h3 id="network-tools-diagnostics">Network Tools — Diagnostics<a class="headerlink" href="#network-tools-diagnostics" title="Anchor link to this section">&para;</a></h3>
+<h3 id="network-tools-diagnostics">Network Tools - Diagnostics<a class="headerlink" href="#network-tools-diagnostics" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code><span class="c1"># Connectivity checks</span>
 ping<span class="w"> </span>-c<span class="w"> </span><span class="m">4</span><span class="w"> </span>&lt;host&gt;
 traceroute<span class="w"> </span>&lt;host&gt;
@@ -10203,7 +10203,7 @@ dig<span class="w"> </span>&lt;domain&gt;
 nslookup<span class="w"> </span>&lt;domain&gt;
 </code></pre></div>
 Useful for debugging Telegram API connectivity, MCP server reachability, and API endpoint health.</p>
-<h3 id="system-admin-general-operations">System Admin — General Operations<a class="headerlink" href="#system-admin-general-operations" title="Anchor link to this section">&para;</a></h3>
+<h3 id="system-admin-general-operations">System Admin - General Operations<a class="headerlink" href="#system-admin-general-operations" title="Anchor link to this section">&para;</a></h3>
 <p>Disk usage, process management, user management, package installation, and log rotation patterns for day-to-day Hermes system maintenance.</p>
 <hr />
 <h2 id="quick-start-for-hermes-agents">Quick Start for Hermes Agents<a class="headerlink" href="#quick-start-for-hermes-agents" title="Anchor link to this section">&para;</a></h2>

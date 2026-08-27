@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure adnw-vinc/hermes-nextcloud — Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.">
+        <meta name="description" content="Install and configure adnw-vinc/hermes-nextcloud - Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-nextcloud-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Hermes Nextcloud Integration Setup Guide">
-  <meta property="og:description" content="Install and configure adnw-vinc/hermes-nextcloud — Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.">
+  <meta property="og:description" content="Install and configure adnw-vinc/hermes-nextcloud - Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hermes Nextcloud Integration Setup Guide">
-  <meta name="twitter:description" content="Install and configure adnw-vinc/hermes-nextcloud — Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.">
+  <meta name="twitter:description" content="Install and configure adnw-vinc/hermes-nextcloud - Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hermes Nextcloud Integration Setup Guide",
-    "description": "Install and configure adnw-vinc/hermes-nextcloud \u2014 Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.",
+    "description": "Install and configure adnw-vinc/hermes-nextcloud - Nextcloud files, notes, calendar, and contacts bridge for Hermes Agent.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-nextcloud-setup",
     
     "datePublished": "2026-08-12",
@@ -10088,16 +10088,16 @@
   
 
 
-<h1 id="hermes-nextcloud-integration-setup-guide">Hermes Nextcloud Integration — Setup Guide<a class="headerlink" href="#hermes-nextcloud-integration-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>Nextcloud integration for Hermes Agent by <a href="https://github.com/adnw-vinc/hermes-nextcloud">adnw-vinc</a>. Bridges Nextcloud's file storage, notes, calendar, and contacts into Hermes — enabling agents to operate on self-hosted cloud data without third-party services.</p>
+<h1 id="hermes-nextcloud-integration-setup-guide">Hermes Nextcloud Integration - Setup Guide<a class="headerlink" href="#hermes-nextcloud-integration-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p>Nextcloud integration for Hermes Agent by <a href="https://github.com/adnw-vinc/hermes-nextcloud">adnw-vinc</a>. Bridges Nextcloud's file storage, notes, calendar, and contacts into Hermes - enabling agents to operate on self-hosted cloud data without third-party services.</p>
 <h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>File operations</strong> — browse, read, write, and share files via WebDAV</li>
-<li><strong>Notes</strong> — create/edit Nextcloud Notes with Markdown support</li>
-<li><strong>Calendar</strong> — read/create/modify events via CalDAV</li>
-<li><strong>Contacts</strong> — search and manage contacts via CardDAV</li>
-<li><strong>Talk</strong> — send messages via Nextcloud Talk API</li>
-<li><strong>Share links</strong> — create and manage public/private share links</li>
+<li><strong>File operations</strong> - browse, read, write, and share files via WebDAV</li>
+<li><strong>Notes</strong> - create/edit Nextcloud Notes with Markdown support</li>
+<li><strong>Calendar</strong> - read/create/modify events via CalDAV</li>
+<li><strong>Contacts</strong> - search and manage contacts via CardDAV</li>
+<li><strong>Talk</strong> - send messages via Nextcloud Talk API</li>
+<li><strong>Share links</strong> - create and manage public/private share links</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install via skills.sh</span>
@@ -10146,7 +10146,7 @@ hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </s
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>App password required</strong>: Nextcloud's main password may not work with WebDAV if 2FA is enabled. Always generate an app password.</li>
-<li><strong>Self-signed certificates</strong>: If using a self-signed cert, set <code>verify_ssl: false</code> — but only for internal/development deployments.</li>
+<li><strong>Self-signed certificates</strong>: If using a self-signed cert, set <code>verify_ssl: false</code> - but only for internal/development deployments.</li>
 <li><strong>WebDAV rate limiting</strong>: Nextcloud may throttle rapid file operations. Use batch operations where possible.</li>
 <li><strong>CalDAV timezone</strong>: Ensure the Nextcloud server and Hermes host are in the same timezone or timezone-aware.</li>
 <li><strong>File locking</strong>: WebDAV locks are not automatically released on session timeout. Implement a lock timeout.</li>

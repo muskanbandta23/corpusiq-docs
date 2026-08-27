@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Full Backup — Setup Guide</title>
+    <title>Hermes Full Backup - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Full Backup — Setup Guide">
+  <meta property="og:title" content="Hermes Full Backup - Setup Guide">
   <meta property="og:description" content="Install and use the Hermes Complete Backup script for disaster recovery. Self-contained Python script, zero dependencies.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Full Backup — Setup Guide">
+  <meta name="twitter:title" content="Hermes Full Backup - Setup Guide">
   <meta name="twitter:description" content="Install and use the Hermes Complete Backup script for disaster recovery. Self-contained Python script, zero dependencies.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Full Backup \u2014 Setup Guide",
+    "name": "Hermes Full Backup - Setup Guide",
     "description": "Install and use the Hermes Complete Backup script for disaster recovery. Self-contained Python script, zero dependencies.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Full Backup — Setup Guide
+              Hermes Full Backup - Setup Guide
             
           </span>
         </div>
@@ -10233,9 +10233,9 @@
   
 
 
-<h1 id="hermes-full-backup-full-setup-guide">Hermes Full Backup — Full Setup Guide<a class="headerlink" href="#hermes-full-backup-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-full-backup-full-setup-guide">Hermes Full Backup - Full Setup Guide<a class="headerlink" href="#hermes-full-backup-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p>A self-contained Python backup script for Hermes Agent disaster recovery. Creates a <code>.zip</code> with everything needed to restore Hermes from scratch on a clean OS.</p>
-<p><strong>Stdlib only</strong> — <code>zipfile</code> + <code>argparse</code> + <code>pathlib</code>. Works on any Python 3 installation.</p>
+<p><strong>Stdlib only</strong> - <code>zipfile</code> + <code>argparse</code> + <code>pathlib</code>. Works on any Python 3 installation.</p>
 <hr />
 <h2 id="what-gets-backed-up">What Gets Backed Up<a class="headerlink" href="#what-gets-backed-up" title="Anchor link to this section">&para;</a></h2>
 <h3 id="full-backup-default">Full backup (default)<a class="headerlink" href="#full-backup-default" title="Anchor link to this section">&para;</a></h3>
@@ -10286,13 +10286,13 @@
 </tbody>
 </table>
 <h3 id="quick-backup-quick">Quick backup (<code>--quick</code>)<a class="headerlink" href="#quick-backup-quick" title="Anchor link to this section">&para;</a></h3>
-<p>Config + skills only — no source code, binaries, or installer. Useful for frequent lightweight snapshots.</p>
+<p>Config + skills only - no source code, binaries, or installer. Useful for frequent lightweight snapshots.</p>
 <hr />
 <h2 id="install">Install<a class="headerlink" href="#install" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/edouardleroy/hermes-full-backup.git
 <span class="nb">cd</span><span class="w"> </span>hermes-full-backup
 </code></pre></div>
-<p>The script is self-contained — no <code>pip install</code> needed. Just run it:</p>
+<p>The script is self-contained - no <code>pip install</code> needed. Just run it:</p>
 <div class="highlight"><pre><span></span><code>python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>--help
 </code></pre></div>
 <hr />
@@ -10355,9 +10355,9 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-restore/skills/*
 <h2 id="security-warning">⚠️ Security Warning<a class="headerlink" href="#security-warning" title="Anchor link to this section">&para;</a></h2>
 <p>The backup ZIP contains sensitive files:</p>
 <ul>
-<li><code>.env</code> — API keys and tokens</li>
-<li><code>auth.json</code> — OAuth tokens and credentials</li>
-<li><code>state.db</code> — Session history with potentially sensitive tool output</li>
+<li><code>.env</code> - API keys and tokens</li>
+<li><code>auth.json</code> - OAuth tokens and credentials</li>
+<li><code>state.db</code> - Session history with potentially sensitive tool output</li>
 </ul>
 <p><strong>Treat backup ZIPs like secrets.</strong> Store them encrypted, restrict access, and never commit them to version control.</p>
 <p>The auto-generated <code>LEEME.txt</code> inside every backup includes a credential warning:</p>
@@ -10378,7 +10378,7 @@ Guárdalo en un lugar seguro. No lo compartas ni lo subas a repositorios públic
 <tbody>
 <tr>
 <td>Single file, stdlib only</td>
-<td>Runs on any Python 3 — no venv, no pip, no deps</td>
+<td>Runs on any Python 3 - no venv, no pip, no deps</td>
 </tr>
 <tr>
 <td><code>$HERMES_HOME</code> as source of truth</td>
@@ -10430,7 +10430,7 @@ python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>-
 <div class="highlight"><pre><span></span><code>chmod<span class="w"> </span><span class="m">600</span><span class="w"> </span>~/.hermes/.env<span class="w"> </span>~/.hermes/auth.json
 </code></pre></div>
 <h3 id="large-backup-files">Large backup files<a class="headerlink" href="#large-backup-files" title="Anchor link to this section">&para;</a></h3>
-<p>Full backups include source code and binaries — they can be 100MB+. Use <code>--quick</code> for daily backups and reserve full backups for weekly/monthly.</p>
+<p>Full backups include source code and binaries - they can be 100MB+. Use <code>--quick</code> for daily backups and reserve full backups for weekly/monthly.</p>
 <h3 id="windows-paths">Windows paths<a class="headerlink" href="#windows-paths" title="Anchor link to this section">&para;</a></h3>
 <p>On Windows, use forward slashes or escaped backslashes:</p>
 <div class="highlight"><pre><span></span><code>python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>-o<span class="w"> </span>C:/Users/you/backups/hermes.zip
@@ -10440,8 +10440,8 @@ python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>-
 <hr />
 <h2 id="related-tools">Related Tools<a class="headerlink" href="#related-tools" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://hermes-agent.nousresearch.com/docs">Hermes Agent Install Guide</a> — Official install docs</li>
-<li><a href="https://github.com/edouardleroy/hermes-full-backup">Hermes Backup Script (alternative)</a> — This script's repo with tests and docs</li>
+<li><a href="https://hermes-agent.nousresearch.com/docs">Hermes Agent Install Guide</a> - Official install docs</li>
+<li><a href="https://github.com/edouardleroy/hermes-full-backup">Hermes Backup Script (alternative)</a> - This script's repo with tests and docs</li>
 </ul>
 <hr />
 <p><em>Powered by CorpusIQ</em></p>

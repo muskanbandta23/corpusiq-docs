@@ -23,7 +23,7 @@
     
     
   
-    <title>codicil — Documentation Indexing MCP with Chroma + Ollama</title>
+    <title>codicil - Documentation Indexing MCP with Chroma + Ollama</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/codicil-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="codicil — Documentation Indexing MCP with Chroma + Ollama">
+  <meta property="og:title" content="codicil - Documentation Indexing MCP with Chroma + Ollama">
   <meta property="og:description" content="Index your repo's Markdown/YAML/TOML docs into a local Chroma vector store and expose query_docs/reindex_docs over MCP. Uses Ollama embeddings when">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="codicil — Documentation Indexing MCP with Chroma + Ollama">
+  <meta name="twitter:title" content="codicil - Documentation Indexing MCP with Chroma + Ollama">
   <meta name="twitter:description" content="Index your repo's Markdown/YAML/TOML docs into a local Chroma vector store and expose query_docs/reindex_docs over MCP. Uses Ollama embeddings when">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "codicil \u2014 Documentation Indexing MCP with Chroma + Ollama",
+    "name": "codicil - Documentation Indexing MCP with Chroma + Ollama",
     "description": "Index your repo\u0027s Markdown/YAML/TOML docs into a local Chroma vector store and expose query_docs/reindex_docs over MCP. Uses Ollama embeddings when",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/codicil-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              codicil — Documentation Indexing MCP with Chroma + Ollama
+              codicil - Documentation Indexing MCP with Chroma + Ollama
             
           </span>
         </div>
@@ -10038,15 +10038,15 @@
   
 
 
-<h1 id="codicil-documentation-indexing-mcp">codicil — Documentation Indexing MCP<a class="headerlink" href="#codicil-documentation-indexing-mcp" title="Anchor link to this section">&para;</a></h1>
+<h1 id="codicil-documentation-indexing-mcp">codicil - Documentation Indexing MCP<a class="headerlink" href="#codicil-documentation-indexing-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repo documentation made queryable through MCP.</strong> codicil indexes your repository's Markdown, YAML, and TOML documentation into a local Chroma vector store. AI agents can then query docs semantically. Uses Ollama embeddings when available; gracefully degrades to keyword search with zero external dependencies.</p>
 <h2 id="what-it-does-for-operators">What It Does for Operators<a class="headerlink" href="#what-it-does-for-operators" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Semantic doc search</strong> — AI agents can query your project's documentation using natural language</li>
-<li><strong>Zero infra</strong> — No external API keys needed. Works entirely locally with Chroma (embedded) + optional Ollama</li>
-<li><strong>Graceful degradation</strong> — If Ollama isn't running, falls back to live keyword search on disk — no failure mode</li>
-<li><strong>Auto-reindex</strong> — Reindex command for when docs change</li>
-<li><strong>Multi-format</strong> — Supports Markdown, YAML, and TOML documentation files</li>
+<li><strong>Semantic doc search</strong> - AI agents can query your project's documentation using natural language</li>
+<li><strong>Zero infra</strong> - No external API keys needed. Works entirely locally with Chroma (embedded) + optional Ollama</li>
+<li><strong>Graceful degradation</strong> - If Ollama isn't running, falls back to live keyword search on disk - no failure mode</li>
+<li><strong>Auto-reindex</strong> - Reindex command for when docs change</li>
+<li><strong>Multi-format</strong> - Supports Markdown, YAML, and TOML documentation files</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/colehellman/codicil.git
@@ -10100,10 +10100,10 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <p><em>Note: Tool names are approximate. See github.com/colehellman/codicil.</em></p>
 <h2 id="operator-use-cases">Operator Use Cases<a class="headerlink" href="#operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Development Teams</strong> — "How do we handle error retries in our SDK?" → AI agent queries internal docs</li>
-<li><strong>Technical Writers</strong> — Verify documentation coverage by querying for missing topics</li>
-<li><strong>Onboarding</strong> — New team members ask AI agents about internal processes instead of digging through wikis</li>
-<li><strong>Open Source Maintainers</strong> — Give contributors AI-powered documentation search</li>
+<li><strong>Development Teams</strong> - "How do we handle error retries in our SDK?" → AI agent queries internal docs</li>
+<li><strong>Technical Writers</strong> - Verify documentation coverage by querying for missing topics</li>
+<li><strong>Onboarding</strong> - New team members ask AI agents about internal processes instead of digging through wikis</li>
+<li><strong>Open Source Maintainers</strong> - Give contributors AI-powered documentation search</li>
 </ol>
 <h2 id="corpusiq-angle">CorpusIQ Angle<a class="headerlink" href="#corpusiq-angle" title="Anchor link to this section">&para;</a></h2>
 <p>codicil solves an internal documentation problem that many CorpusIQ operators face: "where is that documented?" For operators building on CorpusIQ, codicil can index the CorpusIQ docs alongside their own internal documentation, giving AI agents a unified knowledge surface.</p>
@@ -10111,7 +10111,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <ul>
 <li>Chroma is embedded (not production-scale for massive doc corpuses)</li>
 <li>Semantic search quality depends on Ollama embedding model</li>
-<li>No cloud sync — each developer runs their own index</li>
+<li>No cloud sync - each developer runs their own index</li>
 <li>Python-only (no Node/TypeScript version)</li>
 </ul>
 

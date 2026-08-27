@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Job postings aggregated from tech companies' official careers sites with public discussion threads — search jobs, salaries, locations, and community signal">
+        <meta name="description" content="Job postings aggregated from tech companies' official careers sites with public discussion threads - search jobs, salaries, locations, and community signal">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/jobyap-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="JobYap MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Job postings aggregated from tech companies' official careers sites with public discussion threads — search jobs, salaries, locations, and community signal">
+  <meta property="og:description" content="Job postings aggregated from tech companies' official careers sites with public discussion threads - search jobs, salaries, locations, and community signal">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="JobYap MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Job postings aggregated from tech companies' official careers sites with public discussion threads — search jobs, salaries, locations, and community signal">
+  <meta name="twitter:description" content="Job postings aggregated from tech companies' official careers sites with public discussion threads - search jobs, salaries, locations, and community signal">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "JobYap MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Job postings aggregated from tech companies\u0027 official careers sites with public discussion threads \u2014 search jobs, salaries, locations, and community signal",
+    "description": "Job postings aggregated from tech companies\u0027 official careers sites with public discussion threads - search jobs, salaries, locations, and community signal",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/jobyap-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="jobyap-mcp">JobYap MCP<a class="headerlink" href="#jobyap-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, no auth)</strong> — a job search engine that aggregates live postings directly from companies' official careers sites and attaches a public discussion thread to every listing. Search by title, company, location, remote/hybrid, and freshness; read salaries, full descriptions, apply URLs, and community comments (salary talk, interview notes, team signal). Read-only, no API key, no account.</p>
+<p><strong>Remote MCP server (Streamable HTTP, no auth)</strong> - a job search engine that aggregates live postings directly from companies' official careers sites and attaches a public discussion thread to every listing. Search by title, company, location, remote/hybrid, and freshness; read salaries, full descriptions, apply URLs, and community comments (salary talk, interview notes, team signal). Read-only, no API key, no account.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: None
 Endpoint: https://mcp.jobyap.com/mcp
@@ -10057,9 +10057,9 @@ Category: Productivity
 Built by: JobYap (jobyap.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Job boards recycle listings; JobYap pulls from the source. Every posting is aggregated directly from a company's official careers page, so the description, salary range, and apply URL are what the company actually published — not a third-party copy that has drifted or expired.</p>
-<p><strong>The discussion thread is the moat.</strong> Every posting carries a public comment thread where candidates and employees talk salary reality, interview process, and team health — the signal that never appears in a job description. Threads stay open even after a posting expires, so the historical record survives.</p>
-<p>For agents, the value is a keyless, read-only API into hiring reality: which companies are hiring for what, at what pay, with what community sentiment — usable as a labor-market signal as much as a job board.</p>
+<p>Job boards recycle listings; JobYap pulls from the source. Every posting is aggregated directly from a company's official careers page, so the description, salary range, and apply URL are what the company actually published - not a third-party copy that has drifted or expired.</p>
+<p><strong>The discussion thread is the moat.</strong> Every posting carries a public comment thread where candidates and employees talk salary reality, interview process, and team health - the signal that never appears in a job description. Threads stay open even after a posting expires, so the historical record survives.</p>
+<p>For agents, the value is a keyless, read-only API into hiring reality: which companies are hiring for what, at what pay, with what community sentiment - usable as a labor-market signal as much as a job board.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10116,23 +10116,23 @@ Built by: JobYap (jobyap.com)
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>No authentication, no account, no API key. Read-only by design — the server exposes no apply or post actions.</p>
+<p>No authentication, no account, no API key. Read-only by design - the server exposes no apply or post actions.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Founders and hiring managers</strong> get live competitor hiring signals — who is staffing up, for which roles, at what published pay — as a structured query</li>
+<li><strong>Founders and hiring managers</strong> get live competitor hiring signals - who is staffing up, for which roles, at what published pay - as a structured query</li>
 <li><strong>Recruiters</strong> combine search_jobs with get_job_comments to see candidate-side sentiment on interviews and comp before sourcing</li>
 <li><strong>Job seekers and career agents</strong> search titles, filter remote, and read the salary reality in the comments before applying</li>
 <li><strong>Analysts</strong> use get_job_stats and list_companies to track labor-market expansion and contraction by company</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>JobYap's hiring signals feed the people side of CorpusIQ's business-ops stack. A composed workflow: JobYap's search_jobs surfaces a competitor's sudden hiring burst, CorpusIQ's HubSpot connector records the competitor account with that signal attached, and GA4 + Klaviyo trigger a nurture sequence targeting operators who match the churn-risk profile — before the hiring wave becomes churn. For talent teams, JobYap's candidate-side comment data pairs with CorpusIQ's CRM connectors to attach real interview and comp sentiment to every tracked candidate.</p>
+<p>JobYap's hiring signals feed the people side of CorpusIQ's business-ops stack. A composed workflow: JobYap's search_jobs surfaces a competitor's sudden hiring burst, CorpusIQ's HubSpot connector records the competitor account with that signal attached, and GA4 + Klaviyo trigger a nurture sequence targeting operators who match the churn-risk profile - before the hiring wave becomes churn. For talent teams, JobYap's candidate-side comment data pairs with CorpusIQ's CRM connectors to attach real interview and comp sentiment to every tracked candidate.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Tech-company careers sites only — no agency postings, no generic board scraping</li>
+<li>Tech-company careers sites only - no agency postings, no generic board scraping</li>
 <li>Title-only text query on search_jobs (try synonyms and shorter tokens when results are thin); company names must match list_companies exactly</li>
 <li>Read-only: no applications, no alerts, no notifications over MCP</li>
-<li>Community comments are user-generated content — treat them as signal, not fact</li>
-<li>Brand new listing (Aug 2026) — catalog coverage is still growing</li>
+<li>Community comments are user-generated content - treat them as signal, not fact</li>
+<li>Brand new listing (Aug 2026) - catalog coverage is still growing</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

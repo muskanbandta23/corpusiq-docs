@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="AI short-form social content operations — avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.">
+        <meta name="description" content="AI short-form social content operations - avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/reelsfarm-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="ReelsFarm MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="AI short-form social content operations — avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.">
+  <meta property="og:description" content="AI short-form social content operations - avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ReelsFarm MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="AI short-form social content operations — avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.">
+  <meta name="twitter:description" content="AI short-form social content operations - avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "ReelsFarm MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "AI short-form social content operations \u2014 avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.",
+    "description": "AI short-form social content operations - avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/reelsfarm-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="reelsfarm-mcp">ReelsFarm MCP<a class="headerlink" href="#reelsfarm-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth or API key)</strong> — ReelsFarm gives an agent the full short-form content loop: generate AI avatars, product scenes, UGC videos, hooks, and slideshows, then schedule and publish across connected social accounts — with every mutation behind a <code>confirm_action</code> approval gate in Review mode. Built by ReelsFarm (reelsfarm.com).</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth or API key)</strong> - ReelsFarm gives an agent the full short-form content loop: generate AI avatars, product scenes, UGC videos, hooks, and slideshows, then schedule and publish across connected social accounts - with every mutation behind a <code>confirm_action</code> approval gate in Review mode. Built by ReelsFarm (reelsfarm.com).</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth or API key (Authorization: Bearer rfmcp_xxx)
 Endpoint: https://mcp.reelsfarm.com/mcp
@@ -10057,7 +10057,7 @@ Category: Content
 Built by: ReelsFarm
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Short-form video is the highest-leverage channel most operators underuse, because production and posting both bottleneck on humans. ReelsFarm moves the whole loop into MCP: the agent generates the creative, stages the post, and — critically — does not publish without approval.</p>
+<p>Short-form video is the highest-leverage channel most operators underuse, because production and posting both bottleneck on humans. ReelsFarm moves the whole loop into MCP: the agent generates the creative, stages the post, and - critically - does not publish without approval.</p>
 <p><strong>The approval gate is the differentiator</strong>: prepare tools return a <code>confirmationId</code> and the agent must call <code>confirm_action</code> after human approval in Review mode. Idempotency keys make retries safe. This is the exact pattern operators need before handing an agent the keys to their brand's social presence: the agent proposes, the human confirms, the audit trail records.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10115,7 +10115,7 @@ Built by: ReelsFarm
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>First-check prompt the vendor recommends after connecting: inspect the account, list connected publishing accounts, and list scheduled posts — before creating or publishing anything.</p>
+<p>First-check prompt the vendor recommends after connecting: inspect the account, list connected publishing accounts, and list scheduled posts - before creating or publishing anything.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Marketing teams</strong> get a complete avatar-to-publish pipeline that still requires a human yes on every post.</li>
@@ -10124,13 +10124,13 @@ Built by: ReelsFarm
 <li><strong>Founders</strong> get short-form production that runs on agent time, with pricing visible before generation via <code>get_generation_pricing</code>.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>ReelsFarm complements the CorpusIQ social layer end to end. The agent generates and stages content in ReelsFarm's Review mode, the human approves, and Postiz handles the channels CorpusIQ already syndicates — with the TikTok and YouTube connectors measuring how the published creative actually performed. The approval-gate design matches CorpusIQ's own pre-flight doctrine, so a ReelsFarm workflow slots into the existing governance gates rather than bypassing them.</p>
+<p>ReelsFarm complements the CorpusIQ social layer end to end. The agent generates and stages content in ReelsFarm's Review mode, the human approves, and Postiz handles the channels CorpusIQ already syndicates - with the TikTok and YouTube connectors measuring how the published creative actually performed. The approval-gate design matches CorpusIQ's own pre-flight doctrine, so a ReelsFarm workflow slots into the existing governance gates rather than bypassing them.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listing appeared August 17, 2026.</li>
-<li>OAuth or single-show API keys — key rotation requires re-creating keys in the account tab.</li>
+<li>Brand new - no track record yet; listing appeared August 17, 2026.</li>
+<li>OAuth or single-show API keys - key rotation requires re-creating keys in the account tab.</li>
 <li>Generation is credit-based; per-generation pricing is only visible through the account's pricing tool.</li>
-<li>In Creator or Autopilot modes some prepare tools may execute immediately — the approval gate is strongest in Review mode.</li>
+<li>In Creator or Autopilot modes some prepare tools may execute immediately - the approval gate is strongest in Review mode.</li>
 <li>Platform coverage depends on the accounts you connect; the listing does not enumerate supported networks.</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

@@ -10179,14 +10179,14 @@
 <h3 id="the-problem-it-solves">The Problem It Solves<a class="headerlink" href="#the-problem-it-solves" title="Anchor link to this section">&para;</a></h3>
 <p>Multi-agent coordination historically fails in three ways:
 1. <strong>Group chat noise</strong>  --  Telegram/Discord message storms eat context tokens, leak credentials
-2. <strong>Synchronous HTTP timeouts</strong>  --  Agent tool calls take 5–15 minutes; HTTP connections die at 300–600s
+2. <strong>Synchronous HTTP timeouts</strong>  --  Agent tool calls take 5-15 minutes; HTTP connections die at 300-600s
 3. <strong>SSH overhead</strong>  --  Remote process execution requires SSH; reports must be scp'd</p>
 <h3 id="the-solution-drop-in-mailbox-dont-call">The Solution: "Drop in Mailbox, Don't Call"<a class="headerlink" href="#the-solution-drop-in-mailbox-dont-call" title="Anchor link to this section">&para;</a></h3>
 <p>AgentMesh replaces synchronous HTTP with <strong>Redis-backed named inboxes</strong> (<code>inbox:&lt;NODE_NAME&gt;</code>). Any node pushes a task to any inbox; workers listen and process asynchronously. The mailbox is the protocol.</p>
 <div class="highlight"><pre><span></span><code>HTTP Synchronous (&quot;phone call&quot;)     Redis Queue (&quot;mailbox&quot;)
 requests.post(url, timeout=600)     redis.lpush(&quot;inbox:bobo&quot;, task_json)
 Client blocks waiting               Client returns immediately
-Timeout at 5–10 minutes             Hours-long tasks OK
+Timeout at 5-10 minutes             Hours-long tasks OK
 Cross-machine needs SSH             0 SSH  --  shared Redis + HTTP LLM
 Report must be scp&#39;d                Report lands on initiator&#39;s machine
 </code></pre></div>

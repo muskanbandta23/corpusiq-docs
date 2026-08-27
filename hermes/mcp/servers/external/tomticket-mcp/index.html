@@ -23,7 +23,7 @@
     
     
   
-    <title>TomTicket MCP — Helpdesk Operations from Any MCP Client</title>
+    <title>TomTicket MCP - Helpdesk Operations from Any MCP Client</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/tomticket-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="TomTicket MCP — Helpdesk Operations from Any MCP Client">
+  <meta property="og:title" content="TomTicket MCP - Helpdesk Operations from Any MCP Client">
   <meta property="og:description" content="MCP server for the TomTicket helpdesk API: list tickets, reply as an operator with work time, comment, transfer, start/close status and finish tickets, plus">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="TomTicket MCP — Helpdesk Operations from Any MCP Client">
+  <meta name="twitter:title" content="TomTicket MCP - Helpdesk Operations from Any MCP Client">
   <meta name="twitter:description" content="MCP server for the TomTicket helpdesk API: list tickets, reply as an operator with work time, comment, transfer, start/close status and finish tickets, plus">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "TomTicket MCP \u2014 Helpdesk Operations from Any MCP Client",
+    "name": "TomTicket MCP - Helpdesk Operations from Any MCP Client",
     "description": "MCP server for the TomTicket helpdesk API: list tickets, reply as an operator with work time, comment, transfer, start/close status and finish tickets, plus",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tomticket-mcp",
     
@@ -198,7 +198,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              TomTicket MCP — Helpdesk Operations from Any MCP Client
+              TomTicket MCP - Helpdesk Operations from Any MCP Client
             
           </span>
         </div>
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="tomticket-mcp">TomTicket MCP<a class="headerlink" href="#tomticket-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Full helpdesk operation from an MCP client — tickets, replies with logged work time, statuses and the knowledge base.</strong> mcp-tomticket wraps the TomTicket helpdesk API v2 as a local stdio server: an agent can list open tickets, read a thread, reply as an operator while recording work time, comment internally, transfer ownership, move status and finish tickets — plus search customers, organizations, chats, departments and the KB articles.</p>
+<p><strong>Full helpdesk operation from an MCP client - tickets, replies with logged work time, statuses and the knowledge base.</strong> mcp-tomticket wraps the TomTicket helpdesk API v2 as a local stdio server: an agent can list open tickets, read a thread, reply as an operator while recording work time, comment internally, transfer ownership, move status and finish tickets - plus search customers, organizations, chats, departments and the KB articles.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (stdio)
 Auth: Bearer token (TOMTICKET_TOKEN env)
 Install: npx -y mcp-tomticket
@@ -10057,7 +10057,7 @@ Category: Customer Support
 Built by: glira (github.com/glira/mcp-tomticket)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Support teams lose hours to the ticket UI — clicking between the queue, the thread and the KB for every reply. <strong>mcp-tomticket puts the whole helpdesk behind typed tools</strong>, so an agent can triage the queue ("what's open and older than a day"), draft operator replies with work time recorded, and answer from the knowledge base without leaving the session. The reply-as-operator path is the key one: because work time is a first-class field on replies, billable support stays billable even when the agent writes the response.</p>
+<p>Support teams lose hours to the ticket UI - clicking between the queue, the thread and the KB for every reply. <strong>mcp-tomticket puts the whole helpdesk behind typed tools</strong>, so an agent can triage the queue ("what's open and older than a day"), draft operator replies with work time recorded, and answer from the knowledge base without leaving the session. The reply-as-operator path is the key one: because work time is a first-class field on replies, billable support stays billable even when the agent writes the response.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10121,14 +10121,14 @@ Built by: glira (github.com/glira/mcp-tomticket)
 <li><strong>Agencies</strong> run multi-client support desks with per-account tokens</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>TomTicket is the front-line layer; CorpusIQ is the customer truth behind it. A composed workflow has mcp-tomticket open the ticket while CorpusIQ pulls the customer's record — Stripe charges, QuickBooks invoices, HubSpot deal — into the same session, so the agent replies with the account's actual state instead of asking the customer what they bought. Escalations from the ticket queue can be routed into CorpusIQ's CRM connectors for follow-up.</p>
+<p>TomTicket is the front-line layer; CorpusIQ is the customer truth behind it. A composed workflow has mcp-tomticket open the ticket while CorpusIQ pulls the customer's record - Stripe charges, QuickBooks invoices, HubSpot deal - into the same session, so the agent replies with the account's actual state instead of asking the customer what they bought. Escalations from the ticket queue can be routed into CorpusIQ's CRM connectors for follow-up.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>TomTicket only — no Zendesk, Freshdesk or other helpdesks</li>
+<li>TomTicket only - no Zendesk, Freshdesk or other helpdesks</li>
 <li>Local stdio server; the token lives in your client config</li>
 <li>New listing (Aug 2026); single-maintainer open-source project</li>
 <li>Requires a TomTicket account and API access</li>
-<li>No hosted option — runs where you install it</li>
+<li>No hosted option - runs where you install it</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

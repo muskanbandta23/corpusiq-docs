@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Tenable MSSP portal orchestration over MCP — bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.">
+        <meta name="description" content="Tenable MSSP portal orchestration over MCP - bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/tenable-mssp-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Tenable MSSP MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Tenable MSSP portal orchestration over MCP — bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.">
+  <meta property="og:description" content="Tenable MSSP portal orchestration over MCP - bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Tenable MSSP MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Tenable MSSP portal orchestration over MCP — bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.">
+  <meta name="twitter:description" content="Tenable MSSP portal orchestration over MCP - bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Tenable MSSP MCP - CorpusIQ Docs",
-    "description": "Tenable MSSP portal orchestration over MCP \u2014 bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.",
+    "description": "Tenable MSSP portal orchestration over MCP - bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tenable-mssp-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="tenable-mssp-mcp">Tenable MSSP MCP<a class="headerlink" href="#tenable-mssp-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP server (stdio, self-hosted Python)</strong> — an MSSP-aware orchestration layer around the Tenable Hexa AI MCP Server. Run Hexa AI tools across MSSP child containers through a scoped layer, query CVEs across tenants in bulk, and control exactly which child containers an action touches.</p>
+<p><strong>MCP server (stdio, self-hosted Python)</strong> - an MSSP-aware orchestration layer around the Tenable Hexa AI MCP Server. Run Hexa AI tools across MSSP child containers through a scoped layer, query CVEs across tenants in bulk, and control exactly which child containers an action touches.</p>
 <div class="highlight"><pre><span></span><code>Server type: stdio (Python 3.14, uv or pip install)
 Auth: Tenable MSSP Portal API keys (access + secret)
 Endpoint: local process
@@ -10057,8 +10057,8 @@ Category: Development
 Built by: Andrew Spearson (github.com/andrewspearson/tenable-mcp-mssp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Managed security providers run dozens of Tenable tenants. Answering one CVE question across all of them manually means the same query in every portal — or a script someone maintains. This server gives the agent the orchestration layer: one prompt can query a CVE across every eligible child container, run a validated Hexa AI recipe across tenants with controlled fan-out, and return a CSV report of findings.</p>
-<p><strong>Scope control is explicit</strong>: a plain-text allowlist file restricts action tools to named child-container UUIDs, and expired containers, malformed data, missing child accounts, and <code>licenseType: "ao"</code> containers are blocked regardless. Queries and actions against child containers run concurrently on up to 10 containers at a time. The bulk CVE tool is deliberately conservative — it starts a server-managed background run and returns a run ID, with separate status and result tools, and the prompt must name the tool explicitly before it executes.</p>
+<p>Managed security providers run dozens of Tenable tenants. Answering one CVE question across all of them manually means the same query in every portal - or a script someone maintains. This server gives the agent the orchestration layer: one prompt can query a CVE across every eligible child container, run a validated Hexa AI recipe across tenants with controlled fan-out, and return a CSV report of findings.</p>
+<p><strong>Scope control is explicit</strong>: a plain-text allowlist file restricts action tools to named child-container UUIDs, and expired containers, malformed data, missing child accounts, and <code>licenseType: "ao"</code> containers are blocked regardless. Queries and actions against child containers run concurrently on up to 10 containers at a time. The bulk CVE tool is deliberately conservative - it starts a server-managed background run and returns a run ID, with separate status and result tools, and the prompt must name the tool explicitly before it executes.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10124,13 +10124,13 @@ cp<span class="w"> </span>.env.example<span class="w"> </span>.env<span class="w
 <li><strong>Tenable shops</strong> get bulk tagging and query patterns without building their own scripts</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Tenable MSSP composes with the CorpusIQ reporting and governance stack as the security-evidence source. A CorpusIQ operator workflow can run the bulk CVE query, collect the CSV report, and fold it into the standard reporting pipeline the CorpusIQ connectors already serve — findings beside financials, one evidence package. The child-container allowlist mirrors the CorpusIQ scoping doctrine: credentials act only where explicitly permitted, and the audit trail records what ran. For MSPs running their own CorpusIQ instance, the security posture of managed tenants becomes another connector-backed data source instead of a manual portal crawl.</p>
+<p>Tenable MSSP composes with the CorpusIQ reporting and governance stack as the security-evidence source. A CorpusIQ operator workflow can run the bulk CVE query, collect the CSV report, and fold it into the standard reporting pipeline the CorpusIQ connectors already serve - findings beside financials, one evidence package. The child-container allowlist mirrors the CorpusIQ scoping doctrine: credentials act only where explicitly permitted, and the audit trail records what ran. For MSPs running their own CorpusIQ instance, the security posture of managed tenants becomes another connector-backed data source instead of a manual portal crawl.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listed August 17, 2026</li>
+<li>Brand new - no track record yet; listed August 17, 2026</li>
 <li>Requires Tenable MSSP Portal API keys with Administrator privileges</li>
 <li>Child containers need <code>hexa</code> licenses for Hexa AI tools and <code>vm</code> licenses for bulk CVE export</li>
-<li>Python 3.14+ required — newer than many enterprise Python installations</li>
+<li>Python 3.14+ required - newer than many enterprise Python installations</li>
 <li>Self-hosted stdio server: you operate the process and the credential hygiene</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

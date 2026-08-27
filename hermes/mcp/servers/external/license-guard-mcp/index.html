@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal — with clause-cited verdicts">
+        <meta name="description" content="MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/license-guard-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="LicenseGuard MCP - License Compliance Verdicts by Distribution Model">
-  <meta property="og:description" content="MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal — with clause-cited verdicts">
+  <meta property="og:description" content="MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="LicenseGuard MCP - License Compliance Verdicts by Distribution Model">
-  <meta name="twitter:description" content="MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal — with clause-cited verdicts">
+  <meta name="twitter:description" content="MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "LicenseGuard MCP - License Compliance Verdicts by Distribution Model",
-    "description": "MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal \u2014 with clause-cited verdicts",
+    "description": "MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/license-guard-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="licenseguard-mcp">LicenseGuard MCP<a class="headerlink" href="#licenseguard-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, no auth) plus a local stdio image — dependency license verdicts computed against your distribution model.</strong> Generic scanners answer "what license is this?" and warn on everything. LicenseGuard answers "does this dependency's license obligate you, given how you ship?" — the same AGPL-3.0 dependency is blocked for a SaaS product, allowed for internal-only use, and allowed as a build-time devDependency that never reaches the artifact. Verdicts are stated with the clause cited, and the tool explicitly does not tell you what to do.</p>
+<p><strong>Remote MCP server (Streamable HTTP, no auth) plus a local stdio image - dependency license verdicts computed against your distribution model.</strong> Generic scanners answer "what license is this?" and warn on everything. LicenseGuard answers "does this dependency's license obligate you, given how you ship?" - the same AGPL-3.0 dependency is blocked for a SaaS product, allowed for internal-only use, and allowed as a build-time devDependency that never reaches the artifact. Verdicts are stated with the clause cited, and the tool explicitly does not tell you what to do.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP) + local stdio (Docker)
 Auth: None (stateless, no session state)
 Endpoint: https://license-guard.rcc-aoki.workers.dev/mcp
@@ -10057,8 +10057,8 @@ Category: Compliance / Supply Chain
 Built by: rccaoki-wq (Apache-2.0)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>License risk is a shipping problem, not a scanning problem. The expensive failure mode is a false positive the team learns to ignore — a tool that blocks every GPL-family dependency trains people to click through, and the one real AGPL §13 network-clause hit gets shipped anyway. LicenseGuard's distribution-model split is the fix: <code>check_dependency_license</code> gives a verdict for exactly how your software reaches users, and <code>explain_license</code> shows what a license requires across every distribution model so the reasoning is auditable, not a red badge.</p>
-<p>The manifest audit is where operators get real leverage. Problem licenses usually arrive transitively — a dependency of a dependency — so <code>check_manifest_licenses</code> runs against lockfiles including <code>package-lock.json</code> v2/v3, which embeds a license per entry and audits the full transitive tree with zero network lookups against the exact versions that will ship. And the tool's integrity stance is unusual: an incomplete scan is never reported as clean. Unresolvable dependencies surface as <code>not-checked</code> or <code>review</code> and count in the summary, so a partial audit cannot masquerade as a passed one.</p>
+<p>License risk is a shipping problem, not a scanning problem. The expensive failure mode is a false positive the team learns to ignore - a tool that blocks every GPL-family dependency trains people to click through, and the one real AGPL §13 network-clause hit gets shipped anyway. LicenseGuard's distribution-model split is the fix: <code>check_dependency_license</code> gives a verdict for exactly how your software reaches users, and <code>explain_license</code> shows what a license requires across every distribution model so the reasoning is auditable, not a red badge.</p>
+<p>The manifest audit is where operators get real leverage. Problem licenses usually arrive transitively - a dependency of a dependency - so <code>check_manifest_licenses</code> runs against lockfiles including <code>package-lock.json</code> v2/v3, which embeds a license per entry and audits the full transitive tree with zero network lookups against the exact versions that will ship. And the tool's integrity stance is unusual: an incomplete scan is never reported as clean. Unresolvable dependencies surface as <code>not-checked</code> or <code>review</code> and count in the summary, so a partial audit cannot masquerade as a passed one.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10070,7 +10070,7 @@ Built by: rccaoki-wq (Apache-2.0)
 <tbody>
 <tr>
 <td><code>check_dependency_license</code></td>
-<td>Before adding a single dependency — verdict for your distribution model</td>
+<td>Before adding a single dependency - verdict for your distribution model</td>
 </tr>
 <tr>
 <td><code>check_manifest_licenses</code></td>
@@ -10102,7 +10102,7 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>No authentication and no session state — the endpoint is stateless and public.</p>
+<p>No authentication and no session state - the endpoint is stateless and public.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>SaaS product teams</strong> get AGPL/GPL verdicts that match reality: network-accessible software triggers §13, internal tools do not</li>
@@ -10111,14 +10111,14 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <li><strong>Engineering managers</strong> see lockfile-level transitive audits without sending the codebase anywhere</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>LicenseGuard MCP is the compliance edge of a software-shipping operator's stack, and it complements the CorpusIQ read surface in two directions. For agencies and consultancies, the CorpusIQ HubSpot or QuickBooks connectors hold the client and billing record while LicenseGuard supplies the deliverable's license posture — the due-diligence artifact joins the deal file. For product teams, the audit verdicts feed release documentation that the CorpusIQ Drive connector stores and indexes, so compliance evidence is retrievable per release rather than living in a single engineer's notes. The direction of flow: LicenseGuard MCP evaluates dependencies; CorpusIQ reads the business and document systems the verdicts attach to.</p>
+<p>LicenseGuard MCP is the compliance edge of a software-shipping operator's stack, and it complements the CorpusIQ read surface in two directions. For agencies and consultancies, the CorpusIQ HubSpot or QuickBooks connectors hold the client and billing record while LicenseGuard supplies the deliverable's license posture - the due-diligence artifact joins the deal file. For product teams, the audit verdicts feed release documentation that the CorpusIQ Drive connector stores and indexes, so compliance evidence is retrievable per release rather than living in a single engineer's notes. The direction of flow: LicenseGuard MCP evaluates dependencies; CorpusIQ reads the business and document systems the verdicts attach to.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Phase 0 service — the maintainer is explicitly measuring willingness to pay before building further (GitHub App phase pending)</li>
+<li>Phase 0 service - the maintainer is explicitly measuring willingness to pay before building further (GitHub App phase pending)</li>
 <li>Verdict scope is license obligation only; it does not scan for CVEs, malware, or provenance</li>
-<li>Hosted endpoint carries no SLA and no auth — treat as advisory for sensitive audits (local stdio mode exists for that)</li>
+<li>Hosted endpoint carries no SLA and no auth - treat as advisory for sensitive audits (local stdio mode exists for that)</li>
 <li>Registry lookups depend on public registries being reachable for ecosystems outside package-lock v2/v3</li>
-<li>Brand new listing — no community track record yet</li>
+<li>Brand new listing - no community track record yet</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

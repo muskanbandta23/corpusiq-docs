@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge — real-time sync protocol for multi-agent Hermes deployments across separate machines">
+        <meta name="description" content="Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge - real-time sync protocol for multi-agent Hermes deployments across separate machines">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/three-agent-bridge-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Three-Agent Bridge Protocol Setup Guide">
-  <meta property="og:description" content="Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge — real-time sync protocol for multi-agent Hermes deployments across separate machines">
+  <meta property="og:description" content="Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge - real-time sync protocol for multi-agent Hermes deployments across separate machines">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Three-Agent Bridge Protocol Setup Guide">
-  <meta name="twitter:description" content="Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge — real-time sync protocol for multi-agent Hermes deployments across separate machines">
+  <meta name="twitter:description" content="Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge - real-time sync protocol for multi-agent Hermes deployments across separate machines">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Three-Agent Bridge Protocol Setup Guide",
-    "description": "Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge \u2014 real-time sync protocol for multi-agent Hermes deployments across separate machines",
+    "description": "Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge - real-time sync protocol for multi-agent Hermes deployments across separate machines",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/three-agent-bridge-setup",
     
     "datePublished": "2026-08-12",
@@ -10180,7 +10180,7 @@
 <strong>Category:</strong> Multi-Agent / DevOps / Coordination</p>
 <hr />
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A real-time synchronization protocol for three Hermes agents: <strong>Human + Desktop Hermes + VPS Hermes</strong>. Uses a shared JSONL bridge file as the common communication channel — solving the fundamental problem that Hermes bots can't join Telegram group chats and two agents in separate DMs can't see each other's conversations.</p>
+<p>A real-time synchronization protocol for three Hermes agents: <strong>Human + Desktop Hermes + VPS Hermes</strong>. Uses a shared JSONL bridge file as the common communication channel - solving the fundamental problem that Hermes bots can't join Telegram group chats and two agents in separate DMs can't see each other's conversations.</p>
 <h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>┌─────────────┐      Telegram DM      ┌─────────────┐
 │   Desktop   │◄─────────────────────►│     VPS     │
@@ -10258,7 +10258,7 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-bridge
 <p>Each line in <code>bridge-chat.jsonl</code> is a JSON object:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;desktop&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Starting deployment pipeline...&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:00Z&quot;</span><span class="p">}</span>
 <span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vps&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Pipeline received. Executing step 1...&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:02Z&quot;</span><span class="p">}</span>
-<span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;human&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hold deployment — I need to review the config first&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:05Z&quot;</span><span class="p">}</span>
+<span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;human&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hold deployment - I need to review the config first&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:05Z&quot;</span><span class="p">}</span>
 </code></pre></div>
 <h3 id="priority-levels">Priority Levels<a class="headerlink" href="#priority-levels" title="Anchor link to this section">&para;</a></h3>
 <table>
@@ -10348,7 +10348,7 @@ hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span 
 </table>
 <h2 id="8-pitfalls-from-real-world-deployment">8. Pitfalls (From Real-World Deployment)<a class="headerlink" href="#8-pitfalls-from-real-world-deployment" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Symlinked bridge files:</strong> If the bridge is a symlink, <code>tail</code> follows it but <code>cp</code> replaces it — use <code>cp -a</code> to preserve.</li>
+<li><strong>Symlinked bridge files:</strong> If the bridge is a symlink, <code>tail</code> follows it but <code>cp</code> replaces it - use <code>cp -a</code> to preserve.</li>
 <li><strong>SSH key expiry:</strong> SSH-based polling breaks when keys expire. Use certificate-based auth or keychain.</li>
 <li><strong>Polling vs push:</strong> 2-second polling on SSH creates ~43K SSH connections/day. Consider Syncthing for lower overhead.</li>
 <li><strong>File locking:</strong> Simultaneous writes can corrupt the JSONL file. Use atomic writes (write to temp, rename) on both sides.</li>

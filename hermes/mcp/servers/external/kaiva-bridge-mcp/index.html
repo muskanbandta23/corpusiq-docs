@@ -10047,17 +10047,17 @@
 
 
 <h1 id="kaiva-bridge-mcp">Kaiva Bridge MCP<a class="headerlink" href="#kaiva-bridge-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote database gateway (Streamable HTTP, Bearer token)</strong> — Kaiva Bridge turns any Postgres database or OpenAPI spec into a secure, hosted MCP server: it reads the schema, generates typed tools, and serves a live endpoint with per-tool access control and every call written to an audit log. Built by Kaiva (<code>kaiv.ai/bridge</code>). The mcp.so listing is a live read-only demo of a synthetic commerce dataset, so operators can try the pattern before connecting their own data.</p>
+<p><strong>Remote database gateway (Streamable HTTP, Bearer token)</strong> - Kaiva Bridge turns any Postgres database or OpenAPI spec into a secure, hosted MCP server: it reads the schema, generates typed tools, and serves a live endpoint with per-tool access control and every call written to an audit log. Built by Kaiva (<code>kaiv.ai/bridge</code>). The mcp.so listing is a live read-only demo of a synthetic commerce dataset, so operators can try the pattern before connecting their own data.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: Bearer token (demo key public; per-tenant keys for your own servers)
 Endpoint: https://api-demo.kaiv.ai/api/bridge/mcp/commerce-demo (demo)
-Tools: 6 in the demo (products, orders, customers, inventory) — your own tools are generated from your schema
-Pricing: Demo free and rate-limited — create your own server at kaiv.ai/bridge
+Tools: 6 in the demo (products, orders, customers, inventory) - your own tools are generated from your schema
+Pricing: Demo free and rate-limited - create your own server at kaiv.ai/bridge
 Category: Development &amp; Infrastructure
 Built by: Kaiva (kaiv.ai/bridge)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Giving an AI agent access to a production database has historically meant a credentials handoff: hand the agent a connection string and hope it only reads what it should. Kaiva Bridge replaces that handoff with a scoped, audited connection — the operator points the gateway at a Postgres database or an OpenAPI spec, and the agent gets typed tools bounded by per-tool access control, while every call lands in an audit log.</p>
+<p>Giving an AI agent access to a production database has historically meant a credentials handoff: hand the agent a connection string and hope it only reads what it should. Kaiva Bridge replaces that handoff with a scoped, audited connection - the operator points the gateway at a Postgres database or an OpenAPI spec, and the agent gets typed tools bounded by per-tool access control, while every call lands in an audit log.</p>
 <p><strong>The key advantage: data access becomes a governed product instead of a shared password.</strong> No server to write, nothing to host, and the human keeps a record of exactly what the agent queried. For a small ops team running agents against orders, inventory, or customer data, that is the difference between "we can't let the agent touch the DB" and "the agent runs the daily reconciliation."</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The demo exposes a synthetic commerce schema with 6 tools; a custom server's tools are generated from the schema it is pointed at.</p>
@@ -10095,7 +10095,7 @@ Built by: Kaiva (kaiv.ai/bridge)
 </tr>
 </tbody>
 </table>
-<p>The live tool list is served from the endpoint — the demo above is illustrative of the commerce-schema pattern, not an exhaustive catalog.</p>
+<p>The live tool list is served from the endpoint - the demo above is illustrative of the commerce-schema pattern, not an exhaustive catalog.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>kaiva-bridge<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://api-demo.kaiv.ai/api/bridge/mcp/commerce-demo<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer kv_live_commerce_demo_public_ro&quot;</span>
 </code></pre></div>
@@ -10122,15 +10122,15 @@ Built by: Kaiva (kaiv.ai/bridge)
 <li><strong>Small e-commerce operators</strong> follow the demo's commerce schema pattern to expose products, orders, and customers safely</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Kaiva Bridge complements CorpusIQ's managed connectors by covering the databases CorpusIQ does not. CorpusIQ reads Stripe, QuickBooks, Shopify, and HubSpot natively; Kaiva Bridge covers the internal Postgres warehouse or a custom operations database an operator wants agents to query — with an audit log attached to every call.</p>
+<p>Kaiva Bridge complements CorpusIQ's managed connectors by covering the databases CorpusIQ does not. CorpusIQ reads Stripe, QuickBooks, Shopify, and HubSpot natively; Kaiva Bridge covers the internal Postgres warehouse or a custom operations database an operator wants agents to query - with an audit log attached to every call.</p>
 <p>A composed workflow: the agent pulls revenue and payment data from CorpusIQ's Stripe and QuickBooks connectors, then uses a Kaiva-hosted endpoint to reconcile against raw order rows in the internal database, producing one governed, audited reconciliation pass across both surfaces.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — submitted to mcp.so in mid-August 2026, no community track record yet</li>
-<li>Hosted gateway — connecting your database means the data path runs through Kaiva's infrastructure</li>
+<li>Brand new - submitted to mcp.so in mid-August 2026, no community track record yet</li>
+<li>Hosted gateway - connecting your database means the data path runs through Kaiva's infrastructure</li>
 <li>Pricing for custom servers is not published on the listing; verify before connecting production data</li>
 <li>The demo dataset is synthetic commerce data; production behavior depends on your own schema and scoping</li>
-<li>Access-control granularity details are thin in the published docs — confirm per-tool scoping matches your needs before rollout</li>
+<li>Access-control granularity details are thin in the published docs - confirm per-tool scoping matches your needs before rollout</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

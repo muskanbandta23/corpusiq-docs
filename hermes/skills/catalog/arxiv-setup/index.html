@@ -23,7 +23,7 @@
     
     
   
-    <title>arXiv — Academic Paper Search Setup Guide</title>
+    <title>arXiv - Academic Paper Search Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/arxiv-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="arXiv — Academic Paper Search Setup Guide">
+  <meta property="og:title" content="arXiv - Academic Paper Search Setup Guide">
   <meta property="og:description" content="Install and configure arxiv, the official Hermes Agent skill for searching academic papers via arXiv's free REST API. 77 installs, zero dependencies, no API">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="arXiv — Academic Paper Search Setup Guide">
+  <meta name="twitter:title" content="arXiv - Academic Paper Search Setup Guide">
   <meta name="twitter:description" content="Install and configure arxiv, the official Hermes Agent skill for searching academic papers via arXiv's free REST API. 77 installs, zero dependencies, no API">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "arXiv \u2014 Academic Paper Search Setup Guide",
+    "name": "arXiv - Academic Paper Search Setup Guide",
     "description": "Install and configure arxiv, the official Hermes Agent skill for searching academic papers via arXiv\u0027s free REST API. 77 installs, zero dependencies, no API",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/arxiv-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              arXiv — Academic Paper Search Setup Guide
+              arXiv - Academic Paper Search Setup Guide
             
           </span>
         </div>
@@ -10144,12 +10144,12 @@
   
 
 
-<h1 id="arxiv-research-setup-guide">arXiv Research — Setup Guide<a class="headerlink" href="#arxiv-research-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="arxiv-research-setup-guide">arXiv Research - Setup Guide<a class="headerlink" href="#arxiv-research-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/arxiv">nousresearch/hermes-agent</a> (77 peak installs)
 <strong>Category:</strong> Research / Academic
 <strong>License:</strong> MIT · <strong>Platforms:</strong> Linux, macOS, Windows
 <strong>Dependencies:</strong> None (curl only)</p>
-<p>Search and retrieve academic papers from arXiv via their free REST API. No API key, no Python packages, no authentication — just curl and the arXiv API. Returns Atom XML with paper metadata, abstracts, and links to full-text PDFs.</p>
+<p>Search and retrieve academic papers from arXiv via their free REST API. No API key, no Python packages, no authentication - just curl and the arXiv API. Returns Atom XML with paper metadata, abstracts, and links to full-text PDFs.</p>
 <hr />
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10362,18 +10362,18 @@ curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;htt
 <hr />
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/ocr-and-documents">ocr-and-documents</a></strong> — Extract text from academic PDFs and scanned documents</li>
-<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/research-paper-writing">research-paper-writing</a></strong> — Write academic papers with proper formatting</li>
-<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/llm-wiki">llm-wiki</a></strong> — Build a personal research wiki from collected papers</li>
+<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/ocr-and-documents">ocr-and-documents</a></strong> - Extract text from academic PDFs and scanned documents</li>
+<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/research-paper-writing">research-paper-writing</a></strong> - Write academic papers with proper formatting</li>
+<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/llm-wiki">llm-wiki</a></strong> - Build a personal research wiki from collected papers</li>
 </ul>
 <hr />
 <h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Use <code>sortBy=submittedDate</code></strong> — Always sort by date for literature reviews. Default is relevance, which biases toward older highly-cited papers.</li>
-<li><strong>Limit <code>max_results</code></strong> — arXiv's API is rate-limited. Start with <code>max_results=5</code> and increase only if needed.</li>
-<li><strong>Cache results</strong> — For literature reviews, save the XML output to a file and process locally rather than re-querying.</li>
-<li><strong>Read PDFs via web_extract</strong> — After finding a paper, use <code>web_extract(urls=["https://arxiv.org/pdf/PAPER_ID"])</code> to get the full text without downloading.</li>
-<li><strong>Combine with humanizer</strong> — Use the humanizer skill to convert academic abstracts into plain-language summaries.</li>
+<li><strong>Use <code>sortBy=submittedDate</code></strong> - Always sort by date for literature reviews. Default is relevance, which biases toward older highly-cited papers.</li>
+<li><strong>Limit <code>max_results</code></strong> - arXiv's API is rate-limited. Start with <code>max_results=5</code> and increase only if needed.</li>
+<li><strong>Cache results</strong> - For literature reviews, save the XML output to a file and process locally rather than re-querying.</li>
+<li><strong>Read PDFs via web_extract</strong> - After finding a paper, use <code>web_extract(urls=["https://arxiv.org/pdf/PAPER_ID"])</code> to get the full text without downloading.</li>
+<li><strong>Combine with humanizer</strong> - Use the humanizer skill to convert academic abstracts into plain-language summaries.</li>
 </ol>
 
 

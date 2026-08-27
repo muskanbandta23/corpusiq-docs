@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure doucoo/ashima — a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus">
+        <meta name="description" content="Install and configure doucoo/ashima - a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/ashima-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Ashima Meta-Routing Orchestration Setup Guide">
-  <meta property="og:description" content="Install and configure doucoo/ashima — a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus">
+  <meta property="og:description" content="Install and configure doucoo/ashima - a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ashima Meta-Routing Orchestration Setup Guide">
-  <meta name="twitter:description" content="Install and configure doucoo/ashima — a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus">
+  <meta name="twitter:description" content="Install and configure doucoo/ashima - a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Ashima Meta-Routing Orchestration Setup Guide",
-    "description": "Install and configure doucoo/ashima \u2014 a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus",
+    "description": "Install and configure doucoo/ashima - a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/ashima-setup",
     
     "datePublished": "2026-08-12",
@@ -10111,7 +10111,7 @@
   
 
 
-<h1 id="ashima-meta-routing-orchestrator-setup">Ashima — Meta-Routing Orchestrator Setup<a class="headerlink" href="#ashima-meta-routing-orchestrator-setup" title="Anchor link to this section">&para;</a></h1>
+<h1 id="ashima-meta-routing-orchestrator-setup">Ashima - Meta-Routing Orchestrator Setup<a class="headerlink" href="#ashima-meta-routing-orchestrator-setup" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/doucoo/ashima">doucoo/ashima</a>
 <strong>Stars:</strong> 1 ⭐ | <strong>License:</strong> Apache-2.0
 <strong>Created:</strong> June 24, 2026
@@ -10153,7 +10153,7 @@
 <ul>
 <li>Hermes Agent installed (plugin or standard)</li>
 <li>Access to both Claude and GPT/Codex provider backends (for duet mode)</li>
-<li>Codex CLI installed (for aria mode — optional, falls back to in-agent implementation)</li>
+<li>Codex CLI installed (for aria mode - optional, falls back to in-agent implementation)</li>
 <li>Git</li>
 </ul>
 <h2 id="3-installation">3. Installation<a class="headerlink" href="#3-installation" title="Anchor link to this section">&para;</a></h2>
@@ -10167,10 +10167,10 @@ cp<span class="w"> </span>-r<span class="w"> </span>ashima/chorus<span class="w"
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;ashima|aria|duet|chorus&quot;</span>
 </code></pre></div>
 <p>Expected output:
-<div class="highlight"><pre><span></span><code>ashima     — Ashima Orchestration Router
-aria       — Coding Orchestration (Codex + Claude)
-duet       — Dual-Perspective Reasoning
-chorus     — Documentation Orchestration
+<div class="highlight"><pre><span></span><code>ashima     - Ashima Orchestration Router
+aria       - Coding Orchestration (Codex + Claude)
+duet       - Dual-Perspective Reasoning
+chorus     - Documentation Orchestration
 </code></pre></div></p>
 <h2 id="4-configuration">4. Configuration<a class="headerlink" href="#4-configuration" title="Anchor link to this section">&para;</a></h2>
 <h3 id="provider-setup-for-duet">Provider Setup for Duet<a class="headerlink" href="#provider-setup-for-duet" title="Anchor link to this section">&para;</a></h3>
@@ -10195,17 +10195,17 @@ npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </s
 <h2 id="5-usage">5. Usage<a class="headerlink" href="#5-usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="manual-invocation">Manual Invocation<a class="headerlink" href="#manual-invocation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Route to specific voice</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima aria — implement the auth module&quot;</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima duet — compare microservices vs monolith&quot;</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima chorus — write release notes for last 5 commits&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima aria - implement the auth module&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima duet - compare microservices vs monolith&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima chorus - write release notes for last 5 commits&quot;</span>
 
 <span class="c1"># Auto-route (ashima detects task type)</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima — help me refactor the database layer&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima - help me refactor the database layer&quot;</span>
 </code></pre></div>
 <h3 id="from-within-a-session">From Within a Session<a class="headerlink" href="#from-within-a-session" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>/skill ashima aria — fix the race condition in queue.py
-/skill ashima duet — should we use Redis or Postgres for caching?
-/skill ashima chorus — document the API endpoints
+<div class="highlight"><pre><span></span><code>/skill ashima aria - fix the race condition in queue.py
+/skill ashima duet - should we use Redis or Postgres for caching?
+/skill ashima chorus - document the API endpoints
 </code></pre></div>
 <h2 id="6-corpusiq-use-cases">6. CorpusIQ Use Cases<a class="headerlink" href="#6-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10220,7 +10220,7 @@ hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> <
 <tr>
 <td><strong>Feature implementation</strong></td>
 <td>Aria</td>
-<td>Codex implements, Claude reviews — built-in code review pipeline</td>
+<td>Codex implements, Claude reviews - built-in code review pipeline</td>
 </tr>
 <tr>
 <td><strong>Architecture decisions</strong></td>
@@ -10272,7 +10272,7 @@ hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> <
 <tr>
 <td>Auto-routing picks wrong voice</td>
 <td>Ambiguous task description</td>
-<td>Be more explicit: "ashima aria — implement..." bypasses routing</td>
+<td>Be more explicit: "ashima aria - implement..." bypasses routing</td>
 </tr>
 </tbody>
 </table>

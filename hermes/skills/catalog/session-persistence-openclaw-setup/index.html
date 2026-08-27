@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Import session transcripts into SQLite with FTS5 full-text search — agent never loses messages across compaction or rollover. 28+ installs from">
+        <meta name="description" content="Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover. 28+ installs from">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Session Persistence (OpenClaw) — SQLite message</title>
+    <title>Session Persistence (OpenClaw) - SQLite message</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/session-persistence-openclaw-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Session Persistence (OpenClaw) — SQLite message">
-  <meta property="og:description" content="Import session transcripts into SQLite with FTS5 full-text search — agent never loses messages across compaction or rollover. 28+ installs from">
+  <meta property="og:title" content="Session Persistence (OpenClaw) - SQLite message">
+  <meta property="og:description" content="Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover. 28+ installs from">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Session Persistence (OpenClaw) — SQLite message">
-  <meta name="twitter:description" content="Import session transcripts into SQLite with FTS5 full-text search — agent never loses messages across compaction or rollover. 28+ installs from">
+  <meta name="twitter:title" content="Session Persistence (OpenClaw) - SQLite message">
+  <meta name="twitter:description" content="Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover. 28+ installs from">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Session Persistence (OpenClaw) \u2014 SQLite message",
-    "description": "Import session transcripts into SQLite with FTS5 full-text search \u2014 agent never loses messages across compaction or rollover. 28+ installs from",
+    "name": "Session Persistence (OpenClaw) - SQLite message",
+    "description": "Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover. 28+ installs from",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/session-persistence-openclaw-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Session Persistence (OpenClaw) — SQLite message
+              Session Persistence (OpenClaw) - SQLite message
             
           </span>
         </div>
@@ -10077,11 +10077,11 @@
   
 
 
-<h1 id="session-persistence-openclaw-setup-guide">Session Persistence (OpenClaw) — Setup Guide<a class="headerlink" href="#session-persistence-openclaw-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="session-persistence-openclaw-setup-guide">Session Persistence (OpenClaw) - Setup Guide<a class="headerlink" href="#session-persistence-openclaw-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/archieindian/openclaw-superpowers/session-persistence">archieindian/openclaw-superpowers</a> (28+ installs)
 <strong>Category:</strong> Engineering / Memory &amp; Persistence
 <strong>Quality Tier:</strong> 🔵 Community</p>
-<p>Imports agent session transcripts into a local SQLite database with FTS5 full-text search, ensuring the agent never loses message history — even after context compaction or session rollover. Automatically runs every 15 minutes via cron for incremental import.</p>
+<p>Imports agent session transcripts into a local SQLite database with FTS5 full-text search, ensuring the agent never loses message history - even after context compaction or session rollover. Automatically runs every 15 minutes via cron for incremental import.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>archieindian/openclaw-superpowers<span class="w"> </span>--skill<span class="w"> </span>session-persistence
@@ -10098,7 +10098,7 @@
 <tbody>
 <tr>
 <td><strong>Python 3</strong></td>
-<td>Built-in <code>sqlite3</code> module — no external dependencies</td>
+<td>Built-in <code>sqlite3</code> module - no external dependencies</td>
 </tr>
 <tr>
 <td><strong>OpenClaw sessions</strong></td>
@@ -10106,7 +10106,7 @@
 </tr>
 <tr>
 <td><strong>Disk space</strong></td>
-<td>Varies with session volume — SQLite database at <code>~/.openclaw/lcm-db/messages.db</code></td>
+<td>Varies with session volume - SQLite database at <code>~/.openclaw/lcm-db/messages.db</code></td>
 </tr>
 </tbody>
 </table>
@@ -10157,11 +10157,11 @@ python3<span class="w"> </span>persist.py<span class="w"> </span>--status
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Uses Python's built-in <code>sqlite3</code> — zero external dependencies</li>
+<li>Uses Python's built-in <code>sqlite3</code> - zero external dependencies</li>
 <li>FTS5 full-text search for ranked results across all time periods</li>
 <li>Idempotent: safe to re-run, tracks per-conversation sequence numbers</li>
 <li>Import lag: up to 15 minutes (cron interval)</li>
-<li>Database is local-only — never committed to repository</li>
+<li>Database is local-only - never committed to repository</li>
 <li>Inspired by <a href="https://github.com/Martian-Engineering/lossless-claw">lossless-claw</a>'s SQLite message persistence layer</li>
 <li>State file at <code>~/.openclaw/skill-state/session-persistence/state.yaml</code></li>
 <li>Quality tier 🔵 Community: 28 installs, focused and well-implemented</li>

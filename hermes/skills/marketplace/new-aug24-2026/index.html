@@ -23,7 +23,7 @@
     
     
   
-    <title>New Skills — August 24, 2026</title>
+    <title>New Skills - August 24, 2026</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug24-2026">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="New Skills — August 24, 2026">
+  <meta property="og:title" content="New Skills - August 24, 2026">
   <meta property="og:description" content="skills.sh three-board sweep (all-time + trending + hot, full slug extraction): Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="New Skills — August 24, 2026">
+  <meta name="twitter:title" content="New Skills - August 24, 2026">
   <meta name="twitter:description" content="skills.sh three-board sweep (all-time + trending + hot, full slug extraction): Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "New Skills \u2014 August 24, 2026",
+    "name": "New Skills - August 24, 2026",
     "description": "skills.sh three-board sweep (all-time + trending + hot, full slug extraction): Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style",
     "url": "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug24-2026",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              New Skills — August 24, 2026
+              New Skills - August 24, 2026
             
           </span>
         </div>
@@ -9945,7 +9945,7 @@
   <a href="#new-publisher-clusters-guided-this-sweep" class="md-nav__link">
     <span class="md-ellipsis">
       
-        New Publisher Clusters — Guided This Sweep
+        New Publisher Clusters - Guided This Sweep
       
     </span>
   </a>
@@ -10016,9 +10016,9 @@
   
 
 
-<h1 id="new-skills-august-24-2026">New Skills — August 24, 2026<a class="headerlink" href="#new-skills-august-24-2026" title="Anchor link to this section">&para;</a></h1>
-<p>Morning sweep of August 24. Full three-board leaderboard extraction (all-time, trending 24h, hot) — direct curl from Spark to skills.sh, then regex slug extraction of every publisher link across all three boards. 68 unique publisher slugs surfaced; cluster-level grep (owner, repo, site-domain, and skill-name variants) against the full hermes/ tree cut that to four genuinely new publisher clusters. Everything else on the boards was already documented across catalog and marketplace pages.</p>
-<h2 id="new-publisher-clusters-guided-this-sweep">New Publisher Clusters — Guided This Sweep<a class="headerlink" href="#new-publisher-clusters-guided-this-sweep" title="Anchor link to this section">&para;</a></h2>
+<h1 id="new-skills-august-24-2026">New Skills - August 24, 2026<a class="headerlink" href="#new-skills-august-24-2026" title="Anchor link to this section">&para;</a></h1>
+<p>Morning sweep of August 24. Full three-board leaderboard extraction (all-time, trending 24h, hot) - direct curl from Spark to skills.sh, then regex slug extraction of every publisher link across all three boards. 68 unique publisher slugs surfaced; cluster-level grep (owner, repo, site-domain, and skill-name variants) against the full hermes/ tree cut that to four genuinely new publisher clusters. Everything else on the boards was already documented across catalog and marketplace pages.</p>
+<h2 id="new-publisher-clusters-guided-this-sweep">New Publisher Clusters - Guided This Sweep<a class="headerlink" href="#new-publisher-clusters-guided-this-sweep" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -10067,23 +10067,23 @@
 </table>
 <h2 id="method-notes">Method Notes<a class="headerlink" href="#method-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Direct curl to skills.sh now works from Spark (previous sweeps had to route through web_extract because the network path hung) — all three leaderboards pulled as raw HTML (945KB all-time, 376KB trending, 373KB hot) and slug-extracted with a regex script over relative hrefs (<code>/owner/repo</code>, <code>/owner/repo/skill</code>, <code>/site/domain</code>).</li>
-<li>68 publisher slugs across the three boards; 64 already documented. The zero-hit set was re-checked at skill-name level (not just publisher level) per the Aug 21 calibration — all 9 skills below are name-level new.</li>
+<li>Direct curl to skills.sh now works from Spark (previous sweeps had to route through web_extract because the network path hung) - all three leaderboards pulled as raw HTML (945KB all-time, 376KB trending, 373KB hot) and slug-extracted with a regex script over relative hrefs (<code>/owner/repo</code>, <code>/owner/repo/skill</code>, <code>/site/domain</code>).</li>
+<li>68 publisher slugs across the three boards; 64 already documented. The zero-hit set was re-checked at skill-name level (not just publisher level) per the Aug 21 calibration - all 9 skills below are name-level new.</li>
 <li>autonnel/autonnel-skills is the standout find: 147.5K combined installs across a six-skill conversion suite (audit → blueprint → platform pick → server-side tracking → upsells → self-hosted launch), the first skills.sh pack covering the full conversion-funnel lifecycle. It sits on the trending board; skills.sh first-listed it Aug 5, 2026.</li>
-<li>freestylefly/awesome-gpt-image-2 pairs a 14.7K-star MIT repo (530+ reverse-engineered GPT-Image-2 cases, 20+ industrial templates) with a thin skill wrapper — the skill is modest (1.5K installs) but the knowledge base is the asset, and it matches the Hermes image_generate backend (gpt-image-2-medium) one-to-one.</li>
-<li>mitsuhiko/gh-issue-sync (2.5K installs, Armin Ronacher) turns GitHub issues into local Markdown under <code>.issues/open/</code> and <code>.issues/closed/</code> — a scriptable triage path for the corpusiq-docs issue backlog.</li>
-<li>inkboard/system-atlas (94 installs, 3 days old) is below the 100-install bar but on the hot board with a clean audit record — guided as 🔵 Community rather than parked.</li>
-<li>Security audit statuses taken verbatim from the skills.sh skill pages (Gen Agent Trust Hub / Socket / Snyk); no fabricated verdicts. autonnel carries Snyk Warn on four skills and Snyk Fail on two (landing-page-conversion-audit, server-side-conversion-tracking) — flagged in the guide.</li>
-<li>Mac Mini still unreachable — sweep ran entirely from the Spark canonical clone.</li>
+<li>freestylefly/awesome-gpt-image-2 pairs a 14.7K-star MIT repo (530+ reverse-engineered GPT-Image-2 cases, 20+ industrial templates) with a thin skill wrapper - the skill is modest (1.5K installs) but the knowledge base is the asset, and it matches the Hermes image_generate backend (gpt-image-2-medium) one-to-one.</li>
+<li>mitsuhiko/gh-issue-sync (2.5K installs, Armin Ronacher) turns GitHub issues into local Markdown under <code>.issues/open/</code> and <code>.issues/closed/</code> - a scriptable triage path for the corpusiq-docs issue backlog.</li>
+<li>inkboard/system-atlas (94 installs, 3 days old) is below the 100-install bar but on the hot board with a clean audit record - guided as 🔵 Community rather than parked.</li>
+<li>Security audit statuses taken verbatim from the skills.sh skill pages (Gen Agent Trust Hub / Socket / Snyk); no fabricated verdicts. autonnel carries Snyk Warn on four skills and Snyk Fail on two (landing-page-conversion-audit, server-side-conversion-tracking) - flagged in the guide.</li>
+<li>Mac Mini still unreachable - sweep ran entirely from the Spark canonical clone.</li>
 </ul>
 <h2 id="evaluated-and-queued">Evaluated and Queued<a class="headerlink" href="#evaluated-and-queued" title="Anchor link to this section">&para;</a></h2>
-<p>None parked this sweep — all four zero-hit clusters cleared the bar (the two sub-100-install skills carried clean audits and real relevance: GH issue workflow + architecture documentation).</p>
+<p>None parked this sweep - all four zero-hit clusters cleared the bar (the two sub-100-install skills carried clean audits and real relevance: GH issue workflow + architecture documentation).</p>
 <h2 id="notable-signals-for-corpusiq">Notable Signals for CorpusIQ<a class="headerlink" href="#notable-signals-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>landing-page-conversion-audit</strong> is a direct tool for the growth charter: element-named, revenue-ranked fix lists for corpusiq.io pages before scaling paid spend. Its refusal behavior (no traffic → redirect to blueprint; wrong offer → say so and stop) matches our own help-first, no-slop discipline.</li>
-<li><strong>server-side-conversion-tracking</strong> is the durable fix class for iOS/ad-blocker conversion loss — relevant to the GA4/GSC/Ads reporting stack.</li>
+<li><strong>server-side-conversion-tracking</strong> is the durable fix class for iOS/ad-blocker conversion loss - relevant to the GA4/GSC/Ads reporting stack.</li>
 <li><strong>gpt-image-2-style-library</strong> upgrades our image pipeline's consistency: named styles instead of per-prompt improvisation, against exactly the backend we run.</li>
-<li><strong>gh-issue-sync</strong> gives the agent a file-based triage path for open community epics (issues #18, #12, #7) — grep-and-edit backlog management instead of web-UI clicking.</li>
+<li><strong>gh-issue-sync</strong> gives the agent a file-based triage path for open community epics (issues #18, #12, #7) - grep-and-edit backlog management instead of web-UI clicking.</li>
 </ul>
 <h2 id="index-state-after-sweep">Index State After Sweep<a class="headerlink" href="#index-state-after-sweep" title="Anchor link to this section">&para;</a></h2>
 <ul>

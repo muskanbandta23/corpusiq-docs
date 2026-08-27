@@ -23,7 +23,7 @@
     
     
   
-    <title>Salesforce MCP — Integration Guide</title>
+    <title>Salesforce MCP - Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/salesforce-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Salesforce MCP — Integration Guide">
+  <meta property="og:title" content="Salesforce MCP - Integration Guide">
   <meta property="og:description" content="Connect AI agents to Salesforce CRM for accounts, contacts, opportunities, leads, cases, and custom objects through MCP.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Salesforce MCP — Integration Guide">
+  <meta name="twitter:title" content="Salesforce MCP - Integration Guide">
   <meta name="twitter:description" content="Connect AI agents to Salesforce CRM for accounts, contacts, opportunities, leads, cases, and custom objects through MCP.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Salesforce MCP \u2014 Integration Guide",
+    "name": "Salesforce MCP - Integration Guide",
     "description": "Connect AI agents to Salesforce CRM for accounts, contacts, opportunities, leads, cases, and custom objects through MCP.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/salesforce-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Salesforce MCP — Integration Guide
+              Salesforce MCP - Integration Guide
             
           </span>
         </div>
@@ -10171,11 +10171,11 @@
   
 
 
-<h1 id="salesforce-mcp-integration-guide">Salesforce MCP — Integration Guide<a class="headerlink" href="#salesforce-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="salesforce-mcp-integration-guide">Salesforce MCP - Integration Guide<a class="headerlink" href="#salesforce-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>The MCP Salesforce connector bridges AI agents to the world's largest CRM platform. Agents can query and manage accounts, contacts, opportunities, leads, cases, reports, and custom objects through the Salesforce REST API. Community-maintained by smn2gnt, this is the first dedicated Salesforce MCP server.</p>
 <p>⚠️ <strong>Not official Salesforce.</strong> This is community-built. Salesforce has not (yet) shipped an official MCP server. Test thoroughly before production use.</p>
-<p>For sales operators: AI agents can run pipeline reviews, update opportunity stages, log activities, and pull reports — all through natural language conversation.</p>
+<p>For sales operators: AI agents can run pipeline reviews, update opportunity stages, log activities, and pull reports - all through natural language conversation.</p>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10213,7 +10213,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 1. A Connected App in Salesforce Setup → App Manager
 2. Enable OAuth settings with "Password" grant type
 3. Add your security token to the password (Settings → Reset My Security Token)</p>
-<p><strong>Alternative (more secure):</strong> JWT Bearer flow — generate a certificate, upload to Connected App, use private key for auth. The MCP supports this via <code>SF_JWT_KEY</code> env var.</p>
+<p><strong>Alternative (more secure):</strong> JWT Bearer flow - generate a certificate, upload to Connected App, use private key for auth. The MCP supports this via <code>SF_JWT_KEY</code> env var.</p>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
 <p>Salesforce MCP exposes tools organized by standard object:</p>
 <table>
@@ -10258,7 +10258,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 <tr>
 <td><strong>Report</strong></td>
 <td><code>list_reports</code>, <code>run_report</code></td>
-<td>— (read-only)</td>
+<td>- (read-only)</td>
 </tr>
 <tr>
 <td><strong>Custom Objects</strong></td>
@@ -10268,23 +10268,23 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 <tr>
 <td><strong>SOQL</strong></td>
 <td><code>execute_soql</code></td>
-<td>— (read-only)</td>
+<td>- (read-only)</td>
 </tr>
 <tr>
 <td><strong>Search</strong></td>
 <td><code>search_sosl</code></td>
-<td>— (read-only)</td>
+<td>- (read-only)</td>
 </tr>
 </tbody>
 </table>
-<p><code>execute_soql</code> gives full read access to any object via SOQL queries — the most powerful tool. Agents can query any standard or custom object with relationship traversal.</p>
+<p><code>execute_soql</code> gives full read access to any object via SOQL queries - the most powerful tool. Agents can query any standard or custom object with relationship traversal.</p>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-pipeline-review">1. Pipeline Review<a class="headerlink" href="#1-pipeline-review" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>User: &quot;Show me all opportunities closing this month over $50K, grouped by stage&quot;
 Agent: [executes SOQL, returns pipeline table with stage, amount, close date, owner]
 </code></pre></div>
 <h3 id="2-activity-logging">2. Activity Logging<a class="headerlink" href="#2-activity-logging" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: &quot;Log a call with Acme Corp — discussed Q3 renewal, they&#39;re interested in upgrading to Enterprise&quot;
+<div class="highlight"><pre><span></span><code>User: &quot;Log a call with Acme Corp - discussed Q3 renewal, they&#39;re interested in upgrading to Enterprise&quot;
 Agent: [finds Acme account, creates task with call details, updates opportunity notes]
 </code></pre></div>
 <h3 id="3-lead-qualification">3. Lead Qualification<a class="headerlink" href="#3-lead-qualification" title="Anchor link to this section">&para;</a></h3>
@@ -10304,7 +10304,7 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 <li><strong>SOQL is powerful:</strong> <code>execute_soql</code> can read any object the authenticated user can access. Review the Connected App's permission scope.</li>
 <li><strong>No write approval gates:</strong> Unlike some MCPs, this server doesn't have built-in approval flows for writes. Consider wrapping in an approval layer for production.</li>
 <li><strong>API limits:</strong> Salesforce has 24-hour API call limits. Heavy agent usage can exhaust them. Monitor via Setup → System Overview.</li>
-<li><strong>Field-level security:</strong> The agent inherits the authenticated user's field-level security — it can't see fields the user can't.</li>
+<li><strong>Field-level security:</strong> The agent inherits the authenticated user's field-level security - it can't see fields the user can't.</li>
 <li><strong>Audit trail:</strong> All changes appear in Salesforce's setup audit trail under the authenticated user.</li>
 </ul>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
@@ -10330,7 +10330,7 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 <tr>
 <td>Stars</td>
 <td>179⭐</td>
-<td>— (npm package)</td>
+<td>- (npm package)</td>
 </tr>
 <tr>
 <td>Official</td>
@@ -10356,16 +10356,16 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 </table>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Not official:</strong> Community-maintained — may lag behind Salesforce API changes</li>
+<li><strong>Not official:</strong> Community-maintained - may lag behind Salesforce API changes</li>
 <li><strong>No Streaming API:</strong> Doesn't support PushTopic or Change Data Capture events</li>
-<li><strong>Bulk operations:</strong> No Bulk API 2.0 support — large data volumes use REST API limits</li>
+<li><strong>Bulk operations:</strong> No Bulk API 2.0 support - large data volumes use REST API limits</li>
 <li><strong>Einstein/AI features:</strong> No integration with Salesforce Einstein for predictions</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external">MCP Server Guides</a> — AI-native CRM alternatives</li>
-<li><a href="/hermes/mcp/servers/external/apollo-io-mcp">Apollo.io MCP Guide</a> — B2B contact enrichment</li>
-<li><a href="/hermes/mcp/servers/external/linkedin-mcp-gtm">LinkedIn MCP Guide</a> — Social selling complement</li>
+<li><a href="/hermes/mcp/servers/external">MCP Server Guides</a> - AI-native CRM alternatives</li>
+<li><a href="/hermes/mcp/servers/external/apollo-io-mcp">Apollo.io MCP Guide</a> - B2B contact enrichment</li>
+<li><a href="/hermes/mcp/servers/external/linkedin-mcp-gtm">LinkedIn MCP Guide</a> - Social selling complement</li>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/">Salesforce REST API Docs</a></li>
 </ul>
 

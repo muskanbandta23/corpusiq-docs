@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and use Vercel's official agent skills collection — 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub">
+        <meta name="description" content="Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Vercel Agent Skills — Full Setup Guide for Hermes Agents</title>
+    <title>Vercel Agent Skills - Full Setup Guide for Hermes Agents</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Vercel Agent Skills — Full Setup Guide for Hermes Agents">
-  <meta property="og:description" content="Install and use Vercel's official agent skills collection — 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub">
+  <meta property="og:title" content="Vercel Agent Skills - Full Setup Guide for Hermes Agents">
+  <meta property="og:description" content="Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Vercel Agent Skills — Full Setup Guide for Hermes Agents">
-  <meta name="twitter:description" content="Install and use Vercel's official agent skills collection — 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub">
+  <meta name="twitter:title" content="Vercel Agent Skills - Full Setup Guide for Hermes Agents">
+  <meta name="twitter:description" content="Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Vercel Agent Skills \u2014 Full Setup Guide for Hermes Agents",
-    "description": "Install and use Vercel\u0027s official agent skills collection \u2014 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub",
+    "name": "Vercel Agent Skills - Full Setup Guide for Hermes Agents",
+    "description": "Install and use Vercel\u0027s official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Vercel Agent Skills — Full Setup Guide for Hermes Agents
+              Vercel Agent Skills - Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -10066,7 +10066,7 @@
   
 
 
-<h1 id="vercel-agent-skills-setup-guide">Vercel Agent Skills — Setup Guide<a class="headerlink" href="#vercel-agent-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="vercel-agent-skills-setup-guide">Vercel Agent Skills - Setup Guide<a class="headerlink" href="#vercel-agent-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/vercel-labs/agent-skills">vercel-labs/agent-skills</a> (29,139⭐)
 <strong>Category:</strong> Development / Quality
 <strong>Language:</strong> JavaScript</p>
@@ -10102,7 +10102,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>Hermes Agent</strong></td>
-<td>Any version — skills load as markdown instructions</td>
+<td>Any version - skills load as markdown instructions</td>
 </tr>
 </tbody>
 </table>
@@ -10237,11 +10237,11 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>Skill not found</strong></td>
-<td>Verify install: <code>npx skills list</code> — should show <code>vercel-labs/agent-skills</code></td>
+<td>Verify install: <code>npx skills list</code> - should show <code>vercel-labs/agent-skills</code></td>
 </tr>
 <tr>
 <td><strong>Rules conflict with project conventions</strong></td>
-<td>Skills are advisory — override specific rules in project config</td>
+<td>Skills are advisory - override specific rules in project config</td>
 </tr>
 </tbody>
 </table>
@@ -10252,7 +10252,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </
 <span class="c1"># Verify Vercel token (for optimize skill)</span>
 npx<span class="w"> </span>vercel<span class="w"> </span>whoami
 
-<span class="c1"># Quick test — check web design guidelines load</span>
+<span class="c1"># Quick test - check web design guidelines load</span>
 ls<span class="w"> </span><span class="k">$(</span>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json,sys; d=json.load(sys.stdin); print([s[&#39;path&#39;] for s in d if &#39;web-design&#39; in s.get(&#39;name&#39;,&#39;&#39;)][0])&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="k">)</span>
 </code></pre></div>
 <hr />

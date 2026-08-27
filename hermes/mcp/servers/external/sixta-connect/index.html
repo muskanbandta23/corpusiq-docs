@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Zero-connection SQL analysis for PostgreSQL and MySQL — paste queries, get instant fixes from AI agents with SIXTA Connect MCP server">
+        <meta name="description" content="Zero-connection SQL analysis for PostgreSQL and MySQL - paste queries, get instant fixes from AI agents with SIXTA Connect MCP server">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/sixta-connect">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="SIXTA Connect MCP Server Integration Guide">
-  <meta property="og:description" content="Zero-connection SQL analysis for PostgreSQL and MySQL — paste queries, get instant fixes from AI agents with SIXTA Connect MCP server">
+  <meta property="og:description" content="Zero-connection SQL analysis for PostgreSQL and MySQL - paste queries, get instant fixes from AI agents with SIXTA Connect MCP server">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="SIXTA Connect MCP Server Integration Guide">
-  <meta name="twitter:description" content="Zero-connection SQL analysis for PostgreSQL and MySQL — paste queries, get instant fixes from AI agents with SIXTA Connect MCP server">
+  <meta name="twitter:description" content="Zero-connection SQL analysis for PostgreSQL and MySQL - paste queries, get instant fixes from AI agents with SIXTA Connect MCP server">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "SIXTA Connect MCP Server Integration Guide",
-    "description": "Zero-connection SQL analysis for PostgreSQL and MySQL \u2014 paste queries, get instant fixes from AI agents with SIXTA Connect MCP server",
+    "description": "Zero-connection SQL analysis for PostgreSQL and MySQL - paste queries, get instant fixes from AI agents with SIXTA Connect MCP server",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sixta-connect",
     
     "datePublished": "2026-07-08",
@@ -10116,25 +10116,25 @@
   
 
 
-<h1 id="sixta-connect-mcp-zero-connection-sql-analysis-for-hermes-agent">SIXTA Connect MCP — Zero-Connection SQL Analysis for Hermes Agent<a class="headerlink" href="#sixta-connect-mcp-zero-connection-sql-analysis-for-hermes-agent" title="Anchor link to this section">&para;</a></h1>
-<p>DBRE-grade SQL analysis inside any MCP client. No connection strings, no install beyond the MCP server — just paste a query, EXPLAIN plan, migration, or error, and get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL.</p>
+<h1 id="sixta-connect-mcp-zero-connection-sql-analysis-for-hermes-agent">SIXTA Connect MCP - Zero-Connection SQL Analysis for Hermes Agent<a class="headerlink" href="#sixta-connect-mcp-zero-connection-sql-analysis-for-hermes-agent" title="Anchor link to this section">&para;</a></h1>
+<p>DBRE-grade SQL analysis inside any MCP client. No connection strings, no install beyond the MCP server - just paste a query, EXPLAIN plan, migration, or error, and get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <p>SIXTA Connect brings database reliability engineering (DBRE) to AI agents without ever touching your production database:</p>
 <ul>
-<li><strong>SQL review</strong> — Paste a query, get named findings (performance, anti-patterns, security)</li>
-<li><strong>EXPLAIN analysis</strong> — Paste EXPLAIN output, get optimization recommendations</li>
-<li><strong>Migration review</strong> — Paste schema migrations, get safety checks and improvement suggestions</li>
-<li><strong>Error diagnosis</strong> — Paste a database error, get root cause analysis and fixes</li>
-<li><strong>Severity-ranked findings</strong> — Each finding has severity, rationale, and ready-to-run fixes</li>
+<li><strong>SQL review</strong> - Paste a query, get named findings (performance, anti-patterns, security)</li>
+<li><strong>EXPLAIN analysis</strong> - Paste EXPLAIN output, get optimization recommendations</li>
+<li><strong>Migration review</strong> - Paste schema migrations, get safety checks and improvement suggestions</li>
+<li><strong>Error diagnosis</strong> - Paste a database error, get root cause analysis and fixes</li>
+<li><strong>Severity-ranked findings</strong> - Each finding has severity, rationale, and ready-to-run fixes</li>
 </ul>
 <h2 id="quick-setup">Quick Setup<a class="headerlink" href="#quick-setup" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>No database credentials needed</strong> — SIXTA works entirely on pasted content</li>
-<li><strong>No API key required</strong> — Public service</li>
+<li><strong>No database credentials needed</strong> - SIXTA works entirely on pasted content</li>
+<li><strong>No API key required</strong> - Public service</li>
 </ul>
 <h3 id="add-to-hermes-agent">Add to Hermes Agent<a class="headerlink" href="#add-to-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Streamable HTTP — connect and start analyzing</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Streamable HTTP - connect and start analyzing</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>sixta<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://sixta.dev/mcp
 </code></pre></div>
 <p>Or manual config:</p>
@@ -10158,7 +10158,7 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <tbody>
 <tr>
 <td><code>analyze_query</code></td>
-<td>Submit a SQL query for multi-faceted review — performance, anti-patterns, security</td>
+<td>Submit a SQL query for multi-faceted review - performance, anti-patterns, security</td>
 </tr>
 <tr>
 <td><code>analyze_explain</code></td>
@@ -10210,10 +10210,10 @@ read/write dependencies among transactions&quot;
 <p>This gives operators a safe review layer between AI-generated SQL and production databases.</p>
 <h2 id="why-zero-connection-matters">Why Zero-Connection Matters<a class="headerlink" href="#why-zero-connection-matters" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Security:</strong> No credentials exposed to the MCP server — data never leaves your paste buffer</li>
-<li><strong>Compliance:</strong> SOC 2 and GDPR friendly — the service sees only what you explicitly submit</li>
+<li><strong>Security:</strong> No credentials exposed to the MCP server - data never leaves your paste buffer</li>
+<li><strong>Compliance:</strong> SOC 2 and GDPR friendly - the service sees only what you explicitly submit</li>
 <li><strong>Flexibility:</strong> Works with any PostgreSQL/MySQL deployment (self-hosted, RDS, Cloud SQL, Aurora)</li>
-<li><strong>Speed:</strong> No connection setup, no VPN configuration — paste and analyze instantly</li>
+<li><strong>Speed:</strong> No connection setup, no VPN configuration - paste and analyze instantly</li>
 </ul>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
 <p>Free public service. Check <a href="https://sixta.dev">sixta.dev</a> for current status and any usage tiers.</p>

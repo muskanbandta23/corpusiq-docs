@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Run OpenClaw agents on Android with Termux — no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.">
+        <meta name="description" content="Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>OpenClaw on Android — Full Setup Guide</title>
+    <title>OpenClaw on Android - Full Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="OpenClaw on Android — Full Setup Guide">
-  <meta property="og:description" content="Run OpenClaw agents on Android with Termux — no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.">
+  <meta property="og:title" content="OpenClaw on Android - Full Setup Guide">
+  <meta property="og:description" content="Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="OpenClaw on Android — Full Setup Guide">
-  <meta name="twitter:description" content="Run OpenClaw agents on Android with Termux — no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.">
+  <meta name="twitter:title" content="OpenClaw on Android - Full Setup Guide">
+  <meta name="twitter:description" content="Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "OpenClaw on Android \u2014 Full Setup Guide",
-    "description": "Run OpenClaw agents on Android with Termux \u2014 no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.",
+    "name": "OpenClaw on Android - Full Setup Guide",
+    "description": "Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OpenClaw on Android — Full Setup Guide
+              OpenClaw on Android - Full Setup Guide
             
           </span>
         </div>
@@ -10266,14 +10266,14 @@
   
 
 
-<h1 id="openclaw-on-android-setup-guide">OpenClaw on Android — Setup Guide<a class="headerlink" href="#openclaw-on-android-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="openclaw-on-android-setup-guide">OpenClaw on Android - Setup Guide<a class="headerlink" href="#openclaw-on-android-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repo:</strong> <a href="https://github.com/AidanPark/openclaw-android">AidanPark/openclaw-android</a>
 <strong>Stars:</strong> 1,649 | <strong>Author:</strong> Aidan Park
 <strong>Requirements:</strong> Android 7.0+, Termux
 <strong>Skills.sh:</strong> <code>npx skills add aradotso/hermes-skills --skill openclaw-android-setup</code></p>
 <hr />
 <h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>Run OpenClaw — the autonomous AI agent framework — directly on Android without a full Linux distribution. The standard approach requires proot-distro + Debian/Ubuntu (700MB–1GB overhead). This project installs just the glibc dynamic linker (<code>ld.so</code>), letting Node.js and OpenClaw run natively on Android's Linux kernel through Termux.</p>
+<p>Run OpenClaw - the autonomous AI agent framework - directly on Android without a full Linux distribution. The standard approach requires proot-distro + Debian/Ubuntu (700MB-1GB overhead). This project installs just the glibc dynamic linker (<code>ld.so</code>), letting Node.js and OpenClaw run natively on Android's Linux kernel through Termux.</p>
 <h3 id="architecture-comparison">Architecture Comparison<a class="headerlink" href="#architecture-comparison" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Standard approach (heavy):</strong>
 <div class="highlight"><pre><span></span><code>Linux Kernel → Android/Bionic libc → Termux → proot-distro → Debian/Ubuntu → glibc → Node.js → OpenClaw
@@ -10285,7 +10285,7 @@
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Android 7.0+</strong> (API level 24+)</li>
-<li><strong><a href="https://termux.dev/">Termux</a></strong> installed (from F-Droid, NOT Google Play — the Play Store version is outdated)</li>
+<li><strong><a href="https://termux.dev/">Termux</a></strong> installed (from F-Droid, NOT Google Play - the Play Store version is outdated)</li>
 <li><strong>~500MB free storage</strong> (vs 1.5GB+ for the proot-distro approach)</li>
 <li><strong>Internet connection</strong> for initial setup</li>
 </ul>
@@ -10295,7 +10295,7 @@
 <p>Download from <strong>F-Droid</strong> (recommended):</p>
 <div class="highlight"><pre><span></span><code>https://f-droid.org/packages/com.termux/
 </code></pre></div>
-<p>⚠️ <strong>Do NOT use the Google Play Store version</strong> — it's outdated and missing critical APIs.</p>
+<p>⚠️ <strong>Do NOT use the Google Play Store version</strong> - it's outdated and missing critical APIs.</p>
 <h3 id="2-run-the-one-command-setup">2. Run the One-Command Setup<a class="headerlink" href="#2-run-the-one-command-setup" title="Anchor link to this section">&para;</a></h3>
 <p>Open Termux and run:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/AidanPark/openclaw-android/main/setup.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
@@ -10317,10 +10317,10 @@ openclaw<span class="w"> </span>start
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <h3 id="first-run-setup">First-Run Setup<a class="headerlink" href="#first-run-setup" title="Anchor link to this section">&para;</a></h3>
 <p>On first launch, OpenClaw will prompt for:
-1. <strong>API provider</strong> — OpenAI, Anthropic, DeepSeek, local model, etc.
-2. <strong>API key</strong> — Your provider's API key
-3. <strong>Model</strong> — Default model selection (e.g., <code>claude-sonnet-4-20250514</code>)
-4. <strong>Workspace directory</strong> — Where OpenClaw stores sessions and configs</p>
+1. <strong>API provider</strong> - OpenAI, Anthropic, DeepSeek, local model, etc.
+2. <strong>API key</strong> - Your provider's API key
+3. <strong>Model</strong> - Default model selection (e.g., <code>claude-sonnet-4-20250514</code>)
+4. <strong>Workspace directory</strong> - Where OpenClaw stores sessions and configs</p>
 <h3 id="config-file-location">Config File Location<a class="headerlink" href="#config-file-location" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>~/.openclaw/config.yaml
 </code></pre></div>
@@ -10360,8 +10360,8 @@ openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class
 </code></pre></div>
 <h3 id="running-on-old-android-phones">Running on Old Android Phones<a class="headerlink" href="#running-on-old-android-phones" title="Anchor link to this section">&para;</a></h3>
 <p>This setup is particularly well-suited for repurposing old Android phones:
-- <strong>Samsung Galaxy S8+ (2017)</strong> — runs OpenClaw comfortably
-- <strong>Google Pixel 2 (2017)</strong> — known working configuration
+- <strong>Samsung Galaxy S8+ (2017)</strong> - runs OpenClaw comfortably
+- <strong>Google Pixel 2 (2017)</strong> - known working configuration
 - <strong>Any phone with 4GB+ RAM and Android 7.0+</strong></p>
 <h3 id="battery-optimization">Battery Optimization<a class="headerlink" href="#battery-optimization" title="Anchor link to this section">&para;</a></h3>
 <p>For long-running agents:
@@ -10419,7 +10419,7 @@ termux-wake-lock<span class="w"> </span>release
 <hr />
 <h2 id="security-notes">Security Notes<a class="headerlink" href="#security-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>API keys are stored in <code>~/.openclaw/config.yaml</code> — set appropriate file permissions</li>
+<li>API keys are stored in <code>~/.openclaw/config.yaml</code> - set appropriate file permissions</li>
 <li>Consider using environment variables: <code>provider: anthropic</code> with <code>api_key: ${ANTHROPIC_API_KEY}</code></li>
 <li>The Android device should have screen lock enabled</li>
 <li>For production use, consider a dedicated device with no personal data</li>

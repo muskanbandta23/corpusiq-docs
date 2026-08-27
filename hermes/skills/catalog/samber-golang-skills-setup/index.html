@@ -23,7 +23,7 @@
     
     
   
-    <title>Samber Go Skills — Golang Engineering Standards for Hermes Agents</title>
+    <title>Samber Go Skills - Golang Engineering Standards for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/samber-golang-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Samber Go Skills — Golang Engineering Standards for Hermes Agents">
+  <meta property="og:title" content="Samber Go Skills - Golang Engineering Standards for Hermes Agents">
   <meta property="og:description" content="Golang code style, error handling, testing, naming, and design patterns with 35K+ combined installs. Enforce idiomatic Go standards across agent-generated code.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Samber Go Skills — Golang Engineering Standards for Hermes Agents">
+  <meta name="twitter:title" content="Samber Go Skills - Golang Engineering Standards for Hermes Agents">
   <meta name="twitter:description" content="Golang code style, error handling, testing, naming, and design patterns with 35K+ combined installs. Enforce idiomatic Go standards across agent-generated code.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Samber Go Skills \u2014 Golang Engineering Standards for Hermes Agents",
+    "name": "Samber Go Skills - Golang Engineering Standards for Hermes Agents",
     "description": "Golang code style, error handling, testing, naming, and design patterns with 35K+ combined installs. Enforce idiomatic Go standards across agent-generated code.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/samber-golang-skills-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Samber Go Skills — Golang Engineering Standards for Hermes Agents
+              Samber Go Skills - Golang Engineering Standards for Hermes Agents
             
           </span>
         </div>
@@ -10066,11 +10066,11 @@
   
 
 
-<h1 id="samber-go-skills-setup-guide">Samber Go Skills — Setup Guide<a class="headerlink" href="#samber-go-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="samber-go-skills-setup-guide">Samber Go Skills - Setup Guide<a class="headerlink" href="#samber-go-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/samber/cc-skills-golang">samber/cc-skills-golang</a> (35K+ combined installs)
 <strong>Category:</strong> Engineering / Development
 <strong>Quality Tier:</strong> 🟢 Production</p>
-<p>Comprehensive Golang engineering standards for agents. Enforces idiomatic code style, proper error handling patterns, testing conventions, naming rules, and design patterns. "Clear is better than clever" — Go Proverbs. Designed to produce production-quality Go that passes code review on first submission.</p>
+<p>Comprehensive Golang engineering standards for agents. Enforces idiomatic code style, proper error handling patterns, testing conventions, naming rules, and design patterns. "Clear is better than clever" - Go Proverbs. Designed to produce production-quality Go that passes code review on first submission.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>samber/cc-skills-golang<span class="w"> </span>--skill<span class="w"> </span>golang-code-style
@@ -10094,7 +10094,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <tr>
 <td><strong>golang-code-style</strong></td>
 <td>35.6K</td>
-<td>Idiomatic Go style — line breaking, variable declarations, composite literals, nil handling</td>
+<td>Idiomatic Go style - line breaking, variable declarations, composite literals, nil handling</td>
 </tr>
 <tr>
 <td><strong>golang-error-handling</strong></td>
@@ -10108,17 +10108,17 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>golang-naming</strong></td>
-<td>—</td>
+<td>-</td>
 <td>Package, variable, function, and interface naming conventions</td>
 </tr>
 <tr>
 <td><strong>golang-design-patterns</strong></td>
-<td>—</td>
+<td>-</td>
 <td>Functional options, builder, strategy, dependency injection for Go</td>
 </tr>
 <tr>
 <td><strong>golang-structs-interfaces</strong></td>
-<td>—</td>
+<td>-</td>
 <td>Struct design, interface segregation, embedding best practices</td>
 </tr>
 </tbody>
@@ -10130,8 +10130,8 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <li><strong>Line Breaking</strong>: Semantic boundaries over arbitrary column counts; 4+ arguments = one per line</li>
 <li><strong>Variable Declarations</strong>: <code>:=</code> for non-zero values, <code>var</code> for zero-value initialization</li>
 <li><strong>Slice/Map Initialization</strong>: Always explicit, never nil; preallocate when capacity is known</li>
-<li><strong>Composite Literals</strong>: Always use field names — positional fields break on type changes</li>
-<li><strong>Nil Handling</strong>: Nil slices serialize to <code>null</code> in JSON (vs <code>[]</code> for empty) — surprising API consumers</li>
+<li><strong>Composite Literals</strong>: Always use field names - positional fields break on type changes</li>
+<li><strong>Nil Handling</strong>: Nil slices serialize to <code>null</code> in JSON (vs <code>[]</code> for empty) - surprising API consumers</li>
 </ul>
 <h3 id="error-handling">Error Handling<a class="headerlink" href="#error-handling" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10180,7 +10180,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <li>35K+ combined installs across the Go engineering community</li>
 <li>Designed for Claude Code but directly applicable to any agent writing Go (Hermes, Cursor, Copilot)</li>
 <li>Linters handle formatting; these skills handle clarity and design judgment</li>
-<li>"When ignoring a rule, add a comment to the code" — pragmatic, not dogmatic</li>
+<li>"When ignoring a rule, add a comment to the code" - pragmatic, not dogmatic</li>
 <li>Complements <code>golangci-lint</code> for comprehensive Go code quality</li>
 </ul>
 

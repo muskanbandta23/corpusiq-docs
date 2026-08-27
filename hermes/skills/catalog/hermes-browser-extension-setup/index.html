@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Browser Extension — Full Setup Guide</title>
+    <title>Hermes Browser Extension - Full Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Browser Extension — Full Setup Guide">
+  <meta property="og:title" content="Hermes Browser Extension - Full Setup Guide">
   <meta property="og:description" content="Install, configure, and use the Hermes Browser Extension side panel for Chrome/Edge/Chromium. Connect active browser context to your local or remote Hermes">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Browser Extension — Full Setup Guide">
+  <meta name="twitter:title" content="Hermes Browser Extension - Full Setup Guide">
   <meta name="twitter:description" content="Install, configure, and use the Hermes Browser Extension side panel for Chrome/Edge/Chromium. Connect active browser context to your local or remote Hermes">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Browser Extension \u2014 Full Setup Guide",
+    "name": "Hermes Browser Extension - Full Setup Guide",
     "description": "Install, configure, and use the Hermes Browser Extension side panel for Chrome/Edge/Chromium. Connect active browser context to your local or remote Hermes",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Browser Extension — Full Setup Guide
+              Hermes Browser Extension - Full Setup Guide
             
           </span>
         </div>
@@ -10283,23 +10283,23 @@
   
 
 
-<h1 id="hermes-browser-extension-setup-guide">Hermes Browser Extension — Setup Guide<a class="headerlink" href="#hermes-browser-extension-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-browser-extension-setup-guide">Hermes Browser Extension - Setup Guide<a class="headerlink" href="#hermes-browser-extension-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repo:</strong> <a href="https://github.com/abundantbeing/hermes-browser-extension">abundantbeing/hermes-browser-extension</a>
 <strong>Stars:</strong> 439 | <strong>Author:</strong> Jon Komet (<code>@abundantbeing</code>)
-<strong>Status:</strong> Public alpha — load unpacked, not on Chrome Web Store yet
+<strong>Status:</strong> Public alpha - load unpacked, not on Chrome Web Store yet
 <strong>Skills.sh:</strong> <code>npx skills add aradotso/hermes-skills --skill hermes-browser-extension</code></p>
 <hr />
 <h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>The Hermes Browser Extension is a Chrome/Edge/Chromium side panel that connects to your Hermes Gateway/API server. It's not a standalone chatbot — it talks to the real Hermes Agent runtime (local by default, remote when configured) so it can use the models, tools, skills, sessions, memory, and MCP servers already configured in Hermes.</p>
+<p>The Hermes Browser Extension is a Chrome/Edge/Chromium side panel that connects to your Hermes Gateway/API server. It's not a standalone chatbot - it talks to the real Hermes Agent runtime (local by default, remote when configured) so it can use the models, tools, skills, sessions, memory, and MCP servers already configured in Hermes.</p>
 <h3 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Browser-native side panel</strong> — MV3 extension powered by Chrome's Side Panel API</li>
-<li><strong>Local or remote Hermes</strong> — Default <code>http://127.0.0.1:8642</code>, configurable to any reachable URL</li>
-<li><strong>Dashboard WebSocket mode</strong> — No API key needed when you have a signed-in remote Hermes dashboard tab</li>
-<li><strong>Auto-sync</strong> — Connected providers/models, profiles, skills, sessions, and capabilities sync automatically</li>
-<li><strong>Hermes compatibility panel</strong> — Older gateways degrade into explicit fallback/manual modes instead of breaking</li>
-<li><strong>Context injection</strong> — Sends active tab/browser context into a persisted Hermes session, or switch to Chat-only</li>
-<li><strong>Composer-header context menu</strong> — Quick controls for context scope (Chat only / Follow active tab / Page only)</li>
+<li><strong>Browser-native side panel</strong> - MV3 extension powered by Chrome's Side Panel API</li>
+<li><strong>Local or remote Hermes</strong> - Default <code>http://127.0.0.1:8642</code>, configurable to any reachable URL</li>
+<li><strong>Dashboard WebSocket mode</strong> - No API key needed when you have a signed-in remote Hermes dashboard tab</li>
+<li><strong>Auto-sync</strong> - Connected providers/models, profiles, skills, sessions, and capabilities sync automatically</li>
+<li><strong>Hermes compatibility panel</strong> - Older gateways degrade into explicit fallback/manual modes instead of breaking</li>
+<li><strong>Context injection</strong> - Sends active tab/browser context into a persisted Hermes session, or switch to Chat-only</li>
+<li><strong>Composer-header context menu</strong> - Quick controls for context scope (Chat only / Follow active tab / Page only)</li>
 </ul>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -10347,9 +10347,9 @@ npm<span class="w"> </span>run<span class="w"> </span>build
 - No API key needed in this mode</p>
 <h3 id="3-configure-context-scope">3. Configure Context Scope<a class="headerlink" href="#3-configure-context-scope" title="Anchor link to this section">&para;</a></h3>
 <p>The composer header has a context menu with three modes:
-- <strong>Chat only</strong> — No browser context sent; pure chat with Hermes
-- <strong>Follow active tab</strong> — Context follows whichever tab you're viewing
-- <strong>Page only</strong> — Context stays locked to one page</p>
+- <strong>Chat only</strong> - No browser context sent; pure chat with Hermes
+- <strong>Follow active tab</strong> - Context follows whichever tab you're viewing
+- <strong>Page only</strong> - Context stays locked to one page</p>
 <h3 id="4-appearance-settings">4. Appearance Settings<a class="headerlink" href="#4-appearance-settings" title="Anchor link to this section">&para;</a></h3>
 <p>The extension supports:
 - <strong>Color modes:</strong> Light, dark, system
@@ -10422,17 +10422,17 @@ curl<span class="w"> </span>http://127.0.0.1:8642/api/health
 <h3 id="side-panel-not-showing">Side panel not showing<a class="headerlink" href="#side-panel-not-showing" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>Requires Chrome/Edge 114+</li>
-<li>Check <code>chrome://extensions</code> — the extension must be enabled</li>
+<li>Check <code>chrome://extensions</code> - the extension must be enabled</li>
 <li>Try the keyboard shortcut: <code>chrome://extensions/shortcuts</code></li>
 </ul>
 <hr />
 <h2 id="security-notes">Security Notes<a class="headerlink" href="#security-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>The extension runs with MV3 permissions model</li>
-<li>Browser context is <strong>read-only</strong> — the extension cannot modify pages</li>
+<li>Browser context is <strong>read-only</strong> - the extension cannot modify pages</li>
 <li>All communication with Hermes uses the configured API endpoint (local by default)</li>
 <li>API keys are stored in browser extension storage, not synced to cloud</li>
-<li>No telemetry or external services — all processing happens through your Hermes instance</li>
+<li>No telemetry or external services - all processing happens through your Hermes instance</li>
 </ul>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>

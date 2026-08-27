@@ -23,7 +23,7 @@
     
     
   
-    <title>Groundwork MCP — Company-State Feed for AI Agents</title>
+    <title>Groundwork MCP - Company-State Feed for AI Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/groundwork-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Groundwork MCP — Company-State Feed for AI Agents">
+  <meta property="og:title" content="Groundwork MCP - Company-State Feed for AI Agents">
   <meta property="og:description" content="Tenant-scoped, read-only company-state discovery for MCP-compatible AI agents. Module catalog, dashboard, brand settings, entitlement, and curated skill">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Groundwork MCP — Company-State Feed for AI Agents">
+  <meta name="twitter:title" content="Groundwork MCP - Company-State Feed for AI Agents">
   <meta name="twitter:description" content="Tenant-scoped, read-only company-state discovery for MCP-compatible AI agents. Module catalog, dashboard, brand settings, entitlement, and curated skill">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Groundwork MCP \u2014 Company-State Feed for AI Agents",
+    "name": "Groundwork MCP - Company-State Feed for AI Agents",
     "description": "Tenant-scoped, read-only company-state discovery for MCP-compatible AI agents. Module catalog, dashboard, brand settings, entitlement, and curated skill",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/groundwork-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Groundwork MCP — Company-State Feed for AI Agents
+              Groundwork MCP - Company-State Feed for AI Agents
             
           </span>
         </div>
@@ -10088,13 +10088,13 @@
   
 
 
-<h1 id="groundwork-mcp-company-state-feed-for-ai-agents">Groundwork MCP — Company-State Feed for AI Agents<a class="headerlink" href="#groundwork-mcp-company-state-feed-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
+<h1 id="groundwork-mcp-company-state-feed-for-ai-agents">Groundwork MCP - Company-State Feed for AI Agents<a class="headerlink" href="#groundwork-mcp-company-state-feed-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Groundwork</strong> stops agents from inventing your company. It's a hosted MCP server that gives any MCP-compatible client a tenant-scoped, read-only picture of what is current, what is entitled, and how work is supposed to run.</p>
-<p>Think of it as a "company memory" layer that sits between your AI agents and your actual company state — modules, brand settings, dashboards, entitlements, and curated how-tos are all available through structured MCP tools.</p>
+<p>Think of it as a "company memory" layer that sits between your AI agents and your actual company state - modules, brand settings, dashboards, entitlements, and curated how-tos are all available through structured MCP tools.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Company-state feed</strong>: Read-only access to your company's module catalog, dashboard settings, and brand configuration</li>
-<li><strong>Entitlement awareness</strong>: Agents know what features/tiers you have access to — no inventing capabilities</li>
+<li><strong>Entitlement awareness</strong>: Agents know what features/tiers you have access to - no inventing capabilities</li>
 <li><strong>Curated skill how-tos</strong>: Documentation and procedures surfaced through MCP tools</li>
 <li><strong>Public proof (no account)</strong>: Anyone can test via the public endpoint at <code>https://connector.rarefied.earth/public/mcp</code></li>
 <li><strong>Tenant-scoped</strong>: Each organization gets its own isolated view</li>
@@ -10110,7 +10110,7 @@
 <tbody>
 <tr>
 <td><code>groundwork_public_proof</code></td>
-<td>Verify the MCP connection works — no account required</td>
+<td>Verify the MCP connection works - no account required</td>
 </tr>
 <tr>
 <td><code>groundwork_public_status</code></td>
@@ -10124,7 +10124,7 @@
 </table>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-try-without-an-account">1. Try Without an Account<a class="headerlink" href="#1-try-without-an-account" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Public endpoint — no auth required</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Public endpoint - no auth required</span>
 <span class="c1"># Add to your MCP client config:</span>
 <span class="o">{</span>
 <span class="w">  </span><span class="s2">&quot;mcpServers&quot;</span>:<span class="w"> </span><span class="o">{</span>
@@ -10168,16 +10168,16 @@ npm<span class="w"> </span>start
 </code></pre></div>
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Agent onboarding</strong>: New AI agents immediately know your company's stack, brand voice, and approved workflows — no manual context injection</li>
+<li><strong>Agent onboarding</strong>: New AI agents immediately know your company's stack, brand voice, and approved workflows - no manual context injection</li>
 <li><strong>Multi-agent consistency</strong>: All agents across Claude, Cursor, Hermes, and Codex read from the same company-state source</li>
 <li><strong>Compliance guardrails</strong>: Agents can check entitlements before suggesting features or workflows you don't have access to</li>
 <li><strong>Workspace auditing</strong>: The public proof tool lets you verify agent behavior without an account</li>
 </ol>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Read-only</strong>: Groundwork is a state feed, not a write-back system — agents can read company state but can't modify it</li>
+<li><strong>Read-only</strong>: Groundwork is a state feed, not a write-back system - agents can read company state but can't modify it</li>
 <li><strong>Source closed</strong>: While docs are public, the core server code is closed source</li>
-<li><strong>New project</strong>: 1 GitHub star as of July 2026 — early stage, expect API evolution</li>
+<li><strong>New project</strong>: 1 GitHub star as of July 2026 - early stage, expect API evolution</li>
 <li><strong>Trial requires card</strong>: 14-day free trial needs payment card at checkout</li>
 </ul>
 <h2 id="pricing-tiers">Pricing Tiers<a class="headerlink" href="#pricing-tiers" title="Anchor link to this section">&para;</a></h2>
@@ -10209,7 +10209,7 @@ npm<span class="w"> </span>start
 </table>
 <p>All tiers include the 14-day free trial. Founding rates may apply.</p>
 <h2 id="category">Category<a class="headerlink" href="#category" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Memory &amp; Knowledge</strong> — alongside tools like Context7, Groundwork, and codicil. Groundwork differentiates by focusing on company-specific state rather than general documentation.</p>
+<p><strong>Memory &amp; Knowledge</strong> - alongside tools like Context7, Groundwork, and codicil. Groundwork differentiates by focusing on company-specific state rather than general documentation.</p>
 <hr />
 <p><em>Discovered via <a href="https://mcp.so/servers/groundwork">mcp.so</a> on July 24, 2026. Verified listing. GitHub: <a href="https://github.com/Rarefied-Earth/groundwork">Rarefied-Earth/groundwork</a>.</em></p>
 

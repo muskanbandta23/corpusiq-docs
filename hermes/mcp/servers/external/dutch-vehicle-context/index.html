@@ -10047,7 +10047,7 @@
 
 
 <h1 id="dutch-vehicle-context-mcp">Dutch Vehicle Context MCP<a class="headerlink" href="#dutch-vehicle-context-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>One licence plate in, one verified vehicle report out — from eleven official Dutch registers.</strong> Dutch Vehicle Context answers "is this a sensible buy" without an agent stitching datasets together: APK (MOT) history with readable defect descriptions per inspection, the official odometer verdict, and the full recall chain — including what can break, how dangerous it is, and what the remedy is — returned as one ~10 kB JSON answer with severity-sorted signals.</p>
+<p><strong>One licence plate in, one verified vehicle report out - from eleven official Dutch registers.</strong> Dutch Vehicle Context answers "is this a sensible buy" without an agent stitching datasets together: APK (MOT) history with readable defect descriptions per inspection, the official odometer verdict, and the full recall chain - including what can break, how dangerous it is, and what the remedy is - returned as one ~10 kB JSON answer with severity-sorted signals.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP) + plain HTTPS API
 Endpoint: https://vehicle-context.tradebrite.nl/mcp
 Auth: None (free, no key, no registration)
@@ -10057,7 +10057,7 @@ Built by: TradeBrite NL (rleefers)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>All the underlying data is public and free; the problem is fragmentation. The answer to a normal question sits across eleven datasets and two code tables, and the most valuable conclusions exist in none of them: a recall flagged simply as <code>Yes</code> in the base register, a recurring defect that only appears when you group inspection rounds, a re-inspection after repair that shares the same defects and would raise a false alarm if you counted dates. This layer computes those conclusions and labels them.</p>
-<p><code>signals</code> are observations, never established defects, sorted by severity, each with a recommendation and its basis. Theft status is deliberately absent — it is not provided as open data, and every answer says so explicitly, so a clean-looking report can never be misread as "not stolen".</p>
+<p><code>signals</code> are observations, never established defects, sorted by severity, each with a recommendation and its basis. Theft status is deliberately absent - it is not provided as open data, and every answer says so explicitly, so a clean-looking report can never be misread as "not stolen".</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10097,18 +10097,18 @@ Built by: TradeBrite NL (rleefers)
 <li><strong>Agent builders</strong> ground vehicle questions in verified registers instead of web guesses</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Dutch Vehicle Context delivers the Dutch vehicle-data layer, which CorpusIQ's connectors do not cover. In one agent session, a dealer can screen every plate through Dutch Vehicle Context while CorpusIQ handles the commercial layer: QuickBooks for the books, Stripe for payments, and email for purchase correspondence — joined on licence plate. The explicit no-theft-verdict design fits CorpusIQ's no-fabrication data doctrine.</p>
+<p>Dutch Vehicle Context delivers the Dutch vehicle-data layer, which CorpusIQ's connectors do not cover. In one agent session, a dealer can screen every plate through Dutch Vehicle Context while CorpusIQ handles the commercial layer: QuickBooks for the books, Stripe for payments, and email for purchase correspondence - joined on licence plate. The explicit no-theft-verdict design fits CorpusIQ's no-fabrication data doctrine.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Netherlands only; no theft status by design (not open data)</li>
 <li>Not purchase or safety advice; signals are observations, not established defects</li>
 <li>New listing (Aug 2026), zero-star repository, single maintainer</li>
-<li>One tool surface — no bulk endpoints</li>
+<li>One tool surface - no bulk endpoints</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/dutch-property-context">Dutch Property Context MCP — Netherlands Property Reports by Address</a></li>
-<li><a href="/hermes/mcp/servers/external/re-data-refinery-mcp">RE Data Refinery MCP — Pay-Per-Query Real Estate Intelligence</a></li>
+<li><a href="/hermes/mcp/servers/external/dutch-property-context">Dutch Property Context MCP - Netherlands Property Reports by Address</a></li>
+<li><a href="/hermes/mcp/servers/external/re-data-refinery-mcp">RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence</a></li>
 <li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
 <li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>

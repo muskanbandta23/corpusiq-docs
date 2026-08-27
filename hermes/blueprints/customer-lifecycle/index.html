@@ -8534,15 +8534,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stage-1-onboarding-days-030" class="md-nav__link">
+  <a href="#stage-1-onboarding-days-0-30" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage 1: Onboarding (Days 0–30)
+        Stage 1: Onboarding (Days 0-30)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Stage 1: Onboarding (Days 0–30)">
+    <nav class="md-nav" aria-label="Stage 1: Onboarding (Days 0-30)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -8584,15 +8584,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stage-2-engagement-days-3190" class="md-nav__link">
+  <a href="#stage-2-engagement-days-31-90" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage 2: Engagement (Days 31–90)
+        Stage 2: Engagement (Days 31-90)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Stage 2: Engagement (Days 31–90)">
+    <nav class="md-nav" aria-label="Stage 2: Engagement (Days 31-90)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -10298,15 +10298,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stage-1-onboarding-days-030" class="md-nav__link">
+  <a href="#stage-1-onboarding-days-0-30" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage 1: Onboarding (Days 0–30)
+        Stage 1: Onboarding (Days 0-30)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Stage 1: Onboarding (Days 0–30)">
+    <nav class="md-nav" aria-label="Stage 1: Onboarding (Days 0-30)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -10348,15 +10348,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stage-2-engagement-days-3190" class="md-nav__link">
+  <a href="#stage-2-engagement-days-31-90" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage 2: Engagement (Days 31–90)
+        Stage 2: Engagement (Days 31-90)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Stage 2: Engagement (Days 31–90)">
+    <nav class="md-nav" aria-label="Stage 2: Engagement (Days 31-90)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -10605,7 +10605,7 @@
                      │  - Multi-source   │
                      └───────────────────┘
 </code></pre></div>
-<h2 id="stage-1-onboarding-days-030">Stage 1: Onboarding (Days 0–30)<a class="headerlink" href="#stage-1-onboarding-days-030" title="Anchor link to this section">&para;</a></h2>
+<h2 id="stage-1-onboarding-days-0-30">Stage 1: Onboarding (Days 0-30)<a class="headerlink" href="#stage-1-onboarding-days-0-30" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Goal:</strong> Get new customers to their first meaningful value milestone within 30 days.</p>
 <h3 id="triggers-and-detection">Triggers and Detection<a class="headerlink" href="#triggers-and-detection" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10623,7 +10623,7 @@
 3. If active: send congratulatory email highlighting what they've accomplished</p>
 <p><strong>Day 7 Milestone Review:</strong>
 1. Query analytics for: login count, features used, time spent, configuration completeness
-2. Score onboarding health (0–100):
+2. Score onboarding health (0-100):
    <div class="highlight"><pre><span></span><code>health_score = (login_count × 5) 
              + (features_configured × 15) 
              + (has_invited_team ? 30 : 0)
@@ -10641,7 +10641,7 @@
 - At least one key workflow is operational
 - At least [N] team members are active (for team products)</p>
 <p><strong>Cron:</strong> <code>0 8 * * *</code>  --  daily onboarding health sweep.</p>
-<h2 id="stage-2-engagement-days-3190">Stage 2: Engagement (Days 31–90)<a class="headerlink" href="#stage-2-engagement-days-3190" title="Anchor link to this section">&para;</a></h2>
+<h2 id="stage-2-engagement-days-31-90">Stage 2: Engagement (Days 31-90)<a class="headerlink" href="#stage-2-engagement-days-31-90" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Goal:</strong> Deepen product usage, expand to more team members, and establish recurring value.</p>
 <h3 id="triggers-and-detection_1">Triggers and Detection<a class="headerlink" href="#triggers-and-detection_1" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10691,12 +10691,12 @@ Customers who meet these criteria are flagged as potential advocates:
            + (contract_near_end × 15)   # Within 60 days of renewal
 </code></pre></div></p>
 <p>Risk categories:
-- <strong>0–30:</strong> Healthy  --  standard engagement workflow
-- <strong>31–50:</strong> At Risk  --  initiate retention playbook
+- <strong>0-30:</strong> Healthy  --  standard engagement workflow
+- <strong>31-50:</strong> At Risk  --  initiate retention playbook
 - <strong>51+:</strong> Critical  --  executive escalation</p>
 <p><strong>Cron:</strong> <code>0 7 * * 1-5</code>  --  daily churn risk sweep.</p>
 <h3 id="retention-playbook">Retention Playbook<a class="headerlink" href="#retention-playbook" title="Anchor link to this section">&para;</a></h3>
-<p><strong>At Risk (31–50):</strong>
+<p><strong>At Risk (31-50):</strong>
 1. Notify account manager with risk score breakdown  --  which specific signals triggered the alert
 2. Schedule a check-in call within 5 business days
 3. Send curated content addressing the specific area of concern (e.g., if feature usage dropped, send training material for the dropped features)

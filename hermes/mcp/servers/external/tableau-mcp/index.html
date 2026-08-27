@@ -23,7 +23,7 @@
     
     
   
-    <title>Tableau MCP — Integration Guide</title>
+    <title>Tableau MCP - Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/tableau-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Tableau MCP — Integration Guide">
+  <meta property="og:title" content="Tableau MCP - Integration Guide">
   <meta property="og:description" content="Connect AI agents to Tableau Cloud/Server for BI queries, workbook access, and data visualization through MCP.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tableau MCP — Integration Guide">
+  <meta name="twitter:title" content="Tableau MCP - Integration Guide">
   <meta name="twitter:description" content="Connect AI agents to Tableau Cloud/Server for BI queries, workbook access, and data visualization through MCP.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Tableau MCP \u2014 Integration Guide",
+    "name": "Tableau MCP - Integration Guide",
     "description": "Connect AI agents to Tableau Cloud/Server for BI queries, workbook access, and data visualization through MCP.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tableau-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tableau MCP — Integration Guide
+              Tableau MCP - Integration Guide
             
           </span>
         </div>
@@ -10138,10 +10138,10 @@
   
 
 
-<h1 id="tableau-mcp-integration-guide">Tableau MCP — Integration Guide<a class="headerlink" href="#tableau-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="tableau-mcp-integration-guide">Tableau MCP - Integration Guide<a class="headerlink" href="#tableau-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>Tableau's official MCP server lets AI agents connect to Tableau Cloud or Tableau Server to query data sources, list workbooks and views, execute calculated fields, and retrieve visualization data. It's the second major BI platform to ship MCP (after Metabase on July 26), opening enterprise BI to agent-driven analysis.</p>
-<p>For operators, this means: ask "what was Q2 revenue by region?" and your AI agent queries Tableau's semantic layer directly — no dashboard screenshots, no CSV exports, no context switching.</p>
+<p>For operators, this means: ask "what was Q2 revenue by region?" and your AI agent queries Tableau's semantic layer directly - no dashboard screenshots, no CSV exports, no context switching.</p>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10169,8 +10169,8 @@
 </code></pre></div>
 <h3 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Anchor link to this section">&para;</a></h3>
 <p>Tableau MCP supports:
-1. <strong>Personal Access Tokens (PAT)</strong> — Recommended. Create in Tableau Cloud/Server → My Account Settings → Personal Access Tokens.
-2. <strong>OAuth 2.0</strong> — For multi-user deployments.</p>
+1. <strong>Personal Access Tokens (PAT)</strong> - Recommended. Create in Tableau Cloud/Server → My Account Settings → Personal Access Tokens.
+2. <strong>OAuth 2.0</strong> - For multi-user deployments.</p>
 <p>Token permissions determine what the AI agent can access. Start with read-only for data sources and workbooks.</p>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
 <p>Tableau MCP exposes these tool categories:</p>
@@ -10239,12 +10239,12 @@ Agent: [queries finance workbook, compares actuals vs forecast, flags underperfo
 <ul>
 <li><strong>PAT scope matters:</strong> Create purpose-specific tokens with minimum required permissions</li>
 <li><strong>Read-only first:</strong> Start with read-only data source permissions, expand cautiously</li>
-<li><strong>No write tools (currently):</strong> Tableau MCP is read-only — safe for production use</li>
+<li><strong>No write tools (currently):</strong> Tableau MCP is read-only - safe for production use</li>
 <li><strong>Network access:</strong> Agent needs network access to your Tableau Cloud/Server instance</li>
 <li><strong>Audit trail:</strong> All queries appear in Tableau's admin logs under the PAT owner</li>
 </ul>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
-<p>Tableau MCP is free and open source (MIT license). Requires an existing Tableau Cloud or Server license — no additional MCP-specific cost.</p>
+<p>Tableau MCP is free and open source (MIT license). Requires an existing Tableau Cloud or Server license - no additional MCP-specific cost.</p>
 <h2 id="comparison-tableau-vs-metabase-mcp">Comparison: Tableau vs Metabase MCP<a class="headerlink" href="#comparison-tableau-vs-metabase-mcp" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10295,8 +10295,8 @@ Agent: [queries finance workbook, compares actuals vs forecast, flags underperfo
 <p>Both complement CorpusIQ's business intelligence stack. Tableau for enterprises already invested in the platform; Metabase for teams building fresh.</p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/metabase-mcp">Metabase MCP Guide</a> — Another BI platform with MCP</li>
-<li><a href="/hermes/mcp/servers/external/stripe-mcp">Stripe MCP Guide</a> — Financial data via MCP</li>
+<li><a href="/hermes/mcp/servers/external/metabase-mcp">Metabase MCP Guide</a> - Another BI platform with MCP</li>
+<li><a href="/hermes/mcp/servers/external/stripe-mcp">Stripe MCP Guide</a> - Financial data via MCP</li>
 <li><a href="https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm">Tableau Developer Docs</a></li>
 </ul>
 

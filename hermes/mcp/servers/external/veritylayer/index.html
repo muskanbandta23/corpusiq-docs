@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Full setup guide for VerityLayer — fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts">
+        <meta name="description" content="Full setup guide for VerityLayer - fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/veritylayer">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="VerityLayer MCP Integration Guide">
-  <meta property="og:description" content="Full setup guide for VerityLayer — fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts">
+  <meta property="og:description" content="Full setup guide for VerityLayer - fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="VerityLayer MCP Integration Guide">
-  <meta name="twitter:description" content="Full setup guide for VerityLayer — fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts">
+  <meta name="twitter:description" content="Full setup guide for VerityLayer - fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "VerityLayer MCP Integration Guide",
-    "description": "Full setup guide for VerityLayer \u2014 fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts",
+    "description": "Full setup guide for VerityLayer - fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/veritylayer",
     
     "datePublished": "2026-08-12",
@@ -10099,8 +10099,8 @@
   
 
 
-<h1 id="veritylayer-mcp-integration-guide">VerityLayer MCP — Integration Guide<a class="headerlink" href="#veritylayer-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Fail-closed verify-before-you-act trust gate for AI agents.</strong> Five tools — verify_fact, detect_injection, moderate_content, redact_pii, guard_action — that run before agent actions execute. Every verdict ships an Ed25519-signed receipt for audit trails.</p>
+<h1 id="veritylayer-mcp-integration-guide">VerityLayer MCP - Integration Guide<a class="headerlink" href="#veritylayer-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Fail-closed verify-before-you-act trust gate for AI agents.</strong> Five tools - verify_fact, detect_injection, moderate_content, redact_pii, guard_action - that run before agent actions execute. Every verdict ships an Ed25519-signed receipt for audit trails.</p>
 <blockquote>
 <p><strong>Command:</strong> <code>npx -y @veritylayer/mcp</code> · <strong>Source:</strong> mcp.so · <strong>Last seen:</strong> July 4, 2026</p>
 </blockquote>
@@ -10108,11 +10108,11 @@
 <p>VerityLayer acts as a mandatory safety checkpoint between your AI agent and the outside world. Before the agent can act on a fact, send a message, or execute a transaction, VerityLayer runs verification checks and returns a cryptographically signed verdict. If any check fails, the action is blocked (fail-closed). This makes it essential for production AI agent deployments where safety and audit trails matter.</p>
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>verify_fact</strong> — Cross-references claims against trusted sources before the agent acts on them</li>
-<li><strong>detect_injection</strong> — Scans agent inputs and outputs for prompt injection, data exfiltration, and manipulation</li>
-<li><strong>moderate_content</strong> — Content safety checks for agent-generated text before it reaches users</li>
-<li><strong>redact_pii</strong> — Strips personally identifiable information from agent outputs before external delivery</li>
-<li><strong>guard_action</strong> — Final approval gate — the last check before any agent action executes</li>
+<li><strong>verify_fact</strong> - Cross-references claims against trusted sources before the agent acts on them</li>
+<li><strong>detect_injection</strong> - Scans agent inputs and outputs for prompt injection, data exfiltration, and manipulation</li>
+<li><strong>moderate_content</strong> - Content safety checks for agent-generated text before it reaches users</li>
+<li><strong>redact_pii</strong> - Strips personally identifiable information from agent outputs before external delivery</li>
+<li><strong>guard_action</strong> - Final approval gate - the last check before any agent action executes</li>
 </ul>
 <p>Every verdict includes:
 - Ed25519-signed cryptographic receipt
@@ -10147,7 +10147,7 @@ context window. Block any flagged inputs.&quot;
 </code></pre></div>
 Security layer for customer-facing AI agent deployments.</p>
 <h3 id="3-compliance-audit-trail">3. Compliance Audit Trail<a class="headerlink" href="#3-compliance-audit-trail" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>&quot;Show me all VerityLayer verdicts from the last 24 hours — which actions 
+<p><div class="highlight"><pre><span></span><code>&quot;Show me all VerityLayer verdicts from the last 24 hours - which actions 
 passed, which were blocked, and why.&quot;
 </code></pre></div>
 Compliance-ready audit trail for regulated industries.</p>
@@ -10163,7 +10163,7 @@ Compliance-ready audit trail for regulated industries.</p>
 <tbody>
 <tr>
 <td>Prompt injection</td>
-<td>No detection — agent acts on malicious input</td>
+<td>No detection - agent acts on malicious input</td>
 <td>Injection detected and blocked before context entry</td>
 </tr>
 <tr>
@@ -10194,14 +10194,14 @@ Compliance-ready audit trail for regulated industries.</p>
                                                          ↓
                                                    Deliver / Block
 </code></pre></div>
-<p>Every arrow includes an Ed25519-signed receipt. The system is <strong>fail-closed</strong> — if any check cannot complete (network error, timeout), the action is blocked rather than allowed through unsafely.</p>
+<p>Every arrow includes an Ed25519-signed receipt. The system is <strong>fail-closed</strong> - if any check cannot complete (network error, timeout), the action is blocked rather than allowed through unsafely.</p>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
-<p>Keyless, pay-per-call via x402 (USDC on Base). No subscription required — pay only for the checks you run. Pricing details at veritylayer.com.</p>
+<p>Keyless, pay-per-call via x402 (USDC on Base). No subscription required - pay only for the checks you run. Pricing details at veritylayer.com.</p>
 <h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external">External MCP Server Catalog</a> — full curated catalog</li>
-<li><a href="/hermes/mcp/servers/external/#compliance--regulatory">Compliance &amp; Regulatory MCPs</a> — complementary trust and verification tools</li>
-<li><a href="/hermes/mcp/servers/external/#chronoverify">ChronoVerify</a> — image authenticity verification MCP</li>
+<li><a href="/hermes/mcp/servers/external">External MCP Server Catalog</a> - full curated catalog</li>
+<li><a href="/hermes/mcp/servers/external/#compliance--regulatory">Compliance &amp; Regulatory MCPs</a> - complementary trust and verification tools</li>
+<li><a href="/hermes/mcp/servers/external/#chronoverify">ChronoVerify</a> - image authenticity verification MCP</li>
 </ul>
 <hr />
 <p><em>← <a href="/hermes/mcp/servers/external">External MCP Catalog</a> | <a href="/hermes/mcp/servers">MCP Servers Home</a> →</em></p>

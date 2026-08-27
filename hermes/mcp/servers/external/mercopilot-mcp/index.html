@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Shopify and Google Ads over MCP — connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked">
+        <meta name="description" content="Shopify and Google Ads over MCP - connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/mercopilot-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Mercopilot MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Shopify and Google Ads over MCP — connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked">
+  <meta property="og:description" content="Shopify and Google Ads over MCP - connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mercopilot MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Shopify and Google Ads over MCP — connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked">
+  <meta name="twitter:description" content="Shopify and Google Ads over MCP - connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Mercopilot MCP - CorpusIQ Docs",
-    "description": "Shopify and Google Ads over MCP \u2014 connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked",
+    "description": "Shopify and Google Ads over MCP - connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mercopilot-mcp",
     
     "author": {
@@ -10036,18 +10036,18 @@
 
 
 <h1 id="mercopilot-mcp">Mercopilot MCP<a class="headerlink" href="#mercopilot-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Hosted commerce-operations server (Streamable HTTP, OAuth)</strong> — Mercopilot connects a Shopify store and a Google Ads account to Claude, ChatGPT, and other MCP clients. Ask plain-English questions about store performance and ad spend, get a ranked list of what to fix and where to grow, and approve specific changes that are made directly in Shopify or Google Ads. No separate dashboard, no reports to download, no API key.</p>
+<p><strong>Hosted commerce-operations server (Streamable HTTP, OAuth)</strong> - Mercopilot connects a Shopify store and a Google Ads account to Claude, ChatGPT, and other MCP clients. Ask plain-English questions about store performance and ad spend, get a ranked list of what to fix and where to grow, and approve specific changes that are made directly in Shopify or Google Ads. No separate dashboard, no reports to download, no API key.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
-Auth: OAuth — no API key; sign in with Mercopilot when the client prompts
+Auth: OAuth - no API key; sign in with Mercopilot when the client prompts
 Endpoint: https://api.mercopilot.com/mcp
 Tools: 9 tools covering store performance, products, orders, and ad spend
-Pricing: Commercial — account at mercopilot.com
+Pricing: Commercial - account at mercopilot.com
 Category: Marketing / Advertising
 Built by: mercopilot.com
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>This is the exact problem CorpusIQ's audience runs every day: a Shopify operator with Google Ads spend and no time to dig through two dashboards. Mercopilot collapses both into a conversation. The questions it is built to answer are the operator questions — "Where am I losing money right now?", "Which slow sellers should I discount, and by how much?" — and every fix comes with what it is worth.</p>
-<p>The architecture is approval-gated by design: anything that changes the store (price, title, stock, discount) is shown for approval before it happens. That matches the emerging production pattern across serious commerce MCPs — the agent proposes, the human approves, the change lands in the source system.</p>
+<p>This is the exact problem CorpusIQ's audience runs every day: a Shopify operator with Google Ads spend and no time to dig through two dashboards. Mercopilot collapses both into a conversation. The questions it is built to answer are the operator questions - "Where am I losing money right now?", "Which slow sellers should I discount, and by how much?" - and every fix comes with what it is worth.</p>
+<p>The architecture is approval-gated by design: anything that changes the store (price, title, stock, discount) is shown for approval before it happens. That matches the emerging production pattern across serious commerce MCPs - the agent proposes, the human approves, the change lands in the source system.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>Nine tools, split across the two connected surfaces:</p>
 <table>
@@ -10068,7 +10068,7 @@ Built by: mercopilot.com
 </tr>
 <tr>
 <td>Shopify mutations</td>
-<td>Price, title, stock, and discount changes — approval-gated</td>
+<td>Price, title, stock, and discount changes - approval-gated</td>
 </tr>
 <tr>
 <td>Google Ads</td>
@@ -10079,7 +10079,7 @@ Built by: mercopilot.com
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>mercopilot<span class="w"> </span>https://api.mercopilot.com/mcp
 </code></pre></div>
-<p>Setup is four steps and about five minutes: (1) create a Mercopilot account and connect your <code>your-store.myshopify.com</code> domain (Shopify asks you to approve the install), (2) copy the MCP URL — it is the same for every store, (3) add it as a custom connector in Claude (Settings → Connectors) or with the command above, (4) toggle the connector on in a new chat. Connectors are off by default per conversation — the step people miss.</p>
+<p>Setup is four steps and about five minutes: (1) create a Mercopilot account and connect your <code>your-store.myshopify.com</code> domain (Shopify asks you to approve the install), (2) copy the MCP URL - it is the same for every store, (3) add it as a custom connector in Claude (Settings → Connectors) or with the command above, (4) toggle the connector on in a new chat. Connectors are off by default per conversation - the step people miss.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Shopify operators</strong> replace dashboard digging with direct questions about revenue and stock</li>
@@ -10088,13 +10088,13 @@ Built by: mercopilot.com
 <li><strong>Agencies</strong> can connect client stores per workspace and review agent-proposed changes before they land</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Mercopilot and CorpusIQ share the same audience but different surfaces: CorpusIQ brings 40+ read-only business connectors (including Shopify and Google Ads) across accounting, analytics, and CRM; Mercopilot adds the conversational operating layer with approval-gated writes into Shopify and Google Ads. Together they bracket the operator workflow — CorpusIQ for the cross-source truth, Mercopilot for the ranked fix list and the gated execution of changes.</p>
+<p>Mercopilot and CorpusIQ share the same audience but different surfaces: CorpusIQ brings 40+ read-only business connectors (including Shopify and Google Ads) across accounting, analytics, and CRM; Mercopilot adds the conversational operating layer with approval-gated writes into Shopify and Google Ads. Together they bracket the operator workflow - CorpusIQ for the cross-source truth, Mercopilot for the ranked fix list and the gated execution of changes.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Shopify plus Google Ads scope only — no other platforms connected</li>
+<li>Shopify plus Google Ads scope only - no other platforms connected</li>
 <li>Per-chat connector toggles cause "no access" confusion until users learn the pattern</li>
 <li>Write operations require the human approval loop, which is a feature and a ceiling for full autonomy</li>
-<li>Commercial service; pricing not published on the listing — verify before committing</li>
+<li>Commercial service; pricing not published on the listing - verify before committing</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

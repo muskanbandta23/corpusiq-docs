@@ -10047,7 +10047,7 @@
 
 
 <h1 id="opportunity-atlas-mcp">Opportunity Atlas MCP<a class="headerlink" href="#opportunity-atlas-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, registered API key) — verified Northeast Ohio construction opportunity intelligence for AI agents.</strong> Opportunity Atlas distills construction project intelligence for the region into an agent-facing endpoint with a free preview tier: <code>scout_capabilities</code> and <code>scout_preview</code> work keyless, and registering an agent unlocks the full opportunity surface at capped rates. The operator value is a pipeline feed an agent can watch and act on, instead of a bidding portal a person has to check.</p>
+<p><strong>Remote MCP server (Streamable HTTP, registered API key) - verified Northeast Ohio construction opportunity intelligence for AI agents.</strong> Opportunity Atlas distills construction project intelligence for the region into an agent-facing endpoint with a free preview tier: <code>scout_capabilities</code> and <code>scout_preview</code> work keyless, and registering an agent unlocks the full opportunity surface at capped rates. The operator value is a pipeline feed an agent can watch and act on, instead of a bidding portal a person has to check.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP, Supabase function)
 Auth: registered agent key (hashed at rest, 90-day expiry)
 Endpoint: https://zmxwkvmxcfjgwbrtxxhl.supabase.co/functions/v1/scout-mcp
@@ -10058,8 +10058,8 @@ Category: Sales &amp; Outreach / Construction
 Built by: Opportunity Atlas (supabase-hosted, public beta)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Construction business development runs on early project signals: who is planning, who won the permit, who needs a sub. The traditional sources are spread across permitting systems, bidding boards, and word of mouth, and the cost of watching them is a person checking portals daily. Opportunity Atlas MCP turns that into an agent-callable feed — <code>scout_preview</code> returns free project previews so a sales agent can sample the dataset before committing anything, and <code>scout_capabilities</code> tells the agent exactly what the scout covers. A registered agent then works the full pipeline: query opportunities, watch new entries, and route them into a CRM while a human decides which to pursue.</p>
-<p>The access model is deliberately careful, which matters for an agent-facing beta: keys are displayed once, stored only as hashes, expire after 90 days, and are capped at 20 requests per minute and 100 per day. No payments exist. That is the right shape for early construction-data plumbing — generous enough to be useful, bounded enough to be safe.</p>
+<p>Construction business development runs on early project signals: who is planning, who won the permit, who needs a sub. The traditional sources are spread across permitting systems, bidding boards, and word of mouth, and the cost of watching them is a person checking portals daily. Opportunity Atlas MCP turns that into an agent-callable feed - <code>scout_preview</code> returns free project previews so a sales agent can sample the dataset before committing anything, and <code>scout_capabilities</code> tells the agent exactly what the scout covers. A registered agent then works the full pipeline: query opportunities, watch new entries, and route them into a CRM while a human decides which to pursue.</p>
+<p>The access model is deliberately careful, which matters for an agent-facing beta: keys are displayed once, stored only as hashes, expire after 90 days, and are capped at 20 requests per minute and 100 per day. No payments exist. That is the right shape for early construction-data plumbing - generous enough to be useful, bounded enough to be safe.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10071,7 +10071,7 @@ Built by: Opportunity Atlas (supabase-hosted, public beta)
 <tbody>
 <tr>
 <td><code>scout_capabilities</code></td>
-<td>What the scout covers — regions, project types, and data fields (free, no key)</td>
+<td>What the scout covers - regions, project types, and data fields (free, no key)</td>
 </tr>
 <tr>
 <td><code>scout_preview</code></td>
@@ -10113,14 +10113,14 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <li><strong>Regional service operators</strong> (survey, haulage, restoration) filter for projects matching their trade</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Opportunity Atlas MCP is the top-of-funnel feed for a construction pipeline that CorpusIQ reads at every later stage. The agent pulls new opportunities through the MCP endpoint, qualifies them against the operator's trade and territory, and creates the ones that matter as deals in the CorpusIQ HubSpot or Close connector — the CRM then holds the pursuit, and the CorpusIQ QuickBooks connector tracks the revenue when a project wins. Because the feed is rate-capped and preview-first, the agent can run a daily watch without burning budget. The direction of flow: Opportunity Atlas MCP supplies the project intelligence; CorpusIQ reads the CRM and accounting systems the wins land in.</p>
+<p>Opportunity Atlas MCP is the top-of-funnel feed for a construction pipeline that CorpusIQ reads at every later stage. The agent pulls new opportunities through the MCP endpoint, qualifies them against the operator's trade and territory, and creates the ones that matter as deals in the CorpusIQ HubSpot or Close connector - the CRM then holds the pursuit, and the CorpusIQ QuickBooks connector tracks the revenue when a project wins. Because the feed is rate-capped and preview-first, the agent can run a daily watch without burning budget. The direction of flow: Opportunity Atlas MCP supplies the project intelligence; CorpusIQ reads the CRM and accounting systems the wins land in.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Northeast Ohio only — regional scope is the product, not a bug, but it is a boundary</li>
-<li>Free public beta — the full registered surface and tool names are served from the endpoint and may change</li>
+<li>Northeast Ohio only - regional scope is the product, not a bug, but it is a boundary</li>
+<li>Free public beta - the full registered surface and tool names are served from the endpoint and may change</li>
 <li>Strict rate caps (20/min, 100/day) and 90-day key expiry mean the agent must cache and schedule, not stream</li>
-<li>Supabase-hosted endpoint — no vendor SLA yet, and no payments layer exists to buy more access</li>
-<li>Brand new listing — no community track record yet</li>
+<li>Supabase-hosted endpoint - no vendor SLA yet, and no payments layer exists to buy more access</li>
+<li>Brand new listing - no community track record yet</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

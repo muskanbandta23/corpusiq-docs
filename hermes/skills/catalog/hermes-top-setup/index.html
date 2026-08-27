@@ -23,7 +23,7 @@
     
     
   
-    <title>hermes-top — Setup Guide - CorpusIQ Docs</title>
+    <title>hermes-top - Setup Guide - CorpusIQ Docs</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="hermes-top — Setup Guide - CorpusIQ Docs">
+  <meta property="og:title" content="hermes-top - Setup Guide - CorpusIQ Docs">
   <meta property="og:description" content="Install and run hermes-top, a live htop/btop-style terminal dashboard for Hermes Agent that reads state.db directly.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="hermes-top — Setup Guide - CorpusIQ Docs">
+  <meta name="twitter:title" content="hermes-top - Setup Guide - CorpusIQ Docs">
   <meta name="twitter:description" content="Install and run hermes-top, a live htop/btop-style terminal dashboard for Hermes Agent that reads state.db directly.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "hermes-top \u2014 Setup Guide - CorpusIQ Docs",
+    "name": "hermes-top - Setup Guide - CorpusIQ Docs",
     "description": "Install and run hermes-top, a live htop/btop-style terminal dashboard for Hermes Agent that reads state.db directly.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              hermes-top — Setup Guide - CorpusIQ Docs
+              hermes-top - Setup Guide - CorpusIQ Docs
             
           </span>
         </div>
@@ -10216,16 +10216,16 @@
   
 
 
-<h1 id="hermes-top-full-setup-guide">hermes-top — Full Setup Guide<a class="headerlink" href="#hermes-top-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>A read-only, <code>htop</code>/<code>btop</code>-style live terminal dashboard for <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>. Reads Hermes's SQLite <code>state.db</code> directly — <strong>never writes, cannot interfere with a running Hermes.</strong></p>
+<h1 id="hermes-top-full-setup-guide">hermes-top - Full Setup Guide<a class="headerlink" href="#hermes-top-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p>A read-only, <code>htop</code>/<code>btop</code>-style live terminal dashboard for <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>. Reads Hermes's SQLite <code>state.db</code> directly - <strong>never writes, cannot interfere with a running Hermes.</strong></p>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Go 1.26+</strong> (build only — binary is self-contained)</li>
-<li><strong>Hermes Agent v0.20.0 or newer</strong> — must have run at least once so <code>state.db</code> exists</li>
+<li><strong>Go 1.26+</strong> (build only - binary is self-contained)</li>
+<li><strong>Hermes Agent v0.20.0 or newer</strong> - must have run at least once so <code>state.db</code> exists</li>
 <li>Terminal with 256-color support (most modern terminals)</li>
 </ul>
-<p>The SQLite driver is <a href="https://modernc.org/sqlite"><code>modernc.org/sqlite</code></a> — a pure Go implementation. <strong>No CGO, no system libsqlite3.</strong> Single static binary, cross-compiles trivially.</p>
+<p>The SQLite driver is <a href="https://modernc.org/sqlite"><code>modernc.org/sqlite</code></a> - a pure Go implementation. <strong>No CGO, no system libsqlite3.</strong> Single static binary, cross-compiles trivially.</p>
 <hr />
 <h2 id="install">Install<a class="headerlink" href="#install" title="Anchor link to this section">&para;</a></h2>
 <h3 id="build-from-source">Build from source<a class="headerlink" href="#build-from-source" title="Anchor link to this section">&para;</a></h3>
@@ -10265,7 +10265,7 @@ mv<span class="w"> </span>hermes-top<span class="w"> </span>~/.local/bin/
 <tr>
 <td><code>--interval DUR</code></td>
 <td><code>400ms</code></td>
-<td>Refresh interval, clamped to <code>250ms</code>–<code>500ms</code>.</td>
+<td>Refresh interval, clamped to <code>250ms</code>-<code>500ms</code>.</td>
 </tr>
 <tr>
 <td><code>--dump</code></td>
@@ -10322,7 +10322,7 @@ ssh<span class="w"> </span>user@server<span class="w"> </span><span class="s1">&
 </tr>
 <tr>
 <td><strong>Actions</strong></td>
-<td>Tool calls, skill loads, subagent spawns — with timing and status</td>
+<td>Tool calls, skill loads, subagent spawns - with timing and status</td>
 </tr>
 <tr>
 <td><strong>Events</strong></td>
@@ -10382,7 +10382,7 @@ ssh<span class="w"> </span>user@server<span class="w"> </span><span class="s1">&
 <p>Actions and events panes auto-follow new rows while the cursor is on the newest entry (like <code>tail -f</code>). Move the cursor up and the position freezes as new rows arrive. Press <code>G</code> to re-pin to the newest entry.</p>
 <hr />
 <h2 id="json-display">JSON Display<a class="headerlink" href="#json-display" title="Anchor link to this section">&para;</a></h2>
-<p>Tool arguments and results are JSON. By default each entry is rendered as a single readable line — <code>key=value</code> with escapes decoded (so <code>&amp;</code> shows as <code>&amp;</code>, not <code>&amp;amp;</code>) and subtle syntax coloring.</p>
+<p>Tool arguments and results are JSON. By default each entry is rendered as a single readable line - <code>key=value</code> with escapes decoded (so <code>&amp;</code> shows as <code>&amp;</code>, not <code>&amp;amp;</code>) and subtle syntax coloring.</p>
 <p><strong>Expand:</strong> Highlight an entry and press <code>Enter</code> to expand it inline into full, indented, syntax-highlighted JSON.</p>
 <p><strong>Collapse:</strong> Press <code>←</code> to collapse back to single-line view.</p>
 <p>Non-JSON payloads (e.g., assistant prose) expand to the full wrapped text.</p>
@@ -10421,7 +10421,7 @@ hermes-top<span class="w"> </span>--db<span class="w"> </span>/explicit/path/to/
 <span class="c1"># Should show: xterm-256color, screen-256color, tmux-256color, etc.</span>
 </code></pre></div>
 <h3 id="running-against-a-remote-hermes">Running against a remote Hermes<a class="headerlink" href="#running-against-a-remote-hermes" title="Anchor link to this section">&para;</a></h3>
-<p><code>hermes-top</code> reads <code>state.db</code> directly — it cannot connect to a remote Hermes over the network. To monitor a remote instance:</p>
+<p><code>hermes-top</code> reads <code>state.db</code> directly - it cannot connect to a remote Hermes over the network. To monitor a remote instance:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Option 1: SSH + local read</span>
 ssh<span class="w"> </span>remote-host<span class="w"> </span><span class="s1">&#39;hermes-top --db /path/to/state.db&#39;</span>
 
@@ -10432,9 +10432,9 @@ hermes-top<span class="w"> </span>--db<span class="w"> </span>/tmp/remote-state.
 <hr />
 <h2 id="related-tools">Related Tools<a class="headerlink" href="#related-tools" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/Lucasdjs22/hermes-hud">hermes-hud</a> — Alternative terminal HUD for agent memory, skills, and behavior</li>
-<li><a href="https://github.com/zwright8/hermes-flight-recorder">hermes-flight-recorder</a> — Trace-based scorecards and static eval reports</li>
-<li><a href="https://github.com/503496348-ops/hermes-doctor">hermes-doctor</a> — Self-diagnosis and self-healing plugin</li>
+<li><a href="https://github.com/Lucasdjs22/hermes-hud">hermes-hud</a> - Alternative terminal HUD for agent memory, skills, and behavior</li>
+<li><a href="https://github.com/zwright8/hermes-flight-recorder">hermes-flight-recorder</a> - Trace-based scorecards and static eval reports</li>
+<li><a href="https://github.com/503496348-ops/hermes-doctor">hermes-doctor</a> - Self-diagnosis and self-healing plugin</li>
 </ul>
 <hr />
 <p><em>Powered by CorpusIQ</em></p>

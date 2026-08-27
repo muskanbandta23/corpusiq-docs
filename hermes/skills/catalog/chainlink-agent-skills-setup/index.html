@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure smartcontractkit/chainlink-agent-skills — official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.">
+        <meta name="description" content="Install and configure smartcontractkit/chainlink-agent-skills - official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/chainlink-agent-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Chainlink Agent Skills Setup Guide">
-  <meta property="og:description" content="Install and configure smartcontractkit/chainlink-agent-skills — official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.">
+  <meta property="og:description" content="Install and configure smartcontractkit/chainlink-agent-skills - official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Chainlink Agent Skills Setup Guide">
-  <meta name="twitter:description" content="Install and configure smartcontractkit/chainlink-agent-skills — official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.">
+  <meta name="twitter:description" content="Install and configure smartcontractkit/chainlink-agent-skills - official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Chainlink Agent Skills Setup Guide",
-    "description": "Install and configure smartcontractkit/chainlink-agent-skills \u2014 official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.",
+    "description": "Install and configure smartcontractkit/chainlink-agent-skills - official Chainlink oracle and CCIP skills for blockchain data access from Hermes Agent.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/chainlink-agent-skills-setup",
     
     "datePublished": "2026-08-12",
@@ -10088,16 +10088,16 @@
   
 
 
-<h1 id="chainlink-agent-skills-setup-guide">Chainlink Agent Skills — Setup Guide<a class="headerlink" href="#chainlink-agent-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>Official Chainlink oracle and Cross-Chain Interoperability Protocol (CCIP) skills by <a href="https://github.com/smartcontractkit/chainlink-agent-skills">smartcontractkit</a>. Production-grade blockchain data access for AI agents — price feeds, on-chain data queries, and cross-chain messaging.</p>
+<h1 id="chainlink-agent-skills-setup-guide">Chainlink Agent Skills - Setup Guide<a class="headerlink" href="#chainlink-agent-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p>Official Chainlink oracle and Cross-Chain Interoperability Protocol (CCIP) skills by <a href="https://github.com/smartcontractkit/chainlink-agent-skills">smartcontractkit</a>. Production-grade blockchain data access for AI agents - price feeds, on-chain data queries, and cross-chain messaging.</p>
 <h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Price Feeds</strong> — real-time asset prices from Chainlink Data Feeds</li>
-<li><strong>CCIP Messaging</strong> — cross-chain message sending and receiving</li>
-<li><strong>Proof of Reserve</strong> — verify collateralization of on-chain assets</li>
-<li><strong>Automation</strong> — Chainlink Automation (formerly Keepers) for scheduled on-chain actions</li>
-<li><strong>Functions</strong> — serverless compute for fetching off-chain data on-demand</li>
-<li><strong>VRF</strong> — verifiable random numbers for gaming/NFT applications</li>
+<li><strong>Price Feeds</strong> - real-time asset prices from Chainlink Data Feeds</li>
+<li><strong>CCIP Messaging</strong> - cross-chain message sending and receiving</li>
+<li><strong>Proof of Reserve</strong> - verify collateralization of on-chain assets</li>
+<li><strong>Automation</strong> - Chainlink Automation (formerly Keepers) for scheduled on-chain actions</li>
+<li><strong>Functions</strong> - serverless compute for fetching off-chain data on-demand</li>
+<li><strong>VRF</strong> - verifiable random numbers for gaming/NFT applications</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install via skills.sh</span>
@@ -10152,7 +10152,7 @@ hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </s
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>⚠️ RPC costs</strong>: Ethereum mainnet RPC calls can be expensive. Use a reliable provider (Alchemy, Infura) with rate limits configured. Polygon/Arbitrum are cheaper for testing.</li>
-<li><strong>⚠️ Private key security</strong>: NEVER store private keys in config files. Use environment variables or a hardware wallet. The skill only needs read access for price feeds — sending transactions requires explicit enable.</li>
+<li><strong>⚠️ Private key security</strong>: NEVER store private keys in config files. Use environment variables or a hardware wallet. The skill only needs read access for price feeds - sending transactions requires explicit enable.</li>
 <li><strong>Gas fees</strong>: CCIP messaging and Automation actions incur gas fees. Monitor costs carefully on mainnet.</li>
 <li><strong>Network congestion</strong>: During high-traffic periods, RPC calls may timeout. Set appropriate retry and timeout values.</li>
 <li><strong>Data feed freshness</strong>: Chainlink price feeds update based on deviation thresholds and heartbeat intervals. Prices may be up to 1 hour old for low-volatility assets.</li>

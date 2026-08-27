@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure EricTechPro/loop-maker — cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier">
+        <meta name="description" content="Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Loop Maker — Agent Loop Scaffolding Setup Guide</title>
+    <title>Loop Maker - Agent Loop Scaffolding Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/loop-maker-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Loop Maker — Agent Loop Scaffolding Setup Guide">
-  <meta property="og:description" content="Install and configure EricTechPro/loop-maker — cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier">
+  <meta property="og:title" content="Loop Maker - Agent Loop Scaffolding Setup Guide">
+  <meta property="og:description" content="Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Loop Maker — Agent Loop Scaffolding Setup Guide">
-  <meta name="twitter:description" content="Install and configure EricTechPro/loop-maker — cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier">
+  <meta name="twitter:title" content="Loop Maker - Agent Loop Scaffolding Setup Guide">
+  <meta name="twitter:description" content="Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Loop Maker \u2014 Agent Loop Scaffolding Setup Guide",
-    "description": "Install and configure EricTechPro/loop-maker \u2014 cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier",
+    "name": "Loop Maker - Agent Loop Scaffolding Setup Guide",
+    "description": "Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/loop-maker-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Loop Maker — Agent Loop Scaffolding Setup Guide
+              Loop Maker - Agent Loop Scaffolding Setup Guide
             
           </span>
         </div>
@@ -10083,7 +10083,7 @@
   
 
 
-<h1 id="loop-maker-skill-setup">Loop Maker — Skill Setup<a class="headerlink" href="#loop-maker-skill-setup" title="Anchor link to this section">&para;</a></h1>
+<h1 id="loop-maker-skill-setup">Loop Maker - Skill Setup<a class="headerlink" href="#loop-maker-skill-setup" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/EricTechPro/loop-maker">EricTechPro/loop-maker</a>
 <strong>Stars:</strong> 0 ⭐ | <strong>License:</strong> MIT
 <strong>Created:</strong> June 24, 2026
@@ -10091,7 +10091,7 @@
 <strong>Cross-Harness:</strong> Claude Code · Codex · Hermes · OpenClaw</p>
 <hr />
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A portable agent skill that interviews you through a 7-question wizard and scaffolds a self-running autonomous loop — complete with separate verifier, state file, stop conditions, and human gate. Works across all major agent harnesses.</p>
+<p>A portable agent skill that interviews you through a 7-question wizard and scaffolds a self-running autonomous loop - complete with separate verifier, state file, stop conditions, and human gate. Works across all major agent harnesses.</p>
 <p><strong>Why most loops fail (and how this catches it):</strong>
 1. ❌ Agent judges its own work → ✅ Separate verifier built into scaffold
 2. ❌ State leaks into the skill file → ✅ Dedicated STATE.md outside the skill
@@ -10125,37 +10125,37 @@ cp<span class="w"> </span>-r<span class="w"> </span>loop-maker<span class="w"> <
 <tbody>
 <tr>
 <td>1</td>
-<td><strong>Goal</strong> — What checkable condition means "done for now"?</td>
+<td><strong>Goal</strong> - What checkable condition means "done for now"?</td>
 <td>Vague/unfalsifiable goals</td>
 </tr>
 <tr>
 <td>2</td>
-<td><strong>Trigger</strong> — What starts each run? Schedule, event, or run-until-done?</td>
+<td><strong>Trigger</strong> - What starts each run? Schedule, event, or run-until-done?</td>
 <td>Undefined activation</td>
 </tr>
 <tr>
 <td>3</td>
-<td><strong>Discovery</strong> — How does it find the work to do each round?</td>
+<td><strong>Discovery</strong> - How does it find the work to do each round?</td>
 <td>Blind loops with nothing to do</td>
 </tr>
 <tr>
 <td>4</td>
-<td><strong>Action</strong> — What's it allowed to do, and through which tools?</td>
+<td><strong>Action</strong> - What's it allowed to do, and through which tools?</td>
 <td>Unbounded capabilities</td>
 </tr>
 <tr>
 <td>5</td>
-<td><strong>Verification</strong> — Who checks the result, and against what?</td>
+<td><strong>Verification</strong> - Who checks the result, and against what?</td>
 <td>Agent self-grading</td>
 </tr>
 <tr>
 <td>6</td>
-<td><strong>State</strong> — Where does "what's done / what's left" live?</td>
+<td><strong>State</strong> - Where does "what's done / what's left" live?</td>
 <td>Amnesia between runs</td>
 </tr>
 <tr>
 <td>7</td>
-<td><strong>Human gate</strong> — Which actions are irreversible and must ask first?</td>
+<td><strong>Human gate</strong> - Which actions are irreversible and must ask first?</td>
 <td>Catastrophic automation</td>
 </tr>
 </tbody>
@@ -10275,7 +10275,7 @@ hermes<span class="w"> </span>-s<span class="w"> </span>loop-maker<span class="w
 <tr>
 <td>Cross-harness compatibility</td>
 <td>Tool names differ</td>
-<td>Loop Maker uses abstract tool references — bind to your harness</td>
+<td>Loop Maker uses abstract tool references - bind to your harness</td>
 </tr>
 </tbody>
 </table>

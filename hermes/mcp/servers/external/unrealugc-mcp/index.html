@@ -10044,11 +10044,11 @@ Remote endpoint: https://unrealugc.com/api/mcp
 Tools: 11 (models, creators, voices, projects, videos, credits, generation)
 License: MIT
 Category: Marketing / AI video ads
-Built by: UnrealUGC (unrealugc.com) — registry com.unrealugc/mcp
+Built by: UnrealUGC (unrealugc.com) - registry com.unrealugc/mcp
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>UGC-style ads convert, but shooting them is the bottleneck: finding creators, briefing, filming, editing, iterating. UnrealUGC moves the whole loop into an agent: pick a creator persona, pick a voice, estimate what the generation costs in credits before spending anything, then generate asynchronously and poll for the finished video. Eleven tools cover the entire workflow, so the agent can run "make three ad variations across three creators and tell me which performs best" as one job instead of a production calendar.</p>
-<p><strong>Cost-before-spend is the operator-friendly detail.</strong> <code>estimate_video_cost</code> prices a generation before it starts, and <code>get_credits</code> answers "how many 15-second videos can I make this month" — credit discipline built into the tool surface rather than discovered on the invoice.</p>
+<p><strong>Cost-before-spend is the operator-friendly detail.</strong> <code>estimate_video_cost</code> prices a generation before it starts, and <code>get_credits</code> answers "how many 15-second videos can I make this month" - credit discipline built into the tool surface rather than discovered on the invoice.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10127,7 +10127,7 @@ Built by: UnrealUGC (unrealugc.com) — registry com.unrealugc/mcp
 <tr>
 <td><code>UNREALUGC_API_KEY</code></td>
 <td>yes</td>
-<td>—</td>
+<td>-</td>
 <td>API key from unrealugc.com/dashboard/settings/api-keys</td>
 </tr>
 <tr>
@@ -10146,13 +10146,13 @@ Built by: UnrealUGC (unrealugc.com) — registry com.unrealugc/mcp
 <li><strong>Lean teams</strong> cover "we need video ads" with one API key instead of a production pipeline</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ's 40+ connectors measure what ads earn — spend, revenue, conversions across Google, Meta and storefronts. UnrealUGC produces the creative that enters those funnels. The composed loop: UnrealUGC generates and polls ad variants from an agent, the agent publishes them through the existing social stack, and CorpusIQ's ad and analytics connectors attribute results — creative production and performance measurement in one session, no spreadsheet handoff between tools.</p>
+<p>CorpusIQ's 40+ connectors measure what ads earn - spend, revenue, conversions across Google, Meta and storefronts. UnrealUGC produces the creative that enters those funnels. The composed loop: UnrealUGC generates and polls ad variants from an agent, the agent publishes them through the existing social stack, and CorpusIQ's ad and analytics connectors attribute results - creative production and performance measurement in one session, no spreadsheet handoff between tools.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>New listing (repo and service launched Aug 18, 2026); no public pricing beyond credit-based billing</li>
-<li>Asynchronous generation means polling — long videos need the agent to check back rather than blocking</li>
+<li>Asynchronous generation means polling - long videos need the agent to check back rather than blocking</li>
 <li>Creator and voice libraries are stock-first; custom creators may be a higher plan tier</li>
-<li>Eleven tools cover the core loop, but no editing or caption tooling — post-production stays outside the MCP surface</li>
+<li>Eleven tools cover the core loop, but no editing or caption tooling - post-production stays outside the MCP surface</li>
 </ul>
 
 

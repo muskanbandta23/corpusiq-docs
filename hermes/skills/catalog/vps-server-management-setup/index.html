@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete setup guide for vps-server-management — manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.">
+        <meta name="description" content="Complete setup guide for vps-server-management - manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/vps-server-management-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="vps-server-management Setup Guide">
-  <meta property="og:description" content="Complete setup guide for vps-server-management — manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.">
+  <meta property="og:description" content="Complete setup guide for vps-server-management - manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="vps-server-management Setup Guide">
-  <meta name="twitter:description" content="Complete setup guide for vps-server-management — manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.">
+  <meta name="twitter:description" content="Complete setup guide for vps-server-management - manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "vps-server-management Setup Guide",
-    "description": "Complete setup guide for vps-server-management \u2014 manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.",
+    "description": "Complete setup guide for vps-server-management - manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/vps-server-management-setup",
     
     "datePublished": "2026-08-12",
@@ -10101,13 +10101,13 @@
 
 <h1 id="vps-server-management-setup-guide">vps-server-management Setup Guide<a class="headerlink" href="#vps-server-management-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Skill:</strong> <code>vps-server-management</code> · <strong>Installs:</strong> 26 · <strong>Source:</strong> <a href="https://github.com/davidondrej/skills">davidondrej/skills</a> (2,510 ★)</p>
-<p>Manage VPS servers and the AI agents running inside them — connect, deploy, monitor, restart, and operate remote hosts and their agents. Part of davidondrej's 40-skill agent operations toolkit.</p>
+<p>Manage VPS servers and the AI agents running inside them - connect, deploy, monitor, restart, and operate remote hosts and their agents. Part of davidondrej's 40-skill agent operations toolkit.</p>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>SSH access</strong> to target VPS servers (root or sudo user)</li>
 <li><strong>Hostinger VPS</strong> or any Ubuntu 24.04 server (the skill's reference configuration uses Hostinger + Dokploy/n8n)</li>
-<li><strong>Agent installed on VPS</strong> — Hermes Agent, OpenClaw, Codex, or Claude Code</li>
+<li><strong>Agent installed on VPS</strong> - Hermes Agent, OpenClaw, Codex, or Claude Code</li>
 <li><strong>Infrastructure document</strong> at <code>~/Documents/code/workspace/library/infrastructure.md</code> (source of truth for IPs, expirations, access levels)</li>
 </ul>
 <hr />
@@ -10117,11 +10117,11 @@
 <hr />
 <h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Server inventory management</strong> — Track hostnames, IPs, OS, purpose, and expiration dates</li>
-<li><strong>SSH agent deployment</strong> — Launch agents directly on VPS for full filesystem/process context</li>
-<li><strong>Remote monitoring</strong> — Check agent status and health on remote hosts</li>
-<li><strong>Access level enforcement</strong> — Three tiers: App login, VPS SSH, Hostinger hPanel</li>
-<li><strong>Multi-server operations</strong> — Manage multiple VPS instances with different purposes (Dokploy, n8n, Discord gateways)</li>
+<li><strong>Server inventory management</strong> - Track hostnames, IPs, OS, purpose, and expiration dates</li>
+<li><strong>SSH agent deployment</strong> - Launch agents directly on VPS for full filesystem/process context</li>
+<li><strong>Remote monitoring</strong> - Check agent status and health on remote hosts</li>
+<li><strong>Access level enforcement</strong> - Three tiers: App login, VPS SSH, Hostinger hPanel</li>
+<li><strong>Multi-server operations</strong> - Manage multiple VPS instances with different purposes (Dokploy, n8n, Discord gateways)</li>
 </ul>
 <hr />
 <h2 id="reference-architecture">Reference Architecture<a class="headerlink" href="#reference-architecture" title="Anchor link to this section">&para;</a></h2>
@@ -10137,7 +10137,7 @@
 <tbody>
 <tr>
 <td><code>&lt;server-1&gt;</code></td>
-<td>Dokploy — personal OpenClaw instance</td>
+<td>Dokploy - personal OpenClaw instance</td>
 <td>OpenClaw</td>
 </tr>
 <tr>
@@ -10147,7 +10147,7 @@
 </tr>
 <tr>
 <td><code>&lt;server-3&gt;</code></td>
-<td><strong>Hermes Agent — Discord gateway</strong></td>
+<td><strong>Hermes Agent - Discord gateway</strong></td>
 <td><strong>Hermes Agent</strong></td>
 </tr>
 </tbody>
@@ -10168,7 +10168,7 @@
 <p>For short command sequences (updates, config changes, restarts), the skill recommends driving an existing SSH session directly.</p>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Hermes Agent Discord gateway management:</strong> Manage the CorpusIQ Discord gateway Hermes Agent deployment — monitor uptime, restart after updates, verify connectivity.</p>
+<p><strong>Hermes Agent Discord gateway management:</strong> Manage the CorpusIQ Discord gateway Hermes Agent deployment - monitor uptime, restart after updates, verify connectivity.</p>
 <p><strong>Multi-agent infrastructure:</strong> Track all CorpusIQ agent deployments across VPS instances with a single inventory document.</p>
 <p><strong>CI/CD for agent updates:</strong> Push Hermes Agent updates to remote VPS instances with rollback capability.</p>
 <hr />
@@ -10219,25 +10219,25 @@
 </tr>
 <tr>
 <td>Permission denied</td>
-<td>Check access level — app login doesn't grant SSH access</td>
+<td>Check access level - app login doesn't grant SSH access</td>
 </tr>
 <tr>
 <td>cmux agent prefills wrong message</td>
-<td>Claude Code cmux note: after Claude finishes, it may prefill a predicted next user message — that draft is Claude, not the user speaking</td>
+<td>Claude Code cmux note: after Claude finishes, it may prefill a predicted next user message - that draft is Claude, not the user speaking</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/distribute-skill-to-all-agents-setup">distribute-skill-to-all-agents</a> — Sync skills across agent instances (same publisher)</li>
-<li><a href="/hermes/skills/catalog/browser-harness-setup">browser-harness</a> — Browser automation for agents (same publisher)</li>
-<li><a href="https://skills.sh/davidondrej/skills">anti-sleep</a> — Keep remote agents alive on VPS</li>
-<li><a href="https://skills.sh/davidondrej/skills">setup-help</a> — Agent environment setup assistance</li>
+<li><a href="/hermes/skills/catalog/distribute-skill-to-all-agents-setup">distribute-skill-to-all-agents</a> - Sync skills across agent instances (same publisher)</li>
+<li><a href="/hermes/skills/catalog/browser-harness-setup">browser-harness</a> - Browser automation for agents (same publisher)</li>
+<li><a href="https://skills.sh/davidondrej/skills">anti-sleep</a> - Keep remote agents alive on VPS</li>
+<li><a href="https://skills.sh/davidondrej/skills">setup-help</a> - Agent environment setup assistance</li>
 </ul>
 <hr />
 <p><em>← <a href="/hermes/skills/marketplace">Skills Marketplace</a> | <a href="/hermes/skills/catalog">Skills Catalog</a> →</em>
-<em>Curated by CorpusIQ — one MCP endpoint, all your business tools.</em></p>
+<em>Curated by CorpusIQ - one MCP endpoint, all your business tools.</em></p>
 
 
 

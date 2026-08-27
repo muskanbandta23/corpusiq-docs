@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent — a persistent world model with limited working-memory desk, dual decode">
+        <meta name="description" content="Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermespace — Persistent Agent World Setup</title>
+    <title>Hermespace - Persistent Agent World Setup</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermespace — Persistent Agent World Setup">
-  <meta property="og:description" content="Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent — a persistent world model with limited working-memory desk, dual decode">
+  <meta property="og:title" content="Hermespace - Persistent Agent World Setup">
+  <meta property="og:description" content="Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermespace — Persistent Agent World Setup">
-  <meta name="twitter:description" content="Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent — a persistent world model with limited working-memory desk, dual decode">
+  <meta name="twitter:title" content="Hermespace - Persistent Agent World Setup">
+  <meta name="twitter:description" content="Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermespace \u2014 Persistent Agent World Setup",
-    "description": "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent \u2014 a persistent world model with limited working-memory desk, dual decode",
+    "name": "Hermespace - Persistent Agent World Setup",
+    "description": "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermespace — Persistent Agent World Setup
+              Hermespace - Persistent Agent World Setup
             
           </span>
         </div>
@@ -10079,7 +10079,7 @@
   <a href="#quick-start-workbench" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick start — Workbench
+        Quick start - Workbench
       
     </span>
   </a>
@@ -10123,7 +10123,7 @@
   <a href="#fabric-skill-ranking" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fabric — Skill ranking
+        Fabric - Skill ranking
       
     </span>
   </a>
@@ -10236,13 +10236,13 @@
 <h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
 <p>Hermespace is a persistent, append-only world model that adds a limited working-memory desk beside Hermes Agent. It provides:</p>
 <ul>
-<li><strong>Workbench</strong> — Focused attention of ≤4 items, park stack for deferred goals, monotropic goal focus</li>
-<li><strong>Dual Decode</strong> — Separate channels: short human <code>report</code> vs dense model <code>context</code> (never dumps model context into chat)</li>
-<li><strong>Fabric</strong> — Ranks <code>$HERMES_HOME/skills</code> and injects MEMORY/USER excerpts relevant to current goal</li>
-<li><strong>Plugin</strong> — <code>on_session_start</code>, <code>pre_llm_call</code>, <code>on_session_end</code> hook broadcasts</li>
-<li><strong>Study DB</strong> — Turn history stored under <code>~/.hermespace</code> (separate from Hermes session DB)</li>
-<li><strong>Desktop Plugin</strong> — Right-rail pane for Hermes desktop app</li>
-<li><strong>World Model</strong> — Append-only archive that never prunes, never decays, never caps</li>
+<li><strong>Workbench</strong> - Focused attention of ≤4 items, park stack for deferred goals, monotropic goal focus</li>
+<li><strong>Dual Decode</strong> - Separate channels: short human <code>report</code> vs dense model <code>context</code> (never dumps model context into chat)</li>
+<li><strong>Fabric</strong> - Ranks <code>$HERMES_HOME/skills</code> and injects MEMORY/USER excerpts relevant to current goal</li>
+<li><strong>Plugin</strong> - <code>on_session_start</code>, <code>pre_llm_call</code>, <code>on_session_end</code> hook broadcasts</li>
+<li><strong>Study DB</strong> - Turn history stored under <code>~/.hermespace</code> (separate from Hermes session DB)</li>
+<li><strong>Desktop Plugin</strong> - Right-rail pane for Hermes desktop app</li>
+<li><strong>World Model</strong> - Append-only archive that never prunes, never decays, never caps</li>
 </ul>
 <p>It does <strong>not</strong> replace Hermes tools, skills, memory, gateway, or the agent loop. It augments them.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -10286,9 +10286,9 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 <div class="highlight"><pre><span></span><code>ls<span class="w"> </span>-la<span class="w"> </span><span class="nv">$HERMES_HOME</span>/plugins/hermespace/
 </code></pre></div></p>
 <p>The plugin broadcasts on three hooks:
-- <code>on_session_start</code> — Desk initialization, fabric scan
-- <code>pre_llm_call</code> — Inject ranked skills + memory
-- <code>on_session_end</code> — Seal turn, update archive</p>
+- <code>on_session_start</code> - Desk initialization, fabric scan
+- <code>pre_llm_call</code> - Inject ranked skills + memory
+- <code>on_session_end</code> - Seal turn, update archive</p>
 <h3 id="skill-loading">Skill loading<a class="headerlink" href="#skill-loading" title="Anchor link to this section">&para;</a></h3>
 <p>The skill (<code>hermespace</code>) should be loaded when:
 - User says "hermespace", "pocket", "workbench", "FOA desk", "pulse", "viewport"
@@ -10297,7 +10297,7 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 - Desktop Hermespace missing or right-rail only
 - Access approve/deny, autonomy toggles, ops boot</p>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
-<h3 id="quick-start-workbench">Quick start — Workbench<a class="headerlink" href="#quick-start-workbench" title="Anchor link to this section">&para;</a></h3>
+<h3 id="quick-start-workbench">Quick start - Workbench<a class="headerlink" href="#quick-start-workbench" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">hermespace</span> <span class="kn">import</span> <span class="n">Workbench</span>
 
 <span class="n">wb</span> <span class="o">=</span> <span class="n">Workbench</span><span class="p">(</span><span class="n">agent_id</span><span class="o">=</span><span class="s2">&quot;hermes&quot;</span><span class="p">,</span> <span class="n">session_id</span><span class="o">=</span><span class="s2">&quot;main&quot;</span><span class="p">)</span>
@@ -10318,11 +10318,11 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 <span class="n">wm</span><span class="o">.</span><span class="n">add_belief</span><span class="p">(</span><span class="s2">&quot;Help-first content outperforms promotional&quot;</span><span class="p">,</span> <span class="mf">0.85</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="s2">&quot;six-month-data&quot;</span><span class="p">)</span>
 <span class="n">wm</span><span class="o">.</span><span class="n">add_landmark</span><span class="p">(</span><span class="s2">&quot;Hit 5,000 monthly reach across platforms&quot;</span><span class="p">)</span>
 <span class="n">wm</span><span class="o">.</span><span class="n">set_trait</span><span class="p">(</span><span class="s2">&quot;operations-minded&quot;</span><span class="p">)</span>
-<span class="n">wm</span><span class="o">.</span><span class="n">set_goal</span><span class="p">(</span><span class="s2">&quot;Grow to 15% MoM&quot;</span><span class="p">,</span> <span class="n">decision</span><span class="o">=</span><span class="s2">&quot;A — increase Reddit presence&quot;</span><span class="p">,</span> <span class="n">plan</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;audit&quot;</span><span class="p">,</span> <span class="s2">&quot;deploy&quot;</span><span class="p">,</span> <span class="s2">&quot;measure&quot;</span><span class="p">])</span>
+<span class="n">wm</span><span class="o">.</span><span class="n">set_goal</span><span class="p">(</span><span class="s2">&quot;Grow to 15% MoM&quot;</span><span class="p">,</span> <span class="n">decision</span><span class="o">=</span><span class="s2">&quot;A - increase Reddit presence&quot;</span><span class="p">,</span> <span class="n">plan</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;audit&quot;</span><span class="p">,</span> <span class="s2">&quot;deploy&quot;</span><span class="p">,</span> <span class="s2">&quot;measure&quot;</span><span class="p">])</span>
 <span class="n">wm</span><span class="o">.</span><span class="n">evolve</span><span class="p">()</span>  <span class="c1"># consolidate, detect patterns</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">wm</span><span class="o">.</span><span class="n">render_markdown</span><span class="p">())</span>
 </code></pre></div>
-<p>The archive lives at <code>~/.hermespace/worlds/corpusiq-growth_archive.jsonl</code> — an append-only JSONL file that grows forever.</p>
+<p>The archive lives at <code>~/.hermespace/worlds/corpusiq-growth_archive.jsonl</code> - an append-only JSONL file that grows forever.</p>
 <h3 id="focus-of-attention-foa">Focus of Attention (FOA)<a class="headerlink" href="#focus-of-attention-foa" title="Anchor link to this section">&para;</a></h3>
 <p>The workbench enforces a bounded FOA:</p>
 <table>
@@ -10352,7 +10352,7 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 </tbody>
 </table>
 <p>When the desk is full, items are parked and can be recalled.</p>
-<h3 id="fabric-skill-ranking">Fabric — Skill ranking<a class="headerlink" href="#fabric-skill-ranking" title="Anchor link to this section">&para;</a></h3>
+<h3 id="fabric-skill-ranking">Fabric - Skill ranking<a class="headerlink" href="#fabric-skill-ranking" title="Anchor link to this section">&para;</a></h3>
 <p>The fabric scans <code>$HERMES_HOME/skills/</code> and ranks them by relevance to the current goal. It injects the top matches into the model context (not the user report):</p>
 <div class="highlight"><pre><span></span><code><span class="n">wb</span> <span class="o">=</span> <span class="n">Workbench</span><span class="p">()</span>
 <span class="n">wb</span><span class="o">.</span><span class="n">enter</span><span class="p">()</span>
@@ -10387,24 +10387,24 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 </table>
 <p>This prevents the context pollution where model-internal reasoning overwhelms the conversation.</p>
 <h3 id="append-only-archive">Append-Only Archive<a class="headerlink" href="#append-only-archive" title="Anchor link to this section">&para;</a></h3>
-<p>The world model is an append-only JSONL — no pruning, no decay, no deletion. Every entry type (<code>enter</code>, <code>leave</code>, <code>landmark</code>, <code>belief</code>, <code>trait</code>, <code>evolution</code>, <code>focus</code>, <code>epoch_transition</code>, <code>resolve</code>, <code>relationship</code>) appends to the file.</p>
-<p>Evolution is triggered explicitly (<code>wm.evolve()</code>) and handled by the library — consolidation, pattern detection, epoch checks.</p>
+<p>The world model is an append-only JSONL - no pruning, no decay, no deletion. Every entry type (<code>enter</code>, <code>leave</code>, <code>landmark</code>, <code>belief</code>, <code>trait</code>, <code>evolution</code>, <code>focus</code>, <code>epoch_transition</code>, <code>resolve</code>, <code>relationship</code>) appends to the file.</p>
+<p>Evolution is triggered explicitly (<code>wm.evolve()</code>) and handled by the library - consolidation, pattern detection, epoch checks.</p>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>
-<p><strong>Not a replacement for Hermes memory</strong> — Hermespace's archive is a companion, not a replacement for Hermes MEMORY, Sibyl, or GBrain. Use both.</p>
+<p><strong>Not a replacement for Hermes memory</strong> - Hermespace's archive is a companion, not a replacement for Hermes MEMORY, Sibyl, or GBrain. Use both.</p>
 </li>
 <li>
-<p><strong>Not a second agent runtime</strong> — Hermespace provides bounded working memory, not a second LLM. It does not make API calls or run tools.</p>
+<p><strong>Not a second agent runtime</strong> - Hermespace provides bounded working memory, not a second LLM. It does not make API calls or run tools.</p>
 </li>
 <li>
-<p><strong>Desktop plugin requires Hermes desktop app</strong> — The right-rail pane only works with the Hermes desktop app (Electron). On headless/SSH systems, use the Python API.</p>
+<p><strong>Desktop plugin requires Hermes desktop app</strong> - The right-rail pane only works with the Hermes desktop app (Electron). On headless/SSH systems, use the Python API.</p>
 </li>
 <li>
-<p><strong>Archive grows unbounded</strong> — The JSONL file never prunes. For long-running agents (months/years), disk usage may become significant. Monitor <code>~/.hermespace/worlds/</code> size periodically.</p>
+<p><strong>Archive grows unbounded</strong> - The JSONL file never prunes. For long-running agents (months/years), disk usage may become significant. Monitor <code>~/.hermespace/worlds/</code> size periodically.</p>
 </li>
 <li>
-<p><strong>Python 3.10+ required</strong> — Some type annotations and features require Python 3.10+. On older systems, upgrade Python first.</p>
+<p><strong>Python 3.10+ required</strong> - Some type annotations and features require Python 3.10+. On older systems, upgrade Python first.</p>
 </li>
 </ol>
 <h2 id="verification-checklist">Verification Checklist<a class="headerlink" href="#verification-checklist" title="Anchor link to this section">&para;</a></h2>
@@ -10420,9 +10420,9 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/PabloTheThinker/hermespace">Official Repo</a></li>
-<li><a href="https://github.com/PabloTheThinker/hermespace/blob/main/FOR_HERMES.md">FOR_HERMES.md</a> — maintainer notes</li>
-<li><a href="https://github.com/PabloTheThinker/hermespace/blob/main/WORKFLOW.md">WORKFLOW.md</a> — agent workflow design</li>
-<li><a href="https://github.com/PabloTheThinker/hermespace/tree/main/docs">Design docs</a> — concept research, workbench design</li>
+<li><a href="https://github.com/PabloTheThinker/hermespace/blob/main/FOR_HERMES.md">FOR_HERMES.md</a> - maintainer notes</li>
+<li><a href="https://github.com/PabloTheThinker/hermespace/blob/main/WORKFLOW.md">WORKFLOW.md</a> - agent workflow design</li>
+<li><a href="https://github.com/PabloTheThinker/hermespace/tree/main/docs">Design docs</a> - concept research, workbench design</li>
 </ul>
 <hr />
 <p><em>Discovered July 19, 2026 · <a href="/hermes/skills/marketplace/new-july19-2026">Marketplace →</a></em></p>

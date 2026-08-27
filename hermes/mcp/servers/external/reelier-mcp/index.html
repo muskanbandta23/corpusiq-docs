@@ -10039,13 +10039,13 @@
 
 
 <h1 id="reelier-mcp-server">Reelier MCP Server<a class="headerlink" href="#reelier-mcp-server" title="Anchor link to this section">&para;</a></h1>
-<p>MCP server for <strong>recording agent tool-call workflows and replaying them deterministically at zero tokens</strong>. Agents make claims — Reelier writes receipts. Record an agent's workflow once, replay it exactly, and diff runs to catch drift.</p>
+<p>MCP server for <strong>recording agent tool-call workflows and replaying them deterministically at zero tokens</strong>. Agents make claims - Reelier writes receipts. Record an agent's workflow once, replay it exactly, and diff runs to catch drift.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Workflow Recording</strong> — Capture every tool call, parameter, and response in an agent session</li>
-<li><strong>Deterministic Replay</strong> — Replay recorded workflows exactly — no LLM, no tokens, no variation</li>
-<li><strong>Drift Detection</strong> — Diff current runs against recorded baselines to detect changes</li>
-<li><strong>Zero Token Cost</strong> — Replay costs nothing because it's purely deterministic</li>
+<li><strong>Workflow Recording</strong> - Capture every tool call, parameter, and response in an agent session</li>
+<li><strong>Deterministic Replay</strong> - Replay recorded workflows exactly - no LLM, no tokens, no variation</li>
+<li><strong>Drift Detection</strong> - Diff current runs against recorded baselines to detect changes</li>
+<li><strong>Zero Token Cost</strong> - Replay costs nothing because it's purely deterministic</li>
 </ul>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10095,18 +10095,18 @@ npm<span class="w"> </span>install
 </code></pre></div>
 <h2 id="tools-provided">Tools Provided<a class="headerlink" href="#tools-provided" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><code>start_recording</code> — Begin capturing agent workflow</li>
-<li><code>stop_recording</code> — End capture and save workflow</li>
-<li><code>replay_workflow</code> — Deterministically replay a saved workflow</li>
-<li><code>diff_workflows</code> — Compare two workflow runs, identify drift</li>
-<li><code>list_recordings</code> — Browse saved workflow recordings</li>
+<li><code>start_recording</code> - Begin capturing agent workflow</li>
+<li><code>stop_recording</code> - End capture and save workflow</li>
+<li><code>replay_workflow</code> - Deterministically replay a saved workflow</li>
+<li><code>diff_workflows</code> - Compare two workflow runs, identify drift</li>
+<li><code>list_recordings</code> - Browse saved workflow recordings</li>
 </ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>0 stars, brand new</strong> — Created July 22, 2026. Experimental.</li>
-<li><strong>Deterministic only</strong> — Replay is exact. Can't adapt to changed environments or APIs.</li>
-<li><strong>Storage growth</strong> — Long workflows with large responses consume disk space.</li>
-<li><strong>No scheduling</strong> — Manual trigger only. No cron/CI integration yet.</li>
+<li><strong>0 stars, brand new</strong> - Created July 22, 2026. Experimental.</li>
+<li><strong>Deterministic only</strong> - Replay is exact. Can't adapt to changed environments or APIs.</li>
+<li><strong>Storage growth</strong> - Long workflows with large responses consume disk space.</li>
+<li><strong>No scheduling</strong> - Manual trigger only. No cron/CI integration yet.</li>
 </ul>
 <h2 id="operator-verdict">Operator Verdict<a class="headerlink" href="#operator-verdict" title="Anchor link to this section">&para;</a></h2>
 <p>★★★ <strong>Critical infrastructure for agent operations at scale.</strong> This is one of the first MCP servers addressing the "how do we know what our agents are doing" problem. Deterministic replay for compliance and cost savings is genuinely innovative. Watch for CI/CD integration and scheduling features. This could become standard equipment for any team running &gt;3 agents in production.</p>

@@ -10047,7 +10047,7 @@
 
 
 <h1 id="livesend-mcp">LiveSend MCP<a class="headerlink" href="#livesend-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Publish reports, proposals and dashboards from an AI conversation to a permanent, trackable, password-protected link.</strong> LiveSend turns what an LLM just wrote into an address the client can open in any browser — with version history, password protection, view analytics and reader comments. The reader installs nothing; the connector is for the author. Twelve tools cover five intentions: publish, revise, protect, measure and find.</p>
+<p><strong>Publish reports, proposals and dashboards from an AI conversation to a permanent, trackable, password-protected link.</strong> LiveSend turns what an LLM just wrote into an address the client can open in any browser - with version history, password protection, view analytics and reader comments. The reader installs nothing; the connector is for the author. Twelve tools cover five intentions: publish, revise, protect, measure and find.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
 Endpoint: https://www.livesend.io/api/mcp/mcp
 Auth: One-time browser approval (Claude connector flow)
@@ -10057,7 +10057,7 @@ Built by: LiveSend (livesend.io)
 Also listed: Smithery (samuel-v9g5/livesend)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>The standard operator loop — build the report, export it, attach it to an email, chase whether anyone opened it — collapses into one step. LiveSend's MCP connector publishes the document as a URL with a readable slug, and the analytics tools answer "who read it" without leaving the conversation. Password protection is a first-class tool, not an afterthought, and published links stay stable while content changes through versions: <code>add_version</code> and <code>restore_version</code> revise without breaking the link already sent to the client.</p>
+<p>The standard operator loop - build the report, export it, attach it to an email, chase whether anyone opened it - collapses into one step. LiveSend's MCP connector publishes the document as a URL with a readable slug, and the analytics tools answer "who read it" without leaving the conversation. Password protection is a first-class tool, not an afterthought, and published links stay stable while content changes through versions: <code>add_version</code> and <code>restore_version</code> revise without breaking the link already sent to the client.</p>
 <p>The reader experience is deliberately plain: a link in a browser, no signup, no app. That is what makes it usable for client-facing work where the recipient is not technical.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10070,23 +10070,23 @@ Also listed: Smithery (samuel-v9g5/livesend)
 <tbody>
 <tr>
 <td>Publish</td>
-<td><code>create_document</code>, <code>add_version</code> — turn written content into a shareable address</td>
+<td><code>create_document</code>, <code>add_version</code> - turn written content into a shareable address</td>
 </tr>
 <tr>
 <td>Revise</td>
-<td><code>edit_document</code>, <code>list_versions</code>, <code>restore_version</code> — change a document without changing its link</td>
+<td><code>edit_document</code>, <code>list_versions</code>, <code>restore_version</code> - change a document without changing its link</td>
 </tr>
 <tr>
 <td>Protect</td>
-<td><code>set_password</code> — gate a link and rotate the password later</td>
+<td><code>set_password</code> - gate a link and rotate the password later</td>
 </tr>
 <tr>
 <td>Measure</td>
-<td><code>get_analytics</code>, <code>get_comments</code> — who read it and what they said</td>
+<td><code>get_analytics</code>, <code>get_comments</code> - who read it and what they said</td>
 </tr>
 <tr>
 <td>Find</td>
-<td><code>list_documents</code>, <code>get_document</code>, <code>list_team_documents</code>, <code>share_document</code> — work with your own or your team's published documents</td>
+<td><code>list_documents</code>, <code>get_document</code>, <code>list_team_documents</code>, <code>share_document</code> - work with your own or your team's published documents</td>
 </tr>
 </tbody>
 </table>
@@ -10101,7 +10101,7 @@ Also listed: Smithery (samuel-v9g5/livesend)
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>After the one-time approval, the connector has access to documents only — nothing else in the account. Passwords set through <code>set_password</code> are shown once; rotate them when a link's audience changes. The free tier is three documents with no card, which covers a trial of the full toolset.</p>
+<p>After the one-time approval, the connector has access to documents only - nothing else in the account. Passwords set through <code>set_password</code> are shown once; rotate them when a link's audience changes. The free tier is three documents with no card, which covers a trial of the full toolset.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Consultants and agencies</strong> send client deliverables as trackable links and see who actually opened them</li>
@@ -10110,18 +10110,18 @@ Also listed: Smithery (samuel-v9g5/livesend)
 <li><strong>Teams</strong> reuse published documents as templates (<code>create_document</code> from an existing one)</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>LiveSend is the last mile of a CorpusIQ-driven reporting flow: CorpusIQ's connectors (QuickBooks, Stripe, GA4, Klaviyo and the rest) produce the numbers, the agent writes the narrative, and LiveSend publishes the finished report as a protected link — with <code>get_analytics</code> closing the loop by telling the team which clients actually read what was sent. No export, no attachment, no second tab.</p>
+<p>LiveSend is the last mile of a CorpusIQ-driven reporting flow: CorpusIQ's connectors (QuickBooks, Stripe, GA4, Klaviyo and the rest) produce the numbers, the agent writes the narrative, and LiveSend publishes the finished report as a protected link - with <code>get_analytics</code> closing the loop by telling the team which clients actually read what was sent. No export, no attachment, no second tab.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Free tier is 3 documents; paid plans beyond that are not published in the MCP docs</li>
 <li>Browser-approval flow targets Claude-style connectors; Gemini has no MCP support today</li>
-<li>Analytics and comments exist only while the document stays published — deleted documents drop their history</li>
+<li>Analytics and comments exist only while the document stays published - deleted documents drop their history</li>
 <li>New listing (Aug 2026), no public star count or repo</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/simplepages-mcp">Simplepages MCP — Landing Pages Built From Chat</a></li>
-<li><a href="/hermes/mcp/servers/external/taskfolk-mcp">Taskfolk MCP — Project Management for Teams and AI Agents</a></li>
+<li><a href="/hermes/mcp/servers/external/simplepages-mcp">Simplepages MCP - Landing Pages Built From Chat</a></li>
+<li><a href="/hermes/mcp/servers/external/taskfolk-mcp">Taskfolk MCP - Project Management for Teams and AI Agents</a></li>
 <li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
 <li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>

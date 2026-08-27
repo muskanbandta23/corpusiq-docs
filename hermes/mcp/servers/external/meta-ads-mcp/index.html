@@ -23,7 +23,7 @@
     
     
   
-    <title>Meta Ads MCP — Integration Guide</title>
+    <title>Meta Ads MCP - Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/meta-ads-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Meta Ads MCP — Integration Guide">
+  <meta property="og:title" content="Meta Ads MCP - Integration Guide">
   <meta property="og:description" content="Connect AI agents to Facebook/Instagram Ads for campaign management, creative analysis, and performance optimization through MCP.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Meta Ads MCP — Integration Guide">
+  <meta name="twitter:title" content="Meta Ads MCP - Integration Guide">
   <meta name="twitter:description" content="Connect AI agents to Facebook/Instagram Ads for campaign management, creative analysis, and performance optimization through MCP.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Meta Ads MCP \u2014 Integration Guide",
+    "name": "Meta Ads MCP - Integration Guide",
     "description": "Connect AI agents to Facebook/Instagram Ads for campaign management, creative analysis, and performance optimization through MCP.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/meta-ads-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Meta Ads MCP — Integration Guide
+              Meta Ads MCP - Integration Guide
             
           </span>
         </div>
@@ -10160,9 +10160,9 @@
   
 
 
-<h1 id="meta-ads-mcp-integration-guide">Meta Ads MCP — Integration Guide<a class="headerlink" href="#meta-ads-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="meta-ads-mcp-integration-guide">Meta Ads MCP - Integration Guide<a class="headerlink" href="#meta-ads-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>The Pipeboard Meta Ads MCP server connects AI agents directly to Facebook and Instagram advertising — campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Part of Pipeboard's 5-platform advertising family (also Google Ads, TikTok Ads, Snapchat Ads, and Reddit Ads).</p>
+<p>The Pipeboard Meta Ads MCP server connects AI agents directly to Facebook and Instagram advertising - campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Part of Pipeboard's 5-platform advertising family (also Google Ads, TikTok Ads, Snapchat Ads, and Reddit Ads).</p>
 <p>For e-commerce and DTC operators, this is transformative: "Which ad set has the highest ROAS this week and should I scale it?" becomes a single conversation with your AI agent instead of 20 minutes navigating Ads Manager.</p>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
@@ -10196,9 +10196,9 @@
 </code></pre></div>
 <h3 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Anchor link to this section">&para;</a></h3>
 <p>OAuth 2.0 via Meta Business Login. Required permissions:
-- <code>ads_read</code> — Read campaign/ad set/ad data
-- <code>ads_management</code> — Create/edit campaigns (optional, for write tools)
-- <code>business_management</code> — Access business-level settings</p>
+- <code>ads_read</code> - Read campaign/ad set/ad data
+- <code>ads_management</code> - Create/edit campaigns (optional, for write tools)
+- <code>business_management</code> - Access business-level settings</p>
 <p>For operators: generate a System User token in Meta Business Settings → System Users for persistent agent access.</p>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
 <p>Meta Ads MCP exposes 20+ tools across these categories:</p>
@@ -10264,7 +10264,7 @@ Agent: [runs audience overlap analysis, returns overlap percentage and size]
 <p>Combine with cron: have AI agents check ROAS thresholds daily, increase budget on winning ad sets, pause underperformers.</p>
 <h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Ad Account Isolation:</strong> Each MCP instance connects to one ad account — use separate configs for multiple accounts</li>
+<li><strong>Ad Account Isolation:</strong> Each MCP instance connects to one ad account - use separate configs for multiple accounts</li>
 <li><strong>Permission Scope:</strong> Start with <code>ads_read</code> only for analytics use cases. Add <code>ads_management</code> only when you trust the agent with budget changes</li>
 <li><strong>Approval Gates:</strong> Consider implementing a human-approval step before executing budget changes &gt;$X</li>
 <li><strong>Meta Rate Limits:</strong> Meta API has strict rate limits. The MCP handles basic throttling but avoid querying insights every minute</li>
@@ -10316,9 +10316,9 @@ Agent: [runs audience overlap analysis, returns overlap percentage and size]
 <p>They're complementary: Meta Ads MCP for deep Facebook/Instagram operations, OpusGrowth for unified cross-platform management.</p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/opusgrowth-mcp">OpusGrowth MCP Guide</a> — Cross-platform ad management</li>
-<li><a href="/hermes/mcp/servers/external/ahrefs-mcp">Ahrefs MCP Guide</a> — SEO and organic traffic context</li>
-<li><a href="/hermes/mcp/servers/external/stripe-mcp">Stripe MCP Guide</a> — Revenue-side validation</li>
+<li><a href="/hermes/mcp/servers/external/opusgrowth-mcp">OpusGrowth MCP Guide</a> - Cross-platform ad management</li>
+<li><a href="/hermes/mcp/servers/external/ahrefs-mcp">Ahrefs MCP Guide</a> - SEO and organic traffic context</li>
+<li><a href="/hermes/mcp/servers/external/stripe-mcp">Stripe MCP Guide</a> - Revenue-side validation</li>
 <li><a href="https://pipeboard.co/docs">Pipeboard Documentation</a></li>
 </ul>
 

@@ -10272,10 +10272,10 @@ New Product Launch  | 32k   | 22%       | 2.1%       | 95     | $9,500
 <p><strong>Troubleshooting:</strong></p>
 <ol>
 <li>
-<p><strong>Check both connectors are connected</strong> — Go to CorpusIQ Connectors. Both should show <strong>Connected</strong> in green.</p>
+<p><strong>Check both connectors are connected</strong> - Go to CorpusIQ Connectors. Both should show <strong>Connected</strong> in green.</p>
 </li>
 <li>
-<p><strong>Ask a simpler question per connector</strong> — Try:</p>
+<p><strong>Ask a simpler question per connector</strong> - Try:</p>
 </li>
 <li>"Show me my GA4 account name" (tests GA4)</li>
 <li>"Show me my Shopify company info" (tests Shopify)</li>
@@ -10283,10 +10283,10 @@ New Product Launch  | 32k   | 22%       | 2.1%       | 95     | $9,500
 <p>If one of these returns data, that connector works. If both fail, see <a href="../../troubleshooting/connector-shows-no-data">../troubleshooting/connector-shows-no-data.md</a>.</p>
 <ol>
 <li>
-<p><strong>Check date range</strong> — "Show me orders from the last 7 days" works. "Show me orders from 2025" won't (it's May 2026 in this example). Adjust to a date range where you know data exists.</p>
+<p><strong>Check date range</strong> - "Show me orders from the last 7 days" works. "Show me orders from 2025" won't (it's May 2026 in this example). Adjust to a date range where you know data exists.</p>
 </li>
 <li>
-<p><strong>Ask CorpusIQ to show its work</strong> — Follow up with:</p>
+<p><strong>Ask CorpusIQ to show its work</strong> - Follow up with:</p>
 <blockquote>
 <p>"Show me the raw numbers. Which source did you use? GA4, Shopify, or both?"</p>
 </blockquote>
@@ -10298,19 +10298,19 @@ New Product Launch  | 32k   | 22%       | 2.1%       | 95     | $9,500
 <p><strong>Common causes:</strong></p>
 <ol>
 <li>
-<p><strong>Time zone mismatch</strong> — GA4 and Shopify may use different timezones. Ask: "Show me the results in [your timezone] (EST / PST / UTC)."</p>
+<p><strong>Time zone mismatch</strong> - GA4 and Shopify may use different timezones. Ask: "Show me the results in [your timezone] (EST / PST / UTC)."</p>
 </li>
 <li>
-<p><strong>Different date ranges</strong> — You looked at last quarter in Shopify but CorpusIQ queried a different date. Verify the dates in the answer match your question.</p>
+<p><strong>Different date ranges</strong> - You looked at last quarter in Shopify but CorpusIQ queried a different date. Verify the dates in the answer match your question.</p>
 </li>
 <li>
-<p><strong>Filtering differences</strong> — You filtered by "Paid orders only" in Shopify, but CorpusIQ included all orders. Specify the filter in your question.</p>
+<p><strong>Filtering differences</strong> - You filtered by "Paid orders only" in Shopify, but CorpusIQ included all orders. Specify the filter in your question.</p>
 </li>
 <li>
-<p><strong>Pending/draft orders</strong> — Some tools show pending orders; others only final orders. Ask CorpusIQ: "Show me only completed/shipped orders."</p>
+<p><strong>Pending/draft orders</strong> - Some tools show pending orders; others only final orders. Ask CorpusIQ: "Show me only completed/shipped orders."</p>
 </li>
 <li>
-<p><strong>Different attribution</strong> — Shopify tracks orders by order date; GA4 tracks sessions by session date. An order placed on Day 2 came from a session on Day 1. Results may differ by a day. This is normal.</p>
+<p><strong>Different attribution</strong> - Shopify tracks orders by order date; GA4 tracks sessions by session date. An order placed on Day 2 came from a session on Day 1. Results may differ by a day. This is normal.</p>
 </li>
 </ol>
 <p><strong>How to verify:</strong></p>
@@ -10318,34 +10318,34 @@ New Product Launch  | 32k   | 22%       | 2.1%       | 95     | $9,500
 <h2 id="part-4-tips-for-great-cross-source-questions">Part 4: Tips for great cross-source questions<a class="headerlink" href="#part-4-tips-for-great-cross-source-questions" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>
-<p><strong>Be specific about what you want</strong> — "Show me revenue by source" is vague. "Show me revenue from Google Ads campaigns in May" is clear.</p>
+<p><strong>Be specific about what you want</strong> - "Show me revenue by source" is vague. "Show me revenue from Google Ads campaigns in May" is clear.</p>
 </li>
 <li>
-<p><strong>Name the sources if multiple</strong> — "Compare Shopify orders to Klaviyo-attributed revenue" tells CorpusIQ which connectors to pull from.</p>
+<p><strong>Name the sources if multiple</strong> - "Compare Shopify orders to Klaviyo-attributed revenue" tells CorpusIQ which connectors to pull from.</p>
 </li>
 <li>
-<p><strong>Specify date ranges</strong> — "Last 30 days" is safer than "this quarter" (time zones matter).</p>
+<p><strong>Specify date ranges</strong> - "Last 30 days" is safer than "this quarter" (time zones matter).</p>
 </li>
 <li>
-<p><strong>Ask for breakdowns</strong> — "Show me ... by [dimension]" is faster than "Show me each one."</p>
+<p><strong>Ask for breakdowns</strong> - "Show me ... by [dimension]" is faster than "Show me each one."</p>
 </li>
 <li>
-<p><strong>Request raw data if the answer seems off</strong> — "Show me the raw numbers and which sources you used" forces CorpusIQ to explain itself.</p>
+<p><strong>Request raw data if the answer seems off</strong> - "Show me the raw numbers and which sources you used" forces CorpusIQ to explain itself.</p>
 </li>
 </ol>
 <h2 id="what-to-try-next">What to try next<a class="headerlink" href="#what-to-try-next" title="Anchor link to this section">&para;</a></h2>
 <p>Now that you have 2+ connectors:</p>
 <ul>
-<li><strong><a href="../../prompts">Browse the prompts library</a></strong> — See 60+ copy-paste questions organized by business impact. Many use 2–3 connectors.</li>
-<li><strong><a href="../../how-it-works/skills-explained">Read about skills</a></strong> — Learn why complex questions work reliably.</li>
-<li><strong><a href="../../how-it-works/rate-limits-and-quotas">Check rate limits</a></strong> — If you're running production queries, know the bounds.</li>
-<li><strong><a href="#">Explore advanced usage</a></strong> (coming soon) — Custom questions, canonical facts, skill invocation.</li>
+<li><strong><a href="../../prompts">Browse the prompts library</a></strong> - See 60+ copy-paste questions organized by business impact. Many use 2-3 connectors.</li>
+<li><strong><a href="../../how-it-works/skills-explained">Read about skills</a></strong> - Learn why complex questions work reliably.</li>
+<li><strong><a href="../../how-it-works/rate-limits-and-quotas">Check rate limits</a></strong> - If you're running production queries, know the bounds.</li>
+<li><strong><a href="#">Explore advanced usage</a></strong> (coming soon) - Custom questions, canonical facts, skill invocation.</li>
 </ul>
 <h2 id="common-questions">Common questions<a class="headerlink" href="#common-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: If I don't have both connectors, can I still use CorpusIQ?</strong><br />
 A: Yes. Every question only uses the connectors you have. If you have only GA4, CorpusIQ can only answer traffic questions. Add more connectors to unlock more questions.</p>
 <p><strong>Q: How long does a cross-source query take?</strong><br />
-A: Usually 2–5 seconds for both APIs to respond. If either vendor is slow, it may take up to 30 seconds. Very rarely, 60 seconds.</p>
+A: Usually 2-5 seconds for both APIs to respond. If either vendor is slow, it may take up to 30 seconds. Very rarely, 60 seconds.</p>
 <p><strong>Q: Can I ask about more than 2 connectors at once?</strong><br />
 A: Yes. Some of the best questions involve 4+ sources (e.g., "What's my real CAC?" = Google Ads + GA4 + Shopify + QuickBooks).</p>
 <p><strong>Q: What if the connectors don't have overlapping data?</strong><br />

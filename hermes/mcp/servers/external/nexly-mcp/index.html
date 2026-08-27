@@ -23,7 +23,7 @@
     
     
   
-    <title>Nexly Analytics MCP — Integration Guide</title>
+    <title>Nexly Analytics MCP - Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/nexly-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Nexly Analytics MCP — Integration Guide">
+  <meta property="og:title" content="Nexly Analytics MCP - Integration Guide">
   <meta property="og:description" content="Connect AI tools to Nexly product analytics via MCP. Read-only access to traffic, funnels, reports, and anomalies. OAuth 2.0. Streamable HTTP.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Nexly Analytics MCP — Integration Guide">
+  <meta name="twitter:title" content="Nexly Analytics MCP - Integration Guide">
   <meta name="twitter:description" content="Connect AI tools to Nexly product analytics via MCP. Read-only access to traffic, funnels, reports, and anomalies. OAuth 2.0. Streamable HTTP.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Nexly Analytics MCP \u2014 Integration Guide",
+    "name": "Nexly Analytics MCP - Integration Guide",
     "description": "Connect AI tools to Nexly product analytics via MCP. Read-only access to traffic, funnels, reports, and anomalies. OAuth 2.0. Streamable HTTP.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nexly-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Nexly Analytics MCP — Integration Guide
+              Nexly Analytics MCP - Integration Guide
             
           </span>
         </div>
@@ -10118,24 +10118,24 @@
 <strong>Access:</strong> Read-only
 <strong>Documentation:</strong> <a href="https://nexly.to/help/api/mcp">nexly.to/help/api/mcp</a></p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Nexly provides a hosted MCP server that lets AI tools like Claude, Cursor, and Codex securely read your Nexly analytics — traffic, reports, funnels, and property details — directly inside the chat or editor. There is nothing to install and no tokens to copy: you connect with OAuth and authorize access with your Nexly account.</p>
-<p>Access is <strong>read-only</strong> — connected tools can query analytics but can never change anything in your account.</p>
+<p>Nexly provides a hosted MCP server that lets AI tools like Claude, Cursor, and Codex securely read your Nexly analytics - traffic, reports, funnels, and property details - directly inside the chat or editor. There is nothing to install and no tokens to copy: you connect with OAuth and authorize access with your Nexly account.</p>
+<p>Access is <strong>read-only</strong> - connected tools can query analytics but can never change anything in your account.</p>
 <h2 id="what-you-can-do">What You Can Do<a class="headerlink" href="#what-you-can-do" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Query traffic analytics</strong> — Ask AI assistants about visitor counts, page views, and traffic sources</li>
-<li><strong>Pull funnel data</strong> — Get conversion rates and drop-off points for marketing funnels</li>
-<li><strong>Read reports</strong> — Access saved reports and their data</li>
-<li><strong>Monitor anomalies</strong> — Query anomaly detection results</li>
-<li><strong>AI-traffic insights</strong> — Access AI-generated traffic insights</li>
-<li><strong>Property details</strong> — Retrieve site/property configuration</li>
+<li><strong>Query traffic analytics</strong> - Ask AI assistants about visitor counts, page views, and traffic sources</li>
+<li><strong>Pull funnel data</strong> - Get conversion rates and drop-off points for marketing funnels</li>
+<li><strong>Read reports</strong> - Access saved reports and their data</li>
+<li><strong>Monitor anomalies</strong> - Query anomaly detection results</li>
+<li><strong>AI-traffic insights</strong> - Access AI-generated traffic insights</li>
+<li><strong>Property details</strong> - Retrieve site/property configuration</li>
 </ul>
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>"How's our traffic today?"</strong> — Ask your AI assistant instead of logging into a dashboard.</li>
-<li><strong>Funnel debugging</strong> — "Where are users dropping off in the signup funnel this week?"</li>
-<li><strong>Anomaly detection</strong> — "Did anything unusual happen with our traffic yesterday?"</li>
-<li><strong>Meeting prep</strong> — Pull traffic stats, top pages, and conversion data into a pre-meeting briefing.</li>
-<li><strong>Cross-tool analysis</strong> — Combine Nexly analytics with Stripe revenue, Shopify orders, or HubSpot leads through multi-source MCP queries.</li>
+<li><strong>"How's our traffic today?"</strong> - Ask your AI assistant instead of logging into a dashboard.</li>
+<li><strong>Funnel debugging</strong> - "Where are users dropping off in the signup funnel this week?"</li>
+<li><strong>Anomaly detection</strong> - "Did anything unusual happen with our traffic yesterday?"</li>
+<li><strong>Meeting prep</strong> - Pull traffic stats, top pages, and conversion data into a pre-meeting briefing.</li>
+<li><strong>Cross-tool analysis</strong> - Combine Nexly analytics with Stripe revenue, Shopify orders, or HubSpot leads through multi-source MCP queries.</li>
 </ol>
 <h2 id="before-you-connect">Before You Connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -10182,28 +10182,28 @@
 </code></pre></div>
 <p>Then run <code>codex mcp login nexly</code> to authorize.</p>
 <h3 id="option-4-any-mcp-client">Option 4: Any MCP Client<a class="headerlink" href="#option-4-any-mcp-client" title="Anchor link to this section">&para;</a></h3>
-<p>Add the endpoint URL <code>https://api.nexly.to/mcp</code> to your MCP client's configuration. Nexly uses standard OAuth 2.0 with Streamable HTTP — supported by all major MCP clients.</p>
+<p>Add the endpoint URL <code>https://api.nexly.to/mcp</code> to your MCP client's configuration. Nexly uses standard OAuth 2.0 with Streamable HTTP - supported by all major MCP clients.</p>
 <h2 id="security-model">Security Model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>OAuth 2.0</strong> — Standard secure authentication</li>
-<li><strong>Read-only</strong> — Connected tools can query analytics but never modify your account</li>
-<li><strong>No API tokens needed</strong> — OAuth flow handles authentication without copying secrets</li>
-<li><strong>Revocable</strong> — Disconnect from Nexly or your MCP client at any time</li>
+<li><strong>OAuth 2.0</strong> - Standard secure authentication</li>
+<li><strong>Read-only</strong> - Connected tools can query analytics but never modify your account</li>
+<li><strong>No API tokens needed</strong> - OAuth flow handles authentication without copying secrets</li>
+<li><strong>Revocable</strong> - Disconnect from Nexly or your MCP client at any time</li>
 </ul>
 <h2 id="available-tools">Available Tools<a class="headerlink" href="#available-tools" title="Anchor link to this section">&para;</a></h2>
 <p>Nexly exposes tools for:
-- <strong>Analytics</strong> — Traffic, page views, sources, visitor data
-- <strong>Reports</strong> — Saved reports and report data
-- <strong>Funnels</strong> — Conversion funnels and drop-off analysis
-- <strong>Properties</strong> — Site and property configuration
-- <strong>Anomalies</strong> — Anomaly detection results
-- <strong>AI Insights</strong> — AI-generated traffic insights</p>
+- <strong>Analytics</strong> - Traffic, page views, sources, visitor data
+- <strong>Reports</strong> - Saved reports and report data
+- <strong>Funnels</strong> - Conversion funnels and drop-off analysis
+- <strong>Properties</strong> - Site and property configuration
+- <strong>Anomalies</strong> - Anomaly detection results
+- <strong>AI Insights</strong> - AI-generated traffic insights</p>
 <p>All tools are read-only and respect your Nexly plan's data access level.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Read-only</strong> — No configuration changes, event creation, or property management via MCP</li>
-<li><strong>OAuth only</strong> — API tokens (<code>nxp_…</code>) cannot be used for MCP connections</li>
-<li><strong>Plan-dependent</strong> — Available data depends on your Nexly plan tier</li>
+<li><strong>Read-only</strong> - No configuration changes, event creation, or property management via MCP</li>
+<li><strong>OAuth only</strong> - API tokens (<code>nxp_…</code>) cannot be used for MCP connections</li>
+<li><strong>Plan-dependent</strong> - Available data depends on your Nexly plan tier</li>
 </ul>
 <h2 id="comparison-with-other-analytics-mcp-servers">Comparison with Other Analytics MCP Servers<a class="headerlink" href="#comparison-with-other-analytics-mcp-servers" title="Anchor link to this section">&para;</a></h2>
 <table>

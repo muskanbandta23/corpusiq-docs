@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="MCP-native OSINT framework — 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open">
+        <meta name="description" content="MCP-native OSINT framework - 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>OpenOSINT MCP — Integration Guide</title>
+    <title>OpenOSINT MCP - Integration Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/openosint-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="OpenOSINT MCP — Integration Guide">
-  <meta property="og:description" content="MCP-native OSINT framework — 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open">
+  <meta property="og:title" content="OpenOSINT MCP - Integration Guide">
+  <meta property="og:description" content="MCP-native OSINT framework - 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="OpenOSINT MCP — Integration Guide">
-  <meta name="twitter:description" content="MCP-native OSINT framework — 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open">
+  <meta name="twitter:title" content="OpenOSINT MCP - Integration Guide">
+  <meta name="twitter:description" content="MCP-native OSINT framework - 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "OpenOSINT MCP \u2014 Integration Guide",
-    "description": "MCP-native OSINT framework \u2014 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open",
+    "name": "OpenOSINT MCP - Integration Guide",
+    "description": "MCP-native OSINT framework - 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/openosint-mcp",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OpenOSINT MCP — Integration Guide
+              OpenOSINT MCP - Integration Guide
             
           </span>
         </div>
@@ -10172,7 +10172,7 @@
 
 
 <h1 id="openosint-mcp">OpenOSINT MCP<a class="headerlink" href="#openosint-mcp" title="Anchor link to this section">&para;</a></h1>
-<p>MCP-native open-source intelligence framework. Nine tools covering the full OSINT stack — email enumeration, username search, breach verification, WHOIS lookups, IP intelligence, subdomain discovery, Google dorks, paste searches, and phone intelligence. Free, open source (MIT), and works as both an MCP server and standalone Python CLI.</p>
+<p>MCP-native open-source intelligence framework. Nine tools covering the full OSINT stack - email enumeration, username search, breach verification, WHOIS lookups, IP intelligence, subdomain discovery, Google dorks, paste searches, and phone intelligence. Free, open source (MIT), and works as both an MCP server and standalone Python CLI.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Email Enumeration:</strong> Find all accounts tied to an email address across social platforms</li>
@@ -10297,15 +10297,15 @@
 </table>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="vendor-due-diligence">Vendor Due Diligence<a class="headerlink" href="#vendor-due-diligence" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>Agent: &quot;We&#39;re about to sign a $50K contract with vendor.com. Run full OSINT — anything concerning?&quot;
+<p><div class="highlight"><pre><span></span><code>Agent: &quot;We&#39;re about to sign a $50K contract with vendor.com. Run full OSINT - anything concerning?&quot;
 → whois_lookup(vendor.com) → subdomain_enum → email_lookup(contact emails) → breach_check(vendor.com) → google_dorks(&quot;site:vendor.com confidential&quot;) → paste_search(&quot;vendor.com&quot;) → consolidated report
 </code></pre></div>
-Result: "vendor.com registered 2019, clean WHOIS, no breaches, but found exposed .env backup on staging.vendor.com (Google dorks hit) and one employee email in a 2024 breach — flag for security review."</p>
+Result: "vendor.com registered 2019, clean WHOIS, no breaches, but found exposed .env backup on staging.vendor.com (Google dorks hit) and one employee email in a 2024 breach - flag for security review."</p>
 <h3 id="competitive-intelligence">Competitive Intelligence<a class="headerlink" href="#competitive-intelligence" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code>Agent: &quot;What subdomains does competitor.com have and what tech stack is on each?&quot;
 → subdomain_enum(competitor.com) → ip_lookup for each → identify hosting/CDN/tech stack → report
 </code></pre></div>
-Result: 24 subdomains found — staging, api, admin, analytics, internal wiki, partner portal. Tech stack: AWS + Cloudflare + React.</p>
+Result: 24 subdomains found - staging, api, admin, analytics, internal wiki, partner portal. Tech stack: AWS + Cloudflare + React.</p>
 <h3 id="domain-acquisition-research">Domain Acquisition Research<a class="headerlink" href="#domain-acquisition-research" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code>Agent: &quot;The domain we want is registered. Who owns it and when does it expire?&quot;
 → whois_lookup(domain.com) → email_lookup(registrant email) → username_search(registrant name)
@@ -10322,7 +10322,7 @@ Result: Profiles found on GitHub, LinkedIn, Stack Overflow, Twitter. One breach 
 </code></pre></div>
 Result: 18 subdomains, 2 staging servers exposed, 1 PDF with API keys found via dorks (critical), no paste leaks. Take down the PDF immediately.</p>
 <h2 id="privacy-ethics">Privacy &amp; Ethics<a class="headerlink" href="#privacy-ethics" title="Anchor link to this section">&para;</a></h2>
-<p>OpenOSINT uses only publicly available data sources. No hacking, no credential stuffing, no bypassing access controls. It automates what a human can already do manually — just faster.</p>
+<p>OpenOSINT uses only publicly available data sources. No hacking, no credential stuffing, no bypassing access controls. It automates what a human can already do manually - just faster.</p>
 <p><strong>Operators should:</strong>
 - Only investigate domains and emails you have a legitimate business reason to research
 - Respect rate limits on public APIs
@@ -10333,14 +10333,14 @@ Result: 18 subdomains, 2 staging servers exposed, 1 PDF with API keys found via 
 <li><strong>Rate limits:</strong> Public APIs (WHOIS, DNS, Google) have rate limits. Bulk enumeration may require paid API keys.</li>
 <li><strong>HaveIBeenPwned:</strong> Without an API key, breach checks are limited to basic domain search. HIBP API key is $3.50/month for full access.</li>
 <li><strong>Google Dorks:</strong> Google may CAPTCHA or rate-limit automated queries. Use sparingly.</li>
-<li><strong>Paste searches:</strong> Coverage depends on Pastebin and similar sites' availability — not all paste sites are indexed.</li>
+<li><strong>Paste searches:</strong> Coverage depends on Pastebin and similar sites' availability - not all paste sites are indexed.</li>
 <li><strong>Accuracy:</strong> IP geolocation is approximate (~city level). Phone carrier data may be stale for ported numbers.</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>[[datanexus-mcp]] — Public data intelligence (complementary: federal contracts, patents, CVE)</li>
-<li>[[sanctions-screening-mcp]] — OFAC/EU/UK/UN sanctions screening</li>
-<li>[[browserless-mcp]] — Browser automation for visual investigation</li>
+<li>[[datanexus-mcp]] - Public data intelligence (complementary: federal contracts, patents, CVE)</li>
+<li>[[sanctions-screening-mcp]] - OFAC/EU/UK/UN sanctions screening</li>
+<li>[[browserless-mcp]] - Browser automation for visual investigation</li>
 </ul>
 
 

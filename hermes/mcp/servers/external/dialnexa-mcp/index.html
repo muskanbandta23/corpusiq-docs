@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Voice AI agent platform over MCP — create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1">
+        <meta name="description" content="Voice AI agent platform over MCP - create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dialnexa-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="DialNexa MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Voice AI agent platform over MCP — create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1">
+  <meta property="og:description" content="Voice AI agent platform over MCP - create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="DialNexa MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Voice AI agent platform over MCP — create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1">
+  <meta name="twitter:description" content="Voice AI agent platform over MCP - create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "DialNexa MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Voice AI agent platform over MCP \u2014 create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1",
+    "description": "Voice AI agent platform over MCP - create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dialnexa-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="dialnexa-mcp">DialNexa MCP<a class="headerlink" href="#dialnexa-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.1 PKCE) from DialNexa.</strong> The first full voice-AI-agent platform observed with a production MCP surface: create, inspect, configure, and remove voice agents; find call records and place confirmed outbound calls; manage campaigns, leads, and batch calls; build workflow graphs; search and purchase phone numbers; and read dashboard metrics — all from chat, behind explicit safety levels.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.1 PKCE) from DialNexa.</strong> The first full voice-AI-agent platform observed with a production MCP surface: create, inspect, configure, and remove voice agents; find call records and place confirmed outbound calls; manage campaigns, leads, and batch calls; build workflow graphs; search and purchase phone numbers; and read dashboard metrics - all from chat, behind explicit safety levels.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP, stateless)
 Auth: OAuth 2.1 PKCE (mcp:read / mcp:write / offline_access scopes) or workspace API key
 Endpoint: https://api.dialnexa.com/v1/mcp
@@ -10057,7 +10057,7 @@ Category: Voice AI / Sales
 Built by: DialNexa (dialnexa.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Voice agents are moving from demo to operations, and the missing piece has been control — most platforms expose a dashboard, not a protocol. DialNexa exposes the whole lifecycle as MCP tools, and it classifies every tool as read only, state changing, destructive, or billable. <strong>Tools that place calls, spend money, or permanently delete resources require explicit approval before they run</strong> — the same human-gate architecture this sweep cycle keeps finding in production-grade servers.</p>
+<p>Voice agents are moving from demo to operations, and the missing piece has been control - most platforms expose a dashboard, not a protocol. DialNexa exposes the whole lifecycle as MCP tools, and it classifies every tool as read only, state changing, destructive, or billable. <strong>Tools that place calls, spend money, or permanently delete resources require explicit approval before they run</strong> - the same human-gate architecture this sweep cycle keeps finding in production-grade servers.</p>
 <p><strong>The consent model is workspace-scoped.</strong> OAuth 2.1 with PKCE lets the user pick the workspace on the consent screen; tool arguments cannot switch workspaces afterwards. Read scope exists separately from write scope, so an assistant can watch metrics without ever touching the dialer.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10123,13 +10123,13 @@ Built by: DialNexa (dialnexa.com)
 <li><strong>Multi-entity operators</strong> keep workspaces isolated through the OAuth consent screen.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>DialNexa handles the voice channel; CorpusIQ owns the business data the voice channel feeds and reads. The composed pipeline: HubSpot or Close contacts (CorpusIQ CRM connectors) seed the campaign lists, DialNexa runs the confirmed outbound calls, and outcomes land back in the CRM — pipeline movement and revenue close through CorpusIQ's QuickBooks and Stripe connectors. Attribution mirrors CallRail-style tracking: call data from DialNexa, revenue truth from CorpusIQ, matched on the customer record.</p>
+<p>DialNexa handles the voice channel; CorpusIQ owns the business data the voice channel feeds and reads. The composed pipeline: HubSpot or Close contacts (CorpusIQ CRM connectors) seed the campaign lists, DialNexa runs the confirmed outbound calls, and outcomes land back in the CRM - pipeline movement and revenue close through CorpusIQ's QuickBooks and Stripe connectors. Attribution mirrors CallRail-style tracking: call data from DialNexa, revenue truth from CorpusIQ, matched on the customer record.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Commercial platform — billable tools (calls, number purchases) require per-action approval and budget discipline</li>
-<li>No self-host option — cloud API with workspace-scoped OAuth</li>
+<li>Commercial platform - billable tools (calls, number purchases) require per-action approval and budget discipline</li>
+<li>No self-host option - cloud API with workspace-scoped OAuth</li>
 <li>Safety classifications are vendor-defined; review destructive tool docs before granting write scope</li>
-<li>Newer listing — track record still forming</li>
+<li>Newer listing - track record still forming</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

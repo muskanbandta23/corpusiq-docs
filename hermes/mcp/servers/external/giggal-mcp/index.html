@@ -10047,7 +10047,7 @@
 
 
 <h1 id="giggalai-mcp">Giggal.ai MCP<a class="headerlink" href="#giggalai-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, API key) — deep mailbox existence verification, including catch-all detection, directly from an AI assistant.</strong> Giggal.ai runs a mailbox-existence check that distinguishes real addresses from catch-all, accept-all, and SEG-protected mailboxes — the cases most verification APIs mark as "deliverable" because the domain accepts anything. The MCP server puts that check inside Claude, ChatGPT, Cursor, VS Code, or any MCP client, so list validation happens where the outreach workflow already runs.</p>
+<p><strong>Remote MCP server (Streamable HTTP, API key) - deep mailbox existence verification, including catch-all detection, directly from an AI assistant.</strong> Giggal.ai runs a mailbox-existence check that distinguishes real addresses from catch-all, accept-all, and SEG-protected mailboxes - the cases most verification APIs mark as "deliverable" because the domain accepts anything. The MCP server puts that check inside Claude, ChatGPT, Cursor, VS Code, or any MCP client, so list validation happens where the outreach workflow already runs.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
 Auth: API key (verify:read scope)
 Endpoint: https://mcp.giggal.ai/mcp
@@ -10057,8 +10057,8 @@ Category: Marketing / Email Verification
 Built by: Giggal.ai (giggal.ai)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Bounce rates are a deliverability tax and catch-all domains are the hidden cause. A catch-all mailbox accepts mail for any address, so a naive SMTP check says "valid" — then your campaign bounces the moment a real recipient does not exist. Giggal.ai's deep check is built to answer the catch-all question specifically, which is the difference between a list that looks clean and a list that sends. Verifying from inside the agent means the check happens at the moment of use: before the agent drafts a send to a scraped lead, it can verify the address, check remaining credits, and pull the history of past verifications — no export-import loop between a verification SaaS and the outreach tooling.</p>
-<p>The connector-first design also keeps setup trivial. There is no SDK: one MCP URL, added as a custom connector, with an OAuth-style grant of <code>verify:read</code> — verify addresses, check credits, and look up past verifications, and nothing else. The scope is exactly the verification surface, which is what you want a sales agent holding.</p>
+<p>Bounce rates are a deliverability tax and catch-all domains are the hidden cause. A catch-all mailbox accepts mail for any address, so a naive SMTP check says "valid" - then your campaign bounces the moment a real recipient does not exist. Giggal.ai's deep check is built to answer the catch-all question specifically, which is the difference between a list that looks clean and a list that sends. Verifying from inside the agent means the check happens at the moment of use: before the agent drafts a send to a scraped lead, it can verify the address, check remaining credits, and pull the history of past verifications - no export-import loop between a verification SaaS and the outreach tooling.</p>
+<p>The connector-first design also keeps setup trivial. There is no SDK: one MCP URL, added as a custom connector, with an OAuth-style grant of <code>verify:read</code> - verify addresses, check credits, and look up past verifications, and nothing else. The scope is exactly the verification surface, which is what you want a sales agent holding.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10082,7 +10082,7 @@ Built by: Giggal.ai (giggal.ai)
 </tr>
 </tbody>
 </table>
-<p>Tool names are served from the live endpoint; the capability surface above is the vendor-published description. Works with an existing Giggal.ai API key — catch-all verification included, no SDK.</p>
+<p>Tool names are served from the live endpoint; the capability surface above is the vendor-published description. Works with an existing Giggal.ai API key - catch-all verification included, no SDK.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Add Giggal.ai as a custom connector in Claude (or the equivalent flow in any MCP client): Settings → Connectors → Add custom connector → name it Giggal.ai → paste the MCP URL → Connect → Allow to grant <code>verify:read</code>.</p>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>giggal<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://mcp.giggal.ai/mcp
@@ -10109,12 +10109,12 @@ Built by: Giggal.ai (giggal.ai)
 <li><strong>RevOps teams</strong> get list hygiene as a step in the agent's workflow rather than a separate SaaS tab</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Giggal.ai MCP is the hygiene gate in front of the outbound stack that CorpusIQ reads. Before a lead list lands in the CorpusIQ HubSpot or Close connector, the agent verifies the addresses through Giggal and drops the catch-all and accept-all rows — so the CRM stores contacts that can actually receive mail, and downstream metrics stop counting phantom leads. For email-sending operators, the CorpusIQ Klaviyo or ActiveCampaign connectors show campaign sends and opens while Giggal supplies the pre-send validity check, tightening the loop between list quality and engagement numbers. The direction of flow: Giggal.ai MCP verifies the addresses; CorpusIQ reads the CRM and email systems they feed.</p>
+<p>Giggal.ai MCP is the hygiene gate in front of the outbound stack that CorpusIQ reads. Before a lead list lands in the CorpusIQ HubSpot or Close connector, the agent verifies the addresses through Giggal and drops the catch-all and accept-all rows - so the CRM stores contacts that can actually receive mail, and downstream metrics stop counting phantom leads. For email-sending operators, the CorpusIQ Klaviyo or ActiveCampaign connectors show campaign sends and opens while Giggal supplies the pre-send validity check, tightening the loop between list quality and engagement numbers. The direction of flow: Giggal.ai MCP verifies the addresses; CorpusIQ reads the CRM and email systems they feed.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Credit-based commercial service — an API key with balance is required</li>
-<li>Verification scope only — no enrichment, no sending, no CRM features</li>
-<li>Brand new MCP surface — capability list from vendor docs; live tool names served from the endpoint</li>
+<li>Credit-based commercial service - an API key with balance is required</li>
+<li>Verification scope only - no enrichment, no sending, no CRM features</li>
+<li>Brand new MCP surface - capability list from vendor docs; live tool names served from the endpoint</li>
 <li>Verification quality depends on Giggal's mailbox probing; results are advisory, not contractual</li>
 <li>History lookup scoped to past checks made through the service</li>
 </ul>

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="68 pay-per-call verification endpoints — IBAN validation, sanctions screening, phone validation and EU legal data — as typed MCP tools, paid in USDC on Base">
+        <meta name="description" content="68 pay-per-call verification endpoints - IBAN validation, sanctions screening, phone validation and EU legal data - as typed MCP tools, paid in USDC on Base">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/invoket-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Invoket MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="68 pay-per-call verification endpoints — IBAN validation, sanctions screening, phone validation and EU legal data — as typed MCP tools, paid in USDC on Base">
+  <meta property="og:description" content="68 pay-per-call verification endpoints - IBAN validation, sanctions screening, phone validation and EU legal data - as typed MCP tools, paid in USDC on Base">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Invoket MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="68 pay-per-call verification endpoints — IBAN validation, sanctions screening, phone validation and EU legal data — as typed MCP tools, paid in USDC on Base">
+  <meta name="twitter:description" content="68 pay-per-call verification endpoints - IBAN validation, sanctions screening, phone validation and EU legal data - as typed MCP tools, paid in USDC on Base">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Invoket MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "68 pay-per-call verification endpoints \u2014 IBAN validation, sanctions screening, phone validation and EU legal data \u2014 as typed MCP tools, paid in USDC on Base",
+    "description": "68 pay-per-call verification endpoints - IBAN validation, sanctions screening, phone validation and EU legal data - as typed MCP tools, paid in USDC on Base",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/invoket-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="invoket-mcp">Invoket MCP<a class="headerlink" href="#invoket-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Self-hosted MCP bridge (stdio, pay-per-call)</strong> — <code>@invoket/mcp</code> turns the Invoket x402 gateway's 68 paid endpoints into typed tools an agent can call directly: IBAN validation, sanctions screening, phone validation, French and EU law in force, weather and climate, and medication data. Payments happen automatically over x402 in USDC on Base — the agent never has to know the protocol, and your key never leaves your machine.</p>
+<p><strong>Self-hosted MCP bridge (stdio, pay-per-call)</strong> - <code>@invoket/mcp</code> turns the Invoket x402 gateway's 68 paid endpoints into typed tools an agent can call directly: IBAN validation, sanctions screening, phone validation, French and EU law in force, weather and climate, and medication data. Payments happen automatically over x402 in USDC on Base - the agent never has to know the protocol, and your key never leaves your machine.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (stdio, launched by your MCP host)
 Auth: none for discovery-only mode; optional EVM payer key (PAYER_PRIVATE_KEY, read once from env, used only for local EIP-712 / EIP-3009 signatures)
 Endpoint: Invoket x402 gateway via INVOKET_BASE_URL (tools generated live from gateway discovery)
@@ -10057,10 +10057,10 @@ Category: Compliance
 Built by: Invoket (github.com/Invoket/mcp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Pre-action checks — is this IBAN real, is this counterparty on a sanctions list, is this phone number valid — are exactly the kind of work agents should do before a payment or a contract. Until Invoket, wiring them in meant per-provider API keys and per-provider billing.</p>
-<p><strong>The trust model is the product</strong>: three independent checks run before any payment signature — <code>MAX_PRICE_USD</code> (per-call ceiling), <code>SESSION_BUDGET_USD</code> (per-session budget), and a challenge-amount check against the gateway's published price, so the gateway cannot quietly overcharge. Every request goes to a single configured origin; nothing is written to disk; a global output scrubber redacts key-shaped material from logs. The agent gets paid capabilities with the spending bounded before any signature exists.</p>
+<p>Pre-action checks - is this IBAN real, is this counterparty on a sanctions list, is this phone number valid - are exactly the kind of work agents should do before a payment or a contract. Until Invoket, wiring them in meant per-provider API keys and per-provider billing.</p>
+<p><strong>The trust model is the product</strong>: three independent checks run before any payment signature - <code>MAX_PRICE_USD</code> (per-call ceiling), <code>SESSION_BUDGET_USD</code> (per-session budget), and a challenge-amount check against the gateway's published price, so the gateway cannot quietly overcharge. Every request goes to a single configured origin; nothing is written to disk; a global output scrubber redacts key-shaped material from logs. The agent gets paid capabilities with the spending bounded before any signature exists.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
-<p>Tools are generated live from the gateway's discovery surfaces — endpoints added or removed upstream appear or disappear on their own. Published endpoint families:</p>
+<p>Tools are generated live from the gateway's discovery surfaces - endpoints added or removed upstream appear or disappear on their own. Published endpoint families:</p>
 <table>
 <thead>
 <tr>
@@ -10117,20 +10117,20 @@ Built by: Invoket (github.com/Invoket/mcp)
 <p>Without a key the server runs in discovery-only mode: browse the catalog and read schemas without paying. With a key, the first call each day to a trial-enabled endpoint is free (<code>PREFER_TRIAL</code> defaults to true) and reports <code>paid: false</code>.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Finance operators</strong> get IBAN validation and sanctions screening before every payout — as tool calls, not manual lookups.</li>
+<li><strong>Finance operators</strong> get IBAN validation and sanctions screening before every payout - as tool calls, not manual lookups.</li>
 <li><strong>EU-facing teams</strong> get French and EU law-in-force checks their agent can cite in decisions.</li>
 <li><strong>Compliance leads</strong> get spending bounded per call and per session, with refusal guaranteed on any breach.</li>
 <li><strong>Ops teams</strong> get verification endpoints with per-call pricing instead of per-provider subscriptions.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Invoket slots into CorpusIQ payment and compliance workflows as the verification layer. Before paying a vendor, the agent validates the IBAN through Invoket and screens the counterparty, then executes the record through QuickBooks vendors and bills or Stripe payouts — the check and the ledger staying in separate, auditable systems. The pay-per-call model mirrors GovTrade's x402 pattern already in the catalog, so CorpusIQ operators can treat verification data as a metered input with spend caps rather than a fixed subscription.</p>
+<p>Invoket slots into CorpusIQ payment and compliance workflows as the verification layer. Before paying a vendor, the agent validates the IBAN through Invoket and screens the counterparty, then executes the record through QuickBooks vendors and bills or Stripe payouts - the check and the ledger staying in separate, auditable systems. The pay-per-call model mirrors GovTrade's x402 pattern already in the catalog, so CorpusIQ operators can treat verification data as a metered input with spend caps rather than a fixed subscription.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listing appeared August 17, 2026.</li>
+<li>Brand new - no track record yet; listing appeared August 17, 2026.</li>
 <li>Requires holding and funding a Base EVM wallet (USDC) for paid calls.</li>
-<li>stdio/local only — the payer key stays on your machine, so remote agents need their own instance.</li>
+<li>stdio/local only - the payer key stays on your machine, so remote agents need their own instance.</li>
 <li>Per-call costs are metered; budgets must be set deliberately or calls refuse.</li>
-<li>x402 rail is USDC on Base in v1 — no other chains or assets yet.</li>
+<li>x402 rail is USDC on Base in v1 - no other chains or assets yet.</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

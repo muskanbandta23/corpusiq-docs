@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Full read-write MCP server for wFirma.pl Polish accounting — invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts">
+        <meta name="description" content="Full read-write MCP server for wFirma.pl Polish accounting - invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/fakto-wfirma-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Fakto.app wFirma MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Full read-write MCP server for wFirma.pl Polish accounting — invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts">
+  <meta property="og:description" content="Full read-write MCP server for wFirma.pl Polish accounting - invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Fakto.app wFirma MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Full read-write MCP server for wFirma.pl Polish accounting — invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts">
+  <meta name="twitter:description" content="Full read-write MCP server for wFirma.pl Polish accounting - invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Fakto.app wFirma MCP - CorpusIQ Docs",
-    "description": "Full read-write MCP server for wFirma.pl Polish accounting \u2014 invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts",
+    "description": "Full read-write MCP server for wFirma.pl Polish accounting - invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fakto-wfirma-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="faktoapp-wfirma-mcp">Fakto.app wFirma MCP<a class="headerlink" href="#faktoapp-wfirma-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.0) for wFirma.pl — the only MCP integration for one of Poland's most popular small-business accounting platforms.</strong> Full read-write, not read-only: the assistant creates and searches invoices, manages contractors, records expenses and payments, tracks warehouse stock, reads KPiR tax ledgers and ZUS contributions, and produces cashflow forecasts. ~45 tools behind a hosted endpoint; OAuth 2.0 with dynamic client registration (RFC 7591) works out of the box as a custom connector in claude.ai, ChatGPT, and Claude Desktop.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.0) for wFirma.pl - the only MCP integration for one of Poland's most popular small-business accounting platforms.</strong> Full read-write, not read-only: the assistant creates and searches invoices, manages contractors, records expenses and payments, tracks warehouse stock, reads KPiR tax ledgers and ZUS contributions, and produces cashflow forecasts. ~45 tools behind a hosted endpoint; OAuth 2.0 with dynamic client registration (RFC 7591) works out of the box as a custom connector in claude.ai, ChatGPT, and Claude Desktop.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth 2.0 (RFC 7591 dynamic client registration) or Bearer token
 Endpoint: https://fakto.app/wfirma/stream
@@ -10057,8 +10057,8 @@ Category: Finance / ERP (Poland)
 Built by: Fakto.app (github.com/nulline-apps/fakto-mcp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Polish SMB accounting runs on wFirma.pl, and until now every integration into it was a bespoke API project. Fakto.app makes the assistant an operator inside the ledger — not a viewer. The assistant can draft an invoice, chase an overdue payment with an automatic reminder, or answer "what is my cash position next quarter" straight from the books.</p>
-<p><strong>The write path is real but structured.</strong> OAuth scopes and Bearer tokens gate access, and one subscription covers both the wFirma and the sister Fakturownia.pl server — so a Polish operator with books in either system pays once. n8n and Make templates ship ready-made for teams that want the same tools outside a chat client.</p>
+<p>Polish SMB accounting runs on wFirma.pl, and until now every integration into it was a bespoke API project. Fakto.app makes the assistant an operator inside the ledger - not a viewer. The assistant can draft an invoice, chase an overdue payment with an automatic reminder, or answer "what is my cash position next quarter" straight from the books.</p>
+<p><strong>The write path is real but structured.</strong> OAuth scopes and Bearer tokens gate access, and one subscription covers both the wFirma and the sister Fakturownia.pl server - so a Polish operator with books in either system pays once. n8n and Make templates ship ready-made for teams that want the same tools outside a chat client.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10105,7 +10105,7 @@ Built by: Fakto.app (github.com/nulline-apps/fakto-mcp)
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>fakto-wfirma<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://fakto.app/wfirma/stream
 </code></pre></div>
-<p>First connect triggers the browser OAuth flow (dynamic client registration — no pre-created client ID needed). For n8n and Make.com, generate a Bearer token in the web panel instead.</p>
+<p>First connect triggers the browser OAuth flow (dynamic client registration - no pre-created client ID needed). For n8n and Make.com, generate a Bearer token in the web panel instead.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -10119,20 +10119,20 @@ Built by: Fakto.app (github.com/nulline-apps/fakto-mcp)
 <p>OAuth-capable clients bootstrap automatically from the 401 challenge; Bearer-token clients pass the header explicitly.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Polish small businesses on wFirma.pl</strong> get their first AI-native accounting layer — invoice drafting, stock alerts, and cashflow forecasts in chat.</li>
+<li><strong>Polish small businesses on wFirma.pl</strong> get their first AI-native accounting layer - invoice drafting, stock alerts, and cashflow forecasts in chat.</li>
 <li><strong>Accountants and bookkeepers</strong> hand the assistant recurring work (payment reminders, overdue lists) and keep final sign-off.</li>
 <li><strong>Ecommerce operators in Poland</strong> connect warehouse stock and payment tracking to the same surface that answers "what is owed to us".</li>
 <li><strong>n8n/Make teams</strong> get the identical ~45 tools as workflow steps with ready-made templates.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Fakto.app extends the CorpusIQ accounting story into a locale CorpusIQ connectors do not cover natively: CorpusIQ's QuickBooks and Axonaut connectors handle US and French books; wFirma is the Polish ledger. An operator running both worlds composes cleanly — CorpusIQ answers multi-market revenue and spend questions (Stripe charges, Shopify orders, GA4 traffic), while Fakto answers the Polish-book questions (KPiR, ZUS, local invoices) the global layer never sees. For a Polish entity, the pair is the practical stack: global business data from CorpusIQ, local compliance from Fakto.</p>
+<p>Fakto.app extends the CorpusIQ accounting story into a locale CorpusIQ connectors do not cover natively: CorpusIQ's QuickBooks and Axonaut connectors handle US and French books; wFirma is the Polish ledger. An operator running both worlds composes cleanly - CorpusIQ answers multi-market revenue and spend questions (Stripe charges, Shopify orders, GA4 traffic), while Fakto answers the Polish-book questions (KPiR, ZUS, local invoices) the global layer never sees. For a Polish entity, the pair is the practical stack: global business data from CorpusIQ, local compliance from Fakto.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet</li>
+<li>Brand new - no track record yet</li>
 <li>Poland-specific: wFirma.pl and Fakturownia.pl only; no other locales</li>
 <li>Cloud-only (hosted endpoint, no self-host option)</li>
 <li>Free tier capped at 100 requests/month</li>
-<li>Write access is broad — OAuth scope review matters before production use</li>
+<li>Write access is broad - OAuth scope review matters before production use</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

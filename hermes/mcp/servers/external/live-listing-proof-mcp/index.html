@@ -10047,7 +10047,7 @@
 
 
 <h1 id="live-listing-proof-mcp">Live Listing Proof MCP<a class="headerlink" href="#live-listing-proof-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Hosted verification service that checks a public listing before an agent relies on it.</strong> Send a URL and a claim; get a fail-closed verdict with source-supported facts — or an explicit removed, blocked, unreachable, unsupported, or insufficient-evidence state. Designed for agents that recommend products, cite listings, monitor classifieds, or act on advertised prices. $0.02 USDC per verification on Base via x402, no API key and no account.</p>
+<p><strong>Hosted verification service that checks a public listing before an agent relies on it.</strong> Send a URL and a claim; get a fail-closed verdict with source-supported facts - or an explicit removed, blocked, unreachable, unsupported, or insufficient-evidence state. Designed for agents that recommend products, cite listings, monitor classifieds, or act on advertised prices. $0.02 USDC per verification on Base via x402, no API key and no account.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP MCP)
 Auth: None (x402 micropayment per call)
 Endpoint: https://live-listing-proof.mattskowronis.workers.dev/mcp
@@ -10079,7 +10079,7 @@ Built by: Skowron Works (skowronworks.com)
 </tr>
 <tr>
 <td>Structured output</td>
-<td><code>verdict</code>, <code>claim_supported</code>, <code>title</code>, <code>price</code>, <code>location</code>, <code>evidence</code>, <code>retrieval_method</code> — optional facts are null when unsupported</td>
+<td><code>verdict</code>, <code>claim_supported</code>, <code>title</code>, <code>price</code>, <code>location</code>, <code>evidence</code>, <code>retrieval_method</code> - optional facts are null when unsupported</td>
 </tr>
 </tbody>
 </table>
@@ -10111,7 +10111,7 @@ Built by: Skowron Works (skowronworks.com)
 <ul>
 <li>One verification per paid call; not a search engine or price-history database</li>
 <li>Verifies public listing pages only; no merchant-owned inventory API access</li>
-<li>Results are not cached as fresh — each call is a live check</li>
+<li>Results are not cached as fresh - each call is a live check</li>
 <li>Individual-developer service hosted on Cloudflare Workers; no SLA published</li>
 <li>x402 payment rails still early-adopter territory</li>
 </ul>

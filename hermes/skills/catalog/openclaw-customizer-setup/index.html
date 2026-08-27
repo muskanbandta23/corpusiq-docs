@@ -23,7 +23,7 @@
     
     
   
-    <title>OpenClaw Customizer — Setup Guide</title>
+    <title>OpenClaw Customizer - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-customizer-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="OpenClaw Customizer — Setup Guide">
+  <meta property="og:title" content="OpenClaw Customizer - Setup Guide">
   <meta property="og:description" content="Portable, version-controlled configuration for Claude Code and OpenAI Codex. Symlink-based skill syncing across machines with Git version control.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="OpenClaw Customizer — Setup Guide">
+  <meta name="twitter:title" content="OpenClaw Customizer - Setup Guide">
   <meta name="twitter:description" content="Portable, version-controlled configuration for Claude Code and OpenAI Codex. Symlink-based skill syncing across machines with Git version control.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "OpenClaw Customizer \u2014 Setup Guide",
+    "name": "OpenClaw Customizer - Setup Guide",
     "description": "Portable, version-controlled configuration for Claude Code and OpenAI Codex. Symlink-based skill syncing across machines with Git version control.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-customizer-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OpenClaw Customizer — Setup Guide
+              OpenClaw Customizer - Setup Guide
             
           </span>
         </div>
@@ -10077,7 +10077,7 @@
   
 
 
-<h1 id="openclaw-customizer-setup-guide">OpenClaw Customizer — Setup Guide<a class="headerlink" href="#openclaw-customizer-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="openclaw-customizer-setup-guide">OpenClaw Customizer - Setup Guide<a class="headerlink" href="#openclaw-customizer-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Git</strong> installed</li>
@@ -10139,13 +10139,13 @@
 ├── skill-b/        → &lt;repo&gt;/skills/skill-b/
 └── ...             (only skills not in codex-exclude)
 </code></pre></div>
-<p>Edit files in either location — they're the same files. Commit and push to sync across machines.</p>
+<p>Edit files in either location - they're the same files. Commit and push to sync across machines.</p>
 <h2 id="codex-skill-syncing">Codex Skill Syncing<a class="headerlink" href="#codex-skill-syncing" title="Anchor link to this section">&para;</a></h2>
 <p>Codex doesn't support directory-level symlinks, so skills are symlinked individually:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Runs automatically on every Claude Code session start</span>
 scripts/sync-codex-skills.sh
 </code></pre></div>
-<p>Skills listed in <code>codex-exclude</code> are skipped — use this for skills that only make sense in Claude Code.</p>
+<p>Skills listed in <code>codex-exclude</code> are skipped - use this for skills that only make sense in Claude Code.</p>
 <h2 id="configuration-files">Configuration Files<a class="headerlink" href="#configuration-files" title="Anchor link to this section">&para;</a></h2>
 <h3 id="settingsjson">settings.json<a class="headerlink" href="#settingsjson" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
@@ -10163,7 +10163,7 @@ scripts/sync-codex-skills.sh
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="mcpjson">.mcp.json<a class="headerlink" href="#mcpjson" title="Anchor link to this section">&para;</a></h3>
-<p>Shared MCP server configuration — add CorpusIQ MCP endpoint here:</p>
+<p>Shared MCP server configuration - add CorpusIQ MCP endpoint here:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -10182,7 +10182,7 @@ scripts/sync-codex-skills.sh
 <p><strong>Multi-Machine Agent Consistency:</strong> Agents running on both Linux and macOS hosts. A shared Git-backed config ensures both machines use identical skills, MCP servers, and settings.</p>
 </li>
 <li>
-<p><strong>Team Onboarding:</strong> New team members clone the config repo, run <code>./setup.sh</code>, and instantly have the full CorpusIQ agent toolkit — no manual skill installation needed.</p>
+<p><strong>Team Onboarding:</strong> New team members clone the config repo, run <code>./setup.sh</code>, and instantly have the full CorpusIQ agent toolkit - no manual skill installation needed.</p>
 </li>
 <li>
 <p><strong>Skill Versioning:</strong> Skills change rapidly. Git tracking means you can roll back to a known-good skill version if an update breaks something.</p>
@@ -10227,7 +10227,7 @@ scripts/sync-codex-skills.sh
 <p><em>← <a href="/hermes/skills/catalog">Skills Catalog</a> | <a href="/hermes/skills/marketplace">Marketplace</a> →</em>
 <em>↑ <a href="/hermes/skills">Skills Home</a></em></p>
 <hr />
-<p><em>Curated by CorpusIQ — one MCP endpoint, all your business tools.</em></p>
+<p><em>Curated by CorpusIQ - one MCP endpoint, all your business tools.</em></p>
 
 
 

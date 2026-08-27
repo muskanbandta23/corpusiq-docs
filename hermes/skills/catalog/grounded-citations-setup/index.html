@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains — Perplexity-style">
+        <meta name="description" content="Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains - Perplexity-style">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Grounded Citations — Skill Setup Guide</title>
+    <title>Grounded Citations - Skill Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/grounded-citations-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Grounded Citations — Skill Setup Guide">
-  <meta property="og:description" content="Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains — Perplexity-style">
+  <meta property="og:title" content="Grounded Citations - Skill Setup Guide">
+  <meta property="og:description" content="Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains - Perplexity-style">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Grounded Citations — Skill Setup Guide">
-  <meta name="twitter:description" content="Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains — Perplexity-style">
+  <meta name="twitter:title" content="Grounded Citations - Skill Setup Guide">
+  <meta name="twitter:description" content="Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains - Perplexity-style">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Grounded Citations \u2014 Skill Setup Guide",
-    "description": "Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains \u2014 Perplexity-style",
+    "name": "Grounded Citations - Skill Setup Guide",
+    "description": "Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains - Perplexity-style",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/grounded-citations-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Grounded Citations — Skill Setup Guide
+              Grounded Citations - Skill Setup Guide
             
           </span>
         </div>
@@ -10116,12 +10116,12 @@
   
 
 
-<h1 id="grounded-citations-setup-guide">Grounded Citations — Setup Guide<a class="headerlink" href="#grounded-citations-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="grounded-citations-setup-guide">Grounded Citations - Setup Guide<a class="headerlink" href="#grounded-citations-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/grounded-citations">nousresearch/hermes-agent</a> (22 installs)
 <strong>Category:</strong> Research / Quality Assurance
 <strong>License:</strong> MIT · <strong>Platforms:</strong> Linux, macOS, Windows
 <strong>Dependencies:</strong> Hermes Agent, web retrieval tools (web_search/web_extract)</p>
-<p>Every claim from an outside source gets an inline numbered citation and a <code>Sources:</code> reference list, Perplexity-style. A ledger script owns the <code>url → [n]</code> mapping so numbers and URLs come from retrieval, never from model memory. For high-stakes work, the same ledger doubles as a fact-checking chain — verbatim quotes are verified against source text, and model-knowledge claims are flagged <code>[unverified]</code>.</p>
+<p>Every claim from an outside source gets an inline numbered citation and a <code>Sources:</code> reference list, Perplexity-style. A ledger script owns the <code>url → [n]</code> mapping so numbers and URLs come from retrieval, never from model memory. For high-stakes work, the same ledger doubles as a fact-checking chain - verbatim quotes are verified against source text, and model-knowledge claims are flagged <code>[unverified]</code>.</p>
 <hr />
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10194,14 +10194,14 @@ ColBERT-style late interaction has shown 15-20% improvement over
 single-vector methods on the BEIR benchmark [3].
 
 Sources:
-[1] https://arxiv.org/abs/2401.xxxxx — &quot;Agentic RAG: A Survey&quot;
-[2] https://blog.langchain.dev/... — Hybrid Search in Production
-[3] https://arxiv.org/abs/2004.12832 — ColBERT (original paper)
+[1] https://arxiv.org/abs/2401.xxxxx - &quot;Agentic RAG: A Survey&quot;
+[2] https://blog.langchain.dev/... - Hybrid Search in Production
+[3] https://arxiv.org/abs/2004.12832 - ColBERT (original paper)
 </code></pre></div>
 <h3 id="verify-existing-content">Verify existing content<a class="headerlink" href="#verify-existing-content" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>&gt; Verify the citations in /home/user/report.md --evidence
 </code></pre></div>
-<p>This checks every <code>[n]</code> citation — if a claim doesn't trace to source text, it fails.</p>
+<p>This checks every <code>[n]</code> citation - if a claim doesn't trace to source text, it fails.</p>
 <hr />
 <h2 id="citation-format-examples">Citation Format Examples<a class="headerlink" href="#citation-format-examples" title="Anchor link to this section">&para;</a></h2>
 <p><strong>In chat:</strong>
@@ -10210,7 +10210,7 @@ Sources:
 <p><strong>In markdown:</strong>
 <div class="highlight"><pre><span></span><code>...as demonstrated by Smith et al. [^1].
 
-[<span class="nl">^1</span>]: <span class="na">https://example.com/paper — &quot;Title Here&quot; (2024)</span>
+[<span class="nl">^1</span>]: <span class="na">https://example.com/paper - &quot;Title Here&quot; (2024)</span>
 </code></pre></div></p>
 <p><strong>In documents (PDF/docx):</strong>
 Superscript numbers with endnote-style source list.</p>
@@ -10277,7 +10277,7 @@ Superscript numbers with endnote-style source list.</p>
 <hr />
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Trust the ledger, not memory:</strong> The <code>url → [n]</code> mapping is deterministic — model never invents URLs</li>
+<li><strong>Trust the ledger, not memory:</strong> The <code>url → [n]</code> mapping is deterministic - model never invents URLs</li>
 <li><strong>Verbatim quotes only:</strong> If the text isn't literally in the fetched page, the citation fails</li>
 <li><strong><code>[unverified]</code> is honest:</strong> Better to flag model knowledge than fabricate a source</li>
 <li><strong>Re-run <code>verify --evidence</code> after edits:</strong> Adding/removing claims may break citation chains</li>

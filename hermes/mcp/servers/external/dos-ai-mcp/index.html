@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="WhatsApp and Telegram AI assistant operations over MCP — projects, conversations, leads and analytics for chatbot operators, with no destructive tools by">
+        <meta name="description" content="WhatsApp and Telegram AI assistant operations over MCP - projects, conversations, leads and analytics for chatbot operators, with no destructive tools by">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dos-ai-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="DOS AI MCP - CorpusIQ Docs - CorpusIQ">
-  <meta property="og:description" content="WhatsApp and Telegram AI assistant operations over MCP — projects, conversations, leads and analytics for chatbot operators, with no destructive tools by">
+  <meta property="og:description" content="WhatsApp and Telegram AI assistant operations over MCP - projects, conversations, leads and analytics for chatbot operators, with no destructive tools by">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="DOS AI MCP - CorpusIQ Docs - CorpusIQ">
-  <meta name="twitter:description" content="WhatsApp and Telegram AI assistant operations over MCP — projects, conversations, leads and analytics for chatbot operators, with no destructive tools by">
+  <meta name="twitter:description" content="WhatsApp and Telegram AI assistant operations over MCP - projects, conversations, leads and analytics for chatbot operators, with no destructive tools by">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "DOS AI MCP - CorpusIQ Docs - CorpusIQ",
-    "description": "WhatsApp and Telegram AI assistant operations over MCP \u2014 projects, conversations, leads and analytics for chatbot operators, with no destructive tools by",
+    "description": "WhatsApp and Telegram AI assistant operations over MCP - projects, conversations, leads and analytics for chatbot operators, with no destructive tools by",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dos-ai-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="dos-ai-mcp">DOS AI MCP<a class="headerlink" href="#dos-ai-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, Bearer API key)</strong> — DOS AI is a platform for AI assistants (chatbots) in WhatsApp and Telegram with a built-in CRM. The MCP endpoint exposes the same data a human operator sees in the cabinet: projects, conversations, messages, leads, analytics and balance — through 13 tools that carry no destructive operations by design.</p>
+<p><strong>Remote MCP server (Streamable HTTP, Bearer API key)</strong> - DOS AI is a platform for AI assistants (chatbots) in WhatsApp and Telegram with a built-in CRM. The MCP endpoint exposes the same data a human operator sees in the cabinet: projects, conversations, messages, leads, analytics and balance - through 13 tools that carry no destructive operations by design.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: Bearer API key (dos_sk_live_...)
 Endpoint: https://dosai.pro/api/mcp
@@ -10057,9 +10057,9 @@ Category: Communication
 Built by: DOS AI (dosai.pro)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Chatbots on WhatsApp and Telegram are only useful if someone operates them: watching conversations, catching leads, correcting prompts, and handing the dialog to a human when the rules say so. The DOS AI MCP puts that operator loop in the agent itself. A CorpusIQ-style agent can read the conversations, file leads, update a bot's prompt, send an operator message into a live dialog, and pull conversion analytics — from any MCP client.</p>
-<p><strong>Two design decisions make this safe to hand to an agent</strong>: there is no delete-project, no payment, and no member management — the destructive tool list is empty and a test guards it — and every tool calls the public REST route over HTTP, so a read-only key stays read-only and project scoping applies exactly once. Keys can be scoped to a single project and to read-only access, and only a SHA-256 hash of the key is stored.</p>
-<p>The OpenAPI spec, <code>llms.txt</code>, and a full public corpus (<code>llms-full.txt</code>) are published — agent-readable documentation as a first-class deliverable.</p>
+<p>Chatbots on WhatsApp and Telegram are only useful if someone operates them: watching conversations, catching leads, correcting prompts, and handing the dialog to a human when the rules say so. The DOS AI MCP puts that operator loop in the agent itself. A CorpusIQ-style agent can read the conversations, file leads, update a bot's prompt, send an operator message into a live dialog, and pull conversion analytics - from any MCP client.</p>
+<p><strong>Two design decisions make this safe to hand to an agent</strong>: there is no delete-project, no payment, and no member management - the destructive tool list is empty and a test guards it - and every tool calls the public REST route over HTTP, so a read-only key stays read-only and project scoping applies exactly once. Keys can be scoped to a single project and to read-only access, and only a SHA-256 hash of the key is stored.</p>
+<p>The OpenAPI spec, <code>llms.txt</code>, and a full public corpus (<code>llms-full.txt</code>) are published - agent-readable documentation as a first-class deliverable.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10127,14 +10127,14 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <li><strong>Growth teams</strong> get conversion and response-time analytics per bot without a dashboard login</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>DOS AI is the messaging front-end that feeds the CorpusIQ CRM backbone. Leads captured in WhatsApp or Telegram conversations can be pushed into HubSpot or LeadConnector through the CorpusIQ CRM connector, so a chat inquiry becomes a pipeline contact instead of a lost dialog. The CorpusIQ calendar connector closes the loop the platform already starts — DOS AI bots book Google Calendar slots natively, and CorpusIQ reads the same calendar for meeting context. Analytics from DOS AI (<code>get_analytics</code>) can sit beside CorpusIQ GA4 in cross-source reporting: bot dialogs versus site traffic, one attribution view.</p>
+<p>DOS AI is the messaging front-end that feeds the CorpusIQ CRM backbone. Leads captured in WhatsApp or Telegram conversations can be pushed into HubSpot or LeadConnector through the CorpusIQ CRM connector, so a chat inquiry becomes a pipeline contact instead of a lost dialog. The CorpusIQ calendar connector closes the loop the platform already starts - DOS AI bots book Google Calendar slots natively, and CorpusIQ reads the same calendar for meeting context. Analytics from DOS AI (<code>get_analytics</code>) can sit beside CorpusIQ GA4 in cross-source reporting: bot dialogs versus site traffic, one attribution view.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listed August 17, 2026</li>
-<li>WhatsApp/Telegram only — no web or other messaging channels</li>
+<li>Brand new - no track record yet; listed August 17, 2026</li>
+<li>WhatsApp/Telegram only - no web or other messaging channels</li>
 <li>No destructive tools means deletions still happen in the human cabinet</li>
 <li>Rate limits (120 req/min per key) require pacing for heavy analytics pulls</li>
-<li>Hosted platform — conversation data lives on DOS AI infrastructure; webhooks help you take it out</li>
+<li>Hosted platform - conversation data lives on DOS AI infrastructure; webhooks help you take it out</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

@@ -10047,7 +10047,7 @@
 
 
 <h1 id="atoa-mcp">Atoa MCP<a class="headerlink" href="#atoa-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, Bearer token + environment header) — Atoa's first-party bridge that lets AI agents process payments, manage customers, handle refunds, read bank feeds and route approvals.</strong> Atoa is a UK payments platform covering Pay by Bank (customers pay from their own banking app with Strong Customer Authentication), card payments, payment links, QR codes, ecommerce checkouts, card machines and recurring payments. The MCP server mirrors that surface as tools, with a hosted HTTP endpoint and a local npx mode for offline operation.</p>
+<p><strong>Remote MCP server (Streamable HTTP, Bearer token + environment header) - Atoa's first-party bridge that lets AI agents process payments, manage customers, handle refunds, read bank feeds and route approvals.</strong> Atoa is a UK payments platform covering Pay by Bank (customers pay from their own banking app with Strong Customer Authentication), card payments, payment links, QR codes, ecommerce checkouts, card machines and recurring payments. The MCP server mirrors that surface as tools, with a hosted HTTP endpoint and a local npx mode for offline operation.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP) + local npx mode
 Auth: Bearer SDK token + X-Atoa-Env header (sandbox | production)
 Endpoint: https://mcp.atoa.me/mcp
@@ -10057,8 +10057,8 @@ Category: Payments / Commerce
 Built by: Atoa Payments Ltd (FCA authorised, PCI DSS, ISO 27001, SOC 2)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Payment operations usually means a human logged into a dashboard: check a payment, refund a customer, export transactions for the accountant. Atoa MCP moves that into the agent that is already handling the customer conversation. An agent that books a service can <code>process_payment</code> over a payment link, confirm with <code>get_payment</code>, and — when the customer cancels — <code>initiate_refund</code> without a second tool or a handoff. The token scoping and the sandbox/production environment header mean the write surface is explicit: a sandbox token cannot touch production, and mixing tokens and environments fails authentication rather than silently paying the wrong account.</p>
-<p>The bank-feed and approvals surface is the operator-grade part. <code>get_transactions</code> gives the agent a settlement view for reconciliation, and the approvals flow keeps human sign-off on the money-out path — the agent drafts, a person approves. For UK businesses this is the difference between an agent that can read about payments and one that can run them end to end with an audit trail.</p>
+<p>Payment operations usually means a human logged into a dashboard: check a payment, refund a customer, export transactions for the accountant. Atoa MCP moves that into the agent that is already handling the customer conversation. An agent that books a service can <code>process_payment</code> over a payment link, confirm with <code>get_payment</code>, and - when the customer cancels - <code>initiate_refund</code> without a second tool or a handoff. The token scoping and the sandbox/production environment header mean the write surface is explicit: a sandbox token cannot touch production, and mixing tokens and environments fails authentication rather than silently paying the wrong account.</p>
+<p>The bank-feed and approvals surface is the operator-grade part. <code>get_transactions</code> gives the agent a settlement view for reconciliation, and the approvals flow keeps human sign-off on the money-out path - the agent drafts, a person approves. For UK businesses this is the difference between an agent that can read about payments and one that can run them end to end with an audit trail.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10136,16 +10136,16 @@ Built by: Atoa Payments Ltd (FCA authorised, PCI DSS, ISO 27001, SOC 2)
 <li><strong>UK ecommerce and retail operators</strong> get payment creation, capture, refunds and customer management inside the agent that runs the store ops</li>
 <li><strong>Service businesses</strong> (trades, agencies, clinics) can raise payment links from a job record and confirm settlement in the same conversation</li>
 <li><strong>Finance teams</strong> read <code>get_transactions</code> for daily reconciliation against the bank</li>
-<li><strong>Product teams</strong> get an approvals-gated money-out path — agents can draft payouts, humans keep the keys</li>
+<li><strong>Product teams</strong> get an approvals-gated money-out path - agents can draft payouts, humans keep the keys</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Atoa MCP complements the CorpusIQ financial stack at the settlement edge. An operator reconciles Atoa settlements against QuickBooks through the CorpusIQ QuickBooks connector: the agent pulls Atoa transactions over MCP, matches them to invoices and payments in QuickBooks, and flags the gaps instead of exporting CSVs by hand. For UK ecommerce businesses running Shopify, the CorpusIQ Shopify connector shows order totals and payment state while Atoa MCP supplies the live settlement record — together they close the order-to-bank loop. The direction of flow: Atoa MCP executes and reads payments; CorpusIQ reads the accounting and store systems around them.</p>
+<p>Atoa MCP complements the CorpusIQ financial stack at the settlement edge. An operator reconciles Atoa settlements against QuickBooks through the CorpusIQ QuickBooks connector: the agent pulls Atoa transactions over MCP, matches them to invoices and payments in QuickBooks, and flags the gaps instead of exporting CSVs by hand. For UK ecommerce businesses running Shopify, the CorpusIQ Shopify connector shows order totals and payment state while Atoa MCP supplies the live settlement record - together they close the order-to-bank loop. The direction of flow: Atoa MCP executes and reads payments; CorpusIQ reads the accounting and store systems around them.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>UK market focus — Pay by Bank is a UK scheme; card acquiring applies to UK merchants</li>
-<li>Commercial platform — an Atoa account and SDK token are required; no free self-host path for the hosted server</li>
+<li>UK market focus - Pay by Bank is a UK scheme; card acquiring applies to UK merchants</li>
+<li>Commercial platform - an Atoa account and SDK token are required; no free self-host path for the hosted server</li>
 <li>Money-out actions need the approvals workflow configured; do not assume default-open writes</li>
-<li>New MCP surface — tool set tracks the platform's own roadmap</li>
+<li>New MCP surface - tool set tracks the platform's own roadmap</li>
 <li>Sandbox and production tokens are not interchangeable; mixing them fails auth by design</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

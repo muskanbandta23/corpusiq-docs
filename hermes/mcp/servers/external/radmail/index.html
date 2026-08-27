@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Full setup guide for RadMail — the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies">
+        <meta name="description" content="Full setup guide for RadMail - the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/radmail">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="RadMail MCP Integration Guide - CorpusIQ Docs">
-  <meta property="og:description" content="Full setup guide for RadMail — the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies">
+  <meta property="og:description" content="Full setup guide for RadMail - the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="RadMail MCP Integration Guide - CorpusIQ Docs">
-  <meta name="twitter:description" content="Full setup guide for RadMail — the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies">
+  <meta name="twitter:description" content="Full setup guide for RadMail - the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "RadMail MCP Integration Guide - CorpusIQ Docs",
-    "description": "Full setup guide for RadMail \u2014 the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies",
+    "description": "Full setup guide for RadMail - the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/radmail",
     
     "datePublished": "2026-08-12",
@@ -10110,27 +10110,27 @@
   
 
 
-<h1 id="radmail-mcp-integration-guide">RadMail MCP — Integration Guide<a class="headerlink" href="#radmail-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>The email operating system for AI agents.</strong> RadMail searches your real inbox, surfaces a "Right Now" lane, tracks commitments, and drafts reviewable replies — all through MCP. No tool can auto-send money, change banking, or make irreversible decisions without human approval.</p>
+<h1 id="radmail-mcp-integration-guide">RadMail MCP - Integration Guide<a class="headerlink" href="#radmail-mcp-integration-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>The email operating system for AI agents.</strong> RadMail searches your real inbox, surfaces a "Right Now" lane, tracks commitments, and drafts reviewable replies - all through MCP. No tool can auto-send money, change banking, or make irreversible decisions without human approval.</p>
 <blockquote>
 <p><strong>Source:</strong> mcp.so · <strong>Last seen:</strong> July 4, 2026 Feed</p>
 </blockquote>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <p>RadMail turns your email inbox into an MCP-accessible data source with agent-native controls. Unlike basic email MCP servers that just read/write, RadMail adds intelligence layers:</p>
 <ol>
-<li><strong>Smart Inbox Search</strong> — Search by sender, subject, content with relevance ranking</li>
-<li><strong>"Right Now" Lane</strong> — AI-prioritized view of emails needing immediate attention</li>
-<li><strong>Commitment Tracking</strong> — Detects promises, deadlines, and action items from email threads</li>
-<li><strong>Draft Replies</strong> — Generates reviewable draft responses (never auto-sends)</li>
-<li><strong>Safety Gating</strong> — Financial actions, banking, and irreversible operations require explicit human approval</li>
+<li><strong>Smart Inbox Search</strong> - Search by sender, subject, content with relevance ranking</li>
+<li><strong>"Right Now" Lane</strong> - AI-prioritized view of emails needing immediate attention</li>
+<li><strong>Commitment Tracking</strong> - Detects promises, deadlines, and action items from email threads</li>
+<li><strong>Draft Replies</strong> - Generates reviewable draft responses (never auto-sends)</li>
+<li><strong>Safety Gating</strong> - Financial actions, banking, and irreversible operations require explicit human approval</li>
 </ol>
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Search</strong> — Ranked inbox search by sender, subject, content, date range</li>
-<li><strong>Prioritization</strong> — AI-curated "Right Now" lane for urgent/important emails</li>
-<li><strong>Commitment Extraction</strong> — Automatically detects and tracks commitments and deadlines</li>
-<li><strong>Draft Generation</strong> — Creates reviewable reply drafts with context from thread history</li>
-<li><strong>Safety Guardrails</strong> — Blocks auto-send for financial/banking/irreversible actions</li>
+<li><strong>Search</strong> - Ranked inbox search by sender, subject, content, date range</li>
+<li><strong>Prioritization</strong> - AI-curated "Right Now" lane for urgent/important emails</li>
+<li><strong>Commitment Extraction</strong> - Automatically detects and tracks commitments and deadlines</li>
+<li><strong>Draft Generation</strong> - Creates reviewable reply drafts with context from thread history</li>
+<li><strong>Safety Guardrails</strong> - Blocks auto-send for financial/banking/irreversible actions</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Contact radmail-ai for access (not yet on npm)</span>
@@ -10224,12 +10224,12 @@ Generates a weekly accountability report from inbox data.</p>
 </tbody>
 </table>
 <h2 id="safety-note">Safety Note<a class="headerlink" href="#safety-note" title="Anchor link to this section">&para;</a></h2>
-<p>RadMail's core design principle: <strong>no irreversible action without human approval.</strong> The agent can read, search, and draft — but sending, financial transactions, and account changes require explicit human confirmation. This makes it safe for production business use.</p>
+<p>RadMail's core design principle: <strong>no irreversible action without human approval.</strong> The agent can read, search, and draft - but sending, financial transactions, and account changes require explicit human confirmation. This makes it safe for production business use.</p>
 <h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external">External MCP Server Catalog</a> — full curated catalog</li>
-<li><a href="/hermes/mcp/connectors">CorpusIQ MCP Connectors</a> — 40+ native business data connectors</li>
-<li><a href="/hermes/mcp/servers/external/#secure-email-gmail--outlook">PortEden Secure Email</a> — alternative email firewall approach</li>
+<li><a href="/hermes/mcp/servers/external">External MCP Server Catalog</a> - full curated catalog</li>
+<li><a href="/hermes/mcp/connectors">CorpusIQ MCP Connectors</a> - 40+ native business data connectors</li>
+<li><a href="/hermes/mcp/servers/external/#secure-email-gmail--outlook">PortEden Secure Email</a> - alternative email firewall approach</li>
 </ul>
 <hr />
 <p><em>← <a href="/hermes/mcp/servers/external">External MCP Catalog</a> | <a href="/hermes/mcp/servers">MCP Servers Home</a> →</em></p>

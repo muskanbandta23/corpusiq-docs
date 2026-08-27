@@ -23,7 +23,7 @@
     
     
   
-    <title>dbridge MCP — Secure Natural Language SQL for AI Agents</title>
+    <title>dbridge MCP - Secure Natural Language SQL for AI Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dbridge-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="dbridge MCP — Secure Natural Language SQL for AI Agents">
+  <meta property="og:title" content="dbridge MCP - Secure Natural Language SQL for AI Agents">
   <meta property="og:description" content="Query databases with natural language, secured by column masking, row caps, and query limits. AI agents get SQL access without exposing raw data">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="dbridge MCP — Secure Natural Language SQL for AI Agents">
+  <meta name="twitter:title" content="dbridge MCP - Secure Natural Language SQL for AI Agents">
   <meta name="twitter:description" content="Query databases with natural language, secured by column masking, row caps, and query limits. AI agents get SQL access without exposing raw data">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "dbridge MCP \u2014 Secure Natural Language SQL for AI Agents",
+    "name": "dbridge MCP - Secure Natural Language SQL for AI Agents",
     "description": "Query databases with natural language, secured by column masking, row caps, and query limits. AI agents get SQL access without exposing raw data",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dbridge-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              dbridge MCP — Secure Natural Language SQL for AI Agents
+              dbridge MCP - Secure Natural Language SQL for AI Agents
             
           </span>
         </div>
@@ -10051,16 +10051,16 @@
 
 <h1 id="dbridge-mcp-server-new-july-2-pm">dbridge MCP Server ★ New (July 2 PM)<a class="headerlink" href="#dbridge-mcp-server-new-july-2-pm" title="Anchor link to this section">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>dbridge MCP (<code>ugurcl/dbridge-mcp</code>) takes a fundamentally different approach to database MCP servers: security-first, not access-first. AI agents can query databases using natural language (translated to SQL under the hood), but every query is gated by column-level masking, per-query row caps, and configurable query limits. This addresses the #1 concern operators have about AI agents accessing databases — "what if the agent runs a <code>SELECT *</code> on a 500M-row table?" or "what if it sees PII columns?"</p>
-<p><strong>Key advantage</strong>: Natural language SQL with production-grade security guardrails — column masking, row limits, query budgets.</p>
+<p>dbridge MCP (<code>ugurcl/dbridge-mcp</code>) takes a fundamentally different approach to database MCP servers: security-first, not access-first. AI agents can query databases using natural language (translated to SQL under the hood), but every query is gated by column-level masking, per-query row caps, and configurable query limits. This addresses the #1 concern operators have about AI agents accessing databases - "what if the agent runs a <code>SELECT *</code> on a 500M-row table?" or "what if it sees PII columns?"</p>
+<p><strong>Key advantage</strong>: Natural language SQL with production-grade security guardrails - column masking, row limits, query budgets.</p>
 <h2 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Natural language to SQL</strong>: Describe what you need in plain English — dbridge translates to optimized SQL</li>
-<li><strong>Column masking</strong>: Specify which columns are visible, masked, or hidden per table — PII and sensitive data never reach the agent</li>
+<li><strong>Natural language to SQL</strong>: Describe what you need in plain English - dbridge translates to optimized SQL</li>
+<li><strong>Column masking</strong>: Specify which columns are visible, masked, or hidden per table - PII and sensitive data never reach the agent</li>
 <li><strong>Row caps</strong>: Per-query row limits prevent full table scans and runaway queries</li>
-<li><strong>Query limits</strong>: Configurable query budgets per session — prevent resource exhaustion</li>
+<li><strong>Query limits</strong>: Configurable query budgets per session - prevent resource exhaustion</li>
 <li><strong>Multi-database</strong>: PostgreSQL, MySQL, and SQLite support</li>
-<li><strong>Explain mode</strong>: Show the generated SQL and execution plan before running — transparency and trust</li>
+<li><strong>Explain mode</strong>: Show the generated SQL and execution plan before running - transparency and trust</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clone and install</span>
@@ -10090,31 +10090,31 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </code></pre></div>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Safe data access for non-technical teams</strong>: Marketing, sales, and support teams can query databases without SQL knowledge — and without risk of exposing sensitive data</li>
+<li><strong>Safe data access for non-technical teams</strong>: Marketing, sales, and support teams can query databases without SQL knowledge - and without risk of exposing sensitive data</li>
 <li><strong>AI analytics without data exfiltration</strong>: Column masking ensures PII, financial data, and trade secrets never leave the database in AI agent responses</li>
 <li><strong>Governed self-service BI</strong>: Business operators get on-demand analytics from AI agents without waiting for data engineering to build dashboards</li>
-<li><strong>Audit-ready</strong>: Every query is logged with the agent's identity, generated SQL, and row counts — compliance teams get a complete audit trail</li>
+<li><strong>Audit-ready</strong>: Every query is logged with the agent's identity, generated SQL, and row counts - compliance teams get a complete audit trail</li>
 <li><strong>Development acceleration</strong>: Developers can explore database schemas and test queries through natural language during development</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>dbridge MCP adds governed database access to CorpusIQ's analytics stack, complementing existing SQL tools (SIXTA Connect, PipeTable, Query Streams) and BI connectors (Google Analytics, Clamp Analytics). The security-first design aligns with CorpusIQ's governance model:</p>
 <ul>
-<li><strong>Governed queries</strong>: Combine dbridge's column masking with CorpusIQ's pre-flight gate — queries are security-checked before they reach the database AND masked before results reach the agent</li>
-<li><strong>Cross-source intelligence</strong>: AI agents can join CRM data (Attio), financial data (QuickBooks), and operational data (database) in a single query — with dbridge ensuring the database side is secure</li>
+<li><strong>Governed queries</strong>: Combine dbridge's column masking with CorpusIQ's pre-flight gate - queries are security-checked before they reach the database AND masked before results reach the agent</li>
+<li><strong>Cross-source intelligence</strong>: AI agents can join CRM data (Attio), financial data (QuickBooks), and operational data (database) in a single query - with dbridge ensuring the database side is secure</li>
 <li><strong>Compliance</strong>: Column masking + audit trail supports GDPR, HIPAA, and SOC 2 requirements for AI agent database access</li>
 </ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Self-hosted — requires Node.js runtime and database connectivity</li>
+<li>Self-hosted - requires Node.js runtime and database connectivity</li>
 <li>Database connection string management required (no remote proxy mode yet)</li>
 <li>Natural language translation quality depends on schema clarity</li>
-<li>Not a full database administration tool — focused on read queries with writes gated separately</li>
+<li>Not a full database administration tool - focused on read queries with writes gated separately</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external">SIXTA Connect — SQL Review &amp; Optimization</a></li>
-<li><a href="/hermes/mcp/servers/external">Query Streams MCP — Secure Database Access</a></li>
-<li><a href="/hermes/mcp/servers/external">PipeTable — DuckDB for Local Data</a></li>
+<li><a href="/hermes/mcp/servers/external">SIXTA Connect - SQL Review &amp; Optimization</a></li>
+<li><a href="/hermes/mcp/servers/external">Query Streams MCP - Secure Database Access</a></li>
+<li><a href="/hermes/mcp/servers/external">PipeTable - DuckDB for Local Data</a></li>
 <li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
 </ul>
 

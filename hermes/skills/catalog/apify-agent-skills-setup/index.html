@@ -23,7 +23,7 @@
     
     
   
-    <title>Apify Agent Skills — Full Setup Guide for Hermes Agents</title>
+    <title>Apify Agent Skills - Full Setup Guide for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/apify-agent-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Apify Agent Skills — Full Setup Guide for Hermes Agents">
+  <meta property="og:title" content="Apify Agent Skills - Full Setup Guide for Hermes Agents">
   <meta property="og:description" content="Install and use Apify's production-grade web scraping skills. 5 skills, 30K+ pre-built Actors, MCP-compatible. 2.2K+ GitHub stars.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Apify Agent Skills — Full Setup Guide for Hermes Agents">
+  <meta name="twitter:title" content="Apify Agent Skills - Full Setup Guide for Hermes Agents">
   <meta name="twitter:description" content="Install and use Apify's production-grade web scraping skills. 5 skills, 30K+ pre-built Actors, MCP-compatible. 2.2K+ GitHub stars.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Apify Agent Skills \u2014 Full Setup Guide for Hermes Agents",
+    "name": "Apify Agent Skills - Full Setup Guide for Hermes Agents",
     "description": "Install and use Apify\u0027s production-grade web scraping skills. 5 skills, 30K+ pre-built Actors, MCP-compatible. 2.2K+ GitHub stars.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-agent-skills-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Apify Agent Skills — Full Setup Guide for Hermes Agents
+              Apify Agent Skills - Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -10055,11 +10055,11 @@
   
 
 
-<h1 id="apify-agent-skills-setup-guide">Apify Agent Skills — Setup Guide<a class="headerlink" href="#apify-agent-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="apify-agent-skills-setup-guide">Apify Agent Skills - Setup Guide<a class="headerlink" href="#apify-agent-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/apify/agent-skills">apify/agent-skills</a> (2,232⭐)
 <strong>Category:</strong> Web Scraping / Automation
 <strong>Language:</strong> Python</p>
-<p>Production-grade web scraping and automation skills for AI coding agents. Drop these into any agent and get expert access to the Apify platform — scrape any site, build new Actors, Actorize existing code, generate output schemas, and integrate the Apify API. 30,000+ pre-built Actors covering social media, search, maps, real estate, reviews, and more.</p>
+<p>Production-grade web scraping and automation skills for AI coding agents. Drop these into any agent and get expert access to the Apify platform - scrape any site, build new Actors, Actorize existing code, generate output schemas, and integrate the Apify API. 30,000+ pre-built Actors covering social media, search, maps, real estate, reviews, and more.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install all Apify agent skills</span>
@@ -10077,7 +10077,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <tbody>
 <tr>
 <td><strong>Apify account</strong></td>
-<td><a href="https://console.apify.com">console.apify.com</a> — free tier available ($5/month credit)</td>
+<td><a href="https://console.apify.com">console.apify.com</a> - free tier available ($5/month credit)</td>
 </tr>
 <tr>
 <td><strong>Apify API token</strong></td>
@@ -10089,7 +10089,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 <tr>
 <td><strong>Hermes Agent</strong></td>
-<td>Any version — skills load as instructions; MCP integration available</td>
+<td>Any version - skills load as instructions; MCP integration available</td>
 </tr>
 </tbody>
 </table>
@@ -10204,7 +10204,7 @@ curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;htt
 <span class="c1"># Verify skill installed</span>
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>apify
 
-<span class="c1"># Quick test — list available Actors</span>
+<span class="c1"># Quick test - list available Actors</span>
 curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://api.apify.com/v2/acts?token=</span><span class="nv">$APIFY_TOKEN</span><span class="s2">&amp;limit=5&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json,sys; d=json.load(sys.stdin); print([a[&#39;name&#39;] for a in d.get(&#39;data&#39;,{}).get(&#39;items&#39;,[])])&quot;</span>
 </code></pre></div>
 <hr />

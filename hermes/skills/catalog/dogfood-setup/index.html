@@ -23,7 +23,7 @@
     
     
   
-    <title>Dogfood — Setup Guide for Hermes Agents</title>
+    <title>Dogfood - Setup Guide for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Dogfood — Setup Guide for Hermes Agents">
+  <meta property="og:title" content="Dogfood - Setup Guide for Hermes Agents">
   <meta property="og:description" content="Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dogfood — Setup Guide for Hermes Agents">
+  <meta name="twitter:title" content="Dogfood - Setup Guide for Hermes Agents">
   <meta name="twitter:description" content="Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Dogfood \u2014 Setup Guide for Hermes Agents",
+    "name": "Dogfood - Setup Guide for Hermes Agents",
     "description": "Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dogfood — Setup Guide for Hermes Agents
+              Dogfood - Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -10077,11 +10077,11 @@
   
 
 
-<h1 id="dogfood-setup-guide">Dogfood — Setup Guide<a class="headerlink" href="#dogfood-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="dogfood-setup-guide">Dogfood - Setup Guide<a class="headerlink" href="#dogfood-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a> (Official)
 <strong>Skill:</strong> <code>dogfood</code> · <strong>Installs:</strong> 4.9K+ · <strong>Category:</strong> QA / Testing
 <strong>Platform:</strong> Linux, macOS, Windows</p>
-<p>Dogfood is Nous Research's official skill for systematic exploratory QA testing of web applications. It guides Hermes agents through a structured 5-phase workflow — Plan, Explore, Interact, Edge Cases, Report — using the browser toolset to find bugs, capture screenshots as evidence, and produce structured bug reports.</p>
+<p>Dogfood is Nous Research's official skill for systematic exploratory QA testing of web applications. It guides Hermes agents through a structured 5-phase workflow - Plan, Explore, Interact, Edge Cases, Report - using the browser toolset to find bugs, capture screenshots as evidence, and produce structured bug reports.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>nousresearch/hermes-agent@dogfood
 </code></pre></div>
@@ -10117,7 +10117,7 @@
 <ol>
 <li>Create output directory: <code>dogfood-output/screenshots/</code></li>
 <li>Identify testing scope from user input</li>
-<li>Build a sitemap — pages, features, flows to test:</li>
+<li>Build a sitemap - pages, features, flows to test:</li>
 <li>Landing/home page</li>
 <li>Navigation (header, footer, sidebar)</li>
 <li>Key user flows (sign up, login, search, checkout)</li>
@@ -10128,9 +10128,9 @@
 <p>For each page in your plan:</p>
 <ol>
 <li><strong>Navigate</strong>: <code>browser_navigate(url="https://example.com/page")</code></li>
-<li><strong>Snapshot</strong>: <code>browser_snapshot()</code> — understand DOM structure</li>
-<li><strong>Console check</strong>: <code>browser_console(clear=true)</code> — catch JS errors after every navigation and interaction. Silent JS errors are high-value findings.</li>
-<li><strong>Visual assessment</strong>: <code>browser_vision(question="Describe the page layout, identify visual issues, broken elements, or accessibility concerns", annotate=true)</code> — <code>annotate=true</code> overlays numbered <code>[N]</code> labels on interactive elements. Each <code>[N]</code> maps to ref <code>@eN</code>.</li>
+<li><strong>Snapshot</strong>: <code>browser_snapshot()</code> - understand DOM structure</li>
+<li><strong>Console check</strong>: <code>browser_console(clear=true)</code> - catch JS errors after every navigation and interaction. Silent JS errors are high-value findings.</li>
+<li><strong>Visual assessment</strong>: <code>browser_vision(question="Describe the page layout, identify visual issues, broken elements, or accessibility concerns", annotate=true)</code> - <code>annotate=true</code> overlays numbered <code>[N]</code> labels on interactive elements. Each <code>[N]</code> maps to ref <code>@eN</code>.</li>
 </ol>
 <h3 id="phase-3-interact">Phase 3: Interact<a class="headerlink" href="#phase-3-interact" title="Anchor link to this section">&para;</a></h3>
 <p>For each interactive element identified:</p>

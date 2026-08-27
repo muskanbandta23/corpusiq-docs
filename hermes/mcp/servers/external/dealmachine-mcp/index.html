@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="DealMachine MCP integration guide — connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.">
+        <meta name="description" content="DealMachine MCP integration guide - connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dealmachine-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="DealMachine MCP - CorpusIQ Docs">
-  <meta property="og:description" content="DealMachine MCP integration guide — connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.">
+  <meta property="og:description" content="DealMachine MCP integration guide - connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="DealMachine MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="DealMachine MCP integration guide — connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.">
+  <meta name="twitter:description" content="DealMachine MCP integration guide - connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "DealMachine MCP - CorpusIQ Docs",
-    "description": "DealMachine MCP integration guide \u2014 connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.",
+    "description": "DealMachine MCP integration guide - connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dealmachine-mcp",
     
     "datePublished": "2026-08-12",
@@ -10100,7 +10100,7 @@
 
 
 <h1 id="dealmachine-mcp">DealMachine MCP<a class="headerlink" href="#dealmachine-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Real estate property intelligence MCP server</strong> — connects AI agents to DealMachine's property, owner, people, and company data for real estate sales, marketing, prospecting, enrichment, and lead generation.</p>
+<p><strong>Real estate property intelligence MCP server</strong> - connects AI agents to DealMachine's property, owner, people, and company data for real estate sales, marketing, prospecting, enrichment, and lead generation.</p>
 <blockquote>
 <p><strong>Source:</strong> <a href="https://github.com/DealMachine/dealmachine-cli">github.com/DealMachine/dealmachine-cli</a>
 <strong>API Docs:</strong> <a href="https://api.docs.dealmachine.com">api.docs.dealmachine.com</a>
@@ -10112,18 +10112,18 @@
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <p>DealMachine CLI (<code>dm</code>) is a Commander.js CLI that provides <strong>17 command groups</strong> covering:</p>
 <ul>
-<li><strong>Agent Guidance</strong> — How-to instructions for the AI agent</li>
-<li><strong>Authentication</strong> — OAuth 2.1 and API key management</li>
-<li><strong>Property Search</strong> — Find properties by address, owner, parcel, or criteria</li>
-<li><strong>People Lookup</strong> — Owner identity, contact data, skip tracing</li>
-<li><strong>Enrichment</strong> — Layer additional data onto property records</li>
-<li><strong>Comps</strong> — Comparable sales analysis</li>
-<li><strong>List Management</strong> — Create and manage lead/property lists</li>
-<li><strong>Developer Utilities</strong> — Manifests for OpenAI, Claude, Cursor, Copilot, Gemini</li>
+<li><strong>Agent Guidance</strong> - How-to instructions for the AI agent</li>
+<li><strong>Authentication</strong> - OAuth 2.1 and API key management</li>
+<li><strong>Property Search</strong> - Find properties by address, owner, parcel, or criteria</li>
+<li><strong>People Lookup</strong> - Owner identity, contact data, skip tracing</li>
+<li><strong>Enrichment</strong> - Layer additional data onto property records</li>
+<li><strong>Comps</strong> - Comparable sales analysis</li>
+<li><strong>List Management</strong> - Create and manage lead/property lists</li>
+<li><strong>Developer Utilities</strong> - Manifests for OpenAI, Claude, Cursor, Copilot, Gemini</li>
 </ul>
-<p>The CLI compiles to a single ESM bundle via TypeScript and has <strong>zero</strong> <code>@dealmachine/*</code> dependencies — it's a self-contained binary that communicates exclusively through DealMachine's public REST API.</p>
+<p>The CLI compiles to a single ESM bundle via TypeScript and has <strong>zero</strong> <code>@dealmachine/*</code> dependencies - it's a self-contained binary that communicates exclusively through DealMachine's public REST API.</p>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Real estate operators — investors, agents, wholesalers, and property managers — spend hours manually pulling property records, skip-tracing owners, and analyzing comps. DealMachine MCP lets AI agents do this conversationally:</p>
+<p>Real estate operators - investors, agents, wholesalers, and property managers - spend hours manually pulling property records, skip-tracing owners, and analyzing comps. DealMachine MCP lets AI agents do this conversationally:</p>
 <ul>
 <li><strong>"Look up the owner of 123 Main St and find available contact data"</strong></li>
 <li><strong>"Pull comps for the last 6 months within 0.5 miles of this property"</strong></li>
@@ -10231,9 +10231,9 @@ npx<span class="w"> </span>dealmachine-cli
 <p>For managed AI platforms that support OAuth flows (ChatGPT, Claude.ai), DealMachine supports OAuth 2.1. The first time you connect, your AI client opens a browser to sign in and authorize access. Subsequent sessions reuse the credentials.</p>
 <h2 id="security-model">Security Model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>OAuth 2.1</strong> for managed AI platforms — scoped access with browser-based authorization</li>
-<li><strong>API Key</strong> for developer clients — bearer token authentication</li>
-<li><strong>Read-only tools</strong> by default — enrichment and lookups</li>
+<li><strong>OAuth 2.1</strong> for managed AI platforms - scoped access with browser-based authorization</li>
+<li><strong>API Key</strong> for developer clients - bearer token authentication</li>
+<li><strong>Read-only tools</strong> by default - enrichment and lookups</li>
 <li><strong>Write operations</strong> require explicit permissions</li>
 <li><strong>API usage tracked</strong> in your DealMachine account dashboard</li>
 </ul>
@@ -10241,16 +10241,16 @@ npx<span class="w"> </span>dealmachine-cli
 <p>DealMachine's API access is included in their subscription plans. Check <a href="https://dealmachine.com/pricing">dealmachine.com/pricing</a> for current tiers. The MCP server itself is free and open source.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>US-focused</strong> — property data is US-centric</li>
-<li><strong>Requires DealMachine subscription</strong> — not a standalone free tool</li>
-<li><strong>New MCP</strong> — July 2026 launch, expect rapid iteration</li>
-<li><strong>CLI-based</strong> — requires Node.js to run locally (or use hosted MCP endpoint)</li>
+<li><strong>US-focused</strong> - property data is US-centric</li>
+<li><strong>Requires DealMachine subscription</strong> - not a standalone free tool</li>
+<li><strong>New MCP</strong> - July 2026 launch, expect rapid iteration</li>
+<li><strong>CLI-based</strong> - requires Node.js to run locally (or use hosted MCP endpoint)</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>[[google-maps-scraper-mcp]] — Google Maps lead data MCP</li>
-<li>[[basedonbusiness-mcp]] — Google Maps business lead search + enrichment</li>
-<li>[[quickbooks-mcp]] — QuickBooks MCP for real estate financials</li>
+<li>[[google-maps-scraper-mcp]] - Google Maps lead data MCP</li>
+<li>[[basedonbusiness-mcp]] - Google Maps business lead search + enrichment</li>
+<li>[[quickbooks-mcp]] - QuickBooks MCP for real estate financials</li>
 </ul>
 
 

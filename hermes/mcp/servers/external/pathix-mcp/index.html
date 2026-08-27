@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Setup and usage guide for Pathix MCP — Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.">
+        <meta name="description" content="Setup and usage guide for Pathix MCP - Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Pathix MCP — Microsoft Dynamics 365 Forensics</title>
+    <title>Pathix MCP - Microsoft Dynamics 365 Forensics</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/pathix-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Pathix MCP — Microsoft Dynamics 365 Forensics">
-  <meta property="og:description" content="Setup and usage guide for Pathix MCP — Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.">
+  <meta property="og:title" content="Pathix MCP - Microsoft Dynamics 365 Forensics">
+  <meta property="og:description" content="Setup and usage guide for Pathix MCP - Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Pathix MCP — Microsoft Dynamics 365 Forensics">
-  <meta name="twitter:description" content="Setup and usage guide for Pathix MCP — Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.">
+  <meta name="twitter:title" content="Pathix MCP - Microsoft Dynamics 365 Forensics">
+  <meta name="twitter:description" content="Setup and usage guide for Pathix MCP - Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Pathix MCP \u2014 Microsoft Dynamics 365 Forensics",
-    "description": "Setup and usage guide for Pathix MCP \u2014 Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.",
+    "name": "Pathix MCP - Microsoft Dynamics 365 Forensics",
+    "description": "Setup and usage guide for Pathix MCP - Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pathix-mcp",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pathix MCP — Microsoft Dynamics 365 Forensics
+              Pathix MCP - Microsoft Dynamics 365 Forensics
             
           </span>
         </div>
@@ -10038,7 +10038,7 @@
   
 
 
-<h1 id="pathix-mcp-microsoft-dynamics-365-forensics">Pathix MCP — Microsoft Dynamics 365 Forensics<a class="headerlink" href="#pathix-mcp-microsoft-dynamics-365-forensics" title="Anchor link to this section">&para;</a></h1>
+<h1 id="pathix-mcp-microsoft-dynamics-365-forensics">Pathix MCP - Microsoft Dynamics 365 Forensics<a class="headerlink" href="#pathix-mcp-microsoft-dynamics-365-forensics" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Priority:</strong> MEDIUM | <strong>Category:</strong> Enterprise / ERP / Compliance<br />
 <strong>Transport:</strong> Remote Streamable HTTP | <strong>Auth:</strong> OAuth via Microsoft Entra<br />
 <strong>Website:</strong> https://pathix.app<br />
@@ -10047,7 +10047,7 @@
 <p>Pathix is a forensics platform for Microsoft Dynamics 365 and the Dataverse. It scans an environment and parses compiled plugin IL, classic workflow XAML, Power Automate flow definition JSON, form scripts, canvas app Power Fx, dataflows, and the security model. The resulting dependency graph is exposed as read-only MCP tools.</p>
 <p><strong>For operators in Microsoft-ecosystem enterprises:</strong> Pathix answers the questions the native Dataverse MCP cannot: what writes a given column, what reads it, what breaks if you change a table, who can actually reach it, and which recent deployment explains a field behaving differently.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Self-hosted, commercial — runs in customer&#39;s Azure subscription</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Self-hosted, commercial - runs in customer&#39;s Azure subscription</span>
 <span class="c1"># No public endpoint or standalone install</span>
 <span class="c1"># Deployment via Azure Marketplace: https://pathix.app</span>
 </code></pre></div>
@@ -10073,20 +10073,20 @@
 <p>Every dependency edge carries resolution confidence (declared / parsed / AI-derived / unresolved).</p>
 <h2 id="operator-use-cases">Operator Use Cases<a class="headerlink" href="#operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Change impact analysis:</strong> Before modifying a Dynamics 365 table, ask Pathix "what reads this column?" — instantly see all plugins, flows, scripts, and reports that would break</li>
-<li><strong>Security audit:</strong> Map the actual reachability of sensitive fields — does that intern's security role accidentally grant access to financial data through a chain of inherited permissions?</li>
+<li><strong>Change impact analysis:</strong> Before modifying a Dynamics 365 table, ask Pathix "what reads this column?" - instantly see all plugins, flows, scripts, and reports that would break</li>
+<li><strong>Security audit:</strong> Map the actual reachability of sensitive fields - does that intern's security role accidentally grant access to financial data through a chain of inherited permissions?</li>
 <li><strong>M&amp;A system integration:</strong> When merging two companies, scan both Dynamics environments to identify shared dependencies, conflicts, and integration points</li>
 <li><strong>Deployment forensics:</strong> "Sales pipeline conversion dropped 15% since Tuesday" → Pathix shows which deployment changed the opportunity close logic</li>
 <li><strong>Compliance evidence:</strong> Generate dependency maps for SOX/GDPR auditors showing exactly which systems touch regulated data</li>
 </ol>
 <h2 id="corpusiq-angle">CorpusIQ Angle<a class="headerlink" href="#corpusiq-angle" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Complementary — enterprise vertical.</strong> CorpusIQ's data sources could be enriched with Pathix dependency data for enterprises on Dynamics 365. A combined view would let operators see: "This QuickBooks integration depends on these 3 plugins, this security role, and this Power Automate flow."</p>
+<p><strong>Complementary - enterprise vertical.</strong> CorpusIQ's data sources could be enriched with Pathix dependency data for enterprises on Dynamics 365. A combined view would let operators see: "This QuickBooks integration depends on these 3 plugins, this security role, and this Power Automate flow."</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Commercial + self-hosted only</strong> — no free tier, no public endpoint. Enterprise sales motion required</li>
+<li><strong>Commercial + self-hosted only</strong> - no free tier, no public endpoint. Enterprise sales motion required</li>
 <li>Azure-only deployment (customer's Azure subscription)</li>
 <li>Microsoft Dynamics 365 / Dataverse only (not Salesforce, NetSuite, etc.)</li>
-<li>21 read-only tools — no write capability for remediation</li>
+<li>21 read-only tools - no write capability for remediation</li>
 <li>OAuth via Microsoft Entra requires enterprise identity setup</li>
 </ul>
 

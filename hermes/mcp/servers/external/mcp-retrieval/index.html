@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Keyless web retrieval for agents — parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS">
+        <meta name="description" content="Keyless web retrieval for agents - parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-retrieval">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="mcp-retrieval - CorpusIQ Docs - CorpusIQ">
-  <meta property="og:description" content="Keyless web retrieval for agents — parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS">
+  <meta property="og:description" content="Keyless web retrieval for agents - parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="mcp-retrieval - CorpusIQ Docs - CorpusIQ">
-  <meta name="twitter:description" content="Keyless web retrieval for agents — parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS">
+  <meta name="twitter:description" content="Keyless web retrieval for agents - parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "mcp-retrieval - CorpusIQ Docs - CorpusIQ",
-    "description": "Keyless web retrieval for agents \u2014 parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS",
+    "description": "Keyless web retrieval for agents - parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-retrieval",
     
     "author": {
@@ -10047,18 +10047,18 @@
 
 
 <h1 id="mcp-retrieval">mcp-retrieval<a class="headerlink" href="#mcp-retrieval" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP server (stdio or HTTP, no API keys)</strong> — a Go server that gives an LLM three web tools: parallel web search, image search, and page scraping to clean Markdown. Search runs through DuckDuckGo Lite, image search through Bing Images, and pages are extracted with a readability parser. MIT licensed.</p>
+<p><strong>MCP server (stdio or HTTP, no API keys)</strong> - a Go server that gives an LLM three web tools: parallel web search, image search, and page scraping to clean Markdown. Search runs through DuckDuckGo Lite, image search through Bing Images, and pages are extracted with a readability parser. MIT licensed.</p>
 <div class="highlight"><pre><span></span><code>Server type: stdio or HTTP (self-hosted)
-Auth: None — no API keys or accounts required
+Auth: None - no API keys or accounts required
 Endpoint: your own process (Docker, prebuilt binary, or go build)
-Tools: 3 (web_search, web_search_images, web_scrape — all read-only)
+Tools: 3 (web_search, web_search_images, web_scrape - all read-only)
 Pricing: free (MIT)
 Category: Content
 Built by: Role1776 (github.com/Role1776/mcp-retrieval), via the retrieval-go library
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Web search APIs are a per-key expense with a contract attached. mcp-retrieval removes both: no keys, no accounts, no per-call billing, running wherever you run the agent. The trade-off is that free upstreams defend against bots, and this server answers that with engineering — real browser TLS fingerprints via uTLS, matching user-agent and client-hint headers across ~11 browser profiles, and optional session-based proxy rotation for a fresh exit IP per request.</p>
-<p><strong>The failure semantics are agent-grade</strong>: every call fans out across the input list and returns one entry per query or URL with its own status — success, failed, or timeout — so a partial failure still returns the items that worked. A call fails outright only when the input is rejected or every item fails, and the error messages tell the model what to correct (invalid request, too many queries, query too long, robots.txt denied). The model reads the message and can fix the call itself.</p>
+<p>Web search APIs are a per-key expense with a contract attached. mcp-retrieval removes both: no keys, no accounts, no per-call billing, running wherever you run the agent. The trade-off is that free upstreams defend against bots, and this server answers that with engineering - real browser TLS fingerprints via uTLS, matching user-agent and client-hint headers across ~11 browser profiles, and optional session-based proxy rotation for a fresh exit IP per request.</p>
+<p><strong>The failure semantics are agent-grade</strong>: every call fans out across the input list and returns one entry per query or URL with its own status - success, failed, or timeout - so a partial failure still returns the items that worked. A call fails outright only when the input is rejected or every item fails, and the error messages tell the model what to correct (invalid request, too many queries, query too long, robots.txt denied). The model reads the message and can fix the call itself.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10106,13 +10106,13 @@ docker<span class="w"> </span>pull<span class="w"> </span>ghcr.io/role1776/mcp-r
 <li><strong>Privacy-conscious operators</strong> keep retrieval traffic on their own infrastructure</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>mcp-retrieval is the self-hosted research instrument beside the CorpusIQ data connectors. Where CorpusIQ connectors answer questions from the operator's own systems — Stripe, QuickBooks, HubSpot, GA4 — mcp-retrieval answers questions from the open web, and it does so without adding a second vendor relationship to the stack. A CorpusIQ research workflow can compose them: scrape a competitor's pricing page to Markdown with mcp-retrieval, read the traffic impact in GA4, and reconcile the revenue story in Stripe — one agent, one session, no key juggling.</p>
+<p>mcp-retrieval is the self-hosted research instrument beside the CorpusIQ data connectors. Where CorpusIQ connectors answer questions from the operator's own systems - Stripe, QuickBooks, HubSpot, GA4 - mcp-retrieval answers questions from the open web, and it does so without adding a second vendor relationship to the stack. A CorpusIQ research workflow can compose them: scrape a competitor's pricing page to Markdown with mcp-retrieval, read the traffic impact in GA4, and reconcile the revenue story in Stripe - one agent, one session, no key juggling.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet; listed August 17, 2026</li>
+<li>Brand new - no track record yet; listed August 17, 2026</li>
 <li>Free upstreams are rate-limit-prone without proxies; image-search relevance is best-effort</li>
-<li>No JavaScript rendering — client-side-only pages come back empty</li>
-<li>Raw-file hosts (raw.githubusercontent.com, CDNs) are not scraped as text — use the rendered page</li>
+<li>No JavaScript rendering - client-side-only pages come back empty</li>
+<li>Raw-file hosts (raw.githubusercontent.com, CDNs) are not scraped as text - use the rendered page</li>
 <li>Self-hosted means you operate it: no SLA, no vendor support</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

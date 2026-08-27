@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Tamper-evident action logging for AI agents — hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.">
+        <meta name="description" content="Tamper-evident action logging for AI agents - hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/arcaeon-ledger-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Arcaeon Ledger MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Tamper-evident action logging for AI agents — hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.">
+  <meta property="og:description" content="Tamper-evident action logging for AI agents - hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Arcaeon Ledger MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Tamper-evident action logging for AI agents — hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.">
+  <meta name="twitter:description" content="Tamper-evident action logging for AI agents - hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Arcaeon Ledger MCP - CorpusIQ Docs",
-    "description": "Tamper-evident action logging for AI agents \u2014 hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.",
+    "description": "Tamper-evident action logging for AI agents - hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/arcaeon-ledger-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="arcaeon-ledger-mcp">Arcaeon Ledger MCP<a class="headerlink" href="#arcaeon-ledger-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP tools (stdio, self-hosted via pip)</strong> — Arcaeon Ledger is a tamper-evident, hash-chained action log for AI agents: <code>ledger_append</code> and <code>ledger_verify</code> tools over a single JSONL file with zero dependencies. An edit, deletion, or reorder breaks the record and names the exact line. Artifact binding records what the agent actually read, and an optional external witness catches the two attacks a chain alone cannot see — truncation and re-minting.</p>
+<p><strong>MCP tools (stdio, self-hosted via pip)</strong> - Arcaeon Ledger is a tamper-evident, hash-chained action log for AI agents: <code>ledger_append</code> and <code>ledger_verify</code> tools over a single JSONL file with zero dependencies. An edit, deletion, or reorder breaks the record and names the exact line. Artifact binding records what the agent actually read, and an optional external witness catches the two attacks a chain alone cannot see - truncation and re-minting.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (stdio, pip install)
 Auth: None (local files)
 Endpoint: local JSONL file
@@ -10057,8 +10057,8 @@ Category: Compliance / Agent Governance
 Built by: Arcaeon (arcaeon.io, sole-proprietor studio)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>When an agent acts on your behalf, the first compliance question is always the same: can you prove what it did, in order, without trusting the record keeper? Arcaeon's answer is a hash chain over plain JSONL — cheap, local, and verifiable by anyone, with the vendor's own limits named in the README before the features. The companion <code>arcaeon-audit</code> package wraps it into an EU AI Act Article 12-style tamper-evident agent audit log with a regulator-ready export bundle.</p>
-<p><strong>The differentiator is the honesty doctrine</strong> — the vendor publishes what the ledger does NOT prove (truncation without a witness, truth of recorded content, authorship) next to every claim, and ships a mutation harness where every verifier check is observed catching its own planted defect.</p>
+<p>When an agent acts on your behalf, the first compliance question is always the same: can you prove what it did, in order, without trusting the record keeper? Arcaeon's answer is a hash chain over plain JSONL - cheap, local, and verifiable by anyone, with the vendor's own limits named in the README before the features. The companion <code>arcaeon-audit</code> package wraps it into an EU AI Act Article 12-style tamper-evident agent audit log with a regulator-ready export bundle.</p>
+<p><strong>The differentiator is the honesty doctrine</strong> - the vendor publishes what the ledger does NOT prove (truncation without a witness, truth of recorded content, authorship) next to every claim, and ships a mutation harness where every verifier check is observed catching its own planted defect.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10092,7 +10092,7 @@ Built by: Arcaeon (arcaeon.io, sole-proprietor studio)
 python<span class="w"> </span>-m<span class="w"> </span>arcaeon_ledger.selftest<span class="w">          </span><span class="c1"># recipe + witness proofs on your machine</span>
 python<span class="w"> </span>-m<span class="w"> </span>arcaeon_ledger.mutation_harness<span class="w">  </span><span class="c1"># every check observed catching its planted defect</span>
 </code></pre></div>
-<p>The MCP tools run locally over the JSONL file — no server, no keys. The witness pin store is a public GitHub repository where every pin is a commit, so the witness's own record is verifiable by strangers without trusting the API.</p>
+<p>The MCP tools run locally over the JSONL file - no server, no keys. The witness pin store is a public GitHub repository where every pin is a commit, so the witness's own record is verifiable by strangers without trusting the API.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -10109,17 +10109,17 @@ python<span class="w"> </span>-m<span class="w"> </span>arcaeon_ledger.mutation_
 <li><strong>Compliance operators</strong> get a regulator-ready tamper-evident agent log with an export bundle, aimed at EU AI Act Article 12</li>
 <li><strong>Agencies running agents for clients</strong> get receipts that survive hostile review, not just internal dashboards</li>
 <li><strong>Engineering managers</strong> get pre-registered baseline probes for model swaps and quantization passes</li>
-<li><strong>Security teams</strong> get artifact binding — the ledger records what the agent actually read, URL plus content digest</li>
+<li><strong>Security teams</strong> get artifact binding - the ledger records what the agent actually read, URL plus content digest</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Arcaeon composes with the catalogued compliance layer rather than competing with it. A composed workflow: AgenticRail Gate MCP enforces step order and writes signed receipts, glc PromptGuard gates prompts and tool outputs, and Arcaeon Ledger binds everything to a hash-chained record an auditor can verify offline — CorpusIQ's own OAuth-grant-scoped connectors then become the data sources whose reads get artifact-bound. For operators building ISO 42001 or EU AI Act evidence packs, the <code>arcaeon-audit</code> export bundle is the artifact that pairs with CorpusIQ connector access logs.</p>
+<p>Arcaeon composes with the catalogued compliance layer rather than competing with it. A composed workflow: AgenticRail Gate MCP enforces step order and writes signed receipts, glc PromptGuard gates prompts and tool outputs, and Arcaeon Ledger binds everything to a hash-chained record an auditor can verify offline - CorpusIQ's own OAuth-grant-scoped connectors then become the data sources whose reads get artifact-bound. For operators building ISO 42001 or EU AI Act evidence packs, the <code>arcaeon-audit</code> export bundle is the artifact that pairs with CorpusIQ connector access logs.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no long track record yet</li>
-<li>Self-hosted stdio only — no hosted MCP endpoint</li>
+<li>Brand new listing - no long track record yet</li>
+<li>Self-hosted stdio only - no hosted MCP endpoint</li>
 <li>Named non-proofs: truncation without a witness, truth of recorded content, and authorship are outside the ledger's scope</li>
 <li>Witness is Stage-0 (free tier 100 pins/month; vendor pre-commits incident disclosure in writing)</li>
-<li>Sole-proprietor studio — bus factor of one, stated plainly by the vendor</li>
+<li>Sole-proprietor studio - bus factor of one, stated plainly by the vendor</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Bank-statement conversion over MCP — turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped">
+        <meta name="description" content="Bank-statement conversion over MCP - turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/mainbook-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="MainBook MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Bank-statement conversion over MCP — turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped">
+  <meta property="og:description" content="Bank-statement conversion over MCP - turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MainBook MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Bank-statement conversion over MCP — turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped">
+  <meta name="twitter:description" content="Bank-statement conversion over MCP - turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "MainBook MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Bank-statement conversion over MCP \u2014 turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped",
+    "description": "Bank-statement conversion over MCP - turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mainbook-mcp",
     
     "author": {
@@ -10036,7 +10036,7 @@
 
 
 <h1 id="mainbook-mcp">MainBook MCP<a class="headerlink" href="#mainbook-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Local bookkeeping-conversion server (stdio, API key)</strong> — MainBook scopes itself to one job and does it well: converting PDF bank statements into checked JSON, Excel, or CSV with balance validation. It runs locally with a MainBook API key, talks to api.mainbook.ai for the conversion engine, and refuses to touch anything outside the folders the operator names.</p>
+<p><strong>Local bookkeeping-conversion server (stdio, API key)</strong> - MainBook scopes itself to one job and does it well: converting PDF bank statements into checked JSON, Excel, or CSV with balance validation. It runs locally with a MainBook API key, talks to api.mainbook.ai for the conversion engine, and refuses to touch anything outside the folders the operator names.</p>
 <div class="highlight"><pre><span></span><code>Server type: Local (stdio via uvx or pip)
 Auth: Account API key (MAINBOOK_API_KEY, mb_live_...)
 Endpoint: api.mainbook.ai (REST under the local server)
@@ -10046,7 +10046,7 @@ Category: Finance / Accounting
 Built by: mainbook.ai
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Bank statements are the worst part of bookkeeping: every bank exports differently, PDFs resist parsing, and a wrong number poisons reconciliation. MainBook turns the chore into one tool call — "convert ~/Downloads/march-statement.pdf and save the Excel next to it" — and returns 63 transactions with opening and closing totals reconciled against the statement. If the totals do not match, nothing is silently accepted; the validation flags it.</p>
+<p>Bank statements are the worst part of bookkeeping: every bank exports differently, PDFs resist parsing, and a wrong number poisons reconciliation. MainBook turns the chore into one tool call - "convert ~/Downloads/march-statement.pdf and save the Excel next to it" - and returns 63 transactions with opening and closing totals reconciled against the statement. If the totals do not match, nothing is silently accepted; the validation flags it.</p>
 <p>The boundary design is the trust story: the server can only read and write inside the folders passed as arguments or set in <code>MAINBOOK_ALLOWED_DIRS</code>, and it has no tool for buying credits, handling payments, or deleting anything. It cannot spend money it was not given.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10059,7 +10059,7 @@ Built by: mainbook.ai
 <tbody>
 <tr>
 <td><code>convert_bank_statement</code></td>
-<td>Upload one PDF, run a conversion job, poll 30–900s, return reviewed JSON or write XLSX/CSV to disk</td>
+<td>Upload one PDF, run a conversion job, poll 30-900s, return reviewed JSON or write XLSX/CSV to disk</td>
 </tr>
 <tr>
 <td><code>get_conversion</code></td>
@@ -10079,7 +10079,7 @@ Built by: mainbook.ai
 </tr>
 </tbody>
 </table>
-<p>Operating limits: 500 pages and 50MB per PDF, 6 in-flight jobs per key, 90-day document retention. A client timeout does not kill the job — <code>get_conversion</code> picks it up by job ID.</p>
+<p>Operating limits: 500 pages and 50MB per PDF, 6 in-flight jobs per key, 90-day document retention. A client timeout does not kill the job - <code>get_conversion</code> picks it up by job ID.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -10100,13 +10100,13 @@ Built by: mainbook.ai
 <li><strong>Audit prep</strong> gains checked CSV/JSON exports instead of hand-typed entries</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>MainBook is the intake step for the accounting layer CorpusIQ already connects: converted statements become clean CSV/JSON that feeds QuickBooks imports or CorpusIQ's financial connectors for reconciliation against live balances. The split of labor is clean — MainBook turns the PDF into checked data, CorpusIQ turns that data into cross-source financial truth.</p>
+<p>MainBook is the intake step for the accounting layer CorpusIQ already connects: converted statements become clean CSV/JSON that feeds QuickBooks imports or CorpusIQ's financial connectors for reconciliation against live balances. The split of labor is clean - MainBook turns the PDF into checked data, CorpusIQ turns that data into cross-source financial truth.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>One job only — no general accounting, invoicing, or categorization tools</li>
+<li>One job only - no general accounting, invoicing, or categorization tools</li>
 <li>Page-credit pricing; heavy monthly conversion volumes need a package check</li>
 <li>Local stdio means the folder boundary is only as strong as the operator's configuration</li>
-<li>New listing — the MCP surface has no community track record yet</li>
+<li>New listing - the MCP surface has no community track record yet</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

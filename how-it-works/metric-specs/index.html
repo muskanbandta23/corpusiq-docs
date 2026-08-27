@@ -1280,7 +1280,7 @@
   <a href="#step-1-copy-a-template" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1 — Copy a template
+        Step 1 - Copy a template
       
     </span>
   </a>
@@ -1291,7 +1291,7 @@
   <a href="#step-2-hand-it-to-claude" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2 — Hand it to Claude
+        Step 2 - Hand it to Claude
       
     </span>
   </a>
@@ -1302,7 +1302,7 @@
   <a href="#step-3-confirm-it-landed" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3 — Confirm it landed
+        Step 3 - Confirm it landed
       
     </span>
   </a>
@@ -1313,7 +1313,7 @@
   <a href="#step-4-use-it" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4 — Use it
+        Step 4 - Use it
       
     </span>
   </a>
@@ -10381,7 +10381,7 @@
   <a href="#step-1-copy-a-template" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1 — Copy a template
+        Step 1 - Copy a template
       
     </span>
   </a>
@@ -10392,7 +10392,7 @@
   <a href="#step-2-hand-it-to-claude" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2 — Hand it to Claude
+        Step 2 - Hand it to Claude
       
     </span>
   </a>
@@ -10403,7 +10403,7 @@
   <a href="#step-3-confirm-it-landed" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3 — Confirm it landed
+        Step 3 - Confirm it landed
       
     </span>
   </a>
@@ -10414,7 +10414,7 @@
   <a href="#step-4-use-it" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4 — Use it
+        Step 4 - Use it
       
     </span>
   </a>
@@ -10593,7 +10593,7 @@ description (the paragraph you wrote so future-you remembers what counted),
 an expression in the mini-DSL (the actual recipe), an expected unit, and
 some optional bookkeeping (ownership, freshness budget, cross-source peers).</p>
 <p>Specs are not the same thing as Truth Sources. A Truth Source tells the
-system <em>where the answer lives</em> — your finance workbook, your KPI doc,
+system <em>where the answer lives</em> - your finance workbook, your KPI doc,
 your CEO's head. A metric spec tells the system <em>how to compute the
 answer</em> from connector data. Both flavors live in the same Canonical
 store, with the same versioning and approval gates. When the same key
@@ -10606,13 +10606,13 @@ layer is the only place "MRR" is defined; every dashboard, prompt, and
 report dereferences the same definition. They call the absence of
 ambiguity "no drift."</p>
 <p>We can't ship that architecture. CorpusIQ doesn't have a warehouse, by
-design — direct MCP resolves against 30+ vendor APIs live, on
+design - direct MCP resolves against 30+ vendor APIs live, on
 every request. Two of those vendors will sometimes disagree about a
 number (your Stripe MRR and your QuickBooks recurring revenue won't
 always reconcile, and that's interesting), and we want to surface that
 honestly rather than pretending one of them is right.</p>
-<p>So we kept Anthropic's idea — the user-declared computation is the
-canonical definition — and changed the substrate. The DSL compiles to
+<p>So we kept Anthropic's idea - the user-declared computation is the
+canonical definition - and changed the substrate. The DSL compiles to
 connector tool calls, not SQL. Lineage is a graph of vendor reads, not
 tables. Drift is vendor-vs-vendor disagreement we expose, not stale views.</p>
 <p>Same outcome (you trust the number). Smaller surface area. No
@@ -10623,7 +10623,7 @@ Every field annotated.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;monthly_paid_revenue_stripe&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Monthly Paid Revenue (Stripe)&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages — anything Stripe successfully captured. Excludes failed, pending, and refunded charges.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages - anything Stripe successfully captured. Excludes failed, pending, and refunded charges.&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;expression&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;stripe.list_charges(status=\&quot;succeeded\&quot;, days_back=30).aggregate(sum, field=amount)&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;expected_unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;expected_freshness&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;daily&quot;</span><span class="p">,</span>
@@ -10665,7 +10665,7 @@ Every field annotated.</p>
 </tr>
 <tr>
 <td><code>expected_freshness</code></td>
-<td>One of <code>realtime</code>, <code>daily</code>, <code>monthly</code>. <strong>Metadata only</strong>. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness — the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale."</td>
+<td>One of <code>realtime</code>, <code>daily</code>, <code>monthly</code>. <strong>Metadata only</strong>. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness - the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale."</td>
 </tr>
 <tr>
 <td><code>cross_source_checks</code></td>
@@ -10694,7 +10694,7 @@ Every field annotated.</p>
 </tbody>
 </table>
 <p>The two blank fields in the template (<code>owner_email</code>, <code>last_reviewed_at</code>)
-are intentionally empty — you fill them in when you adopt the spec.</p>
+are intentionally empty - you fill them in when you adopt the spec.</p>
 <h2 id="the-mini-dsl-grammar">The mini-DSL grammar<a class="headerlink" href="#the-mini-dsl-grammar" title="Anchor link to this section">&para;</a></h2>
 <p>The expression language is small. It covers four operations and nothing
 else, because the entire point of the registry is that you can read a
@@ -10741,10 +10741,10 @@ build composite numbers (net revenue, gross-minus-fees, blended CAC)
 from primitive specs without restating the underlying recipes.</p>
 <h2 id="declaring-your-first-spec">Declaring your first spec<a class="headerlink" href="#declaring-your-first-spec" title="Anchor link to this section">&para;</a></h2>
 <p>You don't write JSON by hand. The flow is conversational.</p>
-<h3 id="step-1-copy-a-template">Step 1 — Copy a template<a class="headerlink" href="#step-1-copy-a-template" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-1-copy-a-template">Step 1 - Copy a template<a class="headerlink" href="#step-1-copy-a-template" title="Anchor link to this section">&para;</a></h3>
 <p>Three starter templates ship today, all Stripe-only:
 <code>monthly_paid_revenue_stripe</code>, <code>active_paying_customers_stripe</code>, and
-<code>new_customers_last_30_days</code>. They're intentionally narrow — Stripe is
+<code>new_customers_last_30_days</code>. They're intentionally narrow - Stripe is
 the connector we have the cleanest dispatch audit on. A Shopify pack is
 on the short list. Ask <code>support@corpusiq.io</code> if you want a copy of a
 specific template up front, or just hand Claude the JSON in §"Anatomy
@@ -10753,7 +10753,7 @@ of a spec" above and ask it to customize for your use case.</p>
 <code>key</code> and <code>label</code> if you want something more specific to your business.
 Adjust the description so it reflects what you actually mean by this
 number, not what the template author meant.</p>
-<h3 id="step-2-hand-it-to-claude">Step 2 — Hand it to Claude<a class="headerlink" href="#step-2-hand-it-to-claude" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-2-hand-it-to-claude">Step 2 - Hand it to Claude<a class="headerlink" href="#step-2-hand-it-to-claude" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>You: Save this as a metric spec.
 
   {
@@ -10785,16 +10785,16 @@ Claude: Calling canonical_pending_commit(pending_write_id=&quot;pcw_8c3f...&quot
 the same one canonical facts and truth sources use. The first call
 proposes the change and returns a pending-write id plus any
 <code>validation_warnings</code>. Nothing is durable until you commit. If the spec
-fails its eval (and there is one — see the soft eval gate section), the
+fails its eval (and there is one - see the soft eval gate section), the
 warnings show up here, before the commit; you get to read them and
 decide whether to ship anyway.</p>
-<h3 id="step-3-confirm-it-landed">Step 3 — Confirm it landed<a class="headerlink" href="#step-3-confirm-it-landed" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-3-confirm-it-landed">Step 3 - Confirm it landed<a class="headerlink" href="#step-3-confirm-it-landed" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>You: list my metric specs
 
 Claude: Calling metric_spec_list...
-        1. monthly_paid_revenue_stripe (USD, daily) v1 — Monthly Paid Revenue (Stripe)
+        1. monthly_paid_revenue_stripe (USD, daily) v1 - Monthly Paid Revenue (Stripe)
 </code></pre></div>
-<h3 id="step-4-use-it">Step 4 — Use it<a class="headerlink" href="#step-4-use-it" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-4-use-it">Step 4 - Use it<a class="headerlink" href="#step-4-use-it" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>You: what is our monthly paid revenue?
 
 Claude: Calling metric_spec_resolve(key=&quot;monthly_paid_revenue_stripe&quot;)...
@@ -10806,7 +10806,7 @@ Claude: Calling metric_spec_resolve(key=&quot;monthly_paid_revenue_stripe&quot;)
 </code></pre></div>
 <p>The value is on its own line. The provenance footer is the italic line
 right below it. Claude is contractually required to render the footer
-verbatim — the data-contract text on the tool response pins that rule
+verbatim - the data-contract text on the tool response pins that rule
 ("Do not paraphrase it, do not split it across lines, do not strip the
 bullet separators. It is the audit trail.").</p>
 <h2 id="the-provenance-footer">The provenance footer<a class="headerlink" href="#the-provenance-footer" title="Anchor link to this section">&para;</a></h2>
@@ -10817,8 +10817,8 @@ the basic shape:</p>
 <p>Parsed left to right:</p>
 <ul>
 <li><strong>Label + value with unit</strong>: <code>Monthly Paid Revenue (Stripe) $47,312</code>. USD formats as currency; counts as integers; ratios and percentages format appropriately.</li>
-<li><strong>Spec version + review age</strong>: <code>spec v2 (reviewed 23 days ago)</code>. The age comes from <code>last_reviewed_at</code>. Past 90 days you should re-attest — write the date back and confirm the description still matches your intent.</li>
-<li><strong>Source-call summary</strong>: <code>1 Stripe call (847 rows)</code>. This is row count and connector count only — never row data. Multiple connectors get grouped with <code>+</code>. A spec that hit Stripe twice and QuickBooks once would render <code>2 Stripe calls (910 rows) + 1 Quickbooks call (84 rows)</code>.</li>
+<li><strong>Spec version + review age</strong>: <code>spec v2 (reviewed 23 days ago)</code>. The age comes from <code>last_reviewed_at</code>. Past 90 days you should re-attest - write the date back and confirm the description still matches your intent.</li>
+<li><strong>Source-call summary</strong>: <code>1 Stripe call (847 rows)</code>. This is row count and connector count only - never row data. Multiple connectors get grouped with <code>+</code>. A spec that hit Stripe twice and QuickBooks once would render <code>2 Stripe calls (910 rows) + 1 Quickbooks call (84 rows)</code>.</li>
 </ul>
 <p>When <code>cross_source_checks</code> is set and the peer disagrees, a drift block
 appends:</p>
@@ -10827,7 +10827,7 @@ appends:</p>
 <p>When <code>validation_warnings</code> is non-empty, a warning section appends:</p>
 <div class="highlight"><pre><span></span><code>New Customers (Last 30 Days) 42 · spec v1 · 1 Stripe call (42 rows) · ⚠ eval golden value mismatch: expected 38, got 42
 </code></pre></div>
-<p>The warning marker (<code>⚠</code>) is intentional — it makes the surface visible
+<p>The warning marker (<code>⚠</code>) is intentional - it makes the surface visible
 when an answer scrolls past in chat. The renderer truncates long
 warnings to 80 chars each and shows at most three, with a <code>+N more</code>
 suffix when there are extras.</p>
@@ -10869,10 +10869,10 @@ key, the percent difference, and your hypothesis text if you wrote one.</p>
 every spec with a <code>cross_source_checks</code> entry and returns only the
 drifting ones, sorted by percent_diff descending. Specs that failed to
 resolve (vendor down, connector unauthorized, expression parse error)
-land in a <code>skipped</code> section — the contract says the AI must not silently
+land in a <code>skipped</code> section - the contract says the AI must not silently
 omit them, because a spec that can't even compute is one you can't trust
 either.</p>
-<p>The <code>drift</code> object also carries an optional <code>hypothesis</code> field —
+<p>The <code>drift</code> object also carries an optional <code>hypothesis</code> field -
 free-text you write on the spec to document the known reason for a
 recurring disagreement. ("QBO recurring excludes trialing subscriptions;
 Stripe includes them.") When present, it renders alongside the diff.
@@ -10883,7 +10883,7 @@ attached to it. If the eval fails, the result is NOT a refusal. The save
 proceeds, the spec lands, the resolver works. What changes is that
 <code>validation_warnings[]</code> on the <code>metric_spec_set</code> response and on every
 subsequent <code>metric_spec_resolve</code> result is non-empty. The Skill
-renderer's contract requires those warnings to be surfaced inline —
+renderer's contract requires those warnings to be surfaced inline -
 silent acceptance defeats the entire purpose of having a gate.</p>
 <p>This is the §13.Q2 decision in the registry spec, made explicit: hard
 enforcement would punish iteration. Soft enforcement plus mandatory
@@ -10899,7 +10899,7 @@ The third sometimes means a connector is down for everyone.</p>
 <ul>
 <li><strong>No replicated source-data warehouse.</strong> Every resolve hits live vendor APIs. Direct MCP does not retain raw customer files or full connector response payloads; operational logs follow the published retention schedule.</li>
 <li><strong>No result caching.</strong> Two calls 30 seconds apart will both hit Stripe. <code>expected_freshness</code> is metadata; it does not implement a TTL.</li>
-<li><strong>No semantic correctness guarantee.</strong> The system honors the recipe you wrote. If you defined MRR wrong, the resolver will faithfully compute a wrong number. That's why the description field, the <code>last_reviewed_at</code> re-attestation, and the eval gate exist — they push the responsibility back to the human who knows the business.</li>
+<li><strong>No semantic correctness guarantee.</strong> The system honors the recipe you wrote. If you defined MRR wrong, the resolver will faithfully compute a wrong number. That's why the description field, the <code>last_reviewed_at</code> re-attestation, and the eval gate exist - they push the responsibility back to the human who knows the business.</li>
 <li><strong>No team sharing in v0.</strong> Specs are per-user. Multi-user sharing is a v1.5 design discussion and the data model leaves room for it.</li>
 <li><strong>No LLM-authored specs.</strong> The AI can scaffold a draft for you, but every commit goes through the pending-write approval gate. We won't write specs you didn't approve.</li>
 </ul>
@@ -10918,12 +10918,12 @@ work. The starter templates all do this for exactly this reason.</p>
 <p>Setting <code>expected_freshness: "daily"</code> does not create a daily cache, a
 TTL, or a refresh schedule. The resolver runs every call. The field
 exists so a future drift-detection pass can flag "your spec says daily
-but the underlying vendor is 11 days stale" — useful, but not the same
+but the underlying vendor is 11 days stale" - useful, but not the same
 as caching. If you need vendor latency tracking now, ask the AI to
 include the most recent timestamp from the source rows alongside the
 spec value.</p>
 <h3 id="cross_source_checks-is-empty-by-default"><code>cross_source_checks</code> is empty by default<a class="headerlink" href="#cross_source_checks-is-empty-by-default" title="Anchor link to this section">&para;</a></h3>
-<p>Drift detection costs you nothing in setup terms — but it costs you
+<p>Drift detection costs you nothing in setup terms - but it costs you
 nothing because the default <code>cross_source_checks: []</code> means no peer is
 ever consulted. Make sure both sides of the pair list each other if you
 want the check to fire from either direction.</p>
@@ -10933,7 +10933,7 @@ and silently does nothing when you call the other. Easy to miss.)</p>
 <p>The field exists on the model so adding the behavior in v0.1 doesn't
 require a schema migration. <strong>In v0 it does nothing.</strong> A spec with
 <code>prefer_truth_source: true</code> will still execute its expression and
-return the resolver's value — the truth-source override path isn't
+return the resolver's value - the truth-source override path isn't
 wired yet. If you want the truth source to win today, don't declare
 the spec.</p>
 <p>When v0.1 ships the wiring, the rule is: if the spec sets the flag AND
@@ -10952,7 +10952,7 @@ that conversation than ship the wrong primitive.</p>
 through the same path as raw connector tools. If Stripe renames a field
 your spec references, the next resolve fails with a parser or
 dispatch-level error and <code>metric_spec_drift_report</code> surfaces it in the
-<code>skipped</code> section. We don't catch schema drift before it bites — but
+<code>skipped</code> section. We don't catch schema drift before it bites - but
 we also don't hide it after. Vendor-side adapter tests in the
 CorpusIQ connector layer catch a separate class of drift before it
 reaches your specs.</p>
@@ -10962,10 +10962,10 @@ its <code>computed_at</code> field on the underlying <code>MetricSpecResult</cod
 you how many rows came from each connector. Metric resolution requests
 current source data; freshness follows each provider and CorpusIQ cache
 behavior. To assess vendor freshness, ask the AI to surface the most
-recent row timestamp alongside the value — that's a one-line addition to the
+recent row timestamp alongside the value - that's a one-line addition to the
 question.</p>
 <p><strong>Can I version a spec?</strong></p>
-<p>Yes — every <code>metric_spec_set</code> commit increments the spec's version.
+<p>Yes - every <code>metric_spec_set</code> commit increments the spec's version.
 Old versions aren't preserved for replay (the spec is a definition, not
 an artifact), but the version number is part of the provenance footer
 so you can tell which definition produced a number you screenshotted
@@ -10974,14 +10974,14 @@ last month.</p>
 <p>Read the warnings. The Skill contract requires them to be surfaced
 inline, so they'll be in the output. Three common cases: the expression
 is syntactically wrong (<code>metric_spec_set</code> shouldn't have accepted it
-— file a bug); the expression is valid but produced a value the eval
+- file a bug); the expression is valid but produced a value the eval
 didn't expect (your number is probably right; the golden was probably
 generated against fixture data that doesn't match yours); the eval
 couldn't run at all (infra problem, retry).</p>
 <p><strong>Can I undo a spec?</strong></p>
 <p>Yes. <code>metric_spec_remove(key="...")</code> returns a pending-write id, same
 as set. You commit the removal via <code>canonical_pending_commit</code>. Removed
-specs aren't recoverable from the API — re-declare from your local
+specs aren't recoverable from the API - re-declare from your local
 copy if you change your mind.</p>
 <p><strong>How do I see the expression for a spec I already saved?</strong></p>
 <p><code>metric_spec_get(key="...")</code> returns the full declaration including the
@@ -10992,7 +10992,7 @@ know what specs exist.</p>
 <p>CorpusIQ support: <code>support@corpusiq.io</code>. We read the inbox often.</p>
 <p>If you hit a connector-level issue (Stripe returns nothing, GA4
 authorization expired, QuickBooks rate-limits you), that's usually a
-connector problem rather than a spec problem — but <code>support@</code> is still
+connector problem rather than a spec problem - but <code>support@</code> is still
 the right starting point. Include the spec key and the exact question
 you asked Claude, and we can usually find the dispatch in the logs.</p>
 <hr />

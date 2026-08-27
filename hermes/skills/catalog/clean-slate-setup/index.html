@@ -23,7 +23,7 @@
     
     
   
-    <title>Clean Slate — Session-End Verification Skill Setup Guide</title>
+    <title>Clean Slate - Session-End Verification Skill Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/clean-slate-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Clean Slate — Session-End Verification Skill Setup Guide">
+  <meta property="og:title" content="Clean Slate - Session-End Verification Skill Setup Guide">
   <meta property="og:description" content="Install and configure clean-slate, the session-end verification skill that turns. Source: sidhartha1s/clean-slate.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Clean Slate — Session-End Verification Skill Setup Guide">
+  <meta name="twitter:title" content="Clean Slate - Session-End Verification Skill Setup Guide">
   <meta name="twitter:description" content="Install and configure clean-slate, the session-end verification skill that turns. Source: sidhartha1s/clean-slate.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Clean Slate \u2014 Session-End Verification Skill Setup Guide",
+    "name": "Clean Slate - Session-End Verification Skill Setup Guide",
     "description": "Install and configure clean-slate, the session-end verification skill that turns. Source: sidhartha1s/clean-slate.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/clean-slate-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Clean Slate — Session-End Verification Skill Setup Guide
+              Clean Slate - Session-End Verification Skill Setup Guide
             
           </span>
         </div>
@@ -10022,11 +10022,11 @@
   
 
 
-<h1 id="clean-slate-setup-guide">Clean Slate — Setup Guide<a class="headerlink" href="#clean-slate-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="clean-slate-setup-guide">Clean Slate - Setup Guide<a class="headerlink" href="#clean-slate-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/sidhartha1s/clean-slate">sidhartha1s/clean-slate</a>
 <strong>Category:</strong> Agent Infrastructure / Quality Assurance
 <strong>License:</strong> MIT · <strong>Published:</strong> June 28, 2026</p>
-<p>Every coding agent eventually says "this should work" when it doesn't. Clean Slate is a session-end verification skill that audits every claim — merged PRs, passing tests, fixed bugs — against the real artifact (git history, CI status, test output). It reconciles unmerged work, flags half-finished changes, and produces a verifiable status report.</p>
+<p>Every coding agent eventually says "this should work" when it doesn't. Clean Slate is a session-end verification skill that audits every claim - merged PRs, passing tests, fixed bugs - against the real artifact (git history, CI status, test output). It reconciles unmerged work, flags half-finished changes, and produces a verifiable status report.</p>
 <hr />
 <h2 id="the-problem-it-solves">The Problem It Solves<a class="headerlink" href="#the-problem-it-solves" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10080,17 +10080,17 @@ cp<span class="w"> </span>clean-slate/SKILL.md<span class="w"> </span>~/.hermes/
 <span class="w">      </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">--strict</span>
 </code></pre></div>
 <h3 id="output-example">Output Example<a class="headerlink" href="#output-example" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Clean Slate Report — Session #8472
+<div class="highlight"><pre><span></span><code>Clean Slate Report - Session #8472
 ===================================
-✅ PR #342 merged — commit a3f2b1c on main
-✅ Tests pass — 142/142, 0 failures
+✅ PR #342 merged - commit a3f2b1c on main
+✅ Tests pass - 142/142, 0 failures
 ⚠️  Branch fix/login-timeout not deleted
-❌ Bug #591 claim &quot;fixed&quot; — no related commit found
+❌ Bug #591 claim &quot;fixed&quot; - no related commit found
 ⚠️  2 files modified but not committed:
     - src/auth/session.ts
     - docs/CHANGELOG.md
 
-Verdict: SESSION NOT CLEAN — 1 unverified fix, 2 uncommitted files
+Verdict: SESSION NOT CLEAN - 1 unverified fix, 2 uncommitted files
 </code></pre></div>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -10108,7 +10108,7 @@ Verdict: SESSION NOT CLEAN — 1 unverified fix, 2 uncommitted files
 </tr>
 <tr>
 <td>CI/CD gate</td>
-<td>Add as pre-merge check — block PRs from unclean sessions</td>
+<td>Add as pre-merge check - block PRs from unclean sessions</td>
 </tr>
 <tr>
 <td>Multi-agent coordination</td>

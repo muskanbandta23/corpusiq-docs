@@ -10036,7 +10036,7 @@
 
 
 <h1 id="tokportal-mcp">TokPortal MCP<a class="headerlink" href="#tokportal-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Managed social infrastructure API: real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, exposed as a REST API and an MCP server with 91 tools.</strong> Create bundles of accounts and videos, upload and schedule videos at scale, retrieve delivered accounts, read cross-account analytics, follow the ban lifecycle and register webhooks — all from an agent, with no per-account OAuth, no 25-posts/day cap and no app review. Tools carry MCP annotations (<code>readOnlyHint</code>, <code>destructiveHint</code>, <code>idempotentHint</code>).</p>
+<p><strong>Managed social infrastructure API: real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, exposed as a REST API and an MCP server with 91 tools.</strong> Create bundles of accounts and videos, upload and schedule videos at scale, retrieve delivered accounts, read cross-account analytics, follow the ban lifecycle and register webhooks - all from an agent, with no per-account OAuth, no 25-posts/day cap and no app review. Tools carry MCP annotations (<code>readOnlyHint</code>, <code>destructiveHint</code>, <code>idempotentHint</code>).</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) or stdio via npm
 Auth: OAuth 2.1 (browser sign-in) or Bearer API key (sk_...)
 Endpoint: https://app.tokportal.com/api/ext/mcp
@@ -10045,11 +10045,11 @@ Tools: 91 across accounts, videos, scheduling, analytics, bans, webhooks
 Pricing: credit-based (per account and per video); size costs with tokportal_get_credit_costs
 License: MIT (client/server repo); commercial managed-account API
 Category: Marketing / social infrastructure
-Built by: TokPortal (tokportal.com) — registry com.tokportal/mcp
+Built by: TokPortal (tokportal.com) - registry com.tokportal/mcp
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Social distribution at scale is the operator problem no scheduling tool solves. Postiz-class schedulers move content between your existing accounts; TokPortal sits one layer lower — it provisions the accounts themselves. Human account managers in 16+ countries create, warm and operate real accounts, so an agent can order a geo-targeted bundle (say, ten US TikTok accounts) and receive working credentials, then push video content across the bundle through the same API.</p>
-<p><strong>The ban lifecycle is the honest feature.</strong> Multi-account operations get flagged; TokPortal exposes that lifecycle as tools instead of leaving you blind — watch for bans, handle replacements, and let webhooks notify the agent when an account dies. For growth operators running dozens of accounts across markets, that visibility is the difference between a controlled channel and a pile of dead profiles.</p>
+<p>Social distribution at scale is the operator problem no scheduling tool solves. Postiz-class schedulers move content between your existing accounts; TokPortal sits one layer lower - it provisions the accounts themselves. Human account managers in 16+ countries create, warm and operate real accounts, so an agent can order a geo-targeted bundle (say, ten US TikTok accounts) and receive working credentials, then push video content across the bundle through the same API.</p>
+<p><strong>The ban lifecycle is the honest feature.</strong> Multi-account operations get flagged; TokPortal exposes that lifecycle as tools instead of leaving you blind - watch for bans, handle replacements, and let webhooks notify the agent when an account dies. For growth operators running dozens of accounts across markets, that visibility is the difference between a controlled channel and a pile of dead profiles.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The 91 tools mirror the public REST API. Groups:</p>
 <table>
@@ -10134,13 +10134,13 @@ Built by: TokPortal (tokportal.com) — registry com.tokportal/mcp
 <li><strong>Automation operators</strong> close the loop with webhooks feeding account and video events back into their stack</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ's 40+ connectors cover the measurement side of marketing — ad spend, store revenue, email, analytics. TokPortal covers the distribution side CorpusIQ does not: managed accounts and at-scale video publishing on TikTok, Instagram and YouTube. Composed, TokPortal answers "which accounts posted and which got banned" while CorpusIQ answers "what did those posts and campaigns actually earn" from GA4, Shopify and ad connectors — distribution and attribution in one agent session.</p>
+<p>CorpusIQ's 40+ connectors cover the measurement side of marketing - ad spend, store revenue, email, analytics. TokPortal covers the distribution side CorpusIQ does not: managed accounts and at-scale video publishing on TikTok, Instagram and YouTube. Composed, TokPortal answers "which accounts posted and which got banned" while CorpusIQ answers "what did those posts and campaigns actually earn" from GA4, Shopify and ad connectors - distribution and attribution in one agent session.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Commercial credit-based pricing; no published free tier (per-request cost estimation via <code>tokportal_get_credit_costs</code>)</li>
-<li>Managed-account model carries platform ToS risk; ban lifecycle tooling exists precisely because platforms ban accounts — budget for churn</li>
+<li>Managed-account model carries platform ToS risk; ban lifecycle tooling exists precisely because platforms ban accounts - budget for churn</li>
 <li>New listing (repo created Aug 18, 2026); MIT license on the client, but the managed-account API is the paid product</li>
-<li>16+ country coverage, but not all platforms in all countries — confirm geo coverage for your target market before ordering bundles</li>
+<li>16+ country coverage, but not all platforms in all countries - confirm geo coverage for your target market before ordering bundles</li>
 </ul>
 
 

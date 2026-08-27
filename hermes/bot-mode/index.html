@@ -10003,19 +10003,19 @@
 
 
 <h1 id="hermes-bot-mode-desktop-plugin">Hermes Bot Mode (Desktop Plugin)<a class="headerlink" href="#hermes-bot-mode-desktop-plugin" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Status:</strong> Early beta — announced Aug 16, 2026 by Nous Research
+<p><strong>Status:</strong> Early beta - announced Aug 16, 2026 by Nous Research
 <strong>Repo:</strong> github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript)
 <strong>Type:</strong> Desktop-app plugin. No core patches, no background daemons, no extra storage.</p>
 <p>Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot gets its own chat, avatar, personality, routine schedule, and the ability to message other bots.</p>
 <h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Bots pane</strong> — left-side roster, one row per agent profile with avatar, latest message preview, timestamp. Click to enter its chat. Sessions view filters a profile's 200 most recent stored conversations.</li>
-<li><strong>Active now</strong> — presence strip showing every bot currently working (gateway-busy profile plus any bot that wrote in the last 90 seconds).</li>
-<li><strong>New Agent</strong> — create a bot in seconds: name, title, description. Advanced mode opens the full profile config: clone an existing profile, pin a provider/model, write a custom SOUL.md, skip bundled skills.</li>
-<li><strong>Groups</strong> — organize the roster into labeled sections. Group chats (2-6 bots) are shared rooms where bots coordinate: @mentions pull bots in, @user escalates to a human with a "needs you" badge, hard caps (10 messages per turn, 3 rounds) stop runaway loops.</li>
-<li><strong>Bot-to-bot messaging</strong> — every bot has a persistent Bot Chat. Bots message each other with attribution, and their SOUL.md teaches them the protocol.</li>
-<li><strong>Routines</strong> — recurring tasks per bot, backed by standard Hermes cron. Runs land in the bot's own chat history.</li>
-<li><strong>Avatars</strong> — geometric faces, uploaded images, AI-generated portraits, or pixel pets that bounce while the bot works.</li>
+<li><strong>Bots pane</strong> - left-side roster, one row per agent profile with avatar, latest message preview, timestamp. Click to enter its chat. Sessions view filters a profile's 200 most recent stored conversations.</li>
+<li><strong>Active now</strong> - presence strip showing every bot currently working (gateway-busy profile plus any bot that wrote in the last 90 seconds).</li>
+<li><strong>New Agent</strong> - create a bot in seconds: name, title, description. Advanced mode opens the full profile config: clone an existing profile, pin a provider/model, write a custom SOUL.md, skip bundled skills.</li>
+<li><strong>Groups</strong> - organize the roster into labeled sections. Group chats (2-6 bots) are shared rooms where bots coordinate: @mentions pull bots in, @user escalates to a human with a "needs you" badge, hard caps (10 messages per turn, 3 rounds) stop runaway loops.</li>
+<li><strong>Bot-to-bot messaging</strong> - every bot has a persistent Bot Chat. Bots message each other with attribution, and their SOUL.md teaches them the protocol.</li>
+<li><strong>Routines</strong> - recurring tasks per bot, backed by standard Hermes cron. Runs land in the bot's own chat history.</li>
+<li><strong>Avatars</strong> - geometric faces, uploaded images, AI-generated portraits, or pixel pets that bounce while the bot works.</li>
 </ul>
 <h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p>A bot <strong>is</strong> a Hermes profile: isolated config, memory, skills, credentials, and chat history under <code>~/.hermes/profiles/&lt;name&gt;/</code>. The plugin is a UI over that primitive:</p>

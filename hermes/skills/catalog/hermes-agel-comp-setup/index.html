@@ -23,7 +23,7 @@
     
     
   
-    <title>AGEL-Comp Safety Framework — Setup Guide</title>
+    <title>AGEL-Comp Safety Framework - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="AGEL-Comp Safety Framework — Setup Guide">
+  <meta property="og:title" content="AGEL-Comp Safety Framework - Setup Guide">
   <meta property="og:description" content="Install and configure the AGEL-Comp neuro-symbolic safety layer for Hermes Agent. Automatic blocking, causal learning, and queryable world model.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AGEL-Comp Safety Framework — Setup Guide">
+  <meta name="twitter:title" content="AGEL-Comp Safety Framework - Setup Guide">
   <meta name="twitter:description" content="Install and configure the AGEL-Comp neuro-symbolic safety layer for Hermes Agent. Automatic blocking, causal learning, and queryable world model.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "AGEL-Comp Safety Framework \u2014 Setup Guide",
+    "name": "AGEL-Comp Safety Framework - Setup Guide",
     "description": "Install and configure the AGEL-Comp neuro-symbolic safety layer for Hermes Agent. Automatic blocking, causal learning, and queryable world model.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AGEL-Comp Safety Framework — Setup Guide
+              AGEL-Comp Safety Framework - Setup Guide
             
           </span>
         </div>
@@ -10305,8 +10305,8 @@
   
 
 
-<h1 id="agel-comp-safety-framework-full-setup-guide">AGEL-Comp Safety Framework — Full Setup Guide<a class="headerlink" href="#agel-comp-safety-framework-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>A neuro-symbolic safety layer for <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a> based on the AGEL-Comp framework (Shahid &amp; Rothe, 2026). Works transparently through Hermes plugin hooks — <strong>zero agent compliance needed.</strong></p>
+<h1 id="agel-comp-safety-framework-full-setup-guide">AGEL-Comp Safety Framework - Full Setup Guide<a class="headerlink" href="#agel-comp-safety-framework-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p>A neuro-symbolic safety layer for <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a> based on the AGEL-Comp framework (Shahid &amp; Rothe, 2026). Works transparently through Hermes plugin hooks - <strong>zero agent compliance needed.</strong></p>
 <hr />
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <h3 id="automatic-safety-blocking">Automatic safety blocking<a class="headerlink" href="#automatic-safety-blocking" title="Anchor link to this section">&para;</a></h3>
@@ -10333,13 +10333,13 @@
 </tr>
 </tbody>
 </table>
-<p>The agent sees the block reason and can ask for user approval — it doesn't silently fail.</p>
+<p>The agent sees the block reason and can ask for user approval - it doesn't silently fail.</p>
 <h3 id="causal-learning-from-mistakes">Causal learning from mistakes<a class="headerlink" href="#causal-learning-from-mistakes" title="Anchor link to this section">&para;</a></h3>
 <p>When a tool call returns an error, the plugin runs the <strong>MCS+ILP pipeline</strong>:</p>
 <ol>
-<li><strong>MCS (Minimal Contrastive Search)</strong> — isolates the causal factor</li>
-<li><strong>ILP (Inductive Logic Programming)</strong> — generalizes to a reusable rule</li>
-<li><strong>CPG world model</strong> is updated — the agent won't make the same mistake twice</li>
+<li><strong>MCS (Minimal Contrastive Search)</strong> - isolates the causal factor</li>
+<li><strong>ILP (Inductive Logic Programming)</strong> - generalizes to a reusable rule</li>
+<li><strong>CPG world model</strong> is updated - the agent won't make the same mistake twice</li>
 </ol>
 <p><strong>Example:</strong> Agent reads <code>passwords.txt</code> and gets "Permission denied" → learns <code>requires_approval(X) :- contains_secrets(X)</code> and <code>contains_secrets(passwords_txt)</code> → next time, any file reading triggers an NTP check and is blocked if secrets are suspected.</p>
 <h3 id="queryable-world-model">Queryable world model<a class="headerlink" href="#queryable-world-model" title="Anchor link to this section">&para;</a></h3>
@@ -10401,7 +10401,7 @@ cp<span class="w"> </span>agel_comp_tool.py<span class="w"> </span><span class="
 │                 │                                │
 │  ┌──────────────▼────────────────────────────┐  │
 │  │           Causal Program Graph            │  │
-│  │  W = (V, E)  —  Horn clauses as rules    │  │
+│  │  W = (V, E)  -  Horn clauses as rules    │  │
 │  │  Persists to $HERMES_HOME/agel_comp/     │  │
 │  └──────────────────────────────────────────┘  │
 │                                                 │
@@ -10520,7 +10520,7 @@ agel_comp(action=&quot;query_rule&quot;, id=12)
 agel_comp(action=&quot;reset&quot;, rule_id=12)
 </code></pre></div>
 <h3 id="agent-bypassing-the-safety-layer">Agent bypassing the safety layer<a class="headerlink" href="#agent-bypassing-the-safety-layer" title="Anchor link to this section">&para;</a></h3>
-<p>AGEL-Comp works through Hermes plugin hooks — the agent cannot disable it. If the agent appears to be bypassing blocks, check:</p>
+<p>AGEL-Comp works through Hermes plugin hooks - the agent cannot disable it. If the agent appears to be bypassing blocks, check:</p>
 <ol>
 <li>Plugin is loaded: <code>hermes plugins list | grep agel</code></li>
 <li>Hook is registered: check logs for <code>agel-safety: pre_tool_call registered</code></li>
@@ -10529,9 +10529,9 @@ agel_comp(action=&quot;reset&quot;, rule_id=12)
 <hr />
 <h2 id="related-tools">Related Tools<a class="headerlink" href="#related-tools" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/503496348-ops/hermes-doctor">hermes-doctor</a> — Self-diagnosis and self-healing plugin</li>
-<li><a href="https://github.com/drippy-passport968/agent-supervision-skills">agent-supervision-skills</a> — Delegate tasks with verification gates</li>
-<li><a href="https://github.com/zwright8/hermes-flight-recorder">hermes-flight-recorder</a> — Trace-based autonomy evals</li>
+<li><a href="https://github.com/503496348-ops/hermes-doctor">hermes-doctor</a> - Self-diagnosis and self-healing plugin</li>
+<li><a href="https://github.com/drippy-passport968/agent-supervision-skills">agent-supervision-skills</a> - Delegate tasks with verification gates</li>
+<li><a href="https://github.com/zwright8/hermes-flight-recorder">hermes-flight-recorder</a> - Trace-based autonomy evals</li>
 </ul>
 <hr />
 <h2 id="references">References<a class="headerlink" href="#references" title="Anchor link to this section">&para;</a></h2>

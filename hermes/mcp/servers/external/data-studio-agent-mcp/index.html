@@ -25,7 +25,7 @@
     
     
   
-    <title>Data Studio Agent MCP — 70+ SQL & NoSQL databases for AI</title>
+    <title>Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI</title>
   
 
     
@@ -73,13 +73,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/data-studio-agent-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Data Studio Agent MCP — 70+ SQL & NoSQL databases for AI">
+  <meta property="og:title" content="Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI">
   <meta property="og:description" content="Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB, DynamoDB) to AI agents via">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Data Studio Agent MCP — 70+ SQL & NoSQL databases for AI">
+  <meta name="twitter:title" content="Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI">
   <meta name="twitter:description" content="Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB, DynamoDB) to AI agents via">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -109,7 +109,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Data Studio Agent MCP \u2014 70+ SQL \u0026 NoSQL databases for AI",
+    "name": "Data Studio Agent MCP - 70+ SQL \u0026 NoSQL databases for AI",
     "description": "Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB, DynamoDB) to AI agents via",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/data-studio-agent-mcp",
     
@@ -203,7 +203,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Studio Agent MCP — 70+ SQL & NoSQL databases for AI
+              Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI
             
           </span>
         </div>
@@ -10069,7 +10069,7 @@
 
 
 <h1 id="data-studio-agent-mcp-server">Data Studio Agent MCP Server<a class="headerlink" href="#data-studio-agent-mcp-server" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Let your AI coding agent securely access all your databases, in plain language.</strong> Data Studio Agent is an open-source MCP server that gives AI agents direct, read-safe access to 70+ SQL databases (via SqlKit) and NoSQL stores (via DocKit) — local-first, enterprise-grade security, credentials never leave your machine.</p>
+<p><strong>Let your AI coding agent securely access all your databases, in plain language.</strong> Data Studio Agent is an open-source MCP server that gives AI agents direct, read-safe access to 70+ SQL databases (via SqlKit) and NoSQL stores (via DocKit) - local-first, enterprise-grade security, credentials never leave your machine.</p>
 <h2 id="why-it-matters-for-operators">Why It Matters for Operators<a class="headerlink" href="#why-it-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>For business operators managing data across multiple database systems, switching between SQL clients, dashboards, and schema explorers is the daily reality. Data Studio Agent collapses this into a single conversational interface:</p>
 <ul>
@@ -10079,7 +10079,7 @@
 <li><em>"Find all Elasticsearch indices with more than 1M documents"</em></li>
 <li><em>"Which tables in Snowflake haven't been queried in 30 days?"</em></li>
 </ul>
-<p>This is direct database interrogation from natural language — no SQL writing, no context-switching between tools, no exporting data to a separate analysis environment.</p>
+<p>This is direct database interrogation from natural language - no SQL writing, no context-switching between tools, no exporting data to a separate analysis environment.</p>
 <h2 id="technical-details">Technical Details<a class="headerlink" href="#technical-details" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10091,11 +10091,11 @@
 <tbody>
 <tr>
 <td><strong>Transport</strong></td>
-<td>stdio (local process) — routes to SqlKit + DocKit bridges over localhost</td>
+<td>stdio (local process) - routes to SqlKit + DocKit bridges over localhost</td>
 </tr>
 <tr>
 <td><strong>Auth</strong></td>
-<td>None (local-first — credentials stay in SqlKit/DocKit desktop apps, never exposed to the MCP server)</td>
+<td>None (local-first - credentials stay in SqlKit/DocKit desktop apps, never exposed to the MCP server)</td>
 </tr>
 <tr>
 <td><strong>Install</strong></td>
@@ -10111,7 +10111,7 @@
 </tr>
 <tr>
 <td><strong>Access model</strong></td>
-<td>Read-only by default — write operations must be explicitly enabled</td>
+<td>Read-only by default - write operations must be explicitly enabled</td>
 </tr>
 <tr>
 <td><strong>Security</strong></td>
@@ -10161,7 +10161,7 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>The MCP server auto-discovers running SqlKit and DocKit backends via port files — no additional configuration needed once the desktop apps are running with your connections configured.</p>
+<p>The MCP server auto-discovers running SqlKit and DocKit backends via port files - no additional configuration needed once the desktop apps are running with your connections configured.</p>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>AI Agent (Claude/Cursor/Codex)
     │
@@ -10172,11 +10172,11 @@ Data Studio MCP Server (thin routing layer)
     │
     └──► DocKit bridge (127.0.0.1) ──► Elasticsearch, MongoDB, DynamoDB, OpenSearch
 </code></pre></div>
-<p>The MCP server is a thin routing layer. All database drivers, SSH tunnels, and connection management live in the desktop apps. Credentials never pass through the MCP server — they stay in SqlKit/DocKit where you configured them.</p>
+<p>The MCP server is a thin routing layer. All database drivers, SSH tunnels, and connection management live in the desktop apps. Credentials never pass through the MCP server - they stay in SqlKit/DocKit where you configured them.</p>
 <h2 id="for-business-operators">For Business Operators<a class="headerlink" href="#for-business-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Data Studio Agent fills a critical operational gap: the distance between "I have a question about my data" and "I have the answer." Instead of finding the right SQL client, remembering connection strings, writing and debugging queries, and formatting results — you ask in plain language and get answers immediately.</p>
+<p>Data Studio Agent fills a critical operational gap: the distance between "I have a question about my data" and "I have the answer." Instead of finding the right SQL client, remembering connection strings, writing and debugging queries, and formatting results - you ask in plain language and get answers immediately.</p>
 <p><strong>Security model:</strong> Read-only by default is the right default for business operators. You can safely give AI agents database access knowing they can't modify data unless you explicitly enable write operations. Combined with local-first architecture (credentials never leave your machine), this is enterprise-ready from day one.</p>
-<p><strong>Competitive context:</strong> This is one of the broadest database coverage MCP servers available — 70+ SQL dialects plus the major NoSQL stores. For operators managing heterogeneous data environments, it eliminates the need for separate connectors for each database type.</p>
+<p><strong>Competitive context:</strong> This is one of the broadest database coverage MCP servers available - 70+ SQL dialects plus the major NoSQL stores. For operators managing heterogeneous data environments, it eliminates the need for separate connectors for each database type.</p>
 <hr />
 <p><em>Open source (Apache 2.0). Built by <a href="https://www.geekfun.club/products/data-studio-agent/">Geek Fun</a>. npm: <a href="https://www.npmjs.com/package/@geek-fun/data-studio-mcp">@geek-fun/data-studio-mcp</a></em></p>
 

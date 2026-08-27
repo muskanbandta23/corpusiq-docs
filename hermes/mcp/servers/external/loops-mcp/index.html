@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Official Loops MCP for AI agents — manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.">
+        <meta name="description" content="Official Loops MCP for AI agents - manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/loops-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Loops MCP Server - CorpusIQ Docs">
-  <meta property="og:description" content="Official Loops MCP for AI agents — manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.">
+  <meta property="og:description" content="Official Loops MCP for AI agents - manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Loops MCP Server - CorpusIQ Docs">
-  <meta name="twitter:description" content="Official Loops MCP for AI agents — manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.">
+  <meta name="twitter:description" content="Official Loops MCP for AI agents - manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Loops MCP Server - CorpusIQ Docs",
-    "description": "Official Loops MCP for AI agents \u2014 manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.",
+    "description": "Official Loops MCP for AI agents - manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/loops-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="loops-mcp-server">Loops MCP Server<a class="headerlink" href="#loops-mcp-server" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP server (connection flow via Loops app, paired with CLI and agent skills)</strong> — Loops, the email platform built for software companies, ships an official MCP server for managing contacts, mailing lists, campaigns, transactional email, and account data. It is part of a three-layer agent surface: the MCP server for Claude Code and Claude Desktop, a CLI, and installable agent skills that teach agents the Loops API, CLI, markup language (LMX), and email best practices.</p>
+<p><strong>MCP server (connection flow via Loops app, paired with CLI and agent skills)</strong> - Loops, the email platform built for software companies, ships an official MCP server for managing contacts, mailing lists, campaigns, transactional email, and account data. It is part of a three-layer agent surface: the MCP server for Claude Code and Claude Desktop, a CLI, and installable agent skills that teach agents the Loops API, CLI, markup language (LMX), and email best practices.</p>
 <div class="highlight"><pre><span></span><code>Server type: MCP server via Loops app connection flow (Claude Code / Claude Desktop)
 Auth: Loops account (app.loops.so)
 Endpoint: Provisioned through the Loops app flow (vendor docs at loops.so/docs/mcp-server)
@@ -10057,8 +10057,8 @@ Category: Marketing / Email
 Built by: Loops (loops.so)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Email is the highest-leverage owned channel for software businesses, and it is still run from a dashboard an agent cannot touch. Loops' MCP server closes that gap: the assistant that already knows the signup flow, the lifecycle logic, and the campaign calendar can now execute against the live platform — add a contact, fire a transactional email, check a list, read campaign state — instead of describing what a human should click next.</p>
-<p><strong>The mechanism that matters is the skills layer around the server</strong> — the vendor ships a CLI, API skills, an LMX email-markup skill, and a deliverability best-practices skill, so an agent gets both the tool surface and the operating knowledge in one install.</p>
+<p>Email is the highest-leverage owned channel for software businesses, and it is still run from a dashboard an agent cannot touch. Loops' MCP server closes that gap: the assistant that already knows the signup flow, the lifecycle logic, and the campaign calendar can now execute against the live platform - add a contact, fire a transactional email, check a list, read campaign state - instead of describing what a human should click next.</p>
+<p><strong>The mechanism that matters is the skills layer around the server</strong> - the vendor ships a CLI, API skills, an LMX email-markup skill, and a deliverability best-practices skill, so an agent gets both the tool surface and the operating knowledge in one install.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The vendor describes the MCP surface as covering (per loops.so/docs/skills):</p>
 <table>
@@ -10093,7 +10093,7 @@ Built by: Loops (loops.so)
 </table>
 <p>Parallel surfaces: REST API at <code>app.loops.so/api/v1</code> with a published OpenAPI spec (<code>app.loops.so/openapi.json</code>), plus the CLI and agent skills below.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># One-shot installer — CLI plus every agent skill</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># One-shot installer - CLI plus every agent skill</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://install.loops.so/wizard<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 <span class="c1"># Skills only</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://install.loops.so/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
@@ -10115,16 +10115,16 @@ claude<span class="w"> </span>plugin<span class="w"> </span>install<span class="
 <li><strong>Founders running software businesses</strong> get lifecycle email operated from inside the agent that owns the product logic</li>
 <li><strong>Growth operators</strong> get campaigns, lists, and transactional sends as tool calls instead of dashboard hops</li>
 <li><strong>Engineering teams</strong> get the CLI and OpenAPI spec for app-side automation with an agent that already knows both</li>
-<li><strong>Deliverability-minded operators</strong> get the email best-practices skill — consent, lifecycle coverage, and transactional-vs-marketing audits</li>
+<li><strong>Deliverability-minded operators</strong> get the email best-practices skill - consent, lifecycle coverage, and transactional-vs-marketing audits</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>Loops composes with CorpusIQ's email and analytics connectors as an execution layer. A closed loop: GA4 connector reports signup conversion, the agent creates the contact and fires the welcome transactional email through Loops MCP, and the Klaviyo, Mailchimp, or ActiveCampaign connectors provide the cross-source reporting view of revenue attribution and engagement. Because CorpusIQ already normalizes email-platform metrics across Klaviyo, Mailchimp, Constant Contact, and ActiveCampaign, adding Loops MCP execution to that stack gives operators one agent that can both run the sends (Loops) and reconcile the results (CorpusIQ connectors).</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new MCP listing — no long track record yet</li>
+<li>Brand new MCP listing - no long track record yet</li>
 <li>MCP connection flow is documented for Claude Code and Claude Desktop first; other clients go through the REST API or CLI</li>
 <li>The endpoint URL is provisioned through the vendor's in-app flow, not published as a copy-paste config</li>
-<li>Commercial SaaS — the MCP surface requires a Loops account and platform subscription</li>
+<li>Commercial SaaS - the MCP surface requires a Loops account and platform subscription</li>
 <li>Tool list is vendor-described, not independently enumerated; treat app.loops.so/openapi.json as the REST contract</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

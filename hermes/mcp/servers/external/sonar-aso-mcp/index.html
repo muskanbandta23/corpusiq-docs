@@ -10036,7 +10036,7 @@
 
 
 <h1 id="sonar-aso-mcp">Sonar ASO MCP<a class="headerlink" href="#sonar-aso-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>The official Sonar MCP server — App Store Optimization tools for AI agents: look up apps, research keywords with difficulty and popularity scores, audit ASO metadata, mine reviews, estimate revenue, and run daily rank tracking across the iOS App Store and Google Play.</strong> Stateless tools run free without a key (30 requests/day); workspace tracking and write tools unlock with an API key. Data is real Apple and Google store data, not estimates.</p>
+<p><strong>The official Sonar MCP server - App Store Optimization tools for AI agents: look up apps, research keywords with difficulty and popularity scores, audit ASO metadata, mine reviews, estimate revenue, and run daily rank tracking across the iOS App Store and Google Play.</strong> Stateless tools run free without a key (30 requests/day); workspace tracking and write tools unlock with an API key. Data is real Apple and Google store data, not estimates.</p>
 <div class="highlight"><pre><span></span><code>Server type: stdio via npm
 Auth: Optional SONAR_API_KEY (aso_ prefix); free mode without a key
 Install: npx -y @sonarapp/mcp
@@ -10046,8 +10046,8 @@ Category: Marketing / ASO
 Built by: Sonar (trysonar.app, repo: trysonar/mcp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>App revenue is decided by keyword positions nobody checks daily because the checking is tedious. Sonar's MCP puts live store data inside the agent, so the loop closes in chat: research keywords the app can actually rank for, audit the listing, track positions daily, mine competitor complaints, and size niches with revenue estimates — both stores, all countries, on one plan.</p>
-<p><strong>The free tier is real.</strong> Five stateless tools work without any key: <code>sonar_app_search</code>, <code>sonar_app_lookup</code>, <code>sonar_app_aso_score</code>, <code>sonar_app_extract_keywords</code>, and <code>sonar_keyword_suggestions</code> share 30 requests/day per IP, and <code>sonar_keyword_metrics</code> gets 5 keywords/day. Prepaid API credits start at $10 (1,000 credits) with 50 free on signup — built for agents and scripts, no subscription.</p>
+<p>App revenue is decided by keyword positions nobody checks daily because the checking is tedious. Sonar's MCP puts live store data inside the agent, so the loop closes in chat: research keywords the app can actually rank for, audit the listing, track positions daily, mine competitor complaints, and size niches with revenue estimates - both stores, all countries, on one plan.</p>
+<p><strong>The free tier is real.</strong> Five stateless tools work without any key: <code>sonar_app_search</code>, <code>sonar_app_lookup</code>, <code>sonar_app_aso_score</code>, <code>sonar_app_extract_keywords</code>, and <code>sonar_keyword_suggestions</code> share 30 requests/day per IP, and <code>sonar_keyword_metrics</code> gets 5 keywords/day. Prepaid API credits start at $10 (1,000 credits) with 50 free on signup - built for agents and scripts, no subscription.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10115,7 +10115,7 @@ Built by: Sonar (trysonar.app, repo: trysonar/mcp)
 </tr>
 </tbody>
 </table>
-<p>Workspace reads need an Indie plan (trial counts) with a <code>read</code>-scope key; write tools need the <code>write</code> scope — the server enforces both and returns a 403 explaining what to fix.</p>
+<p>Workspace reads need an Indie plan (trial counts) with a <code>read</code>-scope key; write tools need the <code>write</code> scope - the server enforces both and returns a 403 explaining what to fix.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>sonar<span class="w"> </span>-e<span class="w"> </span><span class="nv">SONAR_API_KEY</span><span class="o">=</span>aso_your_key_here<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>-y<span class="w"> </span>@sonarapp/mcp
 </code></pre></div>
@@ -10145,7 +10145,7 @@ Built by: Sonar (trysonar.app, repo: trysonar/mcp)
 <tr>
 <td><code>SONAR_API_KEY</code></td>
 <td>no</td>
-<td>—</td>
+<td>-</td>
 <td>Sonar API key (<code>aso_...</code>); free mode without it</td>
 </tr>
 <tr>
@@ -10165,14 +10165,14 @@ Built by: Sonar (trysonar.app, repo: trysonar/mcp)
 <li><strong>Pre-launch teams</strong> size niches with revenue estimates before committing build time</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ has no app-store connector — its 40+ connectors cover web analytics, commerce, ads, and finance. Sonar fills the ASO gap: keyword positions, store listings, reviews, and app revenue on both stores.</p>
-<p>The composed workflow: Sonar's MCP answers "where do we rank and what do competitors own on the stores," while CorpusIQ answers "what happens after install — sessions, conversions, revenue, ad spend" from GA4, Shopify, and ad connectors. Store performance and downstream monetization finally sit in the same agent session.</p>
+<p>CorpusIQ has no app-store connector - its 40+ connectors cover web analytics, commerce, ads, and finance. Sonar fills the ASO gap: keyword positions, store listings, reviews, and app revenue on both stores.</p>
+<p>The composed workflow: Sonar's MCP answers "where do we rank and what do competitors own on the stores," while CorpusIQ answers "what happens after install - sessions, conversions, revenue, ad spend" from GA4, Shopify, and ad connectors. Store performance and downstream monetization finally sit in the same agent session.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Early-stage package: npm downloads ~760/month, repo at 0 stars (Aug 2026)</li>
 <li>Free mode is rate-limited (30 requests/day/IP, 5 keyword metrics/day)</li>
 <li>Workspace tracking and writes require the Indie plan or an active trial</li>
-<li>Data covers iOS App Store and Google Play only — no third-party Android stores</li>
+<li>Data covers iOS App Store and Google Play only - no third-party Android stores</li>
 </ul>
 
 

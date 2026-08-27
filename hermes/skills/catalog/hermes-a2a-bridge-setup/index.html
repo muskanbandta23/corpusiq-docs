@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Set up the Agent-to-Agent Protocol bridge for Hermes Agent — enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.">
+        <meta name="description" content="Set up the Agent-to-Agent Protocol bridge for Hermes Agent - enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Hermes A2A Bridge Setup Guide - CorpusIQ Docs">
-  <meta property="og:description" content="Set up the Agent-to-Agent Protocol bridge for Hermes Agent — enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.">
+  <meta property="og:description" content="Set up the Agent-to-Agent Protocol bridge for Hermes Agent - enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hermes A2A Bridge Setup Guide - CorpusIQ Docs">
-  <meta name="twitter:description" content="Set up the Agent-to-Agent Protocol bridge for Hermes Agent — enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.">
+  <meta name="twitter:description" content="Set up the Agent-to-Agent Protocol bridge for Hermes Agent - enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hermes A2A Bridge Setup Guide - CorpusIQ Docs",
-    "description": "Set up the Agent-to-Agent Protocol bridge for Hermes Agent \u2014 enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.",
+    "description": "Set up the Agent-to-Agent Protocol bridge for Hermes Agent - enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup",
     
     "datePublished": "2026-08-12",
@@ -10216,7 +10216,7 @@
   
 
 
-<h1 id="hermes-a2a-bridge-setup-guide">Hermes A2A Bridge — Setup Guide<a class="headerlink" href="#hermes-a2a-bridge-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-a2a-bridge-setup-guide">Hermes A2A Bridge - Setup Guide<a class="headerlink" href="#hermes-a2a-bridge-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>The Hermes A2A Bridge gives Hermes Agent the ability to communicate with other AI agents using the Agent-to-Agent (A2A) Protocol. While MCP lets agents use tools, A2A lets agents call other agents. This bridge is a local-first implementation of the A2A HTTP+JSON subset.</p>
 <p><strong>Key Facts:</strong>
@@ -10253,8 +10253,8 @@ python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </sp
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>a2a<span class="w"> </span>init
 </code></pre></div>
 <p>This creates:
-- <code>~/.hermes/a2a/config.yaml</code> — bridge configuration
-- <code>~/.hermes/a2a/tasks.sqlite3</code> — task persistence</p>
+- <code>~/.hermes/a2a/config.yaml</code> - bridge configuration
+- <code>~/.hermes/a2a/tasks.sqlite3</code> - task persistence</p>
 <h3 id="4-start-the-server">4. Start the Server<a class="headerlink" href="#4-start-the-server" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>a2a<span class="w"> </span>serve
 </code></pre></div>
@@ -10343,7 +10343,7 @@ hermes<span class="w"> </span>a2a<span class="w"> </span>agents
 <hr />
 <h2 id="use-cases-for-corpusiq">Use Cases for CorpusIQ<a class="headerlink" href="#use-cases-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-multi-agent-growth-pipeline">1. Multi-Agent Growth Pipeline<a class="headerlink" href="#1-multi-agent-growth-pipeline" title="Anchor link to this section">&para;</a></h3>
-<p>Run specialized agents in parallel — one for social monitoring, one for lead research, one for content — coordinated via A2A:</p>
+<p>Run specialized agents in parallel - one for social monitoring, one for lead research, one for content - coordinated via A2A:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>a2a<span class="w"> </span>serve<span class="w"> </span><span class="p">&amp;</span>
 hermes<span class="w"> </span>a2a<span class="w"> </span>discover
 hermes<span class="w"> </span>a2a<span class="w"> </span>task<span class="w"> </span>--agent<span class="w"> </span>social-agent<span class="w"> </span><span class="s2">&quot;Monitor Reddit for SaaS growth discussions&quot;</span>
@@ -10419,13 +10419,13 @@ hermes<span class="w"> </span>a2a<span class="w"> </span>card<span class="w"> </
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Not full A2A compliance:</strong> This implements the HTTP+JSON subset only</li>
-<li><strong>Local-first:</strong> Default bind is <code>127.0.0.1</code> — network access requires explicit config</li>
+<li><strong>Local-first:</strong> Default bind is <code>127.0.0.1</code> - network access requires explicit config</li>
 <li><strong>v0.20.0 UI gap:</strong> Plugin discovery in <code>hermes plugins list</code> may require manual config.yaml edit</li>
 <li><strong>No streaming tasks:</strong> Tasks are submitted and polled, not streamed</li>
 </ul>
 <hr />
 <p><em>← <a href="/hermes/skills/catalog">Skills Catalog</a> | <a href="https://github.com/asimons81/hermes-a2a-bridge">A2A Bridge on GitHub</a> →</em></p>
-<p><em>Curated by CorpusIQ — one MCP endpoint, all your business tools.</em></p>
+<p><em>Curated by CorpusIQ - one MCP endpoint, all your business tools.</em></p>
 
 
 

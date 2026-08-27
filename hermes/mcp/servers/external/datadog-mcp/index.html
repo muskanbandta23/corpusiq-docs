@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Official Datadog MCP server bridging observability data — APM, logs, metrics, monitors, dashboards, and security signals — into any MCP-capable AI agent.">
+        <meta name="description" content="Official Datadog MCP server bridging observability data - APM, logs, metrics, monitors, dashboards, and security signals - into any MCP-capable AI agent.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/datadog-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Datadog MCP Server - CorpusIQ Docs">
-  <meta property="og:description" content="Official Datadog MCP server bridging observability data — APM, logs, metrics, monitors, dashboards, and security signals — into any MCP-capable AI agent.">
+  <meta property="og:description" content="Official Datadog MCP server bridging observability data - APM, logs, metrics, monitors, dashboards, and security signals - into any MCP-capable AI agent.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Datadog MCP Server - CorpusIQ Docs">
-  <meta name="twitter:description" content="Official Datadog MCP server bridging observability data — APM, logs, metrics, monitors, dashboards, and security signals — into any MCP-capable AI agent.">
+  <meta name="twitter:description" content="Official Datadog MCP server bridging observability data - APM, logs, metrics, monitors, dashboards, and security signals - into any MCP-capable AI agent.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Datadog MCP Server - CorpusIQ Docs",
-    "description": "Official Datadog MCP server bridging observability data \u2014 APM, logs, metrics, monitors, dashboards, and security signals \u2014 into any MCP-capable AI agent.",
+    "description": "Official Datadog MCP server bridging observability data - APM, logs, metrics, monitors, dashboards, and security signals - into any MCP-capable AI agent.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/datadog-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="datadog-mcp-server">Datadog MCP Server<a class="headerlink" href="#datadog-mcp-server" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> — the official Datadog MCP Server bridges observability data into AI agents: APM traces, logs, metrics, monitors, dashboards, and security signals, with context efficiency built in (truncation, per-tool <code>max_tokens</code>, and connection-time toolset selection). Every MCP action is recorded in Datadog's own Audit Trail.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> - the official Datadog MCP Server bridges observability data into AI agents: APM traces, logs, metrics, monitors, dashboards, and security signals, with context efficiency built in (truncation, per-tool <code>max_tokens</code>, and connection-time toolset selection). Every MCP action is recorded in Datadog's own Audit Trail.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth (via coterm CLI installer or Datadog org connection)
 Endpoint: Served by Datadog (setup via coterm.datadoghq.com/mcp-cli)
@@ -10058,7 +10058,7 @@ Built by: Datadog (docs.datadoghq.com/mcp_server)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Incident response today means a human tabbing between dashboards while an agent that already knows the incident context sits idle. The Datadog MCP Server puts the observability stack inside the agent loop: the agent that detected the anomaly can pull the traces, correlate the logs, check the monitors, and propose the fix without a hand-off.</p>
-<p><strong>The mechanism that matters is the built-in context discipline</strong> — responses truncate with instructions for requesting more, most tools accept <code>max_tokens</code>, and you can limit tools at connection time with <code>toolsets</code> and <code>omit_tools</code>, so the agent pays for signal, not dashboards.</p>
+<p><strong>The mechanism that matters is the built-in context discipline</strong> - responses truncate with instructions for requesting more, most tools accept <code>max_tokens</code>, and you can limit tools at connection time with <code>toolsets</code> and <code>omit_tools</code>, so the agent pays for signal, not dashboards.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10102,13 +10102,13 @@ Built by: Datadog (docs.datadoghq.com/mcp_server)
 <div class="highlight"><pre><span></span><code><span class="c1"># Datadog coterm CLI installer (handles OAuth + client wiring)</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://coterm.datadoghq.com/mcp-cli/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 </code></pre></div>
-<p>Per-client walkthroughs (Cursor, Claude Code, Codex, Gemini CLI, VS Code, Warp, Devin, JetBrains, Goose, and more) live at docs.datadoghq.com/mcp_server/setup.md. A separate local-only Code Security MCP server exists for SAST/SCA/secrets/IaC/SBOM scans — only direct users there if they ask for local code scanning.</p>
+<p>Per-client walkthroughs (Cursor, Claude Code, Codex, Gemini CLI, VS Code, Warp, Devin, JetBrains, Goose, and more) live at docs.datadoghq.com/mcp_server/setup.md. A separate local-only Code Security MCP server exists for SAST/SCA/secrets/IaC/SBOM scans - only direct users there if they ask for local code scanning.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;datadog&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your Datadog MCP endpoint — provisioned by the coterm CLI OAuth flow&gt;&quot;</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your Datadog MCP endpoint - provisioned by the coterm CLI OAuth flow&gt;&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -10122,14 +10122,14 @@ curl<span class="w"> </span>-fsSL<span class="w"> </span>https://coterm.datadogh
 <li><strong>Operators running their own agent fleets</strong> get observability of the agents themselves via the MCP usage metrics</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow: the agent pulls cost anomalies from the catalogued multi-cloud FinOps tooling, then uses Datadog MCP to pull the metrics and traces behind the spike — attribution and explanation in one loop. For CorpusIQ-agent operators, Datadog's Audit Trail plus the MCP usage metrics give the same governance visibility over agent tool calls that CorpusIQ connectors give over business data, and the Stripe connector can reconcile any Datadog usage billing changes against actual charges.</p>
+<p>Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow: the agent pulls cost anomalies from the catalogued multi-cloud FinOps tooling, then uses Datadog MCP to pull the metrics and traces behind the spike - attribution and explanation in one loop. For CorpusIQ-agent operators, Datadog's Audit Trail plus the MCP usage metrics give the same governance visibility over agent tool calls that CorpusIQ connectors give over business data, and the Stripe connector can reconcile any Datadog usage billing changes against actual charges.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Not available on Datadog GovCloud sites (app.ddog-gov.com variants)</li>
 <li>Fair-use limits (50 requests/10 seconds, 50K monthly tool calls) are vendor-set and subject to change</li>
 <li>Requires an active Datadog account and organization RBAC setup</li>
 <li>Usage data (including user prompts) is collected and stored 120 days</li>
-<li>Under significant development — the vendor runs a public feedback form for gaps</li>
+<li>Under significant development - the vendor runs a public feedback form for gaps</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

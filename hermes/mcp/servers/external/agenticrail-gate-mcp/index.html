@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deterministic step-order enforcement for AI agents — ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts">
+        <meta name="description" content="Deterministic step-order enforcement for AI agents - ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agenticrail-gate-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="AgenticRail Gate MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Deterministic step-order enforcement for AI agents — ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts">
+  <meta property="og:description" content="Deterministic step-order enforcement for AI agents - ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AgenticRail Gate MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Deterministic step-order enforcement for AI agents — ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts">
+  <meta name="twitter:description" content="Deterministic step-order enforcement for AI agents - ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "AgenticRail Gate MCP - CorpusIQ Docs",
-    "description": "Deterministic step-order enforcement for AI agents \u2014 ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts",
+    "description": "Deterministic step-order enforcement for AI agents - ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agenticrail-gate-mcp",
     
     "author": {
@@ -10047,9 +10047,9 @@
 
 
 <h1 id="agenticrail-gate-mcp">AgenticRail Gate MCP<a class="headerlink" href="#agenticrail-gate-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, no auth on the public demo key) from AgenticRail — deterministic step-order enforcement for AI agents.</strong> Call <code>evaluate_step</code> before each step runs and the gate returns ALLOW or DENY; call <code>verify_receipt</code> after and it proves the Ed25519-signed, hash-chained receipt chain is intact. The same gate answers the engineering question (did the right steps run in the right order) and the compliance question (can we prove it later).</p>
+<p><strong>Remote MCP server (Streamable HTTP, no auth on the public demo key) from AgenticRail - deterministic step-order enforcement for AI agents.</strong> Call <code>evaluate_step</code> before each step runs and the gate returns ALLOW or DENY; call <code>verify_receipt</code> after and it proves the Ed25519-signed, hash-chained receipt chain is intact. The same gate answers the engineering question (did the right steps run in the right order) and the compliance question (can we prove it later).</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: Bearer header — public demo key works without signup (rate-limited)
+Auth: Bearer header - public demo key works without signup (rate-limited)
 Endpoint: https://mcp.agenticrail.nz
 Tools: 2 (evaluate_step, verify_receipt)
 Pricing: Demo key free; production keys via agenticrail.nz
@@ -10057,7 +10057,7 @@ Category: Compliance / Agent Governance
 Built by: AgenticRail (agenticrail.nz)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>When an agent is allowed to move money, publish, or edit records, "trust me" is not an audit trail. AgenticRail inserts a gate between the agent and every consequential step: the agent POSTs its current step, a nonce, and a timestamp before acting, and only proceeds on ALLOW. Every ALLOW writes a cryptographic receipt — signed, chained, timestamped, and stored in R2 as a tamper-evident record — before the action executes.</p>
+<p>When an agent is allowed to move money, publish, or edit records, "trust me" is not an audit trail. AgenticRail inserts a gate between the agent and every consequential step: the agent POSTs its current step, a nonce, and a timestamp before acting, and only proceeds on ALLOW. Every ALLOW writes a cryptographic receipt - signed, chained, timestamped, and stored in R2 as a tamper-evident record - before the action executes.</p>
 <p><strong>The receipt chain is the compliance artifact.</strong> If a regulator, auditor, or customer later asks "what exactly did the agent do, in what order, and can you prove it," the operator has structural proof rather than a chat log. The published enforcement spec is versioned and frozen, and AgenticRail ships sector briefs for NZ health and NZ education showing how the receipts map to provable-safeguard requirements.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10074,7 +10074,7 @@ Built by: AgenticRail (agenticrail.nz)
 </tr>
 <tr>
 <td><code>verify_receipt</code></td>
-<td>Prove a stored sequence's receipt chain is intact — Ed25519 signatures and hash chaining verified end to end.</td>
+<td>Prove a stored sequence's receipt chain is intact - Ed25519 signatures and hash chaining verified end to end.</td>
 </tr>
 </tbody>
 </table>
@@ -10095,20 +10095,20 @@ Built by: AgenticRail (agenticrail.nz)
 </code></pre></div>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Compliance officers</strong> get structural proof of what an agent ran, in what order — not a transcript to argue about</li>
+<li><strong>Compliance officers</strong> get structural proof of what an agent ran, in what order - not a transcript to argue about</li>
 <li><strong>Fintech and payments operators</strong> put ALLOW/DENY gates in front of money-moving steps with nonce replay protection</li>
 <li><strong>Agencies running client work through agents</strong> can hand auditors a receipt chain per engagement</li>
 <li><strong>Operators in regulated verticals</strong> (health, education, finance) get a vendor that publishes sector-specific safeguard briefs</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>AgenticRail is a wrapper, not a data source — it composes around the CorpusIQ connector stack. A governed workflow: the agent's step "read QuickBooks invoices" goes through <code>evaluate_step</code> before the CorpusIQ call fires, and the receipt chain records exactly which connector was read, when, and in what order. Since CorpusIQ connectors are read-only with OAuth-granted scopes, the pair gives operators both sides of the governance equation: scoped access (CorpusIQ) plus provable sequence integrity (AgenticRail).</p>
-<p>For teams building agent workflows on top of CorpusIQ data — collections runs, month-end close, marketing attribution recaps — the gate turns "the agent did it" into "here is the signed, chained record of what it did."</p>
+<p>AgenticRail is a wrapper, not a data source - it composes around the CorpusIQ connector stack. A governed workflow: the agent's step "read QuickBooks invoices" goes through <code>evaluate_step</code> before the CorpusIQ call fires, and the receipt chain records exactly which connector was read, when, and in what order. Since CorpusIQ connectors are read-only with OAuth-granted scopes, the pair gives operators both sides of the governance equation: scoped access (CorpusIQ) plus provable sequence integrity (AgenticRail).</p>
+<p>For teams building agent workflows on top of CorpusIQ data - collections runs, month-end close, marketing attribution recaps - the gate turns "the agent did it" into "here is the signed, chained record of what it did."</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no public repo, no track record yet (listed Aug 2026)</li>
-<li>Two tools only — a gate, not a full policy engine; step policies must be defined on the AgenticRail side</li>
+<li>Brand new - no public repo, no track record yet (listed Aug 2026)</li>
+<li>Two tools only - a gate, not a full policy engine; step policies must be defined on the AgenticRail side</li>
 <li>Demo key is public and rate-limited; production use requires a key and signup</li>
-<li>Receipts stored in the vendor's R2 — you are trusting their storage for the audit record</li>
+<li>Receipts stored in the vendor's R2 - you are trusting their storage for the audit record</li>
 <li>New Zealand-centric sector briefs today; other jurisdictions are generic</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

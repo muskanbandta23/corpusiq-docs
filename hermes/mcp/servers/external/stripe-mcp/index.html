@@ -10107,17 +10107,17 @@
 <strong>Category:</strong> Payments &amp; Billing / Finance</p>
 <hr />
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>The <strong>official Stripe MCP server</strong> gives AI agents direct, authenticated access to Stripe's billing infrastructure — customers, payments, subscriptions, refunds, invoices, and more. It's part of Stripe's broader <code>agent-toolkit</code> monorepo which includes SDKs for integrating Stripe billing into AI-powered applications.</p>
+<p>The <strong>official Stripe MCP server</strong> gives AI agents direct, authenticated access to Stripe's billing infrastructure - customers, payments, subscriptions, refunds, invoices, and more. It's part of Stripe's broader <code>agent-toolkit</code> monorepo which includes SDKs for integrating Stripe billing into AI-powered applications.</p>
 <p>This is a landmark MCP server: the first major payment processor to ship an official MCP endpoint, opening the door for AI agents to autonomously manage billing workflows.</p>
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Customers</strong> — Create, read, update, delete Stripe customer records</li>
-<li><strong>Payments &amp; Payment Intents</strong> — Create, confirm, capture, cancel payments</li>
-<li><strong>Subscriptions</strong> — Manage recurring billing, trial periods, upgrades, cancellations</li>
-<li><strong>Refunds</strong> — Issue full or partial refunds</li>
-<li><strong>Invoices</strong> — Create, send, void, and mark invoices as paid</li>
-<li><strong>Products &amp; Prices</strong> — Define and manage your product catalog and pricing tiers</li>
-<li><strong>Billing Portal</strong> — Generate customer portal sessions</li>
+<li><strong>Customers</strong> - Create, read, update, delete Stripe customer records</li>
+<li><strong>Payments &amp; Payment Intents</strong> - Create, confirm, capture, cancel payments</li>
+<li><strong>Subscriptions</strong> - Manage recurring billing, trial periods, upgrades, cancellations</li>
+<li><strong>Refunds</strong> - Issue full or partial refunds</li>
+<li><strong>Invoices</strong> - Create, send, void, and mark invoices as paid</li>
+<li><strong>Products &amp; Prices</strong> - Define and manage your product catalog and pricing tiers</li>
+<li><strong>Billing Portal</strong> - Generate customer portal sessions</li>
 </ul>
 <h2 id="companion-sdks-same-repo">Companion SDKs (Same Repo)<a class="headerlink" href="#companion-sdks-same-repo" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10130,7 +10130,7 @@
 <tbody>
 <tr>
 <td><code>@stripe/ai-sdk</code></td>
-<td>Billing integration with Vercel AI SDK — usage-based billing, metering, subscriptions</td>
+<td>Billing integration with Vercel AI SDK - usage-based billing, metering, subscriptions</td>
 </tr>
 <tr>
 <td><code>@stripe/token-meter</code></td>
@@ -10167,18 +10167,18 @@
 <h2 id="authentication-flow">Authentication Flow<a class="headerlink" href="#authentication-flow" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>Configure the MCP client with <code>https://mcp.stripe.com</code></li>
-<li>The client initiates OAuth 2.0 — you'll be redirected to Stripe to authorize</li>
+<li>The client initiates OAuth 2.0 - you'll be redirected to Stripe to authorize</li>
 <li>Grant access to the Stripe account(s) you want the agent to manage</li>
-<li>The agent receives a scoped token — permissions are defined by your Stripe account's API key restrictions</li>
+<li>The agent receives a scoped token - permissions are defined by your Stripe account's API key restrictions</li>
 </ol>
 <p><strong>⚠️ Recommendation:</strong> Use a restricted API key with only the permissions your agent needs. Never grant full admin access unless required.</p>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Subscription Health Dashboard</strong> — Agent monitors churn signals (failed payments, expiring trials) and surfaces at-risk accounts</li>
-<li><strong>Automated Refund Processing</strong> — Agent handles refund requests against your policy rules, only escalating edge cases</li>
-<li><strong>Invoice Reconciliation</strong> — Agent cross-references Stripe invoices against your accounting system</li>
-<li><strong>Usage-Based Billing</strong> — Pair with <code>@stripe/token-meter</code> for AI-product consumption billing</li>
-<li><strong>Revenue Analytics</strong> — Agent queries MRR, churn rate, LTV directly from Stripe data</li>
+<li><strong>Subscription Health Dashboard</strong> - Agent monitors churn signals (failed payments, expiring trials) and surfaces at-risk accounts</li>
+<li><strong>Automated Refund Processing</strong> - Agent handles refund requests against your policy rules, only escalating edge cases</li>
+<li><strong>Invoice Reconciliation</strong> - Agent cross-references Stripe invoices against your accounting system</li>
+<li><strong>Usage-Based Billing</strong> - Pair with <code>@stripe/token-meter</code> for AI-product consumption billing</li>
+<li><strong>Revenue Analytics</strong> - Agent queries MRR, churn rate, LTV directly from Stripe data</li>
 </ol>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -10188,13 +10188,13 @@
 </ul>
 <h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Uses Stripe's OAuth 2.0 — industry-standard authentication</li>
-<li>Scoped API key support — limit what your agent can access</li>
+<li>Uses Stripe's OAuth 2.0 - industry-standard authentication</li>
+<li>Scoped API key support - limit what your agent can access</li>
 <li>All operations auditable in Stripe Dashboard</li>
 <li>⚠️ Write operations (refunds, cancellations) should be gated behind human approval for production use</li>
 </ul>
 <h2 id="verdict">Verdict<a class="headerlink" href="#verdict" title="Anchor link to this section">&para;</a></h2>
-<p>★★★★★ — Landmark MCP server. The first major payment processor to ship an official MCP endpoint. Essential for any business operator who wants AI agents to manage billing, subscriptions, and payment operations. The companion SDKs (<code>@stripe/ai-sdk</code>, <code>@stripe/token-meter</code>) make this a comprehensive billing toolkit for AI-powered products.</p>
+<p>★★★★★ - Landmark MCP server. The first major payment processor to ship an official MCP endpoint. Essential for any business operator who wants AI agents to manage billing, subscriptions, and payment operations. The companion SDKs (<code>@stripe/ai-sdk</code>, <code>@stripe/token-meter</code>) make this a comprehensive billing toolkit for AI-powered products.</p>
 
 
 

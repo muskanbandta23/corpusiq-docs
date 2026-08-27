@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Common troubleshooting steps for CorpusIQ MCP with Hermes Agent — token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.">
+        <meta name="description" content="Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="CorpusIQ MCP Troubleshooting - CorpusIQ Docs">
-  <meta property="og:description" content="Common troubleshooting steps for CorpusIQ MCP with Hermes Agent — token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.">
+  <meta property="og:description" content="Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CorpusIQ MCP Troubleshooting - CorpusIQ Docs">
-  <meta name="twitter:description" content="Common troubleshooting steps for CorpusIQ MCP with Hermes Agent — token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.">
+  <meta name="twitter:description" content="Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "CorpusIQ MCP Troubleshooting - CorpusIQ Docs",
-    "description": "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent \u2014 token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.",
+    "description": "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.",
     "url": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq",
     
     "datePublished": "2026-08-12",
@@ -10068,7 +10068,7 @@
     <span class="p">}</span>
 <span class="p">})</span>
 
-<span class="c1"># WRONG — flat params silently fail</span>
+<span class="c1"># WRONG - flat params silently fail</span>
 <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
     <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
     <span class="s2">&quot;site_url&quot;</span><span class="p">:</span> <span class="s2">&quot;sc-domain:corpusiq.io&quot;</span><span class="p">,</span>
@@ -10092,19 +10092,19 @@
 <p><strong>Symptom:</strong> CorpusIQ connects but no tools appear.</p>
 <p><strong>Fix:</strong> 
 1. Verify you've connected at least one business tool in the CorpusIQ dashboard
-2. Tools are dynamically registered — you need an active tool connection
+2. Tools are dynamically registered - you need an active tool connection
 3. Run <code>hermes mcp tools corpusiq</code> to see available tools</p>
 <h2 id="rate-limit-exceeded-on-github-api">"Rate limit exceeded" on GitHub API<a class="headerlink" href="#rate-limit-exceeded-on-github-api" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Symptom:</strong> GitHub API calls return 403 with rate limit headers.</p>
 <p><strong>Fix:</strong> 
 1. Check current rate: <code>curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/rate_limit</code>
 2. Rate limit resets at the top of each hour
-3. Use authenticated requests — unauthenticated gets 60/hr, authenticated gets 5,000/hr</p>
+3. Use authenticated requests - unauthenticated gets 60/hr, authenticated gets 5,000/hr</p>
 <h2 id="fork-restriction-403-on-fork">Fork restriction (403 on fork)<a class="headerlink" href="#fork-restriction-403-on-fork" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Symptom:</strong> <code>403: "You cannot fork this repository at this time"</code></p>
 <p><strong>Root cause:</strong> GitHub anti-automation blocks on accounts that make rapid API calls.</p>
 <p><strong>Fixes:</strong>
-1. Wait 1-2 hours — restriction auto-lifts
+1. Wait 1-2 hours - restriction auto-lifts
 2. Use a different GitHub account
 3. Reduce API call frequency (sub-1/sec)</p>
 <hr />

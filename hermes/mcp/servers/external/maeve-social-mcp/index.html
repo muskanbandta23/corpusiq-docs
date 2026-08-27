@@ -23,7 +23,7 @@
     
     
   
-    <title>Maeve Social MCP — Social Publishing with Scope-Gated Agent Access</title>
+    <title>Maeve Social MCP - Social Publishing with Scope-Gated Agent Access</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/maeve-social-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Maeve Social MCP — Social Publishing with Scope-Gated Agent Access">
+  <meta property="og:title" content="Maeve Social MCP - Social Publishing with Scope-Gated Agent Access">
   <meta property="og:description" content="Hosted MCP server from Maeve Social for planning, scheduling, media, analytics and social publishing: reading is open, drafting and scheduling need">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Maeve Social MCP — Social Publishing with Scope-Gated Agent Access">
+  <meta name="twitter:title" content="Maeve Social MCP - Social Publishing with Scope-Gated Agent Access">
   <meta name="twitter:description" content="Hosted MCP server from Maeve Social for planning, scheduling, media, analytics and social publishing: reading is open, drafting and scheduling need">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Maeve Social MCP \u2014 Social Publishing with Scope-Gated Agent Access",
+    "name": "Maeve Social MCP - Social Publishing with Scope-Gated Agent Access",
     "description": "Hosted MCP server from Maeve Social for planning, scheduling, media, analytics and social publishing: reading is open, drafting and scheduling need",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/maeve-social-mcp",
     
@@ -198,7 +198,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Maeve Social MCP — Social Publishing with Scope-Gated Agent Access
+              Maeve Social MCP - Social Publishing with Scope-Gated Agent Access
             
           </span>
         </div>
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="maeve-social-mcp">Maeve Social MCP<a class="headerlink" href="#maeve-social-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Give agents the context, keep control of the actions.</strong> Maeve Social's hosted MCP server points Claude, Codex or Cursor at the live workspace — drafts waiting on media, the week's schedule, the last thirty days of analytics — so the agent answers from what is really in Maeve rather than a pasted screenshot. Reading is open; drafting and scheduling need permission; and anything public or permanent must be confirmed by name before it runs.</p>
+<p><strong>Give agents the context, keep control of the actions.</strong> Maeve Social's hosted MCP server points Claude, Codex or Cursor at the live workspace - drafts waiting on media, the week's schedule, the last thirty days of analytics - so the agent answers from what is really in Maeve rather than a pasted screenshot. Reading is open; drafting and scheduling need permission; and anything public or permanent must be confirmed by name before it runs.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: API scopes; publish requires mcp:dangerous scope + explicit confirmation
 Endpoint: https://api.maevesocial.com/mcp (live-probed: HTTP 401 auth gate, the expected MCP pattern)
@@ -10056,7 +10056,7 @@ Category: Social Media Management
 Built by: Maeve Social (maevesocial.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Social teams run on context that lives in a platform: which drafts are waiting on media, what goes out this week, how last month's campaign performed. Agents without that context hallucinate schedules; agents with full write access eventually publish the wrong thing. <strong>Maeve's scope model splits the difference deliberately</strong> — read freely, draft with permission, publish only after a by-name confirmation — so the agent can do real work (fill the research rows, draft posts that open in the Composer, compare what's scheduled across platforms) without ever owning the publish button.</p>
+<p>Social teams run on context that lives in a platform: which drafts are waiting on media, what goes out this week, how last month's campaign performed. Agents without that context hallucinate schedules; agents with full write access eventually publish the wrong thing. <strong>Maeve's scope model splits the difference deliberately</strong> - read freely, draft with permission, publish only after a by-name confirmation - so the agent can do real work (fill the research rows, draft posts that open in the Composer, compare what's scheduled across platforms) without ever owning the publish button.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The tool landscape follows the permission tiers:</p>
 <table>
@@ -10077,11 +10077,11 @@ Built by: Maeve Social (maevesocial.com)
 </tr>
 <tr>
 <td>Publish (<code>mcp:dangerous</code> + confirmation)</td>
-<td><code>publish_now</code> — requires an explicit confirm like <code>publish_now:cnt_8f3k2</code> before anything goes live</td>
+<td><code>publish_now</code> - requires an explicit confirm like <code>publish_now:cnt_8f3k2</code> before anything goes live</td>
 </tr>
 </tbody>
 </table>
-<p>What the agent does lands back in the surfaces the team already uses — drafts open in the Composer, scheduled posts show on the Calendar.</p>
+<p>What the agent does lands back in the surfaces the team already uses - drafts open in the Composer, scheduled posts show on the Calendar.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Connect any MCP client to the workspace endpoint and authorize the scopes in the Maeve dashboard. Vendor walkthroughs for Claude, Codex and Cursor are published on the MCP feature page and in the setup guide.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
@@ -10103,11 +10103,11 @@ Built by: Maeve Social (maevesocial.com)
 <li><strong>Operators who fear auto-publishing</strong> get a by-name confirmation gate on every public action</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Maeve Social covers the publishing layer; CorpusIQ covers the business proof behind it. A composed workflow has Maeve's tools pull campaign analytics and schedule posts while CorpusIQ's GA4 connector ties those posts to site traffic and Stripe ties them to revenue — the agent can answer "what did last month's social push actually earn" across both surfaces. For teams running paid social, Meta Ads data in CorpusIQ pairs with Maeve's organic schedule for one channel view.</p>
+<p>Maeve Social covers the publishing layer; CorpusIQ covers the business proof behind it. A composed workflow has Maeve's tools pull campaign analytics and schedule posts while CorpusIQ's GA4 connector ties those posts to site traffic and Stripe ties them to revenue - the agent can answer "what did last month's social push actually earn" across both surfaces. For teams running paid social, Meta Ads data in CorpusIQ pairs with Maeve's organic schedule for one channel view.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>MCP surface is posting-focused: no Inbox, approvals, client review or PDF reports through MCP (those live in the app, REST API and CLI)</li>
-<li>Publish confirmation is by name — extra friction by design</li>
+<li>Publish confirmation is by name - extra friction by design</li>
 <li>3-day trial, then a paid Maeve plan; hosted vendor platform</li>
 <li>Does not manage API keys or bypass platform/API constraints</li>
 <li>Brand new MCP listing (Aug 2026)</li>

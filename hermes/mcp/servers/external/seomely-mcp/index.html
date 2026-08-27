@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Google index monitoring with history over MCP — which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every">
+        <meta name="description" content="Google index monitoring with history over MCP - which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/seomely-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Seomely MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Google index monitoring with history over MCP — which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every">
+  <meta property="og:description" content="Google index monitoring with history over MCP - which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Seomely MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Google index monitoring with history over MCP — which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every">
+  <meta name="twitter:description" content="Google index monitoring with history over MCP - which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Seomely MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Google index monitoring with history over MCP \u2014 which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every",
+    "description": "Google index monitoring with history over MCP - which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/seomely-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="seomely-mcp">Seomely MCP<a class="headerlink" href="#seomely-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, bearer API key)</strong> — Seomely tracks Google indexing with history: which pages are indexed, which dropped out and when, and why the rest are not. The entire dashboard is available over REST and MCP with one API key and one shared monthly allowance, and the MCP tools mirror the REST endpoints one to one.</p>
+<p><strong>Remote MCP server (Streamable HTTP, bearer API key)</strong> - Seomely tracks Google indexing with history: which pages are indexed, which dropped out and when, and why the rest are not. The entire dashboard is available over REST and MCP with one API key and one shared monthly allowance, and the MCP tools mirror the REST endpoints one to one.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: Bearer API key (sk_live_...)
 Endpoint: https://seomely.com/api/mcp
@@ -10058,7 +10058,7 @@ Built by: Seomely (seomely.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Search Console tells you what is indexed today. It does not tell you what quietly fell out of the index last week, or whether resubmitting a URL can possibly help. Seomely keeps per-URL observation history, correlates regressions with their shared cause, and ranks the remaining work by priority with reasons.</p>
-<p><strong>The mechanism that matters is the <code>submission_helps</code> field</strong> — every diagnosis carries it. When it is false, the cause is content or configuration, and resubmitting cannot change the outcome. Tools that promise indexing rely on people not knowing that; Seomely refuses to.</p>
+<p><strong>The mechanism that matters is the <code>submission_helps</code> field</strong> - every diagnosis carries it. When it is false, the cause is content or configuration, and resubmitting cannot change the outcome. Tools that promise indexing rely on people not knowing that; Seomely refuses to.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10070,7 +10070,7 @@ Built by: Seomely (seomely.com)
 <tbody>
 <tr>
 <td><code>investigate_indexing</code></td>
-<td>Correlate regressions with their shared cause, ranked by priority with reasons — start here</td>
+<td>Correlate regressions with their shared cause, ranked by priority with reasons - start here</td>
 </tr>
 <tr>
 <td><code>get_regressions</code></td>
@@ -10122,7 +10122,7 @@ Built by: Seomely (seomely.com)
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Auth notes: one credential covers REST and MCP. Calls are metered per month per account — every response carries <code>x-api-calls-used</code> and <code>x-api-calls-limit</code>. Past the ceiling you get <code>429 quota_exceeded</code> until the 1st; there is no per-second throttle. Google's 2,000-URLs-per-property-per-day inspection allowance is respected (Seomely stays under 1,500) so it never exhausts the quota your other tools share.</p>
+<p>Auth notes: one credential covers REST and MCP. Calls are metered per month per account - every response carries <code>x-api-calls-used</code> and <code>x-api-calls-limit</code>. Past the ceiling you get <code>429 quota_exceeded</code> until the 1st; there is no per-second throttle. Google's 2,000-URLs-per-property-per-day inspection allowance is respected (Seomely stays under 1,500) so it never exhausts the quota your other tools share.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>SEO operators</strong> get regression detection with root causes instead of raw console data</li>
@@ -10131,11 +10131,11 @@ Built by: Seomely (seomely.com)
 <li><strong>Anyone who has been burned by indexing tools</strong> gets the <code>submission_helps</code> honesty flag instead of resubmit theater</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Seomely slots into CorpusIQ's SEO/visibility stack as the index-health layer. A composed workflow: the CorpusIQ Search Console connector reports clicks, impressions, and positions, while Seomely explains the underlying index state — run <code>investigate_indexing</code> on the same property, join the regressions against Search Console query data, and you get both the traffic symptoms and the index cause in one pass. For the CorpusIQ docs site itself, Seomely's IndexNow autopilot pairs with the sitemap and llms.txt publishing already in the docs pipeline, and the Semrush and Ahrefs connectors can validate that pages Seomely marks recovered actually start ranking.</p>
+<p>Seomely slots into CorpusIQ's SEO/visibility stack as the index-health layer. A composed workflow: the CorpusIQ Search Console connector reports clicks, impressions, and positions, while Seomely explains the underlying index state - run <code>investigate_indexing</code> on the same property, join the regressions against Search Console query data, and you get both the traffic symptoms and the index cause in one pass. For the CorpusIQ docs site itself, Seomely's IndexNow autopilot pairs with the sitemap and llms.txt publishing already in the docs pipeline, and the Semrush and Ahrefs connectors can validate that pages Seomely marks recovered actually start ranking.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no long track record yet</li>
-<li>Google-only index monitoring — no Bing coverage (pair with the Bing Webmaster connector for parity)</li>
+<li>Brand new listing - no long track record yet</li>
+<li>Google-only index monitoring - no Bing coverage (pair with the Bing Webmaster connector for parity)</li>
 <li>Commercial cloud service; no self-host option</li>
 <li>Monthly call ceilings apply across REST and MCP together</li>
 <li>Fresh-data speed is governed by Google's inspection allowance, which no API call can hurry</li>

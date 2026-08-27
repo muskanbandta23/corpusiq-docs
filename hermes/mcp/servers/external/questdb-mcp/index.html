@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Official QuestDB MCP — connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts">
+        <meta name="description" content="Official QuestDB MCP - connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/questdb-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="QuestDB MCP Server - CorpusIQ Docs">
-  <meta property="og:description" content="Official QuestDB MCP — connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts">
+  <meta property="og:description" content="Official QuestDB MCP - connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="QuestDB MCP Server - CorpusIQ Docs">
-  <meta name="twitter:description" content="Official QuestDB MCP — connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts">
+  <meta name="twitter:description" content="Official QuestDB MCP - connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "QuestDB MCP Server - CorpusIQ Docs",
-    "description": "Official QuestDB MCP \u2014 connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts",
+    "description": "Official QuestDB MCP - connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/questdb-mcp",
     
     "datePublished": "2026-08-12",
@@ -10058,17 +10058,17 @@ Install: npx @questdb/mcp-server-questdb setup
 Category: Database / Time-Series Analytics
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>QuestDB is one of the fastest time-series databases in the open-source ecosystem — used for market data, IoT telemetry, and event analytics. Its MCP bridge puts an agent inside the console you already run: ad-hoc queries become notebook cells, results become charts, all against your live session and permissions. No API keys to mint, no export pipeline to build — the agent works exactly where an analyst would.</p>
+<p>QuestDB is one of the fastest time-series databases in the open-source ecosystem - used for market data, IoT telemetry, and event analytics. Its MCP bridge puts an agent inside the console you already run: ad-hoc queries become notebook cells, results become charts, all against your live session and permissions. No API keys to mint, no export pipeline to build - the agent works exactly where an analyst would.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Notebook cells</strong> — create and run cells in the QuestDB console</li>
-<li><strong>Queries</strong> — execute SQL against your live database</li>
-<li><strong>Charts</strong> — build visualizations from query results</li>
-<li><strong>Session-scoped</strong> — executes in the browser against your established, authenticated QuestDB session</li>
-<li><strong>Version-pinned</strong> — the wizard pins each agent config to the bridge version your console expects</li>
+<li><strong>Notebook cells</strong> - create and run cells in the QuestDB console</li>
+<li><strong>Queries</strong> - execute SQL against your live database</li>
+<li><strong>Charts</strong> - build visualizations from query results</li>
+<li><strong>Session-scoped</strong> - executes in the browser against your established, authenticated QuestDB session</li>
+<li><strong>Version-pinned</strong> - the wizard pins each agent config to the bridge version your console expects</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Interactive wizard (recommended) — detects Claude Code, Codex, Cursor, OpenCode, Gemini CLI</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Interactive wizard (recommended) - detects Claude Code, Codex, Cursor, OpenCode, Gemini CLI</span>
 npx<span class="w"> </span>@questdb/mcp-server-questdb<span class="w"> </span>setup
 </code></pre></div>
 <p>Or add manually to your MCP client config:</p>
@@ -10086,20 +10086,20 @@ npx<span class="w"> </span>@questdb/mcp-server-questdb<span class="w"> </span>se
 <p>Environment variables: <code>CONSOLE_ORIGIN</code> (your QuestDB Web Console URL) and <code>MCP_BRIDGE_PORT</code> can be overridden during setup or set directly. The wizard writes the pinned bridge version into each detected agent's config.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Data teams</strong> get ad-hoc querying through an agent without exposing read/write database credentials — the agent inherits the console session</li>
+<li><strong>Data teams</strong> get ad-hoc querying through an agent without exposing read/write database credentials - the agent inherits the console session</li>
 <li><strong>Analysts</strong> can ask for a chart and get one, in the console the whole team already uses</li>
 <li><strong>Operators running QuestDB for market data or telemetry</strong> get notebook-style exploration from any coding agent</li>
-<li><strong>Official + Apache-2.0</strong> — vendor-maintained, audit-friendly</li>
+<li><strong>Official + Apache-2.0</strong> - vendor-maintained, audit-friendly</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>QuestDB MCP covers the high-frequency, time-series end of the data spectrum where CorpusIQ's business-connector layer stops: CorpusIQ pulls structured business records (orders, invoices, ad spend), while QuestDB holds the event streams (sensor data, clickstreams, tick data). An agent can join the two views — operational records from CorpusIQ, time-series trends from QuestDB — to answer questions like "did the traffic spike convert into orders?" across both systems in one workflow.</p>
+<p>QuestDB MCP covers the high-frequency, time-series end of the data spectrum where CorpusIQ's business-connector layer stops: CorpusIQ pulls structured business records (orders, invoices, ad spend), while QuestDB holds the event streams (sensor data, clickstreams, tick data). An agent can join the two views - operational records from CorpusIQ, time-series trends from QuestDB - to answer questions like "did the traffic spike convert into orders?" across both systems in one workflow.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>New package (0.3.0+ era); formerly published as <code>@questdb/mcp-bridge</code> — name migration may confuse old configs</li>
-<li>Requires a running QuestDB Web Console with an established session — not a standalone server</li>
-<li>Local stdio only — no hosted/remote endpoint</li>
+<li>New package (0.3.0+ era); formerly published as <code>@questdb/mcp-bridge</code> - name migration may confuse old configs</li>
+<li>Requires a running QuestDB Web Console with an established session - not a standalone server</li>
+<li>Local stdio only - no hosted/remote endpoint</li>
 <li>Browser-session architecture means headless/CI usage depends on your console setup</li>
-<li>Tool surface is console-scoped: cells, queries, charts — not a general DB admin API</li>
+<li>Tool surface is console-scoped: cells, queries, charts - not a general DB admin API</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

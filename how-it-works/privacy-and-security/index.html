@@ -10213,7 +10213,7 @@ authentication and architecture docs.</p>
 </ul>
 <h2 id="what-corpusiq-does">What CorpusIQ does<a class="headerlink" href="#what-corpusiq-does" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Authenticates each connector via OAuth.</strong> You log in with the vendor
-(Google, Shopify, QuickBooks) — not with CorpusIQ. The vendor shows you
+(Google, Shopify, QuickBooks) - not with CorpusIQ. The vendor shows you
 the exact permissions being requested and you approve. CorpusIQ never
 sees your vendor passwords.</p>
 <p><strong>Stores your access tokens encrypted.</strong> Tokens are held in Azure Key
@@ -10231,20 +10231,20 @@ encrypted at rest.</p>
 <h2 id="where-the-data-is">Where the data is<a class="headerlink" href="#where-the-data-is" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Operational
 MCP logs are retained for up to 30 days. The infrastructure is multi-tenant
-but the data is single-tenant per user — every read uses your user
+but the data is single-tenant per user - every read uses your user
 identity to scope the query.</p>
 <h2 id="authentication-in-two-layers">Authentication, in two layers<a class="headerlink" href="#authentication-in-two-layers" title="Anchor link to this section">&para;</a></h2>
 <p>There are two authentications happening when you use CorpusIQ. They are
 independent.</p>
-<p><strong>Layer 1 — Who you are to CorpusIQ.</strong> You sign into CorpusIQ once. This
+<p><strong>Layer 1 - Who you are to CorpusIQ.</strong> You sign into CorpusIQ once. This
 gives you an identity token. Every request you make from Claude or
 ChatGPT carries that identity so CorpusIQ knows it's you.</p>
-<p><strong>Layer 2 — CorpusIQ's link to each vendor.</strong> Separately, each connector
+<p><strong>Layer 2 - CorpusIQ's link to each vendor.</strong> Separately, each connector
 holds its own OAuth token scoped to your CorpusIQ identity. When you
 ask a question, CorpusIQ looks up the right vendor token, invokes the documented operation and returns the result.</p>
 <p>If Layer 1 fails, you can't use CorpusIQ at all. If Layer 2 fails for a
 specific connector (token expired, vendor revoked, scopes changed),
-only that connector stops working — the others are unaffected.</p>
+only that connector stops working - the others are unaffected.</p>
 <h2 id="what-the-ai-assistant-sees">What the AI assistant sees<a class="headerlink" href="#what-the-ai-assistant-sees" title="Anchor link to this section">&para;</a></h2>
 <p>When you ask Claude or ChatGPT a question through CorpusIQ, the
 assistant only sees:</p>

@@ -10047,7 +10047,7 @@
 
 
 <h1 id="xverum-mcp">Xverum MCP<a class="headerlink" href="#xverum-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>People search and enrichment for AI agents across 750M professional profiles, with a job-change prediction signal.</strong> Xverum MCP is a hosted remote server with two tools: <code>xverum_search_people</code> finds people matching a natural-language description — candidates, prospects, or decision-makers — and <code>xverum_get_profile</code> pulls the full profile by id with work history, seniority, and background. Queries are plain English ("find senior data engineers in Amsterdam", "VPs of sales at Series A SaaS companies"), and results carry a Next Move Signal estimating who is likely to change jobs next.</p>
+<p><strong>People search and enrichment for AI agents across 750M professional profiles, with a job-change prediction signal.</strong> Xverum MCP is a hosted remote server with two tools: <code>xverum_search_people</code> finds people matching a natural-language description - candidates, prospects, or decision-makers - and <code>xverum_get_profile</code> pulls the full profile by id with work history, seniority, and background. Queries are plain English ("find senior data engineers in Amsterdam", "VPs of sales at Series A SaaS companies"), and results carry a Next Move Signal estimating who is likely to change jobs next.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
 Endpoint: https://mcp.xverum.com/mcp
 Auth: API key header (x-api-key); OAuth in progress
@@ -10057,8 +10057,8 @@ Registry: com.xverum/mcp
 Built by: Xverum LLC
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Hiring and prospecting both fail on the same bottleneck: converting a job spec or an ideal-customer profile into a concrete list of reachable people with current, verifiable backgrounds. Xverum turns that into a single agent call — describe the person in plain language, get ranked profiles; ask about one, get the full background. The dataset is a licensed professional-profiles corpus (750M profiles), not a scraping layer, and the server exposes exactly two read-only tools, so there is no write path to abuse.</p>
-<p>The Next Move Signal is the operational hook: instead of reaching prospects when they have settled into a role, an agent can prioritize people whose tenure and trajectory suggest imminent movement — standard practice for recruiters, now available to any MCP client.</p>
+<p>Hiring and prospecting both fail on the same bottleneck: converting a job spec or an ideal-customer profile into a concrete list of reachable people with current, verifiable backgrounds. Xverum turns that into a single agent call - describe the person in plain language, get ranked profiles; ask about one, get the full background. The dataset is a licensed professional-profiles corpus (750M profiles), not a scraping layer, and the server exposes exactly two read-only tools, so there is no write path to abuse.</p>
+<p>The Next Move Signal is the operational hook: instead of reaching prospects when they have settled into a role, an agent can prioritize people whose tenure and trajectory suggest imminent movement - standard practice for recruiters, now available to any MCP client.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10070,7 +10070,7 @@ Built by: Xverum LLC
 <tbody>
 <tr>
 <td><code>xverum_search_people</code></td>
-<td>Ranked profiles matching a natural-language description — role, seniority, skills, industry, location filters</td>
+<td>Ranked profiles matching a natural-language description - role, seniority, skills, industry, location filters</td>
 </tr>
 <tr>
 <td><code>xverum_get_profile</code></td>
@@ -10095,27 +10095,27 @@ Built by: Xverum LLC
 </code></pre></div>
 <p>Create a key at xverum.com → Settings → API Keys. Registry-aware clients can add <code>com.xverum/mcp</code> by name. There is nothing to self-host.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>Per-request API key via the <code>x-api-key</code> header — works in any client that supports custom headers (Claude Code, Cline, Cursor). OAuth is in progress per the project's authentication roadmap and will remove the key-pasting step plus unlock OAuth-only clients such as ChatGPT and Claude.ai. The key is validated per request and never stored by the gateway.</p>
+<p>Per-request API key via the <code>x-api-key</code> header - works in any client that supports custom headers (Claude Code, Cline, Cursor). OAuth is in progress per the project's authentication roadmap and will remove the key-pasting step plus unlock OAuth-only clients such as ChatGPT and Claude.ai. The key is validated per request and never stored by the gateway.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Talent teams</strong> source candidates by role, skills, seniority, and location without boolean-search gymnastics</li>
 <li><strong>SDR teams</strong> build lead lists of decision-makers with current titles and tenure, prioritized by Next Move Signal</li>
-<li><strong>Founders</strong> map markets and accounts — who works where, at what seniority — before outreach</li>
+<li><strong>Founders</strong> map markets and accounts - who works where, at what seniority - before outreach</li>
 <li><strong>Agent builders</strong> embed people intelligence into recruiting and prospecting workflows with two simple tools</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Xverum supplies the people layer — who to contact and when they might move; CorpusIQ supplies the account and engagement layer. A natural flow: <code>xverum_search_people</code> identifies decision-makers at target accounts, CorpusIQ's HubSpot or LeadConnector connectors verify and store the account record, email handles the outreach thread, and QuickBooks tracks the pipeline once it converts. The combination gives one agent both the person graph and the money graph.</p>
+<p>Xverum supplies the people layer - who to contact and when they might move; CorpusIQ supplies the account and engagement layer. A natural flow: <code>xverum_search_people</code> identifies decision-makers at target accounts, CorpusIQ's HubSpot or LeadConnector connectors verify and store the account record, email handles the outreach thread, and QuickBooks tracks the pipeline once it converts. The combination gives one agent both the person graph and the money graph.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>2 tools only — search and profile pull; no write, no CRM sync</li>
+<li>2 tools only - search and profile pull; no write, no CRM sync</li>
 <li>API key auth today (OAuth in progress); pricing/limits published on xverum.com, not in the repo</li>
 <li>New listing (Aug 2026), zero-star repository</li>
-<li>Professional-profiles data is licensed third-party data — compliance with data-protection rules (GDPR etc.) rests with the operator using it</li>
+<li>Professional-profiles data is licensed third-party data - compliance with data-protection rules (GDPR etc.) rests with the operator using it</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/apollo-io-mcp">Apollo.io MCP — B2B Contact Data and Sequences</a></li>
-<li><a href="/hermes/mcp/servers/external/misarreach-mcp">MisarReach MCP — Outbound Sales and Lead Pipeline for AI Agents</a></li>
+<li><a href="/hermes/mcp/servers/external/apollo-io-mcp">Apollo.io MCP - B2B Contact Data and Sequences</a></li>
+<li><a href="/hermes/mcp/servers/external/misarreach-mcp">MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents</a></li>
 <li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
 <li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>

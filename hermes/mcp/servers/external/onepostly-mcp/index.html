@@ -10047,9 +10047,9 @@
 
 
 <h1 id="onepostly-mcp">OnePostly MCP<a class="headerlink" href="#onepostly-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, API key) for Onepostly — one social surface for nine platforms.</strong> Publish immediately, schedule ahead, and read normalized insights across X, Instagram, Facebook, Threads, LinkedIn, TikTok, YouTube, Pinterest, and Reddit — all through nine typed tools with the same per-platform validation as the REST API. Write tools debit a workspace wallet; <code>read_only</code> keys can list and inspect but never publish.</p>
+<p><strong>Remote MCP server (Streamable HTTP, API key) for Onepostly - one social surface for nine platforms.</strong> Publish immediately, schedule ahead, and read normalized insights across X, Instagram, Facebook, Threads, LinkedIn, TikTok, YouTube, Pinterest, and Reddit - all through nine typed tools with the same per-platform validation as the REST API. Write tools debit a workspace wallet; <code>read_only</code> keys can list and inspect but never publish.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: Bearer API key (op_YOUR_KEY) — read_only keys supported; query-param access for keyless clients
+Auth: Bearer API key (op_YOUR_KEY) - read_only keys supported; query-param access for keyless clients
 Endpoint: https://mcp.onepostly.com
 Tools: 9 (list_connections, publish_post, schedule_post, list_posts, get_post_status, get_insights, delete_post, get_pinterest_boards, get_tiktok_creator_info)
 Pricing: Workspace plans; X usage billed pass-through from a wallet
@@ -10057,7 +10057,7 @@ Category: Social Media Management
 Built by: Onepostly (onepostly.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Social publishing MCPs are arriving in a wave — the Aug 13 morning sweep counted 13+ tools in this category. What separates OnePostly is the enforcement model: every publish and schedule call runs the same validation as the REST API, a wallet makes spend explicit instead of metered silently, and read-only keys let an operator give the assistant visibility without giving it the publish button.</p>
+<p>Social publishing MCPs are arriving in a wave - the Aug 13 morning sweep counted 13+ tools in this category. What separates OnePostly is the enforcement model: every publish and schedule call runs the same validation as the REST API, a wallet makes spend explicit instead of metered silently, and read-only keys let an operator give the assistant visibility without giving it the publish button.</p>
 <p><strong>The permission split is operator-grade.</strong> Finance reviews dashboards with read_only keys while the growth lead runs publishing keys; the agent cannot overstep what the key allows, and X spend is capped by the wallet rather than discovered on the bill.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10074,7 +10074,7 @@ Built by: Onepostly (onepostly.com)
 </tr>
 <tr>
 <td><code>publish_post</code></td>
-<td>Publish immediately — all platforms, per-platform validation, wallet debit</td>
+<td>Publish immediately - all platforms, per-platform validation, wallet debit</td>
 </tr>
 <tr>
 <td><code>schedule_post</code></td>
@@ -10126,18 +10126,18 @@ Built by: Onepostly (onepostly.com)
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Growth operators</strong> schedule cross-platform campaigns from chat and read normalized engagement per post without logging into nine dashboards.</li>
-<li><strong>Content teams</strong> get the human gate for free — draft in chat, schedule, and let a second pair of eyes approve before the slot fires.</li>
+<li><strong>Content teams</strong> get the human gate for free - draft in chat, schedule, and let a second pair of eyes approve before the slot fires.</li>
 <li><strong>Finance or ops reviewers</strong> run read_only keys for status and insights with zero publish risk.</li>
 <li><strong>Agencies</strong> manage client rosters per workspace, with per-key platform reach.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>OnePostly moves content; CorpusIQ measures whether it worked. The clean composition: schedule and publish through OnePostly's tools, then let CorpusIQ connectors close the loop — GA4 shows which post drove sessions, Search Console shows the search lift, Klaviyo revenue attribution shows which campaign actually paid, and Ahrefs tracks the brand's rising visibility. CorpusIQ's own Postiz-based publishing remains the managed pipeline; OnePostly is the MCP-native alternative for teams that want publishing inside their assistant, with the business-data verification layer on top either way.</p>
+<p>OnePostly moves content; CorpusIQ measures whether it worked. The clean composition: schedule and publish through OnePostly's tools, then let CorpusIQ connectors close the loop - GA4 shows which post drove sessions, Search Console shows the search lift, Klaviyo revenue attribution shows which campaign actually paid, and Ahrefs tracks the brand's rising visibility. CorpusIQ's own Postiz-based publishing remains the managed pipeline; OnePostly is the MCP-native alternative for teams that want publishing inside their assistant, with the business-data verification layer on top either way.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Wallet debit model — X usage bills pass-through, so check Settings → Billing before heavy campaigns</li>
+<li>Wallet debit model - X usage bills pass-through, so check Settings → Billing before heavy campaigns</li>
 <li><code>402 INSUFFICIENT_WALLET</code> blocks publishes until the wallet is topped up</li>
-<li>No server-initiated notifications — poll get_post_status or wire webhooks</li>
-<li>Commercial platform, newer listing — no long track record yet</li>
+<li>No server-initiated notifications - poll get_post_status or wire webhooks</li>
+<li>Commercial platform, newer listing - no long track record yet</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

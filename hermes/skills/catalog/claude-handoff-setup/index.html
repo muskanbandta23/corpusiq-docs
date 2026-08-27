@@ -23,7 +23,7 @@
     
     
   
-    <title>Claude Handoff — Session Handoff Pattern for Hermes Agents</title>
+    <title>Claude Handoff - Session Handoff Pattern for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-handoff-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Claude Handoff — Session Handoff Pattern for Hermes Agents">
+  <meta property="og:title" content="Claude Handoff - Session Handoff Pattern for Hermes Agents">
   <meta property="og:description" content="Hand the current conversation off to a fresh background agent that picks up work immediately. 63.5K+ installs. Essential pattern for long-running">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Claude Handoff — Session Handoff Pattern for Hermes Agents">
+  <meta name="twitter:title" content="Claude Handoff - Session Handoff Pattern for Hermes Agents">
   <meta name="twitter:description" content="Hand the current conversation off to a fresh background agent that picks up work immediately. 63.5K+ installs. Essential pattern for long-running">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Claude Handoff \u2014 Session Handoff Pattern for Hermes Agents",
+    "name": "Claude Handoff - Session Handoff Pattern for Hermes Agents",
     "description": "Hand the current conversation off to a fresh background agent that picks up work immediately. 63.5K+ installs. Essential pattern for long-running",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-handoff-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Claude Handoff — Session Handoff Pattern for Hermes Agents
+              Claude Handoff - Session Handoff Pattern for Hermes Agents
             
           </span>
         </div>
@@ -10116,7 +10116,7 @@
   
 
 
-<h1 id="claude-handoff-setup-guide">Claude Handoff — Setup Guide<a class="headerlink" href="#claude-handoff-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="claude-handoff-setup-guide">Claude Handoff - Setup Guide<a class="headerlink" href="#claude-handoff-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/mattpocock/skills/claude-handoff">mattpocock/skills</a> (63,500+ installs)
 <strong>Category:</strong> Agent Infrastructure / Session Management
 <strong>Quality Tier:</strong> 🟢 Production</p>
@@ -10149,10 +10149,10 @@
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-handoff-pattern">The Handoff Pattern<a class="headerlink" href="#the-handoff-pattern" title="Anchor link to this section">&para;</a></h3>
 <ol>
-<li><strong>Summarize</strong> — Write a concise handoff summary of the current conversation state</li>
-<li><strong>Launch</strong> — Spawn a background agent seeded with the summary as its prompt</li>
-<li><strong>Name</strong> — Always pass <code>--name</code> with a descriptive identifier</li>
-<li><strong>Continue</strong> — The fresh agent picks up where the previous one left off</li>
+<li><strong>Summarize</strong> - Write a concise handoff summary of the current conversation state</li>
+<li><strong>Launch</strong> - Spawn a background agent seeded with the summary as its prompt</li>
+<li><strong>Name</strong> - Always pass <code>--name</code> with a descriptive identifier</li>
+<li><strong>Continue</strong> - The fresh agent picks up where the previous one left off</li>
 </ol>
 <h3 id="what-to-include-in-a-handoff">What to Include in a Handoff<a class="headerlink" href="#what-to-include-in-a-handoff" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10195,7 +10195,7 @@ claude<span class="w"> </span>agents<span class="w"> </span>--status
 └──────────────────┘     └──────────────────┘     └──────────────────┘
 </code></pre></div>
 <h3 id="handoff-template-for-corpusiq">Handoff Template for CorpusIQ<a class="headerlink" href="#handoff-template-for-corpusiq" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="gh"># Session Handoff — YYYY-MM-DD</span>
+<div class="highlight"><pre><span></span><code><span class="gh"># Session Handoff - YYYY-MM-DD</span>
 
 <span class="gu">## Task</span>
 [One-line goal]
@@ -10209,7 +10209,7 @@ claude<span class="w"> </span>agents<span class="w"> </span>--status
 <span class="k">-</span><span class="w"> </span>[<span class="nl">Decision 2</span>]: <span class="na">[rationale]</span>
 
 <span class="gu">## Files</span>
-<span class="k">-</span><span class="w"> </span><span class="sb">`path/to/file`</span> — [what it contains, state]
+<span class="k">-</span><span class="w"> </span><span class="sb">`path/to/file`</span> - [what it contains, state]
 
 <span class="gu">## Blockers</span>
 <span class="k">-</span><span class="w"> </span>[<span class="nl">Blocker 1</span>]: <span class="na">[mitigation attempted]</span>
@@ -10229,11 +10229,11 @@ claude<span class="w"> </span>agents<span class="w"> </span>--status
 <hr />
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Handoffs should be self-contained — the new agent has no context from your session</li>
+<li>Handoffs should be self-contained - the new agent has no context from your session</li>
 <li>Reference files by absolute path so the new agent can access them immediately</li>
 <li>Include "suggested skills" so the next agent loads the right capabilities</li>
 <li>Redact API keys, passwords, and PII before writing the handoff summary</li>
-<li>Keep handoffs focused on one task domain — split unrelated work into separate handoffs</li>
+<li>Keep handoffs focused on one task domain - split unrelated work into separate handoffs</li>
 </ul>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
@@ -10266,9 +10266,9 @@ claude<span class="w"> </span>agents<span class="w"> </span>--status
 <hr />
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Hermes Session Maintenance Setup — Hermes session state management</li>
-<li><a href="https://docs.anthropic.com/en/api">Claude API Documentation</a> — Official Anthropic Claude API reference</li>
-<li><a href="https://skills.sh">skills.sh</a> — Discover more agent skills for session management</li>
+<li>Hermes Session Maintenance Setup - Hermes session state management</li>
+<li><a href="https://docs.anthropic.com/en/api">Claude API Documentation</a> - Official Anthropic Claude API reference</li>
+<li><a href="https://skills.sh">skills.sh</a> - Discover more agent skills for session management</li>
 </ul>
 
 

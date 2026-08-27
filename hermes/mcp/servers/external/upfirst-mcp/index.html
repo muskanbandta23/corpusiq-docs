@@ -10047,7 +10047,7 @@
 
 
 <h1 id="upfirst-mcp">Upfirst MCP<a class="headerlink" href="#upfirst-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth connect flow) — the official Upfirst integration for configuring and auditing your AI phone receptionist from any MCP client.</strong> Upfirst answers a business's calls, takes messages, books appointments and answers questions about the business. The MCP server exposes the receptionist's settings and call history as agent tools, so an AI assistant can review recent calls, fill knowledge gaps, and edit greetings, transfer rules and schedules in place — the phone line becomes a system an operator tunes from chat instead of a settings dashboard.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth connect flow) - the official Upfirst integration for configuring and auditing your AI phone receptionist from any MCP client.</strong> Upfirst answers a business's calls, takes messages, books appointments and answers questions about the business. The MCP server exposes the receptionist's settings and call history as agent tools, so an AI assistant can review recent calls, fill knowledge gaps, and edit greetings, transfer rules and schedules in place - the phone line becomes a system an operator tunes from chat instead of a settings dashboard.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
 Auth: OAuth-style connect flow (endpoint URL provisioned in-app)
 Endpoint: provisioned in the Upfirst app (Add connector flow)
@@ -10057,8 +10057,8 @@ Category: Communication / Front Office
 Built by: Upfirst (upfirst.ai)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>A missed call is a missed lead, and the classic failure mode of AI receptionists is silence: the receptionist picks up, botches a question, and nobody in the business ever finds out. Upfirst MCP closes that loop. The agent can pull <code>list_calls</code>, open <code>get_call_details</code> and <code>get_call_transcript</code>, and read <code>get_agent_knowledge</code> to see exactly what the receptionist actually said — then push a fix with <code>update_agent_knowledge</code> so the same failure never repeats. The audit-to-fix cycle that used to require listening to recordings and navigating a dashboard now runs entirely inside an agent session.</p>
-<p>The second win is configuration from a description. <code>create_agent_skill</code> and <code>create_agent_knowledge</code> let an agent build a complete receptionist setup — greeting, knowledge base, transfer rules, weekly schedules, SMS follow-up skills — from a plain paragraph about the business. That collapses a multi-hour setup into one prompt, which matters most for operators running several locations or brands, where each line needs its own greeting, hours and transfer map.</p>
+<p>A missed call is a missed lead, and the classic failure mode of AI receptionists is silence: the receptionist picks up, botches a question, and nobody in the business ever finds out. Upfirst MCP closes that loop. The agent can pull <code>list_calls</code>, open <code>get_call_details</code> and <code>get_call_transcript</code>, and read <code>get_agent_knowledge</code> to see exactly what the receptionist actually said - then push a fix with <code>update_agent_knowledge</code> so the same failure never repeats. The audit-to-fix cycle that used to require listening to recordings and navigating a dashboard now runs entirely inside an agent session.</p>
+<p>The second win is configuration from a description. <code>create_agent_skill</code> and <code>create_agent_knowledge</code> let an agent build a complete receptionist setup - greeting, knowledge base, transfer rules, weekly schedules, SMS follow-up skills - from a plain paragraph about the business. That collapses a multi-hour setup into one prompt, which matters most for operators running several locations or brands, where each line needs its own greeting, hours and transfer map.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10111,7 +10111,7 @@ Built by: Upfirst (upfirst.ai)
 <div class="highlight"><pre><span></span><code><span class="c1"># Once the URL is provisioned in-app:</span>
 claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>upfirst<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>&lt;provisioned-endpoint-url&gt;
 </code></pre></div>
-<p>No local install and no API key to store in your client config — approval happens through the Upfirst account.</p>
+<p>No local install and no API key to store in your client config - approval happens through the Upfirst account.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -10134,10 +10134,10 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <p>Upfirst MCP pairs naturally with the CorpusIQ CRM connectors: after a call lands a booking, the operator reads the outcome through the CorpusIQ HubSpot or Close connector and logs the lead with the call transcript as context, so pipeline attribution runs from ad click to answered call. For businesses that run Calendly on the front end, the CorpusIQ Calendly connector shows the appointments the receptionist actually generated, closing the loop between phone coverage and booked pipeline. The direction of flow: Upfirst MCP handles the phone conversation; CorpusIQ reads the downstream business systems the conversation feeds.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no community track record yet</li>
+<li>Brand new listing - no community track record yet</li>
 <li>Endpoint URL is provisioned per account in-app, not published; setup requires an Upfirst account</li>
 <li>The receptionist quality itself depends on Upfirst's voice stack; the MCP layer tunes it but cannot replace it</li>
-<li>Phone-centric value — businesses without meaningful call volume will see less payoff</li>
+<li>Phone-centric value - businesses without meaningful call volume will see less payoff</li>
 <li>Live tool list served from the provisioned endpoint; tool names above come from the official directory listing</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

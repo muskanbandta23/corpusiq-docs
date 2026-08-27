@@ -10479,7 +10479,7 @@
 <h1 id="raspberry-pi-5-hermes-agent-setup-ultra-low-cost-247-ai-agent">Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent<a class="headerlink" href="#raspberry-pi-5-hermes-agent-setup-ultra-low-cost-247-ai-agent" title="Anchor link to this section">&para;</a></h1>
 <p>Run Hermes Agent 24/7 on a Raspberry Pi 5 for less than $80 in hardware and pennies a month in electricity. This Raspberry Pi setup guide is perfect for email monitoring, lightweight cron jobs, and home automation agents that run silently and cost almost nothing.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. At $50–80, it draws ~5W idle and costs ~$5/year in electricity. It pairs with cloud API models for AI capabilities and is ideal for lightweight, persistent automation tasks that don't require GPU acceleration.</p>
+<p>The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. At $50-80, it draws ~5W idle and costs ~$5/year in electricity. It pairs with cloud API models for AI capabilities and is ideal for lightweight, persistent automation tasks that don't require GPU acceleration.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10491,7 +10491,7 @@
 <tbody>
 <tr>
 <td>Cost</td>
-<td>$50–80 (board only)</td>
+<td>$50-80 (board only)</td>
 </tr>
 <tr>
 <td>Power draw</td>
@@ -10499,7 +10499,7 @@
 </tr>
 <tr>
 <td>Annual electricity</td>
-<td>~$5–10 (24/7 at $0.12/kWh)</td>
+<td>~$5-10 (24/7 at $0.12/kWh)</td>
 </tr>
 <tr>
 <td>RAM</td>
@@ -10549,7 +10549,7 @@ hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 ollama<span class="w"> </span>pull<span class="w"> </span>tinyllama<span class="w">       </span><span class="c1"># ~637MB, runs on 4GB Pi</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text<span class="w"> </span><span class="c1"># Embeddings</span>
-<span class="c1"># Expect 2–5 tokens/sec  --  slow but functional</span>
+<span class="c1"># Expect 2-5 tokens/sec  --  slow but functional</span>
 </code></pre></div>
 <h3 id="step-5-external-storage-recommended">Step 5: External Storage (Recommended)<a class="headerlink" href="#step-5-external-storage-recommended" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># NVMe via HAT or USB SSD</span>
@@ -10632,7 +10632,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 </tr>
 <tr>
 <td><strong>Total hardware</strong></td>
-<td><strong>~$75–100</strong></td>
+<td><strong>~$75-100</strong></td>
 </tr>
 <tr>
 <td>Electricity (annual)</td>
@@ -10640,21 +10640,21 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 </tr>
 <tr>
 <td>OpenRouter API</td>
-<td>$0–5/month</td>
+<td>$0-5/month</td>
 </tr>
 </tbody>
 </table>
 <h2 id="when-not-to-use-a-pi">When Not to Use a Pi<a class="headerlink" href="#when-not-to-use-a-pi" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Heavy browser automation (Playwright struggles)</li>
-<li>Running models larger than 1–2B parameters locally</li>
+<li>Running models larger than 1-2B parameters locally</li>
 <li>Video processing or encoding</li>
 <li>Multi-agent fleets</li>
 </ul>
 <p>For those workloads, use a <a href="../cloud-vps">cloud VPS</a> or <a href="../gaming-pc">gaming PC</a>.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="can-a-raspberry-pi-run-local-ai-models">Can a Raspberry Pi run local AI models?<a class="headerlink" href="#can-a-raspberry-pi-run-local-ai-models" title="Anchor link to this section">&para;</a></h3>
-<p>Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter  --  free tier models cost $0/token.</p>
+<p>Only very small models like TinyLlama (~1B parameters). Expect 2-5 tokens/second. For practical AI, use cloud API models via OpenRouter  --  free tier models cost $0/token.</p>
 <h3 id="why-use-external-storage-with-raspberry-pi">Why use external storage with Raspberry Pi?<a class="headerlink" href="#why-use-external-storage-with-raspberry-pi" title="Anchor link to this section">&para;</a></h3>
 <p>microSD cards wear out under constant write operations from logs and memory systems. An NVMe SSD via HAT or USB SSD provides faster, more durable storage.</p>
 <h3 id="what-tasks-is-a-raspberry-pi-best-for-with-hermes-agent">What tasks is a Raspberry Pi best for with Hermes Agent?<a class="headerlink" href="#what-tasks-is-a-raspberry-pi-best-for-with-hermes-agent" title="Anchor link to this section">&para;</a></h3>

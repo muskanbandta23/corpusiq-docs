@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Free e-signature workflow over MCP — send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no">
+        <meta name="description" content="Free e-signature workflow over MCP - send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/signsimple-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="SignSimple MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Free e-signature workflow over MCP — send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no">
+  <meta property="og:description" content="Free e-signature workflow over MCP - send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="SignSimple MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Free e-signature workflow over MCP — send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no">
+  <meta name="twitter:description" content="Free e-signature workflow over MCP - send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "SignSimple MCP - CorpusIQ Docs",
-    "description": "Free e-signature workflow over MCP \u2014 send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no",
+    "description": "Free e-signature workflow over MCP - send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/signsimple-mcp",
     
     "author": {
@@ -10047,18 +10047,18 @@
 
 
 <h1 id="signsimple-mcp">SignSimple MCP<a class="headerlink" href="#signsimple-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, API key)</strong> — SignSimple makes the free e-signature workflow fully programmable for agents: send a PDF, get it legally signed by emailed signing links, and download the certified result. Four MCP tools, a parallel REST API, and a template gallery of free legal documents sendable by stable URL.</p>
+<p><strong>Remote MCP server (Streamable HTTP, API key)</strong> - SignSimple makes the free e-signature workflow fully programmable for agents: send a PDF, get it legally signed by emailed signing links, and download the certified result. Four MCP tools, a parallel REST API, and a template gallery of free legal documents sendable by stable URL.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: API key (ss_live_..., via X-Api-Key or Authorization: Bearer)
 Endpoint: https://signsimple.app/mcp
 Tools: 4 (send_for_signature, get_document_status, list_documents, list_templates)
-Pricing: Free — no per-document fees, no monthly caps
+Pricing: Free - no per-document fees, no monthly caps
 Category: Document Workflow / E-Signature
 Built by: SignSimple (signsimple.app)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Contract signature is the classic last-mile manual step in automated workflows — the deal is agreed in email, the PDF sits on a desktop, and the operator becomes the courier. SignSimple removes the courier: an agent sends the PDF, the recipient gets an emailed signing link, and polling returns a signed PDF with a certificate page listing every signer, timestamp, and the SHA-256 hash of the original document.</p>
-<p><strong>The differentiator is that the entire loop is free and unlimited</strong> — no per-document fees, no monthly caps, PDFs up to 15 MB and 10 recipients per send, legally binding under the US ESIGN Act.</p>
+<p>Contract signature is the classic last-mile manual step in automated workflows - the deal is agreed in email, the PDF sits on a desktop, and the operator becomes the courier. SignSimple removes the courier: an agent sends the PDF, the recipient gets an emailed signing link, and polling returns a signed PDF with a certificate page listing every signer, timestamp, and the SHA-256 hash of the original document.</p>
+<p><strong>The differentiator is that the entire loop is free and unlimited</strong> - no per-document fees, no monthly caps, PDFs up to 15 MB and 10 recipients per send, legally binding under the US ESIGN Act.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10070,7 +10070,7 @@ Built by: SignSimple (signsimple.app)
 <tbody>
 <tr>
 <td><code>send_for_signature</code></td>
-<td>Send a PDF by URL, name recipients, set expiry — returns envelope ID and signing links</td>
+<td>Send a PDF by URL, name recipients, set expiry - returns envelope ID and signing links</td>
 </tr>
 <tr>
 <td><code>get_document_status</code></td>
@@ -10113,14 +10113,14 @@ Built by: SignSimple (signsimple.app)
 <li><strong>Agent builders</strong> get discovery endpoints (llms.txt, openapi.json, agent-card.json, well-known MCP card) alongside the endpoint</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>SignSimple composes cleanly with CorpusIQ's document and CRM connectors. A closed loop: HubSpot connector surfaces the deal, the agent drafts the agreement, SignSimple's <code>send_for_signature</code> gets it signed, and <code>get_document_status</code> drops the certified PDF back into Drive via the Drive connector. Pair with QuickBooks to attach the signed PDF to the invoice record once the envelope completes. Because SignSimple certifies each PDF with the original document's SHA-256 hash, the signature certificate and the stored document can be cross-checked later — the same verify-before-trust pattern CorpusIQ connectors apply to financial data.</p>
+<p>SignSimple composes cleanly with CorpusIQ's document and CRM connectors. A closed loop: HubSpot connector surfaces the deal, the agent drafts the agreement, SignSimple's <code>send_for_signature</code> gets it signed, and <code>get_document_status</code> drops the certified PDF back into Drive via the Drive connector. Pair with QuickBooks to attach the signed PDF to the invoice record once the envelope completes. Because SignSimple certifies each PDF with the original document's SHA-256 hash, the signature certificate and the stored document can be cross-checked later - the same verify-before-trust pattern CorpusIQ connectors apply to financial data.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no long track record yet</li>
+<li>Brand new listing - no long track record yet</li>
 <li>US-centric: binding under the ESIGN Act; check local e-signature law for cross-border use</li>
 <li>Signature placement defaults to the last page unless exact field geometry is passed</li>
 <li>Commercial cloud service; no self-host option published</li>
-<li>Free tier is generous but the vendor controls the service level — no SLA published</li>
+<li>Free tier is generous but the vendor controls the service level - no SLA published</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

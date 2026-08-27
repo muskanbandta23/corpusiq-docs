@@ -23,7 +23,7 @@
     
     
   
-    <title>1Password MCP — Secrets Management for AI Agents Without</title>
+    <title>1Password MCP - Secrets Management for AI Agents Without</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="1Password MCP — Secrets Management for AI Agents Without">
+  <meta property="og:title" content="1Password MCP - Secrets Management for AI Agents Without">
   <meta property="og:description" content="Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="1Password MCP — Secrets Management for AI Agents Without">
+  <meta name="twitter:title" content="1Password MCP - Secrets Management for AI Agents Without">
   <meta name="twitter:description" content="Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "1Password MCP \u2014 Secrets Management for AI Agents Without",
+    "name": "1Password MCP - Secrets Management for AI Agents Without",
     "description": "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1Password MCP — Secrets Management for AI Agents Without
+              1Password MCP - Secrets Management for AI Agents Without
             
           </span>
         </div>
@@ -10055,8 +10055,8 @@
   
 
 
-<h1 id="1password-mcp-server-official-beta-new-july-17">1Password MCP Server ★ Official (Beta) — New July 17<a class="headerlink" href="#1password-mcp-server-official-beta-new-july-17" title="Anchor link to this section">&para;</a></h1>
-<p>The 1Password MCP server bridges MCP-compatible AI agents (Codex, Kiro, Claude Code, Cursor) to 1Password Environments — letting agents create environments, list variables, and manage secrets without ever reading or exposing the secret values.</p>
+<h1 id="1password-mcp-server-official-beta-new-july-17">1Password MCP Server ★ Official (Beta) - New July 17<a class="headerlink" href="#1password-mcp-server-official-beta-new-july-17" title="Anchor link to this section">&para;</a></h1>
+<p>The 1Password MCP server bridges MCP-compatible AI agents (Codex, Kiro, Claude Code, Cursor) to 1Password Environments - letting agents create environments, list variables, and manage secrets without ever reading or exposing the secret values.</p>
 <p>This is the first major secrets-management platform to ship an official MCP server, marking a significant milestone in AI agent security infrastructure.</p>
 <p><strong>Source:</strong> mcpservers.org (discovered July 17, 2026)
 <strong>Category:</strong> Security / DevOps / Secrets Management
@@ -10066,10 +10066,10 @@
 <h2 id="key-innovation-agent-managed-secrets-without-exposure">Key Innovation: Agent-Managed Secrets Without Exposure<a class="headerlink" href="#key-innovation-agent-managed-secrets-without-exposure" title="Anchor link to this section">&para;</a></h2>
 <p>The core design principle is unlike any other MCP server: <strong>the agent never sees the secrets.</strong> The MCP server acts as a secure bridge that:</p>
 <ul>
-<li><strong>Creates Environments</strong> — provision new 1Password Environments from an MCP client</li>
-<li><strong>Lists variable names</strong> — enumerate environment variables without revealing values</li>
-<li><strong>Manages secrets</strong> — update, rotate, and organize secrets through authorized processes</li>
-<li><strong>Authorizes via prompts</strong> — every sensitive operation triggers a human authorization prompt</li>
+<li><strong>Creates Environments</strong> - provision new 1Password Environments from an MCP client</li>
+<li><strong>Lists variable names</strong> - enumerate environment variables without revealing values</li>
+<li><strong>Manages secrets</strong> - update, rotate, and organize secrets through authorized processes</li>
+<li><strong>Authorizes via prompts</strong> - every sensitive operation triggers a human authorization prompt</li>
 </ul>
 <p>Secrets remain in 1Password and are only accessed by authorized processes at runtime. The MCP client (your AI agent) orchestrates secrets management while 1Password enforces the security boundary.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Anchor link to this section">&para;</a></h2>
@@ -10095,7 +10095,7 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>First connection triggers an OAuth authorization flow — sign in to 1Password and authorize the MCP client.</p>
+<p>First connection triggers an OAuth authorization flow - sign in to 1Password and authorize the MCP client.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <p>This is a landmark MCP server for operators running AI agents in production:</p>
 <ol>
@@ -10106,7 +10106,7 @@
 <p><strong>Auditable agent actions:</strong> Every secrets operation goes through 1Password's authorization prompts, creating an audit trail of what the agent attempted and what was approved.</p>
 </li>
 <li>
-<p><strong>Enterprise-ready patterns:</strong> 1Password's approach — agent orchestrates, platform enforces — sets the pattern for enterprise MCP integrations. Expect similar designs from AWS Secrets Manager, HashiCorp Vault, and Azure Key Vault.</p>
+<p><strong>Enterprise-ready patterns:</strong> 1Password's approach - agent orchestrates, platform enforces - sets the pattern for enterprise MCP integrations. Expect similar designs from AWS Secrets Manager, HashiCorp Vault, and Azure Key Vault.</p>
 </li>
 <li>
 <p><strong>Environment provisioning at scale:</strong> Operators managing multiple deployment environments can let agents handle the mechanical work of creating and organizing environments while maintaining zero-trust on secret values.</p>
@@ -10122,7 +10122,7 @@
 <h2 id="limitations-beta">Limitations (Beta)<a class="headerlink" href="#limitations-beta" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Currently supports Codex and Kiro as primary MCP clients; broader client support expected</li>
-<li>Beta status — API may change before GA</li>
+<li>Beta status - API may change before GA</li>
 <li>Requires 1Password Environments (separate from standard 1Password vaults)</li>
 </ul>
 <hr />

@@ -10047,8 +10047,8 @@
 
 
 <h1 id="tube-bridge-mcp">tube-bridge MCP<a class="headerlink" href="#tube-bridge-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Self-hosted YouTube research for AI agents — transcripts, frames, and private semantic corpora on your own machine.</strong> tube-bridge is a 17-tool MCP server that turns YouTube into a queryable research surface: search videos and channels, read transcripts (optionally with <code>[MM:SS]</code> timestamps), pull comments and playlists, extract one ephemeral JPEG frame at an exact millisecond, and build private semantic-search corpora over collected transcripts. Fourteen tools need no YouTube API key; only comments and channel-search tools require an optional user-supplied key.</p>
-<div class="highlight"><pre><span></span><code>Server type: Self-hosted stdio (uvx) — optional self-hosted Streamable HTTP or Docker
+<p><strong>Self-hosted YouTube research for AI agents - transcripts, frames, and private semantic corpora on your own machine.</strong> tube-bridge is a 17-tool MCP server that turns YouTube into a queryable research surface: search videos and channels, read transcripts (optionally with <code>[MM:SS]</code> timestamps), pull comments and playlists, extract one ephemeral JPEG frame at an exact millisecond, and build private semantic-search corpora over collected transcripts. Fourteen tools need no YouTube API key; only comments and channel-search tools require an optional user-supplied key.</p>
+<div class="highlight"><pre><span></span><code>Server type: Self-hosted stdio (uvx) - optional self-hosted Streamable HTTP or Docker
 Install: uvx tube-bridge
 Tools: 17 (14 keyless, 3 optional YouTube API key)
 License: MIT
@@ -10056,8 +10056,8 @@ Registry: io.github.TheWhiteWater/tube-bridge (PyPI v1.1.6, active)
 Built by: TheWhiteWater
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Competitor videos, founder interviews, and channel research are a material research source that most agents handle badly — transcripts pulled ad hoc, no way to search across them, no way to cite the exact moment. tube-bridge fixes the workflow end to end: <code>youtube_search</code> finds candidates, <code>youtube_get_transcript</code> pulls text with timestamps, <code>corpus_add</code> chunks and locally embeds it (80-second windows, 20-second overlap, BGE-small-en-v1.5 via fastembed), and <code>corpus_search</code> returns similarity scores with canonical video URLs and timestamped deep links. <code>youtube_get_frame</code> returns a bounded JPEG near any transcript finding so an agent can verify visually that the quote matches the frame.</p>
-<p>The privacy posture is the differentiator: transcripts, SQLite databases, vectors, and indexes stay on the operator's machine — there is no hosted intermediary, no account, and no managed storage. Everything is local-first and MIT-licensed.</p>
+<p>Competitor videos, founder interviews, and channel research are a material research source that most agents handle badly - transcripts pulled ad hoc, no way to search across them, no way to cite the exact moment. tube-bridge fixes the workflow end to end: <code>youtube_search</code> finds candidates, <code>youtube_get_transcript</code> pulls text with timestamps, <code>corpus_add</code> chunks and locally embeds it (80-second windows, 20-second overlap, BGE-small-en-v1.5 via fastembed), and <code>corpus_search</code> returns similarity scores with canonical video URLs and timestamped deep links. <code>youtube_get_frame</code> returns a bounded JPEG near any transcript finding so an agent can verify visually that the quote matches the frame.</p>
+<p>The privacy posture is the differentiator: transcripts, SQLite databases, vectors, and indexes stay on the operator's machine - there is no hosted intermediary, no account, and no managed storage. Everything is local-first and MIT-licensed.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10100,7 +10100,7 @@ Built by: TheWhiteWater
 </tr>
 </tbody>
 </table>
-<p>Corpus results return similarity score, time span, video title, canonical URL, and timestamp URL — built for citation, not just answers.</p>
+<p>Corpus results return similarity score, time span, video title, canonical URL, and timestamp URL - built for citation, not just answers.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>uvx<span class="w"> </span>tube-bridge
 </code></pre></div>
@@ -10117,32 +10117,32 @@ Built by: TheWhiteWater
 </code></pre></div>
 <p>Requires Python 3.12+. <code>ffmpeg</code> is only needed for <code>youtube_get_frame</code>; the first embedding operation downloads the local model. Alternatives: <code>pip install tube-bridge</code> for a persistent install (stdio, or <code>tube-bridge --http</code> for Streamable HTTP on port 8080), or <code>docker run -p 8080:8080 ghcr.io/thewhitewater/tube-bridge:latest</code> with <code>/health</code> and <code>/mcp</code> endpoints.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">YOUTUBE_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span><span class="w">        </span><span class="c1"># optional — unlocks comments + channel tools</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_PROXY</span><span class="o">=</span><span class="s2">&quot;http://...&quot;</span><span class="w">    </span><span class="c1"># optional — routes yt-dlp/transcript calls via proxy</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_CACHE</span><span class="o">=</span><span class="s2">&quot;/path/to/data&quot;</span><span class="w"> </span><span class="c1"># optional — moves corpus and cache databases</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_AUTH_KEY</span><span class="o">=</span><span class="s2">&quot;long-random&quot;</span><span class="w"> </span><span class="c1"># optional — Bearer-protects self-hosted HTTP routes</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">YOUTUBE_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span><span class="w">        </span><span class="c1"># optional - unlocks comments + channel tools</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_PROXY</span><span class="o">=</span><span class="s2">&quot;http://...&quot;</span><span class="w">    </span><span class="c1"># optional - routes yt-dlp/transcript calls via proxy</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_CACHE</span><span class="o">=</span><span class="s2">&quot;/path/to/data&quot;</span><span class="w"> </span><span class="c1"># optional - moves corpus and cache databases</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_AUTH_KEY</span><span class="o">=</span><span class="s2">&quot;long-random&quot;</span><span class="w"> </span><span class="c1"># optional - Bearer-protects self-hosted HTTP routes</span>
 </code></pre></div>
 <p>A YouTube Data API v3 key (Google Cloud Console) unlocks the three API-only tools and upgrades search reliability. Corpus storage is SQLite plus sqlite-vec under <code>~/.tube_bridge/corpus.db</code>; embedding inference runs locally after a one-time model download.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Market and competitor research</strong> — search competitor channels, corpus their uploads, ask questions across months of content with timestamp citations</li>
-<li><strong>Interview and earnings-call mining</strong> — transcripts with <code>[MM:SS]</code> links make every finding quotable with a deep link</li>
-<li><strong>Content teams</strong> — frame-level visual verification without building a media library</li>
-<li><strong>Privacy-conscious operators</strong> — all research artifacts stay on-premise; nothing is shipped to a vendor</li>
+<li><strong>Market and competitor research</strong> - search competitor channels, corpus their uploads, ask questions across months of content with timestamp citations</li>
+<li><strong>Interview and earnings-call mining</strong> - transcripts with <code>[MM:SS]</code> links make every finding quotable with a deep link</li>
+<li><strong>Content teams</strong> - frame-level visual verification without building a media library</li>
+<li><strong>Privacy-conscious operators</strong> - all research artifacts stay on-premise; nothing is shipped to a vendor</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>tube-bridge is the research front-end; CorpusIQ is the business record layer. An agent can research a competitor's YouTube presence with tube-bridge — corpus their uploads, extract pricing mentions and product claims with timestamp URLs — then verify the claims against CorpusIQ's connectors: their web analytics via GA4/Semrush, their company record via HubSpot or QuickBooks-side vendor data, and the outreach follow-up via email. The timestamped transcript citations give the "where did we see this" audit trail that pairs with CorpusIQ's source-declared reporting.</p>
+<p>tube-bridge is the research front-end; CorpusIQ is the business record layer. An agent can research a competitor's YouTube presence with tube-bridge - corpus their uploads, extract pricing mentions and product claims with timestamp URLs - then verify the claims against CorpusIQ's connectors: their web analytics via GA4/Semrush, their company record via HubSpot or QuickBooks-side vendor data, and the outreach follow-up via email. The timestamped transcript citations give the "where did we see this" audit trail that pairs with CorpusIQ's source-declared reporting.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Self-hosted only — no hosted endpoint or managed storage is provided</li>
+<li>Self-hosted only - no hosted endpoint or managed storage is provided</li>
 <li>New listing (Aug 2026), zero-star repository, single maintainer</li>
 <li><code>youtube_get_frame</code> requires ffmpeg and re-downloads a temporary section per call</li>
 <li>ToS posture: pulls public YouTube content via yt-dlp and youtube-transcript-api; operators should respect YouTube's terms for commercial use</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/arc-research-mcp">Arc Research MCP — Commodities Research &amp; Knowledge Graph</a></li>
-<li><a href="/hermes/mcp/servers/external/apitube-news-mcp">APITube News MCP — News Search with Sentiment &amp; Entity Filters</a></li>
+<li><a href="/hermes/mcp/servers/external/arc-research-mcp">Arc Research MCP - Commodities Research &amp; Knowledge Graph</a></li>
+<li><a href="/hermes/mcp/servers/external/apitube-news-mcp">APITube News MCP - News Search with Sentiment &amp; Entity Filters</a></li>
 <li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
 <li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>

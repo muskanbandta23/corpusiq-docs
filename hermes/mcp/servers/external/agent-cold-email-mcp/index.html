@@ -10036,7 +10036,7 @@
 
 
 <h1 id="coldrig-mcp-agent-cold-email">Coldrig MCP (agent-cold-email)<a class="headerlink" href="#coldrig-mcp-agent-cold-email" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Agent-native cold-email infrastructure exposed as 28 MCP tools — an AI agent operates the entire stack end to end: buy domains, provision mailboxes, run warmup, launch sequences and campaigns, handle replies, and monitor deliverability.</strong> Built by the platform vendor as the official implementation. Remote streamable HTTP with Bearer auth plus a local stdio path via npm. Sandbox mode is free; live sending is $99/month.</p>
+<p><strong>Agent-native cold-email infrastructure exposed as 28 MCP tools - an AI agent operates the entire stack end to end: buy domains, provision mailboxes, run warmup, launch sequences and campaigns, handle replies, and monitor deliverability.</strong> Built by the platform vendor as the official implementation. Remote streamable HTTP with Bearer auth plus a local stdio path via npm. Sandbox mode is free; live sending is $99/month.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) + local stdio
 Auth: Bearer token via POST /signup (free, no card) for remote; npx for stdio
 Endpoint: https://agent-cold-email-api.yaakovscher.workers.dev/mcp
@@ -10046,7 +10046,7 @@ Category: Marketing / Sales Operations
 Built by: Coldrig (npm: agent-cold-email, repo: YS-projectcalc/agent-cold-email)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Outbound email normally requires three roles — domain provisioning, deliverability engineering, and sequence management — before the first reply arrives. Coldrig collapses them into tool calls an agent can run, so a single agent owns the funnel from "no sending infrastructure" to "campaign live with monitored deliverability" without a sales-ops hire.</p>
+<p>Outbound email normally requires three roles - domain provisioning, deliverability engineering, and sequence management - before the first reply arrives. Coldrig collapses them into tool calls an agent can run, so a single agent owns the funnel from "no sending infrastructure" to "campaign live with monitored deliverability" without a sales-ops hire.</p>
 <p><strong>The isolation model is the point.</strong> Provisioned domains and mailboxes keep sending reputation separated from the main business domain; warmup runs before volume; and deliverability monitoring is a first-class tool rather than an afterthought. The $99/month live tier buys the infrastructure that would otherwise cost a sales-ops contractor more in the first week.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10102,7 +10102,7 @@ npx<span class="w"> </span>agent-cold-email
 </code></pre></div>
 <p>Remote tokens are issued by <code>POST /signup</code> (free, no card). Live sending requires the $99/month plan.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>Sandbox mode is the default entry point and is free. Moving to live sending attaches a billing plan and unlocks the provisioning and warmup tools against real domains. Standard cold-email discipline still applies: warmup before volume, low daily send counts per mailbox, and reply handling to protect deliverability — the tools enforce the workflow, but the operator sets the cadence.</p>
+<p>Sandbox mode is the default entry point and is free. Moving to live sending attaches a billing plan and unlocks the provisioning and warmup tools against real domains. Standard cold-email discipline still applies: warmup before volume, low daily send counts per mailbox, and reply handling to protect deliverability - the tools enforce the workflow, but the operator sets the cadence.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Founders without sales ops</strong> get a complete outbound stack operated by the agent they already run</li>
@@ -10111,11 +10111,11 @@ npx<span class="w"> </span>agent-cold-email
 <li><strong>Deliverability-conscious senders</strong> get monitoring and warmup as built-in tools, not bolt-ons</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ's email connectors (Gmail via media@ and info@) are the inbound intelligence layer — lead identification, response tracking, and triage. Coldrig is the outbound execution layer — domains, warmup, sequences, sending.</p>
+<p>CorpusIQ's email connectors (Gmail via media@ and info@) are the inbound intelligence layer - lead identification, response tracking, and triage. Coldrig is the outbound execution layer - domains, warmup, sequences, sending.</p>
 <p>The composed workflow: CorpusIQ mines and qualifies targets from inbound and market signals; Coldrig's agent runs the outbound sequence on isolated infrastructure; replies land back in the monitored inbox where CorpusIQ's triage picks them up. The two surfaces never share a domain, so outreach reputation stays separate from business-critical inbox reputation.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Live sending is $99/month — sandbox only on free tier</li>
+<li>Live sending is $99/month - sandbox only on free tier</li>
 <li>Brand new listing (submitted Aug 17, 2026); package at v0.2.1</li>
 <li>Remote endpoint runs on a Cloudflare Workers URL (vendor-managed)</li>
 <li>Cold email compliance (CAN-SPAM, GDPR) remains the operator's responsibility</li>

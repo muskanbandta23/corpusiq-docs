@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
+        <meta name="description" content="Deterministic AI-writing-tell detector for operators - 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/etincel-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Etincel MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
+  <meta property="og:description" content="Deterministic AI-writing-tell detector for operators - 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Etincel MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
+  <meta name="twitter:description" content="Deterministic AI-writing-tell detector for operators - 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Etincel MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Deterministic AI-writing-tell detector for operators \u2014 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a",
+    "description": "Deterministic AI-writing-tell detector for operators - 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/etincel-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="etincel-mcp">Etincel MCP<a class="headerlink" href="#etincel-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Self-hosted MCP server (stdio, no auth) — plus an optional hosted API</strong> — Etincel finds the AI tells in non-fiction prose deterministically, on your own machine: 20 tools that audit text for chatbot fingerprints, train brand voices from real writing samples, and measure drafts against a voice baseline, with a CLI, MCP server, and GitHub Action sharing one codebase (MIT).</p>
+<p><strong>Self-hosted MCP server (stdio, no auth) - plus an optional hosted API</strong> - Etincel finds the AI tells in non-fiction prose deterministically, on your own machine: 20 tools that audit text for chatbot fingerprints, train brand voices from real writing samples, and measure drafts against a voice baseline, with a CLI, MCP server, and GitHub Action sharing one codebase (MIT).</p>
 <div class="highlight"><pre><span></span><code>Server type: Local (stdio) + optional hosted API
 Auth: None for stdio; account only for the model-based `second_read` tool
 Endpoint: npx etincel serve (local) · https://etincel.ai/api/mcp (hosted)
@@ -10057,8 +10057,8 @@ Category: Content / Writing Quality
 Built by: AIStoryHub (github.com/AIStoryHub/etincel, etincel.ai)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Every operator shipping AI-drafted content faces the same risk: copy that reads synthetic destroys trust before the message lands. Etincel turns that risk into a deterministic check — <code>audit_text</code> scans for banned hype vocabulary, chatbot fingerprints, and structural patterns (uniform paragraph length, stacked transitions, em-dash overuse, rule-of-three compulsion) and returns a tiered verdict with each finding located by line. Because it is deterministic, the same text always gets the same verdict, which is what makes it safe to gate commits and CI runs on it.</p>
-<p><strong>The differentiator is the voice-training loop.</strong> <code>train_style</code> measures a real writer's habits — sentence length and variance, paragraph rhythm, contraction rate, em-dash and semicolon use, structural entropy — and persists them as a named voice. Drafts can then be checked against that baseline with <code>check_voice_match</code>, so brand voice stops being something reviewers eyeball and becomes something an agent can measure before content ships. The <code>.etincelrc</code> file makes the banned-words and house-style dictionary reviewable, versioned code, not a hidden vendor config.</p>
+<p>Every operator shipping AI-drafted content faces the same risk: copy that reads synthetic destroys trust before the message lands. Etincel turns that risk into a deterministic check - <code>audit_text</code> scans for banned hype vocabulary, chatbot fingerprints, and structural patterns (uniform paragraph length, stacked transitions, em-dash overuse, rule-of-three compulsion) and returns a tiered verdict with each finding located by line. Because it is deterministic, the same text always gets the same verdict, which is what makes it safe to gate commits and CI runs on it.</p>
+<p><strong>The differentiator is the voice-training loop.</strong> <code>train_style</code> measures a real writer's habits - sentence length and variance, paragraph rhythm, contraction rate, em-dash and semicolon use, structural entropy - and persists them as a named voice. Drafts can then be checked against that baseline with <code>check_voice_match</code>, so brand voice stops being something reviewers eyeball and becomes something an agent can measure before content ships. The <code>.etincelrc</code> file makes the banned-words and house-style dictionary reviewable, versioned code, not a hidden vendor config.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10078,7 +10078,7 @@ Built by: AIStoryHub (github.com/AIStoryHub/etincel, etincel.ai)
 </tr>
 <tr>
 <td><code>check_voice_match</code></td>
-<td>Measure a draft's rhythm against a trained voice baseline — verdict, match score, and per-dial drift notes</td>
+<td>Measure a draft's rhythm against a trained voice baseline - verdict, match score, and per-dial drift notes</td>
 </tr>
 <tr>
 <td><code>check_self_repetition</code></td>
@@ -10090,7 +10090,7 @@ Built by: AIStoryHub (github.com/AIStoryHub/etincel, etincel.ai)
 </tr>
 <tr>
 <td><code>create_style_from_dials</code></td>
-<td>Build a voice from explicit dials (formality, warmth, directness) plus 8 mechanical dials — no samples needed</td>
+<td>Build a voice from explicit dials (formality, warmth, directness) plus 8 mechanical dials - no samples needed</td>
 </tr>
 <tr>
 <td><code>update_style</code> / <code>fork_style</code> / <code>delete_style</code> / <code>set_default_style</code></td>
@@ -10110,7 +10110,7 @@ Built by: AIStoryHub (github.com/AIStoryHub/etincel, etincel.ai)
 </tr>
 <tr>
 <td><code>second_read</code></td>
-<td>One model call reading a draft like a careful human editor — hosted only, unscored, never a silent rewrite</td>
+<td>One model call reading a draft like a careful human editor - hosted only, unscored, never a silent rewrite</td>
 </tr>
 </tbody>
 </table>
@@ -10128,22 +10128,22 @@ Built by: AIStoryHub (github.com/AIStoryHub/etincel, etincel.ai)
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>No keys or accounts are needed for the local install — audit, training, and voice checks all run offline. The only hosted dependency is <code>second_read</code>, which requires an account at etincel.ai because it bills a model call; a <code>.etincelrc</code> at the repo root carries the shared team dictionary and style instructions (dictionary as code, reviewable and versioned).</p>
+<p>No keys or accounts are needed for the local install - audit, training, and voice checks all run offline. The only hosted dependency is <code>second_read</code>, which requires an account at etincel.ai because it bills a model call; a <code>.etincelrc</code> at the repo root carries the shared team dictionary and style instructions (dictionary as code, reviewable and versioned).</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Content operators</strong> get a pre-publish gate that flags AI tells with line references before copy reaches customers — tiered verdicts instead of binary detector scores.</li>
+<li><strong>Content operators</strong> get a pre-publish gate that flags AI tells with line references before copy reaches customers - tiered verdicts instead of binary detector scores.</li>
 <li><strong>Brand and marketing teams</strong> can encode a real founder's voice from samples and check every draft against it, including drift warnings per dial.</li>
 <li><strong>Engineering teams</strong> run the same checks in CI via the GitHub Action or <code>npx etincel lint</code>, so style gates survive the human reviewer's absence.</li>
-<li><strong>Agencies</strong> can fork and reuse public community styles, then retrain them on client samples — voice work becomes a versioned asset, not a per-project retelling.</li>
+<li><strong>Agencies</strong> can fork and reuse public community styles, then retrain them on client samples - voice work becomes a versioned asset, not a per-project retelling.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Etincel pairs with CorpusIQ as the quality gate on the content pipeline's output side. CorpusIQ connectors (GA4, Search Console, Stripe, Klaviyo) surface the performance data that tells you what to publish; Etincel checks the copy itself before it ships. The workflow composes cleanly: an agent drafts X posts, outreach emails, or docs pages, calls <code>audit_text</code> against the CorpusIQ house dictionary in <code>.etincelrc</code> (banned hype vocabulary, no em-dash rules, approved product terms), and only content that passes a green or yellow tier proceeds to publishing. Prose Coach (also in this catalog) covers the same problem as a no-auth remote service — Etincel is the self-hosted, CI-friendly complement when copy must stay in-house. For voice work, <code>train_style</code> can be fed real approved writing samples so future drafts are measured against the actual operator voice, not a generic tone prompt.</p>
+<p>Etincel pairs with CorpusIQ as the quality gate on the content pipeline's output side. CorpusIQ connectors (GA4, Search Console, Stripe, Klaviyo) surface the performance data that tells you what to publish; Etincel checks the copy itself before it ships. The workflow composes cleanly: an agent drafts X posts, outreach emails, or docs pages, calls <code>audit_text</code> against the CorpusIQ house dictionary in <code>.etincelrc</code> (banned hype vocabulary, no em-dash rules, approved product terms), and only content that passes a green or yellow tier proceeds to publishing. Prose Coach (also in this catalog) covers the same problem as a no-auth remote service - Etincel is the self-hosted, CI-friendly complement when copy must stay in-house. For voice work, <code>train_style</code> can be fed real approved writing samples so future drafts are measured against the actual operator voice, not a generic tone prompt.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Brand new</strong> — submitted to mcp.so August 15, 2026; no track record or community adoption yet.</li>
-<li>Local-first: trained voices and self-repetition history live on the installing machine — a hosted/remote connection reports zero history today.</li>
+<li><strong>Brand new</strong> - submitted to mcp.so August 15, 2026; no track record or community adoption yet.</li>
+<li>Local-first: trained voices and self-repetition history live on the installing machine - a hosted/remote connection reports zero history today.</li>
 <li><code>second_read</code> is the only model-based tool and requires a paid etincel.ai account; it fails with a clear explanation on pure stdio installs.</li>
-<li><code>check_voice_match</code> measures rhythm and mechanics — it is explicitly not an authorship or AI-detection proof, and short inputs return low-confidence verdicts.</li>
+<li><code>check_voice_match</code> measures rhythm and mechanics - it is explicitly not an authorship or AI-detection proof, and short inputs return low-confidence verdicts.</li>
 <li>Stdio transport means per-machine setup; there is no multi-user OAuth model like CorpusIQ's connectors.</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

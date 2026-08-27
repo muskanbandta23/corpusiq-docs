@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Setup and usage guide for Stateless MCP — What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.">
+        <meta name="description" content="Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Stateless MCP — What the July 2026 Spec Means for Business AI</title>
+    <title>Stateless MCP - What the July 2026 Spec Means for Business AI</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/architecture/stateless-mcp-july-2026">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Stateless MCP — What the July 2026 Spec Means for Business AI">
-  <meta property="og:description" content="Setup and usage guide for Stateless MCP — What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.">
+  <meta property="og:title" content="Stateless MCP - What the July 2026 Spec Means for Business AI">
+  <meta property="og:description" content="Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Stateless MCP — What the July 2026 Spec Means for Business AI">
-  <meta name="twitter:description" content="Setup and usage guide for Stateless MCP — What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.">
+  <meta name="twitter:title" content="Stateless MCP - What the July 2026 Spec Means for Business AI">
+  <meta name="twitter:description" content="Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Stateless MCP \u2014 What the July 2026 Spec Means for Business AI",
-    "description": "Setup and usage guide for Stateless MCP \u2014 What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.",
+    "name": "Stateless MCP - What the July 2026 Spec Means for Business AI",
+    "description": "Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory.",
     "url": "https://www.corpusiq.io/docs/hermes/architecture/stateless-mcp-july-2026",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Stateless MCP — What the July 2026 Spec Means for Business AI
+              Stateless MCP - What the July 2026 Spec Means for Business AI
             
           </span>
         </div>
@@ -10027,8 +10027,8 @@
   
 
 
-<h1 id="stateless-mcp-what-the-july-2026-spec-means-for-business-ai">Stateless MCP — What the July 2026 Spec Means for Business AI<a class="headerlink" href="#stateless-mcp-what-the-july-2026-spec-means-for-business-ai" title="Anchor link to this section">&para;</a></h1>
-<p>The MCP specification update on July 28, 2026 eliminated sessions, handshakes, and persistent connections. MCP is now fully stateless — every request carries its own protocol version, method, and authentication.</p>
+<h1 id="stateless-mcp-what-the-july-2026-spec-means-for-business-ai">Stateless MCP - What the July 2026 Spec Means for Business AI<a class="headerlink" href="#stateless-mcp-what-the-july-2026-spec-means-for-business-ai" title="Anchor link to this section">&para;</a></h1>
+<p>The MCP specification update on July 28, 2026 eliminated sessions, handshakes, and persistent connections. MCP is now fully stateless - every request carries its own protocol version, method, and authentication.</p>
 <p>This matters for business operators because it removes the single biggest barrier to connecting real business data to AI: infrastructure complexity.</p>
 <h2 id="the-old-way-pre-july-2026">The Old Way (Pre-July 2026)<a class="headerlink" href="#the-old-way-pre-july-2026" title="Anchor link to this section">&para;</a></h2>
 <p>MCP required a persistent WebSocket or SSE connection. The server had to maintain session state. If the connection dropped, the session was lost. This meant:</p>
@@ -10054,7 +10054,7 @@ Authorization: Bearer &lt;token&gt;
 <p>Stateless MCP means business data connectors can be:</p>
 <p><strong>Read-only and request-scoped.</strong> Each request authenticates independently. Direct MCP does not retain raw customer files or full connector response payloads. Operational query metadata and bounded outcome summaries may be retained for up to 30 days.</p>
 <p><strong>Per-user scoped.</strong> Each user's OAuth token travels with the request. Shopify and QuickBooks remain the authoritative systems. Raw customer files and full connector response payloads are not aggregated into a CorpusIQ warehouse; scoped operational retention still applies.</p>
-<p><strong>Infrastructure-independent.</strong> No WebSocket servers to maintain. No session state to manage. Standard HTTP infrastructure works — Cloudflare, AWS ALB, nginx.</p>
+<p><strong>Infrastructure-independent.</strong> No WebSocket servers to maintain. No session state to manage. Standard HTTP infrastructure works - Cloudflare, AWS ALB, nginx.</p>
 <p><strong>Cross-AI compatible.</strong> The same connector serves ChatGPT, Claude, Perplexity, and any other MCP-compatible AI. The user chooses their AI. The data layer stays consistent.</p>
 <h2 id="what-corpusiq-adds">What CorpusIQ Adds<a class="headerlink" href="#what-corpusiq-adds" title="Anchor link to this section">&para;</a></h2>
 <p>Stateless MCP solves the transport problem. But business operators need more than transport:</p>
@@ -10063,13 +10063,13 @@ Authorization: Bearer &lt;token&gt;
 <li><strong>Metric definitions</strong> that ensure revenue means the same thing across every AI and every connector</li>
 <li><strong>Source-of-truth validation</strong> that traces every answer back to the original system</li>
 <li><strong>Read-only OAuth</strong> so no AI can modify your business data</li>
-<li><strong>Scoped retention</strong> — connectors fetch live data without retaining raw customer files or full response payloads; operational logs may persist for up to 30 days</li>
+<li><strong>Scoped retention</strong> - connectors fetch live data without retaining raw customer files or full response payloads; operational logs may persist for up to 30 days</li>
 </ul>
 <p>The stateless MCP spec makes this architecture possible at scale. No connection pools. No session affinity. No state to lose.</p>
 <h2 id="the-industry-shift">The Industry Shift<a class="headerlink" href="#the-industry-shift" title="Anchor link to this section">&para;</a></h2>
 <p>Amazon Bedrock AgentCore adopted stateless MCP immediately. Google published scaling guidance. Simon Willison called it the update that "recaptured his interest" in MCP.</p>
 <p>The direction is clear: AI data access is moving toward stateless, authenticated, per-request patterns. The same architecture that made REST APIs the backbone of the web is now coming to AI tool access.</p>
-<p>For business operators, this means your QuickBooks, Shopify, and Stripe data can reach any AI you use — without building infrastructure, managing connections, or storing data in intermediate systems.</p>
+<p>For business operators, this means your QuickBooks, Shopify, and Stripe data can reach any AI you use - without building infrastructure, managing connections, or storing data in intermediate systems.</p>
 <h2 id="learn-more">Learn More<a class="headerlink" href="#learn-more" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://modelcontextprotocol.io/specification/2026-07-28">MCP 2026-07-28 Specification</a></li>

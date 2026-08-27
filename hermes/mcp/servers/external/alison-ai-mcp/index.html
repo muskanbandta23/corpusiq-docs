@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Read creative-performance analytics from your ad accounts — spend, KPIs, creative tags, and competitor intelligence — inside any MCP client">
+        <meta name="description" content="Read creative-performance analytics from your ad accounts - spend, KPIs, creative tags, and competitor intelligence - inside any MCP client">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/alison-ai-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Alison AI MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Read creative-performance analytics from your ad accounts — spend, KPIs, creative tags, and competitor intelligence — inside any MCP client">
+  <meta property="og:description" content="Read creative-performance analytics from your ad accounts - spend, KPIs, creative tags, and competitor intelligence - inside any MCP client">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Alison AI MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Read creative-performance analytics from your ad accounts — spend, KPIs, creative tags, and competitor intelligence — inside any MCP client">
+  <meta name="twitter:description" content="Read creative-performance analytics from your ad accounts - spend, KPIs, creative tags, and competitor intelligence - inside any MCP client">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Alison AI MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Read creative-performance analytics from your ad accounts \u2014 spend, KPIs, creative tags, and competitor intelligence \u2014 inside any MCP client",
+    "description": "Read creative-performance analytics from your ad accounts - spend, KPIs, creative tags, and competitor intelligence - inside any MCP client",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/alison-ai-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="alison-ai-mcp">Alison AI MCP<a class="headerlink" href="#alison-ai-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.1) for Alison AI's Evo — creative intelligence from your ad accounts inside any MCP client.</strong> Point Claude Code, Claude, Cursor, or Codex at Evo and it reads the creative-performance warehouse directly: spend and KPIs, creative tags, competitor intelligence sourced from SensorTower and Pathmatics, and creative previews. The surface is the same analytics engine Evo's own analyst agent runs on. Read-only by design — 14 tools, no write path, no SQL to author.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.1) for Alison AI's Evo - creative intelligence from your ad accounts inside any MCP client.</strong> Point Claude Code, Claude, Cursor, or Codex at Evo and it reads the creative-performance warehouse directly: spend and KPIs, creative tags, competitor intelligence sourced from SensorTower and Pathmatics, and creative previews. The surface is the same analytics engine Evo's own analyst agent runs on. Read-only by design - 14 tools, no write path, no SQL to author.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth 2.1 PKCE + RFC 7591 dynamic client registration (one browser sign-in)
 Endpoint: https://evo.alison.ai/mcp
@@ -10057,8 +10057,8 @@ Category: Marketing Analytics
 Built by: Alison AI (alison.ai)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>The creative-performance question — "which creative is actually driving the spend we're paying for" — normally lives in a BI dashboard that nobody opens during a campaign review. Evo's MCP puts the same numbers inside the agent that is already writing the recap. The agent asks, the warehouse answers, and the analysis lands in chat with the numbers attached.</p>
-<p><strong>The grant is the security model.</strong> OAuth 2.1 with PKCE and dynamic client registration means no API key ever leaves the platform. On sign-in you pick which product the client may read, and that choice is the ceiling on everything the client can ever see. Every request re-resolves authorization from the store — revocation is immediate, and a token scoped to accounts with no servable data is refused outright rather than handed zeroes.</p>
+<p>The creative-performance question - "which creative is actually driving the spend we're paying for" - normally lives in a BI dashboard that nobody opens during a campaign review. Evo's MCP puts the same numbers inside the agent that is already writing the recap. The agent asks, the warehouse answers, and the analysis lands in chat with the numbers attached.</p>
+<p><strong>The grant is the security model.</strong> OAuth 2.1 with PKCE and dynamic client registration means no API key ever leaves the platform. On sign-in you pick which product the client may read, and that choice is the ceiling on everything the client can ever see. Every request re-resolves authorization from the store - revocation is immediate, and a token scoped to accounts with no servable data is refused outright rather than handed zeroes.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10126,11 +10126,11 @@ Built by: Alison AI (alison.ai)
 </tr>
 </tbody>
 </table>
-<p>Report rows carry creative ids, not images — pass the ids from <code>run_report</code>, <code>run_recipe</code>, or <code>run_competition_report</code> into one batched <code>get_creative</code> call to see the creatives.</p>
+<p>Report rows carry creative ids, not images - pass the ids from <code>run_report</code>, <code>run_recipe</code>, or <code>run_competition_report</code> into one batched <code>get_creative</code> call to see the creatives.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>evo<span class="w"> </span>https://evo.alison.ai/mcp
 </code></pre></div>
-<p>Then run <code>/mcp</code>, pick <code>evo</code>, and authenticate — the browser opens on the Evo sign-in page, you choose a product and approve, and the client keeps the token it is handed. Pre-approving every tool is safe: all 14 are read-only and none spends model budget.</p>
+<p>Then run <code>/mcp</code>, pick <code>evo</code>, and authenticate - the browser opens on the Evo sign-in page, you choose a product and approve, and the client keeps the token it is handed. Pre-approving every tool is safe: all 14 are read-only and none spends model budget.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -10141,24 +10141,24 @@ Built by: Alison AI (alison.ai)
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>The client's first call returns <code>401</code> with a <code>WWW-Authenticate</code> header pointing at <code>/.well-known/oauth-protected-resource/mcp</code> — the client registers itself, opens the Evo approval page, and the server mints the token. Revoke any client from <code>GET /api/keys</code> and <code>DELETE /api/keys/{id}</code>; revocation is immediate, never cached.</p>
+<p>The client's first call returns <code>401</code> with a <code>WWW-Authenticate</code> header pointing at <code>/.well-known/oauth-protected-resource/mcp</code> - the client registers itself, opens the Evo approval page, and the server mints the token. Revoke any client from <code>GET /api/keys</code> and <code>DELETE /api/keys/{id}</code>; revocation is immediate, never cached.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Growth leads</strong> get creative-tag analysis (winning hooks, formats, angles) inside the agent that writes the ad briefs — the loop from data to next creative closes in one chat</li>
+<li><strong>Growth leads</strong> get creative-tag analysis (winning hooks, formats, angles) inside the agent that writes the ad briefs - the loop from data to next creative closes in one chat</li>
 <li><strong>Performance marketers</strong> run KPI reports and banded-uplift recipes without learning a BI tool, and never touch a SQL editor</li>
-<li><strong>Brand teams</strong> see competitor creatives and share of voice through <code>run_competition_report</code> — SensorTower/Pathmatics data through a chat interface</li>
+<li><strong>Brand teams</strong> see competitor creatives and share of voice through <code>run_competition_report</code> - SensorTower/Pathmatics data through a chat interface</li>
 <li><strong>Agency account managers</strong> connect once per client product; the grant keeps each client's data isolated to its own approval</li>
-<li><strong>Finance stakeholders</strong> get read-only access with no spend capability — the surface cannot mutate, cannot launch, cannot spend model budget</li>
+<li><strong>Finance stakeholders</strong> get read-only access with no spend capability - the surface cannot mutate, cannot launch, cannot spend model budget</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Alison AI and CorpusIQ answer the two halves of the same question. CorpusIQ connectors — Meta Ads, Google Ads, LinkedIn Ads — pull cross-channel spend and revenue into one view with CorpusIQ's read-only external-source retrieval model. Evo's MCP adds the creative layer those connectors don't carry: which tags, hooks, and formats are moving the numbers, plus SensorTower/Pathmatics competition metrics.</p>
+<p>Alison AI and CorpusIQ answer the two halves of the same question. CorpusIQ connectors - Meta Ads, Google Ads, LinkedIn Ads - pull cross-channel spend and revenue into one view with CorpusIQ's read-only external-source retrieval model. Evo's MCP adds the creative layer those connectors don't carry: which tags, hooks, and formats are moving the numbers, plus SensorTower/Pathmatics competition metrics.</p>
 <p>The composed workflow: CorpusIQ resolves "what did we spend and what did it return across Meta, Google, and LinkedIn," while the Evo MCP inside the same agent session resolves "which creatives drove it, which tags repeat across winners, and what competitors are running." Both surfaces are read-only and grant-scoped, so a growth analyst can be given both without handing over campaign edit rights or spend capability.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no track record yet (Aug 13, 2026)</li>
+<li>Brand new listing - no track record yet (Aug 13, 2026)</li>
 <li>Requires an Evo (alison.ai) product account; the MCP is not a standalone subscription</li>
 <li>Read-only: no campaign edits, no budget changes through this surface</li>
-<li>Commercial platform — no self-host option</li>
+<li>Commercial platform - no self-host option</li>
 <li>Browser OAuth flow per client; multiple clients mean multiple approvals to manage</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

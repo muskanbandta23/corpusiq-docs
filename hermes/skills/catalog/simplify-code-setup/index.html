@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers — 187 installs.">
+        <meta name="description" content="Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers - 187 installs.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Simplify Code — Skill Setup Guide</title>
+    <title>Simplify Code - Skill Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/simplify-code-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Simplify Code — Skill Setup Guide">
-  <meta property="og:description" content="Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers — 187 installs.">
+  <meta property="og:title" content="Simplify Code - Skill Setup Guide">
+  <meta property="og:description" content="Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers - 187 installs.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Simplify Code — Skill Setup Guide">
-  <meta name="twitter:description" content="Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers — 187 installs.">
+  <meta name="twitter:title" content="Simplify Code - Skill Setup Guide">
+  <meta name="twitter:description" content="Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers - 187 installs.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Simplify Code \u2014 Skill Setup Guide",
-    "description": "Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers \u2014 187 installs.",
+    "name": "Simplify Code - Skill Setup Guide",
+    "description": "Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers - 187 installs.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/simplify-code-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Simplify Code — Skill Setup Guide
+              Simplify Code - Skill Setup Guide
             
           </span>
         </div>
@@ -10077,12 +10077,12 @@
   
 
 
-<h1 id="simplify-code-parallel-review-cleanup-setup-guide">Simplify Code — Parallel Review &amp; Cleanup Setup Guide<a class="headerlink" href="#simplify-code-parallel-review-cleanup-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="simplify-code-parallel-review-cleanup-setup-guide">Simplify Code - Parallel Review &amp; Cleanup Setup Guide<a class="headerlink" href="#simplify-code-parallel-review-cleanup-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/simplify-code">nousresearch/hermes-agent</a> (187 installs)
 <strong>Category:</strong> Development / Code Quality
 <strong>License:</strong> MIT · <strong>Platforms:</strong> Linux, macOS, Windows
 <strong>Dependencies:</strong> Hermes Agent, git repository with recent changes</p>
-<p>Run four focused code reviewers in parallel against your recent changes. Each reviewer hunts for one class of problem — reuse opportunities, quality issues, efficiency waste, and code altitude — without diluting its focus. This is a cleanup pass, not a bug hunt. It finds duplication, flattens needless complexity, cuts dead code, and deepens band-aid fixes.</p>
+<p>Run four focused code reviewers in parallel against your recent changes. Each reviewer hunts for one class of problem - reuse opportunities, quality issues, efficiency waste, and code altitude - without diluting its focus. This is a cleanup pass, not a bug hunt. It finds duplication, flattens needless complexity, cuts dead code, and deepens band-aid fixes.</p>
 <hr />
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10116,7 +10116,7 @@
 </tr>
 </tbody>
 </table>
-<p>All four run concurrently — you pay the latency of one review, not four.</p>
+<p>All four run concurrently - you pay the latency of one review, not four.</p>
 <hr />
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>┌──────────────────┐
@@ -10151,7 +10151,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 &gt; Review my last 3 commits with simplify-code
 </code></pre></div>
 <p>Or specify scope:</p>
-<div class="highlight"><pre><span></span><code>&gt; Simplify the auth module — focus on the /src/auth/ directory
+<div class="highlight"><pre><span></span><code>&gt; Simplify the auth module - focus on the /src/auth/ directory
 </code></pre></div>
 <p>Hermes spawns four reviewers concurrently, each searching the codebase for its specific problem class. After all four complete (in parallel), findings are aggregated and fixes applied.</p>
 <hr />
@@ -10165,7 +10165,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 </thead>
 <tbody>
 <tr>
-<td>Feature completion — before PR</td>
+<td>Feature completion - before PR</td>
 <td>Bug hunting (use <code>requesting-code-review</code>)</td>
 </tr>
 <tr>
@@ -10177,7 +10177,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 <td>Correctness verification</td>
 </tr>
 <tr>
-<td>Refactoring prep — see what to clean</td>
+<td>Refactoring prep - see what to clean</td>
 <td>First-draft code (finish it first)</td>
 </tr>
 <tr>
@@ -10192,7 +10192,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 <li><strong>Run after <code>requesting-code-review</code>:</strong> That catches bugs. This catches waste.</li>
 <li><strong>Scope matters:</strong> Narrow the file/directory scope for focused cleanup; broad for architectural review</li>
 <li><strong>Review findings are actionable:</strong> Each issue comes with a suggested fix, not just a flag</li>
-<li><strong>Don't apply blindly:</strong> The altitude reviewer may suggest refactors — evaluate before applying</li>
+<li><strong>Don't apply blindly:</strong> The altitude reviewer may suggest refactors - evaluate before applying</li>
 </ul>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>

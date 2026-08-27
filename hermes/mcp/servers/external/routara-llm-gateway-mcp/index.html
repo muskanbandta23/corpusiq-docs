@@ -10039,13 +10039,13 @@
 
 
 <h1 id="routara-llm-gateway-mcp-server">Routara LLM Gateway MCP Server<a class="headerlink" href="#routara-llm-gateway-mcp-server" title="Anchor link to this section">&para;</a></h1>
-<p>MCP server providing an <strong>OpenAI-compatible gateway to 787+ chat, image, and video models</strong>. Single endpoint for multi-model access — drop it into any MCP client and route requests across providers without changing client code.</p>
+<p>MCP server providing an <strong>OpenAI-compatible gateway to 787+ chat, image, and video models</strong>. Single endpoint for multi-model access - drop it into any MCP client and route requests across providers without changing client code.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Unified Model Access</strong> — 787+ models behind one OpenAI-compatible API</li>
-<li><strong>Automatic Routing</strong> — Route requests based on cost, latency, or capability requirements</li>
-<li><strong>Multi-Modal</strong> — Chat, image generation, and video models in one gateway</li>
-<li><strong>MCP-Native</strong> — Designed specifically as an MCP server, not just an API proxy</li>
+<li><strong>Unified Model Access</strong> - 787+ models behind one OpenAI-compatible API</li>
+<li><strong>Automatic Routing</strong> - Route requests based on cost, latency, or capability requirements</li>
+<li><strong>Multi-Modal</strong> - Chat, image generation, and video models in one gateway</li>
+<li><strong>MCP-Native</strong> - Designed specifically as an MCP server, not just an API proxy</li>
 </ul>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10096,17 +10096,17 @@ npm<span class="w"> </span>install
 </code></pre></div>
 <h2 id="tools-provided">Tools Provided<a class="headerlink" href="#tools-provided" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><code>chat_completion</code> — OpenAI-compatible chat with model selection</li>
-<li><code>list_models</code> — Query available models with pricing and capability metadata</li>
-<li><code>compare_models</code> — Run same prompt across multiple models, compare output</li>
-<li><code>set_routing_policy</code> — Configure cost/latency/quality routing rules</li>
+<li><code>chat_completion</code> - OpenAI-compatible chat with model selection</li>
+<li><code>list_models</code> - Query available models with pricing and capability metadata</li>
+<li><code>compare_models</code> - Run same prompt across multiple models, compare output</li>
+<li><code>set_routing_policy</code> - Configure cost/latency/quality routing rules</li>
 </ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>0 stars, brand new</strong> — Created July 20, 2026. Unvetted.</li>
-<li><strong>Routara SaaS dependency</strong> — Requires a Routara account and API key. Adds another vendor.</li>
-<li><strong>Pricing unknown</strong> — No public pricing for the gateway service itself (on top of underlying model costs).</li>
-<li><strong>Latency overhead</strong> — Additional hop through the gateway adds latency vs direct provider access.</li>
+<li><strong>0 stars, brand new</strong> - Created July 20, 2026. Unvetted.</li>
+<li><strong>Routara SaaS dependency</strong> - Requires a Routara account and API key. Adds another vendor.</li>
+<li><strong>Pricing unknown</strong> - No public pricing for the gateway service itself (on top of underlying model costs).</li>
+<li><strong>Latency overhead</strong> - Additional hop through the gateway adds latency vs direct provider access.</li>
 </ul>
 <h2 id="operator-verdict">Operator Verdict<a class="headerlink" href="#operator-verdict" title="Anchor link to this section">&para;</a></h2>
 <p>★★ <strong>Useful for multi-model operations but adds vendor dependency.</strong> For operators running 5+ models across multiple providers, this simplifies MCP configuration significantly. However, the trade-off is routing all model traffic through Routara's infrastructure. Compare against direct MCP server configurations before adopting.</p>

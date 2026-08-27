@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Email marketing automation over MCP — read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a">
+        <meta name="description" content="Email marketing automation over MCP - read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/lumail-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Lumail MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Email marketing automation over MCP — read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a">
+  <meta property="og:description" content="Email marketing automation over MCP - read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Lumail MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Email marketing automation over MCP — read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a">
+  <meta name="twitter:description" content="Email marketing automation over MCP - read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Lumail MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Email marketing automation over MCP \u2014 read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a",
+    "description": "Email marketing automation over MCP - read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/lumail-mcp",
     
     "author": {
@@ -10036,18 +10036,18 @@
 
 
 <h1 id="lumail-mcp">Lumail MCP<a class="headerlink" href="#lumail-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Email-marketing platform MCP (Streamable HTTP, dual endpoints)</strong> — Lumail exposes its canonical email-marketing toolset to MCP clients: subscribers, campaigns, graph-based Workflows, tags, segments, settings, and analytics. The tool catalog is generated from the same definitions that drive Lumail's in-app agent, CLI, and SDK, so MCP tool discovery is the source of truth.</p>
+<p><strong>Email-marketing platform MCP (Streamable HTTP, dual endpoints)</strong> - Lumail exposes its canonical email-marketing toolset to MCP clients: subscribers, campaigns, graph-based Workflows, tags, segments, settings, and analytics. The tool catalog is generated from the same definitions that drive Lumail's in-app agent, CLI, and SDK, so MCP tool discovery is the source of truth.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
-Auth: Dual profile — Lumail OAuth (curated read + draft-write) or organization API token (full catalog)
+Auth: Dual profile - Lumail OAuth (curated read + draft-write) or organization API token (full catalog)
 Endpoints: https://lumail.io/mcp (OAuth) · https://lumail.io/api/mcp/sse (API token)
 Tools: Workflows, campaigns, subscribers, segments, analytics, senders, deliverability
-Pricing: Commercial — lumail.io
+Pricing: Commercial - lumail.io
 Category: Marketing
 Built by: lumail.io
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Lumail ships the most complete email-marketing MCP surface yet documented in this catalog. The dual-endpoint design is the standout: the OAuth endpoint cannot send, publish, schedule, delete, archive, or unsubscribe — it is a curated read-and-draft surface safe for any client — while the API-token endpoint unlocks the full organization catalog for trusted runtimes. Every high-impact action (sending, scheduling, publishing a Workflow, destructive deletion, unsubscribes) sits behind a two-call confirmation flow: the first call returns a five-digit code, and the agent must repeat the exact call with that code within five minutes.</p>
-<p>That is the approval-gate pattern this catalog has watched spread across email, social, and content tools — now applied to an entire marketing automation platform.</p>
+<p>Lumail ships the most complete email-marketing MCP surface yet documented in this catalog. The dual-endpoint design is the standout: the OAuth endpoint cannot send, publish, schedule, delete, archive, or unsubscribe - it is a curated read-and-draft surface safe for any client - while the API-token endpoint unlocks the full organization catalog for trusted runtimes. Every high-impact action (sending, scheduling, publishing a Workflow, destructive deletion, unsubscribes) sits behind a two-call confirmation flow: the first call returns a five-digit code, and the agent must repeat the exact call with that code within five minutes.</p>
+<p>That is the approval-gate pattern this catalog has watched spread across email, social, and content tools - now applied to an entire marketing automation platform.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10109,13 +10109,13 @@ Built by: lumail.io
 <li><strong>Agencies</strong> can scope a token per client organization and keep the human as the final approver</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Lumail is the marketing-execution complement to CorpusIQ's analytics layer: CorpusIQ reports campaign economics through GA4, Klaviyo, and Meta connectors, while Lumail runs the workflow engine itself. An operator could have CorpusIQ flag a cohort whose revenue dipped, then have a Lumail-connected agent draft the win-back Workflow — unpublished, rendered, and shown for review before a human confirms the activation code.</p>
+<p>Lumail is the marketing-execution complement to CorpusIQ's analytics layer: CorpusIQ reports campaign economics through GA4, Klaviyo, and Meta connectors, while Lumail runs the workflow engine itself. An operator could have CorpusIQ flag a cohort whose revenue dipped, then have a Lumail-connected agent draft the win-back Workflow - unpublished, rendered, and shown for review before a human confirms the activation code.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>OAuth endpoint is intentionally limited — full power requires managing an organization API token</li>
+<li>OAuth endpoint is intentionally limited - full power requires managing an organization API token</li>
 <li>Confirmation codes are single-use and expire in five minutes, which breaks long-running unattended agent loops by design</li>
 <li>Commercial service; Lumail platform pricing applies outside the MCP surface</li>
-<li>New listing — the docs are excellent but the MCP surface has no community track record yet</li>
+<li>New listing - the docs are excellent but the MCP surface has no community track record yet</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

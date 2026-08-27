@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Setup and usage guide for GTD Brain MCP — GTD Task Manager for AI Agents. Part of the Hermes resource directory.">
+        <meta name="description" content="Setup and usage guide for GTD Brain MCP - GTD Task Manager for AI Agents. Part of the Hermes resource directory.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>GTD Brain MCP — GTD Task Manager for AI Agents</title>
+    <title>GTD Brain MCP - GTD Task Manager for AI Agents</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/gtd-brain-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="GTD Brain MCP — GTD Task Manager for AI Agents">
-  <meta property="og:description" content="Setup and usage guide for GTD Brain MCP — GTD Task Manager for AI Agents. Part of the Hermes resource directory.">
+  <meta property="og:title" content="GTD Brain MCP - GTD Task Manager for AI Agents">
+  <meta property="og:description" content="Setup and usage guide for GTD Brain MCP - GTD Task Manager for AI Agents. Part of the Hermes resource directory.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="GTD Brain MCP — GTD Task Manager for AI Agents">
-  <meta name="twitter:description" content="Setup and usage guide for GTD Brain MCP — GTD Task Manager for AI Agents. Part of the Hermes resource directory.">
+  <meta name="twitter:title" content="GTD Brain MCP - GTD Task Manager for AI Agents">
+  <meta name="twitter:description" content="Setup and usage guide for GTD Brain MCP - GTD Task Manager for AI Agents. Part of the Hermes resource directory.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "GTD Brain MCP \u2014 GTD Task Manager for AI Agents",
-    "description": "Setup and usage guide for GTD Brain MCP \u2014 GTD Task Manager for AI Agents. Part of the Hermes resource directory.",
+    "name": "GTD Brain MCP - GTD Task Manager for AI Agents",
+    "description": "Setup and usage guide for GTD Brain MCP - GTD Task Manager for AI Agents. Part of the Hermes resource directory.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/gtd-brain-mcp",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              GTD Brain MCP — GTD Task Manager for AI Agents
+              GTD Brain MCP - GTD Task Manager for AI Agents
             
           </span>
         </div>
@@ -10038,14 +10038,14 @@
   
 
 
-<h1 id="gtd-brain-mcp-gtd-task-manager-for-ai-agents">GTD Brain MCP — GTD Task Manager for AI Agents<a class="headerlink" href="#gtd-brain-mcp-gtd-task-manager-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
+<h1 id="gtd-brain-mcp-gtd-task-manager-for-ai-agents">GTD Brain MCP - GTD Task Manager for AI Agents<a class="headerlink" href="#gtd-brain-mcp-gtd-task-manager-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Priority:</strong> HIGH | <strong>Category:</strong> Productivity / Operations<br />
 <strong>Transport:</strong> Remote Streamable HTTP | <strong>Auth:</strong> OAuth 2.1 PKCE<br />
 <strong>Website:</strong> https://gtdbrain.com<br />
 <strong>MCP Registry:</strong> <code>com.gtdbrain/gtd-brain</code><br />
 <strong>Discovered:</strong> July 27, 2026 (chatmcp/mcpso #3315)</p>
 <h2 id="what-it-does-for-operators">What It Does for Operators<a class="headerlink" href="#what-it-does-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>GTD Brain exposes a full Getting-Things-Done board to any MCP client. Capture, organize, and work through inbox items, next actions, projects, and waiting-for lists — all through natural language. This is the first dedicated GTD-methodology MCP server, filling a gap for operators who use GTD as their core operating system.</p>
+<p>GTD Brain exposes a full Getting-Things-Done board to any MCP client. Capture, organize, and work through inbox items, next actions, projects, and waiting-for lists - all through natural language. This is the first dedicated GTD-methodology MCP server, filling a gap for operators who use GTD as their core operating system.</p>
 <p><strong>Why this matters:</strong> Most task-management MCP servers are generic CRUD wrappers around Notion or Todoist. GTD Brain is purpose-built for the GTD workflow with context-appropriate tools (capture goes to inbox, next actions are distinct from projects, waiting-for has its own list).</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Remote endpoint, no local install</span>
@@ -10113,18 +10113,18 @@
 <ol>
 <li><strong>Daily review automation:</strong> Agent pulls <code>list_next_actions</code> + <code>list_waiting_for</code> each morning, surfaces the 3 highest-leverage items, and drafts follow-ups for overdue waiting-for items</li>
 <li><strong>Project status reporting:</strong> Agent pulls <code>list_projects</code>, reads project cards, and generates a weekly stakeholder update automatically</li>
-<li><strong>Inbox triage:</strong> Operator brain-dumps ideas to <code>capture</code> throughout the day — agent processes the inbox during weekly review, categorizing each item into next action, project, reference, or trash</li>
-<li><strong>Delegation tracking:</strong> When an operator delegates work, the agent logs it to <code>waiting_for</code> with a reminder date — follows up automatically if no response by deadline</li>
+<li><strong>Inbox triage:</strong> Operator brain-dumps ideas to <code>capture</code> throughout the day - agent processes the inbox during weekly review, categorizing each item into next action, project, reference, or trash</li>
+<li><strong>Delegation tracking:</strong> When an operator delegates work, the agent logs it to <code>waiting_for</code> with a reminder date - follows up automatically if no response by deadline</li>
 <li><strong>Meeting prep:</strong> Agent pulls relevant projects + next actions before a meeting, giving the operator a pre-built agenda</li>
 </ol>
 <h2 id="corpusiq-angle">CorpusIQ Angle<a class="headerlink" href="#corpusiq-angle" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Integratable.</strong> CorpusIQ could pull operational metrics (revenue, support tickets, deal pipeline) and create GTD tasks from them — e.g., "Follow up on deal #4321 → waiting-for" when a HubSpot deal stalls. The GTD Brain MCP provides the task-execution layer that CorpusIQ's data layer can feed.</p>
+<p><strong>Integratable.</strong> CorpusIQ could pull operational metrics (revenue, support tickets, deal pipeline) and create GTD tasks from them - e.g., "Follow up on deal #4321 → waiting-for" when a HubSpot deal stalls. The GTD Brain MCP provides the task-execution layer that CorpusIQ's data layer can feed.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Requires active GTD Brain subscription (free month on signup)</li>
 <li>Single-user focused (no team board support mentioned)</li>
 <li>OAuth flow requires initial browser login for token grant</li>
-<li>GTD-methodology specific — users on other systems (Kanban, Scrum) may find less value</li>
+<li>GTD-methodology specific - users on other systems (Kanban, Scrum) may find less value</li>
 </ul>
 
 

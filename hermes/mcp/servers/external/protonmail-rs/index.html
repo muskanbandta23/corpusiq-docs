@@ -23,7 +23,7 @@
     
     
   
-    <title>Protonmail-rs — Proton Mail MCP Server Integration Guide</title>
+    <title>Protonmail-rs - Proton Mail MCP Server Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/protonmail-rs">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Protonmail-rs — Proton Mail MCP Server Integration Guide">
+  <meta property="og:title" content="Protonmail-rs - Proton Mail MCP Server Integration Guide">
   <meta property="og:description" content="Connect AI agents to Proton Mail via MCP with end-to-end OpenPGP encryption. Pure-Rust library, CLI, and MCP server for secure email operations.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Protonmail-rs — Proton Mail MCP Server Integration Guide">
+  <meta name="twitter:title" content="Protonmail-rs - Proton Mail MCP Server Integration Guide">
   <meta name="twitter:description" content="Connect AI agents to Proton Mail via MCP with end-to-end OpenPGP encryption. Pure-Rust library, CLI, and MCP server for secure email operations.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Protonmail-rs \u2014 Proton Mail MCP Server Integration Guide",
+    "name": "Protonmail-rs - Proton Mail MCP Server Integration Guide",
     "description": "Connect AI agents to Proton Mail via MCP with end-to-end OpenPGP encryption. Pure-Rust library, CLI, and MCP server for secure email operations.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/protonmail-rs",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Protonmail-rs — Proton Mail MCP Server Integration Guide
+              Protonmail-rs - Proton Mail MCP Server Integration Guide
             
           </span>
         </div>
@@ -10060,8 +10060,8 @@
   
 
 
-<h1 id="protonmail-rs-proton-mail-mcp-server">Protonmail-rs — Proton Mail MCP Server<a class="headerlink" href="#protonmail-rs-proton-mail-mcp-server" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Unofficial, pure-Rust Proton Mail client</strong> — library, CLI, and MCP server with end-to-end OpenPGP encryption. Gives AI agents secure, encrypted email capabilities through Switzerland's privacy-first email provider.</p>
+<h1 id="protonmail-rs-proton-mail-mcp-server">Protonmail-rs - Proton Mail MCP Server<a class="headerlink" href="#protonmail-rs-proton-mail-mcp-server" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Unofficial, pure-Rust Proton Mail client</strong> - library, CLI, and MCP server with end-to-end OpenPGP encryption. Gives AI agents secure, encrypted email capabilities through Switzerland's privacy-first email provider.</p>
 <table>
 <thead>
 <tr>
@@ -10088,7 +10088,7 @@
 </tr>
 <tr>
 <td><strong>Stars</strong></td>
-<td>★1 (new — July 2026)</td>
+<td>★1 (new - July 2026)</td>
 </tr>
 <tr>
 <td><strong>License</strong></td>
@@ -10097,7 +10097,7 @@
 </tbody>
 </table>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Proton Mail is the leading encrypted email provider, used by 100M+ users worldwide — including journalists, legal firms, healthcare providers, and security-conscious businesses. This MCP server is the first to bring Proton Mail's end-to-end encryption to AI agent workflows:</p>
+<p>Proton Mail is the leading encrypted email provider, used by 100M+ users worldwide - including journalists, legal firms, healthcare providers, and security-conscious businesses. This MCP server is the first to bring Proton Mail's end-to-end encryption to AI agent workflows:</p>
 <ul>
 <li><strong>HIPAA/GDPR compliance</strong>: Encrypted email for regulated industries</li>
 <li><strong>Legal communications</strong>: Attorney-client privileged email through AI agents</li>
@@ -10107,7 +10107,7 @@
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Proton Mail account</strong> (free or paid)</li>
-<li><strong>Proton Mail Bridge</strong> (for IMAP/SMTP access — paid plans only)</li>
+<li><strong>Proton Mail Bridge</strong> (for IMAP/SMTP access - paid plans only)</li>
 <li><strong>Rust toolchain</strong> (for building from source)</li>
 <li><strong>OpenPGP keys</strong> managed through Proton's key infrastructure</li>
 </ul>
@@ -10178,7 +10178,7 @@ cargo<span class="w"> </span>build<span class="w"> </span>--release
 </ol>
 <h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>End-to-end encryption</strong>: Emails are encrypted client-side before transmission — the MCP server never sees plaintext</li>
+<li><strong>End-to-end encryption</strong>: Emails are encrypted client-side before transmission - the MCP server never sees plaintext</li>
 <li><strong>Zero-access architecture</strong>: Proton Mail cannot decrypt your emails</li>
 <li><strong>Session management</strong>: Use short-lived session tokens, not persistent credentials</li>
 <li><strong>Audit trail</strong>: All agent-initiated email operations are logged in Proton Mail's activity log</li>
@@ -10186,8 +10186,8 @@ cargo<span class="w"> </span>build<span class="w"> </span>--release
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Proton Mail Bridge required</strong> for IMAP/SMTP access (paid plans only, ~$4/month)</li>
-<li><strong>Unofficial client</strong> — not maintained by Proton AG</li>
-<li><strong>New project</strong> (July 2026) — expect API changes and limited tool coverage initially</li>
+<li><strong>Unofficial client</strong> - not maintained by Proton AG</li>
+<li><strong>New project</strong> (July 2026) - expect API changes and limited tool coverage initially</li>
 <li><strong>SRP authentication</strong> may require periodic re-authentication</li>
 </ul>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>

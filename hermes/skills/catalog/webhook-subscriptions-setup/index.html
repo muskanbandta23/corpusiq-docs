@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints — 80 installs.">
+        <meta name="description" content="Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints - 80 installs.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Webhook Subscriptions — Skill Setup Guide</title>
+    <title>Webhook Subscriptions - Skill Setup Guide</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/webhook-subscriptions-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Webhook Subscriptions — Skill Setup Guide">
-  <meta property="og:description" content="Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints — 80 installs.">
+  <meta property="og:title" content="Webhook Subscriptions - Skill Setup Guide">
+  <meta property="og:description" content="Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints - 80 installs.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Webhook Subscriptions — Skill Setup Guide">
-  <meta name="twitter:description" content="Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints — 80 installs.">
+  <meta name="twitter:title" content="Webhook Subscriptions - Skill Setup Guide">
+  <meta name="twitter:description" content="Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints - 80 installs.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,8 +107,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Webhook Subscriptions \u2014 Skill Setup Guide",
-    "description": "Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints \u2014 80 installs.",
+    "name": "Webhook Subscriptions - Skill Setup Guide",
+    "description": "Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints - 80 installs.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/webhook-subscriptions-setup",
     
     "datePublished": "2026-08-12",
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Webhook Subscriptions — Skill Setup Guide
+              Webhook Subscriptions - Skill Setup Guide
             
           </span>
         </div>
@@ -10194,12 +10194,12 @@
   
 
 
-<h1 id="webhook-subscriptions-setup-guide">Webhook Subscriptions — Setup Guide<a class="headerlink" href="#webhook-subscriptions-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="webhook-subscriptions-setup-guide">Webhook Subscriptions - Setup Guide<a class="headerlink" href="#webhook-subscriptions-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/webhook-subscriptions">nousresearch/hermes-agent</a> (80 installs)
 <strong>Category:</strong> Automation / Integration
 <strong>License:</strong> MIT · <strong>Platforms:</strong> Linux, macOS
 <strong>Dependencies:</strong> Hermes Agent, Hermes Gateway with webhook platform enabled</p>
-<p>Create dynamic webhook subscriptions so external services can trigger Hermes agent runs by POSTing events to a URL. GitHub pushes, Stripe payment events, CI/CD pipeline completions, IoT sensor alerts — any service that can send an HTTP POST becomes a trigger for Hermes to take action.</p>
+<p>Create dynamic webhook subscriptions so external services can trigger Hermes agent runs by POSTing events to a URL. GitHub pushes, Stripe payment events, CI/CD pipeline completions, IoT sensor alerts - any service that can send an HTTP POST becomes a trigger for Hermes to take action.</p>
 <hr />
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10216,7 +10216,7 @@
 </tr>
 <tr>
 <td><strong>HMAC signature verification</strong></td>
-<td>Prevents spoofed requests — only trusted sources trigger</td>
+<td>Prevents spoofed requests - only trusted sources trigger</td>
 </tr>
 <tr>
 <td><strong>Payload-to-context injection</strong></td>
@@ -10287,7 +10287,7 @@ ngrok<span class="w"> </span>http<span class="w"> </span><span class="m">8742</s
 <h3 id="creating-subscriptions">Creating subscriptions<a class="headerlink" href="#creating-subscriptions" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>&gt; Subscribe to GitHub push events for corpusiq/api
 &gt; Create a Stripe webhook for payment_intent.succeeded events
-&gt; Watch my CI pipeline — trigger on build complete
+&gt; Watch my CI pipeline - trigger on build complete
 </code></pre></div>
 <h3 id="listing-and-managing">Listing and managing<a class="headerlink" href="#listing-and-managing" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>&gt; List my webhook subscriptions
@@ -10345,7 +10345,7 @@ ngrok<span class="w"> </span>http<span class="w"> </span><span class="m">8742</s
 <hr />
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>One subscription per event source:</strong> Don't multiplex — create separate subscriptions for GitHub, Stripe, CI</li>
+<li><strong>One subscription per event source:</strong> Don't multiplex - create separate subscriptions for GitHub, Stripe, CI</li>
 <li><strong>Profile routing:</strong> Route production events to your ops profile, dev events to your dev profile</li>
 <li><strong>Test with sample payloads:</strong> Use the test command before wiring up live services</li>
 <li><strong>Monitor in gateway logs:</strong> <code>hermes gateway logs</code> shows incoming webhook activity</li>

@@ -27,7 +27,7 @@
     
     
   
-    <title>AI Agent Memory Systems — August 2026 Landscape</title>
+    <title>AI Agent Memory Systems - August 2026 Landscape</title>
   
 
     
@@ -75,13 +75,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="AI Agent Memory Systems — August 2026 Landscape">
+  <meta property="og:title" content="AI Agent Memory Systems - August 2026 Landscape">
   <meta property="og:description" content="Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AI Agent Memory Systems — August 2026 Landscape">
+  <meta name="twitter:title" content="AI Agent Memory Systems - August 2026 Landscape">
   <meta name="twitter:description" content="Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -111,7 +111,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "AI Agent Memory Systems \u2014 August 2026 Landscape",
+    "name": "AI Agent Memory Systems - August 2026 Landscape",
     "description": "Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns.",
     "url": "https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026",
     
@@ -205,7 +205,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AI Agent Memory Systems — August 2026 Landscape
+              AI Agent Memory Systems - August 2026 Landscape
             
           </span>
         </div>
@@ -10200,20 +10200,20 @@
   
 
 
-<h1 id="ai-agent-memory-systems-august-2026-landscape">AI Agent Memory Systems — August 2026 Landscape<a class="headerlink" href="#ai-agent-memory-systems-august-2026-landscape" title="Anchor link to this section">&para;</a></h1>
+<h1 id="ai-agent-memory-systems-august-2026-landscape">AI Agent Memory Systems - August 2026 Landscape<a class="headerlink" href="#ai-agent-memory-systems-august-2026-landscape" title="Anchor link to this section">&para;</a></h1>
 <h2 id="tencent-db-agent-memory">Tencent DB Agent Memory<a class="headerlink" href="#tencent-db-agent-memory" title="Anchor link to this section">&para;</a></h2>
 <p>Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns.</p>
 <p>Claims from the open-source release:
 - 50 percent improvement in AI agent performance
 - 61 percent reduction in operational costs
-- Local execution — no cloud dependency
+- Local execution - no cloud dependency
 - Human-like recall architecture (recency, frequency, semantic similarity)</p>
 <p>The system stores agent interactions locally and uses vector-based retrieval to surface relevant past context. Unlike cloud-dependent solutions, it runs entirely on the host machine.</p>
 <h2 id="how-it-compares-to-existing-memory-systems">How It Compares to Existing Memory Systems<a class="headerlink" href="#how-it-compares-to-existing-memory-systems" title="Anchor link to this section">&para;</a></h2>
 <h3 id="sibyl-memory-corpusiq-stack">Sibyl-Memory (CorpusIQ stack)<a class="headerlink" href="#sibyl-memory-corpusiq-stack" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>SQLite-backed FTS5 search with four tiers (warm entities, hot state, cold journal, reference docs)</li>
-<li>95.6 percent LongMemEval score — ranked second globally</li>
+<li>95.6 percent LongMemEval score - ranked second globally</li>
 <li>Survives restarts, crashes, and model switches</li>
 <li>CorpusIQ integration: canonical facts, metric specs, source-of-truth registry</li>
 </ul>
@@ -10238,10 +10238,10 @@
 <h2 id="what-tencent-db-changes">What Tencent DB Changes<a class="headerlink" href="#what-tencent-db-changes" title="Anchor link to this section">&para;</a></h2>
 <p>Tencent entering the local memory space validates the approach CorpusIQ has been using since June 2026. The architecture patterns are converging:</p>
 <ol>
-<li>Local-first storage — no customer data leaves the machine</li>
-<li>Vector + keyword hybrid retrieval — FTS5 plus embeddings</li>
-<li>Tiered recall — working memory, recent context, long-term archive</li>
-<li>Cross-session persistence — memory survives restarts</li>
+<li>Local-first storage - no customer data leaves the machine</li>
+<li>Vector + keyword hybrid retrieval - FTS5 plus embeddings</li>
+<li>Tiered recall - working memory, recent context, long-term archive</li>
+<li>Cross-session persistence - memory survives restarts</li>
 </ol>
 <p>The 50 percent performance improvement claim aligns with what we have observed: structured memory reduces token waste by eliminating repeated context recovery. The 61 percent cost reduction comes from smaller context windows needing fewer tokens per turn.</p>
 <h2 id="competitive-positioning">Competitive Positioning<a class="headerlink" href="#competitive-positioning" title="Anchor link to this section">&para;</a></h2>

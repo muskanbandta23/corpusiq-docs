@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs — intent-aware scoring before anything reaches the model">
+        <meta name="description" content="Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs - intent-aware scoring before anything reaches the model">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/glc-promptguard-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="glc PromptGuard MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs — intent-aware scoring before anything reaches the model">
+  <meta property="og:description" content="Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs - intent-aware scoring before anything reaches the model">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="glc PromptGuard MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs — intent-aware scoring before anything reaches the model">
+  <meta name="twitter:description" content="Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs - intent-aware scoring before anything reaches the model">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "glc PromptGuard MCP - CorpusIQ Docs",
-    "description": "Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs \u2014 intent-aware scoring before anything reaches the model",
+    "description": "Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs - intent-aware scoring before anything reaches the model",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/glc-promptguard-mcp",
     
     "author": {
@@ -10047,9 +10047,9 @@
 
 
 <h1 id="glc-promptguard-mcp">glc PromptGuard MCP<a class="headerlink" href="#glc-promptguard-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, bearer token) — an eight-layer, source-aware security gate that checks user prompts, RAG chunks, and tool outputs before they reach the main model or agent tool loop.</strong> PromptGuard evaluates intent × source context × impact rather than keyword matching, and returns a typed verdict: <code>injection: true|false</code> plus score, intent, policy, and an optional spotlight explaining what triggered the flag.</p>
+<p><strong>Remote MCP server (Streamable HTTP, bearer token) - an eight-layer, source-aware security gate that checks user prompts, RAG chunks, and tool outputs before they reach the main model or agent tool loop.</strong> PromptGuard evaluates intent × source context × impact rather than keyword matching, and returns a typed verdict: <code>injection: true|false</code> plus score, intent, policy, and an optional spotlight explaining what triggered the flag.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: Bearer token — agents self-register for an auto-approved token
+Auth: Bearer token - agents self-register for an auto-approved token
 Endpoint: https://mcp.glc-rag.hu/mcp
 Tools: 2 (promptguard_check, canary probe)
 Pricing: Credit-based per check
@@ -10057,8 +10057,8 @@ Category: Security / LLM Guardrails
 Built by: glc-rag.hu (service version 0.3.26)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>The injection risk in agent stacks is not hypothetical — it is the number one failure mode operators cite when agents touch production data. PromptGuard's design answers the part most tools miss: context matters. The same text is treated differently depending on where it came from — <code>user_prompt</code>, <code>rag_chunk</code>, or <code>tool_result</code> each switches the policy, because a snippet pulled from a document you are grounding on is a different threat than a prompt typed by an external user.</p>
-<p><strong>The placement rule is the architecture.</strong> The maintainer is explicit: the host must call <code>promptguard_check</code> before every main LLM call — never via the model's own tool-choice. That keeps the guard outside the model's reach, which is what makes it a guard instead of a suggestion. A secondary canary probe tests whether tools are being hijacked.</p>
+<p>The injection risk in agent stacks is not hypothetical - it is the number one failure mode operators cite when agents touch production data. PromptGuard's design answers the part most tools miss: context matters. The same text is treated differently depending on where it came from - <code>user_prompt</code>, <code>rag_chunk</code>, or <code>tool_result</code> each switches the policy, because a snippet pulled from a document you are grounding on is a different threat than a prompt typed by an external user.</p>
+<p><strong>The placement rule is the architecture.</strong> The maintainer is explicit: the host must call <code>promptguard_check</code> before every main LLM call - never via the model's own tool-choice. That keeps the guard outside the model's reach, which is what makes it a guard instead of a suggestion. A secondary canary probe tests whether tools are being hijacked.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10074,7 +10074,7 @@ Built by: glc-rag.hu (service version 0.3.26)
 </tr>
 <tr>
 <td><code>canary</code></td>
-<td>Secondary tool-hijack probe — verifies tools are not being redirected or abused</td>
+<td>Secondary tool-hijack probe - verifies tools are not being redirected or abused</td>
 </tr>
 </tbody>
 </table>
@@ -10098,7 +10098,7 @@ Built by: glc-rag.hu (service version 0.3.26)
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Operators running agents on customer-submitted text</strong> gate every inbound prompt before it reaches the model</li>
-<li><strong>RAG pipeline owners</strong> check chunks at retrieval time — the <code>rag_chunk</code> context catches poisoned documents before they ground an answer</li>
+<li><strong>RAG pipeline owners</strong> check chunks at retrieval time - the <code>rag_chunk</code> context catches poisoned documents before they ground an answer</li>
 <li><strong>Teams wiring tools into production agents</strong> verify tool outputs on the way back in, closing the indirect-injection path</li>
 <li><strong>Security leads</strong> get typed verdicts with intent and policy fields, not a probability score to interpret</li>
 </ul>
@@ -10107,11 +10107,11 @@ Built by: glc-rag.hu (service version 0.3.26)
 <p>For agent builders offering CorpusIQ-powered assistants to their own users, the pair is the standard sandwich: scoped data access underneath, injection gate on top.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>New service (v0.3.26) — young, single-vendor, small footprint</li>
+<li>New service (v0.3.26) - young, single-vendor, small footprint</li>
 <li>Credit-based pricing; checks cost credits even on degraded structural paths</li>
-<li>Host-side integration required — the guard only works if your orchestrator calls it before every LLM call</li>
-<li>The maintainer is explicit it is "not 100% security" — host must still gate tools</li>
-<li>Hungarian-hosted service (glc-rag.hu) — review data-residency fit for regulated workloads</li>
+<li>Host-side integration required - the guard only works if your orchestrator calls it before every LLM call</li>
+<li>The maintainer is explicit it is "not 100% security" - host must still gate tools</li>
+<li>Hungarian-hosted service (glc-rag.hu) - review data-residency fit for regulated workloads</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

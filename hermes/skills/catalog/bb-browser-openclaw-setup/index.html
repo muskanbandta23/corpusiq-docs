@@ -23,7 +23,7 @@
     
     
   
-    <title>bb-browser-openclaw — Setup Guide</title>
+    <title>bb-browser-openclaw - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="bb-browser-openclaw — Setup Guide">
+  <meta property="og:title" content="bb-browser-openclaw - Setup Guide">
   <meta property="og:description" content="Full setup guide for bb-browser-openclaw: integrate Blackbox Browser (5,931⭐) with OpenClaw/Hermes agents for Chrome automation with real login state.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="bb-browser-openclaw — Setup Guide">
+  <meta name="twitter:title" content="bb-browser-openclaw - Setup Guide">
   <meta name="twitter:description" content="Full setup guide for bb-browser-openclaw: integrate Blackbox Browser (5,931⭐) with OpenClaw/Hermes agents for Chrome automation with real login state.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "bb-browser-openclaw \u2014 Setup Guide",
+    "name": "bb-browser-openclaw - Setup Guide",
     "description": "Full setup guide for bb-browser-openclaw: integrate Blackbox Browser (5,931\u2b50) with OpenClaw/Hermes agents for Chrome automation with real login state.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              bb-browser-openclaw — Setup Guide
+              bb-browser-openclaw - Setup Guide
             
           </span>
         </div>
@@ -10127,9 +10127,9 @@
   
 
 
-<h1 id="bb-browser-openclaw-setup-guide">bb-browser-openclaw — Setup Guide<a class="headerlink" href="#bb-browser-openclaw-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Skill:</strong> <code>bb-browser-openclaw</code> | <strong>Installs:</strong> 584 | <strong>Source:</strong> <a href="https://github.com/epiral/bb-browser">epiral/bb-browser</a> — 5,931⭐</p>
-<p>OpenClaw wrapper for <strong>Blackbox Browser</strong> — one of the most popular AI-browser tools. Lets Hermes/OpenClaw agents control Chrome with your existing cookies, sessions, and login state. No headless-mode restrictions.</p>
+<h1 id="bb-browser-openclaw-setup-guide">bb-browser-openclaw - Setup Guide<a class="headerlink" href="#bb-browser-openclaw-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Skill:</strong> <code>bb-browser-openclaw</code> | <strong>Installs:</strong> 584 | <strong>Source:</strong> <a href="https://github.com/epiral/bb-browser">epiral/bb-browser</a> - 5,931⭐</p>
+<p>OpenClaw wrapper for <strong>Blackbox Browser</strong> - one of the most popular AI-browser tools. Lets Hermes/OpenClaw agents control Chrome with your existing cookies, sessions, and login state. No headless-mode restrictions.</p>
 <hr />
 <h2 id="1-prerequisites">1. Prerequisites<a class="headerlink" href="#1-prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -10209,16 +10209,16 @@ npx<span class="w"> </span>bb-browser<span class="w"> </span>serve<span class="w
 <hr />
 <h2 id="4-key-capabilities">4. Key Capabilities<a class="headerlink" href="#4-key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="41-real-login-state">4.1. Real Login State<a class="headerlink" href="#41-real-login-state" title="Anchor link to this section">&para;</a></h3>
-<p>Unlike Playwright/Puppeteer, Blackbox Browser uses your <strong>actual Chrome profile</strong> — all cookies, sessions, and login states are preserved. Agents can:</p>
+<p>Unlike Playwright/Puppeteer, Blackbox Browser uses your <strong>actual Chrome profile</strong> - all cookies, sessions, and login states are preserved. Agents can:</p>
 <ul>
 <li>Access authenticated dashboards without re-authentication</li>
 <li>Interact with sites that block headless browsers</li>
 <li>Use saved passwords from your Chrome profile</li>
 </ul>
 <h3 id="42-mcp-native-architecture">4.2. MCP-Native Architecture<a class="headerlink" href="#42-mcp-native-architecture" title="Anchor link to this section">&para;</a></h3>
-<p>The skill wraps the MCP server, so Hermes/OpenClaw agents discover browser tools automatically — no custom tool registration needed.</p>
+<p>The skill wraps the MCP server, so Hermes/OpenClaw agents discover browser tools automatically - no custom tool registration needed.</p>
 <h3 id="43-text-first-snapshots">4.3. Text-First Snapshots<a class="headerlink" href="#43-text-first-snapshots" title="Anchor link to this section">&para;</a></h3>
-<p><code>browser_snapshot</code> returns structured accessibility-tree text (not raw HTML), optimized for LLM context windows. This is how the 5,931-star project achieved efficiency — agents get what they need without raw DOM bloat.</p>
+<p><code>browser_snapshot</code> returns structured accessibility-tree text (not raw HTML), optimized for LLM context windows. This is how the 5,931-star project achieved efficiency - agents get what they need without raw DOM bloat.</p>
 <hr />
 <h2 id="5-corpusiq-use-cases">5. CorpusIQ Use Cases<a class="headerlink" href="#5-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10230,19 +10230,19 @@ npx<span class="w"> </span>bb-browser<span class="w"> </span>serve<span class="w
 </thead>
 <tbody>
 <tr>
-<td><strong>Social media monitoring</strong> — Agent checks X/Reddit dashboards with login state</td>
+<td><strong>Social media monitoring</strong> - Agent checks X/Reddit dashboards with login state</td>
 <td><code>browser_navigate</code> + <code>browser_snapshot</code></td>
 </tr>
 <tr>
-<td><strong>E-commerce competitor analysis</strong> — Agent browses Shopify/Amazon seller dashboards</td>
+<td><strong>E-commerce competitor analysis</strong> - Agent browses Shopify/Amazon seller dashboards</td>
 <td><code>browser_navigate</code> + <code>browser_evaluate</code></td>
 </tr>
 <tr>
-<td><strong>SaaS dashboard health checks</strong> — Agent verifies Stripe/HubSpot dashboards load correctly</td>
+<td><strong>SaaS dashboard health checks</strong> - Agent verifies Stripe/HubSpot dashboards load correctly</td>
 <td><code>browser_navigate</code> + <code>browser_screenshot</code></td>
 </tr>
 <tr>
-<td><strong>Form autofill automation</strong> — Agent fills GA4/Google Ads setup forms</td>
+<td><strong>Form autofill automation</strong> - Agent fills GA4/Google Ads setup forms</td>
 <td><code>browser_type</code> + <code>browser_click</code></td>
 </tr>
 </tbody>
@@ -10267,7 +10267,7 @@ npx<span class="w"> </span>bb-browser<span class="w"> </span>serve<span class="w
 </tr>
 <tr>
 <td><strong>Site blocks automation</strong></td>
-<td>Blackbox uses real Chrome — most anti-bot measures don't trigger. If blocked, try: <code>npx bb-browser serve --stealth</code></td>
+<td>Blackbox uses real Chrome - most anti-bot measures don't trigger. If blocked, try: <code>npx bb-browser serve --stealth</code></td>
 </tr>
 <tr>
 <td><strong>Skills install fails</strong></td>
@@ -10320,7 +10320,7 @@ npx<span class="w"> </span>bb-browser<span class="w"> </span>serve<span class="w
 <hr />
 <p><em>← <a href="/hermes/skills/catalog">Skills Catalog</a> | <a href="/hermes/skills/marketplace">Marketplace</a> →</em></p>
 <hr />
-<p><em>Part of the <a href="/hermes/skills">Hermes Skills Library</a> — curated by CorpusIQ. Setup guide for <code>bb-browser-openclaw</code> from <a href="https://github.com/epiral/bb-browser">epiral/bb-browser</a>. Content remains attributed to original authors.</em></p>
+<p><em>Part of the <a href="/hermes/skills">Hermes Skills Library</a> - curated by CorpusIQ. Setup guide for <code>bb-browser-openclaw</code> from <a href="https://github.com/epiral/bb-browser">epiral/bb-browser</a>. Content remains attributed to original authors.</em></p>
 
 
 

@@ -10047,19 +10047,19 @@
 
 
 <h1 id="api-direct-mcp">API Direct MCP<a class="headerlink" href="#api-direct-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, API key)</strong> — one endpoint for searching and reading public data across 13 platforms: LinkedIn, X/Twitter, Facebook, Reddit, YouTube, Instagram, Threads, TikTok, Truth Social, forums, news, web search, and Google Maps. Built by Josh Waller (apidirect.io). 68 tools plus 60+ ready-made skill playbooks that chain them into concrete outcomes — competitor conquest, just-funded outreach windows, layoff-wave recruiting, due-diligence dossiers. Pay-as-you-go per request, no subscription.</p>
+<p><strong>Remote MCP server (Streamable HTTP, API key)</strong> - one endpoint for searching and reading public data across 13 platforms: LinkedIn, X/Twitter, Facebook, Reddit, YouTube, Instagram, Threads, TikTok, Truth Social, forums, news, web search, and Google Maps. Built by Josh Waller (apidirect.io). 68 tools plus 60+ ready-made skill playbooks that chain them into concrete outcomes - competitor conquest, just-funded outreach windows, layoff-wave recruiting, due-diligence dossiers. Pay-as-you-go per request, no subscription.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: API key (also accepted as X-API-Key or Authorization header)
 Endpoint: https://apidirect.io/mcp?token=YOUR_API_KEY
 Tools: 68 (platform search, profile/post detail, skills layer, batch)
-Pricing: Pay-as-you-go per request (typically $0.005–$0.006 per page on read endpoints); no subscription
+Pricing: Pay-as-you-go per request (typically $0.005-$0.006 per page on read endpoints); no subscription
 Category: Data &amp; Analytics (filed under Marketing)
 Built by: API Direct (apidirect.io)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Public social and local-business data has always been valuable and always been painful to collect. Thirteen different platforms, thirteen different auth walls, rate limits, and scrapers that break whenever a site changes markup. The result is that lead-gen, competitive monitoring, and reputation work gets done manually, occasionally, or by tools that only cover one platform.</p>
-<p><strong>API Direct collapses all thirteen into one API key and one MCP endpoint.</strong> The agent asks for LinkedIn posts by founders at Series-A companies, X replies to a competitor's launch tweet, Google Maps reviews of a local acquisition target, or news coverage of a crisis — and gets back structured JSON with engagement metrics, sentiment options, and citations, all billed per request.</p>
-<p>The differentiator is the skills layer. <code>list_skills</code> returns 60+ playbooks — expert recipes with the non-obvious filters already encoded (author title, company mentions, AI sentiment, freshness windows). <code>get_skill</code> returns a step-by-step recipe with the caller's inputs filled in. The agent stops improvising raw searches and starts running "competitor conquest," "churn intent," or "outage early warning" as a single outcome-shaped call.</p>
+<p><strong>API Direct collapses all thirteen into one API key and one MCP endpoint.</strong> The agent asks for LinkedIn posts by founders at Series-A companies, X replies to a competitor's launch tweet, Google Maps reviews of a local acquisition target, or news coverage of a crisis - and gets back structured JSON with engagement metrics, sentiment options, and citations, all billed per request.</p>
+<p>The differentiator is the skills layer. <code>list_skills</code> returns 60+ playbooks - expert recipes with the non-obvious filters already encoded (author title, company mentions, AI sentiment, freshness windows). <code>get_skill</code> returns a step-by-step recipe with the caller's inputs filled in. The agent stops improvising raw searches and starts running "competitor conquest," "churn intent," or "outage early warning" as a single outcome-shaped call.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10087,7 +10087,7 @@ Built by: API Direct (apidirect.io)
 </tr>
 <tr>
 <td><code>search_linkedin_jobs</code> / <code>linkedin_job_details</code></td>
-<td>Job listings with salary, location, industry, and experience level — usable as hiring/expansion/funding signals</td>
+<td>Job listings with salary, location, industry, and experience level - usable as hiring/expansion/funding signals</td>
 </tr>
 <tr>
 <td><code>search_twitter</code> / <code>search_twitter_users</code></td>
@@ -10147,7 +10147,7 @@ Built by: API Direct (apidirect.io)
 </tr>
 <tr>
 <td><code>batch_requests</code></td>
-<td>Up to 100 API Direct requests in one concurrent call — free to invoke, each item billed at its endpoint's rate</td>
+<td>Up to 100 API Direct requests in one concurrent call - free to invoke, each item billed at its endpoint's rate</td>
 </tr>
 </tbody>
 </table>
@@ -10165,7 +10165,7 @@ Built by: API Direct (apidirect.io)
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>The key can alternatively be sent as an <code>X-API-Key</code> or <code>Authorization</code> header. Pay-as-you-go credit meter — no subscription required.</p>
+<p>The key can alternatively be sent as an <code>X-API-Key</code> or <code>Authorization</code> header. Pay-as-you-go credit meter - no subscription required.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Founders and sales leads</strong> get competitor-conquest lists, just-funded outreach windows, and local buying-intent capture without paying for a seat in a social-listening suite</li>
@@ -10175,15 +10175,15 @@ Built by: API Direct (apidirect.io)
 <li><strong>Local-service operators</strong> pull Google Maps ratings, reviews, and owner contact data for acquisition lists and reputation audits</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>API Direct feeds the top of the funnel; CorpusIQ closes and measures it. A composed workflow: <code>get_skill</code> (local-buying-intent-capture) surfaces prospects talking about a pain point, <code>search_linkedin</code> and <code>search_twitter</code> resolve who they are and who they work for, then CorpusIQ's HubSpot connector records them as contacts with the social context attached, Klaviyo runs the nurture sequence, and GA4 + Stripe measure whether the social-sourced cohort actually converts. Every lead keeps its provenance — which post, which platform, which playbook — so attribution survives from first signal to first invoice.</p>
+<p>API Direct feeds the top of the funnel; CorpusIQ closes and measures it. A composed workflow: <code>get_skill</code> (local-buying-intent-capture) surfaces prospects talking about a pain point, <code>search_linkedin</code> and <code>search_twitter</code> resolve who they are and who they work for, then CorpusIQ's HubSpot connector records them as contacts with the social context attached, Klaviyo runs the nurture sequence, and GA4 + Stripe measure whether the social-sourced cohort actually converts. Every lead keeps its provenance - which post, which platform, which playbook - so attribution survives from first signal to first invoice.</p>
 <p>For competitive intelligence, API Direct's market-map and pricing-objection playbooks complement CorpusIQ's Ahrefs and Semrush connectors: the SEO connectors show what a competitor ranks for, API Direct shows what their customers complain about in public.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing (Aug 2026) — no long track record yet</li>
+<li>Brand new listing (Aug 2026) - no long track record yet</li>
 <li>Pay-as-you-go pricing means unbounded agents can burn credits; set spend caps before wiring it into autonomous workflows</li>
-<li>Data is public-only — no authenticated/private feeds, no DMs, no posting (read-only by design)</li>
+<li>Data is public-only - no authenticated/private feeds, no DMs, no posting (read-only by design)</li>
 <li>Platform availability can shift as underlying sites change; individual endpoint coverage varies</li>
-<li>Live tool list is served from the endpoint — the 68-tool count and table above come from the published listing, verify after connecting</li>
+<li>Live tool list is served from the endpoint - the 68-tool count and table above come from the published listing, verify after connecting</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

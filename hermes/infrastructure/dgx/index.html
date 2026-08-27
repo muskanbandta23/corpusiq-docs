@@ -23,7 +23,7 @@
     
     
   
-    <title>NVIDIA DGX Spark — Primary Compute Pattern</title>
+    <title>NVIDIA DGX Spark - Primary Compute Pattern</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/infrastructure/dgx">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="NVIDIA DGX Spark — Primary Compute Pattern">
+  <meta property="og:title" content="NVIDIA DGX Spark - Primary Compute Pattern">
   <meta property="og:description" content="Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NVIDIA DGX Spark — Primary Compute Pattern">
+  <meta name="twitter:title" content="NVIDIA DGX Spark - Primary Compute Pattern">
   <meta name="twitter:description" content="Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "NVIDIA DGX Spark \u2014 Primary Compute Pattern",
+    "name": "NVIDIA DGX Spark - Primary Compute Pattern",
     "description": "Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations.",
     "url": "https://www.corpusiq.io/docs/hermes/infrastructure/dgx",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              NVIDIA DGX Spark — Primary Compute Pattern
+              NVIDIA DGX Spark - Primary Compute Pattern
             
           </span>
         </div>
@@ -10055,7 +10055,7 @@
   
 
 
-<h1 id="nvidia-dgx-spark-primary-compute-pattern">NVIDIA DGX Spark — Primary Compute Pattern<a class="headerlink" href="#nvidia-dgx-spark-primary-compute-pattern" title="Anchor link to this section">&para;</a></h1>
+<h1 id="nvidia-dgx-spark-primary-compute-pattern">NVIDIA DGX Spark - Primary Compute Pattern<a class="headerlink" href="#nvidia-dgx-spark-primary-compute-pattern" title="Anchor link to this section">&para;</a></h1>
 <p>The DGX Spark is a compact GPU workstation well suited as the primary inference and orchestration node for an agent platform. It handles model inference, cron scheduling, memory management, and the majority of operational workloads.</p>
 <h2 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Anchor link to this section">&para;</a></h2>
 <p>NVIDIA GPU with CUDA support. Local inference eliminates API latency and cost for lightweight tasks. The machine runs 24/7 with automatic recovery for any agent process failures.</p>
@@ -10100,7 +10100,7 @@
 <h3 id="model-routing">Model Routing<a class="headerlink" href="#model-routing" title="Anchor link to this section">&para;</a></h3>
 <p>Local Ollama models handle routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks.</p>
 <h3 id="cron-scheduling">Cron Scheduling<a class="headerlink" href="#cron-scheduling" title="Anchor link to this section">&para;</a></h3>
-<p>All recurring jobs run from the primary node. Each cron references standalone wrapper scripts — never inline shell with complex quoting.</p>
+<p>All recurring jobs run from the primary node. Each cron references standalone wrapper scripts - never inline shell with complex quoting.</p>
 <h3 id="memory-management">Memory Management<a class="headerlink" href="#memory-management" title="Anchor link to this section">&para;</a></h3>
 <p>Session state and knowledge stores live on local disk. Regular pruning keeps databases lean.</p>
 <h3 id="multi-profile-isolation">Multi-Profile Isolation<a class="headerlink" href="#multi-profile-isolation" title="Anchor link to this section">&para;</a></h3>

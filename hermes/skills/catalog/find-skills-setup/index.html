@@ -23,7 +23,7 @@
     
     
   
-    <title>find-skills — Skill Discovery Tool for Hermes Agents</title>
+    <title>find-skills - Skill Discovery Tool for Hermes Agents</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/find-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="find-skills — Skill Discovery Tool for Hermes Agents">
+  <meta property="og:title" content="find-skills - Skill Discovery Tool for Hermes Agents">
   <meta property="og:description" content="Install and use vercel-labs/skills@find-skills (2.5M installs) to search across skills.sh, agentskills.io, npm, and GitHub for Hermes-compatible agent">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="find-skills — Skill Discovery Tool for Hermes Agents">
+  <meta name="twitter:title" content="find-skills - Skill Discovery Tool for Hermes Agents">
   <meta name="twitter:description" content="Install and use vercel-labs/skills@find-skills (2.5M installs) to search across skills.sh, agentskills.io, npm, and GitHub for Hermes-compatible agent">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "find-skills \u2014 Skill Discovery Tool for Hermes Agents",
+    "name": "find-skills - Skill Discovery Tool for Hermes Agents",
     "description": "Install and use vercel-labs/skills@find-skills (2.5M installs) to search across skills.sh, agentskills.io, npm, and GitHub for Hermes-compatible agent",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/find-skills-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              find-skills — Skill Discovery Tool for Hermes Agents
+              find-skills - Skill Discovery Tool for Hermes Agents
             
           </span>
         </div>
@@ -10083,11 +10083,11 @@
   
 
 
-<h1 id="find-skills-setup-guide">find-skills — Setup Guide<a class="headerlink" href="#find-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="find-skills-setup-guide">find-skills - Setup Guide<a class="headerlink" href="#find-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/vercel-labs/skills">vercel-labs/skills</a> (2.5M installs)
 <strong>Category:</strong> Skill Discovery
 <strong>Languages:</strong> JavaScript</p>
-<p>The official skill discovery tool from Vercel Labs. Searches across all major agent skill marketplaces — skills.sh, agentskills.io, npm, and GitHub — in a single query. Returns installable skill references with metadata: source repo, install count, category, and Hermes compatibility. At 2.5M installs, this is the most-used skill in the entire ecosystem.</p>
+<p>The official skill discovery tool from Vercel Labs. Searches across all major agent skill marketplaces - skills.sh, agentskills.io, npm, and GitHub - in a single query. Returns installable skill references with metadata: source repo, install count, category, and Hermes compatibility. At 2.5M installs, this is the most-used skill in the entire ecosystem.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>vercel-labs/skills@find-skills
@@ -10107,7 +10107,7 @@
 <tbody>
 <tr>
 <td><strong>Hermes Agent</strong></td>
-<td>Any version — CLI tool, no integration required</td>
+<td>Any version - CLI tool, no integration required</td>
 </tr>
 <tr>
 <td><strong>npx skills</strong></td>
@@ -10119,7 +10119,7 @@
 </tr>
 <tr>
 <td><strong>GitHub Token</strong></td>
-<td>Optional — enables private repo search and higher rate limits</td>
+<td>Optional - enables private repo search and higher rate limits</td>
 </tr>
 </tbody>
 </table>
@@ -10199,7 +10199,7 @@ find-skills<span class="w"> </span><span class="s2">&quot;video production&quot;
 <h2 id="hermescorpusiq-relevance">Hermes/CorpusIQ Relevance<a class="headerlink" href="#hermescorpusiq-relevance" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Skill Catalog Maintenance:</strong> Automates the daily "check skills.sh for new skills" workflow. Instead of running 30+ manual <code>npx skills search &lt;term&gt;</code> queries, one <code>find-skills</code> call surfaces new additions across all marketplaces.</p>
 <p><strong>Agent Self-Discovery:</strong> Hermes agents can discover and install skills autonomously. A growth agent needing SEO capabilities can <code>find-skills "seo audit" --compatible hermes</code> and install the top result without human intervention.</p>
-<p><strong>Quality Filtering:</strong> The <code>--min-installs</code> and <code>--compatible</code> flags prevent installation of unverified or incompatible skills — critical for autonomous agent operation.</p>
+<p><strong>Quality Filtering:</strong> The <code>--min-installs</code> and <code>--compatible</code> flags prevent installation of unverified or incompatible skills - critical for autonomous agent operation.</p>
 <p><strong>Integration with skill-creator:</strong> After creating a skill with <code>anthropics/skills@skill-creator</code>, use <code>find-skills</code> to verify it appears correctly in marketplaces and check install counts.</p>
 <hr />
 <h2 id="example-daily-skill-discovery-automation">Example: Daily Skill Discovery Automation<a class="headerlink" href="#example-daily-skill-discovery-automation" title="Anchor link to this section">&para;</a></h2>
@@ -10213,7 +10213,7 @@ find-skills<span class="w"> </span><span class="s2">&quot;video production&quot;
 <span class="k">for</span><span class="w"> </span>category<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;browser&quot;</span><span class="w"> </span><span class="s2">&quot;marketing&quot;</span><span class="w"> </span><span class="s2">&quot;mcp&quot;</span><span class="w"> </span><span class="s2">&quot;memory&quot;</span><span class="w"> </span><span class="s2">&quot;monitoring&quot;</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="w"> </span><span class="s2">&quot;growth&quot;</span><span class="w"> </span><span class="s2">&quot;security&quot;</span><span class="w"> </span><span class="s2">&quot;email&quot;</span><span class="w"> </span><span class="s2">&quot;social&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
 <span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;=== </span><span class="nv">$category</span><span class="s2"> ===&quot;</span>
 <span class="w">    </span>find-skills<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$category</span><span class="s2">&quot;</span><span class="w"> </span>--compatible<span class="w"> </span>hermes<span class="w"> </span>--min-installs<span class="w"> </span><span class="m">500</span><span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="se">\</span>
-<span class="w">        </span>jq<span class="w"> </span>-r<span class="w"> </span><span class="s1">&#39;.results[] | &quot;\(.name) — \(.installs) installs — npx skills add \(.ref)&quot;&#39;</span>
+<span class="w">        </span>jq<span class="w"> </span>-r<span class="w"> </span><span class="s1">&#39;.results[] | &quot;\(.name) - \(.installs) installs - npx skills add \(.ref)&quot;&#39;</span>
 <span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
@@ -10258,10 +10258,10 @@ find-skills<span class="w"> </span><span class="s2">&quot;video production&quot;
 <hr />
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/skill-creator-setup">skill-creator</a> — Anthropic's skill creation framework</li>
-<li><a href="/hermes/skills/catalog">Skills Catalog</a> — Browse all documented skills</li>
-<li><a href="/hermes/skills/skill-marketplaces">Skill Marketplaces</a> — Guide to all skill marketplaces</li>
-<li><a href="/hermes/skills/creating-skills">Creating Custom Skills</a> — Author your own skills</li>
+<li><a href="/hermes/skills/catalog/skill-creator-setup">skill-creator</a> - Anthropic's skill creation framework</li>
+<li><a href="/hermes/skills/catalog">Skills Catalog</a> - Browse all documented skills</li>
+<li><a href="/hermes/skills/skill-marketplaces">Skill Marketplaces</a> - Guide to all skill marketplaces</li>
+<li><a href="/hermes/skills/creating-skills">Creating Custom Skills</a> - Author your own skills</li>
 </ul>
 
 

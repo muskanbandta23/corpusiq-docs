@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="News intelligence over MCP — search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted">
+        <meta name="description" content="News intelligence over MCP - search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/apitube-news-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="APITube News MCP - CorpusIQ Docs">
-  <meta property="og:description" content="News intelligence over MCP — search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted">
+  <meta property="og:description" content="News intelligence over MCP - search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="APITube News MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="News intelligence over MCP — search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted">
+  <meta name="twitter:description" content="News intelligence over MCP - search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "APITube News MCP - CorpusIQ Docs",
-    "description": "News intelligence over MCP \u2014 search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted",
+    "description": "News intelligence over MCP - search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/apitube-news-mcp",
     
     "author": {
@@ -10036,18 +10036,18 @@
 
 
 <h1 id="apitube-news-mcp">APITube News MCP<a class="headerlink" href="#apitube-news-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Hosted news-intelligence server (JSON-RPC over HTTP, Bearer API key)</strong> — APITube's News API becomes an MCP server at a hosted endpoint: search articles from 500,000+ sources in 60+ languages with filters for sentiment, entities, topics, media presence, and source quality. No installation, no maintenance — add the key and ask.</p>
+<p><strong>Hosted news-intelligence server (JSON-RPC over HTTP, Bearer API key)</strong> - APITube's News API becomes an MCP server at a hosted endpoint: search articles from 500,000+ sources in 60+ languages with filters for sentiment, entities, topics, media presence, and source quality. No installation, no maintenance - add the key and ask.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (JSON-RPC)
 Auth: Bearer API key (Authorization header)
 Endpoint: https://mcp.apitube.io/
 Tools: search_news, suggest
 Prompts: monitor_company, topic_sentiment, breaking_news, compare_coverage
-Pricing: Commercial — apitube.io API plans
+Pricing: Commercial - apitube.io API plans
 Category: Content &amp; Media
 Built by: apitube.io
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Brand monitoring usually means a social listening subscription plus a news alerts inbox. APITube News moves the query to the assistant: "find positive news about Tesla" or "show me breaking stories about our industry from verified sources today" resolves to a structured search with entity and sentiment filtering. The shipped prompts are the operational shortcut — <code>monitor_company</code> tracks coverage and sentiment for a company, <code>compare_coverage</code> puts two subjects side by side, and <code>breaking_news</code> surfaces what is moving now.</p>
+<p>Brand monitoring usually means a social listening subscription plus a news alerts inbox. APITube News moves the query to the assistant: "find positive news about Tesla" or "show me breaking stories about our industry from verified sources today" resolves to a structured search with entity and sentiment filtering. The shipped prompts are the operational shortcut - <code>monitor_company</code> tracks coverage and sentiment for a company, <code>compare_coverage</code> puts two subjects side by side, and <code>breaking_news</code> surfaces what is moving now.</p>
 <p>The <code>suggest</code> tool is the quiet quality signal: it resolves names like "Tesla" to APITube entity/category/topic IDs so follow-up searches filter on canonical identifiers instead of string matching.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10119,10 +10119,10 @@ Built by: apitube.io
 <p>APITube News is the external-signal layer next to CorpusIQ's internal-data connectors: CorpusIQ tells the operator what their own business did, APITube News tells them what the market said about it and everyone else. A weekly review could pull GA4 and Stripe numbers through CorpusIQ, then run <code>monitor_company</code> and <code>compare_coverage</code> prompts through APITube News for the narrative context around the numbers.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>API-key pricing sits on APITube's commercial plans — verify the tier against query volume before automating</li>
+<li>API-key pricing sits on APITube's commercial plans - verify the tier against query volume before automating</li>
 <li>Sentiment is vendor-computed; treat it as signal for triage, not ground truth</li>
 <li>Source quality filtering is only as good as the vendor's source registry</li>
-<li>No write or alerting surface — research and monitoring reads only</li>
+<li>No write or alerting surface - research and monitoring reads only</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

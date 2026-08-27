@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Traffic Guardian — Runtime Traffic Monitoring</title>
+    <title>Hermes Traffic Guardian - Runtime Traffic Monitoring</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-traffic-guardian-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Traffic Guardian — Runtime Traffic Monitoring">
+  <meta property="og:title" content="Hermes Traffic Guardian - Runtime Traffic Monitoring">
   <meta property="og:description" content="42+ installs. Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. Setup guide">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Traffic Guardian — Runtime Traffic Monitoring">
+  <meta name="twitter:title" content="Hermes Traffic Guardian - Runtime Traffic Monitoring">
   <meta name="twitter:description" content="42+ installs. Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. Setup guide">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Traffic Guardian \u2014 Runtime Traffic Monitoring",
+    "name": "Hermes Traffic Guardian - Runtime Traffic Monitoring",
     "description": "42+ installs. Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. Setup guide",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-traffic-guardian-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Traffic Guardian — Runtime Traffic Monitoring
+              Hermes Traffic Guardian - Runtime Traffic Monitoring
             
           </span>
         </div>
@@ -10105,11 +10105,11 @@
   
 
 
-<h1 id="hermes-traffic-guardian-setup-guide">Hermes Traffic Guardian — Setup Guide<a class="headerlink" href="#hermes-traffic-guardian-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-traffic-guardian-setup-guide">Hermes Traffic Guardian - Setup Guide<a class="headerlink" href="#hermes-traffic-guardian-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/prompt-security/clawsec/hermes-traffic-guardian">prompt-security/clawsec</a> (42+ installs)
 <strong>Category:</strong> Agent Infrastructure / Security &amp; Monitoring
 <strong>Quality Tier:</strong> 🔵 Community</p>
-<p>A baseline specification skill from Prompt Security for Hermes runtime traffic monitoring. Provides opt-in proxy inspection, egress detection, outbound exfiltration monitoring, and attestation-aware traffic posture reporting. Currently a specification (v0.0.1-beta5) — builders implement the runtime components using the spec's safety contract.</p>
+<p>A baseline specification skill from Prompt Security for Hermes runtime traffic monitoring. Provides opt-in proxy inspection, egress detection, outbound exfiltration monitoring, and attestation-aware traffic posture reporting. Currently a specification (v0.0.1-beta5) - builders implement the runtime components using the spec's safety contract.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>prompt-security/clawsec<span class="w"> </span>--skill<span class="w"> </span>hermes-traffic-guardian<span class="w"> </span>-a<span class="w"> </span>hermes-agent<span class="w"> </span>-y
@@ -10156,11 +10156,11 @@ curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="operator-scoped-http-proxy-inspection">Operator-Scoped HTTP Proxy Inspection<a class="headerlink" href="#operator-scoped-http-proxy-inspection" title="Anchor link to this section">&para;</a></h3>
-<p>Configured per-service — no global proxy environment changes. Inspects HTTP request/response text up to a bounded byte limit.</p>
+<p>Configured per-service - no global proxy environment changes. Inspects HTTP request/response text up to a bounded byte limit.</p>
 <h3 id="outbound-exfiltration-detection">Outbound Exfiltration Detection<a class="headerlink" href="#outbound-exfiltration-detection" title="Anchor link to this section">&para;</a></h3>
 <p>Detects patterns in outbound traffic without sending data to external services. JSONL findings with redacted snippets.</p>
 <h3 id="optional-https-inspection">Optional HTTPS Inspection<a class="headerlink" href="#optional-https-inspection" title="Anchor link to this section">&para;</a></h3>
-<p>Per-process CA trust configuration — operator explicitly opts in. No automatic system CA installation.</p>
+<p>Per-process CA trust configuration - operator explicitly opts in. No automatic system CA installation.</p>
 <h3 id="attestation-aware-posture-export">Attestation-Aware Posture Export<a class="headerlink" href="#attestation-aware-posture-export" title="Anchor link to this section">&para;</a></h3>
 <p>Exports a posture JSON file that <code>hermes-attestation-guardian</code> can include as a trust anchor. Keeps state under <code>HERMES_TRAFFIC_GUARDIAN_HOME</code> or <code>$HERMES_HOME/security/traffic-guardian</code>.</p>
 <h3 id="safety-contract-first-implementation">Safety Contract (First Implementation)<a class="headerlink" href="#safety-contract-first-implementation" title="Anchor link to this section">&para;</a></h3>
@@ -10179,9 +10179,9 @@ curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>prompt-security/clawsec<span class="w"> </span>--skill<span class="w"> </span>hermes-traffic-guardian<span class="w"> </span>-a<span class="w"> </span>hermes-agent<span class="w"> </span>-y
 
 <span class="c1"># Builder entry points (implementation):</span>
-<span class="c1"># lib/    — Detector rules, redaction, posture export, report formatting</span>
-<span class="c1"># scripts/ — Start, stop, status, config validation, attestation export</span>
-<span class="c1"># test/   — Unit tests, proxy fixture tests, redaction tests</span>
+<span class="c1"># lib/    - Detector rules, redaction, posture export, report formatting</span>
+<span class="c1"># scripts/ - Start, stop, status, config validation, attestation export</span>
+<span class="c1"># test/   - Unit tests, proxy fixture tests, redaction tests</span>
 
 <span class="c1"># Read the spec</span>
 cat<span class="w"> </span><span class="k">$(</span>npx<span class="w"> </span>skills<span class="w"> </span>path<span class="w"> </span>hermes-traffic-guardian<span class="k">)</span>/SPEC.md
@@ -10200,10 +10200,10 @@ cat<span class="w"> </span><span class="nv">$HERMES_HOME</span>/security/traffic
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>v0.0.1-beta5 is a specification</strong> — builders implement the runtime components using the spec's safety contract</li>
+<li><strong>v0.0.1-beta5 is a specification</strong> - builders implement the runtime components using the spec's safety contract</li>
 <li>Out of scope for v0.0.1: automatic system trust-store mutation, transparent network interception, default blocking, sending traffic to external services</li>
-<li>Designed to complement <code>hermes-attestation-guardian</code> — traffic monitoring and attestation are separate concerns</li>
-<li>AGPL-3.0 licensed — be aware of copyleft implications for derivative works</li>
+<li>Designed to complement <code>hermes-attestation-guardian</code> - traffic monitoring and attestation are separate concerns</li>
+<li>AGPL-3.0 licensed - be aware of copyleft implications for derivative works</li>
 <li>Published by Prompt Security (prompt.security) as part of the ClawSec security suite</li>
 </ul>
 <hr />

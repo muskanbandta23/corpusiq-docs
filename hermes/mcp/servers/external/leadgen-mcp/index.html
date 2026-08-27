@@ -10047,7 +10047,7 @@
 
 
 <h1 id="leadgen-mcp">Leadgen MCP<a class="headerlink" href="#leadgen-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Lead generation and company enrichment for AI agents, grounded in Romania's official business register.</strong> Leadgen MCP exposes four read-only tools: company lookup across the official ONRC (Romanian National Trade Register) snapshot — 4.2M+ firms — director and legal-representative search, website contact extraction, and WHOIS/DNS/SPF-DMARC domain audits. It is a hosted remote server with no local install, so any MCP client can pull registry-verified company data plus enrichment signals in one call sequence.</p>
+<p><strong>Lead generation and company enrichment for AI agents, grounded in Romania's official business register.</strong> Leadgen MCP exposes four read-only tools: company lookup across the official ONRC (Romanian National Trade Register) snapshot - 4.2M+ firms - director and legal-representative search, website contact extraction, and WHOIS/DNS/SPF-DMARC domain audits. It is a hosted remote server with no local install, so any MCP client can pull registry-verified company data plus enrichment signals in one call sequence.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP)
 Endpoint: https://hermes.adrianhomelab.com/mcp
 Auth: None (public validation phase)
@@ -10057,7 +10057,7 @@ Registry: io.github.darksider4all/leadgen-mcp (v1.0.0, active)
 Built by: darksider4all
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Romanian company data normally means navigating ONRC's public portal, handling diacritic-sensitive name variants, and stitching contact details from a company's website by hand. Leadgen MCP collapses that into four agent calls: <code>lookup_business</code> for the registry record, <code>lookup_director</code> to reverse-search a legal representative across firms, <code>extract_contacts</code> to harvest emails, phones, and socials from the company site, and <code>lookup_domain</code> for the domain posture audit. The registry data comes from the official ONRC open-data snapshot on data.gov.ro loaded locally — not a third-party scraper — and name matching is FTS5-ranked and diacritic-insensitive, so <code>popescu</code> matches <code>Popescu</code> and <code>Popе́scu</code> alike.</p>
+<p>Romanian company data normally means navigating ONRC's public portal, handling diacritic-sensitive name variants, and stitching contact details from a company's website by hand. Leadgen MCP collapses that into four agent calls: <code>lookup_business</code> for the registry record, <code>lookup_director</code> to reverse-search a legal representative across firms, <code>extract_contacts</code> to harvest emails, phones, and socials from the company site, and <code>lookup_domain</code> for the domain posture audit. The registry data comes from the official ONRC open-data snapshot on data.gov.ro loaded locally - not a third-party scraper - and name matching is FTS5-ranked and diacritic-insensitive, so <code>popescu</code> matches <code>Popescu</code> and <code>Popе́scu</code> alike.</p>
 <p>The validation-phase posture is the honest caveat: the endpoint is served from the author's homelab with no authentication yet, so it is a public read service. That is acceptable for registry lookups (public data) but means the server carries no SLA and should not be treated as production infrastructure.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10101,7 +10101,7 @@ Built by: darksider4all
 </code></pre></div>
 <p>Nothing to install or self-host. The endpoint answers Streamable HTTP MCP (SSE-framed responses); a live <code>initialize</code> probe on Aug 20, 2026 returned serverInfo <code>leadgen</code> with a working session and all four tools enumerated.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>No configuration required during the validation phase — no API key, no OAuth. Registry-aware clients can add <code>io.github.darksider4all/leadgen-mcp</code> by name via the official MCP Registry. The author has also whitelisted the data pipeline for agentic payments on Apify under <code>ro-business-data-mcp</code> for agents that route through Apify's network instead of the direct endpoint.</p>
+<p>No configuration required during the validation phase - no API key, no OAuth. Registry-aware clients can add <code>io.github.darksider4all/leadgen-mcp</code> by name via the official MCP Registry. The author has also whitelisted the data pipeline for agentic payments on Apify under <code>ro-business-data-mcp</code> for agents that route through Apify's network instead of the direct endpoint.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>SDRs and lead-gen teams</strong> verify Romanian prospect firms against the official register instead of scraped directories</li>
@@ -10110,18 +10110,18 @@ Built by: darksider4all
 <li><strong>Agent builders</strong> get a free remote endpoint for EU company research without standing up their own ONRC ingestion</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Leadgen MCP covers the Romanian registry layer — a country-specific source none of CorpusIQ's connectors natively answers. The natural flow: an agent uses <code>lookup_business</code> to identify and verify a Romanian prospect, <code>extract_contacts</code> for reachable email addresses, then hands the qualified record to CorpusIQ — HubSpot or LeadConnector for CRM placement, email for the outreach thread, and QuickBooks once a deal invoices. The registry-verified record is the source-declared anchor that matches CorpusIQ's reporting discipline.</p>
+<p>Leadgen MCP covers the Romanian registry layer - a country-specific source none of CorpusIQ's connectors natively answers. The natural flow: an agent uses <code>lookup_business</code> to identify and verify a Romanian prospect, <code>extract_contacts</code> for reachable email addresses, then hands the qualified record to CorpusIQ - HubSpot or LeadConnector for CRM placement, email for the outreach thread, and QuickBooks once a deal invoices. The registry-verified record is the source-declared anchor that matches CorpusIQ's reporting discipline.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Romanian business registry only — company data for other countries is out of scope</li>
+<li>Romanian business registry only - company data for other countries is out of scope</li>
 <li>Homelab-hosted endpoint in a no-auth validation phase: no SLA, not production infrastructure</li>
 <li>New listing (Aug 2026), zero-star repository, single maintainer</li>
-<li><code>extract_contacts</code> is a website crawl — respect robots constraints and rate limits on target sites</li>
+<li><code>extract_contacts</code> is a website crawl - respect robots constraints and rate limits on target sites</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external/misarreach-mcp">MisarReach MCP — Outbound Sales and Lead Pipeline for AI Agents</a></li>
-<li><a href="/hermes/mcp/servers/external/apollo-io-mcp">Apollo.io MCP — B2B Contact Data and Sequences</a></li>
+<li><a href="/hermes/mcp/servers/external/misarreach-mcp">MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents</a></li>
+<li><a href="/hermes/mcp/servers/external/apollo-io-mcp">Apollo.io MCP - B2B Contact Data and Sequences</a></li>
 <li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
 <li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>

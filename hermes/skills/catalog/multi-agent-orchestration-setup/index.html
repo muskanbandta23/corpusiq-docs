@@ -23,7 +23,7 @@
     
     
   
-    <title>Multi-Agent Orchestration — PM-style parallel worker</title>
+    <title>Multi-Agent Orchestration - PM-style parallel worker</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/multi-agent-orchestration-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Multi-Agent Orchestration — PM-style parallel worker">
+  <meta property="og:title" content="Multi-Agent Orchestration - PM-style parallel worker">
   <meta property="og:description" content="PM-style multi-agent orchestration with worktree isolation, tmux sessions, and Wave-based task dispatch. 32+ installs from cat-xierluo/legal-skills.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Multi-Agent Orchestration — PM-style parallel worker">
+  <meta name="twitter:title" content="Multi-Agent Orchestration - PM-style parallel worker">
   <meta name="twitter:description" content="PM-style multi-agent orchestration with worktree isolation, tmux sessions, and Wave-based task dispatch. 32+ installs from cat-xierluo/legal-skills.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Multi-Agent Orchestration \u2014 PM-style parallel worker",
+    "name": "Multi-Agent Orchestration - PM-style parallel worker",
     "description": "PM-style multi-agent orchestration with worktree isolation, tmux sessions, and Wave-based task dispatch. 32+ installs from cat-xierluo/legal-skills.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/multi-agent-orchestration-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Multi-Agent Orchestration — PM-style parallel worker
+              Multi-Agent Orchestration - PM-style parallel worker
             
           </span>
         </div>
@@ -10088,7 +10088,7 @@
   
 
 
-<h1 id="multi-agent-orchestration-setup-guide">Multi-Agent Orchestration — Setup Guide<a class="headerlink" href="#multi-agent-orchestration-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="multi-agent-orchestration-setup-guide">Multi-Agent Orchestration - Setup Guide<a class="headerlink" href="#multi-agent-orchestration-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/cat-xierluo/legal-skills/multi-agent-orchestration">cat-xierluo/legal-skills</a> (32+ installs)
 <strong>Category:</strong> Engineering / Agent Orchestration
 <strong>Quality Tier:</strong> 🔵 Community</p>
@@ -10130,7 +10130,7 @@
 <h3 id="pm-worker-architecture">PM-Worker Architecture<a class="headerlink" href="#pm-worker-architecture" title="Anchor link to this section">&para;</a></h3>
 <p>Current session acts as PM (Project Manager): reads task sources, groups work, spawns isolated workers, monitors progress via checkpoint files, and merges results. Workers execute in isolated worktrees with their own branches.</p>
 <h3 id="wave-based-dispatch">Wave-Based Dispatch<a class="headerlink" href="#wave-based-dispatch" title="Anchor link to this section">&para;</a></h3>
-<p>Tasks are grouped into Waves — sets of parallel workers running against the same base ref. PM plans provider slots, concurrency limits, and risk tiers before launching. Supports 4-6 parallel workers for independent tasks, 1-3 for shared-dependency work.</p>
+<p>Tasks are grouped into Waves - sets of parallel workers running against the same base ref. PM plans provider slots, concurrency limits, and risk tiers before launching. Supports 4-6 parallel workers for independent tasks, 1-3 for shared-dependency work.</p>
 <h3 id="escape-prevention-gate">Escape Prevention Gate<a class="headerlink" href="#escape-prevention-gate" title="Anchor link to this section">&para;</a></h3>
 <p>When user requires tmux/independent sessions, PM must pass a startup gate before touching business code: create worktree → start tmux → verify session alive → confirm STATUS.json appears → only then proceed.</p>
 <h3 id="provider-aware-routing">Provider-Aware Routing<a class="headerlink" href="#provider-aware-routing" title="Anchor link to this section">&para;</a></h3>

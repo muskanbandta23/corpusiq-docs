@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Remote MCP for historical crypto and prediction-market data — a catalog of 500K instruments across 35 venues, live market statistics, free samples, and">
+        <meta name="description" content="Remote MCP for historical crypto and prediction-market data - a catalog of 500K instruments across 35 venues, live market statistics, free samples, and">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/cryptostruct-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="CryptoStruct Market Data MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Remote MCP for historical crypto and prediction-market data — a catalog of 500K instruments across 35 venues, live market statistics, free samples, and">
+  <meta property="og:description" content="Remote MCP for historical crypto and prediction-market data - a catalog of 500K instruments across 35 venues, live market statistics, free samples, and">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CryptoStruct Market Data MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Remote MCP for historical crypto and prediction-market data — a catalog of 500K instruments across 35 venues, live market statistics, free samples, and">
+  <meta name="twitter:description" content="Remote MCP for historical crypto and prediction-market data - a catalog of 500K instruments across 35 venues, live market statistics, free samples, and">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "CryptoStruct Market Data MCP - CorpusIQ Docs",
-    "description": "Remote MCP for historical crypto and prediction-market data \u2014 a catalog of 500K instruments across 35 venues, live market statistics, free samples, and",
+    "description": "Remote MCP for historical crypto and prediction-market data - a catalog of 500K instruments across 35 venues, live market statistics, free samples, and",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cryptostruct-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="cryptostruct-market-data-mcp">CryptoStruct Market Data MCP<a class="headerlink" href="#cryptostruct-market-data-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, keyless + optional OAuth)</strong> — CryptoStruct is a first-party data platform for historical crypto and prediction-market data. Agents search a catalog of ~500K instruments across 35 venues (spot, perpetuals, futures, options, and event contracts) with day-level archive coverage back to 2021, pull live market statistics, download free samples, and procure paid tick data through a Stripe checkout URL handoff — the server never touches payment credentials.</p>
+<p><strong>Remote MCP server (Streamable HTTP, keyless + optional OAuth)</strong> - CryptoStruct is a first-party data platform for historical crypto and prediction-market data. Agents search a catalog of ~500K instruments across 35 venues (spot, perpetuals, futures, options, and event contracts) with day-level archive coverage back to 2021, pull live market statistics, download free samples, and procure paid tick data through a Stripe checkout URL handoff - the server never touches payment credentials.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: Keyless for catalog/stats; OAuth optional for account tools
 Endpoint: https://cryptostruct.com/mcp  (OAuth: /mcp/auth)
@@ -10057,8 +10057,8 @@ Category: Finance / Market Data
 Built by: CryptoStruct (github.com/cryptostruct/mcp-server, MIT)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Market data procurement has always been the least agent-friendly part of quant and event-driven research — catalogs are scattered, pricing is opaque, and evaluation requires buying files blind. CryptoStruct collapses the whole loop into tool calls: an agent can discover instruments, compare coverage and live spreads across venues, evaluate data quality, and only then hand the user a Stripe checkout URL for the exact instrument-days it needs.</p>
-<p><strong>The mechanism worth copying is the keyless evaluation tier</strong> — catalog search, market statistics (OHLC, VWAP, turnover, spreads, top-of-book depth, slippage curves), and free full-day sample files all work with zero credentials, so an agent can qualify a dataset before any spend is committed.</p>
+<p>Market data procurement has always been the least agent-friendly part of quant and event-driven research - catalogs are scattered, pricing is opaque, and evaluation requires buying files blind. CryptoStruct collapses the whole loop into tool calls: an agent can discover instruments, compare coverage and live spreads across venues, evaluate data quality, and only then hand the user a Stripe checkout URL for the exact instrument-days it needs.</p>
+<p><strong>The mechanism worth copying is the keyless evaluation tier</strong> - catalog search, market statistics (OHLC, VWAP, turnover, spreads, top-of-book depth, slippage curves), and free full-day sample files all work with zero credentials, so an agent can qualify a dataset before any spend is committed.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10074,7 +10074,7 @@ Built by: CryptoStruct (github.com/cryptostruct/mcp-server, MIT)
 </tr>
 <tr>
 <td>Market statistics</td>
-<td>Live snapshots and minute/hourly/daily aggregates — OHLC, VWAP, trades, turnover, spreads, depth</td>
+<td>Live snapshots and minute/hourly/daily aggregates - OHLC, VWAP, trades, turnover, spreads, depth</td>
 </tr>
 <tr>
 <td>Quality evaluation</td>
@@ -10105,7 +10105,7 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Auth notes: no API key needed for the catalog, stats, and guest purchase flow. OAuth (Dynamic Client Registration + PKCE) is optional and unlocks order history, purchased-file downloads, and automatic credit redemption. Rate limits are a weighted budget — 120 units/min keyless, 600 units/min Premium; over-tier calls return static upgrade errors rather than hard failures.</p>
+<p>Auth notes: no API key needed for the catalog, stats, and guest purchase flow. OAuth (Dynamic Client Registration + PKCE) is optional and unlocks order history, purchased-file downloads, and automatic credit redemption. Rate limits are a weighted budget - 120 units/min keyless, 600 units/min Premium; over-tier calls return static upgrade errors rather than hard failures.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Quant and event-driven researchers</strong> get microstructure data (spreads, depth, turnover, slippage) per instrument before buying</li>
@@ -10114,14 +10114,14 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <li><strong>Portfolio operators</strong> get coverage comparison across venues for any listed instrument, free and keyless</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CryptoStruct is the data-acquisition layer that pairs with CorpusIQ's financial connectors rather than overlapping them. A composed workflow: run portfolio exposure from the QuickBooks and Stripe connectors, then use CryptoStruct's catalog and market-statistics tools to stress-test crypto-adjacent positions with live depth and slippage curves. For research agents, the Stripe connector's charge ledger can reconcile the €1-per-instrument-day procurement spend back to the exact checkout links CryptoStruct issued — the server hands off payment through Stripe, which is the one credential boundary both systems respect.</p>
+<p>CryptoStruct is the data-acquisition layer that pairs with CorpusIQ's financial connectors rather than overlapping them. A composed workflow: run portfolio exposure from the QuickBooks and Stripe connectors, then use CryptoStruct's catalog and market-statistics tools to stress-test crypto-adjacent positions with live depth and slippage curves. For research agents, the Stripe connector's charge ledger can reconcile the €1-per-instrument-day procurement spend back to the exact checkout links CryptoStruct issued - the server hands off payment through Stripe, which is the one credential boundary both systems respect.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no long track record yet</li>
-<li>Scope is crypto and prediction markets only — no equities or traditional macro data</li>
+<li>Brand new listing - no long track record yet</li>
+<li>Scope is crypto and prediction markets only - no equities or traditional macro data</li>
 <li>Minute-granularity data is retained ~30 days upstream; hourly/daily aggregates reach further back</li>
 <li>Premium (€20/month) required for longer stats windows, minute-series history, and larger search limits</li>
-<li>Hosted service — the repository documents the server; there is nothing to self-host</li>
+<li>Hosted service - the repository documents the server; there is nothing to self-host</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

@@ -23,7 +23,7 @@
     
     
   
-    <title>AskRentAI MCP — Property Portfolio Intelligence for Rent Manager Operators</title>
+    <title>AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/askrentai-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="AskRentAI MCP — Property Portfolio Intelligence for Rent Manager Operators">
+  <meta property="og:title" content="AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators">
   <meta property="og:description" content="Hosted read-only MCP server for Rent Manager property portfolios: plain-English questions about NOI, rent roll, delinquency, vacancy, lease expirations">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AskRentAI MCP — Property Portfolio Intelligence for Rent Manager Operators">
+  <meta name="twitter:title" content="AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators">
   <meta name="twitter:description" content="Hosted read-only MCP server for Rent Manager property portfolios: plain-English questions about NOI, rent roll, delinquency, vacancy, lease expirations">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "AskRentAI MCP \u2014 Property Portfolio Intelligence for Rent Manager Operators",
+    "name": "AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators",
     "description": "Hosted read-only MCP server for Rent Manager property portfolios: plain-English questions about NOI, rent roll, delinquency, vacancy, lease expirations",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/askrentai-mcp",
     
@@ -198,7 +198,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AskRentAI MCP — Property Portfolio Intelligence for Rent Manager Operators
+              AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators
             
           </span>
         </div>
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="askrentai-mcp">AskRentAI MCP<a class="headerlink" href="#askrentai-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Read-only Rent Manager intelligence for AI clients — plain-English portfolio questions answered from live data, with no write path back to the property management system.</strong> AskRentAI is a hosted MCP server built on Rent Manager, the platform used across a large share of US rental housing, covering apartments, single-family, commercial, self-storage and mobile home / RV communities. Operators ask "which properties are below budget on NOI this quarter" and get the answer from the API at the moment they ask — no exports, no stale spreadsheets, no sync to configure.</p>
+<p><strong>Read-only Rent Manager intelligence for AI clients - plain-English portfolio questions answered from live data, with no write path back to the property management system.</strong> AskRentAI is a hosted MCP server built on Rent Manager, the platform used across a large share of US rental housing, covering apartments, single-family, commercial, self-storage and mobile home / RV communities. Operators ask "which properties are below budget on NOI this quarter" and get the answer from the API at the moment they ask - no exports, no stale spreadsheets, no sync to configure.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth
 Endpoint: https://api.askrentai.com/mcp
@@ -10057,7 +10057,7 @@ Built by: Brian Menold (github.com/brianmenold/askrentai-mcp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Rent Manager ships a capable web API, but using it means knowing which endpoint holds the data, how the tables relate, how to authenticate and how to page results. Most property operators don't have a developer to spare for a reporting question, so API access sits switched on and unused while everyone goes back to exporting reports by hand.</p>
-<p><strong>AskRentAI closes that gap: the AI calls the API for you, at the moment you ask.</strong> The read-only architecture is the safety point, not a limitation — the server cannot post a charge, edit a lease or change a tenant record, so pointing a read-only Rent Manager API user at it gives a blast radius of zero.</p>
+<p><strong>AskRentAI closes that gap: the AI calls the API for you, at the moment you ask.</strong> The read-only architecture is the safety point, not a limitation - the server cannot post a charge, edit a lease or change a tenant record, so pointing a read-only Rent Manager API user at it gives a blast radius of zero.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The listing does not publish a fixed tool list (the live tool set is served from the endpoint), but the documented coverage spans the operator's core surfaces:</p>
 <table>
@@ -10118,10 +10118,10 @@ Built by: Brian Menold (github.com/brianmenold/askrentai-mcp)
 <li><strong>Controllers</strong> pull trial-balance and vendor-spend answers with the source numbers attached</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>AskRentAI covers the property layer that CorpusIQ's 40+ connectors reach from the business side. A composed workflow can hold QuickBooks books, Stripe revenue and GA4 web traffic in CorpusIQ while AskRentAI answers the portfolio questions — delinquency aging, lease-expiry exposure, NOI variance — in the same agent session, so a single report can reconcile portfolio performance against the general ledger without exporting anything.</p>
+<p>AskRentAI covers the property layer that CorpusIQ's 40+ connectors reach from the business side. A composed workflow can hold QuickBooks books, Stripe revenue and GA4 web traffic in CorpusIQ while AskRentAI answers the portfolio questions - delinquency aging, lease-expiry exposure, NOI variance - in the same agent session, so a single report can reconcile portfolio performance against the general ledger without exporting anything.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Rent Manager only — no Buildium, AppFolio or Yardi coverage</li>
+<li>Rent Manager only - no Buildium, AppFolio or Yardi coverage</li>
 <li>Read-only by design: no charges, lease edits or tenant-record changes</li>
 <li>Brand new (Aug 2026 listing), no track record yet; single-vendor hosted service</li>
 <li>$10 per user per month after the 7-day trial</li>

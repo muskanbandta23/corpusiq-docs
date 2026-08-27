@@ -10047,18 +10047,18 @@
 
 
 <h1 id="blazingcdn-mcp">BlazingCDN MCP<a class="headerlink" href="#blazingcdn-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Self-hosted MCP server (npx, API token)</strong> — the official BlazingCDN connector for AI agents. Manage CDN resources, purge cache, query metrics, domains, Anycast CDN, Video CDN, and Media CDN from Claude, Cursor, or Windsurf. 52 tools talking directly to the BlazingCDN API, with writes gated behind an explicit env flag.</p>
+<p><strong>Self-hosted MCP server (npx, API token)</strong> - the official BlazingCDN connector for AI agents. Manage CDN resources, purge cache, query metrics, domains, Anycast CDN, Video CDN, and Media CDN from Claude, Cursor, or Windsurf. 52 tools talking directly to the BlazingCDN API, with writes gated behind an explicit env flag.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (stdio via npx, HTTP transport option)
 Auth: API token (BLAZINGCDN_API_TOKEN)
 Repo: https://github.com/BlazingCDN/BlazingCDN-MCP (MIT)
-Tools: 52 — Anycast CDN, cache operations, metrics, custom domains, Cloud Storage, Video CDN
+Tools: 52 - Anycast CDN, cache operations, metrics, custom domains, Cloud Storage, Video CDN
 Pricing: BlazingCDN account (usage-based CDN pricing)
 Category: DevOps / Infrastructure
 Built by: BlazingCDN (blazingcdn.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>CDN consoles are click-heavy and incident-hostile: a cache purge during a broken deploy is the worst time to hunt through dashboards. BlazingCDN MCP moves those operations into the assistant that deploys the site or publishes the video.</p>
-<p><strong>Operators get CDN control in the same conversation as the release</strong> — purge by path, read bandwidth by day, add domains, and manage Video CDN without leaving the agent loop. The <code>BLAZINGCDN_ALLOW_WRITE</code> gate means a read-only agent can be fielded safely and write access granted per agent.</p>
+<p><strong>Operators get CDN control in the same conversation as the release</strong> - purge by path, read bandwidth by day, add domains, and manage Video CDN without leaving the agent loop. The <code>BLAZINGCDN_ALLOW_WRITE</code> gate means a read-only agent can be fielded safely and write access granted per agent.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10120,14 +10120,14 @@ Built by: BlazingCDN (blazingcdn.com)
 <li><strong>DevOps operators</strong> fold CDN checks and purges into deploy and incident runbooks</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>BlazingCDN MCP complements CorpusIQ analytics connectors on the delivery layer. An agent watching GA4 sessions or Stripe checkout events can, in the same conversation, check BlazingCDN bandwidth by day and purge a bad asset — incident response without console hopping. For ecommerce operators on Shopify or SHOPLINE, cache purges after catalog updates and bandwidth reads during campaign spikes become agent-native steps in the operations loop.</p>
+<p>BlazingCDN MCP complements CorpusIQ analytics connectors on the delivery layer. An agent watching GA4 sessions or Stripe checkout events can, in the same conversation, check BlazingCDN bandwidth by day and purge a bad asset - incident response without console hopping. For ecommerce operators on Shopify or SHOPLINE, cache purges after catalog updates and bandwidth reads during campaign spikes become agent-native steps in the operations loop.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — submitted hours before this sweep; no track record yet</li>
+<li>Brand new listing - submitted hours before this sweep; no track record yet</li>
 <li>Requires a BlazingCDN account (usage-based CDN pricing applies)</li>
 <li>Self-hosted npx model, not a hosted remote endpoint</li>
 <li>API-token auth only; no OAuth</li>
-<li>Write tools require an explicit env flag — a feature, but easy to misconfigure</li>
+<li>Write tools require an explicit env flag - a feature, but easy to misconfigure</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

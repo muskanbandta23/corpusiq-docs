@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect CorpusIQ MCP to Hermes Agent — query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.">
+        <meta name="description" content="Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="How to Add CorpusIQ MCP to Hermes Agent">
-  <meta property="og:description" content="Connect CorpusIQ MCP to Hermes Agent — query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.">
+  <meta property="og:description" content="Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="How to Add CorpusIQ MCP to Hermes Agent">
-  <meta name="twitter:description" content="Connect CorpusIQ MCP to Hermes Agent — query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.">
+  <meta name="twitter:description" content="Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "How to Add CorpusIQ MCP to Hermes Agent",
-    "description": "Connect CorpusIQ MCP to Hermes Agent \u2014 query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.",
+    "description": "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp",
     
     "datePublished": "2026-08-12",
@@ -10102,7 +10102,7 @@
 <p>The refresh token flow is live in production. One device OAuth reconnect after July 28, 2026 mints the 30-day refresh credential. No hourly babysitting required.</p>
 <h2 id="5-call-tools-correctly">5. Call tools correctly<a class="headerlink" href="#5-call-tools-correctly" title="Anchor link to this section">&para;</a></h2>
 <p>All CorpusIQ MCP tool calls must nest query parameters inside the <code>params</code> key:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># CORRECT — params nested</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># CORRECT - params nested</span>
 <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
     <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
     <span class="s2">&quot;params&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -10114,7 +10114,7 @@
     <span class="p">}</span>
 <span class="p">})</span>
 
-<span class="c1"># WRONG — flat params silently return empty or fail</span>
+<span class="c1"># WRONG - flat params silently return empty or fail</span>
 <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
     <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
     <span class="s2">&quot;site_url&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>

@@ -23,7 +23,7 @@
     
     
   
-    <title>Retasc MCP — Integration Guide</title>
+    <title>Retasc MCP - Integration Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/retasc-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Retasc MCP — Integration Guide">
+  <meta property="og:title" content="Retasc MCP - Integration Guide">
   <meta property="og:description" content="The issue tracker for AI agents over MCP. Atomic claims, dependency-aware dispatch, parallel swarms, and cross-runtime handoffs for agent orchestration.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Retasc MCP — Integration Guide">
+  <meta name="twitter:title" content="Retasc MCP - Integration Guide">
   <meta name="twitter:description" content="The issue tracker for AI agents over MCP. Atomic claims, dependency-aware dispatch, parallel swarms, and cross-runtime handoffs for agent orchestration.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Retasc MCP \u2014 Integration Guide",
+    "name": "Retasc MCP - Integration Guide",
     "description": "The issue tracker for AI agents over MCP. Atomic claims, dependency-aware dispatch, parallel swarms, and cross-runtime handoffs for agent orchestration.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/retasc-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Retasc MCP — Integration Guide
+              Retasc MCP - Integration Guide
             
           </span>
         </div>
@@ -10144,19 +10144,19 @@
   
 
 
-<h1 id="retasc-mcp-ai-agent-task-orchestration-for-hermes-agent">Retasc MCP — AI Agent Task Orchestration for Hermes Agent<a class="headerlink" href="#retasc-mcp-ai-agent-task-orchestration-for-hermes-agent" title="Anchor link to this section">&para;</a></h1>
-<p>Retasc is the MCP server AI coding agents pull work from. It replaces traditional issue trackers with atomic claims, dependency-aware dispatch, and parallel swarm execution — purpose-built for agentic workflows, not human project management.</p>
+<h1 id="retasc-mcp-ai-agent-task-orchestration-for-hermes-agent">Retasc MCP - AI Agent Task Orchestration for Hermes Agent<a class="headerlink" href="#retasc-mcp-ai-agent-task-orchestration-for-hermes-agent" title="Anchor link to this section">&para;</a></h1>
+<p>Retasc is the MCP server AI coding agents pull work from. It replaces traditional issue trackers with atomic claims, dependency-aware dispatch, and parallel swarm execution - purpose-built for agentic workflows, not human project management.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <p>Retasc transforms how AI agents consume and complete work:</p>
 <ul>
-<li><strong>Atomic claims with lease/TTL</strong> — Agents claim individual work items with per-claim tokens and expiration. No double-work, no orphaned tasks.</li>
-<li><strong>next_batch wave dispatch</strong> — Parallel agent swarms pull the next ready batch based on dependency resolution and effective priority.</li>
-<li><strong>Dependency-graph scheduling</strong> — Tasks blocked on incomplete dependencies never surface. When a blocker completes, dependents become available automatically.</li>
-<li><strong>Resumable handoffs</strong> — Any runtime (Claude Code, Codex, Cursor) resumes from the last checkpoint. Cross-runtime handoffs are native, not bolted on.</li>
-<li><strong>Deadline-aware dispatch</strong> — <code>dueAt</code> SLA pressure: a breach outranks an urgent-priority task.</li>
-<li><strong>Inbound intake webhooks</strong> — GitHub and GitLab issues sync in; done-items sync back to the source.</li>
-<li><strong>Outbound notifications</strong> — Slack, Discord, and Telegram DMs on done, assigned, review, or canceled.</li>
-<li><strong>Human principal binding</strong> — Every claim and edit is traceable to the signed-in human who authorized the agent.</li>
+<li><strong>Atomic claims with lease/TTL</strong> - Agents claim individual work items with per-claim tokens and expiration. No double-work, no orphaned tasks.</li>
+<li><strong>next_batch wave dispatch</strong> - Parallel agent swarms pull the next ready batch based on dependency resolution and effective priority.</li>
+<li><strong>Dependency-graph scheduling</strong> - Tasks blocked on incomplete dependencies never surface. When a blocker completes, dependents become available automatically.</li>
+<li><strong>Resumable handoffs</strong> - Any runtime (Claude Code, Codex, Cursor) resumes from the last checkpoint. Cross-runtime handoffs are native, not bolted on.</li>
+<li><strong>Deadline-aware dispatch</strong> - <code>dueAt</code> SLA pressure: a breach outranks an urgent-priority task.</li>
+<li><strong>Inbound intake webhooks</strong> - GitHub and GitLab issues sync in; done-items sync back to the source.</li>
+<li><strong>Outbound notifications</strong> - Slack, Discord, and Telegram DMs on done, assigned, review, or canceled.</li>
+<li><strong>Human principal binding</strong> - Every claim and edit is traceable to the signed-in human who authorized the agent.</li>
 </ul>
 <h3 id="why-it-matters-for-operators">Why It Matters for Operators<a class="headerlink" href="#why-it-matters-for-operators" title="Anchor link to this section">&para;</a></h3>
 <p>If you're running multiple AI agents on a project, traditional issue trackers (Jira, Linear, GitHub Issues) break down. Agents need atomic work claims, not assignment fields. They need dependency-aware dispatch, not manual backlog grooming. Retasc is the first MCP-native work queue built for how agents actually operate.</p>
@@ -10259,7 +10259,7 @@
 <h3 id="content-pipeline-with-deadlines">Content Pipeline with Deadlines<a class="headerlink" href="#content-pipeline-with-deadlines" title="Anchor link to this section">&para;</a></h3>
 <p>Create content tasks with <code>dueAt</code> timestamps. Retasc's deadline-aware dispatch ensures time-sensitive posts surface above non-urgent work. Agents check <code>next_batch</code> and always pull what matters most.</p>
 <h3 id="cross-runtime-handoffs">Cross-runtime Handoffs<a class="headerlink" href="#cross-runtime-handoffs" title="Anchor link to this section">&para;</a></h3>
-<p>Start a research task in Claude Code, checkpoint it. Resume from Codex or Cursor. Retasc handles the context handoff — same claim, same state, different runtime.</p>
+<p>Start a research task in Claude Code, checkpoint it. Resume from Codex or Cursor. Retasc handles the context handoff - same claim, same state, different runtime.</p>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Free tier:</strong> First $10 of metered usage included</li>
@@ -10268,14 +10268,14 @@
 </ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>MCP-native only:</strong> No traditional web UI for human task management — this is purpose-built for agents</li>
+<li><strong>MCP-native only:</strong> No traditional web UI for human task management - this is purpose-built for agents</li>
 <li><strong>Early stage:</strong> New product, ecosystem integrations growing</li>
 <li><strong>API key auth:</strong> Not OAuth; key management is manual</li>
 <li><strong>Dependency on MCP client support:</strong> Requires clients that support Streamable HTTP transport</li>
 </ul>
 <h2 id="verdict">Verdict<a class="headerlink" href="#verdict" title="Anchor link to this section">&para;</a></h2>
 <p>Retasc is the most significant agent orchestration MCP we've seen this month. It solves the fundamental mismatch between human-centric issue trackers and agent workflows. For operators running multiple AI coding agents, this replaces the Jira/Linear API + custom dispatch scripts pattern with a single MCP endpoint. Strong recommend for any multi-agent workflow.</p>
-<p><strong>Rating: ★★★ — Essential for multi-agent operators</strong></p>
+<p><strong>Rating: ★★★ - Essential for multi-agent operators</strong></p>
 
 
 

@@ -23,7 +23,7 @@
     
     
   
-    <title>Build MCP Server — Anthropic Official Setup Guide</title>
+    <title>Build MCP Server - Anthropic Official Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Build MCP Server — Anthropic Official Setup Guide">
+  <meta property="og:title" content="Build MCP Server - Anthropic Official Setup Guide">
   <meta property="og:description" content="Install and configure build-mcp-server, Anthropic's official guide to building MCP (Model Context Protocol) servers. 3,148 installs, TypeScript + Python">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Build MCP Server — Anthropic Official Setup Guide">
+  <meta name="twitter:title" content="Build MCP Server - Anthropic Official Setup Guide">
   <meta name="twitter:description" content="Install and configure build-mcp-server, Anthropic's official guide to building MCP (Model Context Protocol) servers. 3,148 installs, TypeScript + Python">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Build MCP Server \u2014 Anthropic Official Setup Guide",
+    "name": "Build MCP Server - Anthropic Official Setup Guide",
     "description": "Install and configure build-mcp-server, Anthropic\u0027s official guide to building MCP (Model Context Protocol) servers. 3,148 installs, TypeScript + Python",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Build MCP Server — Anthropic Official Setup Guide
+              Build MCP Server - Anthropic Official Setup Guide
             
           </span>
         </div>
@@ -10001,7 +10001,7 @@
   <a href="#quick-start-typescript" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick Start — TypeScript
+        Quick Start - TypeScript
       
     </span>
   </a>
@@ -10012,7 +10012,7 @@
   <a href="#quick-start-python" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick Start — Python
+        Quick Start - Python
       
     </span>
   </a>
@@ -10127,7 +10127,7 @@
   
 
 
-<h1 id="build-mcp-server-setup-guide">Build MCP Server — Setup Guide<a class="headerlink" href="#build-mcp-server-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="build-mcp-server-setup-guide">Build MCP Server - Setup Guide<a class="headerlink" href="#build-mcp-server-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/anthropics/claude-plugins-official">anthropics/claude-plugins-official</a> · 3,148 installs
 <strong>Category:</strong> MCP Development / Agent Infrastructure
 <strong>License:</strong> MIT · <strong>Language:</strong> TypeScript, Python · <strong>Published:</strong> 2026</p>
@@ -10181,13 +10181,13 @@
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/anthropics/claude-plugins-official.git
 <span class="nb">cd</span><span class="w"> </span>claude-plugins-official/build-mcp-server
 </code></pre></div>
-<h3 id="quick-start-typescript">Quick Start — TypeScript<a class="headerlink" href="#quick-start-typescript" title="Anchor link to this section">&para;</a></h3>
+<h3 id="quick-start-typescript">Quick Start - TypeScript<a class="headerlink" href="#quick-start-typescript" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>my-mcp-server<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>my-mcp-server
 npm<span class="w"> </span>init<span class="w"> </span>-y
 npm<span class="w"> </span>install<span class="w"> </span>@modelcontextprotocol/sdk<span class="w"> </span>zod
 npm<span class="w"> </span>install<span class="w"> </span>-D<span class="w"> </span>typescript<span class="w"> </span>@types/node
 </code></pre></div>
-<h3 id="quick-start-python">Quick Start — Python<a class="headerlink" href="#quick-start-python" title="Anchor link to this section">&para;</a></h3>
+<h3 id="quick-start-python">Quick Start - Python<a class="headerlink" href="#quick-start-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>my-mcp-server<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>my-mcp-server
 python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
 <span class="nb">source</span><span class="w"> </span>venv/bin/activate
@@ -10303,15 +10303,15 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>list<span class="w">  <
 <hr />
 <h2 id="companion-skills">Companion Skills<a class="headerlink" href="#companion-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/marketplace/new-june30-2026">build-mcp-app</a> — Full MCP application development</li>
-<li><a href="/hermes/skills/marketplace/new-june30-2026">build-mcpb</a> — Same guide, Bun runtime</li>
-<li><a href="/hermes/skills/marketplace/new-june30-2026">mcp-developer</a> — Debugging and testing toolkit</li>
-<li><a href="/hermes/skills/marketplace/new-june30-2026">mcp-security-audit</a> — Security scanning for MCP servers</li>
+<li><a href="/hermes/skills/marketplace/new-june30-2026">build-mcp-app</a> - Full MCP application development</li>
+<li><a href="/hermes/skills/marketplace/new-june30-2026">build-mcpb</a> - Same guide, Bun runtime</li>
+<li><a href="/hermes/skills/marketplace/new-june30-2026">mcp-developer</a> - Debugging and testing toolkit</li>
+<li><a href="/hermes/skills/marketplace/new-june30-2026">mcp-security-audit</a> - Security scanning for MCP servers</li>
 </ul>
 <hr />
 <p><em>← <a href="/hermes/skills/catalog/#mcp--api-integration">MCP Development</a> | <a href="/hermes/skills/catalog">Catalog Home</a> →</em></p>
 <hr />
-<p><em>Part of the Hermes Skills Library. Curated by CorpusIQ — one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.</em></p>
+<p><em>Part of the Hermes Skills Library. Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.</em></p>
 
 
 

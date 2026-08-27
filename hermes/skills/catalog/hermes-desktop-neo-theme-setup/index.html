@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Desktop Neo Theme — Setup Guide</title>
+    <title>Hermes Desktop Neo Theme - Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Desktop Neo Theme — Setup Guide">
+  <meta property="og:title" content="Hermes Desktop Neo Theme - Setup Guide">
   <meta property="og:description" content="Install the Matrix digital rain Neo Theme for Hermes Desktop Electron app. Complete cyberpunk visual overhaul with canvas animations.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Desktop Neo Theme — Setup Guide">
+  <meta name="twitter:title" content="Hermes Desktop Neo Theme - Setup Guide">
   <meta name="twitter:description" content="Install the Matrix digital rain Neo Theme for Hermes Desktop Electron app. Complete cyberpunk visual overhaul with canvas animations.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Desktop Neo Theme \u2014 Setup Guide",
+    "name": "Hermes Desktop Neo Theme - Setup Guide",
     "description": "Install the Matrix digital rain Neo Theme for Hermes Desktop Electron app. Complete cyberpunk visual overhaul with canvas animations.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Desktop Neo Theme — Setup Guide
+              Hermes Desktop Neo Theme - Setup Guide
             
           </span>
         </div>
@@ -10166,15 +10166,15 @@
   
 
 
-<h1 id="hermes-desktop-neo-theme-full-setup-guide">Hermes Desktop Neo Theme — Full Setup Guide<a class="headerlink" href="#hermes-desktop-neo-theme-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-desktop-neo-theme-full-setup-guide">Hermes Desktop Neo Theme - Full Setup Guide<a class="headerlink" href="#hermes-desktop-neo-theme-full-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p>A complete Matrix/cyberpunk built-in theme for the Hermes Desktop Electron app. Drop-in 3 files: <code>presets.ts</code>, <code>styles.css</code>, <code>context.tsx</code>.</p>
 <hr />
 <h2 id="features">Features<a class="headerlink" href="#features" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Matrix digital rain</strong> — Canvas animation of binary 0/1 falling code, bold fluorescent green, 50ms frame rate, auto-inject into <code>#root</code> DOM</li>
-<li><strong>Full dark-mode color palette</strong> — Green phosphor (<code>#00ff41</code> / <code>#c8ffc8</code>) on pure black</li>
-<li><strong>Light-mode safe</strong> — <code>html:has(body.neo-active)</code> + <code>documentElement.classList.add('dark')</code> double lock prevents theme bleed</li>
-<li><strong>Tooltip/Bubble/Button fixes</strong> — Custom CSS overrides prevent the bg-foreground/text-background inversion trap</li>
+<li><strong>Matrix digital rain</strong> - Canvas animation of binary 0/1 falling code, bold fluorescent green, 50ms frame rate, auto-inject into <code>#root</code> DOM</li>
+<li><strong>Full dark-mode color palette</strong> - Green phosphor (<code>#00ff41</code> / <code>#c8ffc8</code>) on pure black</li>
+<li><strong>Light-mode safe</strong> - <code>html:has(body.neo-active)</code> + <code>documentElement.classList.add('dark')</code> double lock prevents theme bleed</li>
+<li><strong>Tooltip/Bubble/Button fixes</strong> - Custom CSS overrides prevent the bg-foreground/text-background inversion trap</li>
 <li><strong>Noto Sans SC</strong> leading font stack with Source Code Pro fallback for legible Chinese</li>
 <li><strong>Neon glow borders</strong> on search fields, scroll-to-top buttons, focus rings</li>
 <li><strong>16-color green ANSI</strong> terminal palette</li>
@@ -10182,7 +10182,7 @@
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Hermes Desktop</strong> installed (Electron app — macOS <code>.app</code>, Linux AppImage, or Windows <code>.exe</code>)</li>
+<li><strong>Hermes Desktop</strong> installed (Electron app - macOS <code>.app</code>, Linux AppImage, or Windows <code>.exe</code>)</li>
 <li><strong>Hermes Agent source code</strong> accessible locally (needed to rebuild the asar)</li>
 <li><strong>Node.js 20+</strong> and <strong>npm</strong> (for <code>npm run build</code> and <code>npx asar</code>)</li>
 <li>Git (to clone the theme repo)</li>
@@ -10204,7 +10204,7 @@ cp<span class="w"> </span>context.tsx<span class="w">  </span>&lt;hermes-agent&g
 npm<span class="w"> </span>run<span class="w"> </span>build
 
 <span class="c1"># 4. Pack the asar</span>
-<span class="c1"># ⚠️ NEVER use `npx asar pack dist app.asar` — missing package.json + electron/main.cjs will crash</span>
+<span class="c1"># ⚠️ NEVER use `npx asar pack dist app.asar` - missing package.json + electron/main.cjs will crash</span>
 rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>/tmp/neo-asar-root
 cp<span class="w"> </span>-r<span class="w"> </span>dist<span class="w"> </span>assets<span class="w"> </span>electron<span class="w"> </span>public<span class="w"> </span>/tmp/neo-asar-root/
 cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root/
@@ -10213,7 +10213,7 @@ cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root
 <span class="c1"># 5. Restart Hermes Desktop, Cmd+K → /skin neo</span>
 </code></pre></div>
 <h3 id="important-must-pack-the-complete-tree">Important: MUST pack the complete tree<a class="headerlink" href="#important-must-pack-the-complete-tree" title="Anchor link to this section">&para;</a></h3>
-<p>The common mistake is running <code>npx asar pack dist app.asar</code>. This only packs the <code>dist/</code> directory and <strong>omits</strong> <code>package.json</code>, <code>electron/main.cjs</code>, and other files the Electron runtime needs — the app will crash on launch.</p>
+<p>The common mistake is running <code>npx asar pack dist app.asar</code>. This only packs the <code>dist/</code> directory and <strong>omits</strong> <code>package.json</code>, <code>electron/main.cjs</code>, and other files the Electron runtime needs - the app will crash on launch.</p>
 <p>Always include: <code>dist/</code>, <code>assets/</code>, <code>electron/</code>, <code>public/</code>, and <code>package.json</code>.</p>
 <hr />
 <h2 id="macos-paths-reference">macOS Paths Reference<a class="headerlink" href="#macos-paths-reference" title="Anchor link to this section">&para;</a></h2>
@@ -10270,7 +10270,7 @@ cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root
 </code></pre></div>
 <hr />
 <h2 id="restore-after-hermes-desktop-update-5-min">Restore After Hermes Desktop Update (~5 min)<a class="headerlink" href="#restore-after-hermes-desktop-update-5-min" title="Anchor link to this section">&para;</a></h2>
-<p>When Hermes Desktop updates, it replaces <code>app.asar</code> — your Neo theme is lost. To restore:</p>
+<p>When Hermes Desktop updates, it replaces <code>app.asar</code> - your Neo theme is lost. To restore:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Pull latest theme (or re-clone)</span>
 <span class="nb">cd</span><span class="w"> </span>~/hermes-desktop-neo-theme
 git<span class="w"> </span>pull
@@ -10337,7 +10337,7 @@ cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <h3 id="app-crashes-after-asar-pack">App crashes after asar pack<a class="headerlink" href="#app-crashes-after-asar-pack" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Symptom:</strong> Hermes Desktop won't launch, or shows a white screen.</p>
-<p><strong>Cause:</strong> Incomplete asar pack — missing <code>package.json</code>, <code>electron/</code>, or <code>assets/</code>.</p>
+<p><strong>Cause:</strong> Incomplete asar pack - missing <code>package.json</code>, <code>electron/</code>, or <code>assets/</code>.</p>
 <p><strong>Fix:</strong> Re-pack with ALL required directories:
 <div class="highlight"><pre><span></span><code>rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>/tmp/neo-asar-root
 cp<span class="w"> </span>-r<span class="w"> </span>dist<span class="w"> </span>assets<span class="w"> </span>electron<span class="w"> </span>public<span class="w"> </span>/tmp/neo-asar-root/
@@ -10364,9 +10364,9 @@ git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> 
 <hr />
 <h2 id="related-tools">Related Tools<a class="headerlink" href="#related-tools" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/mdgld/hermes-skins">hermes-skins</a> — Monokai-based TUI/CLI skins</li>
-<li><a href="https://github.com/Joello2925/hermes-mod">hermes-mod</a> — Web UI for managing CLI skins</li>
-<li><a href="https://github.com/aradotso/hermes-skills">Hermes Desktop Companion</a> — Desktop agent companion app</li>
+<li><a href="https://github.com/mdgld/hermes-skins">hermes-skins</a> - Monokai-based TUI/CLI skins</li>
+<li><a href="https://github.com/Joello2925/hermes-mod">hermes-mod</a> - Web UI for managing CLI skins</li>
+<li><a href="https://github.com/aradotso/hermes-skills">Hermes Desktop Companion</a> - Desktop agent companion app</li>
 </ul>
 <hr />
 <p><em>Powered by CorpusIQ</em></p>

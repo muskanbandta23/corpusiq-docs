@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes Dojo — Self-Improvement System Setup Guide</title>
+    <title>Hermes Dojo - Self-Improvement System Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-dojo-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Dojo — Self-Improvement System Setup Guide">
+  <meta property="og:title" content="Hermes Dojo - Self-Improvement System Setup Guide">
   <meta property="og:description" content="Install and configure the Hermes Dojo self-improvement system that monitors agent performance, finds weak skills, fixes them via self-evolution, and reports">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Dojo — Self-Improvement System Setup Guide">
+  <meta name="twitter:title" content="Hermes Dojo - Self-Improvement System Setup Guide">
   <meta name="twitter:description" content="Install and configure the Hermes Dojo self-improvement system that monitors agent performance, finds weak skills, fixes them via self-evolution, and reports">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Dojo \u2014 Self-Improvement System Setup Guide",
+    "name": "Hermes Dojo - Self-Improvement System Setup Guide",
     "description": "Install and configure the Hermes Dojo self-improvement system that monitors agent performance, finds weak skills, fixes them via self-evolution, and reports",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-dojo-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Dojo — Self-Improvement System Setup Guide
+              Hermes Dojo - Self-Improvement System Setup Guide
             
           </span>
         </div>
@@ -10155,9 +10155,9 @@
   
 
 
-<h1 id="hermes-dojo-self-improvement-system-setup-guide">Hermes Dojo — Self-Improvement System Setup Guide<a class="headerlink" href="#hermes-dojo-self-improvement-system-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>The Hermes Dojo is a self-improvement system for Hermes Agent. It monitors agent performance, identifies weak skills, applies fixes through self-evolution, and generates detailed improvement reports. Think of it as a personal trainer for your Hermes agent — constantly watching, evaluating, and strengthening.</p>
-<p><strong>Publisher:</strong> <a href="https://github.com/yonkoo11/hermes-dojo">yonkoo11/hermes-dojo</a> — 138⭐<br />
+<h1 id="hermes-dojo-self-improvement-system-setup-guide">Hermes Dojo - Self-Improvement System Setup Guide<a class="headerlink" href="#hermes-dojo-self-improvement-system-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p>The Hermes Dojo is a self-improvement system for Hermes Agent. It monitors agent performance, identifies weak skills, applies fixes through self-evolution, and generates detailed improvement reports. Think of it as a personal trainer for your Hermes agent - constantly watching, evaluating, and strengthening.</p>
+<p><strong>Publisher:</strong> <a href="https://github.com/yonkoo11/hermes-dojo">yonkoo11/hermes-dojo</a> - 138⭐<br />
 <strong>Source:</strong> skills.sh<br />
 <strong>Quality Tier:</strong> 🔵 Community (untested by CorpusIQ)</p>
 <hr />
@@ -10167,7 +10167,7 @@
 <li><strong>Skill Gap Detection:</strong> Identifies weak or underperforming skills in the agent's repertoire</li>
 <li><strong>Self-Evolution:</strong> Automatically patches and improves skills that show deficiencies</li>
 <li><strong>Improvement Reports:</strong> Generates detailed reports on what was fixed and how performance changed</li>
-<li><strong>Training Loop:</strong> Runs in a continuous improvement cycle — monitor → detect → fix → report</li>
+<li><strong>Training Loop:</strong> Runs in a continuous improvement cycle - monitor → detect → fix → report</li>
 </ul>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -10215,7 +10215,7 @@
 <p>Create <code>~/.hermes/dojo/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Hermes Dojo Configuration</span>
 <span class="nt">profile</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">corpusiq</span><span class="w">                    </span><span class="c1"># Profile to monitor and improve</span>
-<span class="nt">check_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3600</span><span class="w">                 </span><span class="c1"># How often to check (seconds) — hourly</span>
+<span class="nt">check_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3600</span><span class="w">                 </span><span class="c1"># How often to check (seconds) - hourly</span>
 <span class="nt">improvement_threshold</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.7</span><span class="w">          </span><span class="c1"># Skill score below this triggers improvement</span>
 <span class="nt">max_auto_fixes_per_cycle</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span><span class="w">         </span><span class="c1"># Limit automatic changes per cycle</span>
 <span class="nt">report_detail</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">full</span><span class="w">                 </span><span class="c1"># full | summary | metrics</span>
@@ -10230,7 +10230,7 @@
 <h3 id="run-continuous-monitoring">Run Continuous Monitoring<a class="headerlink" href="#run-continuous-monitoring" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-dojo<span class="w"> </span>--action<span class="w"> </span>watch
 </code></pre></div>
-<p>Runs the Dojo in continuous mode — it monitors, detects weaknesses, applies fixes, and reports on the configured interval.</p>
+<p>Runs the Dojo in continuous mode - it monitors, detects weaknesses, applies fixes, and reports on the configured interval.</p>
 <h3 id="generate-a-report">Generate a Report<a class="headerlink" href="#generate-a-report" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-dojo<span class="w"> </span>--action<span class="w"> </span>report
 </code></pre></div>
@@ -10240,9 +10240,9 @@
 <p>When the Dojo runs an improvement cycle, it:</p>
 <ol>
 <li><strong>Audits</strong> all installed skills for performance metrics</li>
-<li><strong>Scores</strong> each skill on a 0.0–1.0 scale based on error rates, completion times, and success patterns</li>
+<li><strong>Scores</strong> each skill on a 0.0-1.0 scale based on error rates, completion times, and success patterns</li>
 <li><strong>Identifies</strong> skills below the configured threshold</li>
-<li><strong>Attemts fixes</strong> — reads the skill's SKILL.md, identifies gaps, and proposes improvements</li>
+<li><strong>Attemts fixes</strong> - reads the skill's SKILL.md, identifies gaps, and proposes improvements</li>
 <li><strong>Applies changes</strong> if confidence is high enough</li>
 <li><strong>Reports</strong> what was changed and the before/after scores</li>
 </ol>
@@ -10269,10 +10269,10 @@
 <li><strong>Continuous Optimization:</strong> Keep the agent's 96+ skills at peak performance</li>
 </ul>
 <h3 id="recommended-cron-setup">Recommended Cron Setup<a class="headerlink" href="#recommended-cron-setup" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Weekly skill audit — Monday 6 AM</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Weekly skill audit - Monday 6 AM</span>
 <span class="m">0</span><span class="w"> </span><span class="m">6</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span><span class="m">1</span><span class="w"> </span>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-dojo<span class="w"> </span>--action<span class="w"> </span>audit<span class="w"> </span>--profile<span class="w"> </span>corpusiq
 
-<span class="c1"># Daily improvement report — 6 PM</span>
+<span class="c1"># Daily improvement report - 6 PM</span>
 <span class="m">0</span><span class="w"> </span><span class="m">18</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-dojo<span class="w"> </span>--action<span class="w"> </span>report<span class="w"> </span>--profile<span class="w"> </span>corpusiq
 </code></pre></div>
 <hr />
@@ -10323,9 +10323,9 @@ ls<span class="w"> </span>~/.hermes/dojo/reports/
 <hr />
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/hermes-agent-self-evolution-setup">hermes-agent-self-evolution</a> — Auto-learning framework</li>
-<li><a href="/hermes/skills/catalog/skill-vetter-setup">skill-vetter</a> — Security audit for skills</li>
-<li><a href="/hermes/skills/catalog/skill-creator-setup">skill-creator</a> — Anthropic's skill creation framework</li>
+<li><a href="/hermes/skills/catalog/hermes-agent-self-evolution-setup">hermes-agent-self-evolution</a> - Auto-learning framework</li>
+<li><a href="/hermes/skills/catalog/skill-vetter-setup">skill-vetter</a> - Security audit for skills</li>
+<li><a href="/hermes/skills/catalog/skill-creator-setup">skill-creator</a> - Anthropic's skill creation framework</li>
 </ul>
 <hr />
 <p><em>Discovered July 31, 2026 · Published by yonkoo11 · 138 GitHub stars</em></p>

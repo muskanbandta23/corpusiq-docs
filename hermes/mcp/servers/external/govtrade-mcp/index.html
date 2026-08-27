@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Congressional trading disclosures over MCP — STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on">
+        <meta name="description" content="Congressional trading disclosures over MCP - STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/govtrade-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="GovTrade MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Congressional trading disclosures over MCP — STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on">
+  <meta property="og:description" content="Congressional trading disclosures over MCP - STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GovTrade MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Congressional trading disclosures over MCP — STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on">
+  <meta name="twitter:description" content="Congressional trading disclosures over MCP - STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "GovTrade MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Congressional trading disclosures over MCP \u2014 STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on",
+    "description": "Congressional trading disclosures over MCP - STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/govtrade-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="govtrade-mcp">GovTrade MCP<a class="headerlink" href="#govtrade-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Self-hosted stdio MCP server (Node, x402 payments)</strong> — GovTrade wraps the live GovTrade x402 API so any agent can pull congressional trading disclosures with pre-computed anomaly scoring. Every trade is sourced from official STOCK Act filings for the House and Senate, scored for signal strength, and paid per call in USDC on Base with no subscription or API key. Built by Darcie Porter (<code>github.com/iamdarcie/govtrade-mcp</code>).</p>
+<p><strong>Self-hosted stdio MCP server (Node, x402 payments)</strong> - GovTrade wraps the live GovTrade x402 API so any agent can pull congressional trading disclosures with pre-computed anomaly scoring. Every trade is sourced from official STOCK Act filings for the House and Senate, scored for signal strength, and paid per call in USDC on Base with no subscription or API key. Built by Darcie Porter (<code>github.com/iamdarcie/govtrade-mcp</code>).</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted stdio (Node)
 Auth: Funded wallet (EVM private key, USDC on Base)
 Endpoint: GovTrade x402 API at govtrade-x402.onrender.com
@@ -10057,8 +10057,8 @@ Category: Finance
 Built by: github.com/iamdarcie/govtrade-mcp
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Congressional trading data is public but effectively unusable raw: STOCK Act filings are spread across two chambers, filed with lags, and carry no signal about which disclosures actually matter. GovTrade turns that into scored intelligence. <strong>An agent doing market or diligence work gets, per trade, a signal strength score, a Low/Medium/High label, and natural-language reasoning for why the trade is notable</strong> — unusual size versus the politician's own history, committee overlap, or federal contract ties.</p>
-<p>For operators, this removes two manual workflows: keeping a watchlist of politically connected tickers, and eyeballing raw disclosure PDFs during due diligence. The server pays the underlying API per call from a funded wallet, so there is no account provisioning or key management to rotate — just a wallet with USDC and a stdio config block.</p>
+<p>Congressional trading data is public but effectively unusable raw: STOCK Act filings are spread across two chambers, filed with lags, and carry no signal about which disclosures actually matter. GovTrade turns that into scored intelligence. <strong>An agent doing market or diligence work gets, per trade, a signal strength score, a Low/Medium/High label, and natural-language reasoning for why the trade is notable</strong> - unusual size versus the politician's own history, committee overlap, or federal contract ties.</p>
+<p>For operators, this removes two manual workflows: keeping a watchlist of politically connected tickers, and eyeballing raw disclosure PDFs during due diligence. The server pays the underlying API per call from a funded wallet, so there is no account provisioning or key management to rotate - just a wallet with USDC and a stdio config block.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <p>The live tool list is served from the endpoint and was not extractable from the listing (no tools detected). Tools below are as described in the listing prose.</p>
 <table>
@@ -10100,7 +10100,7 @@ Built by: github.com/iamdarcie/govtrade-mcp
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Setup requires a funded wallet with USDC on Base — the server pays the GovTrade API via x402 on every call. See the repository README for full instructions.</p>
+<p>Setup requires a funded wallet with USDC on Base - the server pays the GovTrade API via x402 on every call. See the repository README for full instructions.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Fund managers and traders</strong> can screen a ticker for recent congressional activity and whether any trade looks anomalous</li>
@@ -10109,14 +10109,14 @@ Built by: github.com/iamdarcie/govtrade-mcp
 <li><strong>Newsroom and research agents</strong> get source-attributed STOCK Act data with reasoning attached to every signal</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>GovTrade feeds the financial-connector layer CorpusIQ already exposes. Pair it with the Stripe connector to reconcile any x402 wallet top-ups against business spend, and with QuickBooks to log data-procurement costs as research expense. An operator can compose a diligence workflow where CorpusIQ pulls the company profile and payment history from QuickBooks and Stripe, then asks GovTrade whether its executives or relevant committee members traded the stock recently — turning a disclosure hunt into one agent call. The wallet-based pricing means every call leaves a USDC settlement trail that operators can audit alongside the rest of the financial stack.</p>
+<p>GovTrade feeds the financial-connector layer CorpusIQ already exposes. Pair it with the Stripe connector to reconcile any x402 wallet top-ups against business spend, and with QuickBooks to log data-procurement costs as research expense. An operator can compose a diligence workflow where CorpusIQ pulls the company profile and payment history from QuickBooks and Stripe, then asks GovTrade whether its executives or relevant committee members traded the stock recently - turning a disclosure hunt into one agent call. The wallet-based pricing means every call leaves a USDC settlement trail that operators can audit alongside the rest of the financial stack.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet, single-author repo</li>
+<li>Brand new - no track record yet, single-author repo</li>
 <li>Pay-per-call requires a funded Base wallet with USDC, an extra operational step versus API keys</li>
-<li>Congressional data is disclosed with lags — signals are computed on filings, not real-time trades</li>
+<li>Congressional data is disclosed with lags - signals are computed on filings, not real-time trades</li>
 <li>No tools detected on the listing; verify the live tool list against the repo before production use</li>
-<li>Self-hosted stdio only — no published remote endpoint</li>
+<li>Self-hosted stdio only - no published remote endpoint</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

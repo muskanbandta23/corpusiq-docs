@@ -23,7 +23,7 @@
     
     
   
-    <title>Security Hardening for AI Agents — Full Setup Guide</title>
+    <title>Security Hardening for AI Agents - Full Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/security-and-hardening-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Security Hardening for AI Agents — Full Setup Guide">
+  <meta property="og:title" content="Security Hardening for AI Agents - Full Setup Guide">
   <meta property="og:description" content="Install and use addyosmani/agent-skills security-and-hardening. 12 hardening domains for production AI agent deployments by Addy Osmani (Google Chrome)">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Security Hardening for AI Agents — Full Setup Guide">
+  <meta name="twitter:title" content="Security Hardening for AI Agents - Full Setup Guide">
   <meta name="twitter:description" content="Install and use addyosmani/agent-skills security-and-hardening. 12 hardening domains for production AI agent deployments by Addy Osmani (Google Chrome)">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Security Hardening for AI Agents \u2014 Full Setup Guide",
+    "name": "Security Hardening for AI Agents - Full Setup Guide",
     "description": "Install and use addyosmani/agent-skills security-and-hardening. 12 hardening domains for production AI agent deployments by Addy Osmani (Google Chrome)",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/security-and-hardening-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Security Hardening for AI Agents — Full Setup Guide
+              Security Hardening for AI Agents - Full Setup Guide
             
           </span>
         </div>
@@ -10215,12 +10215,12 @@
   
 
 
-<h1 id="security-hardening-for-ai-agents-setup-guide">Security Hardening for AI Agents — Setup Guide<a class="headerlink" href="#security-hardening-for-ai-agents-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="security-hardening-for-ai-agents-setup-guide">Security Hardening for AI Agents - Setup Guide<a class="headerlink" href="#security-hardening-for-ai-agents-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills</a>
 <strong>Skill:</strong> <code>security-and-hardening</code> (13,100+ installs)
 <strong>Category:</strong> Security
 <strong>Author:</strong> Addy Osmani (Engineering Lead, Google Chrome)</p>
-<p>The first comprehensive security hardening guide purpose-built for AI agent threat models. Covers 12 hardening domains: prompt injection defense, tool call authorization, filesystem sandboxing, network egress controls, credential management, dependency auditing, telemetry minimization, runtime integrity verification, and more. Designed for agents with tool access — exactly the Hermes use case.</p>
+<p>The first comprehensive security hardening guide purpose-built for AI agent threat models. Covers 12 hardening domains: prompt injection defense, tool call authorization, filesystem sandboxing, network egress controls, credential management, dependency auditing, telemetry minimization, runtime integrity verification, and more. Designed for agents with tool access - exactly the Hermes use case.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>addyosmani/agent-skills@security-and-hardening
@@ -10272,7 +10272,7 @@
 <h3 id="10-audit-logging">10. Audit Logging<a class="headerlink" href="#10-audit-logging" title="Anchor link to this section">&para;</a></h3>
 <p>Structured audit trail of every agent action: tool invoked, parameters passed, result returned, timestamp, session ID. Immutable log storage. Alert on anomalous patterns (unusual tool calls, off-hours activity, unexpected file access).</p>
 <h3 id="11-rate-limiting-dos-protection">11. Rate Limiting &amp; DoS Protection<a class="headerlink" href="#11-rate-limiting-dos-protection" title="Anchor link to this section">&para;</a></h3>
-<p>Per-tool rate limiting to prevent runaway agent loops. Circuit breakers that halt the agent after N consecutive errors. Token budget enforcement — terminate session if context window approaches limits.</p>
+<p>Per-tool rate limiting to prevent runaway agent loops. Circuit breakers that halt the agent after N consecutive errors. Token budget enforcement - terminate session if context window approaches limits.</p>
 <h3 id="12-recovery-rollback">12. Recovery &amp; Rollback<a class="headerlink" href="#12-recovery-rollback" title="Anchor link to this section">&para;</a></h3>
 <p>Snapshot agent state before destructive operations. Rollback capability for file modifications, database writes, and configuration changes. Automatic cleanup of failed session artifacts.</p>
 <hr />
@@ -10344,23 +10344,23 @@ find<span class="w"> </span>~/.hermes/profiles<span class="w"> </span>-name<span
 <tbody>
 <tr>
 <td><strong>Cron job agents</strong></td>
-<td>Session isolation, rate limiting, audit logging — prevent runaway cron tasks from consuming resources or leaking data</td>
+<td>Session isolation, rate limiting, audit logging - prevent runaway cron tasks from consuming resources or leaking data</td>
 </tr>
 <tr>
 <td><strong>Multi-tenant Hermes</strong></td>
-<td>Filesystem sandboxing, credential management, session isolation — prevent cross-tenant data leakage</td>
+<td>Filesystem sandboxing, credential management, session isolation - prevent cross-tenant data leakage</td>
 </tr>
 <tr>
 <td><strong>Customer-facing agents</strong></td>
-<td>Prompt injection defense, tool call authorization, telemetry minimization — protect against adversarial users</td>
+<td>Prompt injection defense, tool call authorization, telemetry minimization - protect against adversarial users</td>
 </tr>
 <tr>
 <td><strong>Growth agents (social)</strong></td>
-<td>Network egress controls, rate limiting, audit logging — prevent platform bans from aggressive automation</td>
+<td>Network egress controls, rate limiting, audit logging - prevent platform bans from aggressive automation</td>
 </tr>
 <tr>
 <td><strong>CI/CD integration</strong></td>
-<td>Dependency auditing, runtime integrity verification, recovery/rollback — secure the software supply chain</td>
+<td>Dependency auditing, runtime integrity verification, recovery/rollback - secure the software supply chain</td>
 </tr>
 </tbody>
 </table>
@@ -10374,11 +10374,11 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 
 <span class="c1"># Check filesystem permissions</span>
 find<span class="w"> </span>~/.hermes<span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span>-perm<span class="w"> </span>/o+r<span class="w"> </span>-ls<span class="w"> </span><span class="m">2</span>&gt;/dev/null
-<span class="c1"># Should return nothing — no world-readable files</span>
+<span class="c1"># Should return nothing - no world-readable files</span>
 
 <span class="c1"># Check for exposed credentials</span>
 grep<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;API_KEY\|TOKEN\|SECRET\|PASSWORD&quot;</span><span class="w"> </span>~/.hermes/profiles/<span class="w"> </span>--include<span class="o">=</span><span class="s2">&quot;*.yaml&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
-<span class="c1"># Should return nothing — credentials should be in env vars, not config files</span>
+<span class="c1"># Should return nothing - credentials should be in env vars, not config files</span>
 </code></pre></div>
 <hr />
 <h2 id="integration-with-clawsec-suite">Integration with ClawSec Suite<a class="headerlink" href="#integration-with-clawsec-suite" title="Anchor link to this section">&para;</a></h2>

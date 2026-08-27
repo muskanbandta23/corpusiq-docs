@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Live global-intelligence MCP server for AI agents — markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all">
+        <meta name="description" content="Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/world-monitor-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="World Monitor MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Live global-intelligence MCP server for AI agents — markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all">
+  <meta property="og:description" content="Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="World Monitor MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Live global-intelligence MCP server for AI agents — markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all">
+  <meta name="twitter:description" content="Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "World Monitor MCP - CorpusIQ Docs",
-    "description": "Live global-intelligence MCP server for AI agents \u2014 markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all",
+    "description": "Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/world-monitor-mcp",
     
     "author": {
@@ -10047,7 +10047,7 @@
 
 
 <h1 id="world-monitor-mcp">World Monitor MCP<a class="headerlink" href="#world-monitor-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.1 or API key)</strong> — World Monitor exposes its global-intelligence platform over MCP: 63 read-only tools spanning markets, conflicts, aviation, maritime activity, energy, climate, cyber threats, supply chains, sanctions, and procurement, all backed by hundreds of institutional and open-source providers with per-observation provenance and freshness metadata.</p>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth 2.1 or API key)</strong> - World Monitor exposes its global-intelligence platform over MCP: 63 read-only tools spanning markets, conflicts, aviation, maritime activity, energy, climate, cyber threats, supply chains, sanctions, and procurement, all backed by hundreds of institutional and open-source providers with per-observation provenance and freshness metadata.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth 2.1 (first-connect browser flow) or API key
 Endpoint: https://worldmonitor.app/mcp
@@ -10057,8 +10057,8 @@ Category: Research / Geopolitical Intelligence
 Built by: koala73 (github.com/koala73/worldmonitor, AGPL-3.0)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Most agents can search the web, but search results do not give a stable operating picture. World Monitor normalizes hundreds of official, institutional, commercial, and open-source providers into consistent intelligence surfaces an agent can query with one tool call each — with <code>cached_at</code> and <code>stale</code> fields on every result so the agent can tell a current observation from a degraded snapshot.</p>
-<p><strong>The differentiator is source-attributed, freshness-stamped, structured intelligence across every domain that breaks a supply chain</strong> — chokepoint transit counts on a 10-minute cadence, OFAC sanctions lists, tariff trends, energy storage levels, maritime disruptions, and open procurement opportunities — plus server-side JMESPath projection on every tool so large responses get trimmed before they enter the model context.</p>
+<p>Most agents can search the web, but search results do not give a stable operating picture. World Monitor normalizes hundreds of official, institutional, commercial, and open-source providers into consistent intelligence surfaces an agent can query with one tool call each - with <code>cached_at</code> and <code>stale</code> fields on every result so the agent can tell a current observation from a degraded snapshot.</p>
+<p><strong>The differentiator is source-attributed, freshness-stamped, structured intelligence across every domain that breaks a supply chain</strong> - chokepoint transit counts on a 10-minute cadence, OFAC sanctions lists, tariff trends, energy storage levels, maritime disruptions, and open procurement opportunities - plus server-side JMESPath projection on every tool so large responses get trimmed before they enter the model context.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10158,14 +10158,14 @@ Built by: koala73 (github.com/koala73/worldmonitor, AGPL-3.0)
 <li><strong>Security teams</strong> get CISA KEV, malware IOCs, and infrastructure outage status from one endpoint</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>World Monitor is the outside-world layer that CorpusIQ's inside-the-business connectors lack. A composed workflow: use Stripe and QuickBooks connectors to map revenue exposure by country, then World Monitor's <code>get_country_risk</code> and <code>get_supply_chain_data</code> to score those same countries for instability and logistics stress. Feed Google Ads and Meta Ads connectors with <code>get_tariff_trends</code> and consumer-price data to reallocate spend away from softening markets. It also complements the catalogued NERAI Risk Intelligence server — World Monitor is the broader surveillance surface, NERAI the calibrated forecasting layer.</p>
+<p>World Monitor is the outside-world layer that CorpusIQ's inside-the-business connectors lack. A composed workflow: use Stripe and QuickBooks connectors to map revenue exposure by country, then World Monitor's <code>get_country_risk</code> and <code>get_supply_chain_data</code> to score those same countries for instability and logistics stress. Feed Google Ads and Meta Ads connectors with <code>get_tariff_trends</code> and consumer-price data to reallocate spend away from softening markets. It also complements the catalogued NERAI Risk Intelligence server - World Monitor is the broader surveillance surface, NERAI the calibrated forecasting layer.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new listing — no long track record yet</li>
+<li>Brand new listing - no long track record yet</li>
 <li>Commercial cloud service; source is AGPL-3.0 but the hosted endpoint is the product</li>
 <li>Pro tools (<code>search_intel_history</code>, <code>get_similar_events</code>, <code>get_intel_timeline</code>) are gated behind the Pro tier</li>
 <li>China macro is limited to official 12-series data; upstream gaps are declared in the tool docs</li>
-<li>AI-generated forecasts and briefs are model outputs — always check the source fields</li>
+<li>AI-generated forecasts and briefs are model outputs - always check the source fields</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

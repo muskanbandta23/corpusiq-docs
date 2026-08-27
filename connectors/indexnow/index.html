@@ -9976,7 +9976,7 @@
   <a href="#step-1-generate-your-key" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1 — Generate your key
+        Step 1 - Generate your key
       
     </span>
   </a>
@@ -9987,7 +9987,7 @@
   <a href="#step-2-host-the-key-file" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2 — Host the key file
+        Step 2 - Host the key file
       
     </span>
   </a>
@@ -9998,7 +9998,7 @@
   <a href="#step-3-verify-the-file-is-live" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3 — Verify the file is live
+        Step 3 - Verify the file is live
       
     </span>
   </a>
@@ -10009,7 +10009,7 @@
   <a href="#step-4-add-credentials-to-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4 — Add credentials to CorpusIQ
+        Step 4 - Add credentials to CorpusIQ
       
     </span>
   </a>
@@ -10098,24 +10098,24 @@
 
 <h1 id="indexnow">IndexNow<a class="headerlink" href="#indexnow" title="Anchor link to this section">&para;</a></h1>
 <p>Automatically notify search engines (Bing, Yandex, Seznam, Naver) the moment your URLs
-change — without waiting for a crawler to find them. IndexNow is a push protocol: you submit,
+change - without waiting for a crawler to find them. IndexNow is a push protocol: you submit,
 search engines act, discovery lag drops from days to minutes.</p>
 <p>CorpusIQ pairs IndexNow with your existing connectors. When a Shopify product goes live, a
 blog post publishes, or a docs page updates, CorpusIQ can surface those URLs and hand them
 to IndexNow in one step.</p>
 <h2 id="what-it-unlocks">What it unlocks<a class="headerlink" href="#what-it-unlocks" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Instant crawl triggers</strong> — submit new/updated/deleted URLs the moment they change</li>
-<li><strong>Batch submission</strong> — up to 10,000 URLs per POST, mixing http and https</li>
-<li><strong>Verified ownership</strong> — host a single text file once; search engines cache it</li>
-<li><strong>Multi-engine reach</strong> — one submission propagates to all IndexNow-compatible engines</li>
-<li><strong>SEO closed-loop</strong> — combine with Search Console or Semrush to track ranking improvement
+<li><strong>Instant crawl triggers</strong> - submit new/updated/deleted URLs the moment they change</li>
+<li><strong>Batch submission</strong> - up to 10,000 URLs per POST, mixing http and https</li>
+<li><strong>Verified ownership</strong> - host a single text file once; search engines cache it</li>
+<li><strong>Multi-engine reach</strong> - one submission propagates to all IndexNow-compatible engines</li>
+<li><strong>SEO closed-loop</strong> - combine with Search Console or Semrush to track ranking improvement
   after submission</li>
 </ul>
 <h2 id="before-you-connect">Before you connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Your website domain (e.g. <code>www.corpusiq.io</code>)</li>
-<li>An IndexNow API key — minimum 8 characters, alphanumeric + dashes</li>
+<li>An IndexNow API key - minimum 8 characters, alphanumeric + dashes</li>
 <li>Generate a key at <a href="https://www.indexnow.org">indexnow.org</a> or create your own
     random hex string (e.g. <code>openssl rand -hex 16</code>)</li>
 <li>Ability to host a <code>.txt</code> file at your domain root <strong>or</strong> at a custom path</li>
@@ -10123,27 +10123,27 @@ to IndexNow in one step.</p>
 </ul>
 <p>No account signup required. IndexNow is an open protocol.</p>
 <h2 id="how-to-connect">How to connect<a class="headerlink" href="#how-to-connect" title="Anchor link to this section">&para;</a></h2>
-<h3 id="step-1-generate-your-key">Step 1 — Generate your key<a class="headerlink" href="#step-1-generate-your-key" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-1-generate-your-key">Step 1 - Generate your key<a class="headerlink" href="#step-1-generate-your-key" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Generate a 32-hex-character key (recommended length)</span>
 openssl<span class="w"> </span>rand<span class="w"> </span>-hex<span class="w"> </span><span class="m">16</span>
 <span class="c1"># Example output: a3f9b2c1d4e5f678901234abcdef5678</span>
 </code></pre></div>
-<h3 id="step-2-host-the-key-file">Step 2 — Host the key file<a class="headerlink" href="#step-2-host-the-key-file" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-2-host-the-key-file">Step 2 - Host the key file<a class="headerlink" href="#step-2-host-the-key-file" title="Anchor link to this section">&para;</a></h3>
 <p>Create a UTF-8 text file named <code>{your-key}.txt</code> containing only the key on the first line.</p>
-<p><strong>Option A — Root directory (simplest):</strong></p>
+<p><strong>Option A - Root directory (simplest):</strong></p>
 <div class="highlight"><pre><span></span><code>https://www.corpusiq.io/a3f9b2c1d4e5f678901234abcdef5678.txt
 </code></pre></div>
 <p>File contents:
 <div class="highlight"><pre><span></span><code>a3f9b2c1d4e5f678901234abcdef5678
 </code></pre></div></p>
-<p><strong>Option B — Custom path (specify <code>keyLocation</code> in each request):</strong></p>
+<p><strong>Option B - Custom path (specify <code>keyLocation</code> in each request):</strong></p>
 <p>Place the file anywhere on the same host and include the full URL as <code>keyLocation</code> in your
 IndexNow requests.</p>
-<h3 id="step-3-verify-the-file-is-live">Step 3 — Verify the file is live<a class="headerlink" href="#step-3-verify-the-file-is-live" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-3-verify-the-file-is-live">Step 3 - Verify the file is live<a class="headerlink" href="#step-3-verify-the-file-is-live" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://www.corpusiq.io/a3f9b2c1d4e5f678901234abcdef5678.txt
 <span class="c1"># Should return the key string</span>
 </code></pre></div>
-<h3 id="step-4-add-credentials-to-corpusiq">Step 4 — Add credentials to CorpusIQ<a class="headerlink" href="#step-4-add-credentials-to-corpusiq" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-4-add-credentials-to-corpusiq">Step 4 - Add credentials to CorpusIQ<a class="headerlink" href="#step-4-add-credentials-to-corpusiq" title="Anchor link to this section">&para;</a></h3>
 <ol>
 <li>Open your CorpusIQ dashboard and click Connections.</li>
 <li>Find IndexNow and click Connect.</li>
@@ -10170,7 +10170,7 @@ key file to verify ownership; then they re-index your URL.</p>
 <span class="p">}</span>
 </code></pre></div></p>
 <p>A <code>200</code> response means the engine received your submission. It is not a guarantee of
-immediate indexing — it removes the discovery bottleneck.</p>
+immediate indexing - it removes the discovery bottleneck.</p>
 <p>Supported engines (all reachable via <code>api.indexnow.org</code>): Bing, Yandex, Seznam, Naver.</p>
 <h2 id="what-corpusiq-can-do-with-it">What CorpusIQ can do with it<a class="headerlink" href="#what-corpusiq-can-do-with-it" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10210,22 +10210,22 @@ immediate indexing — it removes the discovery bottleneck.</p>
 </code></pre></div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>HTTP 400</strong> — URL is malformed or not on the declared host. Verify the <code>host</code> field
+<li><strong>HTTP 400</strong> - URL is malformed or not on the declared host. Verify the <code>host</code> field
   matches the domain in every URL exactly (including <code>www</code> prefix if used).</li>
-<li><strong>HTTP 403</strong> — Key file not found or content mismatch. Re-check the file is publicly
+<li><strong>HTTP 403</strong> - Key file not found or content mismatch. Re-check the file is publicly
   accessible and contains only the key string (no trailing spaces or extra lines).</li>
-<li><strong>HTTP 422</strong> — Too many URLs in one request (max 10,000) or key format invalid
-  (must be 8–128 alphanumeric/dash characters).</li>
-<li><strong>HTTP 429</strong> — Rate limited. IndexNow guidelines allow up to 10,000 URLs/day per domain.
+<li><strong>HTTP 422</strong> - Too many URLs in one request (max 10,000) or key format invalid
+  (must be 8-128 alphanumeric/dash characters).</li>
+<li><strong>HTTP 429</strong> - Rate limited. IndexNow guidelines allow up to 10,000 URLs/day per domain.
   Spread submissions if you have a large site.</li>
-<li>Key file caching — search engines cache your key file. If you rotate the key, allow
+<li>Key file caching - search engines cache your key file. If you rotate the key, allow
   up to 24 hours for the new file to be picked up before submissions resume.</li>
 </ul>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>IndexNow is read-write from the network's perspective (you are pushing to external
   endpoints), but CorpusIQ never writes to your CMS or website.</li>
-<li>Submission acknowledges receipt only — actual re-crawl timing is at the search engine's
+<li>Submission acknowledges receipt only - actual re-crawl timing is at the search engine's
   discretion.</li>
 <li>Combine with <a href="../search-console">Search Console</a> and <a href="../semrush">Semrush</a> to measure
   ranking lift after submission.</li>

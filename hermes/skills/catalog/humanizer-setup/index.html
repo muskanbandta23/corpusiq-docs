@@ -23,7 +23,7 @@
     
     
   
-    <title>Humanizer — Anti-AI-Slop Text Humanizer Setup Guide</title>
+    <title>Humanizer - Anti-AI-Slop Text Humanizer Setup Guide</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/humanizer-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Humanizer — Anti-AI-Slop Text Humanizer Setup Guide">
+  <meta property="og:title" content="Humanizer - Anti-AI-Slop Text Humanizer Setup Guide">
   <meta property="og:description" content="Install and configure humanizer, the official Hermes Agent skill that strips AI-isms and adds real voice to text. 87 installs, built by Siqi Chen (@blader)">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Humanizer — Anti-AI-Slop Text Humanizer Setup Guide">
+  <meta name="twitter:title" content="Humanizer - Anti-AI-Slop Text Humanizer Setup Guide">
   <meta name="twitter:description" content="Install and configure humanizer, the official Hermes Agent skill that strips AI-isms and adds real voice to text. 87 installs, built by Siqi Chen (@blader)">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Humanizer \u2014 Anti-AI-Slop Text Humanizer Setup Guide",
+    "name": "Humanizer - Anti-AI-Slop Text Humanizer Setup Guide",
     "description": "Install and configure humanizer, the official Hermes Agent skill that strips AI-isms and adds real voice to text. 87 installs, built by Siqi Chen (@blader)",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/humanizer-setup",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Humanizer — Anti-AI-Slop Text Humanizer Setup Guide
+              Humanizer - Anti-AI-Slop Text Humanizer Setup Guide
             
           </span>
         </div>
@@ -10116,12 +10116,12 @@
   
 
 
-<h1 id="humanizer-setup-guide">Humanizer — Setup Guide<a class="headerlink" href="#humanizer-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="humanizer-setup-guide">Humanizer - Setup Guide<a class="headerlink" href="#humanizer-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/humanizer">nousresearch/hermes-agent</a> (87 peak installs)
 <strong>Category:</strong> Creative / Writing
 <strong>License:</strong> MIT · <strong>Author:</strong> Siqi Chen (@blader), ported by Hermes Agent
 <strong>Version:</strong> 2.5.1 · <strong>Platforms:</strong> Linux, macOS, Windows</p>
-<p>Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's "Signs of AI writing" guide maintained by WikiProject AI Cleanup, derived from observations of thousands of AI-generated text instances. LLMs use statistical algorithms that tend toward the most likely completion — this skill spots and strips those telltale patterns.</p>
+<p>Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's "Signs of AI writing" guide maintained by WikiProject AI Cleanup, derived from observations of thousands of AI-generated text instances. LLMs use statistical algorithms that tend toward the most likely completion - this skill spots and strips those telltale patterns.</p>
 <hr />
 <h2 id="what-it-detects-fixes">What It Detects &amp; Fixes<a class="headerlink" href="#what-it-detects-fixes" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10141,7 +10141,7 @@
 <tr>
 <td><strong>Hedging language</strong></td>
 <td>"It is worth noting that," "It is important to consider"</td>
-<td>Stripped — state the point directly</td>
+<td>Stripped - state the point directly</td>
 </tr>
 <tr>
 <td><strong>Forced structure</strong></td>
@@ -10251,17 +10251,17 @@ Hermes: [Returns de-slopped version]
 <hr />
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/songwriting-and-ai-music">songwriting-and-ai-music</a></strong> — AI music generation with similar creative voice control</li>
-<li><strong><a href="../ultimate-humanizer-setup">ultimate-humanizer</a></strong> — Community alternative with 50 patterns and 5D scoring</li>
-<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/research-paper-writing">research-paper-writing</a></strong> — Academic writing with the same anti-AI-slop pass</li>
+<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/songwriting-and-ai-music">songwriting-and-ai-music</a></strong> - AI music generation with similar creative voice control</li>
+<li><strong><a href="../ultimate-humanizer-setup">ultimate-humanizer</a></strong> - Community alternative with 50 patterns and 5D scoring</li>
+<li><strong><a href="https://skills.sh/nousresearch/hermes-agent/research-paper-writing">research-paper-writing</a></strong> - Academic writing with the same anti-AI-slop pass</li>
 </ul>
 <hr />
 <h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Run a pre-publish pass</strong> — Load humanizer before sending any user-facing text (release notes, docs, PR descriptions).</li>
-<li><strong>Combine with voice calibration</strong> — The 5-minute investment of providing a writing sample pays off in every subsequent humanization.</li>
-<li><strong>Not just for English</strong> — The patterns are language-agnostic; the skill works across any language the underlying model supports.</li>
-<li><strong>Iterative refinement</strong> — Run the humanizer, read the result, then ask for specific adjustments ("make it more casual," "shorter sentences," "add more personality").</li>
+<li><strong>Run a pre-publish pass</strong> - Load humanizer before sending any user-facing text (release notes, docs, PR descriptions).</li>
+<li><strong>Combine with voice calibration</strong> - The 5-minute investment of providing a writing sample pays off in every subsequent humanization.</li>
+<li><strong>Not just for English</strong> - The patterns are language-agnostic; the skill works across any language the underlying model supports.</li>
+<li><strong>Iterative refinement</strong> - Run the humanizer, read the result, then ask for specific adjustments ("make it more casual," "shorter sentences," "add more personality").</li>
 </ol>
 
 

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Auto-expiring share links over MCP — turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools">
+        <meta name="description" content="Auto-expiring share links over MCP - turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ctxt-io-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="ctxt.io MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta property="og:description" content="Auto-expiring share links over MCP — turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools">
+  <meta property="og:description" content="Auto-expiring share links over MCP - turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ctxt.io MCP - CorpusIQ Docs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Auto-expiring share links over MCP — turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools">
+  <meta name="twitter:description" content="Auto-expiring share links over MCP - turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "ctxt.io MCP - CorpusIQ Docs - CorpusIQ Docs",
-    "description": "Auto-expiring share links over MCP \u2014 turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools",
+    "description": "Auto-expiring share links over MCP - turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ctxt-io-mcp",
     
     "author": {
@@ -10036,7 +10036,7 @@
 
 
 <h1 id="ctxtio-mcp">ctxt.io MCP<a class="headerlink" href="#ctxtio-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Stateless sharing server (Streamable HTTP, no auth)</strong> — ctxt.io turns anything an agent produces — diffs, logs, reports, HTML — into a shareable link that expires on its own, and lets the agent read it back later. No account, no API key, nothing to install. Client-side packaging (Claude Code plugin, Codex plugin, the <code>/share</code> skill) is open source.</p>
+<p><strong>Stateless sharing server (Streamable HTTP, no auth)</strong> - ctxt.io turns anything an agent produces - diffs, logs, reports, HTML - into a shareable link that expires on its own, and lets the agent read it back later. No account, no API key, nothing to install. Client-side packaging (Claude Code plugin, Codex plugin, the <code>/share</code> skill) is open source.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted remote (Streamable HTTP, stateless)
 Auth: None
 Endpoint: https://ctxt.io/mcp
@@ -10046,8 +10046,8 @@ Category: Developer Tools
 Built by: github.com/ctxt-io/ctxt-agents (registered io.ctxt/mcp)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Agents produce a lot of output that has to get to a human: deployment summaries, comparison tables, audit write-ups. Pasting it into chat loses formatting; emailing files creates a trail nobody manages. ctxt.io gives the agent a share link with an expiry policy — 5 minutes for a scratch answer, 8 hours for a workday handoff, 30 days for a permanent record — and the <code>delete_token</code> closes the loop.</p>
-<p>The visual-output feature is the sleeper: <code>format=html</code> accepts self-contained HTML with inline CSS and SVG, scripts stripped server-side, so an agent can produce a styled report or chart and hand over a rendered link instead of markdown. The $1 Pro path is itself interesting — the tool result carries an ACP (Agentic Commerce Protocol) block and an enrolled agent platform can complete the purchase programmatically with a Stripe Shared Payment Token, one of the cleanest agentic-payment implementations in this catalog.</p>
+<p>Agents produce a lot of output that has to get to a human: deployment summaries, comparison tables, audit write-ups. Pasting it into chat loses formatting; emailing files creates a trail nobody manages. ctxt.io gives the agent a share link with an expiry policy - 5 minutes for a scratch answer, 8 hours for a workday handoff, 30 days for a permanent record - and the <code>delete_token</code> closes the loop.</p>
+<p>The visual-output feature is the sleeper: <code>format=html</code> accepts self-contained HTML with inline CSS and SVG, scripts stripped server-side, so an agent can produce a styled report or chart and hand over a rendered link instead of markdown. The $1 Pro path is itself interesting - the tool result carries an ACP (Agentic Commerce Protocol) block and an enrolled agent platform can complete the purchase programmatically with a Stripe Shared Payment Token, one of the cleanest agentic-payment implementations in this catalog.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10059,7 +10059,7 @@ Built by: github.com/ctxt-io/ctxt-agents (registered io.ctxt/mcp)
 <tbody>
 <tr>
 <td><code>create_context</code></td>
-<td>Share content (up to 4MB) as an expiring link — text, markdown, code, or rendered HTML</td>
+<td>Share content (up to 4MB) as an expiring link - text, markdown, code, or rendered HTML</td>
 </tr>
 <tr>
 <td><code>read_context</code></td>
@@ -10071,26 +10071,26 @@ Built by: github.com/ctxt-io/ctxt-agents (registered io.ctxt/mcp)
 </tr>
 </tbody>
 </table>
-<p>TTLs: 5m, 30m, 1h, 8h, 1d (free) or 30d (Pro). Every paste URL has robot-readable twins — append <code>.md</code>, <code>.txt</code>, or <code>.json</code> for structured fetch.</p>
+<p>TTLs: 5m, 30m, 1h, 8h, 1d (free) or 30d (Pro). Every paste URL has robot-readable twins - append <code>.md</code>, <code>.txt</code>, or <code>.json</code> for structured fetch.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>ctxt<span class="w"> </span>https://ctxt.io/mcp
 </code></pre></div>
 <p>Or add the plugin (<code>/plugin marketplace add ctxt-io/ctxt-agents</code>, then <code>/plugin install ctxt@ctxt</code>), which ships a <code>/share</code> command and a skill that teaches the agent when to share and how to produce good HTML output. Codex: <code>codex mcp add ctxt --url https://ctxt.io/mcp</code>. Claude Desktop: Settings → Connectors → Add custom connector → <code>https://ctxt.io/mcp</code>.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Ops handoffs</strong> — agent-generated summaries as links with sane expiry instead of chat-paste</li>
-<li><strong>Report delivery</strong> — styled HTML reports render in the browser with no file exchange</li>
-<li><strong>Audit hygiene</strong> — links die on their own, so yesterday's draft does not linger in inboxes</li>
-<li><strong>Agent pipelines</strong> — one agent's output becomes the next agent's <code>read_context</code> input</li>
+<li><strong>Ops handoffs</strong> - agent-generated summaries as links with sane expiry instead of chat-paste</li>
+<li><strong>Report delivery</strong> - styled HTML reports render in the browser with no file exchange</li>
+<li><strong>Audit hygiene</strong> - links die on their own, so yesterday's draft does not linger in inboxes</li>
+<li><strong>Agent pipelines</strong> - one agent's output becomes the next agent's <code>read_context</code> input</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>ctxt.io is the delivery envelope for CorpusIQ's analytical output: a CorpusIQ-driven report (revenue recaps, pipeline summaries, connector health) becomes a rendered HTML link with an 8-hour expiry, shared to a stakeholder channel, and read back by the next session's agent. The combination keeps sensitive business numbers out of permanent chat history — the link expires, the transcript does not.</p>
+<p>ctxt.io is the delivery envelope for CorpusIQ's analytical output: a CorpusIQ-driven report (revenue recaps, pipeline summaries, connector health) becomes a rendered HTML link with an 8-hour expiry, shared to a stakeholder channel, and read back by the next session's agent. The combination keeps sensitive business numbers out of permanent chat history - the link expires, the transcript does not.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Bearer-accessible by design — anyone with the URL can read it until expiry; password protection is Pro-only</li>
+<li>Bearer-accessible by design - anyone with the URL can read it until expiry; password protection is Pro-only</li>
 <li>Content is stored in plain form at rest (password protection is an access gate, not encryption)</li>
 <li>Free links cap at 1-day TTL; longer retention costs $1 per link</li>
-<li>Creating pastes outside MCP is a Terms violation — automation belongs in the MCP surface</li>
+<li>Creating pastes outside MCP is a Terms violation - automation belongs in the MCP surface</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>

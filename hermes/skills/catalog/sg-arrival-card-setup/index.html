@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure Freakingnolife/sg-arrival-card-skill — automated Singapore Arrival Card submission via browser, covering all three residency pathways">
+        <meta name="description" content="Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="SG Arrival Card (SGAC) Automation Setup Guide">
-  <meta property="og:description" content="Install and configure Freakingnolife/sg-arrival-card-skill — automated Singapore Arrival Card submission via browser, covering all three residency pathways">
+  <meta property="og:description" content="Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="SG Arrival Card (SGAC) Automation Setup Guide">
-  <meta name="twitter:description" content="Install and configure Freakingnolife/sg-arrival-card-skill — automated Singapore Arrival Card submission via browser, covering all three residency pathways">
+  <meta name="twitter:description" content="Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "SG Arrival Card (SGAC) Automation Setup Guide",
-    "description": "Install and configure Freakingnolife/sg-arrival-card-skill \u2014 automated Singapore Arrival Card submission via browser, covering all three residency pathways",
+    "description": "Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup",
     
     "datePublished": "2026-08-12",
@@ -10139,14 +10139,14 @@
   
 
 
-<h1 id="sg-arrival-card-browser-automation-setup">SG Arrival Card — Browser Automation Setup<a class="headerlink" href="#sg-arrival-card-browser-automation-setup" title="Anchor link to this section">&para;</a></h1>
+<h1 id="sg-arrival-card-browser-automation-setup">SG Arrival Card - Browser Automation Setup<a class="headerlink" href="#sg-arrival-card-browser-automation-setup" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/Freakingnolife/sg-arrival-card-skill">Freakingnolife/sg-arrival-card-skill</a>
 <strong>Stars:</strong> 2 ⭐ | <strong>License:</strong> MIT
 <strong>Created:</strong> June 24, 2026
 <strong>Category:</strong> Browser Automation / Government Forms</p>
 <hr />
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A browser-automation skill for submitting Singapore Arrival Cards (SGAC) via the ICA e-Services portal. Handles the Angular SPA's specific browser-automation quirks — reactive form validation, custom toggle buttons, CAPTCHA routing.</p>
+<p>A browser-automation skill for submitting Singapore Arrival Cards (SGAC) via the ICA e-Services portal. Handles the Angular SPA's specific browser-automation quirks - reactive form validation, custom toggle buttons, CAPTCHA routing.</p>
 <p><strong>Key design principle:</strong> Capability-first and portable across agents (Hermes Agent, Claude Code, OpenClaw, Codex CLI). Maps abstract capabilities (Open, Click, Type, PageJS) to concrete agent tools via <code>references/portability.md</code>.</p>
 <h3 id="supported-pathways">Supported Pathways<a class="headerlink" href="#supported-pathways" title="Anchor link to this section">&para;</a></h3>
 <table>
@@ -10248,7 +10248,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>sg-arrival-card-skill<span c
 <span class="c1"># Run: scripts/extract_captcha.js  (via browser_console)</span>
 <span class="c1"># Then: scripts/save_captcha.py     (via execute_code)</span>
 </code></pre></div>
-<p>CAPTCHA images are extracted and <strong>routed to the user for solving</strong> — the skill intentionally does not attempt automated CAPTCHA solving.</p>
+<p>CAPTCHA images are extracted and <strong>routed to the user for solving</strong> - the skill intentionally does not attempt automated CAPTCHA solving.</p>
 <h2 id="5-usage">5. Usage<a class="headerlink" href="#5-usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="quick-reference">Quick Reference<a class="headerlink" href="#quick-reference" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Start an SGAC submission</span>
@@ -10321,7 +10321,7 @@ Setting <code>.value</code> via JavaScript does NOT trigger Angular validation. 
 </tr>
 <tr>
 <td><strong>Group submission</strong></td>
-<td>Multiple travellers in one submission — pattern for batch form filling</td>
+<td>Multiple travellers in one submission - pattern for batch form filling</td>
 </tr>
 <tr>
 <td><strong>Portability layer</strong></td>

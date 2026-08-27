@@ -10311,7 +10311,7 @@ data, the server fetches it, the AI gets structured results. No prompt
 engineering, no CSV uploads, no stale context.</p>
 <p>MCP servers expose <strong>tools</strong> (callable functions with typed inputs and
 outputs) and optionally <strong>resources</strong> (documents or data the AI can
-read). CorpusIQ exposes tools only — one tool per connector action.</p>
+read). CorpusIQ exposes tools only - one tool per connector action.</p>
 <p>Official spec: https://modelcontextprotocol.io</p>
 <hr />
 <h2 id="corpusiqs-mcp-endpoint">CorpusIQ's MCP endpoint<a class="headerlink" href="#corpusiqs-mcp-endpoint" title="Anchor link to this section">&para;</a></h2>
@@ -10368,7 +10368,7 @@ layer that holds and uses the OAuth token.</p>
 <hr />
 <h2 id="the-skills-engine">The skills engine<a class="headerlink" href="#the-skills-engine" title="Anchor link to this section">&para;</a></h2>
 <p>Some questions require more than one connector. "What is my true CAC?"
-requires every ad platform, GA4, and Shopify or QuickBooks — at minimum
+requires every ad platform, GA4, and Shopify or QuickBooks - at minimum
 four separate API calls, with a join step.</p>
 <p>The skills engine encodes these multi-step workflows as <strong>runbooks</strong>:
 ordered sequences of tool calls with join logic and presentation rules.
@@ -10381,16 +10381,16 @@ When an LLM calls <code>invoke_skill</code> with a skill name like
 </ol>
 <p>Skills are the main reason CorpusIQ answers broad business questions
 better than a raw tool list. The LLM doesn't have to figure out which
-five connectors to call and how to join them — the runbook already knows.</p>
+five connectors to call and how to join them - the runbook already knows.</p>
 <p>Available skills include:</p>
 <ul>
-<li><code>executive-snapshot</code> — business health across finance, sales, and marketing.</li>
-<li><code>ad-spend-truth-report</code> — cross-platform ROAS from actual revenue data.</li>
-<li><code>financial-command-center</code> — cash, AR, expenses, anomalies.</li>
-<li><code>ecommerce-command-center</code> — store health, LTV, CAC, inventory.</li>
-<li><code>email-lifecycle-intel</code> — email channel health across all ESPs.</li>
-<li><code>board-update-drafter</code> — investor-update format from live actuals.</li>
-<li><code>customer-health-scorecard</code> — per-account health scoring.</li>
+<li><code>executive-snapshot</code> - business health across finance, sales, and marketing.</li>
+<li><code>ad-spend-truth-report</code> - cross-platform ROAS from actual revenue data.</li>
+<li><code>financial-command-center</code> - cash, AR, expenses, anomalies.</li>
+<li><code>ecommerce-command-center</code> - store health, LTV, CAC, inventory.</li>
+<li><code>email-lifecycle-intel</code> - email channel health across all ESPs.</li>
+<li><code>board-update-drafter</code> - investor-update format from live actuals.</li>
+<li><code>customer-health-scorecard</code> - per-account health scoring.</li>
 </ul>
 <p>Call <code>invoke_skill</code> or <code>list_skills</code> to discover and run them.</p>
 <hr />
@@ -10501,12 +10501,12 @@ CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.</p>
 <h2 id="tool-naming-conventions">Tool naming conventions<a class="headerlink" href="#tool-naming-conventions" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ tool names follow the pattern <code>connector_action</code>:</p>
 <ul>
-<li><code>get_orders</code> — Shopify or Amazon Seller orders.</li>
-<li><code>list_campaigns</code> — Meta Ads or Google Ads campaigns.</li>
-<li><code>run_report</code> — GA4 custom report.</li>
-<li><code>get_profit_loss</code> — QuickBooks P&amp;L.</li>
-<li><code>invoke_skill</code> — run a multi-connector skill by name.</li>
-<li><code>resolve_connector</code> — discover which tools to call for a given intent.</li>
+<li><code>get_orders</code> - Shopify or Amazon Seller orders.</li>
+<li><code>list_campaigns</code> - Meta Ads or Google Ads campaigns.</li>
+<li><code>run_report</code> - GA4 custom report.</li>
+<li><code>get_profit_loss</code> - QuickBooks P&amp;L.</li>
+<li><code>invoke_skill</code> - run a multi-connector skill by name.</li>
+<li><code>resolve_connector</code> - discover which tools to call for a given intent.</li>
 </ul>
 <p>Call <code>resolve_connector</code> with a plain-English intent to get back the
 exact tool schemas relevant to your question. This is the fastest way
@@ -10523,13 +10523,13 @@ parameter names.</p>
 <hr />
 <h2 id="further-reading">Further reading<a class="headerlink" href="#further-reading" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../connectors-explained">Connectors explained</a> — how OAuth and
+<li><a href="../connectors-explained">Connectors explained</a> - how OAuth and
   connector auth works.</li>
-<li><a href="../skills-explained">Skills explained</a> — deeper dive on the
+<li><a href="../skills-explained">Skills explained</a> - deeper dive on the
   runbook/skills engine.</li>
-<li><a href="../../prompts/mcp-developer-queries">Prompts: MCP developer queries</a>
-  — 20+ example prompts for developers.</li>
-<li><a href="../../quickstart">Quickstart</a> — fastest path from zero to first answer.</li>
+<li><a href="../../prompts/mcp-developer-queries">Prompts: MCP developer queries</a></li>
+<li>20+ example prompts for developers.</li>
+<li><a href="../../quickstart">Quickstart</a> - fastest path from zero to first answer.</li>
 </ul>
 <hr />
 <p>*</p>

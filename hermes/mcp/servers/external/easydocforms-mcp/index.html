@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Healthcare intake forms over MCP — the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context">
+        <meta name="description" content="Healthcare intake forms over MCP - the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/easydocforms-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="easydocforms MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Healthcare intake forms over MCP — the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context">
+  <meta property="og:description" content="Healthcare intake forms over MCP - the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="easydocforms MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Healthcare intake forms over MCP — the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context">
+  <meta name="twitter:description" content="Healthcare intake forms over MCP - the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "easydocforms MCP - CorpusIQ Docs",
-    "description": "Healthcare intake forms over MCP \u2014 the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context",
+    "description": "Healthcare intake forms over MCP - the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/easydocforms-mcp",
     
     "author": {
@@ -10047,28 +10047,28 @@
 
 
 <h1 id="easydocforms-mcp">easydocforms MCP<a class="headerlink" href="#easydocforms-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP server for healthcare intake forms (Docker, API key) built on the EasyDocForms platform.</strong> The agent imports a blank PDF, hands the patient a hosted fill link, and retrieves the completed PDF — while protected health information never enters the agent's context. The design constraint is the product: the AI orchestrates the paperwork without ever holding the sensitive data.</p>
+<p><strong>MCP server for healthcare intake forms (Docker, API key) built on the EasyDocForms platform.</strong> The agent imports a blank PDF, hands the patient a hosted fill link, and retrieves the completed PDF - while protected health information never enters the agent's context. The design constraint is the product: the AI orchestrates the paperwork without ever holding the sensitive data.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (Docker container)
 Auth: API key (EASYDOCFORMS_API_KEY)
 Endpoint: ghcr.io/easydocforms/easydocforms-mcp:latest
 Tools: Live tool list served from the endpoint (see caveat below)
 Pricing: EasyDocForms platform plans
 Category: Document Intelligence / Healthcare
-Built by: EasyDocForms (easydocforms.com) — MIT
+Built by: EasyDocForms (easydocforms.com) - MIT
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Every clinic runs the same manual loop: blank intake form out, patient fills it in the waiting room, staff retypes it into the system. easydocforms collapses that into three agent steps — import the blank PDF, hand the patient a hosted fill link, retrieve the completed PDF. The patient fills on their phone; the agent files the result.</p>
-<p><strong>The PHI-minimization model is the differentiator.</strong> The hosted fill link keeps patient data out of the conversation entirely, and the <code>external_ref</code> field is an opaque correlation id — your visit or order number — that must never carry PHI. The agent coordinates paperwork without becoming a data holder, which is the architecture HIPAA-conscious operators have been asking MCP vendors for.</p>
+<p>Every clinic runs the same manual loop: blank intake form out, patient fills it in the waiting room, staff retypes it into the system. easydocforms collapses that into three agent steps - import the blank PDF, hand the patient a hosted fill link, retrieve the completed PDF. The patient fills on their phone; the agent files the result.</p>
+<p><strong>The PHI-minimization model is the differentiator.</strong> The hosted fill link keeps patient data out of the conversation entirely, and the <code>external_ref</code> field is an opaque correlation id - your visit or order number - that must never carry PHI. The agent coordinates paperwork without becoming a data holder, which is the architecture HIPAA-conscious operators have been asking MCP vendors for.</p>
 <h2 id="workflow">Workflow<a class="headerlink" href="#workflow" title="Anchor link to this section">&para;</a></h2>
 <blockquote>
-<p>⚠️ This is a brand-new listing — mcp.so shows "No tools detected" (the live tool list is served from the endpoint). The documented workflow, from the maintainer's README:</p>
+<p>⚠️ This is a brand-new listing - mcp.so shows "No tools detected" (the live tool list is served from the endpoint). The documented workflow, from the maintainer's README:</p>
 </blockquote>
 <ol>
-<li><strong>Import</strong> — load a blank PDF template to convert it into a hosted fill form</li>
-<li><strong>Hand off</strong> — the patient receives the hosted fill link and completes it on any device</li>
-<li><strong>Retrieve</strong> — the agent pulls the completed PDF back for filing or review</li>
+<li><strong>Import</strong> - load a blank PDF template to convert it into a hosted fill form</li>
+<li><strong>Hand off</strong> - the patient receives the hosted fill link and completes it on any device</li>
+<li><strong>Retrieve</strong> - the agent pulls the completed PDF back for filing or review</li>
 </ol>
-<p>The container's <code>external_ref</code> correlation id is the only link between your system and the form — it must never contain PHI.</p>
+<p>The container's <code>external_ref</code> correlation id is the only link between your system and the form - it must never contain PHI.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-i<span class="w"> </span>--rm<span class="w"> </span>-e<span class="w"> </span><span class="nv">EASYDOCFORMS_API_KEY</span><span class="o">=</span>edfk_live_...<span class="w"> </span>ghcr.io/easydocforms/easydocforms-mcp:latest
 </code></pre></div>
@@ -10085,19 +10085,19 @@ Built by: EasyDocForms (easydocforms.com) — MIT
 </code></pre></div>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Clinic managers</strong> cut the retype loop — intake PDFs arrive completed and filed without staff transcription</li>
+<li><strong>Clinic managers</strong> cut the retype loop - intake PDFs arrive completed and filed without staff transcription</li>
 <li><strong>Practice operators</strong> run onboarding paperwork through the agent while keeping PHI out of chat logs and model context</li>
 <li><strong>Healthcare SaaS builders</strong> get a hosted fill-and-retrieve primitive they can embed in agent workflows instead of building their own</li>
-<li><strong>Compliance-minded operators</strong> get a design where the agent coordinates but never holds patient data — audit-friendlier than screenshot-and-transcribe workflows</li>
+<li><strong>Compliance-minded operators</strong> get a design where the agent coordinates but never holds patient data - audit-friendlier than screenshot-and-transcribe workflows</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>easydocforms pairs naturally with CorpusIQ's document-intelligence and CRM connectors. A composed workflow: the agent retrieves the completed intake PDF, CorpusIQ's document connectors structure it into fields, and the HubSpot or CRM connector records the patient record and follow-up task — while the raw PHI stays in the form platform's storage, not in the agent transcript.</p>
+<p>easydocforms pairs naturally with CorpusIQ's document-intelligence and CRM connectors. A composed workflow: the agent retrieves the completed intake PDF, CorpusIQ's document connectors structure it into fields, and the HubSpot or CRM connector records the patient record and follow-up task - while the raw PHI stays in the form platform's storage, not in the agent transcript.</p>
 <p>The philosophy matches CorpusIQ's own read-only external-source retrieval model: the agent orchestrates, the platform holds the sensitive data, and the operator stays in control of every system of record.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — no track record yet (submitted to mcp.so Aug 13, 2026)</li>
+<li>Brand new - no track record yet (submitted to mcp.so Aug 13, 2026)</li>
 <li>Live tool list not yet published on the directory; verify tool names against the endpoint before building</li>
-<li>Docker-based — needs a container host or Docker Desktop running locally</li>
+<li>Docker-based - needs a container host or Docker Desktop running locally</li>
 <li>Healthcare-specific; little value outside intake/forms workflows</li>
 <li>MIT license covers the server code, but the EasyDocForms platform itself is commercial</li>
 </ul>

@@ -10036,7 +10036,7 @@
 
 
 <h1 id="caribooks-mcp">Caribooks MCP<a class="headerlink" href="#caribooks-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Hosted MCP server (Streamable HTTP, OAuth 2.1) that connects QuickBooks Online to Claude, ChatGPT, and any MCP client — 160+ tools covering the whole ledger, with a write path for invoices, payments, bills, and journal entries.</strong> Built for QuickBooks Online Canada, which Intuit's official Claude connector skips (it is US-only and sales-side). No developer keys, nothing to install: sign in, connect one or more companies through Intuit's OAuth flow, add the server URL to the assistant, and ask or delegate in English or French.</p>
+<p><strong>Hosted MCP server (Streamable HTTP, OAuth 2.1) that connects QuickBooks Online to Claude, ChatGPT, and any MCP client - 160+ tools covering the whole ledger, with a write path for invoices, payments, bills, and journal entries.</strong> Built for QuickBooks Online Canada, which Intuit's official Claude connector skips (it is US-only and sales-side). No developer keys, nothing to install: sign in, connect one or more companies through Intuit's OAuth flow, add the server URL to the assistant, and ask or delegate in English or French.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth 2.1 with dynamic client registration (Intuit sign-in, no developer keys)
 Endpoint: https://caribooks.com/api/mcp
@@ -10046,8 +10046,8 @@ Category: Finance &amp; Accounting
 Built by: Caribooks (caribooks.com, hosted in Canada)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Bookkeeping is where AI delegation makes the most visible difference to a small business: the work is real, repetitive, and directly financial. Caribooks turns the assistant from a Q&amp;A surface into a working bookkeeping clerk — it reads profit and loss, aged receivables, and the general ledger, and it creates invoices, records payments, files expenses, and posts journal entries when you flip write access on per company. Every delete requires confirmation, and no write happens until you enable it company by company.</p>
-<p><strong>The data model is pass-through.</strong> Caribooks stores none of your accounting data: only your account email, company names, and the Intuit tokens (AES-256 encrypted, AWS Montréal region). Ledger data flows encrypted from QuickBooks to your assistant and stops there. Anthropic excludes connector data from training on all plans, and OpenAI does not train on Business, Enterprise, or Edu — with a settings toggle for personal accounts.</p>
+<p>Bookkeeping is where AI delegation makes the most visible difference to a small business: the work is real, repetitive, and directly financial. Caribooks turns the assistant from a Q&amp;A surface into a working bookkeeping clerk - it reads profit and loss, aged receivables, and the general ledger, and it creates invoices, records payments, files expenses, and posts journal entries when you flip write access on per company. Every delete requires confirmation, and no write happens until you enable it company by company.</p>
+<p><strong>The data model is pass-through.</strong> Caribooks stores none of your accounting data: only your account email, company names, and the Intuit tokens (AES-256 encrypted, AWS Montréal region). Ledger data flows encrypted from QuickBooks to your assistant and stops there. Anthropic excludes connector data from training on all plans, and OpenAI does not train on Business, Enterprise, or Edu - with a settings toggle for personal accounts.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10132,7 +10132,7 @@ Built by: Caribooks (caribooks.com, hosted in Canada)
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<p>Write access is off by default and enabled per company from the Caribooks dashboard. Deletes always require confirmation. Tokens can be revoked at any time from either side — the connection is just an Intuit access key, never your QuickBooks password. Works alongside other connectors (Gmail, Outlook, Calendar) in the same assistant.</p>
+<p>Write access is off by default and enabled per company from the Caribooks dashboard. Deletes always require confirmation. Tokens can be revoked at any time from either side - the connection is just an Intuit access key, never your QuickBooks password. Works alongside other connectors (Gmail, Outlook, Calendar) in the same assistant.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Canadian operators</strong> get the only full-ledger QBO connector that covers Canada today, bilingual in English and French</li>
@@ -10142,15 +10142,15 @@ Built by: Caribooks (caribooks.com, hosted in Canada)
 <li><strong>Compliance-conscious firms</strong> get pass-through data handling with no ledger data stored by the vendor</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ's QuickBooks connector is the read-only analytics layer — profit and loss, invoices, AR aging, and payments pulled into multi-source business views alongside GA4, Stripe, and ad spend. Caribooks adds what the CorpusIQ connector deliberately does not: a write path into the books and full Canadian coverage.</p>
-<p>The composed workflow: CorpusIQ answers "what is the financial picture and who owes us money" across sources, and Caribooks executes the follow-through — drafting the invoice, recording the payment, or posting the entry — from the same conversation. Read-only reporting and gated writes stay on separate surfaces, which is the safer split.</p>
+<p>CorpusIQ's QuickBooks connector is the read-only analytics layer - profit and loss, invoices, AR aging, and payments pulled into multi-source business views alongside GA4, Stripe, and ad spend. Caribooks adds what the CorpusIQ connector deliberately does not: a write path into the books and full Canadian coverage.</p>
+<p>The composed workflow: CorpusIQ answers "what is the financial picture and who owes us money" across sources, and Caribooks executes the follow-through - drafting the invoice, recording the payment, or posting the entry - from the same conversation. Read-only reporting and gated writes stay on separate surfaces, which is the safer split.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>QuickBooks Online only — no QuickBooks Desktop or Xero</li>
+<li>QuickBooks Online only - no QuickBooks Desktop or Xero</li>
 <li>Brand new listing (submitted Aug 16, 2026); no long track record yet</li>
-<li>Commercial — CA$39 per company per month after trial</li>
+<li>Commercial - CA$39 per company per month after trial</li>
 <li>Write path requires deliberate per-company opt-in</li>
-<li>Hosted service — no self-host option; token custody rests with Caribooks (encrypted, Canada)</li>
+<li>Hosted service - no self-host option; token custody rests with Caribooks (encrypted, Canada)</li>
 </ul>
 
 

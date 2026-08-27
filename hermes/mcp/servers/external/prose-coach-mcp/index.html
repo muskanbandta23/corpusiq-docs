@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deterministic AI-writing filter for MCP agents — flags 43 AI-writing patterns with quoted evidence and fixes before content ships">
+        <meta name="description" content="Deterministic AI-writing filter for MCP agents - flags 43 AI-writing patterns with quoted evidence and fixes before content ships">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/prose-coach-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Prose Coach MCP - CorpusIQ Docs">
-  <meta property="og:description" content="Deterministic AI-writing filter for MCP agents — flags 43 AI-writing patterns with quoted evidence and fixes before content ships">
+  <meta property="og:description" content="Deterministic AI-writing filter for MCP agents - flags 43 AI-writing patterns with quoted evidence and fixes before content ships">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Prose Coach MCP - CorpusIQ Docs">
-  <meta name="twitter:description" content="Deterministic AI-writing filter for MCP agents — flags 43 AI-writing patterns with quoted evidence and fixes before content ships">
+  <meta name="twitter:description" content="Deterministic AI-writing filter for MCP agents - flags 43 AI-writing patterns with quoted evidence and fixes before content ships">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Prose Coach MCP - CorpusIQ Docs",
-    "description": "Deterministic AI-writing filter for MCP agents \u2014 flags 43 AI-writing patterns with quoted evidence and fixes before content ships",
+    "description": "Deterministic AI-writing filter for MCP agents - flags 43 AI-writing patterns with quoted evidence and fixes before content ships",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/prose-coach-mcp",
     
     "datePublished": "2026-08-12",
@@ -10050,7 +10050,7 @@
 
 
 <h1 id="prose-coach-mcp">Prose Coach MCP<a class="headerlink" href="#prose-coach-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP, no auth) for Prose Coach.</strong> A deterministic writing filter that marks 43 patterns that make text read as AI-generated — banned vocabulary and structural tells (triplets, negation formulas, summary closers, colon chains, flat rhythm) — with every finding quoting the line that triggered it and attaching the fix.</p>
+<p><strong>Remote MCP server (Streamable HTTP, no auth) for Prose Coach.</strong> A deterministic writing filter that marks 43 patterns that make text read as AI-generated - banned vocabulary and structural tells (triplets, negation formulas, summary closers, colon chains, flat rhythm) - with every finding quoting the line that triggered it and attaching the fix.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: None
 Endpoint: https://www.prose.coach/mcp
@@ -10058,7 +10058,7 @@ Pricing: Free tier (3 drafts/day, 12,000 chars per request); PRO $5/mo or $50/yr
 Category: Content / Writing
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Every AI assistant reaches for the same moves across every draft. Prose Coach is the first MCP purpose-built to de-AI drafts before they ship: a fixed rule set runs over your text, flags what's there, and density is scored against an accumulation threshold — one marker is noise, six is a habit. Because no language model reads your text, the same input always returns the same findings — unlike probabilistic "99% AI-written" detectors whose scores can't be checked against anything.</p>
+<p>Every AI assistant reaches for the same moves across every draft. Prose Coach is the first MCP purpose-built to de-AI drafts before they ship: a fixed rule set runs over your text, flags what's there, and density is scored against an accumulation threshold - one marker is noise, six is a habit. Because no language model reads your text, the same input always returns the same findings - unlike probabilistic "99% AI-written" detectors whose scores can't be checked against anything.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10104,19 +10104,19 @@ Category: Content / Writing
 <p>No API key. A browser scanner at <a href="https://www.prose.coach/">prose.coach</a> runs the same engine if you want to try it before connecting anything.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Marketing teams</strong> can run every email, ad, and social post through <code>scan_draft</code> before it ships — structural tells (triplets, summary closers) are exactly what makes mass-produced AI copy feel uncanny</li>
-<li><strong>Content operators</strong> get a free tier covering 3 drafts/day — enough for daily posting cadences without a subscription</li>
+<li><strong>Marketing teams</strong> can run every email, ad, and social post through <code>scan_draft</code> before it ships - structural tells (triplets, summary closers) are exactly what makes mass-produced AI copy feel uncanny</li>
+<li><strong>Content operators</strong> get a free tier covering 3 drafts/day - enough for daily posting cadences without a subscription</li>
 <li><strong>Founders and executives</strong> get a deterministic filter instead of an opaque AI-probability score they can't verify</li>
-<li><strong>Agencies</strong> can standardize voice at scale — PRO ($5/mo) gates <code>verify_revision</code>, which diffs the rewrite against the original</li>
+<li><strong>Agencies</strong> can standardize voice at scale - PRO ($5/mo) gates <code>verify_revision</code>, which diffs the rewrite against the original</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>Prose Coach pairs with CorpusIQ's business-data connectors on the content side of the stack: an agent pulls live numbers (Shopify orders, GA4 traffic, ad spend) through CorpusIQ, drafts customer-facing copy from that data, then runs the draft through Prose Coach before anything ships. CorpusIQ supplies the data; Prose Coach polishes the prose. The composition is natural for the same workflows covered by CorpusIQ's content-ops tooling: weekly performance recaps, customer win emails, and product update posts — all drafted by agents, all passed through a deterministic writing filter before they reach a human.</p>
+<p>Prose Coach pairs with CorpusIQ's business-data connectors on the content side of the stack: an agent pulls live numbers (Shopify orders, GA4 traffic, ad spend) through CorpusIQ, drafts customer-facing copy from that data, then runs the draft through Prose Coach before anything ships. CorpusIQ supplies the data; Prose Coach polishes the prose. The composition is natural for the same workflows covered by CorpusIQ's content-ops tooling: weekly performance recaps, customer win emails, and product update posts - all drafted by agents, all passed through a deterministic writing filter before they reach a human.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Brand new — listed on mcp.so Aug 12, 2026, no ecosystem track record yet</li>
+<li>Brand new - listed on mcp.so Aug 12, 2026, no ecosystem track record yet</li>
 <li>Free tier is a single tool (<code>scan_draft</code>); <code>coach_draft</code> and <code>verify_revision</code> require PRO</li>
 <li>The 43-pattern rule set targets English-language writing moves</li>
-<li>It flags patterns and attaches fixes — it does not rewrite; the revision happens in your client</li>
+<li>It flags patterns and attaches fixes - it does not rewrite; the revision happens in your client</li>
 <li>Hosted endpoint only (no self-hosted option); no auth means no account-scoped history</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>

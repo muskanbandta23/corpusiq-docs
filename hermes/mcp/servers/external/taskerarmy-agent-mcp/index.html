@@ -23,7 +23,7 @@
     
     
   
-    <title>TaskerArmy Agent MCP — Shopify Optimization Tasks</title>
+    <title>TaskerArmy Agent MCP - Shopify Optimization Tasks</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/taskerarmy-agent-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="TaskerArmy Agent MCP — Shopify Optimization Tasks">
+  <meta property="og:title" content="TaskerArmy Agent MCP - Shopify Optimization Tasks">
   <meta property="og:description" content="TaskerArmy Agent is a remote MCP server that connects AI assistants to TaskerArmy's Shopify theme optimization platform. Agents can query pending tasks, ch.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="TaskerArmy Agent MCP — Shopify Optimization Tasks">
+  <meta name="twitter:title" content="TaskerArmy Agent MCP - Shopify Optimization Tasks">
   <meta name="twitter:description" content="TaskerArmy Agent is a remote MCP server that connects AI assistants to TaskerArmy's Shopify theme optimization platform. Agents can query pending tasks, ch.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "TaskerArmy Agent MCP \u2014 Shopify Optimization Tasks",
+    "name": "TaskerArmy Agent MCP - Shopify Optimization Tasks",
     "description": "TaskerArmy Agent is a remote MCP server that connects AI assistants to TaskerArmy\u0027s Shopify theme optimization platform. Agents can query pending tasks, ch.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/taskerarmy-agent-mcp",
     
@@ -201,7 +201,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              TaskerArmy Agent MCP — Shopify Optimization Tasks
+              TaskerArmy Agent MCP - Shopify Optimization Tasks
             
           </span>
         </div>
@@ -10016,14 +10016,14 @@
   
 
 
-<h1 id="taskerarmy-agent-mcp-shopify-optimization-tasks">TaskerArmy Agent MCP — Shopify Optimization Tasks<a class="headerlink" href="#taskerarmy-agent-mcp-shopify-optimization-tasks" title="Anchor link to this section">&para;</a></h1>
+<h1 id="taskerarmy-agent-mcp-shopify-optimization-tasks">TaskerArmy Agent MCP - Shopify Optimization Tasks<a class="headerlink" href="#taskerarmy-agent-mcp-shopify-optimization-tasks" title="Anchor link to this section">&para;</a></h1>
 <p>TaskerArmy Agent is a remote MCP server that connects AI assistants to TaskerArmy's Shopify theme optimization platform. Agents can query pending tasks, check optimization status, and manage ecommerce workflows.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Task visibility</strong> — Query what Shopify theme optimization tasks are pending on your store</li>
-<li><strong>Status tracking</strong> — Check completion status of optimization jobs</li>
-<li><strong>Agent-driven workflows</strong> — AI agents can identify, prioritize, and track optimization work</li>
-<li><strong>Remote endpoint</strong> — No local install; connects over HTTP</li>
+<li><strong>Task visibility</strong> - Query what Shopify theme optimization tasks are pending on your store</li>
+<li><strong>Status tracking</strong> - Check completion status of optimization jobs</li>
+<li><strong>Agent-driven workflows</strong> - AI agents can identify, prioritize, and track optimization work</li>
+<li><strong>Remote endpoint</strong> - No local install; connects over HTTP</li>
 </ul>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add to Hermes Agent</span>
@@ -10062,10 +10062,10 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Daily store check</strong> — Agent checks pending tasks each morning and reports to Slack</li>
-<li><strong>Optimization pipeline</strong> — Agent identifies highest-impact tasks → delegates to developers → tracks completion</li>
-<li><strong>Ecommerce monitoring</strong> — Agent monitors store health score and alerts on degradation</li>
-<li><strong>Multi-store management</strong> — Agency manages optimization tasks across multiple client stores</li>
+<li><strong>Daily store check</strong> - Agent checks pending tasks each morning and reports to Slack</li>
+<li><strong>Optimization pipeline</strong> - Agent identifies highest-impact tasks → delegates to developers → tracks completion</li>
+<li><strong>Ecommerce monitoring</strong> - Agent monitors store health score and alerts on degradation</li>
+<li><strong>Multi-store management</strong> - Agency manages optimization tasks across multiple client stores</li>
 </ul>
 <h2 id="hermes-agent-integration">Hermes Agent Integration<a class="headerlink" href="#hermes-agent-integration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Agent checks store status</span>
@@ -10073,7 +10073,7 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <span class="n">health</span> <span class="o">=</span> <span class="n">mcp_taskerarmy_get_store_health</span><span class="p">(</span><span class="n">store</span><span class="o">=</span><span class="s2">&quot;my-store&quot;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">priority</span> <span class="o">==</span> <span class="s2">&quot;high&quot;</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;⚠️ High priority: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">title</span><span class="si">}</span><span class="s2"> — impact: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">estimated_impact</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;⚠️ High priority: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">title</span><span class="si">}</span><span class="s2"> - impact: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">estimated_impact</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <p><em>Discovered via <a href="https://mcpservers.org">mcpservers.org</a> sweep. Listed in the <a href="https://corpusiq-docs/hermes/mcp/">CorpusIQ MCP Catalog</a>.</em></p>
