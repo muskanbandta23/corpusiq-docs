@@ -11561,5 +11561,152 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-26T08:05:52.976937+00:00"
+  },
+  {
+    "repo": "Bergschloss/Refine-Cycle-for-Hermes-Agent",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558663+00:00"
+  },
+  {
+    "repo": "33hodl/hermes-agent-office",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558677+00:00"
+  },
+  {
+    "repo": "Tianbuyu-wwx/dsh-hermes-link",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558680+00:00"
+  },
+  {
+    "repo": "rj1230/TripPlot-AI",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558682+00:00"
+  },
+  {
+    "repo": "Emilia-awa/hermes-dsh-bridge",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558684+00:00"
+  },
+  {
+    "repo": "kev0ps/delegate-task-advanced",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558686+00:00"
+  },
+  {
+    "repo": "TheSmokeDev/hermes-talk",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558688+00:00"
+  },
+  {
+    "repo": "tusarimrananik/hermes-ads-connector-privacy",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558690+00:00"
+  },
+  {
+    "repo": "1984err/GMGN-Research-Strategy-Simulator",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558692+00:00"
+  },
+  {
+    "repo": "P2ppyJack/journey-starmap",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558694+00:00"
+  },
+  {
+    "repo": "sammy0329/hermes-claude-lab",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558696+00:00"
+  },
+  {
+    "repo": "6TcbpVB4h7jSZWz2/NousResearch__hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558698+00:00"
+  },
+  {
+    "repo": "forcewake/hermes-azure-voice",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T05:05:38.558699+00:00"
+  },
+  {
+    "repo": "kortexa-ai/hermes-livekit",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889359+00:00"
+  },
+  {
+    "repo": "Sora-bluesky/winsmux-wiki",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889371+00:00"
+  },
+  {
+    "repo": "kwhitestone/nucleagent-executor",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889373+00:00"
+  },
+  {
+    "repo": "neuratechcompany-ops/Adjutant",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889375+00:00"
+  },
+  {
+    "repo": "zcha621/hermes-livekit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889377+00:00"
+  },
+  {
+    "repo": "ProjectZeroDays/FreeAI_AI-Inference-Workstation",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889379+00:00"
+  },
+  {
+    "repo": "CloudEngineHub/hermes-web-ui",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889381+00:00"
+  },
+  {
+    "repo": "dacoolbaby/hermes-agent-issue-94248-evidence",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-27T06:05:38.889383+00:00"
   }
 ]

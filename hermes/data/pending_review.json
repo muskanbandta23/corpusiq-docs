@@ -47791,5 +47791,569 @@
     ],
     "discovered_at": "2026-08-26T08:05:24.006534+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Bergschloss/Refine-Cycle-for-Hermes-Agent",
+    "url": "https://github.com/Bergschloss/Refine-Cycle-for-Hermes-Agent",
+    "description": "Self-improvement loop for Hermes Agent: reads its own trajectory, proposes and applies the smallest skill/memory edit (create/patch), journaled with rollback. /refine command, refine_run tool, on_session_end hook.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T05:02:03Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-27T05:02:55.381181+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "33hodl/hermes-agent-office",
+    "url": "https://github.com/33hodl/hermes-agent-office",
+    "description": "Hermes Agent Office \u2014 watch your Hermes agents work in a live virtual office (3 themes, demo + live state.db feed, zero dependencies)",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-27T05:00:49Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "aiunlocked1412/hermes-agent-pixel"
+    ],
+    "discovered_at": "2026-08-27T05:02:58.385538+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Tianbuyu-wwx/dsh-hermes-link",
+    "url": "https://github.com/Tianbuyu-wwx/dsh-hermes-link",
+    "description": "Bidirectional bridge between Hermes Agent and DeepSeek Harness (DSH). v0.2.4 \u2014 single-bundle Cordis plugin replacing the archived hermes-foundation/-oneshot-arbitrate/-dispatch-bridge triad.",
+    "stars": 2,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "cordis",
+      "deepseek-harness",
+      "dsh",
+      "dsh-bundle",
+      "dsh-plugin",
+      "hermes",
+      "hermes-link",
+      "session-sync"
+    ],
+    "updated_at": "2026-08-27T05:00:12Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "anomaliagent007-hue/hermes-mimo-bridge"
+    ],
+    "discovered_at": "2026-08-27T05:03:01.389366+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rj1230/TripPlot-AI",
+    "url": "https://github.com/rj1230/TripPlot-AI",
+    "description": "TripPilot AI is an agentic travel-planning system built with Hermes, LangGraph, MCP, and an Agent Harness for orchestrating, monitoring, evaluating, and refining autonomous travel-planning workflows.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T04:37:58Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "ruvnet/metaharness",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-27T05:03:10.980967+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Emilia-awa/hermes-dsh-bridge",
+    "url": "https://github.com/Emilia-awa/hermes-dsh-bridge",
+    "description": "Hermes \u2194 DeepSeek Harness MCP bridge: drive dsh agents (tasks, sessions, files, presets, stats) from any MCP client. Hermes = brain, Harness = arms.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agent",
+      "deepseek-harness",
+      "dsh-plugin",
+      "mcp"
+    ],
+    "updated_at": "2026-08-27T03:48:10Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T05:03:13.985079+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kev0ps/delegate-task-advanced",
+    "url": "https://github.com/kev0ps/delegate-task-advanced",
+    "description": "Hermes Agent plugin for named subagents with skills, toolsets, model selection, and Hermes-configured spawning depth.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hermes-plugin",
+      "plugin"
+    ],
+    "updated_at": "2026-08-26T17:15:49Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-08-27T05:03:23.625781+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TheSmokeDev/hermes-talk",
+    "url": "https://github.com/TheSmokeDev/hermes-talk",
+    "description": "Open-source Hermes Agent plug-in for realtime duplex voice, live tools, memory, concurrent delegation, terminal, dashboard, and Discord.",
+    "stars": 20,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "agent-orchestration",
+      "ai-agents",
+      "chatgpt",
+      "cli",
+      "codex-cli",
+      "developer-tools",
+      "discord",
+      "hermes-agent",
+      "human-in-the-loop",
+      "multi-agent",
+      "open-source",
+      "openai-realtime",
+      "python",
+      "realtime-api",
+      "speech-to-speech",
+      "terminal",
+      "tool-calling",
+      "voice-ai",
+      "voice-assistant"
+    ],
+    "updated_at": "2026-08-27T05:03:19Z",
+    "category": "forks",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf"
+    ],
+    "discovered_at": "2026-08-27T05:03:33.266654+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tusarimrananik/hermes-ads-connector-privacy",
+    "url": "https://github.com/tusarimrananik/hermes-ads-connector-privacy",
+    "description": "Public privacy policy for Hermes Ads Connector and Meta Marketing API integration.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-08-26T11:41:04Z",
+    "category": "integrations",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T05:03:42.927128+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "1984err/GMGN-Research-Strategy-Simulator",
+    "url": "https://github.com/1984err/GMGN-Research-Strategy-Simulator",
+    "description": "A local-first GMGN research platform for collecting Smart Buy signals, testing configurable trading strategies, running capital-constrained forward paper tests, and using optional Hermes AI reviews to identify and critically evaluate potential on-chain trading patterns\u2014without connecting a wallet or risking real funds.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-26T12:09:27Z",
+    "category": "research",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "yang1989haoa-gif/synapse-studio",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-08-27T05:04:18.723626+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "P2ppyJack/journey-starmap",
+    "url": "https://github.com/P2ppyJack/journey-starmap",
+    "description": "Journey star-map feature for Hermes: memory-provider nodes, provenance drill-down, search/filter, /recall, cross-profile consolidation. Patch set + docs mirroring PR #70309 (NousResearch/hermes-agent).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-27T00:35:06Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T05:05:00.748124+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sammy0329/hermes-claude-lab",
+    "url": "https://github.com/sammy0329/hermes-claude-lab",
+    "description": "Hermes Agent(NousResearch) \ud559\uc2b5 \uc800\uc7a5\uc18c \u2014 \ud29c\ud1a0\ub9ac\uc5bc\ubd80\ud130 Claude Code/Desktop \uc5f0\ub3d9 \uc2e4\uc2b5\uae4c\uc9c0",
+    "stars": 0,
+    "forks": 0,
+    "language": "PowerShell",
+    "topics": [],
+    "updated_at": "2026-08-27T00:03:55Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T05:05:03.751677+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "6TcbpVB4h7jSZWz2/NousResearch__hermes-agent",
+    "url": "https://github.com/6TcbpVB4h7jSZWz2/NousResearch__hermes-agent",
+    "description": "Public validation copy of fixed GitHub Actions workflows",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-26T20:03:47Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T05:05:06.755513+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "forcewake/hermes-azure-voice",
+    "url": "https://github.com/forcewake/hermes-azure-voice",
+    "description": "Azure AI Services speech for Hermes Agent: gpt-4o-transcribe STT + gpt-audio-1.5 TTS as command providers. Ships the URL-path fix for the DeploymentNotFound error that breaks every OpenAI-SDK tool on services.ai.azure.com resources.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-services",
+      "azure",
+      "azure-openai",
+      "gpt-4o-transcribe",
+      "hermes-agent",
+      "nousresearch",
+      "speech-to-text",
+      "stt",
+      "text-to-speech",
+      "tts",
+      "voice"
+    ],
+    "updated_at": "2026-08-26T13:51:52Z",
+    "category": "official",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-08-27T05:05:09.759455+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kortexa-ai/hermes-livekit",
+    "url": "https://github.com/kortexa-ai/hermes-livekit",
+    "description": "LiveKit WebRTC voice gateway plugin for hermes-agent",
+    "stars": 8,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T06:00:48Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T06:03:10.386705+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sora-bluesky/winsmux-wiki",
+    "url": "https://github.com/Sora-bluesky/winsmux-wiki",
+    "description": "Japanese Hermes Agent docs for wiki.winsmux.dev/hermes/",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-08-27T05:58:46Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T06:03:13.389152+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kwhitestone/nucleagent-executor",
+    "url": "https://github.com/kwhitestone/nucleagent-executor",
+    "description": "Nucleagent \u6267\u884c\u5668 (OpenCode/Hermes Agent \u4e0a\u4e0b\u6587\u7ba1\u7406)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-08-27T05:58:48Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T06:03:16.391612+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "neuratechcompany-ops/Adjutant",
+    "url": "https://github.com/neuratechcompany-ops/Adjutant",
+    "description": "\u0410\u0434\u044a\u044e\u0442\u0430\u043d\u0442 \u2014 AI-\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f: MCP-\u043e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 \u0441 \u0434\u0432\u0438\u0436\u043a\u043e\u043c \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u0438\u0438 (Hermes/DeepSeek \u043f\u043e\u0434 \u043a\u0430\u043f\u043e\u0442\u043e\u043c)",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-27T05:26:24Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T06:03:25.986539+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zcha621/hermes-livekit",
+    "url": "https://github.com/zcha621/hermes-livekit",
+    "description": "LiveKit WebRTC voice gateway plugin for hermes-agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-25T04:25:33Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T06:03:42.261045+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ProjectZeroDays/FreeAI_AI-Inference-Workstation",
+    "url": "https://github.com/ProjectZeroDays/FreeAI_AI-Inference-Workstation",
+    "description": "The world's most complete self-hosted and hosted AI inference workstation with local and external providers for LLM models, autonomous agents, autonomous workflows, autonomous power/performance optimizer, autonomous self-healing, and full SDLC automation delivered locally & cloud providers via Docker, Kubernetes or as a Kali/Ubuntu/NixOS Live ISO.",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "aikido-scan",
+      "autonomous-agents",
+      "cuda",
+      "docker",
+      "hermes-agent",
+      "jcode",
+      "kali-linux",
+      "kubernetes",
+      "live-iso",
+      "llama-cpp",
+      "mimo-code",
+      "model-router",
+      "nixos",
+      "openclaw-agent",
+      "opencode",
+      "rag",
+      "sandbox",
+      "sdlc",
+      "ubuntu"
+    ],
+    "updated_at": "2026-08-27T06:02:40Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "yang1989haoa-gif/synapse-studio",
+      "varunlakshmaiah/hermes-compose",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "shiwenwen/hope-agent",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-27T06:03:45.263623+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "CloudEngineHub/hermes-web-ui",
+    "url": "https://github.com/CloudEngineHub/hermes-web-ui",
+    "description": "Web dashboard for Hermes Agent \u2014 multi-platform AI chat, session management, scheduled jobs, usage analytics ",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-27T06:03:33Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "EKKOLearnAI/hermes-studio",
+      "outsourc-e/hermes-workspace",
+      "awizemann/scarf",
+      "longyunfeigu/learn-hermes-agent",
+      "chrisryugj/hermes-dashboard",
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-08-27T06:03:48.265733+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dacoolbaby/hermes-agent-issue-94248-evidence",
+    "url": "https://github.com/dacoolbaby/hermes-agent-issue-94248-evidence",
+    "description": "Evidence bundle for NousResearch/hermes-agent#94248 (SIGSEGV after delegate deadline) - 2 additional macOS arm64 .ips reports from an independent machine (non-Codex provider, CPython 3.12)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-27T05:08:22Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-27T06:05:09.934833+00:00",
+    "status": "pending"
   }
 ]
