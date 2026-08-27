@@ -142,6 +142,12 @@
   </script>
   <meta name="last-updated" content="2026-07-08">
   
+  <script>
+    if ('modelContext' in navigator) {
+      document.documentElement.setAttribute('data-webmcp', 'available');
+    }
+  </script>
+  
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   </head>
@@ -10699,6 +10705,8 @@ Track which alerts were actionable vs dismissed. After 4 weeks, adjust threshold
         <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
         <script src="/docs/javascripts/last-updated.js?v=1"></script>
+      
+        <script src="/docs/javascripts/webmcp.js?v=1"></script>
       
     
   <script>

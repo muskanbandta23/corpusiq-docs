@@ -135,6 +135,12 @@
   </script>
   <meta name="last-updated" content="">
   
+  <script>
+    if ('modelContext' in navigator) {
+      document.documentElement.setAttribute('data-webmcp', 'available');
+    }
+  </script>
+  
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   </head>
@@ -10221,6 +10227,8 @@ Built by: Atoa Payments Ltd (FCA authorised, PCI DSS, ISO 27001, SOC 2)
         <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
         <script src="/docs/javascripts/last-updated.js?v=1"></script>
+      
+        <script src="/docs/javascripts/webmcp.js?v=1"></script>
       
     
   <script>

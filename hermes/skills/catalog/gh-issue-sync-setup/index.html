@@ -138,6 +138,12 @@
   </script>
   <meta name="last-updated" content="2026-08-24">
   
+  <script>
+    if ('modelContext' in navigator) {
+      document.documentElement.setAttribute('data-webmcp', 'available');
+    }
+  </script>
+  
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   </head>
@@ -10238,6 +10244,8 @@ gh-issue-sync<span class="w"> </span>diff<span class="w"> </span><span class="m"
         <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
         <script src="/docs/javascripts/last-updated.js?v=1"></script>
+      
+        <script src="/docs/javascripts/webmcp.js?v=1"></script>
       
     
   <script>

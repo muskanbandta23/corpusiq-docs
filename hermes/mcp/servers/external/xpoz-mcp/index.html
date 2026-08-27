@@ -140,6 +140,12 @@
   </script>
   <meta name="last-updated" content="2026-08-12">
   
+  <script>
+    if ('modelContext' in navigator) {
+      document.documentElement.setAttribute('data-webmcp', 'available');
+    }
+  </script>
+  
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   </head>
@@ -10155,7 +10161,7 @@
 <h3 id="python-sdk-for-programmatic-use">Python SDK (for programmatic use)<a class="headerlink" href="#python-sdk-for-programmatic-use" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>xpoz
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">xpoz</span><span class="w"> </span><span class="kn">import</span> <span class="n">XpozClient</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">xpoz</span> <span class="kn">import</span> <span class="n">XpozClient</span>
 
 <span class="n">client</span> <span class="o">=</span> <span class="n">XpozClient</span><span class="p">()</span>
 <span class="n">results</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
@@ -10258,6 +10264,8 @@
         <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
         <script src="/docs/javascripts/last-updated.js?v=1"></script>
+      
+        <script src="/docs/javascripts/webmcp.js?v=1"></script>
       
     
   <script>

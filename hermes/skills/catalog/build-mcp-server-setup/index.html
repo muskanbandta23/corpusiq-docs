@@ -138,6 +138,12 @@
   </script>
   <meta name="last-updated" content="2026-08-12">
   
+  <script>
+    if ('modelContext' in navigator) {
+      document.documentElement.setAttribute('data-webmcp', 'available');
+    }
+  </script>
+  
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   </head>
@@ -10223,7 +10229,7 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>list<span class="w">  <
 </code></pre></div>
 <h3 id="tool-registration-python">Tool Registration (Python)<a class="headerlink" href="#tool-registration-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nd">@server</span><span class="o">.</span><span class="n">list_tools</span><span class="p">()</span>
-<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">list_tools</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">Tool</span><span class="p">]:</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">list_tools</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">Tool</span><span class="p">]:</span>
     <span class="k">return</span> <span class="p">[</span>
         <span class="n">Tool</span><span class="p">(</span>
             <span class="n">name</span><span class="o">=</span><span class="s2">&quot;get_weather&quot;</span><span class="p">,</span>
@@ -10380,6 +10386,8 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>list<span class="w">  <
         <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
         <script src="/docs/javascripts/last-updated.js?v=1"></script>
+      
+        <script src="/docs/javascripts/webmcp.js?v=1"></script>
       
     
   <script>
