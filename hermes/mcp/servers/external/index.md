@@ -12,7 +12,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 26, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3758-#3778 + mcpservers.org /all pages 1-3 · **Catalog:** 381 servers (+267 guides)
+> **Last updated:** August 26, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3780-#3786 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 386 servers (+272 guides)
+
+## 🆕 August 26, 2026 - Night Cron Sweep (4 New, 4 Guides)
+
+Night sweep sourced from chatmcp/mcpso issues #3780-#3786 (Aug 26 20:53 - Aug 27 01:48 UTC), the mcp.so homepage and feed, and the mcpservers.org homepage (18 slugs cross-referenced). 4 new business-relevant servers catalogued with guides: Centipid ISP Billing (hosted billing and network-management data for ISPs and WISPs - revenue and payment reports, subscriber status and expirations, MikroTik sessions and diagnostics, voucher stock, M-Pesa payments; 23 tools, 20 read-only, the 3 network-changing actions file in-app approval requests and return pending_confirmation; per-workspace API key at mcp.centipidbilling.com/mcp, 401-verified live, registry com.centipidbilling/billing), Security Recipes (keyless read-only CVE intelligence, remediation playbooks and agentic security governance packs - 75 tools live-probed at security-recipes.ai/mcp, serverInfo security-recipes-mcp v3.4.7; CVE catalog scoped to Medium/High/Critical with evidence and bounded change plans; Apache-2.0), Legalize MCP (consolidated legislation as data with point-in-time law_at_date and git-SHA citations - 7 read-only tools confirmed via the public tools.json, OAuth 2.1 with dynamic client registration at legalize.dev/mcp, 401-verified live, MIT), BestPrice Shopping (keyless Greek-market product search, delivered-total offer comparison and 30/90/180-day price history - 3 tools live-probed at mcp.bestprice.gr, serverInfo bestprice-agent-commerce v1.5.1, fail-closed category bounds).
+
+[Centipid ISP Billing MCP - Subscriber and Network Operations Data](/hermes/mcp/servers/external/centipid-billing-mcp/) · 23 tools, 20 read-only, MikroTik diagnostics with in-app approval for changes.
+
+[Security Recipes MCP - CVE Intelligence and Remediation Playbooks](/hermes/mcp/servers/external/security-recipes-mcp/) · 75 tools live-probed, keyless, Apache-2.0.
+
+[Legalize MCP - Point-in-Time Legislation with Git Provenance](/hermes/mcp/servers/external/legalize-mcp/) · 7 tools, OAuth 2.1, law_at_date with git SHA citations.
+
+[BestPrice Shopping MCP - Greek Market Price Comparison](/hermes/mcp/servers/external/bestprice-shopping-mcp/) · 3 tools live-probed, keyless, delivered-total comparison.
+
+**Also identified (not catalogued):** Axiom by Elevated AI #3786 (x402 routing and non-custodial crypto swaps - payment plumbing class, Kura and 402oracle precedent), ox402-utils #3784 (88 paid tools via x402 on a trycloudflare endpoint - x402 utility infra class), ArcadeOps Public Discovery #3782 (read-only discovery surface for a governed agent mission-control product - agent infra class, no business data). Feed catch-ups recorded for a future sweep: OmniSocials (official social publishing and analytics MCP across 11 platforms, mcp.so feed, createdAt Jul 9 - social management class, needs repo and endpoint verification), Uwear.ai (AI fashion photoshoots from flat-lay product images, createdAt Jul 25 - creative utility class, 3dlogo-adjacent), FastGPU (live GPU price comparison across 28+ providers on mcpservers.org - endpoint not verifiable from public pages, MetricFire thin-docs precedent). mcpservers.org homepage slugs mapped to established skip classes: AgentCloud (hosted iOS simulator - dev tool), Count Nanocorp (shared-expense ledger - consumer finance), ProxyLoom (multi-tenant MCP gateway - agent infra), Runbear (AI agent deployment to Slack - agent infra). Feed and homepage repeats already evaluated in Aug 24-26 sweeps (Speccy x402, Jitsu, Hologrow, OpenLore, LM Legion, fhirHydrant, QuanticData, Windframe, Alpha Sophia, HostTracker, Routebase, Agentic Atlas, RE Data Refinery, AgentRisk M2M, OAIA Arena, ReactVision, uxgen, BitBrowser, Shotstack, Agency AI, SSH MCP Server, SecondSim, Batru, Ice Juice, Granola, Minimax, Proxyman).
+
 
 ## 🆕 August 26, 2026 - Midday Cron Sweep (6 New, 6 Guides)
 
@@ -4848,3 +4863,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from chatmcp/mcpso issues - Aug 26, 2026 (afternoon cron sweep)
 
 - [3dlogo MCP - 3D Logos and Coins from Your AI Assistant](/docs/hermes/mcp/servers/external/3dlogo-mcp/)
+
+### 4 new servers from chatmcp/mcpso issues - Aug 26, 2026 (night cron sweep)
+
+- [Centipid ISP Billing MCP - Subscriber and Network Operations Data](/docs/hermes/mcp/servers/external/centipid-billing-mcp/)
+- [Security Recipes MCP - CVE Intelligence and Remediation Playbooks](/docs/hermes/mcp/servers/external/security-recipes-mcp/)
+- [Legalize MCP - Point-in-Time Legislation with Git Provenance](/docs/hermes/mcp/servers/external/legalize-mcp/)
+- [BestPrice Shopping MCP - Greek Market Price Comparison](/docs/hermes/mcp/servers/external/bestprice-shopping-mcp/)
