@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-26"
+last_updated: "2026-08-27"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,35 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 27, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3792-#3793 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 390 servers (+276 guides)
+> **Last updated:** August 27, 2026 (night cron sweep) · **Sources:** mcpservers.org /all pages 1-3 + mcp.so feed + chatmcp/mcpso issues #3794-#3801 + vendor detail pages · **Catalog:** 401 servers (+287 guides)
+## 🆕 August 27, 2026 - Night Cron Sweep (11 New, 11 Guides)
+
+Night sweep sourced from mcpservers.org /all pages 1-3 (44 slugs, host-dump and prior-sweep slugs excluded), the mcp.so feed (33 entries), chatmcp/mcpso issues #3794-#3801, and vendor detail pages. 11 new business-relevant servers catalogued with guides: LiveDataLink (hosted public-data aggregation — 284 tools across 59 domains behind one bearer key: stocks, options, crypto, SEC EDGAR, FRED, sanctions, federal courts, CVE, weather, FMCSA, real estate and more; free key with 1,000 calls/month minted in-conversation, plans from $10/mo), SprintCheckout (official payment-platform MCP — 6 tools read payment settings and paid orders, pull receipts, create payment links and mint API keys under OAuth 2.1 PKCE with scoped, instantly revocable consent; POST-only Streamable HTTP at mcp.sprintcheckout.com/mcp), AstroFabric (agentic growth-ops OS over MCP — one mission_agent tool, or the granular catalog via ?tools=all: on-page SEO audits, AI-visibility checks, email-deliverability audits, Google Search Console data, LinkedIn and Google Ads research, HubSpot CRM writes; OAuth with DCR+PKCE or key-embedded URL at www.astrofabric.ai/api/mcp — upgraded from the Aug 26 thin-docs skip now that the endpoint is verified, MetricFire precedent), Foliora (managed AI-search GEO/AEO platform — read-only 3-tool MCP hands agents product facts and preview links while humans run the snapshots; no key at v0, registry ai.foliora/search), QoreNext CRM (5 tools submit companies for address verification, top-parent hierarchy mapping and duplicate detection from JSON/CSV/Excel, then poll async results; X-API-Key at mcp.qorenext.com/crm, MIT), QoreNext Trade Screening (4 tools screen entities against OFAC/MEU/Entity List sanctions and run full trade due diligence with red-flag and negative-news analysis plus async report polling; X-API-Key at mcp.qorenext.com/tradescreening, MIT — vendor notes an intermittent 422 on new submissions as of Aug 19), AgendaForge (official AI-native event platform MCP — 53 tools over events, sessions, speakers, agendas, CFP forms, submissions, sponsors, ticketed attendees and email sends with every write proposed for in-app human approval; OAuth 2.1 at mcp.agendaforge.app/mcp), Jawz (22 read-only macro-economics tools — regime classification, financial conditions, G4 central-bank balance sheets, growth and inflation indicators, event calendar, ETF look-through, plus a four-chapter investing decision framework; anonymous reads at jawz.ai/api/mcp, OAuth for identity only), Flyn (8 short-link tools with click analytics and QR generation, OAuth on the free plan), Ransack (hosted search and research with source-attributed answers — 6 tools including multi-step cited reports and semantic memory over fetched pages; Bearer key at ransack.tools/mcp, trial free), Intesta (keyless registry of attested business fact passports with an A0-A4 trust ladder — 5 tools search entities, read passports and answer only from attested facts).
+
+[LiveDataLink MCP - Live Public Data for AI Agents](/hermes/mcp/servers/external/livedatalink-mcp/) · 284 tools, 59 domains, one bearer key, free tier.
+
+[SprintCheckout MCP - Payment Links and Orders for Coding Agents](/hermes/mcp/servers/external/sprintcheckout-mcp/) · 6 tools, OAuth 2.1 PKCE, scoped revocable consent.
+
+[AstroFabric MCP - Agentic Growth Missions for Operators](/hermes/mcp/servers/external/astrofabric-mcp/) · mission_agent tool, SEO/AI-visibility/email audits, HubSpot writes.
+
+[Foliora MCP - Managed AI Search Preview for Agents](/hermes/mcp/servers/external/foliora-mcp/) · 3 read-only tools, no key, GEO/AEO snapshots.
+
+[QoreNext CRM MCP - Company Hierarchy and Address Verification](/hermes/mcp/servers/external/qorenext-crm-mcp/) · 5 tools, async submit/poll, JSON/CSV/Excel dedupe.
+
+[QoreNext Trade Screening MCP - Sanctions and Restricted-Party Checks](/hermes/mcp/servers/external/qorenext-tradescreening-mcp/) · 4 tools, OFAC/MEU/Entity List plus trade due diligence.
+
+[AgendaForge MCP - Event Operations for AI Agents](/hermes/mcp/servers/external/agendaforge-mcp/) · 53 tools, human-approved writes, OAuth 2.1.
+
+[Jawz MCP - Live Macro Reads and a Disciplined Investing Loop](/hermes/mcp/servers/external/jawz-mcp/) · 22 read-only tools, anonymous reads.
+
+[Flyn MCP - Short Links, Click Analytics and QR Codes](/hermes/mcp/servers/external/flyn-mcp/) · 8 tools, OAuth on the free plan.
+
+[Ransack MCP - Source-Attributed Search and Research for Agents](/hermes/mcp/servers/external/ransack-mcp/) · 6 tools, cited reports, semantic memory.
+
+[Intesta MCP - Attested Business Fact Passports](/hermes/mcp/servers/external/intesta-mcp/) · 5 tools, A0-A4 trust ladder, keyless.
+
+**Also identified (not catalogued):** Kairos Signal #3799 (DePIN telemetry across 457 networks with per-query pricing — crypto/niche class), Crawlforge (28-tool scraping and deep-research server — saturated web-scraping class, rasterly/Parse.bot/MaxCrawl precedent), AlphaBridge (126-tool WordPress server with FTP/SFTP deploy — dev tool class, mcpservers.org detail page 504'd), Mini Course Generator (course-authoring MCP with no published endpoint or tool list — thin MCP docs). mcpservers.org /all dispositions: FarmDash (DeFi intelligence), Sceneplane (cloud Blender 3D), KinoPipe (FFmpeg-as-a-service media utility), AlgoVesta (16-exchange crypto trading), BanditDB (agent decision memory — agent infra), ElloMind (therapy booking — consumer niche), PZERO (AI model marketplace), Walletwatch (Solana wallet lookup — crypto consumer), KnowMapped (visual knowledge maps), ReverseGPT (AI humanizer utility), Deep Art AI (image/video generation), MCPPlatform (REST-to-MCP gateway — agent infra), Soccer API (sports niche), SpecMCP (German TI healthcare specs — geo-niche), Autonomy x402 Tools (x402 pay-per-call — payment plumbing). Host-dump slugs (railway-app/cloud-run/x402-feed patterns) and prior-sweep skips (Marketingburos, BillTruth, SocialData, Synapse, Wagglet, Screenies, CoAnimator, Speko, ScreenMocks) excluded without refetch; More Good Reviews confirmed already catalogued Aug 25.
+
 ## 🆕 August 27, 2026 - Evening Cron Sweep (3 New, 3 Guides)
 
 Evening sweep sourced from chatmcp/mcpso issues #3792-#3793 (Aug 27 13:02 - 15:47 UTC), the mcp.so homepage and feed (30 feed slugs and 8 recentServers cross-referenced), and the mcpservers.org homepage (18 slugs cross-referenced). 3 new business-relevant servers catalogued with guides: TubeScout (local keyless YouTube research server - filtered video search, engagement resonance, resilient transcripts single or batch of 10, channel scans and YouTube autocomplete as search-demand data, plus 6 context-aware research skills for idea mining, niche validation and demand-gap analysis; stdio via npx -y tubescout, MIT), DrillerDB (official remote MCP connector for the water-well and drilling contractor operating system - 45 tools, 37 read-only, over projects, customers, invoices, work orders, crews, schedules, equipment, compliance and well logs; OAuth 2.0 PKCE with tenant isolation, audit logging and approval-gated writes; endpoint 401-verified live, registry com.drillerdb/drillerdb v1.0.0), BidSkim (hosted UK public procurement intelligence - 8 read-only tools over Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wales, entity-resolved to one record per opportunity; search_renewals surfaces expiring contracts with incumbents, buyer and supplier profiles carry award histories; OAuth 2.1 or x-api-key header at mcp.bidskim.com/mcp, 401-verified live).
@@ -4900,3 +4928,16 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [TubeScout MCP - Keyless YouTube Research for AI Agents](/docs/hermes/mcp/servers/external/tubescout-mcp/)
 - [DrillerDB MCP - Field Service Data for Drilling Contractors](/docs/hermes/mcp/servers/external/drillerdb-mcp/)
 - [BidSkim MCP - UK Tenders and Procurement Intelligence](/docs/hermes/mcp/servers/external/bidskim-mcp/)
+### 11 new servers from mcp.so + mcpservers.org + chatmcp issues - Aug 27, 2026 (night cron sweep)
+
+- [LiveDataLink MCP - Live Public Data for AI Agents](/docs/hermes/mcp/servers/external/livedatalink-mcp/)
+- [SprintCheckout MCP - Payment Links and Orders for Coding Agents](/docs/hermes/mcp/servers/external/sprintcheckout-mcp/)
+- [AstroFabric MCP - Agentic Growth Missions for Operators](/docs/hermes/mcp/servers/external/astrofabric-mcp/)
+- [Foliora MCP - Managed AI Search Preview for Agents](/docs/hermes/mcp/servers/external/foliora-mcp/)
+- [QoreNext CRM MCP - Company Hierarchy and Address Verification](/docs/hermes/mcp/servers/external/qorenext-crm-mcp/)
+- [QoreNext Trade Screening MCP - Sanctions and Restricted-Party Checks](/docs/hermes/mcp/servers/external/qorenext-tradescreening-mcp/)
+- [AgendaForge MCP - Event Operations for AI Agents](/docs/hermes/mcp/servers/external/agendaforge-mcp/)
+- [Jawz MCP - Live Macro Reads and a Disciplined Investing Loop](/docs/hermes/mcp/servers/external/jawz-mcp/)
+- [Flyn MCP - Short Links, Click Analytics and QR Codes](/docs/hermes/mcp/servers/external/flyn-mcp/)
+- [Ransack MCP - Source-Attributed Search and Research for Agents](/docs/hermes/mcp/servers/external/ransack-mcp/)
+- [Intesta MCP - Attested Business Fact Passports](/docs/hermes/mcp/servers/external/intesta-mcp/)
