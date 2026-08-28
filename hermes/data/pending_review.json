@@ -49519,5 +49519,151 @@
     ],
     "discovered_at": "2026-08-28T06:07:48.328940+00:00",
     "status": "pending"
+  },
+  {
+    "name": "cpp-tutor/hermes-brain",
+    "url": "https://github.com/cpp-tutor/hermes-brain",
+    "description": "A fully Dockerized Hermes Agent server, WebUI, Dashboard, MCP server and Hindsight memory server",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "docker-compose",
+      "hermes-agent",
+      "hermes-webui",
+      "hindsight-memory",
+      "local-ai",
+      "mcp-server"
+    ],
+    "updated_at": "2026-08-28T07:02:41Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "Aphelios01-sdk/hermes-brain",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-28T07:04:34.933134+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LouisHaoL/dsh-timer-agent",
+    "url": "https://github.com/LouisHaoL/dsh-timer-agent",
+    "description": "DSH plugin: host-resident scheduled-jobs \u00d7 AI-agent engine (hermes-agent cron inspired) \u2014 60s ticker fires real agent sessions via cron; pinned-session / project-workdir / default-workspace targeting; timer_agent model tool + web board",
+    "stars": 4,
+    "forks": 1,
+    "language": "TypeScript",
+    "topics": [
+      "agent-workflow",
+      "ai-agent",
+      "ai-agents",
+      "ai-automation",
+      "automation",
+      "cron",
+      "deepseek-harness",
+      "dsh-plugin",
+      "llm",
+      "prompt-engineering",
+      "scheduled-tasks",
+      "scheduling"
+    ],
+    "updated_at": "2026-08-28T07:01:24Z",
+    "category": "core",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T07:04:37.936887+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xiaoquisme/skillhub",
+    "url": "https://github.com/xiaoquisme/skillhub",
+    "description": "A lightweight, self-hosted skill registry for Hermes Agent skills.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T06:58:47Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T07:04:40.940538+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sightkick-so/skill",
+    "url": "https://github.com/sightkick-so/skill",
+    "description": "Teach your AI agent to run SEO & AI-search visibility through Sightkick \u2014 SKILL.md manual for the Sightkick MCP (Claude Code, Claude, ChatGPT, Cursor, Hermes, OpenClaw)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "aeo",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "mcp",
+      "seo",
+      "skill"
+    ],
+    "updated_at": "2026-08-28T06:58:27Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ksimback/hermes-atlas-mcp",
+      "xMannixx/agent-memory-skill",
+      "Agnuxo1/cajal-hermes-skill",
+      "poogas/hermes-skill-installer",
+      "izillionways/academic-research-skills-hermes",
+      "Undermybelt/hermes-skills-research",
+      "0451-software/research-skills",
+      "BBridgeers/hermes-skills",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "yun520-1/mark-heartflow-skill",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "MemTensor/memmy-agent",
+      "titanwings/colleague-skill",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "sandbaseai/cli"
+    ],
+    "discovered_at": "2026-08-28T07:04:43.943526+00:00",
+    "status": "pending"
   }
 ]
