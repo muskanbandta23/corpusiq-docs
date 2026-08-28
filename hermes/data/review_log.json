@@ -11911,5 +11911,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-28T05:05:02.487833+00:00"
+  },
+  {
+    "repo": "x-cmd-install/codegraph",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021349+00:00"
+  },
+  {
+    "repo": "x-cmd-install/claude-tap",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021365+00:00"
+  },
+  {
+    "repo": "x-cmd-install/cc-switch",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021367+00:00"
+  },
+  {
+    "repo": "TLLABS-dev/daemonaudit",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021369+00:00"
+  },
+  {
+    "repo": "dder4a42/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021371+00:00"
+  },
+  {
+    "repo": "x-cmd-install/claude-mem",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021372+00:00"
+  },
+  {
+    "repo": "EasongChung/hermes-studio-mobile",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:04:55.021374+00:00"
+  },
+  {
+    "repo": "aaaaadrien/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T06:08:21.305212+00:00"
   }
 ]
