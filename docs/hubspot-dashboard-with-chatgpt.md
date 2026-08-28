@@ -13,7 +13,7 @@ keywords:
 - AI sales dashboard
 - live pipeline tracking
 - MCP HubSpot dashboard
-last_updated: "2026-08-19"
+last_updated: "2026-08-28"
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/hubspot-dashboard-with-chatgpt
