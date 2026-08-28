@@ -5,8 +5,8 @@
 > For MCP connector requests, CorpusIQ fetches source records live and returns them to the requesting AI client. It does not retain raw customer files or full connector response payloads, and it does not build embeddings, file indexes, or cached or indexed summaries. Query text, per-user tool-call metadata, and bounded outcome summaries are retained in operational logs for up to 30 days.
 
 ## Core
-- [CorpusIQ - Connect Your Business Data to ChatGPT, Claude, and Perplexity](https://www.corpusiq.io/docs): CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-c
-- [How to Connect Your Business Data to ChatGPT in Under 5 Minutes](https://www.corpusiq.io/docs/quick-start): Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API 
+- [CorpusIQ - Consistent Business Answers You Can Trust](https://www.corpusiq.io/docs): CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-c
+- [Get Consistent Business Answers in Under 5 Minutes](https://www.corpusiq.io/docs/quick-start): Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API 
 - [CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint](https://www.corpusiq.io/docs/connectors): Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and 
 - [Security](https://www.corpusiq.io/docs/security): 
 - [Changelog](https://www.corpusiq.io/docs/changelog): Complete CorpusIQ changelog and version history. Track API updates, new endpoints, connector additions, security improvements, and breaking changes. F

@@ -1,15 +1,15 @@
 ---
-title: "How to Connect Business Data to ChatGPT - CorpusIQ Quick"
-description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API token"
+title: "CorpusIQ Quick Start - Consistent Business Answers in ChatGPT, Claude, Perplexity"
+description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API token. The same number everywhere."
 category: "Documentation"
 tags: ["corpusiq quick start", "connect data to chatgpt", "setup guide", "mcp setup", "oauth connection", "how to connect business data to ai", "first query", "chatgpt integration"]
-last_updated: "2026-08-23"
+last_updated: "2026-08-27"
 canonical: "https://www.corpusiq.io/docs/quick-start"
 robots: "index,follow"
 ---
-# How to Connect Your Business Data to ChatGPT in Under 5 Minutes
+# Get Consistent Business Answers in Under 5 Minutes
 
-Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from live data. Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from live data. The same number in ChatGPT, Claude, and Perplexity. Every time. Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
 
 ## Prerequisites
 
