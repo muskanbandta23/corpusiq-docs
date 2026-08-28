@@ -11806,5 +11806,110 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-27T08:06:47.525941+00:00"
+  },
+  {
+    "repo": "coding-nyx/hermes-companion-web",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487805+00:00"
+  },
+  {
+    "repo": "coding-nyx/hermes-companion",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487808+00:00"
+  },
+  {
+    "repo": "coding-nyx/hermes-companion-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487810+00:00"
+  },
+  {
+    "repo": "liyuheng200408-pixel/coco-real-estate",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487812+00:00"
+  },
+  {
+    "repo": "sandbaseai/cli",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-08-28T05:05:02.487814+00:00"
+  },
+  {
+    "repo": "marten-lucas/hermes-mcp-smartfilter-plugin",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487816+00:00"
+  },
+  {
+    "repo": "marten-lucas/hermes-mcp-smartfilter-service",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487818+00:00"
+  },
+  {
+    "repo": "RasputinKaiser/Hermes-SIPS",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487820+00:00"
+  },
+  {
+    "repo": "mahsan07/hermes-skill-touchdesigner-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487822+00:00"
+  },
+  {
+    "repo": "SathiaAI/KnoTrack",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487824+00:00"
+  },
+  {
+    "repo": "JamesFincher/hermes-agents",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487826+00:00"
+  },
+  {
+    "repo": "michaelwo/kroger-hermes-skill",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487828+00:00"
+  },
+  {
+    "repo": "CyberLearners/hermes-agent-plugin-stt-corrector",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487829+00:00"
+  },
+  {
+    "repo": "braintimebox/hermex-plus",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487831+00:00"
+  },
+  {
+    "repo": "Atabak-Nikouseresht/hermes-crypto-lab",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T05:05:02.487833+00:00"
   }
 ]

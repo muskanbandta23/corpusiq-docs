@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 173+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 174+ repos, tools, skills, and integrations
 last_updated: 2026-08-27
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **173+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **174+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **173+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **174+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -24,7 +24,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **173+ reposit
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
-| 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
+| 🔌 MCP Servers | 7 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 38 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 3 | General discoveries, misc tools |
@@ -377,6 +377,14 @@ _Model Context Protocol servers & integrations_
 >A continuous-improvement harness for long-running agent tasks. Turns Claude Code, Codex, or Hermes into a multi-agent mission orchestrator via MCP/ACP.
 
 **Language:** Python | **Topics:** agent-client-protocol, agent-harness, ai-agents, claude-code, codex, llm, long-horizon-tasks, mcp, multi-agent, orchestration | **Score:** 73/100
+
+---
+
+### [sandbaseai/cli](https://github.com/sandbaseai/cli) ⭐ 64
+
+>Open-source AI CLI and local MCP server connecting 25 clients (Claude Code, Cursor, Codex, ChatGPT, Hermes, and OpenClaw) to 2,000+ models/APIs, with OAuth and rollback.
+
+**Language:** TypeScript | **Topics:** mcp, mcp-server, hermes-agent, cli, model-routing, ai-gateway | **Score:** 70/100
 
 ---
 
@@ -1463,6 +1471,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*173+ repositories in the Hermes ecosystem. Last updated: 2026-08-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*174+ repositories in the Hermes ecosystem. Last updated: 2026-08-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

@@ -48788,5 +48788,338 @@
     ],
     "discovered_at": "2026-08-27T08:04:59.430124+00:00",
     "status": "pending"
+  },
+  {
+    "name": "coding-nyx/hermes-companion-web",
+    "url": "https://github.com/coding-nyx/hermes-companion-web",
+    "description": "Web companion for the Hermes agent \u2014 pair, chat, control the device, and forward mobile notifications.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-28T05:01:06Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "EKKOLearnAI/hermes-studio",
+      "outsourc-e/hermes-workspace",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "synthalorian/hermes-wingman",
+      "kkllxy/hermes-web-ui",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-28T05:03:06.566296+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "coding-nyx/hermes-companion",
+    "url": "https://github.com/coding-nyx/hermes-companion",
+    "description": "Android companion app for the Hermes agent fleet. PoC scaffold.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-08-28T05:00:33Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:03:13.568753+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "coding-nyx/hermes-companion-plugin",
+    "url": "https://github.com/coding-nyx/hermes-companion-plugin",
+    "description": "Hermes Agent platform plugin \u2014 Tailscale discovery, pairing, and bidirectional mailbox for the Companion apps.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T05:00:30Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "agentchatme/agentchat-hermes",
+      "kaankacar/stellar-agent-kit",
+      "0451-software/research-skills",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-28T05:03:20.570851+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "liyuheng200408-pixel/coco-real-estate",
+    "url": "https://github.com/liyuheng200408-pixel/coco-real-estate",
+    "description": "Coco \u623f\u4ea7\u673a\u5668\u4eba - Hermes Agent fork \u5d4c\u5165\u623f\u4ea7\u6a21\u5757",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T05:01:25Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:03:27.573280+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "marten-lucas/hermes-mcp-smartfilter-plugin",
+    "url": "https://github.com/marten-lucas/hermes-mcp-smartfilter-plugin",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T05:00:35Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:03:42.209299+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "marten-lucas/hermes-mcp-smartfilter-service",
+    "url": "https://github.com/marten-lucas/hermes-mcp-smartfilter-service",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T04:49:11Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:03:49.210391+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RasputinKaiser/Hermes-SIPS",
+    "url": "https://github.com/RasputinKaiser/Hermes-SIPS",
+    "description": "SIPS self-improvement harness as a first-class Hermes Agent plugin: native tools, lifecycle hooks, MCP server, desktop Control-Plane panel",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T04:25:03Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:03:56.213742+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mahsan07/hermes-skill-touchdesigner-mcp",
+    "url": "https://github.com/mahsan07/hermes-skill-touchdesigner-mcp",
+    "description": "Control a running TouchDesigner instance through MCP to create operators, set parameters, wire networks, and execute Python.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T03:14:08Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:04:03.219977+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SathiaAI/KnoTrack",
+    "url": "https://github.com/SathiaAI/KnoTrack",
+    "description": "KnoTrack: a project manager for your projects, not an orchestrator. Steps into a project, assesses status against source-of-truth docs, sequences work, and catches drift \u2014 usable from Claude, Windsurf, Codex CLI, LM Studio, Goose, Hermes, or any MCP-speaking harness.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-28T03:10:11Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-28T05:04:10.223148+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JamesFincher/hermes-agents",
+    "url": "https://github.com/JamesFincher/hermes-agents",
+    "description": "Hermes Agent army: versioned profile distributions, skills, plugins, and Cursor workflow. Honcho memory. Context7-first docs.",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T04:23:27Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:04:18.030067+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "michaelwo/kroger-hermes-skill",
+    "url": "https://github.com/michaelwo/kroger-hermes-skill",
+    "description": "Kroger shopping Hermes skill/plugin that prioritizes cart choices on how few ingredients they have on Simple Truth's unwanted list.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T19:28:35Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:04:25.033974+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "CyberLearners/hermes-agent-plugin-stt-corrector",
+    "url": "https://github.com/CyberLearners/hermes-agent-plugin-stt-corrector",
+    "description": "Custom plugin for Hermes-Agent (Nous Research) for allowing NLP based skills correct ASR Transcripts before working with them",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-27T11:21:39Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:04:32.037897+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "braintimebox/hermex-plus",
+    "url": "https://github.com/braintimebox/hermex-plus",
+    "description": "Native iPhone app for your Hermes agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-08-28T05:03:54Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "uzairansaruzi/hermex"
+    ],
+    "discovered_at": "2026-08-28T05:04:39.701499+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Atabak-Nikouseresht/hermes-crypto-lab",
+    "url": "https://github.com/Atabak-Nikouseresht/hermes-crypto-lab",
+    "description": "Systematic cryptocurrency research and forward paper-trading platform with reproducible strategy locking, execution safeguards, governance, and audit trails.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "backtesting",
+      "cryptocurrency",
+      "financial-data",
+      "paper-trading",
+      "python",
+      "quantitative-finance",
+      "research",
+      "risk-management",
+      "systematic-trading"
+    ],
+    "updated_at": "2026-08-27T19:35:18Z",
+    "category": "research",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-28T05:04:50.177874+00:00",
+    "status": "pending"
   }
 ]
