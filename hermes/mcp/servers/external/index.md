@@ -12,7 +12,26 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 28, 2026 (night cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 + vendor detail pages · **Catalog:** 402 servers (+288 guides)
+> **Last updated:** August 28, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3802-#3807 + mcp.so homepage + mcpservers.org homepage · **Catalog:** 408 servers (+294 guides)
+
+## 🆕 August 28, 2026 - Evening Cron Sweep (6 New, 6 Guides)
+
+Evening sweep sourced from chatmcp/mcpso issues #3802-#3807 (cutoff #3801, the Aug 27 night sweep high-water mark), the mcp.so homepage new arrivals, and the mcpservers.org homepage. 6 new business-relevant servers catalogued with guides: Askline (hosted GEO/AEO brand monitoring - 22 verified tools showing what ChatGPT says about a brand plus the SEO that feeds it: keyword and SERP research, competitor gaps, backlinks, AI citations, AI share of voice, and free Search Console reads; per-user URL token, $35/mo, endpoint live-probed), TX ESBD Procurement (Texas state procurement intelligence on the Apify MCP gateway - roughly 60,000 solicitations searchable by structured NIGP code with an agency dictionary, date windows, and an old-to-new change feed; your own Apify token, actors verified, 401 liveness confirmed), Vocaneo (official keyless French workforce-data MCP - 13 live-probed tools over jobs, RNCP/RS diplomas and certifications, 135,000 trainings, training centers, skills comparison, and career pathways; registry com.vocaneo/vocaneo v1.0.1), Safe Mind (official stdio MCP for Germany's legally required psychological risk assessment, GBU Psyche - 12 tools for accounts, departments, survey drafts, and anonymity-protected aggregated results; npm safe-mind-mcp), TikTok Transcript MCP (Apify-gateway remote that transcribes public TikTok videos with an AI speech model across 90+ languages - timings, speaker labels, SRT/VTT, confidence scores, and metadata; own Apify token, registry io.github.deapi-ai), Forency (website technology-stack detection for prospecting and competitive intelligence - CMS, ecommerce, analytics, CRM, payments, CDN, hosting; hosted endpoint plus stdio package, free 100 scans/month, 401 liveness confirmed).
+
+[Askline MCP - AI Search Visibility for Brands](/hermes/mcp/servers/external/askline-mcp/) · 22 tools, GEO/AEO monitoring, $35/mo, per-user URL token.
+
+[TX ESBD Procurement MCP - Texas Government Contract Intelligence](/hermes/mcp/servers/external/tx-esbd-procurement-mcp/) · ~60k solicitations, NIGP codes, change feed, Apify gateway.
+
+[Vocaneo MCP - French Jobs, Diplomas, and Training Data](/hermes/mcp/servers/external/vocaneo-mcp/) · 13 tools, keyless remote, official registry.
+
+[Safe Mind MCP - Psychological Risk Assessment for German Employers](/hermes/mcp/servers/external/safe-mind-mcp/) · 12 tools, GBU Psyche compliance, stdio.
+
+[TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/hermes/mcp/servers/external/tiktok-transcript-mcp/) · 90+ languages, SRT/VTT, Apify gateway.
+
+[Forency MCP - Website Technology Stack Detection for Agents](/hermes/mcp/servers/external/forency-mcp/) · hosted + stdio, free 100 scans/mo.
+
+**Also identified (not catalogued):** PZERO #3802 (prepaid inference MCP - resubmission of the AI model marketplace already disposed in prior sweeps, UnificAlly class), SaveState #3803 (encrypted portable agent memory - agent infrastructure class, BanditDB precedent). mcp.so homepage repeats already evaluated in prior sweeps (CrawlForge, Ransack, Foremerge, Katto, Speccy x402, Hologrow); mcpservers.org homepage slugs were famous-name re-indexes (atlassian, blender, calcom, chrome-devtools, context7, firecrawl, github, granola, minimax, playwright, proxyman, railway, supabase) plus prior-sweep dispositions (AgentCloud, Count Nanocorp, Floot, Runbear).
+
 ## 🆕 August 28, 2026 - Night Cron Sweep (1 New, 1 Guide)
 
 Night sweep sourced from the mcp.so feed (30 submissions) and mcpservers.org /all pages 1-3 (43 slugs). 1 new business-relevant server catalogued with a guide: OmniSocials (official hosted MCP from the OmniSocials social media management platform - 42 tools matching the full public API over posts, media, analytics, hashtag sets, social inbox and webhooks across 11 platforms including Instagram, Facebook, LinkedIn profile and company page, YouTube, TikTok, X, Pinterest, Bluesky, Threads, Mastodon and Google Business; Streamable HTTP at mcp.omnisocials.com with scoped API keys or OAuth 2.1 DCR, plus a local stdio option via npx @omnisocials/mcp-server; endpoint 401-verified live - resolves the Aug 27 verification flag, MetricFire precedent).
@@ -4954,3 +4973,11 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [OmniSocials MCP - Multi-Platform Social Publishing for AI Agents](/docs/hermes/mcp/servers/external/omnisocials-mcp/)
 
+### 6 new servers from chatmcp/mcpso issues + mcp.so homepage - Aug 28, 2026 (evening cron sweep)
+
+- [Askline MCP - AI Search Visibility for Brands](/docs/hermes/mcp/servers/external/askline-mcp/)
+- [TX ESBD Procurement MCP - Texas Government Contract Intelligence](/docs/hermes/mcp/servers/external/tx-esbd-procurement-mcp/)
+- [Vocaneo MCP - French Jobs, Diplomas, and Training Data](/docs/hermes/mcp/servers/external/vocaneo-mcp/)
+- [Safe Mind MCP - Psychological Risk Assessment for German Employers](/docs/hermes/mcp/servers/external/safe-mind-mcp/)
+- [TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/docs/hermes/mcp/servers/external/tiktok-transcript-mcp/)
+- [Forency MCP - Website Technology Stack Detection for Agents](/docs/hermes/mcp/servers/external/forency-mcp/)
