@@ -11995,5 +11995,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-28T07:06:53.122190+00:00"
+  },
+  {
+    "repo": "CowNinja/HermesData",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903630+00:00"
+  },
+  {
+    "repo": "karlmalotabs/odin-9000-flow",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903644+00:00"
+  },
+  {
+    "repo": "nota-america/forgecat-agent-profiles",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903646+00:00"
+  },
+  {
+    "repo": "tim-toothed/hermes-browser-harness",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903649+00:00"
+  },
+  {
+    "repo": "alloevil/coding-agent-internals",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903650+00:00"
+  },
+  {
+    "repo": "voidhhh/agent-engineering-course",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903652+00:00"
+  },
+  {
+    "repo": "tommyil/gemina-mcp",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903654+00:00"
+  },
+  {
+    "repo": "justinsgithub/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903656+00:00"
+  },
+  {
+    "repo": "javalaw/cc-switch",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903658+00:00"
+  },
+  {
+    "repo": "novnski/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-28T08:06:08.903660+00:00"
   }
 ]
