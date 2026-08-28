@@ -5539,5 +5539,62 @@
     "discovered_at": "2026-08-26T07:03:26.688238+00:00",
     "status": "approved",
     "approved_at": "2026-08-26T07:05:37.259826+00:00"
+  },
+  {
+    "name": "sandbaseai/cli",
+    "url": "https://github.com/sandbaseai/cli",
+    "description": "Open-source AI CLI and local MCP server connecting 25 clients\u2014Claude Code, Cursor, Codex, ChatGPT, Hermes, and OpenClaw\u2014to 2,000+ models/APIs, with OAuth and rollback.",
+    "stars": 64,
+    "forks": 5,
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "ai-gateway",
+      "chatgpt",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "hermes-agent",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "model-routing",
+      "multimodal-ai",
+      "openclaw",
+      "opencode",
+      "windsurf"
+    ],
+    "updated_at": "2026-08-28T05:02:14Z",
+    "category": "mcp",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "paperclipinc/hermes-operator",
+      "zakahadi/llm-eval-cli",
+      "repolex-forx/NousResearch--hermes-paperclip-adapter",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-28T05:03:35.208329+00:00",
+    "status": "approved",
+    "approved_at": "2026-08-28T05:05:02.487788+00:00"
   }
 ]
