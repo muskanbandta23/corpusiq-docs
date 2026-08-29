@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-27"
+last_updated: "2026-08-29"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,27 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 29, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3811-#3816 + mcp.so homepage/feed + mcpservers.org homepage + /all pages 1-3 · **Catalog:** 417 servers (+303 guides)
+> **Last updated:** August 29, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3817-#3826 + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 430 servers (+316 guides)
+
+## 🆕 August 29, 2026 - Midday Cron Sweep (13 New, 13 Guides)
+
+Midday sweep sourced from chatmcp/mcpso issues #3817-#3826 (fresh window after the morning sweep's #3816 cutoff), the mcp.so feed (30 slugs), and mcpservers.org /all pages 1-3 (90 slugs). 13 new business-relevant servers catalogued with guides: 
+
+[Israel Business Intelligence MCP - Israeli Company Verification for Agents](/hermes/mcp/servers/external/israel-business-intelligence-mcp/) · 3 tools live-probed, x402 verify_company (0.05 USDC), keyless discovery.
+[Sourcey MCP - Startup Credits and Agent Readiness Data](/hermes/mcp/servers/external/sourcey-mcp/) · 8 tools live-probed, keyless catalog reads, signed change feed.
+[ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat](/hermes/mcp/servers/external/iso-20022-generator-mcp/) · 4 tools, XSD-validated output, API key, 401-verified live.
+[Equibles MCP - SEC Filings and Market Data for AI Agents](/hermes/mcp/servers/external/equibles-mcp/) · 61 tools, primary regulatory sources, 202 stars, AGPL.
+[Insourcia MCP - French Company Intelligence for AI Agents](/hermes/mcp/servers/external/insourcia-mcp/) · SIREN/SIRET search, ownership graphs, OAuth or API key.
+[Apple Ads MCP - App Store Campaign Operations from Your Terminal](/hermes/mcp/servers/external/apple-ads-mcp/) · 24 tools, local Go binary, receipt-gated writes, read-only default.
+[Google Search Console MCP (ni-c) - Property Setup and Search Analytics](/hermes/mcp/servers/external/google-search-console-ni-c-mcp/) · 21 tools, three Google APIs, setup_site ownership flow.
+[CRM Solid MCP - Social DM Inbox and Scheduling Across 12 Networks](/hermes/mcp/servers/external/crmsolid-mcp/) · 13 tools, inbox summary, API key.
+[Cookie Free Analytics MCP - Cookieless GDPR-First Web Analytics](/hermes/mcp/servers/external/cookiefreeanalytics-mcp/) · read-only aggregates, OAuth 2.1 PKCE, EU-hosted.
+[healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/hermes/mcp/servers/external/healthchecks-mcp/) · 14 tools, get_ping_body tracebacks, read-only keys.
+[PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/hermes/mcp/servers/external/policyforge-mcp/) · 11 tools, free unlimited audits, version-tracked.
+[PreVibe MCP - SaaS Product Research and Validation for Agents](/hermes/mcp/servers/external/previbe-mcp/) · Google sign-in, market and competitor research.
+[AngelOne MCP - Indian Market Trading and Portfolio Data for Agents](/hermes/mcp/servers/external/angelone-mcp/) · 32 tools, SmartAPI, TOTP auto-login, Apache-2.0.
+
+**Also identified (not catalogued):** Humanizer PRO #3817 (AI text humanizer - content-manipulation class), ntfy-mcp #3819 (pub-sub notification infra - dev tool class), woodpecker-ci-mcp #3820 (CI engine control - dev tool class), Orphograph #3825 (bitcoin-anchored agent notary - agent provenance infra class), MarketMaster (Kalshi/Polymarket prediction-market data - consumer gambling class, ParlayAPI precedent), Oblique Markets (x402 payment plumbing - infra class), Metalend (DeFi stablecoin yield - crypto niche), Tillpad (agent storage infra), WonderCal (agent scheduling infra), Quartermaster (game-asset vault), Valmera (agentic video editor - native-creator class), Footix (football betting analytics - gambling class), IronShard (object storage sandbox), Hexum (coding-agent cost control), Kivgraph (code graph), Firekeep (agent memory infra), Fatenava (astrology - consumer), OpenBoss (game), SuggestAPI (commerce agent gateway - thin docs), APISelf (local desktop apps), Sirveil (consumer privacy lookup), BidSwarm (rank-bidding board), Strunk (Google Docs writing workflow - Booklet class), OctoWatch DLP (thin MCP docs), PilotMyX (X-only posting - thin docs), Peon/ConnectPeon (thin docs), AdaptlyPost (no directory page - thin), CSVBox (thin MCP docs, endpoint 405 - dev-importer class), devinchen2014 X/Weibo scrapers (consumer social class).
 
 ## 🆕 August 29, 2026 - Morning Cron Sweep (8 New, 8 Guides)
 
@@ -5019,3 +5039,19 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [NoClick MCP - Workflow Automation for AI Assistants](/docs/hermes/mcp/servers/external/noclick-mcp/)
 - [PairBook MCP - Portfolio Risk and Correlation Analysis](/docs/hermes/mcp/servers/external/pairbook-mcp/)
 - [Otto MCP - Live Marketing Data and Website Operations in Chat](/docs/hermes/mcp/servers/external/otto-mcp/)
+
+### 13 new servers from chatmcp/mcpso issues + mcpservers.org /all - Aug 29, 2026 (midday cron sweep)
+
+- [Israel Business Intelligence MCP - Israeli Company Verification for Agents](/docs/hermes/mcp/servers/external/israel-business-intelligence-mcp/)
+- [Sourcey MCP - Startup Credits and Agent Readiness Data](/docs/hermes/mcp/servers/external/sourcey-mcp/)
+- [ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat](/docs/hermes/mcp/servers/external/iso-20022-generator-mcp/)
+- [Equibles MCP - SEC Filings and Market Data for AI Agents](/docs/hermes/mcp/servers/external/equibles-mcp/)
+- [Insourcia MCP - French Company Intelligence for AI Agents](/docs/hermes/mcp/servers/external/insourcia-mcp/)
+- [Apple Ads MCP - App Store Campaign Operations from Your Terminal](/docs/hermes/mcp/servers/external/apple-ads-mcp/)
+- [Google Search Console MCP (ni-c) - Property Setup and Search Analytics](/docs/hermes/mcp/servers/external/google-search-console-ni-c-mcp/)
+- [CRM Solid MCP - Social DM Inbox and Scheduling Across 12 Networks](/docs/hermes/mcp/servers/external/crmsolid-mcp/)
+- [Cookie Free Analytics MCP - Cookieless GDPR-First Web Analytics](/docs/hermes/mcp/servers/external/cookiefreeanalytics-mcp/)
+- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/healthchecks-mcp/)
+- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/docs/hermes/mcp/servers/external/policyforge-mcp/)
+- [PreVibe MCP - SaaS Product Research and Validation for Agents](/docs/hermes/mcp/servers/external/previbe-mcp/)
+- [AngelOne MCP - Indian Market Trading and Portfolio Data for Agents](/docs/hermes/mcp/servers/external/angelone-mcp/)
