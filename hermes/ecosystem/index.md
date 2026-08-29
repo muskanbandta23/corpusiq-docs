@@ -1028,14 +1028,6 @@ Self-hosted Honcho memory integration. Run your own Honcho instance for agent me
 
 ---
 
-### marlandoj/zouroboros-swarm-executors
-⭐ **community** · `Python` · [github.com/marlandoj/zouroboros-swarm-executors](https://github.com/marlandoj/zouroboros-swarm-executors)
-
-Claude Code + Hermes executor bridge. Swarm execution across multiple agent frameworks.
-
-**Status:** Experimental  
-**Key capabilities:** Swarm execution, Claude Code bridge, multi-framework
-
 ---
 
 ### Crustocean/reina
@@ -1674,14 +1666,6 @@ SEO, GEO, and AI discoverability skills. Optimize content for AI-powered search 
 
 ---
 
-### voidborne-d/master-skill
-⭐ **community** · `Python` · [github.com/voidborne-d/master-skill](https://github.com/voidborne-d/master-skill)
-
-Distills entire industries into portable skill folders. Domain expertise packaged as installable Hermes skills.
-
-**Status:** Beta  
-**Key capabilities:** Industry distillation, portable skills, domain expertise
-
 ---
 
 ### Sequenzy/sequenzy-email-marketing
@@ -2027,14 +2011,6 @@ Operations and security toolkit: routing, secrets management, auditing, cost gov
 **Key capabilities:** Ops security, secret management, auditing, cost governance
 
 ---
-
-### scross01/hermes-custom-dangerous-patterns
-⭐ **community** · `Python` · [github.com/scross01/hermes-custom-dangerous-patterns](https://github.com/scross01/hermes-custom-dangerous-patterns)
-
-Custom terminal command approval patterns. Fine-grained control over dangerous command execution.
-
-**Status:** Beta  
-**Key capabilities:** Terminal safety, custom patterns, command approval
 
 ---
 
