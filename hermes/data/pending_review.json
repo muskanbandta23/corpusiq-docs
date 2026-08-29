@@ -50371,5 +50371,177 @@
     ],
     "discovered_at": "2026-08-29T06:03:11.538353+00:00",
     "status": "pending"
+  },
+  {
+    "name": "0x-wzw/fashion-design",
+    "url": "https://github.com/0x-wzw/fashion-design",
+    "description": "Hermes Agent skill for fashion apparel design as a system \u2014 wardrobe architectures, capsules with SKU math, garment specs, technical flats",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-29T06:59:04Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "aiunlocked1412/hermes-agent-pixel"
+    ],
+    "discovered_at": "2026-08-29T07:02:31.142950+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vireshsoedhwa/hermes-agent",
+    "url": "https://github.com/vireshsoedhwa/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-29T07:02:09Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-29T07:02:34.144079+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chrisluersen/hermes-wiki-memory",
+    "url": "https://github.com/chrisluersen/hermes-wiki-memory",
+    "description": "Experimental local-first Wiki memory provider for Hermes Agent \u2014 canonical Markdown, GBrain retrieval, and safe capture hardening in progress.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "knowledge-base",
+      "local-first",
+      "memory",
+      "python"
+    ],
+    "updated_at": "2026-08-29T07:01:49Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "itechmeat/open-second-brain",
+      "samrusani/AliceBot",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-29T07:02:37.146680+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "0x-wzw/brand-design",
+    "url": "https://github.com/0x-wzw/brand-design",
+    "description": "Hermes Agent skill for alphabet lettermark logo systems + designer portfolio templates \u2014 exploration, parametric suites, construction, evidence-based QA",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-29T06:58:32Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T07:02:40.149305+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JianFeiGan/memoryweaver",
+    "url": "https://github.com/JianFeiGan/memoryweaver",
+    "description": "MemoryWeaver \u662f\u4e00\u4e2a\u7edf\u4e00\u7684 AI \u7f16\u7801 Agent \u8bb0\u5fc6\u7ba1\u7406 MCP Server\u3002\u5b83\u89e3\u51b3\u4e86\"\u8bb0\u5fc6\u5b64\u5c9b\"\u95ee\u9898\u2014\u2014\u5728 Claude Code\u3001Cursor\u3001Trae\u3001Hermes \u7b49\u5de5\u5177\u4e4b\u95f4\u5207\u6362\u65f6\u4e22\u5931\u4e0a\u4e0b\u6587\uff0c\u9700\u8981\u91cd\u65b0\u914d\u7f6e\u504f\u597d\u8bbe\u7f6e",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T06:31:34Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T07:02:49.781173+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AliRash3ed/rotodraft-suite",
+    "url": "https://github.com/AliRash3ed/rotodraft-suite",
+    "description": "Rotodraft suite it is an ai automated broll and asset collector engine from just your script",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-asset-collector",
+      "ai-broll-generator",
+      "ai-video-editor",
+      "b-roll-generator",
+      "capcut-draft",
+      "davinci-resolve-edl",
+      "ffmpeg-video-processing",
+      "hermes-agent",
+      "invideo-alternative",
+      "moneyprinter-alternative",
+      "openclaw-skill",
+      "pictory-alternative",
+      "stock-media-downloader",
+      "video-automation"
+    ],
+    "updated_at": "2026-08-29T07:03:05Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-08-29T07:03:06.025578+00:00",
+    "status": "pending"
   }
 ]
