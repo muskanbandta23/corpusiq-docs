@@ -50308,5 +50308,68 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-29T05:05:40.866041+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ekasc/puck",
+    "url": "https://github.com/ekasc/puck",
+    "description": "PWA-first Expo client for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-29T05:57:35Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T06:02:52.185696+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "taranticgrt/hermesmcp",
+    "url": "https://github.com/taranticgrt/hermesmcp",
+    "description": "An MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-29T05:43:20Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T06:03:01.871510+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "itsPremkumar/hermes-agi-harness",
+    "url": "https://github.com/itsPremkumar/hermes-agi-harness",
+    "description": "Hermes AGI Harness \u2014 Free, plugin-native, update-safe harness on Hermes Agent + DeerFlow 2.0. Every capability is a plugin. 100% free (Ollama/HF local), zero paid deps. First plugin: DeerFlow 2.0 super-agent (23 skills, sub-agents, memory, sandbox).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T05:19:23Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent"
+    ],
+    "discovered_at": "2026-08-29T06:03:11.538353+00:00",
+    "status": "pending"
   }
 ]

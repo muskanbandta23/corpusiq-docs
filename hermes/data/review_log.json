@@ -12142,5 +12142,26 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-29T05:06:49.358754+00:00"
+  },
+  {
+    "repo": "ekasc/puck",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T06:05:05.659067+00:00"
+  },
+  {
+    "repo": "taranticgrt/hermesmcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T06:05:05.659081+00:00"
+  },
+  {
+    "repo": "itsPremkumar/hermes-agi-harness",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T06:05:05.659084+00:00"
   }
 ]
