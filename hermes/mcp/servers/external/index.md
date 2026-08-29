@@ -12,7 +12,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 29, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3809-#3810 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 409 servers (+295 guides)
+> **Last updated:** August 29, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3811-#3816 + mcp.so homepage/feed + mcpservers.org homepage + /all pages 1-3 · **Catalog:** 417 servers (+303 guides)
+
+## 🆕 August 29, 2026 - Morning Cron Sweep (8 New, 8 Guides)
+
+Morning sweep sourced from chatmcp/mcpso issues #3811-#3816 (fresh window after the night sweep's #3810 cutoff), the mcp.so homepage and feed, and the mcpservers.org homepage plus /all pages 1-3. 8 new business-relevant servers catalogued with guides: YG3 MCP (marketing operations for autonomous agents - 197 live-verified tools over client snapshots, brand, blog content, LinkedIn, Google Ads PPC, outbound, and approvals; one unauthenticated POST provisions a sandbox workspace and returns a bearer token, repo MIT), GrowSurf MCP (official GrowSurf referral and affiliate program MCP - safe REST wrappers for campaigns, rewards, tracking installs, participants, webhooks, and analytics; npm package plus hosted remote at mcp.growsurf.com), site-spec (local deterministic audit of the website layer browsers do not render - 40 checks over robots.txt, llms.txt, canonical/noindex, JSON-LD, headers, accessibility, and trackers with automatic repair for 17; 4 tools, Apache-2.0), CN Intel Board (China hard-tech supply chain intelligence - 33 information-gap signals across semiconductors, solid-state batteries, eVTOL, and innovative drugs, an H1 2026 earnings tracker, prediction track record, and edge Q&A; 6 tools, bearer auth, 401-live), Contexter (one shared project context across ChatGPT, Claude, Telegram, and any MCP client - 26 OAuth-scoped tools: 8 read, 7 save, 5 share, 6 remove; free early access), NoClick (workflow automation MCP - 47 documented tools for workflows, checkpoints, nodes, executions, credentials, and skills, plus a no-code builder that turns 150+ apps into a hosted MCP server; OAuth 2.1 PKCE), PairBook (portfolio risk and correlation engine - Euler risk contributions, diversification ratio, and issuer-sourced ETF overlap warnings across 4,700+ US stocks and ETFs; keyless free API, MIT), Otto (hosted marketing-data connector - live Meta Ads, GA4, and Search Console reads plus website ops in chat; $99/mo founding, 7-day trial, 401-live).
+
+[YG3 MCP - Marketing Operations for Autonomous Agents](/hermes/mcp/servers/external/yg3-mcp/) · 197 tools, one-POST agent provisioning, MIT.
+[GrowSurf MCP - Referral and Affiliate Program Operations](/hermes/mcp/servers/external/growsurf-mcp/) · campaigns, rewards, webhooks, analytics.
+[site-spec MCP - Machine-Readable Website Audits and Auto-Fixes](/hermes/mcp/servers/external/site-spec/) · 40 checks, 17 auto-fixable, local stdio.
+[CN Intel Board MCP - China Hard-Tech Supply Chain Intelligence](/hermes/mcp/servers/external/cn-intel-board/) · 6 tools, signals plus earnings tracker.
+[Contexter MCP - Shared Project Context Across AI Assistants](/hermes/mcp/servers/external/contexter/) · 26 tools, OAuth 2.1, free early access.
+[NoClick MCP - Workflow Automation for AI Assistants](/hermes/mcp/servers/external/noclick-mcp/) · 47 tools, OAuth PKCE, app-to-MCP builder.
+[PairBook MCP - Portfolio Risk and Correlation Analysis](/hermes/mcp/servers/external/pairbook-mcp/) · keyless, 11.3M pairs, daily refresh.
+[Otto MCP - Live Marketing Data and Website Operations in Chat](/hermes/mcp/servers/external/otto-mcp/) · Meta, GA4, GSC, $99/mo founding.
+
+**Also identified (not catalogued):** dataloupe #3813 (offline stdio explorer for local CSV/Parquet/Excel - local data-file utility class, redundant with existing local tooling), thing #3815 (durable artifact publishing for coding agents - dev publishing utility class, Booklet precedent: versioned links and comments but no measurable readership). /all catch-up skips: YardStock (named NZ dealer used-car inventory - micro geo-niche consumer data), SafeSelect (read-only Postgres/MongoDB access for coding agents - dev tool class), Domain Search King (.com availability via RDAP - thin single-purpose utility), TooHardBasket (escrow agent task marketplace - TaskMarket class), Blck Alpaca Knowledge Base (vendor marketing knowledge base - prose content, not data), Savee (design bookmarking - consumer creative utility), PersonaCLI (local personal notes workspace - consumer productivity), MCP Marketplace (880-server search directory - agent infra), search2chart (charting utility - dev class), Lyrenth (web extraction - saturated scraping class), AgentMailkit (local email digests - personal utility), Session Bridge (browser automation - dev automation class), Maroo and Kalyvox (no repo or description), plus consumer/crypto repeats (YNAB, Pi Delegate, Parlay, OpenEphemeris, Bilibili, Zhihu). Future catch-up candidates: the HasData batch (Airbnb, Booking, Zillow MCPs). · **Sources:** chatmcp/mcpso issues #3809-#3810 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 409 servers (+295 guides)
 
 ## 🆕 August 29, 2026 - Night Cron Sweep (1 New, 1 Guide)
 
@@ -4993,3 +5008,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from mcpservers.org homepage - Aug 29, 2026 (night cron sweep)
 
 - [Packy Tracking MCP - Parcel Tracking and Courier Webhooks](/docs/hermes/mcp/servers/external/packy-tracking-mcp/)
+
+### 8 new servers from chatmcp/mcpso issues + mcpservers.org /all - Aug 29, 2026 (morning cron sweep)
+
+- [YG3 MCP - Marketing Operations for Autonomous Agents](/docs/hermes/mcp/servers/external/yg3-mcp/)
+- [GrowSurf MCP - Referral and Affiliate Program Operations](/docs/hermes/mcp/servers/external/growsurf-mcp/)
+- [site-spec MCP - Machine-Readable Website Audits and Auto-Fixes](/docs/hermes/mcp/servers/external/site-spec/)
+- [CN Intel Board MCP - China Hard-Tech Supply Chain Intelligence](/docs/hermes/mcp/servers/external/cn-intel-board/)
+- [Contexter MCP - Shared Project Context Across AI Assistants](/docs/hermes/mcp/servers/external/contexter/)
+- [NoClick MCP - Workflow Automation for AI Assistants](/docs/hermes/mcp/servers/external/noclick-mcp/)
+- [PairBook MCP - Portfolio Risk and Correlation Analysis](/docs/hermes/mcp/servers/external/pairbook-mcp/)
+- [Otto MCP - Live Marketing Data and Website Operations in Chat](/docs/hermes/mcp/servers/external/otto-mcp/)
