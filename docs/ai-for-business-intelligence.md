@@ -146,14 +146,14 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ## Internal Links
 
-- [Connect Shopify to Claude](/docs/connect-shopify-to-claude)  --  E-commerce BI.
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)  --  Financial BI.
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)  --  CRM intelligence.
-- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude)  --  Web analytics BI.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting)  --  Leadership dashboards.
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)  --  Real-time KPI tracking.
-- [AI for Data Analysis](/docs/ai-for-data-analysis)  --  Advanced analytics with AI.
-- [What is MCP?](/docs/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
+- [Connect Shopify to Claude](/connect-shopify-to-claude)  --  E-commerce BI.
+- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)  --  Financial BI.
+- [Connect Salesforce to Claude](/connect-salesforce-to-claude)  --  CRM intelligence.
+- [Connect Google Analytics to Claude](/connect-google-analytics-to-claude)  --  Web analytics BI.
+- [AI for Executive Reporting](/ai-for-executive-reporting)  --  Leadership dashboards.
+- [AI for KPI Monitoring](/ai-for-kpi-monitoring)  --  Real-time KPI tracking.
+- [AI for Data Analysis](/ai-for-data-analysis)  --  Advanced analytics with AI.
+- [What is MCP?](/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

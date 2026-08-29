@@ -146,13 +146,13 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 ## Internal Links
 
-- [Connect Notion to Claude](/docs/connect-notion-to-claude)  --  Knowledge management in Claude.
-- [Connect Slack to Claude](/docs/connect-slack-to-claude)  --  Team communication in Claude.
-- [Connect Microsoft Teams to Claude](/docs/connect-sharepoint-to-claude)  --  Teams data in Claude via Microsoft 365 integration.
-- [AI for Document Search](/docs/ai-for-document-search)  --  AI-powered document intelligence.
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management)  --  Enterprise knowledge retrieval.
-- [AI for Compliance](/docs/ai-for-compliance)  --  Document compliance with AI.
-- [What is MCP?](/docs/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
+- [Connect Notion to Claude](/connect-notion-to-claude)  --  Knowledge management in Claude.
+- [Connect Slack to Claude](/connect-slack-to-claude)  --  Team communication in Claude.
+- [Connect Microsoft Teams to Claude](/connect-sharepoint-to-claude)  --  Teams data in Claude via Microsoft 365 integration.
+- [AI for Document Search](/ai-for-document-search)  --  AI-powered document intelligence.
+- [AI for Knowledge Management](/ai-for-knowledge-management)  --  Enterprise knowledge retrieval.
+- [AI for Compliance](/ai-for-compliance)  --  Document compliance with AI.
+- [What is MCP?](/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

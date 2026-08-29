@@ -149,14 +149,14 @@ A: CorpusIQ: $50-200/seat/month. Custom MCP: $100K-300K/year. Zapier: per-task p
 
 ## Internal Links
 
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
-- [How to Connect Business Data to ChatGPT  --  Step-by-Step](/docs/how-to-connect-business-data-to-chatgpt)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
-- [Best AI Data Connector](/docs/best-ai-data-connector)
-- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/docs/corpusiq-vs-zapier)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
-- [Top Business AI Tools](/docs/top-business-ai-tools)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
+- [Best Way to Connect ChatGPT to Business Data](/best-way-to-connect-chatgpt-to-business-data)
+- [How to Connect Business Data to ChatGPT  --  Step-by-Step](/how-to-connect-business-data-to-chatgpt)
+- [Best MCP Server for Business](/best-mcp-server-for-business)
+- [Best AI Data Connector](/best-ai-data-connector)
+- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/corpusiq-vs-zapier)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [Top Business AI Tools](/top-business-ai-tools)
+- [Secure AI Data Connectivity](/secure-ai-data-connectivity)
 ---
 
 *

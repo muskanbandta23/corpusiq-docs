@@ -96,7 +96,7 @@ Full catalog: `SKILL_INDEX.md` in the repo (153 packages: 25 categories split in
 |---|---|
 | **Daily UGC video pipeline** | `ugc-ad-production` + `social-short-production` replace ad-hoc scripting with researched format specs; `media-qc-delivery` adds a deterministic QA pass before Postiz posting |
 | **Image production consistency** | `openai-gpt-image` encodes the current GPT Image 2 lifecycle (aliases, deprecations, cost limits) - exactly the backend `image_generate` uses; pairs with the GPT-Image-2 Style Library already catalogued |
-| **Voiceover migration** | `elevenlabs-tts` + `elevenlabs-dubbing-voice-conversion` provide the researched playbook for moving off macOS `say -v Samantha` (rejected by Benoit) to ElevenLabs voices |
+| **Voiceover migration** | `elevenlabs-tts` + `elevenlabs-dubbing-voice-conversion` provide the researched playbook for moving off macOS `say -v Samantha` (rejected for robotic quality) to ElevenLabs voices |
 | **HyperFrames compositions** | `hyperframes-video-composition` and `comfyui-media-workflows` (which validates HyperFrames timelines) harden the existing HyperFrames UGC pipeline |
 | **Social QA + rights** | `generated-media-qa` + `media-provenance-rights` gate every outgoing asset - scriptable checks instead of eyeballing, plus provenance records for platform disputes |
 
@@ -109,7 +109,7 @@ Full catalog: `SKILL_INDEX.md` in the repo (153 packages: 25 categories split in
 
 ## Related
 
-- [GPT-Image-2 Style Library Setup](/docs/hermes/skills/catalog/gpt-image-2-style-library-setup/) - style templates for the same image backend
+- [GPT-Image-2 Style Library Setup](/hermes/skills/catalog/gpt-image-2-style-library-setup/) - style templates for the same image backend
 - [Skills Marketplace](/hermes/skills/marketplace/) - marketplace index for more discovery batches
 - [New Skills - August 26, 2026](/hermes/skills/marketplace/new-aug26-2026/) - discovery page for this sweep
 

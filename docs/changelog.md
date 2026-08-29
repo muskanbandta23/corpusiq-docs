@@ -74,7 +74,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### Documentation
 
-- Published [CorpusIQ Documentation](/docs/) covering API reference, authentication, rate limits, security, and quick start
+- Published [CorpusIQ Documentation](/) covering API reference, authentication, rate limits, security, and quick start
 - Connector catalog with descriptions for all supported integrations
 - Code examples in cURL, JavaScript, and Python for all endpoints
 
@@ -103,13 +103,13 @@ A: As of the v1.0 release (March 2026), CorpusIQ supports 40+ native connectors 
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/quick-start)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/changelog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/secure-ai-data-connectivity)**  --  Encryption and network security  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

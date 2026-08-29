@@ -118,13 +118,13 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
-- [AI for Audit Readiness](/docs/ai-for-audit-readiness)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
-- [AI for Document Search](/docs/ai-for-document-search)
-- [What is MCP?](/docs/what-is-an-mcp-server)
+- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)
+- [Connect NetSuite to Claude](/connect-netsuite-to-claude)
+- [Connect SharePoint to Claude](/connect-sharepoint-to-claude)
+- [AI for Audit Readiness](/ai-for-audit-readiness)
+- [AI for Financial Analysis](/ai-for-financial-analysis)
+- [AI for Document Search](/ai-for-document-search)
+- [What is MCP?](/what-is-an-mcp-server)
 
 ---
 

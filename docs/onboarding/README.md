@@ -110,9 +110,9 @@ Your agent now has access to 40+ business data sources. Use it for:
 
 ## What's Next?
 
-- Browse the [prompts library](/docs/hermes/prompts/) for 60+ copy-paste queries
-- Check [connector documentation](/docs/connectors) for specific setup guides
-- Review [troubleshooting](/docs/hermes/troubleshooting/) if you hit issues
+- Browse the [prompts library](/hermes/prompts/) for 60+ copy-paste queries
+- Check [connector documentation](/connectors) for specific setup guides
+- Review [troubleshooting](/hermes/troubleshooting/) if you hit issues
 - Join the [community](https://corpusiq.io/community/) for questions, early connector ideas, and
   upvotes
 - Open a [Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose)

@@ -199,7 +199,7 @@ Every blueprint follows a predictable escalation pattern: automated retry (trans
 - [Content Pipeline Blueprint](content-pipeline.md)  --  Research, draft, review, publish, promote
 - [Financial Close Blueprint](financial-close.md)  --  Monthly reconciliation and reporting
 - [Incident Response Blueprint](incident-response.md)  --  Detection, triage, remediation, postmortem
-- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design/)  --  Reliable scheduled automation
+- [Cron Design Best Practices](/hermes/best-practices/cron-design/)  --  Reliable scheduled automation
 - [Integration Examples](/hermes/integrations/)  --  Tool connection patterns for blueprints
 
 

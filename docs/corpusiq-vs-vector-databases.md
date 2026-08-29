@@ -152,14 +152,14 @@ Ready to put AI to work on your corpusiq vs vector databases  --  mcp retrieval 
 
 ## Internal Links
 
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses)
-- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/docs/corpusiq-vs-langchain)
-- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base)
-- [Best Business AI Search Tool  --  Rankings](/docs/best-business-ai-search-tool)
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/corpusiq-vs-custom-rag)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/corpusiq-vs-data-warehouses)
+- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/corpusiq-vs-langchain)
+- [How to Build an AI Knowledge Base](/how-to-build-an-ai-knowledge-base)
+- [Best Business AI Search Tool  --  Rankings](/best-business-ai-search-tool)
+- [How to Search Company Data with AI](/how-to-search-company-data-with-ai)
+- [How to Query Business Data in Natural Language](/how-to-query-business-data-in-natural-language)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
 
 ---
 

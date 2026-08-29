@@ -32,7 +32,7 @@ This agent is built for finance teams, fractional CFOs, and business owners who 
 | **AR aging** | Receivables aging report, overdue alerts, customer payment trend analysis |
 | **Financial reporting** | Monthly P&L, balance sheet snapshot, cash flow summary, budget vs. actual |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [DevOps Agent](/docs/hermes/agents/devops-agent/) · [QuickBooks Connector](/hermes/mcp/connectors/)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [DevOps Agent](/hermes/agents/devops-agent/) · [QuickBooks Connector](/hermes/mcp/connectors/)
 
 ## How It Works
 
@@ -136,8 +136,8 @@ The agent generates **P&L statements, balance sheet snapshots, cash flow summari
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [DevOps Agent  --  Infrastructure & Cost Optimization](/docs/hermes/agents/devops-agent/)
-- [Executive Agent  --  Daily Briefings & Metrics](/docs/hermes/agents/executive-agent/)
+- [DevOps Agent  --  Infrastructure & Cost Optimization](/hermes/agents/devops-agent/)
+- [Executive Agent  --  Daily Briefings & Metrics](/hermes/agents/executive-agent/)
 - [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 

@@ -101,13 +101,13 @@ MCP's API-first approach provides better security characteristics than RPA. MCP 
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
-- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
-- [See how MCP compares to traditional data warehouses](/docs/mcp-vs-data-warehouse)
-- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Explore MCP for business operations automation](/docs/mcp-for-operations)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
+- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
+- [Compare MCP vs Zapier for real-time business automation](/mcp-vs-zapier)
+- [See how MCP compares to traditional data warehouses](/mcp-vs-data-warehouse)
+- [Compare MCP vs custom API integrations](/mcp-vs-api-integrations)
+- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
+- [Explore MCP for business operations automation](/mcp-for-operations)
+- [Learn about MCP for enterprise-scale deployments](/mcp-for-enterprise)
 
 *Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
 

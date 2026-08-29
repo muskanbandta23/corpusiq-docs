@@ -118,13 +118,13 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
-- [AI for Compliance](/docs/ai-for-compliance)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
-- [AI for Document Search](/docs/ai-for-document-search)
-- [What is MCP?](/docs/what-is-an-mcp-server)
+- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)
+- [Connect NetSuite to Claude](/connect-netsuite-to-claude)
+- [Connect SharePoint to Claude](/connect-sharepoint-to-claude)
+- [AI for Compliance](/ai-for-compliance)
+- [AI for Financial Analysis](/ai-for-financial-analysis)
+- [AI for Document Search](/ai-for-document-search)
+- [What is MCP?](/what-is-an-mcp-server)
 
 ---
 

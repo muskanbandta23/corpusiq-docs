@@ -135,19 +135,19 @@ Ready to put AI to work on your shopify business intelligence data?
 
 ## Internal Links
 
-- [ChatGPT for Shopify: Conversational Ecommerce AI](/docs/chatgpt-for-shopify)
-- [Claude for Shopify: Deep Ecommerce Analysis](/docs/claude-for-shopify)
-- [Shopify AI Analytics: Automated Insights](/docs/shopify-ai-analytics)
-- [Shopify Sales Analysis with AI](/docs/shopify-sales-analysis-with-ai)
-- [Shopify Dashboard with ChatGPT](/docs/shopify-dashboard-with-chatgpt)
-- [QuickBooks Business Intelligence Platform](/docs/quickbooks-business-intelligence)
-- [HubSpot Business Intelligence Platform](/docs/hubspot-business-intelligence)
+- [ChatGPT for Shopify: Conversational Ecommerce AI](/chatgpt-for-shopify)
+- [Claude for Shopify: Deep Ecommerce Analysis](/claude-for-shopify)
+- [Shopify AI Analytics: Automated Insights](/shopify-ai-analytics)
+- [Shopify Sales Analysis with AI](/shopify-sales-analysis-with-ai)
+- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
+- [QuickBooks Business Intelligence Platform](/quickbooks-business-intelligence)
+- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
 
 ## Ecommerce Intelligence, Without the Infrastructure
 
 Building a business intelligence capability used to require data warehouses, ETL pipelines, BI tools, and data teams  --  a six-figure, multi-month investment. CorpusIQ collapses this into a single MCP platform that connects your stack, queries your data, and delivers intelligence conversationally.
 
-**[Start your ecommerce intelligence journey](/docs/quick-start). Connect Shopify and your marketing stack in under 30 minutes.**
+**[Start your ecommerce intelligence journey](/quick-start). Connect Shopify and your marketing stack in under 30 minutes.**
 
 ---
 *AI-powered Shopify Business Intelligence  --  AI-Powered Ecommerce BI |...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

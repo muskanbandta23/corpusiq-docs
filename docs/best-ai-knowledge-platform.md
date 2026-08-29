@@ -156,14 +156,14 @@ A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live busines
 
 ## Internal Links
 
-- [How to Build an AI Knowledge Base  --  Step-by-Step](/docs/how-to-build-an-ai-knowledge-base)
-- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
-- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/docs/corpusiq-vs-vector-databases)
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
-- [Top Business AI Tools](/docs/top-business-ai-tools)
+- [How to Build an AI Knowledge Base  --  Step-by-Step](/how-to-build-an-ai-knowledge-base)
+- [How to Centralize Company Knowledge](/how-to-centralize-company-knowledge)
+- [Best Business AI Search Tool](/best-business-ai-search-tool)
+- [Best MCP Server for Business](/best-mcp-server-for-business)
+- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/corpusiq-vs-vector-databases)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/corpusiq-vs-custom-rag)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [Top Business AI Tools](/top-business-ai-tools)
 ---
 
 *

@@ -141,14 +141,14 @@ Yes. Generate data for investor updates, answer diligence questions during fundr
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [Discover MCP for marketing campaign analytics](/docs/mcp-for-marketing)
-- [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
+- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
+- [Learn about MCP for financial reporting and compliance](/mcp-for-finance)
+- [MCP for Sales: Pipeline and Forecasting](/mcp-for-sales)
+- [Discover MCP for marketing campaign analytics](/mcp-for-marketing)
+- [MCP for Operations: Workflow and KPIs](/mcp-for-operations)
+- [Learn about MCP for enterprise-scale deployments](/mcp-for-enterprise)
+- [Read our complete MCP security best practices guide](/mcp-security-best-practices)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

@@ -25,7 +25,7 @@ robots: "index,follow"
 
 ## Evidence
 
-"The same number in ChatGPT, Claude, and Perplexity. Every time." - Benoit Pecqueur, Founder, CorpusIQ
+"The same number in ChatGPT, Claude, and Perplexity. Every time." - CorpusIQ Founder
 
 "When a user selects your site as a preferred source, your content is more likely to appear in Top Stories, highlighted with a preferred badge. In AI Mode and AI Overviews, your content can be highlighted with a preferred badge for users who have selected your site as a preferred source." - [Google Search Central documentation](https://developers.google.com/search/docs/appearance/preferred-sources)
 
@@ -73,13 +73,13 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/quick-start)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/changelog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/secure-ai-data-connectivity)**  --  Encryption and network security  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

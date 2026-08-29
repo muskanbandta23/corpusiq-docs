@@ -165,14 +165,14 @@ A: Yes. MCP is being adopted by major AI platforms (Anthropic, OpenAI) and is be
 
 ## Internal Links
 
-- [Top MCP Platforms  --  Detailed Comparison](/docs/top-mcp-platforms)
-- [Best AI Data Connector for Business](/docs/best-ai-data-connector)
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
-- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/docs/corpusiq-vs-langchain)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
+- [Top MCP Platforms  --  Detailed Comparison](/top-mcp-platforms)
+- [Best AI Data Connector for Business](/best-ai-data-connector)
+- [Best Way to Connect ChatGPT to Business Data](/best-way-to-connect-chatgpt-to-business-data)
+- [Best Business AI Search Tool](/best-business-ai-search-tool)
+- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/corpusiq-vs-langchain)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [Secure AI Data Connectivity](/secure-ai-data-connectivity)
+- [Top Business AI Tools  --  Rankings](/top-business-ai-tools)
 ---
 
 *

@@ -180,14 +180,14 @@ A: Connect your first 3-5 sources (30 minutes). Start asking questions immediate
 
 ## Internal Links
 
-- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base)
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
-- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data)
-- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer)
-- [Best AI Knowledge Platform  --  Rankings](/docs/best-ai-knowledge-platform)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
+- [How to Build an AI Knowledge Base](/how-to-build-an-ai-knowledge-base)
+- [How to Search Company Data with AI](/how-to-search-company-data-with-ai)
+- [How to Use AI with Business Data](/how-to-use-ai-with-business-data)
+- [How to Create an AI Data Layer](/how-to-create-an-ai-data-layer)
+- [Best AI Knowledge Platform  --  Rankings](/best-ai-knowledge-platform)
+- [Best Business AI Search Tool](/best-business-ai-search-tool)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [Top Business AI Tools  --  Rankings](/top-business-ai-tools)
 ---
 
 *

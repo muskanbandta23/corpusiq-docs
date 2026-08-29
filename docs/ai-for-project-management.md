@@ -122,12 +122,12 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 ## Internal Links
 
 - [Connect Monday.com to Claude](https://corpusiq.io/connectors/monday/)
-- [Connect Slack to Claude](/docs/connect-slack-to-claude)
-- [Connect Notion to Claude](/docs/connect-notion-to-claude)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting)
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)
-- [What is MCP?](/docs/what-is-an-mcp-server)
+- [Connect Slack to Claude](/connect-slack-to-claude)
+- [Connect Notion to Claude](/connect-notion-to-claude)
+- [Connect SharePoint to Claude](/connect-sharepoint-to-claude)
+- [AI for Executive Reporting](/ai-for-executive-reporting)
+- [AI for KPI Monitoring](/ai-for-kpi-monitoring)
+- [What is MCP?](/what-is-an-mcp-server)
 
 ---
 

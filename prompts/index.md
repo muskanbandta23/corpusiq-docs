@@ -28,4 +28,4 @@ For Hermes Agent users, see the [Hermes Prompts Library](/hermes/prompts/) with 
 
 ---
 
-*← [CorpusIQ Docs Home](/docs/) | [Hermes Community Hub →](/hermes/)*
+*← [CorpusIQ Docs Home](/) | [Hermes Community Hub →](/hermes/)*

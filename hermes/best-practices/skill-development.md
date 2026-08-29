@@ -95,8 +95,8 @@ Good triggers are specific enough to avoid false positives but broad enough to c
 ## Related Pages
 
 - [Best Practices Overview](/hermes/best-practices/)  --  All guides
-- [Creating Custom Skills](/docs/hermes/skills/creating-skills/)  --  Full walkthrough with example
-- [Skill Marketplaces](/docs/hermes/skills/skill-marketplaces/)  --  Where to publish
+- [Creating Custom Skills](/hermes/skills/creating-skills/)  --  Full walkthrough with example
+- [Skill Marketplaces](/hermes/skills/skill-marketplaces/)  --  Where to publish
 - [MCP Server Design](mcp-design.md)  --  Build tools your skills call
 ---
 

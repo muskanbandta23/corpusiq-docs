@@ -129,13 +129,13 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 ## Internal Links
 
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)
-- [AI for Business Intelligence](/docs/ai-for-business-intelligence)
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting)
-- [AI for Forecasting](/docs/ai-for-forecasting)
-- [What is MCP?](/docs/what-is-an-mcp-server)
+- [Connect Stripe to Claude](/connect-stripe-to-claude)
+- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)
+- [Connect Salesforce to Claude](/connect-salesforce-to-claude)
+- [AI for Business Intelligence](/ai-for-business-intelligence)
+- [AI for Executive Reporting](/ai-for-executive-reporting)
+- [AI for Forecasting](/ai-for-forecasting)
+- [What is MCP?](/what-is-an-mcp-server)
 
 ---
 

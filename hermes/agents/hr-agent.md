@@ -32,7 +32,7 @@ The agent handles high-volume, repetitive HR tasks so your team can focus on cul
 | **Policy Q&A** | Answers employee questions by searching handbooks, policies, and precedent |
 | **Compliance tracking** | Certification expiry, training completion, document renewal alerts |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Executive Agent](/docs/hermes/agents/executive-agent/) · [Calendar Connector](/hermes/mcp/connectors/)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Executive Agent](/hermes/agents/executive-agent/) · [Calendar Connector](/hermes/mcp/connectors/)
 
 ## How It Works
 
@@ -136,8 +136,8 @@ Yes. Weekly scans check for **expiring certifications, visas, contract end dates
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Executive Agent  --  Calendar & Inbox Management](/docs/hermes/agents/executive-agent/)
-- [Legal Agent  --  Compliance & Contract Review](/docs/hermes/agents/legal-agent/)
+- [Executive Agent  --  Calendar & Inbox Management](/hermes/agents/executive-agent/)
+- [Legal Agent  --  Compliance & Contract Review](/hermes/agents/legal-agent/)
 - [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 

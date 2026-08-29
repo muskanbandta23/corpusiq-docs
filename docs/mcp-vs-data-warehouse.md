@@ -123,13 +123,13 @@ MCP queries return data in the source system's native format, and the AI model i
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
-- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
-- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
+- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
+- [Understand how MCP servers work with a technical deep dive](/how-mcp-servers-work)
+- [Compare MCP vs Zapier for real-time business automation](/mcp-vs-zapier)
+- [Compare MCP vs custom API integrations](/mcp-vs-api-integrations)
+- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
+- [Learn about MCP for enterprise-scale deployments](/mcp-for-enterprise)
+- [See how executives use MCP for AI-powered dashboards](/mcp-for-executives)
 
 *Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
 

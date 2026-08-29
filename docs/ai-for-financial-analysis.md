@@ -126,14 +126,14 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)  --  Financial data in AI.
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)  --  Payment analytics.
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude)  --  Enterprise ERP.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting)  --  Board-ready intelligence.
-- [AI for Forecasting](/docs/ai-for-forecasting)  --  Predictive finance.
-- [AI for Compliance](/docs/ai-for-compliance)  --  Financial compliance.
-- [AI for Audit Readiness](/docs/ai-for-audit-readiness)  --  Audit preparation.
-- [What is MCP?](/docs/what-is-an-mcp-server)  --  MCP explained.
+- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)  --  Financial data in AI.
+- [Connect Stripe to Claude](/connect-stripe-to-claude)  --  Payment analytics.
+- [Connect NetSuite to Claude](/connect-netsuite-to-claude)  --  Enterprise ERP.
+- [AI for Executive Reporting](/ai-for-executive-reporting)  --  Board-ready intelligence.
+- [AI for Forecasting](/ai-for-forecasting)  --  Predictive finance.
+- [AI for Compliance](/ai-for-compliance)  --  Financial compliance.
+- [AI for Audit Readiness](/ai-for-audit-readiness)  --  Audit preparation.
+- [What is MCP?](/what-is-an-mcp-server)  --  MCP explained.
 
 ---
 

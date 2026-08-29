@@ -136,18 +136,18 @@ Ready to put AI to work on your shopify ai analytics data?
 
 ## Internal Links
 
-- [ChatGPT for Shopify: Conversational Ecommerce AI](/docs/chatgpt-for-shopify)
-- [Claude for Shopify: Deep Ecommerce Analysis](/docs/claude-for-shopify)
-- [Shopify Sales Analysis with AI](/docs/shopify-sales-analysis-with-ai)
-- [Shopify Dashboard with ChatGPT](/docs/shopify-dashboard-with-chatgpt)
-- [Shopify Business Intelligence Platform](/docs/shopify-business-intelligence)
-- [Shopify Natural Language Queries](/docs/chatgpt-for-shopify)
+- [ChatGPT for Shopify: Conversational Ecommerce AI](/chatgpt-for-shopify)
+- [Claude for Shopify: Deep Ecommerce Analysis](/claude-for-shopify)
+- [Shopify Sales Analysis with AI](/shopify-sales-analysis-with-ai)
+- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
+- [Shopify Business Intelligence Platform](/shopify-business-intelligence)
+- [Shopify Natural Language Queries](/chatgpt-for-shopify)
 
 ## Analytics Without the Analytics Team
 
 CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don't need a data analyst, a BI tool, or advanced Excel skills. You just need questions  --  and the AI provides answers.
 
-**[Start analyzing your Shopify data with AI](/docs/quick-start)  --  connect your store in 60 seconds.**
+**[Start analyzing your Shopify data with AI](/quick-start)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

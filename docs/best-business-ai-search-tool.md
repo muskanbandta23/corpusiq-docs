@@ -156,14 +156,14 @@ A: CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs.
 
 ## Internal Links
 
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
-- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
-- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/docs/corpusiq-vs-vector-databases)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
-- [Top Business AI Tools](/docs/top-business-ai-tools)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
+- [How to Search Company Data with AI](/how-to-search-company-data-with-ai)
+- [Best AI Knowledge Platform](/best-ai-knowledge-platform)
+- [Best MCP Server for Business](/best-mcp-server-for-business)
+- [Best ChatGPT Integration Platform](/best-chatgpt-integration-platform)
+- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/corpusiq-vs-vector-databases)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [Top Business AI Tools](/top-business-ai-tools)
+- [Secure AI Data Connectivity](/secure-ai-data-connectivity)
 ---
 
 *

@@ -226,7 +226,7 @@ Add a weekly review on Friday afternoons that aggregates the week's reports, con
 
 - [Automation Blueprints Overview](/hermes/blueprints/)  --  All workflow templates
 - [Customer Lifecycle Blueprint](customer-lifecycle.md)  --  Feeds customer health into morning briefings
-- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design/)  --  Reliable scheduling patterns
+- [Cron Design Best Practices](/hermes/best-practices/cron-design/)  --  Reliable scheduling patterns
 - [Integration Examples](/hermes/integrations/)  --  Connect the tools this blueprint needs
 
 

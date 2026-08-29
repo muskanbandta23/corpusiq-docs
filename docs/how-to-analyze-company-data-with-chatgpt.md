@@ -198,14 +198,14 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
-- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data)
-- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [How to Connect Business Data to ChatGPT](/how-to-connect-business-data-to-chatgpt)
+- [How to Query Business Data in Natural Language](/how-to-query-business-data-in-natural-language)
+- [How to Use AI with Business Data](/how-to-use-ai-with-business-data)
+- [How to Build an Executive AI Dashboard](/how-to-build-an-executive-ai-dashboard)
+- [Best ChatGPT Integration Platform](/best-chatgpt-integration-platform)
+- [Best Way to Connect ChatGPT to Business Data](/best-way-to-connect-chatgpt-to-business-data)
+- [Top Business AI Tools  --  Rankings](/top-business-ai-tools)
+- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
 ---
 
 *

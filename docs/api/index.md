@@ -57,4 +57,4 @@ Full endpoint documentation with request/response examples: [Endpoints](endpoint
 
 ---
 
-*← [Docs Home](/docs/) | [Next: API Overview →](overview.md)*
+*← [Docs Home](/) | [Next: API Overview →](overview.md)*

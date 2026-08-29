@@ -108,13 +108,13 @@ A: Go to demo.corpusiq.io, sign in with your email, connect your first data sour
 
 ## Internal Links
 
-- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)**  --  Connect ChatGPT to your business data  
-- **[AI Agent Users Guide](/docs/ai-agent-users)**  --  MCP direct connection for AI agents  
-- **[AI Chat Users Guide](/docs/ai-chat-users)**  --  Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/docs/supported-agents)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs/quick-start)**  --  Get running in under 5 minutes  
-- **[CorpusIQ Connectors Directory](/docs/connectors)**  --  All 40+ data source integrations  
-- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)**  --  SSO, SAML, and a SOC 2 aligned posture
+- **[ChatGPT Integration with CorpusIQ](/chatgpt-integration)**  --  Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](/ai-agent-users)**  --  MCP direct connection for AI agents  
+- **[AI Chat Users Guide](/ai-chat-users)**  --  Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/supported-agents)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/quick-start)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
+- **[Enterprise AI Data Access](/enterprise-ai-data-access)**  --  SSO, SAML, and a SOC 2 aligned posture
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

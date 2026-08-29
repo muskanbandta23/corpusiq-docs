@@ -48,7 +48,7 @@ Remaining 70+ NEW flags are scattered sub-50-install single skills from obscure 
 
 ## Notable Signals for CorpusIQ
 
-- **elevenlabs-tts and elevenlabs-dubbing-voice-conversion** close the oldest open item on the Mac Mini media stack: Benoit rejected the macOS `say` voice ("Computer voice awful! Really bad") - these skills carry the researched ElevenLabs production playbook to replace it.
+- **elevenlabs-tts and elevenlabs-dubbing-voice-conversion** close the oldest open item on the Mac Mini media stack: the macOS `say` voice was rejected ("Computer voice awful! Really bad") - these skills carry the researched ElevenLabs production playbook to replace it.
 - **openai-gpt-image** encodes the GPT Image 2 lifecycle against official docs (aliases, deprecation dates, rate limits) - one-to-one with the `image_generate` backend (gpt-image-2-medium) already in production.
 - **hyperframes-video-composition and comfyui-media-workflows** (which validates HyperFrames timelines) harden the existing HyperFrames UGC pipeline with production craft instead of per-task improvisation.
 - **media-qc-delivery and media-provenance-rights** give the daily video pipeline a deterministic QA and provenance pass - a scriptable content gate before Postiz publishing.
