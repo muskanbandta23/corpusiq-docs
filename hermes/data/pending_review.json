@@ -50041,5 +50041,272 @@
     ],
     "discovered_at": "2026-08-28T08:04:20.657189+00:00",
     "status": "pending"
+  },
+  {
+    "name": "randlee/atm-hermes-testbed",
+    "url": "https://github.com/randlee/atm-hermes-testbed",
+    "description": "ATM-hermes testbed for testing hermes-agent (fork) w/ atm ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T04:59:25Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T05:04:10.813530+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "plow-pbc/agent-mgr",
+    "url": "https://github.com/plow-pbc/agent-mgr",
+    "description": "One CLI for the Hermes agent fleet: Plow Chat + Plow Latch containers.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T05:02:33Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-08-29T05:04:13.818089+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "youhan1202/hermes-resume-skill",
+    "url": "https://github.com/youhan1202/hermes-resume-skill",
+    "description": "Hermes Agent - \u9510\u4ed5\u65b9\u8fbe\u730e\u5934\u7b80\u5386\u62a5\u544a\u5236\u4f5c Skill",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T05:00:27Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T05:04:16.821557+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kellmat74/ai-toolkit",
+    "url": "https://github.com/kellmat74/ai-toolkit",
+    "description": "Portable personal AI agent toolchain (Claude Code + Hermes): skills, agents, MCP configs, prompts, backlog",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T02:29:56Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T05:04:26.899322+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "otaralabs/hermes-anythingllm",
+    "url": "https://github.com/otaralabs/hermes-anythingllm",
+    "description": "Conecta Hermes Agent con AnythingLLM Desktop (MCP server + sync) para b\u00fasqueda sem\u00e1ntica de todo su historial.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T02:06:50Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T05:04:29.902924+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "marctheshark3/bambu-p1s-mcp",
+    "url": "https://github.com/marctheshark3/bambu-p1s-mcp",
+    "description": "Harness-agnostic MCP server for a Bambu Lab P1S on LAN. Stdio + Streamable HTTP. Status, files, slice, print for Grok, Hermes, and any MCP client.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T02:06:34Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-08-29T05:04:32.906026+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "moonlight-lupin/chief-of-staff-agent",
+    "url": "https://github.com/moonlight-lupin/chief-of-staff-agent",
+    "description": "AI Chief of Staff for SMEs \u2014 Hermes Agent plugin with 16 skills: briefings, deadlines, pipeline, docs, calendar, knowledge base, research, travel, bookkeeping, self-signing, and backups.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T03:53:51Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "MervinPraison/PraisonAI",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "hugocarreira/agentrc",
+      "kaankacar/stellar-agent-kit",
+      "ahonore42/logios-brain",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-29T05:04:42.660832+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Allura-Ecosystem/hermes-team-ram-durham",
+    "url": "https://github.com/Allura-Ecosystem/hermes-team-ram-durham",
+    "description": "Team RAM + Team Durham agents and skills as a native Hermes plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-28T18:11:28Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T05:04:45.664114+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lbrealdev/hermes-plugins",
+    "url": "https://github.com/lbrealdev/hermes-plugins",
+    "description": "Personal Hermes Agent plugins (native plugin.yaml + register(ctx)). First plugin: skills-toggle.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-28T13:43:23Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "42-evey/hermes-plugins"
+    ],
+    "discovered_at": "2026-08-29T05:04:48.667291+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ozlar34/second-brain-system",
+    "url": "https://github.com/ozlar34/second-brain-system",
+    "description": "A designed, self-documenting personal knowledge + automation system \u2014 Obsidian as canonical store, Claude Code + Hermes as activation layer, local models as offline/private tier, drift tripwires + memory lifecycle as guardrails.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-operations",
+      "ai-ops",
+      "automation",
+      "claude-code",
+      "knowledge-management",
+      "llm-tools",
+      "local-llm",
+      "obsidian",
+      "para",
+      "personal-knowledge-management",
+      "systems-design"
+    ],
+    "updated_at": "2026-08-28T17:01:46Z",
+    "category": "memory",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-29T05:05:24.500229+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Synxneuos/hermes-paper-radar",
+    "url": "https://github.com/Synxneuos/hermes-paper-radar",
+    "description": "AI Research & arXiv Paper Intelligence Studio plugin for Hermes Desktop",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-28T11:00:03Z",
+    "category": "research",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T05:05:40.866041+00:00",
+    "status": "pending"
   }
 ]
