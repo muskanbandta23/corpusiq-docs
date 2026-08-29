@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 28, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3802-#3807 + mcp.so homepage + mcpservers.org homepage · **Catalog:** 408 servers (+294 guides)
+> **Last updated:** August 29, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3809-#3810 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 409 servers (+295 guides)
+
+## 🆕 August 29, 2026 - Night Cron Sweep (1 New, 1 Guide)
+
+Night sweep sourced from chatmcp/mcpso issues #3809-#3810, the mcp.so homepage new arrivals and feed, and the mcpservers.org homepage. 1 new business-relevant server catalogued with a guide: Packy Tracking MCP (official hosted MCP for the Packy parcel-tracking API - 10 tools to create and manage trackers, list and auto-detect couriers, and wire delivery-status webhooks; OAuth 2.1 with API-key fallback, credit-based pricing on tracking creation only, endpoint live-verified via 401 plus public health checks).
+
+[Packy Tracking MCP - Parcel Tracking and Courier Webhooks](/hermes/mcp/servers/external/packy-tracking-mcp/) · 10 tools, OAuth + API key, credit-priced trackings, /health + /ready.
+
+**Also identified (not catalogued):** compteparticulier #3809 (French consumer login-guide knowledge base - consumer content class), Unofficial Apple Music for macOS #3810 (local consumer media utility), MagicPixel.art (pixel-art generator for game assets - creative utility class), PickADive MCP (recreational dive-conditions data - consumer class), XcodeBuildMCP (Sentry iOS/macOS build tooling - dev-tool class), TouchDesigner Bridge MCP (creative production software bridge - creative class).
 
 ## 🆕 August 28, 2026 - Evening Cron Sweep (6 New, 6 Guides)
 
@@ -4981,3 +4989,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Safe Mind MCP - Psychological Risk Assessment for German Employers](/docs/hermes/mcp/servers/external/safe-mind-mcp/)
 - [TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/docs/hermes/mcp/servers/external/tiktok-transcript-mcp/)
 - [Forency MCP - Website Technology Stack Detection for Agents](/docs/hermes/mcp/servers/external/forency-mcp/)
+
+### 1 new server from mcpservers.org homepage - Aug 29, 2026 (night cron sweep)
+
+- [Packy Tracking MCP - Parcel Tracking and Courier Webhooks](/docs/hermes/mcp/servers/external/packy-tracking-mcp/)
