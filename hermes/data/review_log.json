@@ -12205,5 +12205,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-29T07:04:53.222455+00:00"
+  },
+  {
+    "repo": "Nunmai-Private-Limited/nunmai-engine",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026649+00:00"
+  },
+  {
+    "repo": "Noyv3x/enterprise-agent-platform",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026663+00:00"
+  },
+  {
+    "repo": "itsPremkumar/hermes-asi-master",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026666+00:00"
+  },
+  {
+    "repo": "micro/mu",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026668+00:00"
+  },
+  {
+    "repo": "praxstack/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026670+00:00"
+  },
+  {
+    "repo": "Adolanium/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026672+00:00"
+  },
+  {
+    "repo": "craftsland/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-29T08:05:40.026673+00:00"
   }
 ]

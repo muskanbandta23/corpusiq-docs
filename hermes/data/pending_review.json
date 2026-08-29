@@ -50543,5 +50543,206 @@
     ],
     "discovered_at": "2026-08-29T07:03:06.025578+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Nunmai-Private-Limited/nunmai-engine",
+    "url": "https://github.com/Nunmai-Private-Limited/nunmai-engine",
+    "description": "Nunmai Engine \u2014 the self-improving AI engine by Nunmai Research. Based on Hermes Agent (MIT).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T08:01:51Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "mudrii/hermes-agent-docs",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "awesome-hermes-usecases",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem"
+    ],
+    "discovered_at": "2026-08-29T08:02:46.181820+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Noyv3x/enterprise-agent-platform",
+    "url": "https://github.com/Noyv3x/enterprise-agent-platform",
+    "description": "Enterprise web agent platform built on Hermes Agent and Cognee",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T07:58:12Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T08:02:53.184487+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "itsPremkumar/hermes-asi-master",
+    "url": "https://github.com/itsPremkumar/hermes-asi-master",
+    "description": "Universal AGI/ASI Executive System for Nous Hermes Agent \u2014 15 Cognitive Planes, 19 Active Engines, 16 Skills & 50-Section ASI Constitution",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T07:56:43Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-29T08:03:00.186815+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "micro/mu",
+    "url": "https://github.com/micro/mu",
+    "description": "A home for humans, agents and services ",
+    "stars": 397,
+    "forks": 17,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "ai",
+      "email",
+      "hermes",
+      "hermes-agent",
+      "mcp",
+      "micro",
+      "mu",
+      "openclaw",
+      "smtp",
+      "xmpp"
+    ],
+    "updated_at": "2026-08-29T08:02:26Z",
+    "category": "forks",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "SamurAIGPT/awesome-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "soarsmu/HERMES",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "sanchomuzax/hermes-webui"
+    ],
+    "discovered_at": "2026-08-29T08:03:27.181247+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "praxstack/gbrain",
+    "url": "https://github.com/praxstack/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-29T08:02:34Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-08-29T08:03:34.184148+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Adolanium/hermes-agent",
+    "url": "https://github.com/Adolanium/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T08:02:25Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-29T08:03:41.186939+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "craftsland/hermes-agent",
+    "url": "https://github.com/craftsland/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-29T08:02:42Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-29T08:03:48.189754+00:00",
+    "status": "pending"
   }
 ]
