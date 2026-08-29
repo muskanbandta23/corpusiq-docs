@@ -64,6 +64,7 @@ Agentic Awesome Skills (AAS) is one of the largest community skill catalogs on s
 | `discord-bot-architect` | 1,506 | AI/Product/Ops |
 | `documentation-templates` | 1,502 | AI/Product/Ops |
 | `backend-architect` | 1,499 | Backend/Architecture |
+| `telegram-mini-app` | 1,476 | Telegram/Mini Apps |
 
 **Not included:** `antigravity-workflows` (876 installs) is Antigravity-IDE specific and excluded under the existing house rule for `antigravity-*` skills. `agent-self-scheduling` (18) and `mercury-mcp` (8) sit below the 100-install cataloguing bar and remain watchlisted.
 

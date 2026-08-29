@@ -526,3 +526,5 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Generative Media Skills - 153-Skill Media Production Suite Setup](/docs/hermes/skills/catalog/generative-media-skills-setup/)
 - [pp-mercury - Mercury Banking CLI Setup](/docs/hermes/skills/catalog/pp-mercury-setup/)
 - [Printing Press Library - 472-CLI Agent Tool Catalog Setup](/docs/hermes/skills/catalog/printing-press-library-setup/)
+- [Revenue-Centric Design Skill - SaaS Conversion Playbook Setup](/docs/hermes/skills/catalog/revenue-centric-design-setup/)
+- [Telegram Mini App Skill - Telegram Web App Builder Setup](/docs/hermes/skills/catalog/telegram-mini-app-setup/)
