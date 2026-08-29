@@ -80,7 +80,7 @@ The playbook walks the full lifecycle: bootstrapping the webview, authenticating
 
 | Use Case | How |
 |---|---|
-| **Zero-install distribution surface** | A CorpusIQ Mini App gives operators answers inside Telegram - no store, no signup wall; user identity comes free via `initDataUnsafe` |
+| **Zero-install distribution surface** | A CorpusIQ Mini App puts operator answers inside Telegram. User identity comes from `initDataUnsafe`, so there is no separate signup |
 | **Bot-backed quick answers** | Pair the Mini App with a bot in the CorpusIQ community chat so questions resolve in-chat instead of bouncing to the web app |
 | **In-app payments** | Telegram Stars / TON payments for premium CorpusIQ features without web checkout friction |
 | **Viral mechanics** | The playbook's growth patterns (invites, share flows) applied to CorpusIQ community expansion |

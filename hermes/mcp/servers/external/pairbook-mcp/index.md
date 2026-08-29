@@ -71,7 +71,7 @@ No account, no API key. The server calls a single host (pairbook.io) for public 
 
 ## Integration with CorpusIQ
 
-PairBook complements CorpusIQ's data-driven reporting: a CorpusIQ workflow can feed an operator's portfolio question into analyze_portfolio, get the structured risk JSON, and render it through the same recap-answer path CorpusIQ uses for business data answers. It also pairs with the fundable-data layer - CorpusIQ's investor and funding research can cite PairBook's dated, DOI-published dataset as evidence when an investment narrative depends on diversification claims. The local, no-telemetry design matches CorpusIQ's privacy-first posture for client data, so portfolio questions never leave the machine except for public market lookups.
+PairBook complements CorpusIQ's data-driven reporting: a CorpusIQ workflow can feed an operator's portfolio question into analyze_portfolio, get the structured risk JSON, and render it through the same recap-answer path CorpusIQ uses for business data answers. It also pairs with the fundable-data layer - CorpusIQ's investor and funding research can cite PairBook's dated, DOI-published dataset as evidence when an investment narrative depends on diversification claims. PairBook runs locally with no telemetry. Portfolio questions are processed on the machine running the server, and only the public market lookups needed for correlation data are network-bound.
 
 ## Limitations
 
