@@ -1,3 +1,12 @@
+---
+title: "MCP Directory Sweep Report - Aug 26, 2026 (Midday)"
+description: "MCP ecosystem discovery sweep report: newly catalogued servers, evaluation notes, and skip classifications. Part of the Hermes resource directory."
+last_updated: 2026-08-26
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-midday/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
+---
+
 # MCP Directory Sweep Report - Aug 26, 2026 (Midday)
 
 **Shift:** Midday cron sweep, 11:01 MST start

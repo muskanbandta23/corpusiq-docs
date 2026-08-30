@@ -1,3 +1,12 @@
+---
+title: "Sweep Report - August 25, 2026 (morning cron sweep)"
+description: "MCP ecosystem discovery sweep report: newly catalogued servers, evaluation notes, and skip classifications. Part of the Hermes resource directory."
+last_updated: 2026-08-25
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august25-2026-morning/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
+---
+
 # Sweep Report - August 25, 2026 (morning cron sweep)
 
 **Sources:** chatmcp/mcpso issues #3735-#3745 (Aug 24 19:19 - Aug 25 09:37 UTC), mcp.so homepage + feed (30 slugs), mcpservers.org homepage (16 slugs)

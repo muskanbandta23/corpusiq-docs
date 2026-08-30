@@ -4,7 +4,7 @@ description: "Hosted MCP server that verifies Israeli companies against structur
 category: Business Intelligence
 stars: n/a (new listing, itzikhr18/israel-business-intelligence)
 added: 2026-08-29
-source: chatmcp/mcpso issue #3826
+source: "chatmcp/mcpso issue #3826"
 relevance: ★★
 tags: [mcp-server, company-data, supplier-verification, due-diligence, israeli-registry, business-intelligence, x402, remote-mcp]
 ---

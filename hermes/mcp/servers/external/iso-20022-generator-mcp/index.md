@@ -4,7 +4,7 @@ description: "Hosted MCP server that generates XSD-validated SEPA pain.001/pain.
 category: Finance
 stars: n/a (hosted, no public repo)
 added: 2026-08-29
-source: chatmcp/mcpso issue #3821
+source: "chatmcp/mcpso issue #3821"
 relevance: ★★
 tags: [mcp-server, sepa, iso-20022, swift, payments, banking, treasury, remote-mcp]
 ---

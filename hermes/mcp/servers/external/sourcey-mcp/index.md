@@ -4,7 +4,7 @@ description: "Hosted and stdio MCP server with evidence-backed startup credits, 
 category: Business Operations
 stars: n/a (new listing, sourcey/mcp-server)
 added: 2026-08-29
-source: chatmcp/mcpso issue #3823
+source: "chatmcp/mcpso issue #3823"
 relevance: ★★
 tags: [mcp-server, startup-credits, saas-deals, agent-readiness, grants, evidence, vendor-intelligence, remote-mcp]
 ---

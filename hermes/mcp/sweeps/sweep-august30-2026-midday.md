@@ -1,3 +1,12 @@
+---
+title: "MCP Discovery Sweep - August 30, 2026 (Midday)"
+description: "MCP ecosystem discovery sweep report: newly catalogued servers, evaluation notes, and skip classifications. Part of the Hermes resource directory."
+last_updated: 2026-08-30
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august30-2026-midday/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
+---
+
 # MCP Discovery Sweep - August 30, 2026 (Midday)
 
 - **Run:** Aug 30, 2026 ~18:00 UTC (11:00 MST), Spark (fresher clone; Mac Mini up but stale at Aug 29 night)
