@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 174+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 175+ repos, tools, skills, and integrations
 last_updated: 2026-08-29
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **174+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **175+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **174+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **175+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **174+ reposit
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 2 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 39 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 33 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 34 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1288,6 +1288,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [jazzyalex/agent-sessions](https://github.com/jazzyalex/agent-sessions) ⭐ 820
+
+>Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session history across Codex, Claude Code, OpenCode, Cursor Agent, Hermes, OpenClaw, Copilot CLI, and more.
+
+**Language:** Swift | **Topics:** session-history, session-management, transcript-search, developer-tools, hermes-agent, macos | **Score:** 76/100
+
+---
+
 ### [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) ⭐ 504
 
 >AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain: open standards, byte-preserving round-trip, 100% local.
@@ -1471,6 +1479,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*174+ repositories in the Hermes ecosystem. Last updated: 2026-08-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*175+ repositories in the Hermes ecosystem. Last updated: 2026-08-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
