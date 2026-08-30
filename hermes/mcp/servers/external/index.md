@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-29"
+last_updated: "2026-08-30"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 29, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3827-#3830 + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 434 servers (+320 guides)
+> **Last updated:** August 30, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-4 + mcp.so feed + mcp.so latest + chatmcp/mcpso issues #3831-#3834 · **Catalog:** 436 servers (+322 guides)
+
+## 🆕 August 30, 2026 - Morning Cron Sweep (2 New, 2 Guides)
+
+Morning sweep sourced from mcpservers.org /all pages 1-4 (43 slugs), the mcp.so feed (30 entries) and latest tab, and chatmcp/mcpso issues #3831-#3834. 2 new business-relevant servers catalogued with guides: Relm (official API-first CRM for AI agents — 41 MCP tools over contacts, companies, deals, activities, pipelines, automations, drip sequences, templates and webhooks; Streamable HTTP at api.relmcrm.com/mcp with OAuth 2.1 DCR or bearer keys, live/test modes where test keys write to a sandboxed dataset auto-deleted after 7 days, idempotent creates, optimistic concurrency with version-conflict detection, RFC-9457 errors carrying valid_options and suggestions, HMAC-signed webhooks, and Free 1k requests/month through Pro $29/mo to Scale $249/mo; endpoint live-verified — serverInfo relm v0.17.1 plus a public 41-tool tools/list), Sequel (hosted natural-language Google Search Console analytics from sequel.sh — the Sequel CLI provisions an org-scoped read-only OAuth connection into Claude Code, Cursor, VS Code, Windsurf, Zed, Codex, OpenClaw or Hermes; plain-English queries over clicks, impressions, CTR and position by query, page, device, country and date with 25k rows per request and a 16-month lookback, plus cross-source joins with GA4, Stripe, HubSpot, Ahrefs, Apollo and 20+ other sources; no raw public endpoint — connection flows through the CLI).
+
+[Relm MCP - API-First CRM for AI Agents](/hermes/mcp/servers/external/relm-mcp/) · 41 tools, OAuth 2.1 or bearer key, live-verified endpoint.
+[Sequel MCP - Google Search Console in Natural Language](/hermes/mcp/servers/external/sequel-mcp/) · CLI-provisioned, read-only OAuth, cross-source joins.
+
+**Also identified (not catalogued):** smry Product #3831 (read-it-later library, feeds, notes and page-change monitors for an agent's own research — personal-library class, Savee/MarkIt precedent), VASTlint #3832 (IAB VAST/VMAP/DAAST ad-tag validation — single-purpose ad-tech QA class), yotta-verify-mcp #3833 (pre-install security scanner for agent skills — dev-tool class, Sentinel Scan precedent), sandbase-harness #3834 (stdio bridge to the SandBase agent harness — dev infra class), BaseBounty (x402 bounty board on Base with ERC-8183 escrow — agent task-marketplace class, TooHardBasket precedent), MCP Rigor (natural-language acceptance testing for MCP servers — dev-tool class, dsh-verify precedent), Open Call Portals (live-entertainment booking infrastructure — entertainment vertical niche), iLook Face Analysis (consumer face-scoring — consumer class), Rare Cloud/Behzad9 (GitHub profile listing with no MCP surface — thin docs), BiGapi (no tools detected, output-layer file operations — dev publishing class, plyo-mcp precedent). Feed and /all repeats already evaluated in prior sweeps (Genviral, Spike, Appbot, TuFirma, DrillerDB, Ransack, AgendaForge, BidSkim, OmniSocials, SocialRobot, TikTok Transcript MCP, Forency, AdaptlyPost, MagicPixel.art, YOUB, CrawlForge, Foremerge, OrbitWan, Katto, Uwear.ai, Graviti, Speccy x402, Jitsu, Hologrow, OpenLore, Legion MCP, fhirHydrant, YouTube Transcript AI, QuanticData, Windframe, Alpha Sophia, Poly-Glot AI Workspace, Otto Webmaster, TakeNorFree, LoanCalculatorMCP, BestElectricProducts, ViralDanceMaker, Footix, MarketMaster, Metalend, OpenBoss, IronShard, Hexum, Strunk, PilotMyX, ConnectPeon, SuggestAPI, Sirveil, BidSwarm, WonderCal, Maroo, Helena bioinformatics, AgentCouch).
 
 ## 🆕 August 29, 2026 - Evening Cron Sweep (4 New, 4 Guides)
 
@@ -5073,3 +5082,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Spike MCP - Incident Management and On-Call for AI Assistants](/hermes/mcp/servers/external/spike-mcp/)
 - [Appbot MCP - App Review Intelligence for AI Assistants](/hermes/mcp/servers/external/appbot-mcp/)
 - [TuFirma MCP - Spanish Electronic Signatures for AI Assistants](/hermes/mcp/servers/external/tufirma-mcp/)
+
+### 2 new servers from mcpservers.org /all - Aug 30, 2026 (morning cron sweep)
+
+- [Relm MCP - API-First CRM for AI Agents](/hermes/mcp/servers/external/relm-mcp/)
+- [Sequel MCP - Google Search Console in Natural Language](/hermes/mcp/servers/external/sequel-mcp/)
