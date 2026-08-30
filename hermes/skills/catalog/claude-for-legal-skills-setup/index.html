@@ -139,6 +139,16 @@
   <meta name="last-updated" content="2026-08-18">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
+  <script type="text/mcp">
+  {
+    "name": "CorpusIQ Docs",
+    "description": "Read-only CorpusIQ documentation tools for AI agents: docs search and page retrieval. Tools are also registered imperatively via navigator.modelContext.registerTool().",
+    "tools": [
+      {"name": "corpusiq_search_docs", "description": "Search the CorpusIQ documentation site. Returns matching page titles, URLs, and short snippets.", "readOnlyHint": true},
+      {"name": "corpusiq_get_page", "description": "Fetch the text content of a CorpusIQ docs page by path (e.g. quick-start, connectors, api/overview).", "readOnlyHint": true}
+    ]
+  }
+  </script>
   <script>
     if (navigator.modelContext) {
       document.documentElement.setAttribute('data-webmcp', 'available');
