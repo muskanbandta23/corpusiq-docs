@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 30, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-4 + mcp.so feed + mcp.so latest + chatmcp/mcpso issues #3831-#3834 · **Catalog:** 436 servers (+322 guides)
+> **Last updated:** August 30, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3835-#3839 + mcp.so homepage + mcpservers.org /all pages 1-3 · **Catalog:** 437 servers (+323 guides)
+
+## 🆕 August 30, 2026 - Midday Cron Sweep (1 New, 1 Guide)
+
+Midday sweep sourced from chatmcp/mcpso issues #3835-#3839 (fresh window after the morning sweep's #3834 cutoff), the mcp.so homepage and mcpservers.org /all pages 1-3. 1 new business-relevant server catalogued with a guide: Laver (official MCP server from the laver.app team project management tool - 59 tools over kanban boards, tickets, comments, subtasks, labels, custom fields, attachments, wiki pages, automations and published links; stdio via npx @laver/mcp with a workspace-scoped API key that acts as the person who created it; versioned writes with a 409 re-read-and-retry contract so an agent and a person can work the same board at once; MIT, registry io.github.Developyn/laver-mcp v0.5.0; free plan up to 3 billable people, Pro £2.99/person/month).
+
+[Laver MCP - Kanban Boards, Sprints and Team Wiki for Agents](/hermes/mcp/servers/external/laver-mcp/) · 59 tools, versioned writes, stdio via npx.
+
+**Also identified (not catalogued):** Faxer #3836 (resubmission of the fax-ops utility already skip-classed in four prior sweeps - utility class), 402Signal #3837 (fail-closed x402 endpoint router - x402 infrastructure class, 402oracle precedent), mcpx #3838 (MCP client, not a server), kwnva.design portfolio #3839 (personal studio portfolio catalog - portfolio class), file2markdown (document and web-page to Markdown conversion for agents - dev utility class, BiGapi and Booklet precedent). mcpservers.org /all pages 1-3 and the mcp.so homepage carried no other new slugs - the remaining never-seen slugs (pfsense-mcp-server, etch-mcp, mdedit-agent-plugin, kitchensink4word, mcp-light-memory, wuwei-mcp, deskmcp, rhizome-mcp, nanoparse-mcp, enviadores-mcp, phi-guard-mcp, memesh-llm-memory, ghiblimcp) return generic directory pages with no listing (thin-docs class); all other slugs were morning-sweep or prior-sweep dispositions.
 
 ## 🆕 August 30, 2026 - Morning Cron Sweep (2 New, 2 Guides)
 
@@ -5087,3 +5095,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [Relm MCP - API-First CRM for AI Agents](/hermes/mcp/servers/external/relm-mcp/)
 - [Sequel MCP - Google Search Console in Natural Language](/hermes/mcp/servers/external/sequel-mcp/)
+
+### 1 new server from chatmcp/mcpso issue - Aug 30, 2026 (midday cron sweep)
+
+- [Laver MCP - Kanban Boards, Sprints and Team Wiki for Agents](/hermes/mcp/servers/external/laver-mcp/)
