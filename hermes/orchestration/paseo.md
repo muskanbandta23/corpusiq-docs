@@ -93,9 +93,23 @@ paseo run --host workstation.local:6767 --cwd /workspace "run the full test suit
 - **Repo:** https://github.com/getpaseo/paseo · Docs: https://paseo.sh/docs
 - **Watch items:** the issue backlog is large relative to project age; verify release stability before relying on it for production workloads.
 
+## Live Install Status (Spark, 2026-08-30)
+
+Installed and verified on the worker node after founder approval:
+
+- CLI: `@getpaseo/cli` 0.6.1 via `npm install -g` → `/home/hermes/.local/bin/paseo`
+- Daemon: started via `paseo onboard` (non-interactive mode), PID 734067
+- Health check: `paseo status` → Local Daemon `running`, Connected Daemon `reachable`, listen `127.0.0.1:6767`, relay **disabled** (privacy-first default, no telemetry)
+- Logs: `~/.paseo/daemon.log` — clean, no errors on startup or client connects
+- Prerequisite note: agent CLIs (Claude Code / Codex / OpenCode) are not yet installed on this host; the daemon runs standalone and agents can be added per provider.
+
+## Native Hermes Support (verified 2026-08-30)
+
+**Hermes Agent is one of the 39 coding agents Paseo natively runs** — listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent — Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.
+
 ## Fit With This Stack
 
-Paseo complements the orchestration layers documented in this section. It is not a replacement for an execution kernel like Hermes; it is a reference implementation of the cross-session control plane: one daemon, many agents, many clients. Teams that run several coding agents on shared infrastructure should evaluate it as the coordination surface.
+Paseo complements the orchestration layers documented in this section. It is not a replacement for an execution kernel like Hermes; it is a cross-session control plane: one daemon, many agents, many clients. With Hermes natively supported as a provider, the daemon on Spark is the coordination surface for running multiple Hermes/coding-agent sessions in parallel and monitoring them from one place (CLI, web, or mobile).
 
 ---
 
