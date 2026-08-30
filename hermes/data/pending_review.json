@@ -51046,5 +51046,46 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-30T05:04:55.658730+00:00",
     "status": "pending"
+  },
+  {
+    "name": "shuyj/hermes-work-orchestrator",
+    "url": "https://github.com/shuyj/hermes-work-orchestrator",
+    "description": "Hermes-native local-first orchestration for multi-agent software development",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-30T05:58:57Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-30T06:01:53.358470+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "saif27217/sop-auditor",
+    "url": "https://github.com/saif27217/sop-auditor",
+    "description": "Hermes skill: audit SOPs / work instructions from a Qdrant RAG collection for discrepancies, contradictions, and compliance gaps; deliver as a Google Doc via Composio MCP.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-30T05:59:48Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-30T06:02:07.016718+00:00",
+    "status": "pending"
   }
 ]

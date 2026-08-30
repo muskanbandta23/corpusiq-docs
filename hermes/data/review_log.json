@@ -12324,5 +12324,19 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-30T05:05:48.180875+00:00"
+  },
+  {
+    "repo": "shuyj/hermes-work-orchestrator",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-30T06:04:12.307703+00:00"
+  },
+  {
+    "repo": "saif27217/sop-auditor",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-30T06:04:12.307719+00:00"
   }
 ]
