@@ -51087,5 +51087,169 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-30T06:02:07.016718+00:00",
     "status": "pending"
+  },
+  {
+    "name": "sagarbehere/working-memory-system",
+    "url": "https://github.com/sagarbehere/working-memory-system",
+    "description": "Personal working-memory system on Hermes Agent: capture thoughts in plain language, the agent files, retrieves, and reminds you \u2014 git-versioned, self-hosted.",
+    "stars": 10,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-30T07:01:52Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-30T07:02:33.569453+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vimona3ds/hermes-snapcompact",
+    "url": "https://github.com/vimona3ds/hermes-snapcompact",
+    "description": "Snapcompact context engine plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-30T07:01:14Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "stephenschoettler/hermes-lcm"
+    ],
+    "discovered_at": "2026-08-30T07:02:40.571485+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ThomasSchmiegelt/ema-motor-analysis",
+    "url": "https://github.com/ThomasSchmiegelt/ema-motor-analysis",
+    "description": "CAE toolchain for IPM traction motors: geometry \u2192 EM field \u2192 structural FEM \u2192 thermal \u2192 drive cycle \u2192 PDF report. Every number records which method produced it. CalculiX + Z88Aurora cross-check, topology optimisation, and two local-LLM agent heads (PI / Hermes) \u2014 no cloud.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "cae",
+      "calculix",
+      "electric-motor",
+      "electromagnetics",
+      "fea",
+      "finite-element-analysis",
+      "flask",
+      "freecad",
+      "gmsh",
+      "ipm-motor",
+      "llm-agent",
+      "local-llm",
+      "motor-design",
+      "ollama",
+      "pmsm",
+      "python",
+      "simulation",
+      "topology-optimization",
+      "traction-motor",
+      "z88"
+    ],
+    "updated_at": "2026-08-30T06:57:24Z",
+    "category": "core",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-30T07:02:47.574166+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BakerSean168/hermes-ai-office",
+    "url": "https://github.com/BakerSean168/hermes-ai-office",
+    "description": "Hermes AI Organization Office built on Pixel Agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-30T06:57:27Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-30T07:02:54.576423+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Jayb1u3/zotero-research-mcp",
+    "url": "https://github.com/Jayb1u3/zotero-research-mcp",
+    "description": "Read-only Zoteroresearch MCP for Hermes \u2014 stdlib Python, local Zotero API",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-30T06:31:44Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-30T07:03:08.299283+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "charzhou/hermes-agent",
+    "url": "https://github.com/charzhou/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-30T07:03:09Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-30T07:03:28.619912+00:00",
+    "status": "pending"
   }
 ]
