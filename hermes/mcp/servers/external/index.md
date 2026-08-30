@@ -12,7 +12,18 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 29, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3817-#3826 + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 430 servers (+316 guides)
+> **Last updated:** August 29, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues #3827-#3830 + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 434 servers (+320 guides)
+
+## 🆕 August 29, 2026 - Evening Cron Sweep (4 New, 4 Guides)
+
+Evening sweep sourced from the mcp.so feed (30 submissions), mcpservers.org /all pages 1-3 (30 slugs) and chatmcp/mcpso issues #3827-#3830 (fresh window after the midday sweep's #3826 cutoff). 4 new business-relevant servers catalogued with guides: Genviral (official hosted MCP from the Genviral social media platform - 16 tools across four OAuth scopes covering account reads, analytics, trend research, the content library, post preparation, publishing, and AI generation of images, videos and slideshows in Studio; publishes to TikTok, Instagram, YouTube, Pinterest, LinkedIn, Facebook, X, Bluesky, Mastodon and Telegram with idempotency-key duplicate-safe publishing and per-workspace scoping; endpoint 401-verified live), Spike (official incident management MCP from spike.sh - 51 tools with an API key or 59 with OAuth over incident stats and MTTA/MTTR, create/ack/resolve, on-call rotations and overrides, alert routing, outbound webhooks and escalation policies; stateless bridge with no destructive tools; endpoint live-verified), Appbot (official beta MCP from the app review intelligence platform - App Store and Google Play reviews, ratings, sentiment, topics, emotions, keywords, feature requests and competitor comparisons in natural language; OAuth at api.appbot.co/mcp), TuFirma (Spanish electronic-signature MCP - 24 tools over the public API to consult documents and templates, create signature flows, upload PDFs, and sign, request OTP, remind, cancel or reject; tf_sk_* API key with scoped permissions; endpoint live-verified).
+
+[Genviral MCP - Social Media Creation and Publishing for AI Assistants](/hermes/mcp/servers/external/genviral-mcp/) · 16 tools, 4 OAuth scopes, 10 platforms, idempotent publishing.
+[Spike MCP - Incident Management and On-Call for AI Assistants](/hermes/mcp/servers/external/spike-mcp/) · 51-59 tools, API key or OAuth, no destructive actions.
+[Appbot MCP - App Review Intelligence for AI Assistants](/hermes/mcp/servers/external/appbot-mcp/) · beta, OAuth, reviews, sentiment, topics, feature requests.
+[TuFirma MCP - Spanish Electronic Signatures for AI Assistants](/hermes/mcp/servers/external/tufirma-mcp/) · 24 tools, scoped API key, Streamable HTTP.
+
+**Also identified (not catalogued):** Neurobird Search #3827 (2-tool web search with quote verification - saturated web-search class, Ransack and QuanticData precedent), Award Travel Finder #3828 (consumer award-flight search - travel class), plyo-mcp #3829 (durable artifact publishing for coding agents - dev publishing class, thing and Booklet precedent), Noodle Biomedical Literature Discovery #3830 (biomedical literature - niche research class). mcp.so feed repeats and prior dispositions (DrillerDB, Ransack, AgendaForge, BidSkim, OmniSocials, SocialRobot, TikTok Transcript MCP and Forency catalogued in earlier sweeps; AdaptlyPost, MagicPixel.art, YOUB, CrawlForge, Foremerge, OrbitWan, Katto, Uwear.ai, Graviti, Speccy x402, OpenLore, Legion MCP, fhirHydrant, YouTube Transcript AI, QuanticData, Windframe and Poly-Glot AI Workspace skip-classed in prior sweeps). mcpservers.org /all dispositions: Otto Webmaster already catalogued as Otto MCP in the morning sweep; TakeNorFree (domain availability lookup - Domain Search King class), LoanCalculatorMCP (consumer loan-math utility), BestElectricProducts (consumer editorial content), ViralDanceMaker (consumer creative), plus midday-sweep skips (Footix, MarketMaster, Metalend, OpenBoss, IronShard, Hexum, Strunk, PilotMyX, ConnectPeon, SuggestAPI, Sirveil, BidSwarm, WonderCal, Maroo) and the Helena bioinformatics and host-dump slugs.
 
 ## 🆕 August 29, 2026 - Midday Cron Sweep (13 New, 13 Guides)
 
@@ -5055,3 +5066,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/hermes/mcp/servers/external/policyforge-mcp/)
 - [PreVibe MCP - SaaS Product Research and Validation for Agents](/hermes/mcp/servers/external/previbe-mcp/)
 - [AngelOne MCP - Indian Market Trading and Portfolio Data for Agents](/hermes/mcp/servers/external/angelone-mcp/)
+
+### 4 new servers from mcp.so feed + mcpservers.org /all - Aug 29, 2026 (evening cron sweep)
+
+- [Genviral MCP - Social Media Creation and Publishing for AI Assistants](/hermes/mcp/servers/external/genviral-mcp/)
+- [Spike MCP - Incident Management and On-Call for AI Assistants](/hermes/mcp/servers/external/spike-mcp/)
+- [Appbot MCP - App Review Intelligence for AI Assistants](/hermes/mcp/servers/external/appbot-mcp/)
+- [TuFirma MCP - Spanish Electronic Signatures for AI Assistants](/hermes/mcp/servers/external/tufirma-mcp/)
