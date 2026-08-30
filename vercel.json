@@ -2243,11 +2243,6 @@
       "statusCode": 301
     },
     {
-      "source": "/hermes/security",
-      "destination": "/security/",
-      "statusCode": 301
-    },
-    {
       "source": "/marketing-roas",
       "destination": "/hermes/prompts/marketing-roas/",
       "statusCode": 301
