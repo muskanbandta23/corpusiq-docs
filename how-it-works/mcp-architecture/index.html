@@ -139,8 +139,9 @@
   </script>
   <meta name="last-updated" content="">
   
+  <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script>
-    if ('modelContext' in navigator) {
+    if (navigator.modelContext) {
       document.documentElement.setAttribute('data-webmcp', 'available');
     }
   </script>
@@ -10484,9 +10485,9 @@ CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.</p>
 <span class="p">});</span>
 </code></pre></div>
 <p>Python MCP SDK example:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">mcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">ClientSession</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">mcp.client.sse</span><span class="w"> </span><span class="kn">import</span> <span class="n">sse_client</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">mcp</span> <span class="kn">import</span> <span class="n">ClientSession</span>
+<span class="kn">from</span> <span class="nn">mcp.client.sse</span> <span class="kn">import</span> <span class="n">sse_client</span>
+<span class="kn">import</span> <span class="nn">os</span>
 
 <span class="k">async</span> <span class="k">with</span> <span class="n">sse_client</span><span class="p">(</span>
     <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>

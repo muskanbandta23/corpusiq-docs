@@ -138,8 +138,9 @@
   </script>
   <meta name="last-updated" content="2026-08-22">
   
+  <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script>
-    if ('modelContext' in navigator) {
+    if (navigator.modelContext) {
       document.documentElement.setAttribute('data-webmcp', 'available');
     }
   </script>
