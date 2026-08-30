@@ -29,6 +29,7 @@ Layer 6: Governance        →  Safety rules, monitoring, drift detection
 | **CrewAI** | Multi-agent coordination  --  task delegation, parallel workstreams, agent roles | [Read →](/hermes/orchestration/crewai/) |
 | **LangGraph** | Stateful graph workflows  --  checkpoints, conditional routing, subgraph isolation | [Read →](/hermes/orchestration/langgraph/) |
 | **Reflexion** | Self-improving loops  --  evaluation, reflection, memory, iterative improvement | [Read →](/hermes/orchestration/reflexion/) |
+| **Paseo** | Cross-session agent orchestration  --  daemon-managed coding agents, multi-provider, one surface | [Read →](/hermes/orchestration/paseo/) |
 
 ## Why This Stack
 
