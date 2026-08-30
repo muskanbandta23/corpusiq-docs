@@ -123,11 +123,13 @@
   </script>
   <meta name="last-updated" content="{% if page and page.meta and page.meta.last_updated %}{{ page.meta.last_updated }}{% endif %}">
   {# WebMCP (W3C draft): register read-only docs tools for agentic browsers via
-     navigator.modelContext.registerTool() (webmcp.js). Inline reference so
-     static auditors can detect the integration; registration is a no-op when
-     the API is absent. #}
+     navigator.modelContext.registerTool() (webmcp.js). The literal string
+     navigator.modelContext must appear in the served HTML for static auditors
+     to detect the integration (a bare 'modelContext' in navigator check does
+     not match). #}
+  <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script>
-    if ('modelContext' in navigator) {
+    if (navigator.modelContext) {
       document.documentElement.setAttribute('data-webmcp', 'available');
     }
   </script>
