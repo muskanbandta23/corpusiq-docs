@@ -10058,6 +10058,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#live-install-status-spark-2026-08-30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Live Install Status (Spark, 2026-08-30)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#native-hermes-support-verified-2026-08-30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Native Hermes Support (verified 2026-08-30)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#fit-with-this-stack" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10149,8 +10171,19 @@ paseo<span class="w"> </span>run<span class="w"> </span>--host<span class="w"> <
 <li><strong>Repo:</strong> https://github.com/getpaseo/paseo · Docs: https://paseo.sh/docs</li>
 <li><strong>Watch items:</strong> the issue backlog is large relative to project age; verify release stability before relying on it for production workloads.</li>
 </ul>
+<h2 id="live-install-status-spark-2026-08-30">Live Install Status (Spark, 2026-08-30)<a class="headerlink" href="#live-install-status-spark-2026-08-30" title="Anchor link to this section">&para;</a></h2>
+<p>Installed and verified on the worker node after founder approval:</p>
+<ul>
+<li>CLI: <code>@getpaseo/cli</code> 0.6.1 via <code>npm install -g</code> → <code>/home/hermes/.local/bin/paseo</code></li>
+<li>Daemon: started via <code>paseo onboard</code> (non-interactive mode), PID 734067</li>
+<li>Health check: <code>paseo status</code> → Local Daemon <code>running</code>, Connected Daemon <code>reachable</code>, listen <code>127.0.0.1:6767</code>, relay <strong>disabled</strong> (privacy-first default, no telemetry)</li>
+<li>Logs: <code>~/.paseo/daemon.log</code> — clean, no errors on startup or client connects</li>
+<li>Prerequisite note: agent CLIs (Claude Code / Codex / OpenCode) are not yet installed on this host; the daemon runs standalone and agents can be added per provider.</li>
+</ul>
+<h2 id="native-hermes-support-verified-2026-08-30">Native Hermes Support (verified 2026-08-30)<a class="headerlink" href="#native-hermes-support-verified-2026-08-30" title="Anchor link to this section">&para;</a></h2>
+<p><strong>Hermes Agent is one of the 39 coding agents Paseo natively runs</strong> — listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent — Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.</p>
 <h2 id="fit-with-this-stack">Fit With This Stack<a class="headerlink" href="#fit-with-this-stack" title="Anchor link to this section">&para;</a></h2>
-<p>Paseo complements the orchestration layers documented in this section. It is not a replacement for an execution kernel like Hermes; it is a reference implementation of the cross-session control plane: one daemon, many agents, many clients. Teams that run several coding agents on shared infrastructure should evaluate it as the coordination surface.</p>
+<p>Paseo complements the orchestration layers documented in this section. It is not a replacement for an execution kernel like Hermes; it is a cross-session control plane: one daemon, many agents, many clients. With Hermes natively supported as a provider, the daemon on Spark is the coordination surface for running multiple Hermes/coding-agent sessions in parallel and monitoring them from one place (CLI, web, or mobile).</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 
