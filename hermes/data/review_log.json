@@ -12632,5 +12632,33 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-31T07:05:49.301294+00:00"
+  },
+  {
+    "repo": "dribulotta/Hermes-DOHAA",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T08:06:48.536745+00:00"
+  },
+  {
+    "repo": "da-damu/dadamu-skill",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T08:06:48.536758+00:00"
+  },
+  {
+    "repo": "peelar/hermes32",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T08:06:48.536761+00:00"
+  },
+  {
+    "repo": "lantuShang/hermes-agent",
+    "score": 36,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T08:06:48.536763+00:00"
   }
 ]
