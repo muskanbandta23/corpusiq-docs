@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 175+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 176+ repos, tools, skills, and integrations
 last_updated: 2026-08-30
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,16 +11,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **175+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **176+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **175+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **176+ repos indexed.**
 
 ## 📊 Category Overview
 
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 9 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 11 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -57,6 +57,14 @@ _Core Hermes Agent repos, official builds_
 >🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
 
 **Language:** TypeScript | **Topics:** agentic-framework, multi-agent, swarm, hermes, mcp-server, skills | **Score:** 81/100
+
+---
+
+### [Waishnav/devspace](https://github.com/Waishnav/devspace) ⭐ 4,319
+
+>Minimal Coding Agent Harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw
+
+**Language:** TypeScript | **Topics:** agent-orchestration, chatgpt, claude, claude-code, codex, dyanmic-workflow, pi-coding-agent | **Score:** 75/100
 
 ---
 
@@ -1479,6 +1487,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*175+ repositories in the Hermes ecosystem. Last updated: 2026-08-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*176+ repositories in the Hermes ecosystem. Last updated: 2026-08-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

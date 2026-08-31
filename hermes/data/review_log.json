@@ -12436,5 +12436,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-30T08:06:11.398809+00:00"
+  },
+  {
+    "repo": "viniburilux/luxverso-hermes-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096651+00:00"
+  },
+  {
+    "repo": "humanvalueexchange/hanshermesagent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096654+00:00"
+  },
+  {
+    "repo": "jourdanlabs/omnis-wing",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096657+00:00"
+  },
+  {
+    "repo": "Waishnav/devspace",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-08-31T05:05:26.096659+00:00"
+  },
+  {
+    "repo": "sathvikc/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096661+00:00"
+  },
+  {
+    "repo": "trehansalil/claude-mem",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096662+00:00"
+  },
+  {
+    "repo": "m83iyer/expense-bookkeeper",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096664+00:00"
+  },
+  {
+    "repo": "Jk2006k/screenpipe",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096666+00:00"
+  },
+  {
+    "repo": "developerjeremylive-git/hermes-agent-etheroi",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096668+00:00"
+  },
+  {
+    "repo": "forcewake/hermes-companion",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096669+00:00"
+  },
+  {
+    "repo": "kdl00544/fnos-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T05:05:26.096671+00:00"
   }
 ]

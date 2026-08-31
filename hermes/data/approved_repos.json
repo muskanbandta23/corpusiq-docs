@@ -5657,5 +5657,36 @@
     "discovered_at": "2026-08-30T05:02:40.356784+00:00",
     "status": "approved",
     "approved_at": "2026-08-30T05:05:48.180842+00:00"
+  },
+  {
+    "name": "Waishnav/devspace",
+    "url": "https://github.com/Waishnav/devspace",
+    "description": "Minimal Coding Agent Harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
+    "stars": 4319,
+    "forks": 460,
+    "language": "TypeScript",
+    "topics": [
+      "agent-orchestration",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "dyanmic-workflow",
+      "pi-coding-agent"
+    ],
+    "updated_at": "2026-08-31T04:55:21Z",
+    "category": "mcp",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T05:03:03.326415+00:00",
+    "status": "approved",
+    "approved_at": "2026-08-31T05:05:26.096637+00:00"
   }
 ]
