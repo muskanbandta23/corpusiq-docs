@@ -12,7 +12,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 31, 2026 (midday sweep) · **Sources:** mcpservers.org /all newest-first page · **Catalog:** 447 servers (+333 guides)
+> **Last updated:** August 31, 2026 (afternoon sweep) · **Sources:** chatmcp/mcpso issues #3848-#3857 + mcpservers.org /all page 1 · **Catalog:** 451 servers (+337 guides)
+
+## 🆕 August 31, 2026 - Afternoon Cron Sweep (4 New, 4 Guides)
+
+Afternoon sweep over chatmcp/mcpso issues #3848-#3857 (the fresh window after the midday sweep) plus an mcpservers.org /all page-1 cross-ref. 4 new business-relevant servers catalogued with guides, two live-verified over JSON-RPC: Edgrapi MCP (hosted SEC EDGAR structured data - Form 4 insider trades with cluster-buy detection, typed 8-K events, CUSIP-aggregated 13F holdings diffed quarter over quarter, 13D/G stakes, XBRL fundamentals and ratios - endpoint api.edgrapi.com/mcp probed with all 9 tools), Small Business Intelligence by Brick & Mortar (keyless local-market intelligence - 25 joined public-records datasets and 1.57M rows for the seven-county Minneapolis-St. Paul metro plus nine teardown and market-scan frameworks for any US metro - endpoint brickandmortar.dev/mcp probed as small-business-intelligence v0.1.0 with all 11 tools), DocMake MCP (official template-to-DOCX/PDF generation platform - 6 stdio tools with strict rendering, MCP resources and a guided render prompt - npm @docmake/mcp v0.1.1, registry io.docmake/mcp), Atomic Mail MCP (programmable email inbox for agents - JMAP stdio proxy @atomicmail/mcp-github v0.3.26, proof-of-work signup, custom-domain sending behind a human dashboard control plane - 255-star MIT repo, catch-up from the /all page).
+
+[Edgrapi MCP - SEC EDGAR Structured Data for Agents](/hermes/mcp/servers/external/edgrapi-mcp/) · hosted, live-probed 9 tools.
+[Small Business Intelligence MCP - Metro Records and Teardowns](/hermes/mcp/servers/external/small-business-intelligence-mcp/) · keyless, live-probed 11 tools.
+[DocMake MCP - Template-Driven DOCX and PDF Generation](/hermes/mcp/servers/external/docmake-mcp/) · stdio, npm verified.
+[Atomic Mail MCP - Programmable Inbox for AI Agents](/hermes/mcp/servers/external/atomic-mail-agentic/) · stdio, 255 stars.
+
+**Also identified (not catalogued):** Truth Bear GAUGE #3850 (resubmission of the already-catalogued truth-bear-gauge entry - BuyWhere precedent), JSONGuy #3851 (JSON formatter/repair - dev utility class), EditItAll #3854 (in-browser editors - creator/desktop utility class), NEX Agent Co. #3855 (A2A agent with x402 - agent infra class), Neuronto ARD Index #3857 (agentic resource discovery - agent infra class); /all page repeats and catch-ups: Automated Video App, CampingRoute, Agent Reliability, Percona Pg, Terminal MCP, GetBirthChart, Fanus AI, Soulfield Lens (prior disposition), Render MCP, Rumors Lines, Th Memory and Trvrse (creator, consumer, dev-infra and consumer-entertainment classes).
+
 
 ## 🆕 August 31, 2026 - Midday Sweep (3 New, 3 Guides)
 
@@ -5143,3 +5155,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from chatmcp/mcpso issue - Aug 31, 2026 (morning cron sweep)
 
 - [OpenHire MCP - AI, Infra, and Robotics Jobs from Employer ATS APIs](/hermes/mcp/servers/external/openhire-mcp/)
+
+### 4 new servers from chatmcp/mcpso issues + mcpservers.org /all - Aug 31, 2026 (afternoon cron sweep)
+
+- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/hermes/mcp/servers/external/edgrapi-mcp/)
+- [Small Business Intelligence MCP - Metro Public Records and Teardowns](/hermes/mcp/servers/external/small-business-intelligence-mcp/)
+- [DocMake MCP - Template-Driven DOCX and PDF Generation](/hermes/mcp/servers/external/docmake-mcp/)
+- [Atomic Mail MCP - Programmable Inbox for AI Agents](/hermes/mcp/servers/external/atomic-mail-agentic/)
