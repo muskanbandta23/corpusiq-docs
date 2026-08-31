@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-30"
+last_updated: "2026-08-31"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 31, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3845-#3847 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 444 servers (+330 guides)
+> **Last updated:** August 31, 2026 (midday sweep) · **Sources:** mcpservers.org /all newest-first page · **Catalog:** 447 servers (+333 guides)
+
+## 🆕 August 31, 2026 - Midday Sweep (3 New, 3 Guides)
+
+Midday sweep sourced from the mcpservers.org /all page (newest-first), cross-checked against the morning sweep's dispositions. 3 new business-relevant servers catalogued with guides, two of them live-verified over JSON-RPC: SEC EDGAR Full-Text Search MCP (Apify-hosted actor wrapping sec.gov/edgar/search as tools - keyword search with every form filter, company lookup, filing document retrieval - for diligence, competitive intelligence and public-company research), Trooth Network MCP (remote read-only no-auth trust layer - witnessed Trust Profiles, outside-in domain security reads, Trust Ledger Token verification - endpoint api.trooth.co/public/mcp initialize-verified as trooth-mcp v1.1.0), Saaskly MCP (official UK/EU B2B IT and telecom comparison data - VoIP, transactional email, cloud management, SEO/GEO/AEO, social media - endpoint saaskly.com/mcp initialize-verified as saaskly v1.0.0, stateless).
+
+[SEC EDGAR MCP - Full-Text Filing Search for Agents](/hermes/mcp/servers/external/sec-edgar-mcp/) · Apify-hosted, form filters, company lookup.
+[Trooth Network MCP - Witnessed Company Trust Records](/hermes/mcp/servers/external/trooth-mcp/) · remote no-auth, source-labeled provenance, live-verified.
+[Saaskly MCP - Evidence-Based B2B Software Comparison](/hermes/mcp/servers/external/saaskly-mcp/) · official hosted, UK/EU comparisons, live-verified.
+
+**Also identified (not catalogued):** Florida Sunbiz MCP (Florida Division of Corporations records - single-US-state registry class), SEO Landing MCP (agent skill for building SEO landing pages - dev tooling class), LegalAIMCP (law-firm AI directory with scoring - vertical directory class), Soulfield Lens MCP (AI-text review layer - QA utility class, morning-sweep disposition), OpenQR MCP (QR generation with scan analytics - marketing utility class), Gamedai NFL MCP and futbolatlas (consumer sports class, prior-sweep disposition), FlashDesk MCP and ShadowGraph (dev automation / agent infra classes, prior-sweep dispositions).
 
 ## 🆕 August 31, 2026 - Morning Cron Sweep (1 New, 1 Guide)
 
