@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 30, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3840-#3844 + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 443 servers (+329 guides)
+> **Last updated:** August 31, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3845-#3847 + mcp.so homepage/feed + mcpservers.org homepage · **Catalog:** 444 servers (+330 guides)
+
+## 🆕 August 31, 2026 - Morning Cron Sweep (1 New, 1 Guide)
+
+Morning sweep sourced from chatmcp/mcpso issues #3845-#3847 (fresh window after the night sweep's #3844 cutoff), the mcp.so homepage and feed, and the mcpservers.org homepage. 1 new business-relevant server catalogued with a guide: OpenHire MCP (agent-native job protocol over ~120 employers' first-party ATS APIs - 16,000+ live AI/infra, autonomous-driving and embodied-AI postings in the US, Europe and China with verified_at freshness stamps, ghost_score stale-listing detection and deep-linked employer apply URLs; stdio via uvx openhire or pipx, local-first matching so a résumé never transits the server, MIT, registry io.github.gzchenhao/openhire v0.2.0).
+
+[OpenHire MCP - AI, Infra, and Robotics Jobs from Employer ATS APIs](/hermes/mcp/servers/external/openhire-mcp/) · 5 tools, local-first privacy, stdio via uvx.
+
+**Also identified (not catalogued):** ShadowGraph #3846 (local-first decision memory for AI agents - agent dev infrastructure class, AURORA precedent), local-gpu-imagegen #3847 (local ComfyUI/WebUI/Diffusers image generation for agents - creator utility class, klo-mcp precedent), treg.to (pay-per-call gateway to 3,028 third-party APIs - API-gateway infrastructure class), Gamedai NFL MCP (fantasy football scores and start/sit calls - consumer sports class), FlashDesk MCP (remote desktop control from Claude Code - dev automation class), Hispanic Legacy MCP (Spanish science and culture knowledge base - niche educational class), Soulfield Lens MCP (independent AI-text review layer - QA utility class). mcp.so homepage and feed repeats were prior-sweep dispositions (File2Markdown, BiGapi, DrillerDB, MagicPixel, CrawlForge, Ransack, Genviral, AgendaForge, BidSkim, OmniSocials, SocialRobot, Hologrow, Forency, Tactiq, Gemina, Contextflo); mcpservers.org homepage slugs beyond the five evaluated above were famous-name re-indexes.
 
 ## 🆕 August 30, 2026 - Night Cron Sweep (6 New, 6 Guides)
 
@@ -5121,3 +5129,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Gemina MCP - Document Extraction and Tagging for Agents](/hermes/mcp/servers/external/gemina-mcp/)
 - [HasData MCP - Marketplace and Web Data Gateway for Agents](/hermes/mcp/servers/external/hasdata-mcp/)
 - [Contextflo MCP - Governed Team Data Queries for Agents](/hermes/mcp/servers/external/contextflo-mcp/)
+
+### 1 new server from chatmcp/mcpso issue - Aug 31, 2026 (morning cron sweep)
+
+- [OpenHire MCP - AI, Infra, and Robotics Jobs from Employer ATS APIs](/hermes/mcp/servers/external/openhire-mcp/)
