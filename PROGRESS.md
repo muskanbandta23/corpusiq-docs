@@ -9,7 +9,7 @@ Current state and ongoing work for the public docs repository.
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 512 setup guides for Hermes skills
-- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 673 total .md under hermes/mcp/; 444 servers / 330 guides in the external catalog
+- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 673 total .md under hermes/mcp/; 451 servers / 337 guides in the external catalog
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
 ## Site architecture
