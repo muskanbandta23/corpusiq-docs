@@ -12,7 +12,20 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 30, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3835-#3839 + mcp.so homepage + mcpservers.org /all pages 1-3 · **Catalog:** 437 servers (+323 guides)
+> **Last updated:** August 30, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3840-#3844 + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 443 servers (+329 guides)
+
+## 🆕 August 30, 2026 - Night Cron Sweep (6 New, 6 Guides)
+
+Night sweep sourced from chatmcp/mcpso issues #3840-#3844 (fresh window after the midday sweep's #3839 cutoff), the mcp.so feed and mcpservers.org /all pages 1-3. 6 new business-relevant servers catalogued with guides: Wiki.js MCP (ni-c; 62 tools over pages, version history, tags, assets, comments, users, groups and system settings on a self-hosted Wiki.js 2.x - grep_pages compensates for Wiki.js' title-only search, update_page refuses stale overwrites and destructive ops need a server-issued confirmation token; stdio via npx @ni-c/wikijs-mcp, MIT, registry io.github.ni-c/wikijs-mcp v0.1.2), imap-mcp (ni-c; read-only-by-default IMAP mailbox operations with a deliberate no-send design - BODY.PEEK preserves unread state, messages arrive nonce-fenced with SPF/DKIM/DMARC verdicts and prompt-injection-shape flags and drafts save to your own Drafts folder; stdio via npx @ni-c/imap-mcp, MIT, registry io.github.ni-c/imap-mcp v0.2.0), Tactiq MCP (meeting transcript intelligence - search, read and summarise Google Meet, Zoom and Teams transcripts across your whole meeting history; hosted at mcp.tactiq.io with Tactiq sign-in, a verified Claude connector and a free plan), Gemina MCP (document intelligence - extract, tag, search and aggregate invoices, receipts, contracts, forms and your own templates with 13 tools over OAuth 2.1 or an API key; api.gemina.co/api/v1/mcp/, free FileTag tier, EU/US/Israel/Asia data residency), HasData MCP (marketplace and web data gateway - zillow and redfin real estate, airbnb and booking hospitality, indeed and glassdoor hiring, yelp and yellowpages local business, shopify and amazon e-commerce, SERP, Maps, Trends and more from one hosted endpoint; mcp.hasdata.com/mcp with an x-api-key, credit-priced), Contextflo MCP (governed team data queries - connect BigQuery, Snowflake, Postgres, Redshift, Databricks or ClickHouse and ask questions or build live dashboards in chat with table-level access control; mcp.contextflo.com/mcp, endpoint live-verified). The HasData batch resolves the Aug 29 midday "future catch-up candidates" note.
+
+[Wiki.js MCP - Self-Hosted Wiki Knowledge Operations for Agents](/hermes/mcp/servers/external/wikijs-mcp/) · 62 tools, confirmation-token admin ops, stdio via npx.
+[imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/) · 11 tools, deliberate no-send design, MIT.
+[Tactiq MCP - Meeting Transcript Intelligence for Agents](/hermes/mcp/servers/external/tactiq-mcp/) · hosted, verified Claude connector, free plan.
+[Gemina MCP - Document Extraction and Tagging for Agents](/hermes/mcp/servers/external/gemina-mcp/) · 13 tools, OAuth or API key, free FileTag tier.
+[HasData MCP - Marketplace and Web Data Gateway for Agents](/hermes/mcp/servers/external/hasdata-mcp/) · 40+ connector tools, x-api-key, credit-priced.
+[Contextflo MCP - Governed Team Data Queries for Agents](/hermes/mcp/servers/external/contextflo-mcp/) · warehouse connectors, table-level access control.
+
+**Also identified (not catalogued):** projectlaunch.ai #3844 (pre-launch agent-facing site with zero pricing and an intent-capture tool - premature class, Krimskrams precedent), NoteMCP #3842 (hosted personal notes and long-term memory for a single user - personal-library class, smry Product and Savee precedent), MCP Emails #3841 (resubmission of the prose-only "Mcp Emails" entry already in the catalog body since the June 22 sweep - BuyWhere precedent; the entry still lacks a guide directory), FlightQueue (airport security wait times and FAA delays - consumer travel class), FlightSeatMap (seat maps and reviews - consumer travel class), Airport Lounge List (lounge access lookup - consumer travel class), Quidli Connect (handle-to-wallet resolution and token sending - token payment plumbing class), Blooket Simulator (classroom game - consumer class), Shotlingo (language-learning app - consumer class), fetch-cwe-list (CWE security-list fetcher - dev utility class). /all page repeats were prior-sweep dispositions (Valmera, Kivgraph, Fatenava, OctoWatch, CSVBox, Tillpad, devinchen2014 scrapers, SocialDataX family, granola re-index and the thin-docs slug list).
 
 ## 🆕 August 30, 2026 - Midday Cron Sweep (1 New, 1 Guide)
 
@@ -5099,3 +5112,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from chatmcp/mcpso issue - Aug 30, 2026 (midday cron sweep)
 
 - [Laver MCP - Kanban Boards, Sprints and Team Wiki for Agents](/hermes/mcp/servers/external/laver-mcp/)
+
+### 6 new servers from chatmcp/mcpso issues + mcp.so feed - Aug 30, 2026 (night cron sweep)
+
+- [Wiki.js MCP - Self-Hosted Wiki Knowledge Operations for Agents](/hermes/mcp/servers/external/wikijs-mcp/)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
+- [Tactiq MCP - Meeting Transcript Intelligence for Agents](/hermes/mcp/servers/external/tactiq-mcp/)
+- [Gemina MCP - Document Extraction and Tagging for Agents](/hermes/mcp/servers/external/gemina-mcp/)
+- [HasData MCP - Marketplace and Web Data Gateway for Agents](/hermes/mcp/servers/external/hasdata-mcp/)
+- [Contextflo MCP - Governed Team Data Queries for Agents](/hermes/mcp/servers/external/contextflo-mcp/)
