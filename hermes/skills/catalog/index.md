@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-26"
+last_updated: "2026-08-31"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -529,3 +529,11 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Revenue-Centric Design Skill - SaaS Conversion Playbook Setup](/hermes/skills/catalog/revenue-centric-design-setup/)
 - [Telegram Mini App Skill - Telegram Web App Builder Setup](/hermes/skills/catalog/telegram-mini-app-setup/)
 - [gh-stack - GitHub Stacked PRs Skill Setup](/hermes/skills/catalog/gh-stack-setup/)
+- [Hallmark - Anti-AI-Slop Design Skill Setup](/hermes/skills/catalog/hallmark-setup/)
+- [Dart Language Skills - Official Dart Team Suite Setup](/hermes/skills/catalog/dart-lang-skills-setup/)
+- [HubSpot Agent CLI Skills - CRM Operations Suite Setup](/hermes/skills/catalog/hubspot-agent-cli-skills-setup/)
+- [Basic Memory Skills - Agent Knowledge Graph Suite Setup](/hermes/skills/catalog/basic-memory-skills-setup/)
+- [Meng To Skills - Frontend & Motion Design Suite Setup](/hermes/skills/catalog/mengto-skills-setup/)
+- [Low-Level Dev Skills - Systems Programming Suite Setup](/hermes/skills/catalog/low-level-dev-skills-setup/)
+- [Daymade Claude Code Skills - General-Purpose Suite Setup](/hermes/skills/catalog/daymade-claude-code-skills-setup/)
+- [LJG Skills - Personal Knowledge Work Suite Setup](/hermes/skills/catalog/ljg-skills-setup/)

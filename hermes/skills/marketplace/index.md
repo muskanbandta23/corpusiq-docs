@@ -3,7 +3,7 @@ title: "Skills Marketplace - CorpusIQ Docs"
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-08-26"
+last_updated: "2026-08-31"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,10 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**911+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**919+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 
+- [🆕 August 31, 2026 - Hallmark (48.6K), Dart Language Skills (144.0K, 30 skills), LJG Skills (124.5K), Meng To Skills (76.2K, 155), Daymade Claude Code Skills (58.4K, 106), Low-Level Dev Skills (41.5K, 142), HubSpot Agent CLI Skills (17.8K, 15), Basic Memory Skills (9.7K, 38) - 8 new publisher clusters, 517 skills, 8 setup guides](/hermes/skills/marketplace/new-aug31-2026/)
 - [🆕 August 26, 2026 - Generative Media Skills (calesthio, 137⭐ MIT, 153 skills, 2.1K indexed installs) - full media production brain with explicit HERMES.md support: UGC video, GPT-Image-2, ElevenLabs, HyperFrames, media QA - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-aug26-2026/)
 - [🆕 August 24, 2026 - Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style Library (14.7K⭐, 1.5K), gh-issue-sync by mitsuhiko (2.5K), System Atlas (94) - 4 new publisher clusters, 9 skills, 4 setup guides](/hermes/skills/marketplace/new-aug24-2026/)
 - [🆕 August 19, 2026 (Evening) - Hermes Field Kit (asimons81, 122⭐, 16 skills), AtlasOmnia Hermes Custom Pack (48⭐, 60+ skills), Buzz Skills (tonbistudio, 250⭐, Hermes on Nostr) - 3 new Hermes-native publisher clusters, 79+ skills, 3 setup guides](/hermes/skills/marketplace/new-aug19-2026-evening/)
@@ -277,7 +278,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 962+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 970+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
