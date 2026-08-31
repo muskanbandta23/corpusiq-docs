@@ -52062,5 +52062,268 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-31T06:06:11.946636+00:00",
     "status": "pending"
+  },
+  {
+    "name": "TrebuchetDynamics/hermes-wing",
+    "url": "https://github.com/TrebuchetDynamics/hermes-wing",
+    "description": "A cross-platform mobile and desktop client for Hermes Agent.",
+    "stars": 4,
+    "forks": 0,
+    "language": "Dart",
+    "topics": [],
+    "updated_at": "2026-08-31T01:52:59Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "synthalorian/hermes-wingman"
+    ],
+    "discovered_at": "2026-08-31T07:03:17.539298+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "albidev/bdh-hermes-bridge",
+    "url": "https://github.com/albidev/bdh-hermes-bridge",
+    "description": "Bidirectional plugin bridging Hermes Agent sessions with BDH Graph Harness \u2014 real-time knowledge flow between AI assistant and neural knowledge graph",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-assistant",
+      "ai-memory",
+      "biologically-plausible",
+      "cognitive-science",
+      "graph-database",
+      "hebbian-learning",
+      "hermes-agent",
+      "knowledge-graph",
+      "llm",
+      "machine-learning",
+      "markdown",
+      "neural-network",
+      "neurogenesis",
+      "obsidian",
+      "plugin",
+      "python",
+      "rag"
+    ],
+    "updated_at": "2026-08-30T14:38:20Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "luluthehermeticcrabBot/phronesis",
+      "kaankacar/stellar-agent-kit",
+      "ahonore42/logios-brain",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "Bo1202/Aivy-OS",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-31T07:03:20.541434+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "l3ad3r1/Hermes-Agent-Android",
+    "url": "https://github.com/l3ad3r1/Hermes-Agent-Android",
+    "description": "Hermes Agent Android App",
+    "stars": 2,
+    "forks": 2,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-08-31T07:02:47Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T07:03:23.543505+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "l3ad3r1/Jeeves",
+    "url": "https://github.com/l3ad3r1/Jeeves",
+    "description": "Jeeves \u2014 one Android app: AI agent, Notes and Alarms (merged from Hermes Agent, Octo Jotter and Sassy Butler)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-08-31T07:02:58Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T07:03:26.545618+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "GMakeziG/ninjatronics-ai",
+    "url": "https://github.com/GMakeziG/ninjatronics-ai",
+    "description": "AI operating system for orchestrating specialized engineering agents using Hermes, Herdr, Claude Code, and Codex.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-31T06:59:57Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-31T07:03:29.548359+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Averageee/TL-Agent-app",
+    "url": "https://github.com/Averageee/TL-Agent-app",
+    "description": "An enterprise-grade Cloud Agent platform for the water industry, developed based on Hermes. It integrates intelligent Q&A, knowledge retrieval, multi-source database analysis, and automated tasks, with permission isolation, extensible skills, and runtime monitoring to enable intelligent water data querying and data-driven decision-making.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-31T07:02:16Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-31T07:03:32.550730+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "smshd/clickup-mcp-server",
+    "url": "https://github.com/smshd/clickup-mcp-server",
+    "description": "Python MCP server for ClickUp with name-based lookups and rich-text comments. Internal Smashed Avo tool, published for Hermes and community fork.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-31T06:20:20Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-08-31T07:03:42.169935+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agentskillexchange/agent-skills-resources",
+    "url": "https://github.com/agentskillexchange/agent-skills-resources",
+    "description": "Source-backed companion guide for agent skills, AI agent workflows, framework resources, evaluation templates, and rollout playbooks.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-safety",
+      "agent-skills",
+      "agent-workflows",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "cursor",
+      "gemini-cli",
+      "github-copilot",
+      "hermes-agent",
+      "langchain",
+      "langgraph",
+      "mcp",
+      "model-context-protocol",
+      "openai-agents",
+      "openclaw",
+      "rollout-playbooks",
+      "skill-evaluation",
+      "verification"
+    ],
+    "updated_at": "2026-08-31T07:01:24Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T07:03:58.464167+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "adriano86744-dotcom/gbrain",
+    "url": "https://github.com/adriano86744-dotcom/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-31T07:01:55Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-08-31T07:04:01.467097+00:00",
+    "status": "pending"
   }
 ]

@@ -12569,5 +12569,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-31T06:07:59.942212+00:00"
+  },
+  {
+    "repo": "TrebuchetDynamics/hermes-wing",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301266+00:00"
+  },
+  {
+    "repo": "albidev/bdh-hermes-bridge",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301280+00:00"
+  },
+  {
+    "repo": "l3ad3r1/Hermes-Agent-Android",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301283+00:00"
+  },
+  {
+    "repo": "l3ad3r1/Jeeves",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301285+00:00"
+  },
+  {
+    "repo": "GMakeziG/ninjatronics-ai",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301287+00:00"
+  },
+  {
+    "repo": "Averageee/TL-Agent-app",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301289+00:00"
+  },
+  {
+    "repo": "smshd/clickup-mcp-server",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301290+00:00"
+  },
+  {
+    "repo": "agentskillexchange/agent-skills-resources",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301292+00:00"
+  },
+  {
+    "repo": "adriano86744-dotcom/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-31T07:05:49.301294+00:00"
   }
 ]
