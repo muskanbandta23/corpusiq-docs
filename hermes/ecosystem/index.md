@@ -3,7 +3,7 @@ title: Hermes Ecosystem  --  Complete Resource Directory
 description: The definitive directory of Hermes Agent resources  --  440+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-08-31"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** August 22, 2026 · **Repos indexed:** 450+ · **Categories:** 18
+> **Last updated:** August 31, 2026 · **Repos indexed:** 450+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -31,7 +31,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 | [Skills & Plugins](#skills-plugins) | 69 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 57 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 27 | [↓](#orchestration-multi-agent-swarms) |
+| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 28 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 22 | [↓](#deployment-infrastructure) |
 | [Security & Governance](#security-governance) | 6 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
@@ -2926,6 +2926,16 @@ Open-source managed agents platform  --  turns coding agents into real teammates
 
 **Key capabilities:** Managed agents, task assignment, orchestration, progress tracking, dependency resolution, Hermes-compatible, collaborative workflows
 **Related:** [Architecture →](/hermes/architecture/)
+
+---
+
+### Waishnav/devspace
+⭐ **4,345** · `TypeScript` · [github.com/Waishnav/devspace](https://github.com/Waishnav/devspace)
+
+Minimal coding agent harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, and OpenClaw. Dynamic workflows across every major coding assistant, TypeScript, MIT.
+
+**Key capabilities:** Agent harness, MCP, multi-assistant, Hermes-compatible, dynamic workflow, agent orchestration
+**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem/)
 
 ---
 

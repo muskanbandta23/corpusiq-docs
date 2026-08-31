@@ -26,6 +26,10 @@ Event-driven multi-agent orchestration framework with MCP and A2A support. Enter
 Agent harness with multi-model routing, stateful sessions, tool governance, and provider routing (GPT/Claude/DeepSeek/Qwen/Kimi/GLM/MiniMax). Apache-2.0, fast growth (1.1K stars in under 3 months).
 [github.com/zhnt/loushang](https://github.com/zhnt/loushang)
 
+### devspace (4,345 ★) - Minimal Coding Agent Harness over MCP
+Minimal coding agent harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, and OpenClaw. TypeScript, MIT, active since June 2026 (4.3K stars in under 3 months).
+[github.com/Waishnav/devspace](https://github.com/Waishnav/devspace)
+
 ### BrowserWing (1,400 ★) - Browser as MCP
 Turns browser actions into MCP commands, so any MCP client can drive a browser session.
 [github.com/browserwing/browserwing](https://github.com/browserwing/browserwing)
