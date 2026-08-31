@@ -51837,5 +51837,230 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-31T05:04:57.123127+00:00",
     "status": "pending"
+  },
+  {
+    "name": "eloktev/hermes-artifact-relay",
+    "url": "https://github.com/eloktev/hermes-artifact-relay",
+    "description": "Git-installed Hermes Agent plugin for private Artifact Relay publishing",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "html",
+      "markdown",
+      "plugin",
+      "privacy",
+      "self-hosted"
+    ],
+    "updated_at": "2026-08-30T15:45:55Z",
+    "category": "core",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:05:31.037486+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Arya756/daily-contrib-log",
+    "url": "https://github.com/Arya756/daily-contrib-log",
+    "description": "Daily contribution streak log - automated by Hermes agent for Ayush",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-31T06:04:27Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:05:34.040533+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "erectsrhapsodesxx-max/digital-employee-agent-gateway",
+    "url": "https://github.com/erectsrhapsodesxx-max/digital-employee-agent-gateway",
+    "description": "\u6570\u5b57\u5458\u5de5\u5e73\u53f0\u4e0e Hermes AI Agent \u5e95\u5ea7\u4e4b\u95f4\u7684\u7edf\u4e00\u7f51\u5173\u4e0e\u8fd0\u884c\u65f6\u63a7\u5236\u7cfb\u7edf\uff0c\u57fa\u4e8e Python aiohttp \u5b9e\u73b0\u56db\u5c42\u8def\u7531\u5206\u53d1\u3001SSE \u6d41\u5f0f\u8fc7\u7a0b\u53ef\u89c6\u5316\u4e0e Agent \u8fd0\u884c\u7ba1\u63a7\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-31T06:01:24Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:05:37.045778+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Junweiiii14/hermes-dsh-collab",
+    "url": "https://github.com/Junweiiii14/hermes-dsh-collab",
+    "description": "Hermes \u2194 local DSH delegation bridge \u2014 one-way task delegation with directory whitelist, high-risk confirmation & fail-safe (MCP + CLI)",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent",
+      "automation",
+      "delegation",
+      "dsh",
+      "hermes",
+      "mcp",
+      "nodejs"
+    ],
+    "updated_at": "2026-08-31T06:02:59Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:05:46.628289+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sudo-ai-git/jobflow-tracker",
+    "url": "https://github.com/sudo-ai-git/jobflow-tracker",
+    "description": "Deterministic freelance job-flow tracker + invoice ledger (accept-make-invoice-deliver-paid). Native Hermes MCP tool. No-LLM, 9-check P2 selftest.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-31T05:58:28Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:05:49.632067+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nocoo/rooster",
+    "url": "https://github.com/nocoo/rooster",
+    "description": "\ud83d\udc14 Web management panel for Hermes Agent \u2014 chat, sessions, profile/model controls",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-31T06:05:31Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "EKKOLearnAI/hermes-studio",
+      "outsourc-e/hermes-workspace",
+      "awizemann/scarf",
+      "chrisryugj/hermes-dashboard",
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-08-31T06:06:05.941977+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "spinabot/brigade",
+    "url": "https://github.com/spinabot/brigade",
+    "description": "Brigade \u2014 Your personal intelligence, built enterprise-grade",
+    "stars": 3208,
+    "forks": 43,
+    "language": "TypeScript",
+    "topics": [
+      "agent-runtime",
+      "ai",
+      "ai-crew",
+      "autonomous-agents",
+      "brigade",
+      "brigade-agent",
+      "chatgpt",
+      "clawdbot",
+      "codex",
+      "crustacean",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "moltbot",
+      "molty",
+      "multi-agent",
+      "openclaw",
+      "pride-of-agents",
+      "self-improving-ai",
+      "spinabot"
+    ],
+    "updated_at": "2026-08-31T06:04:42Z",
+    "category": "forks",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "high_stars_1000+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:06:08.945637+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "QINGcha7911/bookmadebook",
+    "url": "https://github.com/QINGcha7911/bookmadebook",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "ai-audio",
+      "ai-tools",
+      "audio-book",
+      "book-summary",
+      "book-to-audio",
+      "chinese-tts",
+      "hermes-agent",
+      "listen-book",
+      "open-source",
+      "podcast",
+      "productivity",
+      "skill",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-08-31T06:04:42Z",
+    "category": "forks",
+    "score": 34,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-31T06:06:11.946636+00:00",
+    "status": "pending"
   }
 ]
