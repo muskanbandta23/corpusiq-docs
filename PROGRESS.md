@@ -4,12 +4,12 @@ Current state and ongoing work for the public docs repository.
 
 ## File count (updated August 31, 2026)
 
-- **Total Markdown files:** 2,064
+- **Total Markdown files:** 2,066
 - **Total HTML files:** 1,908 (MkDocs build output)
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 512 setup guides for Hermes skills
-- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 631 total .md under hermes/mcp/; 382 servers / 268 guides in the external catalog
+- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 673 total .md under hermes/mcp/; 444 servers / 330 guides in the external catalog
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -36,6 +36,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Aug 31, 2026, docs mgmt cron):** Bumped 98 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-22/08-23 → 2026-08-31; 0 quote defects after bump). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-08-31. Full internal link audit: 11,335 links checked, 0 broken (4 documented SKIP placeholders). Frontmatter quote defects: 0/0. Connector count: 0 stragglers (canonical 40+). PII scan clean (only external `hermes-worker-qxun` skill-name false positives). Retention claims validator: PASS. MCP sweeps current through issue #3847 (external catalog 444 servers / 330 guides, openhire-mcp guided this morning). PROGRESS.md stats refreshed (2,066 MD, 673 hermes/mcp .md).
 - **Skills sweep ✅ (Aug 31, 2026, skills-monitor cron):** 46-query skills.sh API sweep (4,743 unique skills, 0 failures) plus hot-leaderboard discovery with publisher-page verification. 117 clusters known. 8 new publisher clusters guided: `lijigang/ljg-skills` (124.5K, 30 skills, Chinese-language, 🟡 Snyk Warn), `dart-lang/skills` (144.0K, 30 skills, official Dart org, 🟢 all Pass), `mengto/skills` (76.2K, 155 skills, 🟢), `daymade/claude-code-skills` (58.4K, 106, 🟡 Snyk Warn), `nutlope/hallmark` (48.6K, 27.6K⭐, 🟢), `mohitmishra786/low-level-dev-skills` (41.5K, 142, 🟡 Snyk Warn), `hubspot/agent-cli-skills` (17.8K, 15, official HubSpot org, 🟡 Socket+Snyk Warn, authority-justified), `basicmachines-co/basic-memory` (9.7K, 38, YC-backed, 🟢, authority-justified). 8 guides + catalog index entries + marketplace batch page (header 911→919, footer 962→970). Parked: plannotator/effective-html (10.7K), 3 site publishers (larksuite, apifox, volces). useosint/skills API variant + github/awesome-copilot confirmed already guided. PROGRESS.md stats refreshed (2,064 MD, 512 catalog guides).
 - **Skills sweep ✅ (Aug 30 evening, 2026, skills-monitor cron):** 42-query skills.sh API sweep - 3,942 unique skills, 117 known clusters, 3 candidates. New: `github/gh-stack` (official GitHub org, 9.6K installs, 1.4K stars, all audits Pass) - guide `gh-stack-setup.md` created (🟢 Production, brand-authority below-20K-bar precedent). Maintenance: `oh-story-claudecode-skills-setup.md` publisher rename worldwonderer → zenstory-ai fixed (301 redirect verified). useosint/skills API source-string variant confirmed covered by existing osint-skills-setup.md. PROGRESS.md stats refreshed (2,055 MD, 504 catalog guides).
 - **Maintenance ✅ (Aug 28, 2026, docs mgmt cron):** Bumped 18 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-19 → 2026-08-28) and added the missing `last_updated` key to 5 how-to-analyze pages (google-ads, shopify, ga4, klaviyo, hubspot). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-08-28. MCP discovery checked current: mcp.so feed (YOUB, AgendaForge, BidSkim, OrbitWan, Uwear all already catalogued), evening sweep covered issues #3802-#3807. Full internal link audit: 10,805 links checked, 0 broken (5 documented false positives: 3 `](url)` placeholders, 1 Slack mrkdwn example, 1 verified-200 examples/ relative link). Frontmatter quote defects: 0. PII scan clean (only public founder quote on docs/index.md + external skill name false positive). PROGRESS.md stats refreshed (2,010 MD, 1,908 HTML, 631 hermes/mcp .md).
