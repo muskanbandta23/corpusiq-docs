@@ -4,9 +4,19 @@
 Prebuilt mode: site/ is the final static output (MkDocs builds locally).
 vercel.json is copied into site/ so the production redirects and
 outputDirectory settings travel with the deployment.
+
+Aug 30, 2026 — NO-SLASH HARD GATE (regression: this script shadowed the
+normalized deploy_docs.py build with a RAW slashed mkdocs output; 1735/1735
+sitemap locs slashed + slashed canonicals shipped to prod for ~10h, caught
+by docs_live_health.py 23:00). This script is the SECOND deploy path and
+must apply the SAME no-slash normalize + verify gate as deploy_docs.py
+(3b/3c) BEFORE deploying. Raw mkdocs output is slashed by default.
 """
+import gzip
+import glob
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -14,6 +24,96 @@ import sys
 REPO = '/home/hermes/corpusiq-docs'
 SECRETS = '/home/hermes/.hermes/profiles/corpusiq/secrets/vercel.json'
 TEAM_ID = 'team_btwsQPaxGRECjJjdKQOMcMUQ'
+
+
+def normalize_no_slash():
+    """Mirror of deploy_docs.py 3b: strip trailing slashes from sitemap
+    xml+gz, internal hrefs, and canonical tags. Returns counts for logging."""
+    site = os.path.join(REPO, 'site')
+    sitemap_count = 0
+    # sitemap.xml + sitemap.xml.gz
+    for name, opener in (('sitemap.xml', open), ('sitemap.xml.gz', gzip.open)):
+        sm = os.path.join(site, name)
+        if not os.path.exists(sm):
+            continue
+        with opener(sm, 'rt', encoding='utf-8') as f:
+            xml = f.read()
+        new_xml = re.sub(
+            r'<loc>(.*?)</loc>', lambda m: '<loc>{}</loc>'.format(m.group(1).rstrip('/')), xml)
+        with opener(sm, 'wt', encoding='utf-8') as f:
+            f.write(new_xml)
+        print('   {} normalized (no-slash)'.format(name))
+    # internal hrefs + canonical tags across all HTML
+    link_count = 0
+    for html in glob.glob(os.path.join(site, '**', '*.html'), recursive=True):
+        with open(html, encoding='utf-8') as f:
+            text = f.read()
+
+        def fix_href(m):
+            nonlocal link_count
+            href = m.group(1)
+            if (href.startswith('http') or href.startswith('mailto:')
+                    or href.startswith('tel:') or href.startswith('javascript:')
+                    or href.startswith('#') or href.startswith('/assets')
+                    or 'assets/' in href or '.css' in href or '.js' in href
+                    or '.png' in href or '.svg' in href or '.ico' in href
+                    or '.xml' in href or '.txt' in href or '.json' in href):
+                return m.group(0)
+            if href.endswith('/') and len(href) > 1:
+                link_count += 1
+                return 'href="{}"'.format(href[:-1])
+            return m.group(0)
+
+        new = re.sub(r'href="([^"]+)"', fix_href, text)
+        new = re.sub(r'(https://www\.corpusiq\.io/docs/[^"\s]+?)/"', r'\1"', new)
+        new = re.sub(r'(<link rel="canonical" href="[^"]+)/">', r'\1">', new)
+        if new != text:
+            with open(html, 'w', encoding='utf-8') as f:
+                f.write(new)
+    print('   Links normalized ({})'.format(link_count))
+
+
+def verify_no_slash():
+    """Mirror of deploy_docs.py 3c: hard-fail on any slashed invariant."""
+    site = os.path.join(REPO, 'site')
+    errors = []
+    for name, opener in (('sitemap.xml', open), ('sitemap.xml.gz', gzip.open)):
+        p = os.path.join(site, name)
+        if not os.path.exists(p):
+            continue
+        with opener(p, 'rt', encoding='utf-8') as f:
+            xml = f.read()
+        n = len(re.findall(r'<loc>([^<]*/)</loc>', xml))
+        if n:
+            errors.append('{}: {} slashed <loc> entries'.format(name, n))
+    for feed in ('llms.txt', 'llms-full.txt'):
+        p = os.path.join(site, feed)
+        if not os.path.exists(p):
+            continue
+        txt = open(p, encoding='utf-8').read()
+        n = len(re.findall(r'https://www\.corpusiq\.io/docs/[^)\s"\']*/[)\s"\']', txt))
+        if n:
+            errors.append('{}: {} slashed docs URLs'.format(feed, n))
+    for html in glob.glob(os.path.join(site, '**', '*.html'), recursive=True):
+        text = open(html, encoding='utf-8').read()
+        rel = os.path.relpath(html, REPO)
+        if (rel.endswith('404.html') or 'templates/' in rel
+                or rel.endswith('tokens-saved-widget.html')):
+            continue
+        canons = re.findall(r'<link rel="canonical" href="([^"]+)"', text)
+        if len(canons) != 1:
+            errors.append('{}: {} canonical tags'.format(rel, len(canons)))
+        elif canons[0].endswith('/'):
+            errors.append('{}: slashed canonical {}'.format(rel, canons[0]))
+    if errors:
+        print('VERIFY GATE FAILED - deploy aborted (no-slash invariant violated):')
+        for e in errors[:25]:
+            print('  -', e)
+        print('  ({} total violations)'.format(len(errors)))
+        return False
+    print('   Verify gate passed (canonical, sitemap, feeds all no-slash)')
+    return True
+
 
 def main():
     with open(SECRETS) as f:
@@ -23,6 +123,10 @@ def main():
         print('ERROR: no token')
         sys.exit(1)
     shutil.copy(os.path.join(REPO, 'vercel.json'), os.path.join(REPO, 'site', 'vercel.json'))
+    print('Normalizing site/ to no-slash convention...')
+    normalize_no_slash()
+    if not verify_no_slash():
+        sys.exit(1)
     env = dict(os.environ)
     env['VERCEL_PROJECT_ID'] = creds.get('docs_project_id', '')
     env['VERCEL_ORG_ID'] = TEAM_ID
@@ -33,6 +137,7 @@ def main():
     print(proc.stdout[-3000:])
     print(proc.stderr[-1500:])
     sys.exit(proc.returncode)
+
 
 if __name__ == '__main__':
     main()
