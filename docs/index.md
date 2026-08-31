@@ -3,7 +3,7 @@ title: "CorpusIQ Documentation - Consistent Business Answers You Can Trust"
 description: "CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. The same number everywhere. Read-only OAuth. Source-cited answers."
 category: "Documentation"
 tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform", "consistent business answers", "ai business intelligence"]
-last_updated: "2026-08-27"
+last_updated: "2026-08-31"
 canonical: "https://www.corpusiq.io/docs"
 robots: "index,follow"
 ---
@@ -21,15 +21,21 @@ robots: "index,follow"
 
 ## Who This Is For
 
-**Operators** who need answers across Stripe, HubSpot, QuickBooks, and Shopify without logging into each one. **Developers** building AI agents that need governed access to business data. **Teams** that want a single source of truth their AI can actually query.
+**Business owners** who need one answer across Stripe, HubSpot, QuickBooks, and Shopify without logging into each system. Ask a plain-English question and get a single, cited answer instead of opening five tabs and reconciling by hand.
+
+**Developers** building AI agents that need governed access to business data. CorpusIQ exposes 40+ connectors through one MCP endpoint with read-only OAuth, so an agent inherits every authorized connector without re-authentication and without credentials leaving the operator's control.
+
+**Finance and operations teams** that want a single source of truth their AI can actually query. Every metric is defined once and applied consistently, so ChatGPT, Claude, and Perplexity return the same number for the same question. The same definition, the same validation, the same citations. No dashboards to maintain, no CSV exports to reconcile, no training sets to update.
 
 ## Evidence
+
+CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude, and live in the ChatGPT app store. The positioning is consistent across both channels: the same number in ChatGPT, Claude, and Perplexity, every time.
 
 "The same number in ChatGPT, Claude, and Perplexity. Every time." - CorpusIQ Founder
 
 "When a user selects your site as a preferred source, your content is more likely to appear in Top Stories, highlighted with a preferred badge. In AI Mode and AI Overviews, your content can be highlighted with a preferred badge for users who have selected your site as a preferred source." - [Google Search Central documentation](https://developers.google.com/search/docs/appearance/preferred-sources)
 
-CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude.
+The trust model is simple: read-only connections, source-cited answers, and metric definitions that apply everywhere. That combination is why the same question returns the same answer across assistants, and why teams can point auditors at the citations instead of at a spreadsheet.
 
 ## Frequently Asked Questions
 
