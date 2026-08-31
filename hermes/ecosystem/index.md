@@ -31,7 +31,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 | [Skills & Plugins](#skills-plugins) | 69 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 57 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 28 | [↓](#orchestration-multi-agent-swarms) |
+| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 29 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 22 | [↓](#deployment-infrastructure) |
 | [Security & Governance](#security-governance) | 6 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
@@ -2936,6 +2936,16 @@ Minimal coding agent harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, and
 
 **Key capabilities:** Agent harness, MCP, multi-assistant, Hermes-compatible, dynamic workflow, agent orchestration
 **Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem/)
+
+---
+
+### spinabot/brigade
+⭐ **3,245** · `TypeScript` · [github.com/spinabot/brigade](https://github.com/spinabot/brigade)
+
+Personal intelligence built enterprise-grade: a crew of AI agents on a real org chart sharing one long-term memory (Tideline), delegating to each other and switching models mid-task. Self-hosted, no account, no telemetry, keys stay on your machine. Reachable from terminal, WhatsApp, Telegram, Slack, Discord and iMessage. Hermes-compatible (hermes-agent topic, multi-agent, self-improving-ai).
+
+**Key capabilities:** Multi-agent crew, shared long-term memory, model switching, self-hosted, no telemetry, Hermes-compatible
+**Related:** [Orchestration →](/hermes/orchestration/)
 
 ---
 

@@ -30,6 +30,10 @@ Agent harness with multi-model routing, stateful sessions, tool governance, and 
 Minimal coding agent harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, and OpenClaw. TypeScript, MIT, active since June 2026 (4.3K stars in under 3 months).
 [github.com/Waishnav/devspace](https://github.com/Waishnav/devspace)
 
+### brigade (3,245 ★) - Personal Intelligence, Enterprise-Grade
+Crew of AI agents on a real org chart with one shared long-term memory (Tideline); agents delegate, switch models mid-task, and act across 1,000+ apps. Self-hosted, no account, no telemetry, keys never leave the machine. TypeScript, MIT, pushed daily.
+[github.com/spinabot/brigade](https://github.com/spinabot/brigade)
+
 ### BrowserWing (1,400 ★) - Browser as MCP
 Turns browser actions into MCP commands, so any MCP client can drive a browser session.
 [github.com/browserwing/browserwing](https://github.com/browserwing/browserwing)
