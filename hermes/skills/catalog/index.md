@@ -528,3 +528,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Printing Press Library - 472-CLI Agent Tool Catalog Setup](/hermes/skills/catalog/printing-press-library-setup/)
 - [Revenue-Centric Design Skill - SaaS Conversion Playbook Setup](/hermes/skills/catalog/revenue-centric-design-setup/)
 - [Telegram Mini App Skill - Telegram Web App Builder Setup](/hermes/skills/catalog/telegram-mini-app-setup/)
+- [gh-stack - GitHub Stacked PRs Skill Setup](/hermes/skills/catalog/gh-stack-setup/)

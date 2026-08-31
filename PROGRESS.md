@@ -2,13 +2,13 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated August 28, 2026)
+## File count (updated August 30, 2026)
 
-- **Total Markdown files:** 2,012
+- **Total Markdown files:** 2,055
 - **Total HTML files:** 1,908 (MkDocs build output)
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 503 setup guides for Hermes skills
+- **Skills catalog:** 504 setup guides for Hermes skills
 - **MCP servers:** 504 server listing markdown pages (+ HTML companions); 631 total .md under hermes/mcp/; 382 servers / 268 guides in the external catalog
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
@@ -29,13 +29,14 @@ The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
 - **MCP server scans:** MCP.so + mcpservers.org scanned daily. 536 servers listed with integration guides.
-- **Skills.sh marketplace:** Daily scan for new Hermes skills. 503 setup guides published.
+- **Skills.sh marketplace:** Daily scan for new Hermes skills. 504 setup guides published.
 - **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
 
+- **Skills sweep ✅ (Aug 30 evening, 2026, skills-monitor cron):** 42-query skills.sh API sweep - 3,942 unique skills, 117 known clusters, 3 candidates. New: `github/gh-stack` (official GitHub org, 9.6K installs, 1.4K stars, all audits Pass) - guide `gh-stack-setup.md` created (🟢 Production, brand-authority below-20K-bar precedent). Maintenance: `oh-story-claudecode-skills-setup.md` publisher rename worldwonderer → zenstory-ai fixed (301 redirect verified). useosint/skills API source-string variant confirmed covered by existing osint-skills-setup.md. PROGRESS.md stats refreshed (2,055 MD, 504 catalog guides).
 - **Maintenance ✅ (Aug 28, 2026, docs mgmt cron):** Bumped 18 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-19 → 2026-08-28) and added the missing `last_updated` key to 5 how-to-analyze pages (google-ads, shopify, ga4, klaviyo, hubspot). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-08-28. MCP discovery checked current: mcp.so feed (YOUB, AgendaForge, BidSkim, OrbitWan, Uwear all already catalogued), evening sweep covered issues #3802-#3807. Full internal link audit: 10,805 links checked, 0 broken (5 documented false positives: 3 `](url)` placeholders, 1 Slack mrkdwn example, 1 verified-200 examples/ relative link). Frontmatter quote defects: 0. PII scan clean (only public founder quote on docs/index.md + external skill name false positive). PROGRESS.md stats refreshed (2,010 MD, 1,908 HTML, 631 hermes/mcp .md).
 - **Maintenance ✅ (Aug 27, 2026, docs mgmt cron):** Fixed 12 dead links to `/hermes/mcp/servers/corpusiq/` (dir does not exist) across 6 external MCP server pages, retargeted to `/hermes/mcp/servers/` (HTTP 200 verified). Fixed 6 section READMEs (docs/{architecture,search,reporting,onboarding,governance,security}/README.md) whose Internal Links used `/docs/<section>/` URLs that 404 in production; retargeted to root-level `/architecture/` etc. (all HTTP 200 verified). Deduplicated 29 duplicate "Curated in the Hermes Community Hub" footer blocks in hermes/ content. Added new example page `examples/support-triage-hubspot-stripe.md` (cross-source HubSpot + Stripe support triage) and added the previously missing MCP Starter Kit row to the examples index (examples now 4 entries). Full internal link audit: 10,626 links checked, 0 broken after fixes (remaining 3 are documented Slack mrkdwn false positives). PII scan clean. Frontmatter quote defects: 0. Sitemap lastmod fresh (Aug 25).
 - **Skills sweep ✅ (Aug 27, 2026):** 15-query skills.sh tiered sweep (604 unique skills, 0 failures). 70 NEW flags all below the 100-install bar (max 54). Two PARTIAL ≥100 candidates re-verified: `mercury-ui-skills` (ihlamury/design-skills, 199 — README still Claude Code/Cursor/Copilot only; rejection holds) and `pp-mercury` (mvanhorn/printing-press-library, 124 — **rejection overturned**: the publisher README now documents first-class Hermes install paths (`hermes skills install mvanhorn/printing-press-library/cli-skills/pp-mercury`); mechanism is an agent-agnostic Go CLI, install path verified live with `npx skills add --list`). Added discrete setup guide `pp-mercury-setup.md` (🟡 Beta — Trust Hub Pass / Socket Warn / Snyk Fail, stated honestly; `workflow payment-plan` read-only approval workflow is the standout feature) + catalog index entry. Corrected the stale `printing-press-library-setup.md` cluster guide — it misdescribed the repo as a Python document-template library; the repo is actually the 472-CLI Printing Press catalog — and added its previously missing catalog index entry (501 setup guides). Mac Mini reachable this run.

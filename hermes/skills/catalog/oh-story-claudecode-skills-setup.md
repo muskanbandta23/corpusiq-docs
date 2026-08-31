@@ -1,16 +1,16 @@
 ---
 title: Oh Story ClaudeCode Skills - Long-Form Writing & Browser CDP Setup
-description: "worldwonderer/oh-story-claudecode - 13 skills, 146.6K installs: story long/short write, analyze, scan, and deslop pipelines plus browser-cdp automation, covers, setup, review, and import for agent-driven long-form writing."
+description: "zenstory-ai/oh-story-claudecode (formerly worldwonderer) - 13 skills, 146.6K installs: story long/short write, analyze, scan, and deslop pipelines plus browser-cdp automation, covers, setup, review, and import for agent-driven long-form writing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-08-30"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "long-form content", "browser automation", "cdp"]
 ---
 
 # Oh Story ClaudeCode Skills - Setup Guide
 
-**Source:** [worldwonderer/oh-story-claudecode](https://skills.sh/worldwonderer/oh-story-claudecode)
-**GitHub:** [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode)
+**Source:** [zenstory-ai/oh-story-claudecode](https://skills.sh/zenstory-ai/oh-story-claudecode)
+**GitHub:** [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) (formerly `worldwonderer/oh-story-claudecode`; the old URL 301-redirects - publisher org renamed Aug 2026)
 **Skills:** 13 skills · 146.6K total installs
 **Category:** Content Writing & Browser Automation
 **First Seen:** catalogued August 15, 2026 midday sweep
@@ -23,7 +23,7 @@ The Oh Story suite turns an agent into a long-form writing pipeline: long and sh
 ## Installation
 
 ```bash
-npx skills add worldwonderer/oh-story-claudecode
+npx skills add zenstory-ai/oh-story-claudecode
 ```
 
 ## Prerequisites
@@ -52,7 +52,7 @@ npx skills add worldwonderer/oh-story-claudecode
 
 ## Quick Start
 
-1. Install: `npx skills add worldwonderer/oh-story-claudecode`
+1. Install: `npx skills add zenstory-ai/oh-story-claudecode`
 2. Run story-setup to configure the environment
 3. Ask: "write a long-form piece on X and run it through deslop before we publish"
 
@@ -72,7 +72,7 @@ npx skills add worldwonderer/oh-story-claudecode
 - Install counts verified on the publisher page; API sums undercount (11.4K vs 146.6K)
 
 ```bash
-npx skills add worldwonderer/oh-story-claudecode   # verify install works
+npx skills add zenstory-ai/oh-story-claudecode   # verify install works
 ```
 
 ## Related
