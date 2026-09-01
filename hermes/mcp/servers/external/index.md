@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 31, 2026 (evening sweep) · **Sources:** mcp.so homepage recentServers + mcpservers.org homepage latest · **Catalog:** 453 servers (+339 guides)
+> **Last updated:** August 31, 2026 (evening sweep) · **Sources:** mcp.so homepage recentServers + mcpservers.org homepage latest + chatmcp/mcpso issues #3858-#3863 · **Catalog:** 456 servers (+342 guides)
 
 ## 🆕 August 31, 2026 - Evening Cron Sweep (2 New, 2 Guides)
 
@@ -22,6 +22,16 @@ Evening sweep sourced from the mcp.so homepage recentServers array and the mcpse
 [ConsentStack MCP - Agent-Managed Cookie Consent and Compliance](/hermes/mcp/servers/external/consentstack-mcp/) · 22 tools, OAuth 2.1, registry-listed.
 
 **Also identified (not catalogued):** GridCarbon (grid carbon intensity for 45 zones from ENTSO-E, EIA-930 and NESO - pre-alpha single-dataset utility class), Onchain Diary (read-only Web3 on-chain security knowledge base, 97 articles plus 220 glossary terms - niche educational class), CordFind Generator Compatibility MCP (generator guide search and extension-cord sizing - consumer DIY class), Vaanzari Commerce (Banarasi saree discovery and shopping workflows - consumer commerce class), Firefly III MCP Server (self-hosted personal finance with scoped read/write/delete tools - personal-finance class), SigVest (personal portfolio analysis, news impact and tax harvesting - consumer investing class). mcp.so recentServers repeats and prior dispositions (file2markdown, BiGapi, DrillerDB, MagicPixel.art, Forency, TikTok Transcript MCP, CrawlForge).
+
+## 🆕 August 31, 2026 - Late-Day Sweep (3 New, 3 Guides)
+
+Late-day sweep over chatmcp/mcpso issues #3858-#3863 (past the afternoon cron's #3857 cutoff). 3 new business-relevant servers catalogued with guides, all live-verified over JSON-RPC: Gemalli B2B Trade (global B2B trade read toolset - wholesale product search with category/country/MOQ/price filters, verified manufacturer catalog, sanctions screening and HS codes; no auth for reads, endpoint gemalli.com/api/mcp verified as gemalli-mcp v0.1.0), DFX Real Estate Intelligence (9 tools over US commercial and multifamily real estate - property and parcel resolution, ownership, recorded sales, measured coverage, near-term commercial debt timing; no key for 8 of 9 tools, endpoint verified as dfx-real-estate v0.2.0), VulX Watch (independent security review for AI-built apps - watch a GitHub repo, read-only status of the last reading, never a patch; OAuth GitHub, endpoint live but token-gated).
+
+[Gemalli B2B Trade MCP - Global Wholesale Sourcing for Agents](/hermes/mcp/servers/external/gemalli-b2b-trade-mcp/) · product search, verified manufacturers, sanctions/HS codes, live-verified.
+[DFX Real Estate Intelligence MCP - US Property, Parcel and Debt Data](/hermes/mcp/servers/external/dfx-real-estate-mcp/) · no-key, debt timing, coverage honesty, live-verified.
+[VulX Watch MCP - Independent Security Review for AI-Built Apps](/hermes/mcp/servers/external/vulx-watch-mcp/) · watch-not-patch, OAuth GitHub, endpoint live.
+
+**Also identified (not catalogued):** BioVet MCP (Moscow veterinary clinic network - single-city vertical class), Neuronto Agentic Resource Discovery (agent dev infrastructure class), NEX Agent (A2A agent on Base with x402 payments - crypto/dev class), EditItAll MCP (local-first in-browser editors - dev utility class), JSONGuy (JSON formatter/validator - dev utility class), Truth Bear GAUGE (Bitcoin-anchored fact verification - niche trust class), Aluvia takedown request (#3852, administrative). yg3-mcp (#3858) already catalogued.
 
 ## 🆕 August 31, 2026 - Afternoon Cron Sweep (4 New, 4 Guides)
 
