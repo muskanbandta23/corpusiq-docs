@@ -4,7 +4,12 @@ description: "Make your store answerable in plain English. Revenue, orders, AOV,
 ---
 # Shopify
 
+## What the Shopify connector does
+
+The Shopify connector makes your store answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query revenue, orders, average order value, top products, refunds, customer lifetime value and repeat-buyer counts across any date range, and join those numbers to QuickBooks, your ad platforms, and your email tool through the same CorpusIQ endpoint. The connection uses Shopify's own app-install flow: enter your myshopify.com domain, review the requested scopes, and approve. CorpusIQ never creates orders, edits products, refunds anything, or changes prices; it does not retain raw customer files or full connector response payloads, and operational query logs are bounded. Setup takes about two minutes and works on any Shopify plan.
+
 ## What it unlocks
+
 Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV - and the same numbers joined to QuickBooks, your ad platforms, and your email tool.
 
 ## Before you connect
@@ -43,6 +48,43 @@ Read-only. CorpusIQ never creates orders, edits products, refunds anything, or c
 - "Store not found" - make sure you typed the full myshopify.com domain, not your custom domain.
 - "Install rejected" - your account doesn't have app install permission. Ask the store owner to connect, or grant your staff account "manage apps" rights.
 - Numbers seem low - check the date range. Shopify timezone is the store's timezone, not yours.
+
+## Frequently Asked Questions
+
+### How do I connect Shopify to ChatGPT?
+
+Connect Shopify in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the store data through its MCP endpoint, so ChatGPT can query orders, products, customers and store totals in plain English once the connector shows Connected.
+
+### Is the Shopify connection read-only?
+
+Yes. CorpusIQ never creates orders, edits products, refunds anything, or changes prices. The connection uses Shopify's app-install flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained.
+
+### Which Shopify plans work with CorpusIQ?
+
+Any Shopify plan works. You need a store owner account or a staff account with permission to install apps.
+
+### Can CorpusIQ join Shopify data with QuickBooks?
+
+Yes. The same CorpusIQ endpoint also connects QuickBooks, ad platforms and email tools, so an assistant can answer questions that span the store ledger and the accounting system in one query.
+
+### Why do my numbers look different in Shopify?
+
+Check the date range. Shopify reports in the store's timezone, not yours, and each system may define a metric differently. CorpusIQ applies one definition per metric across every connected system so the same question returns the same answer.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect Shopify to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "Connect Shopify in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the store data through its MCP endpoint, so ChatGPT can query orders, products, customers and store totals in plain English once the connector shows Connected."}},
+    {"@type": "Question", "name": "Is the Shopify connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never creates orders, edits products, refunds anything, or changes prices. The connection uses Shopify's app-install flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Which Shopify plans work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Any Shopify plan works. You need a store owner account or a staff account with permission to install apps."}},
+    {"@type": "Question", "name": "Can CorpusIQ join Shopify data with QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The same CorpusIQ endpoint also connects QuickBooks, ad platforms and email tools, so an assistant can answer questions that span the store ledger and the accounting system in one query."}},
+    {"@type": "Question", "name": "Why do my numbers look different in Shopify?", "acceptedAnswer": {"@type": "Answer", "text": "Check the date range. Shopify reports in the store's timezone, not yours, and each system may define a metric differently. CorpusIQ applies one definition per metric across every connected system so the same question returns the same answer."}}
+  ]
+}
+</script>
+
 ---
 
 *
