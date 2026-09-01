@@ -12786,5 +12786,61 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-01T06:05:50.746528+00:00"
+  },
+  {
+    "repo": "lukemcqueen/omarchy-omar",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076209+00:00"
+  },
+  {
+    "repo": "cmbya/FN-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076233+00:00"
+  },
+  {
+    "repo": "whyulooksad/CTFAgent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076235+00:00"
+  },
+  {
+    "repo": "IridiumWasTaken/hermes-botschat",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076236+00:00"
+  },
+  {
+    "repo": "outmcn/hermes-agent-monitor",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076237+00:00"
+  },
+  {
+    "repo": "fajrisilmi12-cyber/labsch",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076238+00:00"
+  },
+  {
+    "repo": "Amengclass/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076239+00:00"
+  },
+  {
+    "repo": "singo27/vessel-browser",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T07:05:40.076240+00:00"
   }
 ]
