@@ -9950,6 +9950,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#what-are-corpusiq-connectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What are CorpusIQ connectors?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#index" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10088,6 +10099,89 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frequently Asked Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-many-connectors-does-corpusiq-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How many connectors does CorpusIQ support?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-connect-a-new-data-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I connect a new data source?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#are-corpusiq-connectors-read-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Are CorpusIQ connectors read-only?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#does-corpusiq-support-database-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Does CorpusIQ support database connections?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-if-i-need-a-connector-that-isnt-listed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What if I need a connector that isn't listed?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-check-which-connectors-are-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I check which connectors are active?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#all-pages" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10129,6 +10223,9 @@ passes through on demand and returns to your AI client as read-only
 information. No one at CorpusIQ can access your accounts.
 See the full guarantee: <a href="/hermes/security/read-only-and-security">Security and Read-Only Access</a></p>
 <p>The external-source connectors in this directory are designed for read-only retrieval and do not write back to connected vendor accounts. Separately annotated CorpusIQ control-plane tools are outside this connector directory.</p>
+<h2 id="what-are-corpusiq-connectors">What are CorpusIQ connectors?<a class="headerlink" href="#what-are-corpusiq-connectors" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ connectors are the integration layer between business data and AI assistants. Each connector maps to a SaaS application or database - QuickBooks, Shopify, Stripe, HubSpot, GA4, Salesforce, Slack, Gmail and 40+ others - and exposes its data through one MCP endpoint that ChatGPT, Claude and Perplexity can query in plain English. Every published operation declares whether it is read-only or write-capable, and each connection uses the provider's own OAuth authorization with the scopes shown on screen. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.</p>
+<p>The connector model matters because the MCP ecosystem is large and uneven. Public registries count more than 9,400 MCP servers with 97M+ SDK downloads, yet many are unmaintained. CorpusIQ's approach is different: 40+ curated connectors to the tools businesses already run, each with documented operations, safety annotations and live status, so an AI assistant answers from a governed source instead of from a random server. For the full interactive connector list with real-time status indicators, visit <a href="https://corpusiq.io/connectors">corpusiq.io/connectors</a>.</p>
 <h2 id="index">Index<a class="headerlink" href="#index" title="Anchor link to this section">&para;</a></h2>
 <h3 id="commerce-payments">Commerce &amp; Payments<a class="headerlink" href="#commerce-payments" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10228,6 +10325,34 @@ See the full guarantee: <a href="/hermes/security/read-only-and-security">Securi
 </ol>
 <p>That's it. Your AI assistant can now query live data from that service.</p>
 <p>Connector-specific notes (required plans, admin roles, multi-account setups) are on each individual connector page.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
+<h3 id="how-many-connectors-does-corpusiq-support">How many connectors does CorpusIQ support?<a class="headerlink" href="#how-many-connectors-does-corpusiq-support" title="Anchor link to this section">&para;</a></h3>
+<p>CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated.</p>
+<h3 id="how-do-i-connect-a-new-data-source">How do I connect a new data source?<a class="headerlink" href="#how-do-i-connect-a-new-data-source" title="Anchor link to this section">&para;</a></h3>
+<p>Open the CorpusIQ Connectors page, click Connect next to the tool you want, approve the vendor's read-only permission screen, and the connector shows Connected. Each connection takes under 60 seconds.</p>
+<h3 id="are-corpusiq-connectors-read-only">Are CorpusIQ connectors read-only?<a class="headerlink" href="#are-corpusiq-connectors-read-only" title="Anchor link to this section">&para;</a></h3>
+<p>External-source retrieval tools are marked read-only. CorpusIQ is not an AI agent. It cannot write, modify or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand. No one at CorpusIQ can access your accounts. Operational query text, per-user tool-call metadata and bounded outcome summaries may be retained for up to 30 days; optional indexed search keeps embeddings and minimal metadata until connector revocation or account deletion. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated.</p>
+<h3 id="does-corpusiq-support-database-connections">Does CorpusIQ support database connections?<a class="headerlink" href="#does-corpusiq-support-database-connections" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access.</p>
+<h3 id="what-if-i-need-a-connector-that-isnt-listed">What if I need a connector that isn't listed?<a class="headerlink" href="#what-if-i-need-a-connector-that-isnt-listed" title="Anchor link to this section">&para;</a></h3>
+<p>CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development.</p>
+<h3 id="how-do-i-check-which-connectors-are-active">How do I check which connectors are active?<a class="headerlink" href="#how-do-i-check-which-connectors-are-active" title="Anchor link to this section">&para;</a></h3>
+<p>Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How many connectors does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated."}},
+    {"@type": "Question", "name": "How do I connect a new data source?", "acceptedAnswer": {"@type": "Answer", "text": "Open the CorpusIQ Connectors page, click Connect next to the tool you want, approve the vendor's read-only permission screen, and the connector shows Connected. Each connection takes under 60 seconds."}},
+    {"@type": "Question", "name": "Are CorpusIQ connectors read-only?", "acceptedAnswer": {"@type": "Answer", "text": "External-source retrieval tools are marked read-only. CorpusIQ is not an AI agent. It cannot write, modify or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand. No one at CorpusIQ can access your accounts. Operational query text, per-user tool-call metadata and bounded outcome summaries may be retained for up to 30 days; optional indexed search keeps embeddings and minimal metadata until connector revocation or account deletion. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated."}},
+    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access."}},
+    {"@type": "Question", "name": "What if I need a connector that isn't listed?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."}},
+    {"@type": "Question", "name": "How do I check which connectors are active?", "acceptedAnswer": {"@type": "Answer", "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."}}
+  ]
+}
+</script>
+
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 <h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
