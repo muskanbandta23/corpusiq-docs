@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 31, 2026 (afternoon sweep) · **Sources:** chatmcp/mcpso issues #3848-#3857 + mcpservers.org /all page 1 · **Catalog:** 451 servers (+337 guides)
+> **Last updated:** August 31, 2026 (evening sweep) · **Sources:** mcp.so homepage recentServers + mcpservers.org homepage latest · **Catalog:** 453 servers (+339 guides)
+
+## 🆕 August 31, 2026 - Evening Cron Sweep (2 New, 2 Guides)
+
+Evening sweep sourced from the mcp.so homepage recentServers array and the mcpservers.org homepage latest array (the fresh window after the afternoon sweep). 2 new business-relevant servers catalogued with guides, one live-verified over JSON-RPC: CarChat Inventory MCP (official MCP for the carchat.io live-dealership-inventory search - 6 tools covering plain-English inventory search with structured filters, VIN and listing detail, curated metro category pages, a dealer directory with per-dealer counts, live market price statistics by body style and metro, and a consent-gated buyer inquiry relay to the selling dealer - endpoint carchat.io/mcp live-probed as carchat v1.0.0 with all 6 tools, no auth, MIT), ConsentStack MCP (hosted consent management platform MCP - 22 tools for GDPR/CCPA cookie consent end to end: site creation, draft-staged banner configuration and publishing, install snippets, compliance scans and tracker categorization over OAuth 2.1 - endpoint app.consentstack.io/api/mcp 401-verified live, registry io.consentstack/cookie-consent).
+
+[CarChat Inventory MCP - Live US Dealership Inventory and Market Prices](/hermes/mcp/servers/external/carchat-inventory-mcp/) · 6 tools, no-auth endpoint, live-probed.
+[ConsentStack MCP - Agent-Managed Cookie Consent and Compliance](/hermes/mcp/servers/external/consentstack-mcp/) · 22 tools, OAuth 2.1, registry-listed.
+
+**Also identified (not catalogued):** GridCarbon (grid carbon intensity for 45 zones from ENTSO-E, EIA-930 and NESO - pre-alpha single-dataset utility class), Onchain Diary (read-only Web3 on-chain security knowledge base, 97 articles plus 220 glossary terms - niche educational class), CordFind Generator Compatibility MCP (generator guide search and extension-cord sizing - consumer DIY class), Vaanzari Commerce (Banarasi saree discovery and shopping workflows - consumer commerce class), Firefly III MCP Server (self-hosted personal finance with scoped read/write/delete tools - personal-finance class), SigVest (personal portfolio analysis, news impact and tax harvesting - consumer investing class). mcp.so recentServers repeats and prior dispositions (file2markdown, BiGapi, DrillerDB, MagicPixel.art, Forency, TikTok Transcript MCP, CrawlForge).
 
 ## 🆕 August 31, 2026 - Afternoon Cron Sweep (4 New, 4 Guides)
 
@@ -5162,3 +5171,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Small Business Intelligence MCP - Metro Public Records and Teardowns](/hermes/mcp/servers/external/small-business-intelligence-mcp/)
 - [DocMake MCP - Template-Driven DOCX and PDF Generation](/hermes/mcp/servers/external/docmake-mcp/)
 - [Atomic Mail MCP - Programmable Inbox for AI Agents](/hermes/mcp/servers/external/atomic-mail-agentic/)
+
+### 2 new servers from mcp.so homepage + mcpservers.org latest - Aug 31, 2026 (evening cron sweep)
+
+- [CarChat Inventory MCP - Live US Dealership Inventory and Market Prices](/hermes/mcp/servers/external/carchat-inventory-mcp/)
+- [ConsentStack MCP - Agent-Managed Cookie Consent and Compliance](/hermes/mcp/servers/external/consentstack-mcp/)
