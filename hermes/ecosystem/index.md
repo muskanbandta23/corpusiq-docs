@@ -31,7 +31,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 | [Skills & Plugins](#skills-plugins) | 69 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 57 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 29 | [↓](#orchestration-multi-agent-swarms) |
+| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 30 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 22 | [↓](#deployment-infrastructure) |
 | [Security & Governance](#security-governance) | 6 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
@@ -2946,6 +2946,16 @@ Personal intelligence built enterprise-grade: a crew of AI agents on a real org 
 
 **Key capabilities:** Multi-agent crew, shared long-term memory, model switching, self-hosted, no telemetry, Hermes-compatible
 **Related:** [Orchestration →](/hermes/orchestration/)
+
+---
+
+### zeenie-ai/OpenCompany
+⭐ **811** · `Python` · [github.com/zeenie-ai/OpenCompany](https://github.com/zeenie-ai/OpenCompany)
+
+Self-improving AI that runs a whole business by turning LLM tokens into work and dollars. An org chart of autonomous co-employees: loop agents with defined roles, escalation paths and shared context, self-hosted so the operator owns the data. Hermes-compatible (hermes-agent topic), MIT.
+
+**Key capabilities:** Org-chart AI workforce, loop agents, self-hosting, own-your-data, Hermes-compatible
+**Related:** [Orchestration →](/hermes/orchestration/) · [September log →](/hermes/ecosystem/september-2026/)
 
 ---
 
