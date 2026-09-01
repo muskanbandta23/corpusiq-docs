@@ -12751,5 +12751,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-01T05:05:40.139461+00:00"
+  },
+  {
+    "repo": "KonjacW/hermes-wallpaper-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T06:05:50.746519+00:00"
+  },
+  {
+    "repo": "dsactivi-2/recruiting-crm-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T06:05:50.746522+00:00"
+  },
+  {
+    "repo": "Moep90/vscode-acp",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T06:05:50.746524+00:00"
+  },
+  {
+    "repo": "zeenie-ai/OpenCompany",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-09-01T06:05:50.746526+00:00"
+  },
+  {
+    "repo": "julianromli/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-01T06:05:50.746528+00:00"
   }
 ]

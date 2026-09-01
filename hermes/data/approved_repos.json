@@ -5738,5 +5738,51 @@
     "discovered_at": "2026-09-01T05:03:04.980052+00:00",
     "status": "approved",
     "approved_at": "2026-09-01T05:05:40.139423+00:00"
+  },
+  {
+    "name": "zeenie-ai/OpenCompany",
+    "url": "https://github.com/zeenie-ai/OpenCompany",
+    "description": "Self-improving AI that runs your whole business turning LLM tokens into work and dollars.",
+    "stars": 810,
+    "forks": 117,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "assistant",
+      "autonomous-agents",
+      "co-employees",
+      "company",
+      "hermes",
+      "hermes-agent",
+      "loop-agents",
+      "n8n",
+      "open-company",
+      "openclaw",
+      "opencompany",
+      "orgchart",
+      "own-your-data",
+      "paperclip",
+      "personal",
+      "self-hosted",
+      "zapier-alternative"
+    ],
+    "updated_at": "2026-09-01T03:13:16Z",
+    "category": "forks",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-09-01T06:03:59.935008+00:00",
+    "status": "approved",
+    "approved_at": "2026-09-01T06:05:50.746506+00:00"
   }
 ]

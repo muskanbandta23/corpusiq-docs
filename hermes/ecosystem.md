@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 177+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 178+ repos, tools, skills, and integrations
 last_updated: 2026-08-31
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,16 +11,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **177+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **178+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **177+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **178+ repos indexed.**
 
 ## 📊 Category Overview
 
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 11 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 12 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -139,6 +139,14 @@ _Core Hermes Agent repos, official builds_
 **Language:** Python | **Topics:** ai, anthropic, claude, fastapi, llm, multi-agent, nextjs, python, rag, typescript | **Score:** 80/100
 
 **CorpusIQ status (Aug 27, 2026):** Local clone runs Anthropic-free on DeepSeek. Provider registry (`providers/registry.py`) routes any slug listed in `LOCAL_MODELS` to an OpenAI-compatible backend, so the stack runs entirely on `deepseek-v4-flash` / `deepseek-v4-pro` via `LOCAL_BASE_URL=https://api.deepseek.com/v1`, with no `ANTHROPIC_API_KEY` needed. Verified end-to-end: FastAPI boots, `/chat` streams full executive turns with RAG (ChromaDB) in ~4s. Caveats: DeepSeek v4 emits `reasoning_content` before `content`, so keep `max_tokens` generous (>=500); no Anthropic prompt-caching equivalents.
+
+---
+
+### [zeenie-ai/OpenCompany](https://github.com/zeenie-ai/OpenCompany) ⭐ 810
+
+>Self-improving AI that runs your whole business turning LLM tokens into work and dollars.
+
+**Language:** Python | **Topics:** ai-agents, autonomous-agents, self-hosted, hermes-agent, openclaw, n8n | **Score:** 70/100
 
 ---
 
@@ -1495,6 +1503,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*177+ repositories in the Hermes ecosystem. Last updated: 2026-08-31. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*178+ repositories in the Hermes ecosystem. Last updated: 2026-08-31. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
