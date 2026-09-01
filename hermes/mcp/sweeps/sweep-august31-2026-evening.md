@@ -1,3 +1,11 @@
+---
+title: "Sweep Report - August 31, 2026 - CorpusIQ Docs"
+description: "Evening MCP catalog sweep: mcp.so recentServers + mcpservers.org latest, cataloging new servers into the CorpusIQ MCP ecosystem directory."
+date: 2026-08-31T19:00:00-07:00
+sources: [mcp.so, mcpservers.org]
+status: complete
+---
+
 # Sweep Report - August 31, 2026 (Evening Cron Sweep)
 
 - **Shift:** Evening (run ~19:00 MST, ~02:00 UTC Sep 1)

@@ -72,4 +72,4 @@ npx skills add tanstack-skills/tanstack-skills --skill tanstack-form
 
 - [VueJS AI Skills Setup](/hermes/skills/catalog/vuejs-ai-skills-setup/)
 - [Angular Skills Setup](/hermes/skills/catalog/angular-skills-setup/)
-- [Tailwind 4 Docs Setup](/hermes/skills/catalog/tailwind-4-docs-setup/)
+- [Tailwind 4 Docs Setup](/hermes/skills/catalog/tailwind-4-docs-skill-setup/)

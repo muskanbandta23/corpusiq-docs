@@ -1,3 +1,11 @@
+---
+title: "Sweep Report - September 1, 2026 - CorpusIQ Docs"
+description: "Morning MCP catalog sweep: chatmcp/mcpso issues #3864-#3872, cataloging new servers into the CorpusIQ MCP ecosystem directory."
+date: 2026-09-01T03:00:00-07:00
+sources: [chatmcp/mcpso, mcp.so]
+status: complete
+---
+
 # Sweep Report - September 1, 2026 (Morning Cron Sweep)
 
 - **Shift:** Morning (run ~03:00 MST, ~10:00 UTC)

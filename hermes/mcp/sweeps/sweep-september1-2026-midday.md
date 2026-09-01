@@ -1,3 +1,11 @@
+---
+title: "Sweep Report - September 1, 2026 - CorpusIQ Docs"
+description: "Midday MCP catalog sweep: chatmcp/mcpso issues #3873-#3876, cataloged ErzyCall with a verification guide."
+date: 2026-09-01T11:02:00-07:00
+sources: [chatmcp/mcpso, mcpservers.org]
+status: complete
+---
+
 # Sweep Report - September 1, 2026 (Midday Cron Sweep)
 
 - **Shift:** Midday (run ~11:02 MST, ~18:02 UTC)
