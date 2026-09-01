@@ -9950,6 +9950,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#what-the-quickbooks-connector-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the QuickBooks connector does
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-it-unlocks" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10015,6 +10026,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frequently Asked Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-connect-quickbooks-to-chatgpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I connect QuickBooks to ChatGPT?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-the-quickbooks-connection-read-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is the QuickBooks connection read-only?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#does-corpusiq-work-with-quickbooks-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Does CorpusIQ work with QuickBooks Desktop?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-an-accountant-connect-a-clients-quickbooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can an accountant connect a client's QuickBooks?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-do-my-numbers-not-match-my-accountants-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why do my numbers not match my accountant's report?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10036,6 +10119,8 @@
 
 
 <h1 id="quickbooks">QuickBooks<a class="headerlink" href="#quickbooks" title="Anchor link to this section">&para;</a></h1>
+<h2 id="what-the-quickbooks-connector-does">What the QuickBooks connector does<a class="headerlink" href="#what-the-quickbooks-connector-does" title="Anchor link to this section">&para;</a></h2>
+<p>The QuickBooks connector makes your books answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query cash position, profit and loss, balance sheet, overdue invoices with days overdue, AR and AP aging, customer and vendor balances, and spend across any date range - without opening QuickBooks Online or rebuilding the same report you ran last month. The connection uses Intuit's own consent flow: sign in, choose the company file, approve. CorpusIQ never creates invoices, records payments, or changes anything in your books; it does not retain raw customer files or full connector response payloads, and operational query logs are bounded. QuickBooks Online is supported, Desktop is not. Setup takes about two minutes.</p>
 <h2 id="what-it-unlocks">What it unlocks<a class="headerlink" href="#what-it-unlocks" title="Anchor link to this section">&para;</a></h2>
 <p>Make your books answerable in plain English. Cash position, P&amp;L, overdue invoices, AR aging, customer balances - without opening QuickBooks Online and rebuilding the same report you ran last month.</p>
 <h2 id="before-you-connect">Before you connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
@@ -10085,6 +10170,31 @@
 <li>Wrong company file connected - disconnect QuickBooks in your dashboard and reconnect, picking the correct company.</li>
 <li>Numbers don't match your accountant's report - make sure you specify accrual vs. cash basis in your question; CorpusIQ uses your QuickBooks default.</li>
 </ul>
+<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
+<h3 id="how-do-i-connect-quickbooks-to-chatgpt">How do I connect QuickBooks to ChatGPT?<a class="headerlink" href="#how-do-i-connect-quickbooks-to-chatgpt" title="Anchor link to this section">&para;</a></h3>
+<p>Connect QuickBooks in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the books through its MCP endpoint, so ChatGPT can query P&amp;L, balance sheet, invoices and aging in plain English once the connector shows Connected.</p>
+<h3 id="is-the-quickbooks-connection-read-only">Is the QuickBooks connection read-only?<a class="headerlink" href="#is-the-quickbooks-connection-read-only" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. CorpusIQ never creates invoices, records payments, or changes anything in your books. The connection uses Intuit's consent flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained.</p>
+<h3 id="does-corpusiq-work-with-quickbooks-desktop">Does CorpusIQ work with QuickBooks Desktop?<a class="headerlink" href="#does-corpusiq-work-with-quickbooks-desktop" title="Anchor link to this section">&para;</a></h3>
+<p>No. The connector requires QuickBooks Online. Desktop is not supported.</p>
+<h3 id="can-an-accountant-connect-a-clients-quickbooks">Can an accountant connect a client's QuickBooks?<a class="headerlink" href="#can-an-accountant-connect-a-clients-quickbooks" title="Anchor link to this section">&para;</a></h3>
+<p>Yes, with the right permission level. Accountants connecting on behalf of a client need Company Admin access or the equivalent permission in the client's QuickBooks Online account.</p>
+<h3 id="why-do-my-numbers-not-match-my-accountants-report">Why do my numbers not match my accountant's report?<a class="headerlink" href="#why-do-my-numbers-not-match-my-accountants-report" title="Anchor link to this section">&para;</a></h3>
+<p>Specify accrual versus cash basis in your question. CorpusIQ uses your QuickBooks default, and each accounting view can report the same activity differently.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect QuickBooks to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "Connect QuickBooks in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the books through its MCP endpoint, so ChatGPT can query P&L, balance sheet, invoices and aging in plain English once the connector shows Connected."}},
+    {"@type": "Question", "name": "Is the QuickBooks connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never creates invoices, records payments, or changes anything in your books. The connection uses Intuit's consent flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Does CorpusIQ work with QuickBooks Desktop?", "acceptedAnswer": {"@type": "Answer", "text": "No. The connector requires QuickBooks Online. Desktop is not supported."}},
+    {"@type": "Question", "name": "Can an accountant connect a client's QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with the right permission level. Accountants connecting on behalf of a client need Company Admin access or the equivalent permission in the client's QuickBooks Online account."}},
+    {"@type": "Question", "name": "Why do my numbers not match my accountant's report?", "acceptedAnswer": {"@type": "Answer", "text": "Specify accrual versus cash basis in your question. CorpusIQ uses your QuickBooks default, and each accounting view can report the same activity differently."}}
+  ]
+}
+</script>
+
 <hr />
 <p>*</p>
 <hr />
