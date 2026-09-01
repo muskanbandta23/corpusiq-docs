@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 1, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3864-#3872 + mcpservers.org /all page 1 + mcp.so homepage · **Catalog:** 460 servers (+346 guides)
+> **Last updated:** September 1, 2026 (afternoon sweep) · **Sources:** chatmcp/mcpso issues #3873-#3875 · **Catalog:** 461 servers (+347 guides)
+
+## 🆕 September 1, 2026 - Afternoon Sweep (1 New, 1 Guide)
+
+Afternoon sweep over chatmcp/mcpso issues #3873-#3875 (past the morning cron's #3872 cutoff). 1 new business-relevant server catalogued with a guide: Docling MCP (document processing made agentic - PDF and document conversion to structured JSON/Markdown, document generation and caching, remote Docling Serve API / local / hybrid execution with automatic local fallback, Milvus and LlamaIndex RAG integrations; stdio via pip/uvx, official MCP Registry listed, LF AI & Data project, MIT, 727 stars, pushed Sep 1, 2026).
+
+[Docling MCP - Agentic Document Processing from IBM's Docling Project](/hermes/mcp/servers/external/docling-mcp/) · PDF conversion, RAG-native, local-first.
+
+**Also identified (not catalogued):** diamond-mcp (sourced diamond buying and gemology education - 8 read-only tools, no runtime network calls - consumer niche class), Washlib (car-wash discovery and availability for France - single-country consumer class), Atmita (message your personal AI agent - consumer messaging class), deskwright (computer use on GNOME/Wayland desktop - dev automation class), personal-understanding (evidence-chain personal memory - agent infra class, personal-memory precedents).
 
 ## 🆕 September 1, 2026 - Morning Cron Sweep (4 New, 4 Guides)
 
