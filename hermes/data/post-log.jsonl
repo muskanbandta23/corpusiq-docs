@@ -10,3 +10,5 @@
 {"ts": "2026-09-01T14:10:00Z", "platform": "linkedin-page", "post_id": "cmtipz640040npn0y3qxshkyx", "scheduled": "2026-09-01T08:30:00-07:00", "state": "QUEUE", "content": "Board scene / definition problem, social-trust-layer UTM"}
 {"ts": "2026-09-01T14:10:00Z", "platform": "x", "post_id": "cmtipzq3403wqs60yt6ftqvyi", "scheduled": "2026-09-01T15:30:00-07:00", "state": "QUEUE", "content": "Two assistants disagree, governed-layer UTM"}
 {"ts": "2026-09-01T14:10:00Z", "platform": "linkedin-page", "post_id": "cmtipzqhp03wrs60ychhtg28a", "scheduled": "2026-09-01T15:30:00-07:00", "state": "QUEUE", "content": "Governed layer angle, dub.sh/Ue2wibo"}
+{"ts": "2026-09-01T16:00:00Z", "platform": "x", "post_id": "cmtipz5kn040jpn0yjhqmce8p", "state": "PUBLISHED", "url": "https://twitter.com/CorpusIQ/status/2094813175862661486", "note": "fired ~09:42 AZ (queue delay), content verified live"}
+{"ts": "2026-09-01T16:00:00Z", "platform": "linkedin-page", "post_id": "cmtipz640040npn0y3qxshkyx", "state": "PUBLISHED", "url": "https://www.linkedin.com/feed/update/urn:li:share:7500578859642310657", "note": "paragraphs + dub link verified in DOM"}
