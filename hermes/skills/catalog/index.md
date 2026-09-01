@@ -547,3 +547,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Inkeep Open Knowledge Skills - Collaborative Knowledge Base Suite Setup](/hermes/skills/catalog/inkeep-open-knowledge-skills-setup/)
 - [Vigiles - Agent Harness Quality Suite Setup](/hermes/skills/catalog/vigiles-setup/)
 - [Hithink Finance - Tonghuashun A-Share Data Skill Setup](/hermes/skills/catalog/hithink-finance-setup/)
+- [Task Observer - Meta-Skill for Continuous Skill Improvement Setup](/hermes/skills/catalog/task-observer-setup/)
