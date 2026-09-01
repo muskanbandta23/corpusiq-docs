@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-01"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 1, 2026 (afternoon sweep) · **Sources:** chatmcp/mcpso issues #3873-#3875 · **Catalog:** 461 servers (+347 guides)
+> **Last updated:** September 1, 2026 (midday sweep) · **Sources:** chatmcp/mcpso issue #3876 + mcpservers.org /all page 1 cross-ref · **Catalog:** 462 servers (+348 guides)
 
 ## 🆕 September 1, 2026 - Afternoon Sweep (1 New, 1 Guide)
 
@@ -21,6 +21,14 @@ Afternoon sweep over chatmcp/mcpso issues #3873-#3875 (past the morning cron's #
 [Docling MCP - Agentic Document Processing from IBM's Docling Project](/hermes/mcp/servers/external/docling-mcp/) · PDF conversion, RAG-native, local-first.
 
 **Also identified (not catalogued):** diamond-mcp (sourced diamond buying and gemology education - 8 read-only tools, no runtime network calls - consumer niche class), Washlib (car-wash discovery and availability for France - single-country consumer class), Atmita (message your personal AI agent - consumer messaging class), deskwright (computer use on GNOME/Wayland desktop - dev automation class), personal-understanding (evidence-chain personal memory - agent infra class, personal-memory precedents).
+
+## 🆕 September 1, 2026 - Midday Cron Sweep (1 New, 1 Guide)
+
+Midday sweep over chatmcp/mcpso issues #3873-#3876 (past the morning cutoff of #3872). The sibling afternoon sweep (commit 28776c137) had already catalogued Docling MCP from #3873 and disposed diamond-mcp (#3875) and Washlib (#3874) with the same conclusions - no duplicates shipped. 1 new business-relevant server catalogued with a guide: ErzyCall (hosted phone-call MCP for agents and apps - real outbound and inbound calls with confirmation-before-dial, contacts, cases, assistants, phone numbers, WhatsApp messaging and usage reporting over OAuth 2.1 PKCE + DCR, endpoint app.erzycall.com/api/mcp 401-verified live).
+
+[ErzyCall MCP - Real Phone Calls and WhatsApp for Agents](/hermes/mcp/servers/external/erzycall-mcp/) · OAuth 2.1, confirmation-gated calls, usage reporting.
+
+**Also identified (not catalogued):** none beyond the afternoon sweep's dispositions - mcpservers.org /all page 1 carried only morning and afternoon sweep dispositions (GridCarbon, Onchain Diary, CordFind, Vaanzari Commerce, Firefly III, SigVest, LinkUpAPI, GridNews, Perception, mlab.sh, urdigitalau family, Seedance re-listings).
 
 ## 🆕 September 1, 2026 - Morning Cron Sweep (4 New, 4 Guides)
 
@@ -5212,3 +5220,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Hive Intelligence MCP - Live Crypto Market Data](/hermes/mcp/servers/external/hive-intelligence-mcp/)
 - [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp/)
 - [StackScope MCP - Technographic Sales Intelligence](/hermes/mcp/servers/external/stackscope-mcp/)
+
+### 1 new server from chatmcp/mcpso issue - Sep 1, 2026 (midday cron sweep)
+
+- [ErzyCall MCP - Real Phone Calls and WhatsApp for Agents](/hermes/mcp/servers/external/erzycall-mcp/)
