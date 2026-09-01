@@ -53125,5 +53125,89 @@
     ],
     "discovered_at": "2026-09-01T07:03:51.784728+00:00",
     "status": "pending"
+  },
+  {
+    "name": "funggier/CogentNexus-HermesAgent",
+    "url": "https://github.com/funggier/CogentNexus-HermesAgent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-01T08:03:00Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T08:04:18.065307+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chandraquan/chatgpt-hermes-harness",
+    "url": "https://github.com/chandraquan/chatgpt-hermes-harness",
+    "description": "Are you fully use ChatGPT codex but want to have hermes agents harness?",
+    "stars": 0,
+    "forks": 0,
+    "language": "PowerShell",
+    "topics": [],
+    "updated_at": "2026-09-01T08:03:23Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T08:04:21.067846+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mustaf-osman/daily-notes",
+    "url": "https://github.com/mustaf-osman/daily-notes",
+    "description": "Daily auto-generated notes, snippets, and reports by Hermes Agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-01T07:57:56Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T08:04:24.070794+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mnajafian-nv/nemo-relay-hermes-examples",
+    "url": "https://github.com/mnajafian-nv/nemo-relay-hermes-examples",
+    "description": "Runnable Hermes and NeMo Relay trace-capture tutorial using NVIDIA Inference.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-observability",
+      "hermes-agent",
+      "nemo-relay"
+    ],
+    "updated_at": "2026-09-01T07:58:21Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T08:04:47.143414+00:00",
+    "status": "pending"
   }
 ]
