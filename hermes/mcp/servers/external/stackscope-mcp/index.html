@@ -10016,6 +10016,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#verification-sep-1-2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verification (Sep 1, 2026)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#limitations" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10138,6 +10149,12 @@ Tools: 10 (account_status, lookup_site, list_technologies, find_sites, technolog
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>StackScope composes with CorpusIQ as the top-of-funnel half of a pipeline loop. CorpusIQ answers from the systems you already run (HubSpot deals, Stripe customers, Gmail threads) while StackScope answers from the market: who just launched with a competing stack, who adopted your product, and which of them published a contact. An operator can ask "give me this week's new Shopify launches in Germany with emails, then check which are already in our HubSpot" and get the list and the dedupe in one workflow. Pairs naturally with Apollo.io for enrichment-heavy outreach and with Xverum for people-level search once a company is identified.</p>
+<h2 id="verification-sep-1-2026">Verification (Sep 1, 2026)<a class="headerlink" href="#verification-sep-1-2026" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><strong>Live endpoint probed</strong>: POST to <code>https://mcp.stackscope.dev</code> with a JSON-RPC initialize returned <code>{"error":"unauthorized"}</code> - the server is up and OAuth-gated, refusing anonymous enumeration while confirming liveness.</li>
+<li>GET on the endpoint returns a 302 (nginx) toward the sign-in flow, consistent with the OAuth-required posture.</li>
+<li>Full tool surface requires an authorized session; capability table per the official submission and docs.</li>
+</ul>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Credit-based: every new site returned consumes one site from the monthly allowance; heavy sweeps need plan capacity planning.</li>
