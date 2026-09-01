@@ -12,10 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**919+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**929+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 
+- [🆕 August 31, 2026 (Evening) - InsForge (144.5K, 7 skills), Matt Pocock Skills zh-CN (138.8K, 54), Owl Listener Designer Skills (124.7K, 107), TanStack Skills (36.6K, 14), Archify (32.5K, 39.2K⭐), QA Skills (25.3K, 50), Paperthin (22.1K, 36), Inkeep Open Knowledge (17.1K, 33), Vigiles (12.3K, 21), Hithink Finance (1.8K, 2) - 10 new publisher clusters, 325 skills, 10 setup guides](/hermes/skills/marketplace/new-aug31-2026-evening/)
 - [🆕 August 31, 2026 - Hallmark (48.6K), Dart Language Skills (144.0K, 30 skills), LJG Skills (124.5K), Meng To Skills (76.2K, 155), Daymade Claude Code Skills (58.4K, 106), Low-Level Dev Skills (41.5K, 142), HubSpot Agent CLI Skills (17.8K, 15), Basic Memory Skills (9.7K, 38) - 8 new publisher clusters, 517 skills, 8 setup guides](/hermes/skills/marketplace/new-aug31-2026/)
 - [🆕 August 26, 2026 - Generative Media Skills (calesthio, 137⭐ MIT, 153 skills, 2.1K indexed installs) - full media production brain with explicit HERMES.md support: UGC video, GPT-Image-2, ElevenLabs, HyperFrames, media QA - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-aug26-2026/)
 - [🆕 August 24, 2026 - Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style Library (14.7K⭐, 1.5K), gh-issue-sync by mitsuhiko (2.5K), System Atlas (94) - 4 new publisher clusters, 9 skills, 4 setup guides](/hermes/skills/marketplace/new-aug24-2026/)
@@ -278,7 +279,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 970+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 980+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
