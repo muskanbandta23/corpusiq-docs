@@ -2508,6 +2508,501 @@
       "statusCode": 301
     },
     {
+      "source": "/corpusiq-vs-glean",
+      "destination": "/hermes/compare/corpusiq-vs-glean",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-n8n",
+      "destination": "/hermes/compare/corpusiq-vs-n8n",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-make",
+      "destination": "/hermes/compare/corpusiq-vs-make-com",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-make-com",
+      "destination": "/hermes/compare/corpusiq-vs-make-com",
+      "statusCode": 301
+    },
+    {
+      "source": "/connector/google-analytics",
+      "destination": "/connectors",
+      "statusCode": 301
+    },
+    {
+      "source": "/pricing",
+      "destination": "https://www.corpusiq.io/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog",
+      "destination": "https://www.corpusiq.io/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/terms",
+      "destination": "https://www.corpusiq.io/terms",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy",
+      "destination": "https://www.corpusiq.io/privacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "destination": "https://www.corpusiq.io/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/install",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/getting-started",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/start",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/guide",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/quickstart-guide",
+      "destination": "/quick-start",
+      "statusCode": 301
+    },
+    {
+      "source": "/faq",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/features",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/support",
+      "destination": "/troubleshooting",
+      "statusCode": 301
+    },
+    {
+      "source": "/help",
+      "destination": "/troubleshooting",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-docs",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-reference",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/developer",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/developers",
+      "destination": "/api",
+      "statusCode": 301
+    },
+    {
+      "source": "/use-case/:path*",
+      "destination": "https://www.corpusiq.io/use-case/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/skill/:path*",
+      "destination": "https://www.corpusiq.io/skill/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/connect/:path*",
+      "destination": "https://www.corpusiq.io/connect/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/ai-data-integration",
+      "destination": "/hermes/compare/ai-data-integration",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/ask-corpusiq",
+      "destination": "/hermes/mcp/ask-corpusiq",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-chatgpt-enterprise",
+      "destination": "/hermes/compare/corpusiq-vs-chatgpt-enterprise",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-chatgpt-plugins",
+      "destination": "/hermes/compare/corpusiq-vs-chatgpt-plugins",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-claude-enterprise",
+      "destination": "/hermes/compare/corpusiq-vs-claude-enterprise",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-composio",
+      "destination": "/hermes/compare/corpusiq-vs-composio",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-coupler-io",
+      "destination": "/hermes/compare/corpusiq-vs-coupler-io",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-databox",
+      "destination": "/hermes/compare/corpusiq-vs-databox",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-funnel-io",
+      "destination": "/hermes/compare/corpusiq-vs-funnel-io",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-glean",
+      "destination": "/hermes/compare/corpusiq-vs-glean",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-make-com",
+      "destination": "/hermes/compare/corpusiq-vs-make-com",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-microsoft-copilot",
+      "destination": "/hermes/compare/corpusiq-vs-microsoft-copilot",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-northbeam",
+      "destination": "/hermes/compare/corpusiq-vs-northbeam",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-viktor-channels",
+      "destination": "/hermes/compare/corpusiq-vs-viktor-channels",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-viktor-migration",
+      "destination": "/hermes/compare/corpusiq-vs-viktor-migration",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-viktor-pricing",
+      "destination": "/hermes/compare/corpusiq-vs-viktor-pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/corpusiq-vs-viktor-security",
+      "destination": "/hermes/compare/corpusiq-vs-viktor-security",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/directories",
+      "destination": "/hermes/mcp/directories",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/google-preferred-sources-badge",
+      "destination": "/hermes/seo/google-preferred-sources-badge",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp-apps-enterprise-adoption",
+      "destination": "/hermes/mcp/mcp-apps-enterprise-adoption",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp-apps-interactive-ui",
+      "destination": "/hermes/mcp/mcp-apps-interactive-ui",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp-apps-stateless-design",
+      "destination": "/hermes/mcp/mcp-apps-stateless-design",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp-roadmap-corpusiq",
+      "destination": "/hermes/mcp/mcp-roadmap-corpusiq",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp-server-for-business",
+      "destination": "/hermes/compare/mcp-server-for-business",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp-spec-2026-07-28",
+      "destination": "/hermes/mcp/mcp-spec-2026-07-28",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/mcp-26-stateless-migration",
+      "destination": "/hermes/mcp/spec/mcp-26-stateless-migration",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/submission-guide-2026",
+      "destination": "/hermes/mcp/directories/submission-guide-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-aug26-2026-afternoon",
+      "destination": "/hermes/mcp/sweeps/sweep-aug26-2026-afternoon",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-aug26-2026-midday",
+      "destination": "/hermes/mcp/sweeps/sweep-aug26-2026-midday",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-aug26-2026-night",
+      "destination": "/hermes/mcp/sweeps/sweep-aug26-2026-night",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-aug27-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-aug27-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-aug27-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-aug27-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august17-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august17-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august18-2026-afternoon",
+      "destination": "/hermes/mcp/sweeps/sweep-august18-2026-afternoon",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august18-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august18-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august18-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august18-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august19-2026-afternoon",
+      "destination": "/hermes/mcp/sweeps/sweep-august19-2026-afternoon",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august19-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august19-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august20-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august20-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august20-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august20-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august20-2026-overnight",
+      "destination": "/hermes/mcp/sweeps/sweep-august20-2026-overnight",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august21-2026-afternoon",
+      "destination": "/hermes/mcp/sweeps/sweep-august21-2026-afternoon",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august21-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august21-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august21-2026-overnight",
+      "destination": "/hermes/mcp/sweeps/sweep-august21-2026-overnight",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august22-2026-docs-maintenance",
+      "destination": "/hermes/mcp/sweeps/sweep-august22-2026-docs-maintenance",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august22-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august22-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august22-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august22-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august22-2026-overnight",
+      "destination": "/hermes/mcp/sweeps/sweep-august22-2026-overnight",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august23-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august23-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august23-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august23-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august23-2026-night",
+      "destination": "/hermes/mcp/sweeps/sweep-august23-2026-night",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august23-2026-overnight",
+      "destination": "/hermes/mcp/sweeps/sweep-august23-2026-overnight",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august24-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august24-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august24-2026-midday",
+      "destination": "/hermes/mcp/sweeps/sweep-august24-2026-midday",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august24-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august24-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august25-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august25-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august25-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august25-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august25-2026-night",
+      "destination": "/hermes/mcp/sweeps/sweep-august25-2026-night",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august28-2026-evening",
+      "destination": "/hermes/mcp/sweeps/sweep-august28-2026-evening",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august29-2026-midday",
+      "destination": "/hermes/mcp/sweeps/sweep-august29-2026-midday",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august29-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august29-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august29-2026-night",
+      "destination": "/hermes/mcp/sweeps/sweep-august29-2026-night",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august30-2026-midday",
+      "destination": "/hermes/mcp/sweeps/sweep-august30-2026-midday",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august30-2026-night",
+      "destination": "/hermes/mcp/sweeps/sweep-august30-2026-night",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/mcp/sweep-august31-2026-morning",
+      "destination": "/hermes/mcp/sweeps/sweep-august31-2026-morning",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/paseo",
+      "destination": "/hermes/orchestration/paseo",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/read-only-and-security",
+      "destination": "/hermes/security/read-only-and-security",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/runbook-governance",
+      "destination": "/hermes/mcp/runbook-governance",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/runbook-response-contract",
+      "destination": "/hermes/mcp/runbook-response-contract",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/runbook-v1",
+      "destination": "/hermes/mcp/runbook-v1",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/runbook-veto-power",
+      "destination": "/hermes/mcp/runbook-veto-power",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/spec",
+      "destination": "/hermes/mcp/spec",
+      "statusCode": 301
+    },
+    {
+      "source": "/support-triage-hubspot-stripe",
+      "destination": "/examples/support-triage-hubspot-stripe",
+      "statusCode": 301
+    },
+    {
       "source": "/docs/04-first-connector",
       "destination": "/docs/quickstart/04-first-connector/",
       "statusCode": 301
@@ -2690,501 +3185,6 @@
     {
       "source": "/docs/windsor-ai-alternative",
       "destination": "/docs/connectors/windsor-ai-alternative/",
-      "statusCode": 301
-    },
-    {
-      "source": "/corpusiq-vs-glean",
-      "destination": "/hermes/compare/corpusiq-vs-glean",
-      "statusCode": 301
-    },
-    {
-      "source": "/corpusiq-vs-n8n",
-      "destination": "/hermes/compare/corpusiq-vs-n8n",
-      "statusCode": 301
-    },
-    {
-      "source": "/corpusiq-vs-make",
-      "destination": "/hermes/compare/corpusiq-vs-make-com",
-      "statusCode": 301
-    },
-    {
-      "source": "/corpusiq-vs-make-com",
-      "destination": "/hermes/compare/corpusiq-vs-make-com",
-      "statusCode": 301
-    },
-    {
-      "source": "/connector/google-analytics",
-      "destination": "/connectors",
-      "statusCode": 301
-    },
-    {
-      "source": "/pricing",
-      "destination": "https://www.corpusiq.io/pricing",
-      "statusCode": 301
-    },
-    {
-      "source": "/blog",
-      "destination": "https://www.corpusiq.io/blog",
-      "statusCode": 301
-    },
-    {
-      "source": "/terms",
-      "destination": "https://www.corpusiq.io/terms",
-      "statusCode": 301
-    },
-    {
-      "source": "/privacy",
-      "destination": "https://www.corpusiq.io/privacy",
-      "statusCode": 301
-    },
-    {
-      "source": "/contact",
-      "destination": "https://www.corpusiq.io/contact",
-      "statusCode": 301
-    },
-    {
-      "source": "/install",
-      "destination": "/quick-start",
-      "statusCode": 301
-    },
-    {
-      "source": "/getting-started",
-      "destination": "/quick-start",
-      "statusCode": 301
-    },
-    {
-      "source": "/start",
-      "destination": "/quick-start",
-      "statusCode": 301
-    },
-    {
-      "source": "/guide",
-      "destination": "/quick-start",
-      "statusCode": 301
-    },
-    {
-      "source": "/quickstart-guide",
-      "destination": "/quick-start",
-      "statusCode": 301
-    },
-    {
-      "source": "/faq",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
-      "source": "/features",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
-      "source": "/support",
-      "destination": "/troubleshooting",
-      "statusCode": 301
-    },
-    {
-      "source": "/help",
-      "destination": "/troubleshooting",
-      "statusCode": 301
-    },
-    {
-      "source": "/api-docs",
-      "destination": "/api",
-      "statusCode": 301
-    },
-    {
-      "source": "/api-reference",
-      "destination": "/api",
-      "statusCode": 301
-    },
-    {
-      "source": "/developer",
-      "destination": "/api",
-      "statusCode": 301
-    },
-    {
-      "source": "/developers",
-      "destination": "/api",
-      "statusCode": 301
-    },
-    {
-      "source": "/use-case/:path*",
-      "destination": "https://www.corpusiq.io/use-case/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/skill/:path*",
-      "destination": "https://www.corpusiq.io/skill/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/connect/:path*",
-      "destination": "https://www.corpusiq.io/connect/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/ai-data-integration",
-      "destination": "/docs/hermes/compare/ai-data-integration",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/ask-corpusiq",
-      "destination": "/docs/hermes/mcp/ask-corpusiq",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-chatgpt-enterprise",
-      "destination": "/docs/hermes/compare/corpusiq-vs-chatgpt-enterprise",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-chatgpt-plugins",
-      "destination": "/docs/hermes/compare/corpusiq-vs-chatgpt-plugins",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-claude-enterprise",
-      "destination": "/docs/hermes/compare/corpusiq-vs-claude-enterprise",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-composio",
-      "destination": "/docs/hermes/compare/corpusiq-vs-composio",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-coupler-io",
-      "destination": "/docs/hermes/compare/corpusiq-vs-coupler-io",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-databox",
-      "destination": "/docs/hermes/compare/corpusiq-vs-databox",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-funnel-io",
-      "destination": "/docs/hermes/compare/corpusiq-vs-funnel-io",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-glean",
-      "destination": "/docs/hermes/compare/corpusiq-vs-glean",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-make-com",
-      "destination": "/docs/hermes/compare/corpusiq-vs-make-com",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-microsoft-copilot",
-      "destination": "/docs/hermes/compare/corpusiq-vs-microsoft-copilot",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-northbeam",
-      "destination": "/docs/hermes/compare/corpusiq-vs-northbeam",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-viktor-channels",
-      "destination": "/docs/hermes/compare/corpusiq-vs-viktor-channels",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-viktor-migration",
-      "destination": "/docs/hermes/compare/corpusiq-vs-viktor-migration",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-viktor-pricing",
-      "destination": "/docs/hermes/compare/corpusiq-vs-viktor-pricing",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/corpusiq-vs-viktor-security",
-      "destination": "/docs/hermes/compare/corpusiq-vs-viktor-security",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/directories",
-      "destination": "/docs/hermes/mcp/directories",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/google-preferred-sources-badge",
-      "destination": "/docs/hermes/seo/google-preferred-sources-badge",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp-apps-enterprise-adoption",
-      "destination": "/docs/hermes/mcp/mcp-apps-enterprise-adoption",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp-apps-interactive-ui",
-      "destination": "/docs/hermes/mcp/mcp-apps-interactive-ui",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp-apps-stateless-design",
-      "destination": "/docs/hermes/mcp/mcp-apps-stateless-design",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp-roadmap-corpusiq",
-      "destination": "/docs/hermes/mcp/mcp-roadmap-corpusiq",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp-server-for-business",
-      "destination": "/docs/hermes/compare/mcp-server-for-business",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp-spec-2026-07-28",
-      "destination": "/docs/hermes/mcp/mcp-spec-2026-07-28",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/mcp-26-stateless-migration",
-      "destination": "/docs/hermes/mcp/spec/mcp-26-stateless-migration",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/submission-guide-2026",
-      "destination": "/docs/hermes/mcp/directories/submission-guide-2026",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-aug26-2026-afternoon",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-aug26-2026-afternoon",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-aug26-2026-midday",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-aug26-2026-midday",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-aug26-2026-night",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-aug26-2026-night",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-aug27-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-aug27-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-aug27-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-aug27-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august17-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august17-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august18-2026-afternoon",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august18-2026-afternoon",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august18-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august18-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august18-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august18-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august19-2026-afternoon",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august19-2026-afternoon",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august19-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august19-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august20-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august20-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august20-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august20-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august20-2026-overnight",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august20-2026-overnight",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august21-2026-afternoon",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august21-2026-afternoon",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august21-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august21-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august21-2026-overnight",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august21-2026-overnight",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august22-2026-docs-maintenance",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august22-2026-docs-maintenance",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august22-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august22-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august22-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august22-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august22-2026-overnight",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august22-2026-overnight",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august23-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august23-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august23-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august23-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august23-2026-night",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august23-2026-night",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august23-2026-overnight",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august23-2026-overnight",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august24-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august24-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august24-2026-midday",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august24-2026-midday",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august24-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august24-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august25-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august25-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august25-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august25-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august25-2026-night",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august25-2026-night",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august28-2026-evening",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august28-2026-evening",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august29-2026-midday",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august29-2026-midday",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august29-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august29-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august29-2026-night",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august29-2026-night",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august30-2026-midday",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august30-2026-midday",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august30-2026-night",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august30-2026-night",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/mcp/sweep-august31-2026-morning",
-      "destination": "/docs/hermes/mcp/sweeps/sweep-august31-2026-morning",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/paseo",
-      "destination": "/docs/hermes/orchestration/paseo",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/read-only-and-security",
-      "destination": "/docs/hermes/security/read-only-and-security",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/runbook-governance",
-      "destination": "/docs/hermes/mcp/runbook-governance",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/runbook-response-contract",
-      "destination": "/docs/hermes/mcp/runbook-response-contract",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/runbook-v1",
-      "destination": "/docs/hermes/mcp/runbook-v1",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/runbook-veto-power",
-      "destination": "/docs/hermes/mcp/runbook-veto-power",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/hermes/spec",
-      "destination": "/docs/hermes/mcp/spec",
-      "statusCode": 301
-    },
-    {
-      "source": "/docs/support-triage-hubspot-stripe",
-      "destination": "/docs/examples/support-triage-hubspot-stripe",
       "statusCode": 301
     }
   ],
