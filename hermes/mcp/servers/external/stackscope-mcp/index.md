@@ -79,6 +79,12 @@ First connection opens a sign-in and approval flow; command-line tools receive t
 
 StackScope composes with CorpusIQ as the top-of-funnel half of a pipeline loop. CorpusIQ answers from the systems you already run (HubSpot deals, Stripe customers, Gmail threads) while StackScope answers from the market: who just launched with a competing stack, who adopted your product, and which of them published a contact. An operator can ask "give me this week's new Shopify launches in Germany with emails, then check which are already in our HubSpot" and get the list and the dedupe in one workflow. Pairs naturally with Apollo.io for enrichment-heavy outreach and with Xverum for people-level search once a company is identified.
 
+## Verification (Sep 1, 2026)
+
+- **Live endpoint probed**: POST to `https://mcp.stackscope.dev` with a JSON-RPC initialize returned `{"error":"unauthorized"}` - the server is up and OAuth-gated, refusing anonymous enumeration while confirming liveness.
+- GET on the endpoint returns a 302 (nginx) toward the sign-in flow, consistent with the OAuth-required posture.
+- Full tool surface requires an authorized session; capability table per the official submission and docs.
+
 ## Limitations
 
 - Credit-based: every new site returned consumes one site from the monthly allowance; heavy sweeps need plan capacity planning.
