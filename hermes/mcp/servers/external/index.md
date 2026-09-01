@@ -12,7 +12,18 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 31, 2026 (evening sweep) · **Sources:** mcp.so homepage recentServers + mcpservers.org homepage latest + chatmcp/mcpso issues #3858-#3863 · **Catalog:** 456 servers (+342 guides)
+> **Last updated:** September 1, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3864-#3872 + mcpservers.org /all page 1 + mcp.so homepage · **Catalog:** 460 servers (+346 guides)
+
+## 🆕 September 1, 2026 - Morning Cron Sweep (4 New, 4 Guides)
+
+Morning sweep over chatmcp/mcpso issues #3864-#3872 (past the Aug 31 late-day cutoff) plus mcpservers.org /all page 1 cross-ref. 4 new business-relevant servers catalogued with guides, one live-probed with full tool capture: Gridar (Quebec SEO toolkit - 69 tools over OAuth 2.1, endpoint mcp.gridar.app/mcp 401-verified live, registry app.gridar/gridar v0.7.0, google.ca rank tracking and AI-visibility measurement), Hive Intelligence (live crypto market data - 8-tool routing root live-probed at mcp.hiveintelligence.xyz/mcp, full 607-tool catalog with provenance receipts on every answer, registry xyz.hiveintelligence/mcp v1.1.4), Ranki (open-source SEO and AEO audits - 22 tools enumerated in the repo README, npm @ranki.io/seo-aeo-mcp verified published, hosted at mcp.ranki.io with a free tier, MIT), StackScope (technographics for new launches - 10 documented tools for technology lookup, adopter watches and contact export, OAuth at mcp.stackscope.dev, operated by DATAFREAK LTD).
+
+[Gridar MCP - Quebec SEO Toolkit for Agents](/hermes/mcp/servers/external/gridar-mcp/) · 69 tools, OAuth 2.1, google.ca and AI-visibility focus.
+[Hive Intelligence MCP - Live Crypto Market Data](/hermes/mcp/servers/external/hive-intelligence-mcp/) · 8 root tools live-probed, 607-tool catalog, receipt-verified answers.
+[Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp/) · 22 tools, npm and hosted, MIT, free tier.
+[StackScope MCP - Technographic Sales Intelligence](/hermes/mcp/servers/external/stackscope-mcp/) · 10 tools, adopter watches, contact export.
+
+**Also identified (not catalogued):** MCPg (#3864, resubmission of the Aug 19 prose-catalogued PostgreSQL entry), Fastcrawl (#3865, Firecrawl alternative - saturated web-scraping class per the rasterly precedent), sms-florin and agent-identity-mcp (#3866 and #3867, throwaway phone and email identity plumbing), personal-understanding (#3870, evidence-chain agent memory - ShadowGraph class), Deskwright (#3871, GNOME desktop automation - FlashDesk class), Atmita (#3872, agent-to-agent messaging - AgentPub class). mcpservers.org /all page 1 class-skips: 3D Agent (Blender modeling - creator utility), Symvanta (codebase call graph - dev tool), Wan 3.0 (video generator - creator utility), Roamer (spec-first dev workflow), IMS Creators (game design collaboration), Agent Economy Engine (agent marketplace infra), DAST flight data (Chinese consumer travel), Chat Recall (cross-client memory - agent infra). Catch-up candidates recorded for future sweeps: LinkUpAPI (LinkedIn outreach actions), GridNews (market news and ticker sentiment), Perception (digital asset narrative intelligence), mlab.sh (threat intelligence IOC enrichment), urdigitalau mcp-integrations family incl. Bing Webmaster Tools (personal integration collection). mcp.so homepage recentServers were all prior-sweep dispositions (Atomic Mail re-listing, CarChat, file2markdown, BiGapi, DrillerDB, MagicPixel.art, Forency, TikTok Transcript).
 
 ## 🆕 August 31, 2026 - Evening Cron Sweep (2 New, 2 Guides)
 
@@ -5186,3 +5197,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [CarChat Inventory MCP - Live US Dealership Inventory and Market Prices](/hermes/mcp/servers/external/carchat-inventory-mcp/)
 - [ConsentStack MCP - Agent-Managed Cookie Consent and Compliance](/hermes/mcp/servers/external/consentstack-mcp/)
+
+### 4 new servers from chatmcp/mcpso issues + mcpservers.org /all - Sep 1, 2026 (morning cron sweep)
+
+- [Gridar MCP - Quebec SEO Toolkit for Agents](/hermes/mcp/servers/external/gridar-mcp/)
+- [Hive Intelligence MCP - Live Crypto Market Data](/hermes/mcp/servers/external/hive-intelligence-mcp/)
+- [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp/)
+- [StackScope MCP - Technographic Sales Intelligence](/hermes/mcp/servers/external/stackscope-mcp/)
