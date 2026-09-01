@@ -10088,13 +10088,85 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#if-you-need-any-of-the-above-sooner-ask-corpusiq-support" class="md-nav__link">
+  <a href="#frequently-asked-questions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        If you need any of the above sooner, ask CorpusIQ support.
+        Frequently Asked Questions
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Frequently Asked Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-connect-stripe-to-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I connect Stripe to CorpusIQ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-the-stripe-connection-read-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is the Stripe connection read-only?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#which-stripe-resources-can-corpusiq-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Which Stripe resources can CorpusIQ read?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-corpusiq-reconcile-stripe-with-quickbooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can CorpusIQ reconcile Stripe with QuickBooks?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-revoke-corpusiqs-access-to-stripe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I revoke CorpusIQ's access to Stripe?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-does-my-payout-not-match-the-sum-of-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why does my payout not match the sum of charges?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -10233,7 +10305,36 @@ That's exactly the question the reconciliation tools were built for. Ask CorpusI
 <li><strong>Webhook ingestion</strong> for real-time payment events (currently pull-only).</li>
 <li><strong>Stripe Sigma / custom Reports API</strong> - likely out of scope; ask if you need it.</li>
 </ul>
-<h2 id="if-you-need-any-of-the-above-sooner-ask-corpusiq-support">If you need any of the above sooner, ask CorpusIQ support.<a class="headerlink" href="#if-you-need-any-of-the-above-sooner-ask-corpusiq-support" title="Anchor link to this section">&para;</a></h2>
+<p>If you need any of the above sooner, ask CorpusIQ support.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
+<h3 id="how-do-i-connect-stripe-to-corpusiq">How do I connect Stripe to CorpusIQ?<a class="headerlink" href="#how-do-i-connect-stripe-to-corpusiq" title="Anchor link to this section">&para;</a></h3>
+<p>Create a restricted API key in the Stripe dashboard with read-only access to Charges, Customers, Accounts, Balance, Balance transactions, Payouts, Refunds and Disputes, then paste it into the CorpusIQ Connections page. Test and live modes both work.</p>
+<h3 id="is-the-stripe-connection-read-only">Is the Stripe connection read-only?<a class="headerlink" href="#is-the-stripe-connection-read-only" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side: the connector physically cannot perform write operations even if asked.</p>
+<h3 id="which-stripe-resources-can-corpusiq-read">Which Stripe resources can CorpusIQ read?<a class="headerlink" href="#which-stripe-resources-can-corpusiq-read" title="Anchor link to this section">&para;</a></h3>
+<p>Account profile, charges, customers, payouts, balance transactions, refunds, disputes and balance. The balance-transactions ledger is filterable by payout, so CorpusIQ can show exactly what aggregated into a bank deposit.</p>
+<h3 id="can-corpusiq-reconcile-stripe-with-quickbooks">Can CorpusIQ reconcile Stripe with QuickBooks?<a class="headerlink" href="#can-corpusiq-reconcile-stripe-with-quickbooks" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. Ask CorpusIQ to reconcile Stripe payouts against QuickBooks deposits and it walks the balance-transaction ledger against your books, surfacing charges, refunds and fees that rolled into each deposit.</p>
+<h3 id="how-do-i-revoke-corpusiqs-access-to-stripe">How do I revoke CorpusIQ's access to Stripe?<a class="headerlink" href="#how-do-i-revoke-corpusiqs-access-to-stripe" title="Anchor link to this section">&para;</a></h3>
+<p>Delete or revoke the restricted key in the Stripe dashboard. CorpusIQ gets a 401 on the next call and reports the connection as failed; no other coordination needed.</p>
+<h3 id="why-does-my-payout-not-match-the-sum-of-charges">Why does my payout not match the sum of charges?<a class="headerlink" href="#why-does-my-payout-not-match-the-sum-of-charges" title="Anchor link to this section">&para;</a></h3>
+<p>Stripe fees, instant-payout fees and refunds issued during the payout window are the usual culprits. Ask CorpusIQ to show every balance transaction in the payout and it breaks the deposit down by type.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect Stripe to CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Create a restricted API key in the Stripe dashboard with read-only access to Charges, Customers, Accounts, Balance, Balance transactions, Payouts, Refunds and Disputes, then paste it into the CorpusIQ Connections page. Test and live modes both work."}},
+    {"@type": "Question", "name": "Is the Stripe connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side: the connector physically cannot perform write operations even if asked."}},
+    {"@type": "Question", "name": "Which Stripe resources can CorpusIQ read?", "acceptedAnswer": {"@type": "Answer", "text": "Account profile, charges, customers, payouts, balance transactions, refunds, disputes and balance. The balance-transactions ledger is filterable by payout, so CorpusIQ can show exactly what aggregated into a bank deposit."}},
+    {"@type": "Question", "name": "Can CorpusIQ reconcile Stripe with QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ask CorpusIQ to reconcile Stripe payouts against QuickBooks deposits and it walks the balance-transaction ledger against your books, surfacing charges, refunds and fees that rolled into each deposit."}},
+    {"@type": "Question", "name": "How do I revoke CorpusIQ's access to Stripe?", "acceptedAnswer": {"@type": "Answer", "text": "Delete or revoke the restricted key in the Stripe dashboard. CorpusIQ gets a 401 on the next call and reports the connection as failed; no other coordination needed."}},
+    {"@type": "Question", "name": "Why does my payout not match the sum of charges?", "acceptedAnswer": {"@type": "Answer", "text": "Stripe fees, instant-payout fees and refunds issued during the payout window are the usual culprits. Ask CorpusIQ to show every balance transaction in the payout and it breaks the deposit down by type."}}
+  ]
+}
+</script>
+
+<hr />
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

@@ -9950,6 +9950,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#what-the-hubspot-connector-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the HubSpot connector does
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-it-unlocks" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10015,6 +10026,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frequently Asked Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-connect-hubspot-to-chatgpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I connect HubSpot to ChatGPT?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-the-hubspot-connection-read-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is the HubSpot connection read-only?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-corpusiq-search-my-hubspot-contacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can CorpusIQ search my HubSpot contacts?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-corpusiq-combine-hubspot-with-email-and-billing-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can CorpusIQ combine HubSpot with email and billing data?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#which-hubspot-accounts-work-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Which HubSpot accounts work with CorpusIQ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10036,6 +10119,8 @@
 
 
 <h1 id="hubspot">HubSpot<a class="headerlink" href="#hubspot" title="Anchor link to this section">&para;</a></h1>
+<h2 id="what-the-hubspot-connector-does">What the HubSpot connector does<a class="headerlink" href="#what-the-hubspot-connector-does" title="Anchor link to this section">&para;</a></h2>
+<p>The HubSpot connector makes your CRM answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query contacts, companies, deals and portal metadata, search the CRM by keyword, and pull a full account 360 for any customer by combining HubSpot with email, calendar and billing data from your other connectors. The connection uses HubSpot's OAuth consent flow: sign in, choose the portal, approve read access. CorpusIQ never creates contacts, moves deals, or sends sequences; it does not retain raw customer files or full connector response payloads, and operational query logs are bounded. Setup takes about two minutes with admin access.</p>
 <h2 id="what-it-unlocks">What it unlocks<a class="headerlink" href="#what-it-unlocks" title="Anchor link to this section">&para;</a></h2>
 <p>HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer "how is my pipeline doing?" and pull a full account 360 for any customer - relationship history, deal state, open items - by combining HubSpot with email, calendar, and billing data from your other connectors.</p>
 <h2 id="before-you-connect">Before you connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
@@ -10072,8 +10157,33 @@
 <ul>
 <li><strong>"Wrong portal"</strong> - HubSpot prompts you to pick a portal during OAuth. If you authorized the wrong one, disconnect and reconnect.</li>
 <li><strong>"Insufficient scopes"</strong> - Reconnect and make sure all requested scopes are checked. Free HubSpot accounts may not grant some object scopes.</li>
-<li><strong>Search returns nothing</strong> - HubSpot search indexes a subset of fields. Try the full name or email instead of a partial match.</li>
+<li>Search returns nothing - HubSpot search indexes a subset of fields. Try the full name or email instead of a partial match.</li>
 </ul>
+<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
+<h3 id="how-do-i-connect-hubspot-to-chatgpt">How do I connect HubSpot to ChatGPT?<a class="headerlink" href="#how-do-i-connect-hubspot-to-chatgpt" title="Anchor link to this section">&para;</a></h3>
+<p>Connect HubSpot in the CorpusIQ dashboard, approve the OAuth consent screen, pick the portal, and then ask your CRM questions in ChatGPT. Contacts, companies, deals and portal metadata become queryable in plain English.</p>
+<h3 id="is-the-hubspot-connection-read-only">Is the HubSpot connection read-only?<a class="headerlink" href="#is-the-hubspot-connection-read-only" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. CorpusIQ never creates contacts, moves deals, or sends sequences. The connection uses HubSpot OAuth with read access, and raw customer files or full connector response payloads are not retained.</p>
+<h3 id="can-corpusiq-search-my-hubspot-contacts">Can CorpusIQ search my HubSpot contacts?<a class="headerlink" href="#can-corpusiq-search-my-hubspot-contacts" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. Contacts are searchable by keyword, and deals and companies return full details. HubSpot search indexes a subset of fields, so full names and emails work best.</p>
+<h3 id="can-corpusiq-combine-hubspot-with-email-and-billing-data">Can CorpusIQ combine HubSpot with email and billing data?<a class="headerlink" href="#can-corpusiq-combine-hubspot-with-email-and-billing-data" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. The same CorpusIQ endpoint connects Gmail, calendar, Stripe, QuickBooks and other tools, so an assistant can build a customer 360 that spans relationship history, deal state and billing in one query.</p>
+<h3 id="which-hubspot-accounts-work-with-corpusiq">Which HubSpot accounts work with CorpusIQ?<a class="headerlink" href="#which-hubspot-accounts-work-with-corpusiq" title="Anchor link to this section">&para;</a></h3>
+<p>Any HubSpot account with admin access works. Free accounts may not grant some object scopes; reconnect with all requested scopes checked if a tool reports insufficient scopes.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect HubSpot to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "Connect HubSpot in the CorpusIQ dashboard, approve the OAuth consent screen, pick the portal, and then ask your CRM questions in ChatGPT. Contacts, companies, deals and portal metadata become queryable in plain English."}},
+    {"@type": "Question", "name": "Is the HubSpot connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never creates contacts, moves deals, or sends sequences. The connection uses HubSpot OAuth with read access, and raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Can CorpusIQ search my HubSpot contacts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Contacts are searchable by keyword, and deals and companies return full details. HubSpot search indexes a subset of fields, so full names and emails work best."}},
+    {"@type": "Question", "name": "Can CorpusIQ combine HubSpot with email and billing data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The same CorpusIQ endpoint connects Gmail, calendar, Stripe, QuickBooks and other tools, so an assistant can build a customer 360 that spans relationship history, deal state and billing in one query."}},
+    {"@type": "Question", "name": "Which HubSpot accounts work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Any HubSpot account with admin access works. Free accounts may not grant some object scopes; reconnect with all requested scopes checked if a tool reports insufficient scopes."}}
+  ]
+}
+</script>
+
 <hr />
 <p>*</p>
 <hr />
