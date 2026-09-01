@@ -120,6 +120,48 @@ You control access. To remove CorpusIQ's access to Stripe, go to **Developers â†
 - **Stripe Sigma / custom Reports API** - likely out of scope; ask if you need it.
 
 If you need any of the above sooner, ask CorpusIQ support.
+
+## Frequently Asked Questions
+
+### How do I connect Stripe to CorpusIQ?
+
+Create a restricted API key in the Stripe dashboard with read-only access to Charges, Customers, Accounts, Balance, Balance transactions, Payouts, Refunds and Disputes, then paste it into the CorpusIQ Connections page. Test and live modes both work.
+
+### Is the Stripe connection read-only?
+
+Yes. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side: the connector physically cannot perform write operations even if asked.
+
+### Which Stripe resources can CorpusIQ read?
+
+Account profile, charges, customers, payouts, balance transactions, refunds, disputes and balance. The balance-transactions ledger is filterable by payout, so CorpusIQ can show exactly what aggregated into a bank deposit.
+
+### Can CorpusIQ reconcile Stripe with QuickBooks?
+
+Yes. Ask CorpusIQ to reconcile Stripe payouts against QuickBooks deposits and it walks the balance-transaction ledger against your books, surfacing charges, refunds and fees that rolled into each deposit.
+
+### How do I revoke CorpusIQ's access to Stripe?
+
+Delete or revoke the restricted key in the Stripe dashboard. CorpusIQ gets a 401 on the next call and reports the connection as failed; no other coordination needed.
+
+### Why does my payout not match the sum of charges?
+
+Stripe fees, instant-payout fees and refunds issued during the payout window are the usual culprits. Ask CorpusIQ to show every balance transaction in the payout and it breaks the deposit down by type.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect Stripe to CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Create a restricted API key in the Stripe dashboard with read-only access to Charges, Customers, Accounts, Balance, Balance transactions, Payouts, Refunds and Disputes, then paste it into the CorpusIQ Connections page. Test and live modes both work."}},
+    {"@type": "Question", "name": "Is the Stripe connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side: the connector physically cannot perform write operations even if asked."}},
+    {"@type": "Question", "name": "Which Stripe resources can CorpusIQ read?", "acceptedAnswer": {"@type": "Answer", "text": "Account profile, charges, customers, payouts, balance transactions, refunds, disputes and balance. The balance-transactions ledger is filterable by payout, so CorpusIQ can show exactly what aggregated into a bank deposit."}},
+    {"@type": "Question", "name": "Can CorpusIQ reconcile Stripe with QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ask CorpusIQ to reconcile Stripe payouts against QuickBooks deposits and it walks the balance-transaction ledger against your books, surfacing charges, refunds and fees that rolled into each deposit."}},
+    {"@type": "Question", "name": "How do I revoke CorpusIQ's access to Stripe?", "acceptedAnswer": {"@type": "Answer", "text": "Delete or revoke the restricted key in the Stripe dashboard. CorpusIQ gets a 401 on the next call and reports the connection as failed; no other coordination needed."}},
+    {"@type": "Question", "name": "Why does my payout not match the sum of charges?", "acceptedAnswer": {"@type": "Answer", "text": "Stripe fees, instant-payout fees and refunds issued during the payout window are the usual culprits. Ask CorpusIQ to show every balance transaction in the payout and it breaks the deposit down by type."}}
+  ]
+}
+</script>
+
 ---
 
 *
