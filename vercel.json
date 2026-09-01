@@ -2999,7 +2999,7 @@
     },
     {
       "source": "/support-triage-hubspot-stripe",
-      "destination": "/examples/support-triage-hubspot-stripe",
+      "destination": "https://www.corpusiq.io/docs/examples/support-triage-hubspot-stripe",
       "statusCode": 301
     },
     {
