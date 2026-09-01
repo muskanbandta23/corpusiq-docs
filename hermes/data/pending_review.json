@@ -52442,5 +52442,290 @@
     ],
     "discovered_at": "2026-08-31T08:05:00.399438+00:00",
     "status": "pending"
+  },
+  {
+    "name": "patppham/baymax-agent",
+    "url": "https://github.com/patppham/baymax-agent",
+    "description": "Open-source personal agent and local-first household chief of staff built on Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "automation",
+      "hermes-agent",
+      "local-first",
+      "personal-agent",
+      "personal-assistant",
+      "self-hosted"
+    ],
+    "updated_at": "2026-09-01T05:01:46Z",
+    "category": "core",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:02:55.971913+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tdfydfy/daiworld-voice-single-agent",
+    "url": "https://github.com/tdfydfy/daiworld-voice-single-agent",
+    "description": "Daiworld Voice \u5355 Agent\uff1aHermes Native Adapter\u3001Web\u4e0eHarmonyOS\u5ba2\u6237\u7aef",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-01T05:01:45Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:02:58.974100+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JasonHong2023/llm-wiki",
+    "url": "https://github.com/JasonHong2023/llm-wiki",
+    "description": "LLM Wiki - shared knowledge base for Hermes Agents",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-01T05:00:42Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:01.976463+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "x-cmd-install/hermes-web-ui",
+    "url": "https://github.com/x-cmd-install/hermes-web-ui",
+    "description": "  Web dashboard for Hermes Agent \u2014 multi-platform AI chat, session management, scheduled jobs, usage analytics ",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-01T04:56:54Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "EKKOLearnAI/hermes-studio",
+      "outsourc-e/hermes-workspace",
+      "awizemann/scarf",
+      "longyunfeigu/learn-hermes-agent",
+      "chrisryugj/hermes-dashboard",
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-09-01T05:03:07.982960+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WanderleeDev/my-hermes-profile-telegram",
+    "url": "https://github.com/WanderleeDev/my-hermes-profile-telegram",
+    "description": "Hermes profile: telegram - Telegram bot with Agnes AI + GitHub MCP (readonly)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-01T05:01:38Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:17.631427+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WanderleeDev/my-hermes-profile-coder",
+    "url": "https://github.com/WanderleeDev/my-hermes-profile-coder",
+    "description": "Hermes profile: coder - development with Agnes AI + GitHub MCP + code review",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-01T05:02:50Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:20.634543+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WanderleeDev/my-hermes-profile-default",
+    "url": "https://github.com/WanderleeDev/my-hermes-profile-default",
+    "description": "Hermes profile: default - general purpose with Agnes AI + GitHub MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-01T05:02:30Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:23.637421+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sethengine/hermes-agent-stack",
+    "url": "https://github.com/sethengine/hermes-agent-stack",
+    "description": "Complete AI agent infrastructure: MCP search bridge, Firecrawl, SearXNG, OpenCode/Hermes configs, 119 skills, research tools. Zero API keys.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-01T04:05:32Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:26.640863+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "terraboops/hermes-fleet-manager",
+    "url": "https://github.com/terraboops/hermes-fleet-manager",
+    "description": "Hermes plugin to supervise a fleet of Claude Code sessions: config-driven watcher, session registry, sentinel protocol, managed-member skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-31T19:15:37Z",
+    "category": "skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:36.353793+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "robbyczgw-cla/web-search-plus",
+    "url": "https://github.com/robbyczgw-cla/web-search-plus",
+    "description": "OpenClaw skill build of Web Search Plus \u2014 source-only v4.0.0. Ranked links and extracted text, no Perplexity/Kilo answers. Native plugin: web-search-plus-plugin-v2. Engine: hermes-web-search-plus + web-search-plus-mcp.",
+    "stars": 26,
+    "forks": 4,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "clawdbot",
+      "exa",
+      "search",
+      "serper",
+      "skill",
+      "tavily"
+    ],
+    "updated_at": "2026-08-31T10:21:37Z",
+    "category": "skills",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:39.356440+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kvnloo/company-os",
+    "url": "https://github.com/kvnloo/company-os",
+    "description": "Thin Company OS HUD for Hermes Agent. Projection only \u2014 not a control plane.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-01T05:03:40Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:49.031462+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shixin-guo/picot",
+    "url": "https://github.com/shixin-guo/picot",
+    "description": "Local Codex-style desktop GUI for the Pi coding agent",
+    "stars": 261,
+    "forks": 20,
+    "language": "JavaScript",
+    "topics": [
+      "codex",
+      "coding-agent",
+      "desktop-app",
+      "gui",
+      "hermes",
+      "hermes-agent",
+      "pi",
+      "pi-coding-agent",
+      "skills"
+    ],
+    "updated_at": "2026-09-01T05:03:16Z",
+    "category": "forks",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-01T05:03:52.034886+00:00",
+    "status": "pending"
   }
 ]

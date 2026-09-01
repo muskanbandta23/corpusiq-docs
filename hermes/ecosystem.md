@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 176+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 177+ repos, tools, skills, and integrations
 last_updated: 2026-08-31
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **176+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **177+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **176+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **177+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -30,7 +30,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **176+ reposit
 | 📋 Other | 3 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
-| 🛡️ Security & Governance | 2 | Security tools, compliance, audit |
+| 🛡️ Security & Governance | 3 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 39 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 34 | Desktop apps, web UIs, dashboards, terminals |
 
@@ -890,6 +890,14 @@ _Client libraries, API wrappers, language bindings_
 
 _Security tools, compliance, audit_
 
+### [Infisical/agent-vault](https://github.com/Infisical/agent-vault) ⭐ 2,169
+
+>A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
+
+**Language:** Go | **Topics:** agents, ai-agents, secrets-management | **Score:** 78/100
+
+---
+
 ### [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) ⭐ 1,491
 
 >AI coding agent guardrail - a CLI hook that blocks destructive git and filesystem commands and secret file access before they execute. Supports Hermes Agent and 11 other coding agent CLIs.
@@ -1487,6 +1495,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*176+ repositories in the Hermes ecosystem. Last updated: 2026-08-31. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*177+ repositories in the Hermes ecosystem. Last updated: 2026-08-31. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

@@ -5688,5 +5688,55 @@
     "discovered_at": "2026-08-31T05:03:03.326415+00:00",
     "status": "approved",
     "approved_at": "2026-08-31T05:05:26.096637+00:00"
+  },
+  {
+    "name": "Infisical/agent-vault",
+    "url": "https://github.com/Infisical/agent-vault",
+    "description": "A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.",
+    "stars": 2169,
+    "forks": 141,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "ai-agents",
+      "secrets-management"
+    ],
+    "updated_at": "2026-09-01T04:58:45Z",
+    "category": "core",
+    "score": 78,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "iOfficeAI/AionUi",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions"
+    ],
+    "discovered_at": "2026-09-01T05:03:04.980052+00:00",
+    "status": "approved",
+    "approved_at": "2026-09-01T05:05:40.139423+00:00"
   }
 ]
