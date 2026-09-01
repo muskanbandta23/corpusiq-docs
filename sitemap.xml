@@ -1217,6 +1217,10 @@
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/ecosystem/september-2026</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/governance</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
@@ -2681,6 +2685,10 @@
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/gridar-mcp</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/groundwork-mcp</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
@@ -2710,6 +2718,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/hermoso-ai-mcp</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/hive-intelligence-mcp</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
@@ -3285,6 +3297,10 @@
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ranki-mcp</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ransack-mcp</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
@@ -3506,6 +3522,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/squirrelscan-mcp</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stackscope-mcp</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
@@ -4062,6 +4082,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july31-2026-early</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september1-2026-morning</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
@@ -5846,6 +5870,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/tanstack-skills-setup</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/task-observer-setup</loc>
          <lastmod>2026-09-01</lastmod>
     </url>
     <url>
