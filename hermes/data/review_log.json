@@ -12926,5 +12926,19 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-02T05:07:07.555977+00:00"
+  },
+  {
+    "repo": "scutken/hermes-sharecrm",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-02T07:04:12.473341+00:00"
+  },
+  {
+    "repo": "tieubao/hermes-apple-container",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-02T08:03:38.871181+00:00"
   }
 ]

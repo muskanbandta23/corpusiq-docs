@@ -53440,5 +53440,56 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-02T05:06:38.563922+00:00",
     "status": "pending"
+  },
+  {
+    "name": "scutken/hermes-sharecrm",
+    "url": "https://github.com/scutken/hermes-sharecrm",
+    "description": "\u7eb7\u4eab\u9500\u5ba2 ShareCRM \u4f01\u4fe1 IM Gateway \u5e73\u53f0\u63d2\u4ef6 for Hermes Agent \u2014 SSE \u63a5\u6536 + HTTP \u53d1\u9001",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "fxiaoke",
+      "gateway",
+      "hermes-agent",
+      "messaging",
+      "platform-plugin",
+      "sharecrm",
+      "sse"
+    ],
+    "updated_at": "2026-09-02T07:02:54Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-02T07:04:01.669801+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tieubao/hermes-apple-container",
+    "url": "https://github.com/tieubao/hermes-apple-container",
+    "description": "Apple Container terminal backend for Hermes Agent as a standalone plugin (derived from NousResearch/hermes-agent PR #78035)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-02T06:28:30Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-09-02T08:03:33.946813+00:00",
+    "status": "pending"
   }
 ]
