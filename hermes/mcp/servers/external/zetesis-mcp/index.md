@@ -78,7 +78,7 @@ That is the entire configuration. The server is read-only and stateless; the two
 
 ## Integration with CorpusIQ
 
-Zetesis composes with CorpusIQ as the evidence layer behind financial and vendor decisions. A CorpusIQ workflow that pulls a company's filings or funding data can hand the company's core scientific claim to Zetesis and get back reviewer questions plus cited evidence, then attach the sealed attestation to the deal memo in the operator's documents. The operator keeps one governance point: CorpusIQ supplies the business context and Zetesis supplies the scientific ground truth, with identifiers on every source so no conclusion survives without a citable path back to the record.
+Zetesis composes with CorpusIQ as the evidence layer behind financial and vendor decisions. A CorpusIQ workflow that pulls a company's filings or funding data can hand the company's core scientific claim to Zetesis and get back reviewer questions plus cited evidence, then attach the sealed attestation to the deal memo in the operator's documents. The operator keeps one governance point: CorpusIQ supplies the business context and Zetesis supplies the scientific ground truth, and every identifier links a conclusion back to its cited source.
 
 ## Limitations
 

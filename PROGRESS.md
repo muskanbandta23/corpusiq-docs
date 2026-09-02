@@ -2,13 +2,13 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated August 31, 2026)
+## File count (updated September 1, 2026)
 
-- **Total Markdown files:** 2,066
+- **Total Markdown files:** 2,111
 - **Total HTML files:** 1,908 (MkDocs build output)
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 411 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
+- **Skills catalog:** 412 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
 - **MCP servers:** 504 server listing markdown pages (+ HTML companions); 692 total .md under hermes/mcp/; 460 servers / 346 guides in the external catalog
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
