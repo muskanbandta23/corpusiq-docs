@@ -12,7 +12,24 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 2, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3886-#3891 + mcpservers.org /all page 1 + mcp.so homepage · **Catalog:** 475 servers (+361 guides)
+> **Last updated:** September 2, 2026 (midday sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 485 servers (+371 guides)
+
+## 🆕 September 2, 2026 - Midday Cron Sweep (10 New, 10 Guides)
+
+Midday sweep over the mcp.so feed (30 newest submissions, 48 minutes to 3 days old) plus mcpservers.org /all pages 1-3 (45 slugs batch-classified by title). 10 new business-relevant servers catalogued with guides: MarketCode (UK property intelligence for agents - 50 tools covering address resolution, valuations with per-row evidence tags, market liquidity rankings over 28 million transactions back to 1995, ownership lookups, auction distress screening and site appraisals - endpoint mcp.marketcode.ai/mcp, OAuth plus API key, most reads free), OSIR Domain MCP (full domain lifecycle from an ICANN-accredited registrar - 105 tools and 11 prompts across domains, DNS, VPS, email hosting, app hosting and billing, every purchase staged behind executeConfirmedAction - endpoint be.osir.com/mcp/http, keyless connect, device login, A2A twin), FinBridge (Korean and US stock data in one normalized schema - DART filings, KRX adjusted prices, SEC EDGAR, FRED, 13F, server-side Minervini/CAN SLIM/VCP screeners and fixed-weight backtests - endpoint mcp.gronox.kr/mcp, free tier 100 calls/day), CampaignStack (LinkedIn and email outreach orchestration with ramping daily action budgets, per-account proxies, persistent fingerprints, ICP scoring and a human approval queue before anything sends - 90+ tools at mcp.campaignstack.io/mcp, API key), Koongo MCP (product feed and marketplace operations across 500+ channels in plain language, confirmation-gated publishing with MANUAL-mode dry runs - mcp.koongo.com/mcp, OAuth), PostMCP MCP (social publishing pipelines for agents - 15 README-documented tools for workspaces, account token health, brand kits, pre-flight checks, scheduling and a 20-op multicall across LinkedIn, X, Facebook, Instagram, Threads, Bluesky and YouTube Shorts - stdio npx @postmcpai/server or HTTP, MIT), Prognosite (SEO and AEO intelligence with roughly 149 tools reading Search Console, Bing Webmaster Tools and Google Analytics - mcp.prognosite.com/mcp, OAuth), OpenBase (French company data - 20.5M entities with identity, financials, directors, BODACC, public contracts and Judilibre rulings plus capital-network graphs and business signals - openbase.fr/api/mcp, free keyless tier), ZenSched (field workforce scheduling with an agent-native account lifecycle and verified GPS punches - mcp.zensched.com/mcp, no auth to connect), Staats (cookieless web analytics for agents with deploy-tagged before-and-after comparisons, site memory and proactive anomaly surfacing - api.staats.ai/functions/v1/mcp, free 10k events/month).
+
+[MarketCode MCP - UK Property Intelligence for Agents](/hermes/mcp/servers/external/marketcode-mcp/) · 50 tools, evidence-tagged valuations, OAuth.
+[OSIR Domain MCP - Registrar Operations for Agents](/hermes/mcp/servers/external/osir-domain-mcp/) · 105 tools, confirmation-gated purchases, keyless connect.
+[FinBridge MCP - Korean and US Market Data for Agents](/hermes/mcp/servers/external/finbridge-mcp/) · 33 tools, server-side screeners, free tier.
+[CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp/) · 90+ tools, approval queue, account-safety rails.
+[Koongo MCP - Product Feed and Marketplace Operations](/hermes/mcp/servers/external/koongo-mcp/) · 500+ channels, MANUAL-mode dry runs, OAuth.
+[PostMCP MCP - Social Publishing Pipelines for Agents](/hermes/mcp/servers/external/postmcp-mcp/) · 15 tools, pre-flight checks, 20-op multicall.
+[Prognosite MCP - SEO and AEO Intelligence for Publishers](/hermes/mcp/servers/external/prognosite-mcp/) · ~149 tools, GSC plus Bing and GA4, OAuth.
+[OpenBase MCP - French Company Data for Agents](/hermes/mcp/servers/external/openbase-mcp/) · 14 tools, free keyless, capital-network graphs.
+[ZenSched MCP - Field Workforce Scheduling for Agents](/hermes/mcp/servers/external/zensched-mcp/) · 11 tools, GPS punches, no-auth connect.
+[Staats MCP - Cookieless Web Analytics for Agents](/hermes/mcp/servers/external/staats-mcp/) · 14 tools, deploy comparisons, site memory.
+
+**Also identified (not catalogued):** Trendos (AI-search visibility platform with a published MCP endpoint and API-key config but no published tool list and a spec-only API reference - thin-docs skip), Rankdelta (open-source SEO plus GEO suite whose /docs/mcp page is a JS shell with no endpoint or tools published - thin-docs skip), send-email (single-tool Resend natural-language email wrapper on Hal9 - dev utility class), DocBin (agent pastebin for large outputs with six CRUD tools - dev utility class), Web Remote Jobs (remote job board - consumer job class, FoundRole precedent), ReactLive (live event Q&A and polling - niche events class), FirmTape (SPX gamma and dealer positioning with 0DTE backtesting - consumer investing class, SigVest precedent), MCPify Trade (non-custodial Hyperliquid perps - DeFi class), iReceipt PRO (receipt document-rendering API - DocMake-class document utility), UptimeObserver (uptime monitoring - HostTracker-class, thin docs). Feed repeats already disposed by prior sweeps (AON, Hostinger, Mantis, Novu, Backblaze B2, Layers, Katto, ComputeSage, Melaya); the SEOmatic and QuickBooks Connector by Meridian re-listings are already catalogued.
 
 ## 🆕 September 2, 2026 - Morning Supplement (1 New, 1 Guide)
 
@@ -21,6 +38,7 @@ Supplement over chatmcp/mcpso issues #3886-#3891 (FoundRole #3891 and AdTest.AI 
 [Slidingbox Hydrate/Dehydrate - Burn-After-Reading Secret Handoff](/hermes/mcp/servers/external/slidingbox-hydrate-dehydrate-mcp/) · Security class, local stdio.
 
 **Also identified (not catalogued):** Munnin (agent identity + persistent-memory server, multi-tenant, Apache-2.0 - 0 stars, brand new, agent-memory class already covered by established memory stacks), Signadot CLI (ephemeral environment management for dev workflows - devops class, CLI wrapper), Slidingbox withdrawn duplicate submissions #3889/#3890.
+
 
 ## 🆕 September 2, 2026 - Morning Cron Sweep (5 New, 5 Guides)
 
@@ -5276,3 +5294,20 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Ashton & Forge Directory MCP - Vetted AI Implementation Agencies](/hermes/mcp/servers/external/ashtonforge-mcp/)
 - [Mysocial MCP - Your Real Social Media History as Agent Memory](/hermes/mcp/servers/external/mysocial-mcp/)
 - [SparkLaunch MCP - Founder Validation and Company Formation Workflows](/hermes/mcp/servers/external/sparklaunch-mcp/)
+
+### 1 new server from chatmcp/mcpso issues - Sep 2, 2026 (morning supplement)
+
+- [Slidingbox Hydrate/Dehydrate - Burn-After-Reading Secret Handoff](/hermes/mcp/servers/external/slidingbox-hydrate-dehydrate-mcp/)
+
+### 10 new servers from mcp.so feed + mcpservers.org /all - Sep 2, 2026 (midday cron sweep)
+
+- [MarketCode MCP - UK Property Intelligence for Agents](/hermes/mcp/servers/external/marketcode-mcp/)
+- [OSIR Domain MCP - Registrar Operations for Agents](/hermes/mcp/servers/external/osir-domain-mcp/)
+- [FinBridge MCP - Korean and US Market Data for Agents](/hermes/mcp/servers/external/finbridge-mcp/)
+- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp/)
+- [Koongo MCP - Product Feed and Marketplace Operations](/hermes/mcp/servers/external/koongo-mcp/)
+- [PostMCP MCP - Social Publishing Pipelines for Agents](/hermes/mcp/servers/external/postmcp-mcp/)
+- [Prognosite MCP - SEO and AEO Intelligence for Publishers](/hermes/mcp/servers/external/prognosite-mcp/)
+- [OpenBase MCP - French Company Data for Agents](/hermes/mcp/servers/external/openbase-mcp/)
+- [ZenSched MCP - Field Workforce Scheduling for Agents](/hermes/mcp/servers/external/zensched-mcp/)
+- [Staats MCP - Cookieless Web Analytics for Agents](/hermes/mcp/servers/external/staats-mcp/)
