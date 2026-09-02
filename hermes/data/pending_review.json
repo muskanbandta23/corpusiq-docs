@@ -53209,5 +53209,236 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-01T08:04:47.143414+00:00",
     "status": "pending"
+  },
+  {
+    "name": "viaiforgood/gacp",
+    "url": "https://github.com/viaiforgood/gacp",
+    "description": "Guandan Agent Communication Protocol (GACP v1.0) - Open Standard & MCP Server for AI Agents (Hermes, OpenClaw, LLMs, RL) to Play & Learn Guandan",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-02T05:03:41Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-09-02T05:04:38.041392+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rickndanger-ctrl/sticky-pad-hermes",
+    "url": "https://github.com/rickndanger-ctrl/sticky-pad-hermes",
+    "description": "Native macOS Sticky Pad for Hermes task Markdown with a secure ChatGPT MCP integration.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-02T04:54:49Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-02T05:04:47.699383+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "GeneGulanesJr/LaPis",
+    "url": "https://github.com/GeneGulanesJr/LaPis",
+    "description": "\ud83d\udc8e LaPis \u2014 Local AI memory for coding agents. Persistent SQLite memory for Pi, Claude Code, Hermes & MCP.",
+    "stars": 42,
+    "forks": 10,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "coding-agent",
+      "lapis",
+      "memory",
+      "memory-management",
+      "pi",
+      "sqlite"
+    ],
+    "updated_at": "2026-09-02T02:00:05Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "syncable-dev/memtrace-public",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "hugocarreira/agentrc",
+      "ahonore42/logios-brain",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-09-02T05:04:50.706600+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mdsmithaustin/pstack",
+    "url": "https://github.com/mdsmithaustin/pstack",
+    "description": "pstack for Claude Code, Codex, and Hermes \u2014 poteto's rigorous agent workflows (port of cursor/plugins/pstack), installable via npx skills",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-02T04:13:03Z",
+    "category": "skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "0451-software/research-skills",
+      "tale-project/tale",
+      "hermes-ecosystem",
+      "AVIDS2/memorix",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "Intelligent-Internet/zenith",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    ],
+    "discovered_at": "2026-09-02T05:05:00.380635+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "VanadisGithub/dsh-skill-evolution",
+    "url": "https://github.com/VanadisGithub/dsh-skill-evolution",
+    "description": "Hermes-style skill self-evolution plugin for DeepSeek Harness (DSH): crystallizes reusable agent skills from successful turns via signal-triggered LLM review, progressively improves them, and manages everything in a Settings panel.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent-memory",
+      "cordis",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "hermes",
+      "plugin",
+      "self-evolution",
+      "skill"
+    ],
+    "updated_at": "2026-09-02T02:11:19Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "Intelligent-Internet/zenith",
+      "pyrate-llama/hermes-ui",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-09-02T05:05:03.384086+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "duu261/hermes-human-control",
+    "url": "https://github.com/duu261/hermes-human-control",
+    "description": "Human-friendly Hermes web dashboard plugin for SOUL, memory, and skills",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-01T11:40:28Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-02T05:05:06.387608+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aibuild-lab/skills-guard",
+    "url": "https://github.com/aibuild-lab/skills-guard",
+    "description": "Threat scanner + trust matrix for AI skills. MIT. Port of NousResearch/hermes-agent skills_guard.py with attribution.",
+    "stars": 10,
+    "forks": 13,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-02T04:47:50Z",
+    "category": "official",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-02T05:06:35.560938+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sintergica-AI/azca-motor",
+    "url": "https://github.com/Sintergica-AI/azca-motor",
+    "description": "Azca \u2014 motor de agentes de Lattice Kan\u00e1. Fork de NousResearch/hermes-agent (MIT) con optimizaciones de coordinaci\u00f3n basadas en estigmergia.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-02T04:36:35Z",
+    "category": "official",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-02T05:06:38.563922+00:00",
+    "status": "pending"
   }
 ]
