@@ -12,7 +12,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 1, 2026 (night sweep) · **Sources:** chatmcp/mcpso issues #3877-#3885 + mcp.so homepage recentServers + mcpservers.org homepage · **Catalog:** 469 servers (+355 guides)
+> **Last updated:** September 2, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3886-#3891 + mcpservers.org /all JSON-LD + mcp.so homepage recentServers · **Catalog:** 474 servers (+360 guides)
+
+## 🆕 September 2, 2026 - Morning Cron Sweep (5 New, 5 Guides)
+
+Morning sweep over chatmcp/mcpso issues #3886-#3891 (past the Sep 1 night sweep cutoff of #3885) plus the mcpservers.org /all JSON-LD newest-30 list and the mcp.so homepage recentServers array. 5 new business-relevant servers catalogued with guides, three endpoints verified live: FoundRole (hosted job-search MCP from company career pages with ghost-posting, real-pay and visa-sponsorship fact-checks per posting, match scoring, deterministic resume parsing and a Kanban application tracker - OAuth 2.1 PKCE at www.foundrole.com/mcp, 401-verified live, npm @foundrole/ai-job-search-mcp v1.1.11 published), SEOmatic (hosted SEO agent for your own site - 13 consolidated tools for Search Console, keywords, backlinks, SERP competitors, AI visibility and approval-gated staged fixes - API-key and OAuth at app.seomatic.ai/api/mcp, 401-verified live, MIT), Ashton & Forge Agency Directory (keyless read-only directory of vetted AI implementation agencies - 3 tools live-probed at ashtonforge.com/mcp/directory covering marketplace coverage, filtered agency search and the matching-brief handoff), Mysocial (hosted social media intelligence MCP - your real Instagram, TikTok, YouTube, LinkedIn and Threads history with metrics, transcripts and audience plus Creator Universe market research, brand and creator tracking, content gaps and a lead pipeline - OAuth 2.1 PKCE at app.mysocial.io/mcp, 50+ tools, 401-verified live), SparkLaunch (official hosted founder-operations MCP - project creation with auto-queued idea validation, brand assets, campaigns, CRM and entitlement-gated incorporation cases - OAuth at sparklaun.ch/api/mcp/, official MCP Registry io.github.SparkLaunch-Dev/sparklaunch, 401 invalid_token confirmed).
+
+[FoundRole MCP - Fact-Checked AI Job Search and Application Tracking](/hermes/mcp/servers/external/foundrole-mcp/) · OAuth 2.1, posting fact-checks, Kanban tracker.
+[SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/hermes/mcp/servers/external/seomatic-mcp/) · 13 tools, staged fixes, API key or OAuth.
+[Ashton & Forge Directory MCP - Vetted AI Implementation Agencies](/hermes/mcp/servers/external/ashtonforge-mcp/) · 3 tools live-probed, keyless, free.
+[Mysocial MCP - Your Real Social Media History as Agent Memory](/hermes/mcp/servers/external/mysocial-mcp/) · 50+ tools, Creator Universe research, OAuth 2.1.
+[SparkLaunch MCP - Founder Validation and Company Formation Workflows](/hermes/mcp/servers/external/sparklaunch-mcp/) · founder workflows, confirmation-gated writes.
+
+**Also identified (not catalogued):** Slidingbox Hydrate/Dehydrate (#3886, one-shot encrypted secret handoff between agents over x402 - agent secret plumbing class), Munnin (#3888, agent identity and memory server - agent infra class), AON Agent Offer Network (buyable offer links for MCP agents - agent commerce infra class, AmanChain precedent), Hostinger (official hosting API MCP - cloud infra class, Backblaze B2 precedent), Memnest (local-first memory for coding agents - dev infra class), IMBA Wallet (agentic wallet with cards and eSIM payments - x402 wallet class, Kura precedent), FactMem (local memory engine - agent memory class), Melaya (6k-tool agent orchestration with Android control - dev infra class), Code Relay (branch-scoped runbooks and verification receipts for coding agents - dev tool class). QoreNext CRM and Trade Screening re-listings on mcp.so are already catalogued; the mcpservers.org homepage and remaining /all slugs were prior-sweep dispositions (Layers, Mantis, Novu, Backblaze B2, AmanChain, ComputeSage, FlightPowers, DFX, Pangolinfo, Katto, plus famous-name re-indexes).
 
 ## 🆕 September 1, 2026 - Night Cron Sweep (7 New, 7 Guides)
 
@@ -5248,3 +5260,11 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Layers Growth MCP - TikTok Growth Loop for Agents](/hermes/mcp/servers/external/layers-marketing-mcp/)
 - [QuickBooks Connector by Meridian MCP - Hosted QBO for Agents](/hermes/mcp/servers/external/meridian-qbo-mcp/)
 - [AI Crawler Index MCP - Robots.txt Control for AI Bots](/hermes/mcp/servers/external/pathwren-ai-crawler-index/)
+
+### 5 new servers from chatmcp/mcpso issue + mcpservers.org /all - Sep 2, 2026 (morning cron sweep)
+
+- [FoundRole MCP - Fact-Checked AI Job Search and Application Tracking](/hermes/mcp/servers/external/foundrole-mcp/)
+- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/hermes/mcp/servers/external/seomatic-mcp/)
+- [Ashton & Forge Directory MCP - Vetted AI Implementation Agencies](/hermes/mcp/servers/external/ashtonforge-mcp/)
+- [Mysocial MCP - Your Real Social Media History as Agent Memory](/hermes/mcp/servers/external/mysocial-mcp/)
+- [SparkLaunch MCP - Founder Validation and Company Formation Workflows](/hermes/mcp/servers/external/sparklaunch-mcp/)
