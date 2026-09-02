@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 2, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3886-#3891 + mcpservers.org /all JSON-LD + mcp.so homepage recentServers · **Catalog:** 474 servers (+360 guides)
+> **Last updated:** September 2, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3886-#3891 + mcpservers.org /all page 1 + mcp.so homepage · **Catalog:** 475 servers (+361 guides)
+
+## 🆕 September 2, 2026 - Morning Supplement (1 New, 1 Guide)
+
+Supplement over chatmcp/mcpso issues #3886-#3891 (FoundRole #3891 and AdTest.AI #3884 already catalogued by the morning cron sweep). 1 new security-relevant server catalogued with a guide: Slidingbox Hydrate/Dehydrate (burn-after-reading secret handoff for agents - store_secret encrypts locally with AES-256-GCM and returns a one-time token; first successful read delivers and destroys, second read returns nothing; ciphertext-only server state, decryption key travels in the token; stdio via npx, ISC, npm v0.1.5 verified; x402/evm stack underneath).
+
+[Slidingbox Hydrate/Dehydrate - Burn-After-Reading Secret Handoff](/hermes/mcp/servers/external/slidingbox-hydrate-dehydrate-mcp/) · Security class, local stdio.
+
+**Also identified (not catalogued):** Munnin (agent identity + persistent-memory server, multi-tenant, Apache-2.0 - 0 stars, brand new, agent-memory class already covered by established memory stacks), Signadot CLI (ephemeral environment management for dev workflows - devops class, CLI wrapper), Slidingbox withdrawn duplicate submissions #3889/#3890.
 
 ## 🆕 September 2, 2026 - Morning Cron Sweep (5 New, 5 Guides)
 
