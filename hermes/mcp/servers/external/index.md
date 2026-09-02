@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 1, 2026 (midday sweep) · **Sources:** chatmcp/mcpso issue #3876 + mcpservers.org /all page 1 cross-ref · **Catalog:** 462 servers (+348 guides)
+> **Last updated:** September 1, 2026 (night sweep) · **Sources:** chatmcp/mcpso issues #3877-#3885 + mcp.so homepage recentServers + mcpservers.org homepage · **Catalog:** 469 servers (+355 guides)
+
+## 🆕 September 1, 2026 - Night Cron Sweep (7 New, 7 Guides)
+
+Night sweep over chatmcp/mcpso issues #3877-#3885 (past the midday cutoff of #3876) plus the mcp.so homepage recentServers array and the mcpservers.org homepage latest list. 7 new business-relevant servers catalogued with guides, four live-probed with full tool capture: Zetesis (keyless scientific due diligence - 4 tools live-probed at api.zetesis.science/mcp, reviewer-grade question sets, Europe PMC, ClinicalTrials.gov, openFDA and NIH RePORTER with hard identifiers on every source, attestation-sealed evaluations, MIT), Hesper Atlas Evidence (15 tools live-probed at hesperatlas.com/mcp - 9 account-free evidence tools for checking a rules-based stock-signal product plus 6 OAuth subscriber tools, read-only, registry com.hesperatlas/hesper-atlas v1.6.0), Done Bear (hosted GTD task manager - 35 tools live-probed at mcp.donebear.com/mcp covering tasks, projects, checklists, comments, attachments and bulk edits over OAuth 2.1, registry com.donebear/donebear active), AdTest.AI (pre-spend ad creative scoring - one tool, analyze_advert, 13-dimension analysis with predicted CTR and compliance, stdio npm adtest-mcp v1.1.0 verified published, MIT), Layers Growth MCP (TikTok growth loop for agents - competitor map, evidence-ranked content tests, draft delivery and recorded results, endpoint mcp.layers.com/mcp 401-verified live, every posting and spending change waits for a human click), QuickBooks Connector by Meridian (free hosted QBO MCP from Pilot.com - read and write transactions including journal entries across multiple QuickBooks clients, endpoint qbo-connector.meridian.pilot.com/mcp 401-verified live), AI Crawler Index (keyless AI-crawler identification and robots.txt generation - 7 tools live-probed at www.pathwren.workers.dev/mcp, eight stances with reasoning, operator prefixes remirrored every 6 hours).
+
+[Zetesis MCP - Scientific Due Diligence on Claims and Pitches](/hermes/mcp/servers/external/zetesis-mcp/) · 4 tools live-probed, keyless, attestation-sealed.
+[Hesper Atlas Evidence MCP - Verifiable Stock-Signal Claims](/hermes/mcp/servers/external/hesper-atlas-mcp/) · 15 tools live-probed, read-only, OAuth for live signals.
+[Done Bear MCP - GTD Task Manager for Agents](/hermes/mcp/servers/external/donebear-mcp/) · 35 tools live-probed, OAuth 2.1, registry-listed.
+[AdTest.AI MCP - Pre-Spend Ad Creative Scoring](/hermes/mcp/servers/external/adtest-mcp/) · 13-dimension analysis, npm verified, MIT.
+[Layers Growth MCP - TikTok Growth Loop for Agents](/hermes/mcp/servers/external/layers-marketing-mcp/) · endpoint 401-verified, human-gated spending.
+[QuickBooks Connector by Meridian MCP - Hosted QBO for Agents](/hermes/mcp/servers/external/meridian-qbo-mcp/) · free hosted, multi-client read/write, Pilot.com.
+[AI Crawler Index MCP - Robots.txt Control for AI Bots](/hermes/mcp/servers/external/pathwren-ai-crawler-index/) · 7 tools live-probed, keyless, eight stances.
+
+**Also identified (not catalogued):** Signadot (#3885, ephemeral-environment Kubernetes sandboxes - dev infrastructure class), Aperture Wallet Knowledge (#3881, official product knowledge for a consumer crypto wallet - consumer product-docs class), Mantis Immersive Commerce (immersive-commerce showroom MCP whose core business tools are still mocked while the working surface is SDK codegen - premature per the Krimskrams rule), Novu (notification infrastructure - dev infra class), Backblaze B2 (cloud storage operations - cloud infra class), ComputeSage StackBench (GPU and LLM benchmark recommendations - dev infrastructure class), AmanChain x402 Marketplace (crypto agent-to-agent payment marketplace - x402 plumbing class), Sauna Guide Quotes (consumer home-sauna project briefs - consumer niche class). mcpservers.org /all page 1 and the remaining homepage slugs were all prior-sweep dispositions (CordFind, Vaanzari, Firefly III, Onchain Diary, SigVest, GridCarbon, urdigitalau family, Seedance, Wan 3.0, local-gpu-imagegen, LinkUpAPI, chat-recall, Perception, GridNews, mlab.sh, IMS Creators, DAST flight data, Symvanta, 3D-Agent, plus famous-name re-indexes and Atomic Mail, CarChat, file2markdown and BiGapi repeats).
 
 ## 🆕 September 1, 2026 - Afternoon Sweep (1 New, 1 Guide)
 
@@ -5224,3 +5238,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from chatmcp/mcpso issue - Sep 1, 2026 (midday cron sweep)
 
 - [ErzyCall MCP - Real Phone Calls and WhatsApp for Agents](/hermes/mcp/servers/external/erzycall-mcp/)
+
+### 7 new servers from chatmcp/mcpso issues + mcp.so and mcpservers.org homepages - Sep 1, 2026 (night cron sweep)
+
+- [Zetesis MCP - Scientific Due Diligence on Claims and Pitches](/hermes/mcp/servers/external/zetesis-mcp/)
+- [Hesper Atlas Evidence MCP - Verifiable Stock-Signal Claims](/hermes/mcp/servers/external/hesper-atlas-mcp/)
+- [Done Bear MCP - GTD Task Manager for Agents](/hermes/mcp/servers/external/donebear-mcp/)
+- [AdTest.AI MCP - Pre-Spend Ad Creative Scoring](/hermes/mcp/servers/external/adtest-mcp/)
+- [Layers Growth MCP - TikTok Growth Loop for Agents](/hermes/mcp/servers/external/layers-marketing-mcp/)
+- [QuickBooks Connector by Meridian MCP - Hosted QBO for Agents](/hermes/mcp/servers/external/meridian-qbo-mcp/)
+- [AI Crawler Index MCP - Robots.txt Control for AI Bots](/hermes/mcp/servers/external/pathwren-ai-crawler-index/)
