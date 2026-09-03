@@ -5784,5 +5784,46 @@
     "discovered_at": "2026-09-01T06:03:59.935008+00:00",
     "status": "approved",
     "approved_at": "2026-09-01T06:05:50.746506+00:00"
+  },
+  {
+    "name": "LearnPrompt/LearnPrompt",
+    "url": "https://github.com/LearnPrompt/LearnPrompt",
+    "description": "\u6c38\u4e45\u514d\u8d39\u5f00\u6e90\u7684 AIGC \u8bfe\u7a0b, \u76ee\u524d\u5df2\u652f\u6301Claude Code\uff0cCodex\uff0cHermes\uff0cOpenClaw\uff0cObsidian\uff0cPrompt Engineering, ChatGPT, Midjourney, Runway, Stable Diffusion, AI\u6570\u5b57\u4eba\uff0cAI\u58f0\u97f3&\u97f3\u4e50\uff0c\u5f00\u6e90\u5927\u6a21\u578b",
+    "stars": 2610,
+    "forks": 217,
+    "language": "MDX",
+    "topics": [
+      "agent",
+      "aimusic",
+      "aivoice",
+      "chatgpt-app",
+      "claude-code",
+      "cli",
+      "codex",
+      "hermes-agent",
+      "llms-book",
+      "midjourney-app",
+      "openclaw",
+      "prompt",
+      "prompt-enginering",
+      "prompt-learning",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-09-03T07:02:52Z",
+    "category": "forks",
+    "score": 86,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-03T07:03:43.773573+00:00",
+    "status": "approved",
+    "approved_at": "2026-09-03T07:05:34.898126+00:00"
   }
 ]

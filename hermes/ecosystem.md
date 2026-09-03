@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 178+ repos, tools, skills, and integrations
-last_updated: 2026-09-02
+description: Comprehensive directory of the Hermes Agent ecosystem - 179+ repos, tools, skills, and integrations
+last_updated: 2026-09-03
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **178+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **179+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **178+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **179+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -27,7 +27,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **178+ reposit
 | 🔌 MCP Servers | 7 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 38 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
-| 📋 Other | 3 | General discoveries, misc tools |
+| 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 3 | Security tools, compliance, audit |
@@ -761,6 +761,14 @@ _General discoveries, misc tools_
 >🎭 216 个即插即用的 AI 专家角色 - 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
 
 **Language:** Shell | **Topics:** agency-orchestrator, agent-definitions, ai-agents, ai-roles, chinese
+
+---
+
+### [LearnPrompt/LearnPrompt](https://github.com/LearnPrompt/LearnPrompt) ⭐ 2,610
+
+>永久免费开源的 AIGC 课程, 目前已支持Claude Code，Codex，Hermes，OpenClaw，Obsidian，Prompt Engineering, ChatGPT, Midjourney, Runway, Stable Diffusion, AI数字人，AI声音&音乐，开源大模型
+
+**Language:** MDX | **Topics:** hermes-agent, openclaw, claude-code, codex, prompt-learning, llms-book | **Score:** 86/100
 
 ---
 
@@ -1503,6 +1511,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*178+ repositories in the Hermes ecosystem. Last updated: 2026-09-02. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*179+ repositories in the Hermes ecosystem. Last updated: 2026-09-03. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
