@@ -542,6 +542,14 @@ Web dashboard for Hermes Agent  --  multi-platform AI chat, session management, 
 **Maintainer:** EKKOLearnAI  
 **Key capabilities:** Session management, cron visualization, skills browser, multi-platform chat, MCP integration
 
+### joeynyc/hermes-hudui
+⭐ **1,836** · `Python` · [github.com/joeynyc/hermes-hudui](https://github.com/joeynyc/hermes-hudui)
+
+Web UI consciousness monitor for Hermes, the AI agent with persistent memory. A browser surface for watching what the agent is doing in real time - session state, memory activity, and agent awareness - built for operators running Hermes around the clock.
+
+**Maintainer:** joeynyc  
+**Key capabilities:** Live agent monitoring, memory activity view, session awareness, web UI
+
 ---
 
 ### outsourc-e/hermes-workspace
