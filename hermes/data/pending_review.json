@@ -54054,5 +54054,110 @@
     ],
     "discovered_at": "2026-09-03T07:03:46.777484+00:00",
     "status": "pending"
+  },
+  {
+    "name": "guyu-guyu/sqlite-note-store",
+    "url": "https://github.com/guyu-guyu/sqlite-note-store",
+    "description": "SQLite-backed note repository for Hermes Agent \u2014 single-file authority, lossless Markdown export, 9 LLM tools",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-03T08:03:49Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-03T08:04:22.774939+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Krishnamurthy-sfdx/qwen-obsidian-explained",
+    "url": "https://github.com/Krishnamurthy-sfdx/qwen-obsidian-explained",
+    "description": "A complete plain-English explainer of the qwen.courseoss.com course: local Qwen on an ASUS GX10, Hermes Agent, Obsidian second brain, Self-hosted LiveSync. Slide-deck format, same visual identity as the source.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-09-03T08:03:18Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-03T08:04:25.777006+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lakner-io/auraos-app-hermes",
+    "url": "https://github.com/lakner-io/auraos-app-hermes",
+    "description": "Hermes Agent \u2014 Nous Research Hermes Agent as an AuraOS app (io.lakner.hermes)",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-03T08:01:32Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-03T08:04:28.779540+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "2715304237shen/hermes-showcase",
+    "url": "https://github.com/2715304237shen/hermes-showcase",
+    "description": "Hermes AI agent project showcase: videos, screenshots and document examples",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-09-03T08:00:57Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-03T08:04:31.781822+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "misternay/lcm-context",
+    "url": "https://github.com/misternay/lcm-context",
+    "description": "Bounded cross-agent context handoff MCP server for Hermes, Codex, agy, and other MCP clients",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-03T07:49:43Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-09-03T08:04:41.532331+00:00",
+    "status": "pending"
   }
 ]
