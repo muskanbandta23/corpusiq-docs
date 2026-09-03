@@ -12,7 +12,20 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 2, 2026 (night sweep) · **Sources:** chatmcp/mcpso issues #3892-#3906 + mcpservers.org /all pages 1-3 · **Catalog:** 493 servers (+379 guides)
+> **Last updated:** September 3, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3907-#3909 + mcpservers.org /all page 1 + mcp.so homepage · **Catalog:** 498 servers (+384 guides)
+
+## 🆕 September 3, 2026 - Morning Cron Sweep (5 New, 5 Guides)
+
+Buska MCP (social listening and AI-scored buying signals), Asyntai (website support agent with 54 tools), AnswerLoops (open-source community support KB), TaiLexi AI (Taiwan legal research, 20M+ documents) and Furrow Forms (agent-operable form backend) joined the catalog this morning.
+
+- [Buska MCP - Social Listening and Buying Signals for AI Agents](/hermes/mcp/servers/external/buska-mcp/) · 30+ platforms, OAuth 2.1, 3 tools, from $49/month
+- [Asyntai MCP - AI Support Agent for Websites](/hermes/mcp/servers/external/asyntai-mcp/) · 54 tools, OAuth 2.1, free with account
+- [AnswerLoops MCP - Community Support Knowledge Base for Agents](/hermes/mcp/servers/external/answerloops-mcp/) · 5 tools, self-hostable, AGPL-3.0
+- [TaiLexi AI MCP - Taiwan Legal Research for Agents](/hermes/mcp/servers/external/tailexi-mcp/) · 20M+ judgments, token auth
+- [Furrow Forms MCP - Agent-Operable Form Backend with Lead Capture](/hermes/mcp/servers/external/furrow-forms-mcp/) · 26 tools, lead capture and Stripe links
+
+**Also identified (not catalogued):** Engram MCP (#3909) and Engram Alpha MCP (#3908) (agent memory infrastructure), CapSolver (CAPTCHA-solving automation), Sniff (QA bug walker), MarsX, Signadot, MCPFinder, LoopSkill (dev infrastructure), MagicMaster (audio mastering), KItinerary, Rovyn, GospelChannel, NC Wedding Guide (consumer classes), SEObot AI, DevHunt, ListingBott (thin docs), Flora (creator utility). Feed and homepage repeats already disposed by prior sweeps (AON, Hostinger, Backblaze B2, QoreNext x2, PostMCP, OSIR Domain).
+
 
 ## 🆕 September 2, 2026 - Night Cron Sweep (8 New, 8 Guides)
 
@@ -5337,3 +5350,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/hermes/mcp/servers/external/bulkpublish-mcp/)
 - [China Hot Trending MCP - Real-Time Social Trend Boards](/hermes/mcp/servers/external/china-hot-trending-mcp/)
 - [ReelDrop MCP - Instagram Reel Scheduling and Analytics](/hermes/mcp/servers/external/reeldrop-mcp/)
+### 5 new servers from chatmcp/mcpso issues + mcpservers.org /all + mcp.so homepage - Sep 3, 2026 (morning cron sweep)
+
+- [Buska MCP - Social Listening and Buying Signals for AI Agents](/hermes/mcp/servers/external/buska-mcp/)
+- [Asyntai MCP - AI Support Agent for Websites](/hermes/mcp/servers/external/asyntai-mcp/)
+- [AnswerLoops MCP - Community Support Knowledge Base for Agents](/hermes/mcp/servers/external/answerloops-mcp/)
+- [TaiLexi AI MCP - Taiwan Legal Research for Agents](/hermes/mcp/servers/external/tailexi-mcp/)
+- [Furrow Forms MCP - Agent-Operable Form Backend with Lead Capture](/hermes/mcp/servers/external/furrow-forms-mcp/)
