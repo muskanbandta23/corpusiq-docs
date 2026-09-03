@@ -12,7 +12,23 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 3, 2026 (morning sweep) · **Sources:** chatmcp/mcpso issues #3907-#3909 + mcpservers.org /all page 1 + mcp.so homepage · **Catalog:** 498 servers (+384 guides)
+> **Last updated:** September 3, 2026 (midday sweep) · **Sources:** mcp.so Feed + mcpservers.org /all pages 1-3 · **Catalog:** 507 servers (+393 guides)
+
+## 🆕 September 3, 2026 - Midday Cron Sweep (9 New, 9 Guides)
+
+Midday sweep over the mcp.so Feed (30 newest submissions) plus mcpservers.org /all pages 1-3. 9 new business-relevant servers catalogued with guides: Tracetify (SEO/GEO growth reconstruction across 12 sources), Extend (hosted document intelligence with OCR, extraction and PDF form filling), iubenda (website legal compliance for 150k+ businesses), Sorank (Search Console, PageSpeed and AI-citability scoring), HiBot (ANSWER-framework AI-visibility audits), Lifesight (unified marketing measurement and MMM), NeuralVerge (B2B people and company data with 16 documented tools), Regeno Farmwalk (UK farm and subsidy compliance with 24 tools) and TheLuckyStrike Ops Suite (local invoicing, time tracking, spreadsheet and price-tracker servers).
+
+- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/hermes/mcp/servers/external/tracetify-mcp/) · 12-source growth reconstruction, API key.
+- [Extend MCP - Document Intelligence with OCR and PDF Forms](/hermes/mcp/servers/external/extend-mcp/) · hosted endpoint, OAuth.
+- [iubenda MCP - Website Legal Compliance for Agents](/hermes/mcp/servers/external/iubenda-mcp/) · no-auth endpoint, 150k+ businesses.
+- [Sorank MCP - Search Console, PageSpeed and AI Citability](/hermes/mcp/servers/external/sorank-mcp/) · 12 tools, OAuth 2.1, free.
+- [HiBot MCP - ANSWER-Framework AI Visibility Audits](/hermes/mcp/servers/external/hibot-mcp/) · 7 public tools, keyless.
+- [Lifesight MCP - Unified Marketing Measurement and MMM](/hermes/mcp/servers/external/lifesight-mcp/) · OAuth connector flow, budget optimization.
+- [NeuralVerge MCP - B2B People and Company Data](/hermes/mcp/servers/external/neuralverge-mcp/) · 16 tools, bearer token.
+- [Regeno Farmwalk MCP - UK Farm and Subsidy Data for Agents](/hermes/mcp/servers/external/farmwalk-mcp/) · 24 tools, OAuth 2.1 PKCE.
+- [TheLuckyStrike Ops Suite - Invoicing, Time Tracking and Spreadsheets](/hermes/mcp/servers/external/theluckystrike-mcp-suite/) · 4 local stdio servers, MIT.
+
+**Also identified (not catalogued):** QuantumProxies (25-tool proxy and scraping infrastructure - saturated web-scraping class), Voibe Transcription (4-tool audio transcription utility), dot.tools (28 dev utilities - JSONGuy class), Neither MCP (ADR memory for coding agents - dev infra class), Codex Reset Today (read-only Codex reset status - dev utility), HumanMirror (x402 pay-per-call security gateway - x402 infra class), AmanChain x402 Marketplace (prior disposition), Fensory (non-custodial trading for agents - consumer investing class, SigVest precedent), Pagesnap (URL-to-markdown utility - dev utility class), Slop MCP (AI-builder social network - agent community class), x402 List (x402 API vetting - x402 infra class), AIWG Daemon (multi-platform agent control - dev infra class), Telemark Bluesky Keyword Alerts and RSS Keyword Monitor (thin docs - server.json only, siblings of the catalogued TED Tender Monitor), Rephrasy AI Humanizer (content-manipulation class), Sports Probabilities by Commodus67 (consumer gambling class, ParlayAPI precedent). Feed repeats already catalogued by prior sweeps (MarketCode, CampaignStack, Koongo, ZenSched, Layers, Atomic Mail, SEOmatic, AshtonForge, Mysocial, QuickBooks Connector by Meridian) or already disposed (AON, Hostinger, Backblaze B2, QoreNext CRM and Trade Screening, PostMCP, OSIR Domain, Trendos, send-email, DocBin, Web Remote Jobs, Novu, Mantis, Katto, ComputeSage).
 
 ## 🆕 September 3, 2026 - Morning Cron Sweep (5 New, 5 Guides)
 
@@ -5357,3 +5373,15 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [AnswerLoops MCP - Community Support Knowledge Base for Agents](/hermes/mcp/servers/external/answerloops-mcp/)
 - [TaiLexi AI MCP - Taiwan Legal Research for Agents](/hermes/mcp/servers/external/tailexi-mcp/)
 - [Furrow Forms MCP - Agent-Operable Form Backend with Lead Capture](/hermes/mcp/servers/external/furrow-forms-mcp/)
+
+### 9 new servers from mcp.so feed + mcpservers.org /all - Sep 3, 2026 (midday cron sweep)
+
+- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/hermes/mcp/servers/external/tracetify-mcp/)
+- [Extend MCP - Document Intelligence with OCR and PDF Forms](/hermes/mcp/servers/external/extend-mcp/)
+- [iubenda MCP - Website Legal Compliance for Agents](/hermes/mcp/servers/external/iubenda-mcp/)
+- [Sorank MCP - Search Console, PageSpeed and AI Citability](/hermes/mcp/servers/external/sorank-mcp/)
+- [HiBot MCP - ANSWER-Framework AI Visibility Audits](/hermes/mcp/servers/external/hibot-mcp/)
+- [Lifesight MCP - Unified Marketing Measurement and MMM](/hermes/mcp/servers/external/lifesight-mcp/)
+- [NeuralVerge MCP - B2B People and Company Data](/hermes/mcp/servers/external/neuralverge-mcp/)
+- [Regeno Farmwalk MCP - UK Farm and Subsidy Data for Agents](/hermes/mcp/servers/external/farmwalk-mcp/)
+- [TheLuckyStrike Ops Suite - Invoicing, Time Tracking and Spreadsheets](/hermes/mcp/servers/external/theluckystrike-mcp-suite/)
