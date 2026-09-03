@@ -85,11 +85,20 @@ Run Hermes as a managed employee inside Paperclip companies. Connects the agent 
 ### NousResearch/autonovel
 ⭐ **1,148** · `Python` · [github.com/NousResearch/autonovel](https://github.com/NousResearch/autonovel)
 
-Autonomous long-form writing pipeline built on Hermes Agent. Generates full manuscripts (100K+ words) end-to-end using the agent loop  --  plot development, chapter writing, consistency checking.
+Autonomous long-form writing pipeline built on Hermes Agent. Generates full manuscripts (100K+ words) end-to-end using the agent loop -- plot development, chapter writing, consistency checking.
 
 **Maintainer:** Nous Research  
 **Key capabilities:** Long-form content generation, plot management, chapter coherence, agent-driven writing  
 **Related:** [Content Operations →](/hermes/content-ops/)
+
+### NousResearch/Hermes-Bot-Mode
+⭐ **660** · `JavaScript` · [github.com/NousResearch/Hermes-Bot-Mode](https://github.com/NousResearch/Hermes-Bot-Mode)
+
+Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Ships as a desktop plugin with no core patches, so the Hermes core stays untouched while each bot keeps its own conversation space and schedule.
+
+**Maintainer:** Nous Research  
+**Key capabilities:** Named agent roster, per-bot chats and avatars, routines, bot-to-bot messaging, plugin-only (no core patches)  
+**Related:** [Hermes Desktop →](/hermes/setup/) · [Multi-Agent →](#orchestration-multi-agent-swarms)
 
 ---
 
