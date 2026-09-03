@@ -2,14 +2,14 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 2, 2026)
+## File count (updated September 3, 2026)
 
-- **Total Markdown files:** 2,128
-- **Total HTML files:** 1,908 (MkDocs build output)
+- **Total Markdown files:** 2,152
+- **Total HTML files:** 1,964 (MkDocs build output)
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
-- **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
+- **Docs subdirectory:** 21 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 412 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
-- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 720 total .md under hermes/mcp/; 460 servers / 346 guides in the external catalog
+- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 744 total .md under hermes/mcp/; 460 servers / 346 guides in the external catalog
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -36,6 +36,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Sep 3, 2026, docs mgmt cron):** Bumped 3 stale `last_updated` dates in docs/ top-level SEO pages (chatgpt-integration, enterprise-ai-data-access, mcp-vs-data-warehouse — 2026-08-26 → 2026-09-03, both frontmatter blocks on chatgpt-integration). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-03. Full internal link audit: 12,051 links checked, 0 broken (4 documented SKIP placeholders). Frontmatter quote defects: 0/0. PII scan clean. Connector count prose: 0 stragglers (canonical 40+). PROGRESS.md stats refreshed (2,152 MD, 744 hermes/mcp .md).
 - **Maintenance ✅ (Sep 2, 2026, docs mgmt cron):** Fixed 1 production 404 image link (`/docs/chat-apps/assets/teams-answer-sessions.png` → `/chat-apps/assets/teams-answer-sessions.png`, live 200 verified). Production link audit: 1,418 absolute links, 11 → 0 after fix + deploy (10 were Sep 2 MCP catalog pages pushed to main but never deployed: marketcode, osir-domain, finbridge, campaignstack, koongo, postmcp, prognosite, openbase, zensched, staats). Internal link audit: 11,783 links checked, 0 broken (3 documented SKIP placeholders). Frontmatter validation: 3,796 files all valid. Frontmatter quote defects: 0/0. PII scan clean. Connector count prose: 0 stragglers. Stale top-level docs pages: 0. No draft/empty/orphan files. Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-02. PROGRESS.md stats refreshed (2,128 MD, 720 hermes/mcp .md).
 - **Skills sweep ✅ (Aug 31, 2026, skills-monitor cron):** 46-query skills.sh API sweep (4,743 unique skills, 0 failures) plus hot-leaderboard discovery with publisher-page verification. 117 clusters known. 8 new publisher clusters guided: `lijigang/ljg-skills` (124.5K, 30 skills, Chinese-language, 🟡 Snyk Warn), `dart-lang/skills` (144.0K, 30 skills, official Dart org, 🟢 all Pass), `mengto/skills` (76.2K, 155 skills, 🟢), `daymade/claude-code-skills` (58.4K, 106, 🟡 Snyk Warn), `nutlope/hallmark` (48.6K, 27.6K⭐, 🟢), `mohitmishra786/low-level-dev-skills` (41.5K, 142, 🟡 Snyk Warn), `hubspot/agent-cli-skills` (17.8K, 15, official HubSpot org, 🟡 Socket+Snyk Warn, authority-justified), `basicmachines-co/basic-memory` (9.7K, 38, YC-backed, 🟢, authority-justified). 8 guides + catalog index entries + marketplace batch page (header 911→919, footer 962→970). Parked: plannotator/effective-html (10.7K), 3 site publishers (larksuite, apifox, volces). useosint/skills API variant + github/awesome-copilot confirmed already guided. PROGRESS.md stats refreshed (2,064 MD, 512 catalog guides).
 - **Skills sweep ✅ (Aug 30 evening, 2026, skills-monitor cron):** 42-query skills.sh API sweep - 3,942 unique skills, 117 known clusters, 3 candidates. New: `github/gh-stack` (official GitHub org, 9.6K installs, 1.4K stars, all audits Pass) - guide `gh-stack-setup.md` created (🟢 Production, brand-authority below-20K-bar precedent). Maintenance: `oh-story-claudecode-skills-setup.md` publisher rename worldwonderer → zenstory-ai fixed (301 redirect verified). useosint/skills API source-string variant confirmed covered by existing osint-skills-setup.md. PROGRESS.md stats refreshed (2,055 MD, 504 catalog guides).
@@ -66,5 +67,5 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: August 25, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: September 3, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 ---
