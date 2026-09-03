@@ -13024,5 +13024,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-03T05:05:57.029065+00:00"
+  },
+  {
+    "repo": "PVMalove/claude-agent-harness",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-03T06:05:45.819318+00:00"
+  },
+  {
+    "repo": "plow-pbc/life-assistant-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-03T06:05:45.819332+00:00"
+  },
+  {
+    "repo": "avlaskin/safeagent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-03T06:05:45.819334+00:00"
+  },
+  {
+    "repo": "EchoEe247/hermes-commerce-control",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-03T06:05:45.819336+00:00"
+  },
+  {
+    "repo": "bhrumom/fabushi-plugin-hermes-installer",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-03T06:05:45.819338+00:00"
+  },
+  {
+    "repo": "hamishfromatech/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-03T06:05:45.819340+00:00"
   }
 ]
