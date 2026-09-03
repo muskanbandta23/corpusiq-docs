@@ -12,7 +12,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 2, 2026 (midday sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 485 servers (+371 guides)
+> **Last updated:** September 2, 2026 (night sweep) · **Sources:** chatmcp/mcpso issues #3892-#3906 + mcpservers.org /all pages 1-3 · **Catalog:** 493 servers (+379 guides)
+
+## 🆕 September 2, 2026 - Night Cron Sweep (8 New, 8 Guides)
+
+Night sweep over chatmcp/mcpso issues #3892-#3906 (past the morning-supplement cutoff of #3891) plus the mcpservers.org /all pages 1-3 (90 slugs batch-classified) and both homepages. 8 new business-relevant servers catalogued with guides: jp-payroll-mcp (Japanese payroll and social insurance computed from published government tables - 29 stdio tools over a free HTTP API with statute citations for every figure, npm v0.4.3 verified), Fruit Stand Fund Returns (trailing and calendar-year returns for 32,000+ US mutual funds and ETFs - 6 tools, API key, free tier, 401-verified live, registry dev.fruitstand/fund-returns v1.0.0), Valuation API (deterministic IRR, NPV, MOIC, DCF, WACC and IRR sensitivity - 6 tools live-probed keyless at api.finance-tools.io/mcp, MIT), Fallax (phishing-simulation results as ISO 27001 A.6.3 audit evidence - 12 tools, ten read-only, OAuth 2.1 workspace URLs, 401-verified), mcp-sanctions (watchlist screening across Rosfinmonitoring, OFAC SDN, EU consolidated, UK OFSI and UN lists - 4 stdio tools, neutral match output with list version and check date, PyPI v0.1.1), BulkPublish (social publishing across 11 platforms - about 50 README-documented tools, npx @bulkpublish/mcp-server v1.18.0, team approval flows, RSS autopost, MCP Apps UI), China Hot Trending (keyless real-time trending boards from 8 Chinese platforms - 2 tools live-probed, MIT), ReelDrop (Instagram reel scheduling, analytics and comment-to-DM automations - OAuth browser sign-in, 401-verified).
+
+[jp-payroll MCP - Japanese Payroll and Social Insurance for Agents](/hermes/mcp/servers/external/jp-payroll-mcp/) · 29 tools, statute citations, free.
+[Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data](/hermes/mcp/servers/external/fruitstand-fund-returns-mcp/) · 6 tools, 32k funds, API key.
+[Valuation API MCP - Deterministic Finance Math for Agents](/hermes/mcp/servers/external/valuation-api-mcp/) · 6 tools live-probed, keyless.
+[Fallax MCP - Phishing Simulation Results for Audit Evidence](/hermes/mcp/servers/external/fallax-mcp/) · 12 tools, OAuth, ISO 27001.
+[mcp-sanctions - Watchlist Screening for KYC and AML](/hermes/mcp/servers/external/mcp-sanctions/) · 4 tools, 5 watchlists, neutral matches.
+[BulkPublish MCP - Multi-Platform Social Publishing for Agents](/hermes/mcp/servers/external/bulkpublish-mcp/) · ~50 tools, approvals, RSS autopost.
+[China Hot Trending MCP - Real-Time Social Trend Boards](/hermes/mcp/servers/external/china-hot-trending-mcp/) · 2 tools, keyless, 8 platforms.
+[ReelDrop MCP - Instagram Reel Scheduling and Analytics](/hermes/mcp/servers/external/reeldrop-mcp/) · OAuth, DM automation.
+
+**Also identified (not catalogued):** SparkVibeAI (#3904, multi-model spec committee for coding agents - dev utility class), Santismm Knowledge (#3901, educational knowledge base on agentic AI patterns, 30 tools probed - educational class), Lamdis Exchange (#3898, physical-work task marketplace where agents pay people - TaskMarket class), Lodestar Stamp (#3897, agent trust attestation with a REST discovery path - agent infra class), PeppyNeuron Confession (#3895, behavioural novelty), HeyYumi (#3894, Korean restaurant venue data and reservations - consumer class), and the four consumer/dev members of the #3905 Chinese five-pack (12306 train tickets, weather, exchange rates, IP location). /all catch-ups skipped: AI Commander (outbound shell - dev automation), Bonizu (consumer beauty shopping), Pergamos (Calibre ebooks), Chapa (developer profiles), ShotAnvil (capture infrastructure), AginxBrowser (browser automation), 429 Throttle (dev proxy), Walletwatch (consumer crypto), CoreFlows (dev orchestrator), TooHardBasket (task marketplace), Deep Art (image generation), Sirro (agent memory), VenuNite (consumer events), Live Entity Verification (x402 entity checks - thin docs, no published surface).
 
 ## 🆕 September 2, 2026 - Midday Cron Sweep (10 New, 10 Guides)
 
@@ -5311,3 +5326,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [OpenBase MCP - French Company Data for Agents](/hermes/mcp/servers/external/openbase-mcp/)
 - [ZenSched MCP - Field Workforce Scheduling for Agents](/hermes/mcp/servers/external/zensched-mcp/)
 - [Staats MCP - Cookieless Web Analytics for Agents](/hermes/mcp/servers/external/staats-mcp/)
+
+### 8 new servers from chatmcp/mcpso issues + mcpservers.org /all - Sep 2, 2026 (night cron sweep)
+
+- [jp-payroll MCP - Japanese Payroll and Social Insurance for Agents](/hermes/mcp/servers/external/jp-payroll-mcp/)
+- [Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data](/hermes/mcp/servers/external/fruitstand-fund-returns-mcp/)
+- [Valuation API MCP - Deterministic Finance Math for Agents](/hermes/mcp/servers/external/valuation-api-mcp/)
+- [Fallax MCP - Phishing Simulation Results for Audit Evidence](/hermes/mcp/servers/external/fallax-mcp/)
+- [mcp-sanctions - Watchlist Screening for KYC and AML](/hermes/mcp/servers/external/mcp-sanctions/)
+- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/hermes/mcp/servers/external/bulkpublish-mcp/)
+- [China Hot Trending MCP - Real-Time Social Trend Boards](/hermes/mcp/servers/external/china-hot-trending-mcp/)
+- [ReelDrop MCP - Instagram Reel Scheduling and Analytics](/hermes/mcp/servers/external/reeldrop-mcp/)
