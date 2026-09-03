@@ -4,9 +4,11 @@
 
 Sign up at corpusiq.io, verify your email, land on the dashboard.
 
+[**Start your free trial - create your account**](https://corpusiq.io/signup?utm_source=docs&utm_medium=docs&utm_campaign=quickstart) *(30-day free trial, no credit card required)*
+
 ## Steps
 
-1. Go to **https://corpusiq.io** and click **Sign up**.
+1. Go to **https://corpusiq.io/signup?utm_source=docs&utm_medium=docs&utm_campaign=quickstart** and create your account.
 2. Use a work email - that's the address your team and connectors will be
    associated with.
 3. Verify the email from the message we send you.
