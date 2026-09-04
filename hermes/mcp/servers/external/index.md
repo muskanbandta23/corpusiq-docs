@@ -12,7 +12,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 3, 2026 (evening sweep) · **Sources:** chatmcp/mcpso issues #3910-#3917 + mcp.so feed + mcpservers.org /all page 1 · **Catalog:** 514 servers (+400 guides)
+> **Last updated:** September 4, 2026 (night cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 522 servers (+408 guides)
+
+## 🆕 September 4, 2026 - Night Cron Sweep (8 New, 8 Guides)
+
+Night sweep over the mcp.so feed plus mcpservers.org /all pages 1-3 (51 slugs batch-classified). 8 new business-relevant servers catalogued with guides: Ryze Google Ads (hosted Google Ads with 14 tools over one OAuth login - GAQL reporting, Keyword Planner research, recommendations and approval-gated campaign changes, no developer token, free to connect), BoldDesk (Syncfusion helpdesk operations - ticket lifecycle, replies, contact and agent search, approval workflows at your-subdomain.bolddesk.com/mcp), Viral Manager (creator-agency virality detection with 50 read and write tools - viral post discovery, AI breakdowns, assignments, watchlists, published in the official MCP registry), Accordio (28-tool back office for agents - time tracking, clients, unbilled hours, invoices, contracts, proposals, tasks, expenses and calendar at mcp.accordio.ai/mcp, free tier), Watchgoose (cron and recurring-work monitoring with 10 tools - checks, flips, pings and check lifecycle under OAuth 2.1 PKCE with read-only default consent), Drag (Gmail shared inbox triage with 47 tools across 12 categories - threads, cards, contacts, knowledge base, analytics, automations and WhatsApp at app.dragapp.com/mcp, MIT local route available), Modem (customer feedback intelligence - 14 tools search feedback across Slack, support, email and issue trackers, run the Modem Agent, and write topics, companies and people back), OpenShorts (long video to 9:16 shorts - 8 tools for moment detection, face-tracked reframing, subtitles and publishing to TikTok, Reels and YouTube Shorts, MIT self-hosted edition available).
+
+- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/hermes/mcp/servers/external/ryze-google-ads-mcp/) · 14 tools, OAuth, no developer token, free to connect.
+- [BoldDesk MCP - Helpdesk Ticket Operations for AI Agents](/hermes/mcp/servers/external/bolddesk-mcp/) · hosted, OAuth or API key, Syncfusion.
+- [Viral Manager MCP - Creator Intelligence for AI Agents](/hermes/mcp/servers/external/viral-manager-mcp/) · 50 tools, read and write, official registry.
+- [Accordio MCP - Back Office Time, Billing and Invoicing for Agents](/hermes/mcp/servers/external/accordio-mcp/) · 28 tools, OAuth, free tier.
+- [Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents](/hermes/mcp/servers/external/watchgoose-mcp/) · 10 tools, OAuth 2.1 PKCE, read-only default.
+- [Drag MCP - Gmail Shared Inbox Operations for AI Agents](/hermes/mcp/servers/external/dragapp-mcp/) · 47 tools, hosted or MIT local.
+- [Modem MCP - Customer Feedback Intelligence for AI Agents](/hermes/mcp/servers/external/modem-mcp/) · 14 tools, OAuth scopes, 20 calls/min.
+- [OpenShorts MCP - Video Clipping and Publishing for AI Agents](/hermes/mcp/servers/external/openshorts-mcp/) · 8 tools, OAuth or API key, MIT self-host.
+
+**Also identified (not catalogued):** Memwyre (persistent agent-memory layer with 12 tools - agent memory infra class, Engram/Sirro precedent), Cracked (pay-per-call aggregator of 63k+ tools with 164 capability surfaces - x402 infra class), Imaginode (AI image and video generation with 48 models - media generation class, Deep Art/FLORA precedent), Snipmat (single-purpose background-removal utility - image utility class, Screenies precedent), HelpMyAgent (French company and procurement data at $0.002-0.02 per call - regional x402 data catalog), Naibul (agent-only board game hall - consumer gaming class), Makinai (consultancy marketing shell with no tool list - thin docs), The 402 Wall 404humans (agent-only x402 pixel billboard - novelty art class), MyFlohmarkt (German flea market events - consumer regional niche). Feed repeats already catalogued by prior sweeps (Lawstronaut July 15, Klarix, Strac DLP, Tracetify, Extend, iubenda, Sorank, HiBot, Furrow Forms, Asyntai, AuType, ToBid, Lifesight, NeuralVerge, Farmwalk, Fallax, TheLuckyStrike, TaiLexi) or already disposed (pdfAssistant, FLORA, RAVN, Neither, QuantumProxies, Voibe, dot.tools, MarketCode, PostMCP, OSIR Domain, Trendos, Koongo, AON, Hostinger, QoreNext CRM and Trade Screening, send-email, Backblaze B2, Layers, Mantis, ZenSched, Wagglet, Digital Darts, ListingBott, SEObot AI, DevHunt, Rovyn, MarsX, GospelChannel, MagicMaster, NC Wedding Guide, x402 List, Sirro, VenuNite, Slop).
 
 ## 🆕 September 3, 2026 - Evening Cron Sweep (7 New, 7 Guides)
 
@@ -5409,3 +5424,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/hermes/mcp/servers/external/strac-mcp-dlp/)
 - [ToBid MCP - Taiwan Government Tenders for AI Agents](/hermes/mcp/servers/external/tobid-mcp/)
 - [Autype MCP - Branded Business Document Production for Agents](/hermes/mcp/servers/external/autype-mcp/)
+### 8 new servers from mcp.so feed + mcpservers.org /all - Sep 4, 2026 (night cron sweep)
+
+- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/hermes/mcp/servers/external/ryze-google-ads-mcp/)
+- [BoldDesk MCP - Helpdesk Ticket Operations for AI Agents](/hermes/mcp/servers/external/bolddesk-mcp/)
+- [Viral Manager MCP - Creator Intelligence for AI Agents](/hermes/mcp/servers/external/viral-manager-mcp/)
+- [Accordio MCP - Back Office Time, Billing and Invoicing for Agents](/hermes/mcp/servers/external/accordio-mcp/)
+- [Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents](/hermes/mcp/servers/external/watchgoose-mcp/)
+- [Drag MCP - Gmail Shared Inbox Operations for AI Agents](/hermes/mcp/servers/external/dragapp-mcp/)
+- [Modem MCP - Customer Feedback Intelligence for AI Agents](/hermes/mcp/servers/external/modem-mcp/)
+- [OpenShorts MCP - Video Clipping and Publishing for AI Agents](/hermes/mcp/servers/external/openshorts-mcp/)
