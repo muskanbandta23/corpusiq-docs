@@ -13143,5 +13143,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-03T08:06:43.396355+00:00"
+  },
+  {
+    "repo": "rodrigogs/hermes-smart-router",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554793+00:00"
+  },
+  {
+    "repo": "Fectivnfy112357/claude-code-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554807+00:00"
+  },
+  {
+    "repo": "Leoperalta02/anti-hermes-mcp-proof",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554810+00:00"
+  },
+  {
+    "repo": "hypawave/skills",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554812+00:00"
+  },
+  {
+    "repo": "Vi1414Vi/mc-workflows",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554814+00:00"
+  },
+  {
+    "repo": "baney75/portage",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554816+00:00"
+  },
+  {
+    "repo": "prismnetwork-tech/hermes-plugin-prism",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554818+00:00"
+  },
+  {
+    "repo": "jbradf0rd/apollo",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554819+00:00"
+  },
+  {
+    "repo": "dedsecorg/agentic-dns",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554821+00:00"
+  },
+  {
+    "repo": "Arturio48/scientific-article-builder",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554823+00:00"
+  },
+  {
+    "repo": "cachacon-ai/hermes-agent-linux-pantheon",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554825+00:00"
+  },
+  {
+    "repo": "ai-solutions-sk/bylaws",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T05:06:36.554827+00:00"
   }
 ]
