@@ -54769,5 +54769,63 @@
     ],
     "discovered_at": "2026-09-04T07:03:39.630625+00:00",
     "status": "pending"
+  },
+  {
+    "name": "sangwookp9591/hermes-agent",
+    "url": "https://github.com/sangwookp9591/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-04T08:02:06Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-04T08:02:45.635763+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kitsiu1211-stack/hermes-skills",
+    "url": "https://github.com/kitsiu1211-stack/hermes-skills",
+    "description": "Hermes Agent \u8ba4\u77e5\u65b9\u6cd5\u7c7b Skills \u2014 ljg \u7cfb\u5217\u3001\u77e5\u8bc6\u6355\u83b7\u3001\u827e\u5bbe\u6d69\u65af\u590d\u4e60",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-04T08:01:05Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-09-04T08:02:48.639065+00:00",
+    "status": "pending"
   }
 ]

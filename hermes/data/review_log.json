@@ -13283,5 +13283,19 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-04T07:03:50.021710+00:00"
+  },
+  {
+    "repo": "sangwookp9591/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T08:04:57.200256+00:00"
+  },
+  {
+    "repo": "kitsiu1211-stack/hermes-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-04T08:04:57.200268+00:00"
   }
 ]
