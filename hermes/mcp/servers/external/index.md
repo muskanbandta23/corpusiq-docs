@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 3, 2026 (midday sweep) · **Sources:** mcp.so Feed + mcpservers.org /all pages 1-3 · **Catalog:** 507 servers (+393 guides)
+> **Last updated:** September 3, 2026 (evening sweep) · **Sources:** chatmcp/mcpso issues #3910-#3917 + mcp.so feed + mcpservers.org /all page 1 · **Catalog:** 514 servers (+400 guides)
+
+## 🆕 September 3, 2026 - Evening Cron Sweep (7 New, 7 Guides)
+
+Evening sweep over chatmcp/mcpso issues #3910-#3917 (fresh window past the midday feed cut), the mcp.so feed (29 slugs) and mcpservers.org /all page 1 (16 slugs). 7 new business-relevant servers catalogued with guides: SellerMate (Amazon Ads with 50+ tools, server-enforced policy guardrails, admin approvals and a full audit trail - OAuth 2.1 PKCE at api.sellermate.ai/mcp/sse, 401-verified live, 2,000+ brands, Amazon Ads Partner Awards finalist), Neonjelly (1.37M-store Shopify catalog with competitor teardowns, product-idea saturation and lead lists - 59 tools live-probed keyless at mcp.neonjelly.io/mcp, 14-day trial, paid from $29/mo), Klarix Intelligence Engine (B2B competitive intelligence - 15 tools live-probed keyless at mcp.klarix.ai/mcp covering 5-axis ICP fit scoring, live battlecards, buying-committee mapping and tech-stack teardowns with cited public-web evidence), Raposa Aval (human approval gates with a SHA-256 hash-chained audit log - 3 tools via uvx raposa-mcp, free sandbox 100 approvals/month, EU-hosted with DPA), Strac DLP (PII/PHI/PCI and secrets redaction in front of the model - 5 tools over the Strac DLP API, stdio or streamable-http), ToBid (Taiwan government tenders - 8 tools live-probed keyless at api.tobid.tw/mcp, free with no registration, three-tier bid price suggestions from award-to-budget ratios) and AuType (branded business document production - 40+ tools at mcp.autype.com/mcp with OAuth 2.1 PKCE, per-tool scopes and Extended Markdown rendering to PDF/DOCX/PNG).
+
+- [SellerMate MCP - Amazon Ads Operations for AI Agents](/hermes/mcp/servers/external/sellermate-mcp/) · 50+ tools, OAuth 2.1 PKCE, guardrails, 401-verified.
+- [Neonjelly MCP - Shopify Store Intelligence for Agents](/hermes/mcp/servers/external/neonjelly-mcp/) · 59 tools live-probed, 1.37M stores, key-in-path.
+- [Klarix Intelligence Engine MCP - B2B Competitive Intelligence](/hermes/mcp/servers/external/klarix-intelligence-engine-mcp/) · 15 tools live-probed keyless, cited evidence.
+- [Raposa Aval MCP - Human Approval Gates with Audit Chains](/hermes/mcp/servers/external/raposa-aval-mcp/) · 3 tools, hash-chained audit log, EU-hosted.
+- [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/hermes/mcp/servers/external/strac-mcp-dlp/) · 5 tools, PII/PHI/PCI/secrets, free tier.
+- [ToBid MCP - Taiwan Government Tenders for AI Agents](/hermes/mcp/servers/external/tobid-mcp/) · 8 tools live-probed keyless, free.
+- [Autype MCP - Branded Business Document Production for Agents](/hermes/mcp/servers/external/autype-mcp/) · 40+ tools, OAuth 2.1 PKCE, per-tool scopes.
+
+**Also identified (not catalogued):** ReadyAgents (local YAML/JSON agent workflow CLI - dev utility class), PromptBranch (prompt version control - dev utility), recipebooq (iOS React Native Liquid Glass components - dev utility), Scholium Live Needle (URL string-probe utility - dev utility), RAVN (cross-chain crypto swap execution - consumer investing class), pdfAssistant (PDF OCR/redaction/encryption - document class saturated this week after Extend, PDFGate and iFillPDF), Digital Darts Shopify SEO (thin MCP docs - no endpoint published on the vendor site, SEO class saturated after Tracetify, Sorank and HiBot), NanoTools (44 paid x402 tools - x402 infra class), ComputeSage StackBench (prior disposition). Feed repeats already catalogued by prior sweeps (MarketCode, Koongo, ZenSched, Layers, Mantis) or already disposed (AON, Hostinger, Backblaze B2, QoreNext CRM and Trade Screening, PostMCP, OSIR Domain, Trendos, send-email, flora, QuantumProxies, Voibe, dot.tools, Neither, Sirro, VenuNite, MarsX, ListingBott, SEObot AI, DevHunt, GospelChannel, Rovyn, MagicMaster, NC Wedding Guide, KItinerary, CapSolver, Sniff, MCPFinder, LoopSkill, Signadot).
 
 ## 🆕 September 3, 2026 - Midday Cron Sweep (9 New, 9 Guides)
 
@@ -5385,3 +5399,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [NeuralVerge MCP - B2B People and Company Data](/hermes/mcp/servers/external/neuralverge-mcp/)
 - [Regeno Farmwalk MCP - UK Farm and Subsidy Data for Agents](/hermes/mcp/servers/external/farmwalk-mcp/)
 - [TheLuckyStrike Ops Suite - Invoicing, Time Tracking and Spreadsheets](/hermes/mcp/servers/external/theluckystrike-mcp-suite/)
+
+### 7 new servers from chatmcp/mcpso issues + mcp.so feed + mcpservers.org /all - Sep 3, 2026 (evening cron sweep)
+
+- [SellerMate MCP - Amazon Ads Operations for AI Agents](/hermes/mcp/servers/external/sellermate-mcp/)
+- [Neonjelly MCP - Shopify Store Intelligence for Agents](/hermes/mcp/servers/external/neonjelly-mcp/)
+- [Klarix Intelligence Engine MCP - B2B Competitive Intelligence](/hermes/mcp/servers/external/klarix-intelligence-engine-mcp/)
+- [Raposa Aval MCP - Human Approval Gates with Audit Chains](/hermes/mcp/servers/external/raposa-aval-mcp/)
+- [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/hermes/mcp/servers/external/strac-mcp-dlp/)
+- [ToBid MCP - Taiwan Government Tenders for AI Agents](/hermes/mcp/servers/external/tobid-mcp/)
+- [Autype MCP - Branded Business Document Production for Agents](/hermes/mcp/servers/external/autype-mcp/)
