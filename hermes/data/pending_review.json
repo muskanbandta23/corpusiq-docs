@@ -54550,5 +54550,139 @@
     ],
     "discovered_at": "2026-09-04T05:06:20.859941+00:00",
     "status": "pending"
+  },
+  {
+    "name": "yymhai/hermes-agent-mirror",
+    "url": "https://github.com/yymhai/hermes-agent-mirror",
+    "description": "Hermes Win\u6574\u5408\u5305\u4e0b\u8f7d\u2b07\ufe0f https://pan.quark.cn/s/03afd2dfb9fb",
+    "stars": 0,
+    "forks": 0,
+    "language": "PowerShell",
+    "topics": [],
+    "updated_at": "2026-09-04T06:03:45Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-04T06:03:47.358252+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kscmrt/hermes-obsidian-vault",
+    "url": "https://github.com/kscmrt/hermes-obsidian-vault",
+    "description": "Persistent memory system for Hermes AI agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-04T06:00:43Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-04T06:03:50.361373+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "HowardLiao/HermesAgent",
+    "url": "https://github.com/HowardLiao/HermesAgent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-04T06:00:11Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-04T06:03:53.362313+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yymqd/kicad-pcb-agent-skills",
+    "url": "https://github.com/yymqd/kicad-pcb-agent-skills",
+    "description": "AI Agent (Hermes) \u9a71\u52a8\u7684 KiCad PCB \u8bbe\u8ba1\u81ea\u52a8\u5316\u6280\u80fd\u96c6\uff1a\u4e09\u6761\u7ba1\u7ebf\uff08kicad-cli / MCP-KiCad / kcaa\uff09\u9636\u6bb5\u5207\u6362\u5de5\u4f5c\u6d41",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "autorouting",
+      "freerouting",
+      "gerber",
+      "hardware-design",
+      "hermes-agent",
+      "kicad",
+      "kicad-cli",
+      "llm",
+      "mcp",
+      "pcb",
+      "pcb-design",
+      "spice"
+    ],
+    "updated_at": "2026-09-04T05:53:09Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-04T06:04:03.016376+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hektorconsulting/hermes-agent",
+    "url": "https://github.com/Hektorconsulting/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-04T06:02:49Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-04T06:04:19.326390+00:00",
+    "status": "pending"
   }
 ]
