@@ -1,3 +1,11 @@
+---
+title: "Sweep Report - September 4, 2026 - CorpusIQ Docs"
+description: "Night MCP catalog sweep: mcp.so feed plus mcpservers.org /all pages 1-3, cataloging 8 new servers with guides (Ryze Google Ads, BoldDesk, Viral Manager, Accordio, Watchgoose, Drag, Modem, OpenShorts); catalog now 522 servers / 408 guides."
+date: 2026-09-04T03:14:00-07:00
+sources: [mcp.so, mcpservers.org]
+status: complete
+---
+
 # September 4, 2026 - Night Cron Sweep
 
 **Shift:** Night (~03:00 MST)

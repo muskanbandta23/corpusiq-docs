@@ -1,3 +1,8 @@
+---
+title: "6. Your first multi-connector query - CorpusIQ Docs"
+description: "Connect a second data source and ask a question that needs both, using GA4 plus Shopify as the worked example. Includes debugging steps for empty or wrong answers."
+---
+
 # 6. Your first multi-connector query
 
 You've authenticated one connector (QuickBooks, Shopify, GA4, etc.). Now you'll connect a second one and ask a question that needs both.

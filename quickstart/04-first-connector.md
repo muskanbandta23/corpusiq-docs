@@ -1,3 +1,8 @@
+---
+title: "4. Authenticate your first connector - CorpusIQ Docs"
+description: "Connect QuickBooks, Google Analytics 4, or any other tool to CorpusIQ with OAuth in about 30 seconds. Walks the exact click path for your first connector."
+---
+
 # 4. Authenticate your first connector
 
 Pick a connector that holds data you actually care about. For most founders,
