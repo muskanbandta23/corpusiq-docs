@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-01"
+last_updated: "2026-09-04"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 4, 2026 (night cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 522 servers (+408 guides)
+> **Last updated:** September 4, 2026 (morning cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 526 servers (+412 guides)
 
 ## 🆕 September 4, 2026 - Night Cron Sweep (8 New, 8 Guides)
 
@@ -28,6 +28,17 @@ Night sweep over the mcp.so feed plus mcpservers.org /all pages 1-3 (51 slugs ba
 - [OpenShorts MCP - Video Clipping and Publishing for AI Agents](/hermes/mcp/servers/external/openshorts-mcp/) · 8 tools, OAuth or API key, MIT self-host.
 
 **Also identified (not catalogued):** Memwyre (persistent agent-memory layer with 12 tools - agent memory infra class, Engram/Sirro precedent), Cracked (pay-per-call aggregator of 63k+ tools with 164 capability surfaces - x402 infra class), Imaginode (AI image and video generation with 48 models - media generation class, Deep Art/FLORA precedent), Snipmat (single-purpose background-removal utility - image utility class, Screenies precedent), HelpMyAgent (French company and procurement data at $0.002-0.02 per call - regional x402 data catalog), Naibul (agent-only board game hall - consumer gaming class), Makinai (consultancy marketing shell with no tool list - thin docs), The 402 Wall 404humans (agent-only x402 pixel billboard - novelty art class), MyFlohmarkt (German flea market events - consumer regional niche). Feed repeats already catalogued by prior sweeps (Lawstronaut July 15, Klarix, Strac DLP, Tracetify, Extend, iubenda, Sorank, HiBot, Furrow Forms, Asyntai, AuType, ToBid, Lifesight, NeuralVerge, Farmwalk, Fallax, TheLuckyStrike, TaiLexi) or already disposed (pdfAssistant, FLORA, RAVN, Neither, QuantumProxies, Voibe, dot.tools, MarketCode, PostMCP, OSIR Domain, Trendos, Koongo, AON, Hostinger, QoreNext CRM and Trade Screening, send-email, Backblaze B2, Layers, Mantis, ZenSched, Wagglet, Digital Darts, ListingBott, SEObot AI, DevHunt, Rovyn, MarsX, GospelChannel, MagicMaster, NC Wedding Guide, x402 List, Sirro, VenuNite, Slop).
+
+## 🆕 September 4, 2026 - Morning Cron Sweep (4 New, 4 Guides)
+
+Morning sweep over the mcp.so feed (5 post-night submissions in the 2-7 hour window) plus mcpservers.org /all pages 1-3 (51 slugs re-classified, zero new business-relevant slugs - nano-stacknodehost-com resolves to NanoTools, already disposed as x402 infra). 4 new business-relevant servers catalogued with guides: Dealwize (B2B deal intelligence with deal health, stakeholder maps, risk surfacing, Mutual Action Plans and Dealboards built from transcripts - registry co.dealwize/dealwize at api.dealwize.co/api/v1/mcp, OAuth or dw_live_ API key), Factanker (1.18B+ evidence-backed facts about US companies, banks, nonprofits and federal spending from SEC EDGAR, FFIEC, IRS 990 and USAspending - 6 tools live-probed keyless at factanker.com/mcp, every value carries a filing reference and citable fact URL, no signup), Nizh (compliance frameworks for agents - SOC 2, ISO 27001, CMMC 2.0 and NIST as MCP tools with posture checks, control objectives and hash-chained attestations at mcp.nizh.com/mcp, OAuth 2.1, evidence recorded by reference only) and miniOrange WordPress MCP (governed WordPress/WooCommerce gateway with policy enforcement, DLP redaction, human-in-the-loop approvals and immutable audit trails - plugin plus gateway.miniorange.ai/v2/mcp, OAuth, free tier).
+
+- [Dealwize MCP - B2B Deal Intelligence for AI Agents](/hermes/mcp/servers/external/dealwize-mcp/) · OAuth or API key, deal health + MAPs + Dealboards.
+- [Factanker MCP - Evidence-Backed Company and Bank Facts](/hermes/mcp/servers/external/factanker-mcp/) · 6 tools live-probed keyless, 1.18B+ cited facts.
+- [Nizh MCP - Compliance Frameworks for AI Agents](/hermes/mcp/servers/external/nizh-mcp/) · 7 tools, OAuth 2.1, hash-chained attestations.
+- [miniOrange WordPress MCP - Secure WordPress Gateway with Policy Enforcement](/hermes/mcp/servers/external/miniorange-wordpress-mcp/) · DLP, approvals, audit trail, free tier.
+
+**Also identified (not catalogued):** PriceMyRepair (UK car repair cost ranges across 15 models - consumer automotive niche, 4 read-only tools, no auth). Feed repeats already catalogued by prior sweeps (Lawstronaut, Klarix, Strac DLP, Tracetify, Extend, iubenda, Sorank, HiBot, Furrow Forms, MarketCode, PostMCP, OSIR Domain, Trendos, Koongo, AON, Hostinger, QoreNext CRM and Trade Screening) or already disposed by prior sweeps (pdfAssistant, FLORA, RAVN, Neither, QuantumProxies, Voibe, dot.tools, NanoTools).
 
 ## 🆕 September 3, 2026 - Evening Cron Sweep (7 New, 7 Guides)
 
@@ -5434,3 +5445,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Drag MCP - Gmail Shared Inbox Operations for AI Agents](/hermes/mcp/servers/external/dragapp-mcp/)
 - [Modem MCP - Customer Feedback Intelligence for AI Agents](/hermes/mcp/servers/external/modem-mcp/)
 - [OpenShorts MCP - Video Clipping and Publishing for AI Agents](/hermes/mcp/servers/external/openshorts-mcp/)
+### 4 new servers from mcp.so feed + mcpservers.org /all - Sep 4, 2026 (morning cron sweep)
+
+- [Dealwize MCP - B2B Deal Intelligence for AI Agents](/hermes/mcp/servers/external/dealwize-mcp/)
+- [Factanker MCP - Evidence-Backed Company and Bank Facts](/hermes/mcp/servers/external/factanker-mcp/)
+- [Nizh MCP - Compliance Frameworks for AI Agents](/hermes/mcp/servers/external/nizh-mcp/)
+- [miniOrange WordPress MCP - Secure WordPress Gateway with Policy Enforcement](/hermes/mcp/servers/external/miniorange-wordpress-mcp/)
