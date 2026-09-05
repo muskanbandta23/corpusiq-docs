@@ -13395,5 +13395,26 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-05T06:05:27.458112+00:00"
+  },
+  {
+    "repo": "RuBAN-GT/hermes-plugin-durable-memory",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T07:04:59.599899+00:00"
+  },
+  {
+    "repo": "msaif-dev/hermes-cortex",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T07:04:59.599913+00:00"
+  },
+  {
+    "repo": "ThomasCayrol/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T07:04:59.599915+00:00"
   }
 ]

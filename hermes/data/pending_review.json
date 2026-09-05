@@ -55199,5 +55199,89 @@
     ],
     "discovered_at": "2026-09-05T06:03:39.657422+00:00",
     "status": "pending"
+  },
+  {
+    "name": "RuBAN-GT/hermes-plugin-durable-memory",
+    "url": "https://github.com/RuBAN-GT/hermes-plugin-durable-memory",
+    "description": "Profile-isolated, approval-gated durable memory plugin for Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-memory",
+      "durable-memory",
+      "hermes",
+      "hermes-agent",
+      "plugin",
+      "postgresql",
+      "python"
+    ],
+    "updated_at": "2026-09-05T07:00:15Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-05T07:02:45.934040+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "msaif-dev/hermes-cortex",
+    "url": "https://github.com/msaif-dev/hermes-cortex",
+    "description": "Enterprise autonomous research & data engineering platform powered by Hermes Agent and Model Context Protocol (MCP)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-05T06:16:28Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-05T07:02:55.554446+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ThomasCayrol/hermes-agent",
+    "url": "https://github.com/ThomasCayrol/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-05T07:02:12Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-05T07:03:11.911677+00:00",
+    "status": "pending"
   }
 ]
