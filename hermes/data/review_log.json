@@ -13353,5 +13353,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-05T05:05:46.356421+00:00"
+  },
+  {
+    "repo": "notfresh/mini-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458090+00:00"
+  },
+  {
+    "repo": "chriszp-cloud/hermes-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458103+00:00"
+  },
+  {
+    "repo": "xntr99/MIMIR",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458106+00:00"
+  },
+  {
+    "repo": "yukincom/hermes_whether_mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458108+00:00"
+  },
+  {
+    "repo": "acculoe/vera-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458110+00:00"
+  },
+  {
+    "repo": "mickaT1/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458112+00:00"
   }
 ]
