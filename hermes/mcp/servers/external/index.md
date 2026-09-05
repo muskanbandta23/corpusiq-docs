@@ -12,7 +12,18 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 4, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 539 servers (+425 guides)
+> **Last updated:** September 5, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-3 + mcp.so feed · **Catalog:** 543 servers (+429 guides)
+
+## 🆕 September 5, 2026 - Morning Cron Sweep (4 New, 4 Guides)
+
+Morning sweep over mcpservers.org /all pages 1-3 (47 slugs batch-classified) plus the mcp.so feed (30 entries, all catalogued repeats or prior dispositions). 4 new business-relevant servers catalogued with guides: Ryze Meta Ads (hosted Meta Ads for agents - Facebook OAuth sign-in, 12 tools with Insights reporting, Graph API reads, lead forms, Ad Library search and approval-gated campaign writes, sibling of the catalogued Ryze Google Ads server on the same endpoint), Abyssale MCP (programmatic ad creative - 16 tools to browse designs and projects, generate banners, videos and print-ready PDFs, and import designs from JSON, OAuth with per-client scopes at mcp.abyssale.com/mcp), Elium MCP (governed enterprise knowledge base access - 5 read-only tools running with the authenticated user's permissions, semantic search plus filtered search, spaces and templates, served per platform at your-platform.elium.com/services/mcp) and PostBazooka MCP (OAuth social publishing across eight networks - a 26-tool workflow-gated schema with structured commit confirmation on every mutation, sourced ideas, team feedback and per-destination scheduling).
+
+- [Ryze Meta Ads MCP - Hosted Facebook Ads for Agents](/hermes/mcp/servers/external/ryze-meta-ads-mcp/) · 12 tools, Facebook OAuth, approval-gated writes, free to connect.
+- [Abyssale MCP - Ad Creative Production for Agents](/hermes/mcp/servers/external/abyssale-mcp/) · 16 tools, OAuth scopes, banners and PDFs.
+- [Elium MCP - Enterprise Knowledge Base for Agents](/hermes/mcp/servers/external/elium-mcp/) · 5 read-only tools, permission-bound search.
+- [PostBazooka MCP - Social Publishing with Commit Proof](/hermes/mcp/servers/external/postbazooka-mcp/) · 26 tools, OAuth, eight networks.
+
+**Also identified (not catalogued):** AI Schema Gen (WordPress schema-markup plugin whose /all listing claims an MCP surface but publishes no endpoint or tool list - thin MCP docs), SpreadFront (Google Sheet to storefront builder exposing WebMCP tools to browser shopping agents - agentic-commerce storefront class, operators do not consume MCP tools), The Ai Daily (business AI news briefing - media/news class), Football Charts (consumer sports statistics across 93 leagues), Liminality (remote MCP solve-engine that breaks requests into checkable sub-questions - agent infra class), Promethic (prompt manager and library - dev utility), Polimake (generic team-ideas shell - thin docs), Soar Flights (consumer flight booking), AgentBrief (cite-backed research briefs at $0.02 per call - x402 pay-per-call infra class), Povento (coding-agent portfolio context - dev tool), Fortrabbit (PHP hosting management - dev infra class), Great Arrow (connector and memory orchestration - agent infra class), Verbasil (company memory layer - agent memory infra class, Memwyre precedent), WebMatrices Browser MCP (social scraping through existing Chrome sessions - saturated scraping class), MAK Immigration Source Guide (consumer regional niche), AI2SQL (SQL generation and tuning - dev utility).
 
 ## 🆕 September 4, 2026 - Evening Cron Sweep (13 New, 13 Guides)
 
@@ -5487,3 +5498,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Helixar MCP - Supply-Chain Security Scanning for MCP Servers](/hermes/mcp/servers/external/helixar-mcp/)
 - [Velarion MCP - Executive Compensation and Governance Intelligence](/hermes/mcp/servers/external/velarion-company-intelligence/)
 - [VeriRoute Intel MCP - Live Phone Number Intelligence](/hermes/mcp/servers/external/veriroute-intel-mcp/)
+
+### 4 new servers from mcpservers.org /all - Sep 5, 2026 (morning cron sweep)
+
+- [Ryze Meta Ads MCP - Hosted Facebook Ads for Agents](/hermes/mcp/servers/external/ryze-meta-ads-mcp/)
+- [Abyssale MCP - Ad Creative Production for Agents](/hermes/mcp/servers/external/abyssale-mcp/)
+- [Elium MCP - Enterprise Knowledge Base for Agents](/hermes/mcp/servers/external/elium-mcp/)
+- [PostBazooka MCP - Social Publishing with Commit Proof](/hermes/mcp/servers/external/postbazooka-mcp/)
