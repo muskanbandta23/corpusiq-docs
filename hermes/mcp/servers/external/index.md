@@ -12,7 +12,27 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 4, 2026 (morning cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 526 servers (+412 guides)
+> **Last updated:** September 4, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso issues + mcp.so feed + mcpservers.org /all pages 1-3 · **Catalog:** 539 servers (+425 guides)
+
+## 🆕 September 4, 2026 - Evening Cron Sweep (13 New, 13 Guides)
+
+Evening sweep over chatmcp/mcpso issues #3918-#3937 (fresh window past the Sep 3 evening cutoff #3917), the mcp.so feed plus recentServers (30 slugs) and mcpservers.org /all pages 1-3 (90 slugs batch-classified). 13 new business-relevant servers catalogued with guides: gofact (local French e-invoicing as a Go binary - HTML invoice to compliant Factur-X with EN 16931 pre-checks, PDF/A-3 self-check and legal numbering held in a locked transactional registry, no account, no cloud), Factur-X by Orvel (hosted French e-invoicing with 4 tools live-probed - generate, embed, validate against XSD plus schematron plus fr-ctc, extract - EU-hosted, free 50 documents per month), ddmarketer (validated SaaS opportunities mined from complaints across 8 public sources and scored 0-100 for commercial intent, 4 tools live-probed keyless including full dossiers with MVP scope and suggested pricing), registry-mcp (company data from national business registries - Norway first, 5 tools live-probed keyless covering identifier lookup, name search, VAT status, checksum validation and statutory filing deadlines), Ozon MCP Server (158 tools for the Ozon Seller and Performance API - self-hosted with Fernet-encrypted tokens, web dashboard and measured context budgeting), Wildberries MCP Server (197 tools for the Wildberries Seller API - sibling architecture with WB_TOOLSETS trimming and per-host diagnostics), EuroDNS MCP (82 tools over the EuroDNS User API - domains, DNS zones, SSL, contacts, invoices and orders with billing and destructive guardrails plus a hash-chained audit log), PurrPlan MCP (18 scoped tools driving a 12+ network social scheduler - plan, publish, inbox and analytics with confirmation-gated replies and per-scope tokens), PingRoom (41 tools live-probed for agent-to-human operations - pings, tappable questions, approvals, handoffs and lock-screen live progress over OAuth 2.1 PKCE), CTlogs.io MCP (certificate transparency search - subdomains, certificate history and hostname keyword hunting for brand protection, 5 read-only tools with browser sign-in), Helixar MCP (MCP supply-chain security - Sentinel scans of any MCP server across 26 rules, HDP delegation-chain validation and ReleaseGuard artifact checks, 2 remote tools live-probed), Velarion (executive compensation and governance intelligence with 12 tools live-probed - CEO pay, Say-on-Pay risk, disclosed peer benchmarking and Governance Alpha Cards) and VeriRoute Intel MCP (live US and Canada phone intelligence - carrier, line type, LRN, CNAM and spam reputation with async bulk jobs to 10,000 numbers and free sandbox keys).
+
+- [gofact MCP - Local French E-Invoicing with Legal Numbering](/hermes/mcp/servers/external/gofact-mcp/) · 11 tools, stdio Go binary, AGPL-3.0, no account.
+- [Factur-X by Orvel MCP - Hosted French E-Invoicing for Agents](/hermes/mcp/servers/external/facturx-orvel-mcp/) · 4 tools live-probed, EU-hosted, free 50 docs/mo.
+- [ddmarketer MCP - Validated SaaS Opportunity Intelligence](/hermes/mcp/servers/external/ddmarketer-mcp/) · 4 tools live-probed keyless, complaint corpus, free.
+- [registry-mcp - Company Registry Data for AI Agents](/hermes/mcp/servers/external/registry-mcp/) · 5 tools live-probed keyless, Norway brreg, filing deadlines.
+- [Ozon MCP Server - Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/ozon-mcp-server/) · 158 tools, self-hosted, encrypted tokens, dashboard.
+- [Wildberries MCP Server - Seller API Operations for Agents](/hermes/mcp/servers/external/wb-mcp-server/) · 197 tools, self-hosted, Ozon sibling.
+- [EuroDNS MCP - Domain, DNS and SSL Registrar Operations](/hermes/mcp/servers/external/eurodns-mcp/) · 82 tools, guardrails, hash-chained audit log.
+- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/hermes/mcp/servers/external/purrplan-mcp/) · 18 scoped tools, 12+ networks, lifetime deal.
+- [PingRoom MCP - Human Decisions and Notifications for Agents](/hermes/mcp/servers/external/pingroom-mcp/) · 41 tools live-probed, OAuth 2.1 PKCE, approvals and handoffs.
+- [CTlogs.io MCP - Certificate Transparency Search for Agents](/hermes/mcp/servers/external/ctlogs-mcp/) · 5 read-only tools, browser sign-in, brand protection.
+- [Helixar MCP - Supply-Chain Security Scanning for MCP Servers](/hermes/mcp/servers/external/helixar-mcp/) · 26 Sentinel rules, HDP validation, 2 remote tools live-probed.
+- [Velarion MCP - Executive Compensation and Governance Intelligence](/hermes/mcp/servers/external/velarion-company-intelligence/) · 12 tools live-probed, Say-on-Pay risk, peer benchmarks.
+- [VeriRoute Intel MCP - Live Phone Number Intelligence](/hermes/mcp/servers/external/veriroute-intel-mcp/) · 5 tools, US/CA numbers, async bulk, sandbox keys.
+
+**Also identified (not catalogued):** Kyma API (#3919, model catalog and test completions for coding agents - dev utility), google-maps-mcp-server (#3922, 0-star repo made today with no description - saturated Google Maps wrapper class), padel.how (#3923) and Pickleball3 (#3924, consumer sports catalogs), Anima (#3925, identity and OTP plumbing class), earn-bounty-scanner (#3926), earn-dataset-mcp (#3931), farmdash (#3933) and solana-research-library (#3935, consumer crypto class), G-Guest (#3928, consumer booking), MuPag Sandbox Payments (#3929, sandbox-only test tool), ResuMakeAi (#3930, consumer career utility), Plainport (#3934, scraping infrastructure class), Orbit (API-call codegen dev utility), MemoryGuard (agent memory governance infra), OutSlide (slide preview creator utility), Crapkit (code metrics dev tool), BeatDesign (creator media utility), PayTech Events (thin events directory), Trandence (consumer trading journal), Booking.com Hotel Search (prior disposition - FlightPowers thin vendor surface), Seedance (media generation class), DB Planner (dev utility), Alien Probe who (thin x402 single-tool resolver, no docs). Feed repeats already catalogued by prior sweeps (Lawstronaut, Strac DLP, Tracetify, Extend, iubenda, Sorank, HiBot, Furrow Forms, Dealwize, Factanker, Nizh, miniOrange, Klarix, Asyntai, ToBid, AuType, Lifesight, NeuralVerge, Farmwalk, Fallax, TheLuckyStrike, TaiLexi) or already disposed (pdfAssistant, FLORA, RAVN, Neither, QuantumProxies, Voibe, dot.tools, MarketCode, PostMCP, OSIR Domain, Trendos, Koongo, AON, Hostinger, QoreNext CRM and Trade Screening, send-email, Backblaze B2, Layers, Mantis, ZenSched, Wagglet, Digital Darts, ListingBott, SEObot AI, DevHunt, Rovyn, MarsX, GospelChannel, MagicMaster, NC Wedding Guide, x402 List, Sirro, VenuNite, Slop, PriceMyRepair).
 
 ## 🆕 September 4, 2026 - Night Cron Sweep (8 New, 8 Guides)
 
@@ -5451,3 +5471,19 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Factanker MCP - Evidence-Backed Company and Bank Facts](/hermes/mcp/servers/external/factanker-mcp/)
 - [Nizh MCP - Compliance Frameworks for AI Agents](/hermes/mcp/servers/external/nizh-mcp/)
 - [miniOrange WordPress MCP - Secure WordPress Gateway with Policy Enforcement](/hermes/mcp/servers/external/miniorange-wordpress-mcp/)
+
+### 13 new servers from chatmcp/mcpso issues + mcp.so feed + mcpservers.org /all - Sep 4, 2026 (evening cron sweep)
+
+- [gofact MCP - Local French E-Invoicing with Legal Numbering](/hermes/mcp/servers/external/gofact-mcp/)
+- [Factur-X by Orvel MCP - Hosted French E-Invoicing for Agents](/hermes/mcp/servers/external/facturx-orvel-mcp/)
+- [ddmarketer MCP - Validated SaaS Opportunity Intelligence](/hermes/mcp/servers/external/ddmarketer-mcp/)
+- [registry-mcp - Company Registry Data for AI Agents](/hermes/mcp/servers/external/registry-mcp/)
+- [Ozon MCP Server - Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/ozon-mcp-server/)
+- [Wildberries MCP Server - Seller API Operations for Agents](/hermes/mcp/servers/external/wb-mcp-server/)
+- [EuroDNS MCP - Domain, DNS and SSL Registrar Operations](/hermes/mcp/servers/external/eurodns-mcp/)
+- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/hermes/mcp/servers/external/purrplan-mcp/)
+- [PingRoom MCP - Human Decisions and Notifications for Agents](/hermes/mcp/servers/external/pingroom-mcp/)
+- [CTlogs.io MCP - Certificate Transparency Search for Agents](/hermes/mcp/servers/external/ctlogs-mcp/)
+- [Helixar MCP - Supply-Chain Security Scanning for MCP Servers](/hermes/mcp/servers/external/helixar-mcp/)
+- [Velarion MCP - Executive Compensation and Governance Intelligence](/hermes/mcp/servers/external/velarion-company-intelligence/)
+- [VeriRoute Intel MCP - Live Phone Number Intelligence](/hermes/mcp/servers/external/veriroute-intel-mcp/)
