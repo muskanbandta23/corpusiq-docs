@@ -13297,5 +13297,159 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-04T08:04:57.200268+00:00"
+  },
+  {
+    "repo": "hwalde/freilauf",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356394+00:00"
+  },
+  {
+    "repo": "knowall-ai/hermes-reverie",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356408+00:00"
+  },
+  {
+    "repo": "nathanielangafor/photon-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356411+00:00"
+  },
+  {
+    "repo": "liliang-cn/agent-delegator",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356413+00:00"
+  },
+  {
+    "repo": "tupe12334/learning-review",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356415+00:00"
+  },
+  {
+    "repo": "ryonakae/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356417+00:00"
+  },
+  {
+    "repo": "Catzpro01/hermes-rust-version",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356419+00:00"
+  },
+  {
+    "repo": "DHJ999/hermes_app",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T05:05:46.356421+00:00"
+  },
+  {
+    "repo": "notfresh/mini-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458090+00:00"
+  },
+  {
+    "repo": "chriszp-cloud/hermes-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458103+00:00"
+  },
+  {
+    "repo": "xntr99/MIMIR",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458106+00:00"
+  },
+  {
+    "repo": "yukincom/hermes_whether_mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458108+00:00"
+  },
+  {
+    "repo": "acculoe/vera-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458110+00:00"
+  },
+  {
+    "repo": "mickaT1/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T06:05:27.458112+00:00"
+  },
+  {
+    "repo": "RuBAN-GT/hermes-plugin-durable-memory",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T07:04:59.599899+00:00"
+  },
+  {
+    "repo": "msaif-dev/hermes-cortex",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T07:04:59.599913+00:00"
+  },
+  {
+    "repo": "ThomasCayrol/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T07:04:59.599915+00:00"
+  },
+  {
+    "repo": "red4711/dropvault",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T08:04:02.140161+00:00"
+  },
+  {
+    "repo": "1hm-1/coding-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T08:04:02.140177+00:00"
+  },
+  {
+    "repo": "nan3333/github-ticket-flow",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T08:04:02.140179+00:00"
+  },
+  {
+    "repo": "AshishKumar4/kinu",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T08:04:02.140181+00:00"
+  },
+  {
+    "repo": "amamiya-haruna/vrchat-assistant",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-05T08:04:02.140183+00:00"
   }
 ]
