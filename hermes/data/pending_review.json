@@ -55283,5 +55283,153 @@
     ],
     "discovered_at": "2026-09-05T07:03:11.911677+00:00",
     "status": "pending"
+  },
+  {
+    "name": "red4711/dropvault",
+    "url": "https://github.com/red4711/dropvault",
+    "description": "Vaultwarden-backed secret source + dashboard drop-in for Hermes Agent \u2014 drop secrets in a browser, values never enter LLM context.",
+    "stars": 1,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "bitwarden",
+      "hermes-agent",
+      "plugin",
+      "secrets-management",
+      "security",
+      "self-hosted",
+      "vaultwarden"
+    ],
+    "updated_at": "2026-09-05T08:02:35Z",
+    "category": "core",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "stephenschoettler/hermes-lcm"
+    ],
+    "discovered_at": "2026-09-05T08:03:39.331570+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "1hm-1/coding-agent",
+    "url": "https://github.com/1hm-1/coding-agent",
+    "description": "A Hermes-inspired coding agent runtime for reliable autonomous code editing, with safe tool execution, resumable sessions, isolated workspaces, trajectory replay, and systematic evaluation.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-05T08:01:02Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "longyunfeigu/learn-hermes-agent",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-09-05T08:03:42.334431+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nan3333/github-ticket-flow",
+    "url": "https://github.com/nan3333/github-ticket-flow",
+    "description": "Durable GitHub issue delivery through Hermes Kanban",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "developer-tools",
+      "github",
+      "hermes-agent",
+      "kanban",
+      "multi-agent"
+    ],
+    "updated_at": "2026-09-05T08:02:40Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-05T08:03:47.391458+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AshishKumar4/kinu",
+    "url": "https://github.com/AshishKumar4/kinu",
+    "description": "Self evolving, Persistent agents for cloud and local workspaces with their own free computers powered by Cloudflare",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agentic",
+      "agentic-coding",
+      "agentic-framework",
+      "agentic-os",
+      "agentic-workflows",
+      "ai",
+      "ai-agents",
+      "ai-coding-agent",
+      "clawdbot",
+      "cloudflare",
+      "codex",
+      "hermes-agent",
+      "moltbot",
+      "oh-my-pi",
+      "openai",
+      "openclaw",
+      "rlm",
+      "sandbox",
+      "self-evolving",
+      "swarm"
+    ],
+    "updated_at": "2026-09-05T08:02:34Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-05T08:03:50.395290+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "amamiya-haruna/vrchat-assistant",
+    "url": "https://github.com/amamiya-haruna/vrchat-assistant",
+    "description": "Self-hosted VRChat friend activity monitor - real-time WebSocket tracking of friends' online status, world changes, avatar updates. Full MCP toolset for AI agents (Hermes), auto OTP login, VRCX-0 data migration, weekly gaming reports.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-05T08:02:19Z",
+    "category": "forks",
+    "score": 43,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-05T08:03:53.399361+00:00",
+    "status": "pending"
   }
 ]
