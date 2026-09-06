@@ -13451,5 +13451,145 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-05T08:04:02.140183+00:00"
+  },
+  {
+    "repo": "mgoelz/hermes-agent-backup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786434+00:00"
+  },
+  {
+    "repo": "zaiyemeiyou404/shiguang-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786446+00:00"
+  },
+  {
+    "repo": "samirsawarkar/antigravity-bridge",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786449+00:00"
+  },
+  {
+    "repo": "jacobgottlieb0/hermes-menubar",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786450+00:00"
+  },
+  {
+    "repo": "witchybish/hermes-mcp-ad-manager",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786452+00:00"
+  },
+  {
+    "repo": "raktim-mondol/hermes-plugin-researchcraft",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786454+00:00"
+  },
+  {
+    "repo": "adsp21065/Hermes-Temporal-Memory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786456+00:00"
+  },
+  {
+    "repo": "elliottwaves-20/agent-guard",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786457+00:00"
+  },
+  {
+    "repo": "SalvucciFacundo/agis",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786459+00:00"
+  },
+  {
+    "repo": "equationalapplications/curated-thoughts-integrations",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T05:03:06.786461+00:00"
+  },
+  {
+    "repo": "themohitkarn/cwt-marketing-video-ads-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T07:03:34.125480+00:00"
+  },
+  {
+    "repo": "Blacksitelab/hermes-remnant",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T07:03:34.125496+00:00"
+  },
+  {
+    "repo": "salmanabdurrahman/hermes-backup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T07:03:34.125499+00:00"
+  },
+  {
+    "repo": "devrchancay/hermes-voice-jarvis",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T07:03:34.125501+00:00"
+  },
+  {
+    "repo": "golem-labs-etc/glance-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185409+00:00"
+  },
+  {
+    "repo": "tanzeelshujahkhan/shujah",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185424+00:00"
+  },
+  {
+    "repo": "iamraven-tw/agent-inventory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185426+00:00"
+  },
+  {
+    "repo": "xb18/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185428+00:00"
+  },
+  {
+    "repo": "madao002/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185431+00:00"
+  },
+  {
+    "repo": "licat233/Enterprise-AI-Office",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185432+00:00"
   }
 ]
