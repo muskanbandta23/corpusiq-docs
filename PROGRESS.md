@@ -2,15 +2,14 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 3, 2026)
+## File count (updated September 6, 2026)
 
-- **Total Markdown files:** 2,152
-- **Total HTML files:** 1,964 (MkDocs build output)
+- **Total Markdown files:** 2,204
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 412 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
-- **MCP servers:** 504 server listing markdown pages (+ HTML companions); 744 total .md under hermes/mcp/; 460 servers / 346 guides in the external catalog
-- **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
+- **MCP servers:** 796 total .md under hermes/mcp/; external catalog 555 servers (+441 guides) per Sep 6 morning sweep
+- **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
 
@@ -36,6 +35,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Sep 6, 2026, docs mgmt cron):** Bumped 24 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-27/28 → 2026-09-06, quote state preserved, 0 quote defects after). Full internal link audit: 12,609 links checked, 0 broken (4 documented SKIP placeholders). Retention-claims gate: PASS. Frontmatter quote defects: 0/0. PII scan clean (4 hits all false positives: third-party `hermes-worker-qxun` skill name in marketplace pages, DGX Spark hardware pages). PROGRESS.md stats refreshed (2,204 MD, 796 hermes/mcp .md, 555 external servers +441 guides). Deploy-gap closure: 18 content commits pushed since last deploy (Sep 3 12:34) — 30+ MCP catalog pages (Sep 4-6 sweeps incl. 11 Sep 6 morning servers, YouSpot), ecosystem nightly updates, AllMCPs badge, 126 stale .html removal — deployed to Vercel and verified HTTP 200.
 - **Maintenance ✅ (Sep 3, 2026, docs mgmt cron):** Bumped 3 stale `last_updated` dates in docs/ top-level SEO pages (chatgpt-integration, enterprise-ai-data-access, mcp-vs-data-warehouse — 2026-08-26 → 2026-09-03, both frontmatter blocks on chatgpt-integration). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-03. Full internal link audit: 12,051 links checked, 0 broken (4 documented SKIP placeholders). Frontmatter quote defects: 0/0. PII scan clean. Connector count prose: 0 stragglers (canonical 40+). PROGRESS.md stats refreshed (2,152 MD, 744 hermes/mcp .md).
 - **Maintenance ✅ (Sep 2, 2026, docs mgmt cron):** Fixed 1 production 404 image link (`/docs/chat-apps/assets/teams-answer-sessions.png` → `/chat-apps/assets/teams-answer-sessions.png`, live 200 verified). Production link audit: 1,418 absolute links, 11 → 0 after fix + deploy (10 were Sep 2 MCP catalog pages pushed to main but never deployed: marketcode, osir-domain, finbridge, campaignstack, koongo, postmcp, prognosite, openbase, zensched, staats). Internal link audit: 11,783 links checked, 0 broken (3 documented SKIP placeholders). Frontmatter validation: 3,796 files all valid. Frontmatter quote defects: 0/0. PII scan clean. Connector count prose: 0 stragglers. Stale top-level docs pages: 0. No draft/empty/orphan files. Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-02. PROGRESS.md stats refreshed (2,128 MD, 720 hermes/mcp .md).
 - **Skills sweep ✅ (Aug 31, 2026, skills-monitor cron):** 46-query skills.sh API sweep (4,743 unique skills, 0 failures) plus hot-leaderboard discovery with publisher-page verification. 117 clusters known. 8 new publisher clusters guided: `lijigang/ljg-skills` (124.5K, 30 skills, Chinese-language, 🟡 Snyk Warn), `dart-lang/skills` (144.0K, 30 skills, official Dart org, 🟢 all Pass), `mengto/skills` (76.2K, 155 skills, 🟢), `daymade/claude-code-skills` (58.4K, 106, 🟡 Snyk Warn), `nutlope/hallmark` (48.6K, 27.6K⭐, 🟢), `mohitmishra786/low-level-dev-skills` (41.5K, 142, 🟡 Snyk Warn), `hubspot/agent-cli-skills` (17.8K, 15, official HubSpot org, 🟡 Socket+Snyk Warn, authority-justified), `basicmachines-co/basic-memory` (9.7K, 38, YC-backed, 🟢, authority-justified). 8 guides + catalog index entries + marketplace batch page (header 911→919, footer 962→970). Parked: plannotator/effective-html (10.7K), 3 site publishers (larksuite, apifox, volces). useosint/skills API variant + github/awesome-copilot confirmed already guided. PROGRESS.md stats refreshed (2,064 MD, 512 catalog guides).
@@ -57,7 +57,7 @@ The repo is actively maintained with daily automated updates:
 - **Stale .html duplicates ✅ (Aug 15, 2026):** Removed 202 stale static .html files in hermes/ (22.8 MB) superseded by .md builds. They were copied into the site output as orphan pages with broken relative links (../../../quick-start.html → 404) and duplicate content. All had .md twins; none referenced in nav, sitemap, or .md content.
 - **Sanitization ✅ (Aug 15, 2026):** Removed 5 internal-info instances: internal hostname + sweep ops note (new-aug15-2026 sweep page), personal name (etincel-mcp page), internal inbox handles (busymail-mcp page), demo email value → hello@example.com (chrome-devtools setup), "on an internal worker" sweep note (new-aug12-2026-evening page).
 - **Maintenance ✅ (Aug 16, 2026):** 103 user-facing files normalized 37+ → 40+ connectors (zero stragglers). Refreshed 2 stale dates (mcp-vs-data-warehouse, enterprise-ai-data-access). Removed internal outreach tracker (hermes/data/directory_submissions.json) + unreferenced demo asset; restored demo.mp4 (still linked from 2 pages). Sanitized historical PROGRESS.md identifiers. Internal links: 0 broken.
-- **Root-level .html legacy files (119, ~12 MB):** Still in repo root but auto-excluded from MkDocs build (404 in production). Dead weight only; candidate for a future dedicated sweep.
+- **Root-level .html legacy files ✅ (Sep 5, 2026):** 126 stale legacy .html duplicates removed (118 root + 8 api/) — dead weight excluded from MkDocs build, .md twins canonical.
 - **Connector count consistency ✅ (Aug 10, 2026):** Website updated to "40+ connected business tools." Normalized README.md (6 instances) from 37+ → 40+ to match corpusiq.io. Remaining 37+ instances in older published-content/ and hermes/launch/ files are technically still true (40 > 37) but flagged for next sweep.
 - **Screenshots:** Quickstart screenshots pending — low priority, no user complaints.
 - **DOC-GAP connectors:** 7 connectors (amazon_seller, gohighlevel, google_workspace, gunbroker, mongodb, postgres, postscript) in the connector registry need verified vendor setup steps — tracked in connector registry, not docs repo.
