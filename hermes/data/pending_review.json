@@ -55732,5 +55732,113 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-06T05:02:58.840093+00:00",
     "status": "pending"
+  },
+  {
+    "name": "themohitkarn/cwt-marketing-video-ads-hermes-agent",
+    "url": "https://github.com/themohitkarn/cwt-marketing-video-ads-hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-06T07:02:58Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-06T07:03:16.055278+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Blacksitelab/hermes-remnant",
+    "url": "https://github.com/Blacksitelab/hermes-remnant",
+    "description": "Memory engine plugin for Hermes Agent fleet",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-06T07:02:46Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-06T07:03:19.058144+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "salmanabdurrahman/hermes-backup",
+    "url": "https://github.com/salmanabdurrahman/hermes-backup",
+    "description": "Automated, WAL-safe backup CLI for Hermes Agent with Cloudflare R2 storage and Brevo alerting",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-06T07:01:18Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-06T07:03:22.060759+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "devrchancay/hermes-voice-jarvis",
+    "url": "https://github.com/devrchancay/hermes-voice-jarvis",
+    "description": "Talk to Hermes Agent with your voice, in any language. Native macOS SwiftUI app with a J.A.R.V.I.S.-style HUD, on-device STT/TTS, and zero external dependencies.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "hermes-agent",
+      "i18n",
+      "jarvis",
+      "llm",
+      "macos",
+      "multilingual",
+      "on-device",
+      "speech-recognition",
+      "swift",
+      "swiftui",
+      "text-to-speech",
+      "voice-assistant"
+    ],
+    "updated_at": "2026-09-06T07:00:45Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "aiunlocked1412/hermes-agent-pixel",
+      "JackTheGit/hermes-autonomous-server",
+      "kaankacar/stellar-agent-kit",
+      "Bo1202/Aivy-OS",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-09-06T07:03:25.062900+00:00",
+    "status": "pending"
   }
 ]
