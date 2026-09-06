@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-05"
+last_updated: "2026-09-06"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,18 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 6, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-3 via r.jina.ai reader proxy + mcp.so feed + mcp.so Latest · **Catalog:** 555 servers (+441 guides)
+> **Last updated:** September 6, 2026 (midday cron sweep) · **Sources:** mcpservers.org /all page 1 via r.jina.ai reader proxy + mcp.so feed · **Catalog:** 558 servers (+444 guides)
+
+## 🆕 September 6, 2026 - Midday Cron Sweep (3 New, 3 Guides)
+
+Midday sweep over mcpservers.org /all page 1 (newest-first) plus the mcp.so feed. Three new business-relevant servers catalogued with guides, all endpoints live-verified over JSON-RPC: Encited MCP (hosted SEO and AI-search operating layer - Search Console mining up to a year of history, technical crawls ranked by severity, and AI answer-engine visibility with fan-out queries and citation targets; endpoint encited.com/api/mcp OAuth-gated, listed in the official Claude connector directory, 4,000+ brands), Bynn Intelligence (compliance layer for agents - 143 tools covering KYC session creation, document fraud forensics on bank statements and invoices, age verification with liveness, AI-image detection, face search and account management; endpoint mcp.bynn.com live-verified with an OAuth invalid_token response, root path only), AdPlug LinkedIn Ads MCP (hosted LinkedIn Ads connector for B2B demand gen - full read plus preview-gated writes across campaigns, audiences, creatives, lead forms and conversions, multi-account by default, 5,000-event CAPI batches with server-side PII hashing; endpoint api.adplug.app/mcp live-verified with OAuth 2.1 resource metadata).
+
+- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp/) · Search Console mining, fan-out queries, citation plans, OAuth.
+- [Bynn MCP - KYC and Document Fraud Detection for Agents](/hermes/mcp/servers/external/bynn-mcp/) · 143 tools, fraud forensics, live-verified.
+- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/hermes/mcp/servers/external/adplug-linkedin-ads-mcp/) · preview-gated writes, multi-account, live-verified.
+
+**Also identified (not catalogued):** fetcher.sh family listings (Google News, Instagram, Google Maps and App Store slugs of the same pay-per-call scraping product - x402 pay-per-call scraping class, Cracked precedent), KYMA Frequency MCP (public sound-frequency library from the KYMA app - consumer wellness niche class), Personal Understanding (evidence-chain agent memory with SHA-256 captures - agent memory infra class, Memwyre precedent). Page-1 repeats already catalogued (AMZ Vault, ShopSynch, Buchhaltungsbutler, PLUR) or already disposed by prior sweeps (ego lite and Alpha Vantage sponsors, WakeMark, X-Lookup, CareClinic, DropTrack, earn-dataset-mcp, earn-bounty-scanner, Global Travel Cloud, UK Premises Licence, Codex Cursor Subagent, Solana Snipe Bot, Council of AI GSPC, Pod Search, Voibe). mcp.so feed carried no new server-kind entries past the morning sweep (agent.social re-checked, disposed as thin paid listing).
+
 
 ## 🆕 September 6, 2026 - Morning Cron Sweep (11 New, 11 Guides)
 
@@ -5548,3 +5559,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [WPPilot MCP - WordPress, Elementor and WooCommerce for Agents](/hermes/mcp/servers/external/wppilot-mcp/)
 - [Elementor MCP Server - WordPress Website Automation](/hermes/mcp/servers/external/elementor-mcp-server/)
 - [AssistantMail MCP - Managed Mailboxes for AI Agents](/hermes/mcp/servers/external/assistantmail-mcp/)
+
+### 3 new servers from mcpservers.org /all - Sep 6, 2026 (midday cron sweep)
+- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp/)
+- [Bynn MCP - KYC and Document Fraud Detection for Agents](/hermes/mcp/servers/external/bynn-mcp/)
+- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/hermes/mcp/servers/external/adplug-linkedin-ads-mcp/)
