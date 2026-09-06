@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-04"
+last_updated: "2026-09-05"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 5, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-3 + mcp.so feed · **Catalog:** 543 servers (+429 guides)
+> **Last updated:** September 5, 2026 (evening cron sweep) · **Sources:** mcpservers.org /all pages 1-3 + mcp.so feed · **Catalog:** 544 servers (+430 guides)
+
+## 🆕 September 5, 2026 - Evening Cron Sweep (1 New, 1 Guide)
+
+Evening sweep over the mcp.so feed (30 entries) plus mcpservers.org /all pages 1-3 (48 slugs batch-classified). 1 new business-relevant server catalogued with a guide: YouSpot MCP (personal CRM and prospecting layer - 64 tools live-probed keyless covering an attention engine computed from sent mail, calendar and LinkedIn export, brain-graph contact management, company research with the CompanyResearch.ai engine, WHOIS and domain valuation, Gmail draft/send, HubSpot Q&A, LinkedIn analytics, Slack and X reads, Obsidian vaults and invoice PDF parsing - OAuth 2.1 at youspot.com/mcp/v1, official MCP registry com.youspot/youspot with a DNS-verified namespace, $10/month Pro plan, keyless sandbox at youspot.com/mcp/sandbox).
+
+- [YouSpot MCP - Personal CRM and Prospecting for Agents](/hermes/mcp/servers/external/youspot-mcp/) · 64 tools live-probed, OAuth 2.1, attention engine, $10/mo.
+
+**Also identified (not catalogued):** feed and /all repeats already catalogued by prior sweeps (VeriRoute Intel, Watchgoose, Viral Manager registry listing, Dealwize, Factanker, Nizh, miniOrange, Lawstronaut, Klarix, Strac DLP, Tracetify, Extend, iubenda, Sorank, HiBot, Furrow Forms, MarketCode, PostMCP, OSIR Domain, Trendos) or already disposed by prior sweeps (DB Planner, Alien Probe who, pdfAssistant, FLORA, RAVN, Neither, QuantumProxies, Voibe, dot.tools, PriceMyRepair, PayTech Events, Trandence, FlightPowers, Promethic, Polimake, Soar Flights, AgentBrief, Povento, Fortrabbit, Great Arrow, Verbasil, WebMatrices Browser, AI2SQL, MyFlohmarkt, Naibul, Makinai, 402 Wall, Wagglet, Orbit, Seedance, Football Charts, Pickleball3, The Ai Daily, Liminality). ViralManagers.com slug re-checked - Spanish Instagram follower-growth automation shell, distinct from the catalogued official-registry Viral Manager (creator-agency virality detection) - platform-ToS class.
 
 ## 🆕 September 5, 2026 - Morning Cron Sweep (4 New, 4 Guides)
 
@@ -5505,3 +5513,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Abyssale MCP - Ad Creative Production for Agents](/hermes/mcp/servers/external/abyssale-mcp/)
 - [Elium MCP - Enterprise Knowledge Base for Agents](/hermes/mcp/servers/external/elium-mcp/)
 - [PostBazooka MCP - Social Publishing with Commit Proof](/hermes/mcp/servers/external/postbazooka-mcp/)
+
+### 1 new server from mcp.so feed - Sep 5, 2026 (evening cron sweep)
+
+- [YouSpot MCP - Personal CRM and Prospecting for Agents](/hermes/mcp/servers/external/youspot-mcp/)
