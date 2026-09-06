@@ -13549,5 +13549,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-06T07:03:34.125501+00:00"
+  },
+  {
+    "repo": "golem-labs-etc/glance-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185409+00:00"
+  },
+  {
+    "repo": "tanzeelshujahkhan/shujah",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185424+00:00"
+  },
+  {
+    "repo": "iamraven-tw/agent-inventory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185426+00:00"
+  },
+  {
+    "repo": "xb18/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185428+00:00"
+  },
+  {
+    "repo": "madao002/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185431+00:00"
+  },
+  {
+    "repo": "licat233/Enterprise-AI-Office",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-06T08:06:34.185432+00:00"
   }
 ]
