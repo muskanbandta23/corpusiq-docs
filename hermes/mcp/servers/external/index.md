@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 7, 2026 (night cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 559 servers (+445 guides)
+> **Last updated:** September 7, 2026 (day cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 561 servers (+447 guides)
+
+## 🆕 September 7, 2026 - Day Cron Sweep (2 New, 2 Guides)
+
+Day sweep over the mcp.so feed (29 server blocks) plus mcpservers.org /all page 1 (all non-sponsor entries already disposed in prior sweeps - the top five were the Sep 6 midday candidates, the rest were earlier skip classes). Two new business-relevant servers catalogued with guides: PostNitro MCP (official hosted connector to the PostNitro carousel platform - agents generate carousels, single-image posts and short videos for LinkedIn, Instagram, TikTok and Threads from templates, brand kits and AI images, then schedule them; endpoint mcp.postnitro.ai/mcp live-verified with a 401 carrying bearer error metadata and OAuth protected-resource info) and Yocoolab MCP (local stdio package that hands visual feedback threads pinned on live web pages to Claude Code and Cursor - triage, thread context, replies and GitHub PR creation; Apache 2.0, free forever).
+
+- [PostNitro MCP - AI Carousels and Social Publishing for Agents](/hermes/mcp/servers/external/postnitro-mcp/) · official PostNitro connector, 35 tools, API key auth, four platforms
+- [Yocoolab MCP - Visual Feedback to PR Workflow for Agents](/hermes/mcp/servers/external/yocoolab-mcp/) · feedback threads to agent triage to PRs, 19 tools, npx install
+
+**Also identified (not catalogued):** the GitHub created:2026-09-07 net returned only zero-star hobby repos; nothing else passed the business-operator filter.
 
 ## 🆕 September 7, 2026 - Night Cron Sweep (1 New, 1 Guide)
 
@@ -5576,3 +5585,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from mcp.so feed - Sep 7, 2026 (night cron sweep)
 
 - [TrueClicks MCP - PPC Audit Intelligence for Agents](/hermes/mcp/servers/external/trueclicks-mcp/)
+
+### 2 new servers from mcp.so feed - Sep 7, 2026 (day cron sweep)
+
+- [PostNitro MCP - AI Carousels and Social Publishing for Agents](/hermes/mcp/servers/external/postnitro-mcp/)
+- [Yocoolab MCP - Visual Feedback to PR Workflow for Agents](/hermes/mcp/servers/external/yocoolab-mcp/)
