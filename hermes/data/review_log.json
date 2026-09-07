@@ -13591,5 +13591,124 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-06T08:06:34.185432+00:00"
+  },
+  {
+    "repo": "unsupportedpastels/mercury",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300247+00:00"
+  },
+  {
+    "repo": "ashwnn/skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300263+00:00"
+  },
+  {
+    "repo": "ericmaddox/agent-jmap-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300265+00:00"
+  },
+  {
+    "repo": "Can10010/PaperDesk",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300267+00:00"
+  },
+  {
+    "repo": "kxlion/delegate-task-advanced",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300269+00:00"
+  },
+  {
+    "repo": "adsp21065/Hermes-Causal-Memory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300270+00:00"
+  },
+  {
+    "repo": "XiaoLrrr/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300272+00:00"
+  },
+  {
+    "repo": "OgalinLabM0/hermes-personal-desktop",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:04:35.932599+00:00"
+  },
+  {
+    "repo": "ayuuOub/digital-factory",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:04:35.932614+00:00"
+  },
+  {
+    "repo": "open-autonomy-org/open-autonomy",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T07:02:33.167853+00:00"
+  },
+  {
+    "repo": "hossein76e1/HERMES-AGENT",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:02:51.928915+00:00"
+  },
+  {
+    "repo": "poisdahl/meal-concierge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:02:51.928927+00:00"
+  },
+  {
+    "repo": "Atituiset/agent-viewer",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:02:51.928929+00:00"
+  },
+  {
+    "repo": "tbdavid2019/888a2a-lite",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:02:51.928931+00:00"
+  },
+  {
+    "repo": "SECBLOK/belay",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:02:51.928933+00:00"
+  },
+  {
+    "repo": "amoreno16003/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:02:51.928935+00:00"
+  },
+  {
+    "repo": "gusyachkin/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T08:04:56.501357+00:00"
   }
 ]
