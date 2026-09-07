@@ -56024,5 +56024,283 @@
     ],
     "discovered_at": "2026-09-06T08:04:47.005056+00:00",
     "status": "pending"
+  },
+  {
+    "name": "unsupportedpastels/mercury",
+    "url": "https://github.com/unsupportedpastels/mercury",
+    "description": "Mercury \u2014 a Hermes companion. Free, open-source mobile clients for Hermes Agent (Android + iOS). Unofficial; official endpoints only.",
+    "stars": 38,
+    "forks": 6,
+    "language": "Kotlin",
+    "topics": [
+      "ai-agent",
+      "android",
+      "foldable",
+      "hermes-agent",
+      "hermes-client",
+      "ios",
+      "jetpack-compose",
+      "kotlin",
+      "mercury"
+    ],
+    "updated_at": "2026-09-07T05:01:21Z",
+    "category": "core",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-07T05:01:25.846136+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ashwnn/skills",
+    "url": "https://github.com/ashwnn/skills",
+    "description": "A centralized MCP server that holds all AI skills that will be used across multiple platforms like: ChatGPT Web, Codex, Claude Code, OpenCode, Hermes Agent etc.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-07T04:57:42Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "colbymchenry/codegraph",
+      "Romanescu11/hermes-skill-factory",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "izillionways/academic-research-skills-hermes",
+      "Undermybelt/hermes-skills-research",
+      "0451-software/research-skills",
+      "BBridgeers/hermes-skills",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith",
+      "xintaofei/codeg",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "jazzyalex/agent-sessions"
+    ],
+    "discovered_at": "2026-09-07T05:01:28.850440+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ericmaddox/agent-jmap-mcp",
+    "url": "https://github.com/ericmaddox/agent-jmap-mcp",
+    "description": "Modern JMAP email client and MCP server for AI agents, Claude, Cursor, and Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-07T03:37:01Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "ksimback/hermes-atlas-mcp",
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-09-07T05:01:32.460888+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Can10010/PaperDesk",
+    "url": "https://github.com/Can10010/PaperDesk",
+    "description": "\u672c\u5730\u4f18\u5148\u7684\u6587\u732e\u4e0e Markdown \u7b14\u8bb0\u7ba1\u7406\u5668 \u00b7 PDF \u9605\u8bfb\u3001\u77e5\u8bc6\u68c0\u7d22\u3001\u624b\u52a8\u591a\u8bbe\u5907\u540c\u6b65\u4e0e Hermes MCP \u00b7 Windows",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "electron",
+      "literature-management",
+      "local-first",
+      "markdown",
+      "mcp",
+      "pdf-reader",
+      "reference-manager",
+      "ssh-sync"
+    ],
+    "updated_at": "2026-09-07T02:33:19Z",
+    "category": "mcp",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-07T05:01:35.464258+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kxlion/delegate-task-advanced",
+    "url": "https://github.com/kxlion/delegate-task-advanced",
+    "description": "Hermes Agent plugin for named subagents with skills, toolsets, model selection, and Hermes-configured spawning depth.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hermes-plugin",
+      "plugin"
+    ],
+    "updated_at": "2026-09-06T21:48:51Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-09-07T05:01:39.146766+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "adsp21065/Hermes-Causal-Memory",
+    "url": "https://github.com/adsp21065/Hermes-Causal-Memory",
+    "description": "`temporal-memory` is a Hermes general plugin that keeps procedural skills separate from learned world constraints. It observes tool calls and explicit events, then uses one explicit LLM extraction to write a candidate temporal document.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-06T13:34:48Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-09-07T05:01:42.151284+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "XiaoLrrr/hermes-agent",
+    "url": "https://github.com/XiaoLrrr/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-07T04:57:38Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-07T05:01:45.804864+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "OgalinLabM0/hermes-personal-desktop",
+    "url": "https://github.com/OgalinLabM0/hermes-personal-desktop",
+    "description": "Hermes Personal Desktop - \u57fa\u4e8e NousResearch Hermes Agent \u7684\u4e2d\u6587\u5b9a\u5236\u7248",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-07T03:49:13Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-07T05:04:33.915088+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ayuuOub/digital-factory",
+    "url": "https://github.com/ayuuOub/digital-factory",
+    "description": "Governed LLM-powered multi-agent software delivery system built with Hermes Agent, human approval gates, independent QA/security, and controlled Git governance.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "humain-in-the-loop",
+      "llm",
+      "multi-agent-systems",
+      "qa",
+      "security",
+      "software-engineering"
+    ],
+    "updated_at": "2026-09-06T14:08:36Z",
+    "category": "security",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-07T05:04:35.244785+00:00",
+    "status": "pending"
   }
 ]

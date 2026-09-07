@@ -13591,5 +13591,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-06T08:06:34.185432+00:00"
+  },
+  {
+    "repo": "unsupportedpastels/mercury",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300247+00:00"
+  },
+  {
+    "repo": "ashwnn/skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300263+00:00"
+  },
+  {
+    "repo": "ericmaddox/agent-jmap-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300265+00:00"
+  },
+  {
+    "repo": "Can10010/PaperDesk",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300267+00:00"
+  },
+  {
+    "repo": "kxlion/delegate-task-advanced",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300269+00:00"
+  },
+  {
+    "repo": "adsp21065/Hermes-Causal-Memory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300270+00:00"
+  },
+  {
+    "repo": "XiaoLrrr/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:01:54.300272+00:00"
+  },
+  {
+    "repo": "OgalinLabM0/hermes-personal-desktop",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:04:35.932599+00:00"
+  },
+  {
+    "repo": "ayuuOub/digital-factory",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T05:04:35.932614+00:00"
   }
 ]
