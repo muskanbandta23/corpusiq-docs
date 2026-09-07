@@ -56302,5 +56302,46 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-07T05:04:35.244785+00:00",
     "status": "pending"
+  },
+  {
+    "name": "open-autonomy-org/open-autonomy",
+    "url": "https://github.com/open-autonomy-org/open-autonomy",
+    "description": "Tools for sustained autonomous agentic development: a checked-in agent that works the roadmap, a meter that keeps it running in the open, and public books that show where every call went.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agentic-development",
+      "ai-agents",
+      "autonomous-agents",
+      "cloudflare-workers",
+      "developer-tools",
+      "hermes-agent",
+      "open-source-sustainability"
+    ],
+    "updated_at": "2026-09-07T07:01:28Z",
+    "category": "forks",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "zakahadi/llm-eval-cli",
+      "PatterAI/Patter",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-09-07T07:02:26.256120+00:00",
+    "status": "pending"
   }
 ]

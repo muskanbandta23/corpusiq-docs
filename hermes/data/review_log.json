@@ -13654,5 +13654,12 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-07T05:04:35.932614+00:00"
+  },
+  {
+    "repo": "open-autonomy-org/open-autonomy",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-07T07:02:33.167853+00:00"
   }
 ]
