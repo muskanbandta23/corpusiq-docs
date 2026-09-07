@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 6, 2026 (midday cron sweep) · **Sources:** mcpservers.org /all page 1 via r.jina.ai reader proxy + mcp.so feed · **Catalog:** 558 servers (+444 guides)
+> **Last updated:** September 7, 2026 (night cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 559 servers (+445 guides)
+
+## 🆕 September 7, 2026 - Night Cron Sweep (1 New, 1 Guide)
+
+Night sweep over the mcp.so feed (30 entries) plus mcpservers.org /all page 1 (unchanged since the midday sweep - the top five non-sponsor entries were identical, so nothing new there). One new business-relevant server catalogued with a guide: TrueClicks MCP (hosted read-only connector to the TrueClicks PPC audit platform - audit results and TrueClicks scores across every connected Google, Microsoft and Meta Ads account, issues ranked by wasted spend or severity, triggered performance alerts with the campaign-level numbers behind them, budget pacing and efficiency-target flags, and open-task triage, all scoped to the signed-in user's own accounts over OAuth; endpoint data.trueclicks.com/mcp live-verified with a 401 carrying OAuth protected-resource metadata).
+
+- [TrueClicks MCP - PPC Audit Intelligence for Agents](/hermes/mcp/servers/external/trueclicks-mcp/) · read-only, OAuth-scoped, audit scores and alerts across Google/Microsoft/Meta Ads.
+
+**Also identified (not catalogued):** studiofromthesea (Studio From The Sea MCP - French micro-agency listing exposing two static tools about its own pricing offers and coverage zones, 0-star repo created Sep 6; self-promotional thin-listing class), plus feed repeats already catalogued or disposed by prior sweeps (YouSpot, Veriroute Intel, Alien Probe, Velarion, DB Planner, Dealwize, PriceMyRepair, Factanker, miniOrange, Nizh, Lawstronaut, Klarix, Strac DLP, pdfAssistant, FLORA, RAVN, Neither, Tracetify, Extend, QuantumProxies, Voibe, dot.tools, iubenda, Furrow Forms, Sorank, HiBot; agent.social and Onymu already disposed). mcpservers.org page 1 repeats were all already disposed by prior sweeps (ego lite and Alpha Vantage sponsors, LinkedIn Ads AdPlug, Encited, Bynn, Voibe, earn-dataset-mcp and the page-1 tail slugs). GitHub evening net (created:2026-09-07, 11 repos; pushed:2026-09-06 top repos) surfaced nothing business-relevant - zero-star dev tools, consumer niches or already-known mega-repos.
 
 ## 🆕 September 6, 2026 - Midday Cron Sweep (3 New, 3 Guides)
 
@@ -5564,3 +5572,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp/)
 - [Bynn MCP - KYC and Document Fraud Detection for Agents](/hermes/mcp/servers/external/bynn-mcp/)
 - [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/hermes/mcp/servers/external/adplug-linkedin-ads-mcp/)
+
+### 1 new server from mcp.so feed - Sep 7, 2026 (night cron sweep)
+
+- [TrueClicks MCP - PPC Audit Intelligence for Agents](/hermes/mcp/servers/external/trueclicks-mcp/)
